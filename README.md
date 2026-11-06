@@ -2,7 +2,7 @@
 
 Free, layer-by-layer mind maps of NCERT Physics, Chemistry and Biology (Class 11 & 12) for NEET aspirants.
 
-- **Mind map:** start at the chapter, tap a section, keep going down to individual paragraphs.
+- **Tree:** start at the chapter; every tap opens the next layer to the right, down to each paragraph and its detail card.
 - **Synopsis:** every node explains that part of NCERT in plain words, with formulas, key points and exam traps.
 - **Questions:** practise a single paragraph, a whole branch, or the full chapter, with explanations.
 - **Official book one click away:** every node links to the right page of the NCERT PDF on ncert.nic.in.

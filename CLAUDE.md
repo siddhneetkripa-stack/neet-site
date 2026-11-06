@@ -16,7 +16,7 @@ A free website for NEET aspirants. Its core is a **layered, clickable mind map o
 ## Structure
 ```
 index.html                 single-page app (hash routes: #/, #/c/<chapter>, #/c/<chapter>/n/<node>, #/c/<chapter>/read)
-assets/app.js              map, synopsis panel, quiz, full-synopsis view
+assets/app.js              expanding tree (chapter → section → paragraph → detail card), inline questions, quiz pop-up, full-synopsis view
 assets/style.css           styles (placeholder look; owner has a final design to apply later)
 assets/diagrams.js         original SVG diagrams, referenced by node "diagram" key
 content/catalog.json       full NEET syllabus: all Class 11 & 12 PCB chapters

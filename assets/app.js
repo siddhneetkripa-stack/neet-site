@@ -51,7 +51,7 @@
   window.addEventListener('hashchange', route);
 
   function topbar(ch, mode) {
-    const seg = ch ? `<div class="seg"><a href="#/c/${ch.id}" class="${mode === 'map' ? 'on' : ''}">Map</a><a href="#/c/${ch.id}/read" class="${mode === 'read' ? 'on' : ''}">Full synopsis</a></div>` : '';
+    const seg = ch ? `<div class="seg"><a href="#/c/${ch.id}" class="${mode === 'map' ? 'on' : ''}">Tree</a><a href="#/c/${ch.id}/read" class="${mode === 'read' ? 'on' : ''}">Full synopsis</a></div>` : '';
     return `<header class="topbar"><a class="brand" href="#/">NCERT<span>·</span>MindMap</a><div class="spacer"></div>${seg}</header>`;
   }
 
@@ -76,83 +76,142 @@
     }).catch(err);
   }
 
-  // ---------- chapter: map + panel ----------
+  // ---------- chapter: expanding tree ----------
+  // The tree grows to the right as you click: chapter → section → sub-topic → paragraph → detail card.
+  // Only one branch per level stays open, so the path you are reading is always clear.
+  const href = (ch, n) => n.id === ch.id ? `#/c/${ch.id}` : `#/c/${ch.id}/n/${encodeURIComponent(n.id)}`;
+  let T = null; // { ch, map, selected, about:Set }
+
   function renderChapter(chId, nodeId) {
     document.body.dataset.subject = subjectOf(chId);
     getJSON(`data/${chId}.json`).then(ch => {
       const map = indexTree(ch);
-      const cur = map[nodeId] ? map[nodeId].node : ch;
-      const path = pathTo(map, cur.id);
-      const parent = map[cur.id].parent;
-      // A paragraph-level node has no children: show its parent's layer with this node highlighted.
-      const isLeaf = !(cur.children || []).length;
-      const mapNode = isLeaf && parent ? parent : cur;
-      const mapParent = mapNode.id === ch.id ? null : map[mapNode.id].parent;
-      const crumbs = path.map((n, i) => `${i ? '<span class="sep">›</span>' : ''}<a href="${href(ch, n)}">${esc(n.short || n.title)}</a>`).join('');
-
-      app.innerHTML = topbar(ch, 'map') + `<main>
-        <nav class="crumbs">${crumbs}</nav>
-        <div class="layout">
-          <div class="mapbox">${mapSVG(ch, mapNode, mapParent, cur.id)}${cardList(ch, mapNode, mapParent, cur.id)}
-            <p class="map-hint">${isLeaf ? 'Highlighted: the paragraph you are reading. Tap another box to jump.' : 'Solid box = more layers inside · dashed box = paragraph'}</p></div>
-          ${panel(ch, cur)}
-        </div></main>${footer()}`;
-      bindMap();
-      bindPanel(ch, cur);
+      T = { ch, map, selected: map[nodeId] ? nodeId : ch.id, about: new Set() };
+      app.innerHTML = topbar(ch, 'map') + `<main class="wide">
+        <div class="tree-head"><div><h1>${esc(ch.title)}</h1><p class="ref">${esc(ch.ref)} · ${ch.stats.nodes} topics · ${ch.stats.questions} questions</p></div>
+          <p class="legend"><span class="lg-node"></span> tap to open the next layer <span class="lg-q">Q</span> questions on that topic</p></div>
+        <div class="tree-wrap" id="treewrap"></div></main>${footer()}`;
+      drawTree(false);
     }).catch(err);
   }
-  const href = (ch, n) => n.id === ch.id ? `#/c/${ch.id}` : `#/c/${ch.id}/n/${encodeURIComponent(n.id)}`;
 
-  function mapSVG(ch, cur, parent, activeId) {
-    const kids = cur.children || [];
-    const W = 800, H = 640, cx = W / 2, cy = H / 2 + 6;
-    let out = `<svg viewBox="0 0 ${W} ${H}" role="group" aria-label="Mind map of ${esc(cur.title)}">`;
-    const n = kids.length;
-    const boxes = kids.map((k, i) => {
-      // start at the top, go clockwise; with 2 children place them left/right
-      const ang = n === 2 ? Math.PI * i : -Math.PI / 2 + (2 * Math.PI * i) / Math.max(n, 1);
-      const rx = n <= 3 ? 265 : 290, ry = n <= 3 ? 200 : 236;
-      return { k, x: cx + rx * Math.cos(ang), y: cy + ry * Math.sin(ang) };
-    });
-    if (n === 1) { boxes[0].x = cx; boxes[0].y = cy + 220; }
-    boxes.forEach(b => {
-      const mx = (cx + b.x) / 2 + (b.y - cy) * 0.12, my = (cy + b.y) / 2 - (b.x - cx) * 0.12;
-      out += `<path class="edge" d="M${cx},${cy} Q${mx},${my} ${b.x},${b.y}"/>`;
-    });
-    // centre node
-    const cl = wrap(cur.short || cur.title, 13).slice(0, 4);
-    out += `<g class="n-center${parent ? ' clickable' : ''}" ${activeId !== cur.id ? `tabindex="0" role="link" data-href="${href(ch, cur)}"` : ''}><circle cx="${cx}" cy="${cy}" r="92"/>` +
-      cl.map((l, i) => `<text x="${cx}" y="${cy + (i - (cl.length - 1) / 2) * 23 + 7}" text-anchor="middle" font-size="${cl.length > 3 ? 18 : 21}">${esc(l)}</text>`).join('') + `</g>`;
-    // children
-    boxes.forEach(({ k, x, y }) => {
-      const qs = allQuestions(k), sub = (k.children || []).length;
-      const done = qs.length && doneCount(qs) === qs.length;
-      const lines = wrap(k.short || k.title, 17).slice(0, 2);
-      const w = 212, h = 42 + lines.length * 21;
-      const meta = (sub ? `${sub} inside` : 'paragraph') + ` · ${qs.length} Q${qs.length === 1 ? '' : 's'}` + (done ? ' ✓' : '');
-      out += `<g class="n-child${sub ? '' : ' leaf'}${done ? ' done' : ''}${k.id === activeId ? ' active' : ''}" tabindex="0" role="link" data-href="${href(ch, k)}" aria-label="${esc(k.title)}">
-        <rect x="${x - w / 2}" y="${y - h / 2}" width="${w}" height="${h}" rx="14"/>
-        ${lines.map((l, i) => `<text x="${x}" y="${y - h / 2 + 27 + i * 21}" text-anchor="middle">${esc(l)}</text>`).join('')}
-        <text class="meta" x="${x}" y="${y + h / 2 - 11}" text-anchor="middle">${meta}</text></g>`;
-    });
-    if (parent) {
-      out += `<g class="n-back" tabindex="0" role="link" data-href="${href(ch, parent)}" aria-label="Up to ${esc(parent.title)}"><rect x="10" y="10" width="${Math.min(260, 50 + (parent.short || parent.title).length * 9.5)}" height="38" rx="19"/><text x="28" y="35">↑ ${esc(parent.short || parent.title)}</text></g>`;
+  function drawTree(scrollToNew) {
+    const { ch, map } = T;
+    const open = new Set(pathTo(map, T.selected).map(n => n.id));
+    const wrap = document.getElementById('treewrap');
+    const sx = wrap.scrollLeft, sy = window.scrollY;
+    wrap.innerHTML = `<div class="tree">${branch(ch, ch, open, 0)}</div>`;
+    wrap.scrollLeft = sx; window.scrollTo(0, sy);
+    bindTree();
+    if (scrollToNew) {
+      // keep the tapped node near the top of the screen and bring its new layer into view sideways
+      const sel = wrap.querySelector('.is-sel');
+      if (sel) {
+        const row = sel.querySelector('.node-row'), kids = sel.querySelector(':scope > .kids') || row;
+        const top = row.getBoundingClientRect().top + window.scrollY - 76;
+        if (Math.abs(window.scrollY - top) > 40) window.scrollTo({ top, behavior: 'smooth' });
+        const wr = wrap.getBoundingClientRect(), kr = kids.getBoundingClientRect(), rr = row.getBoundingClientRect();
+        if (kr.right > wr.right - 10) wrap.scrollTo({ left: wrap.scrollLeft + Math.min(kr.right - wr.right + 30, rr.left - wr.left - 20), behavior: 'smooth' });
+        else if (rr.left < wr.left) wrap.scrollTo({ left: wrap.scrollLeft + rr.left - wr.left - 20, behavior: 'smooth' });
+      }
     }
-    return out + '</svg>';
   }
 
-  function cardList(ch, cur, parent, activeId) {
-    const kids = cur.children || [];
-    return `<div class="cardlist">${parent ? `<a class="up" href="${href(ch, parent)}">↑ ${esc(parent.short || parent.title)}</a>` : ''}
-      <a class="center" href="${href(ch, cur)}">${esc(cur.title)}</a>
-      ${kids.map(k => { const qs = allQuestions(k); const sub = (k.children || []).length;
-        return `<a class="${sub ? '' : 'leaf'}${k.id === activeId ? ' active' : ''}" href="${href(ch, k)}">${esc(k.title)}<small>${sub ? sub + ' ›' : ''} ${qs.length} Q${doneCount(qs) === qs.length && qs.length ? ' ✓' : ''}</small></a>`; }).join('')}</div>`;
+  function branch(ch, n, open, depth) {
+    const kids = n.children || [];
+    const isOpen = open.has(n.id);
+    const sel = T.selected === n.id;
+    const qs = allQuestions(n);
+    const done = qs.length && doneCount(qs) === qs.length;
+    const meta = kids.length ? `${kids.length} inside` : 'paragraph';
+    let h = `<div class="branch${isOpen ? ' is-open' : ''}${sel ? ' is-sel' : ''}${kids.length ? '' : ' is-leaf'}" data-id="${n.id}">
+      <div class="node-row">
+        <button class="tnode${depth === 0 ? ' root' : ''}${done ? ' done' : ''}" data-open="${n.id}" aria-expanded="${isOpen}">
+          <span class="tt">${esc(depth === 0 ? n.title : n.title)}</span>
+          <span class="tm">${meta}${done ? ' · ✓ done' : ''}</span>
+          ${depth ? `<span class="chev">${isOpen ? '‹' : '›'}</span>` : ''}
+        </button>
+        ${qs.length ? `<button class="qchip" data-q="${n.id}" title="Questions on this topic">Q ${qs.length}</button>` : ''}
+      </div>`;
+    if (isOpen) {
+      h += `<div class="kids">`;
+      if (kids.length) {
+        h += `<div class="branch about-b">${aboutCard(ch, n)}</div>`;
+        h += kids.map(k => branch(ch, k, open, depth + 1)).join('');
+      } else {
+        h += `<div class="branch detail-b">${detailCard(ch, n)}</div>`;
+      }
+      h += `</div>`;
+    }
+    return h + `</div>`;
   }
 
-  function bindMap() {
-    app.querySelectorAll('[data-href]').forEach(g => {
-      g.addEventListener('click', () => { location.hash = g.dataset.href; });
-      g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); location.hash = g.dataset.href; } });
+  function aboutCard(ch, n) {
+    const isOpen = T.about.has(n.id);
+    return `<div class="about${isOpen ? ' open' : ''}">
+      <button class="about-t" data-about="${n.id}"><span>ⓘ About ${esc(n.short || n.title)}</span><span>${isOpen ? 'hide' : 'read'}</span></button>
+      ${isOpen ? `<div class="about-body"><p class="ref">${esc(n.ref || '')} ${pagesPills(ch, n)}</p>${nodeContent(ch, n)}</div>` : ''}
+    </div>`;
+  }
+
+  function detailCard(ch, n) {
+    const qs = (n.questions || []).map(q => Object.assign({ node: n.id, nodeTitle: n.title }, q));
+    return `<article class="detail">
+      <div class="d-head"><span class="ref">${esc(n.ref || '')}</span>${pagesPills(ch, n)}</div>
+      <h2>${esc(n.title)}</h2>
+      ${nodeContent(ch, n)}
+      ${qs.length ? `<section class="inline-q" id="iq-${n.id}"><h3>Questions on this paragraph <small>${doneCount(qs)}/${qs.length} correct</small></h3>
+        ${qs.map((q, i) => inlineQ(q, i)).join('')}</section>` : ''}
+    </article>`;
+  }
+
+  function inlineQ(q, i) {
+    const ord = [0, 1, 2, 3].sort(() => Math.random() - 0.5);
+    return `<div class="iq" data-qid="${q.id}">
+      <div class="qmeta"><span>Q${i + 1}</span><span>·</span><span>${esc(q.src || 'Practice')}</span>${q.lvl ? `<span>·</span><span>${esc(q.lvl)}</span>` : ''}${progress[q.id] === true ? '<span class="pill">✓ done before</span>' : ''}</div>
+      <div class="qtext">${esc(q.q)}</div>
+      ${ord.map((k, pos) => `<button class="opt" data-k="${k}"><b>${'ABCD'[pos]}</b>${esc(q.o[k])}</button>`).join('')}
+      <div class="slot"></div></div>`;
+  }
+
+  function bindTree() {
+    const { ch, map } = T;
+    const wrap = document.getElementById('treewrap');
+    wrap.querySelectorAll('[data-open]').forEach(b => b.addEventListener('click', () => {
+      const id = b.dataset.open;
+      const open = new Set(pathTo(map, T.selected).map(n => n.id));
+      if (id === ch.id) T.selected = ch.id;
+      else if (open.has(id)) T.selected = map[id].parent.id; // tap an open node to fold it
+      else T.selected = id;
+      history.replaceState(null, '', T.selected === ch.id ? `#/c/${ch.id}` : `#/c/${ch.id}/n/${encodeURIComponent(T.selected)}`);
+      drawTree(true);
+    }));
+    wrap.querySelectorAll('[data-about]').forEach(b => b.addEventListener('click', () => {
+      const id = b.dataset.about; T.about.has(id) ? T.about.delete(id) : T.about.add(id); drawTree(false);
+    }));
+    wrap.querySelectorAll('[data-q]').forEach(b => b.addEventListener('click', e => {
+      e.stopPropagation();
+      const n = map[b.dataset.q].node;
+      if (!(n.children || []).length) { // paragraph: open it and jump to its questions
+        T.selected = n.id; drawTree(false);
+        const s = document.getElementById('iq-' + n.id); if (s) s.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
+        return;
+      }
+      openQuiz(ch, n, allQuestions(n));
+    }));
+    wrap.querySelectorAll('.iq').forEach(box => {
+      const qid = box.dataset.qid;
+      const n = map[T.selected].node;
+      const q = (n.questions || []).find(x => x.id === qid);
+      box.querySelectorAll('.opt').forEach(btn => btn.addEventListener('click', () => {
+        const k = +btn.dataset.k, ok = k === q.a;
+        if (ok) progress[q.id] = true; else if (progress[q.id] !== true) progress[q.id] = false;
+        saveProgress();
+        box.querySelectorAll('.opt').forEach(b => { const j = +b.dataset.k; b.disabled = true; if (j === q.a) b.classList.add('right'); else if (j === k) b.classList.add('wrong'); });
+        box.querySelector('.slot').innerHTML = `<div class="explain"><span class="verdict ${ok ? 'ok' : 'no'}">${ok ? 'Correct.' : 'Not quite.'}</span> ${esc(q.e)}</div>`;
+        const qs = n.questions || [];
+        const sm = box.closest('.inline-q').querySelector('h3 small'); if (sm) sm.textContent = `${doneCount(qs)}/${qs.length} correct`;
+      }));
     });
   }
 
@@ -164,8 +223,8 @@
     }
     h += `<div class="syn">${n.synopsis || ''}</div>`;
     if (n.formulas && n.formulas.length) h += `<div class="box formulas"><h4>Formulas</h4><ul>${n.formulas.map(f => `<li><code>${fmt(f)}</code></li>`).join('')}</ul></div>`;
-    if (n.points && n.points.length) h += `<div class="box points"><h4>Remember</h4><ul>${n.points.map(p => `<li>${esc(p)}</li>`).join('')}</ul></div>`;
-    if (n.traps && n.traps.length) h += `<div class="box traps"><h4>Exam traps</h4><ul>${n.traps.map(p => `<li>${esc(p)}</li>`).join('')}</ul></div>`;
+    if (n.points && n.points.length) h += `<div class="box points"><h4>Remember</h4><ul>${n.points.map(p => `<li>${fmt(p)}</li>`).join('')}</ul></div>`;
+    if (n.traps && n.traps.length) h += `<div class="box traps"><h4>Exam traps</h4><ul>${n.traps.map(p => `<li>${fmt(p)}</li>`).join('')}</ul></div>`;
     return h;
   }
 
@@ -176,29 +235,6 @@
   }
   // "p_ex" → p<sub>ex</sub>, "ΔS_total" → ΔS<sub>total</sub>
   const fmt = f => esc(f).replace(/_([A-Za-z0-9]+)/g, '<sub>$1</sub>');
-
-  function panel(ch, n) {
-    const own = (n.questions || []).map(q => Object.assign({ node: n.id, nodeTitle: n.title }, q));
-    const all = allQuestions(n);
-    const kids = n.children || [];
-    return `<article class="panel">
-      <div class="panel-head"><div class="ref"><span>${esc(n.ref || '')}</span>${pagesPills(ch, n)}</div><h2>${esc(n.title)}</h2></div>
-      <div class="panel-body">${nodeContent(ch, n)}
-        ${kids.length ? `<div class="sub-list"><h4>Inside this ${n.id === ch.id ? 'chapter' : 'topic'}</h4>${kids.map(k => `<a href="${href(ch, k)}">${esc(k.title)}<small>${allQuestions(k).length} Qs ›</small></a>`).join('')}</div>` : ''}
-      </div>
-      <div class="actions">
-        ${own.length ? `<button class="btn" data-quiz="own">Practise this node (${own.length})</button>` : ''}
-        ${kids.length && all.length ? `<button class="btn ${own.length ? 'ghost' : ''}" data-quiz="all">Practise ${n.id === ch.id ? 'whole chapter' : 'this branch'} (${all.length})</button>` : ''}
-        ${all.length ? `<span class="progress">${doneCount(all)}/${all.length} answered correctly</span>` : ''}
-      </div></article>`;
-  }
-
-  function bindPanel(ch, n) {
-    app.querySelectorAll('[data-quiz]').forEach(b => b.addEventListener('click', () => {
-      const qs = b.dataset.quiz === 'own' ? (n.questions || []).map(q => Object.assign({ node: n.id, nodeTitle: n.title }, q)) : allQuestions(n);
-      openQuiz(ch, n, qs);
-    }));
-  }
 
   // ---------- read mode (whole-chapter synopsis) ----------
   function renderRead(chId) {
