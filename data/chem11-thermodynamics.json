@@ -1,0 +1,2868 @@
+{
+ "id": "chem11-thermodynamics",
+ "title": "Thermodynamics",
+ "short": "Thermodynamics",
+ "subject": "Chemistry",
+ "cls": 11,
+ "unit": 5,
+ "pages": [
+  136,
+  167
+ ],
+ "ref": "NCERT Chemistry Part I · Unit 5 · pp. 136–167",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech105.pdf",
+ "pdfPageOffset": 135,
+ "synopsis": "<p>Thermodynamics answers three questions about any chemical change: <b>how much energy</b> is involved (ΔU, ΔH), <b>will it happen</b> on its own (ΔS, ΔG), and <b>how far</b> will it go (K). The chapter builds this one state function at a time: <b>U → H → S → G</b>.</p><p>Tap any branch to go deeper. Every node has its own synopsis and questions.</p>",
+ "formulas": [
+  "ΔU = q + w",
+  "w = −p_ex ΔV",
+  "w_rev = −2.303 nRT log(V_f/V_i)",
+  "H = U + pV",
+  "ΔH = ΔU + Δn_g RT",
+  "C_p − C_V = R",
+  "ΔrH = ΣΔfH(prod) − ΣΔfH(react)",
+  "ΔrH = ΣBE(react) − ΣBE(prod)",
+  "ΔS = q_rev/T",
+  "ΔG = ΔH − TΔS",
+  "ΔrG° = −2.303 RT log K"
+ ],
+ "children": [
+  {
+   "id": "intro",
+   "title": "Why Thermodynamics?",
+   "pages": [
+    136
+   ],
+   "ref": "Unit 5 · Introduction",
+   "synopsis": "<p>Energy stored in chemical bonds can come out as <b>heat</b> (burning methane or coal), as <b>mechanical work</b> (fuel in an engine) or as <b>electrical energy</b> (a dry cell). These forms of energy can be converted into one another, and <b>thermodynamics</b> is the study of those conversions.</p><p>Three ideas fix the scope of the whole chapter:</p><ul><li>It deals with <b>macroscopic</b> systems: huge numbers of molecules, not a handful.</li><li>It cares only about the <b>initial and final states</b>. It says nothing about <i>how fast</i> or <i>by what mechanism</i> a change happens. Rate belongs to chemical kinetics.</li><li>Its laws apply to systems <b>in equilibrium</b>, or moving from one equilibrium state to another. In equilibrium, bulk properties such as p and T do not change with time.</li></ul><p>The chapter answers three questions: how much energy a reaction involves, whether it will happen on its own, and how far it will go.</p>",
+   "points": [
+    "Thermodynamics is about macroscopic systems.",
+    "It depends on initial and final states only, never on rate or mechanism.",
+    "Its laws apply to equilibrium states or changes between them."
+   ],
+   "traps": [
+    "Thermodynamics can tell you a reaction is feasible but NOT how fast it goes. Diamond → graphite is thermodynamically favourable yet extremely slow."
+   ],
+   "questions": [
+    {
+     "q": "Which of the following can thermodynamics NOT tell us about a reaction?",
+     "o": [
+      "Whether it is feasible",
+      "The energy change involved",
+      "The rate at which it proceeds",
+      "The extent to which it proceeds"
+     ],
+     "a": 2,
+     "e": "Thermodynamics looks only at initial and final states. Rate and mechanism belong to chemical kinetics.",
+     "lvl": "easy",
+     "id": "intro-q1",
+     "src": "Practice",
+     "pyq": []
+    },
+    {
+     "q": "The laws of thermodynamics are applicable to:",
+     "o": [
+      "Single molecules",
+      "Systems containing a few molecules",
+      "Macroscopic systems with a very large number of molecules",
+      "Only ideal gases"
+     ],
+     "a": 2,
+     "e": "NCERT stresses that thermodynamics deals with macroscopic (bulk) systems, not microscopic ones.",
+     "lvl": "easy",
+     "id": "intro-q2",
+     "src": "Practice",
+     "pyq": []
+    }
+   ]
+  },
+  {
+   "id": "terms",
+   "title": "5.1 Thermodynamic Terms",
+   "short": "Basic Terms",
+   "pages": [
+    137,
+    138,
+    139,
+    140
+   ],
+   "ref": "Section 5.1",
+   "synopsis": "<p>Before doing any calculation we need a shared vocabulary: <b>system, surroundings, boundary</b>, the <b>types of system</b>, the <b>state</b> of a system, and the central quantity <b>internal energy (U)</b>. This section ends with the <b>First Law</b>, ΔU = q + w.</p>",
+   "children": [
+    {
+     "id": "sys-surr",
+     "title": "5.1.1 System & Surroundings",
+     "short": "System & Surroundings",
+     "pages": [
+      137
+     ],
+     "ref": "5.1.1",
+     "synopsis": "<p>The <b>system</b> is the part of the universe we are studying. Everything else is the <b>surroundings</b>. Together they make the universe.</p>",
+     "formulas": [
+      "Universe = System + Surroundings"
+     ],
+     "children": [
+      {
+       "id": "universe",
+       "title": "Universe = System + Surroundings",
+       "short": "Universe",
+       "pages": [
+        137
+       ],
+       "ref": "5.1.1 ¶1–2",
+       "diagram": "system-surroundings",
+       "synopsis": "<p>The <b>system</b> is the part of the universe where we make observations. The <b>surroundings</b> are everything else.</p><p>In practice, most of the universe is untouched by a reaction in a beaker. So NCERT treats the surroundings as only <b>the part that can interact with the system</b>, usually the space right around it.</p><p><i>Example:</i> A and B react in a beaker. The beaker with the reaction mixture is the system, and the room is the surroundings.</p>",
+       "points": [
+        "Surroundings = the part of the rest of the universe that can interact with the system.",
+        "Beaker plus reaction mixture = system; the room = surroundings."
+       ],
+       "questions": [
+        {
+         "q": "For practical purposes in thermodynamics, the surroundings are:",
+         "o": [
+          "The entire universe except the system",
+          "Only the container walls",
+          "That portion of the rest of the universe which can interact with the system",
+          "The system plus its boundary"
+         ],
+         "a": 2,
+         "e": "Formally the surroundings are everything except the system, but in practice only the region that can interact with the system matters.",
+         "lvl": "easy",
+         "id": "universe-q1",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "boundary",
+       "title": "Boundary (Wall)",
+       "short": "Boundary",
+       "pages": [
+        137
+       ],
+       "ref": "5.1.1 ¶3",
+       "synopsis": "<p>The system is separated from the surroundings by a <b>boundary</b> (wall). The wall can be <b>real</b> (the glass of a beaker) or <b>imaginary</b> (a set of coordinates enclosing a volume of space).</p><p>We need a boundary so we can <b>keep track of all matter and energy</b> crossing into or out of the system.</p><p>NCERT footnote: if we choose only the reactants as the system, the beaker walls become the boundary.</p>",
+       "points": [
+        "The boundary may be real or imaginary.",
+        "Its purpose is to account for every transfer of matter and energy."
+       ],
+       "questions": [
+        {
+         "q": "Which statement about the boundary of a thermodynamic system is correct?",
+         "o": [
+          "It must always be a physical wall",
+          "It can be real or imaginary",
+          "It never allows energy to pass",
+          "It is part of the surroundings only"
+         ],
+         "a": 1,
+         "e": "The boundary can be a real wall (beaker) or an imaginary surface defined by coordinates.",
+         "lvl": "easy",
+         "id": "boundary-q1",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sys-types",
+     "title": "5.1.2 Types of System",
+     "short": "Types of System",
+     "pages": [
+      137,
+      138
+     ],
+     "ref": "5.1.2",
+     "diagram": "system-types",
+     "synopsis": "<p>Systems are classified by <b>what can cross the boundary</b>: matter, energy, both, or neither.</p><table><tr><th>System</th><th>Matter exchange</th><th>Energy exchange</th><th>NCERT example</th></tr><tr><td>Open</td><td>✔</td><td>✔</td><td>Reactants in an open beaker</td></tr><tr><td>Closed</td><td>✘</td><td>✔</td><td>Reactants in a closed copper/steel vessel</td></tr><tr><td>Isolated</td><td>✘</td><td>✘</td><td>Reactants in a thermos flask</td></tr></table>",
+     "children": [
+      {
+       "id": "open-sys",
+       "title": "Open System",
+       "short": "Open",
+       "pages": [
+        137
+       ],
+       "ref": "5.1.2 (1) · Fig 5.2a",
+       "synopsis": "<p>Both <b>energy and matter</b> can be exchanged with the surroundings.</p><p><i>NCERT example:</i> reactants in an <b>open beaker</b>. The boundary is an imaginary surface enclosing the beaker and reactants.</p><p><i>Everyday examples:</i> the human body, a pot of boiling water without a lid.</p>",
+       "questions": [
+        {
+         "q": "A cup of hot tea kept on a table (without lid) is an example of:",
+         "o": [
+          "Isolated system",
+          "Closed system",
+          "Open system",
+          "Adiabatic system"
+         ],
+         "a": 2,
+         "e": "Vapour (matter) escapes and heat (energy) is lost, so both matter and energy are exchanged: an open system.",
+         "lvl": "easy",
+         "id": "open-sys-q1",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "closed-sys",
+       "title": "Closed System",
+       "short": "Closed",
+       "pages": [
+        137
+       ],
+       "ref": "5.1.2 (2) · Fig 5.2b",
+       "synopsis": "<p><b>No exchange of matter</b>, but <b>energy can be exchanged</b>.</p><p><i>NCERT example:</i> reactants in a closed vessel made of a <b>conducting</b> material such as copper or steel. The walls let heat through but not matter.</p>",
+       "traps": [
+        "The vessel must be conducting. A closed but insulated vessel becomes an isolated system."
+       ],
+       "questions": [
+        {
+         "q": "Reactants sealed in a stoppered steel flask constitute a/an:",
+         "o": [
+          "Open system",
+          "Closed system",
+          "Isolated system",
+          "None of these"
+         ],
+         "a": 1,
+         "e": "Matter cannot leave a sealed flask, but steel conducts heat, so energy can be exchanged: a closed system.",
+         "lvl": "easy",
+         "id": "closed-sys-q1",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "isolated-sys",
+       "title": "Isolated System",
+       "short": "Isolated",
+       "pages": [
+        138
+       ],
+       "ref": "5.1.2 (3) · Fig 5.2c",
+       "synopsis": "<p><b>Neither energy nor matter</b> is exchanged with the surroundings.</p><p><i>NCERT example:</i> reactants in a <b>thermos flask</b> or any closed, insulated vessel.</p><p>Key consequence (used later): with q = 0 and w = 0, an isolated system has <b>ΔU = 0</b>. Its energy is constant.</p>",
+       "points": [
+        "For an isolated system: q = 0, w = 0, so ΔU = 0."
+       ],
+       "questions": [
+        {
+         "q": "For an isolated system, which is always true?",
+         "o": [
+          "ΔU > 0",
+          "ΔU < 0",
+          "ΔU = 0",
+          "ΔS = 0"
+         ],
+         "a": 2,
+         "e": "No heat or work crosses the boundary, so ΔU = q + w = 0. Entropy can still increase in a spontaneous change.",
+         "lvl": "medium",
+         "id": "isolated-sys-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "Coffee kept in a perfectly sealed and insulated thermos flask is an example of:",
+         "o": [
+          "Open system",
+          "Closed system",
+          "Isolated system",
+          "Open adiabatic system"
+         ],
+         "a": 2,
+         "e": "Neither matter nor energy can cross the boundary.",
+         "lvl": "easy",
+         "id": "isolated-sys-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "state",
+     "title": "5.1.3 State of the System",
+     "short": "State of System",
+     "pages": [
+      138
+     ],
+     "ref": "5.1.3",
+     "synopsis": "<p>To calculate anything, we must describe the system <b>before and after</b> a change. Mechanics needs the position and velocity of every particle. Thermodynamics needs only a few <b>average, measurable (macroscopic) properties</b>: p, V, T, n and composition.</p>",
+     "children": [
+      {
+       "id": "state-fn",
+       "title": "State Variables / State Functions",
+       "short": "State Functions",
+       "pages": [
+        138
+       ],
+       "ref": "5.1.3 ¶2",
+       "synopsis": "<p>The state of a gas is given by quoting <b>p, V, T, n</b>. These are called <b>state variables</b> or <b>state functions</b> because their values depend <b>only on the current state</b>, not on how the system got there.</p><p><b>Path functions</b> are the opposite: their values depend on the route taken. <b>q and w</b> are path functions (developed in 5.1.4).</p><table><tr><th>State functions</th><th>Path functions</th></tr><tr><td>p, V, T, U, H, S, G</td><td>q (heat), w (work)</td></tr></table>",
+       "points": [
+        "A state function depends only on the state, not the path.",
+        "q and w are path functions, but q + w (= ΔU) is a state function."
+       ],
+       "traps": [
+        "q and w are each path dependent, yet their sum ΔU is path independent. This is a favourite assertion–reason question."
+       ],
+       "questions": [
+        {
+         "q": "A thermodynamic state function is a quantity:",
+         "o": [
+          "Used to determine heat changes",
+          "Whose value is independent of path",
+          "Used to determine pressure–volume work",
+          "Whose value depends on temperature only"
+         ],
+         "a": 1,
+         "e": "By definition, a state function depends only on the state of the system, not on how that state was reached.",
+         "lvl": "easy",
+         "id": "state-fn-q1",
+         "src": "NCERT Ex 5.1",
+         "pyq": []
+        },
+        {
+         "q": "Which of the following is NOT a state function?",
+         "o": [
+          "Internal energy",
+          "Enthalpy",
+          "Work",
+          "Entropy"
+         ],
+         "a": 2,
+         "e": "Work depends on the path. U, H and S are state functions.",
+         "lvl": "easy",
+         "id": "state-fn-q2",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "Which combination is a state function?",
+         "o": [
+          "q alone",
+          "w alone",
+          "q + w",
+          "q − w (IUPAC convention)"
+         ],
+         "a": 2,
+         "e": "q + w = ΔU, which is a state function even though q and w individually are not.",
+         "lvl": "medium",
+         "id": "state-fn-q3",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "min-vars",
+       "title": "Minimum Number of Variables",
+       "short": "Min. Variables",
+       "pages": [
+        138
+       ],
+       "ref": "5.1.3 ¶2–3",
+       "synopsis": "<p>You do <b>not</b> need to specify every property to fix the state. Only a <b>certain number can be varied independently</b>, and that number depends on the nature of the system. Once those are fixed, all other properties automatically have definite values.</p><p>Example: for a fixed amount of ideal gas, fixing p and T fixes V through pV = nRT.</p><p>The state of the <b>surroundings</b> can never be completely specified, and fortunately we never need to.</p>",
+       "questions": [
+        {
+         "q": "For a fixed amount of an ideal gas, how many of p, V and T must be specified to fix its state?",
+         "o": [
+          "One",
+          "Two",
+          "Three",
+          "None"
+         ],
+         "a": 1,
+         "e": "pV = nRT links the three; fixing any two determines the third.",
+         "lvl": "medium",
+         "id": "min-vars-q1",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "internal-energy",
+     "title": "5.1.4 Internal Energy as a State Function",
+     "short": "Internal Energy",
+     "pages": [
+      138,
+      139,
+      140
+     ],
+     "ref": "5.1.4",
+     "synopsis": "<p><b>Internal energy (U)</b> is the total energy of the system: chemical, electrical, mechanical, and so on. U changes when <b>heat</b> crosses the boundary, <b>work</b> is done, or <b>matter</b> enters or leaves. This sub-section shows that U is a state function, sets the sign conventions, and arrives at the First Law.</p>",
+     "formulas": [
+      "ΔU = q + w"
+     ],
+     "children": [
+      {
+       "id": "what-is-u",
+       "title": "What is Internal Energy (U)?",
+       "short": "What is U?",
+       "pages": [
+        138
+       ],
+       "ref": "5.1.4 ¶1",
+       "synopsis": "<p>U is the <b>sum of all forms of energy</b> of the system. It changes when:</p><ul><li>heat passes into or out of the system,</li><li>work is done on or by the system,</li><li>matter enters or leaves the system.</li></ul>",
+       "questions": [
+        {
+         "q": "The internal energy of a closed system can change by:",
+         "o": [
+          "Heat and work only",
+          "Matter transfer only",
+          "Heat, work and matter transfer",
+          "Work only"
+         ],
+         "a": 0,
+         "e": "In general U changes by heat, work or matter transfer. A closed system cannot exchange matter, so only heat and work remain.",
+         "lvl": "medium",
+         "id": "what-is-u-q1",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "work-adiabatic",
+       "title": "(a) Work: Adiabatic Process & Joule's Experiment",
+       "short": "Work (Adiabatic)",
+       "pages": [
+        138,
+        139
+       ],
+       "ref": "5.1.4 (a) · Fig 5.3",
+       "diagram": "adiabatic",
+       "synopsis": "<p>Water in a thermos flask (insulated) cannot exchange heat. This is an <b>adiabatic system</b>, its wall is an <b>adiabatic wall</b>, and a change in it is an <b>adiabatic process</b> (q = 0).</p><p><b>Joule (1840–50):</b> doing 1 kJ of work on the water, either by churning it with paddles (mechanical work) or with an immersion rod (electrical work), gave the <b>same temperature rise</b> (state A → state B).</p><p>So the same adiabatic work always produces the same change of state, whatever the path. That lets us define U as a quantity fixed by the state:</p><p class='f'>ΔU = U₂ − U₁ = w<sub>ad</sub></p><p>Therefore <b>U is a state function</b>.</p><p>Other familiar state functions are V, p and T. Going from 25 °C to 35 °C gives ΔT = +10 °C whether you heat directly or cool first and then heat. NCERT's analogy: the volume of water in a pond changes by the same amount whether it is filled by rain, a tubewell or both.</p>",
+       "points": [
+        "Adiabatic: no heat transfer (q = 0).",
+        "ΔU = w_ad shows U is a state function."
+       ],
+       "questions": [
+        {
+         "q": "For a process to occur under adiabatic conditions, the correct condition is:",
+         "o": [
+          "ΔT = 0",
+          "Δp = 0",
+          "q = 0",
+          "w = 0"
+         ],
+         "a": 2,
+         "e": "Adiabatic means no heat exchange with the surroundings, so q = 0.",
+         "lvl": "easy",
+         "id": "work-adiabatic-q1",
+         "src": "NCERT Ex 5.2",
+         "pyq": []
+        },
+        {
+         "q": "Joule's experiments with paddle-churning and electrical heating of water in an insulated vessel showed that:",
+         "o": [
+          "Mechanical work produces more heat than electrical work",
+          "A given amount of adiabatic work produces the same change of state regardless of how it is done",
+          "Internal energy depends on the path",
+          "Heat and work are unrelated"
+         ],
+         "a": 1,
+         "e": "Equal amounts of adiabatic work by different routes gave the same temperature rise, so U is a state function.",
+         "lvl": "medium",
+         "id": "work-adiabatic-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "sign-convention",
+       "title": "Sign Convention (IUPAC)",
+       "short": "Sign Convention",
+       "pages": [
+        139
+       ],
+       "ref": "5.1.4 (a)(b) + footnote",
+       "synopsis": "<p>The IUPAC convention is <b>'positive = added to the system'</b>:</p><table><tr><th>Quantity</th><th>Positive (+)</th><th>Negative (−)</th></tr><tr><td>w</td><td>Work done <b>on</b> the system (U rises)</td><td>Work done <b>by</b> the system (U falls)</td></tr><tr><td>q</td><td>Heat absorbed <b>by</b> the system</td><td>Heat released <b>to</b> the surroundings</td></tr></table><p><b>NCERT footnote:</b> the old convention (still used in many physics books) gave work done <i>on</i> the system a negative sign, so the First Law appears there as ΔU = q − w. Chemistry uses IUPAC, ΔU = q + w.</p>",
+       "traps": [
+        "Physics books may write ΔU = q − W (W = work done BY the gas). Do not mix conventions within one problem."
+       ],
+       "questions": [
+        {
+         "q": "According to the IUPAC convention, work done on the system is:",
+         "o": [
+          "Positive",
+          "Negative",
+          "Zero",
+          "Positive only for gases"
+         ],
+         "a": 0,
+         "e": "Energy added to the system (work done on it) is positive.",
+         "lvl": "easy",
+         "id": "sign-convention-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "A system absorbs 701 J of heat and does 394 J of work. ΔU of the system is:",
+         "o": [
+          "+1095 J",
+          "+307 J",
+          "−307 J",
+          "−1095 J"
+         ],
+         "a": 1,
+         "e": "q = +701 J and w = −394 J (work done by the system). ΔU = 701 − 394 = +307 J.",
+         "lvl": "easy",
+         "src": "NCERT Ex 5.7",
+         "id": "sign-convention-q2",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "heat",
+       "title": "(b) Heat",
+       "short": "Heat",
+       "pages": [
+        139
+       ],
+       "ref": "5.1.4 (b) · Fig 5.4",
+       "diagram": "diathermic",
+       "synopsis": "<p>U can also change by <b>heat (q)</b> alone: an energy exchange caused by a <b>temperature difference</b>.</p><p>Put water at T<sub>A</sub> in a <b>thermally conducting</b> (e.g. copper) container inside a large reservoir at T<sub>B</sub>. The heat absorbed is measured from T<sub>B</sub> − T<sub>A</sub>.</p><p>With no work done (constant volume):</p><p class='f'>ΔU = q</p><p>q is positive when heat flows <b>into</b> the system and negative when it flows <b>out</b>.</p>",
+       "questions": [
+        {
+         "q": "If no work is done on or by a system at constant volume, the change in internal energy equals:",
+         "o": [
+          "Zero",
+          "The heat exchanged, q",
+          "pΔV",
+          "The work, w"
+         ],
+         "a": 1,
+         "e": "With w = 0, ΔU = q.",
+         "lvl": "easy",
+         "id": "heat-q1",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "first-law",
+       "title": "(c) First Law of Thermodynamics",
+       "short": "First Law",
+       "pages": [
+        140
+       ],
+       "ref": "5.1.4 (c) · Eq 5.1",
+       "synopsis": "<p>In general a change happens through <b>both heat and work</b>:</p><p class='f'>ΔU = q + w   (Eq. 5.1)</p><p>q and w each depend on how the change is carried out, but their <b>sum depends only on the initial and final states</b>.</p><p>For an <b>isolated system</b>, q = 0 and w = 0, so ΔU = 0. This is the <b>First Law</b>:</p><blockquote>The energy of an isolated system is constant.</blockquote><p>In other words, it is the law of conservation of energy: energy can neither be created nor destroyed.</p><p><b>NCERT Problem 5.1 pattern:</b></p><ul><li>No heat, work w done on the system → ΔU = w<sub>ad</sub> (adiabatic wall)</li><li>No work, heat q removed → ΔU = −q (thermally conducting wall)</li><li>Work w done <i>by</i> the system, heat q supplied → ΔU = q − w (closed system)</li></ul>",
+       "formulas": [
+        "ΔU = q + w"
+       ],
+       "questions": [
+        {
+         "q": "The mathematical statement of the first law of thermodynamics (IUPAC convention) is:",
+         "o": [
+          "ΔU = q − w",
+          "ΔU = q + w",
+          "ΔH = ΔU + pΔV",
+          "ΔG = ΔH − TΔS"
+         ],
+         "a": 1,
+         "e": "With the IUPAC sign convention, ΔU = q + w.",
+         "lvl": "easy",
+         "id": "first-law-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "A gas does 200 J of work on the surroundings while 300 J of heat is removed from it. ΔU is:",
+         "o": [
+          "+500 J",
+          "+100 J",
+          "−100 J",
+          "−500 J"
+         ],
+         "a": 3,
+         "e": "w = −200 J and q = −300 J, so ΔU = −500 J.",
+         "lvl": "medium",
+         "id": "first-law-q2",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "No work is done on a system but heat q is taken out of it. The system has:",
+         "o": [
+          "Adiabatic walls",
+          "Thermally conducting walls",
+          "No walls",
+          "Rigid insulated walls"
+         ],
+         "a": 1,
+         "e": "Heat can leave only through thermally conducting walls. ΔU = −q (NCERT Problem 5.1 ii).",
+         "lvl": "medium",
+         "id": "first-law-q3",
+         "src": "NCERT Problem 5.1",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "absolute-u",
+       "title": "Absolute U Cannot Be Measured",
+       "short": "Absolute U?",
+       "pages": [
+        140
+       ],
+       "ref": "5.1.4 Note",
+       "synopsis": "<p>Energy differs from a mechanical property like volume. We can state an exact <b>absolute value of V</b> for a state, but <b>not the absolute value of U</b>. Only <b>changes, ΔU</b>, can be measured.</p>",
+       "questions": [
+        {
+         "q": "Which of the following can be measured absolutely for a system in a given state?",
+         "o": [
+          "Internal energy",
+          "Enthalpy",
+          "Volume",
+          "Gibbs energy"
+         ],
+         "a": 2,
+         "e": "Volume has an absolute value. For U, H and G only changes can be measured.",
+         "lvl": "medium",
+         "id": "absolute-u-q1",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "applications",
+   "title": "5.2 Applications: Work & Enthalpy",
+   "short": "Work & Enthalpy",
+   "pages": [
+    140,
+    141,
+    142,
+    143,
+    144,
+    145
+   ],
+   "ref": "Section 5.2",
+   "synopsis": "<p>Many reactions produce gases that can push a piston (<b>work</b>) or release <b>heat</b>. This section puts numbers on both. It derives the work formulas for different processes, introduces the new state function <b>enthalpy (H)</b>, separates <b>extensive and intensive</b> properties, and defines <b>heat capacity</b> along with C<sub>p</sub> − C<sub>V</sub> = R.</p>",
+   "children": [
+    {
+     "id": "work",
+     "title": "5.2.1 Work (Pressure–Volume Work)",
+     "short": "pV Work",
+     "pages": [
+      140,
+      141,
+      142
+     ],
+     "ref": "5.2.1",
+     "synopsis": "<p>Only <b>mechanical (pressure–volume) work</b> is considered. Picture one mole of ideal gas in a cylinder with a frictionless piston. The work depends on <b>how the external pressure changes</b> during the process.</p>",
+     "formulas": [
+      "w = −p_ex ΔV",
+      "w_rev = −2.303 nRT log(V_f/V_i)"
+     ],
+     "children": [
+      {
+       "id": "single-step",
+       "title": "Single-step Work: w = −pₑₓΔV",
+       "short": "Single Step",
+       "pages": [
+        140,
+        141
+       ],
+       "ref": "5.2.1 · Eq 5.2 · Fig 5.5a",
+       "diagram": "pv-single",
+       "synopsis": "<p>A constant external pressure p<sub>ex</sub> compresses the gas in <b>one step</b>. The piston (area A) moves a distance l, so ΔV = l × A = V<sub>f</sub> − V<sub>i</sub>.</p><p>Force = p<sub>ex</sub> · A, so work = force × distance = p<sub>ex</sub> · A · l. Adding the sign:</p><p class='f'>w = −p<sub>ex</sub>ΔV = −p<sub>ex</sub>(V<sub>f</sub> − V<sub>i</sub>)   (Eq. 5.2)</p><p>The minus sign makes the convention work out. In <b>compression</b> ΔV is negative, so w comes out <b>positive</b> (work done on the system). In <b>expansion</b> ΔV is positive, so w is <b>negative</b>.</p><p>On a p–V graph, the work equals the <b>shaded rectangle</b> under the constant p<sub>ex</sub> line.</p>",
+       "formulas": [
+        "w = −p_ex (V_f − V_i)"
+       ],
+       "traps": [
+        "Always use EXTERNAL pressure, not gas pressure, for irreversible work.",
+        "1 L atm = 101.3 J."
+       ],
+       "questions": [
+        {
+         "q": "An ideal gas expands from 2 L to 5 L against a constant external pressure of 1 atm. The work done (1 L atm = 101.3 J) is about:",
+         "o": [
+          "+304 J",
+          "−304 J",
+          "−507 J",
+          "Zero"
+         ],
+         "a": 1,
+         "e": "w = −p_ex ΔV = −1 × (5 − 2) = −3 L atm ≈ −304 J. It is negative because the gas does work on the surroundings.",
+         "lvl": "medium",
+         "id": "single-step-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "During compression of a gas, the sign of work (IUPAC) is positive because:",
+         "o": [
+          "p_ex is negative",
+          "ΔV is negative, and w = −p_ex ΔV",
+          "Heat is released",
+          "Temperature rises"
+         ],
+         "a": 1,
+         "e": "In compression V_f < V_i, so ΔV < 0 and w = −p_ex ΔV > 0.",
+         "lvl": "easy",
+         "id": "single-step-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "reversible",
+       "title": "Multi-step & Reversible Processes",
+       "short": "Reversible Process",
+       "pages": [
+        141,
+        142
+       ],
+       "ref": "5.2.1 · Eq 5.3 · Fig 5.5 b,c",
+       "diagram": "pv-steps",
+       "synopsis": "<p><b>Finite steps:</b> if p<sub>ex</sub> changes in several steps, total work = −Σ pΔV, a staircase of rectangles on the p–V graph.</p><p><b>Infinite steps:</b> if p<sub>ex</sub> is always only <b>infinitesimally greater</b> than the gas pressure (p<sub>ex</sub> = p<sub>in</sub> + dp for compression, p<sub>in</sub> − dp for expansion), then</p><p class='f'>w = −∫ p<sub>ex</sub> dV   (Eq. 5.3)</p><p>Such a process is <b>reversible</b>. At any moment it could be reversed by an infinitesimal change. It proceeds <b>infinitely slowly</b> through a series of equilibrium states, with the system and surroundings always in near-equilibrium.</p><p>All other processes are <b>irreversible</b>.</p>",
+       "points": [
+        "Reversible: infinitely slow, a series of equilibrium states, reversible by an infinitesimal change.",
+        "On a p–V graph, reversible compression needs the least work and reversible expansion gives the most work."
+       ],
+       "questions": [
+        {
+         "q": "A reversible process is one which:",
+         "o": [
+          "Takes place rapidly",
+          "Proceeds infinitely slowly through a series of equilibrium states",
+          "Can be reversed only by a large change",
+          "Always occurs at constant volume"
+         ],
+         "a": 1,
+         "e": "NCERT: a reversible process proceeds infinitely slowly through equilibrium states and can be reversed by an infinitesimal change.",
+         "lvl": "easy",
+         "id": "reversible-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "For the same initial and final volumes, the magnitude of work done BY a gas on isothermal expansion is maximum when the expansion is:",
+         "o": [
+          "Single-step irreversible",
+          "Two-step irreversible",
+          "Reversible",
+          "Free expansion"
+         ],
+         "a": 2,
+         "e": "In reversible expansion, p_ex tracks the gas pressure, giving the largest area under the p–V curve.",
+         "lvl": "medium",
+         "id": "reversible-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "iso-rev",
+       "title": "Isothermal Reversible Work",
+       "short": "Isothermal Rev.",
+       "pages": [
+        142
+       ],
+       "ref": "5.2.1 · Eq 5.4, 5.5",
+       "synopsis": "<p>Under reversible conditions p<sub>ex</sub> = p<sub>in</sub> ± dp. Since dp·dV is negligible, we can replace p<sub>ex</sub> with the gas pressure p:</p><p class='f'>w<sub>rev</sub> = −∫ p dV   (Eq. 5.4)</p><p>For n mol of ideal gas, p = nRT/V. At constant T (<b>isothermal</b>):</p><p class='f'>w<sub>rev</sub> = −nRT ln(V<sub>f</sub>/V<sub>i</sub>) = −2.303 nRT log(V<sub>f</sub>/V<sub>i</sub>)   (Eq. 5.5)</p><p>Since p<sub>1</sub>V<sub>1</sub> = p<sub>2</sub>V<sub>2</sub> at constant T, you can also write V<sub>f</sub>/V<sub>i</sub> = p<sub>i</sub>/p<sub>f</sub>.</p>",
+       "formulas": [
+        "w_rev = −2.303 nRT log(V_f/V_i) = −2.303 nRT log(p_i/p_f)"
+       ],
+       "questions": [
+        {
+         "q": "2 mol of an ideal gas expand isothermally and reversibly at 300 K from 10 L to 100 L. Work done is about (R = 8.314 J K⁻¹ mol⁻¹):",
+         "o": [
+          "−5.74 kJ",
+          "−11.5 kJ",
+          "+11.5 kJ",
+          "−26.4 kJ"
+         ],
+         "a": 1,
+         "e": "w = −2.303 × 2 × 8.314 × 300 × log 10 = −11 488 J ≈ −11.5 kJ.",
+         "lvl": "medium",
+         "id": "iso-rev-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "In the expression w_rev = −2.303 nRT log(V_f/V_i), the ratio V_f/V_i can be replaced (isothermal ideal gas) by:",
+         "o": [
+          "p_f/p_i",
+          "p_i/p_f",
+          "T_f/T_i",
+          "n_f/n_i"
+         ],
+         "a": 1,
+         "e": "Boyle's law: p_i V_i = p_f V_f, so V_f/V_i = p_i/p_f.",
+         "lvl": "easy",
+         "id": "iso-rev-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "free-exp",
+       "title": "Free Expansion",
+       "short": "Free Expansion",
+       "pages": [
+        142
+       ],
+       "ref": "5.2.1 · Free expansion",
+       "synopsis": "<p>Expansion of a gas <b>into vacuum</b> (p<sub>ex</sub> = 0) is <b>free expansion</b>. <b>No work</b> is done, whether the process is reversible or irreversible.</p><p>For an ideal gas expanding isothermally into vacuum, Joule found experimentally that q = 0 as well. So <b>ΔU = 0</b>.</p><p><i>NCERT Problem 5.2:</i> 2 L of gas at 10 atm expands isothermally into vacuum to 10 L. Then q = −w = 0 × 8 = 0: no work and no heat.</p>",
+       "points": [
+        "Free expansion: p_ex = 0, so w = 0.",
+        "Ideal gas, isothermal free expansion: q = 0, w = 0, ΔU = 0."
+       ],
+       "questions": [
+        {
+         "q": "An ideal gas expands isothermally into vacuum. Which is correct?",
+         "o": [
+          "q > 0, w < 0",
+          "q = 0, w = 0, ΔU = 0",
+          "q < 0, w > 0",
+          "q = 0, w < 0"
+         ],
+         "a": 1,
+         "e": "Against zero external pressure, w = 0. For an ideal gas at constant T, ΔU = 0, so q = 0 too.",
+         "lvl": "medium",
+         "id": "free-exp-q1",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "process-summary",
+       "title": "q and w for Different Processes",
+       "short": "Process Summary",
+       "pages": [
+        142,
+        143
+       ],
+       "ref": "5.2.1 · Problems 5.2–5.4",
+       "synopsis": "<p>Put w = −p<sub>ex</sub>ΔV into the First Law: ΔU = q − p<sub>ex</sub>ΔV.</p><table><tr><th>Process</th><th>Result</th></tr><tr><td>Constant volume (ΔV = 0)</td><td>ΔU = q<sub>V</sub></td></tr><tr><td>Isothermal irreversible (ideal gas, ΔU = 0)</td><td>q = −w = p<sub>ex</sub>(V<sub>f</sub> − V<sub>i</sub>)</td></tr><tr><td>Isothermal reversible (ideal gas)</td><td>q = −w = 2.303 nRT log(V<sub>f</sub>/V<sub>i</sub>)</td></tr><tr><td>Adiabatic</td><td>q = 0, ΔU = w<sub>ad</sub></td></tr></table><p><b>NCERT trio for one expansion (2 L → 10 L, 25 °C):</b></p><ul><li>Into vacuum: q = 0</li><li>Against 1 atm: q = 8 L atm</li><li>Reversible, 1 mol: q ≈ 39.4 L atm</li></ul><p>The same initial and final states give <b>different q and w</b> on different paths, a direct demonstration that q and w are path functions.</p>",
+       "questions": [
+        {
+         "q": "For an isothermal expansion of an ideal gas, which statement is correct?",
+         "o": [
+          "ΔU = 0 and q = −w",
+          "q = 0",
+          "w = 0",
+          "ΔU = q"
+         ],
+         "a": 0,
+         "e": "For an ideal gas, U depends only on T. Isothermal means ΔU = 0, so q = −w.",
+         "lvl": "easy",
+         "id": "process-summary-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "Heat absorbed at constant volume equals:",
+         "o": [
+          "ΔH",
+          "ΔU",
+          "w",
+          "pΔV"
+         ],
+         "a": 1,
+         "e": "At constant volume no pV work is done, so ΔU = q_V.",
+         "lvl": "easy",
+         "id": "process-summary-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "enthalpy",
+     "title": "5.2.2 Enthalpy (H)",
+     "short": "Enthalpy",
+     "pages": [
+      143,
+      144,
+      145
+     ],
+     "ref": "5.2.2",
+     "synopsis": "<p>Most reactions run at <b>constant pressure</b> (open flasks, test tubes), not constant volume. So we define a state function whose change equals the heat at constant pressure: <b>enthalpy, H = U + pV</b>. This sub-topic also covers extensive vs intensive properties, heat capacity, and C<sub>p</sub> − C<sub>V</sub> = R.</p>",
+     "formulas": [
+      "H = U + pV",
+      "ΔH = q_p",
+      "ΔH = ΔU + Δn_g RT",
+      "C_p − C_V = R"
+     ],
+     "children": [
+      {
+       "id": "h-def",
+       "title": "(a) H = U + pV and ΔH = q(p)",
+       "short": "Defining H",
+       "pages": [
+        143
+       ],
+       "ref": "5.2.2 (a) · Eq 5.6–5.8",
+       "synopsis": "<p>At constant pressure: ΔU = q<sub>p</sub> − pΔV. Rearranging gives q<sub>p</sub> = (U<sub>2</sub> + pV<sub>2</sub>) − (U<sub>1</sub> + pV<sub>1</sub>). This motivates:</p><p class='f'>H = U + pV   (Eq. 5.7)    so   q<sub>p</sub> = ΔH</p><p>The word comes from the Greek <i>enthalpien</i>, 'to warm' or 'heat content'.</p><ul><li>H depends on U, p and V, which are all state functions, so <b>H is a state function</b>.</li><li>Therefore <b>q<sub>p</sub> is path-independent</b>, even though q in general is not.</li><li>At constant p: <b>ΔH = ΔU + pΔV</b> (Eq. 5.8).</li><li>At constant V: ΔH = ΔU = q<sub>V</sub>.</li></ul><p><b>Sign:</b> ΔH is <b>negative for exothermic</b> reactions (heat released) and <b>positive for endothermic</b> reactions (heat absorbed).</p>",
+       "traps": [
+        "q is path-dependent in general, but q_p (= ΔH) and q_V (= ΔU) are path-independent."
+       ],
+       "questions": [
+        {
+         "q": "Heat absorbed by a system at constant pressure is equal to:",
+         "o": [
+          "ΔU",
+          "ΔH",
+          "w",
+          "ΔG"
+         ],
+         "a": 1,
+         "e": "By definition, ΔH = q_p.",
+         "lvl": "easy",
+         "id": "h-def-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "For an exothermic reaction:",
+         "o": [
+          "ΔH > 0",
+          "ΔH < 0",
+          "ΔH = 0",
+          "ΔH = ΔU always"
+         ],
+         "a": 1,
+         "e": "Exothermic reactions release heat, so ΔH is negative.",
+         "lvl": "easy",
+         "id": "h-def-q2",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "Which statement is correct?",
+         "o": [
+          "q is a state function",
+          "q_p is path-dependent",
+          "q_p is path-independent because it equals ΔH",
+          "H is a path function"
+         ],
+         "a": 2,
+         "e": "H is a state function, so ΔH, and hence q_p, does not depend on path.",
+         "lvl": "medium",
+         "id": "h-def-q3",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "dh-du",
+       "title": "ΔH = ΔU + Δn(g)RT",
+       "short": "ΔH vs ΔU",
+       "pages": [
+        143,
+        144
+       ],
+       "ref": "5.2.2 · Eq 5.9, 5.10 · Problem 5.5",
+       "synopsis": "<p>For solids and liquids, the volume change is tiny, so <b>ΔH ≈ ΔU</b>. With <b>gases</b> the difference matters.</p><p>At constant p and T, pV<sub>A</sub> = n<sub>A</sub>RT and pV<sub>B</sub> = n<sub>B</sub>RT, so pΔV = Δn<sub>g</sub>RT. This gives:</p><p class='f'>ΔH = ΔU + Δn<sub>g</sub>RT   (Eq. 5.10)</p><p><b>Δn<sub>g</sub></b> = moles of <b>gaseous</b> products − moles of <b>gaseous</b> reactants. Ignore solids and liquids.</p><table><tr><th>Δn<sub>g</sub></th><th>Relation</th></tr><tr><td>&gt; 0</td><td>ΔH &gt; ΔU</td></tr><tr><td>= 0</td><td>ΔH = ΔU</td></tr><tr><td>&lt; 0</td><td>ΔH &lt; ΔU</td></tr></table><p><i>NCERT Problem 5.5:</i> vaporising 1 mol of water at 100 °C, ΔH = 41 kJ mol⁻¹ and Δn<sub>g</sub> = 1. So ΔU = 41 − (8.3 × 373 × 10⁻³) ≈ <b>37.9 kJ mol⁻¹</b>.</p>",
+       "formulas": [
+        "ΔH = ΔU + Δn_g RT"
+       ],
+       "traps": [
+        "Count only GASEOUS species for Δn_g. In CH₄ combustion water is liquid, so Δn_g = 1 − 3 = −2.",
+        "Use R in kJ (8.314 × 10⁻³ kJ K⁻¹ mol⁻¹) when ΔH is in kJ."
+       ],
+       "questions": [
+        {
+         "q": "For CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔU = −X kJ mol⁻¹. Then ΔH is:",
+         "o": [
+          "= ΔU",
+          "> ΔU",
+          "< ΔU",
+          "= 0"
+         ],
+         "a": 2,
+         "e": "Δn_g = 1 − 3 = −2, so ΔH = ΔU − 2RT, which is less than ΔU.",
+         "lvl": "medium",
+         "id": "dh-du-q1",
+         "src": "NCERT Ex 5.4",
+         "pyq": []
+        },
+        {
+         "q": "For which reaction is ΔH = ΔU?",
+         "o": [
+          "N₂(g) + 3H₂(g) → 2NH₃(g)",
+          "H₂(g) + Cl₂(g) → 2HCl(g)",
+          "PCl₅(g) → PCl₃(g) + Cl₂(g)",
+          "2SO₂(g) + O₂(g) → 2SO₃(g)"
+         ],
+         "a": 1,
+         "e": "For H₂ + Cl₂ → 2HCl, Δn_g = 2 − 2 = 0, so ΔH = ΔU.",
+         "lvl": "easy",
+         "id": "dh-du-q2",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "ΔvapH of water at 373 K is 40.7 kJ mol⁻¹. ΔvapU (water vapour as ideal gas) is about:",
+         "o": [
+          "43.8 kJ mol⁻¹",
+          "40.7 kJ mol⁻¹",
+          "37.6 kJ mol⁻¹",
+          "34.5 kJ mol⁻¹"
+         ],
+         "a": 2,
+         "e": "ΔU = ΔH − Δn_g RT = 40.7 − (1)(8.314 × 10⁻³)(373) ≈ 40.7 − 3.1 = 37.6 kJ mol⁻¹.",
+         "lvl": "medium",
+         "id": "dh-du-q3",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "For C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l) at 298 K, Δn_g is:",
+         "o": [
+          "+2",
+          "−3",
+          "+1",
+          "−6"
+         ],
+         "a": 1,
+         "e": "Gaseous products 3, gaseous reactants 6, so Δn_g = −3. Liquid water is not counted.",
+         "lvl": "easy",
+         "id": "dh-du-q4",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "ext-int",
+       "title": "(b) Extensive & Intensive Properties",
+       "short": "Extensive/Intensive",
+       "pages": [
+        144
+       ],
+       "ref": "5.2.2 (b) · Fig 5.6",
+       "diagram": "partition",
+       "synopsis": "<p><b>Extensive:</b> the value depends on the <b>amount</b> of matter. Examples: mass, volume, internal energy, enthalpy, heat capacity (also entropy and Gibbs energy).</p><p><b>Intensive:</b> the value does <b>not</b> depend on amount. Examples: temperature, pressure, density.</p><p><b>Molar property</b> χ<sub>m</sub> = χ/n, an extensive property per mole. It is <b>intensive</b>. Examples: molar volume V<sub>m</sub> and molar heat capacity C<sub>m</sub>.</p><p><i>NCERT test (Fig 5.6):</i> split a gas (V, T) in half with a partition. Each half has volume V/2 but the same T. So V is extensive and T is intensive.</p>",
+       "points": [
+        "Ratio of two extensive properties = intensive (density = m/V; C_m = C/n).",
+        "G is extensive (stated in 5.6 c)."
+       ],
+       "traps": [
+        "Heat capacity is EXTENSIVE, but specific heat and molar heat capacity are INTENSIVE."
+       ],
+       "questions": [
+        {
+         "q": "Which of the following is an intensive property?",
+         "o": [
+          "Enthalpy",
+          "Heat capacity",
+          "Molar heat capacity",
+          "Volume"
+         ],
+         "a": 2,
+         "e": "Molar heat capacity = C/n, the ratio of two extensive quantities, so it is intensive.",
+         "lvl": "medium",
+         "id": "ext-int-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "Which set contains only extensive properties?",
+         "o": [
+          "Mass, volume, enthalpy",
+          "Temperature, pressure, density",
+          "Mass, density, enthalpy",
+          "Volume, temperature, heat capacity"
+         ],
+         "a": 0,
+         "e": "Mass, volume and enthalpy all scale with the amount of substance.",
+         "lvl": "easy",
+         "id": "ext-int-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "heat-capacity",
+       "title": "(c) Heat Capacity",
+       "short": "Heat Capacity",
+       "pages": [
+        144,
+        145
+       ],
+       "ref": "5.2.2 (c) · Eq 5.11",
+       "synopsis": "<p>Heat absorbed shows up as a temperature rise: <b>q = C ΔT</b>, where C is the <b>heat capacity</b>. Its magnitude depends on the size, composition and nature of the system.</p><ul><li><b>Large C</b>, small temperature rise for a given heat. <b>Water</b> has a large heat capacity.</li><li><b>Molar heat capacity</b> C<sub>m</sub> = C/n: heat to raise 1 mol by 1 °C (1 K).</li><li><b>Specific heat (capacity)</b> c: heat to raise <b>unit mass</b> by 1 °C (1 K).</li></ul><p class='f'>q = c × m × ΔT = C ΔT   (Eq. 5.11)</p>",
+       "formulas": [
+        "q = C ΔT",
+        "q = m c ΔT",
+        "C_m = C/n"
+       ],
+       "questions": [
+        {
+         "q": "Heat needed to raise the temperature of 60.0 g of Al from 35 °C to 55 °C (molar heat capacity 24 J mol⁻¹ K⁻¹, M = 27 g mol⁻¹) is about:",
+         "o": [
+          "0.53 kJ",
+          "1.07 kJ",
+          "2.14 kJ",
+          "28.8 kJ"
+         ],
+         "a": 1,
+         "e": "n = 60/27 = 2.22 mol; q = 2.22 × 24 × 20 ≈ 1067 J ≈ 1.07 kJ.",
+         "lvl": "medium",
+         "src": "NCERT Ex 5.9",
+         "id": "heat-capacity-q1",
+         "pyq": []
+        },
+        {
+         "q": "A substance with a large heat capacity will show:",
+         "o": [
+          "A large temperature rise for a given heat input",
+          "A small temperature rise for a given heat input",
+          "No temperature change",
+          "A temperature fall on heating"
+         ],
+         "a": 1,
+         "e": "q = CΔT, so for fixed q, a larger C gives a smaller ΔT.",
+         "lvl": "easy",
+         "id": "heat-capacity-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "cp-cv",
+       "title": "(d) Cp − Cv = R (Ideal Gas)",
+       "short": "Cp − Cv = R",
+       "pages": [
+        145
+       ],
+       "ref": "5.2.2 (d) · Eq 5.12, 5.13",
+       "synopsis": "<p>q<sub>V</sub> = C<sub>V</sub>ΔT = ΔU and q<sub>p</sub> = C<sub>p</sub>ΔT = ΔH.</p><p>For 1 mol of ideal gas, ΔH = ΔU + Δ(pV) = ΔU + Δ(RT) = ΔU + RΔT. Substituting:</p><p class='f'>C<sub>p</sub>ΔT = C<sub>V</sub>ΔT + RΔT  ⟹  C<sub>p</sub> − C<sub>V</sub> = R   (Eq. 5.13)</p><p>So C<sub>p</sub> &gt; C<sub>V</sub> always. At constant pressure, part of the heat goes into expansion work.</p><p><i>Useful extra (from the NCERT box in 5.5):</i> for a monoatomic gas, C<sub>V</sub> = 3/2 R and C<sub>p</sub> = 5/2 R.</p>",
+       "formulas": [
+        "C_p − C_V = R",
+        "Monoatomic: C_V = 3R/2, C_p = 5R/2"
+       ],
+       "questions": [
+        {
+         "q": "For one mole of an ideal gas, Cp − Cv equals:",
+         "o": [
+          "0",
+          "R",
+          "R/2",
+          "2R"
+         ],
+         "a": 1,
+         "e": "From ΔH = ΔU + RΔT for 1 mol of ideal gas, Cp − Cv = R.",
+         "lvl": "easy",
+         "id": "cp-cv-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "Why is Cp greater than Cv for a gas?",
+         "o": [
+          "At constant pressure, part of the heat is used to do expansion work",
+          "At constant volume, heat is lost",
+          "Pressure increases internal energy",
+          "Cv includes work of expansion"
+         ],
+         "a": 0,
+         "e": "At constant p, the gas expands and does work, so more heat is needed for the same ΔT.",
+         "lvl": "medium",
+         "id": "cp-cv-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "calorimetry",
+   "title": "5.3 Measuring ΔU and ΔH: Calorimetry",
+   "short": "Calorimetry",
+   "pages": [
+    145,
+    146
+   ],
+   "ref": "Section 5.3",
+   "synopsis": "<p><b>Calorimetry</b> measures heat changes. The process runs in a <b>calorimeter</b> immersed in a known volume of liquid. Knowing the heat capacities of the liquid and the calorimeter, the measured <b>temperature change</b> gives the heat. There are two set-ups: <b>constant volume</b> (gives ΔU) and <b>constant pressure</b> (gives ΔH).</p>",
+   "children": [
+    {
+     "id": "bomb",
+     "title": "(a) ΔU: Bomb Calorimeter",
+     "short": "Bomb Calorimeter",
+     "pages": [
+      145
+     ],
+     "ref": "5.3 (a) · Fig 5.7",
+     "diagram": "bomb",
+     "synopsis": "<p>A sealed <b>steel vessel (the bomb)</b> sits in a water bath, so no heat is lost to the surroundings. The substance burns in <b>pure dioxygen</b> inside the bomb. The heat released passes into the water, and its temperature is monitored.</p><ul><li>The bomb is sealed, so <b>volume is constant</b>. No work is done, even for reactions involving gases (ΔV = 0).</li><li>The heat measured is <b>q<sub>V</sub> = ΔU</b>. It comes from ΔT and the known heat capacity of the calorimeter (q = CΔT).</li></ul>",
+     "questions": [
+      {
+       "q": "A bomb calorimeter measures:",
+       "o": [
+        "ΔH directly",
+        "ΔU (heat at constant volume)",
+        "ΔG",
+        "ΔS"
+       ],
+       "a": 1,
+       "e": "The bomb is sealed and rigid (ΔV = 0), so the heat measured is q_V = ΔU.",
+       "lvl": "easy",
+       "id": "bomb-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "Why is no work done in a bomb calorimeter even when gases are produced?",
+       "o": [
+        "Gases do not expand",
+        "The volume of the sealed bomb is constant",
+        "Temperature is constant",
+        "Pressure is zero"
+       ],
+       "a": 1,
+       "e": "w = −pΔV and ΔV = 0 in the sealed steel bomb.",
+       "lvl": "easy",
+       "id": "bomb-q2",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "coffee-cup",
+     "title": "(b) ΔH: Constant-pressure Calorimeter",
+     "short": "Const-p Calorimeter",
+     "pages": [
+      146
+     ],
+     "ref": "5.3 (b) · Fig 5.8",
+     "synopsis": "<p>Heat changes at <b>constant (atmospheric) pressure</b> are measured in an open calorimeter (Fig 5.8). Since ΔH = q<sub>p</sub>, the heat measured is the <b>heat of reaction</b>, or <b>enthalpy of reaction, Δ<sub>r</sub>H</b>.</p><ul><li>Exothermic: heat evolved, q<sub>p</sub> &lt; 0, Δ<sub>r</sub>H &lt; 0</li><li>Endothermic: heat absorbed, q<sub>p</sub> &gt; 0, Δ<sub>r</sub>H &gt; 0</li></ul>",
+     "questions": [
+      {
+       "q": "The heat absorbed or evolved at constant pressure in a calorimeter is called:",
+       "o": [
+        "Internal energy change",
+        "Enthalpy of reaction",
+        "Gibbs energy",
+        "Lattice energy"
+       ],
+       "a": 1,
+       "e": "q_p = Δ_rH, the enthalpy (heat) of reaction.",
+       "lvl": "easy",
+       "id": "coffee-cup-q1",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "graphite-problem",
+     "title": "Worked: Burning Graphite in a Bomb",
+     "short": "Graphite Problem",
+     "pages": [
+      146
+     ],
+     "ref": "Problem 5.6",
+     "synopsis": "<p>1 g of graphite burns in a bomb calorimeter (C<sub>V</sub> = 20.7 kJ K⁻¹), and the temperature rises from 298 K to 299 K.</p><ol><li>Heat gained by the calorimeter = 20.7 × 1 = 20.7 kJ. The reaction lost the same amount, so q = <b>−20.7 kJ</b> per gram.</li><li>Per mole (12 g): ΔU = 12 × (−20.7) = <b>−2.48 × 10² kJ mol⁻¹</b>.</li><li>C(s) + O<sub>2</sub>(g) → CO<sub>2</sub>(g) has Δn<sub>g</sub> = 1 − 1 = 0, so <b>ΔH = ΔU</b>.</li></ol><p class='errata'>NCERT erratum: the text writes ΔU for 1 g as '−20.7 kJ K⁻¹'. The correct unit is <b>kJ</b> (it is an energy, not a heat capacity).</p>",
+     "questions": [
+      {
+       "q": "A reaction in a bomb calorimeter (heat capacity 10.0 kJ K⁻¹) raises the temperature by 2.0 K. q for the reaction is:",
+       "o": [
+        "+20 kJ",
+        "−20 kJ",
+        "+5 kJ",
+        "−5 kJ"
+       ],
+       "a": 1,
+       "e": "The calorimeter gains CΔT = 20 kJ. The reaction lost it, so q = −20 kJ (exothermic).",
+       "lvl": "medium",
+       "id": "graphite-problem-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "For C(graphite) + O₂(g) → CO₂(g), the relation between ΔH and ΔU is:",
+       "o": [
+        "ΔH > ΔU",
+        "ΔH < ΔU",
+        "ΔH = ΔU",
+        "Cannot be predicted"
+       ],
+       "a": 2,
+       "e": "Δn_g = 1 − 1 = 0, so ΔH = ΔU.",
+       "lvl": "easy",
+       "id": "graphite-problem-q2",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reaction-enthalpy",
+   "title": "5.4 Reaction Enthalpy (ΔᵣH)",
+   "short": "Reaction Enthalpy",
+   "pages": [
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152
+   ],
+   "ref": "Section 5.4",
+   "synopsis": "<p>The enthalpy change that accompanies a reaction is the <b>reaction enthalpy, Δ<sub>r</sub>H</b>:</p><p class='f'>Δ<sub>r</sub>H = Σ a<sub>i</sub> H(products) − Σ b<sub>i</sub> H(reactants)   (Eq. 5.14)</p><p>Industry needs it to plan heating or cooling, and it is also needed for the temperature dependence of K. This section covers <b>standard states</b>, <b>phase changes</b>, <b>enthalpy of formation</b>, <b>thermochemical equations</b> and <b>Hess's law</b>.</p>",
+   "children": [
+    {
+     "id": "rh-def",
+     "title": "ΔᵣH = ΣH(products) − ΣH(reactants)",
+     "short": "Definition",
+     "pages": [
+      146,
+      147
+     ],
+     "ref": "5.4 · Eq 5.14",
+     "synopsis": "<p>The a<sub>i</sub> and b<sub>i</sub> are the <b>stoichiometric coefficients</b> from the balanced equation, and H<sub>m</sub> is the molar enthalpy.</p><p><i>Example:</i> CH<sub>4</sub>(g) + 2O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2H<sub>2</sub>O(l)</p><p class='f'>Δ<sub>r</sub>H = [H<sub>m</sub>(CO<sub>2</sub>) + 2H<sub>m</sub>(H<sub>2</sub>O,l)] − [H<sub>m</sub>(CH<sub>4</sub>) + 2H<sub>m</sub>(O<sub>2</sub>)]</p><p><b>Uses:</b> planning the heating or cooling needed to keep an industrial reaction at constant temperature, and calculating how the equilibrium constant changes with temperature.</p>",
+     "questions": [
+      {
+       "q": "Knowledge of Δ_rH is needed for all EXCEPT:",
+       "o": [
+        "Planning heating/cooling of an industrial reaction",
+        "Temperature dependence of the equilibrium constant",
+        "Predicting the rate constant of a reaction",
+        "Calculating heat released in combustion"
+       ],
+       "a": 2,
+       "e": "Rate constants belong to chemical kinetics. NCERT lists the other uses.",
+       "lvl": "medium",
+       "id": "rh-def-q1",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "std-state",
+     "title": "(a) Standard Enthalpy & Standard State",
+     "short": "Standard State",
+     "pages": [
+      147
+     ],
+     "ref": "5.4 (a)",
+     "synopsis": "<p>Enthalpy depends on conditions, so we fix standard ones.</p><p><b>Standard enthalpy of reaction</b> (Δ<sub>r</sub>H°): the enthalpy change when <b>all</b> participants are in their <b>standard states</b>.</p><p><b>Standard state</b> of a substance at a given temperature: its <b>pure form at 1 bar</b>.</p><ul><li>Liquid ethanol at 298 K: pure liquid ethanol at 1 bar.</li><li>Solid iron at 500 K: pure iron at 1 bar.</li></ul><p>Data are usually quoted at 298 K. Standard conditions are shown by the superscript <b>°</b>.</p>",
+     "traps": [
+      "The standard state specifies PRESSURE (1 bar), not temperature. A standard state can exist at any temperature; 298 K is just the usual choice."
+     ],
+     "questions": [
+      {
+       "q": "The standard state of a substance at a specified temperature is:",
+       "o": [
+        "Its pure form at 1 atm and 273 K",
+        "Its pure form at 1 bar",
+        "Its gaseous form at 1 bar",
+        "Its most stable form at 298 K only"
+       ],
+       "a": 1,
+       "e": "NCERT: the standard state is the pure form at 1 bar at the specified temperature.",
+       "lvl": "easy",
+       "id": "std-state-q1",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "phase",
+     "title": "(b) Enthalpy of Phase Transformations",
+     "short": "Phase Changes",
+     "pages": [
+      147,
+      148,
+      149
+     ],
+     "ref": "5.4 (b) · Table 5.1 · Problems 5.7, 5.8",
+     "synopsis": "<p>Phase changes happen at <b>constant temperature</b> (and pressure), and they still involve energy.</p><table><tr><th>Term</th><th>Process (1 mol, standard state)</th><th>Example</th></tr><tr><td>Δ<sub>fus</sub>H°</td><td>solid → liquid</td><td>Ice: 6.00 kJ mol⁻¹ at 273 K</td></tr><tr><td>Δ<sub>vap</sub>H°</td><td>liquid → vapour (at T<sub>b</sub>, 1 bar)</td><td>Water: +40.79 kJ mol⁻¹</td></tr><tr><td>Δ<sub>sub</sub>H°</td><td>solid → vapour directly</td><td>Dry ice: 25.2 kJ mol⁻¹ at 195 K; naphthalene: 73.0 kJ mol⁻¹</td></tr></table><ul><li>Melting, vaporisation and sublimation are all <b>endothermic</b>, so these enthalpies are <b>positive</b>. The reverse processes (freezing, condensation) release the same amount.</li><li>The magnitude depends on <b>intermolecular forces</b>. Water has strong H-bonds and acetone weaker dipole–dipole forces, so acetone needs less heat per mole to vaporise.</li><li>Since the paths are equivalent (Hess), Δ<sub>sub</sub>H = Δ<sub>fus</sub>H + Δ<sub>vap</sub>H at the same temperature.</li></ul><p><i>Problem 5.7:</i> 18 g of water on a swimmer at 298 K (Δ<sub>vap</sub>H = 44.01 kJ mol⁻¹) needs 44.01 kJ. Then Δ<sub>vap</sub>U = 44.01 − RT = 44.01 − 2.48 = 41.53 kJ.</p><p><i>Problem 5.8:</i> 1 mol of water at 100 °C → ice at 0 °C. ΔH = −(18 × 4.2 × 100) J − 6.00 kJ = −7.56 − 6.00 = <b>−13.56 kJ mol⁻¹</b>. The volume change is negligible, so ΔU ≈ ΔH.</p>",
+     "formulas": [
+      "ΔsubH = ΔfusH + ΔvapH"
+     ],
+     "questions": [
+      {
+       "q": "Which is true for all enthalpies of fusion and vaporisation?",
+       "o": [
+        "They are always negative",
+        "They are always positive",
+        "They are zero at the transition temperature",
+        "They are equal for all substances"
+       ],
+       "a": 1,
+       "e": "Melting and vaporising need heat (endothermic), so these enthalpies are positive.",
+       "lvl": "easy",
+       "id": "phase-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "Acetone needs less heat per mole than water to vaporise because:",
+       "o": [
+        "Acetone has a higher molar mass",
+        "Water has strong intermolecular hydrogen bonds",
+        "Acetone is ionic",
+        "Water has weaker dipole–dipole forces"
+       ],
+       "a": 1,
+       "e": "Strong H-bonding in water holds the molecules tightly. Acetone has only weaker dipole–dipole forces.",
+       "lvl": "easy",
+       "id": "phase-q2",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "If ΔfusH = 6.0 kJ mol⁻¹ and ΔvapH = 45.0 kJ mol⁻¹ for a substance at the same temperature, its ΔsubH is:",
+       "o": [
+        "39.0 kJ mol⁻¹",
+        "51.0 kJ mol⁻¹",
+        "45.0 kJ mol⁻¹",
+        "270 kJ mol⁻¹"
+       ],
+       "a": 1,
+       "e": "Solid → vapour = solid → liquid → vapour, so ΔsubH = 6.0 + 45.0 = 51.0 kJ mol⁻¹.",
+       "lvl": "medium",
+       "id": "phase-q3",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "During melting of ice at 273 K and 1 atm, the temperature:",
+       "o": [
+        "Rises steadily",
+        "Remains constant",
+        "Falls",
+        "First rises then falls"
+       ],
+       "a": 1,
+       "e": "Phase changes take place at constant temperature; the heat absorbed is latent heat.",
+       "lvl": "easy",
+       "id": "phase-q4",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "formation",
+     "title": "(c) Standard Enthalpy of Formation",
+     "short": "Formation (ΔfH°)",
+     "pages": [
+      149,
+      150
+     ],
+     "ref": "5.4 (c) · Table 5.2",
+     "synopsis": "<p><b>Δ<sub>f</sub>H°</b>: the standard enthalpy change for forming <b>one mole</b> of a compound from its <b>elements in their most stable states</b> (reference states).</p><p><b>Reference state</b> of an element is its most stable form at 25 °C and 1 bar: H<sub>2</sub>(g), O<sub>2</sub>(g), <b>C(graphite)</b>, <b>S(rhombic)</b>.</p><p>NCERT examples: Δ<sub>f</sub>H° of H<sub>2</sub>O(l) = −285.8, CH<sub>4</sub>(g) = −74.81, C<sub>2</sub>H<sub>5</sub>OH(l) = −277.7 kJ mol⁻¹.</p><p><b>Convention:</b> Δ<sub>f</sub>H° of an element in its reference state = <b>0</b>.</p><p><b>These are NOT formation enthalpies:</b></p><ul><li>CaO(s) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s), Δ<sub>r</sub>H = −178.3 kJ: formed from <i>compounds</i>, not elements.</li><li>H<sub>2</sub>(g) + Br<sub>2</sub>(l) → 2HBr(g): <i>two</i> moles formed. Halve it to get Δ<sub>f</sub>H°(HBr) = −36.4 kJ mol⁻¹.</li></ul><p class='errata'>NCERT erratum: for H₂ + Br₂ → 2HBr the text prints Δ<sub>r</sub>H° = −178.3 kJ mol⁻¹ (copied from the CaCO₃ line). The consistent value is 2 × (−36.4) = <b>−72.8 kJ mol⁻¹</b>.</p>",
+     "points": [
+      "ΔfH° of an element in its most stable form is 0 (e.g. O₂(g), C(graphite)).",
+      "ΔfH° of C(diamond) or O₃(g) is NOT zero, because they are not reference states."
+     ],
+     "traps": [
+      "ΔfH°(Br₂, l) = 0 but ΔfH°(Br₂, g) ≠ 0, because liquid is bromine's reference state."
+     ],
+     "questions": [
+      {
+       "q": "The enthalpies of all elements in their standard (reference) states are:",
+       "o": [
+        "Unity",
+        "Zero",
+        "Less than zero",
+        "Different for each element"
+       ],
+       "a": 1,
+       "e": "By convention ΔfH° = 0 for every element in its most stable state at 1 bar.",
+       "lvl": "easy",
+       "id": "formation-q1",
+       "src": "NCERT Ex 5.3",
+       "pyq": []
+      },
+      {
+       "q": "For which substance is ΔfH° NOT zero?",
+       "o": [
+        "C(graphite)",
+        "O₂(g)",
+        "C(diamond)",
+        "S(rhombic)"
+       ],
+       "a": 2,
+       "e": "Diamond is not carbon's reference state; graphite is.",
+       "lvl": "easy",
+       "id": "formation-q2",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "Which equation represents the standard enthalpy of formation?",
+       "o": [
+        "CaO(s) + CO₂(g) → CaCO₃(s)",
+        "H₂(g) + Br₂(l) → 2HBr(g)",
+        "½H₂(g) + ½Br₂(l) → HBr(g)",
+        "C(diamond) + O₂(g) → CO₂(g)"
+       ],
+       "a": 2,
+       "e": "It forms 1 mol of HBr from its elements in their reference states. The others start from compounds, make 2 mol, or use diamond.",
+       "lvl": "medium",
+       "id": "formation-q3",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "For N₂(g) + 3H₂(g) → 2NH₃(g), ΔrH° = −92.4 kJ mol⁻¹. ΔfH° of NH₃(g) is:",
+       "o": [
+        "−92.4 kJ mol⁻¹",
+        "−46.2 kJ mol⁻¹",
+        "+46.2 kJ mol⁻¹",
+        "−184.8 kJ mol⁻¹"
+       ],
+       "a": 1,
+       "e": "The equation makes 2 mol of NH₃, so ΔfH° = −92.4/2 = −46.2 kJ mol⁻¹.",
+       "lvl": "easy",
+       "src": "NCERT Ex 5.13",
+       "id": "formation-q4",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "use-formation",
+     "title": "Using ΔfH° to Find ΔᵣH°",
+     "short": "ΔrH from ΔfH",
+     "pages": [
+      150
+     ],
+     "ref": "5.4 (c) · Eq 5.15",
+     "synopsis": "<p class='f'>Δ<sub>r</sub>H° = Σ a<sub>i</sub> Δ<sub>f</sub>H°(products) − Σ b<sub>i</sub> Δ<sub>f</sub>H°(reactants)   (Eq. 5.15)</p><p><i>NCERT example:</i> CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g)</p><p>Δ<sub>r</sub>H° = (−635.1) + (−393.5) − (−1206.9) = <b>+178.3 kJ mol⁻¹</b>. The reaction is endothermic, so limestone must be <b>heated</b> to make lime.</p><p>Recipe: <i>products minus reactants, each multiplied by its coefficient; elements count as zero.</i></p>",
+     "formulas": [
+      "ΔrH° = Σ ΔfH°(products) − Σ ΔfH°(reactants)"
+     ],
+     "questions": [
+      {
+       "q": "ΔfH° values (kJ mol⁻¹): CO(g) = −110, CO₂(g) = −393, N₂O(g) = 81, N₂O₄(g) = 9.7. ΔrH for N₂O₄(g) + 3CO(g) → N₂O(g) + 3CO₂(g) is:",
+       "o": [
+        "−777.7 kJ mol⁻¹",
+        "+777.7 kJ mol⁻¹",
+        "−1070 kJ mol⁻¹",
+        "−320 kJ mol⁻¹"
+       ],
+       "a": 0,
+       "e": "Products: 81 + 3(−393) = −1098. Reactants: 9.7 + 3(−110) = −320.3. ΔrH = −1098 − (−320.3) = −777.7 kJ mol⁻¹.",
+       "lvl": "medium",
+       "src": "NCERT Ex 5.12",
+       "id": "use-formation-q1",
+       "pyq": []
+      },
+      {
+       "q": "Given ΔfH°: Fe₂O₃(s) = −824.2, H₂O(l) = −285.83 kJ mol⁻¹. ΔrH° for Fe₂O₃(s) + 3H₂(g) → 2Fe(s) + 3H₂O(l) is about:",
+       "o": [
+        "−1681.7 kJ mol⁻¹",
+        "+33.3 kJ mol⁻¹",
+        "−33.3 kJ mol⁻¹",
+        "+538.4 kJ mol⁻¹"
+       ],
+       "a": 2,
+       "e": "3(−285.83) − (−824.2) = −857.5 + 824.2 = −33.3 kJ mol⁻¹. Fe and H₂ count as zero.",
+       "lvl": "medium",
+       "id": "use-formation-q2",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "thermo-eq",
+     "title": "(d) Thermochemical Equations",
+     "short": "Thermochemical Eq.",
+     "pages": [
+      150,
+      151
+     ],
+     "ref": "5.4 (d)",
+     "synopsis": "<p>A <b>thermochemical equation</b> is a balanced equation plus its Δ<sub>r</sub>H, with the <b>physical state</b> (and allotropic form) of every substance written in.</p><p>Example: C<sub>2</sub>H<sub>5</sub>OH(l) + 3O<sub>2</sub>(g) → 2CO<sub>2</sub>(g) + 3H<sub>2</sub>O(l); Δ<sub>r</sub>H° = −1367 kJ mol⁻¹</p><p><b>Three conventions:</b></p><ol><li>Coefficients mean <b>moles</b>, never molecules.</li><li>Δ<sub>r</sub>H° refers to the moles <b>as written</b>, and its unit is kJ mol⁻¹, meaning per mole <i>of reaction</i>. Halve the equation and you halve ΔH (−33.3 becomes −16.6 kJ for the Fe<sub>2</sub>O<sub>3</sub> example). So <b>enthalpy is extensive</b>.</li><li><b>Reverse the equation and the sign of ΔH flips.</b> N<sub>2</sub> + 3H<sub>2</sub> → 2NH<sub>3</sub> is −91.8 kJ; 2NH<sub>3</sub> → N<sub>2</sub> + 3H<sub>2</sub> is +91.8 kJ.</li></ol>",
+     "questions": [
+      {
+       "q": "If ΔH for A → B is −x kJ, then ΔH for 2B → 2A is:",
+       "o": [
+        "−2x kJ",
+        "+2x kJ",
+        "+x kJ",
+        "−x/2 kJ"
+       ],
+       "a": 1,
+       "e": "Reversing flips the sign (+x) and doubling doubles the value: +2x kJ.",
+       "lvl": "easy",
+       "id": "thermo-eq-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "In a thermochemical equation, the stoichiometric coefficients represent:",
+       "o": [
+        "Number of molecules",
+        "Number of moles",
+        "Mass in grams",
+        "Volume in litres"
+       ],
+       "a": 1,
+       "e": "NCERT convention 1: coefficients are moles, never molecules.",
+       "lvl": "easy",
+       "id": "thermo-eq-q2",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "Heat released on forming 35.2 g of CO₂ from carbon (ΔcH of C = −393.5 kJ mol⁻¹) is:",
+       "o": [
+        "393.5 kJ",
+        "314.8 kJ",
+        "196.8 kJ",
+        "157.4 kJ"
+       ],
+       "a": 1,
+       "e": "35.2/44 = 0.8 mol; 0.8 × 393.5 = 314.8 kJ released.",
+       "lvl": "medium",
+       "src": "NCERT Ex 5.11",
+       "id": "thermo-eq-q3",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "hess",
+     "title": "(e) Hess's Law of Constant Heat Summation",
+     "short": "Hess's Law",
+     "pages": [
+      151,
+      152
+     ],
+     "ref": "5.4 (e) · Eq 5.16",
+     "diagram": "hess",
+     "synopsis": "<p>Enthalpy is a state function, so ΔH for a reaction is <b>the same whether it happens in one step or many</b>.</p><blockquote>If a reaction takes place in several steps, its standard reaction enthalpy is the sum of the standard enthalpies of the intermediate reactions (at the same temperature).</blockquote><p class='f'>Δ<sub>r</sub>H = Δ<sub>r</sub>H<sub>1</sub> + Δ<sub>r</sub>H<sub>2</sub> + Δ<sub>r</sub>H<sub>3</sub> + …   (Eq. 5.16)</p><p><b>Why we need it:</b> burning carbon always gives some CO<sub>2</sub> along with CO, so Δ<sub>r</sub>H for C → CO <b>cannot be measured directly</b>.</p><ol><li>C(graphite) + O<sub>2</sub> → CO<sub>2</sub>; ΔH = −393.5 kJ mol⁻¹</li><li>CO + ½O<sub>2</sub> → CO<sub>2</sub>; ΔH = −283.0 kJ mol⁻¹</li><li>Reverse (2): CO<sub>2</sub> → CO + ½O<sub>2</sub>; ΔH = +283.0</li><li>Add (1) and (3): <b>C + ½O<sub>2</sub> → CO; ΔH = −110.5 kJ mol⁻¹</b></li></ol><p><b>Toolkit:</b> equations can be added, subtracted, reversed (flip the sign) and multiplied (scale ΔH), exactly like algebra.</p>",
+     "formulas": [
+      "ΔrH = ΔrH₁ + ΔrH₂ + ΔrH₃ + …"
+     ],
+     "questions": [
+      {
+       "q": "Hess's law is a direct consequence of the fact that:",
+       "o": [
+        "Enthalpy is an intensive property",
+        "Enthalpy is a state function",
+        "Heat is a path function",
+        "Energy can be created"
+       ],
+       "a": 1,
+       "e": "ΔH depends only on the initial and final states, so it is the same for any route.",
+       "lvl": "easy",
+       "id": "hess-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "C(s) + O₂ → CO₂, ΔH = −393.5 kJ; CO + ½O₂ → CO₂, ΔH = −283.0 kJ. ΔH for C(s) + ½O₂ → CO is:",
+       "o": [
+        "−676.5 kJ",
+        "−110.5 kJ",
+        "+110.5 kJ",
+        "−283.0 kJ"
+       ],
+       "a": 1,
+       "e": "(1) − (2): −393.5 − (−283.0) = −110.5 kJ.",
+       "lvl": "easy",
+       "id": "hess-q2",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "Why can ΔH for C(graphite) + ½O₂ → CO not be measured directly?",
+       "o": [
+        "The reaction is too slow",
+        "Some CO₂ is always formed along with CO",
+        "CO is unstable",
+        "Graphite does not burn"
+       ],
+       "a": 1,
+       "e": "NCERT: some CO₂ always forms, so direct measurement is impossible; Hess's law is used instead.",
+       "lvl": "easy",
+       "id": "hess-q3",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "Given A → B, ΔH = +20 kJ; B → C, ΔH = −50 kJ; C → D, ΔH = +10 kJ. ΔH for D → A is:",
+       "o": [
+        "−20 kJ",
+        "+20 kJ",
+        "−80 kJ",
+        "+80 kJ"
+       ],
+       "a": 1,
+       "e": "A → D = 20 − 50 + 10 = −20 kJ, so D → A = +20 kJ.",
+       "lvl": "medium",
+       "id": "hess-q4",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "enthalpy-types",
+   "title": "5.5 Enthalpies for Different Types of Reactions",
+   "short": "Types of Enthalpy",
+   "pages": [
+    152,
+    153,
+    154,
+    155,
+    156,
+    157
+   ],
+   "ref": "Section 5.5",
+   "synopsis": "<p>Special reactions get their own named enthalpies: <b>combustion, atomization, bond enthalpy, lattice enthalpy, solution</b> and <b>dilution</b>. Each is defined per mole, under standard conditions.</p><table><tr><th>Symbol</th><th>Name</th><th>Sign</th></tr><tr><td>Δ<sub>c</sub>H</td><td>Combustion</td><td>Always −</td></tr><tr><td>Δ<sub>a</sub>H</td><td>Atomization</td><td>Always +</td></tr><tr><td>Δ<sub>bond</sub>H</td><td>Bond (dissociation / mean)</td><td>+ (breaking)</td></tr><tr><td>Δ<sub>lattice</sub>H</td><td>Lattice (solid → gaseous ions)</td><td>+</td></tr><tr><td>Δ<sub>sol</sub>H</td><td>Solution</td><td>+ or −</td></tr><tr><td>Δ<sub>dil</sub>H</td><td>Dilution</td><td>+ or −</td></tr></table>",
+   "children": [
+    {
+     "id": "combustion",
+     "title": "(a) Enthalpy of Combustion (ΔcH°)",
+     "short": "Combustion",
+     "pages": [
+      152,
+      153
+     ],
+     "ref": "5.5 (a) · Problem 5.9",
+     "synopsis": "<p><b>Δ<sub>c</sub>H°</b>: the enthalpy change per mole of a substance when it burns completely, with all reactants and products in their standard states. Combustion is always <b>exothermic</b>.</p><ul><li>Butane (cooking gas): C<sub>4</sub>H<sub>10</sub>(g) + 13/2 O<sub>2</sub> → 4CO<sub>2</sub> + 5H<sub>2</sub>O(l); Δ<sub>c</sub>H = −2658 kJ mol⁻¹</li><li>Glucose: Δ<sub>c</sub>H = −2802 kJ mol⁻¹. Our body extracts energy from food through the same overall process, by a series of enzyme-catalysed steps.</li></ul><p><b>Problem 5.9 (benzene):</b> Δ<sub>c</sub>H(C<sub>6</sub>H<sub>6</sub>, l) = −3267 kJ mol⁻¹. Using Δ<sub>f</sub>H(CO<sub>2</sub>) = −393.5 and Δ<sub>f</sub>H(H<sub>2</sub>O) = −285.83:</p><p class='f'>Δ<sub>f</sub>H(C<sub>6</sub>H<sub>6</sub>) = 6(−393.5) + 3(−285.83) − (−3267) = <b>+48.51 kJ mol⁻¹</b></p><p class='errata'>NCERT erratum: the final line of Problem 5.9 prints −48.51 kJ mol⁻¹. The arithmetic gives <b>+48.51 kJ mol⁻¹</b> (benzene has a positive enthalpy of formation): −3218.49 + 3267.0 = +48.51.</p><p><b>Shortcut:</b> Δ<sub>f</sub>H(compound) = Σ Δ<sub>c</sub>H(elements) − Δ<sub>c</sub>H(compound).</p>",
+     "formulas": [
+      "ΔfH(compound) = Σ ΔcH(elements) − ΔcH(compound)"
+     ],
+     "questions": [
+      {
+       "q": "ΔcH of ethane, graphite and H₂ are −1560, −393.5 and −285.8 kJ mol⁻¹. ΔfH of C₂H₆(g) is about:",
+       "o": [
+        "−84.4 kJ mol⁻¹",
+        "+84.4 kJ mol⁻¹",
+        "−880.7 kJ mol⁻¹",
+        "−1644 kJ mol⁻¹"
+       ],
+       "a": 0,
+       "e": "ΔfH = 2(−393.5) + 3(−285.8) − (−1560) = −787 − 857.4 + 1560 = −84.4 kJ mol⁻¹.",
+       "lvl": "hard",
+       "id": "combustion-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "ΔcH of methane, graphite and H₂ are −890.3, −393.5 and −285.8 kJ mol⁻¹. ΔfH of CH₄(g) is:",
+       "o": [
+        "−74.8 kJ mol⁻¹",
+        "−52.27 kJ mol⁻¹",
+        "+74.8 kJ mol⁻¹",
+        "+52.26 kJ mol⁻¹"
+       ],
+       "a": 0,
+       "e": "ΔfH = −393.5 + 2(−285.8) + 890.3 = −74.8 kJ mol⁻¹.",
+       "lvl": "medium",
+       "src": "NCERT Ex 5.5",
+       "id": "combustion-q2",
+       "pyq": []
+      },
+      {
+       "q": "Enthalpy of combustion is always:",
+       "o": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Positive or negative"
+       ],
+       "a": 1,
+       "e": "Combustion releases heat, so ΔcH < 0.",
+       "lvl": "easy",
+       "id": "combustion-q3",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "atomization",
+     "title": "(b) Enthalpy of Atomization (ΔₐH°)",
+     "short": "Atomization",
+     "pages": [
+      153
+     ],
+     "ref": "5.5 (b)",
+     "synopsis": "<p><b>Δ<sub>a</sub>H°</b>: the enthalpy change on breaking <b>one mole</b> of a substance <b>completely into gaseous atoms</b>.</p><ul><li>H<sub>2</sub>(g) → 2H(g); Δ<sub>a</sub>H = 435.0 kJ mol⁻¹. For <b>diatomic</b> molecules this also equals the <b>bond dissociation enthalpy</b>.</li><li>CH<sub>4</sub>(g) → C(g) + 4H(g); Δ<sub>a</sub>H = 1665 kJ mol⁻¹</li><li>Na(s) → Na(g); Δ<sub>a</sub>H = 108.4 kJ mol⁻¹. For a metal, atomization = <b>sublimation</b>.</li></ul><p>The products are always <b>only gaseous atoms</b>.</p>",
+     "questions": [
+      {
+       "q": "For sodium metal, the enthalpy of atomization is the same as its:",
+       "o": [
+        "Enthalpy of fusion",
+        "Enthalpy of sublimation",
+        "Ionization enthalpy",
+        "Lattice enthalpy"
+       ],
+       "a": 1,
+       "e": "Na(s) → Na(g) is both atomization and sublimation.",
+       "lvl": "easy",
+       "id": "atomization-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "For which species is the enthalpy of atomization equal to its bond dissociation enthalpy?",
+       "o": [
+        "CH₄",
+        "H₂O",
+        "Cl₂",
+        "NH₃"
+       ],
+       "a": 2,
+       "e": "For diatomic molecules, breaking the one bond gives atoms directly.",
+       "lvl": "easy",
+       "id": "atomization-q2",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "bond-enthalpy",
+     "title": "(c) Bond Enthalpy (ΔbondH°)",
+     "short": "Bond Enthalpy",
+     "pages": [
+      153,
+      154,
+      155
+     ],
+     "ref": "5.5 (c) · Table 5.3",
+     "synopsis": "<p>Breaking bonds <b>needs energy</b> and making bonds <b>releases energy</b>. Two terms are used: <b>bond dissociation enthalpy</b> and <b>mean bond enthalpy</b>.</p>",
+     "children": [
+      {
+       "id": "bde",
+       "title": "Bond Dissociation Enthalpy (Diatomic)",
+       "short": "Dissociation",
+       "pages": [
+        153
+       ],
+       "ref": "5.5 (c)(i)",
+       "synopsis": "<p>The enthalpy change when <b>one mole of covalent bonds</b> of a <b>gaseous</b> covalent compound is broken to give products in the gas phase.</p><ul><li>H<sub>2</sub>(g) → 2H(g); Δ<sub>H–H</sub>H = 435.0 kJ mol⁻¹</li><li>Cl<sub>2</sub>(g) → 2Cl(g); 242 kJ mol⁻¹</li><li>O<sub>2</sub>(g) → 2O(g); 428 kJ mol⁻¹</li></ul><p>For diatomic molecules this equals the enthalpy of atomization.</p>",
+       "questions": [
+        {
+         "q": "Bond dissociation enthalpy refers to breaking one mole of bonds of a compound in which state?",
+         "o": [
+          "Solid",
+          "Liquid",
+          "Gaseous",
+          "Aqueous"
+         ],
+         "a": 2,
+         "e": "Both reactant and products must be gaseous.",
+         "lvl": "easy",
+         "id": "bde-q1",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "mean-bond",
+       "title": "Mean Bond Enthalpy (Polyatomic)",
+       "short": "Mean Bond",
+       "pages": [
+        153,
+        154
+       ],
+       "ref": "5.5 (c)(ii)",
+       "synopsis": "<p>In CH<sub>4</sub> the four C–H bonds are identical, yet breaking them <b>one after another needs different energies</b>:</p><table><tr><th>Step</th><th>Δ<sub>bond</sub>H (kJ mol⁻¹)</th></tr><tr><td>CH<sub>4</sub> → CH<sub>3</sub> + H</td><td>427</td></tr><tr><td>CH<sub>3</sub> → CH<sub>2</sub> + H</td><td>439</td></tr><tr><td>CH<sub>2</sub> → CH + H</td><td>452</td></tr><tr><td>CH → C + H</td><td>347</td></tr><tr><td><b>Total (= Δ<sub>a</sub>H)</b></td><td><b>1665</b></td></tr></table><p>So we use the <b>mean bond enthalpy</b>: Δ<sub>C–H</sub>H = ¼ × 1665 = <b>416 kJ mol⁻¹</b>.</p><p>Mean C–H enthalpy varies slightly from compound to compound (CH<sub>3</sub>CH<sub>2</sub>Cl, CH<sub>3</sub>NO<sub>2</sub>…) but not a great deal. Table 5.3 lists mean values, e.g. H–H 435.8, C–C 347, C=C 611, C≡C 837, N≡N 946, O=O 498 kJ mol⁻¹.</p>",
+       "points": [
+        "Mean bond enthalpy = ΔaH ÷ number of equivalent bonds."
+       ],
+       "questions": [
+        {
+         "q": "ΔaH of NH₃(g) is 1171 kJ mol⁻¹. The mean N–H bond enthalpy is about:",
+         "o": [
+          "1171 kJ mol⁻¹",
+          "585 kJ mol⁻¹",
+          "390 kJ mol⁻¹",
+          "293 kJ mol⁻¹"
+         ],
+         "a": 2,
+         "e": "There are 3 N–H bonds, so 1171 ÷ 3 ≈ 390 kJ mol⁻¹.",
+         "lvl": "easy",
+         "id": "mean-bond-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "The successive C–H bond dissociation enthalpies in CH₄ are different because:",
+         "o": [
+          "The four C–H bonds have different lengths",
+          "The chemical environment changes after each H is removed",
+          "Carbon changes its atomic number",
+          "Measurement errors"
+         ],
+         "a": 1,
+         "e": "Each fragment (CH₃, CH₂, CH) is a different species, so the energy to remove the next H differs, even though all bonds in CH₄ are identical.",
+         "lvl": "medium",
+         "id": "mean-bond-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "rh-from-bonds",
+       "title": "ΔᵣH from Bond Enthalpies",
+       "short": "ΔrH from Bonds",
+       "pages": [
+        154,
+        155
+       ],
+       "ref": "5.5 (c) · Eq 5.17",
+       "synopsis": "<p>For <b>gas-phase</b> reactions:</p><p class='f'>Δ<sub>r</sub>H° = Σ bond enthalpies(reactants) − Σ bond enthalpies(products)   (Eq. 5.17)</p><p>The net change is the energy to break all reactant bonds minus the energy to break all product bonds (which is the energy released forming them).</p><ul><li>Most useful when Δ<sub>f</sub>H values are <b>not available</b>.</li><li>It is <b>approximate</b> (mean values) and valid only when <b>all species are gaseous</b>.</li></ul><p>Footnote: written with bond <i>formation</i> enthalpies, the order flips: products − reactants.</p>",
+       "formulas": [
+        "ΔrH = Σ BE(reactants) − Σ BE(products)"
+       ],
+       "traps": [
+        "For bond enthalpies it is REACTANTS − PRODUCTS, the opposite of the ΔfH formula (products − reactants)."
+       ],
+       "questions": [
+        {
+         "q": "Using bond enthalpies H–H = 435.8, Cl–Cl = 243, H–Cl = 431 kJ mol⁻¹, ΔrH for H₂(g) + Cl₂(g) → 2HCl(g) is about:",
+         "o": [
+          "+183 kJ",
+          "−183 kJ",
+          "−248 kJ",
+          "+248 kJ"
+         ],
+         "a": 1,
+         "e": "ΔrH = (435.8 + 243) − 2(431) = 678.8 − 862 = −183.2 kJ.",
+         "lvl": "medium",
+         "id": "rh-from-bonds-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "The relation ΔrH = ΣBE(reactants) − ΣBE(products) is strictly applicable when:",
+         "o": [
+          "All species are in the solid state",
+          "All species are in the gaseous state",
+          "Reaction is in aqueous solution",
+          "Reaction is at 0 K"
+         ],
+         "a": 1,
+         "e": "Bond enthalpies are defined for gaseous molecules, so the relation holds only for gas-phase reactions.",
+         "lvl": "easy",
+         "id": "rh-from-bonds-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lattice",
+     "title": "(d) Lattice Enthalpy & Born–Haber Cycle",
+     "short": "Lattice Enthalpy",
+     "pages": [
+      155,
+      156
+     ],
+     "ref": "5.5 (d) · Fig 5.9",
+     "diagram": "born-haber",
+     "synopsis": "<p><b>Lattice enthalpy</b>: the enthalpy change when <b>one mole of an ionic compound dissociates into its gaseous ions</b>.</p><p class='f'>Na⁺Cl⁻(s) → Na⁺(g) + Cl⁻(g); Δ<sub>lattice</sub>H° = +788 kJ mol⁻¹</p><p>It <b>cannot be measured directly</b>, so we use an enthalpy cycle, the <b>Born–Haber cycle</b>. For NaCl:</p><ol><li>Na(s) → Na(g): sublimation, +108.4</li><li>Na(g) → Na⁺(g) + e⁻: ionization, +496</li><li>½Cl<sub>2</sub>(g) → Cl(g): half the bond enthalpy, +121</li><li>Cl(g) + e⁻ → Cl⁻(g): electron gain, −348.6</li><li>Na⁺(g) + Cl⁻(g) → NaCl(s): −Δ<sub>lattice</sub>H</li></ol><p>The sum around a closed cycle is <b>zero</b> (Hess). With Δ<sub>f</sub>H(NaCl) = −411.2:</p><p class='f'>Δ<sub>lattice</sub>H = 411.2 + 108.4 + 121 + 496 − 348.6 = <b>+788 kJ</b></p><p>ΔU<sub>lattice</sub> is smaller by 2RT (Δn<sub>g</sub> = 2), which gives +783 kJ mol⁻¹.</p>",
+     "formulas": [
+      "ΔlatticeH = −ΔfH + ΔsubH + ½ΔbondH + ΔiH + ΔegH (NaCl type)"
+     ],
+     "questions": [
+      {
+       "q": "Lattice enthalpy of an ionic compound is defined as the enthalpy change when one mole of it:",
+       "o": [
+        "Is formed from its elements",
+        "Dissociates into its gaseous ions",
+        "Dissolves in water",
+        "Melts"
+       ],
+       "a": 1,
+       "e": "NCERT: solid → gaseous ions; it is positive (endothermic).",
+       "lvl": "easy",
+       "id": "lattice-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "The Born–Haber cycle is an application of:",
+       "o": [
+        "Le Chatelier's principle",
+        "Hess's law",
+        "Third law of thermodynamics",
+        "Raoult's law"
+       ],
+       "a": 1,
+       "e": "The enthalpy changes round a closed cycle add to zero because H is a state function (Hess's law).",
+       "lvl": "easy",
+       "id": "lattice-q2",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "Lattice enthalpy is determined using the Born–Haber cycle because:",
+       "o": [
+        "It is always negative",
+        "It cannot be determined directly by experiment",
+        "It is zero for all solids",
+        "It depends on path"
+       ],
+       "a": 1,
+       "e": "NCERT: lattice enthalpies cannot be measured directly, so an indirect cycle is used.",
+       "lvl": "easy",
+       "id": "lattice-q3",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "ie-ea-box",
+     "title": "Box: Ionization Energy vs Ionization Enthalpy",
+     "short": "IE vs ΔiH (Box)",
+     "pages": [
+      155
+     ],
+     "ref": "5.5 (d) · Box",
+     "synopsis": "<p>Ionization energy and electron affinity are defined at <b>absolute zero</b>. At any other temperature T, the heat capacities of reactants and products must be included.</p><p>For each gaseous species, C<sub>p</sub> = 5/2 R (C<sub>V</sub> = 3/2 R). This gives:</p><ul><li>Ionization: Δ<sub>r</sub>C<sub>p</sub> = +5/2 R, so <b>Δ<sub>i</sub>H = E<sub>0</sub> + 5/2 RT</b></li><li>Electron gain: Δ<sub>r</sub>C<sub>p</sub> = −5/2 R, so <b>Δ<sub>eg</sub>H = −A − 5/2 RT</b></li></ul><p>That is why the modern terms are ionization <i>enthalpy</i> and electron gain <i>enthalpy</i> (Unit 3).</p>",
+     "questions": [
+      {
+       "q": "Ionization enthalpy (ΔiH) at temperature T is related to ionization energy (E₀) by:",
+       "o": [
+        "ΔiH = E₀",
+        "ΔiH = E₀ + 5/2 RT",
+        "ΔiH = E₀ − 5/2 RT",
+        "ΔiH = E₀ + 3/2 RT"
+       ],
+       "a": 1,
+       "e": "From the NCERT box: Δ_rC_p = +5/2 R for ionization, so ΔiH = E₀ + 5/2 RT.",
+       "lvl": "hard",
+       "id": "ie-ea-box-q1",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "solution",
+     "title": "(e) Enthalpy of Solution (ΔsolH°)",
+     "short": "Solution",
+     "pages": [
+      156
+     ],
+     "ref": "5.5 (e)",
+     "synopsis": "<p><b>Δ<sub>sol</sub>H</b>: the enthalpy change when <b>one mole</b> of a substance dissolves in a specified amount of solvent. <i>At infinite dilution</i>, interactions between the dissolved particles are negligible.</p><p>When an ionic solid dissolves, two things happen: the ions leave the lattice (needs Δ<sub>lattice</sub>H) and they get hydrated (releases Δ<sub>hyd</sub>H).</p><p class='f'>Δ<sub>sol</sub>H° = Δ<sub>lattice</sub>H° + Δ<sub>hyd</sub>H°</p><p>NaCl: +788 + (−784) = <b>+4 kJ mol⁻¹</b>, very little heat change.</p><ul><li>For most ionic compounds Δ<sub>sol</sub>H is <b>positive</b> (endothermic), so <b>solubility rises with temperature</b>.</li><li>A very high lattice enthalpy can stop dissolution altogether. NCERT asks why fluorides are often less soluble than chlorides: small F⁻ makes the lattice enthalpy very high.</li></ul>",
+     "formulas": [
+      "ΔsolH = ΔlatticeH + ΔhydH"
+     ],
+     "questions": [
+      {
+       "q": "For a salt, ΔlatticeH = +700 kJ mol⁻¹ and ΔhydH = −720 kJ mol⁻¹. Its ΔsolH is:",
+       "o": [
+        "+1420 kJ mol⁻¹",
+        "−20 kJ mol⁻¹",
+        "+20 kJ mol⁻¹",
+        "−1420 kJ mol⁻¹"
+       ],
+       "a": 1,
+       "e": "ΔsolH = 700 + (−720) = −20 kJ mol⁻¹ (exothermic dissolution).",
+       "lvl": "easy",
+       "id": "solution-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "For most ionic compounds, solubility in water increases with temperature because:",
+       "o": [
+        "ΔsolH is negative",
+        "ΔsolH is positive (endothermic)",
+        "Lattice enthalpy decreases to zero",
+        "Hydration enthalpy is positive"
+       ],
+       "a": 1,
+       "e": "NCERT: dissolution is usually endothermic, so higher T favours it.",
+       "lvl": "medium",
+       "id": "solution-q2",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "dilution",
+     "title": "(f) Enthalpy of Dilution",
+     "short": "Dilution",
+     "pages": [
+      156,
+      157
+     ],
+     "ref": "5.5 (f)",
+     "synopsis": "<p>The enthalpy of solution depends on <b>how much solvent</b> is used. For HCl(g) dissolving in water:</p><table><tr><th>Process</th><th>ΔH (kJ mol⁻¹)</th></tr><tr><td>HCl + 10 aq</td><td>−69.01</td></tr><tr><td>HCl + 25 aq</td><td>−72.03</td></tr><tr><td>HCl + 40 aq</td><td>−72.79</td></tr><tr><td>HCl + ∞ aq</td><td>−74.85 (limiting value)</td></tr></table><p>Subtracting two steps: HCl·25 aq + 15 aq → HCl·40 aq; ΔH = −72.79 − (−72.03) = <b>−0.76 kJ mol⁻¹</b>. This is the <b>enthalpy of dilution</b>: the heat change when extra solvent is added to a solution.</p><p>It depends on the <b>original concentration</b> and the <b>amount of solvent added</b>. As dilution increases, ΔH approaches the infinite-dilution value.</p>",
+     "questions": [
+      {
+       "q": "ΔH for HCl(g) + 10 aq is −69.0 kJ mol⁻¹ and for HCl(g) + 20 aq is −71.0 kJ mol⁻¹. Enthalpy of dilution for HCl·10aq + 10aq → HCl·20aq is:",
+       "o": [
+        "−2.0 kJ mol⁻¹",
+        "+2.0 kJ mol⁻¹",
+        "−140 kJ mol⁻¹",
+        "−71.0 kJ mol⁻¹"
+       ],
+       "a": 0,
+       "e": "Subtract: −71.0 − (−69.0) = −2.0 kJ mol⁻¹.",
+       "lvl": "medium",
+       "id": "dilution-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "As more and more solvent is added, the enthalpy of solution:",
+       "o": [
+        "Keeps increasing without limit",
+        "Approaches a limiting value (infinite dilution)",
+        "Becomes zero",
+        "Changes sign repeatedly"
+       ],
+       "a": 1,
+       "e": "NCERT: it approaches the limiting value at infinite dilution.",
+       "lvl": "easy",
+       "id": "dilution-q2",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spontaneity",
+   "title": "5.6 Spontaneity",
+   "short": "Spontaneity",
+   "pages": [
+    157,
+    158,
+    159,
+    160,
+    161,
+    162
+   ],
+   "ref": "Section 5.6",
+   "synopsis": "<p>The First Law tracks energy but says nothing about <b>direction</b>. Heat flows hot → cold, gases spread out, carbon burns to CO<sub>2</sub>, and never the reverse on their own. This section asks what decides the direction of change. It tests enthalpy (not enough), then entropy (enough for isolated systems), then <b>Gibbs energy</b>, the working criterion at constant T and p. It ends with the <b>Second and Third Laws</b>.</p>",
+   "children": [
+    {
+     "id": "spont-meaning",
+     "title": "What 'Spontaneous' Means",
+     "short": "Meaning",
+     "pages": [
+      157
+     ],
+     "ref": "5.6 ¶1–3",
+     "synopsis": "<p>Spontaneous does <b>not</b> mean instantaneous. H<sub>2</sub> and O<sub>2</sub> can sit mixed at room temperature for years with no visible change. The reaction is happening, just extremely slowly, and it is still called spontaneous.</p><blockquote>Spontaneity means 'having the potential to proceed without the assistance of an external agency'.</blockquote><ul><li>It says <b>nothing about rate</b>.</li><li>A spontaneous process <b>cannot reverse its direction on its own</b>. A spontaneous process is irreversible and can be reversed only by an external agency.</li></ul>",
+     "traps": [
+      "'Spontaneous' ≠ 'fast'. Rate is kinetics; spontaneity is thermodynamics."
+     ],
+     "questions": [
+      {
+       "q": "A mixture of H₂ and O₂ at room temperature shows no perceptible change for years. The reaction is:",
+       "o": [
+        "Non-spontaneous",
+        "Spontaneous but extremely slow",
+        "At equilibrium",
+        "Endothermic"
+       ],
+       "a": 1,
+       "e": "NCERT uses this exact example: spontaneity concerns the potential to proceed, not the rate.",
+       "lvl": "easy",
+       "id": "spont-meaning-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "Which statement about a spontaneous process is correct?",
+       "o": [
+        "It is always fast",
+        "It can reverse direction on its own",
+        "It is irreversible and can be reversed only by an external agency",
+        "It always releases heat"
+       ],
+       "a": 2,
+       "e": "NCERT summary statement on spontaneous processes.",
+       "lvl": "easy",
+       "id": "spont-meaning-q2",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "enthalpy-criterion",
+     "title": "(a) Is Decrease in Enthalpy the Criterion?",
+     "short": "Enthalpy Criterion?",
+     "pages": [
+      157,
+      158
+     ],
+     "ref": "5.6 (a) · Fig 5.10",
+     "diagram": "exo-endo",
+     "synopsis": "<p>Water flows downhill and stones fall, both towards lower potential energy. By analogy, perhaps reactions are spontaneous because enthalpy decreases. Many spontaneous reactions are indeed exothermic:</p><ul><li>½N<sub>2</sub> + 3/2 H<sub>2</sub> → NH<sub>3</sub>; ΔH = −46.1 kJ mol⁻¹</li><li>½H<sub>2</sub> + ½Cl<sub>2</sub> → HCl; ΔH = −92.32 kJ mol⁻¹</li><li>H<sub>2</sub> + ½O<sub>2</sub> → H<sub>2</sub>O(l); ΔH = −285.8 kJ mol⁻¹</li></ul><p>But <b>some endothermic reactions are also spontaneous</b>:</p><ul><li>½N<sub>2</sub> + O<sub>2</sub> → NO<sub>2</sub>; ΔH = +33.2 kJ mol⁻¹</li><li>C(graphite) + 2S(l) → CS<sub>2</sub>(l); ΔH = +128.5 kJ mol⁻¹</li></ul><p><b>Conclusion:</b> a decrease in enthalpy <b>contributes</b> to spontaneity but <b>is not the criterion</b>.</p>",
+     "questions": [
+      {
+       "q": "The fact that some endothermic reactions are spontaneous shows that:",
+       "o": [
+        "Enthalpy decrease is the sole criterion for spontaneity",
+        "Enthalpy decrease may contribute but is not the sole criterion",
+        "Endothermic reactions are always spontaneous",
+        "Spontaneity depends only on rate"
+       ],
+       "a": 1,
+       "e": "NCERT: decrease in enthalpy may be a contributory factor but is not true for all cases.",
+       "lvl": "easy",
+       "id": "enthalpy-criterion-q1",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "entropy",
+     "title": "(b) Entropy (S)",
+     "short": "Entropy",
+     "pages": [
+      158,
+      159,
+      160
+     ],
+     "ref": "5.6 (b)",
+     "synopsis": "<p>When ΔH = 0 a process can still be spontaneous, so something else must drive it. That something is <b>entropy (S)</b>.</p>",
+     "children": [
+      {
+       "id": "entropy-concept",
+       "title": "Entropy as Disorder",
+       "short": "Disorder",
+       "pages": [
+        158,
+        159
+       ],
+       "ref": "5.6 (b) · Fig 5.11",
+       "diagram": "diffusion",
+       "synopsis": "<p><b>Diffusion of two gases</b> (Fig 5.11) in an isolated container has ΔH = 0, yet it is spontaneous. Before the partition is removed, you know which gas is on which side. Afterwards, a molecule you pick could be A or B: the system has become <b>less predictable, more chaotic</b>.</p><p>Postulate: <i>in an isolated system, energy tends to become more disordered.</i> This disorder is measured by <b>entropy, S</b>.</p><ul><li>Greater disorder means higher entropy.</li><li>For a given substance: <b>crystalline solid (lowest S) &lt; liquid &lt; gas (highest S)</b>.</li><li>In reactions, S changes because atoms or ions rearrange. A more disordered product structure means ΔS &gt; 0.</li></ul><p><b>Quick ΔS predictions (Problem 5.10):</b></p><ul><li>Liquid → crystal: S decreases</li><li>Heating a crystal from 0 K to 115 K: S increases</li><li>2NaHCO<sub>3</sub>(s) → Na<sub>2</sub>CO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(g): S increases (gases formed)</li><li>H<sub>2</sub>(g) → 2H(g): S increases (more particles)</li></ul>",
+       "points": [
+        "S(solid) < S(liquid) < S(gas).",
+        "More gas moles or more particles means ΔS > 0."
+       ],
+       "questions": [
+        {
+         "q": "In which process does entropy decrease?",
+         "o": [
+          "Melting of ice",
+          "Evaporation of water",
+          "Crystallisation of a liquid",
+          "Sublimation of iodine"
+         ],
+         "a": 2,
+         "e": "Liquid → ordered solid means S decreases.",
+         "lvl": "easy",
+         "id": "entropy-concept-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "For which reaction is ΔS positive?",
+         "o": [
+          "N₂(g) + 3H₂(g) → 2NH₃(g)",
+          "2SO₂(g) + O₂(g) → 2SO₃(g)",
+          "CaCO₃(s) → CaO(s) + CO₂(g)",
+          "H₂O(g) → H₂O(l)"
+         ],
+         "a": 2,
+         "e": "A gas forms from a solid (Δn_g = +1), so disorder increases.",
+         "lvl": "easy",
+         "id": "entropy-concept-q2",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "For 2Cl(g) → Cl₂(g), the signs of ΔH and ΔS are:",
+         "o": [
+          "ΔH +, ΔS +",
+          "ΔH −, ΔS −",
+          "ΔH −, ΔS +",
+          "ΔH +, ΔS −"
+         ],
+         "a": 1,
+         "e": "Bond formation releases energy (ΔH < 0), and 2 particles → 1 lowers disorder (ΔS < 0).",
+         "lvl": "medium",
+         "src": "NCERT Ex 5.18",
+         "id": "entropy-concept-q3",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "entropy-quant",
+       "title": "ΔS = q(rev)/T and ΔS(total) > 0",
+       "short": "ΔS = qrev/T",
+       "pages": [
+        159
+       ],
+       "ref": "5.6 (b) · Eq 5.18, 5.19",
+       "synopsis": "<p>Heat randomises a system. The <b>same heat causes more disorder at a lower temperature</b> than at a higher one, because a hot system is already chaotic. So ΔS ∝ q and ∝ 1/T:</p><p class='f'>ΔS = q<sub>rev</sub> / T   (Eq. 5.18)</p><p>Entropy is a <b>state function</b>, so ΔS is path independent. We compute it along a reversible path.</p><p>For a spontaneous process:</p><p class='f'>ΔS<sub>total</sub> = ΔS<sub>system</sub> + ΔS<sub>surr</sub> &gt; 0   (Eq. 5.19)</p><ul><li>At <b>equilibrium</b>, entropy is <b>maximum</b> and ΔS = 0.</li><li>For isothermal expansion of an ideal gas, ΔU = 0 for both reversible and irreversible paths, but ΔS<sub>total</sub> ≠ 0 for the irreversible one. <b>ΔU cannot tell reversible from irreversible; ΔS can.</b></li></ul><p><i>Problem 5.11:</i> 4Fe + 3O<sub>2</sub> → 2Fe<sub>2</sub>O<sub>3</sub> has ΔS<sub>sys</sub> = −549.4 J K⁻¹ mol⁻¹, yet the reaction is spontaneous. ΔS<sub>surr</sub> = −ΔH/T = 1648 × 10³/298 = +5530. So ΔS<sub>total</sub> = +4980.6 J K⁻¹ mol⁻¹ &gt; 0.</p>",
+       "formulas": [
+        "ΔS = q_rev/T",
+        "ΔS_total = ΔS_sys + ΔS_surr > 0",
+        "ΔS_surr = −ΔH_sys/T"
+       ],
+       "questions": [
+        {
+         "q": "ΔfusH of ice is 6.0 kJ mol⁻¹ at 273 K. The entropy of fusion is about:",
+         "o": [
+          "2.2 J K⁻¹ mol⁻¹",
+          "22 J K⁻¹ mol⁻¹",
+          "220 J K⁻¹ mol⁻¹",
+          "0.022 J K⁻¹ mol⁻¹"
+         ],
+         "a": 1,
+         "e": "ΔS = q_rev/T = 6000/273 ≈ 22.0 J K⁻¹ mol⁻¹.",
+         "lvl": "medium",
+         "id": "entropy-quant-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "A reaction releases 100 kJ of heat at 300 K. The entropy change of the surroundings is:",
+         "o": [
+          "−333 J K⁻¹",
+          "+333 J K⁻¹",
+          "+0.33 J K⁻¹",
+          "−0.33 J K⁻¹"
+         ],
+         "a": 1,
+         "e": "ΔS_surr = −ΔH/T = +100 000/300 ≈ +333 J K⁻¹.",
+         "lvl": "medium",
+         "id": "entropy-quant-q2",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "For a spontaneous process in an isolated system:",
+         "o": [
+          "ΔS < 0",
+          "ΔS = 0",
+          "ΔS > 0",
+          "ΔU > 0"
+         ],
+         "a": 2,
+         "e": "ΔU = 0 for an isolated system and entropy must increase for a spontaneous change.",
+         "lvl": "easy",
+         "src": "NCERT Ex 5.16",
+         "id": "entropy-quant-q3",
+         "pyq": []
+        },
+        {
+         "q": "The same quantity of heat added to a system at low temperature causes ___ randomness than at high temperature.",
+         "o": [
+          "Less",
+          "Greater",
+          "The same",
+          "No"
+         ],
+         "a": 1,
+         "e": "ΔS = q/T, so a smaller T gives a larger ΔS.",
+         "lvl": "easy",
+         "id": "entropy-quant-q4",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gibbs",
+     "title": "(c) Gibbs Energy & Spontaneity",
+     "short": "Gibbs Energy",
+     "pages": [
+      160,
+      161
+     ],
+     "ref": "5.6 (c) · Eq 5.20–5.22",
+     "synopsis": "<p>Most reactions occur in <b>closed or open</b> systems where both H and S change, so neither alone decides spontaneity. We define the <b>Gibbs energy</b>:</p><p class='f'>G = H − TS   (Eq. 5.20)</p><p>G is an <b>extensive</b> property and a <b>state function</b>.</p>",
+     "children": [
+      {
+       "id": "gibbs-eq",
+       "title": "Gibbs Equation: ΔG = ΔH − TΔS",
+       "short": "Gibbs Equation",
+       "pages": [
+        160
+       ],
+       "ref": "5.6 (c) · Eq 5.21",
+       "synopsis": "<p>ΔG<sub>sys</sub> = ΔH<sub>sys</sub> − TΔS<sub>sys</sub> − S<sub>sys</sub>ΔT. At <b>constant temperature</b> this becomes:</p><p class='f'>ΔG = ΔH − TΔS   (Eq. 5.21)</p><p>This is the <b>Gibbs equation</b>, 'one of the most important equations in chemistry'. It combines energy (ΔH) and disorder (ΔS) in one criterion.</p><p>Units: ΔG is an energy, since T × ΔS = K × J K⁻¹ = J.</p>",
+       "traps": [
+        "Keep units consistent. ΔS is usually in J K⁻¹ and ΔH in kJ, so convert one of them."
+       ],
+       "questions": [
+        {
+         "q": "Gibbs energy G is defined as:",
+         "o": [
+          "G = U − TS",
+          "G = H − TS",
+          "G = H + TS",
+          "G = U + pV"
+         ],
+         "a": 1,
+         "e": "NCERT Eq. 5.20: G = H − TS.",
+         "lvl": "easy",
+         "id": "gibbs-eq-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "Which statement about Gibbs energy is correct?",
+         "o": [
+          "It is an intensive property",
+          "It is a path function",
+          "It is an extensive property and a state function",
+          "It has units of J K⁻¹"
+         ],
+         "a": 2,
+         "e": "NCERT: G is extensive and a state function; its units are energy.",
+         "lvl": "easy",
+         "id": "gibbs-eq-q2",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "For 2A(g) + B(g) → 2D(g) at 298 K, ΔU = −10.5 kJ and ΔS = −44.1 J K⁻¹. ΔG is about:",
+         "o": [
+          "−0.16 kJ, spontaneous",
+          "+0.16 kJ, non-spontaneous",
+          "−2.6 kJ, spontaneous",
+          "+2.6 kJ, non-spontaneous"
+         ],
+         "a": 1,
+         "e": "Δn_g = −1, so ΔH = −10.5 + (−1)(8.314 × 10⁻³)(298) = −12.98 kJ. ΔG = −12.98 − 298(−0.0441) = −12.98 + 13.14 ≈ +0.16 kJ, non-spontaneous.",
+         "lvl": "hard",
+         "src": "NCERT Ex 5.19",
+         "id": "gibbs-eq-q3",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "gibbs-criterion",
+       "title": "ΔG < 0 Means Spontaneous (Derivation)",
+       "short": "ΔG Criterion",
+       "pages": [
+        161
+       ],
+       "ref": "5.6 (c) · Eq 5.22",
+       "synopsis": "<p>Start from ΔS<sub>total</sub> = ΔS<sub>sys</sub> + ΔS<sub>surr</sub>. When the system is in thermal equilibrium with the surroundings, ΔS<sub>surr</sub> = −ΔH<sub>sys</sub>/T.</p><p>So TΔS<sub>total</sub> = TΔS<sub>sys</sub> − ΔH<sub>sys</sub>. A spontaneous process needs ΔS<sub>total</sub> &gt; 0, so ΔH<sub>sys</sub> − TΔS<sub>sys</sub> &lt; 0, which means</p><p class='f'>ΔG = ΔH − TΔS &lt; 0   (Eq. 5.22)</p><table><tr><th>ΔG</th><th>Process</th></tr><tr><td>&lt; 0</td><td>Spontaneous</td></tr><tr><td>&gt; 0</td><td>Non-spontaneous</td></tr><tr><td>= 0</td><td>Equilibrium</td></tr></table><p><b>Free energy:</b> TΔS is energy <i>not available</i> for useful work, so ΔG is the <b>net energy available to do useful work</b>. Hence the name 'free energy'.</p><p>This criterion applies at <b>constant temperature and pressure</b>.</p>",
+       "formulas": [
+        "−ΔG = TΔS_total (at constant T, p)"
+       ],
+       "questions": [
+        {
+         "q": "At constant T and p, a process is spontaneous if:",
+         "o": [
+          "ΔG > 0",
+          "ΔG < 0",
+          "ΔG = 0",
+          "ΔH > 0"
+         ],
+         "a": 1,
+         "e": "ΔG < 0 corresponds to ΔS_total > 0.",
+         "lvl": "easy",
+         "id": "gibbs-criterion-q1",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "ΔG is called 'free energy' because it represents:",
+         "o": [
+          "Energy released as heat",
+          "Net energy available to do useful work",
+          "Energy lost to surroundings",
+          "Energy stored in bonds"
+         ],
+         "a": 1,
+         "e": "TΔS is unavailable for work; ΔG = ΔH − TΔS is the useful part.",
+         "lvl": "easy",
+         "id": "gibbs-criterion-q2",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      },
+      {
+       "id": "temp-effect",
+       "title": "Effect of Temperature (Table 5.4)",
+       "short": "Temperature Effect",
+       "pages": [
+        161,
+        162
+       ],
+       "ref": "5.6 (c) Note · Table 5.4",
+       "synopsis": "<table><tr><th>ΔH</th><th>ΔS</th><th>ΔG</th><th>Result</th></tr><tr><td>−</td><td>+</td><td>always −</td><td>Spontaneous at <b>all</b> T</td></tr><tr><td>−</td><td>−</td><td>− at low T, + at high T</td><td>Spontaneous at <b>low</b> T</td></tr><tr><td>+</td><td>+</td><td>+ at low T, − at high T</td><td>Spontaneous at <b>high</b> T</td></tr><tr><td>+</td><td>−</td><td>always +</td><td>Non-spontaneous at <b>all</b> T</td></tr></table><p>When ΔH and ΔS have the <b>same sign</b>, temperature decides. The <b>crossover temperature</b> is where ΔG = 0:</p><p class='f'>T = ΔH / ΔS</p><p>For ΔH &gt; 0 and ΔS &gt; 0, the reaction becomes spontaneous when TΔS outweighs ΔH. Either ΔS is small and T must be high, or ΔS is large and T can be modest. This is one reason reactions are often run at high temperature.</p><p>NCERT note: 'low' and 'high' T are relative. For some reactions 'high' can mean room temperature.</p>",
+       "formulas": [
+        "T(crossover) = ΔH/ΔS"
+       ],
+       "questions": [
+        {
+         "q": "A + B → C + D + heat has a positive entropy change. The reaction will be:",
+         "o": [
+          "Possible only at high temperature",
+          "Possible only at low temperature",
+          "Not possible at any temperature",
+          "Possible at any temperature"
+         ],
+         "a": 3,
+         "e": "ΔH < 0 and ΔS > 0, so ΔG < 0 at every temperature.",
+         "lvl": "easy",
+         "src": "NCERT Ex 5.6",
+         "id": "temp-effect-q1",
+         "pyq": []
+        },
+        {
+         "q": "For a reaction, ΔH = +400 kJ mol⁻¹ and ΔS = +0.2 kJ K⁻¹ mol⁻¹. It becomes spontaneous above:",
+         "o": [
+          "200 K",
+          "2000 K",
+          "80 K",
+          "500 K"
+         ],
+         "a": 1,
+         "e": "T = ΔH/ΔS = 400/0.2 = 2000 K; above this ΔG < 0.",
+         "lvl": "medium",
+         "src": "NCERT Ex 5.17",
+         "id": "temp-effect-q2",
+         "pyq": []
+        },
+        {
+         "q": "A reaction with ΔH < 0 and ΔS < 0 is spontaneous:",
+         "o": [
+          "At all temperatures",
+          "At low temperatures only",
+          "At high temperatures only",
+          "Never"
+         ],
+         "a": 1,
+         "e": "ΔG = ΔH − TΔS. At low T the negative ΔH dominates; at high T the +TΔS term (from ΔS < 0) wins.",
+         "lvl": "medium",
+         "id": "temp-effect-q3",
+         "src": "Practice",
+         "pyq": []
+        },
+        {
+         "q": "ΔH = +40 kJ mol⁻¹ and ΔS = +100 J K⁻¹ mol⁻¹. The minimum temperature for spontaneity is:",
+         "o": [
+          "40 K",
+          "400 K",
+          "4000 K",
+          "0.4 K"
+         ],
+         "a": 1,
+         "e": "T = 40 000/100 = 400 K.",
+         "lvl": "easy",
+         "id": "temp-effect-q4",
+         "src": "Practice",
+         "pyq": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "second-law",
+     "title": "(d) Second Law of Thermodynamics",
+     "short": "Second Law",
+     "pages": [
+      161
+     ],
+     "ref": "5.6 (d)",
+     "synopsis": "<p>In an isolated system the energy stays constant, so the <b>natural direction of spontaneous change is increasing entropy</b>. This is the <b>Second Law of Thermodynamics</b> (it has several equivalent statements).</p><p>It explains <b>why spontaneous exothermic reactions are so common</b>: the released heat increases the disorder of the surroundings, which makes ΔS<sub>total</sub> positive.</p>",
+     "questions": [
+      {
+       "q": "The second law explains why exothermic reactions are commonly spontaneous because:",
+       "o": [
+        "They decrease the entropy of surroundings",
+        "Heat released increases the entropy of the surroundings, making ΔS_total positive",
+        "They have ΔH = 0",
+        "They occur only in isolated systems"
+       ],
+       "a": 1,
+       "e": "NCERT: heat released raises the surroundings' disorder, so the total entropy change is positive.",
+       "lvl": "medium",
+       "id": "second-law-q1",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "third-law",
+     "title": "(e) Third Law & Absolute Entropy",
+     "short": "Third Law",
+     "pages": [
+      161,
+      162
+     ],
+     "ref": "5.6 (e)",
+     "synopsis": "<p>Molecules have <b>translational</b> (straight-line), <b>rotational</b> (spinning) and <b>vibrational</b> (bond stretching) motion. Raising T makes these motions more vigorous, so S increases. Lowering T lowers S.</p><blockquote>The entropy of any <b>pure crystalline substance</b> approaches <b>zero</b> as the temperature approaches absolute zero.</blockquote><p>This is the <b>Third Law</b>. The reason is the perfect order of a crystal at 0 K.</p><ul><li>It is limited to <b>pure crystalline solids</b>. Solutions and supercooled liquids do <b>not</b> have zero entropy at 0 K.</li><li><b>Importance:</b> it lets us calculate <b>absolute entropies</b> from thermal data alone, by summing q<sub>rev</sub>/T from 0 K to 298 K. Standard entropies can then be combined Hess-style.</li></ul>",
+     "traps": [
+      "Unlike U and H, entropy HAS an absolute value, thanks to the Third Law."
+     ],
+     "questions": [
+      {
+       "q": "The entropy of a pure crystalline substance approaches zero at 0 K. This is the:",
+       "o": [
+        "First law",
+        "Second law",
+        "Third law",
+        "Zeroth law"
+       ],
+       "a": 2,
+       "e": "Third law of thermodynamics.",
+       "lvl": "easy",
+       "id": "third-law-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "For which of the following is the entropy NOT zero at 0 K?",
+       "o": [
+        "Pure crystalline NaCl",
+        "Pure diamond crystal",
+        "A supercooled liquid (glass)",
+        "Pure crystalline ice"
+       ],
+       "a": 2,
+       "e": "NCERT: solutions and supercooled liquids retain entropy at 0 K.",
+       "lvl": "medium",
+       "id": "third-law-q2",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "Which thermodynamic quantity can be given an absolute value?",
+       "o": [
+        "U",
+        "H",
+        "S",
+        "G"
+       ],
+       "a": 2,
+       "e": "The third law lets absolute entropy be calculated from thermal data.",
+       "lvl": "medium",
+       "id": "third-law-q3",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gibbs-equilibrium",
+   "title": "5.7 Gibbs Energy Change & Equilibrium",
+   "short": "ΔG & Equilibrium",
+   "pages": [
+    162,
+    163
+   ],
+   "ref": "Section 5.7",
+   "synopsis": "<p>ΔG predicts <b>spontaneity</b> and the <b>maximum useful work</b> obtainable. For reactions that can go both ways, it also links to the <b>equilibrium constant K</b>.</p>",
+   "formulas": [
+    "ΔrG = 0 at equilibrium",
+    "ΔrG° = −RT ln K = −2.303 RT log K",
+    "ΔrG° = ΔrH° − TΔrS°"
+   ],
+   "children": [
+    {
+     "id": "eq-criterion",
+     "title": "ΔᵣG = 0 at Equilibrium",
+     "short": "ΔG = 0",
+     "pages": [
+      162
+     ],
+     "ref": "5.7 ¶1–3",
+     "synopsis": "<p>In a reversible chemical reaction, both directions run at once and a <b>dynamic equilibrium</b> sets in. Both directions can't proceed with a <i>decrease</i> in free energy unless, at equilibrium, <b>the free energy of the system is at a minimum</b>. Otherwise the system would move spontaneously towards lower G.</p><p class='f'>Criterion for equilibrium (A + B ⇌ C + D): Δ<sub>r</sub>G = 0</p>",
+     "questions": [
+      {
+       "q": "At equilibrium, the Gibbs energy of the system is:",
+       "o": [
+        "Maximum",
+        "Minimum",
+        "Zero always",
+        "Infinite"
+       ],
+       "a": 1,
+       "e": "G is at a minimum at equilibrium, so Δ_rG = 0.",
+       "lvl": "easy",
+       "id": "eq-criterion-q1",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "g-and-k",
+     "title": "ΔᵣG° = −RT ln K",
+     "short": "ΔG° and K",
+     "pages": [
+      162
+     ],
+     "ref": "5.7 · Eq 5.23, 5.24",
+     "synopsis": "<p>When all species are in their standard states:</p><p class='f'>0 = Δ<sub>r</sub>G° + RT ln K  ⟹  Δ<sub>r</sub>G° = −RT ln K = −2.303 RT log K   (Eq. 5.23)</p><p>Combined with Δ<sub>r</sub>G° = Δ<sub>r</sub>H° − TΔ<sub>r</sub>S° (Eq. 5.24):</p><table><tr><th>Δ<sub>r</sub>G°</th><th>K</th><th>Meaning</th></tr><tr><td>&lt; 0</td><td>&gt; 1</td><td>Products favoured</td></tr><tr><td>= 0</td><td>= 1</td><td>—</td></tr><tr><td>&gt; 0</td><td>&lt; 1</td><td>Reactants favoured</td></tr></table><ul><li><b>Strongly endothermic</b> (large +ΔH): K ≪ 1, so little product.</li><li><b>Strongly exothermic</b> (large −ΔH): ΔG likely large and negative, K ≫ 1, so the reaction goes nearly to completion.</li><li>ΔS also matters. Its sign shifts K accordingly.</li></ul><p><b>Uses:</b> (i) estimate ΔG from ΔH and ΔS, then get K at any T for economic yields; (ii) measure K in the lab, then get ΔG at other temperatures.</p>",
+     "formulas": [
+      "ΔrG° = −2.303 RT log K"
+     ],
+     "traps": [
+      "ΔG = 0 at equilibrium, but ΔG° is generally NOT zero. ΔG° = 0 only when K = 1."
+     ],
+     "questions": [
+      {
+       "q": "The equilibrium constant for a reaction is 10 at 300 K. ΔG° is about (R = 8.314 J K⁻¹ mol⁻¹):",
+       "o": [
+        "−5.74 kJ mol⁻¹",
+        "+5.74 kJ mol⁻¹",
+        "−2.49 kJ mol⁻¹",
+        "−11.5 kJ mol⁻¹"
+       ],
+       "a": 0,
+       "e": "ΔG° = −2.303 × 8.314 × 300 × log 10 = −5744 J ≈ −5.74 kJ mol⁻¹.",
+       "lvl": "medium",
+       "src": "NCERT Ex 5.20",
+       "id": "g-and-k-q1",
+       "pyq": []
+      },
+      {
+       "q": "If ΔG° for a reaction is zero, then K is:",
+       "o": [
+        "0",
+        "1",
+        "10",
+        "Infinite"
+       ],
+       "a": 1,
+       "e": "ΔG° = −RT ln K = 0, so ln K = 0 and K = 1.",
+       "lvl": "easy",
+       "id": "g-and-k-q2",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "K = 100 at 300 K. ΔG° is about:",
+       "o": [
+        "−11.5 kJ mol⁻¹",
+        "+11.5 kJ mol⁻¹",
+        "−5.74 kJ mol⁻¹",
+        "−1.15 kJ mol⁻¹"
+       ],
+       "a": 0,
+       "e": "ΔG° = −2.303 × 8.314 × 300 × 2 = −11 488 J ≈ −11.5 kJ mol⁻¹.",
+       "lvl": "medium",
+       "id": "g-and-k-q3",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "A reaction with a large positive ΔrG° will have:",
+       "o": [
+        "K ≫ 1",
+        "K ≪ 1",
+        "K = 1",
+        "K < 0"
+       ],
+       "a": 1,
+       "e": "ln K = −ΔG°/RT is large and negative, so K ≪ 1.",
+       "lvl": "easy",
+       "id": "g-and-k-q4",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    },
+    {
+     "id": "g-problems",
+     "title": "Worked Problems 5.12–5.14",
+     "short": "Worked Problems",
+     "pages": [
+      163
+     ],
+     "ref": "Problems 5.12–5.14",
+     "synopsis": "<p><b>5.12</b> O<sub>2</sub> → O<sub>3</sub> (3/2 O<sub>2</sub> → O<sub>3</sub>) at 298 K, K<sub>p</sub> = 2.47 × 10⁻²⁹:</p><p class='f'>Δ<sub>r</sub>G° = −2.303 × 8.314 × 298 × log(2.47 × 10⁻²⁹) ≈ +163 kJ mol⁻¹</p><p>A large positive ΔG° matches the tiny K: ozone does not form on its own.</p><p><b>5.13</b> Given Δ<sub>r</sub>G° = −13.6 kJ mol⁻¹ at 298 K: log K = 13 600/(2.303 × 8.314 × 298) = 2.38, so <b>K ≈ 2.4 × 10²</b>.</p><p><b>5.14</b> N<sub>2</sub>O<sub>4</sub> ⇌ 2NO<sub>2</sub>, 50% dissociated at 60 °C (333 K), 1 atm. Mole fractions are 0.5/1.5 and 1/1.5, so K<sub>p</sub> = (1/1.5)² ÷ (0.5/1.5) = <b>1.33 atm</b>.</p><p class='f'>Δ<sub>r</sub>G° = −2.303 × 8.314 × 333 × log 1.33 ≈ −790 J mol⁻¹ ≈ −0.79 kJ mol⁻¹</p><p class='errata'>NCERT erratum: Problem 5.14 prints the answer as −763.8 kJ mol⁻¹. Working the same numbers (log 1.33 = 0.1239) gives about <b>−790 J mol⁻¹ (−0.79 kJ mol⁻¹)</b>. The printed value is off in both magnitude and unit.</p>",
+     "questions": [
+      {
+       "q": "A reaction has ΔrG° = +163 kJ mol⁻¹ at 298 K. Its equilibrium constant will be:",
+       "o": [
+        "Very large (≫ 1)",
+        "Very small (≪ 1)",
+        "Exactly 1",
+        "Negative"
+       ],
+       "a": 1,
+       "e": "A large positive ΔG° gives a very small K (≈ 10⁻²⁹ for O₂ → O₃).",
+       "lvl": "easy",
+       "id": "g-problems-q1",
+       "src": "Practice",
+       "pyq": []
+      },
+      {
+       "q": "N₂O₄ ⇌ 2NO₂ is 50% dissociated at a total pressure of 1 atm. Kp is:",
+       "o": [
+        "0.5 atm",
+        "1.0 atm",
+        "1.33 atm",
+        "2.0 atm"
+       ],
+       "a": 2,
+       "e": "Total moles = 1.5; p(NO₂) = 1/1.5 and p(N₂O₄) = 0.5/1.5. Kp = (0.667)² / 0.333 = 1.33 atm.",
+       "lvl": "hard",
+       "id": "g-problems-q2",
+       "src": "Practice",
+       "pyq": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "nodes": 72,
+  "questions": 116
+ }
+}

@@ -1,0 +1,217 @@
+[
+{
+  "id": "applications",
+  "title": "5.2 Applications: Work & Enthalpy",
+  "short": "Work & Enthalpy",
+  "pages": [140, 141, 142, 143, 144, 145],
+  "ref": "Section 5.2",
+  "synopsis": "<p>Many reactions produce gases that can push a piston (<b>work</b>) or release <b>heat</b>. This section puts numbers on both. It derives the work formulas for different processes, introduces the new state function <b>enthalpy (H)</b>, separates <b>extensive and intensive</b> properties, and defines <b>heat capacity</b> along with C<sub>p</sub> − C<sub>V</sub> = R.</p>",
+  "children": [
+    {
+      "id": "work",
+      "title": "5.2.1 Work (Pressure–Volume Work)",
+      "short": "pV Work",
+      "pages": [140, 141, 142],
+      "ref": "5.2.1",
+      "synopsis": "<p>Only <b>mechanical (pressure–volume) work</b> is considered. Picture one mole of ideal gas in a cylinder with a frictionless piston. The work depends on <b>how the external pressure changes</b> during the process.</p>",
+      "formulas": ["w = −p_ex ΔV", "w_rev = −2.303 nRT log(V_f/V_i)"],
+      "children": [
+        {
+          "id": "single-step",
+          "title": "Single-step Work: w = −pₑₓΔV",
+          "short": "Single Step",
+          "pages": [140, 141],
+          "ref": "5.2.1 · Eq 5.2 · Fig 5.5a",
+          "diagram": "pv-single",
+          "synopsis": "<p>A constant external pressure p<sub>ex</sub> compresses the gas in <b>one step</b>. The piston (area A) moves a distance l, so ΔV = l × A = V<sub>f</sub> − V<sub>i</sub>.</p><p>Force = p<sub>ex</sub> · A, so work = force × distance = p<sub>ex</sub> · A · l. Adding the sign:</p><p class='f'>w = −p<sub>ex</sub>ΔV = −p<sub>ex</sub>(V<sub>f</sub> − V<sub>i</sub>)   (Eq. 5.2)</p><p>The minus sign makes the convention work out. In <b>compression</b> ΔV is negative, so w comes out <b>positive</b> (work done on the system). In <b>expansion</b> ΔV is positive, so w is <b>negative</b>.</p><p>On a p–V graph, the work equals the <b>shaded rectangle</b> under the constant p<sub>ex</sub> line.</p>",
+          "formulas": ["w = −p_ex (V_f − V_i)"],
+          "traps": ["Always use EXTERNAL pressure, not gas pressure, for irreversible work.", "1 L atm = 101.3 J."],
+          "questions": [
+            {"q": "An ideal gas expands from 2 L to 5 L against a constant external pressure of 1 atm. The work done (1 L atm = 101.3 J) is about:", "o": ["+304 J", "−304 J", "−507 J", "Zero"], "a": 1, "e": "w = −p_ex ΔV = −1 × (5 − 2) = −3 L atm ≈ −304 J. It is negative because the gas does work on the surroundings.", "lvl": "medium"},
+            {"q": "During compression of a gas, the sign of work (IUPAC) is positive because:", "o": ["p_ex is negative", "ΔV is negative, and w = −p_ex ΔV", "Heat is released", "Temperature rises"], "a": 1, "e": "In compression V_f < V_i, so ΔV < 0 and w = −p_ex ΔV > 0.", "lvl": "easy"}
+          ]
+        },
+        {
+          "id": "reversible",
+          "title": "Multi-step & Reversible Processes",
+          "short": "Reversible Process",
+          "pages": [141, 142],
+          "ref": "5.2.1 · Eq 5.3 · Fig 5.5 b,c",
+          "diagram": "pv-steps",
+          "synopsis": "<p><b>Finite steps:</b> if p<sub>ex</sub> changes in several steps, total work = −Σ pΔV, a staircase of rectangles on the p–V graph.</p><p><b>Infinite steps:</b> if p<sub>ex</sub> is always only <b>infinitesimally greater</b> than the gas pressure (p<sub>ex</sub> = p<sub>in</sub> + dp for compression, p<sub>in</sub> − dp for expansion), then</p><p class='f'>w = −∫ p<sub>ex</sub> dV   (Eq. 5.3)</p><p>Such a process is <b>reversible</b>. At any moment it could be reversed by an infinitesimal change. It proceeds <b>infinitely slowly</b> through a series of equilibrium states, with the system and surroundings always in near-equilibrium.</p><p>All other processes are <b>irreversible</b>.</p>",
+          "points": ["Reversible: infinitely slow, a series of equilibrium states, reversible by an infinitesimal change.", "On a p–V graph, reversible compression needs the least work and reversible expansion gives the most work."],
+          "questions": [
+            {"q": "A reversible process is one which:", "o": ["Takes place rapidly", "Proceeds infinitely slowly through a series of equilibrium states", "Can be reversed only by a large change", "Always occurs at constant volume"], "a": 1, "e": "NCERT: a reversible process proceeds infinitely slowly through equilibrium states and can be reversed by an infinitesimal change.", "lvl": "easy"},
+            {"q": "For the same initial and final volumes, the magnitude of work done BY a gas on isothermal expansion is maximum when the expansion is:", "o": ["Single-step irreversible", "Two-step irreversible", "Reversible", "Free expansion"], "a": 2, "e": "In reversible expansion, p_ex tracks the gas pressure, giving the largest area under the p–V curve.", "lvl": "medium"}
+          ]
+        },
+        {
+          "id": "iso-rev",
+          "title": "Isothermal Reversible Work",
+          "short": "Isothermal Rev.",
+          "pages": [142],
+          "ref": "5.2.1 · Eq 5.4, 5.5",
+          "synopsis": "<p>Under reversible conditions p<sub>ex</sub> = p<sub>in</sub> ± dp. Since dp·dV is negligible, we can replace p<sub>ex</sub> with the gas pressure p:</p><p class='f'>w<sub>rev</sub> = −∫ p dV   (Eq. 5.4)</p><p>For n mol of ideal gas, p = nRT/V. At constant T (<b>isothermal</b>):</p><p class='f'>w<sub>rev</sub> = −nRT ln(V<sub>f</sub>/V<sub>i</sub>) = −2.303 nRT log(V<sub>f</sub>/V<sub>i</sub>)   (Eq. 5.5)</p><p>Since p<sub>1</sub>V<sub>1</sub> = p<sub>2</sub>V<sub>2</sub> at constant T, you can also write V<sub>f</sub>/V<sub>i</sub> = p<sub>i</sub>/p<sub>f</sub>.</p>",
+          "formulas": ["w_rev = −2.303 nRT log(V_f/V_i) = −2.303 nRT log(p_i/p_f)"],
+          "questions": [
+            {"q": "2 mol of an ideal gas expand isothermally and reversibly at 300 K from 10 L to 100 L. Work done is about (R = 8.314 J K⁻¹ mol⁻¹):", "o": ["−5.74 kJ", "−11.5 kJ", "+11.5 kJ", "−26.4 kJ"], "a": 1, "e": "w = −2.303 × 2 × 8.314 × 300 × log 10 = −11 488 J ≈ −11.5 kJ.", "lvl": "medium"},
+            {"q": "In the expression w_rev = −2.303 nRT log(V_f/V_i), the ratio V_f/V_i can be replaced (isothermal ideal gas) by:", "o": ["p_f/p_i", "p_i/p_f", "T_f/T_i", "n_f/n_i"], "a": 1, "e": "Boyle's law: p_i V_i = p_f V_f, so V_f/V_i = p_i/p_f.", "lvl": "easy"}
+          ]
+        },
+        {
+          "id": "free-exp",
+          "title": "Free Expansion",
+          "short": "Free Expansion",
+          "pages": [142],
+          "ref": "5.2.1 · Free expansion",
+          "synopsis": "<p>Expansion of a gas <b>into vacuum</b> (p<sub>ex</sub> = 0) is <b>free expansion</b>. <b>No work</b> is done, whether the process is reversible or irreversible.</p><p>For an ideal gas expanding isothermally into vacuum, Joule found experimentally that q = 0 as well. So <b>ΔU = 0</b>.</p><p><i>NCERT Problem 5.2:</i> 2 L of gas at 10 atm expands isothermally into vacuum to 10 L. Then q = −w = 0 × 8 = 0: no work and no heat.</p>",
+          "points": ["Free expansion: p_ex = 0, so w = 0.", "Ideal gas, isothermal free expansion: q = 0, w = 0, ΔU = 0."],
+          "questions": [
+            {"q": "An ideal gas expands isothermally into vacuum. Which is correct?", "o": ["q > 0, w < 0", "q = 0, w = 0, ΔU = 0", "q < 0, w > 0", "q = 0, w < 0"], "a": 1, "e": "Against zero external pressure, w = 0. For an ideal gas at constant T, ΔU = 0, so q = 0 too.", "lvl": "medium"}
+          ]
+        },
+        {
+          "id": "process-summary",
+          "title": "q and w for Different Processes",
+          "short": "Process Summary",
+          "pages": [142, 143],
+          "ref": "5.2.1 · Problems 5.2–5.4",
+          "synopsis": "<p>Put w = −p<sub>ex</sub>ΔV into the First Law: ΔU = q − p<sub>ex</sub>ΔV.</p><table><tr><th>Process</th><th>Result</th></tr><tr><td>Constant volume (ΔV = 0)</td><td>ΔU = q<sub>V</sub></td></tr><tr><td>Isothermal irreversible (ideal gas, ΔU = 0)</td><td>q = −w = p<sub>ex</sub>(V<sub>f</sub> − V<sub>i</sub>)</td></tr><tr><td>Isothermal reversible (ideal gas)</td><td>q = −w = 2.303 nRT log(V<sub>f</sub>/V<sub>i</sub>)</td></tr><tr><td>Adiabatic</td><td>q = 0, ΔU = w<sub>ad</sub></td></tr></table><p><b>NCERT trio for one expansion (2 L → 10 L, 25 °C):</b></p><ul><li>Into vacuum: q = 0</li><li>Against 1 atm: q = 8 L atm</li><li>Reversible, 1 mol: q ≈ 39.4 L atm</li></ul><p>The same initial and final states give <b>different q and w</b> on different paths, a direct demonstration that q and w are path functions.</p>",
+          "questions": [
+            {"q": "For an isothermal expansion of an ideal gas, which statement is correct?", "o": ["ΔU = 0 and q = −w", "q = 0", "w = 0", "ΔU = q"], "a": 0, "e": "For an ideal gas, U depends only on T. Isothermal means ΔU = 0, so q = −w.", "lvl": "easy"},
+            {"q": "Heat absorbed at constant volume equals:", "o": ["ΔH", "ΔU", "w", "pΔV"], "a": 1, "e": "At constant volume no pV work is done, so ΔU = q_V.", "lvl": "easy"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enthalpy",
+      "title": "5.2.2 Enthalpy (H)",
+      "short": "Enthalpy",
+      "pages": [143, 144, 145],
+      "ref": "5.2.2",
+      "synopsis": "<p>Most reactions run at <b>constant pressure</b> (open flasks, test tubes), not constant volume. So we define a state function whose change equals the heat at constant pressure: <b>enthalpy, H = U + pV</b>. This sub-topic also covers extensive vs intensive properties, heat capacity, and C<sub>p</sub> − C<sub>V</sub> = R.</p>",
+      "formulas": ["H = U + pV", "ΔH = q_p", "ΔH = ΔU + Δn_g RT", "C_p − C_V = R"],
+      "children": [
+        {
+          "id": "h-def",
+          "title": "(a) H = U + pV and ΔH = q(p)",
+          "short": "Defining H",
+          "pages": [143],
+          "ref": "5.2.2 (a) · Eq 5.6–5.8",
+          "synopsis": "<p>At constant pressure: ΔU = q<sub>p</sub> − pΔV. Rearranging gives q<sub>p</sub> = (U<sub>2</sub> + pV<sub>2</sub>) − (U<sub>1</sub> + pV<sub>1</sub>). This motivates:</p><p class='f'>H = U + pV   (Eq. 5.7)    so   q<sub>p</sub> = ΔH</p><p>The word comes from the Greek <i>enthalpien</i>, 'to warm' or 'heat content'.</p><ul><li>H depends on U, p and V, which are all state functions, so <b>H is a state function</b>.</li><li>Therefore <b>q<sub>p</sub> is path-independent</b>, even though q in general is not.</li><li>At constant p: <b>ΔH = ΔU + pΔV</b> (Eq. 5.8).</li><li>At constant V: ΔH = ΔU = q<sub>V</sub>.</li></ul><p><b>Sign:</b> ΔH is <b>negative for exothermic</b> reactions (heat released) and <b>positive for endothermic</b> reactions (heat absorbed).</p>",
+          "traps": ["q is path-dependent in general, but q_p (= ΔH) and q_V (= ΔU) are path-independent."],
+          "questions": [
+            {"q": "Heat absorbed by a system at constant pressure is equal to:", "o": ["ΔU", "ΔH", "w", "ΔG"], "a": 1, "e": "By definition, ΔH = q_p.", "lvl": "easy"},
+            {"q": "For an exothermic reaction:", "o": ["ΔH > 0", "ΔH < 0", "ΔH = 0", "ΔH = ΔU always"], "a": 1, "e": "Exothermic reactions release heat, so ΔH is negative.", "lvl": "easy"},
+            {"q": "Which statement is correct?", "o": ["q is a state function", "q_p is path-dependent", "q_p is path-independent because it equals ΔH", "H is a path function"], "a": 2, "e": "H is a state function, so ΔH, and hence q_p, does not depend on path.", "lvl": "medium"}
+          ]
+        },
+        {
+          "id": "dh-du",
+          "title": "ΔH = ΔU + Δn(g)RT",
+          "short": "ΔH vs ΔU",
+          "pages": [143, 144],
+          "ref": "5.2.2 · Eq 5.9, 5.10 · Problem 5.5",
+          "synopsis": "<p>For solids and liquids, the volume change is tiny, so <b>ΔH ≈ ΔU</b>. With <b>gases</b> the difference matters.</p><p>At constant p and T, pV<sub>A</sub> = n<sub>A</sub>RT and pV<sub>B</sub> = n<sub>B</sub>RT, so pΔV = Δn<sub>g</sub>RT. This gives:</p><p class='f'>ΔH = ΔU + Δn<sub>g</sub>RT   (Eq. 5.10)</p><p><b>Δn<sub>g</sub></b> = moles of <b>gaseous</b> products − moles of <b>gaseous</b> reactants. Ignore solids and liquids.</p><table><tr><th>Δn<sub>g</sub></th><th>Relation</th></tr><tr><td>&gt; 0</td><td>ΔH &gt; ΔU</td></tr><tr><td>= 0</td><td>ΔH = ΔU</td></tr><tr><td>&lt; 0</td><td>ΔH &lt; ΔU</td></tr></table><p><i>NCERT Problem 5.5:</i> vaporising 1 mol of water at 100 °C, ΔH = 41 kJ mol⁻¹ and Δn<sub>g</sub> = 1. So ΔU = 41 − (8.3 × 373 × 10⁻³) ≈ <b>37.9 kJ mol⁻¹</b>.</p>",
+          "formulas": ["ΔH = ΔU + Δn_g RT"],
+          "traps": ["Count only GASEOUS species for Δn_g. In CH₄ combustion water is liquid, so Δn_g = 1 − 3 = −2.", "Use R in kJ (8.314 × 10⁻³ kJ K⁻¹ mol⁻¹) when ΔH is in kJ."],
+          "questions": [
+            {"q": "For CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔU = −X kJ mol⁻¹. Then ΔH is:", "o": ["= ΔU", "> ΔU", "< ΔU", "= 0"], "a": 2, "e": "Δn_g = 1 − 3 = −2, so ΔH = ΔU − 2RT, which is less than ΔU.", "lvl": "medium"},
+            {"q": "For which reaction is ΔH = ΔU?", "o": ["N₂(g) + 3H₂(g) → 2NH₃(g)", "H₂(g) + Cl₂(g) → 2HCl(g)", "PCl₅(g) → PCl₃(g) + Cl₂(g)", "2SO₂(g) + O₂(g) → 2SO₃(g)"], "a": 1, "e": "For H₂ + Cl₂ → 2HCl, Δn_g = 2 − 2 = 0, so ΔH = ΔU.", "lvl": "easy"},
+            {"q": "ΔvapH of water at 373 K is 40.7 kJ mol⁻¹. ΔvapU (water vapour as ideal gas) is about:", "o": ["43.8 kJ mol⁻¹", "40.7 kJ mol⁻¹", "37.6 kJ mol⁻¹", "34.5 kJ mol⁻¹"], "a": 2, "e": "ΔU = ΔH − Δn_g RT = 40.7 − (1)(8.314 × 10⁻³)(373) ≈ 40.7 − 3.1 = 37.6 kJ mol⁻¹.", "lvl": "medium"},
+            {"q": "For C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l) at 298 K, Δn_g is:", "o": ["+2", "−3", "+1", "−6"], "a": 1, "e": "Gaseous products 3, gaseous reactants 6, so Δn_g = −3. Liquid water is not counted.", "lvl": "easy"}
+          ]
+        },
+        {
+          "id": "ext-int",
+          "title": "(b) Extensive & Intensive Properties",
+          "short": "Extensive/Intensive",
+          "pages": [144],
+          "ref": "5.2.2 (b) · Fig 5.6",
+          "diagram": "partition",
+          "synopsis": "<p><b>Extensive:</b> the value depends on the <b>amount</b> of matter. Examples: mass, volume, internal energy, enthalpy, heat capacity (also entropy and Gibbs energy).</p><p><b>Intensive:</b> the value does <b>not</b> depend on amount. Examples: temperature, pressure, density.</p><p><b>Molar property</b> χ<sub>m</sub> = χ/n, an extensive property per mole. It is <b>intensive</b>. Examples: molar volume V<sub>m</sub> and molar heat capacity C<sub>m</sub>.</p><p><i>NCERT test (Fig 5.6):</i> split a gas (V, T) in half with a partition. Each half has volume V/2 but the same T. So V is extensive and T is intensive.</p>",
+          "points": ["Ratio of two extensive properties = intensive (density = m/V; C_m = C/n).", "G is extensive (stated in 5.6 c)."],
+          "traps": ["Heat capacity is EXTENSIVE, but specific heat and molar heat capacity are INTENSIVE."],
+          "questions": [
+            {"q": "Which of the following is an intensive property?", "o": ["Enthalpy", "Heat capacity", "Molar heat capacity", "Volume"], "a": 2, "e": "Molar heat capacity = C/n, the ratio of two extensive quantities, so it is intensive.", "lvl": "medium"},
+            {"q": "Which set contains only extensive properties?", "o": ["Mass, volume, enthalpy", "Temperature, pressure, density", "Mass, density, enthalpy", "Volume, temperature, heat capacity"], "a": 0, "e": "Mass, volume and enthalpy all scale with the amount of substance.", "lvl": "easy"}
+          ]
+        },
+        {
+          "id": "heat-capacity",
+          "title": "(c) Heat Capacity",
+          "short": "Heat Capacity",
+          "pages": [144, 145],
+          "ref": "5.2.2 (c) · Eq 5.11",
+          "synopsis": "<p>Heat absorbed shows up as a temperature rise: <b>q = C ΔT</b>, where C is the <b>heat capacity</b>. Its magnitude depends on the size, composition and nature of the system.</p><ul><li><b>Large C</b>, small temperature rise for a given heat. <b>Water</b> has a large heat capacity.</li><li><b>Molar heat capacity</b> C<sub>m</sub> = C/n: heat to raise 1 mol by 1 °C (1 K).</li><li><b>Specific heat (capacity)</b> c: heat to raise <b>unit mass</b> by 1 °C (1 K).</li></ul><p class='f'>q = c × m × ΔT = C ΔT   (Eq. 5.11)</p>",
+          "formulas": ["q = C ΔT", "q = m c ΔT", "C_m = C/n"],
+          "questions": [
+            {"q": "Heat needed to raise the temperature of 60.0 g of Al from 35 °C to 55 °C (molar heat capacity 24 J mol⁻¹ K⁻¹, M = 27 g mol⁻¹) is about:", "o": ["0.53 kJ", "1.07 kJ", "2.14 kJ", "28.8 kJ"], "a": 1, "e": "n = 60/27 = 2.22 mol; q = 2.22 × 24 × 20 ≈ 1067 J ≈ 1.07 kJ.", "lvl": "medium", "src": "NCERT Ex 5.9"},
+            {"q": "A substance with a large heat capacity will show:", "o": ["A large temperature rise for a given heat input", "A small temperature rise for a given heat input", "No temperature change", "A temperature fall on heating"], "a": 1, "e": "q = CΔT, so for fixed q, a larger C gives a smaller ΔT.", "lvl": "easy"}
+          ]
+        },
+        {
+          "id": "cp-cv",
+          "title": "(d) Cp − Cv = R (Ideal Gas)",
+          "short": "Cp − Cv = R",
+          "pages": [145],
+          "ref": "5.2.2 (d) · Eq 5.12, 5.13",
+          "synopsis": "<p>q<sub>V</sub> = C<sub>V</sub>ΔT = ΔU and q<sub>p</sub> = C<sub>p</sub>ΔT = ΔH.</p><p>For 1 mol of ideal gas, ΔH = ΔU + Δ(pV) = ΔU + Δ(RT) = ΔU + RΔT. Substituting:</p><p class='f'>C<sub>p</sub>ΔT = C<sub>V</sub>ΔT + RΔT  ⟹  C<sub>p</sub> − C<sub>V</sub> = R   (Eq. 5.13)</p><p>So C<sub>p</sub> &gt; C<sub>V</sub> always. At constant pressure, part of the heat goes into expansion work.</p><p><i>Useful extra (from the NCERT box in 5.5):</i> for a monoatomic gas, C<sub>V</sub> = 3/2 R and C<sub>p</sub> = 5/2 R.</p>",
+          "formulas": ["C_p − C_V = R", "Monoatomic: C_V = 3R/2, C_p = 5R/2"],
+          "questions": [
+            {"q": "For one mole of an ideal gas, Cp − Cv equals:", "o": ["0", "R", "R/2", "2R"], "a": 1, "e": "From ΔH = ΔU + RΔT for 1 mol of ideal gas, Cp − Cv = R.", "lvl": "easy"},
+            {"q": "Why is Cp greater than Cv for a gas?", "o": ["At constant pressure, part of the heat is used to do expansion work", "At constant volume, heat is lost", "Pressure increases internal energy", "Cv includes work of expansion"], "a": 0, "e": "At constant p, the gas expands and does work, so more heat is needed for the same ΔT.", "lvl": "medium"}
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": "calorimetry",
+  "title": "5.3 Measuring ΔU and ΔH: Calorimetry",
+  "short": "Calorimetry",
+  "pages": [145, 146],
+  "ref": "Section 5.3",
+  "synopsis": "<p><b>Calorimetry</b> measures heat changes. The process runs in a <b>calorimeter</b> immersed in a known volume of liquid. Knowing the heat capacities of the liquid and the calorimeter, the measured <b>temperature change</b> gives the heat. There are two set-ups: <b>constant volume</b> (gives ΔU) and <b>constant pressure</b> (gives ΔH).</p>",
+  "children": [
+    {
+      "id": "bomb",
+      "title": "(a) ΔU: Bomb Calorimeter",
+      "short": "Bomb Calorimeter",
+      "pages": [145],
+      "ref": "5.3 (a) · Fig 5.7",
+      "diagram": "bomb",
+      "synopsis": "<p>A sealed <b>steel vessel (the bomb)</b> sits in a water bath, so no heat is lost to the surroundings. The substance burns in <b>pure dioxygen</b> inside the bomb. The heat released passes into the water, and its temperature is monitored.</p><ul><li>The bomb is sealed, so <b>volume is constant</b>. No work is done, even for reactions involving gases (ΔV = 0).</li><li>The heat measured is <b>q<sub>V</sub> = ΔU</b>. It comes from ΔT and the known heat capacity of the calorimeter (q = CΔT).</li></ul>",
+      "questions": [
+        {"q": "A bomb calorimeter measures:", "o": ["ΔH directly", "ΔU (heat at constant volume)", "ΔG", "ΔS"], "a": 1, "e": "The bomb is sealed and rigid (ΔV = 0), so the heat measured is q_V = ΔU.", "lvl": "easy"},
+        {"q": "Why is no work done in a bomb calorimeter even when gases are produced?", "o": ["Gases do not expand", "The volume of the sealed bomb is constant", "Temperature is constant", "Pressure is zero"], "a": 1, "e": "w = −pΔV and ΔV = 0 in the sealed steel bomb.", "lvl": "easy"}
+      ]
+    },
+    {
+      "id": "coffee-cup",
+      "title": "(b) ΔH: Constant-pressure Calorimeter",
+      "short": "Const-p Calorimeter",
+      "pages": [146],
+      "ref": "5.3 (b) · Fig 5.8",
+      "synopsis": "<p>Heat changes at <b>constant (atmospheric) pressure</b> are measured in an open calorimeter (Fig 5.8). Since ΔH = q<sub>p</sub>, the heat measured is the <b>heat of reaction</b>, or <b>enthalpy of reaction, Δ<sub>r</sub>H</b>.</p><ul><li>Exothermic: heat evolved, q<sub>p</sub> &lt; 0, Δ<sub>r</sub>H &lt; 0</li><li>Endothermic: heat absorbed, q<sub>p</sub> &gt; 0, Δ<sub>r</sub>H &gt; 0</li></ul>",
+      "questions": [
+        {"q": "The heat absorbed or evolved at constant pressure in a calorimeter is called:", "o": ["Internal energy change", "Enthalpy of reaction", "Gibbs energy", "Lattice energy"], "a": 1, "e": "q_p = Δ_rH, the enthalpy (heat) of reaction.", "lvl": "easy"}
+      ]
+    },
+    {
+      "id": "graphite-problem",
+      "title": "Worked: Burning Graphite in a Bomb",
+      "short": "Graphite Problem",
+      "pages": [146],
+      "ref": "Problem 5.6",
+      "synopsis": "<p>1 g of graphite burns in a bomb calorimeter (C<sub>V</sub> = 20.7 kJ K⁻¹), and the temperature rises from 298 K to 299 K.</p><ol><li>Heat gained by the calorimeter = 20.7 × 1 = 20.7 kJ. The reaction lost the same amount, so q = <b>−20.7 kJ</b> per gram.</li><li>Per mole (12 g): ΔU = 12 × (−20.7) = <b>−2.48 × 10² kJ mol⁻¹</b>.</li><li>C(s) + O<sub>2</sub>(g) → CO<sub>2</sub>(g) has Δn<sub>g</sub> = 1 − 1 = 0, so <b>ΔH = ΔU</b>.</li></ol><p class='errata'>NCERT erratum: the text writes ΔU for 1 g as '−20.7 kJ K⁻¹'. The correct unit is <b>kJ</b> (it is an energy, not a heat capacity).</p>",
+      "questions": [
+        {"q": "A reaction in a bomb calorimeter (heat capacity 10.0 kJ K⁻¹) raises the temperature by 2.0 K. q for the reaction is:", "o": ["+20 kJ", "−20 kJ", "+5 kJ", "−5 kJ"], "a": 1, "e": "The calorimeter gains CΔT = 20 kJ. The reaction lost it, so q = −20 kJ (exothermic).", "lvl": "medium"},
+        {"q": "For C(graphite) + O₂(g) → CO₂(g), the relation between ΔH and ΔU is:", "o": ["ΔH > ΔU", "ΔH < ΔU", "ΔH = ΔU", "Cannot be predicted"], "a": 2, "e": "Δn_g = 1 − 1 = 0, so ΔH = ΔU.", "lvl": "easy"}
+      ]
+    }
+  ]
+}
+]

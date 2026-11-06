@@ -1,0 +1,29 @@
+{
+ "id": "chem11-thermodynamics",
+ "title": "Thermodynamics",
+ "short": "Thermodynamics",
+ "subject": "Chemistry",
+ "cls": 11,
+ "unit": 5,
+ "pages": [
+  136,
+  167
+ ],
+ "ref": "NCERT Chemistry Part I · Unit 5 · pp. 136–167",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech105.pdf",
+ "pdfPageOffset": 135,
+ "synopsis": "<p>Thermodynamics answers three questions about any chemical change: <b>how much energy</b> is involved (ΔU, ΔH), <b>will it happen</b> on its own (ΔS, ΔG), and <b>how far</b> will it go (K). The chapter builds this one state function at a time: <b>U → H → S → G</b>.</p><p>Tap any branch to go deeper. Every node has its own synopsis and questions.</p>",
+ "formulas": [
+  "ΔU = q + w",
+  "w = −p_ex ΔV",
+  "w_rev = −2.303 nRT log(V_f/V_i)",
+  "H = U + pV",
+  "ΔH = ΔU + Δn_g RT",
+  "C_p − C_V = R",
+  "ΔrH = ΣΔfH(prod) − ΣΔfH(react)",
+  "ΔrH = ΣBE(react) − ΣBE(prod)",
+  "ΔS = q_rev/T",
+  "ΔG = ΔH − TΔS",
+  "ΔrG° = −2.303 RT log K"
+ ]
+}

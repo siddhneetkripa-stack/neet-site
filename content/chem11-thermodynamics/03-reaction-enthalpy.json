@@ -1,0 +1,108 @@
+[
+{
+  "id": "reaction-enthalpy",
+  "title": "5.4 Reaction Enthalpy (ΔᵣH)",
+  "short": "Reaction Enthalpy",
+  "pages": [146, 147, 148, 149, 150, 151, 152],
+  "ref": "Section 5.4",
+  "synopsis": "<p>The enthalpy change that accompanies a reaction is the <b>reaction enthalpy, Δ<sub>r</sub>H</b>:</p><p class='f'>Δ<sub>r</sub>H = Σ a<sub>i</sub> H(products) − Σ b<sub>i</sub> H(reactants)   (Eq. 5.14)</p><p>Industry needs it to plan heating or cooling, and it is also needed for the temperature dependence of K. This section covers <b>standard states</b>, <b>phase changes</b>, <b>enthalpy of formation</b>, <b>thermochemical equations</b> and <b>Hess's law</b>.</p>",
+  "children": [
+    {
+      "id": "rh-def",
+      "title": "ΔᵣH = ΣH(products) − ΣH(reactants)",
+      "short": "Definition",
+      "pages": [146, 147],
+      "ref": "5.4 · Eq 5.14",
+      "synopsis": "<p>The a<sub>i</sub> and b<sub>i</sub> are the <b>stoichiometric coefficients</b> from the balanced equation, and H<sub>m</sub> is the molar enthalpy.</p><p><i>Example:</i> CH<sub>4</sub>(g) + 2O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2H<sub>2</sub>O(l)</p><p class='f'>Δ<sub>r</sub>H = [H<sub>m</sub>(CO<sub>2</sub>) + 2H<sub>m</sub>(H<sub>2</sub>O,l)] − [H<sub>m</sub>(CH<sub>4</sub>) + 2H<sub>m</sub>(O<sub>2</sub>)]</p><p><b>Uses:</b> planning the heating or cooling needed to keep an industrial reaction at constant temperature, and calculating how the equilibrium constant changes with temperature.</p>",
+      "questions": [
+        {"q": "Knowledge of Δ_rH is needed for all EXCEPT:", "o": ["Planning heating/cooling of an industrial reaction", "Temperature dependence of the equilibrium constant", "Predicting the rate constant of a reaction", "Calculating heat released in combustion"], "a": 2, "e": "Rate constants belong to chemical kinetics. NCERT lists the other uses.", "lvl": "medium"}
+      ]
+    },
+    {
+      "id": "std-state",
+      "title": "(a) Standard Enthalpy & Standard State",
+      "short": "Standard State",
+      "pages": [147],
+      "ref": "5.4 (a)",
+      "synopsis": "<p>Enthalpy depends on conditions, so we fix standard ones.</p><p><b>Standard enthalpy of reaction</b> (Δ<sub>r</sub>H°): the enthalpy change when <b>all</b> participants are in their <b>standard states</b>.</p><p><b>Standard state</b> of a substance at a given temperature: its <b>pure form at 1 bar</b>.</p><ul><li>Liquid ethanol at 298 K: pure liquid ethanol at 1 bar.</li><li>Solid iron at 500 K: pure iron at 1 bar.</li></ul><p>Data are usually quoted at 298 K. Standard conditions are shown by the superscript <b>°</b>.</p>",
+      "traps": ["The standard state specifies PRESSURE (1 bar), not temperature. A standard state can exist at any temperature; 298 K is just the usual choice."],
+      "questions": [
+        {"q": "The standard state of a substance at a specified temperature is:", "o": ["Its pure form at 1 atm and 273 K", "Its pure form at 1 bar", "Its gaseous form at 1 bar", "Its most stable form at 298 K only"], "a": 1, "e": "NCERT: the standard state is the pure form at 1 bar at the specified temperature.", "lvl": "easy"}
+      ]
+    },
+    {
+      "id": "phase",
+      "title": "(b) Enthalpy of Phase Transformations",
+      "short": "Phase Changes",
+      "pages": [147, 148, 149],
+      "ref": "5.4 (b) · Table 5.1 · Problems 5.7, 5.8",
+      "synopsis": "<p>Phase changes happen at <b>constant temperature</b> (and pressure), and they still involve energy.</p><table><tr><th>Term</th><th>Process (1 mol, standard state)</th><th>Example</th></tr><tr><td>Δ<sub>fus</sub>H°</td><td>solid → liquid</td><td>Ice: 6.00 kJ mol⁻¹ at 273 K</td></tr><tr><td>Δ<sub>vap</sub>H°</td><td>liquid → vapour (at T<sub>b</sub>, 1 bar)</td><td>Water: +40.79 kJ mol⁻¹</td></tr><tr><td>Δ<sub>sub</sub>H°</td><td>solid → vapour directly</td><td>Dry ice: 25.2 kJ mol⁻¹ at 195 K; naphthalene: 73.0 kJ mol⁻¹</td></tr></table><ul><li>Melting, vaporisation and sublimation are all <b>endothermic</b>, so these enthalpies are <b>positive</b>. The reverse processes (freezing, condensation) release the same amount.</li><li>The magnitude depends on <b>intermolecular forces</b>. Water has strong H-bonds and acetone weaker dipole–dipole forces, so acetone needs less heat per mole to vaporise.</li><li>Since the paths are equivalent (Hess), Δ<sub>sub</sub>H = Δ<sub>fus</sub>H + Δ<sub>vap</sub>H at the same temperature.</li></ul><p><i>Problem 5.7:</i> 18 g of water on a swimmer at 298 K (Δ<sub>vap</sub>H = 44.01 kJ mol⁻¹) needs 44.01 kJ. Then Δ<sub>vap</sub>U = 44.01 − RT = 44.01 − 2.48 = 41.53 kJ.</p><p><i>Problem 5.8:</i> 1 mol of water at 100 °C → ice at 0 °C. ΔH = −(18 × 4.2 × 100) J − 6.00 kJ = −7.56 − 6.00 = <b>−13.56 kJ mol⁻¹</b>. The volume change is negligible, so ΔU ≈ ΔH.</p>",
+      "formulas": ["ΔsubH = ΔfusH + ΔvapH"],
+      "questions": [
+        {"q": "Which is true for all enthalpies of fusion and vaporisation?", "o": ["They are always negative", "They are always positive", "They are zero at the transition temperature", "They are equal for all substances"], "a": 1, "e": "Melting and vaporising need heat (endothermic), so these enthalpies are positive.", "lvl": "easy"},
+        {"q": "Acetone needs less heat per mole than water to vaporise because:", "o": ["Acetone has a higher molar mass", "Water has strong intermolecular hydrogen bonds", "Acetone is ionic", "Water has weaker dipole–dipole forces"], "a": 1, "e": "Strong H-bonding in water holds the molecules tightly. Acetone has only weaker dipole–dipole forces.", "lvl": "easy"},
+        {"q": "If ΔfusH = 6.0 kJ mol⁻¹ and ΔvapH = 45.0 kJ mol⁻¹ for a substance at the same temperature, its ΔsubH is:", "o": ["39.0 kJ mol⁻¹", "51.0 kJ mol⁻¹", "45.0 kJ mol⁻¹", "270 kJ mol⁻¹"], "a": 1, "e": "Solid → vapour = solid → liquid → vapour, so ΔsubH = 6.0 + 45.0 = 51.0 kJ mol⁻¹.", "lvl": "medium"},
+        {"q": "During melting of ice at 273 K and 1 atm, the temperature:", "o": ["Rises steadily", "Remains constant", "Falls", "First rises then falls"], "a": 1, "e": "Phase changes take place at constant temperature; the heat absorbed is latent heat.", "lvl": "easy"}
+      ]
+    },
+    {
+      "id": "formation",
+      "title": "(c) Standard Enthalpy of Formation",
+      "short": "Formation (ΔfH°)",
+      "pages": [149, 150],
+      "ref": "5.4 (c) · Table 5.2",
+      "synopsis": "<p><b>Δ<sub>f</sub>H°</b>: the standard enthalpy change for forming <b>one mole</b> of a compound from its <b>elements in their most stable states</b> (reference states).</p><p><b>Reference state</b> of an element is its most stable form at 25 °C and 1 bar: H<sub>2</sub>(g), O<sub>2</sub>(g), <b>C(graphite)</b>, <b>S(rhombic)</b>.</p><p>NCERT examples: Δ<sub>f</sub>H° of H<sub>2</sub>O(l) = −285.8, CH<sub>4</sub>(g) = −74.81, C<sub>2</sub>H<sub>5</sub>OH(l) = −277.7 kJ mol⁻¹.</p><p><b>Convention:</b> Δ<sub>f</sub>H° of an element in its reference state = <b>0</b>.</p><p><b>These are NOT formation enthalpies:</b></p><ul><li>CaO(s) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s), Δ<sub>r</sub>H = −178.3 kJ: formed from <i>compounds</i>, not elements.</li><li>H<sub>2</sub>(g) + Br<sub>2</sub>(l) → 2HBr(g): <i>two</i> moles formed. Halve it to get Δ<sub>f</sub>H°(HBr) = −36.4 kJ mol⁻¹.</li></ul><p class='errata'>NCERT erratum: for H₂ + Br₂ → 2HBr the text prints Δ<sub>r</sub>H° = −178.3 kJ mol⁻¹ (copied from the CaCO₃ line). The consistent value is 2 × (−36.4) = <b>−72.8 kJ mol⁻¹</b>.</p>",
+      "points": ["ΔfH° of an element in its most stable form is 0 (e.g. O₂(g), C(graphite)).", "ΔfH° of C(diamond) or O₃(g) is NOT zero, because they are not reference states."],
+      "traps": ["ΔfH°(Br₂, l) = 0 but ΔfH°(Br₂, g) ≠ 0, because liquid is bromine's reference state."],
+      "questions": [
+        {"q": "The enthalpies of all elements in their standard (reference) states are:", "o": ["Unity", "Zero", "Less than zero", "Different for each element"], "a": 1, "e": "By convention ΔfH° = 0 for every element in its most stable state at 1 bar.", "lvl": "easy"},
+        {"q": "For which substance is ΔfH° NOT zero?", "o": ["C(graphite)", "O₂(g)", "C(diamond)", "S(rhombic)"], "a": 2, "e": "Diamond is not carbon's reference state; graphite is.", "lvl": "easy"},
+        {"q": "Which equation represents the standard enthalpy of formation?", "o": ["CaO(s) + CO₂(g) → CaCO₃(s)", "H₂(g) + Br₂(l) → 2HBr(g)", "½H₂(g) + ½Br₂(l) → HBr(g)", "C(diamond) + O₂(g) → CO₂(g)"], "a": 2, "e": "It forms 1 mol of HBr from its elements in their reference states. The others start from compounds, make 2 mol, or use diamond.", "lvl": "medium"},
+        {"q": "For N₂(g) + 3H₂(g) → 2NH₃(g), ΔrH° = −92.4 kJ mol⁻¹. ΔfH° of NH₃(g) is:", "o": ["−92.4 kJ mol⁻¹", "−46.2 kJ mol⁻¹", "+46.2 kJ mol⁻¹", "−184.8 kJ mol⁻¹"], "a": 1, "e": "The equation makes 2 mol of NH₃, so ΔfH° = −92.4/2 = −46.2 kJ mol⁻¹.", "lvl": "easy", "src": "NCERT Ex 5.13"}
+      ]
+    },
+    {
+      "id": "use-formation",
+      "title": "Using ΔfH° to Find ΔᵣH°",
+      "short": "ΔrH from ΔfH",
+      "pages": [150],
+      "ref": "5.4 (c) · Eq 5.15",
+      "synopsis": "<p class='f'>Δ<sub>r</sub>H° = Σ a<sub>i</sub> Δ<sub>f</sub>H°(products) − Σ b<sub>i</sub> Δ<sub>f</sub>H°(reactants)   (Eq. 5.15)</p><p><i>NCERT example:</i> CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g)</p><p>Δ<sub>r</sub>H° = (−635.1) + (−393.5) − (−1206.9) = <b>+178.3 kJ mol⁻¹</b>. The reaction is endothermic, so limestone must be <b>heated</b> to make lime.</p><p>Recipe: <i>products minus reactants, each multiplied by its coefficient; elements count as zero.</i></p>",
+      "formulas": ["ΔrH° = Σ ΔfH°(products) − Σ ΔfH°(reactants)"],
+      "questions": [
+        {"q": "ΔfH° values (kJ mol⁻¹): CO(g) = −110, CO₂(g) = −393, N₂O(g) = 81, N₂O₄(g) = 9.7. ΔrH for N₂O₄(g) + 3CO(g) → N₂O(g) + 3CO₂(g) is:", "o": ["−777.7 kJ mol⁻¹", "+777.7 kJ mol⁻¹", "−1070 kJ mol⁻¹", "−320 kJ mol⁻¹"], "a": 0, "e": "Products: 81 + 3(−393) = −1098. Reactants: 9.7 + 3(−110) = −320.3. ΔrH = −1098 − (−320.3) = −777.7 kJ mol⁻¹.", "lvl": "medium", "src": "NCERT Ex 5.12"},
+        {"q": "Given ΔfH°: Fe₂O₃(s) = −824.2, H₂O(l) = −285.83 kJ mol⁻¹. ΔrH° for Fe₂O₃(s) + 3H₂(g) → 2Fe(s) + 3H₂O(l) is about:", "o": ["−1681.7 kJ mol⁻¹", "+33.3 kJ mol⁻¹", "−33.3 kJ mol⁻¹", "+538.4 kJ mol⁻¹"], "a": 2, "e": "3(−285.83) − (−824.2) = −857.5 + 824.2 = −33.3 kJ mol⁻¹. Fe and H₂ count as zero.", "lvl": "medium"}
+      ]
+    },
+    {
+      "id": "thermo-eq",
+      "title": "(d) Thermochemical Equations",
+      "short": "Thermochemical Eq.",
+      "pages": [150, 151],
+      "ref": "5.4 (d)",
+      "synopsis": "<p>A <b>thermochemical equation</b> is a balanced equation plus its Δ<sub>r</sub>H, with the <b>physical state</b> (and allotropic form) of every substance written in.</p><p>Example: C<sub>2</sub>H<sub>5</sub>OH(l) + 3O<sub>2</sub>(g) → 2CO<sub>2</sub>(g) + 3H<sub>2</sub>O(l); Δ<sub>r</sub>H° = −1367 kJ mol⁻¹</p><p><b>Three conventions:</b></p><ol><li>Coefficients mean <b>moles</b>, never molecules.</li><li>Δ<sub>r</sub>H° refers to the moles <b>as written</b>, and its unit is kJ mol⁻¹, meaning per mole <i>of reaction</i>. Halve the equation and you halve ΔH (−33.3 becomes −16.6 kJ for the Fe<sub>2</sub>O<sub>3</sub> example). So <b>enthalpy is extensive</b>.</li><li><b>Reverse the equation and the sign of ΔH flips.</b> N<sub>2</sub> + 3H<sub>2</sub> → 2NH<sub>3</sub> is −91.8 kJ; 2NH<sub>3</sub> → N<sub>2</sub> + 3H<sub>2</sub> is +91.8 kJ.</li></ol>",
+      "questions": [
+        {"q": "If ΔH for A → B is −x kJ, then ΔH for 2B → 2A is:", "o": ["−2x kJ", "+2x kJ", "+x kJ", "−x/2 kJ"], "a": 1, "e": "Reversing flips the sign (+x) and doubling doubles the value: +2x kJ.", "lvl": "easy"},
+        {"q": "In a thermochemical equation, the stoichiometric coefficients represent:", "o": ["Number of molecules", "Number of moles", "Mass in grams", "Volume in litres"], "a": 1, "e": "NCERT convention 1: coefficients are moles, never molecules.", "lvl": "easy"},
+        {"q": "Heat released on forming 35.2 g of CO₂ from carbon (ΔcH of C = −393.5 kJ mol⁻¹) is:", "o": ["393.5 kJ", "314.8 kJ", "196.8 kJ", "157.4 kJ"], "a": 1, "e": "35.2/44 = 0.8 mol; 0.8 × 393.5 = 314.8 kJ released.", "lvl": "medium", "src": "NCERT Ex 5.11"}
+      ]
+    },
+    {
+      "id": "hess",
+      "title": "(e) Hess's Law of Constant Heat Summation",
+      "short": "Hess's Law",
+      "pages": [151, 152],
+      "ref": "5.4 (e) · Eq 5.16",
+      "diagram": "hess",
+      "synopsis": "<p>Enthalpy is a state function, so ΔH for a reaction is <b>the same whether it happens in one step or many</b>.</p><blockquote>If a reaction takes place in several steps, its standard reaction enthalpy is the sum of the standard enthalpies of the intermediate reactions (at the same temperature).</blockquote><p class='f'>Δ<sub>r</sub>H = Δ<sub>r</sub>H<sub>1</sub> + Δ<sub>r</sub>H<sub>2</sub> + Δ<sub>r</sub>H<sub>3</sub> + …   (Eq. 5.16)</p><p><b>Why we need it:</b> burning carbon always gives some CO<sub>2</sub> along with CO, so Δ<sub>r</sub>H for C → CO <b>cannot be measured directly</b>.</p><ol><li>C(graphite) + O<sub>2</sub> → CO<sub>2</sub>; ΔH = −393.5 kJ mol⁻¹</li><li>CO + ½O<sub>2</sub> → CO<sub>2</sub>; ΔH = −283.0 kJ mol⁻¹</li><li>Reverse (2): CO<sub>2</sub> → CO + ½O<sub>2</sub>; ΔH = +283.0</li><li>Add (1) and (3): <b>C + ½O<sub>2</sub> → CO; ΔH = −110.5 kJ mol⁻¹</b></li></ol><p><b>Toolkit:</b> equations can be added, subtracted, reversed (flip the sign) and multiplied (scale ΔH), exactly like algebra.</p>",
+      "formulas": ["ΔrH = ΔrH₁ + ΔrH₂ + ΔrH₃ + …"],
+      "questions": [
+        {"q": "Hess's law is a direct consequence of the fact that:", "o": ["Enthalpy is an intensive property", "Enthalpy is a state function", "Heat is a path function", "Energy can be created"], "a": 1, "e": "ΔH depends only on the initial and final states, so it is the same for any route.", "lvl": "easy"},
+        {"q": "C(s) + O₂ → CO₂, ΔH = −393.5 kJ; CO + ½O₂ → CO₂, ΔH = −283.0 kJ. ΔH for C(s) + ½O₂ → CO is:", "o": ["−676.5 kJ", "−110.5 kJ", "+110.5 kJ", "−283.0 kJ"], "a": 1, "e": "(1) − (2): −393.5 − (−283.0) = −110.5 kJ.", "lvl": "easy"},
+        {"q": "Why can ΔH for C(graphite) + ½O₂ → CO not be measured directly?", "o": ["The reaction is too slow", "Some CO₂ is always formed along with CO", "CO is unstable", "Graphite does not burn"], "a": 1, "e": "NCERT: some CO₂ always forms, so direct measurement is impossible; Hess's law is used instead.", "lvl": "easy"},
+        {"q": "Given A → B, ΔH = +20 kJ; B → C, ΔH = −50 kJ; C → D, ΔH = +10 kJ. ΔH for D → A is:", "o": ["−20 kJ", "+20 kJ", "−80 kJ", "+80 kJ"], "a": 1, "e": "A → D = 20 − 50 + 10 = −20 kJ, so D → A = +20 kJ.", "lvl": "medium"}
+      ]
+    }
+  ]
+}
+]

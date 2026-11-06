@@ -1,0 +1,204 @@
+[
+{
+  "id": "spontaneity",
+  "title": "5.6 Spontaneity",
+  "short": "Spontaneity",
+  "pages": [157, 158, 159, 160, 161, 162],
+  "ref": "Section 5.6",
+  "synopsis": "<p>The First Law tracks energy but says nothing about <b>direction</b>. Heat flows hot → cold, gases spread out, carbon burns to CO<sub>2</sub>, and never the reverse on their own. This section asks what decides the direction of change. It tests enthalpy (not enough), then entropy (enough for isolated systems), then <b>Gibbs energy</b>, the working criterion at constant T and p. It ends with the <b>Second and Third Laws</b>.</p>",
+  "children": [
+    {
+      "id": "spont-meaning",
+      "title": "What 'Spontaneous' Means",
+      "short": "Meaning",
+      "pages": [157],
+      "ref": "5.6 ¶1–3",
+      "synopsis": "<p>Spontaneous does <b>not</b> mean instantaneous. H<sub>2</sub> and O<sub>2</sub> can sit mixed at room temperature for years with no visible change. The reaction is happening, just extremely slowly, and it is still called spontaneous.</p><blockquote>Spontaneity means 'having the potential to proceed without the assistance of an external agency'.</blockquote><ul><li>It says <b>nothing about rate</b>.</li><li>A spontaneous process <b>cannot reverse its direction on its own</b>. A spontaneous process is irreversible and can be reversed only by an external agency.</li></ul>",
+      "traps": ["'Spontaneous' ≠ 'fast'. Rate is kinetics; spontaneity is thermodynamics."],
+      "questions": [
+        {"q": "A mixture of H₂ and O₂ at room temperature shows no perceptible change for years. The reaction is:", "o": ["Non-spontaneous", "Spontaneous but extremely slow", "At equilibrium", "Endothermic"], "a": 1, "e": "NCERT uses this exact example: spontaneity concerns the potential to proceed, not the rate.", "lvl": "easy"},
+        {"q": "Which statement about a spontaneous process is correct?", "o": ["It is always fast", "It can reverse direction on its own", "It is irreversible and can be reversed only by an external agency", "It always releases heat"], "a": 2, "e": "NCERT summary statement on spontaneous processes.", "lvl": "easy"}
+      ]
+    },
+    {
+      "id": "enthalpy-criterion",
+      "title": "(a) Is Decrease in Enthalpy the Criterion?",
+      "short": "Enthalpy Criterion?",
+      "pages": [157, 158],
+      "ref": "5.6 (a) · Fig 5.10",
+      "diagram": "exo-endo",
+      "synopsis": "<p>Water flows downhill and stones fall, both towards lower potential energy. By analogy, perhaps reactions are spontaneous because enthalpy decreases. Many spontaneous reactions are indeed exothermic:</p><ul><li>½N<sub>2</sub> + 3/2 H<sub>2</sub> → NH<sub>3</sub>; ΔH = −46.1 kJ mol⁻¹</li><li>½H<sub>2</sub> + ½Cl<sub>2</sub> → HCl; ΔH = −92.32 kJ mol⁻¹</li><li>H<sub>2</sub> + ½O<sub>2</sub> → H<sub>2</sub>O(l); ΔH = −285.8 kJ mol⁻¹</li></ul><p>But <b>some endothermic reactions are also spontaneous</b>:</p><ul><li>½N<sub>2</sub> + O<sub>2</sub> → NO<sub>2</sub>; ΔH = +33.2 kJ mol⁻¹</li><li>C(graphite) + 2S(l) → CS<sub>2</sub>(l); ΔH = +128.5 kJ mol⁻¹</li></ul><p><b>Conclusion:</b> a decrease in enthalpy <b>contributes</b> to spontaneity but <b>is not the criterion</b>.</p>",
+      "questions": [
+        {"q": "The fact that some endothermic reactions are spontaneous shows that:", "o": ["Enthalpy decrease is the sole criterion for spontaneity", "Enthalpy decrease may contribute but is not the sole criterion", "Endothermic reactions are always spontaneous", "Spontaneity depends only on rate"], "a": 1, "e": "NCERT: decrease in enthalpy may be a contributory factor but is not true for all cases.", "lvl": "easy"}
+      ]
+    },
+    {
+      "id": "entropy",
+      "title": "(b) Entropy (S)",
+      "short": "Entropy",
+      "pages": [158, 159, 160],
+      "ref": "5.6 (b)",
+      "synopsis": "<p>When ΔH = 0 a process can still be spontaneous, so something else must drive it. That something is <b>entropy (S)</b>.</p>",
+      "children": [
+        {
+          "id": "entropy-concept",
+          "title": "Entropy as Disorder",
+          "short": "Disorder",
+          "pages": [158, 159],
+          "ref": "5.6 (b) · Fig 5.11",
+          "diagram": "diffusion",
+          "synopsis": "<p><b>Diffusion of two gases</b> (Fig 5.11) in an isolated container has ΔH = 0, yet it is spontaneous. Before the partition is removed, you know which gas is on which side. Afterwards, a molecule you pick could be A or B: the system has become <b>less predictable, more chaotic</b>.</p><p>Postulate: <i>in an isolated system, energy tends to become more disordered.</i> This disorder is measured by <b>entropy, S</b>.</p><ul><li>Greater disorder means higher entropy.</li><li>For a given substance: <b>crystalline solid (lowest S) &lt; liquid &lt; gas (highest S)</b>.</li><li>In reactions, S changes because atoms or ions rearrange. A more disordered product structure means ΔS &gt; 0.</li></ul><p><b>Quick ΔS predictions (Problem 5.10):</b></p><ul><li>Liquid → crystal: S decreases</li><li>Heating a crystal from 0 K to 115 K: S increases</li><li>2NaHCO<sub>3</sub>(s) → Na<sub>2</sub>CO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(g): S increases (gases formed)</li><li>H<sub>2</sub>(g) → 2H(g): S increases (more particles)</li></ul>",
+          "points": ["S(solid) < S(liquid) < S(gas).", "More gas moles or more particles means ΔS > 0."],
+          "questions": [
+            {"q": "In which process does entropy decrease?", "o": ["Melting of ice", "Evaporation of water", "Crystallisation of a liquid", "Sublimation of iodine"], "a": 2, "e": "Liquid → ordered solid means S decreases.", "lvl": "easy"},
+            {"q": "For which reaction is ΔS positive?", "o": ["N₂(g) + 3H₂(g) → 2NH₃(g)", "2SO₂(g) + O₂(g) → 2SO₃(g)", "CaCO₃(s) → CaO(s) + CO₂(g)", "H₂O(g) → H₂O(l)"], "a": 2, "e": "A gas forms from a solid (Δn_g = +1), so disorder increases.", "lvl": "easy"},
+            {"q": "For 2Cl(g) → Cl₂(g), the signs of ΔH and ΔS are:", "o": ["ΔH +, ΔS +", "ΔH −, ΔS −", "ΔH −, ΔS +", "ΔH +, ΔS −"], "a": 1, "e": "Bond formation releases energy (ΔH < 0), and 2 particles → 1 lowers disorder (ΔS < 0).", "lvl": "medium", "src": "NCERT Ex 5.18"}
+          ]
+        },
+        {
+          "id": "entropy-quant",
+          "title": "ΔS = q(rev)/T and ΔS(total) > 0",
+          "short": "ΔS = qrev/T",
+          "pages": [159],
+          "ref": "5.6 (b) · Eq 5.18, 5.19",
+          "synopsis": "<p>Heat randomises a system. The <b>same heat causes more disorder at a lower temperature</b> than at a higher one, because a hot system is already chaotic. So ΔS ∝ q and ∝ 1/T:</p><p class='f'>ΔS = q<sub>rev</sub> / T   (Eq. 5.18)</p><p>Entropy is a <b>state function</b>, so ΔS is path independent. We compute it along a reversible path.</p><p>For a spontaneous process:</p><p class='f'>ΔS<sub>total</sub> = ΔS<sub>system</sub> + ΔS<sub>surr</sub> &gt; 0   (Eq. 5.19)</p><ul><li>At <b>equilibrium</b>, entropy is <b>maximum</b> and ΔS = 0.</li><li>For isothermal expansion of an ideal gas, ΔU = 0 for both reversible and irreversible paths, but ΔS<sub>total</sub> ≠ 0 for the irreversible one. <b>ΔU cannot tell reversible from irreversible; ΔS can.</b></li></ul><p><i>Problem 5.11:</i> 4Fe + 3O<sub>2</sub> → 2Fe<sub>2</sub>O<sub>3</sub> has ΔS<sub>sys</sub> = −549.4 J K⁻¹ mol⁻¹, yet the reaction is spontaneous. ΔS<sub>surr</sub> = −ΔH/T = 1648 × 10³/298 = +5530. So ΔS<sub>total</sub> = +4980.6 J K⁻¹ mol⁻¹ &gt; 0.</p>",
+          "formulas": ["ΔS = q_rev/T", "ΔS_total = ΔS_sys + ΔS_surr > 0", "ΔS_surr = −ΔH_sys/T"],
+          "questions": [
+            {"q": "ΔfusH of ice is 6.0 kJ mol⁻¹ at 273 K. The entropy of fusion is about:", "o": ["2.2 J K⁻¹ mol⁻¹", "22 J K⁻¹ mol⁻¹", "220 J K⁻¹ mol⁻¹", "0.022 J K⁻¹ mol⁻¹"], "a": 1, "e": "ΔS = q_rev/T = 6000/273 ≈ 22.0 J K⁻¹ mol⁻¹.", "lvl": "medium"},
+            {"q": "A reaction releases 100 kJ of heat at 300 K. The entropy change of the surroundings is:", "o": ["−333 J K⁻¹", "+333 J K⁻¹", "+0.33 J K⁻¹", "−0.33 J K⁻¹"], "a": 1, "e": "ΔS_surr = −ΔH/T = +100 000/300 ≈ +333 J K⁻¹.", "lvl": "medium"},
+            {"q": "For a spontaneous process in an isolated system:", "o": ["ΔS < 0", "ΔS = 0", "ΔS > 0", "ΔU > 0"], "a": 2, "e": "ΔU = 0 for an isolated system and entropy must increase for a spontaneous change.", "lvl": "easy", "src": "NCERT Ex 5.16"},
+            {"q": "The same quantity of heat added to a system at low temperature causes ___ randomness than at high temperature.", "o": ["Less", "Greater", "The same", "No"], "a": 1, "e": "ΔS = q/T, so a smaller T gives a larger ΔS.", "lvl": "easy"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gibbs",
+      "title": "(c) Gibbs Energy & Spontaneity",
+      "short": "Gibbs Energy",
+      "pages": [160, 161],
+      "ref": "5.6 (c) · Eq 5.20–5.22",
+      "synopsis": "<p>Most reactions occur in <b>closed or open</b> systems where both H and S change, so neither alone decides spontaneity. We define the <b>Gibbs energy</b>:</p><p class='f'>G = H − TS   (Eq. 5.20)</p><p>G is an <b>extensive</b> property and a <b>state function</b>.</p>",
+      "children": [
+        {
+          "id": "gibbs-eq",
+          "title": "Gibbs Equation: ΔG = ΔH − TΔS",
+          "short": "Gibbs Equation",
+          "pages": [160],
+          "ref": "5.6 (c) · Eq 5.21",
+          "synopsis": "<p>ΔG<sub>sys</sub> = ΔH<sub>sys</sub> − TΔS<sub>sys</sub> − S<sub>sys</sub>ΔT. At <b>constant temperature</b> this becomes:</p><p class='f'>ΔG = ΔH − TΔS   (Eq. 5.21)</p><p>This is the <b>Gibbs equation</b>, 'one of the most important equations in chemistry'. It combines energy (ΔH) and disorder (ΔS) in one criterion.</p><p>Units: ΔG is an energy, since T × ΔS = K × J K⁻¹ = J.</p>",
+          "traps": ["Keep units consistent. ΔS is usually in J K⁻¹ and ΔH in kJ, so convert one of them."],
+          "questions": [
+            {"q": "Gibbs energy G is defined as:", "o": ["G = U − TS", "G = H − TS", "G = H + TS", "G = U + pV"], "a": 1, "e": "NCERT Eq. 5.20: G = H − TS.", "lvl": "easy"},
+            {"q": "Which statement about Gibbs energy is correct?", "o": ["It is an intensive property", "It is a path function", "It is an extensive property and a state function", "It has units of J K⁻¹"], "a": 2, "e": "NCERT: G is extensive and a state function; its units are energy.", "lvl": "easy"},
+            {"q": "For 2A(g) + B(g) → 2D(g) at 298 K, ΔU = −10.5 kJ and ΔS = −44.1 J K⁻¹. ΔG is about:", "o": ["−0.16 kJ, spontaneous", "+0.16 kJ, non-spontaneous", "−2.6 kJ, spontaneous", "+2.6 kJ, non-spontaneous"], "a": 1, "e": "Δn_g = −1, so ΔH = −10.5 + (−1)(8.314 × 10⁻³)(298) = −12.98 kJ. ΔG = −12.98 − 298(−0.0441) = −12.98 + 13.14 ≈ +0.16 kJ, non-spontaneous.", "lvl": "hard", "src": "NCERT Ex 5.19"}
+          ]
+        },
+        {
+          "id": "gibbs-criterion",
+          "title": "ΔG < 0 Means Spontaneous (Derivation)",
+          "short": "ΔG Criterion",
+          "pages": [161],
+          "ref": "5.6 (c) · Eq 5.22",
+          "synopsis": "<p>Start from ΔS<sub>total</sub> = ΔS<sub>sys</sub> + ΔS<sub>surr</sub>. When the system is in thermal equilibrium with the surroundings, ΔS<sub>surr</sub> = −ΔH<sub>sys</sub>/T.</p><p>So TΔS<sub>total</sub> = TΔS<sub>sys</sub> − ΔH<sub>sys</sub>. A spontaneous process needs ΔS<sub>total</sub> &gt; 0, so ΔH<sub>sys</sub> − TΔS<sub>sys</sub> &lt; 0, which means</p><p class='f'>ΔG = ΔH − TΔS &lt; 0   (Eq. 5.22)</p><table><tr><th>ΔG</th><th>Process</th></tr><tr><td>&lt; 0</td><td>Spontaneous</td></tr><tr><td>&gt; 0</td><td>Non-spontaneous</td></tr><tr><td>= 0</td><td>Equilibrium</td></tr></table><p><b>Free energy:</b> TΔS is energy <i>not available</i> for useful work, so ΔG is the <b>net energy available to do useful work</b>. Hence the name 'free energy'.</p><p>This criterion applies at <b>constant temperature and pressure</b>.</p>",
+          "formulas": ["−ΔG = TΔS_total (at constant T, p)"],
+          "questions": [
+            {"q": "At constant T and p, a process is spontaneous if:", "o": ["ΔG > 0", "ΔG < 0", "ΔG = 0", "ΔH > 0"], "a": 1, "e": "ΔG < 0 corresponds to ΔS_total > 0.", "lvl": "easy"},
+            {"q": "ΔG is called 'free energy' because it represents:", "o": ["Energy released as heat", "Net energy available to do useful work", "Energy lost to surroundings", "Energy stored in bonds"], "a": 1, "e": "TΔS is unavailable for work; ΔG = ΔH − TΔS is the useful part.", "lvl": "easy"}
+          ]
+        },
+        {
+          "id": "temp-effect",
+          "title": "Effect of Temperature (Table 5.4)",
+          "short": "Temperature Effect",
+          "pages": [161, 162],
+          "ref": "5.6 (c) Note · Table 5.4",
+          "synopsis": "<table><tr><th>ΔH</th><th>ΔS</th><th>ΔG</th><th>Result</th></tr><tr><td>−</td><td>+</td><td>always −</td><td>Spontaneous at <b>all</b> T</td></tr><tr><td>−</td><td>−</td><td>− at low T, + at high T</td><td>Spontaneous at <b>low</b> T</td></tr><tr><td>+</td><td>+</td><td>+ at low T, − at high T</td><td>Spontaneous at <b>high</b> T</td></tr><tr><td>+</td><td>−</td><td>always +</td><td>Non-spontaneous at <b>all</b> T</td></tr></table><p>When ΔH and ΔS have the <b>same sign</b>, temperature decides. The <b>crossover temperature</b> is where ΔG = 0:</p><p class='f'>T = ΔH / ΔS</p><p>For ΔH &gt; 0 and ΔS &gt; 0, the reaction becomes spontaneous when TΔS outweighs ΔH. Either ΔS is small and T must be high, or ΔS is large and T can be modest. This is one reason reactions are often run at high temperature.</p><p>NCERT note: 'low' and 'high' T are relative. For some reactions 'high' can mean room temperature.</p>",
+          "formulas": ["T(crossover) = ΔH/ΔS"],
+          "questions": [
+            {"q": "A + B → C + D + heat has a positive entropy change. The reaction will be:", "o": ["Possible only at high temperature", "Possible only at low temperature", "Not possible at any temperature", "Possible at any temperature"], "a": 3, "e": "ΔH < 0 and ΔS > 0, so ΔG < 0 at every temperature.", "lvl": "easy", "src": "NCERT Ex 5.6"},
+            {"q": "For a reaction, ΔH = +400 kJ mol⁻¹ and ΔS = +0.2 kJ K⁻¹ mol⁻¹. It becomes spontaneous above:", "o": ["200 K", "2000 K", "80 K", "500 K"], "a": 1, "e": "T = ΔH/ΔS = 400/0.2 = 2000 K; above this ΔG < 0.", "lvl": "medium", "src": "NCERT Ex 5.17"},
+            {"q": "A reaction with ΔH < 0 and ΔS < 0 is spontaneous:", "o": ["At all temperatures", "At low temperatures only", "At high temperatures only", "Never"], "a": 1, "e": "ΔG = ΔH − TΔS. At low T the negative ΔH dominates; at high T the +TΔS term (from ΔS < 0) wins.", "lvl": "medium"},
+            {"q": "ΔH = +40 kJ mol⁻¹ and ΔS = +100 J K⁻¹ mol⁻¹. The minimum temperature for spontaneity is:", "o": ["40 K", "400 K", "4000 K", "0.4 K"], "a": 1, "e": "T = 40 000/100 = 400 K.", "lvl": "easy"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "second-law",
+      "title": "(d) Second Law of Thermodynamics",
+      "short": "Second Law",
+      "pages": [161],
+      "ref": "5.6 (d)",
+      "synopsis": "<p>In an isolated system the energy stays constant, so the <b>natural direction of spontaneous change is increasing entropy</b>. This is the <b>Second Law of Thermodynamics</b> (it has several equivalent statements).</p><p>It explains <b>why spontaneous exothermic reactions are so common</b>: the released heat increases the disorder of the surroundings, which makes ΔS<sub>total</sub> positive.</p>",
+      "questions": [
+        {"q": "The second law explains why exothermic reactions are commonly spontaneous because:", "o": ["They decrease the entropy of surroundings", "Heat released increases the entropy of the surroundings, making ΔS_total positive", "They have ΔH = 0", "They occur only in isolated systems"], "a": 1, "e": "NCERT: heat released raises the surroundings' disorder, so the total entropy change is positive.", "lvl": "medium"}
+      ]
+    },
+    {
+      "id": "third-law",
+      "title": "(e) Third Law & Absolute Entropy",
+      "short": "Third Law",
+      "pages": [161, 162],
+      "ref": "5.6 (e)",
+      "synopsis": "<p>Molecules have <b>translational</b> (straight-line), <b>rotational</b> (spinning) and <b>vibrational</b> (bond stretching) motion. Raising T makes these motions more vigorous, so S increases. Lowering T lowers S.</p><blockquote>The entropy of any <b>pure crystalline substance</b> approaches <b>zero</b> as the temperature approaches absolute zero.</blockquote><p>This is the <b>Third Law</b>. The reason is the perfect order of a crystal at 0 K.</p><ul><li>It is limited to <b>pure crystalline solids</b>. Solutions and supercooled liquids do <b>not</b> have zero entropy at 0 K.</li><li><b>Importance:</b> it lets us calculate <b>absolute entropies</b> from thermal data alone, by summing q<sub>rev</sub>/T from 0 K to 298 K. Standard entropies can then be combined Hess-style.</li></ul>",
+      "traps": ["Unlike U and H, entropy HAS an absolute value, thanks to the Third Law."],
+      "questions": [
+        {"q": "The entropy of a pure crystalline substance approaches zero at 0 K. This is the:", "o": ["First law", "Second law", "Third law", "Zeroth law"], "a": 2, "e": "Third law of thermodynamics.", "lvl": "easy"},
+        {"q": "For which of the following is the entropy NOT zero at 0 K?", "o": ["Pure crystalline NaCl", "Pure diamond crystal", "A supercooled liquid (glass)", "Pure crystalline ice"], "a": 2, "e": "NCERT: solutions and supercooled liquids retain entropy at 0 K.", "lvl": "medium"},
+        {"q": "Which thermodynamic quantity can be given an absolute value?", "o": ["U", "H", "S", "G"], "a": 2, "e": "The third law lets absolute entropy be calculated from thermal data.", "lvl": "medium"}
+      ]
+    }
+  ]
+},
+{
+  "id": "gibbs-equilibrium",
+  "title": "5.7 Gibbs Energy Change & Equilibrium",
+  "short": "ΔG & Equilibrium",
+  "pages": [162, 163],
+  "ref": "Section 5.7",
+  "synopsis": "<p>ΔG predicts <b>spontaneity</b> and the <b>maximum useful work</b> obtainable. For reactions that can go both ways, it also links to the <b>equilibrium constant K</b>.</p>",
+  "formulas": ["ΔrG = 0 at equilibrium", "ΔrG° = −RT ln K = −2.303 RT log K", "ΔrG° = ΔrH° − TΔrS°"],
+  "children": [
+    {
+      "id": "eq-criterion",
+      "title": "ΔᵣG = 0 at Equilibrium",
+      "short": "ΔG = 0",
+      "pages": [162],
+      "ref": "5.7 ¶1–3",
+      "synopsis": "<p>In a reversible chemical reaction, both directions run at once and a <b>dynamic equilibrium</b> sets in. Both directions can't proceed with a <i>decrease</i> in free energy unless, at equilibrium, <b>the free energy of the system is at a minimum</b>. Otherwise the system would move spontaneously towards lower G.</p><p class='f'>Criterion for equilibrium (A + B ⇌ C + D): Δ<sub>r</sub>G = 0</p>",
+      "questions": [
+        {"q": "At equilibrium, the Gibbs energy of the system is:", "o": ["Maximum", "Minimum", "Zero always", "Infinite"], "a": 1, "e": "G is at a minimum at equilibrium, so Δ_rG = 0.", "lvl": "easy"}
+      ]
+    },
+    {
+      "id": "g-and-k",
+      "title": "ΔᵣG° = −RT ln K",
+      "short": "ΔG° and K",
+      "pages": [162],
+      "ref": "5.7 · Eq 5.23, 5.24",
+      "synopsis": "<p>When all species are in their standard states:</p><p class='f'>0 = Δ<sub>r</sub>G° + RT ln K  ⟹  Δ<sub>r</sub>G° = −RT ln K = −2.303 RT log K   (Eq. 5.23)</p><p>Combined with Δ<sub>r</sub>G° = Δ<sub>r</sub>H° − TΔ<sub>r</sub>S° (Eq. 5.24):</p><table><tr><th>Δ<sub>r</sub>G°</th><th>K</th><th>Meaning</th></tr><tr><td>&lt; 0</td><td>&gt; 1</td><td>Products favoured</td></tr><tr><td>= 0</td><td>= 1</td><td>—</td></tr><tr><td>&gt; 0</td><td>&lt; 1</td><td>Reactants favoured</td></tr></table><ul><li><b>Strongly endothermic</b> (large +ΔH): K ≪ 1, so little product.</li><li><b>Strongly exothermic</b> (large −ΔH): ΔG likely large and negative, K ≫ 1, so the reaction goes nearly to completion.</li><li>ΔS also matters. Its sign shifts K accordingly.</li></ul><p><b>Uses:</b> (i) estimate ΔG from ΔH and ΔS, then get K at any T for economic yields; (ii) measure K in the lab, then get ΔG at other temperatures.</p>",
+      "formulas": ["ΔrG° = −2.303 RT log K"],
+      "traps": ["ΔG = 0 at equilibrium, but ΔG° is generally NOT zero. ΔG° = 0 only when K = 1."],
+      "questions": [
+        {"q": "The equilibrium constant for a reaction is 10 at 300 K. ΔG° is about (R = 8.314 J K⁻¹ mol⁻¹):", "o": ["−5.74 kJ mol⁻¹", "+5.74 kJ mol⁻¹", "−2.49 kJ mol⁻¹", "−11.5 kJ mol⁻¹"], "a": 0, "e": "ΔG° = −2.303 × 8.314 × 300 × log 10 = −5744 J ≈ −5.74 kJ mol⁻¹.", "lvl": "medium", "src": "NCERT Ex 5.20"},
+        {"q": "If ΔG° for a reaction is zero, then K is:", "o": ["0", "1", "10", "Infinite"], "a": 1, "e": "ΔG° = −RT ln K = 0, so ln K = 0 and K = 1.", "lvl": "easy"},
+        {"q": "K = 100 at 300 K. ΔG° is about:", "o": ["−11.5 kJ mol⁻¹", "+11.5 kJ mol⁻¹", "−5.74 kJ mol⁻¹", "−1.15 kJ mol⁻¹"], "a": 0, "e": "ΔG° = −2.303 × 8.314 × 300 × 2 = −11 488 J ≈ −11.5 kJ mol⁻¹.", "lvl": "medium"},
+        {"q": "A reaction with a large positive ΔrG° will have:", "o": ["K ≫ 1", "K ≪ 1", "K = 1", "K < 0"], "a": 1, "e": "ln K = −ΔG°/RT is large and negative, so K ≪ 1.", "lvl": "easy"}
+      ]
+    },
+    {
+      "id": "g-problems",
+      "title": "Worked Problems 5.12–5.14",
+      "short": "Worked Problems",
+      "pages": [163],
+      "ref": "Problems 5.12–5.14",
+      "synopsis": "<p><b>5.12</b> O<sub>2</sub> → O<sub>3</sub> (3/2 O<sub>2</sub> → O<sub>3</sub>) at 298 K, K<sub>p</sub> = 2.47 × 10⁻²⁹:</p><p class='f'>Δ<sub>r</sub>G° = −2.303 × 8.314 × 298 × log(2.47 × 10⁻²⁹) ≈ +163 kJ mol⁻¹</p><p>A large positive ΔG° matches the tiny K: ozone does not form on its own.</p><p><b>5.13</b> Given Δ<sub>r</sub>G° = −13.6 kJ mol⁻¹ at 298 K: log K = 13 600/(2.303 × 8.314 × 298) = 2.38, so <b>K ≈ 2.4 × 10²</b>.</p><p><b>5.14</b> N<sub>2</sub>O<sub>4</sub> ⇌ 2NO<sub>2</sub>, 50% dissociated at 60 °C (333 K), 1 atm. Mole fractions are 0.5/1.5 and 1/1.5, so K<sub>p</sub> = (1/1.5)² ÷ (0.5/1.5) = <b>1.33 atm</b>.</p><p class='f'>Δ<sub>r</sub>G° = −2.303 × 8.314 × 333 × log 1.33 ≈ −790 J mol⁻¹ ≈ −0.79 kJ mol⁻¹</p><p class='errata'>NCERT erratum: Problem 5.14 prints the answer as −763.8 kJ mol⁻¹. Working the same numbers (log 1.33 = 0.1239) gives about <b>−790 J mol⁻¹ (−0.79 kJ mol⁻¹)</b>. The printed value is off in both magnitude and unit.</p>",
+      "questions": [
+        {"q": "A reaction has ΔrG° = +163 kJ mol⁻¹ at 298 K. Its equilibrium constant will be:", "o": ["Very large (≫ 1)", "Very small (≪ 1)", "Exactly 1", "Negative"], "a": 1, "e": "A large positive ΔG° gives a very small K (≈ 10⁻²⁹ for O₂ → O₃).", "lvl": "easy"},
+        {"q": "N₂O₄ ⇌ 2NO₂ is 50% dissociated at a total pressure of 1 atm. Kp is:", "o": ["0.5 atm", "1.0 atm", "1.33 atm", "2.0 atm"], "a": 2, "e": "Total moles = 1.5; p(NO₂) = 1/1.5 and p(N₂O₄) = 0.5/1.5. Kp = (0.667)² / 0.333 = 1.33 atm.", "lvl": "hard"}
+      ]
+    }
+  ]
+}
+]

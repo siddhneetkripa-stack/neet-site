@@ -1,0 +1,230 @@
+[
+{
+  "id": "intro",
+  "title": "Why Thermodynamics?",
+  "pages": [136],
+  "ref": "Unit 5 · Introduction",
+  "synopsis": "<p>Energy stored in chemical bonds can come out as <b>heat</b> (burning methane or coal), as <b>mechanical work</b> (fuel in an engine) or as <b>electrical energy</b> (a dry cell). These forms of energy can be converted into one another, and <b>thermodynamics</b> is the study of those conversions.</p><p>Three ideas fix the scope of the whole chapter:</p><ul><li>It deals with <b>macroscopic</b> systems: huge numbers of molecules, not a handful.</li><li>It cares only about the <b>initial and final states</b>. It says nothing about <i>how fast</i> or <i>by what mechanism</i> a change happens. Rate belongs to chemical kinetics.</li><li>Its laws apply to systems <b>in equilibrium</b>, or moving from one equilibrium state to another. In equilibrium, bulk properties such as p and T do not change with time.</li></ul><p>The chapter answers three questions: how much energy a reaction involves, whether it will happen on its own, and how far it will go.</p>",
+  "points": ["Thermodynamics is about macroscopic systems.", "It depends on initial and final states only, never on rate or mechanism.", "Its laws apply to equilibrium states or changes between them."],
+  "traps": ["Thermodynamics can tell you a reaction is feasible but NOT how fast it goes. Diamond → graphite is thermodynamically favourable yet extremely slow."],
+  "questions": [
+    {"q": "Which of the following can thermodynamics NOT tell us about a reaction?", "o": ["Whether it is feasible", "The energy change involved", "The rate at which it proceeds", "The extent to which it proceeds"], "a": 2, "e": "Thermodynamics looks only at initial and final states. Rate and mechanism belong to chemical kinetics.", "lvl": "easy"},
+    {"q": "The laws of thermodynamics are applicable to:", "o": ["Single molecules", "Systems containing a few molecules", "Macroscopic systems with a very large number of molecules", "Only ideal gases"], "a": 2, "e": "NCERT stresses that thermodynamics deals with macroscopic (bulk) systems, not microscopic ones.", "lvl": "easy"}
+  ]
+},
+{
+  "id": "terms",
+  "title": "5.1 Thermodynamic Terms",
+  "short": "Basic Terms",
+  "pages": [137, 138, 139, 140],
+  "ref": "Section 5.1",
+  "synopsis": "<p>Before doing any calculation we need a shared vocabulary: <b>system, surroundings, boundary</b>, the <b>types of system</b>, the <b>state</b> of a system, and the central quantity <b>internal energy (U)</b>. This section ends with the <b>First Law</b>, ΔU = q + w.</p>",
+  "children": [
+    {
+      "id": "sys-surr",
+      "title": "5.1.1 System & Surroundings",
+      "short": "System & Surroundings",
+      "pages": [137],
+      "ref": "5.1.1",
+      "synopsis": "<p>The <b>system</b> is the part of the universe we are studying. Everything else is the <b>surroundings</b>. Together they make the universe.</p>",
+      "formulas": ["Universe = System + Surroundings"],
+      "children": [
+        {
+          "id": "universe",
+          "title": "Universe = System + Surroundings",
+          "short": "Universe",
+          "pages": [137],
+          "ref": "5.1.1 ¶1–2",
+          "diagram": "system-surroundings",
+          "synopsis": "<p>The <b>system</b> is the part of the universe where we make observations. The <b>surroundings</b> are everything else.</p><p>In practice, most of the universe is untouched by a reaction in a beaker. So NCERT treats the surroundings as only <b>the part that can interact with the system</b>, usually the space right around it.</p><p><i>Example:</i> A and B react in a beaker. The beaker with the reaction mixture is the system, and the room is the surroundings.</p>",
+          "points": ["Surroundings = the part of the rest of the universe that can interact with the system.", "Beaker plus reaction mixture = system; the room = surroundings."],
+          "questions": [
+            {"q": "For practical purposes in thermodynamics, the surroundings are:", "o": ["The entire universe except the system", "Only the container walls", "That portion of the rest of the universe which can interact with the system", "The system plus its boundary"], "a": 2, "e": "Formally the surroundings are everything except the system, but in practice only the region that can interact with the system matters.", "lvl": "easy"}
+          ]
+        },
+        {
+          "id": "boundary",
+          "title": "Boundary (Wall)",
+          "short": "Boundary",
+          "pages": [137],
+          "ref": "5.1.1 ¶3",
+          "synopsis": "<p>The system is separated from the surroundings by a <b>boundary</b> (wall). The wall can be <b>real</b> (the glass of a beaker) or <b>imaginary</b> (a set of coordinates enclosing a volume of space).</p><p>We need a boundary so we can <b>keep track of all matter and energy</b> crossing into or out of the system.</p><p>NCERT footnote: if we choose only the reactants as the system, the beaker walls become the boundary.</p>",
+          "points": ["The boundary may be real or imaginary.", "Its purpose is to account for every transfer of matter and energy."],
+          "questions": [
+            {"q": "Which statement about the boundary of a thermodynamic system is correct?", "o": ["It must always be a physical wall", "It can be real or imaginary", "It never allows energy to pass", "It is part of the surroundings only"], "a": 1, "e": "The boundary can be a real wall (beaker) or an imaginary surface defined by coordinates.", "lvl": "easy"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sys-types",
+      "title": "5.1.2 Types of System",
+      "short": "Types of System",
+      "pages": [137, 138],
+      "ref": "5.1.2",
+      "diagram": "system-types",
+      "synopsis": "<p>Systems are classified by <b>what can cross the boundary</b>: matter, energy, both, or neither.</p><table><tr><th>System</th><th>Matter exchange</th><th>Energy exchange</th><th>NCERT example</th></tr><tr><td>Open</td><td>✔</td><td>✔</td><td>Reactants in an open beaker</td></tr><tr><td>Closed</td><td>✘</td><td>✔</td><td>Reactants in a closed copper/steel vessel</td></tr><tr><td>Isolated</td><td>✘</td><td>✘</td><td>Reactants in a thermos flask</td></tr></table>",
+      "children": [
+        {
+          "id": "open-sys",
+          "title": "Open System",
+          "short": "Open",
+          "pages": [137],
+          "ref": "5.1.2 (1) · Fig 5.2a",
+          "synopsis": "<p>Both <b>energy and matter</b> can be exchanged with the surroundings.</p><p><i>NCERT example:</i> reactants in an <b>open beaker</b>. The boundary is an imaginary surface enclosing the beaker and reactants.</p><p><i>Everyday examples:</i> the human body, a pot of boiling water without a lid.</p>",
+          "questions": [
+            {"q": "A cup of hot tea kept on a table (without lid) is an example of:", "o": ["Isolated system", "Closed system", "Open system", "Adiabatic system"], "a": 2, "e": "Vapour (matter) escapes and heat (energy) is lost, so both matter and energy are exchanged: an open system.", "lvl": "easy"}
+          ]
+        },
+        {
+          "id": "closed-sys",
+          "title": "Closed System",
+          "short": "Closed",
+          "pages": [137],
+          "ref": "5.1.2 (2) · Fig 5.2b",
+          "synopsis": "<p><b>No exchange of matter</b>, but <b>energy can be exchanged</b>.</p><p><i>NCERT example:</i> reactants in a closed vessel made of a <b>conducting</b> material such as copper or steel. The walls let heat through but not matter.</p>",
+          "traps": ["The vessel must be conducting. A closed but insulated vessel becomes an isolated system."],
+          "questions": [
+            {"q": "Reactants sealed in a stoppered steel flask constitute a/an:", "o": ["Open system", "Closed system", "Isolated system", "None of these"], "a": 1, "e": "Matter cannot leave a sealed flask, but steel conducts heat, so energy can be exchanged: a closed system.", "lvl": "easy"}
+          ]
+        },
+        {
+          "id": "isolated-sys",
+          "title": "Isolated System",
+          "short": "Isolated",
+          "pages": [138],
+          "ref": "5.1.2 (3) · Fig 5.2c",
+          "synopsis": "<p><b>Neither energy nor matter</b> is exchanged with the surroundings.</p><p><i>NCERT example:</i> reactants in a <b>thermos flask</b> or any closed, insulated vessel.</p><p>Key consequence (used later): with q = 0 and w = 0, an isolated system has <b>ΔU = 0</b>. Its energy is constant.</p>",
+          "points": ["For an isolated system: q = 0, w = 0, so ΔU = 0."],
+          "questions": [
+            {"q": "For an isolated system, which is always true?", "o": ["ΔU > 0", "ΔU < 0", "ΔU = 0", "ΔS = 0"], "a": 2, "e": "No heat or work crosses the boundary, so ΔU = q + w = 0. Entropy can still increase in a spontaneous change.", "lvl": "medium"},
+            {"q": "Coffee kept in a perfectly sealed and insulated thermos flask is an example of:", "o": ["Open system", "Closed system", "Isolated system", "Open adiabatic system"], "a": 2, "e": "Neither matter nor energy can cross the boundary.", "lvl": "easy"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "title": "5.1.3 State of the System",
+      "short": "State of System",
+      "pages": [138],
+      "ref": "5.1.3",
+      "synopsis": "<p>To calculate anything, we must describe the system <b>before and after</b> a change. Mechanics needs the position and velocity of every particle. Thermodynamics needs only a few <b>average, measurable (macroscopic) properties</b>: p, V, T, n and composition.</p>",
+      "children": [
+        {
+          "id": "state-fn",
+          "title": "State Variables / State Functions",
+          "short": "State Functions",
+          "pages": [138],
+          "ref": "5.1.3 ¶2",
+          "synopsis": "<p>The state of a gas is given by quoting <b>p, V, T, n</b>. These are called <b>state variables</b> or <b>state functions</b> because their values depend <b>only on the current state</b>, not on how the system got there.</p><p><b>Path functions</b> are the opposite: their values depend on the route taken. <b>q and w</b> are path functions (developed in 5.1.4).</p><table><tr><th>State functions</th><th>Path functions</th></tr><tr><td>p, V, T, U, H, S, G</td><td>q (heat), w (work)</td></tr></table>",
+          "points": ["A state function depends only on the state, not the path.", "q and w are path functions, but q + w (= ΔU) is a state function."],
+          "traps": ["q and w are each path dependent, yet their sum ΔU is path independent. This is a favourite assertion–reason question."],
+          "questions": [
+            {"q": "A thermodynamic state function is a quantity:", "o": ["Used to determine heat changes", "Whose value is independent of path", "Used to determine pressure–volume work", "Whose value depends on temperature only"], "a": 1, "e": "By definition, a state function depends only on the state of the system, not on how that state was reached.", "lvl": "easy"},
+            {"q": "Which of the following is NOT a state function?", "o": ["Internal energy", "Enthalpy", "Work", "Entropy"], "a": 2, "e": "Work depends on the path. U, H and S are state functions.", "lvl": "easy"},
+            {"q": "Which combination is a state function?", "o": ["q alone", "w alone", "q + w", "q − w (IUPAC convention)"], "a": 2, "e": "q + w = ΔU, which is a state function even though q and w individually are not.", "lvl": "medium"}
+          ]
+        },
+        {
+          "id": "min-vars",
+          "title": "Minimum Number of Variables",
+          "short": "Min. Variables",
+          "pages": [138],
+          "ref": "5.1.3 ¶2–3",
+          "synopsis": "<p>You do <b>not</b> need to specify every property to fix the state. Only a <b>certain number can be varied independently</b>, and that number depends on the nature of the system. Once those are fixed, all other properties automatically have definite values.</p><p>Example: for a fixed amount of ideal gas, fixing p and T fixes V through pV = nRT.</p><p>The state of the <b>surroundings</b> can never be completely specified, and fortunately we never need to.</p>",
+          "questions": [
+            {"q": "For a fixed amount of an ideal gas, how many of p, V and T must be specified to fix its state?", "o": ["One", "Two", "Three", "None"], "a": 1, "e": "pV = nRT links the three; fixing any two determines the third.", "lvl": "medium"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "internal-energy",
+      "title": "5.1.4 Internal Energy as a State Function",
+      "short": "Internal Energy",
+      "pages": [138, 139, 140],
+      "ref": "5.1.4",
+      "synopsis": "<p><b>Internal energy (U)</b> is the total energy of the system: chemical, electrical, mechanical, and so on. U changes when <b>heat</b> crosses the boundary, <b>work</b> is done, or <b>matter</b> enters or leaves. This sub-section shows that U is a state function, sets the sign conventions, and arrives at the First Law.</p>",
+      "formulas": ["ΔU = q + w"],
+      "children": [
+        {
+          "id": "what-is-u",
+          "title": "What is Internal Energy (U)?",
+          "short": "What is U?",
+          "pages": [138],
+          "ref": "5.1.4 ¶1",
+          "synopsis": "<p>U is the <b>sum of all forms of energy</b> of the system. It changes when:</p><ul><li>heat passes into or out of the system,</li><li>work is done on or by the system,</li><li>matter enters or leaves the system.</li></ul>",
+          "questions": [
+            {"q": "The internal energy of a closed system can change by:", "o": ["Heat and work only", "Matter transfer only", "Heat, work and matter transfer", "Work only"], "a": 0, "e": "In general U changes by heat, work or matter transfer. A closed system cannot exchange matter, so only heat and work remain.", "lvl": "medium"}
+          ]
+        },
+        {
+          "id": "work-adiabatic",
+          "title": "(a) Work: Adiabatic Process & Joule's Experiment",
+          "short": "Work (Adiabatic)",
+          "pages": [138, 139],
+          "ref": "5.1.4 (a) · Fig 5.3",
+          "diagram": "adiabatic",
+          "synopsis": "<p>Water in a thermos flask (insulated) cannot exchange heat. This is an <b>adiabatic system</b>, its wall is an <b>adiabatic wall</b>, and a change in it is an <b>adiabatic process</b> (q = 0).</p><p><b>Joule (1840–50):</b> doing 1 kJ of work on the water, either by churning it with paddles (mechanical work) or with an immersion rod (electrical work), gave the <b>same temperature rise</b> (state A → state B).</p><p>So the same adiabatic work always produces the same change of state, whatever the path. That lets us define U as a quantity fixed by the state:</p><p class='f'>ΔU = U₂ − U₁ = w<sub>ad</sub></p><p>Therefore <b>U is a state function</b>.</p><p>Other familiar state functions are V, p and T. Going from 25 °C to 35 °C gives ΔT = +10 °C whether you heat directly or cool first and then heat. NCERT's analogy: the volume of water in a pond changes by the same amount whether it is filled by rain, a tubewell or both.</p>",
+          "points": ["Adiabatic: no heat transfer (q = 0).", "ΔU = w_ad shows U is a state function."],
+          "questions": [
+            {"q": "For a process to occur under adiabatic conditions, the correct condition is:", "o": ["ΔT = 0", "Δp = 0", "q = 0", "w = 0"], "a": 2, "e": "Adiabatic means no heat exchange with the surroundings, so q = 0.", "lvl": "easy"},
+            {"q": "Joule's experiments with paddle-churning and electrical heating of water in an insulated vessel showed that:", "o": ["Mechanical work produces more heat than electrical work", "A given amount of adiabatic work produces the same change of state regardless of how it is done", "Internal energy depends on the path", "Heat and work are unrelated"], "a": 1, "e": "Equal amounts of adiabatic work by different routes gave the same temperature rise, so U is a state function.", "lvl": "medium"}
+          ]
+        },
+        {
+          "id": "sign-convention",
+          "title": "Sign Convention (IUPAC)",
+          "short": "Sign Convention",
+          "pages": [139],
+          "ref": "5.1.4 (a)(b) + footnote",
+          "synopsis": "<p>The IUPAC convention is <b>'positive = added to the system'</b>:</p><table><tr><th>Quantity</th><th>Positive (+)</th><th>Negative (−)</th></tr><tr><td>w</td><td>Work done <b>on</b> the system (U rises)</td><td>Work done <b>by</b> the system (U falls)</td></tr><tr><td>q</td><td>Heat absorbed <b>by</b> the system</td><td>Heat released <b>to</b> the surroundings</td></tr></table><p><b>NCERT footnote:</b> the old convention (still used in many physics books) gave work done <i>on</i> the system a negative sign, so the First Law appears there as ΔU = q − w. Chemistry uses IUPAC, ΔU = q + w.</p>",
+          "traps": ["Physics books may write ΔU = q − W (W = work done BY the gas). Do not mix conventions within one problem."],
+          "questions": [
+            {"q": "According to the IUPAC convention, work done on the system is:", "o": ["Positive", "Negative", "Zero", "Positive only for gases"], "a": 0, "e": "Energy added to the system (work done on it) is positive.", "lvl": "easy"},
+            {"q": "A system absorbs 701 J of heat and does 394 J of work. ΔU of the system is:", "o": ["+1095 J", "+307 J", "−307 J", "−1095 J"], "a": 1, "e": "q = +701 J and w = −394 J (work done by the system). ΔU = 701 − 394 = +307 J.", "lvl": "easy", "src": "NCERT Ex 5.7"}
+          ]
+        },
+        {
+          "id": "heat",
+          "title": "(b) Heat",
+          "short": "Heat",
+          "pages": [139],
+          "ref": "5.1.4 (b) · Fig 5.4",
+          "diagram": "diathermic",
+          "synopsis": "<p>U can also change by <b>heat (q)</b> alone: an energy exchange caused by a <b>temperature difference</b>.</p><p>Put water at T<sub>A</sub> in a <b>thermally conducting</b> (e.g. copper) container inside a large reservoir at T<sub>B</sub>. The heat absorbed is measured from T<sub>B</sub> − T<sub>A</sub>.</p><p>With no work done (constant volume):</p><p class='f'>ΔU = q</p><p>q is positive when heat flows <b>into</b> the system and negative when it flows <b>out</b>.</p>",
+          "questions": [
+            {"q": "If no work is done on or by a system at constant volume, the change in internal energy equals:", "o": ["Zero", "The heat exchanged, q", "pΔV", "The work, w"], "a": 1, "e": "With w = 0, ΔU = q.", "lvl": "easy"}
+          ]
+        },
+        {
+          "id": "first-law",
+          "title": "(c) First Law of Thermodynamics",
+          "short": "First Law",
+          "pages": [140],
+          "ref": "5.1.4 (c) · Eq 5.1",
+          "synopsis": "<p>In general a change happens through <b>both heat and work</b>:</p><p class='f'>ΔU = q + w   (Eq. 5.1)</p><p>q and w each depend on how the change is carried out, but their <b>sum depends only on the initial and final states</b>.</p><p>For an <b>isolated system</b>, q = 0 and w = 0, so ΔU = 0. This is the <b>First Law</b>:</p><blockquote>The energy of an isolated system is constant.</blockquote><p>In other words, it is the law of conservation of energy: energy can neither be created nor destroyed.</p><p><b>NCERT Problem 5.1 pattern:</b></p><ul><li>No heat, work w done on the system → ΔU = w<sub>ad</sub> (adiabatic wall)</li><li>No work, heat q removed → ΔU = −q (thermally conducting wall)</li><li>Work w done <i>by</i> the system, heat q supplied → ΔU = q − w (closed system)</li></ul>",
+          "formulas": ["ΔU = q + w"],
+          "questions": [
+            {"q": "The mathematical statement of the first law of thermodynamics (IUPAC convention) is:", "o": ["ΔU = q − w", "ΔU = q + w", "ΔH = ΔU + pΔV", "ΔG = ΔH − TΔS"], "a": 1, "e": "With the IUPAC sign convention, ΔU = q + w.", "lvl": "easy"},
+            {"q": "A gas does 200 J of work on the surroundings while 300 J of heat is removed from it. ΔU is:", "o": ["+500 J", "+100 J", "−100 J", "−500 J"], "a": 3, "e": "w = −200 J and q = −300 J, so ΔU = −500 J.", "lvl": "medium"},
+            {"q": "No work is done on a system but heat q is taken out of it. The system has:", "o": ["Adiabatic walls", "Thermally conducting walls", "No walls", "Rigid insulated walls"], "a": 1, "e": "Heat can leave only through thermally conducting walls. ΔU = −q (NCERT Problem 5.1 ii).", "lvl": "medium"}
+          ]
+        },
+        {
+          "id": "absolute-u",
+          "title": "Absolute U Cannot Be Measured",
+          "short": "Absolute U?",
+          "pages": [140],
+          "ref": "5.1.4 Note",
+          "synopsis": "<p>Energy differs from a mechanical property like volume. We can state an exact <b>absolute value of V</b> for a state, but <b>not the absolute value of U</b>. Only <b>changes, ΔU</b>, can be measured.</p>",
+          "questions": [
+            {"q": "Which of the following can be measured absolutely for a system in a given state?", "o": ["Internal energy", "Enthalpy", "Volume", "Gibbs energy"], "a": 2, "e": "Volume has an absolute value. For U, H and G only changes can be measured.", "lvl": "medium"}
+          ]
+        }
+      ]
+    }
+  ]
+}
+]

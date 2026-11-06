@@ -1,0 +1,452 @@
+{
+ "subjects": [
+  {
+   "id": "physics",
+   "name": "Physics",
+   "classes": [
+    {
+     "cls": 11,
+     "chapters": [
+      {
+       "id": "phy11-01",
+       "no": 1,
+       "title": "Units and Measurements"
+      },
+      {
+       "id": "phy11-02",
+       "no": 2,
+       "title": "Motion in a Straight Line"
+      },
+      {
+       "id": "phy11-03",
+       "no": 3,
+       "title": "Motion in a Plane"
+      },
+      {
+       "id": "phy11-04",
+       "no": 4,
+       "title": "Laws of Motion"
+      },
+      {
+       "id": "phy11-05",
+       "no": 5,
+       "title": "Work, Energy and Power"
+      },
+      {
+       "id": "phy11-06",
+       "no": 6,
+       "title": "System of Particles and Rotational Motion"
+      },
+      {
+       "id": "phy11-07",
+       "no": 7,
+       "title": "Gravitation"
+      },
+      {
+       "id": "phy11-08",
+       "no": 8,
+       "title": "Mechanical Properties of Solids"
+      },
+      {
+       "id": "phy11-09",
+       "no": 9,
+       "title": "Mechanical Properties of Fluids"
+      },
+      {
+       "id": "phy11-10",
+       "no": 10,
+       "title": "Thermal Properties of Matter"
+      },
+      {
+       "id": "phy11-11",
+       "no": 11,
+       "title": "Thermodynamics"
+      },
+      {
+       "id": "phy11-12",
+       "no": 12,
+       "title": "Kinetic Theory"
+      },
+      {
+       "id": "phy11-13",
+       "no": 13,
+       "title": "Oscillations"
+      },
+      {
+       "id": "phy11-14",
+       "no": 14,
+       "title": "Waves"
+      }
+     ]
+    },
+    {
+     "cls": 12,
+     "chapters": [
+      {
+       "id": "phy12-01",
+       "no": 1,
+       "title": "Electric Charges and Fields"
+      },
+      {
+       "id": "phy12-02",
+       "no": 2,
+       "title": "Electrostatic Potential and Capacitance"
+      },
+      {
+       "id": "phy12-03",
+       "no": 3,
+       "title": "Current Electricity"
+      },
+      {
+       "id": "phy12-04",
+       "no": 4,
+       "title": "Moving Charges and Magnetism"
+      },
+      {
+       "id": "phy12-05",
+       "no": 5,
+       "title": "Magnetism and Matter"
+      },
+      {
+       "id": "phy12-06",
+       "no": 6,
+       "title": "Electromagnetic Induction"
+      },
+      {
+       "id": "phy12-07",
+       "no": 7,
+       "title": "Alternating Current"
+      },
+      {
+       "id": "phy12-08",
+       "no": 8,
+       "title": "Electromagnetic Waves"
+      },
+      {
+       "id": "phy12-09",
+       "no": 9,
+       "title": "Ray Optics and Optical Instruments"
+      },
+      {
+       "id": "phy12-10",
+       "no": 10,
+       "title": "Wave Optics"
+      },
+      {
+       "id": "phy12-11",
+       "no": 11,
+       "title": "Dual Nature of Radiation and Matter"
+      },
+      {
+       "id": "phy12-12",
+       "no": 12,
+       "title": "Atoms"
+      },
+      {
+       "id": "phy12-13",
+       "no": 13,
+       "title": "Nuclei"
+      },
+      {
+       "id": "phy12-14",
+       "no": 14,
+       "title": "Semiconductor Electronics"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chemistry",
+   "name": "Chemistry",
+   "classes": [
+    {
+     "cls": 11,
+     "chapters": [
+      {
+       "id": "chem11-01",
+       "no": 1,
+       "title": "Some Basic Concepts of Chemistry"
+      },
+      {
+       "id": "chem11-02",
+       "no": 2,
+       "title": "Structure of Atom"
+      },
+      {
+       "id": "chem11-03",
+       "no": 3,
+       "title": "Classification of Elements and Periodicity in Properties"
+      },
+      {
+       "id": "chem11-04",
+       "no": 4,
+       "title": "Chemical Bonding and Molecular Structure"
+      },
+      {
+       "id": "chem11-thermodynamics",
+       "no": 5,
+       "title": "Thermodynamics",
+       "ready": true,
+       "stats": {
+        "nodes": 72,
+        "questions": 116
+       }
+      },
+      {
+       "id": "chem11-06",
+       "no": 6,
+       "title": "Equilibrium"
+      },
+      {
+       "id": "chem11-07",
+       "no": 7,
+       "title": "Redox Reactions"
+      },
+      {
+       "id": "chem11-08",
+       "no": 8,
+       "title": "Organic Chemistry – Some Basic Principles and Techniques"
+      },
+      {
+       "id": "chem11-09",
+       "no": 9,
+       "title": "Hydrocarbons"
+      }
+     ]
+    },
+    {
+     "cls": 12,
+     "chapters": [
+      {
+       "id": "chem12-01",
+       "no": 1,
+       "title": "Solutions"
+      },
+      {
+       "id": "chem12-02",
+       "no": 2,
+       "title": "Electrochemistry"
+      },
+      {
+       "id": "chem12-03",
+       "no": 3,
+       "title": "Chemical Kinetics"
+      },
+      {
+       "id": "chem12-04",
+       "no": 4,
+       "title": "The d- and f-Block Elements"
+      },
+      {
+       "id": "chem12-05",
+       "no": 5,
+       "title": "Coordination Compounds"
+      },
+      {
+       "id": "chem12-06",
+       "no": 6,
+       "title": "Haloalkanes and Haloarenes"
+      },
+      {
+       "id": "chem12-07",
+       "no": 7,
+       "title": "Alcohols, Phenols and Ethers"
+      },
+      {
+       "id": "chem12-08",
+       "no": 8,
+       "title": "Aldehydes, Ketones and Carboxylic Acids"
+      },
+      {
+       "id": "chem12-09",
+       "no": 9,
+       "title": "Amines"
+      },
+      {
+       "id": "chem12-10",
+       "no": 10,
+       "title": "Biomolecules"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "biology",
+   "name": "Biology",
+   "classes": [
+    {
+     "cls": 11,
+     "chapters": [
+      {
+       "id": "bio11-01",
+       "no": 1,
+       "title": "The Living World"
+      },
+      {
+       "id": "bio11-02",
+       "no": 2,
+       "title": "Biological Classification"
+      },
+      {
+       "id": "bio11-03",
+       "no": 3,
+       "title": "Plant Kingdom"
+      },
+      {
+       "id": "bio11-04",
+       "no": 4,
+       "title": "Animal Kingdom"
+      },
+      {
+       "id": "bio11-05",
+       "no": 5,
+       "title": "Morphology of Flowering Plants"
+      },
+      {
+       "id": "bio11-06",
+       "no": 6,
+       "title": "Anatomy of Flowering Plants"
+      },
+      {
+       "id": "bio11-07",
+       "no": 7,
+       "title": "Structural Organisation in Animals"
+      },
+      {
+       "id": "bio11-08",
+       "no": 8,
+       "title": "Cell: The Unit of Life"
+      },
+      {
+       "id": "bio11-09",
+       "no": 9,
+       "title": "Biomolecules"
+      },
+      {
+       "id": "bio11-10",
+       "no": 10,
+       "title": "Cell Cycle and Cell Division"
+      },
+      {
+       "id": "bio11-11",
+       "no": 11,
+       "title": "Photosynthesis in Higher Plants"
+      },
+      {
+       "id": "bio11-12",
+       "no": 12,
+       "title": "Respiration in Plants"
+      },
+      {
+       "id": "bio11-13",
+       "no": 13,
+       "title": "Plant Growth and Development"
+      },
+      {
+       "id": "bio11-14",
+       "no": 14,
+       "title": "Breathing and Exchange of Gases"
+      },
+      {
+       "id": "bio11-15",
+       "no": 15,
+       "title": "Body Fluids and Circulation"
+      },
+      {
+       "id": "bio11-16",
+       "no": 16,
+       "title": "Excretory Products and their Elimination"
+      },
+      {
+       "id": "bio11-17",
+       "no": 17,
+       "title": "Locomotion and Movement"
+      },
+      {
+       "id": "bio11-18",
+       "no": 18,
+       "title": "Neural Control and Coordination"
+      },
+      {
+       "id": "bio11-19",
+       "no": 19,
+       "title": "Chemical Coordination and Integration"
+      }
+     ]
+    },
+    {
+     "cls": 12,
+     "chapters": [
+      {
+       "id": "bio12-01",
+       "no": 1,
+       "title": "Sexual Reproduction in Flowering Plants"
+      },
+      {
+       "id": "bio12-02",
+       "no": 2,
+       "title": "Human Reproduction"
+      },
+      {
+       "id": "bio12-03",
+       "no": 3,
+       "title": "Reproductive Health"
+      },
+      {
+       "id": "bio12-04",
+       "no": 4,
+       "title": "Principles of Inheritance and Variation"
+      },
+      {
+       "id": "bio12-05",
+       "no": 5,
+       "title": "Molecular Basis of Inheritance"
+      },
+      {
+       "id": "bio12-06",
+       "no": 6,
+       "title": "Evolution"
+      },
+      {
+       "id": "bio12-07",
+       "no": 7,
+       "title": "Human Health and Disease"
+      },
+      {
+       "id": "bio12-08",
+       "no": 8,
+       "title": "Microbes in Human Welfare"
+      },
+      {
+       "id": "bio12-09",
+       "no": 9,
+       "title": "Biotechnology: Principles and Processes"
+      },
+      {
+       "id": "bio12-10",
+       "no": 10,
+       "title": "Biotechnology and its Applications"
+      },
+      {
+       "id": "bio12-11",
+       "no": 11,
+       "title": "Organisms and Populations"
+      },
+      {
+       "id": "bio12-12",
+       "no": 12,
+       "title": "Ecosystem"
+      },
+      {
+       "id": "bio12-13",
+       "no": 13,
+       "title": "Biodiversity and Conservation"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
