@@ -41,6 +41,7 @@
     const h = location.hash.replace(/^#\/?/, '');
     const parts = h.split('/').filter(Boolean);
     window.scrollTo(0, 0);
+    if (parts[0] === 'pyq' && parts[1]) return renderPYQ(parts[1]);
     if (parts[0] === 'c' && parts[1]) {
       const chId = parts[1];
       if (parts[2] === 'read') return renderRead(chId);
@@ -50,8 +51,18 @@
   }
   window.addEventListener('hashchange', route);
 
+  // Look up a chapter's catalog entry (ready mind map? PYQ count?) so tabs only link to pages that exist.
+  function catEntry(chId) {
+    let hit = null;
+    (catalog ? catalog.subjects : []).forEach(s => s.classes.forEach(c => c.chapters.forEach(ch => { if (ch.id === chId) hit = ch; })));
+    return hit || {};
+  }
   function topbar(ch, mode) {
-    const seg = ch ? `<div class="seg"><a href="#/c/${ch.id}" class="${mode === 'map' ? 'on' : ''}">Tree</a><a href="#/c/${ch.id}/read" class="${mode === 'read' ? 'on' : ''}">Full synopsis</a></div>` : '';
+    const e = ch ? catEntry(ch.id) : {};
+    const tabs = [];
+    if (ch && (e.ready || mode === 'map' || mode === 'read')) tabs.push(`<a href="#/c/${ch.id}" class="${mode === 'map' ? 'on' : ''}">Tree</a>`, `<a href="#/c/${ch.id}/read" class="${mode === 'read' ? 'on' : ''}">Full synopsis</a>`);
+    if (ch && (e.pyq || mode === 'pyq')) tabs.push(`<a href="#/pyq/${ch.id}" class="${mode === 'pyq' ? 'on' : ''}">PYQs</a>`);
+    const seg = tabs.length > 1 ? `<div class="seg">${tabs.join('')}</div>` : '';
     return `<header class="topbar"><a class="brand" href="#/">NCERT<span>·</span>MindMap</a><div class="spacer"></div>${seg}</header>`;
   }
 
@@ -64,12 +75,14 @@
       app.innerHTML = topbar(null) + `<main>
         <section class="hero"><h1>Every NCERT paragraph, mapped.</h1>
         <p>Pick a chapter and open its mind map. Go down layer by layer, from chapter to section to paragraph. Every node has a short synopsis in our own words and questions on exactly that part, with a link to the page in the official NCERT book.</p></section>
-        ${(() => { const ready = []; cat.subjects.forEach(s => s.classes.forEach(c => c.chapters.forEach(ch => ch.ready && ready.push({ s, c, ch }))));
-          return ready.length ? `<section class="subject"><h2>Ready now</h2><div class="chap-grid">${ready.map(({ s, c, ch }) => `<a class="chap ready" style="--sc:${colors[s.id]}" href="#/c/${ch.id}"><small>${esc(s.name)} · Class ${c.cls} · Ch ${ch.no}</small>${esc(ch.title)}<small>${ch.stats.nodes} nodes · ${ch.stats.questions} questions</small></a>`).join('')}</div></section>` : ''; })()}
+        ${(() => { const ready = []; cat.subjects.forEach(s => s.classes.forEach(c => c.chapters.forEach(ch => (ch.ready || ch.pyq) && ready.push({ s, c, ch }))));
+          return ready.length ? `<section class="subject"><h2>Ready now</h2><div class="chap-grid">${ready.map(({ s, c, ch }) => `<a class="chap ready" style="--sc:${colors[s.id]}" href="${ch.ready ? `#/c/${ch.id}` : `#/pyq/${ch.id}`}"><small>${esc(s.name)} · Class ${c.cls} · Ch ${ch.no}</small>${esc(ch.title)}<small>${[ch.ready ? `${ch.stats.nodes} nodes · ${ch.stats.questions} questions` : '', ch.pyq ? `${ch.pyq} NEET PYQs` : ''].filter(Boolean).join(' · ')}</small></a>`).join('')}</div></section>` : ''; })()}
         ${cat.subjects.map(s => `<section class="subject" style="--sc:${colors[s.id]}"><h2><span class="dot"></span>${esc(s.name)}</h2>
           ${s.classes.map(c => `<div class="cls-label">Class ${c.cls}</div><div class="chap-grid">
             ${c.chapters.map(ch => ch.ready
-              ? `<a class="chap ready" href="#/c/${ch.id}"><small>Ch ${ch.no} · ${ch.stats.nodes} nodes · ${ch.stats.questions} Qs</small>${esc(ch.title)}</a>`
+              ? `<a class="chap ready" href="#/c/${ch.id}"><small>Ch ${ch.no} · ${ch.stats.nodes} nodes · ${ch.stats.questions} Qs${ch.pyq ? ` · ${ch.pyq} PYQs` : ''}</small>${esc(ch.title)}</a>`
+              : ch.pyq
+              ? `<a class="chap ready" href="#/pyq/${ch.id}"><small>Ch ${ch.no} · ${ch.pyq} NEET PYQs</small>${esc(ch.title)}</a>`
               : `<a class="chap soon"><small>Ch ${ch.no} · coming soon</small>${esc(ch.title)}</a>`).join('')}
           </div>`).join('')}</section>`).join('')}
       </main>${footer()}`;
@@ -299,8 +312,74 @@
     show();
   }
 
+  // ---------- PYQs: past NEET questions in NCERT order, answer → solution + NCERT excerpt ----------
+  // Data: data/pyq/<chapter>.json (built from content/pyq by tools/build.py).
+  // Content strings in that file are our own trusted HTML (sub/sup, lists), so they are inserted as HTML.
+  function renderPYQ(chId) {
+    document.body.dataset.subject = subjectOf(chId);
+    const load = catalog ? Promise.resolve(catalog) : getJSON('data/catalog.json').then(c => (catalog = c));
+    load.then(() => getJSON(`data/pyq/${chId}.json`)).then(P => {
+      const all = []; P.sections.forEach(s => s.questions.forEach(q => all.push(q)));
+      const years = [...new Set(all.map(q => q.year))].sort((a, b) => b - a);
+      const pdf = page => `${P.ncertPdf}#page=${page - P.pdfPageOffset}`;
+      const stat = () => { const done = all.filter(q => progress[q.id] !== undefined).length, ok = all.filter(q => progress[q.id] === true).length; return `${done}/${all.length} attempted · ${ok} correct`; };
+      const excerpts = q => `<div class="excerpts">${q.ncert.map(x => `<figure class="excerpt"><img src="assets/ncert/${chId}/${x.img}.webp" alt="NCERT excerpt, ${esc(x.label)}" loading="lazy"><figcaption><span>NCERT Chemistry Part I · ${esc(x.label)}</span><a href="${pdf(x.page)}" target="_blank" rel="noopener">Open page ${x.page} ↗</a></figcaption></figure>`).join('')}</div>`;
+      const card = (q, n) => `<article class="pyq" id="${q.id}" data-year="${q.year}">
+          <div class="pyq-head"><span class="qn">Q${n}</span><span class="year">NEET ${q.year}</span>${q.also ? `<span class="tag" title="${esc(q.also)}">mixed chapter</span>` : ''}<span class="state">${progress[q.id] === true ? '✓' : progress[q.id] === false ? '✗' : ''}</span></div>
+          <div class="qtext">${q.q}</div>
+          <div class="opts">${q.o.map((o, k) => `<button class="opt" data-k="${k}"><b>(${k + 1})</b><span>${o}</span></button>`).join('')}</div>
+          <div class="pyq-actions"><button class="btn ghost" data-act="hint">Hint + NCERT</button><button class="btn ghost" data-act="ans">Show answer</button></div>
+          <div class="reveal hint" hidden><p class="hint-text"><b>Hint:</b> ${q.hint}</p></div>
+          <div class="reveal answer" hidden>
+            <p class="ans-line"><b>Answer: (${q.a + 1})</b> ${q.o[q.a]}</p>
+            ${q.check ? `<p class="check">✔ ${esc(q.check)}</p>` : ''}
+            <div class="sol">${q.sol}</div>
+            ${q.trap ? `<p class="trap"><b>Trap:</b> ${q.trap}</p>` : ''}
+            ${q.also ? `<p class="also">${esc(q.also)}</p>` : ''}
+          </div>
+          <div class="reveal ncert" hidden><h4>Where NCERT says it</h4>${excerpts(q)}</div>
+        </article>`;
+      let n = 0;
+      app.innerHTML = topbar({ id: chId }, 'pyq') + `<main class="pyq-page">
+        <section class="pyq-intro"><p class="kicker">NEET PYQs · arranged in NCERT order</p><h1>${esc(P.title)}</h1>
+          <p class="ref">${esc(P.ref)} · ${all.length} questions from ${esc(P.years)}</p>
+          <p class="muted">Try each question first. <b>Hint + NCERT</b> shows the lines of the textbook the question is built on. <b>Show answer</b> gives the worked solution.</p>
+          <div class="pyq-tools"><span class="stat" id="pyqstat">${stat()}</span>
+            <label>Year <select id="yearsel"><option value="">All years</option>${years.map(y => `<option>${y}</option>`).join('')}</select></label></div>
+          <nav class="secnav">${P.sections.map(s => `<a href="#/pyq/${chId}" data-jump="s-${s.sec}"><b>§${s.sec}</b> ${esc(s.title)} <i>${s.questions.length}</i></a>`).join('')}</nav>
+        </section>
+        ${P.sections.map(s => `<section class="pyq-sec" id="s-${s.sec}"><h2><span>§${s.sec}</span> ${esc(s.title)}</h2>
+          <p class="sec-ref">NCERT ${s.pages.length > 1 ? `pp. ${s.pages[0]}–${s.pages[s.pages.length - 1]}` : `p. ${s.pages[0]}`} · <a href="${pdf(s.pages[0])}" target="_blank" rel="noopener">read in NCERT ↗</a></p>
+          ${s.questions.map(q => card(q, ++n)).join('')}</section>`).join('')}
+        <p class="pyq-note">${esc(P.note)}</p>
+      </main>${footer()}`;
+
+      app.querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); document.getElementById(a.dataset.jump).scrollIntoView({ behavior: 'smooth' }); }));
+      app.querySelector('#yearsel').addEventListener('change', e => {
+        const y = e.target.value;
+        app.querySelectorAll('.pyq').forEach(c => { c.hidden = !!y && c.dataset.year !== y; });
+        app.querySelectorAll('.pyq-sec').forEach(s => { s.hidden = ![...s.querySelectorAll('.pyq')].some(c => !c.hidden); });
+      });
+      app.querySelectorAll('.pyq').forEach(c => {
+        const q = all.find(x => x.id === c.id);
+        const open = sel => { c.querySelector(sel).hidden = false; };
+        c.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => {
+          const k = +b.dataset.k, ok = k === q.a;
+          c.querySelectorAll('.opt').forEach(x => { const j = +x.dataset.k; x.disabled = true; if (j === q.a) x.classList.add('right'); else if (j === k) x.classList.add('wrong'); });
+          if (progress[q.id] === undefined) { progress[q.id] = ok; saveProgress(); }
+          c.querySelector('.state').textContent = ok ? '✓' : '✗';
+          c.querySelector('.ans-line').insertAdjacentHTML('afterbegin', `<span class="verdict ${ok ? 'ok' : 'no'}">${ok ? 'Correct.' : 'Not quite.'}</span> `);
+          open('.answer'); open('.ncert');
+          app.querySelector('#pyqstat').textContent = stat();
+        }));
+        c.querySelector('[data-act="hint"]').addEventListener('click', () => { open('.hint'); open('.ncert'); });
+        c.querySelector('[data-act="ans"]').addEventListener('click', () => { c.querySelectorAll('.opt').forEach(x => { if (+x.dataset.k === q.a) x.classList.add('right'); }); open('.answer'); open('.ncert'); });
+      });
+    }).catch(err);
+  }
+
   function footer() {
-    return `<footer>Synopses, questions and diagrams are original study material based on the NCERT syllabus. NCERT textbooks are © NCERT and are linked, not reproduced. Free to read the book at <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener">ncert.nic.in</a>.</footer>`;
+    return `<footer>Synopses, solutions, questions and diagrams are original study material based on the NCERT syllabus. NCERT textbooks are © NCERT: we show only short excerpts for reference, each credited with its page, and link to the full book. Read it free at <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener">ncert.nic.in</a>.</footer>`;
   }
   function err(e) { console.error(e); app.innerHTML = topbar(null) + `<main><p class="empty">Could not load this page. ${esc(e.message || '')}</p></main>`; }
 

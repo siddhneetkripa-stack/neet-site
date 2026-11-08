@@ -3,6 +3,8 @@
 
 Usage:  python3 tools/build.py
 Checks: unique node ids, every question has 4 options and a valid answer index.
+Also builds PYQ pages: content/pyq/<chapter>.json -> data/pyq/<chapter>.json
+(checks options/answers, that every NCERT excerpt image exists, and sections are in NCERT order).
 """
 import json, os, sys, glob
 
@@ -54,6 +56,35 @@ def build_chapter(folder):
     print(f"{meta['id']}: {stats['nodes']} nodes, {stats['questions']} questions -> {os.path.relpath(out, ROOT)}")
     return meta, stats
 
+def sec_key(sec):
+    return tuple(int(x) for x in sec.split("."))
+
+def build_pyq(path):
+    doc = json.load(open(path, encoding="utf-8"))
+    ch = doc["chapter"]
+    img_dir = os.path.join(ROOT, "assets", "ncert", ch)
+    keys = [sec_key(s["sec"]) for s in doc["sections"]]
+    if keys != sorted(keys):
+        sys.exit(f"{ch}: PYQ sections are not in NCERT order")
+    n = 0
+    for s in doc["sections"]:
+        s["questions"].sort(key=lambda q: q["year"])
+        for q in s["questions"]:
+            n += 1
+            if len(q["o"]) != 4 or not (0 <= q["a"] < 4):
+                sys.exit(f"{ch} PYQ bad options/answer: {q['q'][:50]}")
+            for field in ("year", "q", "sol", "hint", "ncert"):
+                if not q.get(field):
+                    sys.exit(f"{ch} PYQ missing {field}: {q['q'][:50]}")
+            for x in q["ncert"]:
+                if not os.path.exists(os.path.join(img_dir, x["img"] + ".webp")):
+                    sys.exit(f"{ch} PYQ: missing excerpt image {x['img']}.webp")
+            q["id"] = f"pyq-{ch}-{s['sec']}-{q['year']}-{n}"
+    os.makedirs(os.path.join(DATA, "pyq"), exist_ok=True)
+    json.dump(doc, open(os.path.join(DATA, "pyq", ch + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{ch}: {n} PYQs -> data/pyq/{ch}.json")
+    return ch, n
+
 def main():
     os.makedirs(DATA, exist_ok=True)
     catalog = json.load(open(os.path.join(CONTENT, "catalog.json"), encoding="utf-8"))
@@ -62,12 +93,15 @@ def main():
         if os.path.exists(os.path.join(folder, "chapter.json")):
             meta, stats = build_chapter(folder)
             built[meta["id"]] = stats
+    pyq = dict(build_pyq(f) for f in sorted(glob.glob(os.path.join(CONTENT, "pyq", "*.json"))))
     for subj in catalog["subjects"]:
         for cls in subj["classes"]:
             for ch in cls["chapters"]:
                 if ch.get("id") in built:
                     ch["ready"] = True
                     ch["stats"] = built[ch["id"]]
+                if ch.get("id") in pyq:
+                    ch["pyq"] = pyq[ch["id"]]
     json.dump(catalog, open(os.path.join(DATA, "catalog.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("catalog updated")
 

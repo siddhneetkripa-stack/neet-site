@@ -1,0 +1,499 @@
+{
+ "chapter": "chem11-01",
+ "title": "Some Basic Concepts of Chemistry",
+ "ref": "NCERT Chemistry Part I · Unit 1 · pp. 1–28",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech101.pdf",
+ "pdfPageOffset": 0,
+ "years": "NEET (UG) 2017–2026",
+ "note": "Question text is taken from published copies of each year's paper. Question numbers differ between booklet codes, so only the year is shown. Every answer was worked out independently; 2021 is also checked against NTA's final answer key.",
+ "sections": [
+  {
+   "sec": "1.6",
+   "title": "Dalton's Atomic Theory",
+   "pages": [
+    16
+   ],
+   "questions": [
+    {
+     "year": 2025,
+     "srcRef": "eSaral copy Q54",
+     "q": "Dalton's Atomic theory could not explain which of the following?",
+     "o": [
+      "Law of conservation of mass",
+      "Law of constant proportion",
+      "Law of multiple proportion",
+      "Law of gaseous volume"
+     ],
+     "a": 3,
+     "sol": "<p>Dalton's postulates (indivisible atoms, fixed whole-number ratios, atoms neither created nor destroyed) account for the three mass laws: conservation of mass, definite proportions and multiple proportions.</p><p>They <b>cannot</b> explain Gay-Lussac's law of gaseous volumes. Two volumes of H₂ and one volume of O₂ give two volumes of water vapour, which needs molecules that split into atoms. Avogadro later explained this; Dalton's model did not.</p>",
+     "hint": "NCERT says it directly at the end of §1.5.",
+     "ncert": [
+      {
+       "img": "dalton-limits",
+       "page": 16,
+       "label": "§1.5–1.6 · p. 16"
+      }
+     ],
+     "id": "pyq-chem11-01-1.6-2025-1"
+    }
+   ]
+  },
+  {
+   "sec": "1.8",
+   "title": "Mole Concept and Molar Masses",
+   "pages": [
+    18
+   ],
+   "questions": [
+    {
+     "year": 2018,
+     "srcRef": "Code AA Q78",
+     "check": "Matches the published Code AA key",
+     "q": "In which case is the number of molecules of water maximum?",
+     "o": [
+      "0.00224 L of water vapours at 1 atm and 273 K",
+      "0.18 g of water",
+      "18 mL of water",
+      "10<sup>−3</sup> mol of water"
+     ],
+     "a": 2,
+     "sol": "<p>Number of molecules ∝ number of moles, so convert each option to moles:</p><ul><li>0.00224 L ÷ 22.4 L mol⁻¹ = 10⁻⁴ mol</li><li>0.18 g ÷ 18 g mol⁻¹ = 10⁻² mol</li><li>18 mL of liquid water ≈ 18 g (density ≈ 1 g mL⁻¹) = <b>1 mol</b></li><li>10⁻³ mol</li></ul><p>18 mL of water holds 1 mol, i.e. N<sub>A</sub> molecules: the largest.</p>",
+     "hint": "Turn every quantity into moles first.",
+     "ncert": [
+      {
+       "img": "mole-definition",
+       "page": 18,
+       "label": "§1.8 · p. 18"
+      },
+      {
+       "img": "molar-mass",
+       "page": 18,
+       "label": "§1.8 · p. 18"
+      }
+     ],
+     "id": "pyq-chem11-01-1.8-2018-2"
+    },
+    {
+     "year": 2020,
+     "srcRef": "Byju's copy Q85",
+     "q": "Which one of the followings has maximum number of atoms?",
+     "o": [
+      "1 g of O<sub>2</sub>(g) [Atomic mass of O = 16]",
+      "1 g of Li(s) [Atomic mass of Li = 7]",
+      "1 g of Ag(s) [Atomic mass of Ag = 108]",
+      "1 g of Mg(s) [Atomic mass of Mg = 24]"
+     ],
+     "a": 1,
+     "sol": "<p>Atoms = (mass ÷ molar mass) × atoms per formula unit × N<sub>A</sub>.</p><ul><li>O₂: (1/32) × 2 = 1/16 N<sub>A</sub></li><li>Li: <b>1/7 N<sub>A</sub></b></li><li>Ag: 1/108 N<sub>A</sub></li><li>Mg: 1/24 N<sub>A</sub></li></ul><p>For equal masses, the lightest atom gives the most atoms: lithium.</p>",
+     "hint": "Equal masses → the smallest molar mass per atom wins. Don't forget O₂ is diatomic.",
+     "ncert": [
+      {
+       "img": "molar-mass",
+       "page": 18,
+       "label": "§1.8 · p. 18"
+      }
+     ],
+     "id": "pyq-chem11-01-1.8-2020-3"
+    },
+    {
+     "year": 2024,
+     "srcRef": "eSaral copy Q85",
+     "q": "The highest number of helium atoms is in",
+     "o": [
+      "4 mol of helium",
+      "4 u of helium",
+      "4 g of helium",
+      "2.271098 L of helium at STP"
+     ],
+     "a": 0,
+     "sol": "<ul><li>4 mol → <b>4 N<sub>A</sub></b> atoms</li><li>4 u is the mass of a <i>single</i> He atom → 1 atom</li><li>4 g = 1 mol → N<sub>A</sub> atoms</li><li>At STP (273.15 K, 1 bar) one mole of gas occupies 22.7 L, so 2.271098 L = 0.1 mol → 0.1 N<sub>A</sub> atoms</li></ul>",
+     "hint": "u is the mass of one atom; g is the mass of one mole. At STP, 1 mol of gas = 22.7 L.",
+     "ncert": [
+      {
+       "img": "mole-definition",
+       "page": 18,
+       "label": "§1.8 · p. 18"
+      },
+      {
+       "img": "stoichiometry-meaning",
+       "page": 20,
+       "label": "§1.10 · p. 20 (22.7 L per mole)"
+      }
+     ],
+     "id": "pyq-chem11-01-1.8-2024-4"
+    },
+    {
+     "year": 2025,
+     "srcRef": "eSaral copy Q68",
+     "q": "Among the following choose the ones with equal number of atoms.<br>A. 212 g of Na<sub>2</sub>CO<sub>3</sub>(s) [molar mass = 106 g]<br>B. 248 g of Na<sub>2</sub>O(s) [molar mass = 62 g]<br>C. 240 g of NaOH(s) [molar mass = 40 g]<br>D. 12 g of H<sub>2</sub>(g) [molar mass = 2 g]<br>E. 220 g of CO<sub>2</sub>(g) [molar mass = 44 g]",
+     "o": [
+      "A, B and C only",
+      "A, B and D only",
+      "B, C and D only",
+      "B, D and E only"
+     ],
+     "a": 1,
+     "sol": "<p>Atoms = moles × atoms per formula unit (in units of N<sub>A</sub>):</p><ul><li>A: 212/106 = 2 mol × 6 = <b>12</b></li><li>B: 248/62 = 4 mol × 3 = <b>12</b></li><li>C: 240/40 = 6 mol × 3 = 18</li><li>D: 12/2 = 6 mol × 2 = <b>12</b></li><li>E: 220/44 = 5 mol × 3 = 15</li></ul><p>A, B and D each contain 12 N<sub>A</sub> atoms.</p>",
+     "hint": "Count atoms per formula: Na₂CO₃ has 6, Na₂O 3, NaOH 3, H₂ 2, CO₂ 3.",
+     "ncert": [
+      {
+       "img": "molar-mass",
+       "page": 18,
+       "label": "§1.8 · p. 18"
+      }
+     ],
+     "id": "pyq-chem11-01-1.8-2025-5"
+    },
+    {
+     "year": 2026,
+     "srcRef": "eSaral copy Q66",
+     "q": "The number of hydrogen atoms present in 5.4 g of urea is:<br>(Given: Molar mass of urea: 60 g mol<sup>−1</sup>, N<sub>A</sub>: 6.022 × 10<sup>23</sup> particles mol<sup>−1</sup>)",
+     "o": [
+      "2.168 × 10<sup>22</sup>",
+      "2.168 × 10<sup>23</sup>",
+      "1.084 × 10<sup>22</sup>",
+      "1.084 × 10<sup>23</sup>"
+     ],
+     "a": 1,
+     "sol": "<p>Urea is NH₂CONH₂: <b>4 H atoms</b> per molecule.</p><p>n = 5.4 ÷ 60 = 0.09 mol → H atoms = 0.09 × 4 × 6.022 × 10²³ = <b>2.168 × 10²³</b>.</p>",
+     "hint": "Moles of urea × 4 × N<sub>A</sub>.",
+     "trap": "Using 2 H per molecule gives 1.084 × 10²³, which is one of the options.",
+     "ncert": [
+      {
+       "img": "mole-definition",
+       "page": 18,
+       "label": "§1.8 · p. 18"
+      }
+     ],
+     "id": "pyq-chem11-01-1.8-2026-6"
+    }
+   ]
+  },
+  {
+   "sec": "1.9",
+   "title": "Percentage Composition & Empirical Formula",
+   "pages": [
+    18,
+    19,
+    20
+   ],
+   "questions": [
+    {
+     "year": 2021,
+     "srcRef": "Code P3 Q82",
+     "check": "NTA final answer key (Code P3): option 4",
+     "q": "An organic compound contains 78% (by wt.) carbon and remaining percentage of hydrogen. The right option for the empirical formula of this compound is: [Atomic wt. of C is 12, H is 1]",
+     "o": [
+      "CH<sub>4</sub>",
+      "CH",
+      "CH<sub>2</sub>",
+      "CH<sub>3</sub>"
+     ],
+     "a": 3,
+     "sol": "<p>Take 100 g: C = 78 g → 78/12 = 6.5 mol; H = 22 g → 22 mol.</p><p>Divide by the smaller: C : H = 1 : 3.38. Of the options, CH₃ (1 : 3) is the closest, and NTA's final key gives CH₃.</p><p class='errata'>Note: the data do not give a clean whole-number ratio. CH₃ would need 80% carbon exactly (12/15). Pick the nearest option in the exam.</p>",
+     "hint": "Assume 100 g, convert % to moles, divide by the smallest.",
+     "ncert": [
+      {
+       "img": "empirical-formula",
+       "page": 19,
+       "label": "§1.9.1 · p. 19"
+      }
+     ],
+     "id": "pyq-chem11-01-1.9-2021-7"
+    },
+    {
+     "year": 2024,
+     "srcRef": "eSaral copy Q83",
+     "q": "A compound X contains 32% of A, 20% of B and remaining percentage of C. Then, the empirical formula of X is:<br>(Given atomic masses of A = 64; B = 40; C = 32 u)",
+     "o": [
+      "A<sub>2</sub>BC<sub>2</sub>",
+      "ABC<sub>3</sub>",
+      "AB<sub>2</sub>C<sub>2</sub>",
+      "ABC<sub>4</sub>"
+     ],
+     "a": 1,
+     "sol": "<p>C = 100 − 32 − 20 = 48%.</p><ul><li>A: 32/64 = 0.5</li><li>B: 20/40 = 0.5</li><li>C: 48/32 = 1.5</li></ul><p>Divide by 0.5 → 1 : 1 : 3, so the empirical formula is <b>ABC₃</b>.</p>",
+     "hint": "Find % of C first, then mole ratio.",
+     "ncert": [
+      {
+       "img": "empirical-formula",
+       "page": 19,
+       "label": "§1.9.1 · p. 19"
+      }
+     ],
+     "id": "pyq-chem11-01-1.9-2024-8"
+    }
+   ]
+  },
+  {
+   "sec": "1.10",
+   "title": "Stoichiometry and Stoichiometric Calculations",
+   "pages": [
+    20
+   ],
+   "questions": [
+    {
+     "year": 2018,
+     "srcRef": "Code AA Q57",
+     "check": "Matches the published Code AA key",
+     "q": "A mixture of 2.3 g formic acid and 4.5 g oxalic acid is treated with conc. H<sub>2</sub>SO<sub>4</sub>. The evolved gaseous mixture is passed through KOH pellets. Weight (in g) of the remaining product at STP will be",
+     "o": [
+      "2.8",
+      "3.0",
+      "1.4",
+      "4.4"
+     ],
+     "a": 0,
+     "sol": "<p>Conc. H₂SO₄ removes water from both acids:</p><ul><li>HCOOH → CO + H₂O: 2.3/46 = 0.05 mol → 0.05 mol CO</li><li>H₂C₂O₄ → CO + CO₂ + H₂O: 4.5/90 = 0.05 mol → 0.05 mol CO + 0.05 mol CO₂</li></ul><p>KOH absorbs the CO₂. What remains is CO: 0.10 mol × 28 g mol⁻¹ = <b>2.8 g</b>.</p>",
+     "hint": "Write both decomposition equations; KOH removes only the acidic gas (CO₂).",
+     "ncert": [
+      {
+       "img": "stoichiometry-meaning",
+       "page": 20,
+       "label": "§1.10 · p. 20"
+      }
+     ],
+     "id": "pyq-chem11-01-1.10-2018-9"
+    },
+    {
+     "year": 2019,
+     "srcRef": "Code S2 Q162",
+     "q": "The number of moles of hydrogen molecules required to produce 20 moles of ammonia through Haber's process is:",
+     "o": [
+      "30",
+      "40",
+      "10",
+      "20"
+     ],
+     "a": 0,
+     "sol": "<p>N₂(g) + 3H₂(g) → 2NH₃(g). Mole ratio H₂ : NH₃ = 3 : 2.</p><p>H₂ needed = 20 × 3/2 = <b>30 mol</b>.</p>",
+     "hint": "Read the mole ratio straight off the balanced equation.",
+     "ncert": [
+      {
+       "img": "stoichiometry-meaning",
+       "page": 20,
+       "label": "§1.10 · p. 20"
+      }
+     ],
+     "id": "pyq-chem11-01-1.10-2019-10"
+    },
+    {
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q1",
+     "q": "The right option for the mass of CO<sub>2</sub> produced by heating 20 g of 20% pure limestone is (Atomic mass of Ca = 40)<br>[CaCO<sub>3</sub> —1200 K→ CaO + CO<sub>2</sub>]",
+     "o": [
+      "1.32 g",
+      "1.12 g",
+      "1.76 g",
+      "2.64 g"
+     ],
+     "a": 2,
+     "sol": "<p>Only the pure part reacts: 20% of 20 g = 4 g CaCO₃ = 4/100 = 0.04 mol.</p><p>1 mol CaCO₃ → 1 mol CO₂, so CO₂ = 0.04 × 44 = <b>1.76 g</b>.</p>",
+     "hint": "Apply the purity first, then the 1 : 1 mole ratio.",
+     "trap": "Treating all 20 g as CaCO₃ gives 8.8 g of CO₂, which is five times too much. The impurity does not release CO₂.",
+     "ncert": [
+      {
+       "img": "purity",
+       "page": 19,
+       "label": "§1.9 · p. 19 (purity)"
+      },
+      {
+       "img": "stoichiometry-meaning",
+       "page": 20,
+       "label": "§1.10 · p. 20"
+      }
+     ],
+     "id": "pyq-chem11-01-1.10-2023-11"
+    },
+    {
+     "year": 2026,
+     "srcRef": "eSaral copy Q70",
+     "q": "When 1 dm<sup>3</sup> of CO<sub>2</sub> gas is passed over hot coke, the volume of gaseous mixture after complete reaction at STP becomes 1.4 dm<sup>3</sup>. The composition of the gaseous mixture at STP is:",
+     "o": [
+      "0.6 dm<sup>3</sup> of CO, 0.8 dm<sup>3</sup> of CO<sub>2</sub>",
+      "0.8 dm<sup>3</sup> of CO, 0.8 dm<sup>3</sup> of CO<sub>2</sub>",
+      "0.6 dm<sup>3</sup> of CO, 0.4 dm<sup>3</sup> of CO<sub>2</sub>",
+      "0.8 dm<sup>3</sup> of CO, 0.6 dm<sup>3</sup> of CO<sub>2</sub>"
+     ],
+     "a": 3,
+     "sol": "<p>CO₂(g) + C(s) → 2CO(g). At the same T and p, gas volumes are in the same ratio as moles.</p><p>If x dm³ of CO₂ reacts, it makes 2x dm³ of CO: total = (1 − x) + 2x = 1 + x = 1.4 → x = 0.4.</p><p>CO = 0.8 dm³, CO₂ left = 0.6 dm³.</p>",
+     "hint": "Coke is a solid, so only CO₂ and CO count towards the gas volume.",
+     "ncert": [
+      {
+       "img": "stoichiometry-meaning",
+       "page": 20,
+       "label": "§1.10 · p. 20 (volume relation)"
+      }
+     ],
+     "id": "pyq-chem11-01-1.10-2026-12"
+    }
+   ]
+  },
+  {
+   "sec": "1.10.1",
+   "title": "Limiting Reagent",
+   "pages": [
+    20,
+    21
+   ],
+   "questions": [
+    {
+     "year": 2024,
+     "srcRef": "eSaral copy Q84",
+     "q": "1 gram of sodium hydroxide was treated with 25 mL of 0.75 M HCl solution, the mass of sodium hydroxide left unreacted is equal to",
+     "o": [
+      "750 mg",
+      "250 mg",
+      "Zero mg",
+      "200 mg"
+     ],
+     "a": 1,
+     "sol": "<p>NaOH = 1/40 = 0.025 mol. HCl = 0.025 L × 0.75 M = 0.01875 mol.</p><p>NaOH + HCl → NaCl + H₂O (1 : 1), so HCl is the <b>limiting reagent</b>.</p><p>NaOH left = 0.025 − 0.01875 = 0.00625 mol × 40 = 0.25 g = <b>250 mg</b>.</p>",
+     "hint": "Moles of HCl = molarity × volume in litres; compare with moles of NaOH.",
+     "ncert": [
+      {
+       "img": "limiting-reagent",
+       "page": 20,
+       "label": "§1.10.1 · p. 20"
+      },
+      {
+       "img": "limiting-reagent-2",
+       "page": 21,
+       "label": "§1.10.1 · p. 21"
+      },
+      {
+       "img": "molarity-definition",
+       "page": 23,
+       "label": "§1.10.2 · p. 23"
+      }
+     ],
+     "id": "pyq-chem11-01-1.10.1-2024-13"
+    }
+   ]
+  },
+  {
+   "sec": "1.10.2",
+   "title": "Reactions in Solutions (Concentration Terms)",
+   "pages": [
+    21,
+    22,
+    23,
+    24
+   ],
+   "questions": [
+    {
+     "year": 2017,
+     "srcRef": "Code A Q76",
+     "check": "Matches the published Code A key",
+     "q": "Which of the following is dependent on temperature?",
+     "o": [
+      "Molality",
+      "Molarity",
+      "Mole fraction",
+      "Weight percentage"
+     ],
+     "a": 1,
+     "sol": "<p>Molarity = moles per <b>litre of solution</b>. Volume expands or contracts with temperature, so molarity changes.</p><p>Molality, mole fraction and mass % use only masses or mole counts, which do not change with temperature.</p>",
+     "hint": "Which term has a volume in it?",
+     "ncert": [
+      {
+       "img": "molarity-temperature",
+       "page": 24,
+       "label": "§1.10.2 · p. 24"
+      },
+      {
+       "img": "molality-temperature",
+       "page": 24,
+       "label": "§1.10.2 · p. 24"
+      }
+     ],
+     "id": "pyq-chem11-01-1.10.2-2017-14"
+    },
+    {
+     "year": 2022,
+     "srcRef": "eSaral copy Q55",
+     "q": "In one molal solution that contains 0.5 mole of a solute, there is",
+     "o": [
+      "500 g of solvent",
+      "100 mL of solvent",
+      "1000 g of solvent",
+      "500 mL of solvent"
+     ],
+     "a": 0,
+     "sol": "<p>Molality = moles of solute ÷ kg of solvent → 1 = 0.5 ÷ W, so W = 0.5 kg = <b>500 g of solvent</b>.</p>",
+     "hint": "Molality is per kg of solvent, a mass, not a volume.",
+     "trap": "500 mL looks tempting, but molality never uses volume.",
+     "ncert": [
+      {
+       "img": "molality",
+       "page": 24,
+       "label": "§1.10.2 · p. 24"
+      }
+     ],
+     "id": "pyq-chem11-01-1.10.2-2022-15"
+    },
+    {
+     "year": 2022,
+     "srcRef": "eSaral copy Q77",
+     "q": "What mass of 95% pure CaCO<sub>3</sub> will be required to neutralise 50 mL of 0.5 M HCl solution according to the following reaction?<br>CaCO<sub>3</sub>(s) + 2HCl(aq) → CaCl<sub>2</sub>(aq) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l)<br>[Calculate upto second place of decimal point]",
+     "o": [
+      "1.32 g",
+      "3.65 g",
+      "9.50 g",
+      "1.25 g"
+     ],
+     "a": 0,
+     "sol": "<p>HCl = 0.050 L × 0.5 M = 0.025 mol → CaCO₃ needed = 0.025/2 = 0.0125 mol = 1.25 g (pure).</p><p>Sample is only 95% pure: 1.25 ÷ 0.95 = 1.316 g ≈ <b>1.32 g</b>.</p>",
+     "hint": "Molarity × volume → moles of HCl → halve → mass → divide by purity.",
+     "trap": "1.25 g is the pure mass; forgetting the 95% purity gives that option.",
+     "ncert": [
+      {
+       "img": "molarity-definition",
+       "page": 23,
+       "label": "§1.10.2 · p. 23"
+      },
+      {
+       "img": "purity",
+       "page": 19,
+       "label": "§1.9 · p. 19 (purity)"
+      }
+     ],
+     "id": "pyq-chem11-01-1.10.2-2022-16"
+    },
+    {
+     "year": 2026,
+     "srcRef": "eSaral copy Q61",
+     "also": "Statements C and D come from Class 12 Unit 1 (Solutions, Henry's law).",
+     "q": "Identify the correct statements:<br>(A) The molality of 2.5 g of ethanoic acid (Molar mass: 60 g mol<sup>−1</sup>) in 75 g of benzene solution is 0.556 m.<br>(B) The molarity of a solution containing 5 g of NaOH (molar mass: 40 g mol<sup>−1</sup>) in 450 mL of solution is 0.278 M at 298 K.<br>(C) Aquatic species are more comfortable in cold water.<br>(D) The solubility of gas increases with decrease in pressure.<br>(E) For a binary mixture of A and B, the number of moles of A and B are n<sub>A</sub> and n<sub>B</sub> respectively. The mole fraction of B will be x<sub>B</sub> = n<sub>A</sub>/(n<sub>A</sub> + n<sub>B</sub>).",
+     "o": [
+      "A, B and C only",
+      "A, D and E only",
+      "A and B only",
+      "A and C only"
+     ],
+     "a": 0,
+     "sol": "<ul><li><b>A ✓</b> 2.5/60 = 0.0417 mol ÷ 0.075 kg = 0.556 m</li><li><b>B ✓</b> 5/40 = 0.125 mol ÷ 0.450 L = 0.278 M</li><li><b>C ✓</b> Gases dissolve better at lower temperature, so cold water holds more O₂</li><li><b>D ✗</b> Gas solubility <i>increases</i> with pressure (Henry's law)</li><li><b>E ✗</b> x<sub>B</sub> = n<sub>B</sub>/(n<sub>A</sub> + n<sub>B</sub>); the numerator must be B's moles</li></ul>",
+     "hint": "Check A and B numerically; E is a definition check.",
+     "ncert": [
+      {
+       "img": "molality",
+       "page": 24,
+       "label": "§1.10.2 · p. 24"
+      },
+      {
+       "img": "molarity-definition",
+       "page": 23,
+       "label": "§1.10.2 · p. 23"
+      },
+      {
+       "img": "mole-fraction",
+       "page": 23,
+       "label": "§1.10.2 · p. 23"
+      }
+     ],
+     "id": "pyq-chem11-01-1.10.2-2026-17"
+    }
+   ]
+  }
+ ]
+}

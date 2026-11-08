@@ -6,10 +6,12 @@ Free, layer-by-layer mind maps of NCERT Physics, Chemistry and Biology (Class 11
 - **Synopsis:** every node explains that part of NCERT in plain words, with formulas, key points and exam traps.
 - **Questions:** practise a single paragraph, a whole branch, or the full chapter, with explanations.
 - **Official book one click away:** every node links to the right page of the NCERT PDF on ncert.nic.in.
+- **NEET PYQs in NCERT order:** past NEET questions sorted by NCERT section. Answer, then see the worked solution and the exact NCERT lines the question is built on.
 
 **Chapters ready:** Chemistry 11 · Unit 5 Thermodynamics (72 nodes, 116 questions).
+**PYQs ready:** Chemistry 11 · Unit 1 Some Basic Concepts of Chemistry (17 NEET questions, 2017–2026).
 
 Run locally: `python3 -m http.server` in this folder, then open http://localhost:8000.
 Contributor rules: see [CLAUDE.md](CLAUDE.md).
 
-NCERT textbooks are © NCERT and are linked, not reproduced. All synopses, questions and diagrams here are original.
+NCERT textbooks are © NCERT. Only short, credited excerpts are shown next to PYQ answers, each linking to the full page on ncert.nic.in. All synopses, solutions, questions and diagrams here are original.

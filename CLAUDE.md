@@ -8,17 +8,20 @@ A free website for NEET aspirants. Its core is a **layered, clickable mind map o
 - a link to the page in the **official NCERT PDF** (linked, never hosted).
 
 ## Copyright rules (do not break)
-- Never put NCERT PDFs, scanned pages or copied paragraphs in this public repo. NCERT books stay in the private `neet-sources` repo.
+- Never put NCERT PDFs, full scanned pages or long copied passages in this public repo. NCERT books stay in the private `neet-sources` repo.
+- **Exception (owner's decision, Nov 2026): short cropped NCERT excerpts** may be shown under PYQ answers/hints, in `assets/ncert/<chapter>/`. Each excerpt must be only the few lines the question relies on (a definition, a rule, one worked relation), carry a caption with the NCERT section and page, and link to that page on ncert.nic.in. Generate them with `scripts/ncert_crop.py` in `neet-sources` (spec in `scripts/excerpts/<chapter>.json`); never hand-crop whole pages.
 - Diagrams are redrawn originals (assets/diagrams.js), not copies of NCERT figures.
 - Short labelled references ("NCERT p. 151, Eq 5.16") are fine. Long quotations are not.
 - Questions adapted from NCERT exercises are tagged `"src": "NCERT Ex 5.x"`; write them in our own words.
 
 ## Structure
 ```
-index.html                 single-page app (hash routes: #/, #/c/<chapter>, #/c/<chapter>/n/<node>, #/c/<chapter>/read)
+index.html                 single-page app (hash routes: #/, #/c/<chapter>, #/c/<chapter>/n/<node>, #/c/<chapter>/read, #/pyq/<chapter>)
 assets/app.js              expanding tree (chapter → section → paragraph → detail card), inline questions, quiz pop-up, full-synopsis view
 assets/style.css           styles (placeholder look; owner has a final design to apply later)
 assets/diagrams.js         original SVG diagrams, referenced by node "diagram" key
+assets/ncert/<chapter>/    short NCERT excerpt crops (webp) used by PYQ answers
+content/pyq/<chapter>.json PYQs for a chapter, in NCERT section order
 content/catalog.json       full NEET syllabus: all Class 11 & 12 PCB chapters
 content/<chapter-id>/      chapter.json (meta) + 01-…json, 02-…json section files (authoring source)
 data/                      BUILT output; do not hand-edit. Run: python3 tools/build.py
@@ -37,6 +40,12 @@ tools/build.py             merges content → data, validates ids/questions, tag
 - Questions: exactly 4 options, `a` = index of the correct one (options are shuffled at runtime).
 - Check every numerical answer by actually computing it. Flag NCERT misprints in a `<p class='errata'>` block.
 - PYQs: add `"pyq": ["NEET 2021"]` **only after verifying against the official paper**. Never guess years.
+
+## PYQ pages (content/pyq/<chapter>.json → route #/pyq/<chapter>)
+- Past NEET questions grouped by NCERT section, sections in NCERT order (build checks this); questions sorted by year inside a section.
+- Each question: `year`, `srcRef` (which copy/booklet it was read from), `q`, `o` (4, original order, shown as (1)–(4)), `a`, `sol` (worked solution in our own words, HTML), `hint`, optional `trap`, `check` (only if checked against a published key), `also` (if part of it belongs to another chapter), and `ncert`: list of `{img, page, label}` excerpts.
+- Transcribe question text exactly from the paper image; solve every question yourself; if the official answer looks inconsistent with the data, say so in a `<p class='errata'>`.
+- Sources of the papers and their keys live in `neet-sources/neet-papers/index.json`.
 
 ## Adding a chapter
 1. Put the NCERT PDF in `neet-sources` (private).

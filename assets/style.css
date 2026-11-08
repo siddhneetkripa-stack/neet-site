@@ -272,3 +272,50 @@ main.wide { max-width: none; padding: 16px 0 0; }
   .branch.is-open:not(.is-sel) > .node-row .tnode .tt { font-size: .84rem; }
   .detail { width: 540px; }
 }
+
+/* PYQ page: past NEET questions in NCERT order */
+.pyq-page { max-width: 860px; }
+.pyq-intro .kicker { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin: 8px 0 2px; }
+.pyq-intro .ref { color: var(--muted); font-size: .9rem; margin: 0 0 8px; }
+.pyq-intro .muted { color: var(--muted); font-size: .95rem; }
+.pyq-tools { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; justify-content: space-between; margin: 10px 0; font-size: .9rem; }
+.pyq-tools .stat { color: var(--muted); }
+.pyq-tools select { font: inherit; padding: 4px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+.secnav { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 4px; }
+.secnav a { text-decoration: none; font-size: .85rem; padding: 5px 10px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); color: var(--ink); }
+.secnav a b { color: var(--accent); }
+.secnav a i { font-style: normal; color: var(--muted); margin-left: 2px; }
+.pyq-sec { margin: 30px 0 10px; scroll-margin-top: 64px; }
+.pyq-sec h2 { font-size: 1.35rem; }
+.pyq-sec h2 span { color: var(--accent); }
+.sec-ref { color: var(--muted); font-size: .85rem; margin: -2px 0 12px; }
+.pyq { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; margin: 12px 0; scroll-margin-top: 64px; }
+.pyq-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: .82rem; }
+.pyq-head .qn { font-weight: 700; color: var(--muted); }
+.pyq-head .year { background: var(--accent); color: #fff; font-weight: 700; padding: 2px 10px; border-radius: 999px; }
+.pyq-head .tag { background: #fff7ed; color: var(--warn); border: 1px solid #fed7aa; padding: 1px 8px; border-radius: 999px; }
+.pyq-head .state { margin-left: auto; font-weight: 700; }
+.pyq .qtext { font-weight: 500; line-height: 1.65; }
+.pyq .opt { display: flex; gap: 6px; align-items: baseline; }
+.pyq-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.pyq-actions .btn { padding: 6px 14px; font-size: .9rem; }
+.reveal { margin-top: 12px; }
+.reveal[hidden] { display: none; }
+.hint-text { background: var(--accent-soft); border-radius: 10px; padding: 9px 13px; margin: 0; font-size: .95rem; }
+.answer { border-left: 3px solid var(--good); padding: 2px 0 2px 14px; }
+.answer .ans-line { margin: 0 0 4px; }
+.answer .verdict { font-weight: 700; } .answer .verdict.ok { color: var(--good); } .answer .verdict.no { color: var(--bad); }
+.answer .check { color: var(--good); font-size: .82rem; margin: 0 0 6px; }
+.answer .sol p, .answer .sol ul { margin: .35em 0; }
+.answer .errata { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 8px; padding: 8px 12px; font-size: .9rem; }
+.answer .errata::before { content: "⚠ "; color: var(--warn); }
+.trap { background: #fef2f2; border-radius: 8px; padding: 7px 12px; font-size: .92rem; margin: 8px 0 0; }
+.also { color: var(--muted); font-size: .85rem; font-style: italic; margin: 6px 0 0; }
+.ncert h4 { font-family: var(--sans); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 6px 0 8px; }
+.excerpts { display: grid; gap: 12px; }
+.excerpt { margin: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #fff; }
+.excerpt img { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 auto; }
+.excerpt figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; padding: 7px 12px; font-size: .8rem; color: var(--muted); background: var(--paper); border-top: 1px solid var(--line); }
+.excerpt figcaption a { font-weight: 600; text-decoration: none; }
+.pyq-note { color: var(--muted); font-size: .82rem; border-top: 1px solid var(--line); padding-top: 12px; margin-top: 30px; }
+@media (max-width: 640px) { .pyq { padding: 14px; } .pyq-sec h2 { font-size: 1.2rem; } }
