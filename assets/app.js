@@ -63,7 +63,8 @@
     if (ch && (e.ready || mode === 'map' || mode === 'read')) tabs.push(`<a href="#/c/${ch.id}" class="${mode === 'map' ? 'on' : ''}">Tree</a>`, `<a href="#/c/${ch.id}/read" class="${mode === 'read' ? 'on' : ''}">Full synopsis</a>`);
     if (ch && (e.pyq || mode === 'pyq')) tabs.push(`<a href="#/pyq/${ch.id}" class="${mode === 'pyq' ? 'on' : ''}">MCQs</a>`);
     const seg = tabs.length > 1 ? `<div class="seg">${tabs.join('')}</div>` : '';
-    return `<header class="topbar"><a class="brand" href="#/">NCERT<span>·</span>MindMap</a><div class="spacer"></div>${seg}</header>`;
+    const back = ch ? `<a class="back-home" href="#/" aria-label="Back to all chapters">← All chapters</a>` : '';
+    return `<header class="topbar"><a class="brand" href="#/">NCERT<span>·</span>MindMap</a>${back}<div class="spacer"></div>${seg}</header>`;
   }
 
   // ---------- home ----------
