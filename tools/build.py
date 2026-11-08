@@ -56,33 +56,58 @@ def build_chapter(folder):
     print(f"{meta['id']}: {stats['nodes']} nodes, {stats['questions']} questions -> {os.path.relpath(out, ROOT)}")
     return meta, stats
 
-def sec_key(sec):
-    return tuple(int(x) for x in sec.split("."))
-
 def build_pyq(path):
+    """content/pyq/<ch>.json has an ordered `paragraphs` list (NCERT order) and `questions`, each with
+    `paras` (paragraph ids it tests). One paragraph -> that paragraph's section; two or more -> the
+    'Multiple concepts' section at the end. MCQs have 4 options `o` + index `a`; numerical questions
+    have `type: "num"`, a numeric `ans` and optional `tol`."""
     doc = json.load(open(path, encoding="utf-8"))
     ch = doc["chapter"]
     img_dir = os.path.join(ROOT, "assets", "ncert", ch)
-    keys = [sec_key(s["sec"]) for s in doc["sections"]]
-    if keys != sorted(keys):
-        sys.exit(f"{ch}: PYQ sections are not in NCERT order")
+    order = {p["id"]: i for i, p in enumerate(doc["paragraphs"])}
+    exam_rank = {"NEET": 0, "JEE Main": 1}
+    groups = {p["id"]: [] for p in doc["paragraphs"]}
+    multi = []
+    for i, q in enumerate(doc["questions"]):
+        tag = f"{ch} PYQ {q.get('exam')} {q.get('year')} {q.get('srcRef','')}"
+        if q.get("exam") not in exam_rank:
+            sys.exit(f"{tag}: exam must be NEET or JEE Main")
+        for field in ("year", "q", "sol", "hint", "ncert", "paras"):
+            if not q.get(field):
+                sys.exit(f"{tag}: missing {field}")
+        if q.get("type") == "num":
+            if not isinstance(q.get("ans"), (int, float)):
+                sys.exit(f"{tag}: numerical question needs numeric ans")
+        elif len(q.get("o", [])) != 4 or not (0 <= q.get("a", -1) < 4):
+            sys.exit(f"{tag}: MCQ needs 4 options and a valid answer index")
+        for pid in q["paras"]:
+            if pid not in order:
+                sys.exit(f"{tag}: unknown paragraph {pid}")
+        q["paras"] = sorted(dict.fromkeys(q["paras"]), key=order.get)
+        for x in q["ncert"]:
+            if not os.path.exists(os.path.join(img_dir, x["img"] + ".webp")):
+                sys.exit(f"{tag}: missing excerpt image {x['img']}.webp")
+        (multi if len(q["paras"]) > 1 or q.get("otherChapters") else groups[q["paras"][0]]).append(q)
+    sort_key = lambda q: (exam_rank[q["exam"]], str(q.get("date", q["year"])), q.get("srcRef", ""))
+    sections = []
+    for p in doc["paragraphs"]:
+        if groups[p["id"]]:
+            sections.append(dict(sec=p["id"], title=p["title"], pages=p["pages"], questions=sorted(groups[p["id"]], key=sort_key)))
+    if multi:
+        multi.sort(key=lambda q: ([order[x] for x in q["paras"]], sort_key(q)))
+        sections.append(dict(sec="multi", title="Multiple concepts", pages=[], questions=multi))
     n = 0
-    for s in doc["sections"]:
-        s["questions"].sort(key=lambda q: q["year"])
+    for s in sections:
         for q in s["questions"]:
             n += 1
-            if len(q["o"]) != 4 or not (0 <= q["a"] < 4):
-                sys.exit(f"{ch} PYQ bad options/answer: {q['q'][:50]}")
-            for field in ("year", "q", "sol", "hint", "ncert"):
-                if not q.get(field):
-                    sys.exit(f"{ch} PYQ missing {field}: {q['q'][:50]}")
-            for x in q["ncert"]:
-                if not os.path.exists(os.path.join(img_dir, x["img"] + ".webp")):
-                    sys.exit(f"{ch} PYQ: missing excerpt image {x['img']}.webp")
-            q["id"] = f"pyq-{ch}-{s['sec']}-{q['year']}-{n}"
+            q["id"] = f"pyq-{ch}-{q['exam'].split()[0].lower()}-{q['year']}-{n}"
+    out = {k: v for k, v in doc.items() if k != "questions"}
+    out["sections"] = sections
+    out["counts"] = {e: sum(1 for q in doc["questions"] if q["exam"] == e) for e in exam_rank}
+    out["empty"] = [p for p in doc["paragraphs"] if not groups[p["id"]] and not any(p["id"] in q["paras"] for q in multi)]
     os.makedirs(os.path.join(DATA, "pyq"), exist_ok=True)
-    json.dump(doc, open(os.path.join(DATA, "pyq", ch + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"{ch}: {n} PYQs -> data/pyq/{ch}.json")
+    json.dump(out, open(os.path.join(DATA, "pyq", ch + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{ch}: {n} PYQs {out['counts']} in {len(sections)} sections ({len(multi)} multi-concept) -> data/pyq/{ch}.json")
     return ch, n
 
 def main():

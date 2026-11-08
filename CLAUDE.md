@@ -42,10 +42,20 @@ tools/build.py             merges content → data, validates ids/questions, tag
 - PYQs: add `"pyq": ["NEET 2021"]` **only after verifying against the official paper**. Never guess years.
 
 ## PYQ pages (content/pyq/<chapter>.json → route #/pyq/<chapter>)
-- Past NEET questions grouped by NCERT section, sections in NCERT order (build checks this); questions sorted by year inside a section.
-- Each question: `year`, `srcRef` (which copy/booklet it was read from), `q`, `o` (4, original order, shown as (1)–(4)), `a`, `sol` (worked solution in our own words, HTML), `hint`, optional `trap`, `check` (only if checked against a published key), `also` (if part of it belongs to another chapter), and `ncert`: list of `{img, page, label}` excerpts.
-- Transcribe question text exactly from the paper image; solve every question yourself; if the official answer looks inconsistent with the data, say so in a `<p class='errata'>`.
-- Sources of the papers and their keys live in `neet-sources/neet-papers/index.json`.
+- File has `paragraphs` (ordered NCERT paragraph list: `id` like "1.4.2" or "1.10.2c", `title`, `pages`) and `questions`.
+- Each question: `exam` ("NEET" | "JEE Main"), `year`, `srcRef` (paper/shift it was read from), `paras` (paragraph ids it tests),
+  `q`, `sol` (our own worked solution, HTML), `hint`, optional `trap`, `check` (only if compared with a published key),
+  `otherChapters` (e.g. "Class 12 · Solutions"), `ncert` (excerpts `{img, page, label}`). JEE also has `date` and `when`.
+  MCQ: `o` (4 options, original order) + `a`. Numerical: `type: "num"`, `ans`, optional `tol`.
+- build.py groups questions: one paragraph → that paragraph's section (NEET first, then JEE by date);
+  two or more paragraphs, or any `otherChapters` → "Multiple concepts" section at the end. Paragraphs with
+  no question are listed as "Not asked yet". Order is NCERT order from `paragraphs`.
+- Plain mole conversion does not count as a second concept. Concentration-term conversions (e.g. mass % → molarity) do.
+- Exclude questions whose core is another chapter (colligative properties, electrolysis, redox titrations, Carius),
+  or topics no longer in NCERT (ppm, hardness, volume strength, normality).
+- Transcribe exactly from the paper; solve every question; if the official answer looks inconsistent, add `<p class='errata'>`.
+- Paper sources and keys: `neet-sources/neet-papers/index.json`, `neet-sources/jee-main/index.json`.
+  Extraction tools: `neet-sources/scripts/pyq-tools/`.
 
 ## Adding a chapter
 1. Put the NCERT PDF in `neet-sources` (private).

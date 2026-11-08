@@ -312,26 +312,34 @@
     show();
   }
 
-  // ---------- PYQs: past NEET questions in NCERT order, answer → solution + NCERT excerpt ----------
-  // Data: data/pyq/<chapter>.json (built from content/pyq by tools/build.py).
-  // Content strings in that file are our own trusted HTML (sub/sup, lists), so they are inserted as HTML.
+  // ---------- PYQs: past NEET + JEE Main questions in NCERT paragraph order ----------
+  // Data: data/pyq/<chapter>.json (built from content/pyq by tools/build.py): `sections` in NCERT order,
+  // the last one may be "multi" (questions that need 2+ paragraphs). Questions are MCQ (o, a) or
+  // numerical (type "num", ans, tol). Content strings are our own trusted HTML, so they are inserted as HTML.
   function renderPYQ(chId) {
     document.body.dataset.subject = subjectOf(chId);
     const load = catalog ? Promise.resolve(catalog) : getJSON('data/catalog.json').then(c => (catalog = c));
     load.then(() => getJSON(`data/pyq/${chId}.json`)).then(P => {
       const all = []; P.sections.forEach(s => s.questions.forEach(q => all.push(q)));
+      const paraTitle = {}; (P.paragraphs || []).forEach(p => { paraTitle[p.id] = p.title; });
       const years = [...new Set(all.map(q => q.year))].sort((a, b) => b - a);
       const pdf = page => `${P.ncertPdf}#page=${page - P.pdfPageOffset}`;
+      const pages = pp => pp.length > 1 ? `pp. ${pp[0]}–${pp[pp.length - 1]}` : `p. ${pp[0]}`;
+      const stateLabel = v => v === true ? '<span class="state ok">✓ correct</span>' : v === false ? '<span class="state no">✗ wrong</span>' : '<span class="state"></span>';
       const stat = () => { const done = all.filter(q => progress[q.id] !== undefined).length, ok = all.filter(q => progress[q.id] === true).length; return `${done}/${all.length} attempted · ${ok} correct`; };
+      const ansText = q => q.type === 'num' ? `<b>Answer: ${q.ans}</b>${q.unit ? ' ' + q.unit : ''}` : `<b>Answer: (${q.a + 1})</b> ${q.o[q.a]}`;
       const excerpts = q => `<div class="excerpts">${q.ncert.map(x => `<figure class="excerpt"><img src="assets/ncert/${chId}/${x.img}.webp" alt="NCERT excerpt, ${esc(x.label)}" loading="lazy"><figcaption><span>NCERT Chemistry Part I · ${esc(x.label)}</span><a href="${pdf(x.page)}" target="_blank" rel="noopener">Open page ${x.page} ↗</a></figcaption></figure>`).join('')}</div>`;
-      const card = (q, n) => `<article class="pyq" id="${q.id}" data-year="${q.year}">
-          <div class="pyq-head"><span class="qn">Q${n}</span><span class="year">NEET ${q.year}</span>${q.also ? `<span class="tag" title="${esc(q.also)}">mixed chapter</span>` : ''}<span class="state">${progress[q.id] === true ? '✓' : progress[q.id] === false ? '✗' : ''}</span></div>
+      const card = (q, n, multi) => `<article class="pyq" id="${q.id}" data-year="${q.year}" data-exam="${esc(q.exam)}">
+          <div class="pyq-head"><span class="qn">Q${n}</span><span class="year ${q.exam === 'NEET' ? 'neet' : 'jee'}">${esc(q.exam)} ${q.year}</span>${q.when ? `<span class="when">${esc(q.when)}</span>` : ''}${q.type === 'num' ? '<span class="tag num">numerical</span>' : ''}${(q.otherChapters || []).length ? `<span class="tag" title="${esc(q.otherChapters.join(', '))}">+ other chapter</span>` : ''}${stateLabel(progress[q.id])}</div>
+          ${multi ? `<div class="paras">${q.paras.map(id => `<a href="#/pyq/${chId}" data-jump="s-${id}" class="para">§${id.replace(/[a-d]$/, '')} ${esc(paraTitle[id] || '')}</a>`).join('')}${(q.otherChapters || []).map(c => `<span class="para other">${esc(c)}</span>`).join('')}</div>` : ''}
           <div class="qtext">${q.q}</div>
-          <div class="opts">${q.o.map((o, k) => `<button class="opt" data-k="${k}"><b>(${k + 1})</b><span>${o}</span></button>`).join('')}</div>
+          ${q.type === 'num'
+            ? `<form class="numans"><label>Your answer <input type="text" inputmode="decimal" autocomplete="off" aria-label="Numerical answer"></label><button class="btn" type="submit">Check</button></form>`
+            : `<div class="opts">${q.o.map((o, k) => `<button class="opt" data-k="${k}"><b>(${k + 1})</b><span>${o}</span></button>`).join('')}</div>`}
           <div class="pyq-actions"><button class="btn ghost" data-act="hint">Hint + NCERT</button><button class="btn ghost" data-act="ans">Show answer</button></div>
           <div class="reveal hint" hidden><p class="hint-text"><b>Hint:</b> ${q.hint}</p></div>
           <div class="reveal answer" hidden>
-            <p class="ans-line"><b>Answer: (${q.a + 1})</b> ${q.o[q.a]}</p>
+            <p class="ans-line">${ansText(q)}</p>
             ${q.check ? `<p class="check">✔ ${esc(q.check)}</p>` : ''}
             <div class="sol">${q.sol}</div>
             ${q.trap ? `<p class="trap"><b>Trap:</b> ${q.trap}</p>` : ''}
@@ -340,38 +348,56 @@
           <div class="reveal ncert" hidden><h4>Where NCERT says it</h4>${excerpts(q)}</div>
         </article>`;
       let n = 0;
+      const exams = Object.entries(P.counts || {}).filter(([, c]) => c);
       app.innerHTML = topbar({ id: chId }, 'pyq') + `<main class="pyq-page">
-        <section class="pyq-intro"><p class="kicker">NEET PYQs · arranged in NCERT order</p><h1>${esc(P.title)}</h1>
-          <p class="ref">${esc(P.ref)} · ${all.length} questions from ${esc(P.years)}</p>
-          <p class="muted">Try each question first. <b>Hint + NCERT</b> shows the lines of the textbook the question is built on. <b>Show answer</b> gives the worked solution.</p>
+        <section class="pyq-intro"><p class="kicker">Previous-year questions · arranged in NCERT order</p><h1>${esc(P.title)}</h1>
+          <p class="ref">${esc(P.ref)} · ${all.length} questions (${exams.map(([e, c]) => `${c} ${esc(e)}`).join(', ')}) from ${esc(P.years)}</p>
+          <p class="muted">Questions follow the NCERT paragraphs in book order; NEET questions come first in each paragraph. Questions that need more than one paragraph are collected under <b>Multiple concepts</b> at the end. Try each question first: <b>Hint + NCERT</b> shows the textbook lines it is built on, <b>Show answer</b> gives the worked solution.</p>
           <div class="pyq-tools"><span class="stat" id="pyqstat">${stat()}</span>
-            <label>Year <select id="yearsel"><option value="">All years</option>${years.map(y => `<option>${y}</option>`).join('')}</select></label></div>
-          <nav class="secnav">${P.sections.map(s => `<a href="#/pyq/${chId}" data-jump="s-${s.sec}"><b>§${s.sec}</b> ${esc(s.title)} <i>${s.questions.length}</i></a>`).join('')}</nav>
+            <span class="filters"><label>Exam <select id="examsel"><option value="">Both</option>${exams.map(([e]) => `<option>${esc(e)}</option>`).join('')}</select></label>
+            <label>Year <select id="yearsel"><option value="">All years</option>${years.map(y => `<option>${y}</option>`).join('')}</select></label></span></div>
+          <nav class="secnav">${P.sections.map(s => `<a href="#/pyq/${chId}" data-jump="s-${s.sec}" class="${s.sec === 'multi' ? 'multi' : ''}">${s.sec === 'multi' ? '<b>✱</b>' : `<b>§${s.sec.replace(/[a-d]$/, '')}</b>`} ${esc(s.title)} <i>${s.questions.length}</i></a>`).join('')}</nav>
         </section>
-        ${P.sections.map(s => `<section class="pyq-sec" id="s-${s.sec}"><h2><span>§${s.sec}</span> ${esc(s.title)}</h2>
-          <p class="sec-ref">NCERT ${s.pages.length > 1 ? `pp. ${s.pages[0]}–${s.pages[s.pages.length - 1]}` : `p. ${s.pages[0]}`} · <a href="${pdf(s.pages[0])}" target="_blank" rel="noopener">read in NCERT ↗</a></p>
-          ${s.questions.map(q => card(q, ++n)).join('')}</section>`).join('')}
+        ${P.sections.map(s => `<section class="pyq-sec${s.sec === 'multi' ? ' multi' : ''}" id="s-${s.sec}"><h2>${s.sec === 'multi' ? '<span>✱</span>' : `<span>§${s.sec.replace(/[a-d]$/, '')}</span>`} ${esc(s.title)}</h2>
+          ${s.sec === 'multi' ? `<p class="sec-ref">${esc(P.multiRule || '')}</p>` : `<p class="sec-ref">NCERT ${pages(s.pages)} · <a href="${pdf(s.pages[0])}" target="_blank" rel="noopener">read in NCERT ↗</a></p>`}
+          ${s.questions.map(q => card(q, ++n, s.sec === 'multi')).join('')}</section>`).join('')}
+        ${(P.empty || []).length ? `<section class="pyq-sec empty-paras"><h2>Not asked yet</h2><p class="sec-ref">No NEET or JEE Main question in these years tests these paragraphs on its own. Read them in NCERT; they can still be asked.</p>
+          <ul>${P.empty.map(p => `<li><a href="${pdf(p.pages[0])}" target="_blank" rel="noopener">§${esc(p.id.replace(/[a-d]$/, ''))} ${esc(p.title)}</a> <small>${pages(p.pages)}</small></li>`).join('')}</ul></section>` : ''}
         <p class="pyq-note">${esc(P.note)}</p>
       </main>${footer()}`;
 
-      app.querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); document.getElementById(a.dataset.jump).scrollIntoView({ behavior: 'smooth' }); }));
-      app.querySelector('#yearsel').addEventListener('change', e => {
-        const y = e.target.value;
-        app.querySelectorAll('.pyq').forEach(c => { c.hidden = !!y && c.dataset.year !== y; });
-        app.querySelectorAll('.pyq-sec').forEach(s => { s.hidden = ![...s.querySelectorAll('.pyq')].some(c => !c.hidden); });
-      });
+      app.querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); const t = document.getElementById(a.dataset.jump); if (t) t.scrollIntoView({ behavior: 'smooth' }); }));
+      const filter = () => {
+        const y = app.querySelector('#yearsel').value, ex = app.querySelector('#examsel').value;
+        app.querySelectorAll('.pyq').forEach(c => { c.hidden = (!!y && c.dataset.year !== y) || (!!ex && c.dataset.exam !== ex); });
+        app.querySelectorAll('.pyq-sec:not(.empty-paras)').forEach(s => { s.hidden = ![...s.querySelectorAll('.pyq')].some(c => !c.hidden); });
+      };
+      app.querySelector('#yearsel').addEventListener('change', filter);
+      app.querySelector('#examsel').addEventListener('change', filter);
       app.querySelectorAll('.pyq').forEach(c => {
         const q = all.find(x => x.id === c.id);
         const open = sel => { c.querySelector(sel).hidden = false; };
-        c.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => {
-          const k = +b.dataset.k, ok = k === q.a;
-          c.querySelectorAll('.opt').forEach(x => { const j = +x.dataset.k; x.disabled = true; if (j === q.a) x.classList.add('right'); else if (j === k) x.classList.add('wrong'); });
+        const record = ok => {
           if (progress[q.id] === undefined) { progress[q.id] = ok; saveProgress(); }
-          c.querySelector('.state').textContent = ok ? '✓' : '✗';
+          c.querySelector('.state').outerHTML = stateLabel(ok);
           c.querySelector('.ans-line').insertAdjacentHTML('afterbegin', `<span class="verdict ${ok ? 'ok' : 'no'}">${ok ? 'Correct.' : 'Not quite.'}</span> `);
           open('.answer'); open('.ncert');
           app.querySelector('#pyqstat').textContent = stat();
+        };
+        c.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => {
+          const k = +b.dataset.k;
+          c.querySelectorAll('.opt').forEach(x => { const j = +x.dataset.k; x.disabled = true; if (j === q.a) x.classList.add('right'); else if (j === k) x.classList.add('wrong'); });
+          record(k === q.a);
         }));
+        const f = c.querySelector('.numans');
+        if (f) f.addEventListener('submit', e => {
+          e.preventDefault();
+          const inp = f.querySelector('input'), v = parseFloat(inp.value.replace(',', '.'));
+          if (!isFinite(v)) { inp.focus(); return; }
+          const ok = Math.abs(v - q.ans) <= (q.tol != null ? q.tol : Math.max(0.01, Math.abs(q.ans) * 0.01));
+          inp.disabled = true; f.querySelector('button').disabled = true; f.classList.add(ok ? 'right' : 'wrong');
+          record(ok);
+        });
         c.querySelector('[data-act="hint"]').addEventListener('click', () => { open('.hint'); open('.ncert'); });
         c.querySelector('[data-act="ans"]').addEventListener('click', () => { c.querySelectorAll('.opt').forEach(x => { if (+x.dataset.k === q.a) x.classList.add('right'); }); open('.answer'); open('.ncert'); });
       });
