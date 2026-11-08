@@ -4,8 +4,8 @@
  "ref": "NCERT Chemistry Part I · Unit 1 · pp. 1–28",
  "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech101.pdf",
  "pdfPageOffset": 0,
- "years": "NEET 2017–2026 · JEE Main 2020–2026",
- "note": "Question text is taken from published copies of each paper (official NTA papers where available). Question numbers differ between booklet codes and shifts, so the exam, year and shift are shown instead. Every answer was worked out independently and compared with the published key.",
+ "years": "NEET 2017–2026 · JEE Main 2020–2026 · NCERT exercises & Exemplar",
+ "note": "PYQ text is taken from published copies of each paper (official NTA papers where available); question numbers differ between booklet codes and shifts, so the exam, year and shift are shown instead. NCERT Exercise and Exemplar questions are reworded in our own words. Every answer was worked out independently.",
  "multiRule": "A question is listed under Multiple concepts when it needs two or more NCERT paragraphs. Plain mole conversion is used almost everywhere and does not count as a second concept on its own.",
  "paragraphs": [
   {
@@ -16,10 +16,17 @@
    ]
   },
   {
-   "id": "1.2",
-   "title": "Nature of Matter",
+   "id": "1.2.1",
+   "title": "States of Matter",
    "pages": [
     4,
+    5
+   ]
+  },
+  {
+   "id": "1.2.2",
+   "title": "Classification of Matter",
+   "pages": [
     5,
     6
    ]
@@ -2579,6 +2586,565 @@
    "date": "2026-04-08",
    "when": "8 Apr 2026 · Shift 2",
    "srcRef": "2026-04-08-shift-2 Q52"
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.1",
+   "paras": [
+    "1.1"
+   ],
+   "q": "According to NCERT, which of the following drugs is used for helping AIDS patients?",
+   "o": [
+    "Cisplatin",
+    "Taxol",
+    "AZT (Azidothymidine)",
+    "Penicillin"
+   ],
+   "a": 2,
+   "sol": "<p>NCERT names cisplatin and taxol as drugs effective in <b>cancer therapy</b>, and <b>AZT (azidothymidine)</b> as the drug used for helping AIDS patients. Chemistry makes it possible both to isolate such drugs from natural sources and to synthesise them.</p>",
+   "hint": "Two of the options are cancer drugs named in the same NCERT paragraph.",
+   "ncert": [
+    {
+     "img": "importance-drugs",
+     "page": 4,
+     "label": "§1.1 · p. 4"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.2.1",
+   "paras": [
+    "1.2.1"
+   ],
+   "q": "Which state of matter has a definite volume but no definite shape?",
+   "o": [
+    "Solid",
+    "Liquid",
+    "Gas",
+    "Both solid and gas"
+   ],
+   "a": 1,
+   "sol": "<p>Solids: definite volume and definite shape. <b>Liquids: definite volume, no definite shape</b> (they take the shape of the container). Gases: neither definite volume nor definite shape.</p>",
+   "hint": "Think of water poured from a glass into a bottle.",
+   "ncert": [
+    {
+     "img": "states-of-matter",
+     "page": 4,
+     "label": "§1.2.1 · p. 4"
+    }
+   ]
+  },
+  {
+   "exam": "NCERT Exemplar",
+   "srcRef": "NCERT Exemplar Unit 1, Q12 (reworded)",
+   "paras": [
+    "1.2.2"
+   ],
+   "q": "Which of the following statements about a compound is incorrect?",
+   "o": [
+    "A molecule of a compound contains atoms of different elements.",
+    "A compound cannot be separated into its constituent elements by physical methods.",
+    "A compound keeps the physical properties of its constituent elements.",
+    "The elements in a compound are present in a fixed ratio."
+   ],
+   "a": 2,
+   "sol": "<p>A compound's properties are <b>different</b> from those of its elements: hydrogen and oxygen are gases (hydrogen burns, oxygen supports burning), but water is a liquid used to put out fires. The other three statements are true.</p>",
+   "hint": "Compare water with hydrogen and oxygen.",
+   "ncert": [
+    {
+     "img": "compound",
+     "page": 6,
+     "label": "§1.2.2 · p. 6"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.2.2",
+   "paras": [
+    "1.2.2"
+   ],
+   "q": "Which of the following is a heterogeneous mixture?",
+   "o": [
+    "Sugar solution",
+    "Air",
+    "A mixture of salt and sugar",
+    "Glucose"
+   ],
+   "a": 2,
+   "sol": "<p>In a heterogeneous mixture the composition is not uniform and components may be visible: NCERT's examples are salt + sugar, and grains and pulses with dirt. Sugar solution and air are <b>homogeneous</b> mixtures; glucose is a <b>pure substance</b> (fixed composition).</p>",
+   "hint": "Is the composition uniform throughout?",
+   "ncert": [
+    {
+     "img": "mixtures",
+     "page": 5,
+     "label": "§1.2.2 · p. 5"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.3.1",
+   "paras": [
+    "1.3.1"
+   ],
+   "q": "Which of the following is a chemical property of a substance?",
+   "o": [
+    "Melting point",
+    "Density",
+    "Odour",
+    "Combustibility"
+   ],
+   "a": 3,
+   "sol": "<p>Physical properties (colour, odour, melting point, boiling point, density) can be observed without changing the substance's identity. <b>Combustibility</b> can only be observed through a chemical change, so it is a chemical property (others: composition, reactivity with acids and bases).</p>",
+   "hint": "Which one needs a chemical reaction to observe?",
+   "ncert": [
+    {
+     "img": "physical-chemical",
+     "page": 6,
+     "label": "§1.3.1 · p. 6"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.3.2",
+   "paras": [
+    "1.3.2"
+   ],
+   "q": "The common standard system of measurement for the scientific community (the SI system) was established in the year",
+   "o": [
+    "1875",
+    "1889",
+    "1960",
+    "1961"
+   ],
+   "a": 2,
+   "sol": "<p>The English and Metric systems were used earlier; the metric system (France, late 18th century) was decimal-based. A common standard system was established in <b>1960</b>.</p><p>The other years are traps from the same chapter: 1875 (metre treaty), 1889 (kilogram standard), 1961 (carbon-12 adopted for atomic masses).</p>",
+   "hint": "SI was set up by the 11th CGPM.",
+   "ncert": [
+    {
+     "img": "measurement",
+     "page": 7,
+     "label": "§1.3.2 · p. 7"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT Table 1.1",
+   "paras": [
+    "1.3.3"
+   ],
+   "q": "Which one of the following is NOT an SI base unit?",
+   "o": [
+    "kelvin",
+    "mole",
+    "candela",
+    "litre"
+   ],
+   "a": 3,
+   "sol": "<p>The seven SI base units are metre, kilogram, second, ampere, kelvin, mole and candela (Table 1.1). The <b>litre</b> is a common unit of volume but NCERT notes it is not an SI unit (1 L = 1 dm³).</p>",
+   "hint": "Recall the seven quantities in Table 1.1.",
+   "ncert": [
+    {
+     "img": "si-base-units",
+     "page": 7,
+     "label": "§1.3.3 · p. 7"
+    },
+    {
+     "img": "volume-litre",
+     "page": 9,
+     "label": "§1.3.5 · p. 9"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.3.4",
+   "paras": [
+    "1.3.4"
+   ],
+   "q": "A 1 kg packet is taken from the Earth to the Moon. Which statement is correct?",
+   "o": [
+    "Its mass and weight both stay the same.",
+    "Its mass stays the same but its weight decreases.",
+    "Its mass decreases but its weight stays the same.",
+    "Both its mass and its weight decrease."
+   ],
+   "a": 1,
+   "sol": "<p>Mass is the amount of matter and does not change. Weight is the force of gravity on the object, so it changes with gravity: on the Moon (weaker gravity) the <b>weight decreases while the mass stays 1 kg</b>.</p>",
+   "hint": "Which one depends on gravity?",
+   "ncert": [
+    {
+     "img": "mass-weight",
+     "page": 9,
+     "label": "§1.3.4 · p. 9"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.3.5",
+   "paras": [
+    "1.3.5"
+   ],
+   "q": "1 dm<sup>3</sup> is equal to",
+   "o": [
+    "100 mL",
+    "1 L",
+    "10 L",
+    "1 cm<sup>3</sup>"
+   ],
+   "a": 1,
+   "sol": "<p>1 L = 1000 mL and 1000 cm³ = 1 dm³, so <b>1 dm³ = 1 L</b> (= 1000 cm³ = 1000 mL).</p>",
+   "hint": "1 dm = 10 cm, so 1 dm³ = 1000 cm³.",
+   "ncert": [
+    {
+     "img": "volume-litre",
+     "page": 9,
+     "label": "§1.3.5 · p. 9"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.3.6",
+   "paras": [
+    "1.3.6"
+   ],
+   "q": "The SI unit of density is",
+   "o": [
+    "g cm<sup>−3</sup>",
+    "kg m<sup>−3</sup>",
+    "kg L<sup>−1</sup>",
+    "g mL<sup>−1</sup>"
+   ],
+   "a": 1,
+   "sol": "<p>Density = mass ÷ volume. With SI units kg and m³, the SI unit is <b>kg m⁻³</b>. g cm⁻³ is often used in the laboratory, but it is not the SI unit.</p>",
+   "hint": "Use the SI base unit of mass and the SI unit of volume.",
+   "ncert": [
+    {
+     "img": "density",
+     "page": 10,
+     "label": "§1.3.6 · p. 10"
+    }
+   ]
+  },
+  {
+   "exam": "NCERT Exemplar",
+   "srcRef": "NCERT Exemplar Unit 1, Q2 (reworded)",
+   "paras": [
+    "1.3.7"
+   ],
+   "q": "A temperature measured as 200 °F on the Fahrenheit scale corresponds to about",
+   "o": [
+    "40 °C",
+    "94 °C",
+    "93.3 °C",
+    "30 °C"
+   ],
+   "a": 2,
+   "sol": "<p>°F = (9/5)(°C) + 32, so °C = (200 − 32) × 5/9 = 168 × 5/9 = <b>93.3 °C</b>.</p>",
+   "hint": "Subtract 32, then multiply by 5/9.",
+   "ncert": [
+    {
+     "img": "temperature",
+     "page": 10,
+     "label": "§1.3.7 · p. 10"
+    }
+   ]
+  },
+  {
+   "exam": "NCERT Exercise",
+   "srcRef": "NCERT Exercise 1.18 (reworded)",
+   "paras": [
+    "1.4.1"
+   ],
+   "q": "0.0048 expressed in scientific notation is",
+   "o": [
+    "48 × 10<sup>−4</sup>",
+    "4.8 × 10<sup>−3</sup>",
+    "0.48 × 10<sup>−2</sup>",
+    "4.8 × 10<sup>3</sup>"
+   ],
+   "a": 1,
+   "sol": "<p>Scientific notation is N × 10ⁿ with one non-zero digit before the decimal point. Moving the decimal 3 places right gives <b>4.8 × 10⁻³</b>. The first and third options are equal in value but not in standard form.</p>",
+   "hint": "Exactly one non-zero digit before the decimal point.",
+   "ncert": [
+    {
+     "img": "scientific-notation",
+     "page": 11,
+     "label": "§1.4.1 · p. 11"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.4.3 example",
+   "paras": [
+    "1.4.3"
+   ],
+   "q": "A piece of metal is 3 inch long. Using the unit factor method (1 in = 2.54 cm), its length is",
+   "o": [
+    "1.18 cm",
+    "7.62 cm",
+    "5.54 cm",
+    "0.762 cm"
+   ],
+   "a": 1,
+   "sol": "<p>The unit factor 2.54 cm / 1 in equals 1, so 3 in × (2.54 cm / 1 in) = <b>7.62 cm</b>. The 'in' units cancel, leaving cm.</p>",
+   "hint": "Multiply by a unit factor that cancels inches.",
+   "ncert": [
+    {
+     "img": "dimensional-analysis",
+     "page": 13,
+     "label": "§1.4.3 · p. 13"
+    }
+   ]
+  },
+  {
+   "exam": "NCERT Exemplar",
+   "srcRef": "NCERT Exemplar Unit 1, Q14 (reworded)",
+   "paras": [
+    "1.5.1"
+   ],
+   "q": "Which of the following equations, as written, does NOT obey the law of conservation of mass?",
+   "o": [
+    "2Mg(s) + O<sub>2</sub>(g) → 2MgO(s)",
+    "C<sub>3</sub>H<sub>8</sub>(g) + O<sub>2</sub>(g) → CO<sub>2</sub>(g) + H<sub>2</sub>O(g)",
+    "P<sub>4</sub>(s) + 5O<sub>2</sub>(g) → P<sub>4</sub>O<sub>10</sub>(s)",
+    "CH<sub>4</sub>(g) + 2O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2H<sub>2</sub>O(g)"
+   ],
+   "a": 1,
+   "sol": "<p>Matter is neither created nor destroyed, so every atom on the left must appear on the right. C₃H₈ + O₂ → CO₂ + H₂O is <b>unbalanced</b> (3 C and 8 H on the left, 1 C and 2 H on the right). The balanced form is C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.</p>",
+   "hint": "Count atoms of each element on both sides.",
+   "ncert": [
+    {
+     "img": "conservation-mass",
+     "page": 14,
+     "label": "§1.5.1 · p. 14"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.5.2",
+   "paras": [
+    "1.5.2"
+   ],
+   "q": "Natural and synthetic samples of cupric carbonate both contain 51.35% copper, 9.74% carbon and 38.91% oxygen. This observation supports the",
+   "o": [
+    "law of conservation of mass",
+    "law of definite proportions",
+    "law of multiple proportions",
+    "law of gaseous volumes"
+   ],
+   "a": 1,
+   "sol": "<p>Proust's result: irrespective of its source, a given compound always contains the same elements in the same proportion by mass. This is the <b>law of definite proportions</b> (also called the law of definite composition).</p>",
+   "hint": "Same compound, different sources, same composition.",
+   "ncert": [
+    {
+     "img": "definite-proportions",
+     "page": 15,
+     "label": "§1.5.2 · p. 15"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.5.3",
+   "paras": [
+    "1.5.3"
+   ],
+   "q": "In two oxides of nitrogen, 14 g of nitrogen combines with 16 g of oxygen in one and with 32 g of oxygen in the other. The 1 : 2 ratio of oxygen masses illustrates the",
+   "o": [
+    "law of definite proportions",
+    "law of multiple proportions",
+    "law of conservation of mass",
+    "Avogadro's law"
+   ],
+   "a": 1,
+   "sol": "<p>When two elements form more than one compound, the masses of one element combining with a fixed mass of the other are in a ratio of small whole numbers: 16 : 32 = 1 : 2. This is Dalton's <b>law of multiple proportions</b>.</p>",
+   "hint": "Fixed mass of one element, two different compounds.",
+   "ncert": [
+    {
+     "img": "multiple-proportions",
+     "page": 15,
+     "label": "§1.5.3 · p. 15"
+    }
+   ]
+  },
+  {
+   "exam": "NCERT Exemplar",
+   "srcRef": "NCERT Exemplar Unit 1, Q28 (reworded)",
+   "paras": [
+    "1.5.4"
+   ],
+   "q": "45.4 L of dinitrogen reacts with 22.7 L of dioxygen to give 45.4 L of nitrous oxide (2N<sub>2</sub> + O<sub>2</sub> → 2N<sub>2</sub>O), all volumes measured at the same temperature and pressure. Which law does this illustrate?",
+   "o": [
+    "Law of definite proportions",
+    "Gay Lussac's law of gaseous volumes",
+    "Law of conservation of mass",
+    "Law of multiple proportions"
+   ],
+   "a": 1,
+   "sol": "<p>The gas volumes are in the simple ratio 2 : 1 : 2 at the same temperature and pressure. That is <b>Gay Lussac's law of gaseous volumes</b>.</p>",
+   "hint": "All quantities are gas volumes in a simple ratio.",
+   "ncert": [
+    {
+     "img": "gay-lussac",
+     "page": 15,
+     "label": "§1.5.4 · p. 15"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.5.5",
+   "paras": [
+    "1.5.5"
+   ],
+   "q": "'Equal volumes of all gases at the same temperature and pressure contain equal numbers of molecules.' This was proposed by",
+   "o": [
+    "Dalton (1803)",
+    "Gay Lussac (1808)",
+    "Avogadro (1811)",
+    "Proust"
+   ],
+   "a": 2,
+   "sol": "<p>This is <b>Avogadro's law</b> (1811). Avogadro distinguished atoms from molecules; treating hydrogen and oxygen as diatomic explains why 2 volumes of H₂ and 1 volume of O₂ give 2 volumes of water vapour.</p>",
+   "hint": "The same scientist whose number is N<sub>A</sub>.",
+   "ncert": [
+    {
+     "img": "avogadro-law",
+     "page": 15,
+     "label": "§1.5.5 · p. 15"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.7.1",
+   "paras": [
+    "1.7.1"
+   ],
+   "q": "One atomic mass unit (amu) is defined as",
+   "o": [
+    "the mass of one hydrogen atom",
+    "one-twelfth of the mass of one carbon-12 atom",
+    "one-sixteenth of the mass of one oxygen-16 atom",
+    "the mass of one proton"
+   ],
+   "a": 1,
+   "sol": "<p>Since 1961 atomic masses are based on carbon-12, which is assigned exactly 12 amu. So <b>1 amu = 1/12 of the mass of one ¹²C atom</b>. (Hydrogen = 1 was the older, arbitrary standard.)</p>",
+   "hint": "The present standard was agreed upon in 1961.",
+   "ncert": [
+    {
+     "img": "amu",
+     "page": 16,
+     "label": "§1.7.1 · p. 16"
+    }
+   ]
+  },
+  {
+   "exam": "NCERT Exemplar",
+   "srcRef": "NCERT Exemplar Unit 1, Q30 (reworded as MCQ)",
+   "paras": [
+    "1.7.2"
+   ],
+   "q": "Hydrogen has two isotopes: <sup>1</sup>H (natural abundance 99.985%, molar mass 1 g mol<sup>−1</sup>) and <sup>2</sup>H (0.015%, 2 g mol<sup>−1</sup>). The average atomic mass of hydrogen is",
+   "o": [
+    "1.00015 u",
+    "1.5 u",
+    "1.015 u",
+    "2.0 u"
+   ],
+   "a": 0,
+   "sol": "<p>Average atomic mass = Σ(abundance × mass) ÷ 100 = (99.985 × 1 + 0.015 × 2) ÷ 100 = 100.015 ÷ 100 = <b>1.00015 u</b>.</p>",
+   "hint": "Weight each isotope's mass by its abundance.",
+   "trap": "1.5 u is the plain average of 1 and 2; abundances must be used.",
+   "ncert": [
+    {
+     "img": "average-atomic-mass",
+     "page": 17,
+     "label": "§1.7.2 · p. 17"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.7.3 example",
+   "paras": [
+    "1.7.3"
+   ],
+   "q": "Using atomic masses C = 12.011 u and H = 1.008 u, the molecular mass of methane (CH<sub>4</sub>) is",
+   "o": [
+    "13.019 u",
+    "16.043 u",
+    "16.000 u",
+    "28.054 u"
+   ],
+   "a": 1,
+   "sol": "<p>Molecular mass = sum of atomic masses of all atoms: 12.011 + 4 × 1.008 = <b>16.043 u</b>.</p>",
+   "hint": "Multiply each atomic mass by its number of atoms.",
+   "ncert": [
+    {
+     "img": "molecular-mass",
+     "page": 17,
+     "label": "§1.7.3 · p. 17"
+    }
+   ]
+  },
+  {
+   "exam": "Practice",
+   "srcRef": "Based on NCERT §1.7.4",
+   "paras": [
+    "1.7.4"
+   ],
+   "q": "For sodium chloride we calculate a formula mass instead of a molecular mass because",
+   "o": [
+    "sodium chloride is a gas at room temperature",
+    "solid NaCl has no discrete molecules; Na<sup>+</sup> and Cl<sup>−</sup> ions are arranged in a three-dimensional structure",
+    "sodium and chlorine have equal atomic masses",
+    "sodium chloride dissolves in water"
+   ],
+   "a": 1,
+   "sol": "<p>NaCl does not contain discrete molecules: in the solid, each Na⁺ is surrounded by six Cl⁻ and vice versa in a 3-D arrangement. The formula NaCl gives the ratio of ions, so we use <b>formula mass</b> (23.0 + 35.5 = 58.5 u).</p>",
+   "hint": "Is there a separate 'NaCl molecule' in the crystal?",
+   "ncert": [
+    {
+     "img": "formula-mass",
+     "page": 17,
+     "label": "§1.7.4 · p. 17"
+    }
+   ]
+  },
+  {
+   "exam": "NCERT Exercise",
+   "srcRef": "NCERT Problem 1.6 (reworded)",
+   "paras": [
+    "1.10.2a"
+   ],
+   "q": "2 g of a substance A is dissolved in 18 g of water. The mass per cent of A in the solution is",
+   "o": [
+    "11.1%",
+    "10%",
+    "20%",
+    "90%"
+   ],
+   "a": 1,
+   "sol": "<p>Mass per cent = mass of solute ÷ mass of <b>solution</b> × 100 = 2 ÷ (2 + 18) × 100 = <b>10%</b>.</p>",
+   "hint": "Divide by the mass of the solution, not the solvent.",
+   "trap": "2 ÷ 18 × 100 = 11.1% uses the solvent mass.",
+   "ncert": [
+    {
+     "img": "mass-percent",
+     "page": 23,
+     "label": "§1.10.2 · p. 23"
+    }
+   ]
   }
  ]
 }

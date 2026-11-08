@@ -6,7 +6,7 @@ Checks: unique node ids, every question has 4 options and a valid answer index.
 Also builds PYQ pages: content/pyq/<chapter>.json -> data/pyq/<chapter>.json
 (checks options/answers, that every NCERT excerpt image exists, and sections are in NCERT order).
 """
-import json, os, sys, glob
+import json, os, re, sys, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, "content")
@@ -65,14 +65,15 @@ def build_pyq(path):
     ch = doc["chapter"]
     img_dir = os.path.join(ROOT, "assets", "ncert", ch)
     order = {p["id"]: i for i, p in enumerate(doc["paragraphs"])}
-    exam_rank = {"NEET": 0, "JEE Main": 1}
+    exam_rank = {"NEET": 0, "JEE Main": 1, "NCERT Exercise": 2, "NCERT Exemplar": 3, "Practice": 4}
     groups = {p["id"]: [] for p in doc["paragraphs"]}
     multi = []
     for i, q in enumerate(doc["questions"]):
         tag = f"{ch} PYQ {q.get('exam')} {q.get('year')} {q.get('srcRef','')}"
         if q.get("exam") not in exam_rank:
-            sys.exit(f"{tag}: exam must be NEET or JEE Main")
-        for field in ("year", "q", "sol", "hint", "ncert", "paras"):
+            sys.exit(f"{tag}: exam must be one of {list(exam_rank)}")
+        need = ("year",) if q["exam"] in ("NEET", "JEE Main") else ()
+        for field in need + ("q", "sol", "hint", "ncert", "paras"):
             if not q.get(field):
                 sys.exit(f"{tag}: missing {field}")
         if q.get("type") == "num":
@@ -88,7 +89,7 @@ def build_pyq(path):
             if not os.path.exists(os.path.join(img_dir, x["img"] + ".webp")):
                 sys.exit(f"{tag}: missing excerpt image {x['img']}.webp")
         (multi if len(q["paras"]) > 1 or q.get("otherChapters") else groups[q["paras"][0]]).append(q)
-    sort_key = lambda q: (exam_rank[q["exam"]], str(q.get("date", q["year"])), q.get("srcRef", ""))
+    sort_key = lambda q: (exam_rank[q["exam"]], str(q.get("date", q.get("year", ""))), q.get("srcRef", ""))
     sections = []
     for p in doc["paragraphs"]:
         if groups[p["id"]]:
@@ -100,7 +101,7 @@ def build_pyq(path):
     for s in sections:
         for q in s["questions"]:
             n += 1
-            q["id"] = f"pyq-{ch}-{q['exam'].split()[0].lower()}-{q['year']}-{n}"
+            q["id"] = f"pyq-{ch}-{re.sub(r'[^a-z]+', '', q['exam'].lower())}-{q.get('year', 0)}-{n}"
     out = {k: v for k, v in doc.items() if k != "questions"}
     out["sections"] = sections
     out["counts"] = {e: sum(1 for q in doc["questions"] if q["exam"] == e) for e in exam_rank}

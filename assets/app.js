@@ -61,7 +61,7 @@
     const e = ch ? catEntry(ch.id) : {};
     const tabs = [];
     if (ch && (e.ready || mode === 'map' || mode === 'read')) tabs.push(`<a href="#/c/${ch.id}" class="${mode === 'map' ? 'on' : ''}">Tree</a>`, `<a href="#/c/${ch.id}/read" class="${mode === 'read' ? 'on' : ''}">Full synopsis</a>`);
-    if (ch && (e.pyq || mode === 'pyq')) tabs.push(`<a href="#/pyq/${ch.id}" class="${mode === 'pyq' ? 'on' : ''}">PYQs</a>`);
+    if (ch && (e.pyq || mode === 'pyq')) tabs.push(`<a href="#/pyq/${ch.id}" class="${mode === 'pyq' ? 'on' : ''}">MCQs</a>`);
     const seg = tabs.length > 1 ? `<div class="seg">${tabs.join('')}</div>` : '';
     return `<header class="topbar"><a class="brand" href="#/">NCERT<span>·</span>MindMap</a><div class="spacer"></div>${seg}</header>`;
   }
@@ -76,13 +76,13 @@
         <section class="hero"><h1>Every NCERT paragraph, mapped.</h1>
         <p>Pick a chapter and open its mind map. Go down layer by layer, from chapter to section to paragraph. Every node has a short synopsis in our own words and questions on exactly that part, with a link to the page in the official NCERT book.</p></section>
         ${(() => { const ready = []; cat.subjects.forEach(s => s.classes.forEach(c => c.chapters.forEach(ch => (ch.ready || ch.pyq) && ready.push({ s, c, ch }))));
-          return ready.length ? `<section class="subject"><h2>Ready now</h2><div class="chap-grid">${ready.map(({ s, c, ch }) => `<a class="chap ready" style="--sc:${colors[s.id]}" href="${ch.ready ? `#/c/${ch.id}` : `#/pyq/${ch.id}`}"><small>${esc(s.name)} · Class ${c.cls} · Ch ${ch.no}</small>${esc(ch.title)}<small>${[ch.ready ? `${ch.stats.nodes} nodes · ${ch.stats.questions} questions` : '', ch.pyq ? `${ch.pyq} NEET PYQs` : ''].filter(Boolean).join(' · ')}</small></a>`).join('')}</div></section>` : ''; })()}
+          return ready.length ? `<section class="subject"><h2>Ready now</h2><div class="chap-grid">${ready.map(({ s, c, ch }) => `<a class="chap ready" style="--sc:${colors[s.id]}" href="${ch.ready ? `#/c/${ch.id}` : `#/pyq/${ch.id}`}"><small>${esc(s.name)} · Class ${c.cls} · Ch ${ch.no}</small>${esc(ch.title)}<small>${[ch.ready ? `${ch.stats.nodes} nodes · ${ch.stats.questions} questions` : '', ch.pyq ? `${ch.pyq} MCQs (PYQs + NCERT)` : ''].filter(Boolean).join(' · ')}</small></a>`).join('')}</div></section>` : ''; })()}
         ${cat.subjects.map(s => `<section class="subject" style="--sc:${colors[s.id]}"><h2><span class="dot"></span>${esc(s.name)}</h2>
           ${s.classes.map(c => `<div class="cls-label">Class ${c.cls}</div><div class="chap-grid">
             ${c.chapters.map(ch => ch.ready
-              ? `<a class="chap ready" href="#/c/${ch.id}"><small>Ch ${ch.no} · ${ch.stats.nodes} nodes · ${ch.stats.questions} Qs${ch.pyq ? ` · ${ch.pyq} PYQs` : ''}</small>${esc(ch.title)}</a>`
+              ? `<a class="chap ready" href="#/c/${ch.id}"><small>Ch ${ch.no} · ${ch.stats.nodes} nodes · ${ch.stats.questions} Qs${ch.pyq ? ` · ${ch.pyq} MCQs` : ''}</small>${esc(ch.title)}</a>`
               : ch.pyq
-              ? `<a class="chap ready" href="#/pyq/${ch.id}"><small>Ch ${ch.no} · ${ch.pyq} NEET PYQs</small>${esc(ch.title)}</a>`
+              ? `<a class="chap ready" href="#/pyq/${ch.id}"><small>Ch ${ch.no} · ${ch.pyq} MCQs</small>${esc(ch.title)}</a>`
               : `<a class="chap soon"><small>Ch ${ch.no} · coming soon</small>${esc(ch.title)}</a>`).join('')}
           </div>`).join('')}</section>`).join('')}
       </main>${footer()}`;
@@ -330,7 +330,7 @@
       const ansText = q => q.type === 'num' ? `<b>Answer: ${q.ans}</b>${q.unit ? ' ' + q.unit : ''}` : `<b>Answer: (${q.a + 1})</b> ${q.o[q.a]}`;
       const excerpts = q => `<div class="excerpts">${q.ncert.map(x => `<figure class="excerpt"><img src="assets/ncert/${chId}/${x.img}.webp" alt="NCERT excerpt, ${esc(x.label)}" loading="lazy"><figcaption><span>NCERT Chemistry Part I · ${esc(x.label)}</span><a href="${pdf(x.page)}" target="_blank" rel="noopener">Open page ${x.page} ↗</a></figcaption></figure>`).join('')}</div>`;
       const card = (q, n, multi) => `<article class="pyq" id="${q.id}" data-year="${q.year}" data-exam="${esc(q.exam)}">
-          <div class="pyq-head"><span class="qn">Q${n}</span><span class="year ${q.exam === 'NEET' ? 'neet' : 'jee'}">${esc(q.exam)} ${q.year}</span>${q.when ? `<span class="when">${esc(q.when)}</span>` : ''}${q.type === 'num' ? '<span class="tag num">numerical</span>' : ''}${(q.otherChapters || []).length ? `<span class="tag" title="${esc(q.otherChapters.join(', '))}">+ other chapter</span>` : ''}${stateLabel(progress[q.id])}</div>
+          <div class="pyq-head"><span class="qn">Q${n}</span><span class="year ${({ 'NEET': 'neet', 'JEE Main': 'jee', 'NCERT Exercise': 'ncert', 'NCERT Exemplar': 'exemplar', 'Practice': 'practice' })[q.exam] || ''}">${esc(q.exam)}${q.year ? ' ' + q.year : ''}</span>${q.when ? `<span class="when">${esc(q.when)}</span>` : (!q.year && q.srcRef ? `<span class="when">${esc(q.srcRef)}</span>` : '')}${q.type === 'num' ? '<span class="tag num">numerical</span>' : ''}${(q.otherChapters || []).length ? `<span class="tag" title="${esc(q.otherChapters.join(', '))}">+ other chapter</span>` : ''}${stateLabel(progress[q.id])}</div>
           ${multi ? `<div class="paras">${q.paras.map(id => `<a href="#/pyq/${chId}" data-jump="s-${id}" class="para">§${id.replace(/[a-d]$/, '')} ${esc(paraTitle[id] || '')}</a>`).join('')}${(q.otherChapters || []).map(c => `<span class="para other">${esc(c)}</span>`).join('')}</div>` : ''}
           <div class="qtext">${q.q}</div>
           ${q.type === 'num'
@@ -350,9 +350,9 @@
       let n = 0;
       const exams = Object.entries(P.counts || {}).filter(([, c]) => c);
       app.innerHTML = topbar({ id: chId }, 'pyq') + `<main class="pyq-page">
-        <section class="pyq-intro"><p class="kicker">Previous-year questions · arranged in NCERT order</p><h1>${esc(P.title)}</h1>
+        <section class="pyq-intro"><p class="kicker">NCERT in MCQs · every paragraph, in book order</p><h1>${esc(P.title)}</h1>
           <p class="ref">${esc(P.ref)} · ${all.length} questions (${exams.map(([e, c]) => `${c} ${esc(e)}`).join(', ')}) from ${esc(P.years)}</p>
-          <p class="muted">Questions follow the NCERT paragraphs in book order; NEET questions come first in each paragraph. Questions that need more than one paragraph are collected under <b>Multiple concepts</b> at the end. Try each question first: <b>Hint + NCERT</b> shows the textbook lines it is built on, <b>Show answer</b> gives the worked solution.</p>
+          <p class="muted">Every NCERT paragraph of this chapter has at least one question. Where NEET or JEE Main has asked about a paragraph, those previous-year questions come first; paragraphs not asked yet get one or two questions from NCERT exercises, NCERT Exemplar or our own practice set, so no part of the book is skipped. Questions needing more than one paragraph are under <b>Multiple concepts</b> at the end. Try each question first: <b>Hint + NCERT</b> shows the textbook lines it is built on, <b>Show answer</b> gives the worked solution.</p>
           <div class="pyq-tools"><span class="stat" id="pyqstat">${stat()}</span>
             <span class="filters"><label>Exam <select id="examsel"><option value="">Both</option>${exams.map(([e]) => `<option>${esc(e)}</option>`).join('')}</select></label>
             <label>Year <select id="yearsel"><option value="">All years</option>${years.map(y => `<option>${y}</option>`).join('')}</select></label></span></div>

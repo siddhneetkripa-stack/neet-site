@@ -43,7 +43,11 @@ tools/build.py             merges content → data, validates ids/questions, tag
 
 ## PYQ pages (content/pyq/<chapter>.json → route #/pyq/<chapter>)
 - File has `paragraphs` (ordered NCERT paragraph list: `id` like "1.4.2" or "1.10.2c", `title`, `pages`) and `questions`.
-- Each question: `exam` ("NEET" | "JEE Main"), `year`, `srcRef` (paper/shift it was read from), `paras` (paragraph ids it tests),
+- Goal: **every NCERT paragraph has at least one question** (the page is "NCERT in MCQs"). PYQs first; for paragraphs never asked,
+  add 1–2 questions (2 only if they test different things) from NCERT exercises → NCERT Exemplar → our own (`exam`: "NCERT Exercise" |
+  "NCERT Exemplar" | "Practice", `srcRef` names the exercise/question; reword in our own words; no `year`). Don't add more than needed —
+  the question's job is to bring that NCERT paragraph onto the page.
+- Each question: `exam` ("NEET" | "JEE Main" | the three above), `year` (PYQs only), `srcRef` (paper/shift it was read from), `paras` (paragraph ids it tests),
   `q`, `sol` (our own worked solution, HTML), `hint`, optional `trap`, `check` (only if compared with a published key),
   `otherChapters` (e.g. "Class 12 · Solutions"), `ncert` (excerpts `{img, page, label}`). JEE also has `date` and `when`.
   MCQ: `o` (4 options, original order) + `a`. Numerical: `type: "num"`, `ans`, optional `tol`.

@@ -4,8 +4,8 @@
  "ref": "NCERT Chemistry Part I · Unit 1 · pp. 1–28",
  "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech101.pdf",
  "pdfPageOffset": 0,
- "years": "NEET 2017–2026 · JEE Main 2020–2026",
- "note": "Question text is taken from published copies of each paper (official NTA papers where available). Question numbers differ between booklet codes and shifts, so the exam, year and shift are shown instead. Every answer was worked out independently and compared with the published key.",
+ "years": "NEET 2017–2026 · JEE Main 2020–2026 · NCERT exercises & Exemplar",
+ "note": "PYQ text is taken from published copies of each paper (official NTA papers where available); question numbers differ between booklet codes and shifts, so the exam, year and shift are shown instead. NCERT Exercise and Exemplar questions are reworded in our own words. Every answer was worked out independently.",
  "multiRule": "A question is listed under Multiple concepts when it needs two or more NCERT paragraphs. Plain mole conversion is used almost everywhere and does not count as a second concept on its own.",
  "paragraphs": [
   {
@@ -16,10 +16,17 @@
    ]
   },
   {
-   "id": "1.2",
-   "title": "Nature of Matter",
+   "id": "1.2.1",
+   "title": "States of Matter",
    "pages": [
     4,
+    5
+   ]
+  },
+  {
+   "id": "1.2.2",
+   "title": "Classification of Matter",
+   "pages": [
     5,
     6
    ]
@@ -237,6 +244,414 @@
  ],
  "sections": [
   {
+   "sec": "1.1",
+   "title": "Importance of Chemistry",
+   "pages": [
+    4
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.1",
+     "paras": [
+      "1.1"
+     ],
+     "q": "According to NCERT, which of the following drugs is used for helping AIDS patients?",
+     "o": [
+      "Cisplatin",
+      "Taxol",
+      "AZT (Azidothymidine)",
+      "Penicillin"
+     ],
+     "a": 2,
+     "sol": "<p>NCERT names cisplatin and taxol as drugs effective in <b>cancer therapy</b>, and <b>AZT (azidothymidine)</b> as the drug used for helping AIDS patients. Chemistry makes it possible both to isolate such drugs from natural sources and to synthesise them.</p>",
+     "hint": "Two of the options are cancer drugs named in the same NCERT paragraph.",
+     "ncert": [
+      {
+       "img": "importance-drugs",
+       "page": 4,
+       "label": "§1.1 · p. 4"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-1"
+    }
+   ]
+  },
+  {
+   "sec": "1.2.1",
+   "title": "States of Matter",
+   "pages": [
+    4,
+    5
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.2.1",
+     "paras": [
+      "1.2.1"
+     ],
+     "q": "Which state of matter has a definite volume but no definite shape?",
+     "o": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Both solid and gas"
+     ],
+     "a": 1,
+     "sol": "<p>Solids: definite volume and definite shape. <b>Liquids: definite volume, no definite shape</b> (they take the shape of the container). Gases: neither definite volume nor definite shape.</p>",
+     "hint": "Think of water poured from a glass into a bottle.",
+     "ncert": [
+      {
+       "img": "states-of-matter",
+       "page": 4,
+       "label": "§1.2.1 · p. 4"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-2"
+    }
+   ]
+  },
+  {
+   "sec": "1.2.2",
+   "title": "Classification of Matter",
+   "pages": [
+    5,
+    6
+   ],
+   "questions": [
+    {
+     "exam": "NCERT Exemplar",
+     "srcRef": "NCERT Exemplar Unit 1, Q12 (reworded)",
+     "paras": [
+      "1.2.2"
+     ],
+     "q": "Which of the following statements about a compound is incorrect?",
+     "o": [
+      "A molecule of a compound contains atoms of different elements.",
+      "A compound cannot be separated into its constituent elements by physical methods.",
+      "A compound keeps the physical properties of its constituent elements.",
+      "The elements in a compound are present in a fixed ratio."
+     ],
+     "a": 2,
+     "sol": "<p>A compound's properties are <b>different</b> from those of its elements: hydrogen and oxygen are gases (hydrogen burns, oxygen supports burning), but water is a liquid used to put out fires. The other three statements are true.</p>",
+     "hint": "Compare water with hydrogen and oxygen.",
+     "ncert": [
+      {
+       "img": "compound",
+       "page": 6,
+       "label": "§1.2.2 · p. 6"
+      }
+     ],
+     "id": "pyq-chem11-01-ncertexemplar-0-3"
+    },
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.2.2",
+     "paras": [
+      "1.2.2"
+     ],
+     "q": "Which of the following is a heterogeneous mixture?",
+     "o": [
+      "Sugar solution",
+      "Air",
+      "A mixture of salt and sugar",
+      "Glucose"
+     ],
+     "a": 2,
+     "sol": "<p>In a heterogeneous mixture the composition is not uniform and components may be visible: NCERT's examples are salt + sugar, and grains and pulses with dirt. Sugar solution and air are <b>homogeneous</b> mixtures; glucose is a <b>pure substance</b> (fixed composition).</p>",
+     "hint": "Is the composition uniform throughout?",
+     "ncert": [
+      {
+       "img": "mixtures",
+       "page": 5,
+       "label": "§1.2.2 · p. 5"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-4"
+    }
+   ]
+  },
+  {
+   "sec": "1.3.1",
+   "title": "Physical and Chemical Properties",
+   "pages": [
+    6
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.3.1",
+     "paras": [
+      "1.3.1"
+     ],
+     "q": "Which of the following is a chemical property of a substance?",
+     "o": [
+      "Melting point",
+      "Density",
+      "Odour",
+      "Combustibility"
+     ],
+     "a": 3,
+     "sol": "<p>Physical properties (colour, odour, melting point, boiling point, density) can be observed without changing the substance's identity. <b>Combustibility</b> can only be observed through a chemical change, so it is a chemical property (others: composition, reactivity with acids and bases).</p>",
+     "hint": "Which one needs a chemical reaction to observe?",
+     "ncert": [
+      {
+       "img": "physical-chemical",
+       "page": 6,
+       "label": "§1.3.1 · p. 6"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-5"
+    }
+   ]
+  },
+  {
+   "sec": "1.3.2",
+   "title": "Measurement of Physical Properties",
+   "pages": [
+    7
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.3.2",
+     "paras": [
+      "1.3.2"
+     ],
+     "q": "The common standard system of measurement for the scientific community (the SI system) was established in the year",
+     "o": [
+      "1875",
+      "1889",
+      "1960",
+      "1961"
+     ],
+     "a": 2,
+     "sol": "<p>The English and Metric systems were used earlier; the metric system (France, late 18th century) was decimal-based. A common standard system was established in <b>1960</b>.</p><p>The other years are traps from the same chapter: 1875 (metre treaty), 1889 (kilogram standard), 1961 (carbon-12 adopted for atomic masses).</p>",
+     "hint": "SI was set up by the 11th CGPM.",
+     "ncert": [
+      {
+       "img": "measurement",
+       "page": 7,
+       "label": "§1.3.2 · p. 7"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-6"
+    }
+   ]
+  },
+  {
+   "sec": "1.3.3",
+   "title": "The International System of Units (SI)",
+   "pages": [
+    7,
+    8
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT Table 1.1",
+     "paras": [
+      "1.3.3"
+     ],
+     "q": "Which one of the following is NOT an SI base unit?",
+     "o": [
+      "kelvin",
+      "mole",
+      "candela",
+      "litre"
+     ],
+     "a": 3,
+     "sol": "<p>The seven SI base units are metre, kilogram, second, ampere, kelvin, mole and candela (Table 1.1). The <b>litre</b> is a common unit of volume but NCERT notes it is not an SI unit (1 L = 1 dm³).</p>",
+     "hint": "Recall the seven quantities in Table 1.1.",
+     "ncert": [
+      {
+       "img": "si-base-units",
+       "page": 7,
+       "label": "§1.3.3 · p. 7"
+      },
+      {
+       "img": "volume-litre",
+       "page": 9,
+       "label": "§1.3.5 · p. 9"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-7"
+    }
+   ]
+  },
+  {
+   "sec": "1.3.4",
+   "title": "Mass and Weight",
+   "pages": [
+    9
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.3.4",
+     "paras": [
+      "1.3.4"
+     ],
+     "q": "A 1 kg packet is taken from the Earth to the Moon. Which statement is correct?",
+     "o": [
+      "Its mass and weight both stay the same.",
+      "Its mass stays the same but its weight decreases.",
+      "Its mass decreases but its weight stays the same.",
+      "Both its mass and its weight decrease."
+     ],
+     "a": 1,
+     "sol": "<p>Mass is the amount of matter and does not change. Weight is the force of gravity on the object, so it changes with gravity: on the Moon (weaker gravity) the <b>weight decreases while the mass stays 1 kg</b>.</p>",
+     "hint": "Which one depends on gravity?",
+     "ncert": [
+      {
+       "img": "mass-weight",
+       "page": 9,
+       "label": "§1.3.4 · p. 9"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-8"
+    }
+   ]
+  },
+  {
+   "sec": "1.3.5",
+   "title": "Volume",
+   "pages": [
+    9
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.3.5",
+     "paras": [
+      "1.3.5"
+     ],
+     "q": "1 dm<sup>3</sup> is equal to",
+     "o": [
+      "100 mL",
+      "1 L",
+      "10 L",
+      "1 cm<sup>3</sup>"
+     ],
+     "a": 1,
+     "sol": "<p>1 L = 1000 mL and 1000 cm³ = 1 dm³, so <b>1 dm³ = 1 L</b> (= 1000 cm³ = 1000 mL).</p>",
+     "hint": "1 dm = 10 cm, so 1 dm³ = 1000 cm³.",
+     "ncert": [
+      {
+       "img": "volume-litre",
+       "page": 9,
+       "label": "§1.3.5 · p. 9"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-9"
+    }
+   ]
+  },
+  {
+   "sec": "1.3.6",
+   "title": "Density",
+   "pages": [
+    10
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.3.6",
+     "paras": [
+      "1.3.6"
+     ],
+     "q": "The SI unit of density is",
+     "o": [
+      "g cm<sup>−3</sup>",
+      "kg m<sup>−3</sup>",
+      "kg L<sup>−1</sup>",
+      "g mL<sup>−1</sup>"
+     ],
+     "a": 1,
+     "sol": "<p>Density = mass ÷ volume. With SI units kg and m³, the SI unit is <b>kg m⁻³</b>. g cm⁻³ is often used in the laboratory, but it is not the SI unit.</p>",
+     "hint": "Use the SI base unit of mass and the SI unit of volume.",
+     "ncert": [
+      {
+       "img": "density",
+       "page": 10,
+       "label": "§1.3.6 · p. 10"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-10"
+    }
+   ]
+  },
+  {
+   "sec": "1.3.7",
+   "title": "Temperature",
+   "pages": [
+    10,
+    11
+   ],
+   "questions": [
+    {
+     "exam": "NCERT Exemplar",
+     "srcRef": "NCERT Exemplar Unit 1, Q2 (reworded)",
+     "paras": [
+      "1.3.7"
+     ],
+     "q": "A temperature measured as 200 °F on the Fahrenheit scale corresponds to about",
+     "o": [
+      "40 °C",
+      "94 °C",
+      "93.3 °C",
+      "30 °C"
+     ],
+     "a": 2,
+     "sol": "<p>°F = (9/5)(°C) + 32, so °C = (200 − 32) × 5/9 = 168 × 5/9 = <b>93.3 °C</b>.</p>",
+     "hint": "Subtract 32, then multiply by 5/9.",
+     "ncert": [
+      {
+       "img": "temperature",
+       "page": 10,
+       "label": "§1.3.7 · p. 10"
+      }
+     ],
+     "id": "pyq-chem11-01-ncertexemplar-0-11"
+    }
+   ]
+  },
+  {
+   "sec": "1.4.1",
+   "title": "Scientific Notation",
+   "pages": [
+    11
+   ],
+   "questions": [
+    {
+     "exam": "NCERT Exercise",
+     "srcRef": "NCERT Exercise 1.18 (reworded)",
+     "paras": [
+      "1.4.1"
+     ],
+     "q": "0.0048 expressed in scientific notation is",
+     "o": [
+      "48 × 10<sup>−4</sup>",
+      "4.8 × 10<sup>−3</sup>",
+      "0.48 × 10<sup>−2</sup>",
+      "4.8 × 10<sup>3</sup>"
+     ],
+     "a": 1,
+     "sol": "<p>Scientific notation is N × 10ⁿ with one non-zero digit before the decimal point. Moving the decimal 3 places right gives <b>4.8 × 10⁻³</b>. The first and third options are equal in value but not in standard form.</p>",
+     "hint": "Exactly one non-zero digit before the decimal point.",
+     "ncert": [
+      {
+       "img": "scientific-notation",
+       "page": 11,
+       "label": "§1.4.1 · p. 11"
+      }
+     ],
+     "id": "pyq-chem11-01-ncertexercise-0-12"
+    }
+   ]
+  },
+  {
    "sec": "1.4.2",
    "title": "Significant Figures",
    "pages": [
@@ -266,7 +681,7 @@
      "when": "25 Jul 2021 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-07-25-shift-2",
-     "id": "pyq-chem11-01-jee-2021-1"
+     "id": "pyq-chem11-01-jeemain-2021-13"
     },
     {
      "paras": [
@@ -295,7 +710,7 @@
      "when": "29 Jun 2022 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-06-29-shift-2 Q1",
-     "id": "pyq-chem11-01-jee-2022-2"
+     "id": "pyq-chem11-01-jeemain-2022-14"
     },
     {
      "paras": [
@@ -324,7 +739,212 @@
      "when": "8 Apr 2023 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-04-08-shift-2 Q71",
-     "id": "pyq-chem11-01-jee-2023-3"
+     "id": "pyq-chem11-01-jeemain-2023-15"
+    }
+   ]
+  },
+  {
+   "sec": "1.4.3",
+   "title": "Dimensional Analysis",
+   "pages": [
+    13
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.4.3 example",
+     "paras": [
+      "1.4.3"
+     ],
+     "q": "A piece of metal is 3 inch long. Using the unit factor method (1 in = 2.54 cm), its length is",
+     "o": [
+      "1.18 cm",
+      "7.62 cm",
+      "5.54 cm",
+      "0.762 cm"
+     ],
+     "a": 1,
+     "sol": "<p>The unit factor 2.54 cm / 1 in equals 1, so 3 in × (2.54 cm / 1 in) = <b>7.62 cm</b>. The 'in' units cancel, leaving cm.</p>",
+     "hint": "Multiply by a unit factor that cancels inches.",
+     "ncert": [
+      {
+       "img": "dimensional-analysis",
+       "page": 13,
+       "label": "§1.4.3 · p. 13"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-16"
+    }
+   ]
+  },
+  {
+   "sec": "1.5.1",
+   "title": "Law of Conservation of Mass",
+   "pages": [
+    14
+   ],
+   "questions": [
+    {
+     "exam": "NCERT Exemplar",
+     "srcRef": "NCERT Exemplar Unit 1, Q14 (reworded)",
+     "paras": [
+      "1.5.1"
+     ],
+     "q": "Which of the following equations, as written, does NOT obey the law of conservation of mass?",
+     "o": [
+      "2Mg(s) + O<sub>2</sub>(g) → 2MgO(s)",
+      "C<sub>3</sub>H<sub>8</sub>(g) + O<sub>2</sub>(g) → CO<sub>2</sub>(g) + H<sub>2</sub>O(g)",
+      "P<sub>4</sub>(s) + 5O<sub>2</sub>(g) → P<sub>4</sub>O<sub>10</sub>(s)",
+      "CH<sub>4</sub>(g) + 2O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2H<sub>2</sub>O(g)"
+     ],
+     "a": 1,
+     "sol": "<p>Matter is neither created nor destroyed, so every atom on the left must appear on the right. C₃H₈ + O₂ → CO₂ + H₂O is <b>unbalanced</b> (3 C and 8 H on the left, 1 C and 2 H on the right). The balanced form is C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.</p>",
+     "hint": "Count atoms of each element on both sides.",
+     "ncert": [
+      {
+       "img": "conservation-mass",
+       "page": 14,
+       "label": "§1.5.1 · p. 14"
+      }
+     ],
+     "id": "pyq-chem11-01-ncertexemplar-0-17"
+    }
+   ]
+  },
+  {
+   "sec": "1.5.2",
+   "title": "Law of Definite Proportions",
+   "pages": [
+    15
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.5.2",
+     "paras": [
+      "1.5.2"
+     ],
+     "q": "Natural and synthetic samples of cupric carbonate both contain 51.35% copper, 9.74% carbon and 38.91% oxygen. This observation supports the",
+     "o": [
+      "law of conservation of mass",
+      "law of definite proportions",
+      "law of multiple proportions",
+      "law of gaseous volumes"
+     ],
+     "a": 1,
+     "sol": "<p>Proust's result: irrespective of its source, a given compound always contains the same elements in the same proportion by mass. This is the <b>law of definite proportions</b> (also called the law of definite composition).</p>",
+     "hint": "Same compound, different sources, same composition.",
+     "ncert": [
+      {
+       "img": "definite-proportions",
+       "page": 15,
+       "label": "§1.5.2 · p. 15"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-18"
+    }
+   ]
+  },
+  {
+   "sec": "1.5.3",
+   "title": "Law of Multiple Proportions",
+   "pages": [
+    15
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.5.3",
+     "paras": [
+      "1.5.3"
+     ],
+     "q": "In two oxides of nitrogen, 14 g of nitrogen combines with 16 g of oxygen in one and with 32 g of oxygen in the other. The 1 : 2 ratio of oxygen masses illustrates the",
+     "o": [
+      "law of definite proportions",
+      "law of multiple proportions",
+      "law of conservation of mass",
+      "Avogadro's law"
+     ],
+     "a": 1,
+     "sol": "<p>When two elements form more than one compound, the masses of one element combining with a fixed mass of the other are in a ratio of small whole numbers: 16 : 32 = 1 : 2. This is Dalton's <b>law of multiple proportions</b>.</p>",
+     "hint": "Fixed mass of one element, two different compounds.",
+     "ncert": [
+      {
+       "img": "multiple-proportions",
+       "page": 15,
+       "label": "§1.5.3 · p. 15"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-19"
+    }
+   ]
+  },
+  {
+   "sec": "1.5.4",
+   "title": "Gay Lussac's Law of Gaseous Volumes",
+   "pages": [
+    15
+   ],
+   "questions": [
+    {
+     "exam": "NCERT Exemplar",
+     "srcRef": "NCERT Exemplar Unit 1, Q28 (reworded)",
+     "paras": [
+      "1.5.4"
+     ],
+     "q": "45.4 L of dinitrogen reacts with 22.7 L of dioxygen to give 45.4 L of nitrous oxide (2N<sub>2</sub> + O<sub>2</sub> → 2N<sub>2</sub>O), all volumes measured at the same temperature and pressure. Which law does this illustrate?",
+     "o": [
+      "Law of definite proportions",
+      "Gay Lussac's law of gaseous volumes",
+      "Law of conservation of mass",
+      "Law of multiple proportions"
+     ],
+     "a": 1,
+     "sol": "<p>The gas volumes are in the simple ratio 2 : 1 : 2 at the same temperature and pressure. That is <b>Gay Lussac's law of gaseous volumes</b>.</p>",
+     "hint": "All quantities are gas volumes in a simple ratio.",
+     "ncert": [
+      {
+       "img": "gay-lussac",
+       "page": 15,
+       "label": "§1.5.4 · p. 15"
+      }
+     ],
+     "id": "pyq-chem11-01-ncertexemplar-0-20"
+    }
+   ]
+  },
+  {
+   "sec": "1.5.5",
+   "title": "Avogadro's Law",
+   "pages": [
+    15,
+    16
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.5.5",
+     "paras": [
+      "1.5.5"
+     ],
+     "q": "'Equal volumes of all gases at the same temperature and pressure contain equal numbers of molecules.' This was proposed by",
+     "o": [
+      "Dalton (1803)",
+      "Gay Lussac (1808)",
+      "Avogadro (1811)",
+      "Proust"
+     ],
+     "a": 2,
+     "sol": "<p>This is <b>Avogadro's law</b> (1811). Avogadro distinguished atoms from molecules; treating hydrogen and oxygen as diatomic explains why 2 volumes of H₂ and 1 volume of O₂ give 2 volumes of water vapour.</p>",
+     "hint": "The same scientist whose number is N<sub>A</sub>.",
+     "ncert": [
+      {
+       "img": "avogadro-law",
+       "page": 15,
+       "label": "§1.5.5 · p. 15"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-21"
     }
    ]
   },
@@ -359,7 +979,144 @@
      "paras": [
       "1.6"
      ],
-     "id": "pyq-chem11-01-neet-2025-4"
+     "id": "pyq-chem11-01-neet-2025-22"
+    }
+   ]
+  },
+  {
+   "sec": "1.7.1",
+   "title": "Atomic Mass",
+   "pages": [
+    16
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.7.1",
+     "paras": [
+      "1.7.1"
+     ],
+     "q": "One atomic mass unit (amu) is defined as",
+     "o": [
+      "the mass of one hydrogen atom",
+      "one-twelfth of the mass of one carbon-12 atom",
+      "one-sixteenth of the mass of one oxygen-16 atom",
+      "the mass of one proton"
+     ],
+     "a": 1,
+     "sol": "<p>Since 1961 atomic masses are based on carbon-12, which is assigned exactly 12 amu. So <b>1 amu = 1/12 of the mass of one ¹²C atom</b>. (Hydrogen = 1 was the older, arbitrary standard.)</p>",
+     "hint": "The present standard was agreed upon in 1961.",
+     "ncert": [
+      {
+       "img": "amu",
+       "page": 16,
+       "label": "§1.7.1 · p. 16"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-23"
+    }
+   ]
+  },
+  {
+   "sec": "1.7.2",
+   "title": "Average Atomic Mass",
+   "pages": [
+    17
+   ],
+   "questions": [
+    {
+     "exam": "NCERT Exemplar",
+     "srcRef": "NCERT Exemplar Unit 1, Q30 (reworded as MCQ)",
+     "paras": [
+      "1.7.2"
+     ],
+     "q": "Hydrogen has two isotopes: <sup>1</sup>H (natural abundance 99.985%, molar mass 1 g mol<sup>−1</sup>) and <sup>2</sup>H (0.015%, 2 g mol<sup>−1</sup>). The average atomic mass of hydrogen is",
+     "o": [
+      "1.00015 u",
+      "1.5 u",
+      "1.015 u",
+      "2.0 u"
+     ],
+     "a": 0,
+     "sol": "<p>Average atomic mass = Σ(abundance × mass) ÷ 100 = (99.985 × 1 + 0.015 × 2) ÷ 100 = 100.015 ÷ 100 = <b>1.00015 u</b>.</p>",
+     "hint": "Weight each isotope's mass by its abundance.",
+     "trap": "1.5 u is the plain average of 1 and 2; abundances must be used.",
+     "ncert": [
+      {
+       "img": "average-atomic-mass",
+       "page": 17,
+       "label": "§1.7.2 · p. 17"
+      }
+     ],
+     "id": "pyq-chem11-01-ncertexemplar-0-24"
+    }
+   ]
+  },
+  {
+   "sec": "1.7.3",
+   "title": "Molecular Mass",
+   "pages": [
+    17
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.7.3 example",
+     "paras": [
+      "1.7.3"
+     ],
+     "q": "Using atomic masses C = 12.011 u and H = 1.008 u, the molecular mass of methane (CH<sub>4</sub>) is",
+     "o": [
+      "13.019 u",
+      "16.043 u",
+      "16.000 u",
+      "28.054 u"
+     ],
+     "a": 1,
+     "sol": "<p>Molecular mass = sum of atomic masses of all atoms: 12.011 + 4 × 1.008 = <b>16.043 u</b>.</p>",
+     "hint": "Multiply each atomic mass by its number of atoms.",
+     "ncert": [
+      {
+       "img": "molecular-mass",
+       "page": 17,
+       "label": "§1.7.3 · p. 17"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-25"
+    }
+   ]
+  },
+  {
+   "sec": "1.7.4",
+   "title": "Formula Mass",
+   "pages": [
+    17
+   ],
+   "questions": [
+    {
+     "exam": "Practice",
+     "srcRef": "Based on NCERT §1.7.4",
+     "paras": [
+      "1.7.4"
+     ],
+     "q": "For sodium chloride we calculate a formula mass instead of a molecular mass because",
+     "o": [
+      "sodium chloride is a gas at room temperature",
+      "solid NaCl has no discrete molecules; Na<sup>+</sup> and Cl<sup>−</sup> ions are arranged in a three-dimensional structure",
+      "sodium and chlorine have equal atomic masses",
+      "sodium chloride dissolves in water"
+     ],
+     "a": 1,
+     "sol": "<p>NaCl does not contain discrete molecules: in the solid, each Na⁺ is surrounded by six Cl⁻ and vice versa in a 3-D arrangement. The formula NaCl gives the ratio of ions, so we use <b>formula mass</b> (23.0 + 35.5 = 58.5 u).</p>",
+     "hint": "Is there a separate 'NaCl molecule' in the crystal?",
+     "ncert": [
+      {
+       "img": "formula-mass",
+       "page": 17,
+       "label": "§1.7.4 · p. 17"
+      }
+     ],
+     "id": "pyq-chem11-01-practice-0-26"
     }
    ]
   },
@@ -400,7 +1157,7 @@
      "paras": [
       "1.8"
      ],
-     "id": "pyq-chem11-01-neet-2018-5"
+     "id": "pyq-chem11-01-neet-2018-27"
     },
     {
      "year": 2020,
@@ -426,7 +1183,7 @@
      "paras": [
       "1.8"
      ],
-     "id": "pyq-chem11-01-neet-2020-6"
+     "id": "pyq-chem11-01-neet-2020-28"
     },
     {
      "year": 2024,
@@ -457,7 +1214,7 @@
      "paras": [
       "1.8"
      ],
-     "id": "pyq-chem11-01-neet-2024-7"
+     "id": "pyq-chem11-01-neet-2024-29"
     },
     {
      "year": 2025,
@@ -483,7 +1240,7 @@
      "paras": [
       "1.8"
      ],
-     "id": "pyq-chem11-01-neet-2025-8"
+     "id": "pyq-chem11-01-neet-2025-30"
     },
     {
      "year": 2026,
@@ -510,7 +1267,7 @@
      "paras": [
       "1.8"
      ],
-     "id": "pyq-chem11-01-neet-2026-9"
+     "id": "pyq-chem11-01-neet-2026-31"
     },
     {
      "type": "num",
@@ -541,7 +1298,7 @@
      "when": "17 Mar 2021 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-03-17-shift-2",
-     "id": "pyq-chem11-01-jee-2021-10"
+     "id": "pyq-chem11-01-jeemain-2021-32"
     },
     {
      "type": "num",
@@ -566,7 +1323,7 @@
      "when": "25 Jun 2022 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-06-25-shift-1 Q41",
-     "id": "pyq-chem11-01-jee-2022-11"
+     "id": "pyq-chem11-01-jeemain-2022-33"
     },
     {
      "paras": [
@@ -600,7 +1357,7 @@
      "when": "10 Apr 2023 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-04-10-shift-1 Q79",
-     "id": "pyq-chem11-01-jee-2023-12"
+     "id": "pyq-chem11-01-jeemain-2023-34"
     }
    ]
   },
@@ -636,7 +1393,7 @@
      "when": "9 Jan 2020 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2020-01-09-shift-1 Q25",
-     "id": "pyq-chem11-01-jee-2020-13"
+     "id": "pyq-chem11-01-jeemain-2020-35"
     },
     {
      "paras": [
@@ -670,7 +1427,7 @@
      "when": "26 Jul 2022 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-07-26-shift-2 Q1",
-     "id": "pyq-chem11-01-jee-2022-14"
+     "id": "pyq-chem11-01-jeemain-2022-36"
     }
    ]
   },
@@ -707,7 +1464,7 @@
      "paras": [
       "1.9.1"
      ],
-     "id": "pyq-chem11-01-neet-2021-15"
+     "id": "pyq-chem11-01-neet-2021-37"
     },
     {
      "year": 2024,
@@ -733,7 +1490,7 @@
      "paras": [
       "1.9.1"
      ],
-     "id": "pyq-chem11-01-neet-2024-16"
+     "id": "pyq-chem11-01-neet-2024-38"
     },
     {
      "type": "num",
@@ -758,7 +1515,7 @@
      "when": "25 Jan 2023 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-01-25-shift-2 Q56",
-     "id": "pyq-chem11-01-jee-2023-17"
+     "id": "pyq-chem11-01-jeemain-2023-39"
     },
     {
      "paras": [
@@ -792,7 +1549,7 @@
      "when": "12 Apr 2023 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-04-12-shift-1 Q69",
-     "id": "pyq-chem11-01-jee-2023-18"
+     "id": "pyq-chem11-01-jeemain-2023-40"
     },
     {
      "paras": [
@@ -821,7 +1578,7 @@
      "date": "2025-01-24",
      "when": "24 Jan 2025 · Shift 2",
      "srcRef": "2025-01-24-shift-2 Q7",
-     "id": "pyq-chem11-01-jee-2025-19"
+     "id": "pyq-chem11-01-jeemain-2025-41"
     },
     {
      "type": "num",
@@ -846,7 +1603,7 @@
      "date": "2025-01-28",
      "when": "28 Jan 2025 · Shift 1",
      "srcRef": "2025-01-28-shift-1 Q24",
-     "id": "pyq-chem11-01-jee-2025-20"
+     "id": "pyq-chem11-01-jeemain-2025-42"
     }
    ]
   },
@@ -882,7 +1639,7 @@
      "paras": [
       "1.10"
      ],
-     "id": "pyq-chem11-01-neet-2018-21"
+     "id": "pyq-chem11-01-neet-2018-43"
     },
     {
      "year": 2019,
@@ -908,7 +1665,7 @@
      "paras": [
       "1.10"
      ],
-     "id": "pyq-chem11-01-neet-2019-22"
+     "id": "pyq-chem11-01-neet-2019-44"
     },
     {
      "year": 2026,
@@ -934,7 +1691,7 @@
      "paras": [
       "1.10"
      ],
-     "id": "pyq-chem11-01-neet-2026-23"
+     "id": "pyq-chem11-01-neet-2026-45"
     },
     {
      "paras": [
@@ -963,7 +1720,7 @@
      "when": "9 Jan 2020 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2020-01-09-shift-2 Q1",
-     "id": "pyq-chem11-01-jee-2020-24"
+     "id": "pyq-chem11-01-jeemain-2020-46"
     },
     {
      "type": "num",
@@ -988,7 +1745,7 @@
      "when": "5 Sep 2020 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2020-09-05-shift-1 Q21",
-     "id": "pyq-chem11-01-jee-2020-25"
+     "id": "pyq-chem11-01-jeemain-2020-47"
     },
     {
      "type": "num",
@@ -1013,7 +1770,7 @@
      "when": "18 Mar 2021 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-03-18-shift-1",
-     "id": "pyq-chem11-01-jee-2021-26"
+     "id": "pyq-chem11-01-jeemain-2021-48"
     },
     {
      "type": "num",
@@ -1038,7 +1795,7 @@
      "when": "18 Mar 2021 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-03-18-shift-2",
-     "id": "pyq-chem11-01-jee-2021-27"
+     "id": "pyq-chem11-01-jeemain-2021-49"
     },
     {
      "type": "num",
@@ -1063,7 +1820,7 @@
      "when": "26 Jun 2022 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-06-26-shift-2 Q58",
-     "id": "pyq-chem11-01-jee-2022-28"
+     "id": "pyq-chem11-01-jeemain-2022-50"
     },
     {
      "paras": [
@@ -1092,7 +1849,7 @@
      "when": "25 Jul 2022 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-07-25-shift-1 Q1",
-     "id": "pyq-chem11-01-jee-2022-29"
+     "id": "pyq-chem11-01-jeemain-2022-51"
     },
     {
      "type": "num",
@@ -1122,7 +1879,7 @@
      "when": "25 Jul 2022 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-07-25-shift-2 Q41",
-     "id": "pyq-chem11-01-jee-2022-30"
+     "id": "pyq-chem11-01-jeemain-2022-52"
     },
     {
      "type": "num",
@@ -1147,7 +1904,7 @@
      "when": "31 Jan 2023 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-01-31-shift-1",
-     "id": "pyq-chem11-01-jee-2023-31"
+     "id": "pyq-chem11-01-jeemain-2023-53"
     },
     {
      "type": "num",
@@ -1172,7 +1929,7 @@
      "date": "2024-01-31",
      "when": "31 Jan 2024 · Shift 1",
      "srcRef": "2024-01-31-shift-1 Q20",
-     "id": "pyq-chem11-01-jee-2024-32"
+     "id": "pyq-chem11-01-jeemain-2024-54"
     }
    ]
   },
@@ -1212,7 +1969,7 @@
      "when": "26 Jun 2022 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-06-26-shift-2",
-     "id": "pyq-chem11-01-jee-2022-33"
+     "id": "pyq-chem11-01-jeemain-2022-55"
     },
     {
      "paras": [
@@ -1246,7 +2003,7 @@
      "when": "29 Jun 2022 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-06-29-shift-1",
-     "id": "pyq-chem11-01-jee-2022-34"
+     "id": "pyq-chem11-01-jeemain-2022-56"
     },
     {
      "type": "num",
@@ -1276,7 +2033,7 @@
      "when": "28 Jul 2022 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-07-28-shift-1",
-     "id": "pyq-chem11-01-jee-2022-35"
+     "id": "pyq-chem11-01-jeemain-2022-57"
     },
     {
      "paras": [
@@ -1310,7 +2067,7 @@
      "when": "29 Jul 2022 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-07-29-shift-1 Q2",
-     "id": "pyq-chem11-01-jee-2022-36"
+     "id": "pyq-chem11-01-jeemain-2022-58"
     },
     {
      "type": "num",
@@ -1340,7 +2097,7 @@
      "when": "31 Jan 2023 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-01-31-shift-2",
-     "id": "pyq-chem11-01-jee-2023-37"
+     "id": "pyq-chem11-01-jeemain-2023-59"
     },
     {
      "paras": [
@@ -1374,7 +2131,7 @@
      "date": "2025-01-24",
      "when": "24 Jan 2025 · Shift 1",
      "srcRef": "2025-01-24-shift-1 Q15",
-     "id": "pyq-chem11-01-jee-2025-38"
+     "id": "pyq-chem11-01-jeemain-2025-60"
     },
     {
      "paras": [
@@ -1408,7 +2165,42 @@
      "date": "2026-01-22",
      "when": "22 Jan 2026 · Shift 2",
      "srcRef": "2026-01-22-shift-2 Q58",
-     "id": "pyq-chem11-01-jee-2026-39"
+     "id": "pyq-chem11-01-jeemain-2026-61"
+    }
+   ]
+  },
+  {
+   "sec": "1.10.2a",
+   "title": "Reactions in Solutions: Mass per cent",
+   "pages": [
+    23
+   ],
+   "questions": [
+    {
+     "exam": "NCERT Exercise",
+     "srcRef": "NCERT Problem 1.6 (reworded)",
+     "paras": [
+      "1.10.2a"
+     ],
+     "q": "2 g of a substance A is dissolved in 18 g of water. The mass per cent of A in the solution is",
+     "o": [
+      "11.1%",
+      "10%",
+      "20%",
+      "90%"
+     ],
+     "a": 1,
+     "sol": "<p>Mass per cent = mass of solute ÷ mass of <b>solution</b> × 100 = 2 ÷ (2 + 18) × 100 = <b>10%</b>.</p>",
+     "hint": "Divide by the mass of the solution, not the solvent.",
+     "trap": "2 ÷ 18 × 100 = 11.1% uses the solvent mass.",
+     "ncert": [
+      {
+       "img": "mass-percent",
+       "page": 23,
+       "label": "§1.10.2 · p. 23"
+      }
+     ],
+     "id": "pyq-chem11-01-ncertexercise-0-62"
     }
    ]
   },
@@ -1446,7 +2238,7 @@
      "date": "2024-01-30",
      "when": "30 Jan 2024 · Shift 2",
      "srcRef": "2024-01-30-shift-2",
-     "id": "pyq-chem11-01-jee-2024-40"
+     "id": "pyq-chem11-01-jeemain-2024-63"
     }
    ]
   },
@@ -1488,7 +2280,7 @@
      "paras": [
       "1.10.2c"
      ],
-     "id": "pyq-chem11-01-neet-2017-41"
+     "id": "pyq-chem11-01-neet-2017-64"
     },
     {
      "type": "num",
@@ -1513,7 +2305,7 @@
      "when": "26 Jul 2022 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-07-26-shift-1 Q43",
-     "id": "pyq-chem11-01-jee-2022-42"
+     "id": "pyq-chem11-01-jeemain-2022-65"
     },
     {
      "paras": [
@@ -1542,7 +2334,7 @@
      "date": "2024-01-27",
      "when": "27 Jan 2024 · Shift 2",
      "srcRef": "2024-01-27-shift-2 Q2",
-     "id": "pyq-chem11-01-jee-2024-43"
+     "id": "pyq-chem11-01-jeemain-2024-66"
     },
     {
      "paras": [
@@ -1571,7 +2363,7 @@
      "date": "2025-01-22",
      "when": "22 Jan 2025 · Shift 2",
      "srcRef": "2025-01-22-shift-2 Q10",
-     "id": "pyq-chem11-01-jee-2025-44"
+     "id": "pyq-chem11-01-jeemain-2025-67"
     }
    ]
   },
@@ -1607,7 +2399,7 @@
      "paras": [
       "1.10.2d"
      ],
-     "id": "pyq-chem11-01-neet-2022-45"
+     "id": "pyq-chem11-01-neet-2022-68"
     },
     {
      "paras": [
@@ -1641,7 +2433,7 @@
      "when": "27 Jun 2022 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-06-27-shift-1",
-     "id": "pyq-chem11-01-jee-2022-46"
+     "id": "pyq-chem11-01-jeemain-2022-69"
     }
    ]
   },
@@ -1679,7 +2471,7 @@
      "date": "2024-01-30",
      "when": "30 Jan 2024 · Shift 1",
      "srcRef": "2024-01-30-shift-1 Q25",
-     "id": "pyq-chem11-01-jee-2024-47"
+     "id": "pyq-chem11-01-jeemain-2024-70"
     },
     {
      "type": "num",
@@ -1710,7 +2502,7 @@
      "when": "1 Feb 2023 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-02-01-shift-2 Q56",
-     "id": "pyq-chem11-01-jee-2023-48"
+     "id": "pyq-chem11-01-jeemain-2023-71"
     },
     {
      "paras": [
@@ -1745,7 +2537,7 @@
      "date": "2026-01-21",
      "when": "21 Jan 2026 · Shift 1",
      "srcRef": "2026-01-21-shift-1 Q63",
-     "id": "pyq-chem11-01-jee-2026-49"
+     "id": "pyq-chem11-01-jeemain-2026-72"
     },
     {
      "type": "num",
@@ -1776,7 +2568,7 @@
      "when": "3 Sep 2020 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2020-09-03-shift-2 Q22",
-     "id": "pyq-chem11-01-jee-2020-50"
+     "id": "pyq-chem11-01-jeemain-2020-73"
     },
     {
      "year": 2023,
@@ -1809,7 +2601,7 @@
       "1.9",
       "1.10"
      ],
-     "id": "pyq-chem11-01-neet-2023-51"
+     "id": "pyq-chem11-01-neet-2023-74"
     },
     {
      "year": 2022,
@@ -1843,7 +2635,7 @@
       "1.10",
       "1.10.2c"
      ],
-     "id": "pyq-chem11-01-neet-2022-52"
+     "id": "pyq-chem11-01-neet-2022-75"
     },
     {
      "type": "num",
@@ -1874,7 +2666,7 @@
      "when": "2 Sep 2020 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2020-09-02-shift-2 Q25",
-     "id": "pyq-chem11-01-jee-2020-53"
+     "id": "pyq-chem11-01-jeemain-2020-76"
     },
     {
      "type": "num",
@@ -1902,7 +2694,7 @@
      "when": "18 Mar 2021 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-03-18-shift-1",
-     "id": "pyq-chem11-01-jee-2021-54"
+     "id": "pyq-chem11-01-jeemain-2021-77"
     },
     {
      "type": "num",
@@ -1930,7 +2722,7 @@
      "when": "25 Jan 2023 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-01-25-shift-2 Q54",
-     "id": "pyq-chem11-01-jee-2023-55"
+     "id": "pyq-chem11-01-jeemain-2023-78"
     },
     {
      "paras": [
@@ -1965,7 +2757,7 @@
      "date": "2026-01-21",
      "when": "21 Jan 2026 · Shift 1",
      "srcRef": "2026-01-21-shift-1 Q62",
-     "id": "pyq-chem11-01-jee-2026-56"
+     "id": "pyq-chem11-01-jeemain-2026-79"
     },
     {
      "type": "num",
@@ -1996,7 +2788,7 @@
      "when": "25 Feb 2021 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-02-25-shift-2 Q7",
-     "id": "pyq-chem11-01-jee-2021-57"
+     "id": "pyq-chem11-01-jeemain-2021-80"
     },
     {
      "type": "num",
@@ -2027,7 +2819,7 @@
      "when": "18 Mar 2021 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-03-18-shift-2",
-     "id": "pyq-chem11-01-jee-2021-58"
+     "id": "pyq-chem11-01-jeemain-2021-81"
     },
     {
      "type": "num",
@@ -2058,7 +2850,7 @@
      "when": "29 Jan 2023 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-01-29-shift-2 Q60",
-     "id": "pyq-chem11-01-jee-2023-59"
+     "id": "pyq-chem11-01-jeemain-2023-82"
     },
     {
      "type": "num",
@@ -2089,7 +2881,7 @@
      "when": "27 Aug 2021 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-08-27-shift-2 Q4",
-     "id": "pyq-chem11-01-jee-2021-60"
+     "id": "pyq-chem11-01-jeemain-2021-83"
     },
     {
      "year": 2024,
@@ -2126,7 +2918,7 @@
       "1.10.1",
       "1.10.2c"
      ],
-     "id": "pyq-chem11-01-neet-2024-61"
+     "id": "pyq-chem11-01-neet-2024-84"
     },
     {
      "type": "num",
@@ -2157,7 +2949,7 @@
      "when": "20 Jul 2021 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-07-20-shift-1",
-     "id": "pyq-chem11-01-jee-2021-62"
+     "id": "pyq-chem11-01-jeemain-2021-85"
     },
     {
      "type": "num",
@@ -2188,7 +2980,7 @@
      "when": "28 Jul 2022 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-07-28-shift-2",
-     "id": "pyq-chem11-01-jee-2022-63"
+     "id": "pyq-chem11-01-jeemain-2022-86"
     },
     {
      "type": "num",
@@ -2219,7 +3011,7 @@
      "when": "3 Sep 2020 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2020-09-03-shift-1",
-     "id": "pyq-chem11-01-jee-2020-64"
+     "id": "pyq-chem11-01-jeemain-2020-87"
     },
     {
      "paras": [
@@ -2254,7 +3046,7 @@
      "date": "2026-01-22",
      "when": "22 Jan 2026 · Shift 2",
      "srcRef": "2026-01-22-shift-2 Q63",
-     "id": "pyq-chem11-01-jee-2026-65"
+     "id": "pyq-chem11-01-jeemain-2026-88"
     },
     {
      "paras": [
@@ -2289,7 +3081,7 @@
      "date": "2026-04-05",
      "when": "5 Apr 2026 · Shift 1",
      "srcRef": "2026-04-05-shift-1 Q54",
-     "id": "pyq-chem11-01-jee-2026-66"
+     "id": "pyq-chem11-01-jeemain-2026-89"
     },
     {
      "paras": [
@@ -2327,7 +3119,7 @@
      "date": "2026-04-08",
      "when": "8 Apr 2026 · Shift 2",
      "srcRef": "2026-04-08-shift-2 Q52",
-     "id": "pyq-chem11-01-jee-2026-67"
+     "id": "pyq-chem11-01-jeemain-2026-90"
     },
     {
      "type": "num",
@@ -2358,7 +3150,7 @@
      "when": "9 Jan 2020 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2020-01-09-shift-1 Q21",
-     "id": "pyq-chem11-01-jee-2020-68"
+     "id": "pyq-chem11-01-jeemain-2020-91"
     },
     {
      "paras": [
@@ -2393,7 +3185,7 @@
      "when": "26 Jun 2022 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2022-06-26-shift-1 Q1",
-     "id": "pyq-chem11-01-jee-2022-69"
+     "id": "pyq-chem11-01-jeemain-2022-92"
     },
     {
      "type": "num",
@@ -2424,7 +3216,7 @@
      "date": "2024-01-29",
      "when": "29 Jan 2024 · Shift 1",
      "srcRef": "2024-01-29-shift-1 Q21",
-     "id": "pyq-chem11-01-jee-2024-70"
+     "id": "pyq-chem11-01-jeemain-2024-93"
     },
     {
      "type": "num",
@@ -2455,7 +3247,7 @@
      "date": "2025-01-28",
      "when": "28 Jan 2025 · Shift 1",
      "srcRef": "2025-01-28-shift-1 Q22",
-     "id": "pyq-chem11-01-jee-2025-71"
+     "id": "pyq-chem11-01-jeemain-2025-94"
     },
     {
      "paras": [
@@ -2490,7 +3282,7 @@
      "when": "6 Sep 2020 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2020-09-06-shift-1 Q2",
-     "id": "pyq-chem11-01-jee-2020-72"
+     "id": "pyq-chem11-01-jeemain-2020-95"
     },
     {
      "year": 2026,
@@ -2532,7 +3324,7 @@
      "otherChapters": [
       "Class 12 · Solutions"
      ],
-     "id": "pyq-chem11-01-neet-2026-73"
+     "id": "pyq-chem11-01-neet-2026-96"
     },
     {
      "type": "num",
@@ -2563,7 +3355,7 @@
      "when": "17 Mar 2021 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-03-17-shift-1",
-     "id": "pyq-chem11-01-jee-2021-74"
+     "id": "pyq-chem11-01-jeemain-2021-97"
     },
     {
      "type": "num",
@@ -2594,7 +3386,7 @@
      "when": "16 Mar 2021 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-03-16-shift-1",
-     "id": "pyq-chem11-01-jee-2021-75"
+     "id": "pyq-chem11-01-jeemain-2021-98"
     },
     {
      "type": "num",
@@ -2625,7 +3417,7 @@
      "when": "26 Aug 2021 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2021-08-26-shift-1 Q10",
-     "id": "pyq-chem11-01-jee-2021-76"
+     "id": "pyq-chem11-01-jeemain-2021-99"
     },
     {
      "paras": [
@@ -2660,7 +3452,7 @@
      "when": "25 Jan 2023 · Shift 2",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-01-25-shift-2 Q35",
-     "id": "pyq-chem11-01-jee-2023-77"
+     "id": "pyq-chem11-01-jeemain-2023-100"
     },
     {
      "type": "num",
@@ -2691,7 +3483,7 @@
      "when": "1 Feb 2023 · Shift 1",
      "check": "Matches the official NTA answer",
      "srcRef": "2023-02-01-shift-1 Q51",
-     "id": "pyq-chem11-01-jee-2023-78"
+     "id": "pyq-chem11-01-jeemain-2023-101"
     },
     {
      "type": "num",
@@ -2722,7 +3514,7 @@
      "date": "2024-01-29",
      "when": "29 Jan 2024 · Shift 2",
      "srcRef": "2024-01-29-shift-2",
-     "id": "pyq-chem11-01-jee-2024-79"
+     "id": "pyq-chem11-01-jeemain-2024-102"
     },
     {
      "paras": [
@@ -2757,146 +3549,17 @@
      "date": "2025-01-22",
      "when": "22 Jan 2025 · Shift 2",
      "srcRef": "2025-01-22-shift-2 Q2",
-     "id": "pyq-chem11-01-jee-2025-80"
+     "id": "pyq-chem11-01-jeemain-2025-103"
     }
    ]
   }
  ],
  "counts": {
   "NEET": 17,
-  "JEE Main": 63
+  "JEE Main": 63,
+  "NCERT Exercise": 2,
+  "NCERT Exemplar": 5,
+  "Practice": 16
  },
- "empty": [
-  {
-   "id": "1.1",
-   "title": "Importance of Chemistry",
-   "pages": [
-    4
-   ]
-  },
-  {
-   "id": "1.2",
-   "title": "Nature of Matter",
-   "pages": [
-    4,
-    5,
-    6
-   ]
-  },
-  {
-   "id": "1.3.1",
-   "title": "Physical and Chemical Properties",
-   "pages": [
-    6
-   ]
-  },
-  {
-   "id": "1.3.2",
-   "title": "Measurement of Physical Properties",
-   "pages": [
-    7
-   ]
-  },
-  {
-   "id": "1.3.3",
-   "title": "The International System of Units (SI)",
-   "pages": [
-    7,
-    8
-   ]
-  },
-  {
-   "id": "1.3.4",
-   "title": "Mass and Weight",
-   "pages": [
-    9
-   ]
-  },
-  {
-   "id": "1.3.5",
-   "title": "Volume",
-   "pages": [
-    9
-   ]
-  },
-  {
-   "id": "1.3.7",
-   "title": "Temperature",
-   "pages": [
-    10,
-    11
-   ]
-  },
-  {
-   "id": "1.4.1",
-   "title": "Scientific Notation",
-   "pages": [
-    11
-   ]
-  },
-  {
-   "id": "1.4.3",
-   "title": "Dimensional Analysis",
-   "pages": [
-    13
-   ]
-  },
-  {
-   "id": "1.5.1",
-   "title": "Law of Conservation of Mass",
-   "pages": [
-    14
-   ]
-  },
-  {
-   "id": "1.5.2",
-   "title": "Law of Definite Proportions",
-   "pages": [
-    15
-   ]
-  },
-  {
-   "id": "1.5.3",
-   "title": "Law of Multiple Proportions",
-   "pages": [
-    15
-   ]
-  },
-  {
-   "id": "1.5.5",
-   "title": "Avogadro's Law",
-   "pages": [
-    15,
-    16
-   ]
-  },
-  {
-   "id": "1.7.1",
-   "title": "Atomic Mass",
-   "pages": [
-    16
-   ]
-  },
-  {
-   "id": "1.7.2",
-   "title": "Average Atomic Mass",
-   "pages": [
-    17
-   ]
-  },
-  {
-   "id": "1.7.3",
-   "title": "Molecular Mass",
-   "pages": [
-    17
-   ]
-  },
-  {
-   "id": "1.7.4",
-   "title": "Formula Mass",
-   "pages": [
-    17
-   ]
-  }
- ]
+ "empty": []
 }
