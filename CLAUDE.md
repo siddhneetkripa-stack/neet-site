@@ -61,6 +61,19 @@ tools/build.py             merges content → data, validates ids/questions, tag
 - Paper sources and keys: `neet-sources/neet-papers/index.json`, `neet-sources/jee-main/index.json`.
   Extraction tools: `neet-sources/scripts/pyq-tools/`.
 
+## Biology chapters: required features (owner's decision, Nov 2026)
+When building any Biology chapter (Class 11 or 12), these are part of the definition of done, not optional extras:
+1. **Recent-trend markers.** Each NCERT paragraph shows how often it was asked and when last asked
+   (e.g. "asked 6× · last 2025"), and paragraphs asked in the **last 3 NEET years** get a visible "recent" flag.
+   Compute these in `tools/build.py` from the questions' `exam`/`year` (PYQs only; NCERT/Exemplar/Practice don't count),
+   so the markers update automatically when papers are added.
+2. **Personal weak-paragraph list.** Track answers per paragraph in the browser (same `progress` store, keyed by
+   question id → paragraph via `paras`). Show a "Revise these paragraphs" list of paragraphs with wrong or
+   unattempted questions, each linking to its section, and let the student retry only those questions.
+   Works without login; storage may be unavailable, so the page must still work without it.
+Build these into the shared PYQ/MCQ page code so they also appear on Chemistry/Physics pages, but they must be
+in place before any Biology chapter is published.
+
 ## Adding a chapter
 1. Put the NCERT PDF in `neet-sources` (private).
 2. Create `content/<subject><class>-<slug>/chapter.json` (copy the thermodynamics one; set `ncertPdf` and `pdfPageOffset` = first printed page − 1).
