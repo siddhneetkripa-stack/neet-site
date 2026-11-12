@@ -1,0 +1,112 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem11-old-states-of-matter",
+ "subject": "chemistry",
+ "class": 11,
+ "unit": 5,
+ "title": {
+  "en": "States of Matter"
+ },
+ "ncert_status": "old_ncert_only",
+ "syllabus_status": "dropped_2024",
+ "oldNcert": "Old NCERT Class 11 Part I Unit 5 States of Matter",
+ "note": "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+ "paragraphs": [],
+ "questions": [
+  {
+   "id": "chem11-old-states-of-matter-neet-2023-topic-wise-copy-q7",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Intermolecular forces are forces of attraction and repulsion between interacting particles that will include:<br>A. dipole-dipole forces.<br>B. dipole - induced dipole forces,<br>C. hydrogen bonding.<br>D. covalent bonding.<br>E. dispersion forces.<br>Choose the most appropriate answer from the options given below:",
+     "o": [
+      "A, C, D, E are correct.",
+      "B, C, D, E are correct.",
+      "A, B, C, D are correct.",
+      "A, B, C, E are correct."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-old-states-of-matter",
+    "paras": [],
+    "otherChapters": [
+     "Class 11 · Chemical Bonding (hydrogen bonding)"
+    ],
+    "oldRef": "Old NCERT 11 Unit 5 · Intermolecular forces"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q7",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer given in the topic-wise solved copy: (d); matches our solving",
+    "keySource": "Answers in the topic-wise solved copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources yet; question numbers are the copy's, not the booklet's."
+   }
+  },
+  {
+   "id": "chem11-old-states-of-matter-neet-2023-topic-wise-copy-q8",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which amongst the following options is correct graphical representation of Boyle's Law?",
+     "o": [
+      "P vs T straight lines for V<sub>1</sub> &lt; V<sub>2</sub> &lt; V<sub>3</sub> (as drawn)",
+      "P vs V hyperbolas for T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub> (as drawn)",
+      "P vs 1/V straight lines through the origin, T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub> (steepest line at highest T)",
+      "P vs 1/V curves for T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub> (as drawn)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-old-states-of-matter",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Unit 5 · Boyle's law (isotherms)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q8",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer given in the topic-wise solved copy: (c); matches our solving",
+    "keySource": "Answers in the topic-wise solved copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources yet; question numbers are the copy's, not the booklet's.",
+    "note": "Options are graphs; needs redrawn figures. Labels in the copy's graphs should be checked against the official paper."
+   }
+  }
+ ]
+}

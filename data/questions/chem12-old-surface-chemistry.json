@@ -1,0 +1,109 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-old-surface-chemistry",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 5,
+ "title": {
+  "en": "Surface Chemistry"
+ },
+ "ncert_status": "old_ncert_only",
+ "syllabus_status": "dropped_2024",
+ "oldNcert": "Old NCERT Class 12 Part I Unit 5 Surface Chemistry",
+ "note": "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+ "paragraphs": [],
+ "questions": [
+  {
+   "id": "chem12-old-surface-chemistry-neet-2023-topic-wise-copy-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one is an example of heterogenous catalysis?",
+     "o": [
+      "Combination between dinitrogen and dihydrogen to form ammonia in the presence of finely divided iron.",
+      "Oxidation of sulphur dioxide into sulphur trioxide in the presence of oxides of nitrogen.",
+      "Hydrolysis of sugar catalysed by H<sup>+</sup> ions.",
+      "Decomposition of ozone in presence of nitrogen monoxide."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-old-surface-chemistry",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 5 · Homogeneous and heterogeneous catalysis"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q23",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer given in the topic-wise solved copy: (a); matches our solving",
+    "keySource": "Answers in the topic-wise solved copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources yet; question numbers are the copy's, not the booklet's."
+   }
+  },
+  {
+   "id": "chem12-old-surface-chemistry-neet-2023-topic-wise-copy-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Pumic stone is an example of:",
+     "o": [
+      "foam",
+      "sol",
+      "gel",
+      "solid sol"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-old-surface-chemistry",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 5 · Classification of colloids (Table 5.4)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q42",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer given in the topic-wise solved copy: (d); matches our solving",
+    "keySource": "Answers in the topic-wise solved copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources yet; question numbers are the copy's, not the booklet's.",
+    "note": "Key (d) solid sol, as in the copy. In NCERT's table pumice stone is listed as a solid foam (gas in solid); check against the NTA final key. 'Pumic' as printed."
+   }
+  }
+ ]
+}

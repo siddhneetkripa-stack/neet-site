@@ -1,0 +1,63 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-old-metallurgy",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 6,
+ "title": {
+  "en": "General Principles and Processes of Isolation of Elements"
+ },
+ "ncert_status": "old_ncert_only",
+ "syllabus_status": "dropped_2024",
+ "oldNcert": "Old NCERT Class 12 Part I Unit 6",
+ "note": "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+ "paragraphs": [],
+ "questions": [
+  {
+   "id": "chem12-old-metallurgy-neet-2023-topic-wise-copy-q43",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The reaction that does not take place in blast furnace between 900 K to 1500 K in temperature range during extraction of iron is:",
+     "o": [
+      "CaO + SiO<sub>2</sub> → CaSiO<sub>3</sub>",
+      "Fe<sub>2</sub>O<sub>3</sub> + CO → 2FeO + CO<sub>2</sub>",
+      "FeO + CO → Fe + CO<sub>2</sub>",
+      "C + CO<sub>2</sub> → 2CO"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-old-metallurgy",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 6 · Extraction of iron (blast furnace zones)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q43",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer given in the topic-wise solved copy: (b); matches our solving",
+    "keySource": "Answers in the topic-wise solved copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources yet; question numbers are the copy's, not the booklet's."
+   }
+  }
+ ]
+}

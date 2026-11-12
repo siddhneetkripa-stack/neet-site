@@ -1,0 +1,63 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-old-polymers",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 15,
+ "title": {
+  "en": "Polymers"
+ },
+ "ncert_status": "old_ncert_only",
+ "syllabus_status": "dropped_2024",
+ "oldNcert": "Old NCERT Class 12 Part II Unit 15 Polymers",
+ "note": "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+ "paragraphs": [],
+ "questions": [
+  {
+   "id": "chem12-old-polymers-neet-2023-topic-wise-copy-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which amongst the following molecules on polymerization produces neoprene?",
+     "o": [
+      "H<sub>2</sub>C = C(CH<sub>3</sub>) — CH = CH<sub>2</sub>",
+      "H<sub>2</sub>C = CH — CH = CH<sub>2</sub>",
+      "H<sub>2</sub>C = C(Cl) — CH = CH<sub>2</sub>",
+      "H<sub>2</sub>C = CH – C ≡ CH"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-old-polymers",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 15 · Neoprene (polychloroprene)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q34",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer given in the topic-wise solved copy: (c); matches our solving",
+    "keySource": "Answers in the topic-wise solved copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources yet; question numbers are the copy's, not the booklet's."
+   }
+  }
+ ]
+}

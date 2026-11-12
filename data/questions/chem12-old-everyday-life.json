@@ -1,0 +1,63 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-old-everyday-life",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 16,
+ "title": {
+  "en": "Chemistry in Everyday Life"
+ },
+ "ncert_status": "old_ncert_only",
+ "syllabus_status": "dropped_2024",
+ "oldNcert": "Old NCERT Class 12 Part II Unit 16",
+ "note": "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+ "paragraphs": [],
+ "questions": [
+  {
+   "id": "chem12-old-everyday-life-neet-2023-topic-wise-copy-q35",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Some tranquilizers are listed below. Which one from the following belongs to barbiturates?",
+     "o": [
+      "Veronal",
+      "Chlordiazepoxide",
+      "Meprobamate",
+      "Valium"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-old-everyday-life",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 16 · Tranquilizers (barbiturates)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q35",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer given in the topic-wise solved copy: (a); matches our solving",
+    "keySource": "Answers in the topic-wise solved copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources yet; question numbers are the copy's, not the booklet's."
+   }
+  }
+ ]
+}

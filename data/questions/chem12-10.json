@@ -316,6 +316,53 @@
     "keyCheck": "Answer printed in the eSaral copy: (A); matches our solving",
     "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2026/chemistry-with-solutions.pdf). The NTA key in neet-sources covers Codes 11–14, whose question order differs from this copy; matching needs the Code 13 booklet scan."
    }
+  },
+  {
+   "id": "chem12-10-neet-2023-topic-wise-copy-q33",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements:<br>Statement I: A unit formed by the attachment of a base to 1′ position of sugar is known as nucleoside<br>Statement II: When nucleoside is linked to phosphorous acid at 5′-position of sugar moiety, we get nucleotide.<br>In the light of the above statements, choose the correct answer from the options given below:",
+     "o": [
+      "Statement I is false but Statement II is true.",
+      "Both Statement I and Statement II are true.",
+      "Both Statement I and Statement II are false.",
+      "Statement I is true but Statement II is false."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-10",
+    "paras": [
+     "10.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q33",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer given in the topic-wise solved copy: (d); matches our solving",
+    "keySource": "Answers in the topic-wise solved copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources yet; question numbers are the copy's, not the booklet's.",
+    "note": "Statement II says 'phosphorous acid' (not phosphoric acid), which is why it is false."
+   }
   }
  ]
 }
