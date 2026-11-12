@@ -1,0 +1,30 @@
+{
+ "id": "chem11-01-pyq",
+ "kind": "chapter",
+ "title": {
+  "en": "Some Basic Concepts of Chemistry · All 80 PYQs",
+  "hi": "रसायन विज्ञान की कुछ मूल अवधारणाएँ · सभी 80 PYQ"
+ },
+ "subtitle": {
+  "en": "Chemistry Class 11 · Unit 1 · NEET 2017–2026 + JEE Main 2020–2026",
+  "hi": "रसायन विज्ञान कक्षा 11 · एकक 1 · NEET 2017–2026 + JEE Main 2020–2026"
+ },
+ "durationMin": 150,
+ "note": "Prototype test. Durations and marking are configurable per test; this one follows NEET/JEE Main marking (+4 / −1).",
+ "sections": [
+  {
+   "id": "A",
+   "name": {"en": "Section A · MCQ", "hi": "खंड A · बहुविकल्पीय"},
+   "marking": {"correct": 4, "wrong": -1, "blank": 0},
+   "select": {"bank": "chem11-01", "sourceKind": "PYQ", "answerKind": "single"},
+   "order": ["NEET", "JEE Main"]
+  },
+  {
+   "id": "B",
+   "name": {"en": "Section B · Numerical", "hi": "खंड B · संख्यात्मक"},
+   "marking": {"correct": 4, "wrong": -1, "blank": 0},
+   "select": {"bank": "chem11-01", "sourceKind": "PYQ", "answerKind": "numeric"},
+   "order": ["JEE Main"]
+  }
+ ]
+}

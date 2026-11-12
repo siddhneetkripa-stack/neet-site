@@ -7,8 +7,13 @@ Source of truth for building this site. Every Claude / AI session working on nee
 
 - neet-sources: NCERT Class 11–12 Physics, Chemistry, Biology in English (ncert/) and Hindi (ncert-hi/, Kruti Dev font, 79 chapters); NEET papers 2013–2026; JEE Main papers 2020–2026; repo_tool verify/fetch.
 - neet-site: NCERT MindMap prototype — Chemistry 11 Unit 5 Thermodynamics (72 nodes, 116 questions); PYQs for Chemistry 11 Unit 1 (17 NEET + 63 JEE Main) in NCERT order.
+- Phase 0 (12 Nov 2026):
+  - Question format fixed: `docs/question-schema.json` (v1). Bilingual `text.en` / `text.hi` with a status per language (missing, placeholder, draft, checked, proofread), answer (single / numeric with tolerance), NCERT chapter + paragraph ids + NCERT lines (excerpt images), source (PYQ exam/year/shift, NCERT Exercise, Exemplar, Own, AI), type, difficulty 1–5, time estimate, media, status (draft/checked/live/flagged), review record. `tools/build.py` validates every bank file against it.
+  - Converted: `content/questions/chem11-01.json` (103: 80 PYQs + 23 NCERT/Exemplar/practice) and `content/questions/chem11-thermodynamics.json` (116). Hindi is a marked placeholder in all of them (status `placeholder`), pending the glossary.
+  - Exam-screen engine prototype: `exam.html` (+ `assets/exam.js`, `assets/exam.css`), first test `content/tests/chem11-01-pyq.json` = all 80 Unit 1 PYQs (Section A 42 MCQ, Section B 38 numerical, 150 min, +4/−1). NTA palette (5 states), countdown, Save & Next / Clear / Save & Mark / Mark & Next (unsaved choices are dropped, as in the real exam), Hindi/English per question, on-screen numeric keypad, autosave + resume after reload, submit summary, result with score, section table, changed answers (wrong→right / right→wrong), time per question, question-wise review with solutions and NCERT excerpts. Tested on PC and phone widths.
+  - Prototype limits: no backend, so timer and answer key live in the browser; the reader/PYQ pages still read the legacy files (content/pyq, mind-map section files), and the bank is regenerated from them with `tools/convert_questions.py` until those pages move to the bank.
 - In progress: Kruti Dev → Unicode converter, Hindi Unicode text, Hindi term glossary (neet-sources).
-- Next: Phase 0 tasks in section 11.
+- Next: Hindi text for the 80 Unit 1 PYQs once the glossary is ready (then the Phase 0 gate: works in Hindi and English on phone and PC); tag remaining NEET Chemistry PYQs to NCERT paragraphs in the bank format; content pipeline (two-model check, Hindi review queue).
 
 ## 1. Vision and positioning
 

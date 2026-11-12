@@ -75,7 +75,8 @@
       const colors = { physics: '#4338ca', chemistry: '#0f766e', biology: '#15803d' };
       app.innerHTML = topbar(null) + `<main>
         <section class="hero"><h1>Every NCERT paragraph, mapped.</h1>
-        <p>Pick a chapter and open its mind map. Go down layer by layer, from chapter to section to paragraph. Every node has a short synopsis in our own words and questions on exactly that part, with a link to the page in the official NCERT book.</p></section>
+        <p>Pick a chapter and open its mind map. Go down layer by layer, from chapter to section to paragraph. Every node has a short synopsis in our own words and questions on exactly that part, with a link to the page in the official NCERT book.</p>
+        <p><a href="exam.html">Try the exam screen (prototype): Chemistry Unit 1, all 80 PYQs →</a></p></section>
         ${(() => { const ready = []; cat.subjects.forEach(s => s.classes.forEach(c => c.chapters.forEach(ch => (ch.ready || ch.pyq) && ready.push({ s, c, ch }))));
           return ready.length ? `<section class="subject"><h2>Ready now</h2><div class="chap-grid">${ready.map(({ s, c, ch }) => `<a class="chap ready" style="--sc:${colors[s.id]}" href="${ch.ready ? `#/c/${ch.id}` : `#/pyq/${ch.id}`}"><small>${esc(s.name)} · Class ${c.cls} · Ch ${ch.no}</small>${esc(ch.title)}<small>${[ch.ready ? `${ch.stats.nodes} nodes · ${ch.stats.questions} questions` : '', ch.pyq ? `${ch.pyq} MCQs (PYQs + NCERT)` : ''].filter(Boolean).join(' · ')}</small></a>`).join('')}</div></section>` : ''; })()}
         ${cat.subjects.map(s => `<section class="subject" style="--sc:${colors[s.id]}"><h2><span class="dot"></span>${esc(s.name)}</h2>

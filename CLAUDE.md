@@ -25,6 +25,10 @@ assets/diagrams.js         original SVG diagrams, referenced by node "diagram" k
 assets/ncert/<chapter>/    short NCERT excerpt crops (webp) used by PYQ answers
 content/pyq/<chapter>.json PYQs for a chapter, in NCERT section order
 content/catalog.json       full NEET syllabus: all Class 11 & 12 PCB chapters
+content/questions/<ch>.json question bank in the fixed format (docs/question-schema.json): bilingual, NCERT paragraph ids
+content/tests/<id>.json    test definitions (sections, marking, duration, which bank questions)
+exam.html + assets/exam.js exam-screen test engine (NTA-style CBT), reads data/tests/<id>.json; open exam.html?test=<id>
+tools/convert_questions.py legacy content/pyq + mind-map questions → content/questions (keeps Hindi/status on re-run)
 content/<chapter-id>/      chapter.json (meta) + 01-…json, 02-…json section files (authoring source)
 data/                      BUILT output; do not hand-edit. Run: python3 tools/build.py
 tools/build.py             merges content → data, validates ids/questions, tags NCERT-exercise sources
