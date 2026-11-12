@@ -40,6 +40,11 @@ content/questions/<ch>.json question bank in the fixed format (docs/question-sch
 content/tests/<id>.json    test definitions (sections, marking, duration, which bank questions)
 exam.html + assets/exam.js exam-screen test engine (NTA-style CBT), reads data/tests/<id>.json; open exam.html?test=<id>
 tools/convert_questions.py legacy content/pyq + mind-map questions → content/questions (keeps Hindi/status on re-run)
+tools/add_pyqs.py          tagged PYQ batches (content/pyq-batches/*.json) → one bank file per NCERT chapter
+tools/check_hindi.py       Hindi vs English: formulas/numbers identical; Hindi terms must be NCERT's (run by build.py)
+content/ncert/chemistry-paragraphs.json  NCERT section ids per Chemistry chapter (starts new banks)
+content/glossary/hi-terms-used.json      every Hindi term used in questions, verified against neet-sources NCERT Hindi text
+content/questions/chem1x-old-*.json      NEET topics not in the rationalised NCERT (ncert_status old_ncert_only); chem12-lab-* = lab manual
 content/<chapter-id>/      chapter.json (meta) + 01-…json, 02-…json section files (authoring source)
 data/                      BUILT output; do not hand-edit. Run: python3 tools/build.py
 tools/build.py             merges content → data, validates ids/questions, tags NCERT-exercise sources
@@ -77,6 +82,13 @@ tools/build.py             merges content → data, validates ids/questions, tag
 - Transcribe exactly from the paper; solve every question; if the official answer looks inconsistent, add `<p class='errata'>`.
 - Paper sources and keys: `neet-sources/neet-papers/index.json`, `neet-sources/jee-main/index.json`.
   Extraction tools: `neet-sources/scripts/pyq-tools/`.
+
+## Question bank rules (docs/question-schema.json)
+- Hindi: use only NCERT's Hindi terms (neet-sources glossary or ncert-hi-text); add each new term to content/glossary/hi-terms-used.json;
+  keep formulas, numbers and units identical to English; new Hindi is status "draft" until a proofreader passes it.
+- Tag every question with `ncert_status` and `syllabus_status` (docs/research/02-neet-syllabus-ncert-map.md): p-Block → old_ncert_only
+  (chem11-old-p-block / chem12-old-p-block); topics NEET dropped in 2024 → dropped_2024 (never in mocks); practical chemistry → lab_manual.
+- Check answers against NTA final keys where neet-papers has them (match the copy's question order to the booklet code first).
 
 ## Biology chapters: required features (owner's decision, Nov 2026)
 When building any Biology chapter (Class 11 or 12), these are part of the definition of done, not optional extras:
