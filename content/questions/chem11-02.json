@@ -265,6 +265,99 @@
     "keyCheck": "NTA final key Code 45: 1",
     "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
    }
+  },
+  {
+   "id": "chem11-02-neet-2024-q92-esaral-copy",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II<br>List I (Quantum Number): A. m<sub>l</sub> B. m<sub>s</sub> C. l D. n<br>List II (Information provided): I. Shape of orbital II. Size of orbital III. Orientation of orbital IV. Orientation of spin of electron<br>Choose the correct answer from the options given below",
+     "o": [
+      "A-III, B-IV, C-I, D-II",
+      "A-I, B-III, C-II, D-IV",
+      "A-III, B-IV, C-II, D-I",
+      "A-II, B-I, C-IV, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-02",
+    "paras": [
+     "2.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q92 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the eSaral copy: (A); matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/chemistry-with-solutions.pdf). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options overlap in the source copy; (B) and (D) read from the overlapped text. Check against the booklet."
+   }
+  },
+  {
+   "id": "chem11-02-neet-2024-q93-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The energy of an electron in the ground state (n = 1) for He<sup>+</sup> ion is −x J, then that for an electron in n = 2 state for Be<sup>3+</sup> ion in J is",
+     "o": [
+      "−x",
+      "−x/9",
+      "−4x",
+      "−4x/9"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q93 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the eSaral copy: (A); matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/chemistry-with-solutions.pdf). No NTA final key for 2024 in neet-sources yet."
+   }
   }
  ]
 }

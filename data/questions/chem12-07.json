@@ -1,0 +1,205 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-07",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 7,
+ "title": {
+  "en": "Alcohols, Phenols and Ethers"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lech202.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "7.1",
+   "title": "Classification",
+   "hi": "वर्गीकरण",
+   "pdfPage": 2
+  },
+  {
+   "id": "7.1.1",
+   "title": "Alcohols- Mono, Di, Tri or Polyhydric alcohols",
+   "hi": "एल्कोहॉल मोनो, डाइ, ट्राइ एवं पॉलीहाइड्रिक एल्कोहॉल",
+   "pdfPage": 2
+  },
+  {
+   "id": "7.1.2",
+   "title": "Phenols- Mono, Di and trihydric phenols",
+   "hi": "एवं ट्राई हाइड्रिक .फीनॉल",
+   "pdfPage": 3
+  },
+  {
+   "id": "7.1.3",
+   "title": "Ethers",
+   "hi": "ईथर",
+   "pdfPage": 3
+  },
+  {
+   "id": "7.2",
+   "title": "Nomenclature",
+   "hi": "नामपद्धति",
+   "pdfPage": 3
+  },
+  {
+   "id": "7.3",
+   "title": "Structures of Functional Groups",
+   "hi": "प्रकार्यात्मक समूहों की संरचनाएँ",
+   "pdfPage": 6
+  },
+  {
+   "id": "7.4",
+   "title": "Alcohols and Phenols",
+   "hi": "ऐल्कोहॉलों और फ़ीनॉलों का विरचन",
+   "pdfPage": 7
+  },
+  {
+   "id": "7.4.1",
+   "title": "Preparation of Alcohols",
+   "hi": "ऐल्कोहॉलों का विरचन",
+   "pdfPage": 7
+  },
+  {
+   "id": "7.4.2",
+   "title": "Preparation of Phenols",
+   "hi": "फ़ीनॉलों का विरचन",
+   "pdfPage": 9
+  },
+  {
+   "id": "7.4.3",
+   "title": "Physical Properties",
+   "hi": "भौतिक गुणधर्म",
+   "pdfPage": 11
+  },
+  {
+   "id": "7.4.4",
+   "title": "Chemical Reactions",
+   "hi": "रासायनिक अभिक्रियाएँ",
+   "pdfPage": 12
+  },
+  {
+   "id": "7.5",
+   "title": "Some Commercially Important Alcohols",
+   "hi": "औद्योगिक महत्व के कुछ ऐल्कोहॉल",
+   "pdfPage": 11
+  },
+  {
+   "id": "7.6",
+   "title": "Ethers",
+   "pdfPage": 21
+  },
+  {
+   "id": "7.6.1",
+   "title": "Preparation of Ethers",
+   "hi": "ईथरों का विरचन",
+   "pdfPage": 23
+  },
+  {
+   "id": "7.6.2",
+   "title": "Physical Properties"
+  },
+  {
+   "id": "7.6.3",
+   "title": "Chemical Reactions"
+  }
+ ],
+ "questions": [
+  {
+   "id": "chem12-07-neet-2024-q73-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following alcohols reacts instantaneously with Lucas reagent?",
+     "o": [
+      "CH<sub>3</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>OH",
+      "CH<sub>3</sub>–CH<sub>2</sub>–CH(OH)–CH<sub>3</sub>",
+      "CH<sub>3</sub>–CH(CH<sub>3</sub>)–CH<sub>2</sub>OH",
+      "(CH<sub>3</sub>)<sub>3</sub>C–OH"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-07",
+    "paras": [
+     "7.4.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q73 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the eSaral copy: (D); matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/chemistry-with-solutions.pdf). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "chem12-07-neet-2024-q82-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the correct reagents that would bring about the following transformation.<br>C<sub>6</sub>H<sub>11</sub>–CH<sub>2</sub>–CH=CH<sub>2</sub> → C<sub>6</sub>H<sub>11</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CHO (C<sub>6</sub>H<sub>11</sub> = cyclohexyl)",
+     "o": [
+      "(i) H<sub>2</sub>O/H<sup>+</sup> (ii) CrO<sub>3</sub>",
+      "(i) BH<sub>3</sub> (ii) H<sub>2</sub>O<sub>2</sub>/OH<sup>−</sup> (iii) PCC",
+      "(i) BH<sub>3</sub> (ii) H<sub>2</sub>O<sub>2</sub>/OH<sup>−</sup> (iii) alk. KMnO<sub>4</sub> (iv) H<sub>3</sub>O<sup>+</sup>",
+      "(i) H<sub>2</sub>O/H<sup>+</sup> (ii) PCC"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-07",
+    "paras": [
+     "7.4.1"
+    ],
+    "otherChapters": [
+     "Class 12 · Aldehydes, Ketones and Carboxylic Acids (PCC oxidation)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q82 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the eSaral copy: (B); matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/chemistry-with-solutions.pdf). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Reactant and product are drawn as structures in the paper."
+   }
+  }
+ ]
+}
