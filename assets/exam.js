@@ -446,7 +446,7 @@
       ? `Correct answer: <b>${q.answer.value}</b>${q.answer.tol ? ` (± ${q.answer.tol})` : ''}`
       : `Correct answer: <b>(${q.answer.index + 1})</b>`;
     const hist = (r.st.hist || []).map(h => fmtAns(q, h.a)).join(' → ');
-    const opts = q.answer.kind === 'numeric' ? '' : `<ol class="ropts">${tx.o.map((o, i) => `<li class="${i === q.answer.index ? 'right' : ''}${i === r.st.ans && i !== q.answer.index ? ' wrongpick' : ''}"><span class="on">${i + 1})</span> ${o}</li>`).join('')}</ol>`;
+    const opts = q.answer.kind === 'numeric' ? '' : `<ol class="ropts">${tx.o.map((o, i) => `<li class="${i === q.answer.index ? 'right' : ''}${i === r.st.ans && i !== q.answer.index ? ' wrongpick' : ''}"><span class="on">${i + 1})</span><span class="otext">${o}</span></li>`).join('')}</ol>`;
     const pdf = q.pdf && q.pdf.url;
     const lines = (q.ncert.lines || []).map(l => `<figure class="excerpt">${l.img ? `<img src="assets/ncert/${esc(q.ncert.chapter)}/${esc(l.img)}.webp" alt="NCERT excerpt, ${esc(l.label)}" loading="lazy">` : ''}${l.text ? `<blockquote>${esc(l.text)}</blockquote>` : ''}<figcaption>NCERT ${esc(l.label)}${pdf ? ` · <a href="${esc(q.pdf.url)}#page=${l.page - q.pdf.offset}" target="_blank" rel="noopener">open page ${l.page} on ncert.nic.in</a>` : ''}</figcaption></figure>`).join('');
     return `<article class="rcard f-${cls}${r.changed ? ' f-chg' : ''}" id="rq${r.x.n}">
