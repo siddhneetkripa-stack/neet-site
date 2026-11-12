@@ -72,6 +72,13 @@
     ['mr', 'Marked for Review', 'पुनरावलोकन हेतु चिह्नित'],
     ['am', 'Answered & Marked for Review (will be evaluated)', 'उत्तर दिया और चिह्नित (मूल्यांकन होगा)'],
   ];
+  const HI_DRAFT = 'हिंदी पाठ प्रारूप (draft) है: अभी प्रूफ़रीडिंग नहीं हुई है। किसी संदेह की स्थिति में अंग्रेज़ी पाठ अंतिम माना जाएगा। · Hindi is a draft, not yet proofread; the English text prevails.';
+  const hasHi = q => !['missing', 'placeholder'].includes(q.text.hi.status);
+  function hiSummary() {
+    const n = Q.filter(x => hasHi(x.q)).length, drafts = Q.filter(x => x.q.text.hi.status === 'draft').length;
+    if (!n) return HI_PENDING;
+    return (n < Q.length ? `${Q.length} में से ${n} प्रश्नों का हिंदी पाठ उपलब्ध है; बाकी अंग्रेज़ी में दिखेंगे। · ` : '') + (drafts ? HI_DRAFT : '');
+  }
   const HI_PENDING = 'हिंदी अनुवाद अभी उपलब्ध नहीं है (NCERT हिंदी शब्दावली तैयार होने पर जोड़ा जाएगा)। नीचे अंग्रेज़ी पाठ दिखाया गया है। · Hindi placeholder: Hindi text pending, English shown.';
 
   // ---------- state ----------
@@ -132,7 +139,7 @@
       <header class="instr-head"><div><p class="kicker">${esc(UI[lang].instructions)}</p><h1>${esc(L(T.title, lang))}</h1><p class="muted">${esc(L(T.subtitle, lang))}</p></div>
         <label class="langpick">${esc(UI[lang].chooseLang)}<select id="deflang"><option value="en"${lang === 'en' ? ' selected' : ''}>English</option><option value="hi"${lang === 'hi' ? ' selected' : ''}>हिंदी (Hindi)</option></select></label></header>
       <div class="facts"><div><b>${T.durationMin} min</b><span>${esc(UI[lang].duration)}</span></div><div><b>${Q.length}</b><span>${esc(UI[lang].questions)}</span></div><div><b class="small">${marks}</b><span>${esc(UI[lang].marking)} (✓ / ✗ / –)</span></div></div>
-      ${lang === 'hi' ? `<p class="hi-note">${esc(HI_PENDING)}</p>` : ''}
+      ${lang === 'hi' && hiSummary() ? `<p class="hi-note">${esc(hiSummary())}</p>` : ''}
       <h2>${esc(UI[lang].readCarefully)}</h2>
       <ol class="instr-list">${INSTR[lang].map(x => x === '__legend__' ? `<li class="nolist">${legendHTML(lang)}</li>` : `<li>${x
         .replace('__marknext_en__', markNextSaves() ? 'an option you have selected is kept and will be evaluated.' : 'a new choice is <b>not</b> saved.')
@@ -215,8 +222,9 @@
 
   function drawQuestion() {
     const x = Q[S.cur], q = x.q, lang = langOf(q);
-    const hiReady = !['missing', 'placeholder'].includes(q.text.hi.status);
+    const hiReady = hasHi(q);
     const tx = lang === 'hi' && hiReady ? q.text.hi : q.text.en;
+    const shownLang = lang === 'hi' && hiReady ? 'hi' : 'en';
     const num = q.answer.kind === 'numeric';
     $('#secs').innerHTML = T.sections.map((s, si) => `<button class="${si === x.si ? 'on' : ''}" data-sec="${si}">${esc(L(s.name, S.lang))}</button>`).join('');
     $$('#secs button').forEach(b => b.onclick = () => { const i = Q.findIndex(y => y.si === +b.dataset.sec); go(i, true); });
@@ -227,7 +235,8 @@
         <span class="qtype">${num ? 'Numerical' : 'Single correct'} · +${x.sec.marking.correct} / ${x.sec.marking.wrong}</span>
         <label class="viewin">View in <select id="qlang"><option value="en"${lang === 'en' ? ' selected' : ''}>English</option><option value="hi"${lang === 'hi' ? ' selected' : ''}>हिंदी</option></select></label></div>
       ${lang === 'hi' && !hiReady ? `<p class="hi-note">${esc(HI_PENDING)}</p>` : ''}
-      <div class="qtext" lang="${lang === 'hi' && hiReady ? 'hi' : 'en'}">${tx.q}</div>${opts}${pad_}`;
+      ${shownLang === 'hi' && q.text.hi.status === 'draft' ? '<p class="hi-draft" title="Hindi draft, not yet proofread">हिंदी प्रारूप · प्रूफ़रीडिंग बाकी</p>' : ''}
+      <div lang="${shownLang}"><div class="qtext">${tx.q}</div>${opts}</div>${pad_}`;
     $('#qlang').onchange = e => { S.qlang[q.id] = e.target.value; save(); drawQuestion(); };
     $$('input[name=opt]').forEach(r => r.onchange = () => { sel = +r.value; $$('.opts label').forEach((l, i) => l.classList.toggle('picked', i === sel)); });
     $$('.keypad button').forEach(b => b.onclick = () => {
@@ -438,7 +447,7 @@
   }
 
   function reviewCard(r, lang) {
-    const q = r.x.q, hiReady = !['missing', 'placeholder'].includes(q.text.hi.status);
+    const q = r.x.q, hiReady = hasHi(q);
     const tx = lang === 'hi' && hiReady ? q.text.hi : q.text.en;
     const cls = r.ok === true ? 'good' : r.ok === false ? 'bad' : 'none';
     const src = q.source.kind === 'PYQ' ? `${q.source.exam} ${q.source.year}${q.source.session ? ' · ' + q.source.session : ''}` : q.source.label || q.source.kind;
@@ -453,10 +462,11 @@
       <header><b>Q${r.x.n}</b><span class="badge ${cls}">${r.ok === true ? 'Correct' : r.ok === false ? 'Wrong' : 'Not answered'} · ${r.pts > 0 ? '+' : ''}${r.pts}</span><span class="muted">${esc(src)} · ${mmss(r.st.t || 0)}${r.st.mark ? ' · marked' : ''}</span>
         <select class="rlang" data-n="${r.x.n}" aria-label="Language"><option value="en"${lang === 'en' ? ' selected' : ''}>English</option><option value="hi"${lang === 'hi' ? ' selected' : ''}>हिंदी</option></select></header>
       ${lang === 'hi' && !hiReady ? `<p class="hi-note">${esc(HI_PENDING)}</p>` : ''}
-      <div class="qtext">${tx.q}</div>${opts}
+      ${lang === 'hi' && q.text.hi.status === 'draft' ? '<p class="hi-draft">हिंदी प्रारूप · प्रूफ़रीडिंग बाकी</p>' : ''}
+      <div lang="${lang === 'hi' && hiReady ? 'hi' : 'en'}"><div class="qtext">${tx.q}</div>${opts}
       <p class="yours">Your answer: <b>${fmtAns(q, r.st.ans)}</b> · ${ansLine}${r.changed ? ` · <span class="chgnote">changed: ${hist}</span>` : ''}</p>
-      <details><summary>Solution and NCERT lines</summary><div class="sol">${tx.sol}</div>${tx.trap ? `<p class="trap"><b>Trap:</b> ${tx.trap}</p>` : ''}
-        <p class="paras">NCERT: ${q.ncert.paras.map((p, i) => `§${esc(p)} ${esc((q.paraTitles || [])[i] || '')}`).join(' · ')}${(q.ncert.otherChapters || []).length ? ' · also ' + esc(q.ncert.otherChapters.join(', ')) : ''}</p>${lines}</details>
+      <details><summary>${lang === 'hi' && hiReady ? 'हल और NCERT पंक्तियाँ' : 'Solution and NCERT lines'}</summary><div class="sol">${tx.sol}</div>${tx.trap ? `<p class="trap"><b>${lang === 'hi' && hiReady ? 'सावधानी:' : 'Trap:'}</b> ${tx.trap}</p>` : ''}
+        <p class="paras">NCERT: ${q.ncert.paras.map((p, i) => `§${esc(p)} ${esc((q.paraTitles || [])[i] || '')}`).join(' · ')}${(q.ncert.otherChapters || []).length ? ' · also ' + esc(q.ncert.otherChapters.join(', ')) : ''}</p>${lines}</details></div>
     </article>`;
   }
 

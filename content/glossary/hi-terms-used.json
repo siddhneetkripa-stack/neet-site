@@ -1,0 +1,586 @@
+{
+ "description": "Hindi terms used in question text (text.hi). Every 'hi' must occur in NCERT's Hindi books (neet-sources/ncert-hi-text) or in neet-sources/glossary/hi-terms.json; tools/check_hindi.py verifies this. 'check': false = only verified for presence, not required in every question that uses the English word.",
+ "terms": [
+  {
+   "en": "Law of Conservation of Mass",
+   "hi": "द्रव्यमान-संरक्षण का नियम",
+   "source": "glossary"
+  },
+  {
+   "en": "Law of Definite Proportions",
+   "hi": "स्थिर अनुपात का नियम",
+   "source": "glossary"
+  },
+  {
+   "en": "Law of constant proportion",
+   "hi": "स्थिर अनुपात का नियम",
+   "source": "glossary"
+  },
+  {
+   "en": "Law of Multiple Proportions",
+   "hi": "गुणित अनुपात का नियम",
+   "source": "glossary"
+  },
+  {
+   "en": "Law of gaseous volumes",
+   "hi": "गैसीय आयतनों का नियम",
+   "source": "glossary"
+  },
+  {
+   "en": "Dalton's Atomic Theory",
+   "hi": "डाल्टन का परमाणु सिद्धांत",
+   "source": "glossary"
+  },
+  {
+   "en": "Avogadro's law",
+   "hi": "आवोगाद्रो का नियम",
+   "source": "glossary"
+  },
+  {
+   "en": "Significant Figures",
+   "hi": "सार्थक अंक",
+   "source": "glossary"
+  },
+  {
+   "en": "Density",
+   "hi": "घनत्व",
+   "source": "glossary",
+   "check": false
+  },
+  {
+   "en": "Temperature",
+   "hi": "ताप",
+   "source": "glossary",
+   "check": false
+  },
+  {
+   "en": "Volume",
+   "hi": "आयतन",
+   "source": "glossary",
+   "check": false
+  },
+  {
+   "en": "Mass",
+   "hi": "द्रव्यमान",
+   "source": "glossary",
+   "check": false
+  },
+  {
+   "en": "Atomic Mass",
+   "hi": "परमाणु द्रव्यमान",
+   "source": "glossary",
+   "check": false
+  },
+  {
+   "en": "Molecular Mass",
+   "hi": "आण्विक द्रव्यमान",
+   "source": "glossary"
+  },
+  {
+   "en": "mole",
+   "hi": "मोल",
+   "source": "glossary",
+   "check": false
+  },
+  {
+   "en": "Molar mass",
+   "hi": "मोलर द्रव्यमान",
+   "source": "glossary",
+   "check": false
+  },
+  {
+   "en": "Empirical Formula",
+   "hi": "मूलानुपाती सूत्र",
+   "source": "glossary"
+  },
+  {
+   "en": "Molecular Formula",
+   "hi": "आण्विक सूत्र",
+   "source": "glossary"
+  },
+  {
+   "en": "Empirical formula mass",
+   "hi": "मूलानुपाती सूत्र द्रव्यमान",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Limiting Reagent",
+   "hi": "सीमांत अभिकर्मक",
+   "source": "glossary"
+  },
+  {
+   "en": "Stoichiometry",
+   "hi": "स्टॉइकियोमीट्री",
+   "source": "glossary"
+  },
+  {
+   "en": "Pressure",
+   "hi": "दाब",
+   "source": "glossary",
+   "check": false
+  },
+  {
+   "en": "Molarity",
+   "hi": "मोलरता",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Molality",
+   "hi": "मोललता",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Mole fraction",
+   "hi": "मोल-अंश",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Mass percent",
+   "hi": "द्रव्यमान प्रतिशत",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Solute",
+   "hi": "विलेय",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Solvent",
+   "hi": "विलायक",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Solution",
+   "hi": "विलयन",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Binary solution",
+   "hi": "द्विअंगी विलयन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Aqueous solution",
+   "hi": "जलीय विलयन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Avogadro constant",
+   "hi": "आवोगाद्रो स्थिरांक",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Balanced equation",
+   "hi": "संतुलित समीकरण",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Reaction",
+   "hi": "अभिक्रिया",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Product",
+   "hi": "उत्पाद",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Combustion",
+   "hi": "दहन",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Complete combustion",
+   "hi": "पूर्ण दहन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Enthalpy of combustion",
+   "hi": "दहन एन्थैल्पी",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Water vapour",
+   "hi": "जलवाष्प",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Molar volume",
+   "hi": "मोलर आयतन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Ideal gas",
+   "hi": "आदर्श गैस",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Diatomic",
+   "hi": "द्विपरमाणुक",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Pure",
+   "hi": "शुद्ध",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Concentrated",
+   "hi": "सांद्र",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Dilute",
+   "hi": "तनु",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Neutralisation",
+   "hi": "उदासीनीकरण",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Titration",
+   "hi": "अनुमापन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "End point",
+   "hi": "अंत्यबिंदु",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Burette",
+   "hi": "ब्यूरेट",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Dibasic",
+   "hi": "द्विक्षारकी",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Molecular weight",
+   "hi": "अणुभार",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Hydrocarbon",
+   "hi": "हाइड्रोकार्बन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Saturated",
+   "hi": "संतृप्त",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Acyclic",
+   "hi": "अचक्रीय",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Organic compound",
+   "hi": "कार्बनिक यौगिक",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Quaternary ammonium salt",
+   "hi": "चतुष्क अमोनियम लवण",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Methyl group",
+   "hi": "मेथिल समूह",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Solubility",
+   "hi": "विलेयता",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Henry's law",
+   "hi": "हेनरी का नियम",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Aquatic species",
+   "hi": "जलीय स्पीशीज़",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Raoult's law",
+   "hi": "राउल्ट",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Positive deviation",
+   "hi": "धनात्मक विचलन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Hydrogen bond",
+   "hi": "हाइड्रोजन आबंध",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Theoretical",
+   "hi": "सैद्धांतिक",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Precise",
+   "hi": "परिशुद्ध",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Evaporated",
+   "hi": "वाष्पित",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Liberated",
+   "hi": "निर्मुक्त",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Residual",
+   "hi": "अवशिष्ट",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Compressed natural gas",
+   "hi": "संपीडित प्राकृतिक गैस",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Furnace",
+   "hi": "भट्ठी",
+   "source": "ncert-hi-text",
+   "check": false
+  },
+  {
+   "en": "Ethylene glycol",
+   "hi": "एथिलीन ग्लाइकॉल",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Ethanoic acid",
+   "hi": "एथेनॉइक अम्ल",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Benzoic acid",
+   "hi": "बेन्ज़ोइक अम्ल",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Oxalic acid",
+   "hi": "ऑक्सैलिक अम्ल",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Formic acid",
+   "hi": "फार्मिक अम्ल",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Nitric acid",
+   "hi": "नाइट्रिक अम्ल",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Hydrochloric acid",
+   "hi": "हाइड्रोक्लोरिक अम्ल",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Sodium hydroxide",
+   "hi": "सोडियम हाइड्रॉक्साइड",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Carbon tetrachloride",
+   "hi": "कार्बन टेट्राक्लोराइड",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Carbon dioxide",
+   "hi": "कार्बन डाइऑक्साइड",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Carbon monoxide",
+   "hi": "कार्बन मोनोऑक्साइड",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Bromomethane",
+   "hi": "ब्रोमोमेथेन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Glucose",
+   "hi": "ग्लूकोस",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Urea",
+   "hi": "यूरिया",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Methanol",
+   "hi": "मेथेनॉल",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Methane",
+   "hi": "मेथेन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Ethane",
+   "hi": "एथेन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Ethene",
+   "hi": "एथीन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Propane",
+   "hi": "प्रोपेन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Butane",
+   "hi": "ब्यूटेन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Benzene",
+   "hi": "बेन्जीन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Ammonia",
+   "hi": "अमोनिया",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Haber's process",
+   "hi": "हाबर",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Hemoglobin",
+   "hi": "हीमोग्लोबिन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Helium",
+   "hi": "हीलियम",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Lithium",
+   "hi": "लीथियम",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Zinc",
+   "hi": "ज़िंक",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Calcium",
+   "hi": "कैल्सियम",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Silver",
+   "hi": "सिल्वर",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Iron",
+   "hi": "आयरन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Chlorine",
+   "hi": "क्लोरीन",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Coke",
+   "hi": "कोक",
+   "source": "ncert-hi-text"
+  },
+  {
+   "en": "Limestone",
+   "hi": "चूना पत्थर",
+   "source": "ncert-hi-text"
+  }
+ ],
+ "noNcertTerm": [
+  {
+   "en": "yield (product yield)",
+   "hi_used": "लब्धि (yield)",
+   "note": "NCERT Hindi uses लब्धि only in 'electron gain'; English kept in brackets"
+  },
+  {
+   "en": "concordant reading",
+   "hi_used": "सुसंगत पाठ्यांक (concordant reading)",
+   "note": "not in NCERT textbooks (lab manual term); English kept in brackets"
+  },
+  {
+   "en": "blast furnace",
+   "hi_used": "वात्या भट्ठी",
+   "note": "metallurgy chapter dropped from rationalised NCERT; check against old-edition Hindi book"
+  },
+  {
+   "en": "Assertion / Reason",
+   "hi_used": "अभिकथन (A) / कारण (R)",
+   "note": "exam-format wording (NTA Hindi papers), not an NCERT term"
+  },
+  {
+   "en": "Statement I / II",
+   "hi_used": "कथन I / कथन II",
+   "note": "exam-format wording"
+  },
+  {
+   "en": "histamine, imidazole, benzylamine",
+   "hi_used": "हिस्टैमिन, इमिडेज़ोल, बेन्ज़ाइलऐमीन",
+   "note": "compound names transliterated; हिस्टैमिन occurs once in NCERT Hindi (प्रतिहिस्टैमिन)"
+  },
+  {
+   "en": "millimolar",
+   "hi_used": "मिलीमोलर (mM)",
+   "note": "not in NCERT Hindi; unit symbol kept"
+  },
+  {
+   "en": "dibromine",
+   "hi_used": "डाइब्रोमीन",
+   "note": "NCERT Hindi has डाइहाइड्रोजन etc.; formed the same way"
+  }
+ ]
+}

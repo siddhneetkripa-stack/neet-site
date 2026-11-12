@@ -264,8 +264,17 @@
      "hint": "NCERT says it directly at the end of §1.5."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "डाल्टन का परमाणु सिद्धांत निम्नलिखित में से किसकी व्याख्या नहीं कर सका?",
+     "o": [
+      "द्रव्यमान-संरक्षण का नियम",
+      "स्थिर अनुपात का नियम",
+      "गुणित अनुपात का नियम",
+      "गैसीय आयतनों का नियम"
+     ],
+     "sol": "<p>डाल्टन के अभिगृहीत (परमाणु अविभाज्य हैं, वे पूर्ण संख्याओं के निश्चित अनुपात में संयोग करते हैं, परमाणु न तो बनाए जा सकते हैं और न ही नष्ट किए जा सकते हैं) द्रव्यमान से संबंधित तीनों नियमों की व्याख्या करते हैं: द्रव्यमान-संरक्षण, स्थिर अनुपात और गुणित अनुपात।</p><p>वे गै-लुसैक के गैसीय आयतनों के नियम की व्याख्या <b>नहीं</b> कर सकते। H₂ के दो आयतन और O₂ का एक आयतन जलवाष्प के दो आयतन देते हैं; इसके लिए ऐसे अणु चाहिए जो परमाणुओं में टूट सकें। बाद में आवोगाद्रो ने इसकी व्याख्या की; डाल्टन का मॉडल नहीं कर सका।</p>",
+     "hint": "NCERT §1.5 के अंत में यह सीधे लिखा है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -316,8 +325,17 @@
      "hint": "Turn every quantity into moles first."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "किस स्थिति में जल के अणुओं की संख्या अधिकतम है?",
+     "o": [
+      "1 atm और 273 K पर 0.00224 L जलवाष्प",
+      "0.18 g जल",
+      "18 mL जल",
+      "10<sup>−3</sup> mol जल"
+     ],
+     "sol": "<p>अणुओं की संख्या ∝ मोलों की संख्या, अतः हर विकल्प को मोल में बदलें:</p><ul><li>0.00224 L ÷ 22.4 L mol⁻¹ = 10⁻⁴ mol</li><li>0.18 g ÷ 18 g mol⁻¹ = 10⁻² mol</li><li>18 mL द्रव जल ≈ 18 g (घनत्व ≈ 1 g mL⁻¹) = <b>1 mol</b></li><li>10⁻³ mol</li></ul><p>18 mL जल में 1 mol, अर्थात् N<sub>A</sub> अणु होते हैं: यह सबसे अधिक है।</p>",
+     "hint": "पहले हर मात्रा को मोल में बदलें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -374,8 +392,17 @@
      "hint": "Equal masses → the smallest molar mass per atom wins. Don't forget O₂ is diatomic."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "निम्नलिखित में से किसमें परमाणुओं की संख्या अधिकतम है?",
+     "o": [
+      "1 g O<sub>2</sub>(g) [O का परमाणु द्रव्यमान = 16]",
+      "1 g Li(s) [Li का परमाणु द्रव्यमान = 7]",
+      "1 g Ag(s) [Ag का परमाणु द्रव्यमान = 108]",
+      "1 g Mg(s) [Mg का परमाणु द्रव्यमान = 24]"
+     ],
+     "sol": "<p>परमाणु = (द्रव्यमान ÷ मोलर द्रव्यमान) × प्रति सूत्र इकाई परमाणु × N<sub>A</sub>।</p><ul><li>O₂: (1/32) × 2 = 1/16 N<sub>A</sub></li><li>Li: <b>1/7 N<sub>A</sub></b></li><li>Ag: 1/108 N<sub>A</sub></li><li>Mg: 1/24 N<sub>A</sub></li></ul><p>समान द्रव्यमान के लिए सबसे हल्का परमाणु सबसे अधिक परमाणु देता है: लीथियम।</p>",
+     "hint": "समान द्रव्यमान → प्रति परमाणु सबसे कम मोलर द्रव्यमान वाला जीतता है। ध्यान रखें कि O₂ द्विपरमाणुक है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -426,8 +453,17 @@
      "hint": "u is the mass of one atom; g is the mass of one mole. At STP, 1 mol of gas = 22.7 L."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "हीलियम परमाणुओं की सबसे अधिक संख्या किसमें है?",
+     "o": [
+      "4 mol हीलियम",
+      "4 u हीलियम",
+      "4 g हीलियम",
+      "STP पर 2.271098 L हीलियम"
+     ],
+     "sol": "<ul><li>4 mol → <b>4 N<sub>A</sub></b> परमाणु</li><li>4 u एक <i>अकेले</i> He परमाणु का द्रव्यमान है → 1 परमाणु</li><li>4 g = 1 mol → N<sub>A</sub> परमाणु</li><li>STP (273.15 K, 1 bar) पर एक मोल गैस 22.7 L आयतन घेरती है, अतः 2.271098 L = 0.1 mol → 0.1 N<sub>A</sub> परमाणु</li></ul>",
+     "hint": "u एक परमाणु का द्रव्यमान है; g एक मोल का द्रव्यमान है। STP पर 1 mol गैस = 22.7 L।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -483,8 +519,17 @@
      "hint": "Count atoms per formula: Na₂CO₃ has 6, Na₂O 3, NaOH 3, H₂ 2, CO₂ 3."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "निम्नलिखित में से उन्हें चुनिए जिनमें परमाणुओं की संख्या समान है।<br>A. 212 g Na<sub>2</sub>CO<sub>3</sub>(s) [मोलर द्रव्यमान = 106 g]<br>B. 248 g Na<sub>2</sub>O(s) [मोलर द्रव्यमान = 62 g]<br>C. 240 g NaOH(s) [मोलर द्रव्यमान = 40 g]<br>D. 12 g H<sub>2</sub>(g) [मोलर द्रव्यमान = 2 g]<br>E. 220 g CO<sub>2</sub>(g) [मोलर द्रव्यमान = 44 g]",
+     "o": [
+      "केवल A, B और C",
+      "केवल A, B और D",
+      "केवल B, C और D",
+      "केवल B, D और E"
+     ],
+     "sol": "<p>परमाणु = मोल × प्रति सूत्र इकाई परमाणु (N<sub>A</sub> की इकाई में):</p><ul><li>A: 212/106 = 2 mol × 6 = <b>12</b></li><li>B: 248/62 = 4 mol × 3 = <b>12</b></li><li>C: 240/40 = 6 mol × 3 = 18</li><li>D: 12/2 = 6 mol × 2 = <b>12</b></li><li>E: 220/44 = 5 mol × 3 = 15</li></ul><p>A, B और D प्रत्येक में 12 N<sub>A</sub> परमाणु हैं।</p>",
+     "hint": "प्रति सूत्र परमाणु गिनें: Na₂CO₃ में 6, Na₂O में 3, NaOH में 3, H₂ में 2, CO₂ में 3।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -536,8 +581,18 @@
      "trap": "Using 2 H per molecule gives 1.084 × 10²³, which is one of the options."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "5.4 g यूरिया में उपस्थित हाइड्रोजन परमाणुओं की संख्या है:<br>(दिया है: यूरिया का मोलर द्रव्यमान: 60 g mol<sup>−1</sup>, N<sub>A</sub>: 6.022 × 10<sup>23</sup> कण mol<sup>−1</sup>)",
+     "o": [
+      "2.168 × 10<sup>22</sup>",
+      "2.168 × 10<sup>23</sup>",
+      "1.084 × 10<sup>22</sup>",
+      "1.084 × 10<sup>23</sup>"
+     ],
+     "sol": "<p>यूरिया NH₂CONH₂ है: प्रति अणु <b>4 H परमाणु</b>।</p><p>n = 5.4 ÷ 60 = 0.09 mol → H परमाणु = 0.09 × 4 × 6.022 × 10²³ = <b>2.168 × 10²³</b>।</p>",
+     "hint": "यूरिया के मोल × 4 × N<sub>A</sub>।",
+     "trap": "प्रति अणु 2 H मानने पर 1.084 × 10²³ आता है, जो एक विकल्प है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -588,8 +643,17 @@
      "hint": "Assume 100 g, convert % to moles, divide by the smallest."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "एक कार्बनिक यौगिक में 78% (भार से) कार्बन और शेष प्रतिशत हाइड्रोजन है। इस यौगिक के मूलानुपाती सूत्र के लिए सही विकल्प है: [C का परमाणु भार 12, H का 1 है]",
+     "o": [
+      "CH<sub>4</sub>",
+      "CH",
+      "CH<sub>2</sub>",
+      "CH<sub>3</sub>"
+     ],
+     "sol": "<p>100 g लें: C = 78 g → 78/12 = 6.5 mol; H = 22 g → 22 mol।</p><p>छोटी संख्या से भाग दें: C : H = 1 : 3.38। विकल्पों में CH₃ (1 : 3) सबसे निकट है, और NTA की अंतिम उत्तर कुंजी CH₃ देती है।</p><p class='errata'>टिप्पणी: ये आँकड़े पूर्ण संख्या का साफ़ अनुपात नहीं देते। CH₃ के लिए ठीक 80% कार्बन (12/15) चाहिए। परीक्षा में निकटतम विकल्प चुनें।</p>",
+     "hint": "100 g मानें, % को मोल में बदलें, सबसे छोटी संख्या से भाग दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -642,8 +706,17 @@
      "hint": "Find % of C first, then mole ratio."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "एक यौगिक X में 32% A, 20% B और शेष प्रतिशत C है। तब X का मूलानुपाती सूत्र है:<br>(दिए गए परमाणु द्रव्यमान A = 64; B = 40; C = 32 u)",
+     "o": [
+      "A<sub>2</sub>BC<sub>2</sub>",
+      "ABC<sub>3</sub>",
+      "AB<sub>2</sub>C<sub>2</sub>",
+      "ABC<sub>4</sub>"
+     ],
+     "sol": "<p>C = 100 − 32 − 20 = 48%।</p><ul><li>A: 32/64 = 0.5</li><li>B: 20/40 = 0.5</li><li>C: 48/32 = 1.5</li></ul><p>0.5 से भाग दें → 1 : 1 : 3, अतः मूलानुपाती सूत्र <b>ABC₃</b> है।</p>",
+     "hint": "पहले C का % निकालें, फिर मोल अनुपात।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -694,8 +767,17 @@
      "hint": "Write both decomposition equations; KOH removes only the acidic gas (CO₂)."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "2.3 g फार्मिक अम्ल और 4.5 g ऑक्सैलिक अम्ल के मिश्रण को सांद्र H<sub>2</sub>SO<sub>4</sub> के साथ उपचारित किया जाता है। निकले गैसीय मिश्रण को KOH की गोलियों में से प्रवाहित किया जाता है। STP पर शेष बचे उत्पाद का भार (g में) होगा",
+     "o": [
+      "2.8",
+      "3.0",
+      "1.4",
+      "4.4"
+     ],
+     "sol": "<p>सांद्र H₂SO₄ दोनों अम्लों से जल निकाल देता है:</p><ul><li>HCOOH → CO + H₂O: 2.3/46 = 0.05 mol → 0.05 mol CO</li><li>H₂C₂O₄ → CO + CO₂ + H₂O: 4.5/90 = 0.05 mol → 0.05 mol CO + 0.05 mol CO₂</li></ul><p>KOH, CO₂ को अवशोषित कर लेता है। जो बचता है वह CO है: 0.10 mol × 28 g mol⁻¹ = <b>2.8 g</b>।</p>",
+     "hint": "दोनों अपघटन समीकरण लिखें; KOH केवल अम्लीय गैस (CO₂) को हटाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -747,8 +829,17 @@
      "hint": "Read the mole ratio straight off the balanced equation."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "हाबर प्रक्रम द्वारा 20 मोल अमोनिया बनाने के लिए आवश्यक हाइड्रोजन अणुओं के मोलों की संख्या है:",
+     "o": [
+      "30",
+      "40",
+      "10",
+      "20"
+     ],
+     "sol": "<p>N₂(g) + 3H₂(g) → 2NH₃(g)। मोल अनुपात H₂ : NH₃ = 3 : 2।</p><p>आवश्यक H₂ = 20 × 3/2 = <b>30 mol</b>।</p>",
+     "hint": "मोल अनुपात सीधे संतुलित समीकरण से पढ़ें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -800,8 +891,18 @@
      "trap": "Treating all 20 g as CaCO₃ gives 8.8 g of CO₂, which is five times too much. The impurity does not release CO₂."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "20% शुद्ध चूना पत्थर के 20 g को गर्म करने पर बनने वाली CO<sub>2</sub> के द्रव्यमान के लिए सही विकल्प है (Ca का परमाणु द्रव्यमान = 40)<br>[CaCO<sub>3</sub> —1200 K→ CaO + CO<sub>2</sub>]",
+     "o": [
+      "1.32 g",
+      "1.12 g",
+      "1.76 g",
+      "2.64 g"
+     ],
+     "sol": "<p>केवल शुद्ध भाग अभिक्रिया करता है: 20 g का 20% = 4 g CaCO₃ = 4/100 = 0.04 mol।</p><p>1 mol CaCO₃ → 1 mol CO₂, अतः CO₂ = 0.04 × 44 = <b>1.76 g</b>।</p>",
+     "hint": "पहले शुद्धता लगाएँ, फिर 1 : 1 मोल अनुपात।",
+     "trap": "पूरे 20 g को CaCO₃ मानने पर 8.8 g CO₂ आता है, जो पाँच गुना अधिक है। अशुद्धि CO₂ नहीं देती।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -858,8 +959,17 @@
      "hint": "Coke is a solid, so only CO₂ and CO count towards the gas volume."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "जब 1 dm<sup>3</sup> CO<sub>2</sub> गैस को गर्म कोक पर प्रवाहित किया जाता है, तो पूर्ण अभिक्रिया के बाद STP पर गैसीय मिश्रण का आयतन 1.4 dm<sup>3</sup> हो जाता है। STP पर गैसीय मिश्रण का संघटन है:",
+     "o": [
+      "0.6 dm<sup>3</sup> CO, 0.8 dm<sup>3</sup> CO<sub>2</sub>",
+      "0.8 dm<sup>3</sup> CO, 0.8 dm<sup>3</sup> CO<sub>2</sub>",
+      "0.6 dm<sup>3</sup> CO, 0.4 dm<sup>3</sup> CO<sub>2</sub>",
+      "0.8 dm<sup>3</sup> CO, 0.6 dm<sup>3</sup> CO<sub>2</sub>"
+     ],
+     "sol": "<p>CO₂(g) + C(s) → 2CO(g)। समान T और p पर गैसों के आयतन उसी अनुपात में होते हैं जिसमें उनके मोल।</p><p>यदि x dm³ CO₂ अभिक्रिया करती है, तो 2x dm³ CO बनती है: कुल = (1 − x) + 2x = 1 + x = 1.4 → x = 0.4।</p><p>CO = 0.8 dm³, शेष CO₂ = 0.6 dm³।</p>",
+     "hint": "कोक ठोस है, अतः गैस के आयतन में केवल CO₂ और CO गिने जाते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -910,8 +1020,17 @@
      "hint": "Moles of HCl = molarity × volume in litres; compare with moles of NaOH."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "1 ग्राम सोडियम हाइड्रॉक्साइड को 0.75 M HCl विलयन के 25 mL के साथ उपचारित किया गया, अभिक्रिया किए बिना बचे सोडियम हाइड्रॉक्साइड का द्रव्यमान है",
+     "o": [
+      "750 mg",
+      "250 mg",
+      "शून्य mg",
+      "200 mg"
+     ],
+     "sol": "<p>NaOH = 1/40 = 0.025 mol। HCl = 0.025 L × 0.75 M = 0.01875 mol।</p><p>NaOH + HCl → NaCl + H₂O (1 : 1), अतः HCl <b>सीमांत अभिकर्मक</b> है।</p><p>शेष NaOH = 0.025 − 0.01875 = 0.00625 mol × 40 = 0.25 g = <b>250 mg</b>।</p>",
+     "hint": "HCl के मोल = मोलरता × लीटर में आयतन; इनकी तुलना NaOH के मोलों से करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -973,8 +1092,17 @@
      "hint": "Which term has a volume in it?"
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन ताप पर निर्भर है?",
+     "o": [
+      "मोललता",
+      "मोलरता",
+      "मोल-अंश",
+      "द्रव्यमान प्रतिशत"
+     ],
+     "sol": "<p>मोलरता = प्रति <b>लीटर विलयन</b> मोल। ताप के साथ आयतन फैलता या सिकुड़ता है, अतः मोलरता बदलती है।</p><p>मोललता, मोल-अंश और द्रव्यमान % में केवल द्रव्यमान या मोलों की संख्या आती है, जो ताप के साथ नहीं बदलते।</p>",
+     "hint": "किस पद में आयतन आता है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1032,8 +1160,18 @@
      "trap": "500 mL looks tempting, but molality never uses volume."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "एक मोलल विलयन, जिसमें विलेय का 0.5 मोल है, में होता है",
+     "o": [
+      "500 g विलायक",
+      "100 mL विलायक",
+      "1000 g विलायक",
+      "500 mL विलायक"
+     ],
+     "sol": "<p>मोललता = विलेय के मोल ÷ विलायक के kg → 1 = 0.5 ÷ W, अतः W = 0.5 kg = <b>500 g विलायक</b>।</p>",
+     "hint": "मोललता प्रति kg विलायक होती है, यानी द्रव्यमान, आयतन नहीं।",
+     "trap": "500 mL आकर्षक लगता है, पर मोललता में आयतन कभी नहीं आता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1085,8 +1223,18 @@
      "trap": "1.25 g is the pure mass; forgetting the 95% purity gives that option."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "निम्नलिखित अभिक्रिया के अनुसार 0.5 M HCl विलयन के 50 mL को उदासीन करने के लिए 95% शुद्ध CaCO<sub>3</sub> के कितने द्रव्यमान की आवश्यकता होगी?<br>CaCO<sub>3</sub>(s) + 2HCl(aq) → CaCl<sub>2</sub>(aq) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l)<br>[दशमलव के दूसरे स्थान तक परिकलन करें]",
+     "o": [
+      "1.32 g",
+      "3.65 g",
+      "9.50 g",
+      "1.25 g"
+     ],
+     "sol": "<p>HCl = 0.050 L × 0.5 M = 0.025 mol → आवश्यक CaCO₃ = 0.025/2 = 0.0125 mol = 1.25 g (शुद्ध)।</p><p>नमूना केवल 95% शुद्ध है: 1.25 ÷ 0.95 = 1.316 g ≈ <b>1.32 g</b>।</p>",
+     "hint": "मोलरता × आयतन → HCl के मोल → आधा → द्रव्यमान → शुद्धता से भाग।",
+     "trap": "1.25 g शुद्ध द्रव्यमान है; 95% शुद्धता भूल जाने पर यही विकल्प आता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1145,8 +1293,17 @@
      "note": "Statements C and D come from Class 12 Unit 1 (Solutions, Henry's law)."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "सही कथनों को पहचानिए:<br>(A) 75 g बेन्जीन विलयन में 2.5 g एथेनॉइक अम्ल (मोलर द्रव्यमान: 60 g mol<sup>−1</sup>) की मोललता 0.556 m है।<br>(B) 450 mL विलयन में 5 g NaOH (मोलर द्रव्यमान: 40 g mol<sup>−1</sup>) वाले विलयन की मोलरता 298 K पर 0.278 M है।<br>(C) जलीय स्पीशीज़ ठंडे जल में अधिक सहज रहती हैं।<br>(D) दाब में कमी के साथ गैस की विलेयता बढ़ती है।<br>(E) A और B के एक द्विअंगी मिश्रण में A और B के मोलों की संख्या क्रमशः n<sub>A</sub> और n<sub>B</sub> है। B का मोल-अंश x<sub>B</sub> = n<sub>A</sub>/(n<sub>A</sub> + n<sub>B</sub>) होगा।",
+     "o": [
+      "केवल A, B और C",
+      "केवल A, D और E",
+      "केवल A और B",
+      "केवल A और C"
+     ],
+     "sol": "<ul><li><b>A ✓</b> 2.5/60 = 0.0417 mol ÷ 0.075 kg = 0.556 m</li><li><b>B ✓</b> 5/40 = 0.125 mol ÷ 0.450 L = 0.278 M</li><li><b>C ✓</b> कम ताप पर गैसें अधिक घुलती हैं, अतः ठंडे जल में अधिक O₂ रहती है</li><li><b>D ✗</b> दाब बढ़ने पर गैस की विलेयता <i>बढ़ती</i> है (हेनरी का नियम)</li><li><b>E ✗</b> x<sub>B</sub> = n<sub>B</sub>/(n<sub>A</sub> + n<sub>B</sub>); अंश में B के मोल होने चाहिए</li></ul>",
+     "hint": "A और B को संख्यात्मक रूप से जाँचें; E परिभाषा की जाँच है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1206,8 +1363,11 @@
      "hint": "Assume 100 g of solution; use density to get its volume."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "HNO<sub>3</sub> का एक विलयन दिया है जिसका घनत्व 1.4 g/mL है और जो 63% w/w है। HNO<sub>3</sub> विलयन की मोलरता ज्ञात कीजिए।",
+     "sol": "<p>100 g विलयन लें: 63 g HNO₃ = 63/63 = 1 mol।</p><p>100 g विलयन का आयतन = 100 ÷ 1.4 = 71.4 mL = 0.0714 L।</p><p>मोलरता = 1 ÷ 0.0714 = <b>14 M</b>। (संक्षिप्त विधि: M = 10 × d × w% ÷ मोलर द्रव्यमान = 10 × 1.4 × 63 ÷ 63 = 14।)</p>",
+     "hint": "100 g विलयन मानें; घनत्व से उसका आयतन निकालें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1263,8 +1423,12 @@
      "trap": "You need histamine's formula (C₅H₉N₃); the arithmetic is the easy part."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "हिस्टैमिन में द्रव्यमान से नाइट्रोजन का प्रतिशत ज्ञात कीजिए?",
+     "sol": "<p>हिस्टैमिन C₅H₉N₃ है (इमिडेज़ोल वलय जिसमें –CH₂CH₂NH₂ पार्श्व शृंखला है): मोलर द्रव्यमान = 5(12) + 9(1) + 3(14) = 111 g mol⁻¹।</p><p>% N = 42 ÷ 111 × 100 = <b>37.84%</b>।</p>",
+     "hint": "पहले आण्विक सूत्र लिखें, फिर N का द्रव्यमान ÷ मोलर द्रव्यमान × 100।",
+     "trap": "आपको हिस्टैमिन का सूत्र (C₅H₉N₃) पता होना चाहिए; गणित आसान भाग है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1319,8 +1483,17 @@
      "hint": "Write both balanced equations and compare mol H₂ per mol Zn."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "5 g Zn (I) NaOH के आधिक्य (II) तनु HCl के साथ अभिक्रिया करता है, तब (I) और (II) में निकली H<sub>2</sub> गैस के आयतनों का अनुपात है",
+     "o": [
+      "2 : 1",
+      "1 : 2",
+      "1 : 1",
+      "3 : 1"
+     ],
+     "sol": "<p>Zn + 2NaOH → Na₂ZnO₂ + H₂ और Zn + 2HCl → ZnCl₂ + H₂।</p><p>दोनों में 1 mol Zn से 1 mol H₂ बनती है, अतः समान 5 g Zn से H₂ का समान आयतन मिलता है: अनुपात <b>1 : 1</b>।</p>",
+     "hint": "दोनों संतुलित समीकरण लिखें और प्रति mol Zn बनने वाली H₂ के mol की तुलना करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1368,8 +1541,11 @@
      "hint": "Mass ratios → mole ratio → empirical formula → a real saturated molecule → balance combustion."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "एक संतृप्त अचक्रीय कार्बनिक यौगिक 'X' में 'C और H' तथा 'C और O' के द्रव्यमान प्रतिशतों के अनुपात क्रमशः 4 : 1 और 3 : 4 हैं। तब कार्बनिक यौगिक 'X' के दो मोल के पूर्ण दहन के लिए आवश्यक ऑक्सीजन गैस के मोल ____ हैं।",
+     "sol": "<p>द्रव्यमान अनुपात C : H : O = 12 : 3 : 16 (C : H = 4 : 1 और C : O = 3 : 4)। मोल अनुपात = 1 : 3 : 1, अतः मूलानुपाती सूत्र CH₃O है।</p><p>इस अनुपात वाला संतृप्त अचक्रीय यौगिक C₂H₆O₂ (एथिलीन ग्लाइकॉल) है।</p><p>2C₂H₆O₂ + 5O₂ → 4CO₂ + 6H₂O, अतः 2 mol X के लिए <b>5 mol O₂</b> चाहिए।</p>",
+     "hint": "द्रव्यमान अनुपात → मोल अनुपात → मूलानुपाती सूत्र → एक वास्तविक संतृप्त अणु → दहन समीकरण संतुलित करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1424,8 +1600,11 @@
      "hint": "Pick 1 mol total and turn the moles into grams."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "एक जलीय द्विअंगी विलयन में ग्लूकोस (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) का मोल-अंश 0.1 है। इसमें जल का द्रव्यमान प्रतिशत, निकटतम पूर्णांक तक, ____ है।",
+     "sol": "<p>कुल 1 mol लें: 0.1 mol ग्लूकोस (18 g) और 0.9 mol जल (16.2 g)।</p><p>जल का द्रव्यमान % = 16.2 ÷ 34.2 × 100 = 47.4 ≈ <b>47</b>।</p>",
+     "hint": "कुल 1 mol चुनें और मोलों को ग्राम में बदलें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1480,8 +1659,11 @@
      "hint": "Number of molecules → moles → molar mass."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "किसी पदार्थ 'x' के 10 g में 6.023 × 10<sup>22</sup> अणु उपस्थित हैं। 2 L विलयन में पदार्थ 'x' के 5 g वाले विलयन की मोलरता ____ × 10<sup>−3</sup> है।",
+     "sol": "<p>6.023 × 10²² अणु = 0.1 mol, अतः 10 g में 0.1 mol है और मोलर द्रव्यमान 100 g mol⁻¹ है।</p><p>2 L में 5 g = 0.05 mol → 0.025 M = <b>25</b> × 10⁻³ M।</p>",
+     "hint": "अणुओं की संख्या → मोल → मोलर द्रव्यमान।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1536,8 +1718,11 @@
      "hint": "O₂ for CₓHᵧ = x + y/4 per mole."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "1 मोल प्रोपेन और 2 मोल ब्यूटेन के पूर्ण दहन के लिए आवश्यक O<sub>2</sub> के मोलों की न्यूनतम संख्या ____ है।",
+     "sol": "<p>C₃H₈ + 5O₂ → 3CO₂ + 4H₂O: 1 mol प्रोपेन के लिए 5 mol O₂।</p><p>C₄H₁₀ + 13/2 O₂ → 4CO₂ + 5H₂O: 2 mol ब्यूटेन के लिए 13 mol O₂।</p><p>कुल = <b>18 mol</b>।</p>",
+     "hint": "CₓHᵧ के लिए O₂ = प्रति मोल x + y/4।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1592,8 +1777,17 @@
      "hint": "Choose 1 mol of solution; find its mass, then its volume from d."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "दो घटकों का एक विलयन बनाया जाता है जिसमें पहले घटक के n<sub>1</sub> मोल और दूसरे घटक के n<sub>2</sub> मोल हैं। M<sub>1</sub> और M<sub>2</sub> क्रमशः घटक 1 और 2 के अणुभार हैं। यदि d विलयन का g mL<sup>−1</sup> में घनत्व है, C<sub>2</sub> मोलरता है और x<sub>2</sub> दूसरे घटक का मोल-अंश है, तो C<sub>2</sub> को इस प्रकार व्यक्त किया जा सकता है:",
+     "o": [
+      "C<sub>2</sub> = 1000x<sub>2</sub> / [M<sub>1</sub> + x<sub>2</sub>(M<sub>2</sub> − M<sub>1</sub>)]",
+      "C<sub>2</sub> = dx<sub>2</sub> / [M<sub>2</sub> + x<sub>2</sub>(M<sub>2</sub> − M<sub>1</sub>)]",
+      "C<sub>2</sub> = dx<sub>1</sub> / [M<sub>2</sub> + x<sub>2</sub>(M<sub>2</sub> − M<sub>1</sub>)]",
+      "C<sub>2</sub> = 1000dx<sub>2</sub> / [M<sub>1</sub> + x<sub>2</sub>(M<sub>2</sub> − M<sub>1</sub>)]"
+     ],
+     "sol": "<p>कुल 1 mol विलयन लें: घटक 2 के x₂ mol और घटक 1 के x₁ = 1 − x₂ mol।</p><p>द्रव्यमान = x₁M₁ + x₂M₂ = M₁ + x₂(M₂ − M₁) g, अतः आयतन = [M₁ + x₂(M₂ − M₁)] ÷ d mL।</p><p>C₂ = x₂ ÷ (L में आयतन) = <b>1000 d x₂ / [M₁ + x₂(M₂ − M₁)]</b>।</p>",
+     "hint": "1 mol विलयन चुनें; उसका द्रव्यमान, फिर d से उसका आयतन निकालें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1647,8 +1841,11 @@
      "hint": "Pick the concordant reading; oxalic acid is dibasic (1 : 2)."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "1.25 M ऑक्सैलिक अम्ल विलयन के विरुद्ध NaOH विलयन के अनुमापन पर विचार कीजिए। अंत्यबिंदु पर ब्यूरेट के निम्नलिखित पाठ्यांक प्राप्त हुए: (i) 4.5 mL (ii) 4.5 mL (iii) 4.4 mL (iv) 4.4 mL (v) 4.4 mL। यदि लिए गए ऑक्सैलिक अम्ल का आयतन 10.0 mL था, तो NaOH विलयन की मोलरता ____ M है। (निकटतम पूर्णांक तक)",
+     "sol": "<p>सुसंगत पाठ्यांक (concordant reading) 4.4 mL लें (यह तीन बार आया है)।</p><p>H₂C₂O₄ + 2NaOH → Na₂C₂O₄ + 2H₂O। ऑक्सैलिक अम्ल = 1.25 × 10.0 = 12.5 mmol, अतः NaOH = 25 mmol।</p><p>M(NaOH) = 25 ÷ 4.4 = 5.7 ≈ <b>6 M</b>।</p>",
+     "hint": "सुसंगत पाठ्यांक चुनें; ऑक्सैलिक अम्ल द्विक्षारकी है (1 : 2)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1703,8 +1900,11 @@
      "hint": "Start from 1 kg of solvent (molality), add solute mass, divide by density."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "KOH (aq.) के 6.50 मोलल विलयन का घनत्व 1.89 g cm<sup>−3</sup> है। विलयन की मोलरता ____ mol dm<sup>−3</sup> है। (निकटतम पूर्णांक तक) [परमाणु द्रव्यमान: K: 39.0 u; O: 16.0 u; H: 1.0 u]",
+     "sol": "<p>1000 g जल में 6.50 mol KOH = 6.50 × 56 = 364 g है। विलयन का द्रव्यमान = 1364 g → आयतन = 1364 ÷ 1.89 = 721.7 mL।</p><p>मोलरता = 6.50 ÷ 0.7217 = 9.0 ≈ <b>9</b>।</p>",
+     "hint": "1 kg विलायक (मोललता) से शुरू करें, विलेय का द्रव्यमान जोड़ें, घनत्व से भाग दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1759,8 +1959,11 @@
      "hint": "Molality fixes moles of solute per 1000 g of water."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "100 मोलल जलीय विलयन में विलेय का मोल-अंश ____ × 10<sup>−2</sup> है। (निकटतम पूर्णांक तक) [दिया है: परमाणु द्रव्यमान: H: 1.0 u, O: 16.0 u]",
+     "sol": "<p>100 मोलल: 1000 g जल (= 55.56 mol जल) में 100 mol विलेय।</p><p>x(विलेय) = 100 ÷ (100 + 55.56) = 0.643 = <b>64</b> × 10⁻²।</p>",
+     "hint": "मोललता प्रति 1000 g जल में विलेय के मोल तय करती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1816,8 +2019,12 @@
      "trap": "Forgetting the factor of 2 gives 0.53 × 10²¹."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "STP पर 20 mL क्लोरीन गैस में क्लोरीन परमाणुओं की संख्या ____ × 10<sup>21</sup> है। (निकटतम पूर्णांक तक) [मान लीजिए कि STP पर क्लोरीन आदर्श गैस है; R = 0.083 L bar mol<sup>−1</sup> K<sup>−1</sup>, N<sub>A</sub> = 6.023 × 10<sup>23</sup>]",
+     "sol": "<p>STP (1 bar, 273 K) पर: n = pV/RT = (1 × 0.020) ÷ (0.083 × 273) = 8.83 × 10⁻⁴ mol Cl₂।</p><p>Cl परमाणु = 2 × 8.83 × 10⁻⁴ × 6.023 × 10²³ = 1.06 × 10²¹ ≈ <b>1</b> × 10²¹।</p>",
+     "hint": "पहले Cl₂ के मोल; फिर याद रखें कि हर अणु में 2 परमाणु हैं।",
+     "trap": "2 का गुणक भूलने पर 0.53 × 10²¹ आता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1871,8 +2078,11 @@
      "hint": "Count H: 6 H in ethane → 3 H₂O."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "3 g एथेन के पूर्ण दहन से जल के x × 10<sup>22</sup> अणु बनते हैं। x का मान ____ है। (निकटतम पूर्णांक तक) [प्रयोग करें: N<sub>A</sub> = 6.023 × 10<sup>23</sup>; u में परमाणु द्रव्यमान: C: 12.0; O: 16.0; H: 1.0]",
+     "sol": "<p>3 g C₂H₆ = 0.1 mol। हर C₂H₆ से 3 H₂O बनते हैं, अतः 0.3 mol H₂O।</p><p>अणु = 0.3 × 6.023 × 10²³ = 18.07 × 10²² → <b>18</b>।</p>",
+     "hint": "H गिनें: एथेन में 6 H → 3 H₂O।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1921,8 +2131,11 @@
      "hint": "Theoretical yield from the 1 : 1 mole ratio, then actual ÷ theoretical."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "C<sub>6</sub>H<sub>5</sub>COOH + Br<sub>2</sub> —FeBr<sub>3</sub>→ m-BrC<sub>6</sub>H<sub>4</sub>COOH + HBr। ऊपर दी गई अभिक्रिया पर विचार कीजिए जिसमें 6.1 g बेन्ज़ोइक अम्ल से 7.8 g m-ब्रोमोबेन्ज़ोइक अम्ल प्राप्त होता है। उत्पाद की प्रतिशत लब्धि (percentage yield) ____ है। (निकटतम पूर्णांक तक) [दिया है: परमाणु द्रव्यमान: C = 12.0 u, H: 1.0 u, O: 16.0 u, Br = 80.0 u]",
+     "sol": "<p>6.1 g बेन्ज़ोइक अम्ल (122 g mol⁻¹) = 0.05 mol → सैद्धांतिक रूप से 0.05 mol m-ब्रोमोबेन्ज़ोइक अम्ल (201 g mol⁻¹) = 10.05 g।</p><p>% लब्धि = 7.8 ÷ 10.05 × 100 = 77.6 ≈ <b>78</b>।</p>",
+     "hint": "1 : 1 मोल अनुपात से सैद्धांतिक लब्धि, फिर वास्तविक ÷ सैद्धांतिक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1971,8 +2184,11 @@
      "hint": "Use the repeated (concordant) reading and the 1 : 2 ratio."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "Na<sub>2</sub>CO<sub>3</sub> विलयन के 10.0 mL का 0.2 M HCl विलयन के विरुद्ध अनुमापन किया जाता है। 5 पाठ्यांकों में निम्नलिखित अनुमापन मान प्राप्त हुए: 4.8 mL, 4.9 mL, 5.0 mL, 5.0 mL और 5.0 mL। इन पाठ्यांकों और अनुमापनी आकलन की परिपाटी के आधार पर Na<sub>2</sub>CO<sub>3</sub> विलयन की सांद्रता ____ mM है। (निकटतम पूर्णांक तक)",
+     "sol": "<p>सुसंगत अनुमापन मान = 5.0 mL। Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂।</p><p>HCl = 0.2 × 5.0 = 1.0 mmol → Na₂CO₃ = 10.0 mL में 0.5 mmol → 0.05 M = <b>50 mM</b>।</p>",
+     "hint": "बार-बार आए (सुसंगत) पाठ्यांक और 1 : 2 अनुपात का प्रयोग करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2027,8 +2243,11 @@
      "hint": "How many CH₃ groups does the quaternary salt carry?"
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "0.1 मोल बेन्ज़ाइलऐमीन की ब्रोमोमेथेन के साथ अभिक्रिया से 23 g बेन्ज़ाइल ट्राइमेथिल अमोनियम ब्रोमाइड प्राप्त हुआ। इस अभिक्रिया में खर्च हुई ब्रोमोमेथेन के मोलों की संख्या n × 10<sup>−1</sup> है, जब n = ____। (निकटतम पूर्णांक तक) (दिया है: परमाणु द्रव्यमान: C: 12.0 u, H: 1.0 u, N: 14.0 u, Br: 80.0 u)",
+     "sol": "<p>C₆H₅CH₂NH₂ + 3CH₃Br → C₆H₅CH₂N(CH₃)₃⁺Br⁻ + 2HBr: तीन मेथिल समूह N पर जुड़ते हैं।</p><p>उत्पाद C₁₀H₁₆NBr = 230 g mol⁻¹, अतः 23 g = 0.1 mol, जिसके लिए 0.3 mol CH₃Br चाहिए → n = <b>3</b>।</p>",
+     "hint": "चतुष्क अमोनियम लवण पर कितने CH₃ समूह हैं?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2080,8 +2299,11 @@
      "hint": "Moles = M × V(L) for each; subtract."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "0.5 M NaOH के 250 mL को 1 M HCl के 500 mL में मिलाया गया। पूर्ण अभिक्रिया के बाद विलयन में अभिक्रिया न किए HCl अणुओं की संख्या ____ × 10<sup>21</sup> है। (निकटतम पूर्णांक) (N<sub>A</sub> = 6.022 × 10<sup>23</sup>)",
+     "sol": "<p>NaOH = 0.125 mol, HCl = 0.500 mol (1 : 1)। NaOH सीमांत अभिकर्मक है।</p><p>शेष HCl = 0.375 mol × 6.022 × 10²³ = 2.258 × 10²³ = <b>226</b> × 10²¹।</p>",
+     "hint": "हर एक के लिए मोल = M × V(L); घटाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2136,8 +2358,11 @@
      "hint": "Zeros before the first non-zero digit don't count; trailing zeros after a decimal point do."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "0.00340 में सार्थक अंकों की संख्या ____ है।",
+     "sol": "<p>आगे के शून्य (0.00) केवल दशमलव की स्थिति बताते हैं और सार्थक नहीं होते। अंक 3, 4 और दशमलव के बाद अंत में आया 0 सार्थक हैं: <b>3</b>।</p>",
+     "hint": "प्रथम गैर-शून्य अंक से पहले आने वाले शून्य नहीं गिने जाते; दशमलव के बाद अंत में आने वाले शून्य गिने जाते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2186,8 +2411,11 @@
      "hint": "Molality → 1 kg solvent; add solute; volume from density."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "घनत्व 1.20 g mL<sup>−1</sup> वाले एक जलीय KCl विलयन की मोललता 3.30 mol kg<sup>−1</sup> है। विलयन की mol L<sup>−1</sup> में मोलरता ____ है (निकटतम पूर्णांक) [KCl का मोलर द्रव्यमान = 74.5]",
+     "sol": "<p>1000 g जल + 3.30 × 74.5 = 245.9 g KCl → 1245.9 g विलयन → 1245.9 ÷ 1.20 = 1038 mL।</p><p>मोलरता = 3.30 ÷ 1.038 = 3.18 ≈ <b>3</b>।</p>",
+     "hint": "मोललता → 1 kg विलायक; विलेय जोड़ें; घनत्व से आयतन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2242,8 +2470,11 @@
      "hint": "Find the limiting reagent, then list every species left at the end."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "100 g प्रोपेन की 1000 g ऑक्सीजन के साथ पूर्ण अभिक्रिया कराई जाती है। परिणामी मिश्रण में कार्बन डाइऑक्साइड का मोल-अंश x × 10<sup>−2</sup> है। x का मान ____ है। (निकटतम पूर्णांक) [परमाणु भार: H = 1.008; C = 12.00; O = 16.00]",
+     "sol": "<p>C₃H₈ + 5O₂ → 3CO₂ + 4H₂O। प्रोपेन = 100 ÷ 44.06 = 2.27 mol; O₂ = 31.25 mol (केवल 11.35 चाहिए), अतः प्रोपेन सीमांत अभिकर्मक है।</p><p>अंत में: CO₂ 6.81 mol, H₂O 9.08 mol, शेष O₂ 19.90 mol (कुल 35.79 mol)।</p><p>x(CO₂) = 6.81 ÷ 35.79 = 0.19 → <b>19</b>।</p><p class='errata'>NTA का उत्तर मिश्रण में जल को भी गिनता है। यदि जल को द्रव मानकर छोड़ दिया जाए, तो x(CO₂) 0.25 होगा।</p>",
+     "hint": "सीमांत अभिकर्मक ज्ञात करें, फिर अंत में बची हर स्पीशीज़ की सूची बनाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2299,8 +2530,11 @@
      "hint": "Moles of compound × atoms of N per molecule × N<sub>A</sub>."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "681 g C<sub>7</sub>H<sub>5</sub>N<sub>3</sub>O<sub>6</sub> में N परमाणुओं की संख्या x × 10<sup>21</sup> है। x का मान ____ है। (N<sub>A</sub> = 6.02 × 10<sup>23</sup> mol<sup>−1</sup>) (निकटतम पूर्णांक)",
+     "sol": "<p>मोलर द्रव्यमान = 7(12) + 5(1) + 3(14) + 6(16) = 227 g mol⁻¹, अतः 681 g = 3 mol।</p><p>N परमाणु = 3 × 3 × 6.02 × 10²³ = 5.418 × 10²⁴ = <b>5418</b> × 10²¹।</p>",
+     "hint": "यौगिक के मोल × प्रति अणु N परमाणु × N<sub>A</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2355,8 +2589,17 @@
      "hint": "Mass of 1 L from density, then take 35% of it."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "व्यावसायिक रूप से बिकने वाला सांद्र HCl द्रव्यमान से 35% HCl है। यदि इस व्यावसायिक अम्ल का घनत्व 1.46 g/mL है, तो इस विलयन की मोलरता है: (परमाणु द्रव्यमान: Cl = 35.5 amu, H = 1 amu)",
+     "o": [
+      "10.2 M",
+      "12.5 M",
+      "14.0 M",
+      "18.2 M"
+     ],
+     "sol": "<p>1 L अम्ल का द्रव्यमान 1460 g है, जिसका 35% = 511 g HCl है = 511 ÷ 36.5 = 14.0 mol।</p><p>मोलरता = <b>14.0 M</b>।</p>",
+     "hint": "घनत्व से 1 L का द्रव्यमान, फिर उसका 35% लें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2410,8 +2653,11 @@
      "hint": "Divide each reactant's moles by its coefficient; the smaller one limits."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "CNG (संपीडित प्राकृतिक गैस) एक महत्त्वपूर्ण परिवहन ईंधन है। जब वाहनों में 100 g CNG को 208 g ऑक्सीजन के साथ मिलाया जाता है, तो CO<sub>2</sub> और H<sub>2</sub>O बनते हैं और इस दहन में बड़ी मात्रा में ऊष्मा उत्पन्न होती है, तब बनी कार्बन डाइऑक्साइड की ग्राम में मात्रा ____ है। [निकटतम पूर्णांक] [CNG को मेथेन मानें]",
+     "sol": "<p>CH₄ + 2O₂ → CO₂ + 2H₂O। CH₄ = 100 ÷ 16 = 6.25 mol; O₂ = 208 ÷ 32 = 6.5 mol, जो केवल 3.25 mol CH₄ के लिए पर्याप्त है, अतः O₂ सीमांत अभिकर्मक है।</p><p>CO₂ = 3.25 mol × 44 = <b>143 g</b>।</p>",
+     "hint": "हर अभिकारक के मोलों को उसके गुणांक से भाग दें; जो छोटा हो वही सीमांत है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2465,8 +2711,11 @@
      "hint": "1 mol CH₄ gives 2 mol H₂O."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "पूर्ण दहन के बाद 81 g जल बनाने के लिए आवश्यक मेथेन के मोल ____ × 10<sup>−2</sup> mol हैं। [निकटतम पूर्णांक]",
+     "sol": "<p>CH₄ + 2O₂ → CO₂ + 2H₂O। 81 g H₂O = 4.5 mol, अतः CH₄ = 4.5 ÷ 2 = 2.25 mol = <b>225</b> × 10⁻² mol।</p>",
+     "hint": "1 mol CH₄ से 2 mol H₂O बनता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2521,8 +2770,17 @@
      "hint": "Which concentration terms use only masses?"
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया है।<br>अभिकथन (A): 10°C पर KCl के 5M विलयन का घनत्व [K और Cl के परमाणु द्रव्यमान 39 और 35.5 g mol<sup>−1</sup> हैं]। विलयन को −21°C तक ठंडा किया जाता है। विलयन की मोललता अपरिवर्तित रहेगी।<br>कारण (R): ताप के साथ विलयन की मोललता नहीं बदलती क्योंकि ताप से द्रव्यमान प्रभावित नहीं होता।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है",
+      "(A) और (R) दोनों सही हैं परंतु (R), (A) की सही व्याख्या नहीं है",
+      "(A) सही है परंतु (R) गलत है",
+      "(A) गलत है परंतु (R) सही है"
+     ],
+     "sol": "<p>मोललता प्रति kg विलायक में विलेय के मोल है। ठंडा करने पर आयतन बदलते हैं, द्रव्यमान नहीं, अतः मोललता वही रहती है। कारण ठीक वही बताता है जिससे अभिकथन सही है: <b>दोनों सही, R, A की व्याख्या करता है</b>।</p>",
+     "hint": "किन सांद्रता पदों में केवल द्रव्यमान आते हैं?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2581,8 +2839,17 @@
      "hint": "Compare moles available with the 1 : 4 ratio."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "वात्या भट्ठी में आयरन का उत्पादन निम्नलिखित समीकरण के अनुसार होता है: Fe<sub>3</sub>O<sub>4</sub>(s) + 4CO(g) → 3Fe(l) + 4CO<sub>2</sub>(g)। जब 4.640 kg Fe<sub>3</sub>O<sub>4</sub> और 2.520 kg CO को अभिक्रिया करने दिया जाता है, तो बने आयरन की मात्रा (g में) है: [दिया है: मोलर परमाणु द्रव्यमान (g mol<sup>−1</sup>): O = 16, Fe = 56, C = 12]",
+     "o": [
+      "1400",
+      "2200",
+      "3360",
+      "4200"
+     ],
+     "sol": "<p>Fe₃O₄ = 4640 ÷ 232 = 20 mol (इसके लिए 80 mol CO चाहिए); CO = 2520 ÷ 28 = 90 mol। Fe₃O₄ सीमांत अभिकर्मक है।</p><p>Fe = 3 × 20 = 60 mol × 56 = <b>3360 g</b>।</p>",
+     "hint": "उपलब्ध मोलों की तुलना 1 : 4 अनुपात से करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2641,8 +2908,17 @@
      "hint": "Count significant figures in each number; the smallest count wins."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "सार्थक अंकों के नियमों का प्रयोग करते हुए, व्यंजक (0.02858 × 0.112) / 0.5702 का सही उत्तर होगा",
+     "o": [
+      "0.005613",
+      "0.00561",
+      "0.0056",
+      "0.006"
+     ],
+     "sol": "<p>0.02858 × 0.112 ÷ 0.5702 = 0.0056138…</p><p>गुणन/भाग में उत्तर में उतने ही सार्थक अंक रखे जाते हैं जितने सबसे कम परिशुद्ध संख्या में हैं: 0.112 में 3 हैं, अतः उत्तर <b>0.00561</b> है।</p>",
+     "hint": "हर संख्या के सार्थक अंक गिनें; सबसे कम संख्या लागू होती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2696,8 +2972,17 @@
      "hint": "Count acidic H⁺ produced per SO₂Cl₂."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "SO<sub>2</sub>Cl<sub>2</sub> जल के आधिक्य के साथ अभिक्रिया करके अम्लीय मिश्रण बनाता है: SO<sub>2</sub>Cl<sub>2</sub> + 2H<sub>2</sub>O → H<sub>2</sub>SO<sub>4</sub> + 2HCl। परिणामी अम्लीय मिश्रण के पूर्ण उदासीनीकरण के लिए 16 मोल NaOH की आवश्यकता होती है। प्रयुक्त SO<sub>2</sub>Cl<sub>2</sub> के मोलों की संख्या है:",
+     "o": [
+      "16",
+      "8",
+      "4",
+      "2"
+     ],
+     "sol": "<p>1 mol SO₂Cl₂ से 1 mol H₂SO₄ (2 H⁺) + 2 mol HCl (2 H⁺) = 4 mol H⁺ बनते हैं, जिनके लिए 4 mol NaOH चाहिए।</p><p>16 mol NaOH ÷ 4 = <b>4 mol</b> SO₂Cl₂।</p>",
+     "hint": "प्रति SO₂Cl₂ बनने वाले अम्लीय H⁺ गिनें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2745,8 +3030,11 @@
      "hint": "Gas volumes follow the coefficients (1 N₂ : 2 NH₃)."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "56.0 L नाइट्रोजन गैस को हाइड्रोजन गैस के आधिक्य के साथ मिलाया जाता है और पाया जाता है कि 20 L अमोनिया गैस बनती है। अप्रयुक्त नाइट्रोजन गैस का आयतन ____ L पाया जाता है।",
+     "sol": "<p>N₂ + 3H₂ → 2NH₃। समान परिस्थितियों में आयतन मोल अनुपात में होते हैं, अतः 20 L NH₃ बनाने में 10 L N₂ लगी।</p><p>अप्रयुक्त N₂ = 56.0 − 10 = <b>46 L</b>।</p>",
+     "hint": "गैसों के आयतन गुणांकों के अनुसार चलते हैं (1 N₂ : 2 NH₃)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2800,8 +3088,11 @@
      "hint": "Track moles of HNO₃, then divide by the new volume."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "जब 0.5 M नाइट्रिक अम्ल के 800 mL को एक बीकर में गर्म किया जाता है, तो उसका आयतन घटकर आधा रह जाता है और 11.5 g नाइट्रिक अम्ल वाष्पित हो जाता है। शेष नाइट्रिक अम्ल विलयन की मोलरता x × 10<sup>−2</sup> M है। (निकटतम पूर्णांक) (नाइट्रिक अम्ल का मोलर द्रव्यमान 63 g mol<sup>−1</sup> है)",
+     "sol": "<p>प्रारंभिक HNO₃ = 0.8 × 0.5 = 0.40 mol; निकला 11.5 ÷ 63 = 0.183 mol; 0.400 L में शेष 0.217 mol।</p><p>मोलरता = 0.544 M = <b>54</b> × 10⁻² M।</p>",
+     "hint": "HNO₃ के मोलों का हिसाब रखें, फिर नए आयतन से भाग दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2856,8 +3147,17 @@
      "hint": "Mass of Fe from the percentage, then moles × N<sub>A</sub>."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "हीमोग्लोबिन में द्रव्यमान से 0.34% आयरन होता है। 3.3 g हीमोग्लोबिन में Fe परमाणुओं की संख्या है: (दिया है: Fe का परमाणु द्रव्यमान 56 u है, N<sub>A</sub> 6.022 × 10<sup>23</sup> mol<sup>−1</sup> है)",
+     "o": [
+      "1.21 × 10<sup>5</sup>",
+      "12.0 × 10<sup>16</sup>",
+      "1.21 × 10<sup>20</sup>",
+      "3.4 × 10<sup>22</sup>"
+     ],
+     "sol": "<p>3.3 g में Fe = 0.34% × 3.3 = 0.01122 g = 2.0 × 10⁻⁴ mol।</p><p>परमाणु = 2.0 × 10⁻⁴ × 6.022 × 10²³ = <b>1.21 × 10²⁰</b>।</p>",
+     "hint": "प्रतिशत से Fe का द्रव्यमान, फिर मोल × N<sub>A</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2910,8 +3210,11 @@
      "hint": "Z has coefficient 3, so divide its moles by 3."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "दी गई अभिक्रिया X + Y + 3Z ⇌ XYZ<sub>3</sub> में, यदि X और Y प्रत्येक का एक मोल 0.05 mol Z के साथ यौगिक XYZ<sub>3</sub> देता है। (दिया है: X, Y और Z के परमाणु द्रव्यमान क्रमशः 10, 20 और 30 amu हैं।) XYZ<sub>3</sub> की लब्धि (yield) ____ g है। (निकटतम पूर्णांक)",
+     "sol": "<p>प्रति सूत्र इकाई Z के 3 चाहिए: 0.05 mol Z से केवल 0.05 ÷ 3 = 0.0167 mol XYZ₃ बनता है, अतः Z सीमांत अभिकर्मक है।</p><p>XYZ₃ का मोलर द्रव्यमान = 10 + 20 + 90 = 120 g mol⁻¹ → 0.0167 × 120 = <b>2 g</b>।</p>",
+     "hint": "Z का गुणांक 3 है, अतः उसके मोलों को 3 से भाग दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2965,8 +3268,11 @@
      "hint": "Find the limiting reagent, then divide by the combined volume."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "0.2 M H<sub>2</sub>SO<sub>4</sub> के 2 L की 0.1 M NaOH विलयन के 2 L के साथ अभिक्रिया कराई जाती है, विलयन में बने उत्पाद Na<sub>2</sub>SO<sub>4</sub> की मोलरता ____ मिलीमोलर (mM) है। (निकटतम पूर्णांक)",
+     "sol": "<p>H₂SO₄ = 0.4 mol, NaOH = 0.2 mol। H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O, अतः NaOH सीमांत अभिकर्मक है और 0.1 mol Na₂SO₄ देता है।</p><p>कुल आयतन 4 L → 0.025 M = <b>25 mM</b>।</p>",
+     "hint": "सीमांत अभिकर्मक ज्ञात करें, फिर कुल आयतन से भाग दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3027,8 +3333,17 @@
      "hint": "mol ÷ coefficient: N₂ 0.71, H₂ 0.83."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g), 20 g N<sub>2</sub> और 5 g H<sub>2</sub> के साथ। ऊपर दी गई अभिक्रिया पर विचार कीजिए, अभिक्रिया का सीमांत अभिकर्मक और बने NH<sub>3</sub> के मोलों की संख्या क्रमशः हैं:",
+     "o": [
+      "H<sub>2</sub>, 1.42 मोल",
+      "H<sub>2</sub>, 0.71 मोल",
+      "N<sub>2</sub>, 1.42 मोल",
+      "N<sub>2</sub>, 0.71 मोल"
+     ],
+     "sol": "<p>N₂ = 20 ÷ 28 = 0.714 mol (इसके लिए 2.14 mol H₂ चाहिए); H₂ = 2.5 mol। N₂ सीमांत अभिकर्मक है।</p><p>NH₃ = 2 × 0.714 = <b>1.42 mol</b>।</p>",
+     "hint": "mol ÷ गुणांक: N₂ 0.71, H₂ 0.83।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3087,8 +3402,17 @@
      "hint": "500 g is the solution mass (solvent + solute), not the solvent."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "0.25 मोलल जलीय विलयन के 500 g और 0.25 मोलर जलीय विलयन के 250 mL बनाने के लिए आवश्यक एथिलीन ग्लाइकॉल (C<sub>2</sub>H<sub>6</sub>O<sub>2</sub>, मोलर द्रव्यमान = 62 g/mol) के द्रव्यमानों का अनुपात क्या है?",
+     "o": [
+      "1 : 1",
+      "3 : 1",
+      "2 : 1",
+      "1 : 2"
+     ],
+     "sol": "<p>मोलल: w g जल में 0.25w/1000 mol ग्लाइकॉल; w + 62(0.25w/1000) = 500 → w = 492.4 g → 0.123 mol = 7.63 g।</p><p>मोलर: 0.25 × 0.250 = 0.0625 mol = 3.875 g।</p><p>अनुपात 7.63 : 3.875 ≈ <b>2 : 1</b>।</p>",
+     "hint": "500 g विलयन का द्रव्यमान है (विलायक + विलेय), केवल विलायक का नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3142,8 +3466,11 @@
      "hint": "Mass of C per molecule = % × molar mass."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "85.8% कार्बन वाले एक हाइड्रोकार्बन A के प्रति अणु हाइड्रोजन परमाणुओं की संख्या ____ है। (दिया है: A का मोलर द्रव्यमान = 84 g mol<sup>−1</sup>)",
+     "sol": "<p>C = 0.858 × 84 = 72 g = 6 C परमाणु; H = 84 − 72 = 12 g = <b>12</b> H परमाणु (C₆H₁₂)।</p>",
+     "hint": "प्रति अणु C का द्रव्यमान = % × मोलर द्रव्यमान।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3192,8 +3519,11 @@
      "hint": "Use the CO₂ volume to split the mixture, then convert volumes to moles."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "25 °C और 1 atm पर एथीन और मेथेन के 16.8 L गैसीय मिश्रण के पूर्ण दहन से 28.0 L CO<sub>2</sub> बनती है। दहन प्रक्रम में निर्मुक्त ऊष्मा ____ kJ है। दिया है: ΔH<sub>c</sub>(CH<sub>4</sub>) = −900 kJ mol<sup>−1</sup>, ΔH<sub>c</sub>(C<sub>2</sub>H<sub>4</sub>) = −1400 kJ mol<sup>−1</sup>",
+     "sol": "<p>मान लें एथीन = x L: यह 2x L CO₂ देती है, मेथेन (16.8 − x) L देती है। 2x + 16.8 − x = 28.0 → x = 11.2 L एथीन, 5.6 L मेथेन।</p><p>25 °C और 1 atm पर 1 mol = 24.4 L: एथीन 0.458 mol, मेथेन 0.229 mol।</p><p>ऊष्मा = 0.458 × 1400 + 0.229 × 900 = 641 + 206 = <b>847 kJ</b>।</p>",
+     "hint": "CO₂ के आयतन से मिश्रण को बाँटें, फिर आयतनों को मोल में बदलें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3245,8 +3575,11 @@
      "hint": "g L⁻¹ ÷ molar mass = molarity."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "0.69 g धात्विक सोडियम की जल के साथ अभिक्रिया से प्राप्त NaOH को पूर्णतः उदासीन करने के लिए आवश्यक 73 g L<sup>−1</sup> वाले HCl का आयतन ____ mL है। (निकटतम पूर्णांक) (दिया है: Na, Cl, O, H के मोलर द्रव्यमान क्रमशः 23, 35.5, 16 और 1 g mol<sup>−1</sup> हैं)",
+     "sol": "<p>0.69 g Na = 0.03 mol → 0.03 mol NaOH → इसके लिए 0.03 mol HCl चाहिए।</p><p>HCl विलयन: 73 g L⁻¹ ÷ 36.5 = 2 M। आयतन = 0.03 ÷ 2 = 0.015 L = <b>15 mL</b>।</p>",
+     "hint": "g L⁻¹ ÷ मोलर द्रव्यमान = मोलरता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3301,8 +3634,11 @@
      "hint": "1 mol Zn → 1 mol H₂; use 22.7 L per mole at STP."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "11.5 g ज़िंक को HCl के आधिक्य के साथ उपचारित करने पर STP पर निर्मुक्त हाइड्रोजन का आयतन ____ L है। (निकटतम पूर्णांक) (दिया है: Zn का मोलर द्रव्यमान 65.4 g mol<sup>−1</sup> है और STP पर H<sub>2</sub> का मोलर आयतन = 22.7 L)",
+     "sol": "<p>Zn + 2HCl → ZnCl₂ + H₂। 11.5 ÷ 65.4 = 0.176 mol Zn → 0.176 mol H₂ × 22.7 L = 3.99 ≈ <b>4 L</b>।</p>",
+     "hint": "1 mol Zn → 1 mol H₂; STP पर प्रति मोल 22.7 L लें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3351,8 +3687,11 @@
      "hint": "The question fixes the product as CO; just find the limiting reagent."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "जब 12 g कार्बन को 48 g ऑक्सीजन में जलाया जाता है, तो STP पर बनी कार्बन मोनोऑक्साइड का आयतन ____ × 10<sup>−1</sup> L है [निकटतम पूर्णांक]। [दिया है: CO को आदर्श गैस मानें, C का द्रव्यमान 12 g mol<sup>−1</sup> है, O का द्रव्यमान 16 g mol<sup>−1</sup> है और STP पर आदर्श गैस का मोलर आयतन 22.7 L mol<sup>−1</sup> है]",
+     "sol": "<p>2C + O₂ → 2CO। C = 1 mol, O₂ = 1.5 mol (केवल 0.5 mol चाहिए), अतः कार्बन सीमांत अभिकर्मक है।</p><p>CO = 1 mol = 22.7 L = <b>227</b> × 10⁻¹ L।</p>",
+     "hint": "प्रश्न उत्पाद को CO तय करता है; केवल सीमांत अभिकर्मक ज्ञात करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3406,8 +3745,11 @@
      "hint": "Take 1 L; subtract solute mass to get solvent mass."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "NaCl के 3 M विलयन का घनत्व 1.0 g mL<sup>−1</sup> है। विलयन की मोललता ____ × 10<sup>−2</sup> m है। (निकटतम पूर्णांक)। दिया है: Na और Cl के मोलर द्रव्यमान क्रमशः 23 और 35.5 g mol<sup>−1</sup> हैं।",
+     "sol": "<p>1 L विलयन = 1000 g; NaCl = 3 × 58.5 = 175.5 g; जल = 824.5 g।</p><p>मोललता = 3 ÷ 0.8245 = 3.64 m = <b>364</b> × 10⁻² m।</p>",
+     "hint": "1 L लें; विलायक का द्रव्यमान पाने के लिए विलेय का द्रव्यमान घटाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3462,8 +3804,11 @@
      "hint": "Convert each volume to mass with its density."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "CCl<sub>4</sub> (कार्बन टेट्राक्लोराइड) में डाइब्रोमीन के 10% (v/v) विलयन की मोललता 'x' है। x = ____ × 10<sup>−2</sup> M। (निकटतम पूर्णांक) [दिया है: Br<sub>2</sub> का मोलर द्रव्यमान = 160 g mol<sup>−1</sup>, C का परमाणु द्रव्यमान = 12 g mol<sup>−1</sup>, Cl का परमाणु द्रव्यमान = 35.5 g mol<sup>−1</sup>, डाइब्रोमीन का घनत्व = 3.2 g cm<sup>−3</sup>, CCl<sub>4</sub> का घनत्व = 1.6 g cm<sup>−3</sup>]",
+     "sol": "<p>100 mL विलयन: 10 mL Br₂ (32 g = 0.2 mol) और 90 mL CCl₄ (144 g = 0.144 kg)।</p><p>मोललता = 0.2 ÷ 0.144 = 1.39 m → <b>139</b>।</p>",
+     "hint": "हर आयतन को उसके घनत्व से द्रव्यमान में बदलें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3524,8 +3869,17 @@
      "hint": "Apply the zero rules one number at a time."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "निम्नलिखित में से किनमें सार्थक अंकों की संख्या समान है?<br>A. 0.00253 &nbsp; B. 1.0003 &nbsp; C. 15.0 &nbsp; D. 163<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "केवल B और C",
+      "केवल A, B और C",
+      "केवल A, C और D",
+      "केवल C और D"
+     ],
+     "sol": "<p>0.00253 → 3 (आगे के शून्य नहीं गिने जाते); 1.0003 → 5 (अंकों के बीच के शून्य गिने जाते हैं); 15.0 → 3 (दशमलव के बाद अंत का शून्य गिना जाता है); 163 → 3।</p><p>A, C और D प्रत्येक में <b>3</b> हैं।</p>",
+     "hint": "शून्य के नियम एक-एक संख्या पर लगाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3579,8 +3933,17 @@
      "hint": "At STP (1 bar), 1 mol of gas = 22.7 L."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "STP पर 2.8375 लीटर O<sub>2</sub> में अणुओं और मोलों की संख्या क्रमशः हैं",
+     "o": [
+      "7.527 × 10<sup>22</sup> और 0.125 mol",
+      "1.505 × 10<sup>23</sup> और 0.250 mol",
+      "7.527 × 10<sup>23</sup> और 0.125 mol",
+      "7.527 × 10<sup>22</sup> और 0.250 mol"
+     ],
+     "sol": "<p>मोल = 2.8375 ÷ 22.7 = 0.125 mol; अणु = 0.125 × 6.022 × 10²³ = <b>7.527 × 10²²</b>।</p>",
+     "hint": "STP (1 bar) पर 1 mol गैस = 22.7 L।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3639,8 +4002,17 @@
      "hint": "Vapour mass at STP gives the molar mass."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "एक धातु क्लोराइड में भार से 55.0% क्लोरीन है। STP पर धातु क्लोराइड के 100 mL वाष्प का भार 0.57 g है। धातु क्लोराइड का आण्विक सूत्र है (दिया है: क्लोरीन का परमाणु द्रव्यमान 35.5 u है)",
+     "o": [
+      "MCl<sub>2</sub>",
+      "MCl<sub>4</sub>",
+      "MCl<sub>3</sub>",
+      "MCl"
+     ],
+     "sol": "<p>मोलर द्रव्यमान = 0.57 g × (22700 mL ÷ 100 mL) = 129.4 g mol⁻¹।</p><p>प्रति अणु Cl = 0.55 × 129.4 = 71.2 g = 2 Cl → <b>MCl₂</b>।</p>",
+     "hint": "STP पर वाष्प के द्रव्यमान से मोलर द्रव्यमान मिलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3699,8 +4071,17 @@
      "hint": "Look for a volume in the definition."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "वह राशि जो ताप के साथ बदलती है:",
+     "o": [
+      "मोल-अंश",
+      "द्रव्यमान प्रतिशत",
+      "मोलरता",
+      "मोललता"
+     ],
+     "sol": "<p>मोलरता में विलयन का <b>आयतन</b> आता है, जो ताप के साथ फैलता या सिकुड़ता है। बाकी तीनों केवल द्रव्यमान या मोलों पर निर्भर हैं।</p>",
+     "hint": "परिभाषा में आयतन ढूँढें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3748,8 +4129,11 @@
      "hint": "M = 10 × d × w% ÷ molar mass."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "घनत्व = 1.5 g/mL, विलेय का %(w/w) 36% और विलेय का अणुभार 36 g/mol वाले विलयन की मोलरता का परिकलन कीजिए।",
+     "sol": "<p>100 g विलयन: 36 g विलेय = 1 mol; आयतन = 100 ÷ 1.5 = 66.7 mL।</p><p>मोलरता = 1 ÷ 0.0667 = <b>15 M</b>।</p>",
+     "hint": "M = 10 × d × w% ÷ मोलर द्रव्यमान।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3804,8 +4188,11 @@
      "hint": "Take 1 L of solution."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "0.8 M H<sub>2</sub>SO<sub>4</sub> विलयन (घनत्व = 1.06 g/cm<sup>3</sup>) की मोललता ज्ञात कीजिए। उत्तर ____ × 10<sup>−3</sup> में दें।",
+     "sol": "<p>1 L = 1060 g; H₂SO₄ = 0.8 × 98 = 78.4 g; जल = 981.6 g।</p><p>मोललता = 0.8 ÷ 0.9816 = 0.815 m = <b>815</b> × 10⁻³।</p>",
+     "hint": "1 L विलयन लें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3860,8 +4247,11 @@
      "hint": "Volume → mass (density) → moles → atoms."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "क्षेत्रफल 0.05 cm<sup>2</sup> और मोटाई 0.05 cm वाली सिल्वर की एक प्लेट में परमाणुओं की संख्या ____ × 10<sup>19</sup> है। सिल्वर का घनत्व 7.9 g/cm<sup>3</sup> है।",
+     "sol": "<p>आयतन = 0.05 × 0.05 = 0.0025 cm³ → द्रव्यमान = 0.01975 g → 1.83 × 10⁻⁴ mol।</p><p>परमाणु = 1.83 × 10⁻⁴ × 6.022 × 10²³ = 1.10 × 10²⁰ = <b>11</b> × 10¹⁹।</p>",
+     "hint": "आयतन → द्रव्यमान (घनत्व) → मोल → परमाणु।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3922,8 +4312,17 @@
      "hint": "The denominator is the total number of moles."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "A और B के एक विलयन में C मिलाया जाता है। C का मोल-अंश है:",
+     "o": [
+      "n<sub>C</sub> / (n<sub>A</sub> + n<sub>B</sub> + n<sub>C</sub>)",
+      "n<sub>C</sub> / (n<sub>A</sub> − n<sub>B</sub> + n<sub>C</sub>)",
+      "n<sub>C</sub> / (n<sub>A</sub> − n<sub>C</sub> + n<sub>B</sub>)",
+      "n<sub>C</sub> / (n<sub>A</sub> + n<sub>B</sub>)"
+     ],
+     "sol": "<p>मोल-अंश = उस घटक के मोल ÷ सभी घटकों के <b>कुल</b> मोल: x<sub>C</sub> = n<sub>C</sub> / (n<sub>A</sub> + n<sub>B</sub> + n<sub>C</sub>)।</p>",
+     "hint": "हर में मोलों की कुल संख्या होती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3971,8 +4370,11 @@
      "hint": "One carbon in, one carbon out."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "22 g CO<sub>2</sub> बनाने के लिए आवश्यक CH<sub>4</sub> के मोल m × 10<sup>−2</sup> हैं। m का मान है:",
+     "sol": "<p>CH₄ → CO₂ (1 : 1)। 22 g CO₂ = 0.5 mol, अतः CH₄ = 0.5 mol = <b>50</b> × 10⁻²।</p>",
+     "hint": "एक कार्बन अंदर, एक कार्बन बाहर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4027,8 +4429,17 @@
      "hint": "Take 1 L of solution."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "3 M NaOH का घनत्व 1.25 g/mL है। विलयन की मोललता है",
+     "o": [
+      "2.65",
+      "2.5",
+      "2.8",
+      "3"
+     ],
+     "sol": "<p>1 L = 1250 g; NaOH = 3 × 40 = 120 g; जल = 1130 g।</p><p>मोललता = 3 ÷ 1.130 = <b>2.65 m</b>।</p>",
+     "hint": "1 L विलयन लें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4088,8 +4499,17 @@
      "hint": "Add the moles, add the volumes."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "NaOH के 0.2 M विलयन के 200 mL को 0.5 M NaOH विलयन के 400 mL के साथ मिलाया जाता है। मिश्रण की मोलरता है",
+     "o": [
+      "0.4",
+      "0.6",
+      "4 M",
+      "0.8 M"
+     ],
+     "sol": "<p>मोल = 0.2 × 0.2 + 0.5 × 0.4 = 0.04 + 0.20 = 0.6 L में 0.24 mol → <b>0.4 M</b>।</p>",
+     "hint": "मोल जोड़ें, आयतन जोड़ें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4143,8 +4563,17 @@
      "hint": "Balance the equation first."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "निम्नलिखित अभिक्रिया के अनुसार 2.32 × 10<sup>3</sup> kg Fe<sub>3</sub>O<sub>4</sub> की 2.8 × 10<sup>3</sup> kg CO के साथ अभिक्रिया होती है: Fe<sub>3</sub>O<sub>4</sub> + CO → CO<sub>2</sub> + Fe। यदि x kg Fe बनता है, तो x का मान ज्ञात कीजिए?",
+     "o": [
+      "2000 kg",
+      "1680 kg",
+      "2780 kg",
+      "1500 kg"
+     ],
+     "sol": "<p>संतुलित: Fe₃O₄ + 4CO → 3Fe + 4CO₂। Fe₃O₄ = 2.32 × 10⁶ g ÷ 232 = 10⁴ mol (इसके लिए 4 × 10⁴ mol CO चाहिए); CO = 10⁵ mol, आधिक्य में।</p><p>Fe = 3 × 10⁴ mol × 56 g = 1.68 × 10⁶ g = <b>1680 kg</b>।</p>",
+     "hint": "पहले समीकरण संतुलित करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4203,8 +4632,17 @@
      "hint": "Empirical formula first, then n = molar mass ÷ empirical formula mass."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "यदि किसी यौगिक में 54.2% कार्बन, 9.2% हाइड्रोजन और शेष ऑक्सीजन है। यदि आण्विक द्रव्यमान 132 g/mol है, तो यौगिक का आण्विक सूत्र क्या है?",
+     "o": [
+      "C<sub>6</sub>H<sub>12</sub>O<sub>3</sub>",
+      "C<sub>4</sub>H<sub>12</sub>O<sub>3</sub>",
+      "C<sub>4</sub>H<sub>12</sub>O<sub>6</sub>",
+      "C<sub>6</sub>H<sub>13</sub>O<sub>6</sub>"
+     ],
+     "sol": "<p>O = 36.6%। मोल: C 4.52, H 9.2, O 2.29 → अनुपात 2 : 4 : 1 → C₂H₄O (44)।</p><p>n = 132 ÷ 44 = 3 → <b>C₆H₁₂O₃</b>।</p>",
+     "hint": "पहले मूलानुपाती सूत्र, फिर n = मोलर द्रव्यमान ÷ मूलानुपाती सूत्र द्रव्यमान।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4252,8 +4690,11 @@
      "hint": "100 g solution → 70 g HNO₃; volume = 100 ÷ 1.41 mL."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "घनत्व 1.41 g/mL वाला HNO<sub>3</sub> का द्रव्यमान से 70% विलयन लिया गया है। विलयन की मोलरता का परिकलन कीजिए (निकटतम पूर्णांक)।",
+     "sol": "<p>M = 10 × d × w% ÷ मोलर द्रव्यमान = 10 × 1.41 × 70 ÷ 63 = 15.7 ≈ <b>16 M</b>।</p>",
+     "hint": "100 g विलयन → 70 g HNO₃; आयतन = 100 ÷ 1.41 mL।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4308,8 +4749,11 @@
      "hint": "Divide each % by its atomic mass, then by the smallest."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "एक यौगिक में 14.4% कार्बन, 1.2% हाइड्रोजन और 84.4% क्लोरीन है, यौगिक के मूलानुपाती सूत्र द्रव्यमान का परिकलन कीजिए। [C का मोलर द्रव्यमान = 12, H = 1, Cl = 35.5]",
+     "sol": "<p>मोल: C 1.2, H 1.2, Cl 2.38 → अनुपात 1 : 1 : 2 → CHCl₂।</p><p>मूलानुपाती सूत्र द्रव्यमान = 12 + 1 + 71 = <b>84</b>।</p>",
+     "hint": "हर % को उसके परमाणु द्रव्यमान से भाग दें, फिर सबसे छोटी संख्या से।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4364,8 +4808,17 @@
      "hint": "Check each statement from 0.35 mol Ca."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "14.0 g कैल्सियम धातु को 1.0 atm दाब और 273 K पर HCl के आधिक्य के साथ अभिक्रिया करने दिया जाता है। निम्नलिखित में से कौन-सा कथन गलत है? [दिया है: g mol<sup>−1</sup> में मोलर द्रव्यमान Ca − 40, Cl − 35.5, H − 1]",
+     "o": [
+      "33.3 g CaCl<sub>2</sub> बनता है।",
+      "7.84 L H<sub>2</sub> गैस निकलती है।",
+      "सीमांत अभिकर्मक कैल्सियम धातु है।",
+      "0.35 mol H<sub>2</sub> गैस निकलती है।"
+     ],
+     "sol": "<p>Ca + 2HCl → CaCl₂ + H₂। 14.0 g Ca = 0.35 mol (HCl आधिक्य में है, अतः Ca सीमांत है)।</p><p>H₂ = 0.35 mol = 0.35 × 22.4 L (1 atm, 273 K) = 7.84 L ✓। CaCl₂ = 0.35 × 111 = 38.9 g, 33.3 g नहीं, अतः <b>(A) गलत है</b>।</p>",
+     "hint": "0.35 mol Ca से हर कथन की जाँच करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4425,8 +4878,17 @@
      "hint": "Gas volumes behave like moles (Gay Lussac); KOH removes only CO₂."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "एक हाइड्रोकार्बन के 80 mL को एक बंद U-नली में 264 mL ऑक्सीजन के साथ मिलाने पर उसका पूर्ण दहन होता है। 273 K तक ठंडा करने के बाद अवशिष्ट गैसें 224 mL आयतन घेरती हैं। जब निकाय को KOH विलयन से उपचारित किया जाता है, तो आयतन घटकर 64 mL रह जाता है। हाइड्रोकार्बन का सूत्र है:",
+     "o": [
+      "C<sub>2</sub>H<sub>6</sub>",
+      "C<sub>2</sub>H<sub>4</sub>",
+      "C<sub>4</sub>H<sub>10</sub>",
+      "C<sub>2</sub>H<sub>2</sub>"
+     ],
+     "sol": "<p>KOH, CO₂ को अवशोषित करता है: CO₂ = 224 − 64 = 160 mL; शेष O₂ = 64 mL, अतः प्रयुक्त O₂ = 200 mL।</p><p>CₓHᵧ + (x + y/4)O₂ → xCO₂: 80x = 160 → x = 2; 80(x + y/4) = 200 → y = 2। हाइड्रोकार्बन = <b>C₂H₂</b>।</p>",
+     "hint": "गैसों के आयतन मोलों की तरह चलते हैं (गै-लुसैक); KOH केवल CO₂ हटाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4486,8 +4948,17 @@
      "hint": "Divide moles by coefficients to find the limiting reagent."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "A + 2B → AB<sub>2</sub>। 'A' (मोलर द्रव्यमान: 60 g mol<sup>−1</sup>) के 36.0 g और 'B' (मोलर द्रव्यमान: 80 g mol<sup>−1</sup>) के 56.0 g को अभिक्रिया करने दिया जाता है। निम्नलिखित में से कौन-से कथन सही हैं?<br>A. 'A' सीमांत अभिकर्मक है।<br>B. 77.0 g AB<sub>2</sub> बनता है।<br>C. AB<sub>2</sub> का मोलर द्रव्यमान 140 g mol<sup>−1</sup> है।<br>D. अभिक्रिया पूर्ण होने के बाद A का 15.0 g बिना अभिक्रिया के बचता है।",
+     "o": [
+      "केवल A और B",
+      "केवल B और C",
+      "केवल C और D",
+      "केवल B और D"
+     ],
+     "sol": "<p>A = 0.6 mol, B = 0.7 mol (पूरे A के लिए 1.2 mol चाहिए), अतः <b>B</b> सीमांत अभिकर्मक है: कथन A गलत है।</p><p>AB₂ = 0.35 mol; मोलर द्रव्यमान = 60 + 2 × 80 = 220 (C गलत) → 77.0 g (B सही)। शेष A = 0.6 − 0.35 = 0.25 mol = 15.0 g (D सही)। उत्तर: <b>केवल B और D</b>।</p>",
+     "hint": "सीमांत अभिकर्मक ज्ञात करने के लिए मोलों को गुणांकों से भाग दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4546,8 +5017,17 @@
      "hint": "Add up acid and water separately before converting to moles."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "T(K) पर 98% H<sub>2</sub>SO<sub>4</sub> (w/w) जलीय विलयन के 100 g को 49% H<sub>2</sub>SO<sub>4</sub> (w/w) जलीय विलयन के 100 g के साथ मिलाया जाता है। परिणामी विलयन में H<sub>2</sub>SO<sub>4</sub> का मोल-अंश क्या है? (दिया है: परमाणु द्रव्यमान H = 1u; S = 32u; O = 16u)। (मान लीजिए कि मिलाने के बाद ताप स्थिर रहता है)",
+     "o": [
+      "0.1",
+      "0.9",
+      "0.337",
+      "0.663"
+     ],
+     "sol": "<p>H₂SO₄ = 98 + 49 = 147 g = 1.5 mol; जल = 2 + 51 = 53 g = 2.94 mol।</p><p>x(H₂SO₄) = 1.5 ÷ 4.44 = <b>0.337</b>।</p>",
+     "hint": "मोल में बदलने से पहले अम्ल और जल को अलग-अलग जोड़ें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4607,8 +5087,17 @@
      "hint": "Take 100 g; urea's molar mass is 60."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "भार से 10% (w/w) जलीय यूरिया विलयन में जल का मोल-अंश क्या है? [दिया है: H, O, C और N के मोलर द्रव्यमान क्रमशः 1, 16, 12 और 14 g mol<sup>−1</sup> हैं।]",
+     "o": [
+      "0.825",
+      "0.032",
+      "0.867",
+      "0.967"
+     ],
+     "sol": "<p>100 g विलयन: यूरिया 10 g = 0.167 mol; जल 90 g = 5 mol।</p><p>x(जल) = 5 ÷ 5.167 = <b>0.967</b>।</p>",
+     "hint": "100 g लें; यूरिया का मोलर द्रव्यमान 60 है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -4668,8 +5157,17 @@
      "hint": "Statement I is a mass% → mole fraction conversion."
     },
     "hi": {
-     "status": "placeholder",
-     "note": "Hindi pending: waiting for the NCERT Hindi term glossary (neet-sources)."
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं: दिया है: C, H, O, Cl के मोलर द्रव्यमान क्रमशः 12, 1, 16 और 35.5 g mol<sup>−1</sup> हैं।<br>कथन I: CCl<sub>4</sub> में मेथेनॉल के 30% (w/w) विलयन में (T K पर) CCl<sub>4</sub> का मोल-अंश 0.33 के बराबर है।<br>कथन II: मेथेनॉल और CCl<sub>4</sub> का मिश्रण राउल्ट के नियम से धनात्मक विचलन दर्शाता है।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "कथन I और कथन II दोनों सही हैं",
+      "कथन I और कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है"
+     ],
+     "sol": "<p>100 g: मेथेनॉल 30 g = 0.9375 mol, CCl₄ 70 g = 0.4545 mol → x(CCl₄) = 0.4545 ÷ 1.392 = 0.33 ✓।</p><p>CCl₄ के साथ मिलाने पर मेथेनॉल के हाइड्रोजन आबंध टूटते हैं, अतः मिश्रण धनात्मक विचलन दर्शाता है ✓ (कक्षा 12, विलयन)। <b>दोनों सही।</b></p>",
+     "hint": "कथन I, द्रव्यमान % → मोल-अंश का रूपांतरण है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {

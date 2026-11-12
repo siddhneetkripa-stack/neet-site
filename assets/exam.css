@@ -211,3 +211,5 @@ summary { cursor: pointer; color: var(--sec); font-weight: 600; }
   .viewin { margin-left: 0; }
   .toast { bottom: 140px; }
 }
+.hi-draft { display: inline-block; margin: 0 0 8px; padding: 2px 8px; font-size: .78rem; color: #6b4300; background: #fff4e0; border: 1px solid #f0c674; border-radius: 10px; font-family: var(--hi), var(--sans); }
+[lang="hi"] .qtext, [lang="hi"] .opts, [lang="hi"] .ropts, [lang="hi"] .sol { font-family: var(--hi), var(--sans); line-height: 1.7; }

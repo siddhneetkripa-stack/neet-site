@@ -218,6 +218,12 @@ def main():
     json.dump(catalog, open(os.path.join(DATA, "catalog.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("catalog updated")
     banks = dict(check_bank(f) for f in sorted(glob.glob(os.path.join(CONTENT, "questions", "*.json"))))
+    # Hindi text: formulas/numbers must match English; terms must be NCERT's (tools/check_hindi.py)
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "check_hindi.py")], capture_output=True, text=True)
+    print("hindi: " + (r.stdout.strip().splitlines() or [""])[-1])
+    if r.returncode:
+        sys.exit(r.stdout + r.stderr)
     tests = [build_test(f, banks) for f in sorted(glob.glob(os.path.join(CONTENT, "tests", "*.json")))]
     json.dump({"tests": tests}, open(os.path.join(DATA, "tests", "index.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
