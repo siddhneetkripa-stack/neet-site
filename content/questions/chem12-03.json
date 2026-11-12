@@ -1,0 +1,188 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-03",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 3,
+ "title": {
+  "en": "Chemical Kinetics"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lech103.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "3.1",
+   "title": "Rate of a Chemical Reaction",
+   "hi": "रासायनिक अभिक्रिया वेग",
+   "pdfPage": 6
+  },
+  {
+   "id": "3.2",
+   "title": "Factors Influencing Rate of a Reaction",
+   "hi": "अभिक्रिया वेग को प्रभावित करने वाले कारक",
+   "pdfPage": 6
+  },
+  {
+   "id": "3.2.1",
+   "title": "Dependence of Rate on Concentration",
+   "hi": "अभिक्रिया वेग की सांद्रता पर निर्भरता",
+   "pdfPage": 6
+  },
+  {
+   "id": "3.2.2",
+   "title": "Rate Expression and Rate Constant",
+   "hi": "वेग व्यंजक एवं वेग स्थिरांक",
+   "pdfPage": 6
+  },
+  {
+   "id": "3.2.3",
+   "title": "Order of a Reaction",
+   "hi": "अभिक्रिया की कोटि",
+   "pdfPage": 8
+  },
+  {
+   "id": "3.2.4",
+   "title": "Molecularity of a Reaction",
+   "hi": "अभिक्रिया की आण्विकता",
+   "pdfPage": 9
+  },
+  {
+   "id": "3.3",
+   "title": "Integrated Rate Equations",
+   "hi": "समाकलित वेग समीकरण",
+   "pdfPage": 11
+  },
+  {
+   "id": "3.3.1",
+   "title": "Zero Order Reactions",
+   "hi": "शून्य कोटि की अभिक्रियाएँ",
+   "pdfPage": 11
+  },
+  {
+   "id": "3.3.2",
+   "title": "First Order Reactions",
+   "hi": "प्रथम कोटि की अभिक्रियाएँ",
+   "pdfPage": 12
+  },
+  {
+   "id": "3.3.3",
+   "title": "Half-Life of a Reaction",
+   "hi": "अभिक्रिया की अर्धायु",
+   "pdfPage": 16
+  },
+  {
+   "id": "3.4",
+   "title": "Temperature Dependence of the Rate of a Reaction",
+   "hi": "अभिक्रिया वेग की ताप पर निर्भरता",
+   "pdfPage": 11
+  },
+  {
+   "id": "3.4.1",
+   "title": "Effect of Catalyst",
+   "pdfPage": 22
+  },
+  {
+   "id": "3.5",
+   "title": "Collision Theory of Chemical Reactions",
+   "hi": "रासायनिक अभिक्रिया का संघट्ट सि संघट्ट सिद्धां द्धांत",
+   "pdfPage": 18
+  }
+ ],
+ "questions": [
+  {
+   "id": "chem12-03-neet-2025-code-45-q56",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the half-life (t<sub>1/2</sub>) for a first order reaction is 1 min, then the time required for 99.9 % completion of the reaction is closest to:",
+     "o": [
+      "2 minutes",
+      "4 minutes",
+      "5 minutes",
+      "10 minutes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.2",
+     "3.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q56",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "chem12-03-neet-2025-code-45-q89",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the rate constant of a reaction is 0.03 s<sup>−1</sup>, how much time does it take for 7.2 mol L<sup>−1</sup> concentration of the reactant to get reduced to 0.9 mol L<sup>−1</sup>?<br>(Given: log 2 = 0.301)",
+     "o": [
+      "69.3 s",
+      "23.1 s",
+      "210 s",
+      "21.0 s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q89",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  }
+ ]
+}

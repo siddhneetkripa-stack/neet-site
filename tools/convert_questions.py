@@ -61,6 +61,11 @@ def load_old(path):
 
 
 def write(path, doc):
+    """Questions added to this bank by other tools (tools/add_pyqs.py) are kept after the converted ones."""
+    if os.path.exists(path):
+        made = {q["id"] for q in doc["questions"]}
+        doc["questions"] += [q for q in json.load(open(path, encoding="utf-8"))["questions"] if q["id"] not in made
+                             and q.get("status") == "draft" and q["source"]["kind"] == "PYQ"]
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(doc, f, ensure_ascii=False, indent=1)
@@ -133,7 +138,7 @@ def convert_pyq(src):
         new = {
             "id": qid, "type": t, "text": {"en": en, "hi": hi_placeholder()}, "answer": answer, "ncert": ncert,
             "source": source, "difficulty": 3, "difficultyBasis": "default", "timeSec": time,
-            "status": "live", "review": review,
+            "status": "live", "review": review, "ncert_status": "in_ncert", "syllabus_status": "current",
         }
         questions.append(merge_existing(new, old.get(qid)))
     bank = {
@@ -181,6 +186,7 @@ def convert_mindmap(folder):
                 "ncert": {"chapter": ch, "paras": [n["id"]]},
                 "source": source, "difficulty": diff, "difficultyBasis": "author" if q.get("lvl") else "default",
                 "timeSec": time, "status": "live", "review": {"modelA": "Claude (worked solution)"},
+                "ncert_status": "in_ncert", "syllabus_status": "current",
             }
             if q.get("pyq"):
                 new["review"]["keyCheck"] = "Also asked: " + ", ".join(q["pyq"])

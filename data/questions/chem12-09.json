@@ -1,0 +1,217 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-09",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 9,
+ "title": {
+  "en": "Amines"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lech204.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "9.1",
+   "title": "Structure of Amines",
+   "hi": "ऐमीनों की संरचना",
+   "pdfPage": 1
+  },
+  {
+   "id": "9.2",
+   "title": "Classification",
+   "hi": "वर्गीकरण",
+   "pdfPage": 2
+  },
+  {
+   "id": "9.3",
+   "title": "Nomenclature",
+   "hi": "नामपद्धति",
+   "pdfPage": 2
+  },
+  {
+   "id": "9.4",
+   "title": "Preparation of Amines",
+   "hi": "ऐमीनों का विरचन",
+   "pdfPage": 16
+  },
+  {
+   "id": "9.5",
+   "title": "Physical Properties",
+   "hi": "भौतिक गुणधर्म",
+   "pdfPage": 7
+  },
+  {
+   "id": "9.6",
+   "title": "Chemical Reactions",
+   "hi": "रासायनिक अभिक्रियाएँ",
+   "pdfPage": 8
+  },
+  {
+   "id": "9.7",
+   "title": "Method of Preparation of Diazonium Salts",
+   "hi": "डाइएजोनियम लवणों के विरचन की विधि",
+   "pdfPage": 16
+  },
+  {
+   "id": "9.8",
+   "title": "Physical Properties"
+  },
+  {
+   "id": "9.9",
+   "title": "Chemical Reactions",
+   "pdfPage": 17
+  },
+  {
+   "id": "9.10",
+   "title": "Importance of Diazonium Salts in Synthesis of Aromatic Compounds"
+  }
+ ],
+ "questions": [
+  {
+   "id": "chem12-09-neet-2025-code-45-q49",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Predict the major product 'P' in the following sequence of reactions-<br>1-Methylcyclopentene —(i) HBr, benzoyl peroxide; (ii) KCN; (iii) Na(Hg)/C<sub>2</sub>H<sub>5</sub>OH→ P (Major)",
+     "o": [
+      "(2-Methylcyclopentyl)methanamine",
+      "(1-Methylcyclopentyl)methanamine",
+      "1-Isocyano-2-methylcyclopentane",
+      "1-Isocyano-1-methylcyclopentane"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.4"
+    ],
+    "otherChapters": [
+     "Class 11 · Hydrocarbons (anti-Markovnikov addition)",
+     "Class 12 · Haloalkanes and Haloarenes"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q49",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "Diagram/structure question: the paper shows structures; written here in text. Needs a redrawn figure before it goes live."
+   }
+  },
+  {
+   "id": "chem12-09-neet-2025-code-45-q67",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct order of decreasing basic strength of the given amines is:",
+     "o": [
+      "N-methylaniline &gt; benzenamine &gt; ethanamine &gt; N-ethylethanamine",
+      "N-ethylethanamine &gt; ethanamine &gt; benzenamine &gt; N-methylaniline",
+      "N-ethylethanamine &gt; ethanamine &gt; N-methylaniline &gt; benzenamine",
+      "benzenamine &gt; ethanamine &gt; N-methylaniline &gt; N-ethylethanamine"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q67",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "chem12-09-neet-2025-code-45-q74",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I : Benzenediazonium salt is prepared by the reaction of aniline with nitrous acid at 273 − 278 K. It decomposes easily in the dry state.<br>Statement II : Insertion of iodine into the benzene ring is difficult and hence iodobenzene is prepared through the reaction of benzenediazonium salt with KI.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are correct",
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.7",
+     "9.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q74",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  }
+ ]
+}

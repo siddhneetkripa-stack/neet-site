@@ -466,7 +466,8 @@
       <div lang="${lang === 'hi' && hiReady ? 'hi' : 'en'}"><div class="qtext">${tx.q}</div>${opts}
       <p class="yours">Your answer: <b>${fmtAns(q, r.st.ans)}</b> · ${ansLine}${r.changed ? ` · <span class="chgnote">changed: ${hist}</span>` : ''}</p>
       <details><summary>${lang === 'hi' && hiReady ? 'हल और NCERT पंक्तियाँ' : 'Solution and NCERT lines'}</summary><div class="sol">${tx.sol}</div>${tx.trap ? `<p class="trap"><b>${lang === 'hi' && hiReady ? 'सावधानी:' : 'Trap:'}</b> ${tx.trap}</p>` : ''}
-        <p class="paras">NCERT: ${q.ncert.paras.map((p, i) => `§${esc(p)} ${esc((q.paraTitles || [])[i] || '')}`).join(' · ')}${(q.ncert.otherChapters || []).length ? ' · also ' + esc(q.ncert.otherChapters.join(', ')) : ''}</p>${lines}</details></div>
+        ${q.ncert_status && q.ncert_status !== 'in_ncert' ? `<p class="paras">${({ old_ncert_only: 'No current NCERT source: this topic is in NEET but only in the pre-2023 NCERT', lab_manual: 'Source: NCERT laboratory manual', outside_ncert: 'Not in NCERT' })[q.ncert_status] || ''}${q.ncert.oldRef ? ' · ' + esc(q.ncert.oldRef) : ''}</p>` : ''}
+        <p class="paras" ${q.ncert.paras.length ? '' : 'hidden'}>NCERT: ${q.ncert.paras.map((p, i) => `§${esc(p)} ${esc((q.paraTitles || [])[i] || '')}`).join(' · ')}${(q.ncert.otherChapters || []).length ? ' · also ' + esc(q.ncert.otherChapters.join(', ')) : ''}</p>${lines}</details></div>
     </article>`;
   }
 

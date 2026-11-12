@@ -1,0 +1,271 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-01",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 1,
+ "title": {
+  "en": "Solutions"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lech101.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "1.1",
+   "title": "Types of Solutions",
+   "hi": "विलयनों के प्रकार",
+   "pdfPage": 1
+  },
+  {
+   "id": "1.2",
+   "title": "Expressing Concentration of Solutions",
+   "hi": "विलयनों की सांद्रता को व्यक्त करना",
+   "pdfPage": 2
+  },
+  {
+   "id": "1.3",
+   "title": "Solubility",
+   "hi": "विलेयता",
+   "pdfPage": 5
+  },
+  {
+   "id": "1.3.1",
+   "title": "Solubility of a Solid in a Liquid",
+   "hi": "ठोसों की द्रवों में विलेयता",
+   "pdfPage": 6
+  },
+  {
+   "id": "1.3.2",
+   "title": "Solubility of a Gas in a Liquid",
+   "hi": "गैसों की द्रवों में विलेयता",
+   "pdfPage": 6
+  },
+  {
+   "id": "1.4",
+   "title": "Vapour Pressure of Liquid Solutions",
+   "hi": "द्रवीय विलयनों का वाष्प दाब",
+   "pdfPage": 5
+  },
+  {
+   "id": "1.4.1",
+   "title": "Vapour Pressure of Liquid-Liquid Solutions",
+   "hi": "द्रव-द्रव विलयनों का वाष्प दाब",
+   "pdfPage": 9
+  },
+  {
+   "id": "1.4.2",
+   "title": "Raoult's Law as a Special Case of Henry's Law",
+   "pdfPage": 12
+  },
+  {
+   "id": "1.4.3",
+   "title": "Vapour Pressure of Solutions of Solids in Liquids",
+   "hi": "ठोस पदार्थों का द्रवों में विलयन एवं उनका वाष्पदाब",
+   "pdfPage": 12
+  },
+  {
+   "id": "1.5",
+   "title": "Ideal and Non-ideal Solutions",
+   "hi": "आदर्श एवं अनादर्श विलयन",
+   "pdfPage": 5
+  },
+  {
+   "id": "1.5.1",
+   "title": "Ideal Solutions",
+   "hi": "आदर्श विलयन",
+   "pdfPage": 13
+  },
+  {
+   "id": "1.5.2",
+   "title": "Non-ideal Solutions",
+   "hi": "अनादर्श विलयन",
+   "pdfPage": 13
+  },
+  {
+   "id": "1.6",
+   "title": "Colligative Properties and Determination of Molar Mass",
+   "hi": "अणुसंख्य गुणधर्म और आण्विक द्रव्यमान की गणना",
+   "pdfPage": 9
+  },
+  {
+   "id": "1.6.1",
+   "title": "Relative Lowering of Vapour Pressure",
+   "hi": "वाष्प दाब का आपेक्षिक अवनमन",
+   "pdfPage": 15
+  },
+  {
+   "id": "1.6.2",
+   "title": "Elevation of Boiling Point",
+   "hi": "क्वथनांक का उन्नयन",
+   "pdfPage": 16
+  },
+  {
+   "id": "1.6.3",
+   "title": "Depression of Freezing Point",
+   "hi": "हिमांक का अवनमन",
+   "pdfPage": 18
+  },
+  {
+   "id": "1.6.4",
+   "title": "Osmosis and Osmotic Pressure",
+   "hi": "परासरण एवं परासरण दाब",
+   "pdfPage": 20
+  },
+  {
+   "id": "1.6.5",
+   "title": "Reverse Osmosis and Water Purification",
+   "hi": "प्रतिलोम परासरण एवं जल शोधन",
+   "pdfPage": 23
+  },
+  {
+   "id": "1.7",
+   "title": "Abnormal Molar Masses",
+   "hi": "असामान्य मोलर द्रव्यमान",
+   "pdfPage": 9
+  }
+ ],
+ "questions": [
+  {
+   "id": "chem12-01-neet-2025-code-45-q66",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II:<br>List-I (Example): (A) Humidity (B) Alloys (C) Amalgams (D) Smoke<br>List-II (Type of Solution): (I) Solid in solid (II) Liquid in gas (III) Solid in gas (IV) Liquid in solid<br>Choose the correct answer from the options given below:",
+     "o": [
+      "A-II, B-IV, C-I, D-III",
+      "A-II, B-I, C-IV, D-III",
+      "A-III, B-I, C-IV, D-II",
+      "A-III, B-II, C-I, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-01",
+    "paras": [
+     "1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q66",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "Option (D) is clipped in the source copy; last pair read as D-IV. Check against the booklet."
+   }
+  },
+  {
+   "id": "chem12-01-neet-2025-code-45-q79",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following aqueous solution will exhibit highest boiling point?",
+     "o": [
+      "0.01 M Urea",
+      "0.01 M KNO<sub>3</sub>",
+      "0.01 M Na<sub>2</sub>SO<sub>4</sub>",
+      "0.015 M C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-01",
+    "paras": [
+     "1.6.2",
+     "1.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q79",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "chem12-01-neet-2025-code-45-q81",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "5 moles of liquid X and 10 moles of liquid Y make a solution having a vapour pressure of 70 torr. The vapour pressures of pure X and Y are 63 torr and 78 torr respectively. Which of the following is true regarding the described solution?",
+     "o": [
+      "The solution shows positive deviation.",
+      "The solution shows negative deviation.",
+      "The solution is ideal.",
+      "The solution has volume greater than the sum of individual volumes."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-01",
+    "paras": [
+     "1.5.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q81",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  }
+ ]
+}

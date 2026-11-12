@@ -173,7 +173,7 @@ def build_test(path, banks):
             picked = [(b, q) for q in b["questions"]
                       if (not sel.get("sourceKind") or q["source"]["kind"] == sel["sourceKind"])
                       and (not sel.get("answerKind") or q["answer"]["kind"] == sel["answerKind"])
-                      and q["status"] == "live"]
+                      and q["status"] == "live" and q.get("syllabus_status") != "dropped_2024"]
             order = sec.get("order", [])
             rank = lambda q: (order.index(q["source"].get("exam")) if q["source"].get("exam") in order else 9,
                               str(q["source"].get("date", q["source"].get("year", ""))), q["id"])

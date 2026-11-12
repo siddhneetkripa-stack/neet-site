@@ -1,0 +1,111 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-old-p-block",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 7,
+ "title": {
+  "en": "The p-Block Elements (Groups 15–18)"
+ },
+ "ncert_status": "old_ncert_only",
+ "syllabus_status": "current",
+ "oldNcert": "Old NCERT Class 12 Part I Unit 7 The p-Block Elements",
+ "note": "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+ "paragraphs": [],
+ "questions": [
+  {
+   "id": "chem12-old-p-block-neet-2025-code-45-q52",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements:<br>Statement I : Like nitrogen that can form ammonia, arsenic can form arsine.<br>Statement II : Antimony cannot form antimony pentoxide.<br>In the light of the above statements, choose the most appropriate answer from the options given below:",
+     "o": [
+      "Both Statement I and Statement II are correct",
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-old-p-block",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 7 · Group 15 elements (hydrides, oxides)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q52",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "chem12-old-p-block-neet-2025-code-45-q64",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II<br>List-I: (A) XeO<sub>3</sub> (B) XeF<sub>2</sub> (C) XeOF<sub>4</sub> (D) XeF<sub>6</sub><br>List-II: (I) sp<sup>3</sup>d; linear (II) sp<sup>3</sup>; pyramidal (III) sp<sup>3</sup>d<sup>3</sup>; distorted octahedral (IV) sp<sup>3</sup>d<sup>2</sup>; square pyramidal<br>Choose the correct answer from the options given below:",
+     "o": [
+      "A-II, B-I, C-IV, D-III",
+      "A-II, B-I, C-III, D-IV",
+      "A-IV, B-II, C-III, D-I",
+      "A-IV, B-II, C-I, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-old-p-block",
+    "paras": [],
+    "otherChapters": [
+     "Class 11 · Chemical Bonding (hybridisation, VSEPR)"
+    ],
+    "oldRef": "Old NCERT 12 Unit 7 · Group 18 (xenon compounds, structures)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q64",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  }
+ ]
+}

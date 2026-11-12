@@ -1,0 +1,64 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-lab-practical-chemistry",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 20,
+ "title": {
+  "en": "Principles Related to Practical Chemistry"
+ },
+ "ncert_status": "lab_manual",
+ "syllabus_status": "current",
+ "oldNcert": "NCERT Laboratory Manual Chemistry (Class XI and XII)",
+ "note": "Traced to the NCERT laboratory manual (NEET Unit 20), not a textbook chapter.",
+ "paragraphs": [],
+ "questions": [
+  {
+   "id": "chem12-lab-practical-chemistry-neet-2025-code-45-q48",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II<br>List I (Ion): A. Co<sup>2+</sup> B. Mg<sup>2+</sup> C. Pb<sup>2+</sup> D. Al<sup>3+</sup><br>List II (Group Number in Cation Analysis): I. Group-I II. Group-III III. Group-IV IV. Group-VI<br>Choose the correct answer from the option given below:",
+     "o": [
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-IV, C-I, D-II",
+      "A-III, B-II, C-IV, D-I",
+      "A-III, B-II, C-I, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-lab-practical-chemistry",
+    "paras": [],
+    "oldRef": "NCERT Lab Manual: systematic analysis of cations (group reagents)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q48",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "lab_manual",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "Option (D) is clipped at the right edge of the source copy; read as A-III, B-II, C-I, D-IV. Check against the official booklet."
+   }
+  }
+ ]
+}

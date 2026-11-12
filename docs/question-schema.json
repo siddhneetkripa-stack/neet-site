@@ -2,88 +2,239 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://neet-site/docs/question-schema.json",
   "title": "Question bank file (one NCERT chapter)",
-  "description": "Format of content/questions/<chapter>.json. One file per NCERT chapter; every question is written once, in both languages, and tagged to NCERT paragraphs so any test can be assembled from it (Blueprint section 6). Version 1, fixed in Phase 0.",
+  "description": "Format of content/questions/<chapter>.json. One file per NCERT chapter; every question is written once, in both languages, and tagged to NCERT paragraphs so any test can be assembled from it (Blueprint section 6). Version 1, fixed in Phase 0. v1.1 (13 Nov 2026): ncert_status / syllabus_status (docs/research/02-neet-syllabus-ncert-map.md); solution only required once a question is checked or live.",
   "type": "object",
-  "required": ["schemaVersion", "chapter", "subject", "class", "unit", "title", "paragraphs", "questions"],
+  "required": [
+    "schemaVersion",
+    "chapter",
+    "subject",
+    "class",
+    "unit",
+    "title",
+    "paragraphs",
+    "questions"
+  ],
   "additionalProperties": false,
   "properties": {
-    "$schema": { "type": "string" },
-    "schemaVersion": { "const": 1 },
-    "chapter": { "$ref": "#/$defs/chapterId" },
-    "subject": { "enum": ["physics", "chemistry", "biology"] },
-    "class": { "enum": [11, 12] },
-    "unit": { "type": "integer", "minimum": 1 },
-    "title": { "$ref": "#/$defs/bilingualLabel" },
-    "ncertPdf": { "type": "string", "description": "Official NCERT PDF on ncert.nic.in (linked, never hosted)." },
-    "pdfPageOffset": { "type": "integer", "description": "First printed page − 1, so PDF page = printed page − offset." },
-    "generatedFrom": { "type": "string", "description": "Legacy file this bank was converted from (tools/convert_questions.py)." },
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "chapter": {
+      "$ref": "#/$defs/chapterId"
+    },
+    "subject": {
+      "enum": [
+        "physics",
+        "chemistry",
+        "biology"
+      ]
+    },
+    "class": {
+      "enum": [
+        11,
+        12
+      ]
+    },
+    "unit": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "$ref": "#/$defs/bilingualLabel"
+    },
+    "ncertPdf": {
+      "type": "string",
+      "description": "Official NCERT PDF on ncert.nic.in (linked, never hosted)."
+    },
+    "pdfPageOffset": {
+      "type": "integer",
+      "description": "First printed page − 1, so PDF page = printed page − offset."
+    },
+    "generatedFrom": {
+      "type": "string",
+      "description": "Legacy file this bank was converted from (tools/convert_questions.py)."
+    },
     "paragraphs": {
       "description": "NCERT paragraphs of the chapter, in book order. Question `ncert.paras` must use these ids.",
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "title", "pages"],
+        "required": [
+          "id",
+          "title"
+        ],
         "additionalProperties": false,
         "properties": {
-          "id": { "$ref": "#/$defs/paraId" },
-          "title": { "type": "string" },
-          "hi": { "type": "string", "description": "Hindi title (NCERT Hindi book wording)." },
-          "pages": { "type": "array", "items": { "type": "integer" } },
-          "ref": { "type": "string", "description": "NCERT label, e.g. '5.4 (e) · Eq 5.16'." }
+          "id": {
+            "$ref": "#/$defs/paraId"
+          },
+          "title": {
+            "type": "string"
+          },
+          "hi": {
+            "type": "string",
+            "description": "Hindi title (NCERT Hindi book wording)."
+          },
+          "pages": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "description": "Printed NCERT page numbers, when known."
+          },
+          "ref": {
+            "type": "string",
+            "description": "NCERT label, e.g. '5.4 (e) · Eq 5.16'."
+          },
+          "pdfPage": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Page within the chapter PDF on ncert.nic.in (for #page=N links)."
+          }
         }
       }
     },
-    "questions": { "type": "array", "items": { "$ref": "#/$defs/question" } }
+    "questions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/question"
+      }
+    },
+    "ncert_status": {
+      "$ref": "#/$defs/ncertStatus",
+      "description": "Default for the chapter's questions."
+    },
+    "syllabus_status": {
+      "$ref": "#/$defs/syllabusStatus",
+      "description": "Default for the chapter's questions."
+    },
+    "oldNcert": {
+      "type": "string",
+      "description": "For chapters not in the rationalised NCERT: the pre-2023 NCERT chapter the questions trace to, e.g. 'Old NCERT Class 12 Part I Unit 7 The p-Block Elements'."
+    },
+    "note": {
+      "type": "string"
+    }
   },
   "$defs": {
-    "chapterId": { "type": "string", "pattern": "^(phy|chem|bio)1[12]-[a-z0-9-]+$" },
+    "chapterId": {
+      "type": "string",
+      "pattern": "^(phy|chem|bio)1[12]-[a-z0-9-]+$"
+    },
     "paraId": {
       "type": "string",
       "description": "Paragraph id local to the chapter: NCERT numbering ('1.4.2', '1.10.2c') or a mind-map node id ('hess'). Globally a paragraph is '<chapter>#<paraId>'.",
       "pattern": "^[a-z0-9][a-z0-9.-]*$"
     },
-    "html": { "type": "string", "description": "Our own trusted HTML (sub, sup, b, i, p, ul, li, table, img). Never copied NCERT or coaching text." },
+    "html": {
+      "type": "string",
+      "description": "Our own trusted HTML (sub, sup, b, i, p, ul, li, table, img). Never copied NCERT or coaching text."
+    },
     "bilingualLabel": {
       "type": "object",
-      "required": ["en"],
-      "properties": { "en": { "type": "string" }, "hi": { "type": "string" } },
+      "required": [
+        "en"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "hi": {
+          "type": "string"
+        }
+      },
       "additionalProperties": false
     },
     "textStatus": {
-      "enum": ["missing", "placeholder", "draft", "checked", "proofread"],
+      "enum": [
+        "missing",
+        "placeholder",
+        "draft",
+        "checked",
+        "proofread"
+      ],
       "description": "missing/placeholder: no usable text in this language yet (show the other language with a clear notice). draft: written, not yet checked against the glossary. checked: passed the automatic glossary check. proofread: passed a human proofreader (required before Hindi goes live)."
     },
     "langBlock": {
       "type": "object",
-      "required": ["status"],
+      "required": [
+        "status"
+      ],
       "additionalProperties": false,
       "properties": {
-        "status": { "$ref": "#/$defs/textStatus" },
-        "q": { "$ref": "#/$defs/html" },
-        "o": { "type": "array", "items": { "$ref": "#/$defs/html" }, "minItems": 4, "maxItems": 4, "description": "Options in the paper's original order; the same order in every language." },
-        "sol": { "$ref": "#/$defs/html" },
-        "hint": { "$ref": "#/$defs/html" },
-        "trap": { "$ref": "#/$defs/html" },
-        "note": { "type": "string", "description": "Translator / reviewer note." }
-      },
-      "if": { "properties": { "status": { "enum": ["draft", "checked", "proofread"] } } },
-      "then": { "required": ["q", "sol"] }
+        "status": {
+          "$ref": "#/$defs/textStatus"
+        },
+        "q": {
+          "$ref": "#/$defs/html"
+        },
+        "o": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/html"
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "Options in the paper's original order; the same order in every language."
+        },
+        "sol": {
+          "$ref": "#/$defs/html"
+        },
+        "hint": {
+          "$ref": "#/$defs/html"
+        },
+        "trap": {
+          "$ref": "#/$defs/html"
+        },
+        "note": {
+          "type": "string",
+          "description": "Translator / reviewer note."
+        }
+      }
     },
     "ncertLine": {
       "type": "object",
       "description": "An NCERT line the question is built on: a short cropped excerpt image (assets/ncert/<chapter>/<img>.webp) and/or a short quoted line.",
-      "required": ["page", "label"],
+      "required": [
+        "page",
+        "label"
+      ],
       "additionalProperties": false,
       "properties": {
-        "img": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-        "text": { "type": "string", "maxLength": 300 },
-        "page": { "type": "integer" },
-        "label": { "type": "string" }
+        "img": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "text": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "page": {
+          "type": "integer"
+        },
+        "label": {
+          "type": "string"
+        }
       }
     },
     "question": {
       "type": "object",
-      "required": ["id", "type", "text", "answer", "ncert", "source", "difficulty", "timeSec", "status"],
+      "required": [
+        "id",
+        "type",
+        "text",
+        "answer",
+        "ncert",
+        "source",
+        "difficulty",
+        "timeSec",
+        "status",
+        "ncert_status",
+        "syllabus_status"
+      ],
       "additionalProperties": false,
       "properties": {
         "id": {
@@ -92,97 +243,400 @@
           "description": "Stable id, never reused. Starts with the chapter id. Attempts, error reports and analysis are keyed by it."
         },
         "type": {
-          "enum": ["single", "statement", "assertion-reason", "match", "diagram", "numerical"],
+          "enum": [
+            "single",
+            "statement",
+            "assertion-reason",
+            "match",
+            "diagram",
+            "numerical"
+          ],
           "description": "Question style (Blueprint: statement, assertion-reason, match, diagram, numerical; 'single' = plain one-correct MCQ)."
         },
         "text": {
           "type": "object",
-          "required": ["en", "hi"],
+          "required": [
+            "en",
+            "hi"
+          ],
           "additionalProperties": false,
-          "properties": { "en": { "$ref": "#/$defs/langBlock" }, "hi": { "$ref": "#/$defs/langBlock" } }
+          "properties": {
+            "en": {
+              "$ref": "#/$defs/langBlock"
+            },
+            "hi": {
+              "$ref": "#/$defs/langBlock"
+            }
+          }
         },
         "answer": {
           "oneOf": [
             {
-              "type": "object", "additionalProperties": false, "required": ["kind", "index"],
-              "properties": { "kind": { "const": "single" }, "index": { "type": "integer", "minimum": 0, "maximum": 3, "description": "0-based index into the options." } }
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "index"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "single"
+                },
+                "index": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 3,
+                  "description": "0-based index into the options."
+                },
+                "alsoAccepted": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 3
+                  },
+                  "description": "Other option indices the official final key also accepts (e.g. NTA key '1,2')."
+                }
+              }
             },
             {
-              "type": "object", "additionalProperties": false, "required": ["kind", "value"],
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "value"
+              ],
               "properties": {
-                "kind": { "const": "numeric" },
-                "value": { "type": "number" },
-                "tol": { "type": "number", "minimum": 0, "description": "Accepted absolute error; 0 = exact (integer answers)." }
+                "kind": {
+                  "const": "numeric"
+                },
+                "value": {
+                  "type": "number"
+                },
+                "tol": {
+                  "type": "number",
+                  "minimum": 0,
+                  "description": "Accepted absolute error; 0 = exact (integer answers)."
+                }
               }
             }
           ]
         },
         "ncert": {
           "type": "object",
-          "required": ["chapter", "paras"],
+          "required": [
+            "chapter",
+            "paras"
+          ],
           "additionalProperties": false,
           "properties": {
-            "chapter": { "$ref": "#/$defs/chapterId" },
-            "paras": { "type": "array", "items": { "$ref": "#/$defs/paraId" }, "minItems": 1, "description": "NCERT paragraph ids this question tests, in book order." },
-            "otherChapters": { "type": "array", "items": { "type": "string" }, "description": "Other chapters it also needs, e.g. 'Class 12 · Solutions'." },
-            "lines": { "type": "array", "items": { "$ref": "#/$defs/ncertLine" }, "description": "The NCERT lines used." }
+            "chapter": {
+              "$ref": "#/$defs/chapterId"
+            },
+            "paras": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/paraId"
+              },
+              "description": "NCERT paragraph ids this question tests, in book order. At least one when ncert_status is in_ncert; empty when old_ncert_only."
+            },
+            "otherChapters": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Other chapters it also needs, e.g. 'Class 12 · Solutions'."
+            },
+            "lines": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/ncertLine"
+              },
+              "description": "The NCERT lines used."
+            },
+            "oldRef": {
+              "type": "string",
+              "description": "Pre-2023 NCERT section the question traces to (old_ncert_only), e.g. 'Old NCERT 12 Unit 7 §7.18 Oxoacids of Halogens'."
+            }
           }
         },
         "source": {
           "type": "object",
-          "required": ["kind"],
+          "required": [
+            "kind"
+          ],
           "additionalProperties": false,
           "properties": {
-            "kind": { "enum": ["PYQ", "NCERT Exercise", "NCERT Exemplar", "Own", "AI"], "description": "Own = from the owner's own repository (rights confirmed). AI = written by an AI model for this site." },
-            "exam": { "enum": ["NEET", "JEE Main"], "description": "PYQs only." },
-            "year": { "type": "integer", "minimum": 2013 },
-            "date": { "type": "string", "format": "date" },
-            "session": { "type": "string", "description": "Human label, e.g. '9 Jan 2020 · Shift 1'." },
-            "paper": { "type": "string", "description": "Where the text was read from (booklet code / shift and question number, or exercise number)." },
-            "label": { "type": "string", "description": "Display label, e.g. 'Practice'." }
+            "kind": {
+              "enum": [
+                "PYQ",
+                "NCERT Exercise",
+                "NCERT Exemplar",
+                "Own",
+                "AI"
+              ],
+              "description": "Own = from the owner's own repository (rights confirmed). AI = written by an AI model for this site."
+            },
+            "exam": {
+              "enum": [
+                "NEET",
+                "JEE Main"
+              ],
+              "description": "PYQs only."
+            },
+            "year": {
+              "type": "integer",
+              "minimum": 2013
+            },
+            "date": {
+              "type": "string",
+              "format": "date"
+            },
+            "session": {
+              "type": "string",
+              "description": "Human label, e.g. '9 Jan 2020 · Shift 1'."
+            },
+            "paper": {
+              "type": "string",
+              "description": "Where the text was read from (booklet code / shift and question number, or exercise number)."
+            },
+            "label": {
+              "type": "string",
+              "description": "Display label, e.g. 'Practice'."
+            }
           },
           "allOf": [
-            { "if": { "properties": { "kind": { "const": "PYQ" } } }, "then": { "required": ["exam", "year", "paper"] } }
+            {
+              "if": {
+                "properties": {
+                  "kind": {
+                    "const": "PYQ"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "exam",
+                  "year",
+                  "paper"
+                ]
+              }
+            }
           ]
         },
-        "difficulty": { "type": "integer", "minimum": 1, "maximum": 5, "description": "1 = very easy … 5 = very hard. Recalculated from student data later." },
-        "difficultyBasis": { "enum": ["default", "author", "data"] },
-        "timeSec": { "type": "integer", "minimum": 10, "description": "Expected solving time in seconds." },
+        "difficulty": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1 = very easy … 5 = very hard. Recalculated from student data later."
+        },
+        "difficultyBasis": {
+          "enum": [
+            "default",
+            "author",
+            "data"
+          ]
+        },
+        "timeSec": {
+          "type": "integer",
+          "minimum": 10,
+          "description": "Expected solving time in seconds."
+        },
         "media": {
           "type": "array",
           "items": {
-            "type": "object", "required": ["src", "alt"], "additionalProperties": false,
-            "properties": { "src": { "type": "string" }, "alt": { "$ref": "#/$defs/bilingualLabel" }, "where": { "enum": ["question", "solution"] } }
+            "type": "object",
+            "required": [
+              "src",
+              "alt"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "src": {
+                "type": "string"
+              },
+              "alt": {
+                "$ref": "#/$defs/bilingualLabel"
+              },
+              "where": {
+                "enum": [
+                  "question",
+                  "solution"
+                ]
+              }
+            }
           }
         },
-        "status": { "enum": ["draft", "checked", "live", "flagged"] },
+        "status": {
+          "enum": [
+            "draft",
+            "checked",
+            "live",
+            "flagged"
+          ]
+        },
         "review": {
           "type": "object",
           "additionalProperties": false,
           "description": "Pipeline record (Blueprint section 6).",
           "properties": {
-            "keyCheck": { "type": "string", "description": "Comparison with a published / NTA key." },
-            "modelA": { "type": "string" },
-            "modelB": { "type": "string" },
-            "agree": { "type": "boolean" },
-            "reviewer": { "type": "string" },
-            "hindiProofread": { "type": "boolean" },
-            "errata": { "type": "string" }
+            "keyCheck": {
+              "type": "string",
+              "description": "Comparison with a published / NTA key."
+            },
+            "modelA": {
+              "type": "string"
+            },
+            "modelB": {
+              "type": "string"
+            },
+            "agree": {
+              "type": "boolean"
+            },
+            "reviewer": {
+              "type": "string"
+            },
+            "hindiProofread": {
+              "type": "boolean"
+            },
+            "errata": {
+              "type": "string"
+            },
+            "keySource": {
+              "type": "string",
+              "description": "Which key the answer was compared with, e.g. 'NTA final key 2025 Code 45', 'Published key (Byju's) Code AA'."
+            },
+            "note": {
+              "type": "string"
+            }
           }
+        },
+        "ncert_status": {
+          "$ref": "#/$defs/ncertStatus"
+        },
+        "syllabus_status": {
+          "$ref": "#/$defs/syllabusStatus"
         }
       },
       "allOf": [
         {
-          "if": { "properties": { "type": { "const": "numerical" } } },
-          "then": { "properties": { "answer": { "properties": { "kind": { "const": "numeric" } } } } },
+          "if": {
+            "properties": {
+              "type": {
+                "const": "numerical"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "answer": {
+                "properties": {
+                  "kind": {
+                    "const": "numeric"
+                  }
+                }
+              }
+            }
+          },
           "else": {
             "properties": {
-              "answer": { "properties": { "kind": { "const": "single" } } },
-              "text": { "properties": { "en": { "required": ["status", "q", "o", "sol"] } } }
+              "answer": {
+                "properties": {
+                  "kind": {
+                    "const": "single"
+                  }
+                }
+              },
+              "text": {
+                "properties": {
+                  "en": {
+                    "required": [
+                      "status",
+                      "q",
+                      "o"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "text": {
+              "properties": {
+                "en": {
+                  "required": [
+                    "status",
+                    "q"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "checked",
+                  "live"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "text": {
+                "properties": {
+                  "en": {
+                    "required": [
+                      "sol"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "ncert_status": {
+                "const": "in_ncert"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "ncert": {
+                "properties": {
+                  "paras": {
+                    "minItems": 1
+                  }
+                }
+              }
             }
           }
         }
       ]
+    },
+    "ncertStatus": {
+      "enum": [
+        "in_ncert",
+        "old_ncert_only",
+        "lab_manual",
+        "outside_ncert"
+      ],
+      "description": "in_ncert: traced to a paragraph of the current (rationalised) NCERT. old_ncert_only: NEET topic dropped from the current NCERT (e.g. the whole p-Block); only the pre-2023 edition covers it, so ncert.paras may be empty. lab_manual: Experimental Skills / Practical Chemistry (NCERT lab manual). outside_ncert: in NEET, never in NCERT."
+    },
+    "syllabusStatus": {
+      "enum": [
+        "current",
+        "dropped_2024"
+      ],
+      "description": "dropped_2024: an older PYQ on a topic NEET removed from its syllabus in 2024 (Solid State, Surface Chemistry, s-Block, Hydrogen, Polymers, Metallurgy, Environmental Chemistry, Chemistry in Everyday Life, States of Matter, ...). Shown as 'out of syllabus'; never put in a mock."
     }
   }
 }

@@ -1,0 +1,2286 @@
+{
+ "description": "NCERT (rationalised, 2023+) Chemistry paragraph ids per chapter, from the section headings of the English books in neet-sources; Hindi titles from neet-sources/glossary/hi-terms.json (aligned headings). Used by tools/add_pyqs.py to start a chapter's question bank. Sub-paragraph ids (e.g. 1.10.2a) may be added in a chapter's own bank.",
+ "chapters": {
+  "chem11-02": {
+   "pdf": "class11/chemistry/ch02-structure-of-atom.pdf",
+   "paragraphs": [
+    {
+     "id": "2.1",
+     "title": "Discovery of Sub-atomic Particles",
+     "hi": "अवपरमाण्विक कणों की खोज",
+     "pdfPage": 2
+    },
+    {
+     "id": "2.1.1",
+     "title": "Discovery of Electron",
+     "hi": "इलेक्ट्रॉन की खोज",
+     "pdfPage": 2
+    },
+    {
+     "id": "2.1.2",
+     "title": "Charge to Mass Ratio of Electron",
+     "hi": "इलेक्ट्रॉन का आवेश द्रव्यमान अनुपात",
+     "pdfPage": 3
+    },
+    {
+     "id": "2.1.3",
+     "title": "Charge on the Electron",
+     "hi": "इलेक्ट्रॉनों पर आवेश",
+     "pdfPage": 3
+    },
+    {
+     "id": "2.1.4",
+     "title": "Discovery of Protons and Neutrons",
+     "hi": "प्रोटॉन तथा न्यूट्रॉन की खोज",
+     "pdfPage": 4
+    },
+    {
+     "id": "2.2",
+     "title": "Atomic Models",
+     "hi": "परमाणु मॉडल",
+     "pdfPage": 4
+    },
+    {
+     "id": "2.2.1",
+     "title": "Thomson Model of Atom",
+     "hi": "परमाणु का थॉमसन मॉडल",
+     "pdfPage": 5
+    },
+    {
+     "id": "2.2.2",
+     "title": "Rutherford's Nuclear Model of Atom",
+     "hi": "रदरफोर्ड का नाभिकीय परमाणु मॉडल",
+     "pdfPage": 6
+    },
+    {
+     "id": "2.2.3",
+     "title": "Atomic Number and Mass Number",
+     "hi": "परमाणु संख्या तथा द्रव्यमान संख्या",
+     "pdfPage": 7
+    },
+    {
+     "id": "2.2.4",
+     "title": "Isobars and Isotopes",
+     "hi": "समस्थानिक एवं समभारिक",
+     "pdfPage": 7
+    },
+    {
+     "id": "2.3",
+     "title": "Developments Leading to the Bohr's Model of Atom",
+     "hi": "बोर के परमाणु मॉडल के विकास की पृष्ठभूमि",
+     "pdfPage": 9
+    },
+    {
+     "id": "2.3.1",
+     "title": "Wave Nature of Electromagnetic Radiation",
+     "hi": "विद्युत्-चुंबकीय विकिरण की तरंग प्रकृति",
+     "pdfPage": 9
+    },
+    {
+     "id": "2.3.2",
+     "title": "Particle Nature of Electromagnetic",
+     "pdfPage": 11
+    },
+    {
+     "id": "2.3.3",
+     "title": "Evidence for the Quantized Electronic Energy Levels: Atomic Spectra",
+     "pdfPage": 16
+    },
+    {
+     "id": "2.4",
+     "title": "Bohr's Model for Hydrogen Atom",
+     "hi": "हाइड्रोजन परमाणु के लिए बोर मॉडल",
+     "pdfPage": 18
+    },
+    {
+     "id": "2.4.1",
+     "title": "Explanation of Line Spectrum of Hydrogen",
+     "hi": "हाइड्रोजन के रेखा स्पेक्ट्रम की व्याख्या",
+     "pdfPage": 20
+    },
+    {
+     "id": "2.4.2",
+     "title": "Limitations of Bohr's Model",
+     "hi": "बोर मॉडल की सीमाएँ",
+     "pdfPage": 21
+    },
+    {
+     "id": "2.5",
+     "title": "Towards Quantum Mechanical Model of the Atom",
+     "hi": "परमाणु के क्वांटम यांत्रिकीय मॉडल की ओर",
+     "pdfPage": 21
+    },
+    {
+     "id": "2.5.1",
+     "title": "Dual Behaviour of Matter",
+     "hi": "द्रव्य का द्वैत व्यवहार",
+     "pdfPage": 21
+    },
+    {
+     "id": "2.5.2",
+     "title": "Heisenberg's Uncertainty Principle",
+     "hi": "हाइज़ेनबर्ग का अनिश्चितता सिद्धांत",
+     "pdfPage": 22
+    },
+    {
+     "id": "2.6",
+     "title": "Quantum Mechanical Model of Atom",
+     "hi": "परमाणु का क्वांटम यांत्रिकीय मॉडल",
+     "pdfPage": 25
+    },
+    {
+     "id": "2.6.1",
+     "title": "Orbitals and Quantum Numbers",
+     "hi": "कक्षक और क्वांटम संख्या",
+     "pdfPage": 26
+    },
+    {
+     "id": "2.6.2",
+     "title": "Shapes of Atomic Orbitals",
+     "hi": "परमाणु कक्षकों की आकृतियाँ",
+     "pdfPage": 29
+    },
+    {
+     "id": "2.6.3",
+     "title": "Energies of Orbitals",
+     "hi": "कक्षकों की ऊर्जाएँ",
+     "pdfPage": 31
+    },
+    {
+     "id": "2.6.4",
+     "title": "Filling of Orbitals in Atom",
+     "hi": "परमाणु में कक्षकों का भरा जाना",
+     "pdfPage": 33
+    },
+    {
+     "id": "2.6.5",
+     "title": "Electronic Configuration of Atoms",
+     "hi": "परमाणुओं का इलेक्ट्रॉनिक विन्यास",
+     "pdfPage": 35
+    },
+    {
+     "id": "2.6.6",
+     "title": "Stability of Completely Filled and Half Filled Subshells",
+     "hi": "पूर्णरूपेण पूरित एवं अर्धपूरित उप-कोशों का स्थायित्व",
+     "pdfPage": 36
+    }
+   ]
+  },
+  "chem11-03": {
+   "pdf": "class11/chemistry/ch03-classification-of-elements-and-periodicity-in-properties.pdf",
+   "paragraphs": [
+    {
+     "id": "3.1",
+     "title": "Why do we need to classify elements ?",
+     "pdfPage": 1
+    },
+    {
+     "id": "3.2",
+     "title": "Genesis of Periodic Classification",
+     "hi": "आवर्त सारणी की उत्पत्ति",
+     "pdfPage": 2
+    },
+    {
+     "id": "3.3",
+     "title": "Modern Periodic Law and the Present Form of the Periodic Table",
+     "pdfPage": 5
+    },
+    {
+     "id": "3.4",
+     "title": "Nomenclature of elements",
+     "pdfPage": 5
+    },
+    {
+     "id": "3.5",
+     "title": "Electronic configurations of elements and the Periodic Table",
+     "hi": "तत्त्वों के इलेक्ट्रॉनिक विन्यास तथा आवर्त-सारणी",
+     "pdfPage": 8
+    },
+    {
+     "id": "3.6",
+     "title": "Electronic Configurations and Types of Elements: s-, p-, d-, f-Blocks",
+     "hi": "इलेक्ट्रॉनिक विन्यास और तत्त्वों के प्रकार (s,p,d,f ब्लॉक)",
+     "pdfPage": 9
+    },
+    {
+     "id": "3.6.1",
+     "title": "The s-Block Elements",
+     "pdfPage": 9
+    },
+    {
+     "id": "3.6.2",
+     "title": "The p-Block Elements",
+     "pdfPage": 11
+    },
+    {
+     "id": "3.6.3",
+     "title": "The d-Block Elements (Transition",
+     "pdfPage": 11
+    },
+    {
+     "id": "3.6.4",
+     "title": "The f-Block Elements",
+     "pdfPage": 11
+    },
+    {
+     "id": "3.6.5",
+     "title": "Metals, Non-metals and Metalloids",
+     "hi": "धातु, अधातु और उप-धातु",
+     "pdfPage": 12
+    },
+    {
+     "id": "3.7",
+     "title": "Periodic trends in properties of elements",
+     "hi": "तत्त्वों के गुण-धर्मों में आवर्तिता",
+     "pdfPage": 12
+    },
+    {
+     "id": "3.7.1",
+     "title": "Trends in Physical Properties",
+     "hi": "भौतिक गुणधर्मों की प्रवृत्ति",
+     "pdfPage": 12
+    },
+    {
+     "id": "3.7.2",
+     "title": "Periodic Trends in Chemical Properties",
+     "hi": "रासायनिक गुणधर्मों में आवर्त प्रवृत्ति",
+     "pdfPage": 19
+    },
+    {
+     "id": "3.7.3",
+     "title": "Periodic Trends and Chemical Reactivity",
+     "hi": "रासायनिक अभिक्रियाशीलता तथा आवर्तिता",
+     "pdfPage": 21
+    }
+   ]
+  },
+  "chem11-04": {
+   "pdf": "class11/chemistry/ch04-chemical-bonding-and-molecular-structure.pdf",
+   "paragraphs": [
+    {
+     "id": "4.1",
+     "title": "Kössel-Lewis approach to CHEMICAL bonding",
+     "hi": "रासायनिक आबंधन की कॉसेल- लूइस अवधारणा",
+     "pdfPage": 2
+    },
+    {
+     "id": "4.1.1",
+     "title": "Octet Rule",
+     "pdfPage": 3
+    },
+    {
+     "id": "4.1.2",
+     "title": "Covalent Bond",
+     "hi": "सहसंयोजी आबंध",
+     "pdfPage": 3
+    },
+    {
+     "id": "4.1.3",
+     "title": "Lewis Representation of Simple Molecules (the Lewis Structures)",
+     "pdfPage": 4
+    },
+    {
+     "id": "4.1.4",
+     "title": "Formal Charge"
+    },
+    {
+     "id": "4.1.5",
+     "title": "Limitations of the Octet Rule",
+     "hi": "अष्टक नियम की सीमाएँ",
+     "pdfPage": 6
+    },
+    {
+     "id": "4.2",
+     "title": "Ionic or electrovalent bond",
+     "hi": "आयनिक या वैद्युत् संयोजी आबंध",
+     "pdfPage": 7
+    },
+    {
+     "id": "4.2.1",
+     "title": "Lattice Enthalpy",
+     "hi": "जालक एन्थैल्पी (जालक ऊर्जा)",
+     "pdfPage": 8
+    },
+    {
+     "id": "4.3",
+     "title": "Bond parameters",
+     "hi": "आबंध प्राचल",
+     "pdfPage": 8
+    },
+    {
+     "id": "4.3.1",
+     "title": "Bond Length",
+     "hi": "आबंध लंबाई",
+     "pdfPage": 8
+    },
+    {
+     "id": "4.3.2",
+     "title": "Bond Angle",
+     "hi": "आबंध-कोण",
+     "pdfPage": 9
+    },
+    {
+     "id": "4.3.3",
+     "title": "Bond Enthalpy",
+     "hi": "आबंध एन्थैल्पी",
+     "pdfPage": 9
+    },
+    {
+     "id": "4.3.4",
+     "title": "Bond Order",
+     "hi": "आबंध कोटि",
+     "pdfPage": 10
+    },
+    {
+     "id": "4.3.5",
+     "title": "Resonance Structures",
+     "hi": "अनुनाद संरचनाएँ",
+     "pdfPage": 10
+    },
+    {
+     "id": "4.3.6",
+     "title": "Polarity of Bonds",
+     "hi": "आबंध-ध्रुवणता",
+     "pdfPage": 11
+    },
+    {
+     "id": "4.4",
+     "title": "The Valence Shell Electron Pair Repulsion (VSEPR) Theory",
+     "hi": "संयोजकता कोश इलेक्ट्रॉन युग्म प्रतिकर्षण सिद्धांत",
+     "pdfPage": 13
+    },
+    {
+     "id": "4.5",
+     "title": "Valence bond theory",
+     "hi": "संयोजकता आबंध सिद्धांत",
+     "pdfPage": 18
+    },
+    {
+     "id": "4.5.1",
+     "title": "Orbital Overlap Concept",
+     "hi": "कक्षक अतिव्यापन अवधारणा",
+     "pdfPage": 19
+    },
+    {
+     "id": "4.5.2",
+     "title": "Directional Properties of Bonds",
+     "hi": "आबंधों के दिशात्मक गुणधर्म",
+     "pdfPage": 20
+    },
+    {
+     "id": "4.5.3",
+     "title": "Overlapping of Atomic Orbitals",
+     "hi": "परमाणु कक्षकों का अतिव्यापन",
+     "pdfPage": 20
+    },
+    {
+     "id": "4.5.4",
+     "title": "Types of Overlapping and Nature of Covalent Bonds",
+     "hi": "अतिव्यापन के प्रकार तथा सहसंयोजी आबंध की प्रकृति",
+     "pdfPage": 21
+    },
+    {
+     "id": "4.5.5",
+     "title": "Strength of Sigma and pi Bonds",
+     "hi": "सिग्मा तथा पाई आबंधों की प्रबलता",
+     "pdfPage": 21
+    },
+    {
+     "id": "4.6",
+     "title": "Hybridisation",
+     "hi": "संकरण",
+     "pdfPage": 21
+    },
+    {
+     "id": "4.6.1",
+     "title": "Types of Hybridisation",
+     "hi": "संकरण के प्रकार",
+     "pdfPage": 22
+    },
+    {
+     "id": "4.6.3",
+     "title": "Hybridisation of Elements involving d Orbitals",
+     "pdfPage": 25
+    },
+    {
+     "id": "4.7",
+     "title": "Molecular orbital theory",
+     "hi": "आण्विक कक्षक सिद्धांत",
+     "pdfPage": 26
+    },
+    {
+     "id": "4.7.1",
+     "title": "Formation of Molecular Orbitals"
+    },
+    {
+     "id": "4.7.2",
+     "title": "Conditions for the Combination of Atomic Orbitals",
+     "hi": "परमाणु कक्षकों के संयोग की शर्तें",
+     "pdfPage": 28
+    },
+    {
+     "id": "4.7.3",
+     "title": "Types of Molecular Orbitals",
+     "hi": "आण्विक कक्षकों के प्रकार",
+     "pdfPage": 28
+    },
+    {
+     "id": "4.7.4",
+     "title": "Energy Level Diagram for Molecular Orbitals",
+     "hi": "आण्विक कक्षकों का ऊर्जा-स्तर आरेख",
+     "pdfPage": 28
+    },
+    {
+     "id": "4.7.5",
+     "title": "Electronic Configuration and Molecular Behaviour",
+     "hi": "इलेक्ट्रॉनी विन्यास तथा आण्विक व्यवहार",
+     "pdfPage": 30
+    },
+    {
+     "id": "4.8",
+     "title": "Bonding in some homonuclear diatomic molecules",
+     "hi": "समनाभिकीय द्विपरमाणुक अणुओं में आबंधन",
+     "pdfPage": 30
+    },
+    {
+     "id": "4.9",
+     "title": "Hydrogen bonding",
+     "hi": "हाइड्रोजन आबंधन",
+     "pdfPage": 32
+    },
+    {
+     "id": "4.9.1",
+     "title": "Cause of Formation of Hydrogen Bond",
+     "hi": "हाइड्रोजन आबंध बनने का कारण",
+     "pdfPage": 32
+    },
+    {
+     "id": "4.9.2",
+     "title": "Types of H-Bonds",
+     "hi": "हाइड्रोजन आबंधों के प्रकार",
+     "pdfPage": 33
+    }
+   ]
+  },
+  "chem11-06": {
+   "pdf": "class11/chemistry/ch06-equilibrium.pdf",
+   "paragraphs": [
+    {
+     "id": "6.1",
+     "title": "Processes",
+     "hi": "भौतिक प्रक्रमों में साम्यावस्था",
+     "pdfPage": 2
+    },
+    {
+     "id": "6.1.1",
+     "title": "Solid-Liquid Equilibrium",
+     "hi": "ठोस-द्रव साम्यावस्था",
+     "pdfPage": 2
+    },
+    {
+     "id": "6.1.2",
+     "title": "Liquid-Vapour Equilibrium",
+     "hi": "द्रव-वाष्प साम्यावस्था",
+     "pdfPage": 2
+    },
+    {
+     "id": "6.1.3",
+     "title": "Solid - Vapour Equilibrium",
+     "hi": "ठोस-वाष्प साम्यावस्था",
+     "pdfPage": 3
+    },
+    {
+     "id": "6.1.4",
+     "title": "Equilibrium Involving Dissolution of Solid or Gases in Liquids",
+     "pdfPage": 4
+    },
+    {
+     "id": "6.1.5",
+     "title": "General Characteristics of Equilibria Involving Physical",
+     "pdfPage": 5
+    },
+    {
+     "id": "6.2",
+     "title": "Equilibrium in chemical processes - dynamic equilibrium",
+     "hi": "रासायनिक प्रक्रमों में साम्यावस्था-गतिक साम्य",
+     "pdfPage": 5
+    },
+    {
+     "id": "6.3",
+     "title": "Law of chemical equilibrium and equilibrium constant",
+     "hi": "रासायनिक साम्यावस्था का नियम तथा साम्यावस्था स्थिरांक",
+     "pdfPage": 7
+    },
+    {
+     "id": "6.4",
+     "title": "Homogeneous equilibria",
+     "hi": "समांग साम्यावस्था",
+     "pdfPage": 10
+    },
+    {
+     "id": "6.4.1",
+     "title": "Equilibrium Constant in Gaseous Systems",
+     "hi": "गैसीय निकाय में साम्यावस्था स्थिरांक ( Kp)",
+     "pdfPage": 10
+    },
+    {
+     "id": "6.5",
+     "title": "Heterogeneous equilibria",
+     "hi": "विषमांग साम्यावस्था",
+     "pdfPage": 12
+    },
+    {
+     "id": "6.6",
+     "title": "Applications of equilibrium constants",
+     "hi": "साम्यावस्था स्थिरांक के अनुप्रयोग",
+     "pdfPage": 14
+    },
+    {
+     "id": "6.6.1",
+     "title": "Predicting the Extent of a Reaction"
+    },
+    {
+     "id": "6.6.2",
+     "title": "Predicting the Direction of the"
+    },
+    {
+     "id": "6.6.3",
+     "title": "Calculating Equilibrium Concentrations",
+     "hi": "साम्य सांद्रताओं की गणना",
+     "pdfPage": 16
+    },
+    {
+     "id": "6.7",
+     "title": "Relationship between",
+     "pdfPage": 17
+    },
+    {
+     "id": "6.8",
+     "title": "Factors affecting equilibria",
+     "hi": "साम्य को प्रभावित करने वाले कारक",
+     "pdfPage": 17
+    },
+    {
+     "id": "6.8.1",
+     "title": "Effect of Concentration Change",
+     "hi": "सांद्रता-परिवर्तन का प्रभाव",
+     "pdfPage": 18
+    },
+    {
+     "id": "6.8.2",
+     "title": "Effect of Pressure Change",
+     "hi": "दाब-परिवर्तन का प्रभाव",
+     "pdfPage": 19
+    },
+    {
+     "id": "6.8.3",
+     "title": "Effect of Inert Gas Addition",
+     "hi": "अक्रिय गैस के योग का प्रभाव",
+     "pdfPage": 20
+    },
+    {
+     "id": "6.8.4",
+     "title": "Effect of Temperature Change",
+     "hi": "ताप-परिवर्तन का प्रभाव",
+     "pdfPage": 20
+    },
+    {
+     "id": "6.8.5",
+     "title": "Effect of a Catalyst",
+     "hi": "उत्प्रेरक का प्रभाव",
+     "pdfPage": 21
+    },
+    {
+     "id": "6.9",
+     "title": "Ionic equilibrium in solution",
+     "hi": "विलयन में आयनिक साम्यावस्था",
+     "pdfPage": 21
+    },
+    {
+     "id": "6.10",
+     "title": "Acids, bases and salts",
+     "hi": "अम्ल, क्षारक एवं लवण",
+     "pdfPage": 22
+    },
+    {
+     "id": "6.10.1",
+     "title": "Arrhenius Concept of Acids and Bases",
+     "hi": "अम्ल तथा क्षारक की आरेनियस धारणा",
+     "pdfPage": 23
+    },
+    {
+     "id": "6.10.2",
+     "title": "The Brönsted-Lowry Acids and Bases",
+     "hi": "ब्रन्स्टेद लोरी अम्ल एवं क्षारक",
+     "pdfPage": 23
+    },
+    {
+     "id": "6.10.3",
+     "title": "Lewis Acids and Bases",
+     "hi": "लूइस अम्ल एवं क्षारक",
+     "pdfPage": 25
+    },
+    {
+     "id": "6.11",
+     "title": "Ionization of acids and bases",
+     "hi": "अम्लों एवं क्षारकों का आयनन",
+     "pdfPage": 25
+    },
+    {
+     "id": "6.11.1",
+     "title": "The Ionization Constant of Water and its Ionic Product",
+     "hi": "जल का आयनन स्थिरांक एवं इसका आयनिक गुणनफल",
+     "pdfPage": 26
+    },
+    {
+     "id": "6.11.2",
+     "title": "The pH Scale",
+     "pdfPage": 26
+    },
+    {
+     "id": "6.11.3",
+     "title": "Ionization Constants of Weak Acids",
+     "hi": "दुर्बल अम्लों के आयनन स्थिरांक",
+     "pdfPage": 28
+    },
+    {
+     "id": "6.11.4",
+     "title": "Ionization of Weak Bases",
+     "hi": "दुर्बल क्षारकों का आयनन",
+     "pdfPage": 30
+    },
+    {
+     "id": "6.11.5",
+     "title": "Relation between Ka and Kb",
+     "pdfPage": 31
+    },
+    {
+     "id": "6.11.6",
+     "title": "Di- and Polybasic Acids and Di- and Polyacidic Bases",
+     "pdfPage": 32
+    },
+    {
+     "id": "6.11.7",
+     "title": "Factors Affecting Acid Strength",
+     "hi": "अम्ल-सामर्थ्य को प्रभावित करनेवाले कारक",
+     "pdfPage": 33
+    },
+    {
+     "id": "6.11.8",
+     "title": "Common Ion Effect in the Ionization of Acids and Bases",
+     "pdfPage": 33
+    },
+    {
+     "id": "6.11.9",
+     "title": "Hydrolysis of Salts and the pH of their Solutions",
+     "pdfPage": 34
+    },
+    {
+     "id": "6.12",
+     "title": "Buffer solutions",
+     "hi": "बफ़र-विलयन",
+     "pdfPage": 35
+    },
+    {
+     "id": "6.12.1",
+     "title": "Designing Buffer Solution",
+     "hi": "बफ़र विलयन बनाना",
+     "pdfPage": 36
+    },
+    {
+     "id": "6.13",
+     "title": "Solubility equilibria of sparingly soluble salts",
+     "hi": "अल्पविलेय लवणों की विलेयता साम्यावस्था",
+     "pdfPage": 37
+    },
+    {
+     "id": "6.13.1",
+     "title": "Solubility Product Constant",
+     "hi": "विलेयता गुणनफल स्थिरांक",
+     "pdfPage": 37
+    },
+    {
+     "id": "6.13.2",
+     "title": "Common Ion Effect on Solubility of Ionic Salts",
+     "hi": "आयनिक लवणों की विलेयता पर सम आयन प्रभाव",
+     "pdfPage": 39
+    }
+   ]
+  },
+  "chem11-07": {
+   "pdf": "class11/chemistry/ch07-redox-reactions.pdf",
+   "paragraphs": [
+    {
+     "id": "7.1",
+     "title": "Classical idea of redox reactions",
+     "pdfPage": 1
+    },
+    {
+     "id": "7.2",
+     "title": "Redox reactions in terms of electron transfer reactions",
+     "pdfPage": 3
+    },
+    {
+     "id": "7.2.1",
+     "title": "Competitive Electron Transfer Reactions",
+     "hi": "प्रतियोगी इलेक्ट्रॉन स्थानांतरण अभिक्रियाएँ",
+     "pdfPage": 4
+    },
+    {
+     "id": "7.3",
+     "title": "Oxidation number",
+     "hi": "ऑक्सीकरण-संख्या",
+     "pdfPage": 5
+    },
+    {
+     "id": "7.3.1",
+     "title": "Types of Redox Reactions",
+     "hi": "अपचयोपचय अभिक्रियाओं के प्रारूप",
+     "pdfPage": 8
+    },
+    {
+     "id": "7.3.2",
+     "title": "Balancing of Redox Reactions",
+     "hi": "अपचयोपचय अभिक्रियाओं का संतुलन",
+     "pdfPage": 12
+    },
+    {
+     "id": "7.3.3",
+     "title": "Redox Reactions as the Basis for Titrations",
+     "hi": "अपचयोपचय अभिक्रियाओं पर आधारित अनुमापन",
+     "pdfPage": 15
+    },
+    {
+     "id": "7.3.4",
+     "title": "Limitations of Concept of Oxidation Number",
+     "hi": "ऑक्सीकरण अंकधारणा की सीमाएँ",
+     "pdfPage": 15
+    },
+    {
+     "id": "7.4",
+     "title": "Redox reactions and electrode processes",
+     "hi": "अपचयोपचन अभिक्रियाएँ तथा इलेक्ट्रोड प्रक्रम",
+     "pdfPage": 15
+    }
+   ]
+  },
+  "chem11-08": {
+   "pdf": "class11/chemistry/ch08-organic-chemistry-some-basic-principles-and-techniques.pdf",
+   "paragraphs": [
+    {
+     "id": "8.1",
+     "title": "General introduction",
+     "hi": "सामान्य प्रस्तावना",
+     "pdfPage": 1
+    },
+    {
+     "id": "8.2",
+     "title": "Tetravalence of Carbon: Shapes of Organic Compounds",
+     "hi": "कार्बन की चतुर्संयोजकता : कार्बनिक यौगिकों की आकृतियाँ",
+     "pdfPage": 2
+    },
+    {
+     "id": "8.2.1",
+     "title": "The Shapes of Carbon Compounds",
+     "hi": "कार्बनिक यौगिकों की आकृतियाँ",
+     "pdfPage": 2
+    },
+    {
+     "id": "8.3",
+     "title": "Structural representations of organic compounds",
+     "hi": "कार्बनिक यौगिक का संरचनात्मक निरूपण",
+     "pdfPage": 3
+    },
+    {
+     "id": "8.3.1",
+     "title": "Complete, condensed and Bond-line structural Formulas",
+     "hi": "पूर्ण संघनित तथा आबंध-रेखा संरचनात्मक सूत्र",
+     "pdfPage": 3
+    },
+    {
+     "id": "8.3.2",
+     "title": "Three-dimensional representation of Organic molecules",
+     "hi": "कार्बनिक यौगिकों का त्रिविमी सूत्र",
+     "pdfPage": 5
+    },
+    {
+     "id": "8.4",
+     "title": "Classification of organic compounds",
+     "hi": "कार्बनिक यौगिकों का वर्गीकरण",
+     "pdfPage": 6
+    },
+    {
+     "id": "8.4.1",
+     "title": "Functional group",
+     "hi": "क्रियात्मक समूह या प्रकार्यात्मक समूह",
+     "pdfPage": 7
+    },
+    {
+     "id": "8.4.2",
+     "title": "Homologous series",
+     "hi": "सजातीय श्रेणियाँ",
+     "pdfPage": 7
+    },
+    {
+     "id": "8.5",
+     "title": "Nomenclature of organic compounds",
+     "hi": "कार्बनिक यौगिकों की नामपद्धति",
+     "pdfPage": 7
+    },
+    {
+     "id": "8.5.1",
+     "title": "Iupac system of Nomenclature",
+     "hi": "आई.यू.पी.ए.सी. नामकरण",
+     "pdfPage": 7
+    },
+    {
+     "id": "8.5.2",
+     "title": "IUPAC Nomenclature of Alkanes Straight chain hydrocarbons: The names"
+    },
+    {
+     "id": "8.5.3",
+     "title": "Compounds having Functional group(s)",
+     "hi": "क्रियात्मक समूह से युक्त कार्बनिक यौगिकों की नामपद्धति",
+     "pdfPage": 10
+    },
+    {
+     "id": "8.5.4",
+     "title": "Nomenclature of substituted Benzene compounds",
+     "hi": "बेन्जीन व्युत्पन्नों की नामपद्वति",
+     "pdfPage": 13
+    },
+    {
+     "id": "8.6",
+     "title": "Isomerism",
+     "hi": "समावयवता",
+     "pdfPage": 15
+    },
+    {
+     "id": "8.6.1",
+     "title": "Structural isomerism",
+     "hi": "संरचनात्मक समावयवता",
+     "pdfPage": 15
+    },
+    {
+     "id": "8.6.2",
+     "title": "Stereoisomerism",
+     "hi": "त्रिविम समावयवता",
+     "pdfPage": 16
+    },
+    {
+     "id": "8.7",
+     "title": "Fundamental concepts in organic reaction mechanism",
+     "hi": "कार्बनिक अभिक्रियाओं की क्रियाविधि में मूलभूत संकल्पनाएँ",
+     "pdfPage": 16
+    },
+    {
+     "id": "8.7.1",
+     "title": "Fission of a covalent Bond",
+     "hi": "सहसंयोजक आबंध का विदलन",
+     "pdfPage": 16
+    },
+    {
+     "id": "8.7.2",
+     "title": "Substrate and reagent",
+     "hi": "क्रियाधार एवं अभिकर्मक",
+     "pdfPage": 17
+    },
+    {
+     "id": "8.7.3",
+     "title": "Electron movement in Organic reactions",
+     "hi": "कार्बनिक अभिक्रियाओं में इलेक्ट्रॉन संचलन",
+     "pdfPage": 18
+    },
+    {
+     "id": "8.7.4",
+     "title": "Electron displacement effects in covalent Bonds",
+     "hi": "सहसंयोजी आबंधों में इलेक्ट्रॉन विस्थापन के प्रभाव",
+     "pdfPage": 19
+    },
+    {
+     "id": "8.7.5",
+     "title": "Inductive effect",
+     "hi": "प्रेरणिक प्रभाव",
+     "pdfPage": 19
+    },
+    {
+     "id": "8.7.6",
+     "title": "Resonance structure",
+     "hi": "अनुनाद-संरचना",
+     "pdfPage": 20
+    },
+    {
+     "id": "8.7.7",
+     "title": "Resonance effect",
+     "hi": "अनुनाद-प्रभाव",
+     "pdfPage": 21
+    },
+    {
+     "id": "8.7.8",
+     "title": "Electromeric effect (e effect)",
+     "hi": "इलेक्ट्रोमेरी प्रभाव (E प्रभाव)",
+     "pdfPage": 22
+    },
+    {
+     "id": "8.7.9",
+     "title": "Hyperconjugation",
+     "hi": "अतिसंयुग्मन",
+     "pdfPage": 22
+    },
+    {
+     "id": "8.7.10",
+     "title": "Types of Organic reactions and mechanisms",
+     "hi": "कार्बनिक अभिक्रियाएँ और उनकी क्रियाविधियाँ",
+     "pdfPage": 23
+    },
+    {
+     "id": "8.8",
+     "title": "Methods of purification of organic compounds",
+     "hi": "कार्बनिक यौगिकों के शोधन की विधियाँ",
+     "pdfPage": 23
+    },
+    {
+     "id": "8.8.1",
+     "title": "Sublimation",
+     "hi": "ऊर्ध्वपातन",
+     "pdfPage": 24
+    },
+    {
+     "id": "8.8.2",
+     "title": "Crystallisation",
+     "hi": "क्रिस्टलन",
+     "pdfPage": 24
+    },
+    {
+     "id": "8.8.3",
+     "title": "Distillation",
+     "hi": "आसवन",
+     "pdfPage": 24
+    },
+    {
+     "id": "8.8.4",
+     "title": "Differential extraction",
+     "hi": "विभेदी निष्कर्षण",
+     "pdfPage": 26
+    },
+    {
+     "id": "8.8.5",
+     "title": "Chromatography",
+     "hi": "वर्णलेखन (क्रोमेटोगै्रफी)",
+     "pdfPage": 26
+    },
+    {
+     "id": "8.9",
+     "title": "Qualitative analysis of organic compounds",
+     "hi": "कार्बनिक यौगिकों का गुणात्मक विश्लेषण",
+     "pdfPage": 29
+    },
+    {
+     "id": "8.9.1",
+     "title": "Detection of carbon and hydrogen",
+     "hi": "कार्बन तथा हाइड्रोजन की पहचान",
+     "pdfPage": 29
+    },
+    {
+     "id": "8.9.2",
+     "title": "Detection of Other elements",
+     "hi": "अन्य तत्त्वों की पहचान",
+     "pdfPage": 29
+    },
+    {
+     "id": "8.10",
+     "title": "Quantitative analysis",
+     "hi": "मात्रात्मक विश्लेषण",
+     "pdfPage": 30
+    },
+    {
+     "id": "8.10.1",
+     "title": "Carbon and hydrogen",
+     "hi": "कार्बन तथा हाइड्रोजन",
+     "pdfPage": 30
+    },
+    {
+     "id": "8.10.2",
+     "title": "Nitrogen",
+     "hi": "नाइट्रोजन",
+     "pdfPage": 31
+    },
+    {
+     "id": "8.10.3",
+     "title": "Halogens",
+     "hi": "हैलोजन",
+     "pdfPage": 34
+    },
+    {
+     "id": "8.10.4",
+     "title": "Sulphur",
+     "hi": "सल्फर",
+     "pdfPage": 34
+    },
+    {
+     "id": "8.10.5",
+     "title": "Phosphorus",
+     "hi": "फ़ॉस्फ़ोरस",
+     "pdfPage": 35
+    },
+    {
+     "id": "8.10.6",
+     "title": "Oxygen",
+     "hi": "ऑक्सीजन",
+     "pdfPage": 35
+    }
+   ]
+  },
+  "chem11-09": {
+   "pdf": "class11/chemistry/ch09-hydrocarbons.pdf",
+   "paragraphs": [
+    {
+     "id": "9.1",
+     "title": "Classification",
+     "hi": "वर्गीकरण",
+     "pdfPage": 1
+    },
+    {
+     "id": "9.2",
+     "title": "Alkanes",
+     "hi": "ऐल्केन",
+     "pdfPage": 2
+    },
+    {
+     "id": "9.2.1",
+     "title": "Nomenclature and Isomerism",
+     "hi": "नाम पद्धति तथा समावयवता",
+     "pdfPage": 2
+    },
+    {
+     "id": "9.2.2",
+     "title": "Preparation",
+     "hi": "विरचन",
+     "pdfPage": 6
+    },
+    {
+     "id": "9.2.3",
+     "title": "Properties",
+     "hi": "गुणधर्म",
+     "pdfPage": 7
+    },
+    {
+     "id": "9.2.4",
+     "title": "Conformations",
+     "hi": "संरूपण",
+     "pdfPage": 11
+    },
+    {
+     "id": "9.3",
+     "title": "Alkenes",
+     "hi": "एल्कीन",
+     "pdfPage": 12
+    },
+    {
+     "id": "9.3.1",
+     "title": "Structure of Double Bond",
+     "hi": "द्विआबंध की संरचना",
+     "pdfPage": 12
+    },
+    {
+     "id": "9.3.2",
+     "title": "Nomenclature",
+     "hi": "नाम-पद्धति",
+     "pdfPage": 12
+    },
+    {
+     "id": "9.3.3",
+     "title": "Isomerism",
+     "hi": "समावयता",
+     "pdfPage": 13
+    },
+    {
+     "id": "9.4",
+     "title": "Alkynes",
+     "hi": "एल्काइन",
+     "pdfPage": 20
+    },
+    {
+     "id": "9.4.1",
+     "title": "Nomenclature and Isomerism",
+     "pdfPage": 20
+    },
+    {
+     "id": "9.4.2",
+     "title": "Structure of Triple Bond",
+     "hi": "त्रि-आबंध की संरचना",
+     "pdfPage": 21
+    },
+    {
+     "id": "9.5",
+     "title": "Aromatic hydrocarbon",
+     "hi": "ऐरोमैटिक हाइड्रोकार्बन",
+     "pdfPage": 24
+    },
+    {
+     "id": "9.5.1",
+     "title": "Nomenclature and Isomerism",
+     "pdfPage": 24
+    },
+    {
+     "id": "9.5.2",
+     "title": "Structure of Benzene",
+     "pdfPage": 25
+    },
+    {
+     "id": "9.5.3",
+     "title": "Aromaticity",
+     "hi": "ऐरोमैटिकता",
+     "pdfPage": 27
+    },
+    {
+     "id": "9.5.4",
+     "title": "Preparation of Benzene",
+     "hi": "बेन्जीन का विरचन",
+     "pdfPage": 27
+    },
+    {
+     "id": "9.5.5",
+     "title": "Properties Physical properties",
+     "hi": "गुणधर्म",
+     "pdfPage": 28
+    },
+    {
+     "id": "9.6",
+     "title": "Carcinogenicity and toxicity",
+     "hi": "कैंसरजन्य गुण तथा विषाक्तता",
+     "pdfPage": 31
+    }
+   ]
+  },
+  "chem12-01": {
+   "pdf": "class12/chemistry/ch01-solutions.pdf",
+   "paragraphs": [
+    {
+     "id": "1.1",
+     "title": "Types of Solutions",
+     "hi": "विलयनों के प्रकार",
+     "pdfPage": 1
+    },
+    {
+     "id": "1.2",
+     "title": "Expressing Concentration of Solutions",
+     "hi": "विलयनों की सांद्रता को व्यक्त करना",
+     "pdfPage": 2
+    },
+    {
+     "id": "1.3",
+     "title": "Solubility",
+     "hi": "विलेयता",
+     "pdfPage": 5
+    },
+    {
+     "id": "1.3.1",
+     "title": "Solubility of a Solid in a Liquid",
+     "hi": "ठोसों की द्रवों में विलेयता",
+     "pdfPage": 6
+    },
+    {
+     "id": "1.3.2",
+     "title": "Solubility of a Gas in a Liquid",
+     "hi": "गैसों की द्रवों में विलेयता",
+     "pdfPage": 6
+    },
+    {
+     "id": "1.4",
+     "title": "Vapour Pressure of Liquid Solutions",
+     "hi": "द्रवीय विलयनों का वाष्प दाब",
+     "pdfPage": 5
+    },
+    {
+     "id": "1.4.1",
+     "title": "Vapour Pressure of Liquid-Liquid Solutions",
+     "hi": "द्रव-द्रव विलयनों का वाष्प दाब",
+     "pdfPage": 9
+    },
+    {
+     "id": "1.4.2",
+     "title": "Raoult's Law as a Special Case of Henry's Law",
+     "pdfPage": 12
+    },
+    {
+     "id": "1.4.3",
+     "title": "Vapour Pressure of Solutions of Solids in Liquids",
+     "hi": "ठोस पदार्थों का द्रवों में विलयन एवं उनका वाष्पदाब",
+     "pdfPage": 12
+    },
+    {
+     "id": "1.5",
+     "title": "Ideal and Non-ideal Solutions",
+     "hi": "आदर्श एवं अनादर्श विलयन",
+     "pdfPage": 5
+    },
+    {
+     "id": "1.5.1",
+     "title": "Ideal Solutions",
+     "hi": "आदर्श विलयन",
+     "pdfPage": 13
+    },
+    {
+     "id": "1.5.2",
+     "title": "Non-ideal Solutions",
+     "hi": "अनादर्श विलयन",
+     "pdfPage": 13
+    },
+    {
+     "id": "1.6",
+     "title": "Colligative Properties and Determination of Molar Mass",
+     "hi": "अणुसंख्य गुणधर्म और आण्विक द्रव्यमान की गणना",
+     "pdfPage": 9
+    },
+    {
+     "id": "1.6.1",
+     "title": "Relative Lowering of Vapour Pressure",
+     "hi": "वाष्प दाब का आपेक्षिक अवनमन",
+     "pdfPage": 15
+    },
+    {
+     "id": "1.6.2",
+     "title": "Elevation of Boiling Point",
+     "hi": "क्वथनांक का उन्नयन",
+     "pdfPage": 16
+    },
+    {
+     "id": "1.6.3",
+     "title": "Depression of Freezing Point",
+     "hi": "हिमांक का अवनमन",
+     "pdfPage": 18
+    },
+    {
+     "id": "1.6.4",
+     "title": "Osmosis and Osmotic Pressure",
+     "hi": "परासरण एवं परासरण दाब",
+     "pdfPage": 20
+    },
+    {
+     "id": "1.6.5",
+     "title": "Reverse Osmosis and Water Purification",
+     "hi": "प्रतिलोम परासरण एवं जल शोधन",
+     "pdfPage": 23
+    },
+    {
+     "id": "1.7",
+     "title": "Abnormal Molar Masses",
+     "hi": "असामान्य मोलर द्रव्यमान",
+     "pdfPage": 9
+    }
+   ]
+  },
+  "chem12-02": {
+   "pdf": "class12/chemistry/ch02-electrochemistry.pdf",
+   "paragraphs": [
+    {
+     "id": "2.1",
+     "title": "Electrochemical Cells",
+     "hi": "वैद्युत रासायनिक सेल",
+     "pdfPage": 2
+    },
+    {
+     "id": "2.2",
+     "title": "Galvanic Cells",
+     "hi": "गैल्वैनी सेल",
+     "pdfPage": 3
+    },
+    {
+     "id": "2.2.1",
+     "title": "Measurement of Electrode Potential",
+     "hi": "इलैक्ट्रोड विभव का मापन",
+     "pdfPage": 4
+    },
+    {
+     "id": "2.3",
+     "title": "Nernst Equation",
+     "hi": "नेर्न्स्ट समीकरण",
+     "pdfPage": 6
+    },
+    {
+     "id": "2.3.1",
+     "title": "Equilibrium Constant from Nernst Equation",
+     "hi": "नेर्न्स्ट समीकरण से साम्य स्थिरांक",
+     "pdfPage": 9
+    },
+    {
+     "id": "2.3.2",
+     "title": "Electrochemical Cell and Gibbs Energy of the Reaction",
+     "pdfPage": 10
+    },
+    {
+     "id": "2.4",
+     "title": "Conductance of Electrolytic Solutions",
+     "hi": "वैद्युतअपघटनी विलयनों का चालकत्व",
+     "pdfPage": 11
+    },
+    {
+     "id": "2.4.1",
+     "title": "Measurement of the Conductivity of Ionic Solutions",
+     "hi": "आयनिक विलयनों की चालकता का मापन",
+     "pdfPage": 13
+    },
+    {
+     "id": "2.4.2",
+     "title": "Variation of Conductivity",
+     "pdfPage": 16
+    },
+    {
+     "id": "2.5",
+     "title": "Electrolytic Cells and Electrolysis",
+     "hi": "वैद्युतअपघटनी सेल एवं वैद्युतअपघटन",
+     "pdfPage": 11
+    },
+    {
+     "id": "2.5.1",
+     "title": "Products of Electrolysis",
+     "hi": "वैद्युतअपघटन के उत्पाद",
+     "pdfPage": 22
+    },
+    {
+     "id": "2.6",
+     "title": "Batteries",
+     "hi": "बैटरियाँ",
+     "pdfPage": 11
+    },
+    {
+     "id": "2.6.1",
+     "title": "Primary Batteries",
+     "hi": "प्राथमिक बैटरियाँ",
+     "pdfPage": 24
+    },
+    {
+     "id": "2.6.2",
+     "title": "Secondary Batteries",
+     "pdfPage": 25
+    },
+    {
+     "id": "2.7",
+     "title": "Fuel Cells",
+     "hi": "ईंधन सेल",
+     "pdfPage": 21
+    },
+    {
+     "id": "2.8",
+     "title": "Corrosion",
+     "pdfPage": 21
+    }
+   ]
+  },
+  "chem12-03": {
+   "pdf": "class12/chemistry/ch03-chemical-kinetics.pdf",
+   "paragraphs": [
+    {
+     "id": "3.1",
+     "title": "Rate of a Chemical Reaction",
+     "hi": "रासायनिक अभिक्रिया वेग",
+     "pdfPage": 6
+    },
+    {
+     "id": "3.2",
+     "title": "Factors Influencing Rate of a Reaction",
+     "hi": "अभिक्रिया वेग को प्रभावित करने वाले कारक",
+     "pdfPage": 6
+    },
+    {
+     "id": "3.2.1",
+     "title": "Dependence of Rate on Concentration",
+     "hi": "अभिक्रिया वेग की सांद्रता पर निर्भरता",
+     "pdfPage": 6
+    },
+    {
+     "id": "3.2.2",
+     "title": "Rate Expression and Rate Constant",
+     "hi": "वेग व्यंजक एवं वेग स्थिरांक",
+     "pdfPage": 6
+    },
+    {
+     "id": "3.2.3",
+     "title": "Order of a Reaction",
+     "hi": "अभिक्रिया की कोटि",
+     "pdfPage": 8
+    },
+    {
+     "id": "3.2.4",
+     "title": "Molecularity of a Reaction",
+     "hi": "अभिक्रिया की आण्विकता",
+     "pdfPage": 9
+    },
+    {
+     "id": "3.3",
+     "title": "Integrated Rate Equations",
+     "hi": "समाकलित वेग समीकरण",
+     "pdfPage": 11
+    },
+    {
+     "id": "3.3.1",
+     "title": "Zero Order Reactions",
+     "hi": "शून्य कोटि की अभिक्रियाएँ",
+     "pdfPage": 11
+    },
+    {
+     "id": "3.3.2",
+     "title": "First Order Reactions",
+     "hi": "प्रथम कोटि की अभिक्रियाएँ",
+     "pdfPage": 12
+    },
+    {
+     "id": "3.3.3",
+     "title": "Half-Life of a Reaction",
+     "hi": "अभिक्रिया की अर्धायु",
+     "pdfPage": 16
+    },
+    {
+     "id": "3.4",
+     "title": "Temperature Dependence of the Rate of a Reaction",
+     "hi": "अभिक्रिया वेग की ताप पर निर्भरता",
+     "pdfPage": 11
+    },
+    {
+     "id": "3.4.1",
+     "title": "Effect of Catalyst",
+     "pdfPage": 22
+    },
+    {
+     "id": "3.5",
+     "title": "Collision Theory of Chemical Reactions",
+     "hi": "रासायनिक अभिक्रिया का संघट्ट सि संघट्ट सिद्धां द्धांत",
+     "pdfPage": 18
+    }
+   ]
+  },
+  "chem12-04": {
+   "pdf": "class12/chemistry/ch04-the-d-and-f-block-elements.pdf",
+   "paragraphs": [
+    {
+     "id": "4.1",
+     "title": "Position in the Periodic Table",
+     "hi": "आवर्त सारणी में स्थिति",
+     "pdfPage": 2
+    },
+    {
+     "id": "4.2",
+     "title": "Electronic Configurations",
+     "pdfPage": 2
+    },
+    {
+     "id": "4.3",
+     "title": "General Properties of the Transition Elements (d-Block)",
+     "hi": "स्।ंक्रमण तत्वों (d-ब्लॉक) -ब्लॉक) के सामान्य गुण",
+     "pdfPage": 9
+    },
+    {
+     "id": "4.3.1",
+     "title": "Physical Properties",
+     "hi": "भौतिक गुण",
+     "pdfPage": 4
+    },
+    {
+     "id": "4.3.2",
+     "title": "Variation in Atomic and Ionic Sizes of Transition Metals",
+     "pdfPage": 5
+    },
+    {
+     "id": "4.3.3",
+     "title": "Ionisation Enthalpies",
+     "hi": "आयनन एन्थैल्पी",
+     "pdfPage": 7
+    },
+    {
+     "id": "4.3.4",
+     "title": "Oxidation States",
+     "hi": "ऑक्सीकरण अवस्था",
+     "pdfPage": 8
+    },
+    {
+     "id": "4.3.5",
+     "title": "Trends in the M2+/M Standard Electrode Potentials",
+     "hi": "विभवों में प्रवृत्तियाँ",
+     "pdfPage": 10
+    },
+    {
+     "id": "4.3.6",
+     "title": "Trends in the M3+/M2+ Standard Electrode Potentials",
+     "hi": "मानक इलैक्ट्रोड विभवों M3+/M2+ में प्रवृत्तियाँ",
+     "pdfPage": 11
+    },
+    {
+     "id": "4.3.7",
+     "title": "Trends in Stability of Higher Oxidation States",
+     "hi": "उच्चतम ऑक्सीकरण अवस्थाओं के स्थायित्व की प्रवृत्तियाँ",
+     "pdfPage": 11
+    },
+    {
+     "id": "4.3.8",
+     "title": "Chemical Reactivity and E° Values",
+     "hi": "रासायनिक अभिक्रियाशीलता एवं EV V मान",
+     "pdfPage": 13
+    },
+    {
+     "id": "4.3.9",
+     "title": "Magnetic Properties",
+     "hi": "चुबंकीय गुण",
+     "pdfPage": 13
+    },
+    {
+     "id": "4.3.10",
+     "title": "Formation of Coloured Ions"
+    },
+    {
+     "id": "4.3.11",
+     "title": "Formation of Complex Compounds"
+    },
+    {
+     "id": "4.3.12",
+     "title": "Catalytic Properties",
+     "hi": "उत्प्रेरकीय गुण",
+     "pdfPage": 16
+    },
+    {
+     "id": "4.3.13",
+     "title": "Formation of Interstitial Compounds"
+    },
+    {
+     "id": "4.3.14",
+     "title": "Alloy Formation",
+     "hi": "मिश्रातुओं का बनना",
+     "pdfPage": 16
+    },
+    {
+     "id": "4.4",
+     "title": "Some Important Compounds of Transition Elements",
+     "hi": "संक्रमण तत्वों संक्रमण तत्वों के कु छ महत्वपूर्ण यौगिक",
+     "pdfPage": 10
+    },
+    {
+     "id": "4.4.1",
+     "title": "Oxides and Oxoanions of Metals",
+     "hi": "धातुओं के ऑक्साइड एवं ऑक्सो-ऋणायन",
+     "pdfPage": 17
+    },
+    {
+     "id": "4.5",
+     "title": "Lanthanoids",
+     "hi": "लैन्थेनॉयड",
+     "pdfPage": 12
+    },
+    {
+     "id": "4.5.1",
+     "title": "Electronic Configurations",
+     "hi": "इलेक्ट्रॉनिक विन्यास",
+     "pdfPage": 21
+    },
+    {
+     "id": "4.5.2",
+     "title": "Atomic and Ionic Sizes",
+     "hi": "परमाणु एवं आयनिक आकार",
+     "pdfPage": 21
+    },
+    {
+     "id": "4.5.3",
+     "title": "Oxidation States",
+     "pdfPage": 21
+    },
+    {
+     "id": "4.5.4",
+     "title": "General Characteristics",
+     "hi": "सामान्य अभिलक्षण",
+     "pdfPage": 22
+    },
+    {
+     "id": "4.6",
+     "title": "Actinoids",
+     "hi": "ऐक्टिनॉयड",
+     "pdfPage": 13
+    },
+    {
+     "id": "4.6.1",
+     "title": "Electronic Configurations",
+     "pdfPage": 24
+    },
+    {
+     "id": "4.6.2",
+     "title": "Ionic Sizes",
+     "hi": "आयनिक आकार",
+     "pdfPage": 24
+    },
+    {
+     "id": "4.6.3",
+     "title": "Oxidation States",
+     "pdfPage": 24
+    },
+    {
+     "id": "4.6.4",
+     "title": "General Characteristics and Comparison with Lanthanoids",
+     "hi": "सामान्य अभिलक्षण तथा लैन्थेनॉयडों से तुलना",
+     "pdfPage": 24
+    },
+    {
+     "id": "4.7",
+     "title": "Some Applications of d- and f-Block Elements",
+     "hi": "एवं एवं f- ब्लॉक",
+     "pdfPage": 13
+    }
+   ]
+  },
+  "chem12-05": {
+   "pdf": "class12/chemistry/ch05-coordination-compounds.pdf",
+   "paragraphs": [
+    {
+     "id": "5.1",
+     "title": "Werner's Theory of Coordination Compounds",
+     "hi": "उपसहसंयोजन यौगिकों का वर्नर का सिद्धांत",
+     "pdfPage": 1
+    },
+    {
+     "id": "5.2",
+     "title": "Definitions of Some Important Terms Pertaining to Coordination Compounds",
+     "pdfPage": 4
+    },
+    {
+     "id": "5.3",
+     "title": "Nomenclature of Coordination Compounds",
+     "hi": "उपसहसंयोजन यौगिकों का नामकरण",
+     "pdfPage": 11
+    },
+    {
+     "id": "5.3.1",
+     "title": "Formulas of Mononuclear Coordination Entities"
+    },
+    {
+     "id": "5.3.2",
+     "title": "Naming of Mononuclear Coordination Compounds",
+     "hi": "एककेंद्रकीय उपसहसंयोजन यौगिकों का नामकरण",
+     "pdfPage": 6
+    },
+    {
+     "id": "5.4",
+     "title": "Isomerism in Coordination Compounds",
+     "hi": "उपसहसंयोजन यौगिकों में समावयवता",
+     "pdfPage": 11
+    },
+    {
+     "id": "5.4.1",
+     "title": "Geometric Isomerism",
+     "hi": "ज्यामितीय समावयवता",
+     "pdfPage": 8
+    },
+    {
+     "id": "5.4.2",
+     "title": "Optical Isomerism",
+     "hi": "ध्रुवण समावयवता",
+     "pdfPage": 9
+    },
+    {
+     "id": "5.4.3",
+     "title": "Linkage Isomerism",
+     "hi": "बंधनी समावयवता",
+     "pdfPage": 10
+    },
+    {
+     "id": "5.4.4",
+     "title": "Coordination Isomerism",
+     "hi": "उपसहसंयोजन समावयवता",
+     "pdfPage": 10
+    },
+    {
+     "id": "5.4.5",
+     "title": "Ionisation Isomerism",
+     "hi": "आयनन समावयवता",
+     "pdfPage": 10
+    },
+    {
+     "id": "5.4.6",
+     "title": "Solvate Isomerism",
+     "hi": "विलायकयोजन समावयवता पाठ्यनिहित प्रश्न",
+     "pdfPage": 11
+    },
+    {
+     "id": "5.5",
+     "title": "Bonding in Coordination Compounds",
+     "hi": "उपसहसंयोजन यौगिकों में आबंधन",
+     "pdfPage": 18
+    },
+    {
+     "id": "5.5.1",
+     "title": "Valence Bond Theory",
+     "hi": "संयोजकता आबंध सिद्धांत",
+     "pdfPage": 11
+    },
+    {
+     "id": "5.5.2",
+     "title": "Magnetic Properties of Coordination Compounds",
+     "hi": "उपसहसंयोजन यौगिकों के चुंबकीय गुण",
+     "pdfPage": 13
+    },
+    {
+     "id": "5.5.3",
+     "title": "Limitations of Valence Bond Theory",
+     "hi": "संयोजकता आबंध सिद्धांत की सीमाएं",
+     "pdfPage": 14
+    },
+    {
+     "id": "5.5.4",
+     "title": "Crystal Field Theory",
+     "hi": "क्रिस्टल क्षेत्र सिद्धांत",
+     "pdfPage": 14
+    },
+    {
+     "id": "5.5.5",
+     "title": "Colour in Coordination Compounds",
+     "hi": "उपसहसंयोजन यौगिकों में रंग",
+     "pdfPage": 16
+    },
+    {
+     "id": "5.5.6",
+     "title": "Limitations of Crystal Field Theory",
+     "hi": "क्रिस्टल क्षेत्र सिद्धांत की सीमाएं पाठ्यनिहित प्रश्न",
+     "pdfPage": 18
+    },
+    {
+     "id": "5.6",
+     "title": "Bonding in Metal Carbonyls",
+     "hi": "धातु कार्बोनिलो में आबंधन",
+     "pdfPage": 18
+    },
+    {
+     "id": "5.7",
+     "title": "Importance and Applications of Coordination Compounds",
+     "pdfPage": 18
+    }
+   ]
+  },
+  "chem12-06": {
+   "pdf": "class12/chemistry/ch06-haloalkanes-and-haloarenes.pdf",
+   "paragraphs": [
+    {
+     "id": "6.1",
+     "title": "Classification",
+     "hi": "वर्गीकरण",
+     "pdfPage": 2
+    },
+    {
+     "id": "6.1.1",
+     "title": "On the Basis of Number of Halogen Atoms",
+     "hi": "हैलोजन परमाणुओं की संख्या के आधार पर",
+     "pdfPage": 2
+    },
+    {
+     "id": "6.1.2",
+     "title": "Compounds Containing",
+     "pdfPage": 2
+    },
+    {
+     "id": "6.2",
+     "title": "Nomenclature",
+     "hi": "नामपद्धति",
+     "pdfPage": 3
+    },
+    {
+     "id": "6.3",
+     "title": "Nature of C-X Bond",
+     "hi": "आबंध",
+     "pdfPage": 5
+    },
+    {
+     "id": "6.4",
+     "title": "Methods of Preparation of Haloalkanes"
+    },
+    {
+     "id": "6.4.1",
+     "title": "From Alcohols",
+     "hi": "ऐल्कोहॉलों से",
+     "pdfPage": 6
+    },
+    {
+     "id": "6.4.2",
+     "title": "From Hydrocarbons",
+     "hi": "हाइड्रोकार्बनों से",
+     "pdfPage": 6
+    },
+    {
+     "id": "6.4.3",
+     "title": "Halogen Exchange",
+     "hi": "हैलोजन विनिमय द्वारा",
+     "pdfPage": 7
+    },
+    {
+     "id": "6.5",
+     "title": "Preparation of Haloarenes",
+     "hi": "हैलोएरीनों का विरचन",
+     "pdfPage": 8
+    },
+    {
+     "id": "6.6",
+     "title": "Physical Properties",
+     "hi": "भौतिक गुण",
+     "pdfPage": 9
+    },
+    {
+     "id": "6.7",
+     "title": "Chemical Reactions",
+     "hi": "रासायनिक अभिक्रियाएँ",
+     "pdfPage": 11
+    },
+    {
+     "id": "6.7.1",
+     "title": "Reactions of Haloalkanes",
+     "hi": "हैलोऐल्केनों की अभिक्रियाएँ",
+     "pdfPage": 11
+    },
+    {
+     "id": "6.7.2",
+     "title": "Reactions of Haloarenes",
+     "hi": "हैलोएरीनों की अभिक्रियाएं",
+     "pdfPage": 23
+    },
+    {
+     "id": "6.8",
+     "title": "Polyhalogen Compounds",
+     "hi": "पॉलिहैलोजन यौगिक",
+     "pdfPage": 28
+    },
+    {
+     "id": "6.8.1",
+     "title": "Dichloro- methane (Methylene chloride)",
+     "hi": "डाइक्लोरोमेथेन (मेथिलीन क्लोराइड)",
+     "pdfPage": 29
+    },
+    {
+     "id": "6.8.2",
+     "title": "Trichloro- methane (Chloroform)",
+     "hi": "ट्राइक्लोरोमेथेन (क्लोरोफार्म)",
+     "pdfPage": 29
+    },
+    {
+     "id": "6.8.3",
+     "title": "Triiodo- methane (Iodoform)",
+     "hi": "ट्राइआयोडोमेथेन (आयडोफार्म)",
+     "pdfPage": 29
+    },
+    {
+     "id": "6.8.4",
+     "title": "Tetrachlo- romethane (Carbon tetrachloride)",
+     "hi": "टेट्राक्लोरोमेथेन (कार्बन टेट्राक्लोराइड)",
+     "pdfPage": 29
+    },
+    {
+     "id": "6.8.5",
+     "title": "Freons",
+     "hi": "फ्रेऑन",
+     "pdfPage": 30
+    },
+    {
+     "id": "6.8.6",
+     "title": "P,p'-Dichlo- rodiphenyl- trichloro- ethane(DDT)",
+     "hi": "क्लोरोडाइफेनिल- ट्राइक्लोरो एथेन",
+     "pdfPage": 30
+    }
+   ]
+  },
+  "chem12-07": {
+   "pdf": "class12/chemistry/ch07-alcohols-phenols-and-ethers.pdf",
+   "paragraphs": [
+    {
+     "id": "7.1",
+     "title": "Classification",
+     "hi": "वर्गीकरण",
+     "pdfPage": 2
+    },
+    {
+     "id": "7.1.1",
+     "title": "Alcohols- Mono, Di, Tri or Polyhydric alcohols",
+     "hi": "एल्कोहॉल मोनो, डाइ, ट्राइ एवं पॉलीहाइड्रिक एल्कोहॉल",
+     "pdfPage": 2
+    },
+    {
+     "id": "7.1.2",
+     "title": "Phenols- Mono, Di and trihydric phenols",
+     "hi": "एवं ट्राई हाइड्रिक .फीनॉल",
+     "pdfPage": 3
+    },
+    {
+     "id": "7.1.3",
+     "title": "Ethers",
+     "hi": "ईथर",
+     "pdfPage": 3
+    },
+    {
+     "id": "7.2",
+     "title": "Nomenclature",
+     "hi": "नामपद्धति",
+     "pdfPage": 3
+    },
+    {
+     "id": "7.3",
+     "title": "Structures of Functional Groups",
+     "hi": "प्रकार्यात्मक समूहों की संरचनाएँ",
+     "pdfPage": 6
+    },
+    {
+     "id": "7.4",
+     "title": "Alcohols and Phenols",
+     "hi": "ऐल्कोहॉलों और फ़ीनॉलों का विरचन",
+     "pdfPage": 7
+    },
+    {
+     "id": "7.4.1",
+     "title": "Preparation of Alcohols",
+     "hi": "ऐल्कोहॉलों का विरचन",
+     "pdfPage": 7
+    },
+    {
+     "id": "7.4.2",
+     "title": "Preparation of Phenols",
+     "hi": "फ़ीनॉलों का विरचन",
+     "pdfPage": 9
+    },
+    {
+     "id": "7.4.3",
+     "title": "Physical Properties",
+     "hi": "भौतिक गुणधर्म",
+     "pdfPage": 11
+    },
+    {
+     "id": "7.4.4",
+     "title": "Chemical Reactions",
+     "hi": "रासायनिक अभिक्रियाएँ",
+     "pdfPage": 12
+    },
+    {
+     "id": "7.5",
+     "title": "Some Commercially Important Alcohols",
+     "hi": "औद्योगिक महत्व के कुछ ऐल्कोहॉल",
+     "pdfPage": 11
+    },
+    {
+     "id": "7.6",
+     "title": "Ethers",
+     "pdfPage": 21
+    },
+    {
+     "id": "7.6.1",
+     "title": "Preparation of Ethers",
+     "hi": "ईथरों का विरचन",
+     "pdfPage": 23
+    },
+    {
+     "id": "7.6.2",
+     "title": "Physical Properties"
+    },
+    {
+     "id": "7.6.3",
+     "title": "Chemical Reactions"
+    }
+   ]
+  },
+  "chem12-08": {
+   "pdf": "class12/chemistry/ch08-aldehydes-ketones-and-carboxylic-acids.pdf",
+   "paragraphs": [
+    {
+     "id": "8.1",
+     "title": "Nomenclature and Structure of Carbonyl Group",
+     "hi": "कार्बोनिल यौगिकों का नामकरण एवं संरचना",
+     "pdfPage": 2
+    },
+    {
+     "id": "8.1.1",
+     "title": "Nomenclature I",
+     "hi": "नामपद्धति",
+     "pdfPage": 2
+    },
+    {
+     "id": "8.1.2",
+     "title": "Structure of the Carbonyl Group",
+     "hi": "कार्बोनिल समूह की संरचना",
+     "pdfPage": 5
+    },
+    {
+     "id": "8.2",
+     "title": "Preparation of Aldehydes and Ketones",
+     "hi": "ऐल्डिहाइडों एवं कीटोनों का विरचन",
+     "pdfPage": 5
+    },
+    {
+     "id": "8.2.1",
+     "title": "Preparation of Aldehydes and Ketones"
+    },
+    {
+     "id": "8.2.2",
+     "title": "Preparation of Aldehydes",
+     "hi": "ऐल्डिहाइडों का विरचन",
+     "pdfPage": 6
+    },
+    {
+     "id": "8.2.3",
+     "title": "Preparation of Ketones",
+     "hi": "कीटोनों का विरचन",
+     "pdfPage": 7
+    },
+    {
+     "id": "8.3",
+     "title": "Physical Properties",
+     "hi": "भौतिक गुणधर्म",
+     "pdfPage": 9
+    },
+    {
+     "id": "8.4",
+     "title": "Chemical Reactions",
+     "hi": "रासायनिक अभिक्रियाएँ",
+     "pdfPage": 10
+    },
+    {
+     "id": "8.5",
+     "title": "Uses of Aldehydes and Ketones",
+     "hi": "ऐल्डिहाइडों एवं कीटोनों के उपयोग",
+     "pdfPage": 17
+    },
+    {
+     "id": "8.6",
+     "title": "Nomenclature and Structure of Carboxyl Group"
+    },
+    {
+     "id": "8.6.1",
+     "title": "Nomenclature",
+     "hi": "नामपद्धति",
+     "pdfPage": 18
+    },
+    {
+     "id": "8.6.2",
+     "title": "Structure of Carboxyl Group",
+     "hi": "कार्बोक्सिल समूह की संरचना",
+     "pdfPage": 19
+    },
+    {
+     "id": "8.7",
+     "title": "Methods of Preparation of Carboxylic Acids",
+     "hi": "कार्बोक्सिलिक अम्ल बनाने की विधियाँ",
+     "pdfPage": 19
+    },
+    {
+     "id": "8.8",
+     "title": "Physical Properties",
+     "pdfPage": 23
+    },
+    {
+     "id": "8.9",
+     "title": "Chemical Reactions",
+     "hi": "रासायनिक अभिक्रिया अभिक्रियाएँएँएँएँएँ",
+     "pdfPage": 23
+    },
+    {
+     "id": "8.9.1",
+     "title": "Reactions Involving Cleavage of O-H Bond",
+     "hi": "अभिक्रियाएँ जिनमें O-H आबंध का विदलन होता है",
+     "pdfPage": 23
+    },
+    {
+     "id": "8.9.2",
+     "title": "Reactions Involving Cleavage of C-OH Bond",
+     "hi": "विदलन संबंधी अभिक्रियाएँ",
+     "pdfPage": 25
+    },
+    {
+     "id": "8.9.3",
+     "title": "Reactions Involving –COOH Group"
+    },
+    {
+     "id": "8.9.4",
+     "title": "Substitution Reactions in the Hydrocarbon Part",
+     "hi": "हाइड्रोकार्बन भाग में प्रतिस्थापन अभिक्रियाएँ",
+     "pdfPage": 27
+    },
+    {
+     "id": "8.10",
+     "title": "Uses of Carboxylic Acids Summary",
+     "hi": "कार्बोक्सिलिक अम्लों के उपयोग",
+     "pdfPage": 28
+    }
+   ]
+  },
+  "chem12-09": {
+   "pdf": "class12/chemistry/ch09-amines.pdf",
+   "paragraphs": [
+    {
+     "id": "9.1",
+     "title": "Structure of Amines",
+     "hi": "ऐमीनों की संरचना",
+     "pdfPage": 1
+    },
+    {
+     "id": "9.2",
+     "title": "Classification",
+     "hi": "वर्गीकरण",
+     "pdfPage": 2
+    },
+    {
+     "id": "9.3",
+     "title": "Nomenclature",
+     "hi": "नामपद्धति",
+     "pdfPage": 2
+    },
+    {
+     "id": "9.4",
+     "title": "Preparation of Amines",
+     "hi": "ऐमीनों का विरचन",
+     "pdfPage": 16
+    },
+    {
+     "id": "9.5",
+     "title": "Physical Properties",
+     "hi": "भौतिक गुणधर्म",
+     "pdfPage": 7
+    },
+    {
+     "id": "9.6",
+     "title": "Chemical Reactions",
+     "hi": "रासायनिक अभिक्रियाएँ",
+     "pdfPage": 8
+    },
+    {
+     "id": "9.7",
+     "title": "Method of Preparation of Diazonium Salts",
+     "hi": "डाइएजोनियम लवणों के विरचन की विधि",
+     "pdfPage": 16
+    },
+    {
+     "id": "9.8",
+     "title": "Physical Properties"
+    },
+    {
+     "id": "9.9",
+     "title": "Chemical Reactions",
+     "pdfPage": 17
+    },
+    {
+     "id": "9.10",
+     "title": "Importance of Diazonium Salts in Synthesis of Aromatic Compounds"
+    }
+   ]
+  },
+  "chem12-10": {
+   "pdf": "class12/chemistry/ch10-biomolecules.pdf",
+   "paragraphs": [
+    {
+     "id": "10.1",
+     "title": "Carbohydrates",
+     "hi": "कार्बोहाइड्रेट",
+     "pdfPage": 1
+    },
+    {
+     "id": "10.1.1",
+     "title": "Classification of Carbohydrates",
+     "hi": "कार्बोहाइड्रेट का वर्गीकरण",
+     "pdfPage": 2
+    },
+    {
+     "id": "10.1.2",
+     "title": "Monosaccharides",
+     "hi": "मोनोसैकैराइड",
+     "pdfPage": 2
+    },
+    {
+     "id": "10.1.3",
+     "title": "Disaccharides",
+     "hi": "डाइसैकैराइड",
+     "pdfPage": 7
+    },
+    {
+     "id": "10.1.4",
+     "title": "Polysaccharides",
+     "hi": "पॉलिसैकैराइड",
+     "pdfPage": 8
+    },
+    {
+     "id": "10.1.5",
+     "title": "Importance of Carbohydrates",
+     "hi": "कार्बोहाइड्रेटों का महत्व",
+     "pdfPage": 9
+    },
+    {
+     "id": "10.2",
+     "title": "Proteins",
+     "hi": "प्रोटीन",
+     "pdfPage": 10
+    },
+    {
+     "id": "10.2.1",
+     "title": "Amino Acids",
+     "hi": "ऐमीनो अम्ल",
+     "pdfPage": 10
+    },
+    {
+     "id": "10.2.2",
+     "title": "Classification of Amino Acids",
+     "hi": "ऐमीनो अम्लों का वर्गीकरण",
+     "pdfPage": 11
+    },
+    {
+     "id": "10.2.3",
+     "title": "Structure of Proteins",
+     "hi": "प्रोटीनों की संरचना",
+     "pdfPage": 12
+    },
+    {
+     "id": "10.2.4",
+     "title": "Denaturation of Proteins",
+     "hi": "प्रोटीन का विकृतीकरण",
+     "pdfPage": 14
+    },
+    {
+     "id": "10.3",
+     "title": "Enzymes",
+     "hi": "एन्जाइम",
+     "pdfPage": 10
+    },
+    {
+     "id": "10.3.1",
+     "title": "Mechanism of Enzyme Action",
+     "hi": "एन्जाइम क्रिया की क्रियाविधि",
+     "pdfPage": 15
+    },
+    {
+     "id": "10.4",
+     "title": "Vitamins",
+     "hi": "विटामिन",
+     "pdfPage": 15
+    },
+    {
+     "id": "10.4.1",
+     "title": "Classification of Vitamins",
+     "hi": "विटामिनों का वर्गीकरण",
+     "pdfPage": 16
+    },
+    {
+     "id": "10.5",
+     "title": "Nucleic Acids"
+    },
+    {
+     "id": "10.5.1",
+     "title": "Chemical Composition of Nucleic Acids",
+     "hi": "न्यूक्लीक अम्लों का रासायनिक संघटन",
+     "pdfPage": 17
+    },
+    {
+     "id": "10.5.2",
+     "title": "Structure of Nucleic Acids",
+     "hi": "न्यूक्लीक अम्ल की संरचना",
+     "pdfPage": 18
+    },
+    {
+     "id": "10.5.3",
+     "title": "Biological Functions of Nucleic Acids",
+     "hi": "न्यूक्लीक अम्ल के जैविक कार्य",
+     "pdfPage": 20
+    },
+    {
+     "id": "10.6",
+     "title": "Hormones",
+     "hi": "हार्मोन",
+     "pdfPage": 20
+    }
+   ]
+  }
+ }
+}

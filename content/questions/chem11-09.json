@@ -1,0 +1,285 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem11-09",
+ "subject": "chemistry",
+ "class": 11,
+ "unit": 9,
+ "title": {
+  "en": "Hydrocarbons"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech203.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "9.1",
+   "title": "Classification",
+   "hi": "वर्गीकरण",
+   "pdfPage": 1
+  },
+  {
+   "id": "9.2",
+   "title": "Alkanes",
+   "hi": "ऐल्केन",
+   "pdfPage": 2
+  },
+  {
+   "id": "9.2.1",
+   "title": "Nomenclature and Isomerism",
+   "hi": "नाम पद्धति तथा समावयवता",
+   "pdfPage": 2
+  },
+  {
+   "id": "9.2.2",
+   "title": "Preparation",
+   "hi": "विरचन",
+   "pdfPage": 6
+  },
+  {
+   "id": "9.2.3",
+   "title": "Properties",
+   "hi": "गुणधर्म",
+   "pdfPage": 7
+  },
+  {
+   "id": "9.2.4",
+   "title": "Conformations",
+   "hi": "संरूपण",
+   "pdfPage": 11
+  },
+  {
+   "id": "9.3",
+   "title": "Alkenes",
+   "hi": "एल्कीन",
+   "pdfPage": 12
+  },
+  {
+   "id": "9.3.1",
+   "title": "Structure of Double Bond",
+   "hi": "द्विआबंध की संरचना",
+   "pdfPage": 12
+  },
+  {
+   "id": "9.3.2",
+   "title": "Nomenclature",
+   "hi": "नाम-पद्धति",
+   "pdfPage": 12
+  },
+  {
+   "id": "9.3.3",
+   "title": "Isomerism",
+   "hi": "समावयता",
+   "pdfPage": 13
+  },
+  {
+   "id": "9.4",
+   "title": "Alkynes",
+   "hi": "एल्काइन",
+   "pdfPage": 20
+  },
+  {
+   "id": "9.4.1",
+   "title": "Nomenclature and Isomerism",
+   "pdfPage": 20
+  },
+  {
+   "id": "9.4.2",
+   "title": "Structure of Triple Bond",
+   "hi": "त्रि-आबंध की संरचना",
+   "pdfPage": 21
+  },
+  {
+   "id": "9.5",
+   "title": "Aromatic hydrocarbon",
+   "hi": "ऐरोमैटिक हाइड्रोकार्बन",
+   "pdfPage": 24
+  },
+  {
+   "id": "9.5.1",
+   "title": "Nomenclature and Isomerism",
+   "pdfPage": 24
+  },
+  {
+   "id": "9.5.2",
+   "title": "Structure of Benzene",
+   "pdfPage": 25
+  },
+  {
+   "id": "9.5.3",
+   "title": "Aromaticity",
+   "hi": "ऐरोमैटिकता",
+   "pdfPage": 27
+  },
+  {
+   "id": "9.5.4",
+   "title": "Preparation of Benzene",
+   "hi": "बेन्जीन का विरचन",
+   "pdfPage": 27
+  },
+  {
+   "id": "9.5.5",
+   "title": "Properties Physical properties",
+   "hi": "गुणधर्म",
+   "pdfPage": 28
+  },
+  {
+   "id": "9.6",
+   "title": "Carcinogenicity and toxicity",
+   "hi": "कैंसरजन्य गुण तथा विषाक्तता",
+   "pdfPage": 31
+  }
+ ],
+ "questions": [
+  {
+   "id": "chem11-09-neet-2025-code-45-q58",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following compounds can exist as cis-trans isomers?",
+     "o": [
+      "Pent-1-ene",
+      "2-Methylhex-2-ene",
+      "1,1-Dimethylcyclopropane",
+      "1,2-Dimethylcyclohexane"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.3.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Organic Chemistry: stereoisomerism"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q58",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "chem11-09-neet-2025-code-45-q60",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following reactions does NOT give benzene as the product?",
+     "o": [
+      "Sodium benzoate heated with sodalime",
+      "n-Hexane —Mo<sub>2</sub>O<sub>3</sub>, 773 K, 10–20 atm→",
+      "H–C≡C–H —red hot iron tube, 873 K→",
+      "Benzenediazonium chloride —H<sub>2</sub>O, warm→"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.5.4"
+    ],
+    "otherChapters": [
+     "Class 12 · Amines (diazonium salts)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q60",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "Diagram/structure question: the paper shows structures; written here in text. Needs a redrawn figure before it goes live."
+   }
+  },
+  {
+   "id": "chem11-09-neet-2025-code-45-q77",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following compounds does not colourize bromine water?",
+     "o": [
+      "Cyclohexane",
+      "Phenol",
+      "Styrene (C<sub>6</sub>H<sub>5</sub>CH=CH<sub>2</sub>)",
+      "Aniline"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Alcohols, Phenols and Ethers",
+     "Class 12 · Amines"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q77",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "Diagram/structure question: the paper shows structures; written here in text. Needs a redrawn figure before it goes live. ('colourize' as printed; means decolourise.)"
+   }
+  }
+ ]
+}

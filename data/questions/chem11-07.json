@@ -1,0 +1,117 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem11-07",
+ "subject": "chemistry",
+ "class": 11,
+ "unit": 7,
+ "title": {
+  "en": "Redox Reactions"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech201.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "7.1",
+   "title": "Classical idea of redox reactions",
+   "pdfPage": 1
+  },
+  {
+   "id": "7.2",
+   "title": "Redox reactions in terms of electron transfer reactions",
+   "pdfPage": 3
+  },
+  {
+   "id": "7.2.1",
+   "title": "Competitive Electron Transfer Reactions",
+   "hi": "प्रतियोगी इलेक्ट्रॉन स्थानांतरण अभिक्रियाएँ",
+   "pdfPage": 4
+  },
+  {
+   "id": "7.3",
+   "title": "Oxidation number",
+   "hi": "ऑक्सीकरण-संख्या",
+   "pdfPage": 5
+  },
+  {
+   "id": "7.3.1",
+   "title": "Types of Redox Reactions",
+   "hi": "अपचयोपचय अभिक्रियाओं के प्रारूप",
+   "pdfPage": 8
+  },
+  {
+   "id": "7.3.2",
+   "title": "Balancing of Redox Reactions",
+   "hi": "अपचयोपचय अभिक्रियाओं का संतुलन",
+   "pdfPage": 12
+  },
+  {
+   "id": "7.3.3",
+   "title": "Redox Reactions as the Basis for Titrations",
+   "hi": "अपचयोपचय अभिक्रियाओं पर आधारित अनुमापन",
+   "pdfPage": 15
+  },
+  {
+   "id": "7.3.4",
+   "title": "Limitations of Concept of Oxidation Number",
+   "hi": "ऑक्सीकरण अंकधारणा की सीमाएँ",
+   "pdfPage": 15
+  },
+  {
+   "id": "7.4",
+   "title": "Redox reactions and electrode processes",
+   "hi": "अपचयोपचन अभिक्रियाएँ तथा इलेक्ट्रोड प्रक्रम",
+   "pdfPage": 15
+  }
+ ],
+ "questions": [
+  {
+   "id": "chem11-07-neet-2025-code-45-q55",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following compounds: <u>K</u>O<sub>2</sub>, H<sub>2</sub><u>O</u><sub>2</sub> and H<sub>2</sub><u>S</u>O<sub>4</sub>.<br>The oxidation states of the underlined elements in them are, respectively,",
+     "o": [
+      "+1, −1, and +6",
+      "+2, −2, and +6",
+      "+1, −2, and +4",
+      "+4, −4, and +6"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-07",
+    "paras": [
+     "7.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q55",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "Underlining is lost in the source text; underlined atoms (K, O, S) inferred from the answer and solution. Check against the booklet."
+   }
+  }
+ ]
+}

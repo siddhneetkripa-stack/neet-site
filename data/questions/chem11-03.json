@@ -1,0 +1,197 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem11-03",
+ "subject": "chemistry",
+ "class": 11,
+ "unit": 3,
+ "title": {
+  "en": "Classification of Elements and Periodicity in Properties"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech103.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "3.1",
+   "title": "Why do we need to classify elements ?",
+   "pdfPage": 1
+  },
+  {
+   "id": "3.2",
+   "title": "Genesis of Periodic Classification",
+   "hi": "आवर्त सारणी की उत्पत्ति",
+   "pdfPage": 2
+  },
+  {
+   "id": "3.3",
+   "title": "Modern Periodic Law and the Present Form of the Periodic Table",
+   "pdfPage": 5
+  },
+  {
+   "id": "3.4",
+   "title": "Nomenclature of elements",
+   "pdfPage": 5
+  },
+  {
+   "id": "3.5",
+   "title": "Electronic configurations of elements and the Periodic Table",
+   "hi": "तत्त्वों के इलेक्ट्रॉनिक विन्यास तथा आवर्त-सारणी",
+   "pdfPage": 8
+  },
+  {
+   "id": "3.6",
+   "title": "Electronic Configurations and Types of Elements: s-, p-, d-, f-Blocks",
+   "hi": "इलेक्ट्रॉनिक विन्यास और तत्त्वों के प्रकार (s,p,d,f ब्लॉक)",
+   "pdfPage": 9
+  },
+  {
+   "id": "3.6.1",
+   "title": "The s-Block Elements",
+   "pdfPage": 9
+  },
+  {
+   "id": "3.6.2",
+   "title": "The p-Block Elements",
+   "pdfPage": 11
+  },
+  {
+   "id": "3.6.3",
+   "title": "The d-Block Elements (Transition",
+   "pdfPage": 11
+  },
+  {
+   "id": "3.6.4",
+   "title": "The f-Block Elements",
+   "pdfPage": 11
+  },
+  {
+   "id": "3.6.5",
+   "title": "Metals, Non-metals and Metalloids",
+   "hi": "धातु, अधातु और उप-धातु",
+   "pdfPage": 12
+  },
+  {
+   "id": "3.7",
+   "title": "Periodic trends in properties of elements",
+   "hi": "तत्त्वों के गुण-धर्मों में आवर्तिता",
+   "pdfPage": 12
+  },
+  {
+   "id": "3.7.1",
+   "title": "Trends in Physical Properties",
+   "hi": "भौतिक गुणधर्मों की प्रवृत्ति",
+   "pdfPage": 12
+  },
+  {
+   "id": "3.7.2",
+   "title": "Periodic Trends in Chemical Properties",
+   "hi": "रासायनिक गुणधर्मों में आवर्त प्रवृत्ति",
+   "pdfPage": 19
+  },
+  {
+   "id": "3.7.3",
+   "title": "Periodic Trends and Chemical Reactivity",
+   "hi": "रासायनिक अभिक्रियाशीलता तथा आवर्तिता",
+   "pdfPage": 21
+  }
+ ],
+ "questions": [
+  {
+   "id": "chem11-03-neet-2025-code-45-q47",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are true?<br>A. Unlike Ga that has a very high melting point, Cs has a very low melting point.<br>B. On Pauling scale, the electronegativity values of N and Cl are not the same.<br>C. Ar, K<sup>+</sup>, Cl<sup>−</sup>, Ca<sup>2+</sup> and S<sup>2−</sup> are all isoelectronic species.<br>D. The correct order of the first ionization enthalpies of Na, Mg, Al, and Si is Si &gt; Al &gt; Mg &gt; Na.<br>E. The atomic radius of Cs is greater than that of Li and Rb.<br>Choose the correct answer from the options given below",
+     "o": [
+      "A, B and E only",
+      "C and E only",
+      "C and D only",
+      "A, C and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-03",
+    "paras": [
+     "3.7.1"
+    ],
+    "otherChapters": [
+     "Old NCERT 11 · p-Block (Group 13: Ga)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q47",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "chem11-03-neet-2025-code-45-q53",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which among the following electronic configurations belong to main group elements (s &amp; p-Block)?<br>A. [Ne]3s<sup>1</sup><br>B. [Ar]3d<sup>3</sup>4s<sup>2</sup><br>C. [Kr]4d<sup>10</sup>5s<sup>2</sup>5p<sup>5</sup><br>D. [Ar]3d<sup>10</sup>4s<sup>1</sup><br>E. [Rn]5f<sup>0</sup>6d<sup>2</sup>7s<sup>2</sup>",
+     "o": [
+      "B and E only",
+      "A and C only",
+      "D and E only",
+      "A, C and D only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-03",
+    "paras": [
+     "3.6.1",
+     "3.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q53",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  }
+ ]
+}

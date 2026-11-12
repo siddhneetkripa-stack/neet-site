@@ -1,0 +1,156 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem12-02",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 2,
+ "title": {
+  "en": "Electrochemistry"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lech102.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "2.1",
+   "title": "Electrochemical Cells",
+   "hi": "वैद्युत रासायनिक सेल",
+   "pdfPage": 2
+  },
+  {
+   "id": "2.2",
+   "title": "Galvanic Cells",
+   "hi": "गैल्वैनी सेल",
+   "pdfPage": 3
+  },
+  {
+   "id": "2.2.1",
+   "title": "Measurement of Electrode Potential",
+   "hi": "इलैक्ट्रोड विभव का मापन",
+   "pdfPage": 4
+  },
+  {
+   "id": "2.3",
+   "title": "Nernst Equation",
+   "hi": "नेर्न्स्ट समीकरण",
+   "pdfPage": 6
+  },
+  {
+   "id": "2.3.1",
+   "title": "Equilibrium Constant from Nernst Equation",
+   "hi": "नेर्न्स्ट समीकरण से साम्य स्थिरांक",
+   "pdfPage": 9
+  },
+  {
+   "id": "2.3.2",
+   "title": "Electrochemical Cell and Gibbs Energy of the Reaction",
+   "pdfPage": 10
+  },
+  {
+   "id": "2.4",
+   "title": "Conductance of Electrolytic Solutions",
+   "hi": "वैद्युतअपघटनी विलयनों का चालकत्व",
+   "pdfPage": 11
+  },
+  {
+   "id": "2.4.1",
+   "title": "Measurement of the Conductivity of Ionic Solutions",
+   "hi": "आयनिक विलयनों की चालकता का मापन",
+   "pdfPage": 13
+  },
+  {
+   "id": "2.4.2",
+   "title": "Variation of Conductivity",
+   "pdfPage": 16
+  },
+  {
+   "id": "2.5",
+   "title": "Electrolytic Cells and Electrolysis",
+   "hi": "वैद्युतअपघटनी सेल एवं वैद्युतअपघटन",
+   "pdfPage": 11
+  },
+  {
+   "id": "2.5.1",
+   "title": "Products of Electrolysis",
+   "hi": "वैद्युतअपघटन के उत्पाद",
+   "pdfPage": 22
+  },
+  {
+   "id": "2.6",
+   "title": "Batteries",
+   "hi": "बैटरियाँ",
+   "pdfPage": 11
+  },
+  {
+   "id": "2.6.1",
+   "title": "Primary Batteries",
+   "hi": "प्राथमिक बैटरियाँ",
+   "pdfPage": 24
+  },
+  {
+   "id": "2.6.2",
+   "title": "Secondary Batteries",
+   "pdfPage": 25
+  },
+  {
+   "id": "2.7",
+   "title": "Fuel Cells",
+   "hi": "ईंधन सेल",
+   "pdfPage": 21
+  },
+  {
+   "id": "2.8",
+   "title": "Corrosion",
+   "pdfPage": 21
+  }
+ ],
+ "questions": [
+  {
+   "id": "chem12-02-neet-2025-code-45-q61",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the molar conductivity (Λ<sub>m</sub>) of a 0.050 mol L<sup>−1</sup> solution of a monobasic weak acid is 90 S cm<sup>2</sup> mol<sup>−1</sup>, its extent (degree) of dissociation will be [Assume Λ°<sub>+</sub> = 349.6 S cm<sup>2</sup> mol<sup>−1</sup> and Λ°<sub>−</sub> = 50.4 S cm<sup>2</sup> mol<sup>−1</sup>.]",
+     "o": [
+      "0.115",
+      "0.125",
+      "0.225",
+      "0.215"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q61",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  }
+ ]
+}
