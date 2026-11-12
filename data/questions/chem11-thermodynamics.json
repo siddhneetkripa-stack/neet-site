@@ -6116,6 +6116,100 @@
     "keyCheck": "Answer given in the topic-wise solved copy: (c); matches our solving",
     "keySource": "Answers in the topic-wise solved copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources yet; question numbers are the copy's, not the booklet's."
    }
+  },
+  {
+   "id": "chem11-thermodynamics-neet-2021-code-p3-q55",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one among the following is the correct option for right relationship between C<sub>P</sub> and C<sub>V</sub> for one mole of ideal gas?",
+     "o": [
+      "C<sub>V</sub> = RC<sub>P</sub>",
+      "C<sub>P</sub> + C<sub>V</sub> = R",
+      "C<sub>P</sub> − C<sub>V</sub> = R",
+      "C<sub>P</sub> = RC<sub>V</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "cp-cv"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q55",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf), Book P3; text from the Aakash Code P3 copy"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-neet-2021-code-p3-q86",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For irreversible expansion of an ideal gas under isothermal condition, the correct option is:",
+     "o": [
+      "ΔU ≠ 0, ΔS<sub>total</sub> = 0",
+      "ΔU = 0, ΔS<sub>total</sub> = 0",
+      "ΔU ≠ 0, ΔS<sub>total</sub> ≠ 0",
+      "ΔU = 0, ΔS<sub>total</sub> ≠ 0"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "entropy",
+     "second-law"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q86",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf), Book P3; text from the Aakash Code P3 copy",
+    "note": "Section B (attempt any 10 of 15)."
+   }
   }
  ]
 }
