@@ -48,7 +48,7 @@
       '__legend__',
       'Questions that are <b>Answered and Marked for Review</b> are evaluated. Questions only Marked for Review (no answer) are not.',
       'To answer: click an option, then click <b>SAVE &amp; NEXT</b>. <b>If you move to another question without saving, your choice is not saved.</b>',
-      '<b>SAVE &amp; MARK FOR REVIEW</b> saves the answer and marks it. <b>MARK FOR REVIEW &amp; NEXT</b> marks the question without saving a new choice. <b>CLEAR</b> removes your saved answer.',
+      '<b>SAVE &amp; MARK FOR REVIEW</b> saves the answer and marks it. <b>MARK FOR REVIEW &amp; NEXT</b> marks the question and moves on; __marknext_en__ <b>CLEAR</b> removes your saved answer.',
       'For numerical questions, type the answer with the on-screen keypad only.',
       'Use <b>View in</b> above each question to switch that question between English and Hindi.',
       'Every action is saved in this browser. If the power or network goes, open this page again on the same device and the test resumes with the time that was left.',
@@ -59,7 +59,7 @@
       '__legend__',
       '<b>उत्तर दिया और पुनरावलोकन हेतु चिह्नित</b> प्रश्नों का मूल्यांकन होगा। केवल चिह्नित (बिना उत्तर) प्रश्नों का नहीं।',
       'उत्तर देने के लिए विकल्प चुनें, फिर <b>SAVE &amp; NEXT</b> दबाएँ। <b>बिना सेव किए दूसरे प्रश्न पर जाने से आपका चुनाव सेव नहीं होगा।</b>',
-      '<b>SAVE &amp; MARK FOR REVIEW</b> उत्तर सेव करके चिह्नित करता है। <b>MARK FOR REVIEW &amp; NEXT</b> नया चुनाव सेव किए बिना केवल चिह्नित करता है। <b>CLEAR</b> सेव किया उत्तर हटाता है।',
+      '<b>SAVE &amp; MARK FOR REVIEW</b> उत्तर सेव करके चिह्नित करता है। <b>MARK FOR REVIEW &amp; NEXT</b> प्रश्न को चिह्नित करके आगे बढ़ता है; __marknext_hi__ <b>CLEAR</b> सेव किया उत्तर हटाता है।',
       'संख्यात्मक प्रश्नों का उत्तर केवल स्क्रीन पर दिए कीपैड से लिखें।',
       'हर प्रश्न के ऊपर <b>View in</b> से उस प्रश्न को अंग्रेज़ी या हिंदी में देखें।',
       'हर क्रिया इस ब्राउज़र में सेव होती है। बिजली या नेटवर्क जाने पर इसी डिवाइस पर यह पेज फिर खोलें; परीक्षा बचे हुए समय के साथ वहीं से चलेगी।',
@@ -80,6 +80,11 @@
   let S = null;          // saved attempt state
   let sel = null;        // current unsaved selection (index or string)
   let tickTimer = null, lastTick = 0, paletteOpen = false;
+
+  // NTA's own instructions say a choice selected before "Mark for Review & Next" is kept and evaluated;
+  // some coaching descriptions say it is not. Per-test setting until the NEET 2027 bulletin confirms it
+  // (docs/research/00-README.md, finding 3). Default: NTA's wording.
+  const markNextSaves = () => !T.rules || T.rules.markNextSavesAnswer !== false;
 
   function stateOf(q) { return S.q[q.id] || (S.q[q.id] = { v: false, ans: null, mark: false, t: 0, hist: [] }); }
   function status(q) {
@@ -129,7 +134,9 @@
       <div class="facts"><div><b>${T.durationMin} min</b><span>${esc(UI[lang].duration)}</span></div><div><b>${Q.length}</b><span>${esc(UI[lang].questions)}</span></div><div><b class="small">${marks}</b><span>${esc(UI[lang].marking)} (✓ / ✗ / –)</span></div></div>
       ${lang === 'hi' ? `<p class="hi-note">${esc(HI_PENDING)}</p>` : ''}
       <h2>${esc(UI[lang].readCarefully)}</h2>
-      <ol class="instr-list">${INSTR[lang].map(x => x === '__legend__' ? `<li class="nolist">${legendHTML(lang)}</li>` : `<li>${x}</li>`).join('')}</ol>
+      <ol class="instr-list">${INSTR[lang].map(x => x === '__legend__' ? `<li class="nolist">${legendHTML(lang)}</li>` : `<li>${x
+        .replace('__marknext_en__', markNextSaves() ? 'an option you have selected is kept and will be evaluated.' : 'a new choice is <b>not</b> saved.')
+        .replace('__marknext_hi__', markNextSaves() ? 'चुना हुआ विकल्प रहेगा और उसका मूल्यांकन होगा।' : 'नया चुनाव सेव <b>नहीं</b> होता।')}</li>`).join('')}</ol>
       ${storageOK ? '' : '<p class="warn">This browser is not letting the page save data (private mode or blocked storage). The test works, but a reload will lose your answers.</p>'}
       <label class="agree"><input type="checkbox" id="agree"> ${esc(UI[lang].agree)}</label>
       <div class="instr-actions"><a class="btn-plain" href="exam.html">← All tests</a><button id="go" class="btn-go" disabled>${esc(UI[lang].proceed)} →</button></div>
@@ -277,7 +284,11 @@
     if (a === 'savenext') { commit(sel); st.mark = false; if (S.cur === Q.length - 1) { save(); drawPalette(); toast('Last question. Use SUBMIT when you are done.'); return; } sel = st.ans; go(next); }
     else if (a === 'clear') { sel = null; commit(null); save(); drawQuestion(); drawPalette(); }
     else if (a === 'savemark') { commit(sel); st.mark = true; sel = st.ans; if (S.cur === Q.length - 1) { save(); drawPalette(); return; } go(next); }
-    else if (a === 'marknext') { st.mark = true; const unsaved = sel !== st.ans && sel !== null; sel = st.ans; if (unsaved) toast('Marked for review. The new choice was not saved.'); if (S.cur === Q.length - 1) { save(); drawQuestion(); drawPalette(); return; } go(next); }
+    else if (a === 'marknext') {
+      st.mark = true;
+      if (markNextSaves()) commit(sel);
+      else { const unsaved = sel !== st.ans && sel !== null; if (unsaved) toast('Marked for review. The new choice was not saved.'); }
+      sel = st.ans; if (S.cur === Q.length - 1) { save(); drawQuestion(); drawPalette(); return; } go(next); }
     else if (a === 'back') go(S.cur - 1);
     else if (a === 'next') go(next);
     else if (a === 'submit') confirmSubmit();

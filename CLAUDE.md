@@ -2,6 +2,17 @@
 
 > **Start here: read docs/BLUEPRINT.md first.** It is the agreed plan for the whole platform (bilingual NEET practice site with NCERT reader, PYQs, exam-screen test engine, analysis, counselling, school/coaching tie-ups). Work phase by phase as its section 11 says, keep prices configurable (not decided), and update its "Build status" section at the end of every session. The rules below still apply.
 
+## Several Claude accounts work on this repo (owner's setup, Nov 2026)
+The owner uses more than one Claude account on this repo and on neet-sources, so assume another session may be working in parallel.
+- **Start of session:** `git fetch origin`; read `main`'s docs/BLUEPRINT.md "Build status", docs/research/, and the open `claude/*` branches
+  (`git log origin/main..origin/<branch>`) to see what is in progress. Don't redo or contradict work that is already there; build on it.
+- **Work on your own branch**, never directly on `main`. Rebase on `origin/main` before pushing; never force-push or rewrite a branch you didn't create.
+- **Keep changes in your area.** Before editing a file another open branch also changes, check that branch and keep the edits small, to avoid merge conflicts.
+  `data/` is built output: after a rebase, re-run `python3 tools/build.py` rather than hand-merging `data/` conflicts.
+- **Hand-off lives in the repo, not in chat:** update "Build status" in BLUEPRINT.md (done / in progress / next, with the branch name)
+  so the other account's session can pick up where you stopped.
+- Merges to `main` (which publishes the site) happen only when the owner says so.
+
 ## What this site is
 A free website for NEET aspirants. Its core is a **layered, clickable mind map of each NCERT chapter**: chapter → section → sub-section → paragraph. Every node has:
 - a **synopsis written in our own words** (never copied NCERT text),
