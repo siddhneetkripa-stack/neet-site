@@ -1,5 +1,7 @@
 # NEET NCERT Mind Map site: working rules
 
+> **Start here: read docs/BLUEPRINT.md first.** It is the agreed plan for the whole platform (bilingual NEET practice site with NCERT reader, PYQs, exam-screen test engine, analysis, counselling, school/coaching tie-ups). Work phase by phase as its section 11 says, keep prices configurable (not decided), and update its "Build status" section at the end of every session. The rules below still apply.
+
 ## What this site is
 A free website for NEET aspirants. Its core is a **layered, clickable mind map of each NCERT chapter**: chapter → section → sub-section → paragraph. Every node has:
 - a **synopsis written in our own words** (never copied NCERT text),
