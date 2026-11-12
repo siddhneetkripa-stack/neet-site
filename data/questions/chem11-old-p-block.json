@@ -1,0 +1,66 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem11-old-p-block",
+ "subject": "chemistry",
+ "class": 11,
+ "unit": 11,
+ "title": {
+  "en": "The p-Block Elements (Groups 13–14)"
+ },
+ "ncert_status": "old_ncert_only",
+ "syllabus_status": "current",
+ "oldNcert": "Old NCERT Class 11 Part II Unit 11 The p-Block Elements",
+ "note": "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+ "paragraphs": [],
+ "questions": [
+  {
+   "id": "chem11-old-p-block-neet-2026-q48-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the incorrect statement from the following:",
+     "o": [
+      "Oxygen exhibits only −2 oxidation state",
+      "The order of catenation property of Group 14 elements is C ≫ Si &gt; Ge ≈ Sn.",
+      "Carbon has the ability to form pπ − pπ multiple bonds with itself.",
+      "ECl<sub>3</sub> (E = B and Al) is a monomer when E = B and a dimer when E = Al."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-old-p-block",
+    "paras": [],
+    "otherChapters": [
+     "Old NCERT 12 · p-Block (Group 16: oxidation states of oxygen)"
+    ],
+    "oldRef": "Old NCERT 11 Unit 11 · Groups 13–14 (catenation, pπ–pπ bonding, BCl3/Al2Cl6)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q48 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the eSaral copy: (A); matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2026/chemistry-with-solutions.pdf). The NTA key in neet-sources covers Codes 11–14, whose question order differs from this copy; matching needs the Code 13 booklet scan."
+   }
+  }
+ ]
+}

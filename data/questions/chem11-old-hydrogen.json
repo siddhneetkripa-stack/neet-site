@@ -1,0 +1,64 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "chem11-old-hydrogen",
+ "subject": "chemistry",
+ "class": 11,
+ "unit": 9,
+ "title": {
+  "en": "Hydrogen"
+ },
+ "ncert_status": "old_ncert_only",
+ "syllabus_status": "dropped_2024",
+ "oldNcert": "Old NCERT Class 11 Part II Unit 9 Hydrogen",
+ "note": "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+ "paragraphs": [],
+ "questions": [
+  {
+   "id": "chem11-old-hydrogen-neet-2026-q49-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Methane reacts with steam at 1273 K in the presence of nickel catalyst to form :",
+     "o": [
+      "CO and H<sub>2</sub>",
+      "CO and H<sub>2</sub>O",
+      "CO<sub>2</sub> and H<sub>2</sub>",
+      "CO<sub>2</sub> and H<sub>2</sub>O"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-old-hydrogen",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Unit 9 · Preparation of dihydrogen (steam reforming of hydrocarbons)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q49 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the eSaral copy: (A); matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2026/chemistry-with-solutions.pdf). The NTA key in neet-sources covers Codes 11–14, whose question order differs from this copy; matching needs the Code 13 booklet scan.",
+    "note": "Asked in NEET 2026, though the Hydrogen chapter is listed as dropped from the NEET syllabus in 2024 (docs/research/02). Marked current because it was asked in 2026; recheck when the 2027 syllabus is out."
+   }
+  }
+ ]
+}
