@@ -1,0 +1,1700 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-06",
+ "subject": "physics",
+ "class": 11,
+ "unit": 6,
+ "title": {
+  "en": "System of Particles and Rotational Motion"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph106.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "6.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "6.1.1",
+   "title": "What Kind of Motion can a Rigid Body have?",
+   "pdfPage": 1
+  },
+  {
+   "id": "6.2",
+   "title": "Centre of Mass",
+   "pdfPage": 4
+  },
+  {
+   "id": "6.3",
+   "title": "Motion of Centre of Mass",
+   "pdfPage": 8
+  },
+  {
+   "id": "6.4",
+   "title": "Linear Momentum of a System of Particles",
+   "pdfPage": 9
+  },
+  {
+   "id": "6.5",
+   "title": "Vector Product of Two Vectors",
+   "pdfPage": 10
+  },
+  {
+   "id": "6.6",
+   "title": "Angular Velocity and its Relation with Linear Velocity",
+   "pdfPage": 12
+  },
+  {
+   "id": "6.6.1",
+   "title": "Angular Acceleration",
+   "pdfPage": 14
+  },
+  {
+   "id": "6.7",
+   "title": "Torque and Angular Momentum",
+   "pdfPage": 14
+  },
+  {
+   "id": "6.7.1",
+   "title": "Moment of Force (Torque)",
+   "pdfPage": 14
+  },
+  {
+   "id": "6.7.2",
+   "title": "Angular Momentum of a Particle",
+   "pdfPage": 15
+  },
+  {
+   "id": "6.8",
+   "title": "Equilibrium of a Rigid Body",
+   "pdfPage": 18
+  },
+  {
+   "id": "6.8.1",
+   "title": "Principle of Moments",
+   "pdfPage": 20
+  },
+  {
+   "id": "6.8.2",
+   "title": "Centre of Gravity",
+   "pdfPage": 21
+  },
+  {
+   "id": "6.9",
+   "title": "Moment of Inertia",
+   "pdfPage": 23
+  },
+  {
+   "id": "6.10",
+   "title": "Kinematics of Rotational Motion about a Fixed Axis",
+   "hi": "अचल अक्ष के परितः शुद्ध घूर्णी",
+   "pdfPage": 25
+  },
+  {
+   "id": "6.11",
+   "title": "Dynamics of Rotational Motion about a Fixed Axis",
+   "hi": "अचल अक्ष के परितः घूर्णी गतिकी",
+   "pdfPage": 27
+  },
+  {
+   "id": "6.12",
+   "title": "Angular Momentum in Case of Rotation about a Fixed Axis",
+   "hi": "अचल अक्ष के परितः घूर्णी गति का",
+   "pdfPage": 30
+  },
+  {
+   "id": "6.12.1",
+   "title": "Conservation of Angular Momentum",
+   "pdfPage": 31
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-06-neet-2015-re-exam-code-d-q148",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An automobile moves on a road with a speed of 54 km h<sup>−1</sup>. The radius of its wheels is 0.45 m and the moment of inertia of the wheel about its axis of rotation is 3 kg m<sup>2</sup>. If the vehicle is brought to rest in 15 s, the magnitude of average torque transmitted by its brakes to the wheel is :",
+     "o": [
+      "8.58 kg m<sup>2</sup> s<sup>−2</sup>",
+      "10.86 kg m<sup>2</sup> s<sup>−2</sup>",
+      "2.86 kg m<sup>2</sup> s<sup>−2</sup>",
+      "6.66 kg m<sup>2</sup> s<sup>−2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q148",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2015-re-exam-code-d-q151",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Point masses m<sub>1</sub> and m<sub>2</sub> are placed at the opposite ends of a rigid rod of length L, and negligible mass. The rod is to be set rotating about an axis perpendicular to it. The position of point P on this rod through which the axis should pass so that the work required to set the rod rotating with angular velocity ω<sub>0</sub> is minimum, is given by :",
+     "o": [
+      "x = (m<sub>1</sub>/m<sub>2</sub>)L",
+      "x = (m<sub>2</sub>/m<sub>1</sub>)L",
+      "x = m<sub>2</sub>L/(m<sub>1</sub> + m<sub>2</sub>)",
+      "x = m<sub>1</sub>L/(m<sub>1</sub> + m<sub>2</sub>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q151",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2015-re-exam-code-d-q163",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A force F⃗ = αî + 3ĵ + 6k̂ is acting at a point r⃗ = 2î − 6ĵ − 12k̂. The value of α for which angular momentum about origin is conserved is :",
+     "o": [
+      "2",
+      "Zero",
+      "1",
+      "−1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q163",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2016-phase-1-code-a-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "From a disc of radius R and mass M, a circular hole of diameter R, whose rim passes through the centre is cut. What is the moment of inertia of the remaining part of the disc about a perpendicular axis, passing through the centre?",
+     "o": [
+      "15MR<sup>2</sup>/32",
+      "13MR<sup>2</sup>/32",
+      "11MR<sup>2</sup>/32",
+      "9MR<sup>2</sup>/32"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9"
+    ],
+    "oldRef": "Old NCERT 11 Ch 7 · Theorems of parallel and perpendicular axes"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q1",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Needs the parallel-axis theorem (removed from the rationalised NCERT but in the NEET syllabus)."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2016-phase-1-code-a-q19",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A uniform circular disc of radius 50 cm at rest is free to turn about an axis which is perpendicular to its plane and passes through its centre. It is subjected to a torque which produces a constant angular acceleration of 2.0 rad s<sup>−2</sup>. Its net acceleration in m s<sup>−2</sup> at the end of 2.0 s is approximately :",
+     "o": [
+      "8.0",
+      "7.0",
+      "6.0",
+      "3.0"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q19",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2016-phase-1-code-a-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A disk and a sphere of same radius but different masses roll off on two inclined planes of the same altitude and length. Which one of the two objects gets to the bottom of the plane first?",
+     "o": [
+      "Disk",
+      "Sphere",
+      "Both reach at the same time",
+      "Depends on their masses"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q21",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Rolling motion was removed from the rationalised chapter; reasoning from moments of inertia."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2016-phase-2-code-aa-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two rotating bodies A and B of masses m and 2m with moments of inertia I<sub>A</sub> and I<sub>B</sub> (I<sub>B</sub> > I<sub>A</sub>) have equal kinetic energy of rotation. If L<sub>A</sub> and L<sub>B</sub> be their angular momenta respectively, then :",
+     "o": [
+      "L<sub>A</sub> = L<sub>B</sub>/2",
+      "L<sub>A</sub> = 2L<sub>B</sub>",
+      "L<sub>B</sub> > L<sub>A</sub>",
+      "L<sub>A</sub> > L<sub>B</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.11",
+     "6.12"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q8",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2016-phase-2-code-aa-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A solid sphere of mass m and radius R is rotating about its diameter. A solid cylinder of the same mass and same radius is also rotating about its geometrical axis with an angular speed twice that of the sphere. The ratio of their kinetic energies of rotation (E<sub>sphere</sub>/E<sub>cylinder</sub>) will be :",
+     "o": [
+      "2 : 3",
+      "1 : 5",
+      "1 : 4",
+      "3 : 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9",
+     "6.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q9",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2016-phase-2-code-aa-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A light rod of length l has two masses m<sub>1</sub> and m<sub>2</sub> attached to its two ends. The moment of inertia of the system about an axis perpendicular to the rod and passing through the centre of mass is :",
+     "o": [
+      "m<sub>1</sub>m<sub>2</sub>l<sup>2</sup>/(m<sub>1</sub> + m<sub>2</sub>)",
+      "(m<sub>1</sub> + m<sub>2</sub>)l<sup>2</sup>/(m<sub>1</sub>m<sub>2</sub>)",
+      "(m<sub>1</sub> + m<sub>2</sub>)l<sup>2</sup>",
+      "√(m<sub>1</sub>m<sub>2</sub>) l<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q10",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2017-code-a-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct?<br>(a) Centre of mass of a body always coincides with the centre of gravity of the body.<br>(b) Centre of mass of a body is the point at which the total gravitational torque on the body is zero.<br>(c) A couple on a body produces both translational and rotational motion in a body.<br>(d) Mechanical advantage greater than one means that small effort can be used to lift a large load.",
+     "o": [
+      "(b) and (d)",
+      "(a) and (b)",
+      "(b) and (c)",
+      "(c) and (d)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.8.1",
+     "6.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q26",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2017-code-a-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two discs of same moment of inertia rotating about their regular axis passing through centre and perpendicular to the plane of disc with angular velocities ω<sub>1</sub> and ω<sub>2</sub>. They are brought into contact face to face coinciding the axis of rotation. The expression for loss of energy during this process is :",
+     "o": [
+      "(1/2)I(ω<sub>1</sub> + ω<sub>2</sub>)<sup>2</sup>",
+      "(1/4)I(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup>",
+      "I(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup>",
+      "(I/8)(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.12.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q39",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2017-code-a-q41",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A rope is wound around a hollow cylinder of mass 3 kg and radius 40 cm. What is the angular acceleration of the cylinder if the rope is pulled with a force of 30 N?",
+     "o": [
+      "25 m/s<sup>2</sup>",
+      "0.25 rad/s<sup>2</sup>",
+      "25 rad/s<sup>2</sup>",
+      "5 m/s<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q41",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2018-code-aa-q31",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Three objects, A : (a solid sphere), B : (a thin circular disk) and C : (a circular ring), each have the same mass M and radius R. They all spin with the same angular speed ω about their own symmetry axes. The amounts of work (W) required to bring them to rest, would satisfy the relation :",
+     "o": [
+      "W<sub>B</sub> > W<sub>A</sub> > W<sub>C</sub>",
+      "W<sub>A</sub> > W<sub>B</sub> > W<sub>C</sub>",
+      "W<sub>C</sub> > W<sub>B</sub> > W<sub>A</sub>",
+      "W<sub>A</sub> > W<sub>C</sub> > W<sub>B</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9",
+     "6.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q31",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2018-code-aa-q36",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The moment of the force, F⃗ = 4î + 5ĵ − 6k̂ at (2, 0, −3), about the point (2, −2, −2), is given by :",
+     "o": [
+      "−7î − 8ĵ − 4k̂",
+      "−4î − ĵ − 8k̂",
+      "−8î − 4ĵ − 7k̂",
+      "−7î − 4ĵ − 8k̂"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q36",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2018-code-aa-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A solid sphere is rotating freely about its symmetry axis in free space. The radius of the sphere is increased keeping its mass same. Which of the following physical quantities would remain constant for the sphere?",
+     "o": [
+      "Rotational kinetic energy",
+      "Moment of inertia",
+      "Angular velocity",
+      "Angular momentum"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.12.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q38",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2018-code-aa-q41",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A solid sphere is in rolling motion. In rolling motion a body possesses translational kinetic energy (K<sub>t</sub>) as well as rotational kinetic energy (K<sub>r</sub>) simultaneously. The ratio K<sub>t</sub> : (K<sub>t</sub> + K<sub>r</sub>) for the sphere is :",
+     "o": [
+      "10 : 7",
+      "5 : 7",
+      "7 : 10",
+      "2 : 5"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q41",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)",
+    "note": "Rolling motion was removed from the rationalised chapter: K<sub>t</sub> : (K<sub>t</sub> + K<sub>r</sub>) = (1/2) : (1/2 + 1/5) = 5 : 7."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2019-code-s2-q130",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A disc of radius 2 m and mass 100 kg rolls on a horizontal floor. Its centre of mass has speed of 20 cm/s. How much work is needed to stop it?",
+     "o": [
+      "2 J",
+      "1 J",
+      "3 J",
+      "30 kJ"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q130",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "Rolling motion was removed from the rationalised chapter: K = (1/2)Mv<sup>2</sup>(1 + 1/2) for a disc."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2019-code-s2-q132",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A solid cylinder of mass 2 kg and radius 4 cm is rotating about its axis at the rate of 3 rpm. The torque required to stop after 2π revolutions is :",
+     "o": [
+      "12 × 10<sup>−4</sup> N m",
+      "2 × 10<sup>6</sup> N m",
+      "2 × 10<sup>−6</sup> N m",
+      "2 × 10<sup>−3</sup> N m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.10",
+     "6.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q132",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2020-code-f3-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Find the torque about the origin when a force of 3ĵ N acts on a particle whose position vector is 2k̂ m.",
+     "o": [
+      "−6î N m",
+      "6k̂ N m",
+      "6î N m",
+      "6ĵ N m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q38",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2020-code-f3-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two particles of mass 5kg and 10 kg respectively are attached to the two ends of a rigid rod of length 1m with negligible mass. The centre of mass of the system from the 5kg particle is nearly at a distance of:",
+     "o": [
+      "67 cm",
+      "80 cm",
+      "33 cm",
+      "50 cm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q42",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2021-code-p3-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "From a circular ring of mass 'M' and radius 'R' an arc corresponding to a 90° sector is removed. The moment of inertia of the remaining part of the ring about an axis passing through the centre of the ring and perpendicular to the plane of the ring is 'K' times 'MR<sup>2</sup>'. Then the value of 'K' is :",
+     "o": [
+      "1/8",
+      "3/4",
+      "7/8",
+      "1/4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q42",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2021-code-p3-q48",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A uniform rod of length 200 cm and mass 500 g is balanced on a wedge placed at 40 cm mark. A mass of 2 kg is suspended from the rod at 20 cm and another unknown mass 'm' is suspended from the rod at 160 cm mark as shown in the figure. Find the value of 'm' such that the rod is in equilibrium. (g = 10 m/s<sup>2</sup>)",
+     "o": [
+      "1/12 kg",
+      "1/2 kg",
+      "1/3 kg",
+      "1/6 kg"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q48",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "The figure only repeats the data."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2022-code-t2-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The angular speed of a fly wheel moving with uniform angular acceleration changes from 1200 rpm to 3120 rpm in 16 seconds. The angular acceleration in rad/s<sup>2</sup> is :",
+     "o": [
+      "4π",
+      "12π",
+      "104π",
+      "2π"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.6.1",
+     "6.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q2",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2022-code-t2-q4",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two objects of mass 10 kg and 20 kg respectively are connected to the two ends of a rigid rod of length 10 m with negligible mass. The distance of the center of mass of the system from the 10 kg mass is :",
+     "o": [
+      "20/3 m",
+      "10 m",
+      "5 m",
+      "10/3 m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q4",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2022-code-t2-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The ratio of the radius of gyration of a thin uniform disc about an axis passing through its centre and normal to its plane to the radius of gyration of the disc about its diameter is :",
+     "o": [
+      "√2 : 1",
+      "4 : 1",
+      "1 : √2",
+      "2 : 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9"
+    ],
+    "oldRef": "Old NCERT 11 Ch 7 · Theorems of perpendicular and parallel axes"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q7",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2023-topic-wise-copy-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The angular acceleration of a body, moving along the circumference of a circle, is :",
+     "o": [
+      "along the axis of rotation",
+      "along the radius, away from centre",
+      "along the radius towards the centre",
+      "along the tangent to its position"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q7",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2023-topic-wise-copy-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The ratio of radius of gyration of a solid sphere of mass M and radius R about its own axis to the radius of gyration of the thin hollow sphere of same mass and radius about its axis is :",
+     "o": [
+      "5 : 2",
+      "3 : 5",
+      "5 : 3",
+      "2 : 5"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q8",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Copy prints no answer (no correct option)",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "No option is correct as printed: k<sub>solid</sub> : k<sub>hollow</sub> = √(2/5) : √(2/3) = √3 : √5 (3 : 5 is the ratio of the squares, i.e. of the moments of inertia). The copy prints no answer ('None'). Placeholder answer; never use in tests."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2024-q37-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The moment of inertia of a thin rod about an axis passing through its mid point and perpendicular to the rod is 2400 g cm<sup>2</sup>. The length of the 400 g rod is nearly :",
+     "o": [
+      "8.5 cm",
+      "17.5 cm",
+      "20.7 cm",
+      "72.0 cm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q37 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2024-q38-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A wheel of a bullock cart is rolling on a level road as shown in the figure below. If its linear speed is v in the direction shown, which one of the following options is correct (P and Q are any highest and lowest points on the wheel, respectively)?",
+     "o": [
+      "Point P moves slower than point Q",
+      "Point P moves faster than point Q",
+      "Both the points P and Q move with equal speeds",
+      "Point P has zero speed"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q38 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Rolling motion was removed from the rationalised chapter: in rolling without slipping the top point moves at 2v and the contact point is at rest. The figure (a wheel on the road moving with v, P at the top, Q at the bottom) only repeats the text."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2025-code-45-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The Sun rotates around its centre once in 27 days. What will be the period of revolution if the Sun were to expand to twice its present radius without any external influence? Assume the Sun to be a sphere of uniform density.",
+     "o": [
+      "100 days",
+      "105 days",
+      "115 days",
+      "108 days"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.12.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q17",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2025-code-45-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A uniform rod of mass 20 kg and length 5 m leans against a smooth vertical wall making an angle of 60° with it. The other end rests on a rough horizontal floor. The friction force that the floor exerts on the rod is (Take g = 10 m/s<sup>2</sup>) :",
+     "o": [
+      "100 N",
+      "100√3 N",
+      "200 N",
+      "200√3 N"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q22",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2025-code-45-q39",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A sphere of radius R is cut from a larger solid sphere of radius 2R as shown in the figure. The ratio of the moment of inertia of the smaller sphere to that of the rest part of the sphere about the Y-axis is :",
+     "o": [
+      "7/8",
+      "7/40",
+      "7/57",
+      "7/64"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9"
+    ],
+    "oldRef": "Old NCERT 11 Ch 7 · Theorem of parallel axes"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q39",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "The small sphere touches the big one internally; its centre is at distance R from the Y-axis (a diameter of the big sphere)."
+   }
+  },
+  {
+   "id": "phy11-06-neet-2026-code-13-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The angular speed of a flywheel is increased from 600 rpm to 1200 rpm in 10 s. The number of revolutions completed by the flywheel during this time is :",
+     "o": [
+      "600",
+      "300",
+      "900",
+      "150"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q3",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-06-neet-2026-code-13-q29",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A thin wire of length 'L' and linear mass density 'm' is bent into a circular ring (in x-y plane) with centre 'C' as shown in figure. The moment of inertia of the ring about an axis yy' will be :",
+     "o": [
+      "3mL<sup>3</sup>/(8π)",
+      "3mL<sup>2</sup>/(8π<sup>2</sup>)",
+      "3mL<sup>3</sup>/(8π<sup>2</sup>)",
+      "3mL<sup>2</sup>/(8π)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-06",
+    "paras": [
+     "6.9"
+    ],
+    "oldRef": "Old NCERT 11 Ch 7 · Theorems of parallel and perpendicular axes"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q29",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "yy' is a tangent to the ring in its own plane."
+   }
+  }
+ ]
+}
