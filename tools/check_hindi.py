@@ -41,7 +41,7 @@ def plain(s):
     s = re.sub(r"(?<![A-Za-z])([A-Z])-(?=[A-Z][a-z])", r"\1 ", s)       # X-Ethanol, Y-But-2-enal
     s = re.sub(r"[A-Za-z]*[\u00C0-\u024F][A-Za-z]*", " ", s)      # names with accents: Hückel
     s = re.sub(r"\b([Cc])o[- ](?=dominan)", r"\1o", s)                  # Co-dominance (not cobalt)
-    s = re.sub(r"\b([Cc]o)[- ](?=extinct)|\b([Ee]x)[- ](?=situ)", lambda m: m.group(1) or m.group(2), s)  # Co-extinction, Ex-situ (not Co / Ex)
+    s = re.sub(r"\b([Cc]o)[- ](?=extinct)|\b([Ee]x)[- ](?=situ)|\b([Bb]i)[- ](?=direction)", lambda m: m.group(1) or m.group(2) or m.group(3), s)  # Co-extinction, Ex-situ, Bi-directional (not Co / Ex / Bi)
     s = re.sub(r"\b([A-Z]{2,})s\b", r"\1", s)                       # plural acronyms: RBCs -> RBC
     s = re.sub(r"\d+(वाँ|वें|वीं|वा)", " ", s)                         # Hindi ordinals, like English 11th (skipped)
     s = s.replace("→", " → ").replace("⇌", " ⇌ ")
