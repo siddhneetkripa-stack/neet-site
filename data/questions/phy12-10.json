@@ -1,0 +1,1198 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-10",
+ "subject": "physics",
+ "class": 12,
+ "unit": 10,
+ "title": {
+  "en": "Wave Optics"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph202.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "10.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "10.2",
+   "title": "Huygens Principle",
+   "hi": "हाइगेंस का सिद्धांत",
+   "pdfPage": 3
+  },
+  {
+   "id": "10.3",
+   "title": "Refraction and Reflection of Plane Waves using Huygens Principle",
+   "hi": "हाइगेंस सिद्धांत का उपयोग करते हुए समतल तरंगों का",
+   "pdfPage": 4
+  },
+  {
+   "id": "10.3.1",
+   "title": "Refraction of a Plane Wave",
+   "hi": "समतल तरंगों का अपवर्तन",
+   "pdfPage": 4
+  },
+  {
+   "id": "10.3.2",
+   "title": "Refraction at a Rarer Medium",
+   "hi": "विरल माध्यम पर अपवर्तन",
+   "pdfPage": 6
+  },
+  {
+   "id": "10.3.3",
+   "title": "Reflection of a Plane Wave by a Plane Surface",
+   "hi": "समतल पृष्ठ से एक समतल तरंग का परावर्तन",
+   "pdfPage": 6
+  },
+  {
+   "id": "10.4",
+   "title": "Coherent and Incoherent Addition of Waves",
+   "hi": "तरंगों का कला-संबद्ध तथा कला-असंबद्ध योग",
+   "pdfPage": 8
+  },
+  {
+   "id": "10.5",
+   "title": "Interference of Light Waves and Young's Experiment",
+   "hi": "प्रकाश तरंगों का व्यतिकरण तथा यंग का प्रयोग",
+   "pdfPage": 11
+  },
+  {
+   "id": "10.6",
+   "title": "Diffraction",
+   "hi": "विवर्तन",
+   "pdfPage": 12
+  },
+  {
+   "id": "10.6.1",
+   "title": "The Single Slit",
+   "hi": "एकल झिरी",
+   "pdfPage": 13
+  },
+  {
+   "id": "10.6.2",
+   "title": "Seeing the Single Slit Diffraction Pattern",
+   "hi": "एकल झिरी विवर्तन पैटर्न का अवलोकन",
+   "pdfPage": 14
+  },
+  {
+   "id": "10.7",
+   "title": "Polarisation",
+   "hi": "ध्रुवण",
+   "pdfPage": 15
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-10-neet-2015-re-exam-code-d-q140",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At the first minimum adjacent to the central maximum of a single-slit diffraction pattern, the phase difference between the Huygens' wavelet from the edge of the slit and the wavelet from the midpoint of the slit is :",
+     "o": [
+      "π/2 radian",
+      "π radian",
+      "π/8 radian",
+      "π/4 radian"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q140",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 2",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2015-re-exam-code-d-q156",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two slits in Young's experiment have widths in the ratio 1 : 25. The ratio of intensity at the maxima and minima in the interference pattern, I<sub>max</sub>/I<sub>min</sub>, is :",
+     "o": [
+      "121/49",
+      "49/121",
+      "4/9",
+      "9/4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q156",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2016-phase-1-code-a-q6",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a diffraction pattern due to a single slit of width 'a', the first minimum is observed at an angle 30° when light of wavelength 5000 Å is incident on the slit. The first secondary maximum is observed at an angle of :",
+     "o": [
+      "sin<sup>−1</sup>(1/4)",
+      "sin<sup>−1</sup>(2/3)",
+      "sin<sup>−1</sup>(1/2)",
+      "sin<sup>−1</sup>(3/4)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q6",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2016-phase-1-code-a-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The intensity at the maximum in a Young's double slit experiment is I<sub>0</sub>. Distance between two slits is d = 5λ, where λ is the wavelength of light used in the experiment. What will be the intensity in front of one of the slits on the screen placed at a distance D = 10d?",
+     "o": [
+      "I<sub>0</sub>",
+      "I<sub>0</sub>/4",
+      "(3/4)I<sub>0</sub>",
+      "I<sub>0</sub>/2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q18",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2016-phase-2-code-aa-q36",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The interference pattern is obtained with two coherent light sources of intensity ratio n. In the interference pattern, the ratio (I<sub>max</sub> − I<sub>min</sub>)/(I<sub>max</sub> + I<sub>min</sub>) will be :",
+     "o": [
+      "√n/(n + 1)",
+      "2√n/(n + 1)",
+      "√n/(n + 1)<sup>2</sup>",
+      "2√n/(n + 1)<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q36",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2016-phase-2-code-aa-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A linear aperture whose width is 0.02 cm is placed immediately in front of a lens of focal length 60 cm. The aperture is illuminated normally by a parallel beam of wavelength 5 × 10<sup>−5</sup> cm. The distance of the first dark band of the diffraction pattern from the centre of the screen is :",
+     "o": [
+      "0.10 cm",
+      "0.25 cm",
+      "0.20 cm",
+      "0.15 cm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q38",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2017-code-a-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Young's double slit experiment is first performed in air and then in a medium other than air. It is found that 8th bright fringe in the medium lies where 5th dark fringe lies in air. The refractive index of the medium is nearly :",
+     "o": [
+      "1.25",
+      "1.59",
+      "1.69",
+      "1.78"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q14",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2017-code-a-q33",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The ratio of resolving powers of an optical microscope for two wavelengths λ<sub>1</sub> = 4000 Å and λ<sub>2</sub> = 6000 Å is :",
+     "o": [
+      "8 : 27",
+      "9 : 4",
+      "3 : 2",
+      "16 : 81"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 10 · Resolving power of optical instruments"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q33",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2017-code-a-q37",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two Polaroids P<sub>1</sub> and P<sub>2</sub> are placed with their axis perpendicular to each other. Unpolarised light I<sub>0</sub> is incident on P<sub>1</sub>. A third polaroid P<sub>3</sub> is kept in between P<sub>1</sub> and P<sub>2</sub> such that its axis makes an angle 45° with that of P<sub>1</sub>. The intensity of transmitted light through P<sub>2</sub> is :",
+     "o": [
+      "I<sub>0</sub>/2",
+      "I<sub>0</sub>/4",
+      "I<sub>0</sub>/8",
+      "I<sub>0</sub>/16"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q37",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2018-code-aa-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Unpolarised light is incident from air on a plane surface of a material of refractive index 'μ'. At a particular angle of incidence 'i', it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation?",
+     "o": [
+      "i = sin<sup>−1</sup>(1/μ)",
+      "Reflected light is polarised with its electric vector perpendicular to the plane of incidence",
+      "Reflected light is polarised with its electric vector parallel to the plane of incidence",
+      "i = tan<sup>−1</sup>(1/μ)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q8",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2018-code-aa-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In Young's double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0.20°. To increase the fringe angular width to 0.21° (with same λ and D) the separation between the slits needs to be changed to :",
+     "o": [
+      "2.1 mm",
+      "1.9 mm",
+      "1.8 mm",
+      "1.7 mm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q9",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2019-code-s2-q126",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a double slit experiment, when light of wavelength 400 nm was used, the angular width of the first minima formed on a screen placed 1 m away, was found to be 0.2°. What will be the angular width of the first minima, if the entire experimental apparatus is immersed in water? (μ<sub>water</sub> = 4/3)",
+     "o": [
+      "0.05°",
+      "0.1°",
+      "0.266°",
+      "0.15°"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q126",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2020-code-f3-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Assume that light of wavelength 600 nm is coming from a star. The limit of resolution of telescope whose objective has a diameter of 2 m is :",
+     "o": [
+      "7.32 × 10<sup>−7</sup> rad",
+      "6.00 × 10<sup>−7</sup> rad",
+      "3.66 × 10<sup>−7</sup> rad",
+      "1.83 × 10<sup>−7</sup> rad"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 10 · Resolving power of optical instruments"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q3",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2020-code-f3-q24",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The Brewster's angle i<sub>b</sub> for an interface should be :",
+     "o": [
+      "45° < i<sub>b</sub> < 90°",
+      "i<sub>b</sub> = 90°",
+      "0° < i<sub>b</sub> < 30°",
+      "30° < i<sub>b</sub> < 45°"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q24",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2020-code-f3-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In Young's double slit experiment, if the separation between coherent sources is halved and the distance of the screen from the coherent sources is doubled, then the fringe width becomes :",
+     "o": [
+      "four times",
+      "one-fourth",
+      "double",
+      "half"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q39",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2022-code-t2-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A light ray falls on a glass surface of refractive index √3, at an angle 60°. The angle between the refracted and reflected rays would be :",
+     "o": [
+      "60°",
+      "90°",
+      "120°",
+      "30°"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.7"
+    ],
+    "otherChapters": [
+     "Class 12 · Ray Optics"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q11",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-10-neet-2022-code-t2-q24",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a Young's double slit experiment, a student observes 8 fringes in a certain segment of screen when a monochromatic light of 600 nm wavelength is used. If the wavelength of light is changed to 400 nm, then the number of fringes he would observe in the same region of the screen is :",
+     "o": [
+      "8",
+      "9",
+      "12",
+      "6"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q24",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-10-neet-2023-topic-wise-copy-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For Young's double slit experiment, two statements are given below :<br>Statement I : If screen is moved away from the plane of slits, angular separation of the fringes remains constant.<br>Statement II : If the monochromatic source is replaced by another monochromatic source of larger wavelength, the angular separation of fringes decreases.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Statement I is false but Statement II is true",
+      "Both Statement I and Statement II is true",
+      "Both Statement I and Statement II are true",
+      "Statement I is true but Statement II is false"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q29",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "The copy prints options (2) and (3) with the same wording."
+   }
+  },
+  {
+   "id": "phy12-10-neet-2024-q15-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the monochromatic source in Young's double slit experiment is replaced by white light, then :",
+     "o": [
+      "Interference pattern will disappear",
+      "There will be a central dark fringe surrounded by a few coloured fringes",
+      "There will be a central bright white fringe surrounded by a few coloured fringes",
+      "All bright fringes will be of equal width"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q15 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-10-neet-2024-q16-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An unpolarised light beam strikes a glass surface at Brewster's angle. Then :",
+     "o": [
+      "The reflected light will be partially polarised.",
+      "The refracted light will be completely polarised.",
+      "Both the reflected and refracted light will be completely polarised.",
+      "The reflected light will be completely polarised but the refracted light will be partially polarised."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q16 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-10-neet-2025-code-45-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An unpolarized light beam travelling in air is incident on a medium of refractive index 1.73 at Brewster's angle. Then :",
+     "o": [
+      "Reflected light is completely polarized and the angle of reflection is close to 60°",
+      "Reflected light is partially polarized and the angle of reflection is close to 30°",
+      "Both reflected and transmitted light are perfectly polarized with angles of reflection and refraction close to 60° and 30°, respectively",
+      "Transmitted light is completely polarized with angle of refraction close to 30°"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q27",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2025-code-45-q43",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The intensity of transmitted light when a polaroid sheet, placed between two crossed polaroids at 22.5° from the polarization axis of one of the polaroids, is (I<sub>0</sub> is the intensity of polarised light after passing through the first polaroid) :",
+     "o": [
+      "I<sub>0</sub>/2",
+      "I<sub>0</sub>/4",
+      "I<sub>0</sub>/8",
+      "I<sub>0</sub>/16"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q43",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2026-code-13-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In Young's double slit experiment, using monochromatic light of wavelength λ, the intensity of light at a point on the screen where the path difference is λ, is K units. The intensity of light at a point where the path difference is λ/3 will be :",
+     "o": [
+      "K",
+      "2K",
+      "K/2",
+      "K/4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.5",
+     "10.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q18",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-10-neet-2026-code-13-q20",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In interference and diffraction, the light energy is redistributed. If it reduces in one region, producing a dark fringe, it increases in another region, producing a bright fringe.<br>A. As there is no gain or loss of energy, these phenomena are consistent with the principle of conservation of energy.<br>B. Diffraction and interference are characteristics exhibited only by light waves.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A is false, but B is true",
+      "A is true, but B is false",
+      "A is true and B is also true",
+      "Both A and B are false"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-10",
+    "paras": [
+     "10.4",
+     "10.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q20",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
