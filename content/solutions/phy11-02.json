@@ -1,0 +1,227 @@
+{
+ "phy11-02-neet-2016-phase-1-code-a-q41": {
+  "sol": "<p>For t between 1 s and 2 s the velocity does not change sign (A, B > 0), so distance = ∫v dt = ∫<sub>1</sub><sup>2</sup> (At + Bt<sup>2</sup>) dt.</p><p>= A(2<sup>2</sup> − 1<sup>2</sup>)/2 + B(2<sup>3</sup> − 1<sup>3</sup>)/3 = <b>(3/2)A + (7/3)B</b>.</p>",
+  "hint": "Distance = area under the v–t curve = ∫v dt.",
+  "hi": {
+   "q": "यदि किसी कण का वेग v = At + Bt<sup>2</sup> है, जहाँ A और B नियतांक हैं, तो 1 s और 2 s के बीच इसके द्वारा चली गई दूरी है :",
+   "o": [
+    "(3/2)A + 4B",
+    "3A + 7B",
+    "(3/2)A + (7/3)B",
+    "A/2 + B/3"
+   ],
+   "sol": "<p>1 s और 2 s के बीच वेग का चिह्न नहीं बदलता (A, B > 0), अतः दूरी = ∫v dt = ∫<sub>1</sub><sup>2</sup> (At + Bt<sup>2</sup>) dt।</p><p>= A(2<sup>2</sup> − 1<sup>2</sup>)/2 + B(2<sup>3</sup> − 1<sup>3</sup>)/3 = <b>(3/2)A + (7/3)B</b>।</p>",
+   "hint": "दूरी = v–t वक्र के नीचे का क्षेत्रफल = ∫v dt।"
+  }
+ },
+ "phy11-02-neet-2016-phase-2-code-aa-q2": {
+  "sol": "<p>v<sub>P</sub> = dX<sub>P</sub>/dt = a + 2bt and v<sub>Q</sub> = dX<sub>Q</sub>/dt = f − 2t.</p><p>Equal velocities: a + 2bt = f − 2t ⇒ t = <b>(f − a)/(2(1 + b))</b>.</p>",
+  "hint": "Differentiate each position once and equate.",
+  "hi": {
+   "q": "दो कारें P और Q एक ही बिंदु से एक ही समय पर एक सरल रेखा में चलना प्रारंभ करती हैं और उनकी स्थितियाँ X<sub>P</sub>(t) = at + bt<sup>2</sup> तथा X<sub>Q</sub>(t) = ft − t<sup>2</sup> द्वारा व्यक्त हैं। किस समय पर कारों के वेग समान होंगे?",
+   "o": [
+    "(a − f)/(1 + b)",
+    "(a + f)/(2(b − 1))",
+    "(a + f)/(2(1 + b))",
+    "(f − a)/(2(1 + b))"
+   ],
+   "sol": "<p>v<sub>P</sub> = dX<sub>P</sub>/dt = a + 2bt और v<sub>Q</sub> = dX<sub>Q</sub>/dt = f − 2t।</p><p>वेग समान : a + 2bt = f − 2t ⇒ t = <b>(f − a)/(2(1 + b))</b>।</p>",
+   "hint": "प्रत्येक स्थिति का एक बार अवकलन करके बराबर कीजिए।"
+  }
+ },
+ "phy11-02-neet-2017-code-a-q40": {
+  "sol": "<p>Let the escalator length be L. Her walking speed is L/t<sub>1</sub> and the escalator's speed is L/t<sub>2</sub>. Walking on the moving escalator, the speeds add:</p><p>t = L/(L/t<sub>1</sub> + L/t<sub>2</sub>) = <b>t<sub>1</sub>t<sub>2</sub>/(t<sub>1</sub> + t<sub>2</sub>)</b>.</p>",
+  "hint": "Add the two speeds, not the two times.",
+  "hi": {
+   "q": "प्रीति मेट्रो स्टेशन पहुँची और देखा कि एस्केलेटर काम नहीं कर रहा है। वह रुके हुए एस्केलेटर पर t<sub>1</sub> समय में चढ़ गई। अन्य दिनों में, यदि वह चलते हुए एस्केलेटर पर स्थिर खड़ी रहे, तो एस्केलेटर उसे t<sub>2</sub> समय में ऊपर ले जाता है। चलते हुए एस्केलेटर पर चलकर ऊपर जाने में उसे लगने वाला समय होगा :",
+   "o": [
+    "(t<sub>1</sub> + t<sub>2</sub>)/2",
+    "t<sub>1</sub>t<sub>2</sub>/(t<sub>2</sub> − t<sub>1</sub>)",
+    "t<sub>1</sub>t<sub>2</sub>/(t<sub>2</sub> + t<sub>1</sub>)",
+    "t<sub>1</sub> − t<sub>2</sub>"
+   ],
+   "sol": "<p>माना एस्केलेटर की लंबाई L है। उसकी चलने की चाल L/t<sub>1</sub> और एस्केलेटर की चाल L/t<sub>2</sub> है। चलते हुए एस्केलेटर पर चलने से चालें जुड़ती हैं :</p><p>t = L/(L/t<sub>1</sub> + L/t<sub>2</sub>) = <b>t<sub>1</sub>t<sub>2</sub>/(t<sub>1</sub> + t<sub>2</sub>)</b>।</p>",
+   "hint": "दोनों चालें जोड़िए, दोनों समय नहीं।"
+  }
+ },
+ "phy11-02-neet-2018-code-aa-q34": {
+  "sol": "<p>0–1 s: a = 6 m/s<sup>2</sup>, distance = (1/2)(6)(1)<sup>2</sup> = 3 m, v = 6 m/s.</p><p>After the field reverses, a = −6 m/s<sup>2</sup>: from 1 s to 2 s the car slows to rest, moving 3 m forward; from 2 s to 3 s it speeds up backwards to 6 m/s, moving 3 m back.</p><p>Displacement = 3 + 3 − 3 = 3 m ⇒ average velocity = 3/3 = 1 m/s. Distance = 3 + 3 + 3 = 9 m ⇒ average speed = 9/3 = 3 m/s. Answer: <b>1 m/s, 3 m/s</b>.</p>",
+  "hint": "The car stops at t = 2 s and then moves backwards; track displacement and distance separately.",
+  "hi": {
+   "q": "आवेश q वाली एक खिलौना कार एकसमान विद्युत क्षेत्र E⃗ के प्रभाव में एक घर्षणरहित क्षैतिज समतल पृष्ठ पर चलती है। बल qE⃗ के कारण एक सेकंड में इसका वेग 0 से 6 m/s तक बढ़ जाता है। उसी क्षण क्षेत्र की दिशा उलट दी जाती है। कार इस क्षेत्र के प्रभाव में दो सेकंड और चलती रहती है। 0 से 3 सेकंड के बीच खिलौना कार का औसत वेग और औसत चाल क्रमशः हैं :",
+   "o": [
+    "1 m/s, 3.5 m/s",
+    "1 m/s, 3 m/s",
+    "2 m/s, 4 m/s",
+    "1.5 m/s, 3 m/s"
+   ],
+   "sol": "<p>0–1 s : a = 6 m/s<sup>2</sup>, दूरी = (1/2)(6)(1)<sup>2</sup> = 3 m, v = 6 m/s ।</p><p>क्षेत्र उलटने के बाद a = −6 m/s<sup>2</sup> : 1 s से 2 s तक कार धीमी होकर रुक जाती है और 3 m आगे चलती है; 2 s से 3 s तक वह पीछे की ओर 6 m/s तक तेज होती है और 3 m पीछे आती है।</p><p>विस्थापन = 3 + 3 − 3 = 3 m ⇒ औसत वेग = 3/3 = 1 m/s । दूरी = 3 + 3 + 3 = 9 m ⇒ औसत चाल = 9/3 = 3 m/s । उत्तर : <b>1 m/s, 3 m/s</b>।</p>",
+   "hint": "कार t = 2 s पर रुकती है और फिर पीछे चलती है; विस्थापन और दूरी अलग-अलग गिनिए।"
+  }
+ },
+ "phy11-02-neet-2020-code-f3-q11": {
+  "sol": "<p>Taking downward as positive: v<sup>2</sup> = u<sup>2</sup> + 2gh ⇒ 80<sup>2</sup> = 20<sup>2</sup> + 2(10)h ⇒ 6400 − 400 = 20h ⇒ h = <b>300 m</b>.</p>",
+  "hint": "Use v<sup>2</sup> = u<sup>2</sup> + 2gh; no time is needed.",
+  "hi": {
+   "q": "एक मीनार के शिखर से एक गेंद 20 m/s के वेग से ऊर्ध्वाधर नीचे की ओर फेंकी जाती है। कुछ समय बाद यह 80 m/s के वेग से धरती से टकराती है। मीनार की ऊँचाई है : (g = 10 m/s<sup>2</sup>)",
+   "o": [
+    "320 m",
+    "300 m",
+    "360 m",
+    "340 m"
+   ],
+   "sol": "<p>नीचे की दिशा को धनात्मक लेने पर : v<sup>2</sup> = u<sup>2</sup> + 2gh ⇒ 80<sup>2</sup> = 20<sup>2</sup> + 2(10)h ⇒ 6400 − 400 = 20h ⇒ h = <b>300 m</b>।</p>",
+   "hint": "v<sup>2</sup> = u<sup>2</sup> + 2gh का उपयोग कीजिए; समय की आवश्यकता नहीं है।"
+  }
+ },
+ "phy11-02-neet-2021-code-p3-q18": {
+  "sol": "<p>Starting from rest with constant acceleration a (= g sin θ), the distance in the n<sup>th</sup> second is S<sub>n</sub> = (a/2)(2n − 1).</p><p>So S<sub>n</sub>/S<sub>n+1</sub> = <b>(2n − 1)/(2n + 1)</b>.</p>",
+  "hint": "From rest, distances in successive equal intervals are in the ratio 1 : 3 : 5 : …",
+  "hi": {
+   "q": "एक छोटा गुटका समय t = 0 पर विराम से चलकर एक चिकने आनत तल पर नीचे फिसलता है। माना S<sub>n</sub> गुटके द्वारा t = n − 1 से t = n अंतराल में चली गई दूरी है। तब अनुपात S<sub>n</sub>/S<sub>n+1</sub> है :",
+   "o": [
+    "2n/(2n − 1)",
+    "(2n − 1)/2n",
+    "(2n − 1)/(2n + 1)",
+    "(2n + 1)/(2n − 1)"
+   ],
+   "sol": "<p>विराम से नियत त्वरण a (= g sin θ) के साथ चलने पर n वें सेकंड में चली दूरी S<sub>n</sub> = (a/2)(2n − 1) है।</p><p>अतः S<sub>n</sub>/S<sub>n+1</sub> = <b>(2n − 1)/(2n + 1)</b>।</p>",
+   "hint": "विराम से चलने पर क्रमागत समान अंतरालों में दूरियाँ 1 : 3 : 5 : … के अनुपात में होती हैं।"
+  }
+ },
+ "phy11-02-neet-2022-code-t2-q23": {
+  "sol": "<p>Velocity is the slope of the displacement–time graph: v = tan θ.</p><p>v<sub>1</sub>/v<sub>2</sub> = tan 30°/tan 45° = (1/√3)/1 = <b>1 : √3</b>.</p>",
+  "hint": "Slope of an x–t graph = velocity.",
+  "hi": {
+   "q": "दो गतिमान कणों के विस्थापन-समय ग्राफ x-अक्ष से 30° और 45° के कोण बनाते हैं, जैसा कि चित्र में दिखाया गया है। उनके वेगों का अनुपात है :",
+   "o": [
+    "1 : 1",
+    "1 : 2",
+    "1 : √3",
+    "√3 : 1"
+   ],
+   "sol": "<p>वेग विस्थापन-समय ग्राफ की ढलान है : v = tan θ।</p><p>v<sub>1</sub>/v<sub>2</sub> = tan 30°/tan 45° = (1/√3)/1 = <b>1 : √3</b>।</p>",
+   "hint": "x–t ग्राफ की ढलान = वेग।"
+  }
+ },
+ "phy11-02-neet-2022-code-t2-q34": {
+  "sol": "<p>For free fall from rest, S<sub>n</sub> = (g/2)(2n − 1). For n = 1, 2, 3, 4 this gives 1 : 3 : 5 : 7 (times g/2). Answer: <b>1 : 3 : 5 : 7</b>.</p>",
+  "hint": "1 : 4 : 9 : 16 is the ratio of total distances, not of distances in each second.",
+  "hi": {
+   "q": "मुक्त रूप से गिरती हुई किसी वस्तु द्वारा पहले, दूसरे, तीसरे और चौथे सेकंड में चली गई दूरियों का अनुपात है :",
+   "o": [
+    "1 : 4 : 9 : 16",
+    "1 : 3 : 5 : 7",
+    "1 : 1 : 1 : 1",
+    "1 : 2 : 3 : 4"
+   ],
+   "sol": "<p>विराम से मुक्त पतन के लिए S<sub>n</sub> = (g/2)(2n − 1)। n = 1, 2, 3, 4 के लिए यह 1 : 3 : 5 : 7 (g/2 के गुणज) देता है। उत्तर : <b>1 : 3 : 5 : 7</b>।</p>",
+   "hint": "1 : 4 : 9 : 16 कुल दूरियों का अनुपात है, प्रत्येक सेकंड में चली दूरियों का नहीं।"
+  }
+ },
+ "phy11-02-neet-2023-topic-wise-copy-q3": {
+  "sol": "<p>Let the total distance be 2d. Time = d/v + d/(2v) = 3d/(2v).</p><p>Average speed = 2d ÷ 3d/(2v) = <b>4v/3</b> (the harmonic mean of v and 2v).</p>",
+  "hint": "Average speed = total distance/total time, not the mean of the speeds.",
+  "hi": {
+   "q": "एक वाहन आधी दूरी v चाल से और शेष दूरी 2v चाल से तय करता है। इसकी औसत चाल है :",
+   "o": [
+    "3v/4",
+    "v/3",
+    "2v/3",
+    "4v/3"
+   ],
+   "sol": "<p>माना कुल दूरी 2d है। समय = d/v + d/(2v) = 3d/(2v)।</p><p>औसत चाल = 2d ÷ 3d/(2v) = <b>4v/3</b> (v और 2v का हरात्मक माध्य)।</p>",
+   "hint": "औसत चाल = कुल दूरी/कुल समय, चालों का माध्य नहीं।"
+  }
+ },
+ "phy11-02-neet-2023-topic-wise-copy-q36": {
+  "sol": "<p>Take upward as positive, origin at the bridge. After t = 4 s: y = ut − (1/2)gt<sup>2</sup> = 4(4) − (1/2)(10)(16) = 16 − 80 = −64 m.</p><p>The water is 64 m below the bridge: height = <b>64 m</b>.</p>",
+  "hint": "Use one equation for the whole flight with signs: y = ut − gt<sup>2</sup>/2.",
+  "hi": {
+   "q": "एक नदी पर एक क्षैतिज पुल बना है। पुल पर खड़ा एक विद्यार्थी एक छोटी गेंद को 4 m s<sup>−1</sup> के वेग से ऊर्ध्वाधर ऊपर की ओर फेंकता है। गेंद 4 s बाद जल की सतह से टकराती है। जल की सतह से पुल की ऊँचाई है : (g = 10 m s<sup>−2</sup> लीजिए)",
+   "o": [
+    "68 m",
+    "56 m",
+    "60 m",
+    "64 m"
+   ],
+   "sol": "<p>ऊपर की दिशा धनात्मक और मूल बिंदु पुल पर लेने पर, t = 4 s के बाद : y = ut − (1/2)gt<sup>2</sup> = 4(4) − (1/2)(10)(16) = 16 − 80 = −64 m।</p><p>जल पुल से 64 m नीचे है : ऊँचाई = <b>64 m</b>।</p>",
+   "hint": "पूरी गति के लिए चिह्नों सहित एक ही समीकरण लीजिए : y = ut − gt<sup>2</sup>/2।"
+  }
+ },
+ "phy11-02-neet-2024-q49-esaral-physics-copy": {
+  "sol": "<p>Acceleration is the slope of the v–t graph. The rising straight part has a constant positive slope, the flat part zero slope, the falling straight part a constant negative slope.</p><p>So a–t is a positive constant, then zero, then a negative constant: <b>graph C</b>.</p>",
+  "hint": "a = slope of the v–t graph; straight segments give constant a.",
+  "hi": {
+   "q": "किसी वस्तु की गति का वेग v–समय t ग्राफ नीचे दिखाया गया है। इस गति के लिए सबसे उपयुक्त त्वरण a–समय t ग्राफ है :",
+   "o": [
+    "[ग्राफ A : a बढ़ता है, स्थिर रहता है, फिर शून्य पर लौटता है (v के समान आकार)]",
+    "[ग्राफ B : a बढ़ता है फिर नियत रहता है]",
+    "[ग्राफ C : धनात्मक नियत, शून्य, फिर ऋणात्मक नियत]",
+    "[ग्राफ D : ऋणात्मक नियत, फिर बढ़ती हुई रेखा]"
+   ],
+   "sol": "<p>त्वरण v–t ग्राफ की ढलान है। बढ़ते हुए सरल भाग की ढलान नियत धनात्मक, समतल भाग की शून्य, और घटते हुए सरल भाग की ढलान नियत ऋणात्मक है।</p><p>अतः a–t पहले धनात्मक नियत, फिर शून्य, फिर ऋणात्मक नियत है : <b>ग्राफ C</b>।</p>",
+   "hint": "a = v–t ग्राफ की ढलान; सरल रेखीय भाग नियत a देते हैं।"
+  }
+ },
+ "phy11-02-neet-2025-code-45-q15": {
+  "sol": "<p>dt/dx = 2x + 1, so v = dx/dt = 1/(2x + 1).</p><p>a = dv/dt = v (dv/dx) = [1/(2x + 1)] × [−2/(2x + 1)<sup>2</sup>] = <b>−2/(2x + 1)<sup>3</sup></b>.</p>",
+  "hint": "Use a = v dv/dx when v is known as a function of x.",
+  "hi": {
+   "q": "किन्हीं उपयुक्त मात्रकों में किसी गतिमान कण का समय (t) और स्थिति (x) संबंध t = x<sup>2</sup> + x द्वारा दिया गया है। कण का त्वरण है :",
+   "o": [
+    "−2/(x + 2)<sup>3</sup>",
+    "−2/(2x + 1)<sup>3</sup>",
+    "+2/(x + 1)<sup>3</sup>",
+    "+2/(2x + 1)"
+   ],
+   "sol": "<p>dt/dx = 2x + 1, अतः v = dx/dt = 1/(2x + 1)।</p><p>a = dv/dt = v (dv/dx) = [1/(2x + 1)] × [−2/(2x + 1)<sup>2</sup>] = <b>−2/(2x + 1)<sup>3</sup></b>।</p>",
+   "hint": "जब v, x के फलन के रूप में ज्ञात हो, तब a = v dv/dx का उपयोग कीजिए।"
+  }
+ },
+ "phy11-02-neet-2025-code-45-q21": {
+  "sol": "<p>Let the bus speed be v (km/h). Buses in one direction are vT apart.</p><p>Same direction (relative speed v − 60): (v − 60) × 30 = vT. Opposite direction (relative speed v + 60): (v + 60) × 10 = vT.</p><p>Equating: 30v − 1800 = 10v + 600 ⇒ v = 120 km/h. Then 60 × 30 = 120T ⇒ T = 15 min. Answer: <b>15 min, 120 km/h</b>.</p>",
+  "hint": "The gap between buses, vT, is covered at the relative speed in each case.",
+  "hi": {
+   "q": "दो नगर X और Y एक नियमित बस सेवा से जुड़े हैं जिसमें प्रत्येक दिशा में हर T min पर एक बस छूटती है। X से Y की दिशा में 60 km/h की चाल से स्कूटी चला रही एक लड़की देखती है कि उसकी गति की दिशा में हर 30 मिनट पर तथा विपरीत दिशा में हर 10 मिनट पर एक बस उसके पास से गुजरती है। बस सेवा की अवधि T और बसों की चाल (नियत मानी गई) के लिए सही विकल्प चुनिए।",
+   "o": [
+    "9 min, 40 km/h",
+    "25 min, 100 km/h",
+    "10 min, 90 km/h",
+    "15 min, 120 km/h"
+   ],
+   "sol": "<p>माना बस की चाल v (km/h) है। एक दिशा की बसों के बीच की दूरी vT है।</p><p>समान दिशा (आपेक्षिक चाल v − 60) : (v − 60) × 30 = vT। विपरीत दिशा (आपेक्षिक चाल v + 60) : (v + 60) × 10 = vT।</p><p>बराबर करने पर : 30v − 1800 = 10v + 600 ⇒ v = 120 km/h । तब 60 × 30 = 120T ⇒ T = 15 min। उत्तर : <b>15 min, 120 km/h</b>।</p>",
+   "hint": "प्रत्येक स्थिति में बसों के बीच की दूरी vT आपेक्षिक चाल से तय होती है।"
+  }
+ },
+ "phy11-02-neet-2026-code-13-q11": {
+  "sol": "<p>The ruler falls from rest during the reaction time: d = (1/2)gt<sup>2</sup>, so a longer reaction time means a longer distance.</p><p>Order of times 0.22 > 0.21 > 0.20 > 0.19 > 0.18 s gives <b>B > E > A > D > C</b>.</p>",
+  "hint": "d ∝ t<sup>2</sup>: just order the reaction times.",
+  "hi": {
+   "q": "जब एक पैमाना ऊर्ध्वाधर गिरता है, तो 5 भिन्न व्यक्ति इसे भिन्न प्रतिक्रिया समयों में पकड़ते हैं। (g = 9.8 m s<sup>−2</sup>)<br>A. व्यक्ति A का प्रतिक्रिया समय 0.20 s है।<br>B. व्यक्ति B का प्रतिक्रिया समय 0.22 s है।<br>C. व्यक्ति C का प्रतिक्रिया समय 0.18 s है।<br>D. व्यक्ति D का प्रतिक्रिया समय 0.19 s है।<br>E. व्यक्ति E का प्रतिक्रिया समय 0.21 s है।<br>प्रत्येक व्यक्ति के लिए पैमाने द्वारा चली गई दूरी का सही क्रम क्या है?",
+   "o": [
+    "B > E > A > C > D",
+    "C > D > A > E > B",
+    "C > D > A > B > E",
+    "B > E > A > D > C"
+   ],
+   "sol": "<p>प्रतिक्रिया समय के दौरान पैमाना विराम से गिरता है : d = (1/2)gt<sup>2</sup>, अतः अधिक प्रतिक्रिया समय का अर्थ अधिक दूरी है।</p><p>समयों का क्रम 0.22 > 0.21 > 0.20 > 0.19 > 0.18 s है, अतः <b>B > E > A > D > C</b>।</p>",
+   "hint": "d ∝ t<sup>2</sup> : केवल प्रतिक्रिया समयों को क्रम में रखिए।"
+  }
+ },
+ "phy11-02-neet-2026-code-13-q40": {
+  "sol": "<p>With upward positive, v = u − gt: a straight line of constant negative slope that starts at +u, crosses zero at the top and continues to negative values on the way down. That is plot <b>C only</b>.</p><p>A and E plot speed (always positive), B and D have the wrong slope sign.</p>",
+  "hint": "Velocity changes sign at the top; acceleration (slope) stays −g throughout.",
+  "hi": {
+   "q": "निम्नलिखित ग्राफ ऊर्ध्वाधर ऊपर फेंकी गई और वापस गिरती हुई एक गेंद के वेग (v) का समय (t) के साथ परिवर्तन दर्शाते हैं। निम्नलिखित में से कौन-सा/से ग्राफ सही है/हैं?<br>A. v रैखिक रूप से शून्य तक घटता है, फिर रैखिक रूप से बढ़ता है (अक्ष के ऊपर V आकार)<br>B. v रैखिक रूप से बढ़ता है, फिर रैखिक रूप से शून्य तक घटता है (Λ आकार)<br>C. धनात्मक मान से शून्य से होकर ऋणात्मक मानों तक घटती सरल रेखा<br>D. ऋणात्मक मान से शून्य से होकर धनात्मक मानों तक बढ़ती सरल रेखा<br>E. अक्ष के ऊपर U आकार का वक्र",
+   "o": [
+    "केवल B",
+    "केवल A और E",
+    "केवल C",
+    "केवल D"
+   ],
+   "sol": "<p>ऊपर की दिशा धनात्मक लेने पर v = u − gt : नियत ऋणात्मक ढलान वाली सरल रेखा जो +u से प्रारंभ होकर शिखर पर शून्य को काटती है और नीचे आते समय ऋणात्मक मानों तक जाती है। यह <b>केवल C</b> है।</p><p>A और E चाल दर्शाते हैं (सदैव धनात्मक), B और D की ढलान का चिह्न गलत है।</p>",
+   "hint": "शिखर पर वेग का चिह्न बदलता है; त्वरण (ढलान) पूरे समय −g रहता है।"
+  }
+ }
+}
