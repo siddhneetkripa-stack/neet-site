@@ -3,6 +3,8 @@
 
     python3 tools/add_pyqs.py content/pyq-batches/neet-2025-chemistry.json [...]
 
+    python3 tools/add_pyqs.py --chapter bio11-02 content/pyq-batches/neet-*-biology.json   (one chapter only)
+
 A batch file is a list of compact entries (written while reading a paper):
   {"year": 2025, "exam": "NEET", "paper": "Code 45 Q46", "ch": "chem11-02", "paras": ["2.4.1"],
    "type": "single", "q": "...", "o": ["...", "...", "...", "..."], "a": 3, "also": [1],
@@ -12,7 +14,7 @@ A batch file is a list of compact entries (written while reading a paper):
 `a` is the 0-based correct option in the order printed; `also` lists other options the official key accepts.
 Numerical: "type": "numerical", "ans": 14, "tol": 0.
 
-New chapter banks are started from content/ncert/chemistry-paragraphs.json; chapters dropped from the
+New chapter banks are started from content/ncert/<subject>-paragraphs.json; chapters dropped from the
 rationalised NCERT (OLD below) get an empty paragraph list and ncert_status old_ncert_only.
 Entries are added as status "draft" (English draft transcription, Hindi missing, no solution yet) and are
 replaced by id when a batch is re-run, keeping any Hindi / solution / status already added by hand.
@@ -22,7 +24,16 @@ import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QDIR = os.path.join(ROOT, "content", "questions")
-PARAS = json.load(open(os.path.join(ROOT, "content", "ncert", "chemistry-paragraphs.json"), encoding="utf-8"))["chapters"]
+SUBJ = {"chem": "chemistry", "bio": "biology", "phy": "physics"}
+PARAS = {}
+for _s in SUBJ.values():
+    _p = os.path.join(ROOT, "content", "ncert", f"{_s}-paragraphs.json")
+    if os.path.exists(_p):
+        PARAS.update(json.load(open(_p, encoding="utf-8"))["chapters"])
+
+
+def subject_of(ch):
+    return SUBJ[re.match(r"[a-z]+", ch).group(0)]
 CAT = json.load(open(os.path.join(ROOT, "content", "catalog.json"), encoding="utf-8"))
 
 # Chapters not in the rationalised NCERT (docs/research/02-neet-syllabus-ncert-map.md)
@@ -40,8 +51,20 @@ OLD = {
     "chem12-old-everyday-life": (12, 16, "Chemistry in Everyday Life", "dropped_2024", "Old NCERT Class 12 Part II Unit 16"),
     # NEET Unit 20 (Principles Related to Practical Chemistry): NCERT lab manual, not the textbooks
     "chem12-lab-practical-chemistry": (12, 20, "Principles Related to Practical Chemistry", "current", "NCERT Laboratory Manual Chemistry (Class XI and XII)"),
+    # Biology chapters dropped from the rationalised NCERT (NEET 2026 syllabus status per docs/research/02)
+    "bio11-old-transport-in-plants": (11, 11, "Transport in Plants", "dropped_2024", "Old NCERT Class 11 Biology Ch 11 Transport in Plants"),
+    "bio11-old-mineral-nutrition": (11, 12, "Mineral Nutrition", "dropped_2024", "Old NCERT Class 11 Biology Ch 12 Mineral Nutrition"),
+    "bio11-old-digestion-and-absorption": (11, 16, "Digestion and Absorption", "dropped_2024", "Old NCERT Class 11 Biology Ch 16 Digestion and Absorption"),
+    "bio12-old-reproduction-in-organisms": (12, 1, "Reproduction in Organisms", "in NEET 2026", "Old NCERT Class 12 Biology Ch 1 Reproduction in Organisms"),
+    "bio12-old-food-production": (12, 9, "Strategies for Enhancement in Food Production", "dropped_2024", "Old NCERT Class 12 Biology Ch 9 Strategies for Enhancement in Food Production"),
+    "bio12-old-environmental-issues": (12, 16, "Environmental Issues", "dropped_2024", "Old NCERT Class 12 Biology Ch 16 Environmental Issues"),
+    # Physics chapters dropped from the rationalised NCERT
+    "phy11-old-physical-world": (11, 1, "Physical World", "dropped_2024", "Old NCERT Class 11 Physics Ch 1 Physical World"),
+    "phy12-old-communication-systems": (12, 15, "Communication Systems", "dropped_2024", "Old NCERT Class 12 Physics Ch 15 Communication Systems"),
+    # NEET Physics Unit 20 (Experimental Skills): NCERT lab manual
+    "phy12-lab-experimental-skills": (12, 20, "Experimental Skills", "current", "NCERT Laboratory Manual Physics (Class XI and XII)"),
 }
-LAB = {"chem12-lab-practical-chemistry"}
+LAB = {"chem12-lab-practical-chemistry", "phy12-lab-experimental-skills"}
 
 
 def slug(s):
@@ -57,26 +80,28 @@ def catalog_title(ch):
     return None
 
 
-def pdf_url(cls, no):
-    """Class 11 Part I = units 1-6 (kech1NN), Part II = 7-9 (kech2NN); Class 12 Part I = 1-5, Part II = 6-10."""
-    split = 6 if cls == 11 else 5
+def pdf_url(cls, no, subject="chemistry"):
+    """NCERT codes. Chemistry: Class 11 Part I = units 1-6 (kech1NN), Part II = 7-9; Class 12 Part I = 1-5, Part II = 6-10.
+    Physics: Class 11 Part I = 1-7 (keph1NN), Part II = 8-14; Class 12 Part I = 1-8, Part II = 9-14. Biology: one book (kebo1NN / lebo1NN)."""
+    code = {"chemistry": "ch", "physics": "ph", "biology": "bo"}[subject]
+    split = {"chemistry": (6, 5), "physics": (7, 8), "biology": (99, 99)}[subject][0 if cls == 11 else 1]
     part, n = (1, no) if no <= split else (2, no - split)
-    return f"https://ncert.nic.in/textbook/pdf/{'kech' if cls == 11 else 'lech'}{part}{n:02d}.pdf"
+    return f"https://ncert.nic.in/textbook/pdf/{'k' if cls == 11 else 'l'}e{code}{part}{n:02d}.pdf"
 
 
 def new_bank(ch):
     if ch in OLD:
         cls, unit, title, syl, old = OLD[ch]
-        return {"$schema": "../../docs/question-schema.json", "schemaVersion": 1, "chapter": ch, "subject": "chemistry",
+        return {"$schema": "../../docs/question-schema.json", "schemaVersion": 1, "chapter": ch, "subject": subject_of(ch),
                 "class": cls, "unit": unit, "title": {"en": title}, "ncert_status": "lab_manual" if ch in LAB else "old_ncert_only",
                 "syllabus_status": "dropped_2024" if syl == "dropped_2024" else "current", "oldNcert": old,
-                "note": "Traced to the NCERT laboratory manual (NEET Unit 20), not a textbook chapter." if ch in LAB else "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+                "note": "Traced to the NCERT laboratory manual (NEET Experimental Skills / Practical Chemistry unit), not a textbook chapter." if ch in LAB else "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
                 "paragraphs": [], "questions": []}
     title, cls, no = catalog_title(ch)
     P = PARAS[ch]
-    return {"$schema": "../../docs/question-schema.json", "schemaVersion": 1, "chapter": ch, "subject": "chemistry",
+    return {"$schema": "../../docs/question-schema.json", "schemaVersion": 1, "chapter": ch, "subject": subject_of(ch),
             "class": cls, "unit": no, "title": {"en": title},
-            "ncertPdf": pdf_url(cls, no),
+            "ncertPdf": pdf_url(cls, no, subject_of(ch)),
             "ncert_status": "in_ncert", "syllabus_status": "current",
             "paragraphs": [{k: v for k, v in {"id": p["id"], "title": p["title"], "hi": p.get("hi"), "pdfPage": p.get("pdfPage")}.items() if v} for p in P["paragraphs"]],
             "questions": []}
@@ -121,9 +146,15 @@ def entry_to_q(e):
 
 def main():
     added = {}
-    for path in sys.argv[1:]:
+    args = sys.argv[1:]
+    only = None
+    if "--chapter" in args:  # add only the entries of these chapters (comma list): commit a chapter at a time
+        i = args.index("--chapter")
+        only = set(args[i + 1].split(","))
+        del args[i:i + 2]
+    for path in args:
         for e in json.load(open(path, encoding="utf-8")):
-            if e.get("dup"):
+            if e.get("dup") or (only and e["ch"] not in only):
                 continue
             q = entry_to_q(e)
             ch = e["ch"]

@@ -1,0 +1,29 @@
+{
+ "description": "Hand fixes for tools/make_paragraphs.py: id -> English title (adds the id if the extractor missed it), or null to drop it. Checked against the English NCERT PDFs in neet-sources.",
+ "biology": {
+  "bio11-04": {"4.1.1": "Levels of Organisation", "4.1.2": "Symmetry", "4.1.5": "Segmentation", "4.2.5": "Phylum – Aschelminthes", "4.2.8": "Phylum – Mollusca",
+               "4.2.11.1": "Class – Cyclostomata", "4.2.11.2": "Class – Chondrichthyes", "4.2.11.3": "Class – Osteichthyes", "4.2.11.4": "Class – Amphibia",
+               "4.2.11.5": "Class – Reptilia", "4.2.11.6": "Class – Aves", "4.2.11.7": "Class – Mammalia"},
+  "bio11-05": {"5.1.1": "Regions of the Root", "5.3.2": "Types of Leaves", "5.3.3": "Phyllotaxy", "5.5.1": "Parts of a Flower", "5.8": "Semi-technical Description of a Typical Flowering Plant",
+               "5.5.1.1": "Calyx", "5.5.1.2": "Corolla", "5.5.1.3": "Androecium", "5.5.1.4": "Gynoecium"},
+  "bio11-06": {"6.1.1": "Epidermal Tissue System", "6.1.3": "The Vascular Tissue System", "6.2.1": "Dicotyledonous Root", "6.2.5": "Dorsiventral (Dicotyledonous) Leaf"},
+  "bio11-08": {"8.1": "What is a Cell?", "8.3": "An Overview of Cell"},
+  "bio11-09": {"9.1": "How to Analyse Chemical Composition?"},
+  "bio11-10": {"10.2": "M Phase"},
+  "bio11-11": {"11.6": "The Electron Transport", "11.7": "Where are the ATP and NADPH Used?"},
+  "bio11-12": {"12.1": "Do Plants Breathe?"},
+  "bio11-14": {"14.2.1": "Respiratory Volumes and Capacities"},
+  "bio11-15": {"15.1.1": "Plasma", "15.2": "Lymph (Tissue Fluid)"},
+  "bio11-18": {"18.3.1": "Generation and Conduction of Nerve Impulse"},
+  "bio11-19": {"19.2.4": "Thyroid Gland"},
+  "bio12-01": {"1.1": "Flower – A Fascinating Organ of Angiosperms", "1.4": "Post-fertilisation: Structures and Events"},
+  "bio12-02": {"2.3": "Gametogenesis"},
+  "bio12-03": {"3.3": "Medical Termination of Pregnancy (MTP)", "3.4": "Sexually Transmitted Infections (STIs)"},
+  "bio12-04": {"4.1": "Mendel's Laws of Inheritance", "4.2.2.1": "Incomplete Dominance", "4.2.2.2": "Co-dominance"},
+  "bio12-05": {"5.1": "The DNA", "5.3": "RNA World", "5.10": "DNA Fingerprinting"},
+  "bio12-06": {"6.2": "Evolution of Life Forms – A Theory", "6.3": "What are the Evidences for Evolution?", "6.4": "What is Adaptive Radiation?", "6.7": "Hardy-Weinberg Principle", "6.8": "A Brief Account of Evolution"},
+  "bio12-07": {"7.3": "AIDS"},
+  "bio12-09": {"9.2": "Tools of Recombinant DNA Technology", "9.2.3": "Competent Host (For Transformation with Recombinant DNA)", "9.3": "Processes of Recombinant DNA Technology"}
+ },
+ "physics": {}
+}
