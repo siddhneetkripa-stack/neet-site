@@ -1,0 +1,2829 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio12-09",
+ "subject": "biology",
+ "class": 12,
+ "unit": 9,
+ "title": {
+  "en": "Biotechnology: Principles and Processes"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lebo109.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "9.1",
+   "title": "Principles of Biotechnology",
+   "pdfPage": 3
+  },
+  {
+   "id": "9.2",
+   "title": "Tools of Recombinant DNA Technology",
+   "pdfPage": 5
+  },
+  {
+   "id": "9.2.1",
+   "title": "Restriction Enzymes",
+   "hi": "प्रतिबंधन एंजाइम",
+   "pdfPage": 5
+  },
+  {
+   "id": "9.2.2",
+   "title": "Cloning Vectors",
+   "hi": "क्लोनिंग संवाहक",
+   "pdfPage": 8
+  },
+  {
+   "id": "9.2.3",
+   "title": "Competent Host (For Transformation with Recombinant DNA)",
+   "hi": "सक्षम परपोषी आतिथेय (पुनर्योगज डीएनए के साथ रूपांतरण हेतु)",
+   "pdfPage": 10
+  },
+  {
+   "id": "9.3",
+   "title": "Processes of Recombinant DNA Technology",
+   "pdfPage": 11
+  },
+  {
+   "id": "9.3.1",
+   "title": "Isolation of the Genetic Material (DNA)",
+   "hi": "आनुवंशिक पदार्थ (डीएनए) का पृथक्करण",
+   "pdfPage": 11
+  },
+  {
+   "id": "9.3.2",
+   "title": "Cutting of DNA at Specific Locations",
+   "hi": "डीएनए को विशिष्ट स्थलों पर काटना",
+   "pdfPage": 12
+  },
+  {
+   "id": "9.3.3",
+   "title": "Amplification of Gene of Interest using PCR",
+   "hi": "पीसीआर का उपयोग करते हुए लाभकारी जीन का प्रवर्धन",
+   "pdfPage": 12
+  },
+  {
+   "id": "9.3.4",
+   "title": "Insertion of Recombinant DNA into the Host",
+   "hi": "पुनर्योगज डीएनए का परपोषी कोशिका/जीव में निवेशन",
+   "pdfPage": 13
+  },
+  {
+   "id": "9.3.5",
+   "title": "Obtaining the Foreign Gene Product",
+   "hi": "बाहरी जीन उत्पाद को प्राप्त करना",
+   "pdfPage": 13
+  },
+  {
+   "id": "9.3.6",
+   "title": "Downstream Processing",
+   "hi": "अनुप्रवाह संसाधन",
+   "pdfPage": 14
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio12-09-neet-2015-re-exam-code-d-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The cutting of DNA at specific locations became possible with the discovery of :",
+     "o": [
+      "Probes",
+      "Selectable markers",
+      "Ligases",
+      "Restriction enzymes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q12",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2015-re-exam-code-d-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The DNA molecule to which the gene of interest is integrated for cloning is called :",
+     "o": [
+      "Vector",
+      "Template",
+      "Carrier",
+      "Transformer"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q18",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2015-re-exam-code-d-q61",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The introduction of T-DNA into plants involves :",
+     "o": [
+      "Altering the pH of the soil, then heat-shocking the plants",
+      "Exposing the plants to cold for a brief period",
+      "Allowing the plant roots to stand in water",
+      "Infection of the plant by Agrobacterium tumefaciens"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2",
+     "9.3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q61",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2016-phase-1-code-a-q123",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not a feature of the plasmids?",
+     "o": [
+      "Independent replication",
+      "Circular structure",
+      "Transferable",
+      "Single – stranded"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q123",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2016-phase-1-code-a-q132",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The taq polymerase enzyme is obtained from:",
+     "o": [
+      "Thermus aquaticus",
+      "Thiobacillus ferroxidans",
+      "Bacillus subtilis",
+      "Pseudomonas putida"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q132",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2016-phase-1-code-a-q151",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is a restriction endonuclease?",
+     "o": [
+      "Hind II",
+      "Protease",
+      "DNase I",
+      "RNase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q151",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2016-phase-2-code-aa-q125",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Stirred-tank bioreactors have been designed for :",
+     "o": [
+      "Purification of product",
+      "Addition of preservatives to the product",
+      "Availability of oxygen throughout the process",
+      "Ensuring anaerobic conditions in the culture vessel"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q125",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2016-phase-2-code-aa-q126",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A foreign DNA and plasmid cut by the same restriction endonuclease can be joined to form a recombinant plasmid using :",
+     "o": [
+      "EcoRI",
+      "Taq polymerase",
+      "Polymerase III",
+      "Ligase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q126",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2016-phase-2-code-aa-q127",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not a component of downstream processing?",
+     "o": [
+      "Separation",
+      "Purification",
+      "Preservation",
+      "Expression"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q127",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2016-phase-2-code-aa-q128",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following restriction enzymes produces blunt ends?",
+     "o": [
+      "Sal I",
+      "EcoRV",
+      "Xho I",
+      "Hind III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q128",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)",
+    "note": "Blunt and sticky ends of these particular enzymes are not given in NCERT."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2017-code-a-q94",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the criterion for DNA fragments movement on agarose gel during gel electrophoresis?",
+     "o": [
+      "The larger the fragment size, the farther it moves",
+      "The smaller the fragment size, the farther it moves",
+      "Positively charged fragments move to farther end",
+      "Negatively charged fragments do not move"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q94",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2017-code-a-q115",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The process of separation and purification of expressed protein before marketing is called :",
+     "o": [
+      "Upstream processing",
+      "Downstream processing",
+      "Bioprocessing",
+      "Postproduction processing"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q115",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2017-code-a-q125",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "DNA fragments are",
+     "o": [
+      "Positively charged",
+      "Negatively charged",
+      "Neutral",
+      "Either positively or negatively charged depending on their size"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q125",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2017-code-a-q132",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A gene whose expression helps to identify transformed cell is known as :",
+     "o": [
+      "Selectable marker",
+      "Vector",
+      "Plasmid",
+      "Structural gene"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q132",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2017-code-a-q145",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The DNA fragments separated on an agarose gel can be visualised after staining with :",
+     "o": [
+      "Bromophenol blue",
+      "Acetocarmine",
+      "Aniline blue",
+      "Ethidium bromide"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q145",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2018-code-aa-q98",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is commonly used as a vector for introducing a DNA fragment in human lymphocytes?",
+     "o": [
+      "λ phage",
+      "Ti plasmid",
+      "Retrovirus",
+      "pBR 322"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q98",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2018-code-aa-q101",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct order of steps in Polymerase Chain Reaction (PCR) is :",
+     "o": [
+      "Denaturation, Extension, Annealing",
+      "Annealing, Extension, Denaturation",
+      "Extension, Denaturation, Annealing",
+      "Denaturation, Annealing, Extension"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q101",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2019-code-s2-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "DNA precipitation of a mixture of biomolecules can be achieved by treatment with",
+     "o": [
+      "Methanol at room temperature",
+      "Chilled chloroform",
+      "Isopropanol",
+      "Chilled ethanol"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q3",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2019-code-s2-q31",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following equipments is essentially required for growing microbes on a large scale, for industrial production of enzymes?",
+     "o": [
+      "Industrial oven",
+      "Bioreactor",
+      "BOD incubator",
+      "Sludge digester"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q31",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2019-code-s2-q56",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Following statements describe the characteristics of the enzyme Restriction Endonuclease. Identify the incorrect statement.",
+     "o": [
+      "The enzyme cuts the sugar-phosphate backbone at specific sites on each strand.",
+      "The enzyme recognizes a specific palindromic nucleotide sequence in the DNA.",
+      "The enzyme cuts DNA molecule at identified position within the DNA.",
+      "The enzyme binds DNA at specific sites and cuts only one of the two strands."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q56",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2020-code-f3-q94",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The sequence that controls the copy number of the linked DNA in the vector, is termed :",
+     "o": [
+      "Palindromic sequence",
+      "Recognition site",
+      "Selectable marker",
+      "Ori site"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q94",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2020-code-f3-q143",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the wrong statement with regard to restriction enzymes.",
+     "o": [
+      "They are useful in genetic engineering.",
+      "Sticky ends can be joined by using DNA ligases.",
+      "Each restriction enzyme functions by inspecting the length of a DNA sequence.",
+      "They cut the strand of DNA at palindromic sites."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q143",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)",
+    "note": "By NCERT, statement 2 (ligase joins sticky ends) is true; the key marks it, so check this item against the F3 booklet (option order in the copy may differ)."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2020-code-f3-q154",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the organism with its use in biotechnology :<br>(a) Bacillus thuringiensis — (i) Cloning vector<br>(b) Thermus aquaticus — (ii) Construction of first rDNA molecule<br>(c) Agrobacterium tumefaciens — (iii) DNA polymerase<br>(d) Salmonella typhimurium — (iv) Cry proteins",
+     "o": [
+      "(a) iii, (b) ii, (c) iv, (d) i",
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iv, (b) iii, (c) i, (d) ii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.1",
+     "9.2.2",
+     "9.3.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Biotechnology and its Applications"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q154",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2020-code-f3-q160",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Choose the correct pair from the following",
+     "o": [
+      "Nucleases – Separate the two strands of DNA",
+      "Exonucleases – Make cuts at specific positions within DNA",
+      "Ligases – Join the two DNA molecules",
+      "Polymerases – Break the DNA into fragments"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q160",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2020-code-f3-q165",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The specific palindromic sequence which is recognized by EcoRI is :",
+     "o": [
+      "5′–CTTAAG–3′, 3′–GAATTC–5′",
+      "5′–GGATCC–3′, 3′–CCTAGG–5′",
+      "5′–GAATTC–3′, 3′–CTTAAG–5′",
+      "5′–GGAACC–3′, 3′–CCTTGG–5′"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q165",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2020-code-f3-q176",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In gel electrophoresis, separated DNA fragments can be visualized with the help of :",
+     "o": [
+      "acetocarmine in UV radiation",
+      "ethidium bromide in infrared radiation",
+      "acetocarmine in bright blue light",
+      "ethidium bromide in UV radiation"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q176",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2021-code-p3-q105",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "DNA strands on a gel stained with ethidium bromide when viewed under UV radiation, appear as :",
+     "o": [
+      "Bright blue bands",
+      "Yellow bands",
+      "Bright orange bands",
+      "Dark red bands"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q105",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2021-code-p3-q115",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction)?",
+     "o": [
+      "Annealing, Denaturation, Extension",
+      "Denaturation, Annealing, Extension",
+      "Denaturation, Extension, Annealing",
+      "Extension, Denaturation, Annealing"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q115",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2021-code-p3-q121",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "During the purification process for recombinant DNA technology, addition of chilled ethanol precipitates out :",
+     "o": [
+      "Polysaccharides",
+      "RNA",
+      "DNA",
+      "Histones"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q121",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2021-code-p3-q129",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not an application of PCR (Polymerase Chain Reaction)?",
+     "o": [
+      "Detection of gene mutation",
+      "Molecular diagnosis",
+      "Gene amplification",
+      "Purification of isolated protein"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Biotechnology and its Applications"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q129",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2021-code-p3-q138",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Plasmid pBR322 has PstI restriction enzyme site within gene amp<sup>R</sup> that confers ampicillin resistance. If this enzyme is used for inserting a gene for β-galactoside production and the recombinant plasmid is inserted in an E. coli strain :",
+     "o": [
+      "It will be able to produce a novel protein with dual ability",
+      "It will not be able to confer ampicillin resistance to the host cell",
+      "The transformed cells will have the ability to resist ampicillin as well as produce β-galactoside",
+      "It will lead to lysis of host cell"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q138",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2021-code-p3-q157",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "During the process of gene amplification using PCR, if very high temperature is not maintained in the beginning, then which of the following steps of PCR will be affected first?",
+     "o": [
+      "Ligation",
+      "Annealing",
+      "Extension",
+      "Denaturation"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q157",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2021-code-p3-q170",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A specific recognition sequence identified by endonucleases to make cuts at specific positions within the DNA is:",
+     "o": [
+      "Poly(A) tail sequences",
+      "Degenerate primer sequence",
+      "Okazaki sequences",
+      "Palindromic Nucleotide sequences"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q170",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2022-code-t2-q107",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statement is not true regarding gel electrophoresis technique ?",
+     "o": [
+      "The separated DNA fragments are stained by using ethidium bromide.",
+      "The presence of chromogenic substrate gives blue coloured DNA bands on the gel.",
+      "Bright orange coloured bands of DNA can be observed in the gel when exposed to UV light.",
+      "The process of extraction of separated DNA strands from gel is called elution."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q107",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2022-code-t2-q120",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R) :<br>Assertion (A): Polymerase chain reaction is used in DNA amplification.<br>Reason (R): The ampicillin resistant gene is used as a selectable marker to check transformation.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "(A) is not correct but (R) is correct",
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.3",
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q120",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2022-code-t2-q142",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the following palindromic base sequences of DNA, which one can be cut easily by particular restriction enzyme?",
+     "o": [
+      "5′ GAATTC 3′; 3′ CTTAAG 5′",
+      "5′ CTCAGT 3′; 3′ GAGTCA 5′",
+      "5′ GTATTC 3′; 3′ CATAAG 5′",
+      "5′ GATACT 3′; 3′ CTATGA 5′"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q142",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2022-code-t2-q166",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Restriction endonucleases recognise specific sequence to cut DNA known as palindromic nucleotide sequence.<br>Statement II: Restriction endonucleases cut the DNA strand a little away from the centre of the palindromic site.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct",
+      "Both Statement I and Statement II are correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q166",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2022-code-t2-q196",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not a desirable feature of a cloning vector ?",
+     "o": [
+      "Presence of a marker gene",
+      "Presence of single restriction enzyme site",
+      "Presence of two or more recognition sites",
+      "Presence of origin of replication"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q196",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2023-topic-wise-copy-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Upon exposure to UV radiation, DNA stained with ethidium bromide will show",
+     "o": [
+      "Bright orange colour",
+      "Bright red colour",
+      "Bright blue colour",
+      "Bright yellow colour"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q28",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2023-topic-wise-copy-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In gene gun method used to introduce alien DNA into host cells, microparticles of ___ metal are used.",
+     "o": [
+      "Silver",
+      "Copper",
+      "Zinc",
+      "Tungsten or gold"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q29",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2023-topic-wise-copy-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "During the purification process for recombinant DNA technology, addition of chilled ethanol precipitates out",
+     "o": [
+      "Polysaccharides",
+      "RNA",
+      "DNA",
+      "Histones"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q30",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2023-topic-wise-copy-q47",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Main steps in the formation of recombinant DNA are given below. Arrange these steps in a correct sequence :<br>A. Insertion of recombinant DNA into the host cell.<br>B. Cutting of DNA at specific location by restriction enzyme.<br>C. Isolation of desired DNA fragment.<br>D. Amplification of gene of interest using PCR.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "B, D, A, C",
+      "B, C, D, A",
+      "C, A, B, D",
+      "C, B, D, A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q47",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2023-topic-wise-copy-q81",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not a cloning vector?",
+     "o": [
+      "Probe",
+      "BAC",
+      "YAC",
+      "pBR322"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q81",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2024-q109-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is incorrect?",
+     "o": [
+      "A bio-reactor provides optimal growth conditions for achieving the desired product",
+      "Most commonly used bio-reactors are of stirring type",
+      "Bio-reactors are used to produce small scale bacterial cultures",
+      "Bio-reactors have an agitator system, an oxygen delivery system and foam control system"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q109 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2024-q113-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Hind II always cuts DNA molecules at a particular point called recognition sequence and it consists of :",
+     "o": [
+      "8 bp",
+      "6 bp",
+      "4 bp",
+      "10 bp"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q113 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2024-q148-esaral-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The following diagram shows restriction sites in E. coli cloning vector pBR322. Find the role of 'X' and 'Y' genes :",
+     "o": [
+      "The gene 'X' is responsible for resistance to antibiotics and 'Y' for protein involved in the replication of plasmid.",
+      "The gene 'X' is responsible for controlling the copy number of the linked DNA and 'Y' for protein involved in the replication of plasmid.",
+      "The gene 'X' is for protein involved in replication of plasmid and 'Y' for resistance to antibiotics.",
+      "Gene 'X' is responsible for recognition sites and 'Y' is responsible for antibiotic resistance."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q148 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "pBR322 map in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2024-q149-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The \"Ti plasmid\" of Agrobacterium tumefaciens stands for :",
+     "o": [
+      "Tumour inhibiting plasmid",
+      "Tumor independent plasmid",
+      "Tumor inducing plasmid https://admin.esaral.com/quiz-pdf/6104 eSaral",
+      "Temperature independent plasmid"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q149 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2024-q178-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the fate of a piece of DNA carrying only gene of interest which is transferred into an alien organism?<br>A. The piece of DNA would be able to multiply itself independently in the progeny cells of the organism.<br>B. It may get integrated into the genome of the recipient.<br>C. It may multiply and be inherited along with the host DNA.<br>D. The alien piece of DNA is not an integral part of chromosome.<br>E. It shows ability to replicate.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "D and E only",
+      "B and C only",
+      "A and E only",
+      "A and B only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q178 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2025-code-45-q92",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Polymerase chain reaction (PCR) amplifies DNA following the equation :",
+     "o": [
+      "N<sup>2</sup>",
+      "2<sup>n</sup>",
+      "2n + 1",
+      "2N<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q92",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2025-code-45-q115",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the above represented plasmid an alien piece of DNA is inserted at EcoRI site. Which of the following strategies will be chosen to select the recombinant colonies?",
+     "o": [
+      "Using ampicillin & tetracycline containing medium plate",
+      "Blue colour colonies will be selected",
+      "White colour colonies will be selected",
+      "Blue colour colonies grown on ampicillin plates can be selected"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q115",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)",
+    "note": "Plasmid map in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2025-code-45-q126",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the part of a bio-reactor which is used as a foam breaker from the given figure.",
+     "o": [
+      "A",
+      "B",
+      "D",
+      "C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q126",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)",
+    "note": "Bioreactor figure in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2025-code-45-q136",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: DNA fragments extracted from gel electrophoresis can be used in construction of recombinant DNA.<br>Statement II: Smaller size DNA fragments are observed near anode while larger fragments are found near the wells in an agarose gel.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both statement I and statement II are correct",
+      "Both statement I and statement II are incorrect",
+      "Statement I is correct but statement II is incorrect",
+      "Statement I is incorrect but statement II is correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q136",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2025-code-45-q172",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following enzyme(s) are NOT essential for gene cloning?<br>A. Restriction enzymes<br>B. DNA ligase<br>C. DNA mutase<br>D. DNA recombinase<br>E. DNA polymerase<br>Choose the correct answer from the options given below :",
+     "o": [
+      "C and D only",
+      "A and B only",
+      "D and E only",
+      "B and C only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q172",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2025-code-45-q179",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The blue and white selectable markers have been developed which differentiate recombinant colonies from non-recombinant colonies on the basis of their ability to produce colour in the presence of a chromogenic substrate. Given below are two statements about this method :<br>Statement I: The blue coloured colonies have DNA insert in the plasmid and they are identified as recombinant colonies.<br>Statement II: The colonies without blue colour have DNA insert in the plasmid and are identified as recombinant colonies.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are correct",
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q179",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-09-neet-2026-q91-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Insertion of a foreign DNA at BamHI site in an E. coli cloning vector pBR322 results in the loss of antibiotic resistance towards :",
+     "o": [
+      "Ampicillin and tetracycline",
+      "Ampicillin",
+      "Tetracycline",
+      "Gentamycin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q91 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q138."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2026-q94-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct with respect to DNA separation, isolation and visualization?<br>A. The cutting of DNA is done by molecular scissors.<br>B. The DNA fragments separate according to their size in an agarose gel, upon electrophoresis.<br>C. The separated DNA fragments can be seen without staining when exposed to UV light.<br>D. The separated DNA fragments, when stained with ethidium bromide, can be seen in visible light.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A and B only",
+      "B and D only",
+      "A and D only",
+      "B and C only w: NEET 2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q94 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q135."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2026-q97-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the correct sequence of steps in each cycle of Polymerase Chain Reaction:",
+     "o": [
+      "Denaturation → Extension → Annealing",
+      "Denaturation → Annealing → Extension",
+      "Annealing → Denaturation → Extension",
+      "Extension → Annealing → Denaturation"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q97 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q132."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2026-q129-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are not true regarding restriction endonucleases?<br>A. They are called molecular scissors.<br>B. These are the enzymes responsible for restricting the growth of bacteriophages in E. coli.<br>C. They cut the DNA only at the centre of the palindromic sites.<br>D. They remove nucleotides only from the ends of DNA fragments.<br>E. They recognise specific palindromic base-pair sequences.<br>Choose the answer from the options given below :",
+     "o": [
+      "C and D only",
+      "A and E only",
+      "D and E only",
+      "A and B only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q129 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q100."
+   }
+  },
+  {
+   "id": "bio12-09-neet-2026-q138-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Genetically modified organism — I. Agrobacterium tumefaciens<br>B. Thermostable DNA polymerase — II. Bt cotton<br>C. Ti plasmid — III. Thermus aquaticus<br>D. pBR322 — IV. Escherichia coli",
+     "o": [
+      "A-II, B-I, C-IV, D-III",
+      "A-II, B-III, C-I, D-IV",
+      "A-I, B-IV, C-III, D-II",
+      "A-I, B-II, C-IV, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.2",
+     "9.3.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Biotechnology and its Applications"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q138 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q91."
+   }
+  }
+ ]
+}
