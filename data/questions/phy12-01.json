@@ -1,0 +1,769 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-01",
+ "subject": "physics",
+ "class": 12,
+ "unit": 1,
+ "title": {
+  "en": "Electric Charges and Fields"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "1.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "1.2",
+   "title": "Electric Charge",
+   "hi": "वैद्युत आवेश",
+   "pdfPage": 1
+  },
+  {
+   "id": "1.3",
+   "title": "Conductors and Insulators",
+   "hi": "चालक तथा विद्युतरोधी",
+   "pdfPage": 3
+  },
+  {
+   "id": "1.4",
+   "title": "Basic Properties of Electric Charge",
+   "hi": "वैद्युत आवेश के मूल गुण",
+   "pdfPage": 4
+  },
+  {
+   "id": "1.4.1",
+   "title": "Additivity of Charges",
+   "hi": "आवेशों की योज्यता",
+   "pdfPage": 4
+  },
+  {
+   "id": "1.4.2",
+   "title": "Charge is Conserved",
+   "hi": "वैद्युत आवेश संरक्षित है",
+   "pdfPage": 4
+  },
+  {
+   "id": "1.4.3",
+   "title": "Quantisation of Charge",
+   "hi": "वैद्युत आवेश का क्वांटमीकरण",
+   "pdfPage": 5
+  },
+  {
+   "id": "1.5",
+   "title": "Coulomb's Law",
+   "hi": "कूलॉम नियम",
+   "pdfPage": 6
+  },
+  {
+   "id": "1.6",
+   "title": "Forces between Multiple Charges",
+   "hi": "बहुल आवेशों के बीच बल",
+   "pdfPage": 11
+  },
+  {
+   "id": "1.7",
+   "title": "Electric Field",
+   "hi": "विद्युत क्षेत्र",
+   "pdfPage": 14
+  },
+  {
+   "id": "1.7.1",
+   "title": "Electric Field due to a System of Charges",
+   "hi": "आवेशों के निकाय के कारण विद्युत क्षेत्र",
+   "pdfPage": 15
+  },
+  {
+   "id": "1.7.2",
+   "title": "Physical Significance of Electric Field",
+   "hi": "विद्युत क्षेत्र का भौतिक अभिप्राय",
+   "pdfPage": 16
+  },
+  {
+   "id": "1.8",
+   "title": "Electric Field Lines",
+   "hi": "विद्युत क्षेत्र रेखाएँ",
+   "pdfPage": 19
+  },
+  {
+   "id": "1.9",
+   "title": "Electric Flux",
+   "hi": "वैद्युत फलक्स",
+   "pdfPage": 21
+  },
+  {
+   "id": "1.10",
+   "title": "Electric Dipole",
+   "hi": "वैद्युत द्विध्रुव",
+   "pdfPage": 23
+  },
+  {
+   "id": "1.10.1",
+   "title": "The Field of an Electric Dipole",
+   "hi": "वैद्युत द्विध्रुव के कारण क्षेत्र",
+   "pdfPage": 23
+  },
+  {
+   "id": "1.10.2",
+   "title": "Physical Significance of Dipoles",
+   "hi": "द्विध्रुवों की भौतिक सार्थकता",
+   "pdfPage": 25
+  },
+  {
+   "id": "1.11",
+   "title": "Dipole in a Uniform External Field",
+   "hi": "एकसमान बाह्य क्षेत्र में द्विध्रुव",
+   "pdfPage": 27
+  },
+  {
+   "id": "1.12",
+   "title": "Continuous Charge Distribution",
+   "hi": "संतत आवेश वितरण",
+   "pdfPage": 28
+  },
+  {
+   "id": "1.13",
+   "title": "Gauss's Law",
+   "hi": "गाउस नियम",
+   "pdfPage": 29
+  },
+  {
+   "id": "1.14",
+   "title": "Applications of Gauss's Law",
+   "hi": "गाउस नियम के अनुप्रयोग",
+   "pdfPage": 33
+  },
+  {
+   "id": "1.14.1",
+   "title": "Field due to an Infinitely Long Straight Uniformly Charged Wire",
+   "hi": "अनंत लंबाई के एकसमान आवेशित",
+   "pdfPage": 33
+  },
+  {
+   "id": "1.14.2",
+   "title": "Field due to a Uniformly Charged Infinite Plane Sheet",
+   "hi": "एकसमान आवेशित अनंत समतल चादर के कारण विद्युत क्षेत्र",
+   "pdfPage": 34
+  },
+  {
+   "id": "1.14.3",
+   "title": "Field due to a Uniformly Charged Thin Spherical Shell",
+   "hi": "एकसमान आवेशित पतले गोलीय खोल के कारण विद्युत क्षेत्र",
+   "pdfPage": 35
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-01-neet-2016-phase-1-code-a-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two identical charged spheres suspended from a common point by two massless strings of lengths l, are initially at a distance d (d ≪ l) apart because of their mutual repulsion. The charges begin to leak from both the spheres at a constant rate. As a result, the spheres approach each other with a velocity v. Then v varies as a function of the distance x between the spheres, as :",
+     "o": [
+      "v ∝ x<sup>1/2</sup>",
+      "v ∝ x",
+      "v ∝ x<sup>−1/2</sup>",
+      "v ∝ x<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.5"
+    ],
+    "otherChapters": [
+     "Class 11 · Laws of Motion"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q9",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-01-neet-2016-phase-2-code-aa-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electric dipole is placed at an angle of 30° with an electric field intensity 2 × 10<sup>5</sup> N/C. It experiences a torque equal to 4 N m. The charge on the dipole, if the dipole length is 2 cm, is :",
+     "o": [
+      "8 mC",
+      "2 mC",
+      "5 mC",
+      "7 μC"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q23",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-01-neet-2017-code-a-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Suppose the charge of a proton and an electron differ slightly. One of them is −e, the other is (e + Δe). If the net of electrostatic force and gravitational force between two hydrogen atoms placed at a distance d (much greater than atomic size) apart is zero, then Δe is of the order of [Given mass of hydrogen m<sub>h</sub> = 1.67 × 10<sup>−27</sup> kg]",
+     "o": [
+      "10<sup>−20</sup> C",
+      "10<sup>−23</sup> C",
+      "10<sup>−37</sup> C",
+      "10<sup>−47</sup> C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q10",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-01-neet-2018-code-aa-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron falls from rest through a vertical distance h in a uniform and vertically upward directed electric field E. The direction of electric field is now reversed, keeping its magnitude the same. A proton is allowed to fall from rest in it through the same vertical distance h. The time of fall of the electron, in comparison to the time of fall of the proton is :",
+     "o": [
+      "10 times greater",
+      "5 times greater",
+      "smaller",
+      "equal"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.7"
+    ],
+    "otherChapters": [
+     "Class 11 · Motion in a Straight Line"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q22",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-01-neet-2019-code-s2-q103",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A hollow metal sphere of radius R is uniformly charged. The electric field due to the sphere at a distance r from the centre :",
+     "o": [
+      "zero as r increases for r < R, increases as r increases for r > R",
+      "decreases as r increases for r < R and for r > R",
+      "increases as r increases for r < R and for r > R",
+      "zero as r increases for r < R, decreases as r increases for r > R"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.14.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q103",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-01-neet-2019-code-s2-q110",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two parallel infinite line charges with linear charge densities +λ C/m and −λ C/m are placed at a distance of 2R in free space. What is the electric field mid-way between the two line charges?",
+     "o": [
+      "λ/(πε<sub>0</sub>R) N/C",
+      "λ/(2πε<sub>0</sub>R) N/C",
+      "zero",
+      "2λ/(πε<sub>0</sub>R) N/C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.14.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q110",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-01-neet-2019-code-s2-q133",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two point charges A and B, having charges +Q and −Q respectively, are placed at certain distance apart and force acting between them is F. If 25% charge of A is transferred to B, then force between the charges becomes :",
+     "o": [
+      "16F/9",
+      "4F/3",
+      "F",
+      "9F/16"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q133",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-01-neet-2020-code-f3-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A spherical conductor of radius 10 cm has a charge of 3.2 × 10<sup>−7</sup> C distributed uniformly. What is the magnitude of electric field at a point 15 cm from the centre of the sphere? (1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup>)",
+     "o": [
+      "1.28 × 10<sup>4</sup> N/C",
+      "1.28 × 10<sup>6</sup> N/C",
+      "1.28 × 10<sup>7</sup> N/C",
+      "1.28 × 10<sup>5</sup> N/C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.14.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q2",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)",
+    "note": "The Byju's copy prints this question without its options; the four values and option (4) = 1.28 × 10<sup>5</sup> N/C agree across published copies (Byjus, Testbook), but the order of options 1–3 is from those secondary copies and still needs checking against an official booklet."
+   }
+  },
+  {
+   "id": "phy12-01-neet-2021-code-p3-q11",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A dipole is placed in an electric field as shown. In which direction will it move?",
+     "o": [
+      "Towards the right as its potential energy will increase.",
+      "Towards the left as its potential energy will increase.",
+      "Towards the right as its potential energy will decrease.",
+      "Towards the left as its potential energy will decrease."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q11",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "Field lines spread out to the right (field weaker to the right); the dipole lies along a field line with +q on the left and −q on the right. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-01-neet-2022-code-t2-q49",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two point charges −q and +q are placed at a distance of L, as shown in the figure. The magnitude of electric field intensity at a distance R (R >> L) varies as :",
+     "o": [
+      "1/R<sup>3</sup>",
+      "1/R<sup>4</sup>",
+      "1/R<sup>6</sup>",
+      "1/R<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.10.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q49",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-01-neet-2023-topic-wise-copy-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electric dipole is placed at an angle of 30° with an electric field of intensity 2 × 10<sup>5</sup> N C<sup>−1</sup>. It experiences a torque equal to 4 N m. Calculate the magnitude of charge on the dipole, if the dipole length is 2 cm.",
+     "o": [
+      "2 mC",
+      "8 mC",
+      "6 mC",
+      "4 mC"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q16",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-01-neet-2023-topic-wise-copy-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If ∮<sub>s</sub> E⃗ · dS⃗ = 0 over a surface, then :",
+     "o": [
+      "the electric field inside the surface is necessarily uniform.",
+      "the number of flux lines entering the surface must be equal to the number of flux lines leaving it.",
+      "the magnitude of electric field on the surface is constant.",
+      "all the charges must necessarily be inside the surface."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.13"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q17",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-01-neet-2025-code-45-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two identical charged conducting spheres A and B have their centres separated by a certain distance. Charge on each sphere is q and the force of repulsion between them is F. A third identical uncharged conducting sphere is brought in contact with sphere A first and then with B and finally removed from both. New force of repulsion between spheres A and B (Radii of A and B are negligible compared to the distance of separation so that for calculating force between them they can be considered as point charges) is best given as :",
+     "o": [
+      "3F/5",
+      "2F/3",
+      "F/2",
+      "3F/8"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-01",
+    "paras": [
+     "1.5",
+     "1.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q28",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  }
+ ]
+}
