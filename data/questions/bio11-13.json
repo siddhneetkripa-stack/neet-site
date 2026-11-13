@@ -1650,6 +1650,401 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Options in the Code 13 booklet's order (the eSaral copy reorders them; read from the booklet scan). The copy prints (1). Code 13 booklet Q94."
    }
+  },
+  {
+   "id": "bio11-13-ncertex-13-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Growth is an irreversible, permanent increase in size and is accompanied by metabolic processes that use energy. Which of the following is an example of growth?",
+     "o": [
+      "Expansion of a leaf",
+      "Swelling of a piece of dry wood kept in water",
+      "Swelling of a raisin soaked in water",
+      "Increase in the size of a balloon as it is inflated"
+     ],
+     "sol": "<p>NCERT 13.1: growth is an <b>irreversible permanent increase</b> in size of an organ, its parts or a cell, and is accompanied by anabolic and catabolic processes that use energy. <b>Expansion of a leaf</b> meets both conditions. Wood and raisins swell only by taking up water (reversible, no metabolism), and an inflated balloon is a purely physical change.</p>",
+     "hint": "Irreversible + metabolic."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "वृद्धि आकार में अनिवर्त्य (अनपलट) स्थाई बढ़त है तथा ऊर्जा व्यय करने वाली उपापचयी प्रक्रियाओं से जुड़ी होती है। निम्नलिखित में से कौन-सा वृद्धि का उदाहरण है?",
+     "o": [
+      "एक पत्ती का विस्तार",
+      "पानी में रखे सूखी लकड़ी के टुकड़े का फैलाव",
+      "पानी में भिगोई किशमिश का फूलना",
+      "हवा भरने पर गुब्बारे के आकार में बढ़त"
+     ],
+     "sol": "<p>NCERT 13.1: वृद्धि एक अंग, उसके भाग या एक कोशिका के आकार में <b>अनिवर्त्य (अनपलट) स्थाई बढ़त</b> है, जो ऊर्जा व्यय करने वाली उपचय तथा अपचय प्रक्रियाओं से जुड़ी होती है। <b>एक पत्ती का विस्तार</b> दोनों शर्तें पूरी करता है। लकड़ी तथा किशमिश केवल पानी सोखकर फूलते हैं (उत्क्रमणीय, कोई उपापचय नहीं), और गुब्बारे का फूलना केवल भौतिक परिवर्तन है।</p>",
+     "hint": "अनिवर्त्य + उपापचयी।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 13.1 (define growth), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ncertex-13-1-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Plants retain the capacity for unlimited growth throughout their life. This 'open form of growth' is due to:",
+     "o": [
+      "enlargement of all mature cells throughout life",
+      "meristems whose cells keep dividing and self-perpetuating, adding new cells to the plant body",
+      "the absence of senescence in plant cells",
+      "secondary growth occurring only in monocotyledons"
+     ],
+     "sol": "<p>NCERT 13.1.1: plants grow indefinitely because of <b>meristems</b> at certain locations, whose cells can divide and self-perpetuate. Their products soon lose the capacity to divide and make up the plant body, while the meristem keeps adding new cells — the open form of growth. Mature cells do not keep enlarging, plant cells do senesce, and secondary growth (vascular and cork cambium) occurs in dicots and gymnosperms, not monocots.</p>",
+     "hint": "Which cells never stop dividing?"
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पौधे जीवन भर असीमित वृद्धि की क्षमता रखते हैं। 'वृद्धि का यह खुला स्वरूप' किसके कारण है?",
+     "o": [
+      "जीवन भर सभी परिपक्व कोशिकाओं के विशालीकरण के कारण",
+      "विभज्योतकों के कारण, जिनकी कोशिकाएँ विभाजन एवं स्वशाश्वतता द्वारा पादप शरीर में नई कोशिकाएँ जोड़ती रहती हैं",
+      "पादप कोशिकाओं में जरावस्था के अभाव के कारण",
+      "केवल एकबीजपत्री पादपों में होने वाली द्वितीयक वृद्धि के कारण"
+     ],
+     "sol": "<p>NCERT 13.1.1: पौधे कुछ खास जगहों पर स्थित <b>विभज्योतकों</b> के कारण असीमित वृद्धि करते हैं, जिनकी कोशिकाओं में विभाजन एवं स्वशाश्वतता की क्षमता होती है। इनके उत्पाद जल्द ही विभाजन की क्षमता खोकर पादप शरीर बनाते हैं, जबकि विभज्योतक नई कोशिकाएँ जोड़ता रहता है — वृद्धि का खुला स्वरूप। परिपक्व कोशिकाएँ बढ़ती नहीं रहतीं, पादप कोशिकाओं में जरावस्था होती है, और द्वितीयक वृद्धि (संवहनी तथा कार्क कैंबियम) द्विबीजपत्री तथा नग्नबीजी (जिम्नोस्पर्म) पादपों में होती है, एकबीजपत्री पादपों में नहीं।</p>",
+     "hint": "कौन-सी कोशिकाएँ विभाजन बंद नहीं करतीं?"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1.1"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 13.6 ('growth in higher plants is open'), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ncertex-13-1-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Growth is measured by different parameters in different systems. Growth of a pollen tube and growth of a dorsiventral leaf are best measured, respectively, as increase in:",
+     "o": [
+      "cell number; fresh weight",
+      "length; surface area",
+      "surface area; length",
+      "dry weight; cell number"
+     ],
+     "sol": "<p>NCERT 13.1.2: growth (increase in protoplasm) cannot be measured directly, so a proportional parameter is used — fresh weight, dry weight, length, area, volume or cell number, depending on the system. A pollen tube is measured by its <b>length</b>; a dorsiventral leaf by its <b>surface area</b>. (Maize root apex: cell number; watermelon: cell size.)</p>",
+     "hint": "A tube grows long; a leaf grows wide.",
+     "trap": "No single parameter suits every organ — that is the point of NCERT Exercise 13.2."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "विभिन्न तंत्रों में वृद्धि विभिन्न मापदंडों से मापी जाती है। पराग नलिका की वृद्धि तथा पृष्ठाधार पत्ती की वृद्धि को क्रमशः किसकी बढ़त के रूप में मापना सबसे उपयुक्त है?",
+     "o": [
+      "कोशिकाओं की संख्या; ताजा भार",
+      "लंबाई; पृष्ठीय क्षेत्रफल",
+      "पृष्ठीय क्षेत्रफल; लंबाई",
+      "शुष्क भार; कोशिकाओं की संख्या"
+     ],
+     "sol": "<p>NCERT 13.1.2: वृद्धि (जीवद्रव्य की मात्रा में बढ़त) को सीधे मापना कठिन है, अतः तंत्र के अनुसार उसके अनुपात में बढ़ने वाला कोई मापदंड लिया जाता है — ताजा भार, शुष्क भार, लंबाई, क्षेत्रफल, आयतन या कोशिकाओं की संख्या। पराग नलिका की वृद्धि <b>लंबाई</b> से तथा पृष्ठाधार पत्ती की वृद्धि <b>पृष्ठीय क्षेत्रफल</b> से मापी जाती है। (मक्के का मूल शिखाग्र: कोशिकाओं की संख्या; तरबूज: कोशिका का आकार।)</p>",
+     "hint": "नलिका लंबी होती है; पत्ती फैलती है।",
+     "trap": "कोई एक मापदंड हर अंग के लिए उपयुक्त नहीं — NCERT अभ्यास 13.2 का यही आशय है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1.2"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 13.2 (no single parameter measures growth), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ncertex-13-1-4-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A root 5 cm long elongates at a constant rate of 0.5 cm per day (arithmetic growth). What will its length be after 6 days?",
+     "o": [
+      "8 cm",
+      "5.5 cm",
+      "11 cm",
+      "30 cm"
+     ],
+     "sol": "<p>NCERT 13.1.4: arithmetic growth follows L<sub>t</sub> = L<sub>0</sub> + rt (after each division only one daughter cell keeps dividing, so length rises linearly).</p><p>L<sub>t</sub> = 5 + 0.5 × 6 = 5 + 3 = <b>8 cm</b>.</p>",
+     "hint": "L<sub>t</sub> = L<sub>0</sub> + rt.",
+     "trap": "Multiplying (5 × 6 = 30) treats it as geometric growth; arithmetic growth adds a fixed amount each day."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "5 cm लंबी एक मूल 0.5 cm प्रति दिन की नियत दर से दीर्घीकृत होती है (अंकगणितीय वृद्धि)। 6 दिन बाद उसकी लंबाई कितनी होगी?",
+     "o": [
+      "8 cm",
+      "5.5 cm",
+      "11 cm",
+      "30 cm"
+     ],
+     "sol": "<p>NCERT 13.1.4: अंकगणितीय वृद्धि L<sub>t</sub> = L<sub>0</sub> + rt के अनुसार होती है (प्रत्येक विभाजन के बाद केवल एक पुत्री कोशिका विभाजित होती रहती है, अतः लंबाई रेखीय रूप से बढ़ती है)।</p><p>L<sub>t</sub> = 5 + 0.5 × 6 = 5 + 3 = <b>8 cm</b>।</p>",
+     "hint": "L<sub>t</sub> = L<sub>0</sub> + rt।",
+     "trap": "गुणा करना (5 × 6 = 30) इसे ज्यामितीय वृद्धि मान लेना है; अंकगणितीय वृद्धि में हर दिन एक निश्चित मात्रा जुड़ती है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1.4"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 13.3(a) (arithmetic growth), reworded as a numerical MCQ"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ncertex-13-1-4-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Leaf A grows from 5 cm<sup>2</sup> to 10 cm<sup>2</sup> and leaf B from 50 cm<sup>2</sup> to 55 cm<sup>2</sup> in the same time. Which statement is correct?",
+     "o": [
+      "B has the higher absolute and the higher relative growth rate",
+      "A has the higher absolute growth rate; relative growth rates are equal",
+      "Absolute growth rates are equal, but A has the higher relative growth rate",
+      "Absolute growth rates are equal, but B has the higher relative growth rate"
+     ],
+     "sol": "<p>NCERT 13.1.4: absolute growth rate = total growth per unit time; relative growth rate = growth per unit time per unit initial size.</p><ul><li>Absolute: both leaves gain 5 cm<sup>2</sup> — equal.</li><li>Relative: A gains 5/5 = 100% of its initial area; B gains 5/50 = 10%.</li></ul><p>So <b>absolute rates are equal, but A has the higher relative growth rate</b>.</p>",
+     "hint": "Divide the gain by the starting size.",
+     "trap": "The bigger leaf is not the faster-growing one in relative terms."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "समान समय में पत्ती A का क्षेत्रफल 5 cm<sup>2</sup> से 10 cm<sup>2</sup> तथा पत्ती B का 50 cm<sup>2</sup> से 55 cm<sup>2</sup> हो जाता है। कौन-सा कथन सही है?",
+     "o": [
+      "B की परम तथा सापेक्षिक दोनों वृद्धि दरें अधिक हैं",
+      "A की परम वृद्धि दर अधिक है; सापेक्षिक वृद्धि दरें बराबर हैं",
+      "परम वृद्धि दरें बराबर हैं, परंतु A की सापेक्षिक वृद्धि दर अधिक है",
+      "परम वृद्धि दरें बराबर हैं, परंतु B की सापेक्षिक वृद्धि दर अधिक है"
+     ],
+     "sol": "<p>NCERT 13.1.4: परम वृद्धि दर = प्रति इकाई समय कुल वृद्धि; सापेक्षिक वृद्धि दर = प्रति इकाई प्रारंभिक मापदंड पर प्रति इकाई समय वृद्धि।</p><ul><li>परम: दोनों पत्तियाँ 5 cm<sup>2</sup> बढ़ीं — बराबर।</li><li>सापेक्षिक: A अपने प्रारंभिक क्षेत्रफल का 5/5 = 100% बढ़ी; B केवल 5/50 = 10%।</li></ul><p>अतः <b>परम दरें बराबर हैं, परंतु A की सापेक्षिक वृद्धि दर अधिक है</b>।</p>",
+     "hint": "बढ़त को प्रारंभिक आकार से भाग दीजिए।",
+     "trap": "बड़ी पत्ती सापेक्षिक रूप से तेज़ बढ़ने वाली नहीं है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1.4"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 13.3(d) (absolute and relative growth rates) and Figure 13.7, reworded as an MCQ with our own values"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ai-13-1-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements about the conditions for plant growth is <b>incorrect</b>?",
+     "o": [
+      "Water provides the medium for enzymatic activities needed for growth.",
+      "Oxygen helps in releasing metabolic energy essential for growth activities.",
+      "Nutrients are required for the synthesis of protoplasm and act as a source of energy.",
+      "Environmental signals such as light and gravity do not affect any phase of growth."
+     ],
+     "sol": "<p>NCERT 13.1.5: water (cell enlargement, turgidity for extension growth, medium for enzymes), oxygen (release of metabolic energy) and nutrients (protoplasm synthesis, energy source) are essential, along with an optimum temperature range. NCERT also states that <b>environmental signals such as light and gravity affect certain phases of growth</b> — so statement 4 is incorrect.</p>",
+     "hint": "Think of phototropism and gravitropism."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पादप वृद्धि की दशाओं के संबंध में निम्नलिखित में से कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "वृद्धि के लिए आवश्यक एंजाइमों की क्रियाशीलता के लिए जल माध्यम उपलब्ध कराता है।",
+      "ऑक्सीजन वृद्धि के लिए आवश्यक उपापचयी ऊर्जा को मुक्त करने में मदद करती है।",
+      "पोषक तत्व जीवद्रव्य के संश्लेषण के लिए आवश्यक हैं तथा ऊर्जा के स्रोत का काम करते हैं।",
+      "प्रकाश तथा गुरुत्व जैसे पर्यावरणीय संकेत वृद्धि की किसी भी अवस्था को प्रभावित नहीं करते।"
+     ],
+     "sol": "<p>NCERT 13.1.5: जल (कोशिका विशालीकरण, एंजाइमों के लिए माध्यम), ऑक्सीजन (उपापचयी ऊर्जा का मुक्त होना) तथा पोषक तत्व (जीवद्रव्य संश्लेषण, ऊर्जा स्रोत) इष्टतम ताप परिसर के साथ वृद्धि के लिए अनिवार्य हैं। NCERT यह भी बताती है कि <b>प्रकाश तथा गुरुत्व जैसे पर्यावरणीय संकेत वृद्धि की कुछ अवस्थाओं को प्रभावित करते हैं</b> — अतः कथन 4 गलत है।</p>",
+     "hint": "प्रकाशानुवर्तन तथा गुरुत्वानुवर्तन के बारे में सोचिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §13.1.5",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ai-13-4-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Plant growth regulators are small molecules of diverse chemical nature. Which PGR is <b>incorrectly</b> matched with its chemical nature?",
+     "o": [
+      "Indole-3-acetic acid — indole compound",
+      "Abscisic acid — derivative of carotenoids",
+      "Kinetin — terpene",
+      "Ethylene — gas"
+     ],
+     "sol": "<p>NCERT 13.4.1: IAA is an indole compound; kinetin (N<sup>6</sup>-furfurylamino purine) is an <b>adenine derivative</b>; ABA is a carotenoid derivative; gibberellic acid (GA<sub>3</sub>) is the terpene; ethylene (C<sub>2</sub>H<sub>4</sub>) is a gas. So <b>kinetin — terpene</b> is the wrong pair.</p>",
+     "hint": "Kinetin is a modified purine.",
+     "trap": "The terpene in NCERT's list is gibberellic acid."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पादप वृद्धि नियामक विविध रासायनिक संघटन वाले लघु अणु होते हैं। कौन-सा पादप वृद्धि नियामक (PGR) अपनी रासायनिक प्रकृति के साथ <b>गलत</b> सुमेलित है?",
+     "o": [
+      "इंडोल-3 एसिटिक अम्ल — इंडोल सम्मिश्रण",
+      "एबसीसिक एसिड — कैरोटिनॉइड व्युत्पन्न",
+      "काइनेटिन — टर्पीन",
+      "एथीलिन — गैस"
+     ],
+     "sol": "<p>NCERT 13.4.1: IAA इंडोल सम्मिश्रण है; काइनेटिन (N<sup>6</sup>-फरफ्यूराइल ऐमिनो प्यूरीन) <b>ऐडनीन व्युत्पन्न</b> है; ABA कैरोटिनॉइड व्युत्पन्न है; जिब्बेरेलिक अम्ल (GA<sub>3</sub>) टर्पीन है; एथीलिन (C<sub>2</sub>H<sub>4</sub>) गैस है। अतः <b>काइनेटिन — टर्पीन</b> गलत युग्म है।</p>",
+     "hint": "काइनेटिन एक रूपांतरित प्यूरीन है।",
+     "trap": "NCERT की सूची में टर्पीन जिब्बेरेलिक अम्ल है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.4.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §13.4.1",
+    "label": "Practice"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {
