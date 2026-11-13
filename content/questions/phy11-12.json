@@ -1,0 +1,883 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-12",
+ "subject": "physics",
+ "class": 11,
+ "unit": 12,
+ "title": {
+  "en": "Kinetic Theory"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph205.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "12.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "12.2",
+   "title": "Molecular Nature of Matter",
+   "hi": "द्रव्य की आण्विक प्रकृति",
+   "pdfPage": 1
+  },
+  {
+   "id": "12.3",
+   "title": "Behaviour of Gases",
+   "pdfPage": 3
+  },
+  {
+   "id": "12.4",
+   "title": "Kinetic Theory of an Ideal Gas",
+   "pdfPage": 5
+  },
+  {
+   "id": "12.4.1",
+   "title": "Pressure of an Ideal Gas",
+   "pdfPage": 6
+  },
+  {
+   "id": "12.4.2",
+   "title": "Kinetic Interpretation of Temperature",
+   "pdfPage": 7
+  },
+  {
+   "id": "12.5",
+   "title": "Law of Equipartition of Energy",
+   "pdfPage": 9
+  },
+  {
+   "id": "12.6",
+   "title": "Specific Heat Capacity",
+   "pdfPage": 10
+  },
+  {
+   "id": "12.6.1",
+   "title": "Monatomic Gases",
+   "pdfPage": 10
+  },
+  {
+   "id": "12.6.2",
+   "title": "Diatomic Gases",
+   "pdfPage": 10
+  },
+  {
+   "id": "12.6.3",
+   "title": "Polyatomic Gases",
+   "pdfPage": 10
+  },
+  {
+   "id": "12.6.4",
+   "title": "Specific Heat Capacity of Solids",
+   "pdfPage": 11
+  },
+  {
+   "id": "12.7",
+   "title": "Mean Free Path",
+   "pdfPage": 11
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-12-neet-2015-re-exam-code-d-q165",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "4.0 g of a gas occupies 22.4 litres at NTP. The specific heat capacity of the gas at constant volume is 5.0 J K<sup>−1</sup> mol<sup>−1</sup>. If the speed of sound in this gas at NTP is 952 m s<sup>−1</sup>, then the heat capacity at constant pressure is : (Take gas constant R = 8.3 J K<sup>−1</sup> mol<sup>−1</sup>)",
+     "o": [
+      "7.5 J K<sup>−1</sup> mol<sup>−1</sup>",
+      "7.0 J K<sup>−1</sup> mol<sup>−1</sup>",
+      "8.5 J K<sup>−1</sup> mol<sup>−1</sup>",
+      "8.0 J K<sup>−1</sup> mol<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.6"
+    ],
+    "otherChapters": [
+     "Class 11 · Waves"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q165",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
+    "note": "γ = v<sup>2</sup>M/(RT) = 952<sup>2</sup> × 0.004/(8.3 × 273) ≈ 1.6, so C<sub>p</sub> = γC<sub>v</sub> = 8.0."
+   }
+  },
+  {
+   "id": "phy11-12-neet-2015-re-exam-code-d-q171",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two vessels separately contain two ideal gases A and B at the same temperature, the pressure of A being twice that of B. Under such conditions, the density of A is found to be 1.5 times the density of B. The ratio of molecular weight of A and B is :",
+     "o": [
+      "3/4",
+      "2",
+      "1/2",
+      "2/3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q171",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2016-phase-1-code-a-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The molecules of a given mass of a gas have r.m.s. velocity of 200 m s<sup>−1</sup> at 27 °C and 1.0 × 10<sup>5</sup> N m<sup>−2</sup> pressure. When the temperature and pressure of the gas are respectively, 127 °C and 0.05 × 10<sup>5</sup> N m<sup>−2</sup>, the r.m.s. velocity of its molecules in m s<sup>−1</sup> is :",
+     "o": [
+      "100√2",
+      "400/√3",
+      "100√2/3",
+      "100/3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q25",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2016-phase-2-code-aa-q19",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A given sample of an ideal gas occupies a volume V at a pressure P and absolute temperature T. The mass of each molecule of the gas is m. Which of the following gives the density of the gas?",
+     "o": [
+      "P/(kT)",
+      "Pm/(kT)",
+      "P/(kTV)",
+      "mkT"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q19",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Options 2–3 cut at a page break in the copy; entered as in the official paper to be confirmed."
+   }
+  },
+  {
+   "id": "phy11-12-neet-2017-code-a-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A gas mixture consists of 2 moles of O<sub>2</sub> and 4 moles of Ar at temperature T. Neglecting all vibrational modes, the total internal energy of the system is :",
+     "o": [
+      "4RT",
+      "15RT",
+      "9RT",
+      "11RT"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q2",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2018-code-aa-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At what temperature will the rms speed of oxygen molecules become just sufficient for escaping from the Earth's atmosphere? (Given : Mass of oxygen molecule (m) = 2.76 × 10<sup>−26</sup> kg, Boltzmann's constant k<sub>B</sub> = 1.38 × 10<sup>−23</sup> J K<sup>−1</sup>)",
+     "o": [
+      "5.016 × 10<sup>4</sup> K",
+      "8.360 × 10<sup>4</sup> K",
+      "2.508 × 10<sup>4</sup> K",
+      "1.254 × 10<sup>4</sup> K"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Gravitation"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q3",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2019-code-s2-q125",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Increase in temperature of a gas filled in a container would lead to :",
+     "o": [
+      "decrease in its pressure",
+      "decrease in intermolecular distance",
+      "increase in its mass",
+      "increase in its kinetic energy"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q125",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2020-code-f3-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A cylinder contains hydrogen gas at pressure of 249 kPa and temperature 27 °C. Its density is : (R = 8.3 J mol<sup>−1</sup> K<sup>−1</sup>)",
+     "o": [
+      "0.1 kg/m<sup>3</sup>",
+      "0.02 kg/m<sup>3</sup>",
+      "0.5 kg/m<sup>3</sup>",
+      "0.2 kg/m<sup>3</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q9",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2020-code-f3-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The mean free path for a gas, with molecular diameter d and number density n can be expressed as :",
+     "o": [
+      "1/(√2 n<sup>2</sup>πd<sup>2</sup>)",
+      "1/(√2 n<sup>2</sup>π<sup>2</sup>d<sup>2</sup>)",
+      "1/(√2 nπd)",
+      "1/(√2 nπd<sup>2</sup>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q10",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2020-code-f3-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The average thermal energy for a mono-atomic gas is : (k<sub>B</sub> is Boltzmann constant and T, absolute temperature)",
+     "o": [
+      "(5/2) k<sub>B</sub>T",
+      "(7/2) k<sub>B</sub>T",
+      "(1/2) k<sub>B</sub>T",
+      "(3/2) k<sub>B</sub>T"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2",
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q34",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2021-code-p3-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match Column-I and Column-II and choose the correct match from the given choices.<br>(A) Root mean square speed of gas molecules — (P) (1/3)nmv̄<sup>2</sup><br>(B) Pressure exerted by ideal gas — (Q) √(3RT/M)<br>(C) Average kinetic energy of a molecule — (R) (5/2)RT<br>(D) Total internal energy of 1 mole of a diatomic gas — (S) (3/2)k<sub>B</sub>T",
+     "o": [
+      "(A)-(R), (B)-(Q), (C)-(P), (D)-(S)",
+      "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
+      "(A)-(Q), (B)-(R), (C)-(S), (D)-(P)",
+      "(A)-(Q), (B)-(P), (C)-(S), (D)-(R)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.1",
+     "12.4.2",
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q9",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2022-code-t2-q36",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The volume occupied by the molecules contained in 4.5 kg water at STP, if the intermolecular forces vanish away is :",
+     "o": [
+      "5.6 × 10<sup>3</sup> m<sup>3</sup>",
+      "5.6 × 10<sup>−3</sup> m<sup>3</sup>",
+      "5.6 m<sup>3</sup>",
+      "5.6 × 10<sup>6</sup> m<sup>3</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q36",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-12-neet-2023-topic-wise-copy-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The temperature of a gas is −50 °C. To what temperature the gas should be heated so that the rms speed is increased by 3 times?",
+     "o": [
+      "223 K",
+      "669 °C",
+      "3295 °C",
+      "3097 K"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q14",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "\"Increased by 3 times\" is read as the rms speed becoming 4 times: T = 16 × 223 K = 3568 K = 3295 °C. (If it meant 3 times, T = 2007 K, not an option.)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2024-q30-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The following graph represents the T–V curves of an ideal gas (where T is the temperature and V the volume) at three pressures P<sub>1</sub>, P<sub>2</sub> and P<sub>3</sub> compared with those of Charles's law represented as dotted lines. Then the correct relation is :",
+     "o": [
+      "P<sub>3</sub> > P<sub>2</sub> > P<sub>1</sub>",
+      "P<sub>1</sub> > P<sub>3</sub> > P<sub>2</sub>",
+      "P<sub>2</sub> > P<sub>1</sub> > P<sub>3</sub>",
+      "P<sub>1</sub> > P<sub>2</sub> > P<sub>3</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Thermodynamics"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q30 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; ours: 4",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The copy's key prints (A), but its own solution concludes P<sub>1</sub> > P<sub>2</sub> > P<sub>3</sub> (option D): at a given T the curve at larger V has the lower pressure, and P<sub>1</sub> is the steepest curve. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-12-neet-2025-code-45-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An oxygen cylinder of volume 30 litre has 18.20 moles of oxygen. After some oxygen is withdrawn from the cylinder, its gauge pressure drops to 11 atmospheric pressure at temperature 27 °C. The mass of the oxygen withdrawn from the cylinder is nearly equal to : [Given, R = (100/12) J mol<sup>−1</sup> K<sup>−1</sup>, and molecular mass of O<sub>2</sub> = 32, 1 atm pressure = 1.01 × 10<sup>5</sup> N/m<sup>2</sup>]",
+     "o": [
+      "0.125 kg",
+      "0.144 kg",
+      "0.116 kg",
+      "0.156 kg"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q14",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2025-code-45-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A container has two chambers of volumes V<sub>1</sub> = 2 litres and V<sub>2</sub> = 3 litres separated by a partition made of a thermal insulator. The chambers contain n<sub>1</sub> = 5 and n<sub>2</sub> = 4 moles of ideal gas at pressures p<sub>1</sub> = 1 atm and p<sub>2</sub> = 2 atm, respectively. When the partition is removed, the mixture attains an equilibrium pressure of :",
+     "o": [
+      "1.3 atm",
+      "1.6 atm",
+      "1.4 atm",
+      "1.8 atm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q29",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2026-code-13-q33",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A flask contains argon and chlorine in the ratio of 2 : 1 by mass. The temperature of the mixture is 27 °C. The ratio of root mean square speed of the molecules of the two gases (v<sub>rms</sub><sup>Ar</sup>/v<sub>rms</sub><sup>Cl</sup>) is : (Atomic mass of argon = 40.0 u and molecular mass of chlorine = 70.0 u)",
+     "o": [
+      "7/4",
+      "2/√7",
+      "√7/2",
+      "7/2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q33",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
