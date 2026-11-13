@@ -1,0 +1,692 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-03",
+ "subject": "physics",
+ "class": 11,
+ "unit": 3,
+ "title": {
+  "en": "Motion in a Plane"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph103.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "3.1",
+   "title": "Introduction",
+   "pdfPage": 1
+  },
+  {
+   "id": "3.2",
+   "title": "Scalars and Vectors",
+   "pdfPage": 1
+  },
+  {
+   "id": "3.2.1",
+   "title": "Position and Displacement Vectors",
+   "pdfPage": 2
+  },
+  {
+   "id": "3.2.2",
+   "title": "Equality of Vectors",
+   "pdfPage": 2
+  },
+  {
+   "id": "3.3",
+   "title": "Multiplication of Vectors by Real Numbers",
+   "pdfPage": 3
+  },
+  {
+   "id": "3.4",
+   "title": "Addition and Subtraction of Vectors — Graphical Method",
+   "pdfPage": 3
+  },
+  {
+   "id": "3.5",
+   "title": "Resolution of Vectors",
+   "pdfPage": 5
+  },
+  {
+   "id": "3.6",
+   "title": "Vector Addition — Analytical Method",
+   "pdfPage": 7
+  },
+  {
+   "id": "3.7",
+   "title": "Motion in a Plane",
+   "pdfPage": 8
+  },
+  {
+   "id": "3.7.1",
+   "title": "Position Vector and Displacement",
+   "pdfPage": 9
+  },
+  {
+   "id": "3.8",
+   "title": "Motion in a Plane with Constant Acceleration",
+   "pdfPage": 11
+  },
+  {
+   "id": "3.9",
+   "title": "Projectile Motion",
+   "pdfPage": 12
+  },
+  {
+   "id": "3.10",
+   "title": "Uniform Circular Motion",
+   "hi": "एकसमान वृत्तीय गति",
+   "pdfPage": 14
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-03-neet-2015-re-exam-code-d-q136",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The position vector of a particle R⃗ as a function of time is given by R⃗ = 4 sin(2πt) î + 4 cos(2πt) ĵ, where R is in metres, t is in seconds and î and ĵ denote unit vectors along x- and y-directions, respectively. Which one of the following statements is wrong for the motion of particle?",
+     "o": [
+      "Magnitude of acceleration vector is v<sup>2</sup>/R, where v is the velocity of particle",
+      "Magnitude of the velocity of particle is 8 metre/second",
+      "Path of the particle is a circle of radius 4 metre",
+      "Acceleration vector is along −R⃗"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q136",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 2",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-03-neet-2015-re-exam-code-d-q139",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two particles A and B move with constant velocities v⃗<sub>1</sub> and v⃗<sub>2</sub>. At the initial moment their position vectors are r⃗<sub>1</sub> and r⃗<sub>2</sub> respectively. The condition for particles A and B for their collision is :",
+     "o": [
+      "r⃗<sub>1</sub> · v⃗<sub>1</sub> = r⃗<sub>2</sub> · v⃗<sub>2</sub>",
+      "r⃗<sub>1</sub> × v⃗<sub>1</sub> = r⃗<sub>2</sub> × v⃗<sub>2</sub>",
+      "r⃗<sub>1</sub> − r⃗<sub>2</sub> = v⃗<sub>1</sub> − v⃗<sub>2</sub>",
+      "(r⃗<sub>1</sub> − r⃗<sub>2</sub>)/|r⃗<sub>1</sub> − r⃗<sub>2</sub>| = (v⃗<sub>2</sub> − v⃗<sub>1</sub>)/|v⃗<sub>2</sub> − v⃗<sub>1</sub>|"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q139",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-03-neet-2016-phase-1-code-a-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle moves so that its position vector is given by r⃗ = cos ωt x̂ + sin ωt ŷ, where ω is a constant. Which of the following is true?",
+     "o": [
+      "Velocity and acceleration both are perpendicular to r⃗.",
+      "Velocity and acceleration both are parallel to r⃗.",
+      "Velocity is perpendicular to r⃗ and acceleration is directed towards the origin.",
+      "Velocity is perpendicular to r⃗ and acceleration is directed away from the origin."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q27",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-03-neet-2016-phase-1-code-a-q37",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the magnitude of sum of two vectors is equal to the magnitude of difference of the two vectors, the angle between these vectors is:",
+     "o": [
+      "0°",
+      "90°",
+      "45°",
+      "180°"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.4",
+     "3.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q37",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-03-neet-2017-code-a-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The x and y coordinates of the particle at any time are x = 5t − 2t<sup>2</sup> and y = 10t respectively, where x and y are in metres and t in seconds. The acceleration of the particle at t = 2 s is :",
+     "o": [
+      "0",
+      "5 m/s<sup>2</sup>",
+      "−4 m/s<sup>2</sup>",
+      "−8 m/s<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q9",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-03-neet-2019-code-s2-q96",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The speed of a swimmer in still water is 20 m/s. The speed of river water is 10 m/s and is flowing due east. If he is standing on the south bank and wishes to cross the river along the shortest path, the angle at which he should make his strokes w.r.t. north is given by :",
+     "o": [
+      "60° west",
+      "45° west",
+      "30° west",
+      "0°"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.6"
+    ],
+    "oldRef": "Old NCERT 11 Ch 4 · Relative velocity in two dimensions"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q96",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-03-neet-2019-code-s2-q120",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two particles A and B are moving in uniform circular motion in concentric circles of radii r<sub>A</sub> and r<sub>B</sub> with speed v<sub>A</sub> and v<sub>B</sub> respectively. Their time period of rotation is the same. The ratio of angular speed of A to that of B will be :",
+     "o": [
+      "r<sub>B</sub> : r<sub>A</sub>",
+      "1 : 1",
+      "r<sub>A</sub> : r<sub>B</sub>",
+      "v<sub>A</sub> : v<sub>B</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q120",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-03-neet-2021-code-p3-q44",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A car starts from rest and accelerates at 5 m/s<sup>2</sup>. At t = 4 s, a ball is dropped out of a window by a person sitting in the car. What is the velocity and acceleration of the ball at t = 6 s?",
+     "o": [
+      "20√2 m/s, 10 m/s<sup>2</sup>",
+      "20 m/s, 5 m/s<sup>2</sup>",
+      "20 m/s, 0",
+      "20√2 m/s, 0"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.9"
+    ],
+    "otherChapters": [
+     "Class 11 · Motion in a Straight Line"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q44",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-03-neet-2021-code-p3-q49",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle 'θ' to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by :",
+     "o": [
+      "θ = sin<sup>−1</sup>(2gT<sup>2</sup>/(π<sup>2</sup>R))<sup>1/2</sup>",
+      "θ = cos<sup>−1</sup>(gT<sup>2</sup>/(π<sup>2</sup>R))<sup>1/2</sup>",
+      "θ = cos<sup>−1</sup>(π<sup>2</sup>R/(gT<sup>2</sup>))<sup>1/2</sup>",
+      "θ = sin<sup>−1</sup>(π<sup>2</sup>R/(gT<sup>2</sup>))<sup>1/2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.9",
+     "3.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q49",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-03-neet-2022-code-t2-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A ball is projected with a velocity, 10 m s<sup>−1</sup>, at an angle of 60° with the vertical direction. Its speed at the highest point of its trajectory will be :",
+     "o": [
+      "5√3 m s<sup>−1</sup>",
+      "5 m s<sup>−1</sup>",
+      "10 m s<sup>−1</sup>",
+      "Zero"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q42",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-03-neet-2023-topic-wise-copy-q4",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A football player is moving southward and suddenly turns eastward with the same speed to avoid an opponent. The force that acts on the player while turning is :",
+     "o": [
+      "along south-west",
+      "along eastward",
+      "along northward",
+      "along north-east"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.4",
+     "3.7"
+    ],
+    "otherChapters": [
+     "Class 11 · Laws of Motion"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q4",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-03-neet-2023-topic-wise-copy-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A bullet is fired from a gun at the speed of 280 m/s in the direction 30° above the horizontal. The maximum height attained by the bullet is : (g = 9.8 m s<sup>−2</sup>, sin 30° = 0.5)",
+     "o": [
+      "3000 m",
+      "2800 m",
+      "2000 m",
+      "1000 m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q5",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-03-neet-2024-q45-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle moving with uniform speed in a circular path maintains :",
+     "o": [
+      "Constant velocity",
+      "Constant acceleration",
+      "Constant velocity and varying acceleration",
+      "Varying velocity and varying acceleration"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-03",
+    "paras": [
+     "3.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q45 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  }
+ ]
+}
