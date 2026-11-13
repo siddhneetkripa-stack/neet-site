@@ -1,0 +1,1733 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-14",
+ "subject": "physics",
+ "class": 12,
+ "unit": 14,
+ "title": {
+  "en": "Semiconductor Electronics"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph206.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "14.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "14.2",
+   "title": "Classification of Metals, Conductors and Semiconductors",
+   "hi": "धातुओं, चालकों तथा अर्धचालकों का वर्गीकरण",
+   "pdfPage": 2
+  },
+  {
+   "id": "14.3",
+   "title": "Intrinsic Semiconductor",
+   "hi": "नैज अर्धचालक",
+   "pdfPage": 5
+  },
+  {
+   "id": "14.4",
+   "title": "Extrinsic Semiconductor",
+   "hi": "अपद्रव्यी अर्धचालक",
+   "pdfPage": 7
+  },
+  {
+   "id": "14.5",
+   "title": "p-n Junction",
+   "hi": "(b) में दिखाए ढंग से दृष्टित किया जा सकता है। नीचे वाले बाईं ओर के सहसंयोजी बंध",
+   "pdfPage": 7
+  },
+  {
+   "id": "14.5.1",
+   "title": "p-n Junction Formation",
+   "hi": "p-n संधि का निर्माण",
+   "pdfPage": 7
+  },
+  {
+   "id": "14.6",
+   "title": "Semiconductor Diode",
+   "hi": "अर्धचालक डायोड",
+   "pdfPage": 12
+  },
+  {
+   "id": "14.7",
+   "title": "Application of Junction Diode as a Rectifier",
+   "hi": "संधि डायोड का दिष्टकारी के रूप में अनुप्रयोग",
+   "pdfPage": 16
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-14-neet-2015-re-exam-code-d-q161",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the given figure, a diode D is connected to an external resistance R = 100 Ω and an e.m.f. of 3.5 V. If the barrier potential developed across the diode is 0.5 V, the current in the circuit will be :",
+     "o": [
+      "40 mA",
+      "20 mA",
+      "35 mA",
+      "30 mA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q161",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
+    "note": "Circuit figure in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2015-re-exam-code-d-q173",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The input signal given to a CE amplifier having a voltage gain of 150 is V<sub>i</sub> = 2 cos(15t + π/3). The corresponding output signal will be :",
+     "o": [
+      "75 cos(15t + 2π/3)",
+      "2 cos(15t + 5π/6)",
+      "300 cos(15t + 4π/3)",
+      "300 cos(15t + π/3)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 14 · Transistor as an amplifier (CE)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q173",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-14-neet-2016-phase-1-code-a-q13",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the junction diode as ideal. The value of current flowing through AB is:",
+     "o": [
+      "0 A",
+      "10<sup>−2</sup> A",
+      "10<sup>−1</sup> A",
+      "10<sup>−3</sup> A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q13",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Circuit figure in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2016-phase-1-code-a-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A npn transistor is connected in common emitter configuration in a given amplifier. A load resistance of 800 Ω is connected in the collector circuit and the voltage drop across it is 0.8 V. If the current amplification factor is 0.96 and the input resistance of the circuit is 192 Ω, the voltage gain and the power gain of the amplifier will respectively be:",
+     "o": [
+      "4, 3.84",
+      "3.69, 3.84",
+      "4, 4",
+      "4, 3.69"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 14 · Transistor as an amplifier"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q17",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "With current gain 0.96: A<sub>v</sub> = 0.96 × 800/192 = 4, power gain = 0.96 × 4 = 3.84."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2016-phase-1-code-a-q34",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "To get output 1 for the following circuit, the correct choice for the input is:",
+     "o": [
+      "A = 0, B = 1, C = 0",
+      "A = 1, B = 0, C = 0",
+      "A = 1, B = 1, C = 0",
+      "A = 1, B = 0, C = 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q34",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Logic-gate circuit in the paper; needs a redrawn figure. Logic gates are in the NEET syllabus but not in the rationalised NCERT."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2016-phase-2-code-aa-q43",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For CE transistor amplifier, the audio signal voltage across the collector resistance of 2 kΩ is 4 V. If the current amplification factor of the transistor is 100 and the base resistance is 1 k Ω then the input signal voltage is",
+     "o": [
+      "10 mV",
+      "20 mV",
+      "30 mV",
+      "15 mV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 14 · Transistor as an amplifier"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q43",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Input = output/(β × R<sub>C</sub>/R<sub>B</sub>) = 4/(100 × 2) = 20 mV."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2016-phase-2-code-aa-q44",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The given circuit has two ideal diodes connected as shown in the figure below. The current flowing through the resistance R<sub>1</sub> will be :",
+     "o": [
+      "2.5 A",
+      "10.0 A",
+      "1.43 A",
+      "3.13 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q44",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Circuit: 10 V, R<sub>1</sub> = 2 Ω in series, R<sub>2</sub> = 3 Ω with D<sub>1</sub> (reverse) and R<sub>3</sub> = 2 Ω with D<sub>2</sub> (forward). Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2016-phase-2-code-aa-q45",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the output Y in the following circuit, when all the three inputs A, B, C are first 0 and then 1?",
+     "o": [
+      "0, 1",
+      "0, 0",
+      "1, 0",
+      "1, 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q45",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Logic circuit in the paper (gate P on A, B; gate Q on P, C); needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2017-code-a-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a common emitter transistor amplifier the audio signal voltage across the collector is 3 V. The resistance of collector is 3 kΩ. If current gain is 100 and the base resistance is 2 kΩ, the voltage and power gain of the amplifier is :",
+     "o": [
+      "200 and 1000",
+      "15 and 200",
+      "150 and 15000",
+      "20 and 2000"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 14 · Transistor as an amplifier"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q21",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-14-neet-2017-code-a-q22",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following represents forward bias diode?",
+     "o": [
+      "0 V —▷|— R — −2 V",
+      "−4 V —▷|— R — −3 V",
+      "−2 V —▷|— R — +2 V",
+      "3 V —▷|— R — 5 V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q22",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "Options are diode circuits (p side on the left); needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2017-code-a-q24",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The given electrical network is equivalent to :",
+     "o": [
+      "AND gate",
+      "OR gate",
+      "NOR gate",
+      "NOT gate"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q24",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "Gate network (NOR → NOT-type stages) in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2018-code-aa-q15",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the circuit shown in the figure, the input voltage V<sub>i</sub> is 20 V, V<sub>BE</sub> = 0 and V<sub>CE</sub> = 0. The values of I<sub>B</sub>, I<sub>C</sub> and β are given by :",
+     "o": [
+      "I<sub>B</sub> = 20 μA, I<sub>C</sub> = 5 mA, β = 250",
+      "I<sub>B</sub> = 25 μA, I<sub>C</sub> = 5 mA, β = 200",
+      "I<sub>B</sub> = 40 μA, I<sub>C</sub> = 10 mA, β = 250",
+      "I<sub>B</sub> = 40 μA, I<sub>C</sub> = 5 mA, β = 125"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 14 · Transistor (CE configuration)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q15",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)",
+    "note": "Circuit: R<sub>B</sub> = 500 kΩ from V<sub>i</sub>, R<sub>C</sub> = 4 kΩ from 20 V. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2018-code-aa-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a p-n junction diode, change in temperature due to heating :",
+     "o": [
+      "does not affect resistance of p-n junction",
+      "affects only forward resistance",
+      "affects only reverse resistance",
+      "affects the overall V – I characteristics of p-n junction"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q16",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-14-neet-2018-code-aa-q17",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the combination of the following gates the output Y can be written in terms of inputs A and B as :",
+     "o": [
+      "(A·B)‾ + A·B",
+      "A·B̄ + Ā·B",
+      "(A·B)‾",
+      "(A + B)‾"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q17",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)",
+    "note": "Two AND gates (A with B̄, Ā with B) into an OR gate; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2019-code-s2-q112",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct Boolean operation represented by the circuit diagram drawn is :",
+     "o": [
+      "NAND",
+      "NOR",
+      "AND",
+      "OR"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q112",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "Switches A and B in series from the junction to ground, LED (Y) from +6 V through R to that junction: Y glows unless both A and B are 1. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2019-code-s2-q123",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a p-type semiconductor, which of the following statements is true?",
+     "o": [
+      "Holes are the majority carriers and pentavalent atoms are the dopants.",
+      "Electrons are the majority carriers and pentavalent atoms are the dopants.",
+      "Electrons are the majority carriers and trivalent atoms are the dopants.",
+      "Holes are the majority carriers and trivalent atoms are the dopants."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q123",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-14-neet-2020-code-f3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For transistor action, which of the following statements is correct ?",
+     "o": [
+      "Both emitter junction as well as the collector junction are forward biased.",
+      "The base region must be very thin and lightly doped.",
+      "Base, emitter and collector regions should have same doping concentrations.",
+      "Base, emitter and collector regions should have same size."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 14 · Junction transistor"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q1",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-14-neet-2020-code-f3-q12",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For the logic circuit shown, the truth table is :",
+     "o": [
+      "A B Y: 0 0 1; 0 1 1; 1 0 1; 1 1 0",
+      "A B Y: 0 0 1; 0 1 0; 1 0 0; 1 1 0",
+      "A B Y: 0 0 0; 0 1 0; 1 0 0; 1 1 1",
+      "A B Y: 0 0 0; 0 1 1; 1 0 1; 1 1 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q12",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)",
+    "note": "A and B each pass through a NOT gate into a NOR gate. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2020-code-f3-q44",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The increase in the width of the depletion region in a p-n junction diode is due to:",
+     "o": [
+      "both forward bias and reverse bias",
+      "increase in forward current",
+      "forward bias only",
+      "reverse bias only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q44",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-14-neet-2021-code-p3-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following statements (A) and (B) and identify the correct answer.<br>(A) A zener diode is connected in reverse bias, when used as a voltage regulator.<br>(B) The potential barrier of p-n junction lies between 0.1 V to 0.3 V.",
+     "o": [
+      "(A) is incorrect but (B) is correct.",
+      "(A) and (B) both are correct.",
+      "(A) and (B) both are incorrect.",
+      "(A) is correct and (B) is incorrect."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.5"
+    ],
+    "oldRef": "Old NCERT 12 Ch 14 · Zener diode as a voltage regulator"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q10",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-14-neet-2021-code-p3-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The electron concentration in an n-type semiconductor is the same as hole concentration in a p-type semiconductor. An external field (electric) is applied across each of them. Compare the currents in them.",
+     "o": [
+      "No current will flow in p-type, current will only flow in n-type",
+      "Current in n-type = current in p-type",
+      "Current in p-type > current in n-type",
+      "Current in n-type > current in p-type"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q23",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-14-neet-2021-code-p3-q41",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For the given circuit, the input digital signals are applied at the terminals A, B and C. What would be the output at the terminal y?",
+     "o": [
+      "[waveform 1: y = 0 V with spikes at t<sub>1</sub>…t<sub>6</sub>]",
+      "[waveform 2: 5 V from t<sub>1</sub> to t<sub>3</sub>, 0 V to t<sub>6</sub>, then 5 V]",
+      "[waveform 3: y = 5 V throughout]",
+      "[waveform 4: 0 V from t<sub>1</sub> to t<sub>3</sub>, 5 V to t<sub>6</sub>, then 0 V]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q41",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "Circuit: y = (A·B) + NOT(B·C). Inputs: A high t<sub>1</sub>–t<sub>2</sub>, t<sub>3</sub>–t<sub>4</sub>, t<sub>5</sub>–t<sub>6</sub>; B high t<sub>2</sub>–t<sub>4</sub>; C high except t<sub>2</sub>–t<sub>4</sub>, so B·C is never 1. Needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2022-code-t2-q3",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the given circuits (a), (b) and (c), the potential drop across the two p-n junctions are equal in :",
+     "o": [
+      "Circuit (b) only",
+      "Circuit (c) only",
+      "Both circuits (a) and (c)",
+      "Circuit (a) only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q3",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Each circuit has two p-n junctions in series with a cell: (a) PN … PN, (b) PN … NP, (c) NP … NP. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2022-code-t2-q20",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In half wave rectification, if the input frequency is 60 Hz, then the output frequency would be :",
+     "o": [
+      "30 Hz",
+      "60 Hz",
+      "120 Hz",
+      "Zero"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q20",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2022-code-t2-q44",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The truth table for the given logic circuit is :",
+     "o": [
+      "A B C: 0 0 1; 0 1 0; 1 0 0; 1 1 1",
+      "A B C: 0 0 1; 0 1 0; 1 0 1; 1 1 0",
+      "A B C: 0 0 0; 0 1 1; 1 0 0; 1 1 1",
+      "A B C: 0 0 0; 0 1 1; 1 0 1; 1 1 0"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q44",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Circuit: NAND(A, B) and NAND(Ā, B) feed an AND gate giving C. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2023-topic-wise-copy-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A full wave rectifier circuit consists of two p-n junction diodes, a centre-tapped transformer, capacitor and a load resistance. Which of these components remove the ac ripple from the rectified output?",
+     "o": [
+      "Load resistance",
+      "A centre-tapped transformer",
+      "p-n junction diodes",
+      "Capacitor"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q34",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2023-topic-wise-copy-q35",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I : Photovoltaic devices can convert optical radiation into electricity.<br>Statement II : Zener diode is designed to operate under reverse bias in breakdown region.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Statement I is incorrect but Statement II is correct.",
+      "Both Statement I and Statement II are correct.",
+      "Both Statement I and Statement II are incorrect.",
+      "Statement I is correct but Statement II is incorrect."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ],
+    "oldRef": "Old NCERT 12 Ch 14 · Special purpose p-n junction diodes (Zener diode, solar cell)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q35",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2023-topic-wise-copy-q50",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For the following logic circuit, the truth table is :",
+     "o": [
+      "A B Y: 0 0 0; 0 1 0; 1 0 0; 1 1 1",
+      "A B Y: 0 0 1; 0 1 1; 1 0 1; 1 1 0",
+      "A B Y: 0 0 0; 0 1 1; 1 0 1; 1 1 1",
+      "A B Y: 0 0 1; 0 1 0; 1 0 1; 1 1 0"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q50",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "A and B each pass through a NOT gate into a NAND gate. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2024-q3-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The output (Y) of the given logic gate is similar to the output of an/a :",
+     "o": [
+      "NAND gate",
+      "NOR gate",
+      "OR gate",
+      "AND gate"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q3 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "A goes to both inputs of a NAND gate, B to both inputs of a NOR gate; the two outputs feed a NOR gate. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2024-q10-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A logic circuit provides the output Y as per the following truth table :<br>A B Y: 0 0 1; 0 1 0; 1 0 1; 1 1 0<br>The expression for the output Y is :",
+     "o": [
+      "A · B + Ā",
+      "A · B̄ + Ā",
+      "B̄",
+      "B"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q10 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2024-q50-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following Statements A and B and identify the correct answer :<br>A. For a solar-cell, the I–V characteristics lies in the IV quadrant of the given graph.<br>B. In a reverse-biased p-n junction diode, the current measured in (μA), is due to majority charge carriers.",
+     "o": [
+      "A is incorrect but B is correct.",
+      "Both A and B are correct.",
+      "Both A and B are incorrect.",
+      "A is correct but B is incorrect."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ],
+    "oldRef": "Old NCERT 12 Ch 14 · Special purpose p-n junction diodes (solar cell)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q50 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The graph only shows the I–V axes with quadrants I–IV."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2025-code-45-q8",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The output (Y) of the given logic implementation is similar to the output of an/a _____ gate.",
+     "o": [
+      "AND",
+      "NAND",
+      "OR",
+      "NOR"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [],
+    "oldRef": "Not in the rationalised NCERT · Logic gates"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q8",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "NOR(A, B) and NAND(A, B) feed an AND gate. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2025-code-45-q40",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A full wave rectifier circuit with diodes (D<sub>1</sub>) and (D<sub>2</sub>) is shown in the figure. If input supply voltage V<sub>in</sub> = 220 sin (100πt) volt, then at t = 15 msec :",
+     "o": [
+      "D<sub>1</sub> is forward biased, D<sub>2</sub> is reverse biased",
+      "D<sub>1</sub> is reverse biased, D<sub>2</sub> is forward biased",
+      "D<sub>1</sub> and D<sub>2</sub> both are forward biased",
+      "D<sub>1</sub> and D<sub>2</sub> both are reverse biased"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1,
+    "alsoAccepted": [
+     0
+    ]
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q40",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1,2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "At t = 15 ms = 3T/4 the input is in its negative half; which diode then conducts depends on how the figure is read, and NTA accepted both (1) and (2). Usual centre-tap circuit; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2026-code-13-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two statements are given below :<br>A. When the forward bias voltage across a p-n junction diode increases above a certain threshold voltage, the diode current increases significantly.<br>B. This current is called reverse saturation current.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "Both Statements A and B are true",
+      "Both Statements A and B are false",
+      "Statement A is true, but Statement B is false",
+      "Statement A is false, but Statement B is true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q25",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-14-neet-2026-code-13-q32",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the circuit shown below, the voltage appearing across the diode D will be of the form :",
+     "o": [
+      "[graph 1: full sine wave]",
+      "[graph 2: positive humps every half cycle]",
+      "[graph 3: negative humps every half cycle]",
+      "[graph 4: positive half cycle, then zero]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q32",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "A sinusoidal source v<sub>i</sub> in series with diode D and resistor R. Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-14-neet-2026-code-13-q36",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The current I in the circuit shown below is : (All diodes are ideal and identical)",
+     "o": [
+      "1/3 A",
+      "15/2 A",
+      "5/3 A",
+      "5/9 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-14",
+    "paras": [
+     "14.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q36",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "Four parallel branches across a 10 V cell: 4 Ω and 2 Ω branches have forward-biased diodes, the 3 Ω and 5 Ω branches reverse-biased ones. Needs a redrawn figure."
+   }
+  }
+ ]
+}
