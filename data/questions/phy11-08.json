@@ -1,0 +1,490 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-08",
+ "subject": "physics",
+ "class": 11,
+ "unit": 8,
+ "title": {
+  "en": "Mechanical Properties of Solids"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph201.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "8.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "8.2",
+   "title": "Stress and Strain",
+   "pdfPage": 2
+  },
+  {
+   "id": "8.3",
+   "title": "Hooke's Law",
+   "pdfPage": 3
+  },
+  {
+   "id": "8.4",
+   "title": "Stress-Strain Curve",
+   "pdfPage": 3
+  },
+  {
+   "id": "8.5",
+   "title": "Elastic Moduli",
+   "pdfPage": 4
+  },
+  {
+   "id": "8.5.1",
+   "title": "Young's Modulus",
+   "pdfPage": 4
+  },
+  {
+   "id": "8.5.2",
+   "title": "Shear Modulus",
+   "pdfPage": 6
+  },
+  {
+   "id": "8.5.3",
+   "title": "Bulk Modulus",
+   "pdfPage": 7
+  },
+  {
+   "id": "8.5.4",
+   "title": "Poisson's Ratio",
+   "pdfPage": 8
+  },
+  {
+   "id": "8.5.5",
+   "title": "Elastic Potential Energy in a Stretched Wire",
+   "pdfPage": 8
+  },
+  {
+   "id": "8.6",
+   "title": "Applications of Elastic Behaviour of Materials",
+   "pdfPage": 8
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-08-neet-2015-re-exam-code-d-q172",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The Young's modulus of steel is twice that of brass. Two wires of same length and of same area of cross section, one of steel and another of brass are suspended from the same roof. If we want the lower ends of the wires to be at the same level, then the weights added to the steel and brass wires must be in the ratio of :",
+     "o": [
+      "2:1",
+      "4:1",
+      "1:1",
+      "1:2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-08",
+    "paras": [
+     "8.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q172",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-08-neet-2017-code-a-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The bulk modulus of a spherical object is 'B'. If it is subjected to uniform pressure 'p', the fractional decrease in radius is :",
+     "o": [
+      "p/B",
+      "B/(3p)",
+      "3p/B",
+      "p/(3B)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q32",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-08-neet-2018-code-aa-q44",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two wires are made of the same material and have the same volume. The first wire has cross-sectional area A and the second wire has cross-sectional area 3A. If the length of the first wire is increased by Δl on applying a force F, how much force is needed to stretch the second wire by the same amount?",
+     "o": [
+      "4F",
+      "6F",
+      "9F",
+      "F"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-08",
+    "paras": [
+     "8.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q44",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-08-neet-2019-code-s2-q131",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When a block of mass M is suspended by a long wire of length L, the length of the wire becomes (L + l). The elastic potential energy stored in the extended wire is :",
+     "o": [
+      "(1/2) Mgl",
+      "MgL",
+      "Mgl",
+      "(1/2) MgL"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-08",
+    "paras": [
+     "8.5.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q131",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-08-neet-2020-code-f3-q36",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A wire of length L, area of cross section A is hanging from a fixed support. The length of the wire changes to L<sub>1</sub> when mass M is suspended from its free end. The expression for Young's modulus is :",
+     "o": [
+      "MgL/(AL<sub>1</sub>)",
+      "MgL/(A(L<sub>1</sub> − L))",
+      "MgL<sub>1</sub>/(AL)",
+      "Mg(L<sub>1</sub> − L)/(AL)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-08",
+    "paras": [
+     "8.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q36",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-08-neet-2022-code-t2-q41",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements : One is labelled as Assertion (A) and the other is labelled as Reason (R).<br>Assertion (A) : The stretching of a spring is determined by the shear modulus of the material of the spring.<br>Reason (R) : A coil spring of copper has more tensile strength than a steel spring of same dimensions.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both (A) and (R) are true and (R) is not the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true",
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-08",
+    "paras": [
+     "8.5.2",
+     "8.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q41",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-08-neet-2023-topic-wise-copy-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Let a wire be suspended from the ceiling (rigid support) and stretched by a weight W attached at its free end. The longitudinal stress at any point of cross-sectional area A of the wire is :",
+     "o": [
+      "Zero",
+      "2W/A",
+      "W/A",
+      "W/(2A)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-08",
+    "paras": [
+     "8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q10",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-08-neet-2024-q34-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The maximum elongation of a steel wire of 1 m length if the elastic limit of steel and its Young's modulus, respectively, are 8 × 10<sup>8</sup> N m<sup>−2</sup> and 2 × 10<sup>11</sup> N m<sup>−2</sup>, is :",
+     "o": [
+      "4 mm",
+      "0.4 mm",
+      "40 mm",
+      "8 mm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-08",
+    "paras": [
+     "8.4",
+     "8.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q34 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-08-neet-2026-code-13-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Young's Modulus — I. (Δd/ΔL)(L/d)<br>B. Compressibility — II. FL/(A(ΔL))<br>C. Bulk Modulus — III. −(1/ΔP)(ΔV/V)<br>D. Poisson's Ratio — IV. −P(V/ΔV)<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A-III, B-II, C-I, D-IV",
+      "A-II, B-III, C-IV, D-I",
+      "A-I, B-IV, C-III, D-II",
+      "A-IV, B-I, C-II, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-08",
+    "paras": [
+     "8.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q8",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
