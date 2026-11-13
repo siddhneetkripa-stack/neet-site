@@ -426,7 +426,10 @@
   {
    "en": "Carbon dioxide",
    "hi": "कार्बन डाइऑक्साइड",
-   "source": "ncert-hi-text"
+   "source": "ncert-hi-text",
+   "variants": [
+    "कार्बनडाइऑक्साइड"
+   ]
   },
   {
    "en": "Carbon monoxide",
@@ -1610,7 +1613,10 @@
   {
    "en": "diaphragm",
    "hi": "डायाफ्रॉम",
-   "source": "ncert-hi-text class 12 biology"
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "डायाफ्राम"
+   ]
   },
   {
    "en": "barrier",
@@ -2539,7 +2545,11 @@
   {
    "en": "emphysema",
    "hi": "इंफासीमा",
-   "source": "ncert-hi-text class 12 biology"
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "एम्फाइसिमा",
+    "वातस्फीति"
+   ]
   },
   {
    "en": "antitrypsin",
@@ -4308,7 +4318,8 @@
    "source": "bio11-04",
    "variants": [
     "फेफड़ा",
-    "फेफड़े"
+    "फेफड़े",
+    "फेफड़ों"
    ]
   },
   {
@@ -5621,6 +5632,174 @@
    "en": "deep water rice",
    "hi": "गहरे पानी के धान",
    "source": "bio11-13"
+  },
+  {
+   "en": "alveoli",
+   "hi": "कूपिका",
+   "source": "bio11-14"
+  },
+  {
+   "en": "asthma",
+   "hi": "दमा",
+   "source": "bio11-14"
+  },
+  {
+   "en": "bronchi",
+   "hi": "श्वसनी",
+   "source": "bio11-14"
+  },
+  {
+   "en": "bronchioles",
+   "hi": "श्वसनिका",
+   "source": "bio11-14"
+  },
+  {
+   "en": "tidal volume",
+   "hi": "ज्वारीय आयतन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "inspiratory reserve volume",
+   "hi": "अंतःश्वसन सुरक्षित आयतन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "expiratory reserve volume",
+   "hi": "निःश्वसन सुरक्षित आयतन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "residual volume",
+   "hi": "अवशिष्ट आयतन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "inspiratory capacity",
+   "hi": "अंतःश्वसन क्षमता",
+   "source": "bio11-14"
+  },
+  {
+   "en": "expiratory capacity",
+   "hi": "निःश्वसन क्षमता",
+   "source": "bio11-14"
+  },
+  {
+   "en": "functional residual capacity",
+   "hi": "क्रियाशील अवशिष्ट क्षमता",
+   "source": "bio11-14"
+  },
+  {
+   "en": "vital capacity",
+   "hi": "जैव क्षमता",
+   "source": "bio11-14"
+  },
+  {
+   "en": "total lung capacity",
+   "hi": "फेफड़ों की कुल क्षमता",
+   "source": "bio11-14"
+  },
+  {
+   "en": "partial pressure",
+   "hi": "आंशिक दाब",
+   "source": "bio11-14"
+  },
+  {
+   "en": "oxyhaemoglobin",
+   "hi": "ऑक्सीहीमोग्लोबिन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "external intercostal muscles",
+   "hi": "बाह्य अंतरापर्शुक",
+   "source": "bio11-14"
+  },
+  {
+   "en": "pleura",
+   "hi": "फुप्फुसावरण",
+   "source": "bio11-14"
+  },
+  {
+   "en": "conducting part",
+   "hi": "चालन भाग",
+   "source": "bio11-14"
+  },
+  {
+   "en": "exchange part",
+   "hi": "विनिमय भाग",
+   "source": "bio11-14"
+  },
+  {
+   "en": "occupational respiratory disorder",
+   "hi": "व्यावसायिक श्वसन रोग",
+   "source": "bio11-14"
+  },
+  {
+   "en": "inflammation",
+   "hi": "शोथ",
+   "source": "bio11-14"
+  },
+  {
+   "en": "pulmonary ventilation",
+   "hi": "फुप्फुसी संवातन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "inspiration",
+   "hi": "अंतःश्वसन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "expiration",
+   "hi": "निःश्वसन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "intra-pulmonary pressure",
+   "hi": "आंतर फुप्फुसी दाब",
+   "source": "bio11-14"
+  },
+  {
+   "en": "tetany",
+   "hi": "अपतानिका",
+   "source": "bio11-14"
+  },
+  {
+   "en": "angina",
+   "hi": "हृदशूल",
+   "source": "bio11-14"
+  },
+  {
+   "en": "dissociation",
+   "hi": "वियोजन",
+   "source": "bio11-14",
+   "check": false
+  },
+  {
+   "en": "fibrosis",
+   "hi": "रेशामयता",
+   "source": "bio11-14",
+   "check": false,
+   "note": "cystic fibrosis (disease name) is transliterated"
+  },
+  {
+   "en": "smoking",
+   "hi": "धूम्रपान",
+   "source": "bio11-14"
+  },
+  {
+   "en": "cellular respiration",
+   "hi": "कोशिकीय श्वसन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "mast cells",
+   "hi": "मास्ट कोशिका",
+   "source": "bio11-14"
+  },
+  {
+   "en": "wheezing",
+   "hi": "घरघराहट",
+   "source": "bio11-14"
   }
  ],
  "noNcertTerm": [
@@ -6543,6 +6722,41 @@
    "en": "lettuce hypocotyl",
    "hi_used": "लेट्यूस बीजपत्राधार",
    "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "intrapleural pressure",
+   "hi_used": "अंतराफुप्फुसावरणी दाब",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "glomerulonephritis",
+   "hi_used": "ग्लोमेरुलस शोथ (glomerulonephritis)",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "silicosis / botulism / anthrax",
+   "hi_used": "सिलिकोसिस / बोटुलिज्म / एंथ्रेक्स",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "respiratory acidosis / alkalosis",
+   "hi_used": "श्वसन अम्लरक्तता / क्षाररक्तता",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "pneumonia / pleurisy",
+   "hi_used": "न्यूमोनिया / प्लूरिसी",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "surfactant / pneumocytes",
+   "hi_used": "पृष्ठसक्रियक / न्यूमोसाइट",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "Bohr effect",
+   "hi_used": "बोर प्रभाव",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
   }
  ]
 }
