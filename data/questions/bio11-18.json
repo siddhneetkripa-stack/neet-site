@@ -1,0 +1,949 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-18",
+ "subject": "biology",
+ "class": 11,
+ "unit": 18,
+ "title": {
+  "en": "Neural Control and Coordination"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo118.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "18.1",
+   "title": "Neural System",
+   "hi": "तंत्रिकीय तंत्र",
+   "pdfPage": 2
+  },
+  {
+   "id": "18.2",
+   "title": "Human Neural System",
+   "hi": "मानव का तंत्रिकीय तंत्र",
+   "pdfPage": 2
+  },
+  {
+   "id": "18.3",
+   "title": "Neuron as Structural and Functional Unit of Neural System",
+   "hi": "तंत्रिकोशिका (न्यूरॉन) तंत्रिका तंत्र की संरचनात्मक एवं",
+   "pdfPage": 2
+  },
+  {
+   "id": "18.3.1",
+   "title": "Generation and Conduction of Nerve Impulse",
+   "hi": "तंत्रिका आवेगों की उत्पत्ति व संचरण",
+   "pdfPage": 3
+  },
+  {
+   "id": "18.3.2",
+   "title": "Transmission of Impulses",
+   "hi": "आवेगों का संचरण",
+   "pdfPage": 5
+  },
+  {
+   "id": "18.4",
+   "title": "Central Neural System",
+   "hi": "केंद्रीय तंत्रिका तंत्र - मानव मस्तिष्क",
+   "pdfPage": 6
+  },
+  {
+   "id": "18.4.1",
+   "title": "Forebrain",
+   "hi": "अग्र मस्तिष्क",
+   "pdfPage": 7
+  },
+  {
+   "id": "18.4.2",
+   "title": "Midbrain",
+   "hi": "मध्य मस्तिष्क",
+   "pdfPage": 7
+  },
+  {
+   "id": "18.4.3",
+   "title": "Hindbrain",
+   "hi": "पश्च मस्तिष्क",
+   "pdfPage": 7
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-18-neet-2015-re-exam-code-d-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In mammalian eye, the ‘fovea’ is the center of the visual field, where :",
+     "o": [
+      "The optic nerve leaves the eye",
+      "Only rods are present",
+      "More rods than cones are found",
+      "High density of cones occur, but has no rods"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 21 · Sensory reception: the eye"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q9",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-18-neet-2015-re-exam-code-d-q70",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Destruction of the anterior horn cells of the spinal cord would result in loss of :",
+     "o": [
+      "Voluntary motor impulses",
+      "Commissural impulses",
+      "Integrating impulses",
+      "Sensory impulses"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q70",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)",
+    "note": "Anterior (ventral) horn of the spinal cord is not described in NCERT."
+   }
+  },
+  {
+   "id": "bio11-18-neet-2016-phase-1-code-a-q104",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Photosensitive compound in human eye is made up of:",
+     "o": [
+      "Guanosine and Retinol",
+      "Opsin and Retinal",
+      "Opsin and Retinol",
+      "Guanosine and Retinol"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 21 · The eye: photopigment (rhodopsin)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q104",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio11-18-neet-2016-phase-2-code-aa-q149",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Choose the correct statements.",
+     "o": [
+      "Nociceptors respond to changes in pressure",
+      "Meissner's corpuscles are thermoreceptors",
+      "Photoreceptors in the human eye are depolarised during darkness and become hyperpolarised in response to the light stimulus",
+      "Receptors do not produce graded potentials"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 21 · Sensory reception (receptors, the eye)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q149",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-18-neet-2017-code-a-q152",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Good vision depends on adequate intake of carotene rich food. Select the best option from the following statements :<br>(a) Vitamin A derivatives are formed from carotene<br>(b) The photopigments are embedded in the membrane discs of the inner segment<br>(c) Retinal is a derivative of vitamin A<br>(d) Retinal is a light absorbing part of all the visual photopigments",
+     "o": [
+      "(a) & (b)",
+      "(a), (c) & (d)",
+      "(a) & (c)",
+      "(b), (c) & (d)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 21 · The eye: photopigments"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q152",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-18-neet-2017-code-a-q168",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Receptor sites for neurotransmitters are present on",
+     "o": [
+      "Membranes of synaptic vesicles",
+      "Pre-synaptic membrane",
+      "Tips of axons",
+      "Post-synaptic membrane"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q168",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-18-neet-2017-code-a-q171",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Myelin sheath is produced by",
+     "o": [
+      "Schwann Cells and Oligodendrocytes",
+      "Astrocytes and Schwann Cells",
+      "Oligodendrocytes and Osteoclasts",
+      "Osteoclasts and Astrocytes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q171",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)",
+    "note": "NCERT names Schwann cells; oligodendrocytes are beyond NCERT."
+   }
+  },
+  {
+   "id": "bio11-18-neet-2018-code-aa-q139",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The transparent lens in the human eye is held in its place by :",
+     "o": [
+      "smooth muscles attached to the iris",
+      "ligaments attached to the iris",
+      "ligaments attached to the ciliary body",
+      "smooth muscles attached to the ciliary body"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 21 · The eye"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q139",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-18-neet-2018-code-aa-q142",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following structures or regions is incorrectly paired with its function?",
+     "o": [
+      "Hypothalamus : production of releasing hormones and regulation of temperature, hunger and thirst.",
+      "Limbic system : consists of fibre tracts that interconnect different regions of brain; controls movement.",
+      "Medulla oblongata : controls respiration and cardiovascular reflexes.",
+      "Corpus callosum : band of fibers connecting left and right cerebral hemispheres."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.4.1",
+     "18.4.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Chemical Coordination and Integration"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q142",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-18-neet-2018-code-aa-q169",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Nissl bodies are mainly composed of :",
+     "o": [
+      "Nucleic acids and SER",
+      "DNA and RNA",
+      "Proteins and lipids",
+      "Free ribosomes and RER"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q169",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-18-neet-2019-code-s2-q57",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which part of the brain is responsible for thermoregulation?",
+     "o": [
+      "Corpus callosum",
+      "Medulla oblongata",
+      "Cerebrum",
+      "Hypothalamus"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q57",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-18-neet-2019-code-s2-q88",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is correct?",
+     "o": [
+      "Cornea is convex, transparent layer which is highly vascularised.",
+      "Cornea consists of dense matrix of collagen and is the most sensitive portion of the eye.",
+      "Cornea is an external, transparent and protective proteinaceous covering of the eye-ball.",
+      "Cornea consists of dense connective tissue of elastin and can repair itself."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 21 · The eye: cornea"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q88",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)",
+    "note": "The copy prints (3)."
+   }
+  },
+  {
+   "id": "bio11-18-neet-2020-code-f3-q111",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following columns and select the correct option :<br>(a) Organ of Corti — (i) Connects middle ear and pharynx<br>(b) Cochlea — (ii) Coiled part of the labyrinth<br>(c) Eustachian tube — (iii) Attached to the oval window<br>(d) Stapes — (iv) Located on the basilar membrane",
+     "o": [
+      "(a) iv, (b) ii, (c) i, (d) iii",
+      "(a) i, (b) ii, (c) iv, (d) iii",
+      "(a) ii, (b) iii, (c) i, (d) iv",
+      "(a) iii, (b) i, (c) iv, (d) ii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 21 · The ear"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q111",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-18-neet-2022-code-t2-q187",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the incorrect statement regarding synapses:",
+     "o": [
+      "Electrical current can flow directly from one neuron into the other across the electrical synapse.",
+      "Chemical synapses use neurotransmitters",
+      "Impulse transmission across a chemical synapse is always faster than that across an electrical synapse.",
+      "The membranes of presynaptic and postsynaptic neurons are in close proximity in an electrical synapse."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q187",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-18-neet-2023-topic-wise-copy-q64",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II with respect to human eye :<br>(A) Fovea — (I) Visible coloured portion of eye that regulates diameter of pupil<br>(B) Iris — (II) External layer of eye formed of dense connective tissue<br>(C) Blind spot — (III) Point of greatest visual acuity or resolution<br>(D) Sclera — (IV) Point where optic nerve leaves the eyeball and photoreceptor cells are absent",
+     "o": [
+      "A-II, B-I, C-III, D-IV",
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-III, C-II, D-I",
+      "A-I, B-IV, C-III, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 21 · The eye"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q64",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-18-neet-2023-topic-wise-copy-q96",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The parts of human brain that help in regulation of sexual behaviour, expression of excitement, pleasure, rage, fear etc. are :",
+     "o": [
+      "Corpus callosum and thalamus",
+      "Limbic system & hypothalamus",
+      "Corpora quadrigemina & hippocampus",
+      "Brain stem & epithalamus"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q96",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-18-neet-2024-q125-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: The cerebral hemispheres are connected by nerve tract known as corpus callosum.<br>Statement II: The brain stem consists of the medulla oblongata, pons and cerebrum.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are correct.",
+      "Both Statement I and Statement II are incorrect.",
+      "Statement I is correct but Statement II is incorrect.",
+      "Statement I is incorrect but Statement II is correct."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q125 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-18-neet-2024-q126-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Pons — I. Provides additional space for neurons, regulates posture and balance<br>B. Hypothalamus — II. Controls respiration and gastric secretions<br>C. Medulla — III. Connects different regions of the brain<br>D. Cerebellum — IV. Neurosecretory cells",
+     "o": [
+      "A-III, B-IV, C-II, D-I",
+      "A-II, B-III, C-I, D-IV",
+      "A-I, B-III, C-II, D-IV",
+      "A-III, B-I, C-II, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.4.1",
+     "18.4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q126 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-18-neet-2026-q142-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The specific receptors for neurotransmitters in a synapse are present on ___.",
+     "o": [
+      "Pre-synaptic membrane",
+      "Post-synaptic membrane",
+      "Myelin sheath",
+      "Schwann cell"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q142 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q179."
+   }
+  }
+ ]
+}
