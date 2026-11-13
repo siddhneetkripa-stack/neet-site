@@ -2710,7 +2710,7 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "The total number of aromatic compounds/species from the following is: [structures drawn in the paper] p-benzoquinone, tropylium cation, phenanthrene, 1,2-dihydronaphthalene, cyclobutadienyl dication, cyclohexadienyl anion",
+     "q": "The total number of species from the following in which every ring is aromatic is: [structures drawn in the paper] p-benzoquinone, tropylium cation, phenanthrene, 1,2-dihydronaphthalene, cyclobutadienyl dication, cyclohexadienyl anion",
      "o": [
       "6",
       "4",
@@ -2748,7 +2748,7 @@
    "review": {
     "keyCheck": "Official NTA final key (Question ID 691121589, option ID 6911212010): option 3 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
-    "note": "Diagram question: needs redrawn structures. NTA's answer is 3; check which three species the drawings intend (the count depends on whether the dihydronaphthalene and the cyclobutadienyl dication are counted)."
+    "note": "Reworded from the original paper to remove an ambiguity: the paper asks for “aromatic compounds/species”; whether 1,2-dihydronaphthalene (one benzene ring) counts was unclear. Asking for species in which every ring is aromatic gives tropylium, phenanthrene and the cyclobutadienyl dication = 3, NTA's answer. Needs redrawn structures."
    }
   },
   {

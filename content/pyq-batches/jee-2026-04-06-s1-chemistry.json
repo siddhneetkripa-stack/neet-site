@@ -153,7 +153,7 @@
    "2.4.2"
   ],
   "type": "single",
-  "q": "Consider the following data: Λ°<sub>m</sub> (S cm<sup>2</sup> mol<sup>−1</sup>) of BaCl<sub>2</sub> = x<sub>1</sub>, H<sub>2</sub>SO<sub>4</sub> = x<sub>2</sub>, HCl = x<sub>3</sub>.<br>BaSO<sub>4</sub> is sparingly soluble in water. If the conductivity of the saturated BaSO<sub>4</sub> solution is x S cm<sup>−1</sup> then the solubility product of BaSO<sub>4</sub> can be given as<br>(Here Λ<sub>m</sub> = αΛ°<sub>m</sub>)",
+  "q": "Consider the following data: Λ°<sub>m</sub> (S cm<sup>2</sup> mol<sup>−1</sup>) of BaCl<sub>2</sub> = x<sub>1</sub>, H<sub>2</sub>SO<sub>4</sub> = x<sub>2</sub>, HCl = x<sub>3</sub>.<br>BaSO<sub>4</sub> is sparingly soluble in water. If the conductivity of the saturated BaSO<sub>4</sub> solution is x S cm<sup>−1</sup> then the solubility product of BaSO<sub>4</sub> can be given as<br>(Take Λ<sub>m</sub> = αΛ°<sub>m</sub>, where α is the degree of dissociation of the dissolved BaSO<sub>4</sub>)",
   "o": [
    "10<sup>6</sup>x<sup>2</sup> / [α<sup>2</sup>(x<sub>1</sub> + x<sub>2</sub> − 2x<sub>3</sub>)<sup>2</sup>]",
    "x<sup>2</sup> / (x<sub>1</sub> + x<sub>2</sub> − 2x<sub>3</sub>)<sup>2</sup>",
@@ -167,7 +167,7 @@
   "paper": "2026-04-06-shift-1 Q58",
   "session": "6 Apr 2026 · Shift 1",
   "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
-  "note": "The paper's note reads “Here Λ<sub>m</sub> = αΛ°<sub>m</sub>” (the image is unclear between = and αΛ°); NTA's answer keeps α in the expression.",
+  "note": "Reworded from the original paper to remove an ambiguity: the paper's note on Λ<sub>m</sub> is unclear in the image; stating Λ<sub>m</sub> = αΛ°<sub>m</sub> makes NTA's answer (with α) the only correct option.",
   "other": [
    "Class 11 · Equilibrium (solubility product)"
   ]
@@ -354,7 +354,7 @@
    "7.4.4"
   ],
   "type": "diagram",
-  "q": "Consider the following sequence of reactions: (CH<sub>3</sub>)<sub>3</sub>C–OH —(i) Cu/573 K (ii) H<sup>+</sup>, PhCOOH→ P.<br>The major product P is: [options drawn as structures]",
+  "q": "Consider the following sequence of reactions: (CH<sub>3</sub>)<sub>3</sub>C–OH —(i) Cu/573 K (ii) H<sup>+</sup>, PhCOOH→ P. In step (ii) the carbocation formed from the product of step (i) substitutes into the aromatic ring of benzoic acid.<br>The major product P is: [options drawn as structures]",
   "o": [
    "4-tert-butylbenzoic acid",
    "3-tert-butylbenzoic acid",
@@ -368,7 +368,7 @@
   "paper": "2026-04-06-shift-1 Q67",
   "session": "6 Apr 2026 · Shift 1",
   "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
-  "note": "Diagram question: options are structures (named here). NTA's answer (2): Cu/573 K dehydrates the tertiary alcohol to 2-methylpropene, whose tert-butyl cation then alkylates the ring of benzoic acid at the meta position. Needs redrawn figures before it goes live."
+  "note": "Reworded from the original paper to remove an ambiguity: the sentence on what the carbocation attacks was added (the original leaves open whether the ester forms). Diagram question: options are structures (named here). NTA's answer (2): Cu/573 K dehydrates the tertiary alcohol to 2-methylpropene, whose tert-butyl cation then alkylates the ring of benzoic acid at the meta position. Needs redrawn figures before it goes live."
  },
  {
   "ch": "chem12-09",
@@ -442,7 +442,7 @@
    "3.7.1"
   ],
   "type": "numerical",
-  "q": "First and second ionization enthalpies of lithium are 520 kJ mol<sup>−1</sup> and 7297 kJ mol<sup>−1</sup> respectively. Energy required to convert 3.5 mg lithium (g) into Li<sup>2+</sup>(g) [Li(g) → Li<sup>2+</sup>(g)] is ________ kJ mol<sup>−1</sup>. (nearest integer)<br>[Molar mass of Li = 7 g mol<sup>−1</sup>]",
+  "q": "First and second ionization enthalpies of lithium are 520 kJ mol<sup>−1</sup> and 7297 kJ mol<sup>−1</sup> respectively. Energy required to convert 3.5 mg lithium (g) into Li<sup>2+</sup>(g) [Li(g) → Li<sup>2+</sup>(g)] is ________ kJ. (nearest integer)<br>[Molar mass of Li = 7 g mol<sup>−1</sup>]",
   "ans": 4,
   "key": "Official NTA final key (Question ID 6952782206): 4; matches our solving",
   "year": 2026,
@@ -450,7 +450,7 @@
   "paper": "2026-04-06-shift-1 Q71",
   "session": "6 Apr 2026 · Shift 1",
   "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
-  "note": "The unit is printed as kJ mol<sup>−1</sup>; the quantity asked (energy for 3.5 mg) is in kJ: 5 × 10<sup>−4</sup> mol × 7817 kJ mol<sup>−1</sup> = 3.9 kJ."
+  "note": "Reworded from the original paper to remove an ambiguity: the paper prints the unit as kJ mol<sup>−1</sup>; the energy for 3.5 mg is in kJ (5 × 10<sup>−4</sup> mol × 7817 kJ mol<sup>−1</sup> = 3.9 kJ)."
  },
  {
   "ch": "chem12-09",

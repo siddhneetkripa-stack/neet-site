@@ -1746,7 +1746,7 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "Consider the following data: Λ°<sub>m</sub> (S cm<sup>2</sup> mol<sup>−1</sup>) of BaCl<sub>2</sub> = x<sub>1</sub>, H<sub>2</sub>SO<sub>4</sub> = x<sub>2</sub>, HCl = x<sub>3</sub>.<br>BaSO<sub>4</sub> is sparingly soluble in water. If the conductivity of the saturated BaSO<sub>4</sub> solution is x S cm<sup>−1</sup> then the solubility product of BaSO<sub>4</sub> can be given as<br>(Here Λ<sub>m</sub> = αΛ°<sub>m</sub>)",
+     "q": "Consider the following data: Λ°<sub>m</sub> (S cm<sup>2</sup> mol<sup>−1</sup>) of BaCl<sub>2</sub> = x<sub>1</sub>, H<sub>2</sub>SO<sub>4</sub> = x<sub>2</sub>, HCl = x<sub>3</sub>.<br>BaSO<sub>4</sub> is sparingly soluble in water. If the conductivity of the saturated BaSO<sub>4</sub> solution is x S cm<sup>−1</sup> then the solubility product of BaSO<sub>4</sub> can be given as<br>(Take Λ<sub>m</sub> = αΛ°<sub>m</sub>, where α is the degree of dissociation of the dissolved BaSO<sub>4</sub>)",
      "o": [
       "10<sup>6</sup>x<sup>2</sup> / [α<sup>2</sup>(x<sub>1</sub> + x<sub>2</sub> − 2x<sub>3</sub>)<sup>2</sup>]",
       "x<sup>2</sup> / (x<sub>1</sub> + x<sub>2</sub> − 2x<sub>3</sub>)<sup>2</sup>",
@@ -1787,7 +1787,7 @@
    "review": {
     "keyCheck": "Official NTA final key (Question ID 6952782193, option ID 6952787694): option 1 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
-    "note": "The paper's note reads “Here Λ<sub>m</sub> = αΛ°<sub>m</sub>” (the image is unclear between = and αΛ°); NTA's answer keeps α in the expression."
+    "note": "Reworded from the original paper to remove an ambiguity: the paper's note on Λ<sub>m</sub> is unclear in the image; stating Λ<sub>m</sub> = αΛ°<sub>m</sub> makes NTA's answer (with α) the only correct option."
    }
   },
   {

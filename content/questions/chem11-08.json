@@ -2170,7 +2170,7 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "Given below are two statements :<br>Statement (I) : 1,2,3-Trihydroxypropane can be separated from water by simple distillation.<br>Statement (II) : An azeotropic mixture cannot be separated by fractional distillation.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "q": "Given below are two statements :<br>Statement (I) : 1,2,3-Trihydroxypropane can be purified by simple distillation at atmospheric pressure without decomposition.<br>Statement (II) : An azeotropic mixture cannot be separated by fractional distillation.<br>In the light of the above statements, choose the correct answer from the options given below :",
      "o": [
       "Both Statement I and Statement II are true",
       "Both Statement I and Statement II are false",
@@ -2211,7 +2211,7 @@
    "review": {
     "keyCheck": "Official NTA final key (Question ID 69112163, option ID 691121222): option 4 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
-    "note": "NTA treats Statement I as false (glycerol decomposes at its boiling point; NCERT 8.8.3 purifies it by distillation under reduced pressure). Azeotropes: Class 12 Solutions 1.5.2."
+    "note": "Reworded from the original paper to remove an ambiguity: the paper's Statement I (‘can be separated from water by simple distillation’) is arguable; NTA marks it false because glycerol decomposes at its boiling point (NCERT 8.8.3: distillation under reduced pressure). Azeotropes: Class 12 Solutions 1.5.2."
    }
   },
   {
@@ -2636,7 +2636,7 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "In an estimation of sulphur by Carius method 0.2 g of the substance gave 0.6 g of BaSO<sub>4</sub>. The percentage of sulphur in the substance is ________%.<br>(Given molar mass in g mol<sup>−1</sup> S : 32, BaSO<sub>4</sub> : 231)"
+     "q": "In an estimation of sulphur by Carius method 0.2 g of the substance gave 0.6 g of BaSO<sub>4</sub>. The percentage of sulphur in the substance is ________%.<br>(Given molar mass in g mol<sup>−1</sup> S : 32, BaSO<sub>4</sub> : 233)"
     },
     "hi": {
      "status": "missing"
@@ -2669,7 +2669,7 @@
    "review": {
     "keyCheck": "Official NTA final key (Question ID 695278372): 41; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
-    "note": "<p class='errata'>With the data as printed, % S = (32/231) × (0.6/0.2) × 100 = 41.6%, which rounds to 42; the official NTA key gives 41 (truncated). BaSO<sub>4</sub> is 233 g mol<sup>−1</sup>, not 231 (with 233: 41.2%).</p>"
+    "note": "Reworded from the original paper to remove an ambiguity: the paper gives BaSO<sub>4</sub> = 231 g mol<sup>−1</sup>, which makes the answer 41.6 (nearest integer 42) against NTA's key of 41. With the true molar mass 233 the answer is 41.2 → 41, matching the key."
    }
   },
   {

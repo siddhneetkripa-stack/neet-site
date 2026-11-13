@@ -2355,7 +2355,7 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "The covalent radii of atoms A and B are r<sub>A</sub> and r<sub>B</sub>, respectively. The covalent bond length and total length of AB molecule are respectively",
+     "q": "The covalent radii of atoms A and B are r<sub>A</sub> and r<sub>B</sub>, respectively. Taking each atom as a sphere of its covalent radius, the covalent bond length (distance between the nuclei) and the total end-to-end length of the AB molecule are respectively",
      "o": [
       "(r<sub>A</sub> + r<sub>B</sub>), 2(r<sub>A</sub> + r<sub>B</sub>)",
       "½(r<sub>A</sub> + r<sub>B</sub>), (r<sub>A</sub> + r<sub>B</sub>)",
@@ -2393,7 +2393,7 @@
    "review": {
     "keyCheck": "Official NTA final key (Question ID 691121503, option ID 6911211709): option 1 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
-    "note": "NTA's answer treats the molecule's total length as the bond length plus the van der Waals-like extent of both atoms, 2(r<sub>A</sub> + r<sub>B</sub>); NCERT 4.3.1 only defines the bond length."
+    "note": "Reworded from the original paper to remove an ambiguity: the paper does not say how the ‘total length’ is measured; the added model (atoms as spheres of their covalent radii) gives r<sub>A</sub> + r<sub>B</sub> + r<sub>A</sub> + r<sub>B</sub> = 2(r<sub>A</sub> + r<sub>B</sub>), NTA's answer."
    }
   },
   {

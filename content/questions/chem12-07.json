@@ -1418,7 +1418,7 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "Amongst the following, the total number of compounds soluble in aqueous NaOH at room temperature is: [nine structures drawn in the paper] (I) benzaldehyde (II) 2-naphthol (III) 4-(N,N-dimethylamino)phenol (IV) 4-methylphenol (V) benzoic acid (VI) N,N-dimethylcyclohexylamine (VII) a naphthoic acid (VIII) 1,4-di-tert-butylbenzene (IX) a naphthalene with an –OH-bearing side chain",
+     "q": "Amongst the following, the total number of compounds soluble in aqueous NaOH at room temperature is: [nine structures drawn in the paper] (I) benzaldehyde (II) 2-naphthol (III) 4-(N,N-dimethylamino)phenol (IV) 4-methylphenol (V) benzoic acid (VI) N,N-dimethylcyclohexylamine (VII) a naphthoic acid (VIII) 1,4-di-tert-butylbenzene (IX) 2-naphthylmethanol (C<sub>10</sub>H<sub>7</sub>CH<sub>2</sub>OH)",
      "o": [
       "5",
       "4",
@@ -1460,7 +1460,7 @@
    "review": {
     "keyCheck": "Official NTA final key (Question ID 695278291, option ID 695278996): option 1 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
-    "note": "Diagram question: needs redrawn structures. NTA's answer (5) counts II, III, IV, V and VII, so structure IX must be read as an alcohol (–CH<sub>2</sub>OH on naphthalene), not a naphthol; check against the paper's drawing when redrawing."
+    "note": "Reworded from the original paper to remove an ambiguity: structure IX is named as the alcohol (–CH<sub>2</sub>OH on naphthalene); a naphthol there would make the answer 6. NTA's answer (5) counts II, III, IV, V and VII. Needs redrawn structures."
    }
   },
   {
@@ -1559,7 +1559,7 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "Consider the following sequence of reactions: (CH<sub>3</sub>)<sub>3</sub>C–OH —(i) Cu/573 K (ii) H<sup>+</sup>, PhCOOH→ P.<br>The major product P is: [options drawn as structures]",
+     "q": "Consider the following sequence of reactions: (CH<sub>3</sub>)<sub>3</sub>C–OH —(i) Cu/573 K (ii) H<sup>+</sup>, PhCOOH→ P. In step (ii) the carbocation formed from the product of step (i) substitutes into the aromatic ring of benzoic acid.<br>The major product P is: [options drawn as structures]",
      "o": [
       "4-tert-butylbenzoic acid",
       "3-tert-butylbenzoic acid",
@@ -1597,7 +1597,7 @@
    "review": {
     "keyCheck": "Official NTA final key (Question ID 6952782202, option ID 6952787731): option 2 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
-    "note": "Diagram question: options are structures (named here). NTA's answer (2): Cu/573 K dehydrates the tertiary alcohol to 2-methylpropene, whose tert-butyl cation then alkylates the ring of benzoic acid at the meta position. Needs redrawn figures before it goes live."
+    "note": "Reworded from the original paper to remove an ambiguity: the sentence on what the carbocation attacks was added (the original leaves open whether the ester forms). Diagram question: options are structures (named here). NTA's answer (2): Cu/573 K dehydrates the tertiary alcohol to 2-methylpropene, whose tert-butyl cation then alkylates the ring of benzoic acid at the meta position. Needs redrawn figures before it goes live."
    }
   },
   {
