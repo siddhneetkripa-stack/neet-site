@@ -1,0 +1,1041 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-09",
+ "subject": "physics",
+ "class": 11,
+ "unit": 9,
+ "title": {
+  "en": "Mechanical Properties of Fluids"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph202.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "9.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "9.2",
+   "title": "Pressure",
+   "hi": "दाब",
+   "pdfPage": 1
+  },
+  {
+   "id": "9.2.1",
+   "title": "Pascal's Law",
+   "pdfPage": 3
+  },
+  {
+   "id": "9.2.2",
+   "title": "Variation of Pressure with Depth",
+   "pdfPage": 3
+  },
+  {
+   "id": "9.2.3",
+   "title": "Atmospheric Pressure and Gauge Pressure",
+   "pdfPage": 4
+  },
+  {
+   "id": "9.2.4",
+   "title": "Hydraulic Machines",
+   "pdfPage": 6
+  },
+  {
+   "id": "9.3",
+   "title": "Streamline Flow",
+   "pdfPage": 7
+  },
+  {
+   "id": "9.4",
+   "title": "Bernoulli's Principle",
+   "pdfPage": 8
+  },
+  {
+   "id": "9.4.1",
+   "title": "Speed of Efflux: Torricelli's Law",
+   "pdfPage": 9
+  },
+  {
+   "id": "9.4.2",
+   "title": "Dynamic Lift",
+   "pdfPage": 10
+  },
+  {
+   "id": "9.5",
+   "title": "Viscosity",
+   "pdfPage": 11
+  },
+  {
+   "id": "9.5.1",
+   "title": "Stokes' Law",
+   "pdfPage": 13
+  },
+  {
+   "id": "9.6",
+   "title": "Surface Tension",
+   "pdfPage": 13
+  },
+  {
+   "id": "9.6.1",
+   "title": "Surface Energy",
+   "pdfPage": 14
+  },
+  {
+   "id": "9.6.2",
+   "title": "Surface Energy and Surface Tension",
+   "pdfPage": 14
+  },
+  {
+   "id": "9.6.3",
+   "title": "Angle of Contact",
+   "pdfPage": 16
+  },
+  {
+   "id": "9.6.4",
+   "title": "Drops and Bubbles",
+   "pdfPage": 17
+  },
+  {
+   "id": "9.6.5",
+   "title": "Capillary Rise",
+   "pdfPage": 17
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-09-neet-2015-re-exam-code-d-q170",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Water rises to a height 'h' in capillary tube. If the length of capillary tube above the surface of water is made less than 'h', then :",
+     "o": [
+      "Water rises upto the top of capillary tube and stays there without overflowing",
+      "Water rises upto a point a little below the top and stays there",
+      "Water does not rise at all",
+      "Water rises upto the tip of capillary tube and then starts overflowing like a fountain"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.6.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q170",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-09-neet-2015-re-exam-code-d-q175",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The heart of a man pumps 5 litres of blood through the arteries per minute at a pressure of 150 mm of mercury. If the density of mercury be 13.6 × 10<sup>3</sup> kg/m<sup>3</sup> and g = 10 m/s<sup>2</sup> then the power of heart in watt is :",
+     "o": [
+      "2.35",
+      "3.0",
+      "1.50",
+      "1.70"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q175",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
+    "note": "P = ρgh × Q = 13.6 × 10<sup>3</sup> × 10 × 0.15 × (5 × 10<sup>−3</sup>/60) ≈ 1.70 W."
+   }
+  },
+  {
+   "id": "phy11-09-neet-2015-re-exam-code-d-q178",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The cylindrical tube of a spray pump has radius R, one end of which has n fine holes, each of radius r. If the speed of the liquid in the tube is V, the speed of the ejection of the liquid through the holes is :",
+     "o": [
+      "VR<sup>2</sup>/(nr<sup>2</sup>)",
+      "VR<sup>2</sup>/(n<sup>3</sup>r<sup>2</sup>)",
+      "V<sup>2</sup>R/(nr)",
+      "VR<sup>2</sup>/(n<sup>2</sup>r<sup>2</sup>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q178",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-09-neet-2016-phase-1-code-a-q33",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two non-mixing liquids of densities ρ and nρ (n > 1) are put in a container. The height of each liquid is h. A solid cylinder of length L and density d is put in this container. The cylinder floats with its axis vertical and length pL (p < 1) in the denser liquid. The density d is equal to :",
+     "o": [
+      "{1 + (n + 1)p}ρ",
+      "{2 + (n + 1)p}ρ",
+      "{2 + (n − 1)p}ρ",
+      "{1 + (n − 1)p}ρ"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q33",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Buoyancy (Archimedes' principle) is not described in the rationalised NCERT chapter; balance of forces gives d = {1 + (n − 1)p}ρ."
+   }
+  },
+  {
+   "id": "phy11-09-neet-2016-phase-2-code-aa-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A rectangular film of liquid is extended from (4 cm × 2 cm) to (5 cm × 4 cm). If the work done is 3 × 10<sup>−4</sup> J, the value of the surface tension of the liquid is :",
+     "o": [
+      "0.250 N m<sup>−1</sup>",
+      "0.125 N m<sup>−1</sup>",
+      "0.2 N m<sup>−1</sup>",
+      "8.0 N m<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q13",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-09-neet-2016-phase-2-code-aa-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Three liquids of densities ρ<sub>1</sub>, ρ<sub>2</sub> and ρ<sub>3</sub> (with ρ<sub>1</sub> > ρ<sub>2</sub> > ρ<sub>3</sub>), having the same value of surface tension T, rise to the same height in three identical capillaries. The angles of contact θ<sub>1</sub>, θ<sub>2</sub> and θ<sub>3</sub> obey :",
+     "o": [
+      "π/2 > θ<sub>1</sub> > θ<sub>2</sub> > θ<sub>3</sub> ≥ 0",
+      "0 ≤ θ<sub>1</sub> < θ<sub>2</sub> < θ<sub>3</sub> < π/2",
+      "π/2 < θ<sub>1</sub> < θ<sub>2</sub> < θ<sub>3</sub> < π",
+      "π > θ<sub>1</sub> > θ<sub>2</sub> > θ<sub>3</sub> > π/2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.6.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q14",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-09-neet-2017-code-a-q4",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A U tube with both ends open to the atmosphere, is partially filled with water. Oil, which is immiscible with water, is poured into one side until it stands at a distance of 10 mm above the water level on the other side. Meanwhile the water rises by 65 mm from its original level (see diagram). The density of the oil is :",
+     "o": [
+      "650 kg m<sup>−3</sup>",
+      "425 kg m<sup>−3</sup>",
+      "800 kg m<sup>−3</sup>",
+      "928 kg m<sup>−3</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q4",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "140 ρ<sub>oil</sub> = 130 ρ<sub>water</sub>, ρ<sub>oil</sub> ≈ 928 kg m<sup>−3</sup>. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-09-neet-2018-code-aa-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A small sphere of radius 'r' falls from rest in a viscous liquid. As a result, heat is produced due to viscous force. The rate of production of heat when the sphere attains its terminal velocity, is proportional to :",
+     "o": [
+      "r<sup>5</sup>",
+      "r<sup>2</sup>",
+      "r<sup>3</sup>",
+      "r<sup>4</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q42",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 1",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-09-neet-2019-code-s2-q114",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A small hole of area of cross-section 2 mm<sup>2</sup> is present near the bottom of a fully filled open tank of height 2 m. Taking g = 10 m/s<sup>2</sup>, the rate of flow of water through the open hole would be nearly :",
+     "o": [
+      "2.23 × 10<sup>−6</sup> m<sup>3</sup>/s",
+      "6.4 × 10<sup>−6</sup> m<sup>3</sup>/s",
+      "12.6 × 10<sup>−6</sup> m<sup>3</sup>/s",
+      "8.9 × 10<sup>−6</sup> m<sup>3</sup>/s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q114",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-09-neet-2019-code-s2-q117",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A soap bubble, having radius of 1 mm, is blown from a detergent solution having a surface tension of 2.5 × 10<sup>−2</sup> N/m. The pressure inside the bubble equals at a point Z<sub>0</sub> below the free surface of water in a container. Taking g = 10 m/s<sup>2</sup>, density of water = 10<sup>3</sup> kg/m<sup>3</sup>, the value of Z<sub>0</sub> is :",
+     "o": [
+      "1 cm",
+      "0.5 cm",
+      "100 cm",
+      "10 cm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.6.4",
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q117",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-09-neet-2020-code-f3-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A capillary tube of radius r is immersed in water and water rises in it to a height h. The mass of the water in the capillary is 5g. Another capillary tube of radius 2r is immersed in water. The mass of water that will rise in this tube is :",
+     "o": [
+      "10.0 g",
+      "20.0 g",
+      "2.5 g",
+      "5.0 g"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.6.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q14",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-09-neet-2021-code-p3-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The velocity of a small ball of mass M and density d, when dropped in a container filled with glycerine becomes constant after some time. If the density of glycerine is d/2, then the viscous force acting on the ball will be :",
+     "o": [
+      "2Mg",
+      "Mg/2",
+      "Mg",
+      "(3/2)Mg"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q26",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-09-neet-2022-code-t2-q6",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A spherical ball is dropped in a long column of a highly viscous liquid. The curve in the graph shown, which represents the speed of the ball (v) as a function of time (t) is :",
+     "o": [
+      "B",
+      "C",
+      "D",
+      "A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q6",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Four v–t curves from the origin: A rises slowly, B rises and levels off, C rises steeply and levels higher, D rises then falls. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-09-neet-2022-code-t2-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If a soap bubble expands, the pressure inside the bubble :",
+     "o": [
+      "increases",
+      "remains the same",
+      "is equal to the atmospheric pressure",
+      "decreases"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q12",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-09-neet-2023-topic-wise-copy-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The amount of energy required to form a bubble of radius 2 cm from a soap solution is nearly : (surface tension of soap solution = 0.03 N m<sup>−1</sup>)",
+     "o": [
+      "50.1 × 10<sup>−4</sup> J",
+      "30.1 × 10<sup>−4</sup> J",
+      "5.06 × 10<sup>−4</sup> J",
+      "3.01 × 10<sup>−4</sup> J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.6.2",
+     "9.6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q11",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-09-neet-2023-topic-wise-copy-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The venturi-meter works on :",
+     "o": [
+      "The principle of perpendicular axes",
+      "Huygen's principle",
+      "Bernoulli's principle",
+      "The principle of parallel axes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q12",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-09-neet-2024-q44-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A thin flat circular disc of radius 4.5 cm is placed gently over the surface of water. If surface tension of water is 0.07 N/m, then the excess force required to take it away from the surface is :",
+     "o": [
+      "19.8 mN",
+      "198 N",
+      "1.98 mN",
+      "99 N"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q44 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-09-neet-2025-code-45-q1",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider a water tank shown in the figure. It has one wall at x = L and can be taken to be very wide in the z direction. When filled with a liquid of surface tension S and density ρ, the liquid surface makes angle θ<sub>0</sub> (θ<sub>0</sub> << 1) with the x-axis at x = L. If y(x) is the height of the surface then the equation for y(x) is : (take θ(x) ≈ sin θ(x) ≈ tan θ(x) = dy/dx, g is the acceleration due to gravity)",
+     "o": [
+      "d<sup>2</sup>y/dx<sup>2</sup> = (ρg/S) x",
+      "d<sup>2</sup>y/dx<sup>2</sup> = (ρg/S) y",
+      "d<sup>2</sup>y/dx<sup>2</sup> = √(ρg/S)",
+      "dy/dx = √(ρg/S) x"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.6",
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q1",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "The figure shows the liquid surface y(x) curving up to meet the wall at x = L at angle θ<sub>0</sub>. The pressure jump across a curved surface (S × curvature) is not derived in the rationalised chapter beyond drops and bubbles."
+   }
+  },
+  {
+   "id": "phy11-09-neet-2025-code-45-q24",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A balloon is made of a material of surface tension S and its inflation outlet (from where gas is filled in it) has small area A. It is filled with a gas of density ρ and takes a spherical shape of radius R. When the gas is allowed to flow freely out of it, its radius r changes from R to 0 (zero) in time T. If the speed v(r) of gas coming out of the balloon depends on r as r<sup>a</sup> and T ∝ S<sup>α</sup>A<sup>β</sup>ρ<sup>γ</sup>R<sup>δ</sup> then :",
+     "o": [
+      "a = 1/2, α = 1/2, β = −1, γ = +1, δ = 3/2",
+      "a = −1/2, α = −1/2, β = −1, γ = −1/2, δ = 5/2",
+      "a = −1/2, α = −1/2, β = −1, γ = 1/2, δ = 7/2",
+      "a = 1/2, α = 1/2, β = −1/2, γ = 1/2, δ = 7/2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.6.4"
+    ],
+    "otherChapters": [
+     "Class 11 · Units and Measurement"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q24",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-09-neet-2026-code-13-q6",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A submarine is designed to withstand an absolute pressure of 100 atm. How deep can it go below the water surface? (Consider the density of water = 1000 kg m<sup>−3</sup>, 1 atm = 1 × 10<sup>5</sup> Pa and gravitational acceleration g = 10 m/s<sup>2</sup>)",
+     "o": [
+      "9900 m",
+      "990 m",
+      "9000 m",
+      "99 m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-09",
+    "paras": [
+     "9.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q6",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
