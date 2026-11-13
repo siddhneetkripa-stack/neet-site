@@ -3192,6 +3192,145 @@
     "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem12-05-jee-2026-2026-01-24-shift-1-q67",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements:<br>Statement I : Hybridisation, shape and spin only magnetic moment of K<sub>3</sub>[Co(CO<sub>3</sub>)<sub>3</sub>] (a high-spin complex) is sp<sup>3</sup>d<sup>2</sup>, octahedral and 4.9 BM respectively.<br>Statement II : Geometry, hybridisation and spin only magnetic moment values (BM) of the ions [Ni(CN)<sub>4</sub>]<sup>2−</sup>, [MnBr<sub>4</sub>]<sup>2−</sup> and [CoF<sub>6</sub>]<sup>3−</sup> respectively are square planar, tetrahedral, octahedral; dsp<sup>2</sup>, sp<sup>3</sup>, sp<sup>3</sup>d<sup>2</sup> and 0, 5.9, 4.9.<br>In the light of the above statements, choose the correct answer from the options given below",
+     "o": [
+      "Statement I is false but Statement II is true",
+      "Both Statement I and Statement II are true",
+      "Both Statement I and Statement II are false",
+      "Statement I is true but Statement II is false"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.5.1",
+     "5.5.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-1 Q67",
+    "session": "24 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Reworded from the original paper to remove an ambiguity: ‘(a high-spin complex)’ added to Statement I; whether carbonate gives a high-spin Co(III) complex is not decided by the NCERT spectrochemical series, and the statement's 4.9 BM needs the high-spin case."
+   }
+  },
+  {
+   "id": "chem12-05-jee-2026-2026-01-24-shift-2-q53",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The wavelength of light absorbed for the following complexes are in the order [Co(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup> (I); [Co(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup> (II); [Co(CN)<sub>6</sub>]<sup>3−</sup> (III); [Co(NH<sub>3</sub>)<sub>5</sub>(H<sub>2</sub>O)]<sup>3+</sup> (IV); [CoF<sub>6</sub>]<sup>3−</sup> (V)",
+     "o": [
+      "III &lt; IV &lt; I &lt; II &lt; V",
+      "III &lt; I &lt; II &lt; IV &lt; V",
+      "III &lt; I &lt; IV &lt; V &lt; II",
+      "III &lt; I &lt; IV &lt; II &lt; V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.5.4",
+     "5.5.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-2 Q53",
+    "session": "24 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Options (3) and (4) are clipped in the copy and reconstructed from what is visible; the correct order III &lt; I &lt; IV &lt; II &lt; V is printed as option (4) here. Check against the paper before it goes live."
+   }
+  },
+  {
+   "id": "chem12-05-jee-2026-2026-01-24-shift-2-q73",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A chromium complex with a formula CrCl<sub>3</sub>·6H<sub>2</sub>O has spin only magnetic moment value of 3.87 BM and its solution conductivity corresponds to 1 : 2 electrolyte. 2.7 g of the complex solution was initially passed through a cation exchanger. The solution obtained after the process was reacted with excess of AgNO<sub>3</sub>. The amount of AgCl formed in the above process is ____ g. (Nearest integer) [Given: Molar mass in g mol<sup>−1</sup> Cr: 52; Cl: 35.5, Ag: 108, O: 16, H: 1]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 3,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.4.6",
+     "5.5.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-2 Q73",
+    "session": "24 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (3, 6, 73, 2, 102); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "The complex mass is partly clipped in the copy (“2.7 g”); 2.7 g gives 2.9 g AgCl → 3, NTA's answer."
+   }
   }
  ]
 }

@@ -846,6 +846,98 @@
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
     "note": "The eSaral copy runs the question number into the volume (“75200 cc”); the volume is 200 cc."
    }
+  },
+  {
+   "id": "chem11-07-jee-2026-2026-01-24-shift-1-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "X and Y are the number of electrons involved, respectively, during the oxidation of I<sup>−</sup> to I<sub>2</sub> and S<sup>2−</sup> to S by acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, each counted per mole of K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> reduced. The value of X + Y is ____."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 12,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-07",
+    "paras": [
+     "7.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-1 Q75",
+    "session": "24 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (12, 15, 54, 4, 111); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Reworded from the original paper to remove an ambiguity: the paper did not say per what amount the electrons are counted (per I<sup>−</sup> it would be 1 + 2 = 3). Per mole of Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> each oxidation involves 6 electrons, giving NTA's 12."
+   }
+  },
+  {
+   "id": "chem11-07-jee-2026-2026-01-24-shift-2-q70",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "One mole of Cl<sub>2</sub>(g) was passed into 2 L of cold 2 M KOH solution. After the reaction, the concentrations of Cl<sup>−</sup>, ClO<sup>−</sup> and OH<sup>−</sup> are respectively (assume volume remains constant)",
+     "o": [
+      "0.5 M, 0.5 M, 1 M",
+      "0.5 M, 0.5 M, 0.5 M",
+      "1 M, 1 M, 1 M",
+      "0.75 M, 0.75 M, 1 M"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-07",
+    "paras": [
+     "7.3.1"
+    ],
+    "otherChapters": [
+     "Class 12 · p-Block (old NCERT): chlorine with cold alkali",
+     "Class 11 · Some Basic Concepts (stoichiometry)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-2 Q70",
+    "session": "24 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
   }
  ]
 }

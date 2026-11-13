@@ -2457,20 +2457,20 @@
   },
   {
    "id": "chem12-03-jee-2026-2026-01-23-shift-1-q74",
-   "type": "diagram",
+   "type": "numerical",
    "text": {
     "en": {
      "status": "draft",
-     "q": "For the thermal decomposition of reactant AB(g), the following plot is constructed [graph: [AB]/M falls linearly with time, 0.6 at t = 0, 0.55 at 100 s and 0.5 at 200 s]. The half life of the reaction is ‘x’ min. x = ____ min (Nearest integer)",
-     "o": null
+     "q": "For the thermal decomposition of reactant AB(g), the following plot is constructed [graph: [AB]/M falls linearly with time, 0.6 at t = 0, 0.55 at 100 s and 0.5 at 200 s]. The half life of the reaction is ‘x’ min. x = ____ min (Nearest integer)"
     },
     "hi": {
      "status": "missing"
     }
    },
    "answer": {
-    "kind": "single",
-    "index": 9
+    "kind": "numeric",
+    "value": 10,
+    "tol": 0
    },
    "ncert": {
     "chapter": "chem12-03",
@@ -2488,12 +2488,12 @@
    },
    "difficulty": 3,
    "difficultyBasis": "default",
-   "timeSec": 60,
+   "timeSec": 150,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
    "review": {
-    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (1825, 125, 10, 2, 3,6); worked out by us",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
     "note": "Simple graph in the paper; the data are written into the question."
    }
@@ -2594,6 +2594,96 @@
     "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
     "note": "Diagram question: options are energy profiles, described here; needs redrawn figures."
+   }
+  },
+  {
+   "id": "chem12-03-jee-2026-2026-01-24-shift-1-q68",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At 27°C in presence of a catalyst, activation energy of a reaction is lowered by 10 kJ mol<sup>−1</sup>. The logarithm of ratio of k(catalysed)/k(uncatalysed) is.... (Consider that the frequency factor for both the reaction is same)",
+     "o": [
+      "0.1741",
+      "3.482",
+      "17.41",
+      "1.741"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.4.1",
+     "3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-1 Q68",
+    "session": "24 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "‘Logarithm’ is to base 10 (log<sub>10</sub>), as NTA's answer uses."
+   }
+  },
+  {
+   "id": "chem12-03-jee-2026-2026-01-24-shift-2-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The half-life of <sup>65</sup>Zn is 245 days. After x days, 75% of the original activity remained. The value of x in days is ____. (Nearest integer) (Given: log 3 = 0.4771 and log 2 = 0.3010)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 102,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.2",
+     "3.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-2 Q75",
+    "session": "24 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (3, 6, 73, 2, 102); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
   }
  ]

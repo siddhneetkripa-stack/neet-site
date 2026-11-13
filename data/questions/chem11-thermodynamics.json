@@ -8038,6 +8038,105 @@
     "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-01-24-shift-1-q69",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the LIST-I with LIST-II<br>List-I (Isothermal process for ideal gas system): (A) Reversible expansion (B) Free expansion (C) Irreversible expansion (D) Irreversible compression<br>List-II (Work done, V<sub>f</sub> &gt; V<sub>i</sub>): (I) w = 0 (II) w = −nRT ln(V<sub>f</sub>/V<sub>i</sub>) (III) w = −p<sub>ex</sub>(V<sub>f</sub> − V<sub>i</sub>) (IV) w = −p<sub>ex</sub>(V<sub>i</sub> − V<sub>f</sub>)<br>Choose the correct answer from the options given below",
+     "o": [
+      "A-IV, B-II, C-III, D-I",
+      "A-IV, B-I, C-III, D-II",
+      "A-I, B-III, C-II, D-IV",
+      "A-II, B-I, C-III, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "process-summary",
+     "iso-rev",
+     "single-step",
+     "free-exp"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-1 Q69",
+    "session": "24 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-01-24-shift-2-q61",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The heat of atomisation of methane and ethane are ‘x’ kJ mol<sup>−1</sup> and ‘y’ kJ mol<sup>−1</sup> respectively. The longest wavelength (λ) of light capable of breaking the C − C bond can be expressed in SI unit as:",
+     "o": [
+      "N<sub>A</sub>hc (y − 6x/4)<sup>−1</sup>",
+      "N<sub>A</sub>hc / [250(y − 6x)]",
+      "(hc/1000)(y − 6x/4)<sup>−1</sup>",
+      "N<sub>A</sub>hc / [250(4y − 6x)]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "atomization",
+     "mean-bond"
+    ],
+    "otherChapters": [
+     "Class 11 · Structure of Atom (photon energy)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-2 Q61",
+    "session": "24 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
   }
  ]
 }

@@ -3168,6 +3168,95 @@
     "keyCheck": "Matches one of NTA's numerical answers for this shift (2, 10, 375, 15, 200); worked out by us",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem11-06-jee-2026-2026-01-24-shift-1-q74",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider two Group IV metal ions X<sup>2+</sup> and Y<sup>2+</sup>. A solution containing 0.01 M X<sup>2+</sup> and 0.01 M Y<sup>2+</sup> is saturated with H<sub>2</sub>S. The pH at which the metal sulphide YS will form as a precipitate is ____. (Nearest integer) (Given: K<sub>sp</sub>(XS) = 1 × 10<sup>−22</sup> at 25°C, K<sub>sp</sub>(YS) = 4 × 10<sup>−16</sup> at 25°C, [H<sub>2</sub>S] = 0.1 M in solution, K<sub>a1</sub> × K<sub>a2</sub>(H<sub>2</sub>S) = 1.0 × 10<sup>−21</sup>, log 2 = 0.30, log 3 = 0.48, log 5 = 0.70)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 4,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.13.2",
+     "6.11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-1 Q74",
+    "session": "24 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (12, 15, 54, 4, 111); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem11-06-jee-2026-2026-01-24-shift-2-q55",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following gaseous equilibrium in a closed container of volume ‘V’ at temperature T(K). P<sub>2</sub>(g) + Q<sub>2</sub>(g) ⇌ 2PQ(g). 2 moles each of P<sub>2</sub>(g), Q<sub>2</sub>(g) and PQ(g) are present at equilibrium. Now one mole each of ‘P<sub>2</sub>’ and ‘Q<sub>2</sub>’ are added to the equilibrium keeping the temperature at T(K). The number of moles of P<sub>2</sub>, Q<sub>2</sub> and PQ at the new equilibrium, respectively, are:",
+     "o": [
+      "1.66, 1.66, 1.66",
+      "1.21, 2.24, 1.56",
+      "2.56, 1.62, 2.24",
+      "2.67, 2.67, 2.67"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.6.3",
+     "6.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-2 Q55",
+    "session": "24 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
   }
  ]
 }
