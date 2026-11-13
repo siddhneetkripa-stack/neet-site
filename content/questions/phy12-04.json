@@ -1,0 +1,1462 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-04",
+ "subject": "physics",
+ "class": 12,
+ "unit": 4,
+ "title": {
+  "en": "Moving Charges and Magnetism"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph104.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "4.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "4.2",
+   "title": "Magnetic Force",
+   "hi": "चुंबकीय बल",
+   "pdfPage": 2
+  },
+  {
+   "id": "4.2.1",
+   "title": "Sources and Fields",
+   "hi": "स्रोत और क्षेत्र",
+   "pdfPage": 2
+  },
+  {
+   "id": "4.2.2",
+   "title": "Magnetic Field, Lorentz Force",
+   "hi": "चुंबकीय क्षेत्र, लोरेंज बल",
+   "pdfPage": 3
+  },
+  {
+   "id": "4.2.3",
+   "title": "Magnetic Force on a Current-carrying Conductor",
+   "hi": "विद्युत धारावाही चालक पर चुंबकीय बल",
+   "pdfPage": 4
+  },
+  {
+   "id": "4.3",
+   "title": "Motion in a Magnetic Field",
+   "hi": "चुंबकीय क्षेत्र में गति",
+   "pdfPage": 6
+  },
+  {
+   "id": "4.4",
+   "title": "Magnetic Field due to a Current Element, Biot-Savart Law",
+   "hi": "विद्युत धारा अवयव के कारण चुंबकीय क्षेत्र,",
+   "pdfPage": 7
+  },
+  {
+   "id": "4.5",
+   "title": "Magnetic Field on the Axis of a Circular Current Loop",
+   "hi": "विद्युत धारावाही वृत्ताकार पाश के अक्ष पर",
+   "pdfPage": 9
+  },
+  {
+   "id": "4.6",
+   "title": "Ampere's Circuital Law",
+   "hi": "ऐम्पियर का परिपथीय नियम",
+   "pdfPage": 11
+  },
+  {
+   "id": "4.7",
+   "title": "The Solenoid",
+   "hi": "परिनालिका",
+   "pdfPage": 15
+  },
+  {
+   "id": "4.8",
+   "title": "Force between Two Parallel Currents, the Ampere",
+   "hi": "दो समांतर विद्युत धाराओं के बीच बल–ऐम्पियर",
+   "pdfPage": 16
+  },
+  {
+   "id": "4.9",
+   "title": "Torque on Current Loop, Magnetic Dipole",
+   "hi": "विद्युत धारा पाश पर बल आघूर्ण, चुंबकीय द्विध्रुव",
+   "pdfPage": 18
+  },
+  {
+   "id": "4.9.1",
+   "title": "Torque on a Rectangular Current Loop in a Uniform Magnetic Field",
+   "pdfPage": 18
+  },
+  {
+   "id": "4.9.2",
+   "title": "Circular Current Loop as a Magnetic Dipole",
+   "hi": "वृत्ताकार विद्युत धारा पाश चुंबकीय द्विध्रुव",
+   "pdfPage": 22
+  },
+  {
+   "id": "4.10",
+   "title": "The Moving Coil Galvanometer",
+   "hi": "चल कुंडली गैल्वेनोमीटर",
+   "pdfPage": 23
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-04-neet-2015-re-exam-code-d-q141",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A proton and an alpha particle both enter a region of uniform magnetic field B, moving at right angles to the field B. If the radius of circular orbits for both the particles is equal and the kinetic energy acquired by proton is 1 MeV, the energy acquired by the alpha particle will be :",
+     "o": [
+      "0.5 MeV",
+      "1.5 MeV",
+      "1 MeV",
+      "4 MeV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q141",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2015-re-exam-code-d-q180",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A rectangular coil of length 0.12 m and width 0.1 m having 50 turns of wire is suspended vertically in a uniform magnetic field of strength 0.2 Weber/m<sup>2</sup>. The coil carries a current of 2 A. If the plane of the coil is inclined at an angle of 30° with the direction of the field, the torque required to keep coil in stable equilibrium will be :",
+     "o": [
+      "0.20 Nm",
+      "0.24 Nm",
+      "0.12 Nm",
+      "0.15 Nm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q180",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2016-phase-1-code-a-q2",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A square loop ABCD carrying a current i, is placed near and coplanar with a long straight conductor XY carrying a current I, the net force on the loop will be: 2μ0 Ii",
+     "o": [
+      "2μ<sub>0</sub>Ii/(3π)",
+      "μ<sub>0</sub>Ii/(2π)",
+      "2μ<sub>0</sub>IiL/(3π)",
+      "μ<sub>0</sub>IiL/(2π)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q2",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Figure in the paper (loop of side L, near side at L/2 from the wire); needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2016-phase-1-code-a-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long straight wire of radius a carries a steady current I. The current is uniformly distributed over its cross-section. The ratio of the magnetic fields B and B′, at radial distances a/2 and 2a respectively, from the axis of the wire is :",
+     "o": [
+      "1/4",
+      "1/2",
+      "1",
+      "4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q26",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2016-phase-2-code-aa-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long wire carrying a steady current is bent into a circular loop of one turn. The magnetic field at the centre of the loop is B. It is then bent into a circular coil of n turns. The magnetic field at the centre of this coil of n turns will be",
+     "o": [
+      "nB",
+      "n<sup>2</sup>B",
+      "2nB",
+      "2n<sup>2</sup>B"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q27",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2016-phase-2-code-aa-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron is moving in a circular path under the influence of a transverse magnetic field of 3.57 × 10<sup>−2</sup> T. If the value of e/m is 1.76 × 10<sup>11</sup> C/kg, the frequency of revolution of the electron is :",
+     "o": [
+      "1 GHz",
+      "100 MHz",
+      "62.8 MHz",
+      "6.28 MHz"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q29",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2017-code-a-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 250-turn rectangular coil of length 2.1 cm and width 1.25 cm carries a current of 85 μA and is subjected to a magnetic field of strength 0.85 T. Work done for rotating the coil by 180° against the torque is :",
+     "o": [
+      "9.1 μJ",
+      "4.55 μJ",
+      "2.3 μJ",
+      "1.15 μJ"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.9.1",
+     "4.9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q5",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2017-code-a-q29",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An arrangement of three parallel straight wires placed perpendicular to plane of paper carrying same current 'I' along the same direction is shown in figure. Magnitude of force per unit length on the middle wire 'B' is given by :",
+     "o": [
+      "μ<sub>0</sub>I<sup>2</sup>/(2πd)",
+      "2μ<sub>0</sub>I<sup>2</sup>/(πd)",
+      "√2 μ<sub>0</sub>I<sup>2</sup>/(πd)",
+      "μ<sub>0</sub>I<sup>2</sup>/(√2 πd)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q29",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "Figure: A and C each at distance d from B, at right angles. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2018-code-aa-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A metallic rod of mass per unit length 0.5 kg m<sup>−1</sup> is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0.25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is :",
+     "o": [
+      "14.76 A",
+      "5.98 A",
+      "7.14 A",
+      "11.32 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.2.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Laws of Motion"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q26",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2018-code-aa-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Current sensitivity of a moving coil galvanometer is 5 div/mA and its voltage sensitivity (angular deflection per unit voltage applied) is 20 div/V. The resistance of the galvanometer is :",
+     "o": [
+      "250 Ω",
+      "25 Ω",
+      "40 Ω",
+      "500 Ω"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q29",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 1",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2019-code-s2-q94",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Ionized hydrogen atoms and α-particles with same momenta enter perpendicular to a constant magnetic field B. The ratio of their radii of their paths r<sub>H</sub> : r<sub>α</sub> will be :",
+     "o": [
+      "4 : 1",
+      "1 : 4",
+      "2 : 1",
+      "1 : 2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q94",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2019-code-s2-q116",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A cylindrical conductor of radius R is carrying a constant current. The plot of the magnitude of the magnetic field, B with the distance, d, from the centre of the conductor, is correctly represented by the figure :",
+     "o": [
+      "[graph 1: B rises linearly to d = R, then falls as 1/d]",
+      "[graph 2: B rises linearly to d = R, then stays constant]",
+      "[graph 3: B constant to d = R, then falls]",
+      "[graph 4: B zero inside, jumps at d = R, then falls]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q116",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2020-code-f3-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ<sub>0</sub> = 4π × 10<sup>−7</sup> T m A<sup>−1</sup>)",
+     "o": [
+      "6.28 × 10<sup>−5</sup> T",
+      "3.14 × 10<sup>−5</sup> T",
+      "6.28 × 10<sup>−4</sup> T",
+      "3.14 × 10<sup>−4</sup> T"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q17",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2021-code-p3-q6",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 10<sup>5</sup> m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant.",
+     "o": [
+      "8 × 10<sup>−20</sup> N",
+      "4 × 10<sup>−20</sup> N",
+      "8π × 10<sup>−20</sup> N",
+      "4π × 10<sup>−20</sup> N"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.2.2",
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q6",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "The figure only shows the wire PQ and the electron 20 cm from it; the text is complete without it."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2021-code-p3-q25",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A thick current carrying cable of radius 'R' carries current 'I' uniformly distributed across its cross-section. The variation of magnetic field B(r) due to the cable with the distance 'r' from the axis of the cable is represented by :",
+     "o": [
+      "[graph 1: B rises and levels off]",
+      "[graph 2: B rises ever faster]",
+      "[graph 3: B rises linearly]",
+      "[graph 4: B rises linearly to r = R, then falls as 1/r]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q25",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2021-code-p3-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the product F⃗ = q(v⃗ × B⃗) = qv⃗ × (Bî + Bĵ + B<sub>0</sub>k̂). For q = 1 and v⃗ = 2î + 4ĵ + 6k̂ and F⃗ = 4î − 20ĵ + 12k̂, what will be the complete expression for B⃗?",
+     "o": [
+      "6î + 6ĵ − 8k̂",
+      "−8î − 8ĵ − 6k̂",
+      "−6î − 6ĵ − 8k̂",
+      "8î + 8ĵ − 6k̂"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.2.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Motion in a Plane"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q39",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2021-code-p3-q50",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A uniform conducting wire of length 12a and resistance 'R' is wound up as a current carrying coil in the shape of, (i) an equilateral triangle of side 'a'; (ii) a square of side 'a'. The magnetic dipole moments of the coil in each case respectively are :",
+     "o": [
+      "4Ia<sup>2</sup> and 3Ia<sup>2</sup>",
+      "√3Ia<sup>2</sup> and 3Ia<sup>2</sup>",
+      "3Ia<sup>2</sup> and Ia<sup>2</sup>",
+      "3Ia<sup>2</sup> and 4Ia<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q50",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2022-code-t2-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long solenoid of radius 1 mm has 100 turns per mm. If 1 A current flows in the solenoid, the magnetic field strength at the centre of the solenoid is :",
+     "o": [
+      "12.56 × 10<sup>−2</sup> T",
+      "12.56 × 10<sup>−4</sup> T",
+      "6.28 × 10<sup>−4</sup> T",
+      "6.28 × 10<sup>−2</sup> T"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q9",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2022-code-t2-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I : Biot-Savart's law gives us the expression for the magnetic field strength of an infinitesimal current element (Idl) of a current carrying conductor only.<br>Statement II : Biot-Savart's law is analogous to Coulomb's inverse square law of charge q, with the former being related to the field produced by a scalar source, Idl while the latter being produced by a vector source, q.<br>In light of above statements choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct and Statement II is incorrect",
+      "Statement I is incorrect and Statement II is correct",
+      "Both Statement I and Statement II are correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q27",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2022-code-t2-q47",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "From Ampere's circuital law for a long straight wire of circular cross-section carrying a steady current, the variation of magnetic field in the inside and outside region of the wire is :",
+     "o": [
+      "a linearly increasing function of distance up to the boundary of the wire and then linearly decreasing for the outside region",
+      "a linearly increasing function of distance r up to the boundary of the wire and then decreasing one with 1/r dependence for the outside region",
+      "a linearly decreasing function of distance up to the boundary of the wire and then a linearly increasing one for the outside region",
+      "uniform and remains constant for both the regions"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q47",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2023-topic-wise-copy-q44",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A very long conducting wire is bent in a semi-circular shape from A to B as shown in figure. The magnetic field at point P for steady current configuration is given by :",
+     "o": [
+      "(μ<sub>0</sub>i/4R)[1 − 2/π] pointed into the page",
+      "(μ<sub>0</sub>i/4R) pointed into the page",
+      "(μ<sub>0</sub>i/4R) pointed away from the page",
+      "(μ<sub>0</sub>i/4R)[1 − 2/π] pointed away from the page"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q44",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "Two semi-infinite straight parts (current towards A on top, away from B at the bottom) joined by a semicircle of radius R centred at P. Field of a semi-infinite wire at a point level with its end is not derived in the rationalised chapter. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2023-topic-wise-copy-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A wire carrying a current I along the positive x-axis has length L. It is kept in a magnetic field B⃗ = (2î + 3ĵ − 4k̂) T. The magnitude of the magnetic force acting on the wire is :",
+     "o": [
+      "√3 IL",
+      "3 IL",
+      "√5 IL",
+      "5 IL"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q45",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2024-q22-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π × 10<sup>−7</sup> SI units) :",
+     "o": [
+      "44 mT",
+      "4.4 T",
+      "4.4 mT",
+      "44 T"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q22 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2025-code-45-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron (mass 9 × 10<sup>−31</sup> kg and charge 1.6 × 10<sup>−19</sup> C) moving with speed c/100 (c = speed of light) is injected into a magnetic field B⃗ of magnitude 9 × 10<sup>−4</sup> T perpendicular to its direction of motion. We wish to apply an uniform electric field E⃗ together with the magnetic field so that the electron does not deflect from its path. Then (speed of light c = 3 × 10<sup>8</sup> m s<sup>−1</sup>)",
+     "o": [
+      "E⃗ is perpendicular to B⃗ and its magnitude is 27 × 10<sup>4</sup> V m<sup>−1</sup>",
+      "E⃗ is perpendicular to B⃗ and its magnitude is 27 × 10<sup>2</sup> V m<sup>−1</sup>",
+      "E⃗ is parallel to B⃗ and its magnitude is 27 × 10<sup>2</sup> V m<sup>−1</sup>",
+      "E⃗ is parallel to B⃗ and its magnitude is 27 × 10<sup>4</sup> V m<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.2.2",
+     "4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q3",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2025-code-45-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 2 amp current is flowing through two different small circular copper coils having radii ratio 1 : 2. The ratio of their respective magnetic moments will be :",
+     "o": [
+      "1 : 4",
+      "1 : 2",
+      "2 : 1",
+      "4 : 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q12",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2025-code-45-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A model for quantized motion of an electron in a uniform magnetic field B states that the flux passing through the orbit of the electron is n(h/e) where n is an integer, h is Planck's constant and e is the magnitude of electron's charge. According to the model, the magnetic moment of an electron in its lowest energy state will be (m is the mass of the electron) :",
+     "o": [
+      "he/(πm)",
+      "he/(2πm)",
+      "heB/(πm)",
+      "heB/(2πm)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.9.2",
+     "4.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Atoms"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q18",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2026-code-13-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 100-turn closely wound circular coil of radius 5 cm has a magnetic field of 3.14 × 10<sup>−3</sup> T at its centre. The current flowing through the coil, and the magnitude of the magnetic moment of this coil are, respectively : (Take μ<sub>0</sub> = 4π × 10<sup>−7</sup> T m/A)",
+     "o": [
+      "2.5 A, 20 A m<sup>2</sup>",
+      "2 A, 4 A m<sup>2</sup>",
+      "2.5 A, 2 A m<sup>2</sup>",
+      "2 A, 10 A m<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.5",
+     "4.9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q5",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2026-code-13-q15",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The figure given below shows a long straight solid wire of circular cross-section of radius 'a' carrying steady current I. The current I is uniformly distributed across its cross-section. The plot which correctly represents the variation of magnetic field (B) with distance (r) from the axis of the conductor in the region is :",
+     "o": [
+      "[graph 1: B rises ever faster to r = a, then falls]",
+      "[graph 2: B dips slightly then rises to r = a, then falls]",
+      "[graph 3: B rises linearly to r = a, then falls as 1/r]",
+      "[graph 4: B zero inside, jumps at r = a, then falls]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q15",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2026-code-13-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A galvanometer of resistance 100 Ω gives full scale deflection for a current of 1 mA. It is converted into an ammeter of range 0 – 10 A. The shunt required is :",
+     "o": [
+      "0.001 Ω",
+      "0.10 Ω",
+      "1.0 Ω",
+      "0.01 Ω"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q28",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
