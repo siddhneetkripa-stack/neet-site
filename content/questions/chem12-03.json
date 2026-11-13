@@ -1116,6 +1116,99 @@
     "keyCheck": "Answer printed in the copy: 4; matches our solving",
     "keySource": "Answers in the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf); six unprinted answers solved by us (noted per question); text from the official bilingual Code D booklet. No official key for 2015 in neet-sources."
    }
+  },
+  {
+   "id": "chem12-03-neet-2018-code-aa-q79",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct difference between first- and second-order reactions is that",
+     "o": [
+      "a first-order reaction can be catalyzed; a second-order reaction cannot be catalyzed",
+      "the half-life of a first-order reaction does not depend on [A]<sub>0</sub>; the half-life of a second-order reaction does depend on [A]<sub>0</sub>",
+      "the rate of a first-order reaction does not depend on reactant concentrations; the rate of a second-order reaction does depend on reactant concentrations",
+      "the rate of a first-order reaction does depend on reactant concentrations; the rate of a second-order reaction does not depend on reactant concentrations"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q79",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 2",
+    "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
+   }
+  },
+  {
+   "id": "chem12-03-neet-2018-code-aa-q84",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When initial concentration of the reactant is doubled, the half-life period of a zero order reaction",
+     "o": [
+      "is tripled",
+      "is doubled",
+      "is halved",
+      "remains unchanged"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.1",
+     "3.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q84",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 2",
+    "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
+   }
   }
  ]
 }

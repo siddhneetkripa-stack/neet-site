@@ -1537,6 +1537,150 @@
     "keyCheck": "Answer printed in the copy: 3; matches our solving",
     "keySource": "Answers in the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf); six unprinted answers solved by us (noted per question); text from the official bilingual Code D booklet. No official key for 2015 in neet-sources."
    }
+  },
+  {
+   "id": "chem11-08-neet-2018-code-aa-q63",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following molecules represents the order of hybridisation sp<sup>2</sup>, sp<sup>2</sup>, sp, sp from left to right atoms ?",
+     "o": [
+      "CH<sub>2</sub> = CH – CH = CH<sub>2</sub>",
+      "CH<sub>2</sub> = CH – C ≡ CH",
+      "HC ≡ C – C ≡ CH",
+      "CH<sub>3</sub> – CH = CH – CH<sub>3</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-08",
+    "paras": [
+     "8.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q63",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 2",
+    "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
+   }
+  },
+  {
+   "id": "chem11-08-neet-2018-code-aa-q64",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following carbocations is expected to be most stable ?<br>[four cyclohexadienyl cations carrying NO<sub>2</sub> and a Y,H-substituted carbon, positive charge at different positions]",
+     "o": [
+      "[structure 1, as drawn]",
+      "[structure 2, as drawn]",
+      "[structure 3, as drawn]",
+      "[structure 4, as drawn]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-08",
+    "paras": [
+     "8.7.5",
+     "8.7.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q64",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 1",
+    "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)",
+    "note": "Diagram/structure question: the paper shows structures; written here in text. Needs a redrawn figure before it goes live. Answer depends on where the positive charge sits relative to NO2; transcribe the structures from the booklet."
+   }
+  },
+  {
+   "id": "chem11-08-neet-2018-code-aa-q65",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is correct with respect to – I effect of the substituents ? (R = alkyl)",
+     "o": [
+      "–NH<sub>2</sub> &gt; –OR &gt; –F",
+      "–NR<sub>2</sub> &lt; –OR &lt; –F",
+      "–NH<sub>2</sub> &lt; –OR &lt; –F",
+      "–NR<sub>2</sub> &gt; –OR &gt; –F"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2,
+    "alsoAccepted": [
+     1
+    ]
+   },
+   "ncert": {
+    "chapter": "chem11-08",
+    "paras": [
+     "8.7.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q65",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 3",
+    "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)",
+    "note": "The published key marks (3)*; (2) is also correct, as both NH2 and NR2 have a weaker –I effect than OR and F."
+   }
   }
  ]
 }

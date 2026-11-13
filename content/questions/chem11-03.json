@@ -755,6 +755,52 @@
     "keyCheck": "Answer printed in the copy: 1; matches our solving",
     "keySource": "Answers in the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf); six unprinted answers solved by us (noted per question); text from the official bilingual Code D booklet. No official key for 2015 in neet-sources."
    }
+  },
+  {
+   "id": "chem11-03-neet-2018-code-aa-q88",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Magnesium reacts with an element (X) to form an ionic compound. If the ground state electronic configuration of (X) is 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup>, the simplest formula for this compound is",
+     "o": [
+      "Mg<sub>2</sub>X",
+      "MgX<sub>2</sub>",
+      "Mg<sub>2</sub>X<sub>3</sub>",
+      "Mg<sub>3</sub>X<sub>2</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-03",
+    "paras": [
+     "3.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q88",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 4",
+    "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
+   }
   }
  ]
 }
