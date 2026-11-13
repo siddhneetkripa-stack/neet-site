@@ -118,10 +118,22 @@
       "Water rises upto a point a little below the top and stays there",
       "Water does not rise at all",
       "Water rises upto the tip of capillary tube and then starts overflowing like a fountain"
-     ]
+     ],
+     "sol": "<p>Capillary rise needs h = 2S cos θ/(ρgr). If the tube is shorter than h, water rises to the top and the meniscus becomes flatter (larger radius of curvature) until the surface-tension force balances the shorter column. Water <b>rises up to the top and stays there without overflowing</b>; overflowing would make a perpetual-motion fountain, which is impossible.</p>",
+     "hint": "The meniscus adjusts its curvature; energy cannot come from nowhere."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "केशिका नली में जल 'h' ऊँचाई तक चढ़ता है। यदि जल के पृष्ठ के ऊपर केशिका नली की लंबाई 'h' से कम कर दी जाए, तो :",
+     "o": [
+      "जल केशिका नली के शीर्ष तक चढ़ता है और बिना बहे वहीं रुका रहता है",
+      "जल शीर्ष से थोड़ा नीचे के बिंदु तक चढ़ता है और वहीं रुका रहता है",
+      "जल बिलकुल नहीं चढ़ता",
+      "जल केशिका नली के सिरे तक चढ़ता है और फिर फव्वारे की तरह बहने लगता है"
+     ],
+     "sol": "<p>केशिकीय उन्नयन के लिए h = 2S cos θ/(ρgr)। यदि नली h से छोटी है, तो जल शीर्ष तक चढ़ता है और नवचंद्रक चपटा हो जाता है (वक्रता त्रिज्या बढ़ जाती है), जब तक पृष्ठ तनाव बल छोटे स्तंभ को संतुलित न कर दे। जल <b>शीर्ष तक चढ़ता है और बिना बहे वहीं रुका रहता है</b>; बहने का अर्थ एक सतत गति वाला फव्वारा होगा, जो असंभव है।</p>",
+     "hint": "नवचंद्रक अपनी वक्रता बदल लेता है; ऊर्जा शून्य से उत्पन्न नहीं हो सकती।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -164,10 +176,22 @@
       "3.0",
       "1.50",
       "1.70"
-     ]
+     ],
+     "sol": "<p>Power = pressure × volume flow rate. p = ρgh = 13.6 × 10<sup>3</sup> × 10 × 0.15 = 2.04 × 10<sup>4</sup> Pa; Q = 5 × 10<sup>−3</sup> m<sup>3</sup>/60 s = 8.33 × 10<sup>−5</sup> m<sup>3</sup>/s.</p><p>P = 2.04 × 10<sup>4</sup> × 8.33 × 10<sup>−5</sup> ≈ <b>1.70</b> W.</p>",
+     "hint": "Power of a pump = p × (volume per second)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक व्यक्ति का हृदय प्रति मिनट 5 लीटर रुधिर 150 mm पारे के दाब पर धमनियों में पंप करता है। यदि पारे का घनत्व 13.6 × 10<sup>3</sup> kg/m<sup>3</sup> और g = 10 m/s<sup>2</sup> हो, तो हृदय की शक्ति वाट में है :",
+     "o": [
+      "2.35",
+      "3.0",
+      "1.50",
+      "1.70"
+     ],
+     "sol": "<p>शक्ति = दाब × आयतन प्रवाह दर। p = ρgh = 13.6 × 10<sup>3</sup> × 10 × 0.15 = 2.04 × 10<sup>4</sup> Pa; Q = 5 × 10<sup>−3</sup> m<sup>3</sup>/60 s = 8.33 × 10<sup>−5</sup> m<sup>3</sup>/s ।</p><p>P = 2.04 × 10<sup>4</sup> × 8.33 × 10<sup>−5</sup> ≈ <b>1.70</b> W।</p>",
+     "hint": "पंप की शक्ति = p × (प्रति सेकंड आयतन)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -211,10 +235,22 @@
       "VR<sup>2</sup>/(n<sup>3</sup>r<sup>2</sup>)",
       "V<sup>2</sup>R/(nr)",
       "VR<sup>2</sup>/(n<sup>2</sup>r<sup>2</sup>)"
-     ]
+     ],
+     "sol": "<p>Equation of continuity: volume per second through the tube = through all holes. πR<sup>2</sup>V = n(πr<sup>2</sup>)v ⇒ <b>v = VR<sup>2</sup>/(nr<sup>2</sup>)</b>.</p>",
+     "hint": "A × v is the same; add the areas of all n holes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक स्प्रे पंप की बेलनाकार नली की त्रिज्या R है, जिसके एक सिरे पर r त्रिज्या के n सूक्ष्म छिद्र हैं। यदि नली में द्रव की चाल V है, तो छिद्रों से द्रव के निकलने की चाल है :",
+     "o": [
+      "VR<sup>2</sup>/(nr<sup>2</sup>)",
+      "VR<sup>2</sup>/(n<sup>3</sup>r<sup>2</sup>)",
+      "V<sup>2</sup>R/(nr)",
+      "VR<sup>2</sup>/(n<sup>2</sup>r<sup>2</sup>)"
+     ],
+     "sol": "<p>सांतत्य समीकरण : नली से प्रति सेकंड आयतन = सभी छिद्रों से प्रति सेकंड आयतन। πR<sup>2</sup>V = n(πr<sup>2</sup>)v ⇒ <b>v = VR<sup>2</sup>/(nr<sup>2</sup>)</b>।</p>",
+     "hint": "A × v समान रहता है; सभी n छिद्रों के क्षेत्रफल जोड़िए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -257,10 +293,22 @@
       "{2 + (n + 1)p}ρ",
       "{2 + (n − 1)p}ρ",
       "{1 + (n − 1)p}ρ"
-     ]
+     ],
+     "sol": "<p>The cylinder (cross-section A) has length pL in the denser liquid and (1 − p)L in the lighter one. Weight = total upthrust:</p><p>dALg = ρ(1 − p)LAg + nρ(pL)Ag ⇒ d = ρ[1 − p + np] = <b>{1 + (n − 1)p}ρ</b>.</p>",
+     "hint": "Upthrust = weight of each liquid displaced, added."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ρ और nρ (n > 1) घनत्व वाले दो अमिश्रणीय द्रव एक पात्र में रखे हैं। प्रत्येक द्रव की ऊँचाई h है। L लंबाई और d घनत्व का एक ठोस बेलन इस पात्र में रखा जाता है। बेलन अपनी अक्ष ऊर्ध्वाधर रखते हुए तैरता है और उसकी pL (p < 1) लंबाई सघन द्रव में है। घनत्व d बराबर है :",
+     "o": [
+      "{1 + (n + 1)p}ρ",
+      "{2 + (n + 1)p}ρ",
+      "{2 + (n − 1)p}ρ",
+      "{1 + (n − 1)p}ρ"
+     ],
+     "sol": "<p>बेलन (अनुप्रस्थ काट A) की pL लंबाई सघन द्रव में और (1 − p)L हलके द्रव में है। भार = कुल उत्प्लावन बल :</p><p>dALg = ρ(1 − p)LAg + nρ(pL)Ag ⇒ d = ρ[1 − p + np] = <b>{1 + (n − 1)p}ρ</b>।</p>",
+     "hint": "उत्प्लावन बल = विस्थापित प्रत्येक द्रव का भार, जोड़कर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -304,10 +352,22 @@
       "0.125 N m<sup>−1</sup>",
       "0.2 N m<sup>−1</sup>",
       "8.0 N m<sup>−1</sup>"
-     ]
+     ],
+     "sol": "<p>A film has two surfaces. Increase in area = 2 × (5 × 4 − 4 × 2) cm<sup>2</sup> = 2 × 12 = 24 cm<sup>2</sup> = 24 × 10<sup>−4</sup> m<sup>2</sup>.</p><p>S = W/ΔA = 3 × 10<sup>−4</sup>/(24 × 10<sup>−4</sup>) = <b>0.125 N m<sup>−1</sup></b>.</p>",
+     "hint": "Count both faces of the film."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "द्रव की एक आयताकार फिल्म को (4 cm × 2 cm) से (5 cm × 4 cm) तक फैलाया जाता है। यदि किया गया कार्य 3 × 10<sup>−4</sup> J है, तो द्रव के पृष्ठ तनाव का मान है :",
+     "o": [
+      "0.250 N m<sup>−1</sup>",
+      "0.125 N m<sup>−1</sup>",
+      "0.2 N m<sup>−1</sup>",
+      "8.0 N m<sup>−1</sup>"
+     ],
+     "sol": "<p>फिल्म के दो पृष्ठ होते हैं। क्षेत्रफल में वृद्धि = 2 × (5 × 4 − 4 × 2) cm<sup>2</sup> = 2 × 12 = 24 cm<sup>2</sup> = 24 × 10<sup>−4</sup> m<sup>2</sup>।</p><p>S = W/ΔA = 3 × 10<sup>−4</sup>/(24 × 10<sup>−4</sup>) = <b>0.125 N m<sup>−1</sup></b>।</p>",
+     "hint": "फिल्म के दोनों पृष्ठ गिनिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -350,10 +410,22 @@
       "0 ≤ θ<sub>1</sub> < θ<sub>2</sub> < θ<sub>3</sub> < π/2",
       "π/2 < θ<sub>1</sub> < θ<sub>2</sub> < θ<sub>3</sub> < π",
       "π > θ<sub>1</sub> > θ<sub>2</sub> > θ<sub>3</sub> > π/2"
-     ]
+     ],
+     "sol": "<p>h = 2T cos θ/(ρrg). With the same h, T and r: cos θ ∝ ρ. Since ρ<sub>1</sub> > ρ<sub>2</sub> > ρ<sub>3</sub>, cos θ<sub>1</sub> > cos θ<sub>2</sub> > cos θ<sub>3</sub>, and all liquids rise so every θ is acute.</p><p>Hence <b>0 ≤ θ<sub>1</sub> < θ<sub>2</sub> < θ<sub>3</sub> < π/2</b>.</p>",
+     "hint": "Liquids that rise have θ < 90°; larger ρ needs larger cos θ."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ρ<sub>1</sub>, ρ<sub>2</sub> और ρ<sub>3</sub> (ρ<sub>1</sub> > ρ<sub>2</sub> > ρ<sub>3</sub>) घनत्व वाले तीन द्रव, जिनका पृष्ठ तनाव T समान है, तीन सर्वसम केशिकाओं में समान ऊँचाई तक चढ़ते हैं। संपर्क कोण θ<sub>1</sub>, θ<sub>2</sub> और θ<sub>3</sub> पालन करते हैं :",
+     "o": [
+      "π/2 > θ<sub>1</sub> > θ<sub>2</sub> > θ<sub>3</sub> ≥ 0",
+      "0 ≤ θ<sub>1</sub> < θ<sub>2</sub> < θ<sub>3</sub> < π/2",
+      "π/2 < θ<sub>1</sub> < θ<sub>2</sub> < θ<sub>3</sub> < π",
+      "π > θ<sub>1</sub> > θ<sub>2</sub> > θ<sub>3</sub> > π/2"
+     ],
+     "sol": "<p>h = 2T cos θ/(ρrg)। समान h, T और r के लिए : cos θ ∝ ρ। चूँकि ρ<sub>1</sub> > ρ<sub>2</sub> > ρ<sub>3</sub>, अतः cos θ<sub>1</sub> > cos θ<sub>2</sub> > cos θ<sub>3</sub>, और सभी द्रव चढ़ते हैं अतः प्रत्येक θ न्यून कोण है।</p><p>अतः <b>0 ≤ θ<sub>1</sub> < θ<sub>2</sub> < θ<sub>3</sub> < π/2</b>।</p>",
+     "hint": "चढ़ने वाले द्रवों के लिए θ < 90°; अधिक ρ के लिए अधिक cos θ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -396,10 +468,22 @@
       "425 kg m<sup>−3</sup>",
       "800 kg m<sup>−3</sup>",
       "928 kg m<sup>−3</sup>"
-     ]
+     ],
+     "sol": "<p>Water rises 65 mm on one side, so the oil–water interface on the other side is 65 mm below the original level. The water surface on the right is 130 mm above that interface, and the oil surface is 10 mm higher still: oil column = 140 mm.</p><p>Equal pressures at the interface level: ρ<sub>oil</sub>g(140) = ρ<sub>water</sub>g(130) ⇒ ρ<sub>oil</sub> = 1000 × 130/140 ≈ <b>928 kg m<sup>−3</sup></b>.</p>",
+     "hint": "Compare pressures at the level of the oil–water interface."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दोनों सिरे वायुमंडल में खुले एक U-नली में आंशिक रूप से जल भरा है। जल में अमिश्रणीय तेल को एक ओर तब तक डाला जाता है जब तक यह दूसरी ओर के जल स्तर से 10 mm ऊपर न आ जाए। इस बीच जल अपने मूल स्तर से 65 mm ऊपर उठ जाता है (आरेख देखिए)। तेल का घनत्व है :",
+     "o": [
+      "650 kg m<sup>−3</sup>",
+      "425 kg m<sup>−3</sup>",
+      "800 kg m<sup>−3</sup>",
+      "928 kg m<sup>−3</sup>"
+     ],
+     "sol": "<p>एक ओर जल 65 mm उठता है, अतः दूसरी ओर तेल-जल अंतरापृष्ठ मूल स्तर से 65 mm नीचे है। दाईं ओर जल का पृष्ठ उस अंतरापृष्ठ से 130 mm ऊपर है, और तेल का पृष्ठ उससे भी 10 mm ऊपर : तेल स्तंभ = 140 mm।</p><p>अंतरापृष्ठ स्तर पर दाब बराबर : ρ<sub>oil</sub>g(140) = ρ<sub>water</sub>g(130) ⇒ ρ<sub>oil</sub> = 1000 × 130/140 ≈ <b>928 kg m<sup>−3</sup></b>।</p>",
+     "hint": "तेल-जल अंतरापृष्ठ के स्तर पर दाबों की तुलना कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -443,10 +527,22 @@
       "r<sup>2</sup>",
       "r<sup>3</sup>",
       "r<sup>4</sup>"
-     ]
+     ],
+     "sol": "<p>At terminal velocity the viscous force F = 6πηrv<sub>t</sub> with v<sub>t</sub> ∝ r<sup>2</sup> (Stokes' law). Rate of heat production = Fv<sub>t</sub> = 6πηr v<sub>t</sub><sup>2</sup> ∝ r × (r<sup>2</sup>)<sup>2</sup> = <b>r<sup>5</sup></b>.</p>",
+     "hint": "Power = F × v with v<sub>t</sub> ∝ r<sup>2</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "'r' त्रिज्या का एक छोटा गोला किसी श्यान द्रव में विराम से गिरता है। परिणामस्वरूप श्यान बल के कारण ऊष्मा उत्पन्न होती है। जब गोला अपना सीमांत वेग प्राप्त कर लेता है, तब ऊष्मा उत्पन्न होने की दर अनुक्रमानुपाती है :",
+     "o": [
+      "r<sup>5</sup>",
+      "r<sup>2</sup>",
+      "r<sup>3</sup>",
+      "r<sup>4</sup>"
+     ],
+     "sol": "<p>सीमांत वेग पर श्यान बल F = 6πηrv<sub>t</sub>, जहाँ v<sub>t</sub> ∝ r<sup>2</sup> (स्टोक्स नियम)। ऊष्मा उत्पन्न होने की दर = Fv<sub>t</sub> = 6πηr v<sub>t</sub><sup>2</sup> ∝ r × (r<sup>2</sup>)<sup>2</sup> = <b>r<sup>5</sup></b>।</p>",
+     "hint": "शक्ति = F × v, जहाँ v<sub>t</sub> ∝ r<sup>2</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -489,10 +585,22 @@
       "6.4 × 10<sup>−6</sup> m<sup>3</sup>/s",
       "12.6 × 10<sup>−6</sup> m<sup>3</sup>/s",
       "8.9 × 10<sup>−6</sup> m<sup>3</sup>/s"
-     ]
+     ],
+     "sol": "<p>Torricelli: v = √(2gh) = √(2 × 10 × 2) = √40 ≈ 6.32 m/s.</p><p>Flow rate = Av = 2 × 10<sup>−6</sup> × 6.32 ≈ <b>12.6 × 10<sup>−6</sup> m<sup>3</sup>/s</b>.</p>",
+     "hint": "Convert 2 mm<sup>2</sup> to 2 × 10<sup>−6</sup> m<sup>2</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पूरी तरह भरी एक खुली टंकी, जिसकी ऊँचाई 2 m है, की तली के निकट 2 mm<sup>2</sup> अनुप्रस्थ काट क्षेत्रफल का एक छोटा छिद्र है। g = 10 m/s<sup>2</sup> लेते हुए खुले छिद्र से जल के प्रवाह की दर लगभग होगी :",
+     "o": [
+      "2.23 × 10<sup>−6</sup> m<sup>3</sup>/s",
+      "6.4 × 10<sup>−6</sup> m<sup>3</sup>/s",
+      "12.6 × 10<sup>−6</sup> m<sup>3</sup>/s",
+      "8.9 × 10<sup>−6</sup> m<sup>3</sup>/s"
+     ],
+     "sol": "<p>टॉरिसेली : v = √(2gh) = √(2 × 10 × 2) = √40 ≈ 6.32 m/s ।</p><p>प्रवाह दर = Av = 2 × 10<sup>−6</sup> × 6.32 ≈ <b>12.6 × 10<sup>−6</sup> m<sup>3</sup>/s</b>।</p>",
+     "hint": "2 mm<sup>2</sup> को 2 × 10<sup>−6</sup> m<sup>2</sup> में बदलिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -535,10 +643,22 @@
       "0.5 cm",
       "100 cm",
       "10 cm"
-     ]
+     ],
+     "sol": "<p>Excess pressure in a soap bubble (two surfaces): Δp = 4S/r = 4 × 2.5 × 10<sup>−2</sup>/10<sup>−3</sup> = 100 Pa.</p><p>At depth Z<sub>0</sub> in water the pressure exceeds atmospheric by ρgZ<sub>0</sub>: 10<sup>3</sup> × 10 × Z<sub>0</sub> = 100 ⇒ Z<sub>0</sub> = 0.01 m = <b>1 cm</b>.</p>",
+     "hint": "Soap bubble: 4S/r (two surfaces); liquid drop: 2S/r."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "1 mm त्रिज्या का एक साबुन का बुलबुला 2.5 × 10<sup>−2</sup> N/m पृष्ठ तनाव वाले अपमार्जक विलयन से फुलाया जाता है। बुलबुले के अंदर का दाब एक पात्र में जल के मुक्त पृष्ठ के नीचे बिंदु Z<sub>0</sub> पर दाब के बराबर है। g = 10 m/s<sup>2</sup>, जल का घनत्व = 10<sup>3</sup> kg/m<sup>3</sup> लेते हुए Z<sub>0</sub> का मान है :",
+     "o": [
+      "1 cm",
+      "0.5 cm",
+      "100 cm",
+      "10 cm"
+     ],
+     "sol": "<p>साबुन के बुलबुले में दाब आधिक्य (दो पृष्ठ) : Δp = 4S/r = 4 × 2.5 × 10<sup>−2</sup>/10<sup>−3</sup> = 100 Pa।</p><p>जल में Z<sub>0</sub> गहराई पर दाब वायुमंडलीय दाब से ρgZ<sub>0</sub> अधिक होता है : 10<sup>3</sup> × 10 × Z<sub>0</sub> = 100 ⇒ Z<sub>0</sub> = 0.01 m = <b>1 cm</b>।</p>",
+     "hint": "साबुन का बुलबुला : 4S/r (दो पृष्ठ); द्रव की बूँद : 2S/r ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -582,10 +702,22 @@
       "20.0 g",
       "2.5 g",
       "5.0 g"
-     ]
+     ],
+     "sol": "<p>h = 2S cos θ/(ρgr) ∝ 1/r. Mass of the raised column m = ρ(πr<sup>2</sup>)h ∝ r<sup>2</sup> × (1/r) = r.</p><p>Doubling r doubles the mass: <b>10.0 g</b>.</p>",
+     "hint": "Height halves but the area becomes four times."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "r त्रिज्या की एक केशिका नली जल में डुबोई जाती है और इसमें जल h ऊँचाई तक चढ़ता है। केशिका में जल का द्रव्यमान 5 g है। 2r त्रिज्या की एक अन्य केशिका नली जल में डुबोई जाती है। इस नली में चढ़ने वाले जल का द्रव्यमान होगा :",
+     "o": [
+      "10.0 g",
+      "20.0 g",
+      "2.5 g",
+      "5.0 g"
+     ],
+     "sol": "<p>h = 2S cos θ/(ρgr) ∝ 1/r । उठे हुए स्तंभ का द्रव्यमान m = ρ(πr<sup>2</sup>)h ∝ r<sup>2</sup> × (1/r) = r।</p><p>r दोगुनी करने पर द्रव्यमान दोगुना : <b>10.0 g</b>।</p>",
+     "hint": "ऊँचाई आधी हो जाती है परंतु क्षेत्रफल चार गुना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -628,10 +760,22 @@
       "Mg/2",
       "Mg",
       "(3/2)Mg"
-     ]
+     ],
+     "sol": "<p>At terminal velocity the net force is zero: viscous force + buoyancy = weight. Buoyancy = (volume) × (d/2) × g = (M/d)(d/2)g = Mg/2.</p><p>Viscous force = Mg − Mg/2 = <b>Mg/2</b>.</p>",
+     "hint": "Do not forget the upthrust of the glycerine."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "M द्रव्यमान और d घनत्व की एक छोटी गेंद को ग्लिसरीन से भरे पात्र में गिराने पर कुछ समय बाद इसका वेग नियत हो जाता है। यदि ग्लिसरीन का घनत्व d/2 है, तो गेंद पर कार्यरत श्यान बल होगा :",
+     "o": [
+      "2Mg",
+      "Mg/2",
+      "Mg",
+      "(3/2)Mg"
+     ],
+     "sol": "<p>सीमांत वेग पर नेट बल शून्य है : श्यान बल + उत्प्लावन बल = भार। उत्प्लावन बल = (आयतन) × (d/2) × g = (M/d)(d/2)g = Mg/2।</p><p>श्यान बल = Mg − Mg/2 = <b>Mg/2</b>।</p>",
+     "hint": "ग्लिसरीन का उत्प्लावन बल न भूलिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -674,10 +818,22 @@
       "C",
       "D",
       "A"
-     ]
+     ],
+     "sol": "<p>The ball starts from rest; the viscous force grows with speed, so the acceleration decreases and the speed rises towards a constant terminal value. The curve that rises and then levels off is <b>B</b>.</p>",
+     "hint": "Speed increases with decreasing slope and approaches the terminal velocity."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक गोलीय गेंद को अत्यधिक श्यान द्रव के एक लंबे स्तंभ में गिराया जाता है। दिखाए गए ग्राफ में वह वक्र, जो समय (t) के फलन के रूप में गेंद की चाल (v) को निरूपित करता है, है :",
+     "o": [
+      "B",
+      "C",
+      "D",
+      "A"
+     ],
+     "sol": "<p>गेंद विराम से चलती है; श्यान बल चाल के साथ बढ़ता है, अतः त्वरण घटता है और चाल एक नियत सीमांत मान की ओर बढ़ती है। जो वक्र बढ़कर समतल हो जाता है वह <b>B</b> है।</p>",
+     "hint": "चाल घटती ढलान के साथ बढ़ती है और सीमांत वेग तक पहुँचती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -721,10 +877,22 @@
       "remains the same",
       "is equal to the atmospheric pressure",
       "decreases"
-     ]
+     ],
+     "sol": "<p>Pressure inside a soap bubble: P = P<sub>0</sub> + 4S/R. As the bubble expands R increases, so the excess pressure and the inside pressure <b>decrease</b>.</p>",
+     "hint": "Excess pressure ∝ 1/R."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि साबुन का बुलबुला फैलता है, तो बुलबुले के अंदर का दाब :",
+     "o": [
+      "बढ़ता है",
+      "समान रहता है",
+      "वायुमंडलीय दाब के बराबर होता है",
+      "घटता है"
+     ],
+     "sol": "<p>साबुन के बुलबुले के अंदर दाब : P = P<sub>0</sub> + 4S/R । बुलबुला फैलने पर R बढ़ती है, अतः दाब आधिक्य और अंदर का दाब <b>घटता है</b>।</p>",
+     "hint": "दाब आधिक्य ∝ 1/R ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -767,10 +935,22 @@
       "30.1 × 10<sup>−4</sup> J",
       "5.06 × 10<sup>−4</sup> J",
       "3.01 × 10<sup>−4</sup> J"
-     ]
+     ],
+     "sol": "<p>A soap bubble has two surfaces: area created = 2 × 4πr<sup>2</sup>. Energy = S × 8πr<sup>2</sup> = 0.03 × 8π × (0.02)<sup>2</sup> = 0.03 × 8π × 4 × 10<sup>−4</sup> ≈ <b>3.01 × 10<sup>−4</sup> J</b>.</p>",
+     "hint": "Surface energy = S × total new area (two faces)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "साबुन के विलयन से 2 cm त्रिज्या का एक बुलबुला बनाने के लिए आवश्यक ऊर्जा की मात्रा लगभग है : (साबुन के विलयन का पृष्ठ तनाव = 0.03 N m<sup>−1</sup>)",
+     "o": [
+      "50.1 × 10<sup>−4</sup> J",
+      "30.1 × 10<sup>−4</sup> J",
+      "5.06 × 10<sup>−4</sup> J",
+      "3.01 × 10<sup>−4</sup> J"
+     ],
+     "sol": "<p>साबुन के बुलबुले के दो पृष्ठ होते हैं : बना क्षेत्रफल = 2 × 4πr<sup>2</sup>। ऊर्जा = S × 8πr<sup>2</sup> = 0.03 × 8π × (0.02)<sup>2</sup> = 0.03 × 8π × 4 × 10<sup>−4</sup> ≈ <b>3.01 × 10<sup>−4</sup> J</b>।</p>",
+     "hint": "पृष्ठ ऊर्जा = S × कुल नया क्षेत्रफल (दोनों पृष्ठ)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -814,10 +994,22 @@
       "Huygen's principle",
       "Bernoulli's principle",
       "The principle of parallel axes"
-     ]
+     ],
+     "sol": "<p>A venturi-meter measures flow speed from the pressure difference between a wide and a narrow section of a pipe, using the equation of continuity and <b>Bernoulli's principle</b>.</p>",
+     "hint": "Faster flow in the narrow part ⇒ lower pressure there."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वेंचुरीमीटर (venturi-meter) किस पर कार्य करता है?",
+     "o": [
+      "लंबवत अक्षों का सिद्धांत",
+      "हाइगेंस का सिद्धांत",
+      "बर्नूली का सिद्धांत",
+      "समांतर अक्षों का सिद्धांत"
+     ],
+     "sol": "<p>वेंचुरीमीटर एक नली के चौड़े और संकरे भागों के बीच दाबांतर से प्रवाह की चाल मापता है, जिसमें सांतत्य समीकरण और <b>बर्नूली का सिद्धांत</b> प्रयुक्त होते हैं।</p>",
+     "hint": "संकरे भाग में तेज प्रवाह ⇒ वहाँ कम दाब।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -860,10 +1052,22 @@
       "198 N",
       "1.98 mN",
       "99 N"
-     ]
+     ],
+     "sol": "<p>A thin disc lifted off the water surface is held by surface tension along its edge (one line of contact of length 2πr). Excess force F = S × 2πr = 0.07 × 2π × 0.045 ≈ 0.0198 N = <b>19.8 mN</b>.</p>",
+     "hint": "Force = S × length of the contact line."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "4.5 cm त्रिज्या की एक पतली चपटी वृत्ताकार चकती को जल के पृष्ठ पर धीरे से रखा जाता है। यदि जल का पृष्ठ तनाव 0.07 N/m है, तो इसे पृष्ठ से अलग करने के लिए आवश्यक अतिरिक्त बल है :",
+     "o": [
+      "19.8 mN",
+      "198 N",
+      "1.98 mN",
+      "99 N"
+     ],
+     "sol": "<p>जल के पृष्ठ से उठाई जा रही पतली चकती को पृष्ठ तनाव उसके किनारे के अनुदिश (2πr लंबाई की एक संपर्क रेखा) पकड़े रहता है। अतिरिक्त बल F = S × 2πr = 0.07 × 2π × 0.045 ≈ 0.0198 N = <b>19.8 mN</b>।</p>",
+     "hint": "बल = S × संपर्क रेखा की लंबाई।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -906,10 +1110,22 @@
       "d<sup>2</sup>y/dx<sup>2</sup> = (ρg/S) y",
       "d<sup>2</sup>y/dx<sup>2</sup> = √(ρg/S)",
       "dy/dx = √(ρg/S) x"
-     ]
+     ],
+     "sol": "<p>Just below a curved liquid surface the pressure differs from atmospheric by S × (curvature), and for small slopes the curvature is d<sup>2</sup>y/dx<sup>2</sup>. Hydrostatics: a point just under the surface at height y (above the flat level far away) has pressure P<sub>0</sub> − ρgy, so ρgy = S d<sup>2</sup>y/dx<sup>2</sup>.</p><p>Hence <b>d<sup>2</sup>y/dx<sup>2</sup> = (ρg/S) y</b>.</p>",
+     "hint": "Pressure jump across the surface = S × curvature ≈ S y″."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "चित्र में दिखाई गई एक जल टंकी पर विचार कीजिए। इसकी एक दीवार x = L पर है और इसे z दिशा में बहुत चौड़ा माना जा सकता है। S पृष्ठ तनाव और ρ घनत्व वाले द्रव से भरने पर द्रव का पृष्ठ x = L पर x-अक्ष से θ<sub>0</sub> (θ<sub>0</sub> << 1) कोण बनाता है। यदि y(x) पृष्ठ की ऊँचाई है, तो y(x) का समीकरण है : (θ(x) ≈ sin θ(x) ≈ tan θ(x) = dy/dx लीजिए, g गुरुत्वीय त्वरण है)",
+     "o": [
+      "d<sup>2</sup>y/dx<sup>2</sup> = (ρg/S) x",
+      "d<sup>2</sup>y/dx<sup>2</sup> = (ρg/S) y",
+      "d<sup>2</sup>y/dx<sup>2</sup> = √(ρg/S)",
+      "dy/dx = √(ρg/S) x"
+     ],
+     "sol": "<p>वक्र द्रव पृष्ठ के ठीक नीचे दाब वायुमंडलीय दाब से S × (वक्रता) भिन्न होता है, और छोटी ढलानों के लिए वक्रता d<sup>2</sup>y/dx<sup>2</sup> है। द्रवस्थैतिक दाब : पृष्ठ के ठीक नीचे y ऊँचाई (दूर के समतल स्तर से) पर बिंदु का दाब P<sub>0</sub> − ρgy है, अतः ρgy = S d<sup>2</sup>y/dx<sup>2</sup>।</p><p>अतः <b>d<sup>2</sup>y/dx<sup>2</sup> = (ρg/S) y</b>।</p>",
+     "hint": "पृष्ठ के आर-पार दाब में अंतर = S × वक्रता ≈ S y″।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -954,10 +1170,22 @@
       "a = −1/2, α = −1/2, β = −1, γ = −1/2, δ = 5/2",
       "a = −1/2, α = −1/2, β = −1, γ = 1/2, δ = 7/2",
       "a = 1/2, α = 1/2, β = −1/2, γ = 1/2, δ = 7/2"
-     ]
+     ],
+     "sol": "<p>Excess pressure in the balloon (one surface of the material taken as 2S/r up to a constant) drives the gas out: (1/2)ρv<sup>2</sup> ∝ S/r ⇒ v ∝ √(S/(ρr)), so a = −1/2.</p><p>Volume outflow: −d(4πr<sup>3</sup>/3)/dt = Av ⇒ dt ∝ (r<sup>2</sup>/A)√(ρr/S) dr ⇒ T ∝ (1/A)√(ρ/S) ∫<sub>0</sub><sup>R</sup> r<sup>5/2</sup> dr ∝ S<sup>−1/2</sup>A<sup>−1</sup>ρ<sup>1/2</sup>R<sup>7/2</sup>.</p><p>So <b>a = −1/2, α = −1/2, β = −1, γ = 1/2, δ = 7/2</b>.</p>",
+     "hint": "Bernoulli gives v from the excess pressure; continuity gives T."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक गुब्बारा S पृष्ठ तनाव वाले पदार्थ का बना है और इसके फुलाने वाले मुख (जहाँ से इसमें गैस भरी जाती है) का क्षेत्रफल A छोटा है। इसमें ρ घनत्व की गैस भरी है और यह R त्रिज्या का गोलीय आकार ले लेता है। जब गैस को इससे मुक्त रूप से बाहर निकलने दिया जाता है, तो इसकी त्रिज्या r, T समय में R से 0 (शून्य) हो जाती है। यदि गुब्बारे से बाहर निकलती गैस की चाल v(r), r पर r<sup>a</sup> के रूप में निर्भर करती है और T ∝ S<sup>α</sup>A<sup>β</sup>ρ<sup>γ</sup>R<sup>δ</sup>, तो :",
+     "o": [
+      "a = 1/2, α = 1/2, β = −1, γ = +1, δ = 3/2",
+      "a = −1/2, α = −1/2, β = −1, γ = −1/2, δ = 5/2",
+      "a = −1/2, α = −1/2, β = −1, γ = 1/2, δ = 7/2",
+      "a = 1/2, α = 1/2, β = −1/2, γ = 1/2, δ = 7/2"
+     ],
+     "sol": "<p>गुब्बारे का दाब आधिक्य (एक नियतांक तक 2S/r) गैस को बाहर धकेलता है : (1/2)ρv<sup>2</sup> ∝ S/r ⇒ v ∝ √(S/(ρr)), अतः a = −1/2।</p><p>आयतन बहिःस्राव : −d(4πr<sup>3</sup>/3)/dt = Av ⇒ dt ∝ (r<sup>2</sup>/A)√(ρr/S) dr ⇒ T ∝ (1/A)√(ρ/S) ∫<sub>0</sub><sup>R</sup> r<sup>5/2</sup> dr ∝ S<sup>−1/2</sup>A<sup>−1</sup>ρ<sup>1/2</sup>R<sup>7/2</sup>।</p><p>अतः <b>a = −1/2, α = −1/2, β = −1, γ = 1/2, δ = 7/2</b>।</p>",
+     "hint": "बर्नूली से दाब आधिक्य द्वारा v; सांतत्य से T।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1003,10 +1231,24 @@
       "990 m",
       "9000 m",
       "99 m"
-     ]
+     ],
+     "sol": "<p>Absolute pressure at depth h: P = P<sub>0</sub> + ρgh ⇒ 100 × 10<sup>5</sup> = 1 × 10<sup>5</sup> + 1000 × 10 × h ⇒ h = 99 × 10<sup>5</sup>/10<sup>4</sup> = <b>990 m</b>.</p>",
+     "hint": "Subtract the 1 atm already present at the surface.",
+     "trap": "Ignoring atmospheric pressure gives 1000 m (not an option); using 100 atm as gauge gives 1000 m too."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक पनडुब्बी को 100 atm के निरपेक्ष दाब को सहने के लिए बनाया गया है। यह जल के पृष्ठ के नीचे कितनी गहराई तक जा सकती है? (जल का घनत्व = 1000 kg m<sup>−3</sup>, 1 atm = 1 × 10<sup>5</sup> Pa और गुरुत्वीय त्वरण g = 10 m/s<sup>2</sup> लीजिए)",
+     "o": [
+      "9900 m",
+      "990 m",
+      "9000 m",
+      "99 m"
+     ],
+     "sol": "<p>h गहराई पर निरपेक्ष दाब : P = P<sub>0</sub> + ρgh ⇒ 100 × 10<sup>5</sup> = 1 × 10<sup>5</sup> + 1000 × 10 × h ⇒ h = 99 × 10<sup>5</sup>/10<sup>4</sup> = <b>990 m</b>।</p>",
+     "hint": "पृष्ठ पर पहले से उपस्थित 1 atm घटाइए।",
+     "trap": "वायुमंडलीय दाब की उपेक्षा करने पर 1000 m मिलता है (विकल्प नहीं); 100 atm को प्रमापी दाब मानने पर भी 1000 m।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
