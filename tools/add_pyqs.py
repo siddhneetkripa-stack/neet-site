@@ -141,6 +141,12 @@ def main():
                     q["text"]["en"]["sol"] = old["text"]["en"]["sol"]
                 if old["status"] != "draft":
                     q["status"] = old["status"]
+                # keep results of tools/apply_keys.py (official keys) and answers it accepted
+                if "official key" in old.get("review", {}).get("keyCheck", "").lower():
+                    for k in ("keyCheck", "keySource"):
+                        q["review"][k] = old["review"][k]
+                    if old["answer"].get("alsoAccepted") and q["answer"]["kind"] == "single":
+                        q["answer"]["alsoAccepted"] = old["answer"]["alsoAccepted"]
                 bank["questions"][bank["questions"].index(old)] = q
             else:
                 bank["questions"].append(q)
