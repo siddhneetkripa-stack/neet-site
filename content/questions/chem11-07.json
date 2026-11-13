@@ -804,6 +804,48 @@
     "keyCheck": "Official NTA final key (Question ID 6911211273): 1; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
    }
+  },
+  {
+   "id": "chem11-07-jee-2026-2026-01-23-shift-2-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "200 cc of x × 10<sup>−3</sup> M potassium dichromate is required to oxidise 750 cc of 0.6 M Mohr's salt solution in acidic medium. Here x = ____."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 375,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-07",
+    "paras": [
+     "7.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-23-shift-2 Q75",
+    "session": "23 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (2, 10, 375, 15, 200); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "The eSaral copy runs the question number into the volume (“75200 cc”); the volume is 200 cc."
+   }
   }
  ]
 }

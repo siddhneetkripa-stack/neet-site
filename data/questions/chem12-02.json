@@ -2145,6 +2145,100 @@
     "keyCheck": "Matches one of NTA's numerical answers for this shift (1031, 4, 57, 3, 10); worked out by us",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-23-shift-1-q60",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the given electrochemical cell Ag(s)|AgCl(s)|FeCl<sub>2</sub>(aq), FeCl<sub>3</sub>(aq) | Pt(s) at 298 K the cell potential (E<sub>cell</sub>) will increase when :<br>A. Concentration of Fe<sup>2+</sup> is increased.<br>B. Concentration of Fe<sup>3+</sup> is decreased.<br>C. Concentration of Fe<sup>2+</sup> is decreased.<br>D. Concentration of Fe<sup>3+</sup> is increased.<br>E. Concentration of Cl<sup>−</sup> is increased.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A and B only",
+      "C, D and E only",
+      "A and E Only",
+      "B Only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-23-shift-1 Q60",
+    "session": "23 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "The copy prints the cell as …FeCl<sub>2</sub>(aq), FeCl<sub>4</sub>(aq) | P(s); the intended cell (Fe<sup>3+</sup>/Fe<sup>2+</sup> on a Pt electrode) is written here."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-23-shift-2-q58",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "[Figure: a concentration cell, two M electrodes dipping in M<sup>+</sup>X<sup>−</sup> solutions of concentrations c<sub>2</sub> and c<sub>1</sub>, separated by a semi permeable membrane]. Consider the above electrochemical cell where a metal electrode (M) is undergoing redox reaction by forming M<sup>+</sup> (M → M<sup>+</sup> + e<sup>−</sup>). The cation M<sup>+</sup> is present in two different concentrations c<sub>1</sub> and c<sub>2</sub> as shown above. Which of the following statement is correct for generating a positive cell potential?",
+     "o": [
+      "If c<sub>1</sub> is present at cathode, then c<sub>1</sub> &lt; c<sub>2</sub>.",
+      "If c<sub>1</sub> is present at anode, then c<sub>1</sub> = c<sub>2</sub>.",
+      "If c<sub>1</sub> is present at anode, then c<sub>1</sub> &gt; c<sub>2</sub>.",
+      "If c<sub>1</sub> is present at cathode, then c<sub>1</sub> &gt; c<sub>2</sub>."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-23-shift-2 Q58",
+    "session": "23 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Simple cell sketch in the paper; the text above carries all it shows."
+   }
   }
  ]
 }
