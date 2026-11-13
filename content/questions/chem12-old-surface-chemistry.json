@@ -194,6 +194,55 @@
     "keyCheck": "NTA final key Code F3: 1",
     "keySource": "NTA final answer keys, NEET (UG) 2020 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf), Book F3 (the Byju's copy follows F3 order: 44/45 printed answers match)"
    }
+  },
+  {
+   "id": "chem12-old-surface-chemistry-neet-2019-code-s2-q159",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which mixture of the solutions will lead to the formation of negatively charged colloidal [AgI]I<sup>−</sup> sol.?",
+     "o": [
+      "50 mL of 2 M AgNO<sub>3</sub> + 50 mL of 1.5 M KI",
+      "50 mL of 0.12 M AgNO<sub>3</sub> + 50 mL of 0.1 M KI",
+      "50 mL of 1 M AgNO<sub>3</sub> + 50 mL of 1.5 M KI",
+      "50 mL of 1 M AgNO<sub>3</sub> + 50 mL of 2 M KI"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2,
+    "alsoAccepted": [
+     3
+    ]
+   },
+   "ncert": {
+    "chapter": "chem12-old-surface-chemistry",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 5 · Charge on colloids (AgI/I− sol)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q159",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3,4; matches our solving",
+    "keySource": "Answers in the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf). No NTA final key for 2019 in neet-sources.",
+    "note": "Options (3) and (4) both have excess KI; the copy gives (3,4). Check the NTA final key."
+   }
   }
  ]
 }
