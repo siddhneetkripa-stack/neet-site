@@ -1,0 +1,137 @@
+{
+ "phy11-08-neet-2015-re-exam-code-d-q172": {
+  "sol": "<p>Extension Δl = FL/(AY). Same L, same A and the same extension (ends at the same level) ⇒ F ∝ Y.</p><p>F<sub>steel</sub> : F<sub>brass</sub> = Y<sub>steel</sub> : Y<sub>brass</sub> = <b>2 : 1</b>.</p>",
+  "hint": "Equal extensions with equal L and A need F ∝ Y.",
+  "hi": {
+   "q": "इस्पात का यंग गुणांक पीतल के यंग गुणांक का दोगुना है। समान लंबाई और समान अनुप्रस्थ काट क्षेत्रफल के दो तार, एक इस्पात का और दूसरा पीतल का, एक ही छत से लटकाए गए हैं। यदि हम चाहते हैं कि तारों के निचले सिरे समान स्तर पर रहें, तो इस्पात और पीतल के तारों पर जोड़े गए भारों का अनुपात होना चाहिए :",
+   "o": [
+    "2:1",
+    "4:1",
+    "1:1",
+    "1:2"
+   ],
+   "sol": "<p>प्रसार Δl = FL/(AY)। समान L, समान A और समान प्रसार (सिरे समान स्तर पर) ⇒ F ∝ Y।</p><p>F<sub>steel</sub> : F<sub>brass</sub> = Y<sub>steel</sub> : Y<sub>brass</sub> = <b>2 : 1</b>।</p>",
+   "hint": "समान L और A के साथ समान प्रसार के लिए F ∝ Y।"
+  }
+ },
+ "phy11-08-neet-2017-code-a-q32": {
+  "sol": "<p>Volume strain ΔV/V = p/B. For a sphere V ∝ r<sup>3</sup>, so ΔV/V = 3Δr/r.</p><p>Δr/r = <b>p/(3B)</b>.</p>",
+  "hint": "Fractional change in volume = 3 × fractional change in radius.",
+  "hi": {
+   "q": "एक गोलीय वस्तु का आयतन प्रत्यास्थता गुणांक 'B' है। यदि इस पर एकसमान दाब 'p' लगाया जाए, तो त्रिज्या में भिन्नात्मक कमी है :",
+   "o": [
+    "p/B",
+    "B/(3p)",
+    "3p/B",
+    "p/(3B)"
+   ],
+   "sol": "<p>आयतन विकृति ΔV/V = p/B । गोले के लिए V ∝ r<sup>3</sup>, अतः ΔV/V = 3Δr/r ।</p><p>Δr/r = <b>p/(3B)</b>।</p>",
+   "hint": "आयतन में भिन्नात्मक परिवर्तन = 3 × त्रिज्या में भिन्नात्मक परिवर्तन।"
+  }
+ },
+ "phy11-08-neet-2018-code-aa-q44": {
+  "sol": "<p>Same volume: L<sub>1</sub>A = L<sub>2</sub>(3A) ⇒ L<sub>2</sub> = L<sub>1</sub>/3. Force for extension Δl: F = YAΔl/L.</p><p>F<sub>2</sub>/F<sub>1</sub> = (3A/A) × (L<sub>1</sub>/L<sub>2</sub>) = 3 × 3 = 9 ⇒ F<sub>2</sub> = <b>9F</b>.</p>",
+  "hint": "Three times the area also means one-third the length.",
+  "hi": {
+   "q": "दो तार एक ही पदार्थ के बने हैं और उनका आयतन समान है। पहले तार का अनुप्रस्थ काट क्षेत्रफल A और दूसरे का 3A है। यदि बल F लगाने पर पहले तार की लंबाई Δl बढ़ती है, तो दूसरे तार को उतना ही खींचने के लिए कितना बल आवश्यक है?",
+   "o": [
+    "4F",
+    "6F",
+    "9F",
+    "F"
+   ],
+   "sol": "<p>समान आयतन : L<sub>1</sub>A = L<sub>2</sub>(3A) ⇒ L<sub>2</sub> = L<sub>1</sub>/3। प्रसार Δl के लिए बल : F = YAΔl/L ।</p><p>F<sub>2</sub>/F<sub>1</sub> = (3A/A) × (L<sub>1</sub>/L<sub>2</sub>) = 3 × 3 = 9 ⇒ F<sub>2</sub> = <b>9F</b>।</p>",
+   "hint": "तीन गुना क्षेत्रफल का अर्थ एक-तिहाई लंबाई भी है।"
+  }
+ },
+ "phy11-08-neet-2019-code-s2-q131": {
+  "sol": "<p>Elastic potential energy = (1/2) × force × extension = (1/2)(Mg)(l) = <b>(1/2) Mgl</b>.</p><p>(The other half of the work done by gravity, Mgl/2, is lost as the block settles.)</p>",
+  "hint": "U = (1/2) × stress × strain × volume = (1/2)F × extension.",
+  "hi": {
+   "q": "जब M द्रव्यमान का एक गुटका L लंबाई के एक लंबे तार से लटकाया जाता है, तो तार की लंबाई (L + l) हो जाती है। खिंचे हुए तार में संचित प्रत्यास्थ स्थितिज ऊर्जा है :",
+   "o": [
+    "(1/2) Mgl",
+    "MgL",
+    "Mgl",
+    "(1/2) MgL"
+   ],
+   "sol": "<p>प्रत्यास्थ स्थितिज ऊर्जा = (1/2) × बल × प्रसार = (1/2)(Mg)(l) = <b>(1/2) Mgl</b>।</p><p>(गुरुत्व द्वारा किए गए कार्य का शेष आधा भाग, Mgl/2, गुटके के स्थिर होने में व्यय हो जाता है।)</p>",
+   "hint": "U = (1/2) × प्रतिबल × विकृति × आयतन = (1/2)F × प्रसार।"
+  }
+ },
+ "phy11-08-neet-2020-code-f3-q36": {
+  "sol": "<p>Stress = Mg/A, strain = (L<sub>1</sub> − L)/L.</p><p>Y = stress/strain = <b>MgL/(A(L<sub>1</sub> − L))</b>.</p>",
+  "hint": "Strain uses the change in length, L<sub>1</sub> − L.",
+  "hi": {
+   "q": "L लंबाई और A अनुप्रस्थ काट क्षेत्रफल का एक तार एक स्थिर आधार से लटका है। इसके मुक्त सिरे से M द्रव्यमान लटकाने पर तार की लंबाई L<sub>1</sub> हो जाती है। यंग गुणांक का व्यंजक है :",
+   "o": [
+    "MgL/(AL<sub>1</sub>)",
+    "MgL/(A(L<sub>1</sub> − L))",
+    "MgL<sub>1</sub>/(AL)",
+    "Mg(L<sub>1</sub> − L)/(AL)"
+   ],
+   "sol": "<p>प्रतिबल = Mg/A, विकृति = (L<sub>1</sub> − L)/L ।</p><p>Y = प्रतिबल/विकृति = <b>MgL/(A(L<sub>1</sub> − L))</b>।</p>",
+   "hint": "विकृति में लंबाई का परिवर्तन L<sub>1</sub> − L आता है।"
+  }
+ },
+ "phy11-08-neet-2022-code-t2-q41": {
+  "sol": "<p>(A) True: when a coil spring is stretched, the wire is twisted rather than lengthened, so its shape changes: the stretching depends on the shear modulus. (R) False: steel has a much higher elastic modulus and strength than copper, which is why springs are made of steel.</p><p>Answer: <b>(A) is true but (R) is false</b>.</p>",
+  "hint": "Springs are made of steel for a reason.",
+  "hi": {
+   "q": "नीचे दो कथन दिए गए हैं : एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया है।<br>अभिकथन (A) : स्प्रिंग का खिंचाव स्प्रिंग के पदार्थ के अपरूपण गुणांक द्वारा निर्धारित होता है।<br>कारण (R) : ताँबे की कुंडलित स्प्रिंग की तनन सामर्थ्य समान विमाओं वाली इस्पात की स्प्रिंग से अधिक होती है।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+   "o": [
+    "(A) और (R) दोनों सत्य हैं और (R), (A) की सही व्याख्या नहीं है",
+    "(A) सत्य है परंतु (R) असत्य है",
+    "(A) असत्य है परंतु (R) सत्य है",
+    "(A) और (R) दोनों सत्य हैं और (R), (A) की सही व्याख्या है"
+   ],
+   "sol": "<p>(A) सत्य : कुंडलित स्प्रिंग को खींचने पर तार की लंबाई नहीं बढ़ती बल्कि वह ऐंठता है, अतः आकार बदलता है : खिंचाव अपरूपण गुणांक पर निर्भर करता है। (R) असत्य : इस्पात का प्रत्यास्थता गुणांक और सामर्थ्य ताँबे से बहुत अधिक है, इसीलिए स्प्रिंग इस्पात की बनाई जाती हैं।</p><p>उत्तर : <b>(A) सत्य है परंतु (R) असत्य है</b>।</p>",
+   "hint": "स्प्रिंग इस्पात की ही क्यों बनाई जाती हैं, सोचिए।"
+  }
+ },
+ "phy11-08-neet-2023-topic-wise-copy-q10": {
+  "sol": "<p>The tension at any cross-section of a light wire equals W, so the longitudinal stress = force/area = <b>W/A</b>.</p>",
+  "hint": "Stress = force/area; the wire's own weight is neglected.",
+  "hi": {
+   "q": "माना एक तार छत (दृढ़ आधार) से लटका है और इसके मुक्त सिरे पर लगे भार W से खिंचा है। तार के A अनुप्रस्थ काट क्षेत्रफल वाले किसी भी बिंदु पर अनुदैर्घ्य प्रतिबल है :",
+   "o": [
+    "शून्य",
+    "2W/A",
+    "W/A",
+    "W/(2A)"
+   ],
+   "sol": "<p>हलके तार के किसी भी अनुप्रस्थ काट पर तनाव W के बराबर है, अतः अनुदैर्घ्य प्रतिबल = बल/क्षेत्रफल = <b>W/A</b>।</p>",
+   "hint": "प्रतिबल = बल/क्षेत्रफल; तार के अपने भार की उपेक्षा की गई है।"
+  }
+ },
+ "phy11-08-neet-2024-q34-esaral-physics-copy": {
+  "sol": "<p>The stress can go up to the elastic limit: strain<sub>max</sub> = 8 × 10<sup>8</sup>/(2 × 10<sup>11</sup>) = 4 × 10<sup>−3</sup>.</p><p>Δl<sub>max</sub> = 4 × 10<sup>−3</sup> × 1 m = 4 × 10<sup>−3</sup> m = <b>4 mm</b>.</p>",
+  "hint": "Maximum strain = elastic limit/Y.",
+  "hi": {
+   "q": "1 m लंबाई के इस्पात के तार का अधिकतम प्रसार, यदि इस्पात की प्रत्यास्थ सीमा और इसका यंग गुणांक क्रमशः 8 × 10<sup>8</sup> N m<sup>−2</sup> और 2 × 10<sup>11</sup> N m<sup>−2</sup> हैं, है :",
+   "o": [
+    "4 mm",
+    "0.4 mm",
+    "40 mm",
+    "8 mm"
+   ],
+   "sol": "<p>प्रतिबल प्रत्यास्थ सीमा तक जा सकता है : अधिकतम विकृति = 8 × 10<sup>8</sup>/(2 × 10<sup>11</sup>) = 4 × 10<sup>−3</sup>।</p><p>Δl<sub>max</sub> = 4 × 10<sup>−3</sup> × 1 m = 4 × 10<sup>−3</sup> m = <b>4 mm</b>।</p>",
+   "hint": "अधिकतम विकृति = प्रत्यास्थ सीमा/Y ।"
+  }
+ },
+ "phy11-08-neet-2026-code-13-q8": {
+  "sol": "<p>Young's modulus Y = (F/A)/(ΔL/L) = FL/(AΔL) → II. Compressibility = 1/B = −(1/ΔP)(ΔV/V) → III. Bulk modulus B = −P(V/ΔV) → IV. Poisson's ratio = lateral strain/longitudinal strain = (Δd/d)/(ΔL/L) = (Δd/ΔL)(L/d) → I.</p><p>Answer: <b>A-II, B-III, C-IV, D-I</b>.</p>",
+  "hint": "Compressibility is the reciprocal of bulk modulus.",
+  "hi": {
+   "q": "सूची I का सूची II से मिलान कीजिए :<br>A. यंग गुणांक — I. (Δd/ΔL)(L/d)<br>B. संपीड्यता — II. FL/(A(ΔL))<br>C. आयतन प्रत्यास्थता गुणांक — III. −(1/ΔP)(ΔV/V)<br>D. प्वासों अनुपात — IV. −P(V/ΔV)<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+   "o": [
+    "A-III, B-II, C-I, D-IV",
+    "A-II, B-III, C-IV, D-I",
+    "A-I, B-IV, C-III, D-II",
+    "A-IV, B-I, C-II, D-III"
+   ],
+   "sol": "<p>यंग गुणांक Y = (F/A)/(ΔL/L) = FL/(AΔL) → II। संपीड्यता = 1/B = −(1/ΔP)(ΔV/V) → III। आयतन प्रत्यास्थता गुणांक B = −P(V/ΔV) → IV। प्वासों अनुपात = पार्श्व विकृति/अनुदैर्घ्य विकृति = (Δd/d)/(ΔL/L) = (Δd/ΔL)(L/d) → I।</p><p>उत्तर : <b>A-II, B-III, C-IV, D-I</b>।</p>",
+   "hint": "संपीड्यता आयतन प्रत्यास्थता गुणांक का व्युत्क्रम है।"
+  }
+ }
+}
