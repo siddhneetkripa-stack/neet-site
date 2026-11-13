@@ -659,6 +659,56 @@
     "keyCheck": "NTA final key: 2",
     "keySource": "Published answer key, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the official bilingual CBSE booklet, Code A"
    }
+  },
+  {
+   "id": "chem11-03-neet-2016-phase-1-code-a-q51",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In which of the following options the order of arrangement does not agree with the variation of property indicated against it?",
+     "o": [
+      "Al<sup>3+</sup> &lt; Mg<sup>2+</sup> &lt; Na<sup>+</sup> &lt; F<sup>−</sup> (increasing ionic size)",
+      "B &lt; C &lt; N &lt; O (increasing first ionisation enthalpy)",
+      "I &lt; Br &lt; Cl &lt; F (increasing electron gain enthalpy)",
+      "Li &lt; Na &lt; K &lt; Rb (increasing metallic radius)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1,
+    "alsoAccepted": [
+     2
+    ]
+   },
+   "ncert": {
+    "chapter": "chem11-03",
+    "paras": [
+     "3.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q51",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2,3; matches our solving",
+    "keySource": "Answers in the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf); text from the Code A booklet. No official key for 2016 in neet-sources.",
+    "note": "The key accepts (2) and (3)."
+   }
   }
  ]
 }

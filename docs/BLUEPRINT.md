@@ -27,6 +27,7 @@ Source of truth for building this site. Every Claude / AI session working on nee
   - PYQ tagging progress, per year:
     - NEET 2019 (Code S2, Motion copy): 44 tagged (+1 already in Unit 1). Answers = the copy's key + our solving (no NTA key in neet-sources); Q159 accepts (3) and (4) as printed.
     - NEET 2017 (Code A, official bilingual CBSE booklet): 44 tagged (+1 in Unit 1); answers checked against the published Code A key, all agree (Q50 key accepts 1 and 4). The booklet prints NTA/CBSE's own Hindi for every question, a source for `text.hi` later.
+    - NEET 2016 Phase 1 (Code A booklet + Aakash solutions): 45 tagged. Answers = the solutions' key + our solving (no official key in neet-sources); Q51 and Q53 keys accept two options; Q71 was a bonus (correct product CaCN2 not offered) — kept with a placeholder answer and a note, never for tests. Q63, Q72, Q84 are `outside_ncert` (acetonide formation, Clausius–Clapeyron, atropisomerism).
 - Left / next:
   - Tag the remaining NEET Chemistry papers: 2019 (Code S2, text), 2017 (Code A, text + key), 2016 Phase 1 and Phase 2 (text), 2015 re-exam (text), 2018 (Code AA: question paper is a scan → OCR; key is text), 2022 (chemistry copy is a scan → OCR; tesseract and pymupdf install with apt/pip). Workflow: render pages (`pdftoppm -r 80`), read them, write a batch, run `tools/add_pyqs.py`, then `tools/build.py`.
   - Check 2026 answers against the official Code 13 booklet scan; check the 2025 Q69 conflict and the clipped options against official booklets.

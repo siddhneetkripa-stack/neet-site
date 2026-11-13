@@ -238,6 +238,51 @@
     "keyCheck": "NTA final key: 2",
     "keySource": "Published answer key, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the official bilingual CBSE booklet, Code A"
    }
+  },
+  {
+   "id": "chem12-old-everyday-life-neet-2016-phase-1-code-a-q67",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is an analgesic ?",
+     "o": [
+      "Novalgin",
+      "Penicillin",
+      "Streptomycin",
+      "Chloromycetin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-old-everyday-life",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 16 · Analgesics"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q67",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf); text from the Code A booklet. No official key for 2016 in neet-sources."
+   }
   }
  ]
 }

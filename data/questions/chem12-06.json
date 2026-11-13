@@ -750,6 +750,56 @@
     "keySource": "Published answer key, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the official bilingual CBSE booklet, Code A",
     "note": "Diagram/structure question: the paper shows structures; written here in text. Needs a redrawn figure before it goes live."
    }
+  },
+  {
+   "id": "chem12-06-neet-2016-phase-1-code-a-q85",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For the following reactions :<br>(a) CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br + KOH → CH<sub>3</sub>CH=CH<sub>2</sub> + KBr + H<sub>2</sub>O<br>(b) (CH<sub>3</sub>)<sub>2</sub>CHBr + KOH → (CH<sub>3</sub>)<sub>2</sub>CHOH + KBr<br>(c) Cyclohexene + Br<sub>2</sub> → trans-1,2-dibromocyclohexane<br>Which of the following statements is correct ?",
+     "o": [
+      "(a) and (b) are elimination reactions and (c) is addition reaction.",
+      "(a) is elimination, (b) is substitution and (c) is addition reaction.",
+      "(a) is elimination, (b) and (c) are substitution reactions.",
+      "(a) is substitution, (b) and (c) are addition reactions."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.7.1"
+    ],
+    "otherChapters": [
+     "Class 11 · Hydrocarbons (addition of halogens)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q85",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf); text from the Code A booklet. No official key for 2016 in neet-sources.",
+    "note": "(b) and (c) are drawn as structures in the paper."
+   }
   }
  ]
 }
