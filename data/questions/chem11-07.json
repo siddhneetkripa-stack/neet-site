@@ -1023,6 +1023,101 @@
     "keyCheck": "Matches one of NTA's numerical answers for this shift (6, 4, 3, 24, 3); worked out by us",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem11-07-jee-2025-2025-01-28-shift-1-q7",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the columns and choose the correct option.<br>Column-I: (A) H<sub>2</sub>O<sub>2</sub> → H<sub>2</sub>O + O<sub>2</sub> (B) NaH → Na + H<sub>2</sub> (C) CH<sub>4</sub> + O<sub>2</sub> → CO<sub>2</sub> + H<sub>2</sub>O (D) Fe + CuSO<sub>4</sub> → FeSO<sub>4</sub> + Cu<br>Column-II: (P) Combustion reaction (Q) Disproportionation reaction (R) Decomposition reaction (S) Displacement reaction",
+     "o": [
+      "A–(Q), B–(P), C–(R), D–(S)",
+      "A–(R), B–(Q), C–(S), D–(P)",
+      "A–(Q), B–(R), C–(P), D–(S)",
+      "A–(R), B–(Q), C–(P), D–(S)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-07",
+    "paras": [
+     "7.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-28-shift-1 Q7",
+    "session": "28 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem11-07-jee-2025-2025-01-29-shift-1-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following ions is the strongest oxidising agent? Given: E°<sub>Al<sup>3+</sup>/Al</sub> = −2.7 V, E°<sub>Cu<sup>2+</sup>/Cu</sub> = 0.34 V, E°<sub>Pb<sup>4+</sup>/Pb<sup>2+</sup></sub> = 1.8 V, E°<sub>Ti<sup>3+</sup>/Ti<sup>2+</sup></sub> = −0.37 V",
+     "o": [
+      "Al<sup>3+</sup>",
+      "Cu<sup>2+</sup>",
+      "Pb<sup>4+</sup>",
+      "Ti<sup>3+</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-07",
+    "paras": [
+     "7.4"
+    ],
+    "otherChapters": [
+     "Class 12 · Electrochemistry"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-29-shift-1 Q16",
+    "session": "29 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
   }
  ]
 }

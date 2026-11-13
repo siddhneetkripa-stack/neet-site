@@ -2867,6 +2867,188 @@
     "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
     "note": "Options are graphs in the copy; described here."
    }
+  },
+  {
+   "id": "chem12-03-jee-2025-2025-01-24-shift-2-q24",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Let k<sub>1</sub>, k<sub>2</sub> and k<sub>3</sub> be rate constants of three steps, and the rate constant of the overall reaction is k = √(k<sub>1</sub>k<sub>3</sub>/k<sub>2</sub>). Assuming each obeys the Arrhenius equation, find the activation energy (kJ/mol) of the overall reaction. (Given : E<sub>a1</sub> = 10 kJ/mol, E<sub>a2</sub> = 30 kJ/mol, E<sub>a3</sub> = 60 kJ/mol)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 20,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-24-shift-2 Q24",
+    "session": "24 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-03-jee-2025-2025-01-28-shift-2-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For an elementary reaction A + B → C + D, when the volume of the container becomes 1/3<sup>rd</sup>, the rate of reaction becomes",
+     "o": [
+      "8 times",
+      "9 times",
+      "6 times",
+      "2 times"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.2.3",
+     "3.2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-28-shift-2 Q8",
+    "session": "28 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-03-jee-2025-2025-01-28-shift-2-q14",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A bacterial population grows according to first order kinetics (dN/dt = kN). Which of the following graphs of N/N<sub>0</sub> against t is correct?",
+     "o": [
+      "N/N<sub>0</sub> falling and levelling off",
+      "N/N<sub>0</sub> rising linearly",
+      "N/N<sub>0</sub> rising exponentially",
+      "N/N<sub>0</sub> falling linearly"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-28-shift-2 Q14",
+    "session": "28 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: “(dN/dt = kN)” added so growth (not decay) is clear; the options are graphs, described here."
+   }
+  },
+  {
+   "id": "chem12-03-jee-2025-2025-01-29-shift-1-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Find the order of the reaction A + B → F if the mechanism is: Step 1 : A + B → D (slow); Step 2 : D → C + E (fast); Step 3 : C + E → F (fast)",
+     "o": [
+      "1",
+      "3",
+      "2",
+      "4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.2.3",
+     "3.2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-29-shift-1 Q8",
+    "session": "29 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
   }
  ]
 }

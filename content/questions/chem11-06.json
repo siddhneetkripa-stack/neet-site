@@ -3625,6 +3625,141 @@
     "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
     "note": "Reworded from the original paper to remove an ambiguity: the recalled paper mentions a degree of dissociation α that plays no part; it is removed and ‘starting from pure X<sub>2</sub>Y(s)’ added."
    }
+  },
+  {
+   "id": "chem11-06-jee-2025-2025-01-24-shift-1-q21",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The K<sub>sp</sub> of Cr(OH)<sub>3</sub> is 1.6 × 10<sup>−30</sup> M<sup>4</sup>. If the molar solubility of the salt in water is 1.56 × 10<sup>−x</sup> M, then the value of x is"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 8,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.13.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-24-shift-1 Q21",
+    "session": "24 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem11-06-jee-2025-2025-01-24-shift-2-q9",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the gaseous reaction H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2HI(g). The reaction is started with ‘a’ moles of H<sub>2</sub> and ‘b’ moles of I<sub>2</sub> (a &gt; b) in a closed container at T(K) and no HI, until equilibrium is established. Which plot of concentration against time correctly describes the progress of the reaction?",
+     "o": [
+      "H<sub>2</sub>, I<sub>2</sub> and HI all start at non-zero values and level off with H<sub>2</sub> &gt; I<sub>2</sub> &gt; HI",
+      "HI rises from zero while H<sub>2</sub> and I<sub>2</sub> fall; all three level off, H<sub>2</sub> staying above I<sub>2</sub>",
+      "all three fall and level off with HI on top",
+      "I<sub>2</sub> rises from zero while H<sub>2</sub> and HI fall"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-24-shift-2 Q9",
+    "session": "24 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: “(a &gt; b)” and “no HI” added; the plots are described in words (the paper shows four concentration–time graphs). Needs redrawn figures."
+   }
+  },
+  {
+   "id": "chem11-06-jee-2025-2025-01-29-shift-1-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the reaction A<sub>2</sub>B(g) ⇌ A<sub>2</sub>(g) + ½B<sub>2</sub>(g). If P is the total pressure at equilibrium and K<sub>P</sub> is the equilibrium constant, then α in terms of K<sub>P</sub> and P is (assume α ≪ 1)",
+     "o": [
+      "√(K<sub>P</sub>/P)",
+      "(K<sub>P</sub>/P)<sup>1/4</sup>",
+      "√(2K<sub>P</sub>/P)",
+      "(2K<sub>P</sub><sup>2</sup>/P)<sup>1/3</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.4.1",
+     "6.6.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-29-shift-1 Q12",
+    "session": "29 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
   }
  ]
 }

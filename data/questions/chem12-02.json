@@ -2586,6 +2586,186 @@
     "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
     "note": "Reworded from the original paper to remove an ambiguity: ‘per mole of the metal oxidised’ added so that n = 2 in every cell and ΔG° depends on E°<sub>cell</sub> alone."
    }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-24-shift-1-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Calculate E°<sub>cell</sub> for the cell reaction Fe<sup>2+</sup> + Ag<sup>+</sup> → Fe<sup>3+</sup> + Ag, given: Ag<sup>+</sup> + e<sup>−</sup> → Ag, E° = x V; Fe<sup>2+</sup> + 2e<sup>−</sup> → Fe, E° = y V; Fe<sup>3+</sup> + 3e<sup>−</sup> → Fe, E° = z V",
+     "o": [
+      "x + y − z",
+      "x + 3y − 2z",
+      "y − 2x",
+      "x − 3z + 2y"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-24-shift-1 Q13",
+    "session": "24 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-28-shift-2-q24",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "On passing current through 600 mL of NaCl solution, the pH increases to 12. Find the current (in A) if electrolysis occurs for 10 min (assume 100% efficiency). (Nearest integer)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 1,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-28-shift-2 Q24",
+    "session": "28 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-29-shift-1-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the correct Nernst equation for the cell reaction made from Mg → Mg<sup>2+</sup> + 2e<sup>−</sup> and Ag<sup>+</sup> + e<sup>−</sup> → Ag?",
+     "o": [
+      "E<sub>cell</sub> = E°<sub>cell</sub> − (RT/2F) ln([Mg<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup>)",
+      "E<sub>cell</sub> = E°<sub>cell</sub> − (RT/2F) ln([Ag<sup>+</sup>]<sup>2</sup>/[Mg<sup>2+</sup>])",
+      "E<sub>cell</sub> = E°<sub>cell</sub> + (RT/F) ln([Mg<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup>)",
+      "E<sub>cell</sub> = E°<sub>cell</sub> + (RT/2F) ln([Ag<sup>+</sup>]<sup>2</sup>/[Mg<sup>2+</sup>])"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-29-shift-1 Q10",
+    "session": "29 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-29-shift-1-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For an electrolyte, Λ<sub>m</sub> is linearly dependent on √c. On diluting its solution towards infinite dilution, its molar conductivity shows a",
+     "o": [
+      "Small increase",
+      "Small decrease",
+      "Sharp increase",
+      "Sharp decrease"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-29-shift-1 Q13",
+    "session": "29 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the recalled wording (“molar conductance … at infinite dilution shows”) is completed to ask how Λ<sub>m</sub> changes as c → 0."
+   }
   }
  ]
 }

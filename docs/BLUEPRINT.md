@@ -58,7 +58,8 @@ Source of truth for building this site. Every Claude / AI session working on nee
   - **JEE Main 2026 Session 1 (January) Chemistry tagged: 10 shifts, 244 questions** (batches `jee-2026-01-*-chemistry.json`). MCQs solved independently; every numerical answer is one of NTA's five numerical answers for that shift. Left out (6): 23 Jan S2 Q56–57 and 28 Jan S2 Q51 (figures not readable / two readings), 24 Jan S2 Q64 (options missing in the copy), 28 Jan S1 Q59 and Q68 (two defensible answers). Already in the Unit 1 bank (skipped): 21 Jan S1 Q62–63, 22 Jan S2 Q58, Q63.
   - **Owner's rule (13 Nov 2026): where a question is confusing, take a suitable assumption or reword it so one answer is clearly right.** Every such change carries a note starting “Reworded from the original paper to remove an ambiguity: …” (about 20 so far, Jan + Apr), so students see a clean question and reviewers see what changed.
   - JEE Main 2026 total: 469 Chemistry PYQs, 56 of them diagram questions needing redrawn figures.
-  - Next: JEE Main 2025 → 2020 (eSaral copies print NTA answers); then solutions + Hindi for all JEE PYQs.
+  - **JEE Main 2025 Chemistry tagged: 9 shifts, 175 questions in the bank** (batches `jee-2025-01-*-chemistry.json`, written with `printed()` in neet-sources `scripts/pyq-tools/jee_batch.py`). The 2025 eSaral copies are recalled papers: several print only 14–22 of the 25 questions, wording is rough, and every printed answer was checked by solving. Unclear questions were reworded (notes as above) or left out (listed at the top of each batch script). 28 Jan S2 Q1: copy prints +4, its own solution and NCERT give +5; we use +5 (noted). The “28 Jan Shift 2” copy's footer says 29-01-2025; its cover and source say 28 Jan, kept as 28 Jan S2.
+  - Next: JEE Main 2024 → 2020; then solutions + Hindi for all JEE PYQs.
 
 ## 1. Vision and positioning
 

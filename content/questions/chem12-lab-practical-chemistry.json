@@ -1049,6 +1049,182 @@
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
     "note": "Option (4) is clipped in the copy (“+2 and …”); written here as +2 and 0. It cannot affect the answer (3)."
    }
+  },
+  {
+   "id": "chem12-lab-practical-chemistry-jee-2025-2025-01-24-shift-1-q23",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How many of the following cations give a characteristic coloured (not white) precipitate with K<sub>4</sub>[Fe(CN)<sub>6</sub>]? Cu<sup>2+</sup>, Ca<sup>2+</sup>, Ba<sup>2+</sup>, Fe<sup>3+</sup>, Zn<sup>2+</sup>, Mg<sup>2+</sup>, Mn<sup>2+</sup>"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 3,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-lab-practical-chemistry",
+    "paras": []
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-24-shift-1 Q23",
+    "session": "24 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "lab_manual",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: “(not white)” added: Zn<sup>2+</sup> gives a white precipitate, and whether white counts as ‘coloured’ was left open. Counted: Cu<sup>2+</sup> (chocolate brown), Fe<sup>3+</sup> (Prussian blue), Mn<sup>2+</sup> (pale pink)."
+   }
+  },
+  {
+   "id": "chem12-lab-practical-chemistry-jee-2025-2025-01-28-shift-1-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following gives a violet colour in the borax bead test (oxidising flame)?",
+     "o": [
+      "Cr<sup>3+</sup>",
+      "Mn<sup>2+</sup>",
+      "Co<sup>3+</sup>",
+      "Fe<sup>2+</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-lab-practical-chemistry",
+    "paras": []
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-28-shift-1 Q13",
+    "session": "28 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "lab_manual",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: “(oxidising flame)” added; bead colours differ between the oxidising and reducing flames."
+   }
+  },
+  {
+   "id": "chem12-lab-practical-chemistry-jee-2025-2025-01-28-shift-1-q15",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Statement 1 : For titration of oxalic acid with KMnO<sub>4</sub>, warming of the acid solution is required, whereas with ferrous ammonium sulphate it is done at room temperature.<br>Statement 2 : Fe<sup>2+</sup> is converted to Fe<sup>3+</sup> during the titration.",
+     "o": [
+      "Both Statement 1 and Statement 2 are correct",
+      "Statement 1 is correct and Statement 2 is incorrect",
+      "Statement 1 is incorrect and Statement 2 is correct",
+      "Both Statement 1 and Statement 2 are incorrect"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-lab-practical-chemistry",
+    "paras": [],
+    "otherChapters": [
+     "Class 11 · Redox Reactions"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-28-shift-1 Q15",
+    "session": "28 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "lab_manual",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-lab-practical-chemistry-jee-2025-2025-01-28-shift-2-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following compounds are yellow in colour? (a) CdS (b) PbS (c) CuS (d) ZnS (cold) (e) PbCrO<sub>4</sub>",
+     "o": [
+      "(a), (c) and (e) only",
+      "(a) and (e) only",
+      "(b) and (d) only",
+      "(a), (b) and (e) only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-lab-practical-chemistry",
+    "paras": []
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-28-shift-2 Q3",
+    "session": "28 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "lab_manual",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
   }
  ]
 }

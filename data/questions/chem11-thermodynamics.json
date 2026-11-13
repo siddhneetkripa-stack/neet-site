@@ -8509,6 +8509,141 @@
     "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
     "note": "Reworded from the original paper to remove an ambiguity: the paper's p–V graph is written as coordinates, and ‘on the gas’ added; the paper's “find work done” leaves the sign open between options (1) and (3)."
    }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2025-2025-01-24-shift-1-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At the freezing point of water a certain process is non-spontaneous, but it becomes spontaneous at the boiling point. The correct option is",
+     "o": [
+      "ΔH = +ve, ΔS = +ve",
+      "ΔH = −ve, ΔS = −ve",
+      "ΔH = +ve, ΔS = −ve",
+      "ΔH = −ve, ΔS = +ve"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "temp-effect"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-24-shift-1 Q9",
+    "session": "24 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the recalled paper's aside “(temperature varies linearly with pressure)” is removed; it plays no part."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2025-2025-01-24-shift-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following reactions: S(s) + 3/2 O<sub>2</sub>(g) → SO<sub>3</sub>(g) + 2x kJ; SO<sub>2</sub>(g) + ½O<sub>2</sub>(g) → SO<sub>3</sub>(g) + y kJ. Calculate Δ<sub>r</sub>H for the reaction S(s) + O<sub>2</sub>(g) → SO<sub>2</sub>(g).",
+     "o": [
+      "−(x + y)",
+      "−(2x + y)",
+      "x/y",
+      "y − 2x"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "hess"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-24-shift-2 Q1",
+    "session": "24 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2025-2025-01-28-shift-1-q21",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Δ<sub>f</sub>H of H(g) is 222 kJ/mol, Δ<sub>f</sub>H of O(g) is 250 kJ/mol and Δ<sub>f</sub>H of H<sub>2</sub>O(g) is −248 kJ/mol. What is the value of the bond energy of the O–H bond in H<sub>2</sub>O in kJ/mol?"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 471,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "bond-enthalpy",
+     "rh-from-bonds"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-28-shift-1 Q21",
+    "session": "28 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
   }
  ]
 }
