@@ -1,0 +1,815 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-12",
+ "subject": "physics",
+ "class": 12,
+ "unit": 12,
+ "title": {
+  "en": "Atoms"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph204.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "12.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "12.2",
+   "title": "Alpha-particle Scattering and Rutherford's Nuclear Model of Atom",
+   "hi": "ऐल्फ़ा कण प्रकीर्णन तथा परमाणु का रदरफोर्ड नाभिकीय मॉडल",
+   "pdfPage": 2
+  },
+  {
+   "id": "12.2.1",
+   "title": "Alpha-particle Trajectory",
+   "hi": "ऐल्फ़ा-कण प्रक्षेप-पथ",
+   "pdfPage": 5
+  },
+  {
+   "id": "12.2.2",
+   "title": "Electron Orbits",
+   "hi": "इलेक्ट्रॉन-कक्षाएँ",
+   "pdfPage": 6
+  },
+  {
+   "id": "12.3",
+   "title": "Atomic Spectra",
+   "hi": "परमाण्वीय स्पेक्ट्रम",
+   "pdfPage": 7
+  },
+  {
+   "id": "12.4",
+   "title": "Bohr Model of the Hydrogen Atom",
+   "hi": "हाइड्रोजन परमाणु का बोर मॉडल",
+   "pdfPage": 8
+  },
+  {
+   "id": "12.4.1",
+   "title": "Energy Levels",
+   "hi": "ऊर्जा स्तर",
+   "pdfPage": 11
+  },
+  {
+   "id": "12.5",
+   "title": "The Line Spectra of the Hydrogen Atom",
+   "hi": "हाइड्रोजन परमाणु का लाइन स्पेक्ट्रम",
+   "pdfPage": 11
+  },
+  {
+   "id": "12.6",
+   "title": "De Broglie's Explanation of Bohr's Second Postulate of Quantisation",
+   "hi": "बोर के क्वांटमीकरण के द्वितीय अभिगृहीत का",
+   "pdfPage": 12
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-12-neet-2015-re-exam-code-d-q160",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the spectrum of hydrogen, the ratio of the longest wavelength in the Lyman series to the longest wavelength in the Balmer series is:",
+     "o": [
+      "9/4",
+      "27/5",
+      "5/27",
+      "4/9"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q160",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-12-neet-2016-phase-1-code-a-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When an α-particle of mass 'm' moving with velocity 'v' bombards on a heavy nucleus of charge 'Ze', its distance of closest approach from the nucleus depends on m as :",
+     "o": [
+      "1/m",
+      "1/√m",
+      "1/m<sup>2</sup>",
+      "m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q23",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-12-neet-2016-phase-1-code-a-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given the value of Rydberg constant is 10<sup>7</sup> m<sup>−1</sup>, the wave number of the last line of the Balmer series in hydrogen spectrum will be :",
+     "o": [
+      "0.025 × 10<sup>4</sup> m<sup>−1</sup>",
+      "0.5 × 10<sup>7</sup> m<sup>−1</sup>",
+      "0.25 × 10<sup>7</sup> m<sup>−1</sup>",
+      "2.5 × 10<sup>7</sup> m<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q38",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-12-neet-2016-phase-2-code-aa-q41",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If an electron in a hydrogen atom jumps from the 3rd orbit to the 2nd orbit, it emits a photon of wavelength λ. When it jumps from the 4th orbit to the 3rd orbit, the corresponding wavelength of the photon will be",
+     "o": [
+      "(16/25)λ",
+      "(9/16)λ",
+      "(20/7)λ",
+      "(20/13)λ"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q41",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-12-neet-2017-code-a-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The ratio of wavelengths of the last line of Balmer series and the last line of Lyman series is",
+     "o": [
+      "2",
+      "1",
+      "4",
+      "0.5"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q13",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-12-neet-2018-code-aa-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The ratio of kinetic energy to the total energy of an electron in a Bohr orbit of the hydrogen atom, is :",
+     "o": [
+      "2 : −1",
+      "1 : −1",
+      "1 : 1",
+      "1 : −2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q11",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-12-neet-2019-code-s2-q127",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The total energy of an electron in an atom in an orbit is −3.4 eV. Its kinetic and potential energies are, respectively :",
+     "o": [
+      "3.4 eV, −6.8 eV",
+      "3.4 eV, 3.4 eV",
+      "−3.4 eV, −3.4 eV",
+      "−3.4 eV, −6.8 eV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q127",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "The copy prints (4)."
+   }
+  },
+  {
+   "id": "phy12-12-neet-2020-code-f3-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For which one of the following, Bohr model is not valid?",
+     "o": [
+      "Deuteron atom",
+      "Singly ionised neon atom (Ne<sup>+</sup>)",
+      "Hydrogen atom",
+      "Singly ionised helium atom (He<sup>+</sup>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q18",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-12-neet-2022-code-t2-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Let T<sub>1</sub> and T<sub>2</sub> be the energy of an electron in the first and second excited states of hydrogen atom, respectively. According to the Bohr's model of an atom, the ratio T<sub>1</sub> : T<sub>2</sub> is :",
+     "o": [
+      "4 : 1",
+      "4 : 9",
+      "9 : 4",
+      "1 : 4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q10",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-12-neet-2023-topic-wise-copy-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In hydrogen spectrum, the shortest wavelength in the Balmer series is λ. The shortest wavelength in the Brackett series is :",
+     "o": [
+      "16λ",
+      "2λ",
+      "4λ",
+      "9λ"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q32",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-12-neet-2023-topic-wise-copy-q49",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The radius of inner most orbit of hydrogen atom is 5.3 × 10<sup>−11</sup> m. What is the radius of third allowed orbit of hydrogen atom?",
+     "o": [
+      "4.77 Å",
+      "0.53 Å",
+      "1.06 Å",
+      "1.59 Å"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q49",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-12-neet-2024-q4-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II.<br>List-I (Spectral lines of hydrogen for transitions from) — List-II (Wavelengths (nm))<br>A. n<sub>2</sub> = 3 to n<sub>1</sub> = 2 — I. 410.2<br>B. n<sub>2</sub> = 4 to n<sub>1</sub> = 2 — II. 434.1<br>C. n<sub>2</sub> = 5 to n<sub>1</sub> = 2 — III. 656.3<br>D. n<sub>2</sub> = 6 to n<sub>1</sub> = 2 — IV. 486.1<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A-II, B-I, C-IV, D-III",
+      "A-III, B-IV, C-II, D-I",
+      "A-IV, B-III, C-I, D-II",
+      "A-I, B-II, C-III, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q4 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-12-neet-2024-q14-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I : Atoms are electrically neutral as they contain equal number of positive and negative charges.<br>Statement II : Atoms of each element are stable and emit their characteristic spectrum.<br>In the light of the above statements, choose the most appropriate answer from the options given below.",
+     "o": [
+      "Both Statement I and Statement II are correct",
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.1",
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q14 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-12-neet-2025-code-45-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle of mass m is moving around the origin with a constant force F pulling it towards the origin. If Bohr model is used to describe its motion, the radius of the n<sup>th</sup> orbit and the particle's speed v in the orbit depend on n as :",
+     "o": [
+      "r ∝ n<sup>1/3</sup>; v ∝ n<sup>1/3</sup>",
+      "r ∝ n<sup>1/3</sup>; v ∝ n<sup>2/3</sup>",
+      "r ∝ n<sup>2/3</sup>; v ∝ n<sup>1/3</sup>",
+      "r ∝ n<sup>4/3</sup>; v ∝ n<sup>−1/3</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.4"
+    ],
+    "otherChapters": [
+     "Class 11 · Laws of Motion"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q30",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-12-neet-2025-code-45-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "De-Broglie wavelength of an electron orbiting in the n = 2 state of hydrogen atom is close to (Given Bohr radius = 0.052 nm) :",
+     "o": [
+      "0.067 nm",
+      "0.67 nm",
+      "1.67 nm",
+      "2.67 nm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.6",
+     "12.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q34",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-12-neet-2026-code-13-q44",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the first excited state of hydrogen atom, the energy of its electron is −3.4 eV. The radial distance of the electron from the hydrogen nucleus in this case is approximately : (Take 1 eV = 1.6 × 10<sup>−19</sup> J, e = 1.6 × 10<sup>−19</sup> C and 1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup>)",
+     "o": [
+      "2.1 × 10<sup>−8</sup> m",
+      "2.1 × 10<sup>−10</sup> m",
+      "2.1 × 10<sup>−11</sup> m",
+      "2.1 × 10<sup>−9</sup> m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-12",
+    "paras": [
+     "12.4",
+     "12.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q44",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
