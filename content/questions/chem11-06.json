@@ -266,10 +266,22 @@
       "A and C only",
       "B, C and D only",
       "A, B and C only"
-     ]
+     ],
+     "sol": "<ul><li>A ✓ the overall K = K<sub>a1</sub> × K<sub>a2</sub> × K<sub>a3</sub>, so log K is the sum of the logs.</li><li>B ✓ each successive proton is harder to remove from a more negative ion.</li><li>C ✓ K<sub>a1</sub> &gt; K<sub>a2</sub> &gt; K<sub>a3</sub> (NCERT §6.11.6).</li><li>D ✗ no such relation.</li></ul><p>Answer: <b>A, B and C only</b>.</p>",
+     "hint": "Overall constant = product of stepwise constants."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "फॉस्फोरिक अम्ल तीन पदों में आयनित होता है जिनके आयनन स्थिरांक मान क्रमशः K<sub>a1</sub>, K<sub>a2</sub> और K<sub>a3</sub> हैं, जबकि K समग्र आयनन स्थिरांक है। निम्नलिखित में से कौन-से कथन सत्य हैं?<br>A. log K = log K<sub>a1</sub> + log K<sub>a2</sub> + log K<sub>a3</sub><br>B. H<sub>3</sub>PO<sub>4</sub>, H<sub>2</sub>PO<sub>4</sub><sup>−</sup> और HPO<sub>4</sub><sup>2−</sup> से प्रबल अम्ल है।<br>C. K<sub>a1</sub> &gt; K<sub>a2</sub> &gt; K<sub>a3</sub><br>D. K<sub>a1</sub> = (K<sub>a3</sub> + K<sub>a2</sub>)/2<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "केवल A और B",
+      "केवल A और C",
+      "केवल B, C और D",
+      "केवल A, B और C"
+     ],
+     "sol": "<ul><li>A ✓ समग्र K = K<sub>a1</sub> × K<sub>a2</sub> × K<sub>a3</sub>, अतः log K लघुगणकों का योग है।</li><li>B ✓ अधिक ऋणात्मक आयन से हर अगला प्रोटॉन निकालना कठिन होता है।</li><li>C ✓ K<sub>a1</sub> &gt; K<sub>a2</sub> &gt; K<sub>a3</sub> (NCERT §6.11.6)।</li><li>D ✗ ऐसा कोई संबंध नहीं।</li></ul><p>उत्तर: <b>केवल A, B और C</b>।</p>",
+     "hint": "समग्र स्थिरांक = चरणबद्ध स्थिरांकों का गुणनफल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -312,10 +324,22 @@
       "2.077 × 10<sup>5</sup>",
       "0.033",
       "0.021"
-     ]
+     ],
+     "sol": "<p>K<sub>c</sub> = k<sub>f</sub>/k<sub>b</sub> = 1/2500 = 4 × 10<sup>−4</sup>. Δn<sub>g</sub> = 2 − 1 = 1.</p><p>K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup> = 4 × 10<sup>−4</sup> × 0.0831 × 1000 = <b>0.033</b>.</p>",
+     "hint": "K<sub>c</sub> = k<sub>f</sub>/k<sub>b</sub>; then K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अभिक्रिया A(g) ⇌ 2B(g) के लिए 1000 K पर पश्च अभिक्रिया का दर स्थिरांक, अग्र अभिक्रिया के दर स्थिरांक से 2500 गुना अधिक है।<br>[दिया है: R = 0.0831 L atm mol<sup>−1</sup> K<sup>−1</sup>]<br>1000 K पर अभिक्रिया के लिए K<sub>p</sub> है",
+     "o": [
+      "83.1",
+      "2.077 × 10<sup>5</sup>",
+      "0.033",
+      "0.021"
+     ],
+     "sol": "<p>K<sub>c</sub> = k<sub>f</sub>/k<sub>b</sub> = 1/2500 = 4 × 10<sup>−4</sup>। Δn<sub>g</sub> = 2 − 1 = 1।</p><p>K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup> = 4 × 10<sup>−4</sup> × 0.0831 × 1000 = <b>0.033</b>।</p>",
+     "hint": "K<sub>c</sub> = k<sub>f</sub>/k<sub>b</sub>; फिर K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -362,10 +386,22 @@
       "B, C only",
       "B, C, D only",
       "A, C, D only"
-     ]
+     ],
+     "sol": "<p>The forward reaction is endothermic (ΔH = +180.7 kJ mol<sup>−1</sup>), so higher temperature favours NO (A). Adding a reactant (N<sub>2</sub> or O<sub>2</sub>) shifts equilibrium forward (C, D). Pressure has no effect (Δn<sub>g</sub> = 0).</p><p>Answer: <b>A, C, D only</b>.</p>",
+     "hint": "Le Chatelier: heat is a 'reactant' for an endothermic reaction."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "N<sub>2</sub>(g) + O<sub>2</sub>(g) ⇌ 2NO(g) में NO की अधिक लब्धि किस पर प्राप्त की जा सकती है<br>[अभिक्रिया का ΔH = +180.7 kJ mol<sup>−1</sup>]<br>A. उच्च ताप<br>B. निम्न ताप<br>C. N<sub>2</sub> की उच्च सांद्रता<br>D. O<sub>2</sub> की उच्च सांद्रता<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A, D",
+      "केवल B, C",
+      "केवल B, C, D",
+      "केवल A, C, D"
+     ],
+     "sol": "<p>अग्र अभिक्रिया ऊष्माशोषी है (ΔH = +180.7 kJ mol<sup>−1</sup>), अतः उच्च ताप NO के पक्ष में है (A)। अभिकारक (N<sub>2</sub> या O<sub>2</sub>) मिलाने पर साम्य आगे खिसकता है (C, D)। दाब का कोई प्रभाव नहीं (Δn<sub>g</sub> = 0)।</p><p>उत्तर: <b>केवल A, C, D</b>।</p>",
+     "hint": "ला-शातेलिए: ऊष्माशोषी अभिक्रिया के लिए ऊष्मा एक 'अभिकारक' है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -409,10 +445,22 @@
       "0.0889",
       "0.8889",
       "0.717"
-     ]
+     ],
+     "sol": "<p>K<sub>c</sub> = [N<sub>2</sub>][O<sub>2</sub>]/[NO]<sup>2</sup> = (3.0 × 10<sup>−3</sup>)(4.2 × 10<sup>−3</sup>)/(2.8 × 10<sup>−3</sup>)<sup>2</sup> = 1.607.</p><p>Starting with 0.1 M NO: [NO] = 0.1(1 − α), [N<sub>2</sub>] = [O<sub>2</sub>] = 0.05α. Then √K<sub>c</sub> = 0.05α/0.1(1 − α) = 0.5α/(1 − α) = 1.268 → α = 1.268/1.768 = <b>0.717</b>.</p>",
+     "hint": "Find K<sub>c</sub> from the given concentrations, then take the square root."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक बंद पात्र में साम्य पर निम्नलिखित अभिक्रिया पर विचार कीजिए जिसमें सांद्रताएँ N<sub>2</sub> = 3.0 × 10<sup>−3</sup> M, O<sub>2</sub> = 4.2 × 10<sup>−3</sup> M और NO = 2.8 × 10<sup>−3</sup> M हैं।<br>2NO(g) ⇌ N<sub>2</sub>(g) + O<sub>2</sub>(g)<br>यदि एक बंद पात्र में 0.1 mol L<sup>−1</sup> NO(g) लिया जाए, तो साम्य पर NO(g) की वियोजन की मात्रा (α) क्या होगी?",
+     "o": [
+      "0.00889",
+      "0.0889",
+      "0.8889",
+      "0.717"
+     ],
+     "sol": "<p>K<sub>c</sub> = [N<sub>2</sub>][O<sub>2</sub>]/[NO]<sup>2</sup> = (3.0 × 10<sup>−3</sup>)(4.2 × 10<sup>−3</sup>)/(2.8 × 10<sup>−3</sup>)<sup>2</sup> = 1.607।</p><p>0.1 M NO से शुरू करने पर: [NO] = 0.1(1 − α), [N<sub>2</sub>] = [O<sub>2</sub>] = 0.05α। तब √K<sub>c</sub> = 0.05α/0.1(1 − α) = 0.5α/(1 − α) = 1.268 → α = 1.268/1.768 = <b>0.717</b>।</p>",
+     "hint": "दी गई सांद्रताओं से K<sub>c</sub> निकालें, फिर वर्गमूल लें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -455,10 +503,22 @@
       "H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2HI(g)",
       "CO(g) + H<sub>2</sub>O(g) ⇌ CO<sub>2</sub>(g) + H<sub>2</sub>(g)",
       "2BrCl(g) ⇌ Br<sub>2</sub>(g) + Cl<sub>2</sub>(g)"
-     ]
+     ],
+     "sol": "<p>K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup>; they differ only when Δn<sub>g</sub> ≠ 0. PCl<sub>5</sub> ⇌ PCl<sub>3</sub> + Cl<sub>2</sub>: Δn<sub>g</sub> = 2 − 1 = 1. In the other three, Δn<sub>g</sub> = 0.</p>",
+     "hint": "Count gas moles on both sides."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से किन साम्यों में K<sub>p</sub> और K<sub>c</sub> बराबर नहीं हैं?",
+     "o": [
+      "PCl<sub>5</sub>(g) ⇌ PCl<sub>3</sub>(g) + Cl<sub>2</sub>(g)",
+      "H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2HI(g)",
+      "CO(g) + H<sub>2</sub>O(g) ⇌ CO<sub>2</sub>(g) + H<sub>2</sub>(g)",
+      "2BrCl(g) ⇌ Br<sub>2</sub>(g) + Cl<sub>2</sub>(g)"
+     ],
+     "sol": "<p>K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup>; ये केवल तब भिन्न होते हैं जब Δn<sub>g</sub> ≠ 0। PCl<sub>5</sub> ⇌ PCl<sub>3</sub> + Cl<sub>2</sub>: Δn<sub>g</sub> = 2 − 1 = 1। बाकी तीन में Δn<sub>g</sub> = 0।</p>",
+     "hint": "दोनों ओर गैस के मोल गिनें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -501,10 +561,22 @@
       "Reaction has a tendency to go in forward direction.",
       "Reaction has a tendency to go in backward direction.",
       "Reaction has gone to completion in forward direction."
-     ]
+     ],
+     "sol": "<p>Q<sub>c</sub> = [B][C]/[A]<sup>2</sup> = (2 × 10<sup>−3</sup>)<sup>2</sup>/(2 × 10<sup>−3</sup>)<sup>2</sup> = 1. Q<sub>c</sub> (1) &gt; K<sub>c</sub> (4 × 10<sup>−3</sup>), so the reaction moves <b>backward</b> to reach equilibrium.</p>",
+     "hint": "Compare Q<sub>c</sub> with K<sub>c</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अभिक्रिया 2A ⇌ B + C के लिए K<sub>C</sub> = 4 × 10<sup>−3</sup>। किसी समय अभिक्रिया मिश्रण का संघटन है: [A] = [B] = [C] = 2 × 10<sup>−3</sup> M। तब निम्नलिखित में से कौन-सा सही है?",
+     "o": [
+      "अभिक्रिया साम्य पर है।",
+      "अभिक्रिया की प्रवृत्ति अग्र दिशा में जाने की है।",
+      "अभिक्रिया की प्रवृत्ति पश्च दिशा में जाने की है।",
+      "अभिक्रिया अग्र दिशा में पूर्ण हो चुकी है।"
+     ],
+     "sol": "<p>Q<sub>c</sub> = [B][C]/[A]<sup>2</sup> = (2 × 10<sup>−3</sup>)<sup>2</sup>/(2 × 10<sup>−3</sup>)<sup>2</sup> = 1। Q<sub>c</sub> (1) &gt; K<sub>c</sub> (4 × 10<sup>−3</sup>), अतः साम्य तक पहुँचने के लिए अभिक्रिया <b>पश्च दिशा</b> में जाती है।</p>",
+     "hint": "Q<sub>c</sub> की तुलना K<sub>c</sub> से करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -547,10 +619,22 @@
       "5.286",
       "8.714",
       "9.301"
-     ]
+     ],
+     "sol": "<p>K = [BiO<sup>+</sup>][OH<sup>−</sup>] = x<sup>2</sup> = 4 × 10<sup>−10</sup> → [OH<sup>−</sup>] = 2 × 10<sup>−5</sup> M.</p><p>pOH = 5 − log 2 = 4.699; pH = 14 − 4.699 = <b>9.301</b>.</p>",
+     "hint": "The solid's dissolution gives equal [BiO<sup>+</sup>] and [OH<sup>−</sup>]."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गुणात्मक विश्लेषण में Bi<sup>3+</sup> का पता BiO(OH)(s) के अवक्षेप के दिखने से लगाया जाता है। 298 K पर निम्नलिखित साम्य होने पर pH परिकलित कीजिए :<br>BiO(OH)(s) ⇌ BiO<sup>+</sup>(aq) + OH<sup>−</sup>(aq), K = 4 × 10<sup>−10</sup><br>(दिया है : log 2 = 0.3010 )",
+     "o": [
+      "4.699",
+      "5.286",
+      "8.714",
+      "9.301"
+     ],
+     "sol": "<p>K = [BiO<sup>+</sup>][OH<sup>−</sup>] = x<sup>2</sup> = 4 × 10<sup>−10</sup> → [OH<sup>−</sup>] = 2 × 10<sup>−5</sup> M।</p><p>pOH = 5 − log 2 = 4.699; pH = 14 − 4.699 = <b>9.301</b>।</p>",
+     "hint": "ठोस के घुलने से [BiO<sup>+</sup>] और [OH<sup>−</sup>] समान बनते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -598,10 +682,22 @@
       "H<sub>2</sub>O(g) + CO(g) ⇌ H<sub>2</sub>(g) + CO<sub>2</sub>(g)",
       "N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g)",
       "H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2HI(g)"
-     ]
+     ],
+     "sol": "<p>K<sub>p</sub> ≠ K<sub>c</sub> when Δn<sub>g</sub> ≠ 0. N<sub>2</sub> + 3H<sub>2</sub> ⇌ 2NH<sub>3</sub>: Δn<sub>g</sub> = 2 − 4 = −2. The others have Δn<sub>g</sub> = 0.</p>",
+     "hint": "Count gas moles on each side."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे कुछ अभिक्रियाएँ दी गई हैं। उस अभिक्रिया को पहचानिए जिसके लिए K<sub>p</sub> ≠ K<sub>c</sub>।",
+     "o": [
+      "N<sub>2</sub>(g) + O<sub>2</sub>(g) ⇌ 2NO(g)",
+      "H<sub>2</sub>O(g) + CO(g) ⇌ H<sub>2</sub>(g) + CO<sub>2</sub>(g)",
+      "N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g)",
+      "H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2HI(g)"
+     ],
+     "sol": "<p>Δn<sub>g</sub> ≠ 0 होने पर K<sub>p</sub> ≠ K<sub>c</sub>। N<sub>2</sub> + 3H<sub>2</sub> ⇌ 2NH<sub>3</sub>: Δn<sub>g</sub> = 2 − 4 = −2। बाकी में Δn<sub>g</sub> = 0।</p>",
+     "hint": "हर ओर गैस के मोल गिनें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -644,10 +740,22 @@
       "4",
       "2",
       "6"
-     ]
+     ],
+     "sol": "<p>K<sub>a</sub> of HX = K<sub>w</sub>/K<sub>b</sub> = 10<sup>−14</sup>/10<sup>−10</sup> = 10<sup>−4</sup>, pK<sub>a</sub> = 4. With [X<sup>−</sup>] = [HX], pH = pK<sub>a</sub> + log 1 = <b>4</b>.</p>",
+     "hint": "K<sub>a</sub> × K<sub>b</sub> = K<sub>w</sub>; equal concentrations → pH = pK<sub>a</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "298 K पर एक बफर विलयन में X<sup>−</sup> और HX की सांद्रताएँ समान हैं, X<sup>−</sup> के लिए K<sub>b</sub> का मान 10<sup>−10</sup> है। इस बफर विलयन का pH क्या है?",
+     "o": [
+      "10",
+      "4",
+      "2",
+      "6"
+     ],
+     "sol": "<p>HX का K<sub>a</sub> = K<sub>w</sub>/K<sub>b</sub> = 10<sup>−14</sup>/10<sup>−10</sup> = 10<sup>−4</sup>, pK<sub>a</sub> = 4। [X<sup>−</sup>] = [HX] होने पर pH = pK<sub>a</sub> + log 1 = <b>4</b>।</p>",
+     "hint": "K<sub>a</sub> × K<sub>b</sub> = K<sub>w</sub>; समान सांद्रता → pH = pK<sub>a</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -691,10 +799,22 @@
       "NH<sub>3</sub>",
       "H<sub>2</sub>O",
       "BF<sub>3</sub>"
-     ]
+     ],
+     "sol": "<p>A Lewis acid accepts an electron pair. BF<sub>3</sub> has only 6 electrons around B (empty p orbital), so it is a Lewis acid. OH<sup>−</sup>, NH<sub>3</sub> and H<sub>2</sub>O have lone pairs to donate: Lewis bases.</p>",
+     "hint": "Look for an electron-deficient species."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिए गए विकल्पों में से कौन-सा अणु/आयन लूइस अम्ल की तरह कार्य करता है?",
+     "o": [
+      "OH<sup>−</sup>",
+      "NH<sub>3</sub>",
+      "H<sub>2</sub>O",
+      "BF<sub>3</sub>"
+     ],
+     "sol": "<p>लूइस अम्ल इलेक्ट्रॉन युग्म ग्रहण करता है। BF<sub>3</sub> में B के चारों ओर केवल 6 इलेक्ट्रॉन हैं (रिक्त p कक्षक), अतः यह लूइस अम्ल है। OH<sup>−</sup>, NH<sub>3</sub> और H<sub>2</sub>O के पास दान करने के लिए एकाकी युग्म हैं: लूइस क्षारक।</p>",
+     "hint": "इलेक्ट्रॉन न्यून स्पीशीज़ ढूँढें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -741,10 +861,22 @@
       "1372.60 cal",
       "−137.26 cal",
       "−1381.80 cal"
-     ]
+     ],
+     "sol": "<p>K = [C][D]/[A][B] = (10 × 6)/(2 × 3) = 10.</p><p>ΔG° = −2.303RT log K = −2.303 × 2 × 300 × log 10 = <b>−1381.8 cal</b>.</p>",
+     "hint": "ΔG° = −2.303RT log K."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "300 K पर अभिक्रिया A + B ⇌ C + D में स्पीशीज़ की साम्य सांद्रताएँ क्रमशः 2, 3, 10 और 6 mol L<sup>−1</sup> हैं। अभिक्रिया के लिए ΔG° है<br>(R = 2 cal/mol K)",
+     "o": [
+      "−13.73 cal",
+      "1372.60 cal",
+      "−137.26 cal",
+      "−1381.80 cal"
+     ],
+     "sol": "<p>K = [C][D]/[A][B] = (10 × 6)/(2 × 3) = 10।</p><p>ΔG° = −2.303RT log K = −2.303 × 2 × 300 × log 10 = <b>−1381.8 cal</b>।</p>",
+     "hint": "ΔG° = −2.303RT log K।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -790,10 +922,22 @@
       "Both statement I and Statement II are true",
       "Both Statement I and Statement II are false",
       "Statement I : correct but statement II is false"
-     ]
+     ],
+     "sol": "<p>Down group 17 the H–X bond gets longer and weaker, so H<sup>+</sup> is released more easily: HF &lt;&lt; HCl &lt;&lt; HBr &lt;&lt; HI (NCERT §6.11.7). Statement II gives the correct reason. <b>Both true.</b></p>",
+     "hint": "Bond strength, not electronegativity, decides acid strength down a group."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कथन I : अम्ल सामर्थ्य HF &lt;&lt; HCl &lt;&lt; HBr &lt;&lt; HI क्रम में बढ़ता है।<br>कथन II : वर्ग में नीचे F, Cl, Br, I का आकार बढ़ने पर HF, HCl, HBr और HI की आबंध सामर्थ्य घटती है और इसलिए अम्ल सामर्थ्य बढ़ता है।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।",
+     "o": [
+      "कथन I गलत है परंतु कथन II सत्य है",
+      "कथन I और कथन II दोनों सत्य हैं",
+      "कथन I और कथन II दोनों असत्य हैं",
+      "कथन I : सही है परंतु कथन II असत्य है"
+     ],
+     "sol": "<p>वर्ग 17 में नीचे H–X आबंध लंबा और दुर्बल होता जाता है, अतः H<sup>+</sup> आसानी से निकलता है: HF &lt;&lt; HCl &lt;&lt; HBr &lt;&lt; HI (NCERT §6.11.7)। कथन II सही कारण देता है। <b>दोनों सत्य।</b></p>",
+     "hint": "वर्ग में नीचे अम्ल सामर्थ्य आबंध सामर्थ्य से तय होता है, विद्युत् ऋणात्मकता से नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -839,10 +983,22 @@
       "8.50",
       "5.50",
       "7.75"
-     ]
+     ],
+     "sol": "<p>Salt of a weak acid and a weak base: pH = 7 + ½(pK<sub>a</sub> − pK<sub>b</sub>) = 7 + ½(4.77 − 3.27) = 7 + 0.75 = <b>7.75</b>.</p>",
+     "hint": "For a weak acid–weak base salt, pH does not depend on concentration."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "T (K) पर डाइमेथिलऐमीन का pK<sub>b</sub> और ऐसीटिक अम्ल का pK<sub>a</sub> क्रमशः 3.27 और 4.77 हैं। डाइमेथिलअमोनियम ऐसीटेट विलयन के pH के लिए सही विकल्प है :",
+     "o": [
+      "6.25",
+      "8.50",
+      "5.50",
+      "7.75"
+     ],
+     "sol": "<p>दुर्बल अम्ल और दुर्बल क्षारक का लवण: pH = 7 + ½(pK<sub>a</sub> − pK<sub>b</sub>) = 7 + ½(4.77 − 3.27) = 7 + 0.75 = <b>7.75</b>।</p>",
+     "hint": "दुर्बल अम्ल–दुर्बल क्षारक लवण के लिए pH सांद्रता पर निर्भर नहीं करता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -885,10 +1041,22 @@
       "1 × 10<sup>8</sup> M",
       "2 × 10<sup>−13</sup> M",
       "2 × 10<sup>−8</sup> M"
-     ]
+     ],
+     "sol": "<p>K<sub>sp</sub> = [Ni<sup>2+</sup>][OH<sup>−</sup>]<sup>2</sup> = s(0.1 + 2s)<sup>2</sup> ≈ s(0.1)<sup>2</sup>.</p><p>s = 2 × 10<sup>−15</sup>/10<sup>−2</sup> = <b>2 × 10<sup>−13</sup> M</b>.</p>",
+     "hint": "Common ion: [OH<sup>−</sup>] ≈ 0.1 M from NaOH."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "0.1 M NaOH में Ni(OH)<sub>2</sub> की विलेयता ज्ञात कीजिए। दिया है कि Ni(OH)<sub>2</sub> का आयनिक गुणनफल 2×10<sup>−15</sup> है।",
+     "o": [
+      "1 × 10<sup>−13</sup> M",
+      "1 × 10<sup>8</sup> M",
+      "2 × 10<sup>−13</sup> M",
+      "2 × 10<sup>−8</sup> M"
+     ],
+     "sol": "<p>K<sub>sp</sub> = [Ni<sup>2+</sup>][OH<sup>−</sup>]<sup>2</sup> = s(0.1 + 2s)<sup>2</sup> ≈ s(0.1)<sup>2</sup>।</p><p>s = 2 × 10<sup>−15</sup>/10<sup>−2</sup> = <b>2 × 10<sup>−13</sup> M</b>।</p>",
+     "hint": "सम आयन: NaOH से [OH<sup>−</sup>] ≈ 0.1 M।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -931,10 +1099,22 @@
       "NaCl, MgCl<sub>2</sub> and CaCl<sub>2</sub>",
       "Both MgCl<sub>2</sub> and CaCl<sub>2</sub>",
       "Only NaCl"
-     ]
+     ],
+     "sol": "<p>Passing HCl raises [Cl<sup>−</sup>]. NaCl has the smallest solubility of the three (CaCl<sub>2</sub> and MgCl<sub>2</sub> are very soluble), so its ionic product exceeds K<sub>sp</sub> first and pure <b>NaCl</b> crystallises (common ion effect; NCERT §6.13.2 purification of NaCl).</p>",
+     "hint": "This is NCERT's example of purifying common salt."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "CaCl<sub>2</sub>, MgCl<sub>2</sub> और NaCl के विलयन में से HCl प्रवाहित की गई। निम्नलिखित में से कौन-सा/से यौगिक क्रिस्टलित होता/होते है/हैं?",
+     "o": [
+      "केवल MgCl<sub>2</sub>",
+      "NaCl, MgCl<sub>2</sub> और CaCl<sub>2</sub>",
+      "MgCl<sub>2</sub> और CaCl<sub>2</sub> दोनों",
+      "केवल NaCl"
+     ],
+     "sol": "<p>HCl प्रवाहित करने से [Cl<sup>−</sup>] बढ़ता है। तीनों में NaCl की विलेयता सबसे कम है (CaCl<sub>2</sub> और MgCl<sub>2</sub> बहुत विलेय हैं), अतः इसका आयनिक गुणनफल पहले K<sub>sp</sub> से अधिक होता है और शुद्ध <b>NaCl</b> क्रिस्टलित होता है (सम आयन प्रभाव; NCERT §6.13.2 NaCl का शोधन)।</p>",
+     "hint": "यह NCERT का साधारण नमक के शोधन का उदाहरण है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -981,10 +1161,22 @@
       "0.5 × 10<sup>−10</sup>",
       "0.5 × 10<sup>−15</sup>",
       "0.25 × 10<sup>−15</sup>"
-     ]
+     ],
+     "sol": "<p>pH 9 → pOH 5 → [OH<sup>−</sup>] = 10<sup>−5</sup> M, so s = [Ca<sup>2+</sup>] = 5 × 10<sup>−6</sup> M.</p><p>K<sub>sp</sub> = [Ca<sup>2+</sup>][OH<sup>−</sup>]<sup>2</sup> = 5 × 10<sup>−6</sup> × 10<sup>−10</sup> = <b>0.5 × 10<sup>−15</sup></b>.</p>",
+     "hint": "[Ca<sup>2+</sup>] is half of [OH<sup>−</sup>]."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "Ca(OH)<sub>2</sub> के संतृप्त विलयन का pH 9 है। Ca(OH)<sub>2</sub> का विलेयता गुणनफल (K<sub>sp</sub>) है :",
+     "o": [
+      "0.125 × 10<sup>−15</sup>",
+      "0.5 × 10<sup>−10</sup>",
+      "0.5 × 10<sup>−15</sup>",
+      "0.25 × 10<sup>−15</sup>"
+     ],
+     "sol": "<p>pH 9 → pOH 5 → [OH<sup>−</sup>] = 10<sup>−5</sup> M, अतः s = [Ca<sup>2+</sup>] = 5 × 10<sup>−6</sup> M।</p><p>K<sub>sp</sub> = [Ca<sup>2+</sup>][OH<sup>−</sup>]<sup>2</sup> = 5 × 10<sup>−6</sup> × 10<sup>−10</sup> = <b>0.5 × 10<sup>−15</sup></b>।</p>",
+     "hint": "[Ca<sup>2+</sup>], [OH<sup>−</sup>] का आधा है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1027,10 +1219,22 @@
       "H<sub>3</sub>O<sup>+</sup> and H<sub>2</sub>F<sup>+</sup>, respectively",
       "OH<sup>−</sup> and H<sub>2</sub>F<sup>+</sup>, respectively",
       "H<sub>3</sub>O<sup>+</sup> and F<sup>−</sup>, respectively"
-     ]
+     ],
+     "sol": "<p>A conjugate base is the acid minus one H<sup>+</sup>: H<sub>2</sub>O → <b>OH<sup>−</sup></b>, HF → <b>F<sup>−</sup></b>.</p>",
+     "hint": "Remove one proton."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ब्रान्स्टेड अम्लों H<sub>2</sub>O और HF के संयुग्मी क्षारक हैं :",
+     "o": [
+      "क्रमशः OH<sup>−</sup> और F<sup>−</sup>",
+      "क्रमशः H<sub>3</sub>O<sup>+</sup> और H<sub>2</sub>F<sup>+</sup>",
+      "क्रमशः OH<sup>−</sup> और H<sub>2</sub>F<sup>+</sup>",
+      "क्रमशः H<sub>3</sub>O<sup>+</sup> और F<sup>−</sup>"
+     ],
+     "sol": "<p>अम्ल में से एक H<sup>+</sup> हटाने पर संयुग्मी क्षारक बनता है: H<sub>2</sub>O → <b>OH<sup>−</sup></b>, HF → <b>F<sup>−</sup></b>।</p>",
+     "hint": "एक प्रोटॉन हटाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1073,10 +1277,22 @@
       "100 mL of 0.1 M HCl + 100 mL of 0.1 M NaOH",
       "50 mL of 0.1 M NaOH + 25 mL of 0.1 M CH<sub>3</sub>COOH",
       "100 mL of 0.1 M CH<sub>3</sub>COOH + 100 mL of 0.1 M NaOH"
-     ]
+     ],
+     "sol": "<p>(1) HCl 10 mmol + NH<sub>4</sub>OH 20 mmol → 10 mmol NH<sub>4</sub>Cl + 10 mmol NH<sub>4</sub>OH left: weak base + its salt = <b>basic buffer</b>. (2) exact neutralisation; (3) excess NaOH (strong base); (4) exact neutralisation to CH<sub>3</sub>COONa.</p>",
+     "hint": "A basic buffer needs a weak base and its salt with a strong acid, both present."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कौन-सा क्षारकीय बफर बनाएगा?",
+     "o": [
+      "0.1 M HCl का 100 mL + 0.1 M NH<sub>4</sub>OH का 200 mL",
+      "0.1 M HCl का 100 mL + 0.1 M NaOH का 100 mL",
+      "0.1 M NaOH का 50 mL + 0.1 M CH<sub>3</sub>COOH का 25 mL",
+      "0.1 M CH<sub>3</sub>COOH का 100 mL + 0.1 M NaOH का 100 mL"
+     ],
+     "sol": "<p>(1) HCl 10 mmol + NH<sub>4</sub>OH 20 mmol → 10 mmol NH<sub>4</sub>Cl + 10 mmol NH<sub>4</sub>OH शेष: दुर्बल क्षारक + उसका लवण = <b>क्षारकीय बफर</b>। (2) पूर्ण उदासीनीकरण; (3) NaOH (प्रबल क्षारक) आधिक्य में; (4) CH<sub>3</sub>COONa तक पूर्ण उदासीनीकरण।</p>",
+     "hint": "क्षारकीय बफर के लिए दुर्बल क्षारक और प्रबल अम्ल के साथ उसका लवण, दोनों उपस्थित होने चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1119,10 +1335,22 @@
       "2.66 × 10<sup>−12</sup>",
       "4.5 × 10<sup>−11</sup>",
       "5.3 × 10<sup>−12</sup>"
-     ]
+     ],
+     "sol": "<p>Ag<sub>2</sub>C<sub>2</sub>O<sub>4</sub> ⇌ 2Ag<sup>+</sup> + C<sub>2</sub>O<sub>4</sub><sup>2−</sup>. [Ag<sup>+</sup>] = 2.2 × 10<sup>−4</sup> M → [C<sub>2</sub>O<sub>4</sub><sup>2−</sup>] = 1.1 × 10<sup>−4</sup> M.</p><p>K<sub>sp</sub> = (2.2 × 10<sup>−4</sup>)<sup>2</sup> × 1.1 × 10<sup>−4</sup> = <b>5.3 × 10<sup>−12</sup></b>.</p>",
+     "hint": "Oxalate concentration is half the silver concentration."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "Ag<sub>2</sub>C<sub>2</sub>O<sub>4</sub> के संतृप्त विलयन में Ag<sup>+</sup> आयनों की सांद्रता 2.2 × 10<sup>−4</sup> mol L<sup>−1</sup> है। Ag<sub>2</sub>C<sub>2</sub>O<sub>4</sub> का विलेयता गुणनफल है :",
+     "o": [
+      "2.42 × 10<sup>−8</sup>",
+      "2.66 × 10<sup>−12</sup>",
+      "4.5 × 10<sup>−11</sup>",
+      "5.3 × 10<sup>−12</sup>"
+     ],
+     "sol": "<p>Ag<sub>2</sub>C<sub>2</sub>O<sub>4</sub> ⇌ 2Ag<sup>+</sup> + C<sub>2</sub>O<sub>4</sub><sup>2−</sup>। [Ag<sup>+</sup>] = 2.2 × 10<sup>−4</sup> M → [C<sub>2</sub>O<sub>4</sub><sup>2−</sup>] = 1.1 × 10<sup>−4</sup> M।</p><p>K<sub>sp</sub> = (2.2 × 10<sup>−4</sup>)<sup>2</sup> × 1.1 × 10<sup>−4</sup> = <b>5.3 × 10<sup>−12</sup></b>।</p>",
+     "hint": "ऑक्सेलेट की सांद्रता सिल्वर की सांद्रता की आधी है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1165,10 +1393,22 @@
       "The value of equilibrium constant is changed in the presence of a catalyst in the reaction at equilibrium.",
       "Enzymes catalyse mainly bio-chemical reactions.",
       "Coenzymes increase the catalytic activity of enzyme."
-     ]
+     ],
+     "sol": "<p>A catalyst speeds up the forward and backward reactions equally, so equilibrium is reached faster but <b>K does not change</b> (NCERT §6.8.5). Statement (2) is not correct.</p>",
+     "hint": "Catalysts change the rate, not the position of equilibrium."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन सही नहीं है?",
+     "o": [
+      "उत्प्रेरक किसी अभिक्रिया को प्रारंभ नहीं करता।",
+      "साम्य पर स्थित अभिक्रिया में उत्प्रेरक की उपस्थिति में साम्य स्थिरांक का मान बदल जाता है।",
+      "एंज़ाइम मुख्यतः जैव-रासायनिक अभिक्रियाओं को उत्प्रेरित करते हैं।",
+      "सहएंज़ाइम एंज़ाइम की उत्प्रेरकीय सक्रियता को बढ़ाते हैं।"
+     ],
+     "sol": "<p>उत्प्रेरक अग्र और पश्च अभिक्रियाओं को समान रूप से तेज़ करता है, अतः साम्य जल्दी आता है पर <b>K नहीं बदलता</b> (NCERT §6.8.5)। कथन (2) सही नहीं है।</p>",
+     "hint": "उत्प्रेरक वेग बदलता है, साम्य की स्थिति नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1215,10 +1455,22 @@
       "10 litre",
       "4 litre",
       "2 litre"
-     ]
+     ],
+     "sol": "<p>For SrCO<sub>3</sub>(s) ⇌ SrO(s) + CO<sub>2</sub>(g), K<sub>p</sub> = p(CO<sub>2</sub>), so the maximum CO<sub>2</sub> pressure is 1.6 atm. Compressing at constant T (Boyle): 0.4 × 20 = 1.6 × V → V = <b>5 L</b>. Below 5 L, CO<sub>2</sub> reacts with SrO and the pressure stays at 1.6 atm.</p>",
+     "hint": "With solids, K<sub>p</sub> equals the gas pressure."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "400 K पर एक 20 लीटर के पात्र में 0.4 atm दाब पर CO<sub>2</sub>(g) और SrO का आधिक्य है (ठोस SrO का आयतन नगण्य मानें)। अब पात्र में लगे गतिशील पिस्टन को चलाकर पात्र का आयतन घटाया जाता है। जब CO<sub>2</sub> का दाब अपने अधिकतम मान पर पहुँचता है, तब पात्र का अधिकतम आयतन होगा :<br>(दिया है : SrCO<sub>3</sub>(s) ⇌ SrO(s) + CO<sub>2</sub>(g), K<sub>p</sub> = 1.6 atm)",
+     "o": [
+      "5 लीटर",
+      "10 लीटर",
+      "4 लीटर",
+      "2 लीटर"
+     ],
+     "sol": "<p>SrCO<sub>3</sub>(s) ⇌ SrO(s) + CO<sub>2</sub>(g) के लिए K<sub>p</sub> = p(CO<sub>2</sub>), अतः CO<sub>2</sub> का अधिकतम दाब 1.6 atm है। स्थिर T पर संपीडन (बॉयल): 0.4 × 20 = 1.6 × V → V = <b>5 L</b>। 5 L से कम पर CO<sub>2</sub>, SrO से अभिक्रिया करती है और दाब 1.6 atm ही रहता है।</p>",
+     "hint": "ठोसों के साथ K<sub>p</sub>, गैस के दाब के बराबर होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1261,10 +1513,22 @@
       "K<sub>2</sub>K<sub>3</sub><sup>3</sup>/K<sub>1</sub>",
       "K<sub>2</sub>K<sub>3</sub>/K<sub>1</sub>",
       "K<sub>2</sub><sup>3</sup>K<sub>3</sub>/K<sub>1</sub>"
-     ]
+     ],
+     "sol": "<p>Target = (reaction 2) + 3 × (reaction 3) − (reaction 1):</p><p>N<sub>2</sub> + O<sub>2</sub> + 3H<sub>2</sub> + 3/2 O<sub>2</sub> + 2NH<sub>3</sub> → 2NO + 3H<sub>2</sub>O + N<sub>2</sub> + 3H<sub>2</sub>, i.e. 2NH<sub>3</sub> + 5/2 O<sub>2</sub> → 2NO + 3H<sub>2</sub>O.</p><p>K = K<sub>2</sub> × K<sub>3</sub><sup>3</sup> ÷ K<sub>1</sub>.</p>",
+     "hint": "Adding equations multiplies K; reversing inverts it; multiplying by n raises K to n."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित के साम्य स्थिरांक हैं :<br>N<sub>2</sub> + 3H<sub>2</sub> ⇌ 2NH<sub>3</sub> K<sub>1</sub><br>N<sub>2</sub> + O<sub>2</sub> ⇌ 2NO K<sub>2</sub><br>H<sub>2</sub> + ½O<sub>2</sub> → H<sub>2</sub>O K<sub>3</sub><br>अभिक्रिया 2NH<sub>3</sub> + 5/2 O<sub>2</sub> ⇌ 2NO + 3H<sub>2</sub>O का साम्य स्थिरांक (K) होगा :",
+     "o": [
+      "K<sub>1</sub>K<sub>3</sub><sup>3</sup>/K<sub>2</sub>",
+      "K<sub>2</sub>K<sub>3</sub><sup>3</sup>/K<sub>1</sub>",
+      "K<sub>2</sub>K<sub>3</sub>/K<sub>1</sub>",
+      "K<sub>2</sub><sup>3</sup>K<sub>3</sub>/K<sub>1</sub>"
+     ],
+     "sol": "<p>लक्ष्य = (अभिक्रिया 2) + 3 × (अभिक्रिया 3) − (अभिक्रिया 1):</p><p>N<sub>2</sub> + O<sub>2</sub> + 3H<sub>2</sub> + 3/2 O<sub>2</sub> + 2NH<sub>3</sub> → 2NO + 3H<sub>2</sub>O + N<sub>2</sub> + 3H<sub>2</sub>, अर्थात् 2NH<sub>3</sub> + 5/2 O<sub>2</sub> → 2NO + 3H<sub>2</sub>O।</p><p>K = K<sub>2</sub> × K<sub>3</sub><sup>3</sup> ÷ K<sub>1</sub>।</p>",
+     "hint": "समीकरण जोड़ने पर K गुणा होते हैं; उलटने पर यह उलट जाता है; n से गुणा करने पर K की घात n।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1307,10 +1571,22 @@
       "The molar solubility of MY in water is less than that of NY<sub>3</sub>.",
       "The salts MY and NY<sub>3</sub> are more soluble in 0.5 M KY than in pure water.",
       "The addition of the salt of KY to solution of MY and NY<sub>3</sub> will have no effect on their solubilities."
-     ]
+     ],
+     "sol": "<p>MY: K<sub>sp</sub> = s<sup>2</sup> → s = √(6.2 × 10<sup>−13</sup>) ≈ 7.9 × 10<sup>−7</sup> M.</p><p>NY<sub>3</sub>: K<sub>sp</sub> = s(3s)<sup>3</sup> = 27s<sup>4</sup> → s = (6.2 × 10<sup>−13</sup>/27)<sup>1/4</sup> ≈ 3.9 × 10<sup>−4</sup> M.</p><p>So MY is <b>less soluble</b> than NY<sub>3</sub>. KY adds the common ion Y<sup>−</sup> and lowers both solubilities.</p>",
+     "hint": "Equal K<sub>sp</sub> does not mean equal solubility when formulas differ."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "MY और NY<sub>3</sub>, दो लगभग अविलेय लवणों के कमरे के ताप पर K<sub>sp</sub> मान समान, 6.2 × 10<sup>−13</sup> हैं। MY और NY<sub>3</sub> के संबंध में कौन-सा कथन सत्य होगा?",
+     "o": [
+      "जल में MY और NY<sub>3</sub> की मोलर विलेयताएँ समान हैं।",
+      "जल में MY की मोलर विलेयता NY<sub>3</sub> से कम है।",
+      "लवण MY और NY<sub>3</sub>, शुद्ध जल की तुलना में 0.5 M KY में अधिक विलेय हैं।",
+      "MY और NY<sub>3</sub> के विलयन में KY लवण मिलाने से उनकी विलेयताओं पर कोई प्रभाव नहीं पड़ेगा।"
+     ],
+     "sol": "<p>MY: K<sub>sp</sub> = s<sup>2</sup> → s = √(6.2 × 10<sup>−13</sup>) ≈ 7.9 × 10<sup>−7</sup> M।</p><p>NY<sub>3</sub>: K<sub>sp</sub> = s(3s)<sup>3</sup> = 27s<sup>4</sup> → s = (6.2 × 10<sup>−13</sup>/27)<sup>1/4</sup> ≈ 3.9 × 10<sup>−4</sup> M।</p><p>अतः MY, NY<sub>3</sub> से <b>कम विलेय</b> है। KY सम आयन Y<sup>−</sup> देता है और दोनों की विलेयता घटाता है।</p>",
+     "hint": "सूत्र भिन्न हों तो समान K<sub>sp</sub> का अर्थ समान विलेयता नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1353,10 +1629,22 @@
       "d ln P/dT = −ΔH<sub>v</sub>/RT",
       "d ln P/dT<sup>2</sup> = −ΔH<sub>v</sub>/T<sup>2</sup>",
       "d ln P/dT = ΔH<sub>v</sub>/RT<sup>2</sup>"
-     ]
+     ],
+     "sol": "<p>For a liquid–vapour equilibrium the Clausius–Clapeyron equation gives <b>d ln P/dT = ΔH<sub>v</sub>/RT<sup>2</sup></b>: vapour pressure rises with temperature because vaporisation is endothermic.</p><p class='errata'>This equation is not in NCERT (question marked outside_ncert).</p>",
+     "hint": "Vapour pressure rises with T, so the right side must be positive."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित द्रव – वाष्प साम्य पर विचार कीजिए।<br>द्रव ⇌ वाष्प<br>निम्नलिखित में से कौन-सा संबंध सही है ?",
+     "o": [
+      "d ln G/dT<sup>2</sup> = ΔH<sub>v</sub>/RT<sup>2</sup>",
+      "d ln P/dT = −ΔH<sub>v</sub>/RT",
+      "d ln P/dT<sup>2</sup> = −ΔH<sub>v</sub>/T<sup>2</sup>",
+      "d ln P/dT = ΔH<sub>v</sub>/RT<sup>2</sup>"
+     ],
+     "sol": "<p>द्रव–वाष्प साम्य के लिए क्लॉसियस–क्लैपेरॉन समीकरण <b>d ln P/dT = ΔH<sub>v</sub>/RT<sup>2</sup></b> देता है: वाष्पन ऊष्माशोषी है, इसलिए ताप के साथ वाष्प दाब बढ़ता है।</p><p class='errata'>यह समीकरण NCERT में नहीं है (प्रश्न outside_ncert चिह्नित)।</p>",
+     "hint": "T के साथ वाष्प दाब बढ़ता है, अतः दायाँ पक्ष धनात्मक होना चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1398,10 +1686,22 @@
       "0.013%",
       "0.77%",
       "1.6%"
-     ]
+     ],
+     "sol": "<p>C<sub>5</sub>H<sub>5</sub>N + H<sub>2</sub>O ⇌ C<sub>5</sub>H<sub>5</sub>NH<sup>+</sup> + OH<sup>−</sup>. For a weak base, α = √(K<sub>b</sub>/C) = √(1.7 × 10<sup>−9</sup>/0.10) = 1.3 × 10<sup>−4</sup>.</p><p>Percentage = <b>0.013%</b>.</p>",
+     "hint": "α = √(K<sub>b</sub>/C) for a weak base."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "0.10 M जलीय पिरिडीन विलयन में पिरिडीन (C<sub>5</sub>H<sub>5</sub>N) का वह प्रतिशत जो पिरिडिनियम आयन (C<sub>5</sub>H<sub>5</sub>N<sup>+</sup>H) बनाता है (C<sub>5</sub>H<sub>5</sub>N के लिए K<sub>b</sub> = 1.7 × 10<sup>−9</sup>), है",
+     "o": [
+      "0.0060%",
+      "0.013%",
+      "0.77%",
+      "1.6%"
+     ],
+     "sol": "<p>C<sub>5</sub>H<sub>5</sub>N + H<sub>2</sub>O ⇌ C<sub>5</sub>H<sub>5</sub>NH<sup>+</sup> + OH<sup>−</sup>। दुर्बल क्षारक के लिए α = √(K<sub>b</sub>/C) = √(1.7 × 10<sup>−9</sup>/0.10) = 1.3 × 10<sup>−4</sup>।</p><p>प्रतिशत = <b>0.013%</b>।</p>",
+     "hint": "दुर्बल क्षारक के लिए α = √(K<sub>b</sub>/C)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1444,10 +1744,22 @@
       "1.6 × 10<sup>−9</sup> M",
       "1.6 × 10<sup>−11</sup> M",
       "Zero"
-     ]
+     ],
+     "sol": "<p>K<sub>sp</sub> = [Ag<sup>+</sup>][Cl<sup>−</sup>] = s(s + 0.1) ≈ 0.1 s.</p><p>s = 1.6 × 10<sup>−10</sup>/0.1 = <b>1.6 × 10<sup>−9</sup> M</b> (common ion effect lowers it from 1.26 × 10<sup>−5</sup> M in water).</p>",
+     "hint": "[Cl<sup>−</sup>] ≈ 0.1 M from NaCl."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "विलेयता गुणनफल 1.6 × 10<sup>−10</sup> वाले AgCl(s) की 0.1 M NaCl विलयन में विलेयता होगी",
+     "o": [
+      "1.26 × 10<sup>−5</sup> M",
+      "1.6 × 10<sup>−9</sup> M",
+      "1.6 × 10<sup>−11</sup> M",
+      "शून्य"
+     ],
+     "sol": "<p>K<sub>sp</sub> = [Ag<sup>+</sup>][Cl<sup>−</sup>] = s(s + 0.1) ≈ 0.1 s।</p><p>s = 1.6 × 10<sup>−10</sup>/0.1 = <b>1.6 × 10<sup>−9</sup> M</b> (सम आयन प्रभाव से यह जल के 1.26 × 10<sup>−5</sup> M से घट जाती है)।</p>",
+     "hint": "NaCl से [Cl<sup>−</sup>] ≈ 0.1 M।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1490,10 +1802,22 @@
       "PF<sub>3</sub>",
       "CF<sub>4</sub>",
       "SiF<sub>4</sub>"
-     ]
+     ],
+     "sol": "<p>A Lewis base donates an electron pair. P in PF<sub>3</sub> has a lone pair (like NH<sub>3</sub>), so PF<sub>3</sub> can act as a Lewis base. BF<sub>3</sub> is a Lewis acid; CF<sub>4</sub> and SiF<sub>4</sub> have no lone pair on the central atom (SiF<sub>4</sub> can even accept pairs).</p>",
+     "hint": "Look for a lone pair on the central atom."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा फ्लुओरो-यौगिक लूइस क्षारक की तरह व्यवहार करने की सबसे अधिक संभावना रखता है?",
+     "o": [
+      "BF<sub>3</sub>",
+      "PF<sub>3</sub>",
+      "CF<sub>4</sub>",
+      "SiF<sub>4</sub>"
+     ],
+     "sol": "<p>लूइस क्षारक इलेक्ट्रॉन युग्म दान करता है। PF<sub>3</sub> में P पर एक एकाकी युग्म है (NH<sub>3</sub> जैसा), अतः PF<sub>3</sub> लूइस क्षारक की तरह कार्य कर सकता है। BF<sub>3</sub> लूइस अम्ल है; CF<sub>4</sub> और SiF<sub>4</sub> के केंद्रीय परमाणु पर एकाकी युग्म नहीं है (SiF<sub>4</sub> तो युग्म ग्रहण भी कर सकता है)।</p>",
+     "hint": "केंद्रीय परमाणु पर एकाकी युग्म ढूँढें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1536,10 +1860,22 @@
       "½K",
       "K",
       "K<sup>2</sup>"
-     ]
+     ],
+     "sol": "<p>Halving every coefficient raises K to the power ½: K′ = <b>K<sup>½</sup></b>.</p>",
+     "hint": "Multiplying an equation by n gives K<sup>n</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि N<sub>2</sub>(g) + O<sub>2</sub>(g) ⇌ 2NO(g) के लिए साम्य स्थिरांक K है, तो ½N<sub>2</sub>(g) + ½O<sub>2</sub>(g) ⇌ NO(g) के लिए साम्य स्थिरांक होगा :",
+     "o": [
+      "K<sup>½</sup>",
+      "½K",
+      "K",
+      "K<sup>2</sup>"
+     ],
+     "sol": "<p>हर गुणांक आधा करने पर K की घात ½ हो जाती है: K′ = <b>K<sup>½</sup></b>।</p>",
+     "hint": "समीकरण को n से गुणा करने पर K<sup>n</sup> मिलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1582,10 +1918,22 @@
       "CH<sub>3</sub>COOH and CH<sub>3</sub>COONa",
       "H<sub>2</sub>CO<sub>3</sub> and Na<sub>2</sub>CO<sub>3</sub>",
       "H<sub>3</sub>PO<sub>4</sub> and Na<sub>3</sub>PO<sub>4</sub>"
-     ]
+     ],
+     "sol": "<p>A buffer needs a <i>weak</i> acid and its salt. HClO<sub>4</sub> is a strong acid, so HClO<sub>4</sub> + NaClO<sub>4</sub> is <b>not</b> a buffer. The others contain weak acids (CH<sub>3</sub>COOH, H<sub>2</sub>CO<sub>3</sub>, H<sub>3</sub>PO<sub>4</sub>) with their salts.</p>",
+     "hint": "Strong acid + its salt cannot resist pH change."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "विलयनों के निम्नलिखित युग्मों में से कौन-सा अम्लीय बफर नहीं है ?",
+     "o": [
+      "HClO<sub>4</sub> और NaClO<sub>4</sub>",
+      "CH<sub>3</sub>COOH और CH<sub>3</sub>COONa",
+      "H<sub>2</sub>CO<sub>3</sub> और Na<sub>2</sub>CO<sub>3</sub>",
+      "H<sub>3</sub>PO<sub>4</sub> और Na<sub>3</sub>PO<sub>4</sub>"
+     ],
+     "sol": "<p>बफर के लिए <i>दुर्बल</i> अम्ल और उसका लवण चाहिए। HClO<sub>4</sub> प्रबल अम्ल है, अतः HClO<sub>4</sub> + NaClO<sub>4</sub> बफर <b>नहीं</b> है। बाकी में दुर्बल अम्ल (CH<sub>3</sub>COOH, H<sub>2</sub>CO<sub>3</sub>, H<sub>3</sub>PO<sub>4</sub>) अपने लवणों के साथ हैं।</p>",
+     "hint": "प्रबल अम्ल + उसका लवण pH परिवर्तन का प्रतिरोध नहीं कर सकते।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1628,10 +1976,22 @@
       "2.0",
       "7.0",
       "1.04"
-     ]
+     ],
+     "sol": "<p>Take 1 L each: OH<sup>−</sup> 0.1 mol, H<sup>+</sup> 0.01 mol → 0.09 mol OH<sup>−</sup> left in 2 L = 0.045 M.</p><p>pOH = −log 0.045 = 1.35; pH = 14 − 1.35 = <b>12.65</b>.</p>",
+     "hint": "Remember the volume doubles on mixing."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "0.1 M NaOH और 0.01 M HCl के समान आयतन मिलाने पर बने विलयन का pH क्या है ?",
+     "o": [
+      "12.65",
+      "2.0",
+      "7.0",
+      "1.04"
+     ],
+     "sol": "<p>प्रत्येक का 1 L लें: OH<sup>−</sup> 0.1 mol, H<sup>+</sup> 0.01 mol → 2 L में 0.09 mol OH<sup>−</sup> शेष = 0.045 M।</p><p>pOH = −log 0.045 = 1.35; pH = 14 − 1.35 = <b>12.65</b>।</p>",
+     "hint": "याद रखें, मिलाने पर आयतन दोगुना हो जाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1674,10 +2034,22 @@
       "a",
       "b",
       "c"
-     ]
+     ],
+     "sol": "<p>pH 1 needs [H<sup>+</sup>] = 0.1 M after mixing.</p><ul><li>a: (6 − 4) mmol in 100 mL = 0.02 M</li><li>b: (5.5 − 4.5) mmol in 100 mL = 0.01 M</li><li>c: (15 − 5) mmol in 100 mL = <b>0.1 M</b> ✓</li><li>d: neutral</li></ul>",
+     "hint": "M/5 = 0.2 M; excess H<sup>+</sup> ÷ total volume."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "भिन्न-भिन्न सांद्रताओं के NaOH और HCl के भिन्न आयतन मिलाकर निम्नलिखित विलयन बनाए गए :<br>a. 60 mL M/10 HCl + 40 mL M/10 NaOH<br>b. 55 mL M/10 HCl + 45 mL M/10 NaOH<br>c. 75 mL M/5 HCl + 25 mL M/5 NaOH<br>d. 100 mL M/10 HCl + 100 mL M/10 NaOH<br>इनमें से किसका pH, 1 के बराबर होगा ?",
+     "o": [
+      "d",
+      "a",
+      "b",
+      "c"
+     ],
+     "sol": "<p>pH 1 के लिए मिलाने के बाद [H<sup>+</sup>] = 0.1 M चाहिए।</p><ul><li>a: 100 mL में (6 − 4) mmol = 0.02 M</li><li>b: 100 mL में (5.5 − 4.5) mmol = 0.01 M</li><li>c: 100 mL में (15 − 5) mmol = <b>0.1 M</b> ✓</li><li>d: उदासीन</li></ul>",
+     "hint": "M/5 = 0.2 M; आधिक्य H<sup>+</sup> ÷ कुल आयतन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1720,10 +2092,22 @@
       "1.08 × 10<sup>−12</sup> mol<sup>2</sup>L<sup>−2</sup>",
       "1.08 × 10<sup>−10</sup> mol<sup>2</sup>L<sup>−2</sup>",
       "1.08 × 10<sup>−8</sup> mol<sup>2</sup>L<sup>−2</sup>"
-     ]
+     ],
+     "sol": "<p>s = 2.42 × 10<sup>−3</sup> g L<sup>−1</sup> ÷ 233 g mol<sup>−1</sup> = 1.04 × 10<sup>−5</sup> mol L<sup>−1</sup>.</p><p>K<sub>sp</sub> = s<sup>2</sup> = <b>1.08 × 10<sup>−10</sup> mol<sup>2</sup> L<sup>−2</sup></b>.</p>",
+     "hint": "Convert g L<sup>−1</sup> to mol L<sup>−1</sup> first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "298 K पर जल में BaSO<sub>4</sub> की विलेयता 2.42 × 10<sup>−3</sup> gL<sup>−1</sup> है। इसके विलेयता गुणनफल (K<sub>sp</sub>) का मान होगा (दिया है BaSO<sub>4</sub> का मोलर द्रव्यमान = 233 g mol<sup>−1</sup>)",
+     "o": [
+      "1.08 × 10<sup>−14</sup> mol<sup>2</sup>L<sup>−2</sup>",
+      "1.08 × 10<sup>−12</sup> mol<sup>2</sup>L<sup>−2</sup>",
+      "1.08 × 10<sup>−10</sup> mol<sup>2</sup>L<sup>−2</sup>",
+      "1.08 × 10<sup>−8</sup> mol<sup>2</sup>L<sup>−2</sup>"
+     ],
+     "sol": "<p>s = 2.42 × 10<sup>−3</sup> g L<sup>−1</sup> ÷ 233 g mol<sup>−1</sup> = 1.04 × 10<sup>−5</sup> mol L<sup>−1</sup>।</p><p>K<sub>sp</sub> = s<sup>2</sup> = <b>1.08 × 10<sup>−10</sup> mol<sup>2</sup> L<sup>−2</sup></b>।</p>",
+     "hint": "पहले g L<sup>−1</sup> को mol L<sup>−1</sup> में बदलें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1766,10 +2150,22 @@
       "Low temperature and low pressure",
       "Low temperature and high pressure",
       "High temperature and low pressure"
-     ]
+     ],
+     "sol": "<p>The forward reaction is exothermic → low temperature favours X<sub>2</sub>. Gas moles fall from 2 to 1 → high pressure favours X<sub>2</sub>. Answer: <b>low temperature and high pressure</b>.</p>",
+     "hint": "Le Chatelier for both ΔH and Δn<sub>g</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अभिक्रिया A<sub>2</sub>(g) + B<sub>2</sub>(g) ⇌ X<sub>2</sub>(g) Δ<sub>r</sub>H = −X kJ में निम्नलिखित में से कौन-सी परिस्थिति उत्पाद के अधिकतम निर्माण के पक्ष में होगी ?",
+     "o": [
+      "उच्च ताप और उच्च दाब",
+      "निम्न ताप और निम्न दाब",
+      "निम्न ताप और उच्च दाब",
+      "उच्च ताप और निम्न दाब"
+     ],
+     "sol": "<p>अग्र अभिक्रिया ऊष्माक्षेपी है → निम्न ताप X<sub>2</sub> के पक्ष में। गैस के मोल 2 से 1 होते हैं → उच्च दाब X<sub>2</sub> के पक्ष में। उत्तर: <b>निम्न ताप और उच्च दाब</b>।</p>",
+     "hint": "ΔH और Δn<sub>g</sub> दोनों के लिए ला-शातेलिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1813,10 +2209,22 @@
       "4.57",
       "2.57",
       "5.57"
-     ]
+     ],
+     "sol": "<p>Acetic acid + sodium acetate is an acidic buffer. Equal volumes, so the ratio of concentrations stays 0.10 : 0.01.</p><p>pH = pK<sub>a</sub> + log([salt]/[acid]) = 4.57 + log(0.10/0.01) = 4.57 + 1 = <b>5.57</b>.</p>",
+     "hint": "Henderson–Hasselbalch equation."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "0.10 M सोडियम ऐसीटेट और 0.01 M ऐसीटिक अम्ल, प्रत्येक के 50 mL वाले विलयन का pH है [दिया है CH<sub>3</sub>COOH का pK<sub>a</sub> = 4.57]",
+     "o": [
+      "3.57",
+      "4.57",
+      "2.57",
+      "5.57"
+     ],
+     "sol": "<p>ऐसीटिक अम्ल + सोडियम ऐसीटेट एक अम्लीय बफर है। आयतन समान हैं, अतः सांद्रताओं का अनुपात 0.10 : 0.01 ही रहता है।</p><p>pH = pK<sub>a</sub> + log([लवण]/[अम्ल]) = 4.57 + log(0.10/0.01) = 4.57 + 1 = <b>5.57</b>।</p>",
+     "hint": "हेंडरसन–हैसलबाख समीकरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1859,10 +2267,24 @@
       "2.4 × 10<sup>31</sup>",
       "1.2 × 10<sup>21</sup>",
       "4.38 × 10<sup>−32</sup>"
-     ]
+     ],
+     "sol": "<p>K<sub>c</sub> = [O<sub>3</sub>]<sup>2</sup>/[O<sub>2</sub>]<sup>3</sup> → [O<sub>3</sub>]<sup>2</sup> = 3.0 × 10<sup>−59</sup> × (0.040)<sup>3</sup> = 3.0 × 10<sup>−59</sup> × 6.4 × 10<sup>−5</sup> = 1.92 × 10<sup>−63</sup>.</p><p>[O<sub>3</sub>] = <b>4.38 × 10<sup>−32</sup> M</b>.</p>",
+     "hint": "Don't forget the square root at the end.",
+     "trap": "1.9 × 10<sup>−63</sup> is [O<sub>3</sub>]<sup>2</sup>, not [O<sub>3</sub>]."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "3O<sub>2</sub>(g) ⇌ 2O<sub>3</sub>(g)<br>उपर्युक्त अभिक्रिया के लिए 298 K पर K<sub>C</sub> का मान 3.0 × 10<sup>−59</sup> पाया गया। यदि साम्य पर O<sub>2</sub> की सांद्रता 0.040 M है, तो O<sub>3</sub> की सांद्रता M में है",
+     "o": [
+      "1.9 × 10<sup>−63</sup>",
+      "2.4 × 10<sup>31</sup>",
+      "1.2 × 10<sup>21</sup>",
+      "4.38 × 10<sup>−32</sup>"
+     ],
+     "sol": "<p>K<sub>c</sub> = [O<sub>3</sub>]<sup>2</sup>/[O<sub>2</sub>]<sup>3</sup> → [O<sub>3</sub>]<sup>2</sup> = 3.0 × 10<sup>−59</sup> × (0.040)<sup>3</sup> = 3.0 × 10<sup>−59</sup> × 6.4 × 10<sup>−5</sup> = 1.92 × 10<sup>−63</sup>।</p><p>[O<sub>3</sub>] = <b>4.38 × 10<sup>−32</sup> M</b>।</p>",
+     "hint": "अंत में वर्गमूल लेना न भूलें।",
+     "trap": "1.9 × 10<sup>−63</sup>, [O<sub>3</sub>]<sup>2</sup> है, [O<sub>3</sub>] नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
