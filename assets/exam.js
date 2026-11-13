@@ -12,6 +12,17 @@
   const root = document.getElementById('cbt');
   const params = new URLSearchParams(location.search);
   const SKEY = id => 'cbt-v1:' + id;
+  // Server mode (exam.html?cbt=<slug>): the CBT Worker (worker/) keeps the clock and the answer key; every saved
+  // answer goes to the server, and keys + solutions arrive only after submitting. Without it (exam.html?test=<id>)
+  // the page runs the local prototype tests from data/tests/.
+  const SERVER = params.get('cbt');
+  let ME = null;         // signed-in student {name, …}
+  function api(path, opts) {
+    opts = opts || {};
+    return fetch('/api' + path, { method: opts.method || 'GET', credentials: 'same-origin',
+      headers: opts.body ? { 'content-type': 'application/json' } : {}, body: opts.body ? JSON.stringify(opts.body) : undefined })
+      .then(r => r.json().catch(() => ({})).then(d => ({ ok: r.ok, status: r.status, d })));
+  }
 
   // ---------- storage (may be unavailable: private mode, blocked cookies) ----------
   let storageOK = true;
@@ -67,6 +78,12 @@
       'हर क्रिया इस ब्राउज़र में सेव होती है। बिजली या नेटवर्क जाने पर इसी डिवाइस पर यह पेज फिर खोलें; परीक्षा बचे हुए समय के साथ वहीं से चलेगी।',
     ],
   };
+  if (SERVER) {
+    INSTR.en[0] = 'The clock runs on the server. The countdown at the top right shows the time left; when it reaches zero the test is submitted automatically.';
+    INSTR.hi[0] = 'घड़ी सर्वर पर चलती है। ऊपर दाईं ओर उलटी गिनती शेष समय दिखाती है; शून्य होने पर परीक्षा अपने आप जमा हो जाएगी।';
+    INSTR.en[INSTR.en.length - 1] = 'Every saved answer is stored on the server as well as in this browser. If the power or network goes, sign in again on any device: the test resumes, but the clock keeps running.';
+    INSTR.hi[INSTR.hi.length - 1] = 'हर सेव किया उत्तर सर्वर पर और इस ब्राउज़र में रखा जाता है। बिजली या नेटवर्क जाने पर किसी भी डिवाइस पर फिर से साइन इन करें: परीक्षा वहीं से चलेगी, पर घड़ी चलती रहती है।';
+  }
   const STATUS = [
     ['nv', 'Not Visited', 'नहीं देखा'],
     ['na', 'Not Answered', 'उत्तर नहीं दिया'],
@@ -102,11 +119,40 @@
     const has = s.ans !== null && s.ans !== '';
     return s.mark ? (has ? 'am' : 'mr') : (has ? 'an' : 'na');
   }
-  function save() { S.savedAt = Date.now(); store(SKEY(T.id), S); }
+  function save() { S.savedAt = Date.now(); store(SKEY(T.id), S); if (SERVER && S.attemptId && !S.submitted) queueSync(); }
+
+  // ---------- server sync (server mode) ----------
+  let syncTimer = null, syncing = false, lastSent = {};
+  function items(all) {
+    const out = [];
+    Q.forEach(x => {
+      const st = S.q[x.q.id]; if (!st) return;
+      const it = { qno: x.n, ans: st.ans === null || st.ans === undefined ? null : String(st.ans), mark: !!st.mark, v: !!st.v,
+        t: Math.round(st.t || 0), hist: (st.hist || []).map(h => ({ a: h.a === null ? null : String(h.a), at: Math.round(h.at) })) };
+      const sig = JSON.stringify([it.ans, it.mark, it.v, it.hist.length, Math.round(it.t / 10000)]);
+      if (all || lastSent[x.n] !== sig) { out.push(it); it._sig = sig; }
+    });
+    return out;
+  }
+  function queueSync() { clearTimeout(syncTimer); syncTimer = setTimeout(sync, 1500); }
+  function sync() {
+    if (syncing || !S || S.submitted) return;
+    const its = items(false);
+    if (!its.length) return;
+    syncing = true;
+    api(`/cbt/attempt/${S.attemptId}/save`, { method: 'POST', body: { items: its.map(({ _sig, ...i }) => i) } }).then(r => {
+      syncing = false;
+      if (r.ok) { its.forEach(i => { lastSent[i.qno] = i._sig; }); netState(true); }
+      else if (r.status === 409) { if (!S.submitted) { S.remaining = 0; S.timeUp = true; finish(); } }
+      else { netState(false); queueSync(); }
+    }).catch(() => { syncing = false; netState(false); setTimeout(sync, 5000); });
+  }
+  function netState(ok) { const el = document.getElementById('net'); if (el) { el.hidden = ok; } }
 
   // ---------- boot ----------
   function getJSON(url) { return fetch(url).then(r => { if (!r.ok) throw new Error(url + ' ' + r.status); return r.json(); }); }
   function boot() {
+    if (SERVER) return bootServer(SERVER);
     const id = params.get('test');
     if (!id) return renderList();
     getJSON(`data/tests/${encodeURIComponent(id)}.json`).then(test => {
@@ -122,13 +168,107 @@
     }).catch(e => { root.innerHTML = `<div class="cbt-page"><h1>Could not load the test</h1><p>${esc(e.message)}</p><p><a href="exam.html">All tests</a></p></div>`; });
   }
 
+
+  // ---------- server mode: load, sign in, start, resume, result ----------
+  function bootServer(slug) {
+    api(`/cbt/test/${encodeURIComponent(slug)}`).then(r => {
+      const d = r.d;
+      if (r.status === 401 && d.test) return renderSignIn(d.test);
+      if (r.status === 403 && d.test) return renderLocked(d.test);
+      if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
+      ME = d.student;
+      const t = d.test;
+      T = { id: 'cbt:' + t.slug, slug: t.slug, title: t.title, subtitle: t.subtitle, durationMin: t.durationMin, rules: t.rules || {}, server: true,
+        sections: [{ id: 'A', name: { en: t.subject === 'chemistry' ? 'Chemistry' : 'Questions', hi: t.subject === 'chemistry' ? 'रसायन विज्ञान' : 'प्रश्न' },
+          marking: t.marking, questions: d.questions }] };
+      Q = [];
+      T.sections.forEach((sec, si) => sec.questions.forEach(q => Q.push({ q, sec, si, n: Q.length + 1 })));
+      document.title = `${L(T.title, 'en')} · Exam-screen practice`;
+      const a = d.attempt;
+      S = load(SKEY(T.id));
+      if (!a) { S = null; drop(SKEY(T.id)); return renderInstructions('en'); }
+      if (a.submitted) return loadResult(a.id);
+      if (!S || S.attemptId !== a.id) S = fromServer(a, d.responses);
+      S.deadlineLocal = Date.now() + (Date.parse(a.deadline_at) - d.server_now);
+      S.remaining = Math.max(0, S.deadlineLocal - Date.now());
+      lastSent = {};
+      renderResume();
+    }).catch(e => { root.innerHTML = `<div class="cbt-page"><h1>Could not load the test</h1><p>${esc(e.message)}</p><p><a href="exam.html">All tests</a></p></div>`; });
+  }
+  function toLocalAns(q, a) { return a === null || a === undefined ? null : q.answer.kind === 'numeric' ? String(a) : Number(a); }
+  function fromServer(a, resp) {
+    const st = { v: 1, testId: T.id, attemptId: a.id, started: Date.parse(a.started_at), cur: 0, lang: a.lang || 'en', qlang: {}, q: {}, events: 0, submitted: false };
+    Q.forEach(x => { const r = resp && resp[x.n]; if (r) st.q[x.q.id] = { v: r.v, ans: toLocalAns(x.q, r.ans), mark: r.mark, t: r.t || 0, hist: (r.hist || []).map(h => ({ a: toLocalAns(x.q, h.a), at: h.at })) }; });
+    return st;
+  }
+  function applyResult(d) {
+    d.key.forEach(k => {
+      const x = Q[k.qno - 1]; if (!x) return;
+      x.q.answer = k.answer;
+      ['en', 'hi'].forEach(l => { if (x.q.text[l]) Object.assign(x.q.text[l], (k.solution || {})[l] || {}); });
+    });
+    if (!S || !S.q || !Object.keys(S.q).length) S = fromServer({ id: d.attempt.id, started_at: d.attempt.started_at, lang: (S && S.lang) || 'en' }, d.responses);
+    S.attemptId = d.attempt.id;
+    S.submitted = Date.parse(d.attempt.submitted_at) || Date.now();
+    const used = Date.parse(d.attempt.submitted_at) - Date.parse(d.attempt.started_at);
+    S.remaining = Math.max(0, T.durationMin * 60000 - used);
+    S.serverScore = d.attempt.score;
+    save();
+  }
+  function loadResult(id) {
+    api(`/cbt/attempt/${id}/result`).then(r => {
+      if (!r.ok) throw new Error(r.d.error || 'HTTP ' + r.status);
+      applyResult(r.d); renderResult();
+    }).catch(e => { root.innerHTML = `<div class="cbt-page"><h1>Could not load the result</h1><p>${esc(e.message)}</p><p><a href="exam.html">All tests</a></p></div>`; });
+  }
+  function googleButton(el, after) {
+    api('/me').then(r => {
+      const me = r.d || {};
+      if (me.dev_login) {
+        el.innerHTML = '<button class="btn-go" id="devin">Sign in (dev)</button>';
+        el.querySelector('#devin').onclick = () => api('/auth/dev', { method: 'POST', body: {} }).then(after);
+        return;
+      }
+      if (!me.google_client_id || me.google_client_id === 'SET-ME') { el.innerHTML = '<p class="warn">Sign-in is not set up yet.</p>'; return; }
+      const go = () => {
+        google.accounts.id.initialize({ client_id: me.google_client_id, callback: res =>
+          api('/auth/google', { method: 'POST', body: { credential: res.credential } }).then(x => x.ok ? after() : alert(x.d.error || 'Sign-in failed')) });
+        google.accounts.id.renderButton(el, { theme: 'filled_blue', size: 'large', text: 'signin_with', shape: 'pill' });
+      };
+      if (window.google && google.accounts) return go();
+      const sc = document.createElement('script'); sc.src = 'https://accounts.google.com/gsi/client'; sc.async = true; sc.onload = go; document.head.appendChild(sc);
+    });
+  }
+  function renderSignIn(t) {
+    root.innerHTML = `<div class="cbt-page"><p class="kicker">${esc(L(t.subtitle, 'en'))}</p><h1>${esc(L(t.title, 'hi'))}</h1><p class="muted">${esc(L(t.title, 'en'))}</p>
+      <p>टेस्ट देने के लिए Google से साइन इन करें — आपका स्कोर और हल सुरक्षित रहेंगे। · Sign in with Google to take the test; your score and solutions stay saved.</p>
+      <div id="gsign"></div><p><a href="exam.html">← All tests</a></p></div>`;
+    googleButton($('#gsign'), () => bootServer(t.slug));
+  }
+  function renderLocked(t) {
+    root.innerHTML = `<div class="cbt-page"><h1>${esc(L(t.title, 'hi'))}</h1><p class="muted">${esc(L(t.title, 'en'))}</p>
+      <p>यह टेस्ट पास के साथ खुलेगा (जल्द आ रहा है)। · This test opens with a pass (coming soon). The free test of every chapter is open now.</p>
+      <p><a href="exam.html">← All tests</a></p></div>`;
+  }
+
   function renderList() {
-    getJSON('data/tests/index.json').then(ix => {
-      root.innerHTML = `<div class="cbt-page"><p class="kicker">Exam-screen practice · prototype</p><h1>Choose a test</h1>
+    Promise.all([api('/cbt/tests').catch(() => ({ ok: false })), getJSON('data/tests/index.json').catch(() => ({ tests: [] }))]).then(([sv, ix]) => {
+      const online = sv.ok && sv.d.tests && sv.d.tests.length ? serverList(sv.d) : '';
+      root.innerHTML = `<div class="cbt-page"><p class="kicker">Exam-screen practice</p><h1>Choose a test · टेस्ट चुनें</h1>${online}<h2>${online ? 'PYQ practice (this browser only)' : 'Choose a test'}</h2>
         <p>The screen works like the NTA computer-based test: palette, countdown, mark for review, Hindi/English per question. Your attempt is saved in this browser.</p>
         <ul class="test-list">${ix.tests.map(t => { const s = load(SKEY(t.id)); return `<li><a href="exam.html?test=${encodeURIComponent(t.id)}"><b>${esc(L(t.title, 'en'))}</b><span>${esc(L(t.subtitle, 'en'))}</span><span>${t.count} questions · ${t.durationMin} min${s && s.submitted ? ' · <i>result ready</i>' : s && s.started ? ' · <i>in progress</i>' : ''}</span></a></li>`; }).join('')}</ul>
         <p><a href="./">← Back to NCERT MindMap</a></p></div>`;
+      if (sv.ok && !sv.d.signed_in && $('#gsign')) googleButton($('#gsign'), () => renderList());
     }).catch(e => { root.innerHTML = `<div class="cbt-page"><p>${esc(e.message)}</p></div>`; });
+  }
+  function serverList(d) {
+    const groups = {};
+    d.tests.forEach(t => { (groups[t.chapter || t.exam] = groups[t.chapter || t.exam] || []).push(t); });
+    const chip = t => !t.access_ok ? '<i class="lock">🔒 pass</i>' : t.attempt && t.attempt.submitted ? `<i>result: ${t.attempt.score} / ${t.count * t.marking.correct}</i>` : t.attempt ? '<i>in progress</i>' : t.access === 'free' ? '<i class="free">free · निःशुल्क</i>' : '';
+    return `${d.signed_in ? '' : '<div class="signin-box"><p>Sign in to take the chapter tests (free tests open to everyone). · चैप्टर टेस्ट देने के लिए साइन इन करें।</p><div id="gsign"></div></div>'}
+      <h2>Chapter tests · अध्याय परीक्षाएँ</h2>
+      ${Object.values(groups).map(ts => `<h3 class="chap-h" lang="hi">${esc(L(ts[0].title, 'hi').split(' · ')[0])} <small lang="en">${esc(L(ts[0].title, 'en').split(' · ')[0])}</small></h3>
+        <ul class="test-list">${ts.map(t => `<li${t.access_ok ? '' : ' class="locked"'}><a href="exam.html?cbt=${encodeURIComponent(t.slug)}"><b>${esc(L(t.title, 'hi').split(' · ').slice(1).join(' · ') || L(t.title, 'hi'))} · ${esc(L(t.title, 'en').split(' · ').slice(1).join(' · '))}</b><span>${t.count} questions · ${t.durationMin} min · +${t.marking.correct}/${t.marking.wrong}</span><span>${chip(t)}</span></a></li>`).join('')}</ul>`).join('')}`;
   }
 
   function legendHTML(lang, counts) {
@@ -153,6 +293,18 @@
     $('#deflang').onchange = e => renderInstructions(e.target.value);
     $('#agree').onchange = e => { $('#go').disabled = !e.target.checked; };
     $('#go').onclick = () => {
+      if (SERVER) {
+        $('#go').disabled = true;
+        return api(`/cbt/test/${encodeURIComponent(T.slug)}/start`, { method: 'POST', body: { lang } }).then(r => {
+          if (!r.ok) { alert(r.d.error || 'Could not start the test'); $('#go').disabled = false; return; }
+          const a = r.d.attempt;
+          S = { v: 1, testId: T.id, attemptId: a.id, started: Date.parse(a.started_at), cur: 0, lang, qlang: {}, q: {}, events: 0, submitted: false };
+          S.deadlineLocal = Date.now() + (Date.parse(a.deadline_at) - r.d.server_now);
+          S.remaining = Math.max(0, S.deadlineLocal - Date.now());
+          lastSent = {};
+          visit(0); save(); renderExam();
+        }).catch(() => { alert('No connection. Try again.'); $('#go').disabled = false; });
+      }
       S = { v: 1, testId: T.id, started: Date.now(), remaining: T.durationMin * 60000, cur: 0, lang, qlang: {}, q: {}, events: 0, submitted: false };
       visit(0);
       save();
@@ -167,7 +319,7 @@
       <p class="muted">आपकी परीक्षा सेव है। जारी रखें — बचा हुआ समय ${hms(S.remaining)}।</p>
       <div class="instr-actions"><button class="btn-plain" id="restart">Discard and start again</button><button class="btn-go" id="resume">Resume →</button></div></div>`;
     $('#resume').onclick = () => renderExam();
-    $('#restart').onclick = () => { if (confirm('Discard this attempt and start again?')) { drop(SKEY(T.id)); S = null; renderInstructions('en'); } };
+    $('#restart').onclick = () => { if (confirm('Discard this attempt and start again?')) retake(); };
   }
 
   // ---------- exam screen ----------
@@ -182,10 +334,11 @@
   function renderExam() {
     root.innerHTML = `<div class="exam">
       <header class="ex-top"><div class="ex-title"><b>${esc(L(T.title, 'en'))}</b><span>${esc(L(T.subtitle, 'en'))}</span></div>
-        <div class="ex-cand"><span class="avatar" aria-hidden="true">👤</span><div><small>Candidate</small><b>Guest</b></div></div>
+        <div class="ex-cand"><span class="avatar" aria-hidden="true">👤</span><div><small>Candidate</small><b>${esc(ME ? ME.name : 'Guest')}</b></div></div>
         <div class="ex-time"><small>Time Left</small><b id="clock">${hms(S.remaining)}</b></div>
         <button class="pal-toggle" id="paltoggle" aria-expanded="false">☰ Questions</button></header>
       ${storageOK ? '' : '<div class="ex-warn">Answers cannot be saved in this browser (storage blocked): do not reload.</div>'}
+      <div class="ex-warn" id="net" hidden>Not connected: answers are kept in this browser and sent when the network is back. Do not close this page.</div>
       <nav class="ex-secs" id="secs"></nav>
       <div class="ex-body">
         <main class="ex-q" id="qpane"></main>
@@ -313,7 +466,7 @@
     tickTimer = setInterval(() => {
       const now = performance.now(), d = Math.min(now - lastTick, 5000); // ignore long sleeps (closed laptop)
       lastTick = now;
-      S.remaining -= d;
+      S.remaining = SERVER && S.deadlineLocal ? Math.max(0, S.deadlineLocal - Date.now()) : S.remaining - d;
       stateOf(Q[S.cur].q).t += d;
       const c = $('#clock');
       if (c) { c.textContent = hms(S.remaining); c.classList.toggle('low', S.remaining < 5 * 60000); }
@@ -345,6 +498,21 @@
   function finish() {
     clearInterval(tickTimer);
     // a selection that was never saved is not evaluated (as in the real exam)
+    if (SERVER) {
+      clearTimeout(syncTimer);
+      root.insertAdjacentHTML('beforeend', '<div class="modal" id="subm"><div class="modal-box"><h2>Submitting…</h2><p>जमा हो रहा है…</p></div></div>');
+      const send = tries => api(`/cbt/attempt/${S.attemptId}/submit`, { method: 'POST', body: { items: items(true) } }).then(r => {
+        if (!r.ok) throw new Error(r.d.error || 'HTTP ' + r.status);
+        applyResult(r.d); renderResult(); window.scrollTo(0, 0);
+      }).catch(e => {
+        if (tries < 5) return setTimeout(() => send(tries + 1), 3000 * (tries + 1));
+        const m = document.getElementById('subm');
+        if (m) m.querySelector('.modal-box').innerHTML = `<h2>Could not reach the server</h2><p>Your answers are safe in this browser. Check the network and press Retry. (${esc(e.message)})</p><div class="modal-actions"><button class="b-submit" id="retry">Retry</button></div>`;
+        const b = document.getElementById('retry'); if (b) b.onclick = () => { m.remove(); finish(); };
+      });
+      S.submitting = true; store(SKEY(T.id), S);
+      return send(0);
+    }
     S.submitted = Date.now();
     save();
     renderResult();
@@ -408,6 +576,7 @@
         <div class="kpi"><b>${hms(used)}</b><span>Time used of ${T.durationMin} min</span></div>
       </div>
       <div class="tablewrap"><table class="sumtab"><thead><tr><th>Section</th><th>Correct</th><th>Wrong</th><th>Not answered</th><th>Time</th><th>Score</th></tr></thead><tbody>${secRows}</tbody></table></div>
+      ${topicBlock(R)}
 
       <section class="res-block"><h2>Changed answers</h2>
         ${R.some(r => r.changed) ? `<div class="chg">
@@ -430,7 +599,7 @@
         <div id="rlist">${R.map(r => reviewCard(r, lang)).join('')}</div>
       </section>
       <div class="instr-actions"><a class="btn-plain" href="exam.html">← All tests</a><button class="btn-go" id="retake">Retake this test</button></div>
-      <p class="muted small">Prototype: the timer and answer key are in your browser. The live version keeps both on the server.</p>
+      ${SERVER ? '' : '<p class="muted small">Prototype: the timer and answer key are in your browser. The live version keeps both on the server.</p>'}
     </div>`;
     $$('#filters button').forEach(b => b.onclick = () => {
       $$('#filters button').forEach(x => x.classList.toggle('on', x === b));
@@ -438,7 +607,23 @@
       $$('.rcard').forEach(card => { card.hidden = f !== 'all' && !card.classList.contains('f-' + f); });
     });
     renderResultBind(R);
-    $('#retake').onclick = () => { if (confirm('Start this test again? Your current result will be removed.')) { drop(SKEY(T.id)); S = null; renderInstructions('en'); window.scrollTo(0, 0); } };
+    $('#retake').onclick = () => { if (confirm('Start this test again? Your current result will be removed.')) retake(); };
+  }
+  function retake() {
+    const done = () => { drop(SKEY(T.id)); S = null; lastSent = {}; renderInstructions('en'); window.scrollTo(0, 0); };
+    if (!SERVER) return done();
+    api(`/cbt/test/${encodeURIComponent(T.slug)}/retake`, { method: 'POST' }).then(r => r.ok ? done() : alert(r.d.error || 'Could not reset the test'));
+  }
+  function topicBlock(R) {
+    if (!R.some(r => r.x.q.topic)) return '';
+    const tp = {};
+    R.forEach(r => { const k = r.x.q.topic ? L(r.x.q.topic, 'en') : '—'; const t = tp[k] = tp[k] || { name: r.x.q.topic, n: 0, c: 0, w: 0 }; t.n++; if (r.ok === true) t.c++; else if (r.ok === false) t.w++; });
+    const rows = Object.values(tp).sort((a, b) => (a.c / a.n) - (b.c / b.n));
+    const weak = rows.filter(t => t.n >= 2 && t.c / t.n < 0.5);
+    return `<section class="res-block"><h2>Topic-wise · विषयवार</h2>
+      ${weak.length ? `<p><b>Revise first · पहले दोहराएँ:</b> ${weak.slice(0, 3).map(t => `${esc(L(t.name, 'hi'))} (${esc(L(t.name, 'en'))})`).join(', ')}</p>` : ''}
+      <div class="tablewrap"><table class="sumtab"><thead><tr><th>Topic</th><th>Questions</th><th>Correct</th><th>Wrong</th><th>Not answered</th></tr></thead><tbody>
+      ${rows.map(t => `<tr><td><span lang="hi">${esc(L(t.name, 'hi'))}</span><br><small>${esc(L(t.name, 'en'))}</small></td><td>${t.n}</td><td>${t.c}</td><td>${t.w}</td><td>${t.n - t.c - t.w}</td></tr>`).join('')}</tbody></table></div></section>`;
   }
   function renderResultBind(R) {
     $$('.rcard .rlang').forEach(s => s.onchange = () => {
@@ -452,14 +637,15 @@
     const q = r.x.q, hiReady = hasHi(q);
     const tx = lang === 'hi' && hiReady ? q.text.hi : q.text.en;
     const cls = r.ok === true ? 'good' : r.ok === false ? 'bad' : 'none';
-    const src = q.source.kind === 'PYQ' ? `${q.source.exam} ${q.source.year}${q.source.session ? ' · ' + q.source.session : ''}` : q.source.label || q.source.kind;
+    const src = !q.source ? (q.topic ? L(q.topic, lang) : '') : q.source.kind === 'PYQ' ? `${q.source.exam} ${q.source.year}${q.source.session ? ' · ' + q.source.session : ''}` : q.source.label || q.source.kind;
+    const nc = q.ncert || { paras: q.paras || [], lines: [] };
     const ansLine = q.answer.kind === 'numeric'
       ? `Correct answer: <b>${q.answer.value}</b>${q.answer.tol ? ` (± ${q.answer.tol})` : ''}`
       : `Correct answer: <b>(${q.answer.index + 1})</b>`;
     const hist = (r.st.hist || []).map(h => fmtAns(q, h.a)).join(' → ');
     const opts = q.answer.kind === 'numeric' ? '' : `<ol class="ropts">${tx.o.map((o, i) => `<li class="${i === q.answer.index ? 'right' : ''}${i === r.st.ans && i !== q.answer.index ? ' wrongpick' : ''}"><span class="on">${i + 1})</span><span class="otext">${o}</span></li>`).join('')}</ol>`;
     const pdf = q.pdf && q.pdf.url;
-    const lines = (q.ncert.lines || []).map(l => `<figure class="excerpt">${l.img ? `<img src="assets/ncert/${esc(q.ncert.chapter)}/${esc(l.img)}.webp" alt="NCERT excerpt, ${esc(l.label)}" loading="lazy">` : ''}${l.text ? `<blockquote>${esc(l.text)}</blockquote>` : ''}<figcaption>NCERT ${esc(l.label)}${pdf ? ` · <a href="${esc(q.pdf.url)}#page=${l.page - q.pdf.offset}" target="_blank" rel="noopener">open page ${l.page} on ncert.nic.in</a>` : ''}</figcaption></figure>`).join('');
+    const lines = (nc.lines || []).map(l => `<figure class="excerpt">${l.img ? `<img src="assets/ncert/${esc(q.ncert.chapter)}/${esc(l.img)}.webp" alt="NCERT excerpt, ${esc(l.label)}" loading="lazy">` : ''}${l.text ? `<blockquote>${esc(l.text)}</blockquote>` : ''}<figcaption>NCERT ${esc(l.label)}${pdf ? ` · <a href="${esc(q.pdf.url)}#page=${l.page - q.pdf.offset}" target="_blank" rel="noopener">open page ${l.page} on ncert.nic.in</a>` : ''}</figcaption></figure>`).join('');
     return `<article class="rcard f-${cls}${r.changed ? ' f-chg' : ''}" id="rq${r.x.n}">
       <header><b>Q${r.x.n}</b><span class="badge ${cls}">${r.ok === true ? 'Correct' : r.ok === false ? 'Wrong' : 'Not answered'} · ${r.pts > 0 ? '+' : ''}${r.pts}</span><span class="muted">${esc(src)} · ${mmss(r.st.t || 0)}${r.st.mark ? ' · marked' : ''}</span>
         <select class="rlang" data-n="${r.x.n}" aria-label="Language"><option value="en"${lang === 'en' ? ' selected' : ''}>English</option><option value="hi"${lang === 'hi' ? ' selected' : ''}>हिंदी</option></select></header>
@@ -468,8 +654,8 @@
       <div lang="${lang === 'hi' && hiReady ? 'hi' : 'en'}"><div class="qtext">${tx.q}</div>${opts}
       <p class="yours">Your answer: <b>${fmtAns(q, r.st.ans)}</b> · ${ansLine}${r.changed ? ` · <span class="chgnote">changed: ${hist}</span>` : ''}</p>
       <details><summary>${lang === 'hi' && hiReady ? 'हल और NCERT पंक्तियाँ' : 'Solution and NCERT lines'}</summary><div class="sol">${tx.sol}</div>${tx.trap ? `<p class="trap"><b>${lang === 'hi' && hiReady ? 'सावधानी:' : 'Trap:'}</b> ${tx.trap}</p>` : ''}
-        ${q.ncert_status && q.ncert_status !== 'in_ncert' ? `<p class="paras">${({ old_ncert_only: 'No current NCERT source: this topic is in NEET but only in the pre-2023 NCERT', lab_manual: 'Source: NCERT laboratory manual', outside_ncert: 'Not in NCERT' })[q.ncert_status] || ''}${q.ncert.oldRef ? ' · ' + esc(q.ncert.oldRef) : ''}</p>` : ''}
-        <p class="paras" ${q.ncert.paras.length ? '' : 'hidden'}>NCERT: ${q.ncert.paras.map((p, i) => `§${esc(p)} ${esc((q.paraTitles || [])[i] || '')}`).join(' · ')}${(q.ncert.otherChapters || []).length ? ' · also ' + esc(q.ncert.otherChapters.join(', ')) : ''}</p>${lines}</details></div>
+        ${q.ncert_status && q.ncert_status !== 'in_ncert' ? `<p class="paras">${({ old_ncert_only: 'No current NCERT source: this topic is in NEET but only in the pre-2023 NCERT', lab_manual: 'Source: NCERT laboratory manual', outside_ncert: 'Not in NCERT' })[q.ncert_status] || ''}${nc.oldRef ? ' · ' + esc(nc.oldRef) : ''}</p>` : ''}
+        <p class="paras" ${(nc.paras || []).length ? '' : 'hidden'}>NCERT: ${(nc.paras || []).map((p, i) => `§${esc(p)} ${esc((q.paraTitles || [])[i] || '')}`).join(' · ')}${(nc.otherChapters || []).length ? ' · also ' + esc(nc.otherChapters.join(', ')) : ''}</p>${lines}</details></div>
     </article>`;
   }
 

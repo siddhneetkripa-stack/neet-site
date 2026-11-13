@@ -1,0 +1,42 @@
+# NEET CBT engine — Cloudflare Worker + D1 (adapted from the vkcscience.com test system).
+# Brand and domain are NOT decided: the name below is a placeholder and the app runs on its workers.dev address
+# until a domain is chosen (then add a routes block like vkcscience-tests' wrangler.toml).
+name = "neet-cbt"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = true
+
+# The Worker also serves the whole static site (same origin as the API, so the sign-in cookie just works).
+# Files listed in ../.assetsignore (worker/, tools/, docs/ …) are not served.
+[assets]
+directory = ".."
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "neet-cbt"
+# Fill in after `npx wrangler d1 create neet-cbt` (see worker/README.md).
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+[vars]
+SITE_NAME = "NEET Practice"            # placeholder until the brand is chosen
+GOOGLE_CLIENT_ID = "SET-ME"            # Google sign-in Client ID (public, not a secret); see worker/README.md
+ADMIN_EMAILS = "vimalswarnkar1@gmail.com,siddhneetkripa@gmail.com"
+
+[observability]
+enabled = true
+
+# Local development: `npx wrangler dev --env dev` — test sign-in without Google.
+[env.dev]
+name = "neet-cbt-dev"
+[env.dev.vars]
+SITE_NAME = "NEET Practice (dev)"
+GOOGLE_CLIENT_ID = "dev"
+ADMIN_EMAILS = "admin@dev.test"
+DEV_LOGIN = "1"
+[[env.dev.d1_databases]]
+binding = "DB"
+database_name = "neet-cbt-dev"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"

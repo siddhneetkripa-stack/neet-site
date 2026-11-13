@@ -1,0 +1,12 @@
+# Not served by the CBT Worker (worker/wrangler.toml [assets]).
+.git
+.github
+worker
+tools
+docs
+content/keys
+content/pyq-batches
+content/solutions
+node_modules
+*.py
+__pycache__

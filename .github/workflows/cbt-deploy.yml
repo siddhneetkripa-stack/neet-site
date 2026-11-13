@@ -1,0 +1,27 @@
+# Deploys the CBT Worker (worker/) when it changes on main. Needs repo secrets CLOUDFLARE_API_TOKEN and
+# CLOUDFLARE_ACCOUNT_ID (see worker/README.md); until they exist the job just says so and stops.
+name: Deploy CBT engine
+on:
+  push:
+    branches: [main]
+    paths: ["worker/**", "exam.html", "assets/exam.*", ".github/workflows/cbt-deploy.yml"]
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: worker } }
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Cloudflare secrets
+        id: cf
+        run: if [ -n "$CLOUDFLARE_API_TOKEN" ]; then echo "ok=1" >> $GITHUB_OUTPUT; else echo "::notice::Cloudflare secrets not set yet; skipping deploy"; fi
+      - uses: actions/setup-node@v4
+        if: steps.cf.outputs.ok
+        with: { node-version: 20 }
+      - run: npm install --no-audit --no-fund
+        if: steps.cf.outputs.ok
+      - run: npm run deploy
+        if: steps.cf.outputs.ok

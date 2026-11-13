@@ -51,6 +51,13 @@ Source of truth for building this site. Every Claude / AI session working on nee
   - Hindi proofreading of the 80 Unit 1 PYQs (status `draft` → `proofread`); the Phase 0 gate ("works in Hindi and English on phone and PC") is met technically with draft Hindi.
   - Move the Reader / PYQ pages to read the bank files (Phase 1), then retire `tools/convert_questions.py`.
   - Content pipeline (two-model check, Hindi review queue).
+- CBT engine session (13 Nov 2026, Claude on the Musafir2507 account), branch `claude/cbt-worker` (from `design/final-b-c`; not merged to `main`):
+  - Owner's decisions (13 Nov): bring the vkcscience.com test engine in; keys stay on a server (Cloudflare Worker + D1, like vkcscience), never in this public repo; Google sign-in at launch (phone OTP later). This replaces the Next.js/Supabase line of section 9 for the test engine for now.
+  - `worker/`: Worker serves the static site + `/api/` (sign-in, test list, start/save/submit/result, retake), D1 schema in `worker/migrations/`, loader `worker/scripts/build-tests-sql.mjs`, deploy workflow `.github/workflows/cbt-deploy.yml` (skips until Cloudflare secrets exist). Setup steps for the owner: `worker/README.md`.
+  - `exam.js` server mode (`exam.html?cbt=<slug>`): same NTA screen; server clock; every saved answer synced; resume on any device; keys + solutions only after submit; new topic-wise (Hindi + English) table on the result. `exam.html` lists the server's chapter tests (Hindi first) above the local PYQ tests.
+  - Tests: 27 physical-chemistry chapter tests (880 bank questions, 30–35 Q, 1 min/Q, +4/−1), first test of each chapter free and live, the rest paid and `draft` until passes go on sale (no prices stored). Files with keys: neet-sources `cbt/tests/` (branch `claude/cbt-tests`), built by chemistry-bank `Question_Bank_Structured/cbt/make_cbt.py` (fixed plan in `cbt/plan.json`, balanced keys, neutral question ids).
+  - Tested locally with `wrangler dev` + headless Chrome at 390 px and 1280 px. Not deployed: needs the owner's Cloudflare account, D1 database id, Google Client ID and the two GitHub secrets (worker/README.md). Brand/domain still a placeholder (`SITE_NAME`).
+  - Next: Hindi-first styling of the result/list pages with the B + C tokens (exam screen itself stays NTA-like); organic/inorganic chapter tests; passes (Razorpay) when prices are decided.
 
 ## 1. Vision and positioning
 

@@ -213,3 +213,12 @@ summary { cursor: pointer; color: var(--sec); font-weight: 600; }
 }
 .hi-draft { display: inline-block; margin: 0 0 8px; padding: 2px 8px; font-size: .78rem; color: #6b4300; background: #fff4e0; border: 1px solid #f0c674; border-radius: 10px; font-family: var(--hi), var(--sans); }
 [lang="hi"] .qtext, [lang="hi"] .opts, [lang="hi"] .ropts, [lang="hi"] .sol { font-family: var(--hi), var(--sans); line-height: 1.7; }
+
+/* Chapter tests from the CBT server (list page) */
+.signin-box { border: 1px solid #cfe3e3; background: #f4f7f7; border-radius: 10px; padding: 12px 14px; margin: 12px 0 18px; }
+.signin-box p { margin: 0 0 10px; }
+.chap-h { margin: 22px 0 6px; font-size: 1.1rem; color: #0B4F57; }
+.chap-h small { color: #5b6b6b; font-weight: 400; margin-left: 6px; }
+.test-list li.locked a { opacity: .72; }
+.test-list i.free { color: #0B4F57; font-style: normal; font-weight: 600; }
+.test-list i.lock { color: #9a6200; font-style: normal; }
