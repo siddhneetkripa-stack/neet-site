@@ -2685,6 +2685,94 @@
     "keyCheck": "Matches one of NTA's numerical answers for this shift (3, 6, 73, 2, 102); worked out by us",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem12-03-jee-2026-2026-01-28-shift-1-q60",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An organic compound undergoes first order decomposition. The time taken for decomposition to (1/8)<sup>th</sup> and (1/10)<sup>th</sup> of its initial concentration are t<sub>1/8</sub> and t<sub>1/10</sub> respectively. What is the value of (t<sub>1/8</sub>/t<sub>1/10</sub>) × 10 ? (take log<sub>10</sub> 2 = 0.3)",
+     "o": [
+      "3",
+      "30",
+      "0.9",
+      "9"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-28-shift-1 Q60",
+    "session": "28 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-03-jee-2026-2026-01-28-shift-2-q74",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the two first-order reactions: A → B and C → D. The rate constant for the first reaction at 500 K is double the rate constant at 300 K. At 500 K, 50% of the first reaction is completed in 2 hours. The activation energy of the second reaction is half of that of the first reaction. If the rate constant of the second reaction at 500 K is double the rate constant of the first reaction at the same temperature, find the rate constant for the second reaction at 300 K, expressed as ___ × 10<sup>−1</sup> hour<sup>−1</sup> (nearest integer)."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 5,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.4",
+     "3.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-28-shift-2 Q74",
+    "session": "28 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (2, 4, 78, 5, 6); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
   }
  ]
 }

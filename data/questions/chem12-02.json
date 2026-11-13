@@ -2324,6 +2324,92 @@
     "keyCheck": "Matches one of NTA's numerical answers for this shift (3, 6, 73, 2, 102); worked out by us",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-28-shift-2-q72",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A volume of x mL of 5 M NaHCO<sub>3</sub> solution was mixed with 10 mL of 2 M H<sub>2</sub>CO<sub>3</sub> solution to make an electrolytic buffer. If the same buffer was used in the following electrochemical cell to record a cell potential of 235.3 mV, then the value of x = ____ mL (nearest integer). Pt | HSnO<sub>2</sub><sup>−</sup>(0.05 M), Sn(OH)<sub>6</sub><sup>2−</sup>(0.5 M) | OH<sup>−</sup> | Bi<sub>2</sub>O<sub>3</sub>(s) | Bi(s). Consider up to one place of decimal for intermediate calculations. Given : E°<sub>Sn(OH)<sub>6</sub><sup>2−</sup>/HSnO<sub>2</sub><sup>−</sup></sub> = −0.9 V; E°<sub>Bi<sub>2</sub>O<sub>3</sub>/Bi</sub> = −0.44 V; pK<sub>a</sub>(H<sub>2</sub>CO<sub>3</sub>) = 6.11; 2.303RT/F = 0.059 V; Antilog(1.29) = 19.5"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 78,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Equilibrium (buffers)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-28-shift-2 Q72",
+    "session": "28 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (2, 4, 78, 5, 6); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "The copy's cell notation and E° labels are garbled; the half-cells are written here as the data intend (anode HSnO<sub>2</sub><sup>−</sup> → Sn(OH)<sub>6</sub><sup>2−</sup>, cathode Bi<sub>2</sub>O<sub>3</sub> → Bi)."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-28-shift-2-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For strong electrolyte Λ<sub>m</sub> increases slowly with dilution and can be represented by the equation Λ<sub>m</sub> = Λ°<sub>m</sub> − Ac<sup>1/2</sup>. Molar conductivity values of the solutions of strong electrolyte AB at 18°C are given below : c (mol L<sup>−1</sup>): 0.04, 0.09, 0.16, 0.25; Λ<sub>m</sub> (S cm<sup>2</sup> mol<sup>−1</sup>): 96.1, 95.7, 95.3, 94.9. The value of constant A based on the above data in S cm<sup>2</sup> mol<sup>−1</sup>/(mol/L)<sup>1/2</sup> unit is ____."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 4,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-28-shift-2 Q75",
+    "session": "28 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (2, 4, 78, 5, 6); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
   }
  ]
 }

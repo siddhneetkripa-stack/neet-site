@@ -2851,6 +2851,107 @@
     "keyCheck": "Matches one of NTA's numerical answers for this shift (3, 6, 73, 2, 102); worked out by us",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem12-08-jee-2026-2026-01-28-shift-1-q57",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are the four isomeric compounds: P = 1-phenylprop-2-en-1-ol, C<sub>6</sub>H<sub>5</sub>CH(OH)CH=CH<sub>2</sub>; Q = 3-phenylpropanal, C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>CH<sub>2</sub>CHO; R = 1-phenylpropan-2-one, C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>COCH<sub>3</sub>; S = 1-phenylpropan-1-one, C<sub>6</sub>H<sub>5</sub>COCH<sub>2</sub>CH<sub>3</sub> [drawn in the paper].<br>Identify correct statements from below.<br>A. Q, R and S will give precipitate with 2,4-DNP.<br>B. P and Q will give positive Bayer's test.<br>C. Q and R will give sooty flame.<br>D. R and S will give yellow precipitate with I<sub>2</sub>/NaOH.<br>E. Q alone will deposit silver with Tollen's reagent<br>Choose the correct option.",
+     "o": [
+      "C and E only",
+      "A, C and E only",
+      "A, B, D and E only",
+      "A and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.4"
+    ],
+    "otherChapters": [
+     "Class 11 · Organic Chemistry: Some Basic Principles (detection)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-28-shift-1 Q57",
+    "session": "28 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Diagram question: structures named here; needs redrawn figures. S is an ethyl ketone, so D is false."
+   }
+  },
+  {
+   "id": "chem12-08-jee-2026-2026-01-28-shift-2-q69",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct order of acidic strength of the major products formed in the given reactions is:<br>A. PhNH<sub>2</sub> —(1) NaNO<sub>2</sub> + HCl (&lt;5°C) (2) CuCN (3) H<sub>3</sub>O<sup>+</sup>/Δ→ [A]<br>B. CH<sub>3</sub>CH<sub>2</sub>CHO —[Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>, OH<sup>−</sup>→ [B] (acidified)<br>C. CH<sub>4</sub> + O<sub>2</sub> —(i) Mo<sub>2</sub>O<sub>3</sub>, Δ (ii) Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>/H<sup>+</sup>→ [C]<br>D. PhCH<sub>2</sub>MgBr + CO<sub>2</sub> —dry ether; H<sub>3</sub>O<sup>+</sup>→ [D]",
+     "o": [
+      "A &gt; D &gt; B &gt; C",
+      "C &gt; A &gt; D &gt; B",
+      "C &gt; B &gt; A &gt; D",
+      "A &gt; D &gt; C &gt; B"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.9.1"
+    ],
+    "otherChapters": [
+     "Class 12 · Amines",
+     "Class 11 · Hydrocarbons"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-28-shift-2 Q69",
+    "session": "28 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Reworded from the original paper to remove an ambiguity: “(acidified)” added after [B], so all four products are compared as the free carboxylic acids."
+   }
   }
  ]
 }
