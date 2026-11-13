@@ -1,0 +1,906 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-16",
+ "subject": "biology",
+ "class": 11,
+ "unit": 16,
+ "title": {
+  "en": "Excretory Products and their Elimination"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo116.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "16.1",
+   "title": "Human Excretory System",
+   "hi": "मानव उत्सर्जन तंत्र",
+   "pdfPage": 2
+  },
+  {
+   "id": "16.2",
+   "title": "Urine Formation",
+   "hi": "मूत्र निर्माण",
+   "pdfPage": 4
+  },
+  {
+   "id": "16.3",
+   "title": "Function of the Tubules",
+   "hi": "वृक्क नलिका के विभिन्न भागों के कार्य",
+   "pdfPage": 5
+  },
+  {
+   "id": "16.4",
+   "title": "Mechanism of Concentration of the Filtrate",
+   "hi": "निस्यंद (छनित) को सांद्रण करने की क्रियाविधि",
+   "pdfPage": 6
+  },
+  {
+   "id": "16.5",
+   "title": "Regulation of Kidney Function",
+   "hi": "वृक्क क्रियाओं का नियमन",
+   "pdfPage": 8
+  },
+  {
+   "id": "16.6",
+   "title": "Micturition",
+   "hi": "मूत्रण",
+   "pdfPage": 8
+  },
+  {
+   "id": "16.7",
+   "title": "Role of Other Organs in Excretion",
+   "hi": "उत्सर्जन में अन्य अंगों की भूमिका",
+   "pdfPage": 9
+  },
+  {
+   "id": "16.8",
+   "title": "Disorders of the Excretory System",
+   "hi": "वृक्क-विकृतियाँ",
+   "pdfPage": 9
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-16-neet-2015-re-exam-code-d-q64",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Human urine is usually acidic because",
+     "o": [
+      "Excreted plasma proteins are acidic",
+      "Potassium and sodium exchange generates acidity",
+      "Hydrogen ions are actively secreted into the filtrate",
+      "The sodium transporter exchanges one hydrogen ion for each sodium ion, in peritubular capillaries."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q64",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-16-neet-2016-phase-1-code-a-q167",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In mammals, which blood vessel would normally carry largest amount of urea?",
+     "o": [
+      "Renal vein",
+      "Dorsal aorta",
+      "Hepatic vein",
+      "Hepatic portal vein"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q167",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)",
+    "note": "Reasoning from NCERT: urea is made in the liver and leaves it by the hepatic vein."
+   }
+  },
+  {
+   "id": "bio11-16-neet-2016-phase-2-code-aa-q158",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The part of nephron involved in active reabsorption of sodium is",
+     "o": [
+      "Distal convoluted tubule",
+      "Proximal convoluted tubule",
+      "Bowman's capsule",
+      "Descending limb of Henle's loop"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q158",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-16-neet-2017-code-a-q154",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A decrease in blood pressure/volume will not cause the release of :",
+     "o": [
+      "Renin",
+      "Atrial Natriuretic Factor",
+      "Aldosterone",
+      "ADH"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q154",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-16-neet-2017-code-a-q157",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is correct?",
+     "o": [
+      "The ascending limb of loop of Henle is impermeable to water",
+      "The descending limb of loop of Henle is impermeable to water",
+      "The ascending limb of loop of Henle is permeable to water",
+      "The descending limb of loop of Henle is permeable to electrolytes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q157",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-16-neet-2018-code-aa-q163",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the items given in Column I with those in Column II and select the correct option given below :<br>(a) Glycosuria — (i) Accumulation of uric acid in joints<br>(b) Gout — (ii) Mass of crystallised salts within the kidney<br>(c) Renal calculi — (iii) Inflammation in glomeruli<br>(d) Glomerular nephritis — (iv) Presence of glucose in urine",
+     "o": [
+      "(a) ii, (b) iii, (c) i, (d) iv",
+      "(a) i, (b) ii, (c) iii, (d) iv",
+      "(a) iii, (b) ii, (c) iv, (d) i",
+      "(a) iv, (b) i, (c) ii, (d) iii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q163",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-16-neet-2018-code-aa-q164",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the items given in Column I with those in Column II and select the correct option given below :<br>Column I (Function) — Column II (Part of Excretory System)<br>(a) Ultrafiltration — (i) Henle's loop<br>(b) Concentration of urine — (ii) Ureter<br>(c) Transport of urine — (iii) Urinary bladder<br>(d) Storage of urine — (iv) Malpighian corpuscle<br>(v) Proximal convoluted tubule",
+     "o": [
+      "(a) v, (b) iv, (c) i, (d) ii",
+      "(a) iv, (b) i, (c) ii, (d) iii",
+      "(a) iv, (b) v, (c) ii, (d) iii",
+      "(a) v, (b) iv, (c) i, (d) iii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.1",
+     "16.2",
+     "16.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q164",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-16-neet-2019-code-s2-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following factors is responsible for the formation of concentrated urine ?",
+     "o": [
+      "Secretion of erythropoietin by juxtaglomerular complex",
+      "Hydrostatic pressure during glomerular filtration",
+      "Low levels of antidiuretic hormone",
+      "Maintaining hyperosmolarity towards inner medullary interstitium in the kidneys"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q42",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-16-neet-2019-code-s2-q58",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Use of an artificial kidney during hemodialysis may result in :<br>(a) Nitrogenous waste build-up in the body<br>(b) Non-elimination of excess potassium ions<br>(c) Reduced absorption of calcium ions from gastro-intestinal tract<br>(d) Reduced RBC production<br>Which of the following options is the most appropriate?",
+     "o": [
+      "(c) and (d) are correct",
+      "(a) and (d) are correct",
+      "(a) and (b) are correct",
+      "(b) and (c) are correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q58",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)",
+    "note": "NCERT describes haemodialysis but not these side effects (kidney makes calcitriol and erythropoietin)."
+   }
+  },
+  {
+   "id": "bio11-16-neet-2020-code-f3-q137",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following would help in prevention of diuresis?",
+     "o": [
+      "Atrial natriuretic factor causes vasoconstriction",
+      "Decrease in secretion of renin by JG cells",
+      "More water reabsorption due to undersecretion of ADH",
+      "Reabsorption of Na<sup>+</sup> and water from renal tubules due to aldosterone"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q137",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-16-neet-2022-code-t2-q151",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Nitrogenous waste is excreted in the form of pellet or paste by :",
+     "o": [
+      "Salamandra",
+      "Hippocampus",
+      "Pavo",
+      "Ornithorhynchus"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q151",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "NCERT (chapter intro) names birds as uricotelic; Pavo is not named."
+   }
+  },
+  {
+   "id": "bio11-16-neet-2023-topic-wise-copy-q62",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R :<br>Assertion A: Nephrons are of two types: cortical and juxtamedullary, based on their relative position in cortex and medulla.<br>Reason R: Juxtamedullary nephrons have short loop of Henle whereas cortical nephrons have longer loop of Henle.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "A is false but R is true.",
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is NOT the correct explanation of A.",
+      "A is true but R is false."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q62",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-16-neet-2023-topic-wise-copy-q94",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct?<br>A. An excessive loss of body fluid from the body switches off osmoreceptors.<br>B. ADH facilitates water reabsorption to prevent diuresis.<br>C. ANF causes vasodilation.<br>D. ADH causes increase in blood pressure.<br>E. ADH is responsible for decrease in GFR.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "C, D and E only",
+      "A and B only",
+      "B, C and D only",
+      "A, B and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q94",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-16-neet-2024-q132-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: In the nephron, the descending limb of loop of Henle is impermeable to water and permeable to electrolytes.<br>Statement II: The proximal convoluted tubule is lined by simple columnar brush border epithelium and increases the surface area for reabsorption.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are true",
+      "Both Statement I and Statement II are false",
+      "Statement I is true but Statement II is false",
+      "Statement I is false but Statement II is true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.3"
+    ],
+    "otherChapters": [
+     "Old NCERT 11 Ch 7 · Animal tissues"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q132 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-16-neet-2024-q190-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Choose the correct statement given below regarding juxta medullary nephron.",
+     "o": [
+      "Renal corpuscle of juxta medullary nephron lies in the outer portion of the medulla.",
+      "Loop of Henle of juxta medullary nephron runs deep into medulla.",
+      "Juxta medullary nephrons outnumber the cortical nephrons.",
+      "Juxta medullary nephrons are located in the columns of Bertini."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q190 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-16-neet-2025-code-45-q125",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following diagrams is correct with regard to the proximal (P) and distal (D) tubule of the nephron?",
+     "o": [
+      "[diagram 1]",
+      "[diagram 2]",
+      "[diagram 3]",
+      "[diagram 4]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q125",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)",
+    "note": "Options are nephron diagrams in the paper; needs redrawn figures."
+   }
+  },
+  {
+   "id": "bio11-16-neet-2026-q163-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Arrange the following events occurring in Renin-Angiotensin mechanism in the correct order :<br>A. Increase in blood pressure and Glomerular filtration rate.<br>B. Reabsorption of Na<sup>+</sup> and water from distal parts of tubule due to Aldosterone.<br>C. Fall in Glomerular filtration rate.<br>D. Vasoconstriction by Angiotensin II and release of Aldosterone.<br>E. Renin converts Angiotensinogen into Angiotensin I, followed by Angiotensin II.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, C, E, B, D",
+      "C, A, B, D, E",
+      "A, D, B, E, C",
+      "C, E, D, B, A t NEET 2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q163 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q143."
+   }
+  },
+  {
+   "id": "bio11-16-neet-2026-q176-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The JGA (Juxta Glomerular Apparatus) is a special sensitive region formed by cellular modifications in ___ related to the same nephron.",
+     "o": [
+      "Proximal convoluted tubule and efferent renal arteriole",
+      "Distal convoluted tubule and efferent renal arteriole",
+      "Distal convoluted tubule and afferent renal arteriole",
+      "Proximal convoluted tubule and afferent renal arteriole"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q176 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q156."
+   }
+  }
+ ]
+}
