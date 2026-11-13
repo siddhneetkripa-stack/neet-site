@@ -343,3 +343,15 @@ main.wide { max-width: none; padding: 16px 0 0; }
 .back-home { display: inline-flex; align-items: center; padding: 5px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--accent); font-size: .88rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
 .back-home:hover { border-color: var(--accent); background: var(--accent-soft); }
 @media (max-width: 520px) { .topbar { gap: 8px; padding: 10px 12px; } .brand { font-size: 1rem; } .back-home { padding: 4px 10px; font-size: .82rem; } }
+
+/* recent-trend markers + revise list (PYQ pages) */
+.trends { margin: -4px 0 8px; }
+.trend { display: inline-block; font-size: .8rem; color: var(--muted); background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; }
+.trend.small { font-size: .72rem; padding: 1px 7px; }
+.recent { display: inline-block; margin-left: 6px; font-size: .72rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; color: #fff; background: #c2410c; border-radius: 999px; padding: 2px 8px; }
+.secnav a em.dot { font-style: normal; color: #c2410c; margin-left: 4px; font-size: .7rem; }
+.revise { margin: 12px 0 4px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; }
+.revise summary { cursor: pointer; font-weight: 700; }
+.revise ul { margin: 8px 0; padding-left: 18px; }
+.revise li { margin: 4px 0; }
+.revise small .no { color: #b91c1c; }

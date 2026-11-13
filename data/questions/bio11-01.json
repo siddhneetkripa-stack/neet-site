@@ -534,5 +534,48 @@
     "note": "Code 13 booklet Q126."
    }
   }
- ]
+ ],
+ "paraTrends": {
+  "1.1": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2026,
+    2019,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "1.2": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2022,
+    2016
+   ],
+   "last": 2022,
+   "recent": false
+  },
+  "1.2.4": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2017
+   ],
+   "last": 2017,
+   "recent": false
+  },
+  "1.2.3": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2021
+   ],
+   "last": 2021,
+   "recent": false
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3
 }

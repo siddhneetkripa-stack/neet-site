@@ -94,6 +94,10 @@ Source of truth for building this site. Every Claude / AI session working on nee
   - Hindi proofreading of the 80 Unit 1 PYQs (status `draft` → `proofread`); the Phase 0 gate ("works in Hindi and English on phone and PC") is met technically with draft Hindi.
   - Move the Reader / PYQ pages to read the bank files (Phase 1), then retire `tools/convert_questions.py`.
   - Content pipeline (two-model check, Hindi review queue).
+- Phase 0, session 6 (13 Nov 2026), branch `claude/bio-trends-solutions` (from `claude/phy-bio-pyq-tagging`; not merged to `main`). Biology work only; Physics continues on `claude/phy-bio-pyq-tagging`.
+  - **Recent-trend markers** (CLAUDE.md Biology requirement 1): `tools/build.py` computes per-paragraph counts from PYQs only (`para_trends`): NEET count, JEE Main count, NEET years, last NEET year, `recent` = asked in the last 3 NEET papers (latest year found in the content, now 2026 → 2024–2026). Written to `data/pyq/<ch>.json` (`trends`) and to every bank copy `data/questions/<ch>.json` (`paraTrends`), so they update when papers are added. PYQ page: "asked NEET n× · last YYYY" under each section heading, a RECENT badge, and a dot in the section menu.
+  - **Personal weak-paragraph list** (requirement 2): "Revise these paragraphs" panel on the PYQ page, from the same `progress` store (question id → `paras`): paragraphs with wrong answers first, then not-tried ones, each linking to its section, plus "Retry only these questions" (shows only wrong/untried questions; a retry may overwrite the stored result). Works without storage. Tested at 390 px with Playwright (no console errors).
+  - Both live in the shared PYQ page code, so Chemistry/Physics pages get them too. Biology pages still need the page itself (bank → reader/PYQ page) before publishing.
 
 ## 1. Vision and positioning
 

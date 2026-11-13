@@ -318,6 +318,7 @@
   // Data: data/pyq/<chapter>.json (built from content/pyq by tools/build.py): `sections` in NCERT order,
   // the last one may be "multi" (questions that need 2+ paragraphs). Questions are MCQ (o, a) or
   // numerical (type "num", ans, tol). Content strings are our own trusted HTML, so they are inserted as HTML.
+  const retryOnly = {}; // chapter id -> true while "Retry only these questions" is on (not stored)
   function renderPYQ(chId) {
     document.body.dataset.subject = subjectOf(chId);
     const load = catalog ? Promise.resolve(catalog) : getJSON('data/catalog.json').then(c => (catalog = c));
@@ -349,6 +350,28 @@
           </div>
           <div class="reveal ncert" hidden><h4>Where NCERT says it</h4>${excerpts(q)}</div>
         </article>`;
+      // Recent-trend markers (built by tools/build.py from the PYQs' exam/year) and the personal revise list.
+      const T = P.trends || {};
+      const trend = (id, small) => { const t = T[id]; if (!t) return '';
+        const asked = [t.neet ? `NEET ${t.neet}×` : '', t.jee ? `JEE Main ${t.jee}×` : ''].filter(Boolean).join(' · ');
+        return `<span class="trend${small ? ' small' : ''}" title="${t.years.length ? 'NEET years: ' + t.years.join(', ') : ''}">${small ? '' : 'asked '}${asked}${t.last ? ` · last ${t.last}` : ''}</span>${t.recent ? `<span class="recent" title="Asked in NEET ${P.latestNeet - P.recentYears + 1}–${P.latestNeet}">recent</span>` : ''}`; };
+      const ownSec = new Set(P.sections.map(s => s.sec));
+      const anchor = id => ownSec.has(id) ? 's-' + id : 's-multi';
+      const paraOrder = (P.paragraphs || []).map(p => p.id);
+      const reviseList = () => {
+        const per = {};
+        all.forEach(q => (q.paras || []).forEach(id => { const r = per[id] || (per[id] = { wrong: 0, open: 0, total: 0 }); r.total++;
+          if (progress[q.id] === false) r.wrong++; else if (progress[q.id] === undefined) r.open++; }));
+        return paraOrder.filter(id => per[id] && (per[id].wrong || per[id].open)).map(id => ({ id, ...per[id] }))
+          .sort((a, b) => (b.wrong > 0) - (a.wrong > 0) || paraOrder.indexOf(a.id) - paraOrder.indexOf(b.id));
+      };
+      const reviseHTML = () => {
+        const L = reviseList(), tried = all.some(q => progress[q.id] !== undefined);
+        if (!tried) return `<p class="muted">Answer a few questions and this list shows the paragraphs to revise: first those where you went wrong, then those not tried yet.</p>`;
+        if (!L.length) return `<p class="muted">Nothing to revise: every question of this chapter is answered correctly.</p>`;
+        return `<ul>${L.map(r => `<li><a href="#/pyq/${chId}" data-jump="${anchor(r.id)}">§${esc(r.id.replace(/[a-d]$/, ''))} ${esc(paraTitle[r.id] || '')}</a> <small>${[r.wrong ? `<b class="no">${r.wrong} wrong</b>` : '', r.open ? `${r.open} not tried` : ''].filter(Boolean).join(' · ')} of ${r.total}</small> ${trend(r.id, true)}</li>`).join('')}</ul>
+          <button class="btn" id="retrybtn">${retryOnly[chId] ? 'Show all questions' : 'Retry only these questions'}</button>`;
+      };
       let n = 0;
       const exams = Object.entries(P.counts || {}).filter(([, c]) => c);
       app.innerHTML = topbar({ id: chId }, 'pyq') + `<main class="pyq-page">
@@ -358,9 +381,10 @@
           <div class="pyq-tools"><span class="stat" id="pyqstat">${stat()}</span>
             <span class="filters"><label>Exam <select id="examsel"><option value="">Both</option>${exams.map(([e]) => `<option>${esc(e)}</option>`).join('')}</select></label>
             <label>Year <select id="yearsel"><option value="">All years</option>${years.map(y => `<option>${y}</option>`).join('')}</select></label></span></div>
-          <nav class="secnav">${P.sections.map(s => `<a href="#/pyq/${chId}" data-jump="s-${s.sec}" class="${s.sec === 'multi' ? 'multi' : ''}">${s.sec === 'multi' ? '<b>✱</b>' : `<b>§${s.sec.replace(/[a-d]$/, '')}</b>`} ${esc(s.title)} <i>${s.questions.length}</i></a>`).join('')}</nav>
+          <nav class="secnav">${P.sections.map(s => `<a href="#/pyq/${chId}" data-jump="s-${s.sec}" class="${s.sec === 'multi' ? 'multi' : ''}">${s.sec === 'multi' ? '<b>✱</b>' : `<b>§${s.sec.replace(/[a-d]$/, '')}</b>`} ${esc(s.title)} <i>${s.questions.length}</i>${(T[s.sec] || {}).recent ? '<em class="dot" title="asked recently">●</em>' : ''}</a>`).join('')}</nav>
+          <details class="revise" id="revise"${all.some(q => progress[q.id] !== undefined) ? ' open' : ''}><summary>Revise these paragraphs</summary><div id="revisebody">${reviseHTML()}</div></details>
         </section>
-        ${P.sections.map(s => `<section class="pyq-sec${s.sec === 'multi' ? ' multi' : ''}" id="s-${s.sec}"><h2>${s.sec === 'multi' ? '<span>✱</span>' : `<span>§${s.sec.replace(/[a-d]$/, '')}</span>`} ${esc(s.title)}</h2>
+        ${P.sections.map(s => `<section class="pyq-sec${s.sec === 'multi' ? ' multi' : ''}" id="s-${s.sec}"><h2>${s.sec === 'multi' ? '<span>✱</span>' : `<span>§${s.sec.replace(/[a-d]$/, '')}</span>`} ${esc(s.title)}</h2>${s.sec === 'multi' ? '' : `<p class="trends">${trend(s.sec)}</p>`}
           ${s.sec === 'multi' ? `<p class="sec-ref">${esc(P.multiRule || '')}</p>` : `<p class="sec-ref">NCERT ${pages(s.pages)} · <a href="${pdf(s.pages[0])}" target="_blank" rel="noopener">read in NCERT ↗</a></p>`}
           ${s.questions.map(q => card(q, ++n, s.sec === 'multi')).join('')}</section>`).join('')}
         ${(P.empty || []).length ? `<section class="pyq-sec empty-paras"><h2>Not asked yet</h2><p class="sec-ref">No NEET or JEE Main question in these years tests these paragraphs on its own. Read them in NCERT; they can still be asked.</p>
@@ -371,20 +395,31 @@
       app.querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); const t = document.getElementById(a.dataset.jump); if (t) t.scrollIntoView({ behavior: 'smooth' }); }));
       const filter = () => {
         const y = app.querySelector('#yearsel').value, ex = app.querySelector('#examsel').value;
-        app.querySelectorAll('.pyq').forEach(c => { c.hidden = (!!y && c.dataset.year !== y) || (!!ex && c.dataset.exam !== ex); });
+        const keep = retryOnly[chId] ? new Set(all.filter(q => progress[q.id] !== true).map(q => q.id)) : null;
+        app.querySelectorAll('.pyq').forEach(c => { c.hidden = (!!y && c.dataset.year !== y) || (!!ex && c.dataset.exam !== ex) || (!!keep && !keep.has(c.id)); });
         app.querySelectorAll('.pyq-sec:not(.empty-paras)').forEach(s => { s.hidden = ![...s.querySelectorAll('.pyq')].some(c => !c.hidden); });
       };
+      const bindRevise = () => {
+        const b = app.querySelector('#revisebody');
+        b.querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); const t = document.getElementById(a.dataset.jump); if (t) t.scrollIntoView({ behavior: 'smooth' }); }));
+        const r = b.querySelector('#retrybtn');
+        if (r) r.addEventListener('click', () => { retryOnly[chId] = !retryOnly[chId]; renderPYQ(chId); });
+      };
+      const refreshRevise = () => { app.querySelector('#revisebody').innerHTML = reviseHTML(); app.querySelector('#revise').open = true; bindRevise(); };
+      bindRevise();
+      if (retryOnly[chId]) filter();
       app.querySelector('#yearsel').addEventListener('change', filter);
       app.querySelector('#examsel').addEventListener('change', filter);
       app.querySelectorAll('.pyq').forEach(c => {
         const q = all.find(x => x.id === c.id);
         const open = sel => { c.querySelector(sel).hidden = false; };
         const record = ok => {
-          if (progress[q.id] === undefined) { progress[q.id] = ok; saveProgress(); }
+          if (progress[q.id] === undefined || retryOnly[chId]) { progress[q.id] = ok; saveProgress(); }
           c.querySelector('.state').outerHTML = stateLabel(ok);
           c.querySelector('.ans-line').insertAdjacentHTML('afterbegin', `<span class="verdict ${ok ? 'ok' : 'no'}">${ok ? 'Correct.' : 'Not quite.'}</span> `);
           open('.answer'); open('.ncert');
           app.querySelector('#pyqstat').textContent = stat();
+          refreshRevise();
         };
         c.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => {
           const k = +b.dataset.k;
