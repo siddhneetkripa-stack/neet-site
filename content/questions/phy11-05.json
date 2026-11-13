@@ -1,0 +1,1312 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-05",
+ "subject": "physics",
+ "class": 11,
+ "unit": 5,
+ "title": {
+  "en": "Work, Energy and Power"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph105.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "5.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "5.1.1",
+   "title": "The Scalar Product",
+   "pdfPage": 1
+  },
+  {
+   "id": "5.2",
+   "title": "Notions of Work and Kinetic Energy: The Work-Energy Theorem",
+   "hi": "कार्य और गतिज उर्जा की धारणा",
+   "pdfPage": 3
+  },
+  {
+   "id": "5.3",
+   "title": "Work",
+   "hi": "कार्य",
+   "pdfPage": 3
+  },
+  {
+   "id": "5.4",
+   "title": "Kinetic Energy",
+   "hi": "गतिज उर्जा",
+   "pdfPage": 4
+  },
+  {
+   "id": "5.5",
+   "title": "Work Done by a Variable Force",
+   "hi": "परिवर्ती बल द्वारा किया गया कार्य",
+   "pdfPage": 5
+  },
+  {
+   "id": "5.6",
+   "title": "The Work-Energy Theorem for a Variable Force",
+   "hi": "परिवर्ती बल के लिए कार्य-उर्जा प्रमेय",
+   "pdfPage": 6
+  },
+  {
+   "id": "5.7",
+   "title": "The Concept of Potential Energy",
+   "hi": "स्थितिज उर्जा की अभिधारणा",
+   "pdfPage": 7
+  },
+  {
+   "id": "5.8",
+   "title": "The Conservation of Mechanical Energy",
+   "hi": "यांत्रिक उर्जा का संरक्षण",
+   "pdfPage": 8
+  },
+  {
+   "id": "5.9",
+   "title": "The Potential Energy of a Spring",
+   "hi": "किसी स्प्रिंग की स्थितिज उर्जा",
+   "pdfPage": 10
+  },
+  {
+   "id": "5.10",
+   "title": "Power",
+   "pdfPage": 13
+  },
+  {
+   "id": "5.11",
+   "title": "Collisions",
+   "pdfPage": 13
+  },
+  {
+   "id": "5.11.1",
+   "title": "Elastic and Inelastic Collisions",
+   "pdfPage": 14
+  },
+  {
+   "id": "5.11.2",
+   "title": "Collisions in One Dimension",
+   "pdfPage": 14
+  },
+  {
+   "id": "5.11.3",
+   "title": "Collisions in Two Dimensions",
+   "pdfPage": 15
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-05-neet-2015-re-exam-code-d-q150",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "On a frictionless surface, a block of mass M moving at speed v collides elastically with another block of same mass M which is initially at rest. After collision the first block moves at an angle θ to its initial direction and has a speed v/3. The second block's speed after the collision is :",
+     "o": [
+      "(3/4)v",
+      "(3/√2)v",
+      "(√3/2)v",
+      "(2√2/3)v"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.11.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q150",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2015-re-exam-code-d-q152",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A ball is thrown vertically downwards from a height of 20 m with an initial velocity v<sub>0</sub>. It collides with the ground, loses 50 percent of its energy in collision and rebounds to the same height. The initial velocity v<sub>0</sub> is : (Take g = 10 m s<sup>−2</sup>)",
+     "o": [
+      "20 m s<sup>−1</sup>",
+      "28 m s<sup>−1</sup>",
+      "10 m s<sup>−1</sup>",
+      "14 m s<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q152",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2015-re-exam-code-d-q179",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If vectors A⃗ = cos ωt î + sin ωt ĵ and B⃗ = cos(ωt/2) î + sin(ωt/2) ĵ are functions of time, then the value of t at which they are orthogonal to each other is :",
+     "o": [
+      "t = π/(2ω)",
+      "t = π/ω",
+      "t = 0",
+      "t = π/(4ω)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q179",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 2",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2016-phase-1-code-a-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the minimum velocity with which a body of mass m must enter a vertical loop of radius R so that it can complete the loop?",
+     "o": [
+      "√(gR)",
+      "√(2gR)",
+      "√(3gR)",
+      "√(5gR)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q28",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2016-phase-1-code-a-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A body of mass 1 kg begins to move under the action of a time dependent force F⃗ = (2t î + 3t<sup>2</sup> ĵ) N, where î and ĵ are unit vectors along x and y axis. What power will be developed by the force at the time t?",
+     "o": [
+      "(2t<sup>2</sup> + 3t<sup>3</sup>) W",
+      "(2t<sup>2</sup> + 4t<sup>4</sup>) W",
+      "(2t<sup>3</sup> + 3t<sup>4</sup>) W",
+      "(2t<sup>3</sup> + 3t<sup>5</sup>) W"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q39",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2016-phase-2-code-aa-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A bullet of mass 10 g moving horizontally with a velocity of 400 m s<sup>−1</sup> strikes a wood block of mass 2 kg which is suspended by light inextensible string of length 5 m. As a result, the centre of gravity of the block is found to rise a vertical distance of 10 cm. The speed of the bullet after it emerges out horizontally from the block will be :",
+     "o": [
+      "100 m s<sup>−1</sup>",
+      "80 m s<sup>−1</sup>",
+      "120 m s<sup>−1</sup>",
+      "160 m s<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.11.2",
+     "5.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q5",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Block speed √(2gh) ≈ 1.41 m/s; 0.01 × 400 = 0.01v + 2 × 1.41 gives v ≈ 117 ≈ 120 m/s."
+   }
+  },
+  {
+   "id": "phy11-05-neet-2016-phase-2-code-aa-q6",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two identical balls A and B having velocities of 0.5 m/s and –0.3 m/s respectively collide elastically in one dimension. The velocities of B and A after the collision respectively will be",
+     "o": [
+      "– 0.5 m/s and 0.3 m/s",
+      "0.5 m/s and – 0.3 m/s",
+      "– 0.3 m/s and 0.5 m/s",
+      "0.3 m/s and 0.5 m/s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.11.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q6",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2016-phase-2-code-aa-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle moves from a point (−2î + 5ĵ) to (4ĵ + 3k̂) when a force of (4î + 3ĵ) N is applied. How much work has been done by the force?",
+     "o": [
+      "8 J",
+      "11 J",
+      "5 J",
+      "2 J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.1.1",
+     "5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q7",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2017-code-a-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider a drop of rain water having mass 1 g falling from a height of 1 km. It hits the ground with a speed of 50 m/s. Take g constant with a value 10 m/s<sup>2</sup>. The work done by the (i) gravitational force and the (ii) resistive force of air is :",
+     "o": [
+      "(i) −10 J, (ii) −8.25 J",
+      "(i) 1.25 J, (ii) −8.25 J",
+      "(i) 100 J, (ii) 8.75 J",
+      "(i) 10 J, (ii) −8.75 J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q34",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2018-code-aa-q30",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A body initially at rest and sliding along a frictionless track from a height h (as shown in the figure) just completes a vertical circle of diameter AB = D. The height h is equal to :",
+     "o": [
+      "(7/5)D",
+      "D",
+      "(3/2)D",
+      "(5/4)D"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q30",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2018-code-aa-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A moving block having mass m, collides with another stationary block having mass 4m. The lighter block comes to rest after collision. When the initial velocity of the lighter block is v, then the value of coefficient of restitution (e) will be :",
+     "o": [
+      "0.8",
+      "0.25",
+      "0.5",
+      "0.4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.11.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q32",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)",
+    "note": "Coefficient of restitution is not defined in the rationalised NCERT; e = (relative speed of separation)/(approach) = (v/4)/v."
+   }
+  },
+  {
+   "id": "phy11-05-neet-2019-code-s2-q95",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Body A of mass 4m moving with speed u collides with another body B of mass 2m, at rest. The collision is head on and elastic in nature. After the collision the fraction of energy lost by the colliding body A is :",
+     "o": [
+      "4/9",
+      "5/9",
+      "1/9",
+      "8/9"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.11.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q95",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2019-code-s2-q105",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A force F = 20 + 10y acts on a particle in y-direction where F is in newton and y in metre. Work done by this force to move the particle from y = 0 to y = 1 m is :",
+     "o": [
+      "25 J",
+      "20 J",
+      "30 J",
+      "5 J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q105",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2019-code-s2-q111",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A mass m is attached to a thin wire and whirled in a vertical circle. The wire is most likely to break when :",
+     "o": [
+      "the mass is at the lowest point",
+      "inclined at an angle of 60° from vertical",
+      "the mass is at the highest point",
+      "the wire is horizontal"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q111",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2019-code-s2-q115",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When an object is shot from the bottom of a long smooth inclined plane kept at an angle 60° with horizontal, it can travel a distance x<sub>1</sub> along the plane. But when the inclination is decreased to 30° and the same object is shot with the same velocity, it can travel x<sub>2</sub> distance. Then x<sub>1</sub> : x<sub>2</sub> will be :",
+     "o": [
+      "1 : √3",
+      "1 : 2√3",
+      "1 : √2",
+      "√2 : 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.8"
+    ],
+    "otherChapters": [
+     "Class 11 · Motion in a Straight Line"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q115",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2021-code-p3-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle is released from height S from the surface of the Earth. At a certain height its kinetic energy is three times its potential energy. The height from the surface of earth and the speed of the particle at that instant are respectively :",
+     "o": [
+      "S/4, √(3gS/2)",
+      "S/4, 3gS/2",
+      "S/4, √(3gS)/2",
+      "S/2, √(3gS)/2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q17",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2021-code-p3-q35",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Water falls from a height of 60 m at the rate of 15 kg/s to operate a turbine. The losses due to frictional force are 10% of the input energy. How much power is generated by the turbine? (g = 10 m/s<sup>2</sup>)",
+     "o": [
+      "7.0 kW",
+      "10.2 kW",
+      "8.1 kW",
+      "12.3 kW"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q35",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2022-code-t2-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The energy that will be ideally radiated by a 100 kW transmitter in 1 hour is :",
+     "o": [
+      "36 × 10<sup>4</sup> J",
+      "36 × 10<sup>5</sup> J",
+      "1 × 10<sup>5</sup> J",
+      "36 × 10<sup>7</sup> J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q29",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-05-neet-2022-code-t2-q35",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electric lift with a maximum load of 2000 kg (lift + passengers) is moving up with a constant speed of 1.5 m s<sup>−1</sup>. The frictional force opposing the motion is 3000 N. The minimum power delivered by the motor to the lift in watts is : (g = 10 m s<sup>−2</sup>)",
+     "o": [
+      "20000",
+      "34500",
+      "23500",
+      "23000"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.10"
+    ],
+    "otherChapters": [
+     "Class 11 · Laws of Motion"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q35",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-05-neet-2023-topic-wise-copy-q6",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The potential energy of a long spring when stretched by 2 cm is U. If the spring is stretched by 8 cm, potential energy stored in it will be :",
+     "o": [
+      "16U",
+      "2U",
+      "4U",
+      "8U"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q6",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-05-neet-2023-topic-wise-copy-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A bullet from a gun is fired on a rectangular wooden block with velocity u. When bullet travels 24 cm through the block along its length horizontally, velocity of bullet becomes u/3. Then it further penetrates into the block in the same direction before coming to rest exactly at the other end of the block. The total length of the block is :",
+     "o": [
+      "30 cm",
+      "27 cm",
+      "24 cm",
+      "28 cm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q38",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-05-neet-2024-q39-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two bodies A and B of same mass undergo completely inelastic one dimensional collision. The body A moves with velocity v<sub>1</sub> while body B is at rest before collision. The velocity of the system after collision is v<sub>2</sub>. The ratio v<sub>1</sub> : v<sub>2</sub> is :",
+     "o": [
+      "1 : 2",
+      "2 : 1",
+      "4 : 1",
+      "1 : 4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.11.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q39 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-05-neet-2024-q40-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At any instant of time t, the displacement of any particle is given by 2t − 1 (SI unit) under the influence of force of 5 N. The value of instantaneous power is (in SI unit) :",
+     "o": [
+      "10",
+      "5",
+      "7",
+      "6"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.10"
+    ],
+    "otherChapters": [
+     "Class 11 · Motion in a Straight Line"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q40 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-05-neet-2025-code-45-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The kinetic energies of two similar cars A and B are 100 J and 225 J respectively. On applying brakes, car A stops after 1000 m and car B stops after 1500 m. If F<sub>A</sub> and F<sub>B</sub> are the forces applied by the brakes on cars A and B respectively, then the ratio F<sub>A</sub>/F<sub>B</sub> is :",
+     "o": [
+      "3/2",
+      "2/3",
+      "1/3",
+      "1/2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q5",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-05-neet-2025-code-45-q7",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A bob of heavy mass m is suspended by a light string of length l. The bob is given a horizontal velocity v<sub>0</sub> as shown in figure. If the string gets slack at some point P making an angle θ from the horizontal, the ratio of the speed v of the bob at point P to its initial speed v<sub>0</sub> is :",
+     "o": [
+      "(sin θ)<sup>1/2</sup>",
+      "(1/(2 + 3 sin θ))<sup>1/2</sup>",
+      "(cos θ/(2 + 3 sin θ))<sup>1/2</sup>",
+      "(sin θ/(2 + 3 sin θ))<sup>1/2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q7",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "P is on the upper half of the circle, the string OP making angle θ above the horizontal. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-05-neet-2026-code-13-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The power of a crane, which lifts a mass of 1000 kg to a height of 20 m in 10 s is : (g = 9.8 m/s<sup>2</sup>)",
+     "o": [
+      "19.6 kW",
+      "19.6 W",
+      "39.2 kW",
+      "39.2 W"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-05",
+    "paras": [
+     "5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q12",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
