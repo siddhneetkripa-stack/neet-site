@@ -26,10 +26,22 @@
       "B, C, D, E are correct.",
       "A, B, C, D are correct.",
       "A, B, C, E are correct."
-     ]
+     ],
+     "sol": "<p>Intermolecular forces: dipole–dipole, dipole–induced dipole, dispersion (London) forces and hydrogen bonding (A, B, C, E). Covalent bonding is an intramolecular force (it holds atoms within a molecule), so D is not included.</p>",
+     "hint": "Covalent bonds act inside molecules."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अंतराअणुक बल परस्पर क्रिया करने वाले कणों के बीच आकर्षण और प्रतिकर्षण के बल हैं जिनमें सम्मिलित होंगे:<br>A. द्विध्रुव-द्विध्रुव बल।<br>B. द्विध्रुव - प्रेरित द्विध्रुव बल,<br>C. हाइड्रोजन आबंधन।<br>D. सहसंयोजी आबंधन।<br>E. परिक्षेपण बल।<br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए:",
+     "o": [
+      "A, C, D, E सही हैं।",
+      "B, C, D, E सही हैं।",
+      "A, B, C, D सही हैं।",
+      "A, B, C, E सही हैं।"
+     ],
+     "sol": "<p>अंतराअणुक बल: द्विध्रुव–द्विध्रुव, द्विध्रुव–प्रेरित द्विध्रुव, परिक्षेपण (लंदन) बल और हाइड्रोजन आबंधन (A, B, C, E)। सहसंयोजी आबंधन अंतःअणुक बल है (यह अणु के भीतर परमाणुओं को बाँधता है), अतः D सम्मिलित नहीं है।</p>",
+     "hint": "सहसंयोजी आबंध अणुओं के भीतर कार्य करते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -74,10 +86,22 @@
       "P vs V hyperbolas for T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub> (as drawn)",
       "P vs 1/V straight lines through the origin, T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub> (steepest line at highest T)",
       "P vs 1/V curves for T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub> (as drawn)"
-     ]
+     ],
+     "sol": "<p>Boyle's law: PV = nRT = constant at fixed T, so P = (nRT)(1/V). A P vs 1/V plot is a straight line through the origin with slope nRT; higher T gives a steeper line (T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub>). Option (3).</p>",
+     "hint": "Slope of P vs 1/V = nRT."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित विकल्पों में से बॉयल नियम का सही आलेखीय निरूपण कौन-सा है?",
+     "o": [
+      "V<sub>1</sub> &lt; V<sub>2</sub> &lt; V<sub>3</sub> के लिए P बनाम T सरल रेखाएँ (चित्रानुसार)",
+      "T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub> के लिए P बनाम V अतिपरवलय (चित्रानुसार)",
+      "मूल बिंदु से जाने वाली P बनाम 1/V सरल रेखाएँ, T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub> (उच्चतम T पर सबसे खड़ी रेखा)",
+      "T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub> के लिए P बनाम 1/V वक्र (चित्रानुसार)"
+     ],
+     "sol": "<p>बॉयल नियम: स्थिर T पर PV = nRT = स्थिर, अतः P = (nRT)(1/V)। P बनाम 1/V आलेख मूल बिंदु से जाने वाली nRT ढाल की सरल रेखा है; अधिक T पर रेखा अधिक खड़ी होती है (T<sub>3</sub> &gt; T<sub>2</sub> &gt; T<sub>1</sub>)। विकल्प (3)।</p>",
+     "hint": "P बनाम 1/V की ढाल = nRT।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -120,10 +144,22 @@
       "P vs V hyperbolas; 200 K outermost, then 400 K, 600 K",
       "P constant with V (horizontal line) for 200 K, 400 K, 600 K",
       "P vs V straight lines through the origin, 200 K steepest"
-     ]
+     ],
+     "sol": "<p>At constant T, PV = constant: P vs V is a rectangular hyperbola. A higher temperature gives a larger PV, so its curve lies farther from the axes: 600 K outermost, then 400 K, then 200 K. Option (1).</p>",
+     "hint": "Higher T → larger PV → outer curve."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "भिन्न तापों पर किसी गैस के दाब बनाम आयतन आलेख द्वारा बॉयल नियम के आलेखीय निरूपण के लिए सही विकल्प चुनिए :",
+     "o": [
+      "P बनाम V अतिपरवलय; 600 K सबसे बाहर, फिर 400 K, 200 K",
+      "P बनाम V अतिपरवलय; 200 K सबसे बाहर, फिर 400 K, 600 K",
+      "200 K, 400 K, 600 K के लिए V के साथ P स्थिर (क्षैतिज रेखा)",
+      "मूल बिंदु से जाने वाली P बनाम V सरल रेखाएँ, 200 K सबसे खड़ी"
+     ],
+     "sol": "<p>स्थिर T पर PV = स्थिर: P बनाम V आयतीय अतिपरवलय है। अधिक ताप पर PV अधिक होता है, अतः उसका वक्र अक्षों से अधिक दूर होता है: 600 K सबसे बाहर, फिर 400 K, फिर 200 K। विकल्प (1)।</p>",
+     "hint": "अधिक T → अधिक PV → बाहरी वक्र।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -166,10 +202,22 @@
       "2.518",
       "2.602",
       "25.18"
-     ]
+     ],
+     "sol": "<p>n(O<sub>2</sub>) = 4/32 = 0.125 mol; n(H<sub>2</sub>) = 2/2 = 1 mol; total 1.125 mol.</p><p>P = nRT/V = 1.125 × 0.082 × 273/1 = <b>25.18 atm</b>.</p>",
+     "hint": "Dalton: add moles, then PV = nRT."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "0°C पर एक लीटर के कुल आयतन में बंद 4 g O<sub>2</sub> और 2 g H<sub>2</sub> के मिश्रण के कुल दाब (atm में) के लिए सही विकल्प चुनिए :<br>[दिया है R = 0.082 L atm mol<sup>−1</sup>K<sup>−1</sup>, T = 273 K]",
+     "o": [
+      "26.02",
+      "2.518",
+      "2.602",
+      "25.18"
+     ],
+     "sol": "<p>n(O<sub>2</sub>) = 4/32 = 0.125 mol; n(H<sub>2</sub>) = 2/2 = 1 mol; कुल 1.125 mol।</p><p>P = nRT/V = 1.125 × 0.082 × 273/1 = <b>25.18 atm</b>।</p>",
+     "hint": "डाल्टन: मोल जोड़ें, फिर PV = nRT।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -212,10 +260,22 @@
       "18 bar",
       "9 bar",
       "12 bar"
-     ]
+     ],
+     "sol": "<p>n(N<sub>2</sub>) = 7/28 = 0.25 mol; n(Ar) = 8/40 = 0.20 mol; x(N<sub>2</sub>) = 0.25/0.45 = 5/9.</p><p>p(N<sub>2</sub>) = 5/9 × 27 = <b>15 bar</b>.</p>",
+     "hint": "Partial pressure = mole fraction × total pressure."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक सिलिंडर में N<sub>2</sub> और Ar गैसों के मिश्रण में 7 g N<sub>2</sub> और 8 g Ar है। यदि सिलिंडर में गैसों के मिश्रण का कुल दाब 27 bar है, तो N<sub>2</sub> का आंशिक दाब है:<br>[परमाणु द्रव्यमान (g mol<sup>−1</sup> में) प्रयोग कीजिए: N = 14, Ar = 40]",
+     "o": [
+      "15 bar",
+      "18 bar",
+      "9 bar",
+      "12 bar"
+     ],
+     "sol": "<p>n(N<sub>2</sub>) = 7/28 = 0.25 mol; n(Ar) = 8/40 = 0.20 mol; x(N<sub>2</sub>) = 0.25/0.45 = 5/9।</p><p>p(N<sub>2</sub>) = 5/9 × 27 = <b>15 bar</b>।</p>",
+     "hint": "आंशिक दाब = मोल-अंश × कुल दाब।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -257,10 +317,22 @@
       "Z &lt; 1 and repulsive forces are dominant",
       "Z &gt; 1 and attractive forces are dominant",
       "Z &gt; 1 and repulsive forces are dominant"
-     ]
+     ],
+     "sol": "<p>Z = V<sub>real</sub>/V<sub>ideal</sub> = 0.8 &lt; 1. The gas is more compressible than an ideal gas, which means attractive forces dominate.</p>",
+     "hint": "Smaller volume than ideal → Z &lt; 1 → attraction."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "350 K और 15 bar पर किसी गैस का मोलर आयतन समान परिस्थितियों में आदर्श गैस की तुलना में 20 प्रतिशत कम है। गैस और उसके संपीड्यता गुणांक (Z) के बारे में सही विकल्प है:",
+     "o": [
+      "Z &lt; 1 और आकर्षण बल प्रभावी हैं",
+      "Z &lt; 1 और प्रतिकर्षण बल प्रभावी हैं",
+      "Z &gt; 1 और आकर्षण बल प्रभावी हैं",
+      "Z &gt; 1 और प्रतिकर्षण बल प्रभावी हैं"
+     ],
+     "sol": "<p>Z = V<sub>real</sub>/V<sub>ideal</sub> = 0.8 &lt; 1। गैस आदर्श गैस से अधिक संपीड्य है, अर्थात् आकर्षण बल प्रभावी हैं।</p>",
+     "hint": "आदर्श से कम आयतन → Z &lt; 1 → आकर्षण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -302,10 +374,22 @@
       "1/4",
       "3/8",
       "1/2"
-     ]
+     ],
+     "sol": "<p>Graham's law: rate ∝ 1/√M, so r(H<sub>2</sub>)/r(O<sub>2</sub>) = √(32/2) = 4. In the time half of the H<sub>2</sub> escapes, the fraction of O<sub>2</sub> escaping is (1/2)/4 = <b>1/8</b> (using initial rates, equal starting moles).</p>",
+     "hint": "O<sub>2</sub> effuses 4 times more slowly than H<sub>2</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हाइड्रोजन और ऑक्सीजन गैसों के समान मोल एक पिन-छिद्र वाले पात्र में रखे जाते हैं जिससे दोनों निकल सकती हैं। हाइड्रोजन के आधे भाग के निकलने में लगे समय में ऑक्सीजन का कितना अंश निकलता है ?",
+     "o": [
+      "1/8",
+      "1/4",
+      "3/8",
+      "1/2"
+     ],
+     "sol": "<p>ग्राहम नियम: दर ∝ 1/√M, अतः r(H<sub>2</sub>)/r(O<sub>2</sub>) = √(32/2) = 4। जितने समय में H<sub>2</sub> का आधा भाग निकलता है, उसमें O<sub>2</sub> का निकलने वाला अंश (1/2)/4 = <b>1/8</b> है (प्रारंभिक दरें, समान प्रारंभिक मोल)।</p>",
+     "hint": "O<sub>2</sub>, H<sub>2</sub> से 4 गुना धीरे निकलती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -347,10 +431,22 @@
       "low temperatures and high pressures.",
       "high temperatures and high pressures.",
       "low temperatures and low pressures."
-     ]
+     ],
+     "sol": "<p>Real gases behave ideally when molecules are far apart (low pressure) and moving fast enough that attractions do not matter (high temperature).</p>",
+     "hint": "Ideal behaviour: high T, low P."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कार्बन मोनोऑक्साइड जैसी गैस द्वारा आदर्श गैस नियम का पालन करने की सबसे अधिक संभावना होगी :",
+     "o": [
+      "उच्च ताप और निम्न दाब पर।",
+      "निम्न ताप और उच्च दाब पर।",
+      "उच्च ताप और उच्च दाब पर।",
+      "निम्न ताप और निम्न दाब पर।"
+     ],
+     "sol": "<p>वास्तविक गैसें आदर्श व्यवहार तब करती हैं जब अणु दूर-दूर हों (निम्न दाब) और इतनी तेज़ी से गति करें कि आकर्षण महत्वहीन हो जाएँ (उच्च ताप)।</p>",
+     "hint": "आदर्श व्यवहार: उच्च T, निम्न P।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -393,10 +489,22 @@
       "H<sub>2</sub>",
       "NH<sub>3</sub>",
       "CO<sub>2</sub>"
-     ]
+     ],
+     "sol": "<p>The van der Waals constant a measures intermolecular attraction; the larger a, the more easily the gas liquefies. NH<sub>3</sub> has the largest a (4.17), so it liquefies most easily.</p>",
+     "hint": "Largest a → strongest attraction."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "NH<sub>3</sub>, H<sub>2</sub>, O<sub>2</sub> और CO<sub>2</sub> के लिए वान्डरवाल्स स्थिरांक क्रमशः 4.17, 0.244, 1.36 और 3.59 दिए गए हैं, निम्नलिखित में से कौन-सी गैस सबसे आसानी से द्रवित होती है ?",
+     "o": [
+      "O<sub>2</sub>",
+      "H<sub>2</sub>",
+      "NH<sub>3</sub>",
+      "CO<sub>2</sub>"
+     ],
+     "sol": "<p>वान्डरवाल्स स्थिरांक a अंतराअणुक आकर्षण का माप है; a जितना अधिक, गैस उतनी आसानी से द्रवित होती है। NH<sub>3</sub> का a सबसे अधिक (4.17) है, अतः यह सबसे आसानी से द्रवित होती है।</p>",
+     "hint": "सबसे अधिक a → सबसे प्रबल आकर्षण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -438,10 +546,22 @@
       "volume of the gas molecules",
       "density of the gas molecules",
       "forces of attraction between the gas molecules"
-     ]
+     ],
+     "sol": "<p>In (P + an<sup>2</sup>/V<sup>2</sup>)(V − nb) = nRT, the term an<sup>2</sup>/V<sup>2</sup> corrects the pressure for the <b>attractive forces</b> between molecules; b corrects for the volume of the molecules.</p>",
+     "hint": "a → attraction; b → molecular volume."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आदर्श गैस समीकरण में संशोधन गुणांक 'a' किससे संबंधित है",
+     "o": [
+      "गैस अणुओं के बीच उपस्थित विद्युत् क्षेत्र",
+      "गैस अणुओं का आयतन",
+      "गैस अणुओं का घनत्व",
+      "गैस अणुओं के बीच आकर्षण बल"
+     ],
+     "sol": "<p>(P + an<sup>2</sup>/V<sup>2</sup>)(V − nb) = nRT में पद an<sup>2</sup>/V<sup>2</sup> अणुओं के बीच <b>आकर्षण बलों</b> के लिए दाब का संशोधन करता है; b अणुओं के आयतन का संशोधन करता है।</p>",
+     "hint": "a → आकर्षण; b → आण्विक आयतन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -483,10 +603,22 @@
       "p<sub>i</sub> = χ<sub>i</sub>p, where p<sub>i</sub> = partial pressure of i<sup>th</sup> gas, χ<sub>i</sub> = mole fraction of i<sup>th</sup> gas in gaseous mixture",
       "p<sub>i</sub> = χ<sub>i</sub>p<sub>i</sub>°, where χ<sub>i</sub> = mole fraction of i<sup>th</sup> gas in gaseous mixture, p<sub>i</sub>° = pressure of i<sup>th</sup> gas in pure state",
       "p = p<sub>1</sub> + p<sub>2</sub> + p<sub>3</sub>"
-     ]
+     ],
+     "sol": "<p>Dalton's law: p = p<sub>1</sub> + p<sub>2</sub> + p<sub>3</sub> = (n<sub>1</sub> + n<sub>2</sub> + n<sub>3</sub>)RT/V, and p<sub>i</sub> = χ<sub>i</sub>p. The expression p<sub>i</sub> = χ<sub>i</sub>p<sub>i</sub>° is Raoult's law for a liquid solution, not Dalton's law. Option (3).</p>",
+     "hint": "χ<sub>i</sub>p<sub>i</sub>° belongs to solutions (Raoult)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "डाल्टन के आंशिक दाब नियम के लिए कौन-सा सही गणितीय समीकरण <b>नहीं</b> है ? यहाँ p = गैसीय मिश्रण का कुल दाब",
+     "o": [
+      "p = n<sub>1</sub>RT/V + n<sub>2</sub>RT/V + n<sub>3</sub>RT/V",
+      "p<sub>i</sub> = χ<sub>i</sub>p, जहाँ p<sub>i</sub> = i<sup>वीं</sup> गैस का आंशिक दाब, χ<sub>i</sub> = गैसीय मिश्रण में i<sup>वीं</sup> गैस का मोल-अंश",
+      "p<sub>i</sub> = χ<sub>i</sub>p<sub>i</sub>°, जहाँ χ<sub>i</sub> = गैसीय मिश्रण में i<sup>वीं</sup> गैस का मोल-अंश, p<sub>i</sub>° = शुद्ध अवस्था में i<sup>वीं</sup> गैस का दाब",
+      "p = p<sub>1</sub> + p<sub>2</sub> + p<sub>3</sub>"
+     ],
+     "sol": "<p>डाल्टन नियम: p = p<sub>1</sub> + p<sub>2</sub> + p<sub>3</sub> = (n<sub>1</sub> + n<sub>2</sub> + n<sub>3</sub>)RT/V, और p<sub>i</sub> = χ<sub>i</sub>p। व्यंजक p<sub>i</sub> = χ<sub>i</sub>p<sub>i</sub>° द्रव विलयन के लिए राउल्ट नियम है, डाल्टन नियम नहीं। विकल्प (3)।</p>",
+     "hint": "χ<sub>i</sub>p<sub>i</sub>° विलयनों (राउल्ट) से संबंधित है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -528,10 +660,22 @@
       "49.8",
       "4.9",
       "2.5"
-     ]
+     ],
+     "sol": "<p>n = 64/32 = 2 mol; T = 300 K. P = nRT/V = 2 × 0.0831 × 300/10.0 = 4.99 bar ≈ <b>4.9 bar</b> (the closest option).</p>",
+     "hint": "Convert °C to K."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "10.0 L के फ्लास्क में 27°C पर 64 g ऑक्सीजन है। (मान लीजिए O<sub>2</sub> गैस आदर्श व्यवहार करती है।) फ्लास्क के भीतर दाब bar में है (दिया है R = 0.0831 L bar K<sup>−1</sup> mol<sup>−1</sup>)",
+     "o": [
+      "498.6",
+      "49.8",
+      "4.9",
+      "2.5"
+     ],
+     "sol": "<p>n = 64/32 = 2 mol; T = 300 K। P = nRT/V = 2 × 0.0831 × 300/10.0 = 4.99 bar ≈ <b>4.9 bar</b> (निकटतम विकल्प)।</p>",
+     "hint": "°C को K में बदलें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {

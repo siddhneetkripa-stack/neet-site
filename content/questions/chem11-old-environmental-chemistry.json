@@ -26,10 +26,22 @@
       "Both statement I and Statement II are true.",
       "Both statement I and statement II are false.",
       "Statement I is correct but statement II is false"
-     ]
+     ],
+     "sol": "<p>Statement I is incorrect: eutrophication is caused by <i>nutrient-rich</i> water (phosphates, nitrates) that feeds algal blooms. Statement II is true: the decaying algae use up dissolved oxygen.</p>",
+     "hint": "Eutrophication = excess nutrients."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं:<br>कथन I: पोषक तत्वों की कमी वाले जलाशयों में सुपोषण होता है।<br>कथन II: सुपोषण से जलाशयों में ऑक्सीजन का स्तर घटता है।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "कथन I गलत है परंतु कथन II सत्य है",
+      "कथन I और कथन II दोनों सत्य हैं।",
+      "कथन I और कथन II दोनों असत्य हैं।",
+      "कथन I सही है परंतु कथन II असत्य है"
+     ],
+     "sol": "<p>कथन I गलत है: सुपोषण <i>पोषक तत्वों से भरपूर</i> जल (फॉस्फेट, नाइट्रेट) के कारण होता है जो शैवाल प्रस्फुटन को बढ़ाता है। कथन II सत्य है: सड़ते शैवाल घुली ऑक्सीजन का उपयोग कर लेते हैं।</p>",
+     "hint": "सुपोषण = पोषक तत्वों का आधिक्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -71,10 +83,22 @@
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
-     ]
+     ],
+     "sol": "<ul><li>(a) SO<sub>2</sub> → SO<sub>3</sub> in air: tropospheric pollution (iv).</li><li>(b) HOCl photolysis → ·Cl: ozone depletion (iii).</li><li>(c) acid attacks marble (CaCO<sub>3</sub>): acid rain (i).</li><li>(d) NO<sub>2</sub> photolysis → O atoms → O<sub>3</sub>: photochemical smog (ii).</li></ul>",
+     "hint": "·Cl → ozone hole; NO<sub>2</sub> + light → smog."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची - I का सूची - II से मिलान कीजिए।<br>सूची - I: (a) 2SO<sub>2</sub>(g) + O<sub>2</sub>(g) → 2SO<sub>3</sub>(g) (b) HOCl(g) —hν→ ·OH + ·Cl (c) CaCO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub> → CaSO<sub>4</sub> + H<sub>2</sub>O + CO<sub>2</sub> (d) NO<sub>2</sub>(g) —hν→ NO(g) + O(g)<br>सूची - II: (i) अम्ल वर्षा (ii) धूम-कोहरा (iii) ओज़ोन क्षय (iv) क्षोभमंडलीय प्रदूषण<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।",
+     "o": [
+      "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+     ],
+     "sol": "<ul><li>(a) वायु में SO<sub>2</sub> → SO<sub>3</sub>: क्षोभमंडलीय प्रदूषण (iv)।</li><li>(b) HOCl का प्रकाश-अपघटन → ·Cl: ओज़ोन क्षय (iii)।</li><li>(c) अम्ल द्वारा संगमरमर (CaCO<sub>3</sub>) का संक्षारण: अम्ल वर्षा (i)।</li><li>(d) NO<sub>2</sub> का प्रकाश-अपघटन → O परमाणु → O<sub>3</sub>: प्रकाश-रासायनिक धूम-कोहरा (ii)।</li></ul>",
+     "hint": "·Cl → ओज़ोन छिद्र; NO<sub>2</sub> + प्रकाश → धूम-कोहरा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -117,10 +141,22 @@
       "sulphur dioxide",
       "nitrous oxide",
       "methane"
-     ]
+     ],
+     "sol": "<p>Greenhouse gases include CO<sub>2</sub>, CH<sub>4</sub>, N<sub>2</sub>O, O<sub>3</sub>, water vapour and CFCs. SO<sub>2</sub> is a pollutant (acid rain) but is not counted as a greenhouse gas.</p>",
+     "hint": "SO<sub>2</sub> → acid rain, not greenhouse effect."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से वह गैस जो ग्रीनहाउस गैस नहीं है :",
+     "o": [
+      "ओज़ोन",
+      "सल्फर डाइऑक्साइड",
+      "नाइट्रस ऑक्साइड",
+      "मेथेन"
+     ],
+     "sol": "<p>ग्रीनहाउस गैसों में CO<sub>2</sub>, CH<sub>4</sub>, N<sub>2</sub>O, O<sub>3</sub>, जलवाष्प और CFCs सम्मिलित हैं। SO<sub>2</sub> एक प्रदूषक (अम्ल वर्षा) है परंतु इसे ग्रीनहाउस गैस नहीं गिना जाता।</p>",
+     "hint": "SO<sub>2</sub> → अम्ल वर्षा, ग्रीनहाउस प्रभाव नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -162,10 +198,22 @@
       "Micro organisms present in the soil",
       "Oceans",
       "Plants"
-     ]
+     ],
+     "sol": "<p>Micro-organisms in the soil remove CO from the atmosphere (they act as a sink). Haemoglobin binds CO in the body but is not an environmental sink.</p>",
+     "hint": "Natural sink = soil microbes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से CO का अभिगम (सिंक) कौन-सा है?",
+     "o": [
+      "हीमोग्लोबिन",
+      "मृदा में उपस्थित सूक्ष्मजीव",
+      "महासागर",
+      "पौधे"
+     ],
+     "sol": "<p>मृदा में उपस्थित सूक्ष्मजीव वायुमंडल से CO को हटाते हैं (अभिगम के रूप में कार्य करते हैं)। हीमोग्लोबिन शरीर में CO से जुड़ता है परंतु यह पर्यावरणीय अभिगम नहीं है।</p>",
+     "hint": "प्राकृतिक अभिगम = मृदा के सूक्ष्मजीव।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -207,10 +255,22 @@
       "NO<sub>2</sub>",
       "N<sub>2</sub>O<sub>5</sub>",
       "NO"
-     ]
+     ],
+     "sol": "<p>NO, NO<sub>2</sub> and N<sub>2</sub>O enter the atmosphere from both natural sources (lightning, soil bacteria) and human activity (combustion). N<sub>2</sub>O<sub>5</sub> is not a common atmospheric pollutant of this kind.</p>",
+     "hint": "Look for the oxide that is not emitted directly."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नाइट्रोजन का कौन-सा ऑक्साइड प्राकृतिक और मानवीय दोनों गतिविधियों द्वारा वायुमंडल में आने वाला सामान्य प्रदूषक <i>नहीं</i> है ?",
+     "o": [
+      "N<sub>2</sub>O",
+      "NO<sub>2</sub>",
+      "N<sub>2</sub>O<sub>5</sub>",
+      "NO"
+     ],
+     "sol": "<p>NO, NO<sub>2</sub> और N<sub>2</sub>O प्राकृतिक स्रोतों (तड़ित, मृदा जीवाणु) और मानवीय गतिविधियों (दहन) दोनों से वायुमंडल में आते हैं। N<sub>2</sub>O<sub>5</sub> इस प्रकार का सामान्य वायुमंडलीय प्रदूषक नहीं है।</p>",
+     "hint": "वह ऑक्साइड ढूँढें जो सीधे उत्सर्जित नहीं होता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -252,10 +312,22 @@
       "(b), (c), (d) only",
       "(a), (c), (d) only",
       "(a), (d) only"
-     ]
+     ],
+     "sol": "<p>SO<sub>2</sub> is oxidised to SO<sub>3</sub> (and then H<sub>2</sub>SO<sub>4</sub>) faster in the presence of particulate matter (catalyses the oxidation), ozone and hydrogen peroxide (oxidants). Answer: (a), (b), (d).</p>",
+     "hint": "Oxidants and particles speed up SO<sub>2</sub> → SO<sub>3</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सल्फर के ऑक्साइडों के कारण प्रदूषण किसकी उपस्थिति में बढ़ जाता है:<br>(a) कणिकीय पदार्थ<br>(b) ओज़ोन<br>(c) हाइड्रोकार्बन<br>(d) हाइड्रोजन परॉक्साइड<br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए:",
+     "o": [
+      "केवल (a), (b), (d)",
+      "केवल (b), (c), (d)",
+      "केवल (a), (c), (d)",
+      "केवल (a), (d)"
+     ],
+     "sol": "<p>कणिकीय पदार्थ (ऑक्सीकरण को उत्प्रेरित करता है), ओज़ोन और हाइड्रोजन परॉक्साइड (ऑक्सीकारक) की उपस्थिति में SO<sub>2</sub> तेज़ी से SO<sub>3</sub> (और फिर H<sub>2</sub>SO<sub>4</sub>) में ऑक्सीकृत होती है। उत्तर: (a), (b), (d)।</p>",
+     "hint": "ऑक्सीकारक और कण SO<sub>2</sub> → SO<sub>3</sub> को तेज़ करते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
