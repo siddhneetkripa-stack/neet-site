@@ -1,0 +1,771 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-14",
+ "subject": "physics",
+ "class": 11,
+ "unit": 14,
+ "title": {
+  "en": "Waves"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph207.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "14.1",
+   "title": "Introduction",
+   "pdfPage": 1
+  },
+  {
+   "id": "14.2",
+   "title": "Transverse and Longitudinal Waves",
+   "pdfPage": 3
+  },
+  {
+   "id": "14.3",
+   "title": "Displacement Relation in a Progressive Wave",
+   "pdfPage": 4
+  },
+  {
+   "id": "14.3.1",
+   "title": "Amplitude and Phase",
+   "pdfPage": 5
+  },
+  {
+   "id": "14.3.2",
+   "title": "Wavelength and Angular Wave Number",
+   "pdfPage": 6
+  },
+  {
+   "id": "14.3.3",
+   "title": "Period, Angular Frequency and Frequency",
+   "pdfPage": 6
+  },
+  {
+   "id": "14.4",
+   "title": "The Speed of a Travelling Wave",
+   "pdfPage": 7
+  },
+  {
+   "id": "14.4.1",
+   "title": "Speed of a Transverse Wave on Stretched String",
+   "pdfPage": 8
+  },
+  {
+   "id": "14.4.2",
+   "title": "Speed of a Longitudinal Wave (Speed of Sound)",
+   "pdfPage": 8
+  },
+  {
+   "id": "14.5",
+   "title": "The Principle of Superposition of Waves",
+   "pdfPage": 10
+  },
+  {
+   "id": "14.6",
+   "title": "Reflection of Waves",
+   "pdfPage": 11
+  },
+  {
+   "id": "14.6.1",
+   "title": "Standing Waves and Normal Modes",
+   "pdfPage": 12
+  },
+  {
+   "id": "14.7",
+   "title": "Beats",
+   "pdfPage": 16
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-14-neet-2015-re-exam-code-d-q149",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A source of sound S emitting waves of frequency 100 Hz and an observer O are located at some distance from each other. The source is moving with a speed of 19.4 m s<sup>−1</sup> at an angle of 60° with the source-observer line as shown in the figure. The observer is at rest. The apparent frequency observed by the observer (velocity of sound in air 330 m s<sup>−1</sup>) is :",
+     "o": [
+      "103 Hz",
+      "106 Hz",
+      "97 Hz",
+      "100 Hz"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 15 · Doppler effect"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q149",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2015-re-exam-code-d-q168",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A string is stretched between fixed points separated by 75.0 cm. It is observed to have resonant frequencies of 420 Hz and 315 Hz. There are no other resonant frequencies between these two. The lowest resonant frequency for this string is :",
+     "o": [
+      "205 Hz",
+      "10.5 Hz",
+      "105 Hz",
+      "155 Hz"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q168",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2016-phase-1-code-a-q4",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A siren emitting a sound of frequency 800 Hz moves away from an observer towards a cliff at a speed of 15 m s<sup>−1</sup>. Then, the frequency of sound that the observer hears in the echo reflected from the cliff is : (Take velocity of sound in air = 330 m s<sup>−1</sup>)",
+     "o": [
+      "765 Hz",
+      "800 Hz",
+      "838 Hz",
+      "885 Hz"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 15 · Doppler effect"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q4",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2016-phase-1-code-a-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A uniform rope of length L and mass m<sub>1</sub> hangs vertically from a rigid support. A block of mass m<sub>2</sub> is attached to the free end of the rope. A transverse pulse of wavelength λ<sub>1</sub> is produced at the lower end of the rope. The wavelength of the pulse when it reaches the top of the rope is λ<sub>2</sub>. The ratio λ<sub>2</sub>/λ<sub>1</sub> is :",
+     "o": [
+      "√(m<sub>1</sub>/m<sub>2</sub>)",
+      "√((m<sub>1</sub> + m<sub>2</sub>)/m<sub>2</sub>)",
+      "√(m<sub>2</sub>/m<sub>1</sub>)",
+      "√((m<sub>1</sub> + m<sub>2</sub>)/m<sub>1</sub>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q10",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2016-phase-1-code-a-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An air column, closed at one end and open at the other, resonates with a tuning fork when the smallest length of the column is 50 cm. The next larger length of the column resonating with the same tuning fork is:",
+     "o": [
+      "66.7 cm",
+      "100 cm",
+      "150 cm",
+      "200 cm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q12",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2016-phase-2-code-aa-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The second overtone of an open organ pipe has the same frequency as the first overtone of a closed pipe L metre long. The length of the open pipe will be :",
+     "o": [
+      "L",
+      "2L",
+      "L/2",
+      "4L"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q21",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2016-phase-2-code-aa-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Three sound waves of equal amplitudes have frequencies (n − 1), n, (n + 1). They superimpose to give beats. The number of beats produced per second will be :",
+     "o": [
+      "1",
+      "4",
+      "3",
+      "2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q22",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2017-code-a-q20",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two cars moving in opposite directions approach each other with speed of 22 m/s and 16.5 m/s respectively. The driver of the first car blows a horn having a frequency 400 Hz. The frequency heard by the driver of the second car is [velocity of sound 340 m/s]",
+     "o": [
+      "350 Hz",
+      "361 Hz",
+      "411 Hz",
+      "448 Hz"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 15 · Doppler effect"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q20",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2017-code-a-q43",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The two nearest harmonics of a tube closed at one end and open at other end are 220 Hz and 260 Hz. What is the fundamental frequency of the system?",
+     "o": [
+      "10 Hz",
+      "20 Hz",
+      "30 Hz",
+      "40 Hz"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q43",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2018-code-aa-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The fundamental frequency in an open organ pipe is equal to the third harmonic of a closed organ pipe. If the length of the closed organ pipe is 20 cm, the length of the open organ pipe is :",
+     "o": [
+      "12.5 cm",
+      "8 cm",
+      "13.2 cm",
+      "16 cm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q2",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2020-code-f3-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a guitar, two strings A and B made of same material are slightly out of tune and produce beats of frequency 6 Hz. When tension in B is slightly decreased, the beat frequency increases to 7 Hz. If the frequency of A is 530 Hz, the original frequency of B will be :",
+     "o": [
+      "536 Hz",
+      "537 Hz",
+      "523 Hz",
+      "524 Hz"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q21",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2022-code-t2-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the initial tension on a stretched string is doubled, then the ratio of the initial and final speeds of a transverse wave along the string is :",
+     "o": [
+      "√2 : 1",
+      "1 : √2",
+      "1 : 2",
+      "1 : 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q26",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-14-neet-2023-topic-wise-copy-q15",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The ratio of frequencies of fundamental harmonic produced by an open pipe to that of a closed pipe having the same length is :",
+     "o": [
+      "3 : 1",
+      "1 : 2",
+      "2 : 1",
+      "1 : 3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q15",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-14-neet-2025-code-45-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A pipe open at both ends has a fundamental frequency f in air. The pipe is now dipped vertically in a water drum to half of its length. The fundamental frequency of the air column is now equal to :",
+     "o": [
+      "f/2",
+      "f",
+      "3f/2",
+      "2f"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q45",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-14-neet-2026-code-13-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a travelling harmonic wave y(x, t) = 2.0 cos 2π(10t − 0.0080x + 0.35), where x and y are in cm and t in s. The phase difference between oscillatory motion of two points separated by a distance of 0.5 m is :",
+     "o": [
+      "0.08π rad",
+      "0.008π rad",
+      "0.8π rad",
+      "8π rad"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-14",
+    "paras": [
+     "14.3.2",
+     "14.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q30",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
