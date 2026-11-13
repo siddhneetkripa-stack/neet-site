@@ -168,7 +168,10 @@ def main():
                 p["hi"] = hh[pid]
             p["pdfPage"] = h["pdfPage"]
             paras.append(p)
-        for pid, t in OVR.get(cid, {}).items():  # hand fixes: content/ncert/paragraph-overrides.json
+        ov = dict(OVR.get(cid, {}))
+        if ov.pop("__complete__", False):
+            paras = [p for p in paras if p["id"] in ov]
+        for pid, t in ov.items():  # hand fixes: content/ncert/paragraph-overrides.json
             hit = next((p for p in paras if p["id"] == pid), None)
             if t is None:
                 paras = [p for p in paras if p["id"] != pid]
@@ -180,8 +183,7 @@ def main():
                 new = {"id": pid, "title": t}
                 if hh.get(pid):
                     new["hi"] = hh[pid]
-                if par:
-                    new["pdfPage"] = max(par, key=lambda p: key(p["id"])).get("pdfPage")
+                new["pdfPage"] = max(par, key=lambda p: key(p["id"])).get("pdfPage") if par else 1
                 paras.append(new)
         have = {p["id"] for p in paras}
 
