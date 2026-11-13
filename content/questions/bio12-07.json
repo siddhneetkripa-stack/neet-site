@@ -120,10 +120,22 @@
       "IgA",
       "IgG",
       "IgD"
-     ]
+     ],
+     "sol": "<p>Colostrum and breast milk are rich in <b>IgA</b> antibodies, which protect the infant's gut (passive immunity). IgG is the one that crosses the placenta.</p>",
+     "hint": "NCERT: colostrum has abundant IgA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव दूध में निम्नलिखित में से कौन-सा इम्यूनोग्लोब्युलिन सबसे अधिक प्रतिशत में होता है?",
+     "o": [
+      "IgM",
+      "IgA",
+      "IgG",
+      "IgD"
+     ],
+     "sol": "<p>पीयूष (कोलोस्ट्रम) और माँ का दूध <b>IgA</b> प्रतिरक्षियों से भरपूर होते हैं, जो शिशु की आँत की रक्षा करते हैं (निष्क्रिय प्रतिरक्षा)। अपरा को पार करने वाला IgG है।</p>",
+     "hint": "NCERT: पीयूष में IgA की प्रचुरता होती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -166,10 +178,22 @@
       "Babesiosis",
       "Blastomycosis",
       "Syphilis"
-     ]
+     ],
+     "sol": "<p><b>Babesiosis</b> is caused by the protozoan <i>Babesia</i> (spread by ticks). Influenza is viral, blastomycosis is fungal and syphilis is bacterial. This is beyond NCERT.</p>",
+     "hint": "Eliminate the virus, fungus and bacterium."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा रोग प्रोटोजोअन द्वारा होता है?",
+     "o": [
+      "इन्फ्लूएंजा",
+      "बबेसियोसिस (babesiosis)",
+      "ब्लास्टोमाइकोसिस (blastomycosis)",
+      "सिफिलिस"
+     ],
+     "sol": "<p><b>बबेसियोसिस</b> प्रोटोजोअन <i>बबेसिया</i> (किलनी द्वारा फैलता) से होता है। इन्फ्लूएंजा वायरस जनित, ब्लास्टोमाइकोसिस कवक जनित तथा सिफिलिस जीवाणु जनित है। यह NCERT से बाहर है।</p>",
+     "hint": "वायरस, कवक और जीवाणु वाले हटाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -213,10 +237,22 @@
       "Passive immune response",
       "Innate immune response",
       "Humoral immune response"
-     ]
+     ],
+     "sol": "<p>NCERT: the body distinguishes self from non-self, and graft rejection is due to the <b>cell-mediated immune response</b> (T-lymphocytes). That is why tissue and blood group matching and immunosuppressants are needed.</p>",
+     "hint": "T-cells reject grafts."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी रोगी में प्रत्यारोपित वृक्क किसके कारण अस्वीकृत हो सकता है?",
+     "o": [
+      "कोशिका-माध्यित प्रतिरक्षा अनुक्रिया",
+      "निष्क्रिय प्रतिरक्षा अनुक्रिया",
+      "सहज प्रतिरक्षा अनुक्रिया",
+      "तरल प्रतिरक्षा अनुक्रिया"
+     ],
+     "sol": "<p>NCERT: शरीर स्व और पर में भेद करता है, और निरोप (ग्राफ्ट) की अस्वीकृति <b>कोशिका-माध्यित प्रतिरक्षा अनुक्रिया</b> (T-लसीकाणु) के कारण होती है। इसीलिए ऊतक तथा रुधिर वर्ग का मिलान और प्रतिरक्षा-निरोधक औषधियाँ आवश्यक हैं।</p>",
+     "hint": "T-कोशिकाएँ निरोप अस्वीकार करती हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -259,10 +295,22 @@
       "Graft rejection",
       "Auto – immune disease",
       "Active immunity"
-     ]
+     ],
+     "sol": "<p>When the immune system loses the ability to tell self from non-self and attacks the body's own cells, the result is an <b>autoimmune disease</b> (e.g. rheumatoid arthritis).</p>",
+     "hint": "Attacking self = auto."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उच्च कशेरुकियों में प्रतिरक्षा तंत्र स्व-कोशिकाओं और पर में भेद कर सकता है। यदि आनुवंशिक असामान्यता के कारण यह गुण समाप्त हो जाए और यह स्व-कोशिकाओं पर आक्रमण करे, तो इसका परिणाम होगा :",
+     "o": [
+      "एलर्जी अनुक्रिया",
+      "निरोप अस्वीकृति",
+      "स्व-प्रतिरक्षा रोग",
+      "सक्रिय प्रतिरक्षा"
+     ],
+     "sol": "<p>जब प्रतिरक्षा तंत्र स्व और पर में भेद करने की क्षमता खोकर शरीर की अपनी कोशिकाओं पर आक्रमण करता है, तो <b>स्व-प्रतिरक्षा रोग</b> होता है (जैसे आमवाती संधिशोथ)।</p>",
+     "hint": "स्व पर आक्रमण = स्व-प्रतिरक्षा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -305,10 +353,22 @@
       "Harvested antibodies",
       "Gamma globulin",
       "Attenuated pathogens"
-     ]
+     ],
+     "sol": "<p>Antivenom gives ready-made antibodies (passive immunisation). Oral polio drops are a vaccine: they contain <b>attenuated (weakened) pathogens</b>, which make the body produce its own antibodies and memory cells (active immunity).</p>",
+     "hint": "A vaccine = weakened or inactivated pathogen."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रतिविष (antivenom) इंजेक्शन में पूर्वनिर्मित प्रतिरक्षी होते हैं, जबकि शरीर में दी जाने वाली पोलियो की बूँदों में होते हैं :",
+     "o": [
+      "सक्रियित रोगजनक",
+      "एकत्रित प्रतिरक्षी",
+      "गामा ग्लोब्युलिन",
+      "दुर्बलीकृत रोगजनक"
+     ],
+     "sol": "<p>प्रतिविष बने-बनाए प्रतिरक्षी देता है (निष्क्रिय प्रतिरक्षीकरण)। मुख से दी जाने वाली पोलियो बूँदें टीका हैं: इनमें <b>दुर्बलीकृत रोगजनक</b> होते हैं, जो शरीर को स्वयं प्रतिरक्षी तथा स्मृति कोशिकाएँ बनाने को प्रेरित करते हैं (सक्रिय प्रतिरक्षा)।</p>",
+     "hint": "टीका = दुर्बलीकृत या निष्क्रियित रोगजनक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -351,10 +411,22 @@
       "Mutations destroy telomerase inhibitor",
       "Mutations inactivate the cell control",
       "Mutations inhibit production of telomerase"
-     ]
+     ],
+     "sol": "<p>Cancer cells keep dividing because they have <b>active</b> telomerase (mutations often remove its inhibition). So 'mutations inhibit production of telomerase' is not true. Mutated proto-oncogenes speed up the cell cycle and mutations inactivate cell-cycle controls — true. Telomerase is beyond NCERT.</p>",
+     "hint": "Unlimited division needs telomerase."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उत्परिवर्तनों के संबंध में कैंसर कोशिकाओं के लिए निम्नलिखित में से कौन-सा कथन सत्य नहीं है?",
+     "o": [
+      "प्रोटो – ओंकोजीन में उत्परिवर्तन कोशिका चक्र को तीव्र करते हैं",
+      "उत्परिवर्तन टेलोमरेज़ (telomerase) निरोधक को नष्ट करते हैं",
+      "उत्परिवर्तन कोशिका नियंत्रण को निष्क्रिय करते हैं",
+      "उत्परिवर्तन टेलोमरेज़ के उत्पादन को रोकते हैं"
+     ],
+     "sol": "<p>कैंसर कोशिकाएँ इसलिए विभाजित होती रहती हैं क्योंकि उनमें टेलोमरेज़ <b>सक्रिय</b> होता है (उत्परिवर्तन प्रायः उसका निरोध हटा देते हैं)। अतः 'उत्परिवर्तन टेलोमरेज़ का उत्पादन रोकते हैं' सत्य नहीं है। उत्परिवर्तित प्रोटो-ओंकोजीन कोशिका चक्र तीव्र करते हैं और उत्परिवर्तन कोशिका चक्र नियंत्रण निष्क्रिय करते हैं — सत्य। टेलोमरेज़ NCERT से बाहर है।</p>",
+     "hint": "असीमित विभाजन के लिए टेलोमरेज़ चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -398,10 +470,22 @@
       "Typhoid and smallpox",
       "Tetanus and mumps",
       "Herpes and influenza"
-     ]
+     ],
+     "sol": "<p><b>Cholera</b> (<i>Vibrio cholerae</i>) and <b>tetanus</b> (<i>Clostridium tetani</i>) are bacterial. Smallpox, mumps, herpes and influenza are viral, so every other option contains a viral disease.</p>",
+     "hint": "Find the pair with no virus."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से रोगों का कौन-सा समुच्चय जीवाणुओं द्वारा होता है?",
+     "o": [
+      "हैजा तथा टिटेनस",
+      "टाइफॉइड तथा चेचक",
+      "टिटेनस तथा कनफेड़ (mumps)",
+      "हर्पीज़ तथा इन्फ्लूएंजा"
+     ],
+     "sol": "<p><b>हैजा</b> (<i>विब्रियो कॉलेरी</i>) तथा <b>टिटेनस</b> (<i>क्लॉस्ट्रिडियम टिटेनाई</i>) जीवाणु जनित हैं। चेचक, कनफेड़, हर्पीज़ और इन्फ्लूएंजा वायरस जनित हैं, अतः अन्य हर विकल्प में एक वायरस रोग है।</p>",
+     "hint": "जिस युग्म में कोई वायरस न हो उसे चुनें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -445,10 +529,22 @@
       "HIV is enveloped virus that contains two identical molecules of single-stranded RNA and two molecules of reverse transcriptase",
       "HIV is unenveloped retrovirus",
       "HIV does not escape but attacks the acquired immune response"
-     ]
+     ],
+     "sol": "<p>HIV is an <b>enveloped retrovirus</b> whose core has two identical single-stranded RNA molecules and reverse transcriptase molecules. It attacks helper T-cells and so weakens the acquired immune response. Option 2 is correct.</p>",
+     "hint": "Retrovirus with two copies of its RNA genome."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "AIDS के कारक HIV के संबंध में निम्नलिखित में से कौन-सा सही है?",
+     "o": [
+      "HIV आवरणयुक्त वायरस है जिसमें एकल-रज्जुक RNA का एक अणु तथा विलोम ट्रांसक्रिप्टेज का एक अणु होता है",
+      "HIV आवरणयुक्त वायरस है जिसमें एकल-रज्जुक RNA के दो समरूप अणु तथा विलोम ट्रांसक्रिप्टेज के दो अणु होते हैं",
+      "HIV आवरणरहित पश्चविषाणु है",
+      "HIV बचता नहीं बल्कि उपार्जित प्रतिरक्षा अनुक्रिया पर आक्रमण करता है"
+     ],
+     "sol": "<p>HIV एक <b>आवरणयुक्त पश्चविषाणु</b> है जिसके केंद्र में एकल-रज्जुक RNA के दो समरूप अणु तथा विलोम ट्रांसक्रिप्टेज के अणु होते हैं। यह सहायक T-कोशिकाओं पर आक्रमण कर उपार्जित प्रतिरक्षा अनुक्रिया को दुर्बल करता है। विकल्प 2 सही है।</p>",
+     "hint": "दो प्रतियों वाले RNA जीनोम का पश्चविषाणु।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -492,10 +588,22 @@
       "Cell-mediated immune response",
       "Hormonal immune response",
       "Physiological immune response"
-     ]
+     ],
+     "sol": "<p>Rejection of transplanted tissues or organs is due to the <b>cell-mediated immune response</b> carried out by T-lymphocytes.</p>",
+     "hint": "Same as the 2015 question."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "रोगी के शरीर द्वारा स्वीकार न किए जाने के कारण ऊतकों/अंगों का प्रत्यारोपण प्रायः विफल हो जाता है। ऐसी अस्वीकृति के लिए किस प्रकार की प्रतिरक्षा अनुक्रिया उत्तरदायी है?",
+     "o": [
+      "स्व-प्रतिरक्षा अनुक्रिया",
+      "कोशिका-माध्यित प्रतिरक्षा अनुक्रिया",
+      "हॉर्मोनी प्रतिरक्षा अनुक्रिया",
+      "कार्यिकीय प्रतिरक्षा अनुक्रिया"
+     ],
+     "sol": "<p>प्रत्यारोपित ऊतकों या अंगों की अस्वीकृति T-लसीकाणुओं द्वारा की जाने वाली <b>कोशिका-माध्यित प्रतिरक्षा अनुक्रिया</b> के कारण होती है।</p>",
+     "hint": "2015 वाले प्रश्न जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -538,10 +646,22 @@
       "20%",
       "70%",
       "10%"
-     ]
+     ],
+     "sol": "<p>NCERT: mucosa-associated lymphoid tissue (MALT), lining the respiratory, digestive and urogenital tracts, makes up about <b>50%</b> of the lymphoid tissue in the human body.</p>",
+     "hint": "About half."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "MALT मानव शरीर के लसीकाभ ऊतक का लगभग ___ प्रतिशत होता है।",
+     "o": [
+      "50%",
+      "20%",
+      "70%",
+      "10%"
+     ],
+     "sol": "<p>NCERT: श्लेष्म संबद्ध लसीकाभ ऊतक (MALT), जो श्वसन, पाचन और मूत्रजनन पथ के आस्तर में होता है, मानव शरीर के लसीकाभ ऊतक का लगभग <b>50%</b> है।</p>",
+     "hint": "लगभग आधा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -584,10 +704,22 @@
       "Latex",
       "Flowers",
       "Leaves"
-     ]
+     ],
+     "sol": "<p>Smack (heroin, diacetylmorphine) is made by acetylation of morphine, which is extracted from the <b>latex</b> of the poppy plant <i>Papaver somniferum</i>.</p>",
+     "hint": "Opioids come from the milky juice."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "'स्मैक' औषध प्राप्त करने के लिए पोस्त के पौधे के किस भाग का उपयोग होता है?",
+     "o": [
+      "जड़ें",
+      "लेटेक्स",
+      "पुष्प",
+      "पत्तियाँ"
+     ],
+     "sol": "<p>स्मैक (हिरोइन, डाइएसिटिल मॉर्फीन) मॉर्फीन के ऐसीटिलीकरण से बनता है, और मॉर्फीन पोस्त के पौधे <i>पैपेवर सोम्नीफेरम</i> के <b>लेटेक्स</b> से निकाली जाती है।</p>",
+     "hint": "ओपिऑइड दूधिया रस से आते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -630,10 +762,22 @@
       "Ascariasis",
       "Elephantiasis",
       "Amoebiasis"
-     ]
+     ],
+     "sol": "<p><i>Wuchereria</i> worms, transmitted by female mosquitoes, live in lymphatic vessels and cause chronic inflammation there; the limbs swell — <b>elephantiasis (filariasis)</b>.</p>",
+     "hint": "Swollen limbs from blocked lymphatics."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किस रोग में मच्छर द्वारा संचारित रोगजनक लसीका वाहिकाओं में दीर्घकालिक शोथ उत्पन्न करता है?",
+     "o": [
+      "दाद",
+      "ऐस्कारिता (ascariasis)",
+      "श्लीपद",
+      "अमीबता"
+     ],
+     "sol": "<p>मादा मच्छर द्वारा संचारित <i>वुचेरेरिया</i> कृमि लसीका वाहिकाओं में रहकर वहाँ दीर्घकालिक शोथ उत्पन्न करते हैं; अंग सूज जाते हैं — <b>श्लीपद (फाइलेरिया)</b>।</p>",
+     "hint": "लसीका वाहिकाएँ रुकने से अंगों में सूजन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -676,10 +820,22 @@
       "Rheumatoid arthritis",
       "Psoriasis",
       "Vitiligo"
-     ]
+     ],
+     "sol": "<p>Rheumatoid arthritis, psoriasis and vitiligo are autoimmune. <b>Alzheimer's disease</b> is a neurodegenerative disease, not autoimmune. (NCERT names only rheumatoid arthritis.)</p>",
+     "hint": "Which is a disease of nerve cell loss?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा स्व-प्रतिरक्षा रोग नहीं है?",
+     "o": [
+      "ऐल्ज़ाइमर रोग",
+      "आमवाती संधिशोथ",
+      "सोरायसिस (psoriasis)",
+      "विटिलिगो (vitiligo)"
+     ],
+     "sol": "<p>आमवाती संधिशोथ, सोरायसिस तथा विटिलिगो स्व-प्रतिरक्षा रोग हैं। <b>ऐल्ज़ाइमर रोग</b> तंत्रिका-ह्रासी रोग है, स्व-प्रतिरक्षा नहीं। (NCERT केवल आमवाती संधिशोथ का नाम देता है।)</p>",
+     "hint": "कौन-सा तंत्रिका कोशिकाओं के ह्रास का रोग है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -723,10 +879,22 @@
       "Cell-mediated immune response",
       "Auto-immune response",
       "Humoral immune response."
-     ]
+     ],
+     "sol": "<p>Kidney graft rejection is mediated by T-lymphocytes: the <b>cell-mediated immune response</b>.</p>",
+     "hint": "Graft rejection = T-cells."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वृक्क निरोप की अस्वीकृति के लिए निम्नलिखित में से कौन-सी प्रतिरक्षा अनुक्रिया उत्तरदायी है?",
+     "o": [
+      "शोथज प्रतिरक्षा अनुक्रिया",
+      "कोशिका-माध्यित प्रतिरक्षा अनुक्रिया",
+      "स्व-प्रतिरक्षा अनुक्रिया",
+      "तरल प्रतिरक्षा अनुक्रिया।"
+     ],
+     "sol": "<p>वृक्क निरोप की अस्वीकृति T-लसीकाणुओं द्वारा होती है: <b>कोशिका-माध्यित प्रतिरक्षा अनुक्रिया</b>।</p>",
+     "hint": "निरोप अस्वीकृति = T-कोशिकाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -769,10 +937,22 @@
       "nitration of morphine",
       "methylation of morphine",
       "acetylation of morphine."
-     ]
+     ],
+     "sol": "<p>Heroin (smack) is chemically <b>diacetylmorphine</b>, obtained by <b>acetylation</b> of morphine.</p>",
+     "hint": "Diacetylmorphine."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "'हिरोइन' नामक औषध किसके द्वारा संश्लेषित होती है?",
+     "o": [
+      "मॉर्फीन का ग्लाइकोसिलीकरण",
+      "मॉर्फीन का नाइट्रीकरण",
+      "मॉर्फीन का मेथिलीकरण",
+      "मॉर्फीन का ऐसीटिलीकरण।"
+     ],
+     "sol": "<p>हिरोइन (स्मैक) रासायनिक रूप से <b>डाइएसिटिल मॉर्फीन</b> है, जो मॉर्फीन के <b>ऐसीटिलीकरण</b> से प्राप्त होती है।</p>",
+     "hint": "डाइ-एसिटिल-मॉर्फीन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -815,10 +995,22 @@
       "Salmonella typhi / Widal test",
       "Plasmodium vivax / UTI test",
       "Streptococcus pneumoniae/ Widal test"
-     ]
+     ],
+     "sol": "<p>Typhoid fever is caused by <i>Salmonella typhi</i> and is confirmed by the <b>Widal test</b>. Anthrone is a test for carbohydrates; <i>Plasmodium</i> causes malaria; <i>Streptococcus pneumoniae</i> causes pneumonia.</p>",
+     "hint": "Both halves must be right."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "टाइफॉइड ज्वर के कारक तथा टाइफॉइड की पुष्टि परीक्षण को दर्शाने वाला सही युग्म पहचानिए।",
+     "o": [
+      "<i>Salmonella typhi</i> / ऐन्थ्रोन परीक्षण",
+      "<i>Salmonella typhi</i> / विडाल परीक्षण",
+      "<i>Plasmodium vivax</i> / UTI परीक्षण",
+      "<i>Streptococcus pneumoniae</i> / विडाल परीक्षण"
+     ],
+     "sol": "<p>टाइफॉइड ज्वर <i>Salmonella typhi</i> से होता है और इसकी पुष्टि <b>विडाल परीक्षण</b> से होती है। ऐन्थ्रोन कार्बोहाइड्रेट का परीक्षण है; <i>Plasmodium</i> मलेरिया करता है; <i>Streptococcus pneumoniae</i> न्यूमोनिया करता है।</p>",
+     "hint": "दोनों भाग सही होने चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -861,10 +1053,22 @@
       "Immunoglobulin A",
       "Natural killer cells",
       "Monocytes"
-     ]
+     ],
+     "sol": "<p>The yellowish colostrum secreted in the first days of lactation has abundant antibodies, <b>IgA</b>, which protect the newborn — a natural passive immunity.</p>",
+     "hint": "Colostrum = IgA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दुग्धस्रवण के आरंभिक दिनों में माँ द्वारा स्रावित पीला तरल पीयूष (कोलोस्ट्रम) नवजात शिशुओं को प्रतिरक्षा देने के लिए बहुत आवश्यक है, क्योंकि इसमें होता है :",
+     "o": [
+      "बृहत् भक्षकाणु",
+      "इम्यूनोग्लोब्युलिन A",
+      "प्राकृतिक मारक कोशिकाएँ",
+      "एककेंद्रकाणु"
+     ],
+     "sol": "<p>दुग्धस्रवण के पहले दिनों में स्रावित पीले पीयूष में प्रतिरक्षी <b>IgA</b> की प्रचुरता होती है, जो नवजात की रक्षा करते हैं — प्राकृतिक निष्क्रिय प्रतिरक्षा।</p>",
+     "hint": "पीयूष = IgA।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -907,10 +1111,22 @@
       "Foetus receives some antibodies from mother, it is an example for passive immunity.",
       "When exposed to antigen (living or dead) antibodies are produced in the host's body. It is called \"Active immunity\".",
       "When ready-made antibodies are directly given, it is called \"Passive immunity\"."
-     ]
+     ],
+     "sol": "<p>Active immunity is <b>slow</b> and takes time to give its full effective response, so statement 1 is wrong. Antibodies from mother to foetus (passive), antibodies produced on antigen exposure (active) and ready-made antibodies given (passive) are all correct.</p>",
+     "hint": "Making your own antibodies takes time."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रतिरक्षा के संदर्भ में गलत कथन पहचानिए :",
+     "o": [
+      "सक्रिय प्रतिरक्षा तीव्र होती है और पूर्ण अनुक्रिया देती है।",
+      "गर्भ माँ से कुछ प्रतिरक्षी प्राप्त करता है, यह निष्क्रिय प्रतिरक्षा का उदाहरण है।",
+      "प्रतिजन (जीवित या मृत) के संपर्क में आने पर परपोषी के शरीर में प्रतिरक्षी बनते हैं। इसे \"सक्रिय प्रतिरक्षा\" कहते हैं।",
+      "जब बने-बनाए प्रतिरक्षी सीधे दिए जाते हैं, तो इसे \"निष्क्रिय प्रतिरक्षा\" कहते हैं।"
+     ],
+     "sol": "<p>सक्रिय प्रतिरक्षा <b>धीमी</b> होती है और पूर्ण प्रभावी अनुक्रिया देने में समय लेती है, अतः कथन 1 गलत है। माँ से गर्भ को प्रतिरक्षी (निष्क्रिय), प्रतिजन के संपर्क से प्रतिरक्षी बनना (सक्रिय) तथा बने-बनाए प्रतिरक्षी देना (निष्क्रिय) सब सही हैं।</p>",
+     "hint": "अपने प्रतिरक्षी बनाने में समय लगता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -953,10 +1169,22 @@
       "(a) iv, (b) i, (c) ii, (d) iii",
       "(a) i, (b) iii, (c) ii, (d) iv",
       "(a) iii, (b) iv, (c) i, (d) ii"
-     ]
+     ],
+     "sol": "<ul><li>(a) Typhoid — <i>Salmonella</i> (iii).</li><li>(b) Pneumonia — <i>Haemophilus</i> (and <i>Streptococcus</i>) (iv).</li><li>(c) Filariasis — <i>Wuchereria</i> (i).</li><li>(d) Malaria — <i>Plasmodium</i> (ii).</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii.</p>",
+     "hint": "NCERT's pathogen list."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित रोगों का उनके कारक जीवों से मिलान कीजिए तथा सही विकल्प चुनिए :<br>(a) टाइफॉइड — (i) <i>Wuchereria</i><br>(b) न्यूमोनिया — (ii) <i>Plasmodium</i><br>(c) फाइलेरिया — (iii) <i>Salmonella</i><br>(d) मलेरिया — (iv) <i>Haemophilus</i>",
+     "o": [
+      "(a) ii, (b) i, (c) iii, (d) iv",
+      "(a) iv, (b) i, (c) ii, (d) iii",
+      "(a) i, (b) iii, (c) ii, (d) iv",
+      "(a) iii, (b) iv, (c) i, (d) ii"
+     ],
+     "sol": "<ul><li>(a) टाइफॉइड — <i>Salmonella</i> (iii)।</li><li>(b) न्यूमोनिया — <i>Haemophilus</i> (तथा <i>Streptococcus</i>) (iv)।</li><li>(c) फाइलेरिया — <i>Wuchereria</i> (i)।</li><li>(d) मलेरिया — <i>Plasmodium</i> (ii)।</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii।</p>",
+     "hint": "NCERT की रोगजनक सूची।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -999,10 +1227,22 @@
       "Male gametocytes",
       "Trophozoites",
       "Sporozoites"
-     ]
+     ],
+     "sol": "<p><i>Plasmodium</i> enters the human body as <b>sporozoites</b>, injected by the bite of an infected female <i>Anopheles</i> mosquito. Gametocytes are taken up by the mosquito, not injected.</p>",
+     "hint": "Infective stage injected with saliva."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव शरीर में प्रवेश करने वाली <i>Plasmodium</i> की संक्रामक अवस्था है :",
+     "o": [
+      "मादा युग्मकजनक",
+      "नर युग्मकजनक",
+      "पोषाणु (trophozoites)",
+      "जीवाणुज (स्पोरोजॉइट)"
+     ],
+     "sol": "<p><i>Plasmodium</i> संक्रमित मादा <i>Anopheles</i> मच्छर के काटने से <b>जीवाणुज (स्पोरोजॉइट)</b> के रूप में मानव शरीर में प्रवेश करता है। युग्मकजनक मच्छर द्वारा ग्रहण किए जाते हैं, शरीर में डाले नहीं जाते।</p>",
+     "hint": "लार के साथ डाली गई संक्रामक अवस्था।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1045,10 +1285,22 @@
       "(a) iv, (b) i, (c) iii, (d) ii",
       "(a) iii, (b) iv, (c) i, (d) ii",
       "(a) i, (b) ii, (c) iv, (d) iii"
-     ]
+     ],
+     "sol": "<ul><li>(a) Filariasis — <i>Wuchereria bancrofti</i> (iii).</li><li>(b) Amoebiasis — <i>Entamoeba histolytica</i> (iv).</li><li>(c) Pneumonia — <i>Haemophilus influenzae</i> (i).</li><li>(d) Ringworm — <i>Trichophyton</i> (ii).</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii.</p>",
+     "hint": "Ringworm is fungal."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(a) फाइलेरिया — (i) <i>Haemophilus influenzae</i><br>(b) अमीबता — (ii) <i>Trichophyton</i><br>(c) न्यूमोनिया — (iii) <i>Wuchereria bancrofti</i><br>(d) दाद — (iv) <i>Entamoeba histolytica</i>",
+     "o": [
+      "(a) ii, (b) iii, (c) i, (d) iv",
+      "(a) iv, (b) i, (c) iii, (d) ii",
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) i, (b) ii, (c) iv, (d) iii"
+     ],
+     "sol": "<ul><li>(a) फाइलेरिया — <i>Wuchereria bancrofti</i> (iii)।</li><li>(b) अमीबता — <i>Entamoeba histolytica</i> (iv)।</li><li>(c) न्यूमोनिया — <i>Haemophilus influenzae</i> (i)।</li><li>(d) दाद — <i>Trichophyton</i> (ii)।</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii।</p>",
+     "hint": "दाद कवक जनित है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1092,10 +1344,22 @@
       "Statement I is correct but Statement II is incorrect",
       "Statement I is incorrect but Statement II is correct",
       "Both Statement I and Statement II are correct"
-     ]
+     ],
+     "sol": "<p>Statement I is correct: in an autoimmune disorder the body's defence treats its own cells as foreign. Statement II is incorrect: rheumatoid arthritis is an autoimmune disease in which the body <b>does</b> attack its own cells.</p>",
+     "hint": "Rheumatoid arthritis is NCERT's autoimmune example."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : स्व-प्रतिरक्षा विकार वह स्थिति है जिसमें शरीर का रक्षा तंत्र अपनी ही कोशिकाओं को बाह्य पदार्थ मानता है।<br>कथन II : आमवाती संधिशोथ वह स्थिति है जिसमें शरीर स्व-कोशिकाओं पर आक्रमण नहीं करता।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है",
+      "कथन I तथा कथन II दोनों सही हैं"
+     ],
+     "sol": "<p>कथन I सही है: स्व-प्रतिरक्षा विकार में शरीर का रक्षा तंत्र अपनी कोशिकाओं को बाह्य मानता है। कथन II गलत है: आमवाती संधिशोथ एक स्व-प्रतिरक्षा रोग है जिसमें शरीर अपनी कोशिकाओं पर आक्रमण <b>करता</b> है।</p>",
+     "hint": "आमवाती संधिशोथ NCERT का स्व-प्रतिरक्षा उदाहरण है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1138,10 +1402,22 @@
       "Anamnestic response is due to memory of first encounter.",
       "Acquired immunity is non-specific type of defense present at the time of birth.",
       "Primary response is produced when our body encounters a pathogen for the first time."
-     ]
+     ],
+     "sol": "<p>Acquired immunity is <b>pathogen-specific</b> and develops after exposure; it is not present at birth. The non-specific defence present at birth is innate immunity, so statement 3 is incorrect. Primary response on first encounter and the stronger anamnestic (secondary) response due to memory are correct.</p>",
+     "hint": "Specific + memory = acquired."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उपार्जित प्रतिरक्षा के संदर्भ में गलत कथन चुनिए।",
+     "o": [
+      "उसी रोगजनक से बाद के सामना होने पर पूर्ववृत्तीय (एनामिस्टिक) अनुक्रिया होती है।",
+      "पूर्ववृत्तीय अनुक्रिया पहले सामना की स्मृति के कारण होती है।",
+      "उपार्जित प्रतिरक्षा जन्म के समय उपस्थित अविशिष्ट प्रकार की रक्षा है।",
+      "जब हमारा शरीर किसी रोगजनक का पहली बार सामना करता है, तब प्राथमिक अनुक्रिया होती है।"
+     ],
+     "sol": "<p>उपार्जित प्रतिरक्षा <b>रोगजनक-विशिष्ट</b> है और संपर्क के बाद विकसित होती है; यह जन्म के समय उपस्थित नहीं होती। जन्म से उपस्थित अविशिष्ट रक्षा सहज प्रतिरक्षा है, अतः कथन 3 गलत है। पहले सामना पर प्राथमिक अनुक्रिया और स्मृति के कारण तीव्र पूर्ववृत्तीय (द्वितीयक) अनुक्रिया सही हैं।</p>",
+     "hint": "विशिष्ट + स्मृति = उपार्जित।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1186,10 +1462,22 @@
       "A-II, B-III, C-IV, D-I",
       "A-II, B-III, C-I, D-IV",
       "A-III, B-II, C-I, D-IV"
-     ]
+     ],
+     "sol": "<ul><li>(A) Ringworm — <i>Trichophyton</i> (II).</li><li>(B) Filariasis — <i>Wuchereria bancrofti</i> (III).</li><li>(C) Malaria — <i>Plasmodium vivax</i> (IV).</li><li>(D) Pneumonia — <i>Haemophilus influenzae</i> (I).</li></ul><p>A-II, B-III, C-IV, D-I.</p>",
+     "hint": "Same pathogens as 2021."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(A) दाद — (I) <i>Haemophilus influenzae</i><br>(B) फाइलेरिया — (II) <i>Trichophyton</i><br>(C) मलेरिया — (III) <i>Wuchereria bancrofti</i><br>(D) न्यूमोनिया — (IV) <i>Plasmodium vivax</i>",
+     "o": [
+      "A-III, B-II, C-IV, D-I",
+      "A-II, B-III, C-IV, D-I",
+      "A-II, B-III, C-I, D-IV",
+      "A-III, B-II, C-I, D-IV"
+     ],
+     "sol": "<ul><li>(A) दाद — <i>Trichophyton</i> (II)।</li><li>(B) फाइलेरिया — <i>Wuchereria bancrofti</i> (III)।</li><li>(C) मलेरिया — <i>Plasmodium vivax</i> (IV)।</li><li>(D) न्यूमोनिया — <i>Haemophilus influenzae</i> (I)।</li></ul><p>A-II, B-III, C-IV, D-I।</p>",
+     "hint": "2021 वाले ही रोगजनक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1232,10 +1520,22 @@
       "A-II, B-I, C-IV, D-III",
       "A-I, B-II, C-III, D-IV",
       "A-IV, B-III, C-II, D-I"
-     ]
+     ],
+     "sol": "<ul><li>(A) Heroin — a depressant, slows down body functions (II).</li><li>(B) Marijuana (cannabinoids) — affects the cardiovascular system (I).</li><li>(C) Cocaine — interferes with transport of dopamine (IV).</li><li>(D) Morphine — effective sedative and painkiller (III).</li></ul><p>A-II, B-I, C-IV, D-III.</p>",
+     "hint": "Cocaine ↔ dopamine; cannabinoids ↔ heart."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(A) हिरोइन — (I) हृदयवाहिका तंत्र पर प्रभाव<br>(B) मैरिजुआना — (II) शरीर के प्रकार्यों को धीमा करना<br>(C) कोकेन — (III) पीड़ाहर<br>(D) मॉर्फीन — (IV) डोपेमीन के परिवहन में बाधा",
+     "o": [
+      "A-III, B-IV, C-I, D-II",
+      "A-II, B-I, C-IV, D-III",
+      "A-I, B-II, C-III, D-IV",
+      "A-IV, B-III, C-II, D-I"
+     ],
+     "sol": "<ul><li>(A) हिरोइन — अवसादक, शरीर के प्रकार्य धीमे करती है (II)।</li><li>(B) मैरिजुआना (कैनेबिनॉइड) — हृदयवाहिका तंत्र को प्रभावित करती है (I)।</li><li>(C) कोकेन — डोपेमीन के परिवहन में बाधा डालती है (IV)।</li><li>(D) मॉर्फीन — प्रभावी शामक तथा पीड़ाहर (III)।</li></ul><p>A-II, B-I, C-IV, D-III।</p>",
+     "hint": "कोकेन ↔ डोपेमीन; कैनेबिनॉइड ↔ हृदय।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1278,10 +1578,22 @@
       "TH cells",
       "B-lymphocytes",
       "Basophils"
-     ]
+     ],
+     "sol": "<p>HIV enters macrophages first, then enters <b>helper T-lymphocytes (T<sub>H</sub>)</b>, where it replicates and produces progeny viruses that infect more T<sub>H</sub> cells; their number falls steadily.</p>",
+     "hint": "AIDS = loss of helper T-cells."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किन रुधिर कणिकाओं में HIV प्रतिकृति कर संतति वायरस उत्पन्न करता है?",
+     "o": [
+      "इओसिनोफिल",
+      "T<sub>H</sub> कोशिकाएँ",
+      "B-लसीकाणु",
+      "बेसोफिल"
+     ],
+     "sol": "<p>HIV पहले बृहत् भक्षकाणुओं में प्रवेश करता है, फिर <b>सहायक T-लसीकाणुओं (T<sub>H</sub>)</b> में प्रवेश कर वहाँ प्रतिकृति करता है और संतति वायरस बनाता है जो और T<sub>H</sub> कोशिकाओं को संक्रमित करते हैं; इनकी संख्या लगातार घटती है।</p>",
+     "hint": "AIDS = सहायक T-कोशिकाओं की हानि।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1324,10 +1636,22 @@
       "A-IV, B-III, C-I, D-II",
       "A-III, B-I, C-IV, D-II",
       "A-II, B-IV, C-III, D-I"
-     ]
+     ],
+     "sol": "<ul><li>A Typhoid — bacteria (<i>Salmonella typhi</i>) (IV).</li><li>B Leishmaniasis — protozoa (<i>Leishmania</i>) (III).</li><li>C Ringworm — fungus (I).</li><li>D Filariasis — nematode (<i>Wuchereria</i>) (II).</li></ul><p>A-IV, B-III, C-I, D-II.</p>",
+     "hint": "Ringworm is a fungus, not a worm."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. टाइफॉइड — I. कवक<br>B. लीशमानियता (leishmaniasis) — II. सूत्रकृमि<br>C. दाद — III. प्रोटोजोआ<br>D. फाइलेरिया — IV. जीवाणु",
+     "o": [
+      "A-I, B-III, C-II, D-IV",
+      "A-IV, B-III, C-I, D-II",
+      "A-III, B-I, C-IV, D-II",
+      "A-II, B-IV, C-III, D-I"
+     ],
+     "sol": "<ul><li>A टाइफॉइड — जीवाणु (<i>Salmonella typhi</i>) (IV)।</li><li>B लीशमानियता — प्रोटोजोआ (<i>Leishmania</i>) (III)।</li><li>C दाद — कवक (I)।</li><li>D फाइलेरिया — सूत्रकृमि (<i>Wuchereria</i>) (II)।</li></ul><p>A-IV, B-III, C-I, D-II।</p>",
+     "hint": "दाद कवक है, कृमि नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1371,10 +1695,22 @@
       "A-IV, B-III, C-I, D-II",
       "A-I, B-III, C-II, D-IV",
       "A-II, B-I, C-III, D-IV"
-     ]
+     ],
+     "sol": "<ul><li>A Cocaine — from the coca plant <i>Erythroxylum coca</i> (III).</li><li>B Heroin — from morphine of <i>Papaver somniferum</i> (IV).</li><li>C Morphine — effective sedative used in surgery (I).</li><li>D Marijuana — from <i>Cannabis sativa</i> (II).</li></ul><p>A-III, B-IV, C-I, D-II.</p>",
+     "hint": "Match each drug with its plant first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. कोकेन — I. शल्य क्रिया में प्रभावी शामक<br>B. हिरोइन — II. <i>Cannabis sativa</i><br>C. मॉर्फीन — III. <i>Erythroxylum</i><br>D. मैरिजुआना — IV. <i>Papaver somniferum</i>",
+     "o": [
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-III, C-I, D-II",
+      "A-I, B-III, C-II, D-IV",
+      "A-II, B-I, C-III, D-IV"
+     ],
+     "sol": "<ul><li>A कोकेन — कोका पादप <i>Erythroxylum coca</i> से (III)।</li><li>B हिरोइन — <i>Papaver somniferum</i> की मॉर्फीन से (IV)।</li><li>C मॉर्फीन — शल्य क्रिया में प्रयुक्त प्रभावी शामक (I)।</li><li>D मैरिजुआना — <i>Cannabis sativa</i> से (II)।</li></ul><p>A-III, B-IV, C-I, D-II।</p>",
+     "hint": "पहले हर औषध का पादप मिलाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1417,10 +1753,22 @@
       "(A) is not correct but (R) is correct.",
       "Both (A) and (R) are correct and (R) is the correct explanation of (A).",
       "Both (A) and (R) are correct but (R) is not the correct explanation of (A)."
-     ]
+     ],
+     "sol": "<p>A is correct: doctors recommend breast-feeding in the initial period for a healthy baby. R is correct and explains A: colostrum contains abundant antibodies (IgA) that give the newborn resistance (passive immunity).</p>",
+     "hint": "R is the reason doctors give."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं : एक को अभिकथन (A) तथा दूसरे को कारण (R) कहा गया है :<br>अभिकथन (A) : स्वस्थ शिशु के लिए डॉक्टर शिशु वृद्धि की आरंभिक अवधि में स्तनपान की सलाह देते हैं।<br>कारण (R) : पीयूष (कोलोस्ट्रम) में अनेक प्रतिरक्षी होते हैं जो नवजात शिशु में प्रतिरोध विकसित करने के लिए अत्यंत आवश्यक हैं।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "(A) सही है परंतु (R) सही नहीं है।",
+      "(A) सही नहीं है परंतु (R) सही है।",
+      "(A) और (R) दोनों सही हैं तथा (R), (A) की सही व्याख्या है।",
+      "(A) और (R) दोनों सही हैं परंतु (R), (A) की सही व्याख्या नहीं है।"
+     ],
+     "sol": "<p>A सही है: डॉक्टर स्वस्थ शिशु के लिए आरंभिक अवधि में स्तनपान की सलाह देते हैं। R सही है और A की व्याख्या करता है: पीयूष में प्रचुर प्रतिरक्षी (IgA) होते हैं जो नवजात को प्रतिरोध देते हैं (निष्क्रिय प्रतिरक्षा)।</p>",
+     "hint": "R वही कारण है जो डॉक्टर बताते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1459,14 +1807,26 @@
      "status": "draft",
      "q": "Match List I with List II :<br>A. Common cold — I. Plasmodium<br>B. Haemozoin — II. Typhoid<br>C. Widal test — III. Rhinoviruses<br>D. Allergy — IV. Dust mites",
      "o": [
-      "Common cold I. Plasmodium",
-      "Haemozoin II. Typhoid",
-      "Widal test III. Rhinoviruses",
-      "Allergy IV. Dust mites Choose the correct answer from the options give below: (A) A-II, B-IV, C-III, D-I (B) A-I, B-III, C-II, D-IV (C) A-III, B-I, C-II, D-IV (D) A-IV, B-II, C-III, D-I"
-     ]
+      "A-II, B-IV, C-III, D-I",
+      "A-I, B-III, C-II, D-IV",
+      "A-III, B-I, C-II, D-IV",
+      "A-IV, B-II, C-III, D-I"
+     ],
+     "sol": "<ul><li>A Common cold — rhinoviruses (III).</li><li>B Haemozoin — toxin released by <i>Plasmodium</i> when RBCs burst; causes chill and fever (I).</li><li>C Widal test — confirms typhoid (II).</li><li>D Allergy — common allergens include dust mites (IV).</li></ul><p>A-III, B-I, C-II, D-IV.</p>",
+     "hint": "Haemozoin belongs to malaria."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. सामान्य जुकाम — I. <i>Plasmodium</i><br>B. हीमोजोइन — II. टाइफॉइड<br>C. विडाल परीक्षण — III. नासाविषाणु (राइनोवायरस)<br>D. एलर्जी — IV. धूल में चिचड़ी (dust mites)",
+     "o": [
+      "A-II, B-IV, C-III, D-I",
+      "A-I, B-III, C-II, D-IV",
+      "A-III, B-I, C-II, D-IV",
+      "A-IV, B-II, C-III, D-I"
+     ],
+     "sol": "<ul><li>A सामान्य जुकाम — नासाविषाणु (III)।</li><li>B हीमोजोइन — लाल रुधिर कणिकाएँ (RBC) फटने पर <i>Plasmodium</i> द्वारा मुक्त विषालु पदार्थ; ठिठुरन और ज्वर का कारण (I)।</li><li>C विडाल परीक्षण — टाइफॉइड की पुष्टि (II)।</li><li>D एलर्जी — सामान्य एलर्जन में धूल की चिचड़ी (IV)।</li></ul><p>A-III, B-I, C-II, D-IV।</p>",
+     "hint": "हीमोजोइन मलेरिया से संबंधित है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1510,10 +1870,22 @@
       "Both Statement I and Statement II are incorrect",
       "Statement I is correct but Statement II is incorrect",
       "Statement I is incorrect but Statement II is correct"
-     ]
+     ],
+     "sol": "<p>Statement I is correct: bone marrow is the main lymphoid organ where all blood cells, including lymphocytes, are produced. Statement II is correct as stated in NCERT: bone marrow and thymus (primary lymphoid organs) provide micro-environments for the development and maturation of T-lymphocytes. Both correct.</p>",
+     "hint": "Both are NCERT sentences from 7.2.7."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : अस्थि मज्जा मुख्य लसीकाभ अंग है जहाँ लसीकाणुओं सहित सभी रुधिर कोशिकाएँ बनती हैं।<br>कथन II : अस्थि मज्जा तथा थाइमस दोनों T-लसीकाणुओं के परिवर्धन तथा परिपक्वन के लिए सूक्ष्म-पर्यावरण प्रदान करते हैं।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों सही हैं",
+      "कथन I तथा कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है"
+     ],
+     "sol": "<p>कथन I सही है: अस्थि मज्जा मुख्य लसीकाभ अंग है जहाँ लसीकाणुओं सहित सभी रुधिर कोशिकाएँ बनती हैं। कथन II NCERT के अनुसार सही है: अस्थि मज्जा और थाइमस (प्राथमिक लसीकाभ अंग) T-लसीकाणुओं के परिवर्धन तथा परिपक्वन के लिए सूक्ष्म-पर्यावरण देते हैं। दोनों सही।</p>",
+     "hint": "दोनों 7.2.7 के NCERT वाक्य हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1556,10 +1928,22 @@
       "D and E only",
       "C and D only",
       "A and C only"
-     ]
+     ],
+     "sol": "<ul><li>A — correct: CT and MRI detect cancers of internal organs.</li><li>B — wrong: chemotherapy drugs kill <b>cancerous</b> cells.</li><li>C — correct: α-interferon is a biological response modifier that activates the immune system to destroy the tumour.</li><li>D — wrong: chemotherapy drugs are not biological response modifiers (interferons are).</li><li>E — wrong: in leukaemia the WBC count <b>increases</b>.</li></ul><p>A and C only.</p>",
+     "hint": "Interferon = biological response modifier."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कौन-से सही हैं :<br>A. अभिकलित टॉमोग्राफी तथा चुंबकीय अनुनादी इमेजिंग आंतरिक अंगों के कैंसर का पता लगाते हैं।<br>B. रसायन-चिकित्सा औषधियाँ अकैंसरी कोशिकाओं को मारने के लिए प्रयुक्त होती हैं।<br>C. α-इंटरफेरॉन कैंसर रोगी के प्रतिरक्षा तंत्र को सक्रिय करता है और अर्बुद को नष्ट करने में सहायता करता है।<br>D. रसायन-चिकित्सा औषधियाँ जैविक अनुक्रिया रूपांतरक हैं।<br>E. अधिश्वेतरक्तता (ल्यूकीमिया) की स्थिति में रुधिर कोशिकाओं की संख्या घट जाती है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल B तथा D",
+      "केवल D तथा E",
+      "केवल C तथा D",
+      "केवल A तथा C"
+     ],
+     "sol": "<ul><li>A — सही: CT तथा MRI आंतरिक अंगों के कैंसर का पता लगाते हैं।</li><li>B — गलत: रसायन-चिकित्सा औषधियाँ <b>कैंसरी</b> कोशिकाओं को मारती हैं।</li><li>C — सही: α-इंटरफेरॉन जैविक अनुक्रिया रूपांतरक है जो प्रतिरक्षा तंत्र को सक्रिय कर अर्बुद नष्ट कराता है।</li><li>D — गलत: रसायन-चिकित्सा औषधियाँ जैविक अनुक्रिया रूपांतरक नहीं हैं (इंटरफेरॉन हैं)।</li><li>E — गलत: अधिश्वेतरक्तता में श्वेत रुधिर कोशिकाओं (WBC) की संख्या <b>बढ़ती</b> है।</li></ul><p>केवल A तथा C।</p>",
+     "hint": "इंटरफेरॉन = जैविक अनुक्रिया रूपांतरक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1602,10 +1986,22 @@
       "A, B, C only",
       "A, B, D only",
       "B, C, D only"
-     ]
+     ],
+     "sol": "<p>Neoplastic (malignant) tumours are masses of proliferating cells (A) that grow rapidly (B) and invade and damage surrounding normal tissue (C). Remaining confined to the original location (D) is a feature of benign tumours. A, B, C only.</p>",
+     "hint": "Confined = benign."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कोशिकाओं के नियोप्लास्टिक (neoplastic) अभिलक्षणों से तात्पर्य है :<br>A. प्रचुरोद्भवी कोशिकाओं का पिंड<br>B. कोशिकाओं की तीव्र वृद्धि<br>C. आसपास के ऊतक पर आक्रमण तथा उसकी क्षति<br>D. अपने मूल स्थान तक सीमित रहना<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A, B",
+      "केवल A, B, C",
+      "केवल A, B, D",
+      "केवल B, C, D"
+     ],
+     "sol": "<p>नियोप्लास्टिक (दुर्दम) अर्बुद प्रचुरोद्भवी कोशिकाओं के पिंड हैं (A) जो तेज़ी से बढ़ते हैं (B) और आसपास के सामान्य ऊतक पर आक्रमण कर उसे क्षति पहुँचाते हैं (C)। अपने मूल स्थान तक सीमित रहना (D) सुदम अर्बुद का लक्षण है। केवल A, B, C।</p>",
+     "hint": "सीमित = सुदम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1648,10 +2044,22 @@
       "The heavy and light chains are held together by disulfide bonds.",
       "Antigen binding site is located at C-terminal region of antibody molecules.",
       "Constant region of heavy and light chains are located at C-terminus of antibody molecules."
-     ]
+     ],
+     "sol": "<p>An antibody has two light and two heavy chains (H<sub>2</sub>L<sub>2</sub>) held by disulfide bonds; the constant regions are at the C-terminus. The <b>antigen-binding site</b> lies in the variable region at the <b>N-terminal</b> end, not the C-terminal — so statement 3 is not correct.</p>",
+     "hint": "Variable region = antigen binding = N-terminal tips of the Y."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वह कथन पहचानिए जो सही नहीं है।",
+     "o": [
+      "प्रत्येक प्रतिरक्षी में दो हल्की तथा दो भारी शृंखलाएँ होती हैं।",
+      "भारी तथा हल्की शृंखलाएँ डाइसल्फाइड आबंधों द्वारा जुड़ी रहती हैं।",
+      "प्रतिजन बंधन स्थल प्रतिरक्षी अणुओं के C-अंतस्थ क्षेत्र पर स्थित होता है।",
+      "भारी तथा हल्की शृंखलाओं के स्थिर क्षेत्र प्रतिरक्षी अणुओं के C-अंतस्थ पर स्थित होते हैं।"
+     ],
+     "sol": "<p>प्रतिरक्षी में दो हल्की और दो भारी शृंखलाएँ (H<sub>2</sub>L<sub>2</sub>) डाइसल्फाइड आबंधों से जुड़ी होती हैं; स्थिर क्षेत्र C-अंतस्थ पर होते हैं। <b>प्रतिजन बंधन स्थल</b> परिवर्ती क्षेत्र में <b>N-अंतस्थ</b> सिरे पर होता है, C-अंतस्थ पर नहीं — अतः कथन 3 सही नहीं है।</p>",
+     "hint": "परिवर्ती क्षेत्र = प्रतिजन बंधन = Y के N-अंतस्थ सिरे।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1694,10 +2102,22 @@
       "A, B, C only",
       "E, A, B only",
       "C, D, E only"
-     ]
+     ],
+     "sol": "<p>Thymus and bone marrow are <b>primary</b> lymphoid organs. After maturation, lymphocytes migrate to <b>secondary</b> lymphoid organs — spleen, lymph nodes, tonsils, Peyer's patches of the small intestine and appendix — to interact with antigens. C, D, E only.</p>",
+     "hint": "Remove the two primary organs."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्राथमिक लसीकाभ अंगों में परिपक्वन के बाद लसीकाणु प्रतिजनों से पारस्परिक क्रिया के लिए किन द्वितीयक लसीकाभ अंगों/ऊतकों में जाते हैं?<br>A. थाइमस<br>B. अस्थि मज्जा<br>C. प्लीहा<br>D. लसीका ग्रंथियाँ<br>E. पेयर पैच<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल B, C, D",
+      "केवल A, B, C",
+      "केवल E, A, B",
+      "केवल C, D, E"
+     ],
+     "sol": "<p>थाइमस और अस्थि मज्जा <b>प्राथमिक</b> लसीकाभ अंग हैं। परिपक्वन के बाद लसीकाणु प्रतिजनों से पारस्परिक क्रिया के लिए <b>द्वितीयक</b> लसीकाभ अंगों — प्लीहा, लसीका ग्रंथियाँ, टांसिल, क्षुद्रांत्र के पेयर पैच तथा परिशेषिका — में जाते हैं। केवल C, D, E।</p>",
+     "hint": "दोनों प्राथमिक अंग हटा दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1740,10 +2160,22 @@
       "Innate Immunity",
       "Cell-mediated Immunity",
       "Humoral Immunity"
-     ]
+     ],
+     "sol": "<p><b>Innate immunity</b> is present at birth and is non-specific (barriers such as skin, mucus, phagocytes, fever, interferons). Acquired immunity (humoral and cell-mediated) is specific and develops after exposure.</p>",
+     "hint": "Born with it = innate."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव शरीर में जन्म के समय उपस्थित तथा अविशिष्ट प्रकार की रक्षा वाली प्रतिरक्षा निम्नलिखित में से कौन-सी है?",
+     "o": [
+      "उपार्जित प्रतिरक्षा",
+      "सहज प्रतिरक्षा",
+      "कोशिका-माध्यित प्रतिरक्षा",
+      "तरल प्रतिरक्षा"
+     ],
+     "sol": "<p><b>सहज प्रतिरक्षा</b> जन्म से उपस्थित और अविशिष्ट होती है (रोध जैसे त्वचा, श्लेष्मा, भक्षकाणु, ज्वर, इंटरफेरॉन)। उपार्जित प्रतिरक्षा (तरल तथा कोशिका-माध्यित) विशिष्ट होती है और संपर्क के बाद विकसित होती है।</p>",
+     "hint": "जन्म से = सहज।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1786,10 +2218,22 @@
       "E, C, D, B, A",
       "E, D, B, A, C",
       "C, A, B, D, E"
-     ]
+     ],
+     "sol": "<p>The female <i>Anopheles</i> injects sporozoites (E) → they reach the liver through blood (D) → multiply asexually in liver cells and burst into the blood (B) → multiply asexually in RBCs, bursting them (A) → some develop into gametocytes in RBCs (C). Order: E, D, B, A, C.</p>",
+     "hint": "Liver stage comes before the RBC stage."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "<i>Plasmodium</i> के जीवन चक्र की अवस्थाएँ निम्नलिखित हैं। इन अवस्थाओं को उचित क्रम में व्यवस्थित कीजिए :<br>A. परजीवी लाल रुधिर कणिकाओं (RBC) में अलैंगिक जनन करते हैं और उन्हें फोड़ देते हैं।<br>B. परजीवी यकृत कोशिकाओं में अलैंगिक जनन करते हैं, कोशिकाओं को फोड़कर रुधिर में मुक्त होते हैं।<br>C. लाल रुधिर कणिकाओं (RBC) में युग्मकजनक विकसित होते हैं।<br>D. जीवाणुज रुधिर द्वारा यकृत तक पहुँचते हैं।<br>E. मादा मच्छर काटते समय मनुष्य में जीवाणुज डालती है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A, B, C, D, E",
+      "E, C, D, B, A",
+      "E, D, B, A, C",
+      "C, A, B, D, E"
+     ],
+     "sol": "<p>मादा <i>Anopheles</i> जीवाणुज डालती है (E) → वे रुधिर द्वारा यकृत पहुँचते हैं (D) → यकृत कोशिकाओं में अलैंगिक गुणन कर रुधिर में निकलते हैं (B) → लाल रुधिर कणिकाओं (RBC) में अलैंगिक गुणन कर उन्हें फोड़ते हैं (A) → कुछ लाल रुधिर कणिकाओं (RBC) में युग्मकजनक बनते हैं (C)। क्रम: E, D, B, A, C।</p>",
+     "hint": "यकृत अवस्था RBC अवस्था से पहले।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1833,10 +2277,22 @@
       "A-III, B-II, C-IV, D-I",
       "A-III, B-II, C-I, D-IV",
       "A-II, B-III, C-IV, D-I"
-     ]
+     ],
+     "sol": "<ul><li>A Nicotine — stimulates the adrenal gland to release adrenaline and noradrenaline (catecholamines) into blood (II).</li><li>B Morphine — very effective sedative and painkiller (III).</li><li>C Heroin — a depressant, slows down body functions (IV).</li><li>D Cocaine — interferes with dopamine transport; gives euphoria and increased energy (I).</li></ul><p>A-II, B-III, C-IV, D-I.</p>",
+     "hint": "Nicotine ↔ adrenal; cocaine ↔ euphoria."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>सूची-I (औषध) — सूची-II (प्रभाव)<br>A. निकोटीन — I. उल्लास का भाव तथा ऊर्जा में वृद्धि उत्पन्न करती है<br>B. मॉर्फीन — II. अधिवृक्क ग्रंथि को रुधिर परिसंचरण में कैटेकोलामीन मुक्त करने के लिए उद्दीपित करती है<br>C. हिरोइन — III. प्रभावी शामक तथा पीड़ाहर<br>D. कोकेन — IV. एक अवसादक; शरीर के प्रकार्य धीमे करती है",
+     "o": [
+      "A-II, B-III, C-I, D-IV",
+      "A-III, B-II, C-IV, D-I",
+      "A-III, B-II, C-I, D-IV",
+      "A-II, B-III, C-IV, D-I"
+     ],
+     "sol": "<ul><li>A निकोटीन — अधिवृक्क ग्रंथि को उद्दीपित कर एड्रिनलीन और नॉरएड्रिनलीन (कैटेकोलामीन) रुधिर में मुक्त कराती है (II)।</li><li>B मॉर्फीन — अत्यंत प्रभावी शामक तथा पीड़ाहर (III)।</li><li>C हिरोइन — अवसादक, शरीर के प्रकार्य धीमे करती है (IV)।</li><li>D कोकेन — डोपेमीन परिवहन में बाधा; उल्लास का भाव और ऊर्जा में वृद्धि (I)।</li></ul><p>A-II, B-III, C-IV, D-I।</p>",
+     "hint": "निकोटीन ↔ अधिवृक्क; कोकेन ↔ उल्लास।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
