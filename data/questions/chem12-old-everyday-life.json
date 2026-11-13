@@ -26,10 +26,22 @@
       "Chlordiazepoxide",
       "Meprobamate",
       "Valium"
-     ]
+     ],
+     "sol": "<p>Veronal (barbital) is a derivative of barbituric acid: a barbiturate tranquilliser. Chlordiazepoxide and Valium are benzodiazepines; meprobamate is a carbamate.</p>",
+     "hint": "Veronal, amytal, nembutal, luminal, seconal are barbiturates."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कुछ प्रशांतक नीचे सूचीबद्ध हैं। निम्नलिखित में से कौन-सा बार्बिट्यूरेट से संबंधित है?",
+     "o": [
+      "वेरोनल",
+      "क्लोरडाइऐज़ेपॉक्साइड",
+      "मेप्रोबामेट",
+      "वैलियम"
+     ],
+     "sol": "<p>वेरोनल (बार्बिटल) बार्बिट्यूरिक अम्ल का व्युत्पन्न है: एक बार्बिट्यूरेट प्रशांतक। क्लोरडाइऐज़ेपॉक्साइड और वैलियम बेन्ज़ोडाइऐज़ेपीन हैं; मेप्रोबामेट एक कार्बामेट है।</p>",
+     "hint": "वेरोनल, ऐमिटल, नेम्बुटल, ल्यूमिनल, सेकोनल बार्बिट्यूरेट हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -71,10 +83,22 @@
       "Both <b>Statement I</b> and <b>Statement II</b> are true",
       "Both <b>Statement I</b> and <b>Statement II</b> are false",
       "<b>Statement I</b> is correct but <b>Statement II</b> is false"
-     ]
+     ],
+     "sol": "<p>Both statements have the classes swapped: aspirin and paracetamol are <i>non-narcotic</i> analgesics; morphine and heroin are <i>narcotic</i> analgesics. Both false.</p>",
+     "hint": "Opium derivatives are narcotics."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : ऐस्पिरिन और पैरासिटामॉल स्वापक पीड़ाहारी वर्ग से संबंधित हैं।<br>कथन II : मॉर्फ़ीन और हेरोइन अस्वापक पीड़ाहारी हैं। उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।",
+     "o": [
+      "<b>कथन I</b> गलत है परंतु <b>कथन II</b> सत्य है।",
+      "<b>कथन I</b> और <b>कथन II</b> दोनों सत्य हैं",
+      "<b>कथन I</b> और <b>कथन II</b> दोनों असत्य हैं",
+      "<b>कथन I</b> सही है परंतु <b>कथन II</b> असत्य है"
+     ],
+     "sol": "<p>दोनों कथनों में वर्ग उलट दिए गए हैं: ऐस्पिरिन और पैरासिटामॉल <i>अस्वापक</i> पीड़ाहारी हैं; मॉर्फ़ीन और हेरोइन <i>स्वापक</i> पीड़ाहारी हैं। दोनों असत्य।</p>",
+     "hint": "अफ़ीम व्युत्पन्न स्वापक हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -116,10 +140,22 @@
       "Sodium dodecylbenzene sulphonate",
       "Sodium lauryl sulphate",
       "Sodium stearate"
-     ]
+     ],
+     "sol": "<p>Cationic detergents are quaternary ammonium salts with a long chain: cetyltrimethylammonium bromide, [C<sub>16</sub>H<sub>33</sub>N(CH<sub>3</sub>)<sub>3</sub>]<sup>+</sup>Br<sup>−</sup>. Sulphonates and sulphates are anionic detergents; sodium stearate is a soap.</p>",
+     "hint": "Cationic = long-chain quaternary ammonium."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा धनायनी अपमार्जक है?",
+     "o": [
+      "सेटिलट्राइमेथिल अमोनियम ब्रोमाइड",
+      "सोडियम डोडेसिलबेन्जीन सल्फोनेट",
+      "सोडियम लॉरिल सल्फेट",
+      "सोडियम स्टिएरेट"
+     ],
+     "sol": "<p>धनायनी अपमार्जक लंबी श्रृंखला वाले चतुष्क अमोनियम लवण हैं: सेटिलट्राइमेथिलअमोनियम ब्रोमाइड, [C<sub>16</sub>H<sub>33</sub>N(CH<sub>3</sub>)<sub>3</sub>]<sup>+</sup>Br<sup>−</sup>। सल्फोनेट और सल्फेट ऋणायनी अपमार्जक हैं; सोडियम स्टिएरेट साबुन है।</p>",
+     "hint": "धनायनी = लंबी श्रृंखला वाला चतुष्क अमोनियम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -161,10 +197,22 @@
       "chloramphenicol",
       "penicillin G",
       "ampicillin"
-     ]
+     ],
+     "sol": "<p>Penicillin G is a narrow-spectrum antibiotic (mainly Gram-positive bacteria). Ampicillin and amoxycillin (modified penicillins) and chloramphenicol are broad-spectrum.</p>",
+     "hint": "Ampicillin/amoxycillin were made to widen penicillin's spectrum."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से संकीर्ण स्पेक्ट्रम प्रतिजैविक है :",
+     "o": [
+      "ऐमॉक्सिसिलिन",
+      "क्लोरैम्फेनिकॉल",
+      "पेनिसिलिन G",
+      "ऐम्पिसिलिन"
+     ],
+     "sol": "<p>पेनिसिलिन G संकीर्ण स्पेक्ट्रम प्रतिजैविक है (मुख्यतः ग्राम-धनात्मक जीवाणु)। ऐम्पिसिलिन और ऐमॉक्सिसिलिन (रूपांतरित पेनिसिलिन) तथा क्लोरैम्फेनिकॉल व्यापक स्पेक्ट्रम हैं।</p>",
+     "hint": "ऐम्पिसिलिन/ऐमॉक्सिसिलिन पेनिसिलिन का स्पेक्ट्रम बढ़ाने के लिए बनाए गए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -206,10 +254,22 @@
       "antiseptic",
       "antipyretic",
       "antibiotic"
-     ]
+     ],
+     "sol": "<p>Dettol is a mixture of chloroxylenol and terpineol; it is an antiseptic applied to wounds and skin.</p>",
+     "hint": "Dettol."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "क्लोरोज़ाइलेनॉल और टर्पिनिऑल का मिश्रण किस रूप में कार्य करता है :",
+     "o": [
+      "पीड़ाहारी",
+      "पूतिरोधी",
+      "ज्वरनाशी",
+      "प्रतिजैविक"
+     ],
+     "sol": "<p>डेटॉल क्लोरोज़ाइलेनॉल और टर्पिनिऑल का मिश्रण है; यह घावों और त्वचा पर लगाया जाने वाला पूतिरोधी है।</p>",
+     "hint": "डेटॉल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -251,10 +311,22 @@
       "Penicillin",
       "Streptomycin",
       "Chloromycetin"
-     ]
+     ],
+     "sol": "<p>Novalgin (analgin) is a non-narcotic analgesic. Penicillin, streptomycin and chloromycetin are antibiotics.</p>",
+     "hint": "The others are antibiotics."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा पीड़ाहारी है ?",
+     "o": [
+      "नोवाल्जिन",
+      "पेनिसिलिन",
+      "स्ट्रेप्टोमाइसिन",
+      "क्लोरोमाइसिटिन"
+     ],
+     "sol": "<p>नोवाल्जिन (एनाल्जिन) अस्वापक पीड़ाहारी है। पेनिसिलिन, स्ट्रेप्टोमाइसिन और क्लोरोमाइसिटिन प्रतिजैविक हैं।</p>",
+     "hint": "बाकी प्रतिजैविक हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -296,10 +368,22 @@
       "(a)-(i), (b)-(iv), (c)-(ii), (d)-(iii)",
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)"
-     ]
+     ],
+     "sol": "<ul><li>Antacid: cimetidine (iii).</li><li>Antihistamine: seldane (terfenadine) (iv).</li><li>Analgesic: morphine (ii).</li><li>Antimicrobial: salvarsan (arsphenamine) (i).</li></ul>",
+     "hint": "Salvarsan was used against syphilis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए।<br>सूची-I (औषध वर्ग): (a) प्रतिअम्ल (b) प्रतिहिस्टैमिन (c) पीड़ाहारी (d) प्रतिसूक्ष्मजैविक<br>सूची-II (औषध अणु): (i) सैल्वरसान (ii) मॉर्फ़ीन (iii) सिमेटिडीन (iv) सेल्डेन<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(i), (b)-(iv), (c)-(ii), (d)-(iii)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)"
+     ],
+     "sol": "<ul><li>प्रतिअम्ल: सिमेटिडीन (iii)।</li><li>प्रतिहिस्टैमिन: सेल्डेन (टरफ़ेनाडीन) (iv)।</li><li>पीड़ाहारी: मॉर्फ़ीन (ii)।</li><li>प्रतिसूक्ष्मजैविक: सैल्वरसान (आर्सफ़ेनामीन) (i)।</li></ul>",
+     "hint": "सैल्वरसान सिफ़लिस के विरुद्ध प्रयुक्त होता था।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {

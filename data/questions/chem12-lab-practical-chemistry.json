@@ -26,10 +26,22 @@
       "A-III, B-IV, C-I, D-II",
       "A-III, B-II, C-IV, D-I",
       "A-III, B-II, C-I, D-IV"
-     ]
+     ],
+     "sol": "<p>Cation groups: I – Pb<sup>2+</sup> (as chloride); II – Cu<sup>2+</sup>, etc.; III – Al<sup>3+</sup>, Fe<sup>3+</sup> (as hydroxides); IV – Co<sup>2+</sup>, Ni<sup>2+</sup>, Zn<sup>2+</sup>, Mn<sup>2+</sup> (as sulphides in basic medium); V – Ba<sup>2+</sup>, Sr<sup>2+</sup>, Ca<sup>2+</sup>; VI – Mg<sup>2+</sup>. So A-III, B-IV, C-I, D-II.</p>",
+     "hint": "Lab manual table of cation groups."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए<br>सूची I (आयन): A. Co<sup>2+</sup> B. Mg<sup>2+</sup> C. Pb<sup>2+</sup> D. Al<sup>3+</sup><br>सूची II (धनायन विश्लेषण में समूह संख्या): I. समूह-I II. समूह-III III. समूह-IV IV. समूह-VI<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-IV, C-I, D-II",
+      "A-III, B-II, C-IV, D-I",
+      "A-III, B-II, C-I, D-IV"
+     ],
+     "sol": "<p>धनायन समूह: I – Pb<sup>2+</sup> (क्लोराइड के रूप में); II – Cu<sup>2+</sup> आदि; III – Al<sup>3+</sup>, Fe<sup>3+</sup> (हाइड्रॉक्साइड के रूप में); IV – Co<sup>2+</sup>, Ni<sup>2+</sup>, Zn<sup>2+</sup>, Mn<sup>2+</sup> (क्षारीय माध्यम में सल्फाइड के रूप में); V – Ba<sup>2+</sup>, Sr<sup>2+</sup>, Ca<sup>2+</sup>; VI – Mg<sup>2+</sup>। अतः A-III, B-IV, C-I, D-II।</p>",
+     "hint": "प्रयोगशाला पुस्तिका की धनायन समूह सारणी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -72,10 +84,22 @@
       "B, C, A, D, E",
       "E, C, D, B, A",
       "E, A, B, C, D"
-     ]
+     ],
+     "sol": "<p>Groups: Cu<sup>2+</sup> II, Al<sup>3+</sup> III, Co<sup>2+</sup> IV, Ba<sup>2+</sup> V, Mg<sup>2+</sup> VI. Increasing group number: B, A, D, C, E.</p>",
+     "hint": "Mg<sup>2+</sup> is always last (group VI)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे कुछ धनायन दिए गए हैं। अकार्बनिक गुणात्मक विश्लेषण का उपयोग करते हुए इन्हें 0 से VI तक बढ़ती समूह संख्या के क्रम में व्यवस्थित कीजिए।<br>A. Al<sup>3+</sup><br>B. Cu<sup>2+</sup><br>C. Ba<sup>2+</sup><br>D. Co<sup>2+</sup><br>E. Mg<sup>2+</sup><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए",
+     "o": [
+      "B, A, D, C, E",
+      "B, C, A, D, E",
+      "E, C, D, B, A",
+      "E, A, B, C, D"
+     ],
+     "sol": "<p>समूह: Cu<sup>2+</sup> II, Al<sup>3+</sup> III, Co<sup>2+</sup> IV, Ba<sup>2+</sup> V, Mg<sup>2+</sup> VI। बढ़ती समूह संख्या: B, A, D, C, E।</p>",
+     "hint": "Mg<sup>2+</sup> सदैव अंत में (समूह VI)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -117,10 +141,22 @@
       "dilute sulphuric acid",
       "dilute hydrochloric acid",
       "concentrated sulphuric acid"
-     ]
+     ],
+     "sol": "<p>Fe<sup>2+</sup> hydrolyses in water; a little dilute H<sub>2</sub>SO<sub>4</sub> is added to suppress hydrolysis. Sulphuric acid is used because Mohr's salt is a sulphate (no foreign ions); HNO<sub>3</sub> would oxidise Fe<sup>2+</sup>, and concentrated H<sub>2</sub>SO<sub>4</sub> is also oxidising.</p>",
+     "hint": "Same anion as the salt, and not oxidising."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मोर लवण विलयन (फेरस अमोनियम सल्फेट) बनाते समय Fe<sup>+2</sup> आयन के जल-अपघटन को रोकने के लिए निम्नलिखित में से कौन-सा अम्ल मिलाया जाता है?",
+     "o": [
+      "तनु नाइट्रिक अम्ल",
+      "तनु सल्फ्यूरिक अम्ल",
+      "तनु हाइड्रोक्लोरिक अम्ल",
+      "सांद्र सल्फ्यूरिक अम्ल"
+     ],
+     "sol": "<p>Fe<sup>2+</sup> जल में जल-अपघटित होता है; जल-अपघटन रोकने के लिए थोड़ा तनु H<sub>2</sub>SO<sub>4</sub> मिलाया जाता है। सल्फ्यूरिक अम्ल इसलिए क्योंकि मोर लवण सल्फेट है (कोई बाहरी आयन नहीं); HNO<sub>3</sub>, Fe<sup>2+</sup> का ऑक्सीकरण कर देगा, और सांद्र H<sub>2</sub>SO<sub>4</sub> भी ऑक्सीकारक है।</p>",
+     "hint": "लवण वाला ही ऋणायन, और ऑक्सीकारक नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -162,10 +198,22 @@
       "pinkish red to yellow",
       "colourless to pink",
       "yellow to pinkish red"
-     ]
+     ],
+     "sol": "<p>Here NaOH with phenolphthalein is pink (alkaline); as oxalic acid is added the solution is neutralised, and at the end point the pink colour just disappears: <b>pink to colourless</b> (official key).</p>",
+     "hint": "Phenolphthalein is pink in base, colourless in acid."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ऑक्सैलिक अम्ल के मानक विलयन के विरुद्ध सोडियम हाइड्रॉक्साइड विलयन के अनुमापन के लिए फ़िनॉल्फ़्थेलीन सूचक के रूप में प्रयुक्त होता है। इस अनुमापन के दौरान तुल्यांक बिंदु के निकट क्षारीय pH पर देखा जाने वाला रंग परिवर्तन है :",
+     "o": [
+      "गुलाबी से रंगहीन",
+      "गुलाबी-लाल से पीला",
+      "रंगहीन से गुलाबी",
+      "पीले से गुलाबी-लाल"
+     ],
+     "sol": "<p>यहाँ फ़िनॉल्फ़्थेलीन के साथ NaOH गुलाबी (क्षारीय) है; ऑक्सैलिक अम्ल मिलाने पर विलयन उदासीन होता जाता है, और अंत्यबिंदु पर गुलाबी रंग ठीक लुप्त हो जाता है: <b>गुलाबी से रंगहीन</b> (आधिकारिक कुंजी)।</p>",
+     "hint": "फ़िनॉल्फ़्थेलीन क्षार में गुलाबी, अम्ल में रंगहीन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -211,10 +259,22 @@
       "Alcohol",
       "Aldehyde",
       "Phenolic"
-     ]
+     ],
+     "sol": "<p>Phthalein dye test: a phenol is heated with phthalic anhydride and conc. H<sub>2</sub>SO<sub>4</sub>, then made alkaline; a coloured phthalein dye (e.g. pink phenolphthalein) shows the <b>phenolic</b> –OH group.</p>",
+     "hint": "Phenol + phthalic anhydride → phenolphthalein."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "थैलीन रंजक परीक्षण द्वारा पहचाना जा सकने वाला क्रियात्मक समूह है",
+     "o": [
+      "कार्बोक्सिलिक अम्ल",
+      "ऐल्कोहॉल",
+      "ऐल्डिहाइड",
+      "फ़ीनॉलिक"
+     ],
+     "sol": "<p>थैलीन रंजक परीक्षण: फ़ीनॉल को थैलिक ऐनहाइड्राइड और सांद्र H<sub>2</sub>SO<sub>4</sub> के साथ गरम करके क्षारीय किया जाता है; रंगीन थैलीन रंजक (जैसे गुलाबी फ़िनॉल्फ़्थेलीन) <b>फ़ीनॉलिक</b> –OH समूह दर्शाता है।</p>",
+     "hint": "फ़ीनॉल + थैलिक ऐनहाइड्राइड → फ़िनॉल्फ़्थेलीन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -259,10 +319,22 @@
       "Sulphide, S<sup>2−</sup>",
       "Acetate, CH<sub>3</sub>COO<sup>−</sup>",
       "Sulphate, SO<sub>4</sub><sup>2−</sup>"
-     ]
+     ],
+     "sol": "<p>Dilute H<sub>2</sub>SO<sub>4</sub> releases acetic acid vapour from an acetate: CH<sub>3</sub>COO<sup>−</sup> + H<sup>+</sup> → CH<sub>3</sub>COOH, which smells of vinegar and turns blue litmus red. Carbonate gives odourless CO<sub>2</sub>; sulphide gives H<sub>2</sub>S (rotten eggs); sulphate gives no gas.</p>",
+     "hint": "Vinegar smell = acetic acid."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "लवण युक्त परखनली में तनु H<sub>2</sub>SO<sub>4</sub> की कुछ बूँदें मिलाई गईं, जिससे सिरके की गंध वाली रंगहीन वाष्प निकली। वाष्प ने नीले लिटमस पत्र को लाल कर दिया।<br>निम्नलिखित में से सही ऋणायन पहचानिए:",
+     "o": [
+      "कार्बोनेट, CO<sub>3</sub><sup>2−</sup>",
+      "सल्फाइड, S<sup>2−</sup>",
+      "ऐसीटेट, CH<sub>3</sub>COO<sup>−</sup>",
+      "सल्फेट, SO<sub>4</sub><sup>2−</sup>"
+     ],
+     "sol": "<p>तनु H<sub>2</sub>SO<sub>4</sub>, ऐसीटेट से ऐसीटिक अम्ल की वाष्प मुक्त करता है: CH<sub>3</sub>COO<sup>−</sup> + H<sup>+</sup> → CH<sub>3</sub>COOH, जिसकी गंध सिरके जैसी है और जो नीले लिटमस को लाल करती है। कार्बोनेट से गंधहीन CO<sub>2</sub>; सल्फाइड से H<sub>2</sub>S (सड़े अंडे); सल्फेट से कोई गैस नहीं।</p>",
+     "hint": "सिरके की गंध = ऐसीटिक अम्ल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
