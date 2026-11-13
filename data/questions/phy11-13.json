@@ -1,0 +1,995 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-13",
+ "subject": "physics",
+ "class": 11,
+ "unit": 13,
+ "title": {
+  "en": "Oscillations"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph206.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "13.1",
+   "title": "Introduction",
+   "pdfPage": 1
+  },
+  {
+   "id": "13.2",
+   "title": "Periodic and Oscillatory Motions",
+   "pdfPage": 2
+  },
+  {
+   "id": "13.2.1",
+   "title": "Period and Frequency",
+   "pdfPage": 2
+  },
+  {
+   "id": "13.2.2",
+   "title": "Displacement",
+   "pdfPage": 3
+  },
+  {
+   "id": "13.3",
+   "title": "Simple Harmonic Motion",
+   "pdfPage": 4
+  },
+  {
+   "id": "13.4",
+   "title": "Simple Harmonic Motion and Uniform Circular Motion",
+   "pdfPage": 6
+  },
+  {
+   "id": "13.5",
+   "title": "Velocity and Acceleration in Simple Harmonic Motion",
+   "pdfPage": 8
+  },
+  {
+   "id": "13.6",
+   "title": "Force Law for Simple Harmonic Motion",
+   "pdfPage": 9
+  },
+  {
+   "id": "13.7",
+   "title": "Energy in Simple Harmonic Motion",
+   "pdfPage": 10
+  },
+  {
+   "id": "13.8",
+   "title": "The Simple Pendulum",
+   "pdfPage": 12
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-13-neet-2015-re-exam-code-d-q155",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle is executing a simple harmonic motion. Its maximum acceleration is α and maximum velocity is β. Then, its time period of vibration will be :",
+     "o": [
+      "α/β",
+      "β<sup>2</sup>/α",
+      "2πβ/α",
+      "β<sup>2</sup>/α<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q155",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2016-phase-2-code-aa-q20",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A body of mass m is attached to the lower end of a spring whose upper end is fixed. The spring has negligible mass. When the mass m is slightly pulled down and released, it oscillates with a time period of 3 s. When the mass m is increased by 1 kg, the time period of oscillations becomes 5 s. The value of m in kg is :",
+     "o": [
+      "3/4",
+      "4/3",
+      "16/9",
+      "9/16"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q20",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2017-code-a-q15",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle executes linear simple harmonic motion with an amplitude of 3 cm. When the particle is at 2 cm from the mean position, the magnitude of its velocity is equal to that of its acceleration. Then its time period in seconds is :",
+     "o": [
+      "√5/π",
+      "√5/(2π)",
+      "4π/√5",
+      "2π/√3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q15",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2017-code-a-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A spring of force constant k is cut into lengths of ratio 1 : 2 : 3. They are connected in series and the new force constant is k. Then they are connected in parallel and force constant is k. Then k : k is",
+     "o": [
+      "1 : 6",
+      "1 : 9",
+      "1 : 11",
+      "1 : 14"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q23",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "Springs in series/parallel are not in the rationalised NCERT; k ∝ 1/l gives 6k, 3k, 2k."
+   }
+  },
+  {
+   "id": "phy11-13-neet-2018-code-aa-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A pendulum is hung from the roof of a sufficiently high building and is moving freely to and fro like a simple harmonic oscillator. The acceleration of the bob of the pendulum is 20 m/s<sup>2</sup> at a distance of 5 m from the mean position. The time period of oscillation is :",
+     "o": [
+      "2 s",
+      "π s",
+      "2π s",
+      "1 s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q25",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2019-code-s2-q91",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Average velocity of a particle executing SHM in one complete vibration is :",
+     "o": [
+      "Aω<sup>2</sup>/2",
+      "zero",
+      "Aω/2",
+      "Aω"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q91",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2019-code-s2-q101",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The displacement of a particle executing simple harmonic motion is given by y = A<sub>0</sub> + A sin ωt + B cos ωt. Then the amplitude of its oscillation is given by :",
+     "o": [
+      "√(A<sub>0</sub><sup>2</sup> + (A + B)<sup>2</sup>)",
+      "A + B",
+      "A<sub>0</sub> + √(A<sup>2</sup> + B<sup>2</sup>)",
+      "√(A<sup>2</sup> + B<sup>2</sup>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q101",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2019-code-s2-q122",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The radius of circle, the period of revolution, initial position and sense of revolution are indicated in the figure. The y-projection of the radius vector of rotating particle P is :",
+     "o": [
+      "y(t) = 3 cos (3πt/2), where y in m",
+      "y(t) = 3 cos (πt/2), where y in m",
+      "y(t) = −3 cos 2πt, where y in m",
+      "y(t) = 4 sin (πt/2), where y in m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q122",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "Circle of radius 3 m, P on the +y axis at t = 0, moving clockwise, T = 4 s. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-13-neet-2020-code-f3-q33",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The phase difference between the displacement and acceleration of a particle in a simple harmonic motion is :",
+     "o": [
+      "π/2 rad",
+      "zero",
+      "π rad",
+      "3π/2 rad"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q33",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2021-code-p3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A body is executing simple harmonic motion with frequency 'n', the frequency of its potential energy is :",
+     "o": [
+      "4n",
+      "n",
+      "2n",
+      "3n"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q1",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2021-code-p3-q31",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A spring is stretched by 5 cm by a force 10 N. The time period of the oscillations when a mass of 2 kg is suspended by it is :",
+     "o": [
+      "0.628 s",
+      "0.0628 s",
+      "6.28 s",
+      "3.14 s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q31",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2022-code-t2-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two pendulums of length 121 cm and 100 cm start vibrating in phase. At some instant, the two are at their mean position in the same phase. The minimum number of vibrations of the shorter pendulum after which the two are again in phase at the mean position is :",
+     "o": [
+      "9",
+      "10",
+      "8",
+      "11"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q40",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-13-neet-2023-topic-wise-copy-q40",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The x–t graph of a particle performing simple harmonic motion is shown in the figure. The acceleration of the particle at t = 2 s is :",
+     "o": [
+      "−(π<sup>2</sup>/16) m s<sup>−2</sup>",
+      "(π<sup>2</sup>/8) m s<sup>−2</sup>",
+      "−(π<sup>2</sup>/8) m s<sup>−2</sup>",
+      "(π<sup>2</sup>/16) m s<sup>−2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.3",
+     "13.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q40",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "Sine curve of amplitude 1 m starting at x = 0, maximum at t = 2 s, zero at 4 s, minimum at 6 s, zero at 8 s. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-13-neet-2024-q31-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the mass of the bob in a simple pendulum is increased to thrice its original mass and its length is made half its original length, then the new time period of oscillation is x/2 times its original time period. Then the value of x is :",
+     "o": [
+      "√3",
+      "√2",
+      "2√3",
+      "4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q31 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-13-neet-2024-q32-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If x = 5 sin (πt + π/3) m represents the motion of a particle executing simple harmonic motion, the amplitude and time period of motion, respectively, are :",
+     "o": [
+      "5 cm, 2 s",
+      "5 m, 2 s",
+      "5 cm, 1 s",
+      "5 m, 1 s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q32 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-13-neet-2025-code-45-q23",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In an oscillating spring mass system, a spring is connected to a box filled with sand. As the box oscillates, sand leaks slowly out of the box vertically so that the average frequency ω(t) and average amplitude A(t) of the system change with time t. Which one of the following options schematically depicts these changes correctly?",
+     "o": [
+      "[ω rises and levels off; A constant]",
+      "[ω rises and levels off; A falls and levels off]",
+      "[ω rises and levels off; A rises and levels off]",
+      "[ω falls and levels off; A falls and levels off]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q23",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "Each option is a pair of graphs (ω against t above A against t); needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy11-13-neet-2025-code-45-q44",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two identical point masses P and Q, suspended from two separate massless springs of spring constants k<sub>1</sub> and k<sub>2</sub>, respectively, oscillate vertically. If their maximum speeds are the same, the ratio (A<sub>Q</sub>/A<sub>P</sub>) of the amplitude A<sub>Q</sub> of mass Q to the amplitude A<sub>P</sub> of mass P is :",
+     "o": [
+      "k<sub>2</sub>/k<sub>1</sub>",
+      "k<sub>1</sub>/k<sub>2</sub>",
+      "√(k<sub>2</sub>/k<sub>1</sub>)",
+      "√(k<sub>1</sub>/k<sub>2</sub>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.5",
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q44",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2026-code-13-q1",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a simple pendulum, having time period T, the variation of kinetic energy (K.E.) with time (t) is represented by :",
+     "o": [
+      "[graph 1: K.E. a full sine wave from 0, negative between T/2 and T]",
+      "[graph 2: K.E. a sine wave about a positive level]",
+      "[graph 3: K.E. constant]",
+      "[graph 4: K.E. non-negative humps, zero at 0, T/2 and T]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q1",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy11-13-neet-2026-code-13-q4",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The sum of kinetic energy and potential energy of a simple pendulum bob is 0.02 joule. The speed of the simple pendulum bob at equilibrium position is approximately : (Consider mass of the bob = 20 g)",
+     "o": [
+      "2.0 m/s",
+      "0.2 m/s",
+      "14.1 m/s",
+      "1.41 m/s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q4",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-13-neet-2026-code-13-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Savitha, a XI standard student, while conducting an experiment to determine the effective length of a simple pendulum L, notes down the data of time taken to complete 30 oscillations as 60 s and hence calculates the length of the simple pendulum as : (Take π<sup>2</sup> = 9.8, and g = 9.8 m/s<sup>2</sup>)",
+     "o": [
+      "0.75 m",
+      "1 m",
+      "1.5 m",
+      "2 m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-13",
+    "paras": [
+     "13.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q23",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
