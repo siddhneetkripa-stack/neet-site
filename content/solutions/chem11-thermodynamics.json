@@ -1,0 +1,231 @@
+{
+"chem11-thermodynamics-neet-2025-code-45-q65": {
+ "sol": "<p>ΔH = −74.8 kJ mol<sup>−1</sup> is negative, so the reaction is exothermic: the products (P) lie <b>74.8 kJ mol<sup>−1</sup> below</b> the reactants (R) on the energy axis. Only diagram (A) shows P below R by this amount.</p>",
+ "hint": "Negative ΔH → products lower in energy than reactants.",
+ "hi": {
+  "q": "C(s) + 2H<sub>2</sub>(g) → CH<sub>4</sub>(g); ΔH = −74.8 kJ mol<sup>−1</sup>।<br>निम्नलिखित में से कौन-सा आरेख उपर्युक्त अभिक्रिया को सही रूप से दर्शाता है? [R → अभिकारक; P → उत्पाद]",
+  "o": ["ऊर्जा आरेख (A): P, R से 74.8 kJ mol<sup>−1</sup> नीचे है", "ऊर्जा आरेख (B) (प्रश्नपत्र में दिए अनुसार)", "ऊर्जा आरेख (C) (प्रश्नपत्र में दिए अनुसार)", "ऊर्जा आरेख (D) (प्रश्नपत्र में दिए अनुसार)"],
+  "sol": "<p>ΔH = −74.8 kJ mol<sup>−1</sup> ऋणात्मक है, अतः अभिक्रिया ऊष्माक्षेपी है: ऊर्जा अक्ष पर उत्पाद (P), अभिकारकों (R) से <b>74.8 kJ mol<sup>−1</sup> नीचे</b> होते हैं। केवल आरेख (A) में P, R से इतना नीचे दिखाया गया है।</p>",
+  "hint": "ऋणात्मक ΔH → उत्पादों की ऊर्जा अभिकारकों से कम।"
+ }
+},
+"chem11-thermodynamics-neet-2025-code-45-q85": {
+ "sol": "<p>Crystallisation: Ba<sup>2+</sup>(aq) + SO<sub>4</sub><sup>2−</sup>(aq) → BaSO<sub>4</sub>(s); ΔH = −4.5 kcal/mol.</p><p>Δ<sub>f</sub>H(BaSO<sub>4</sub>) = Δ<sub>f</sub>H(Ba<sup>2+</sup>) + Δ<sub>f</sub>H(SO<sub>4</sub><sup>2−</sup>) + (−4.5)</p><p>−349 = x − 216 − 4.5 → x = <b>−128.5 kcal/mol</b>.</p>",
+ "hint": "Write the crystallisation step and apply Hess's law.",
+ "hi": {
+  "q": "Ba<sup>2+</sup> की मानक विरचन ऊष्मा, kcal/mol में है :<br>[दिया है : SO<sub>4</sub><sup>2−</sup> आयन (aq) की मानक विरचन ऊष्मा = −216 kcal/mol, BaSO<sub>4</sub>(s) की मानक क्रिस्टलन ऊष्मा = −4.5 kcal/mol, BaSO<sub>4</sub>(s) की मानक विरचन ऊष्मा = −349 kcal/mol]",
+  "o": ["−128.5", "−133.0", "+133.0", "+220.5"],
+  "sol": "<p>क्रिस्टलन: Ba<sup>2+</sup>(aq) + SO<sub>4</sub><sup>2−</sup>(aq) → BaSO<sub>4</sub>(s); ΔH = −4.5 kcal/mol।</p><p>Δ<sub>f</sub>H(BaSO<sub>4</sub>) = Δ<sub>f</sub>H(Ba<sup>2+</sup>) + Δ<sub>f</sub>H(SO<sub>4</sub><sup>2−</sup>) + (−4.5)</p><p>−349 = x − 216 − 4.5 → x = <b>−128.5 kcal/mol</b>।</p>",
+  "hint": "क्रिस्टलन का पद लिखें और हेस का नियम लगाएँ।"
+ }
+},
+"chem11-thermodynamics-neet-2024-q54-esaral-copy": {
+ "sol": "<ul><li>A ✓ liquid → vapour: disorder increases.</li><li>B ✗ cooling a crystal towards 0 K lowers entropy.</li><li>C ✓ a solid gives two gases: Δn<sub>g</sub> = +2.</li><li>D ✓ one molecule gives two atoms: more particles.</li></ul><p>Answer: <b>A, C and D</b>.</p>",
+ "hint": "Entropy rises with more gas particles, higher temperature, or melting/evaporation.",
+ "hi": {
+  "q": "निम्नलिखित में से किन प्रक्रमों में एन्ट्रॉपी बढ़ती है?<br>A. एक द्रव वाष्प में बदलता है।<br>B. एक क्रिस्टलीय ठोस का ताप 130 K से घटाकर 0 K किया जाता है।<br>C. 2NaHCO<sub>3</sub>(s) → Na<sub>2</sub>CO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(g)<br>D. Cl<sub>2</sub>(g) → 2Cl(g)<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+  "o": ["A और D", "A, B और D", "A, C और D", "C और D"],
+  "sol": "<ul><li>A ✓ द्रव → वाष्प: अव्यवस्था बढ़ती है।</li><li>B ✗ क्रिस्टल को 0 K की ओर ठंडा करने पर एन्ट्रॉपी घटती है।</li><li>C ✓ एक ठोस से दो गैसें बनती हैं: Δn<sub>g</sub> = +2।</li><li>D ✓ एक अणु से दो परमाणु: कणों की संख्या बढ़ती है।</li></ul><p>उत्तर: <b>A, C और D</b>।</p>",
+  "hint": "गैस के अधिक कण, उच्च ताप या गलन/वाष्पन से एन्ट्रॉपी बढ़ती है।"
+ }
+},
+"chem11-thermodynamics-neet-2024-q80-esaral-copy": {
+ "sol": "<p>For reversible isothermal expansion: w = −2.303 nRT log(p<sub>1</sub>/p<sub>2</sub>).</p><p>w = −2.303 × 1 × 2.0 × 298 × log(20/10) = −2.303 × 596 × 0.301 = <b>−413.14 cal</b> (negative: work is done by the gas).</p>",
+ "hint": "Use p<sub>1</sub>/p<sub>2</sub> in place of V<sub>2</sub>/V<sub>1</sub> (Boyle's law).",
+ "hi": {
+  "q": "25°C पर एक मोल हाइड्रोजन गैस के 20 वायुमंडल से 10 वायुमंडल दाब तक उत्क्रमणीय समतापीय प्रसरण में किया गया कार्य है<br>(दिया है R = 2.0 cal K<sup>−1</sup> mol<sup>−1</sup>)",
+  "o": ["0 कैलोरी", "−413.14 कैलोरी", "413.14 कैलोरी", "100 कैलोरी"],
+  "sol": "<p>उत्क्रमणीय समतापीय प्रसरण के लिए: w = −2.303 nRT log(p<sub>1</sub>/p<sub>2</sub>)।</p><p>w = −2.303 × 1 × 2.0 × 298 × log(20/10) = −2.303 × 596 × 0.301 = <b>−413.14 cal</b> (ऋणात्मक: कार्य गैस द्वारा किया जाता है)।</p>",
+  "hint": "V<sub>2</sub>/V<sub>1</sub> के स्थान पर p<sub>1</sub>/p<sub>2</sub> लें (बॉयल का नियम)।"
+ }
+},
+"chem11-thermodynamics-neet-2024-q81-esaral-copy": {
+ "sol": "<p>Isothermal: constant temperature (II). Isochoric: constant volume (III). Isobaric: constant pressure (IV). Adiabatic: no heat exchange (I).</p><p>Answer: <b>A-II, B-III, C-IV, D-I</b>.</p>",
+ "hint": "iso-thermal = same T, iso-choric = same V, iso-baric = same p.",
+ "hi": {
+  "q": "सूची I का सूची II से मिलान कीजिए।<br>सूची I (प्रक्रम): (A) समतापीय प्रक्रम (B) समआयतनिक प्रक्रम (C) समदाबीय प्रक्रम (D) रुद्धोष्म प्रक्रम<br>सूची II (परिस्थितियाँ): (I) कोई ऊष्मा विनिमय नहीं (II) स्थिर ताप पर किया जाता है (III) स्थिर आयतन पर किया जाता है (IV) स्थिर दाब पर किया जाता है<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+  "o": ["A-IV, B-III, C-II, D-I", "A-IV, B-II, C-III, D-I", "A-I, B-II, C-III, D-IV", "A-II, B-III, C-IV, D-I"],
+  "sol": "<p>समतापीय: स्थिर ताप (II)। समआयतनिक: स्थिर आयतन (III)। समदाबीय: स्थिर दाब (IV)। रुद्धोष्म: कोई ऊष्मा विनिमय नहीं (I)।</p><p>उत्तर: <b>A-II, B-III, C-IV, D-I</b>।</p>",
+  "hint": "समतापीय = समान T, समआयतनिक = समान V, समदाबीय = समान p।",
+  "note": "समआयतनिक/समदाबीय are not in NCERT's Hindi text (it says स्थिर आयतन/स्थिर दाब); check with the proofreader."
+ }
+},
+"chem11-thermodynamics-neet-2026-q74-esaral-copy": {
+ "sol": "<p>First law: ΔU = q + w. Heat absorbed: q = +500 J. Work done <i>by</i> the system: w = −200 J.</p><p>ΔU = 500 − 200 = <b>300 J</b>.</p>",
+ "hint": "Sign convention: heat absorbed +, work done by the system −.",
+ "trap": "Adding both as positive gives 700 J.",
+ "hi": {
+  "q": "किसी निश्चित ताप T(K) पर एक प्रक्रम के दौरान निकाय द्वारा 500 J अवशोषित होती है और निकाय द्वारा 200 J कार्य किया जाता है। तब निकाय की आंतरिक ऊर्जा में परिवर्तन है:",
+  "o": ["700 J", "400 J", "300 J", "500 J"],
+  "sol": "<p>प्रथम नियम: ΔU = q + w। अवशोषित ऊष्मा: q = +500 J। निकाय <i>द्वारा</i> किया गया कार्य: w = −200 J।</p><p>ΔU = 500 − 200 = <b>300 J</b>।</p>",
+  "hint": "चिह्न परिपाटी: अवशोषित ऊष्मा +, निकाय द्वारा किया गया कार्य −।",
+  "trap": "दोनों को धनात्मक जोड़ने पर 700 J आता है।"
+ }
+},
+"chem11-thermodynamics-neet-2026-q85-esaral-copy": {
+ "sol": "<p>Δn<sub>g</sub> = 2 − 3 = −1. ΔH° = ΔU° + Δn<sub>g</sub>RT = −10 + (−1)(8.31 × 298)/1000 = −10 − 2.476 = −12.476 kJ mol<sup>−1</sup>.</p><p>ΔG° = ΔH° − TΔS° = −12.476 − 298 × (−0.044) = −12.476 + 13.112 = <b>+0.636 kJ mol<sup>−1</sup></b>: positive, so <b>non-spontaneous</b>.</p>",
+ "hint": "Convert ΔU to ΔH first (Δn<sub>g</sub> = −1), then ΔG = ΔH − TΔS.",
+ "trap": "Using ΔU directly in place of ΔH gives +3.11 kJ, which is not an option; forgetting the sign of Δn<sub>g</sub> gives −1.635 kJ.",
+ "hi": {
+  "q": "निम्नलिखित अभिक्रिया पर विचार कीजिए :<br>2A(g) + B(g) → 2D(g)<br>298 K पर ΔU<sup>⊖</sup> = −10 kJ mol<sup>−1</sup> और ΔS<sup>⊖</sup> = −44 J K<sup>−1</sup><br>298 K पर अभिक्रिया के ΔG<sup>⊖</sup> और अभिक्रिया की स्वतः प्रवर्तिता के लिए सही विकल्प पहचानिए।<br>(दिया है : R = 8.31 J mol<sup>−1</sup> K<sup>−1</sup>)",
+  "o": ["+0.63568 kJ mol<sup>−1</sup>, अस्वतः प्रवर्तित", "−0.63568 kJ mol<sup>−1</sup>, स्वतः प्रवर्तित", "−1.635 kJ mol<sup>−1</sup>, स्वतः प्रवर्तित", "+1.635 kJ mol<sup>−1</sup>, अस्वतः प्रवर्तित"],
+  "sol": "<p>Δn<sub>g</sub> = 2 − 3 = −1। ΔH° = ΔU° + Δn<sub>g</sub>RT = −10 + (−1)(8.31 × 298)/1000 = −10 − 2.476 = −12.476 kJ mol<sup>−1</sup>।</p><p>ΔG° = ΔH° − TΔS° = −12.476 − 298 × (−0.044) = −12.476 + 13.112 = <b>+0.636 kJ mol<sup>−1</sup></b>: धनात्मक, अतः <b>अस्वतः प्रवर्तित</b>।</p>",
+  "hint": "पहले ΔU को ΔH में बदलें (Δn<sub>g</sub> = −1), फिर ΔG = ΔH − TΔS।",
+  "trap": "ΔH के स्थान पर सीधे ΔU लेने पर +3.11 kJ आता है, जो विकल्प नहीं है; Δn<sub>g</sub> का चिह्न भूलने पर −1.635 kJ आता है।"
+ }
+},
+"chem11-thermodynamics-neet-2023-topic-wise-copy-q36": {
+ "sol": "<p>H = U + pV, so ΔH = ΔU + Δ(pV). For gases at constant T, Δ(pV) = Δn<sub>g</sub>RT, giving <b>ΔH = ΔU + Δn<sub>g</sub>RT</b> (NCERT Eq 5.9/5.10).</p>",
+ "hint": "Start from H = U + pV.",
+ "hi": {
+  "q": "निम्नलिखित विकल्पों में से एन्थैल्पी परिवर्तन और आंतरिक ऊर्जा परिवर्तन के बीच सही संबंध कौन-सा है?",
+  "o": ["ΔH + ΔU = ΔnR", "ΔH = ΔU – Δn<sub>g</sub>RT", "ΔH = ΔU + Δn<sub>g</sub>RT", "ΔH − ΔU = −ΔnRT"],
+  "sol": "<p>H = U + pV, अतः ΔH = ΔU + Δ(pV)। स्थिर T पर गैसों के लिए Δ(pV) = Δn<sub>g</sub>RT, जिससे <b>ΔH = ΔU + Δn<sub>g</sub>RT</b> (NCERT Eq 5.9/5.10)।</p>",
+  "hint": "H = U + pV से शुरू करें।"
+ }
+},
+"chem11-thermodynamics-neet-2021-code-p3-q55": {
+ "sol": "<p>For one mole of an ideal gas, C<sub>p</sub> − C<sub>V</sub> = R (NCERT Eq 5.12): at constant pressure extra heat is needed for the expansion work pΔV = RΔT.</p>",
+ "hint": "C<sub>p</sub> is larger than C<sub>V</sub> by R per mole.",
+ "hi": {
+  "q": "आदर्श गैस के एक मोल के लिए C<sub>P</sub> और C<sub>V</sub> के बीच सही संबंध के लिए निम्नलिखित में से कौन-सा विकल्प सही है?",
+  "o": ["C<sub>V</sub> = RC<sub>P</sub>", "C<sub>P</sub> + C<sub>V</sub> = R", "C<sub>P</sub> − C<sub>V</sub> = R", "C<sub>P</sub> = RC<sub>V</sub>"],
+  "sol": "<p>आदर्श गैस के एक मोल के लिए C<sub>p</sub> − C<sub>V</sub> = R (NCERT Eq 5.12): स्थिर दाब पर प्रसरण कार्य pΔV = RΔT के लिए अतिरिक्त ऊष्मा चाहिए।</p>",
+  "hint": "प्रति मोल C<sub>p</sub>, C<sub>V</sub> से R अधिक होती है।"
+ }
+},
+"chem11-thermodynamics-neet-2021-code-p3-q86": {
+ "sol": "<p>For an ideal gas, U depends only on T; isothermal → <b>ΔU = 0</b>.</p><p>An irreversible (spontaneous) process increases the total entropy of system + surroundings: <b>ΔS<sub>total</sub> &gt; 0</b>, i.e. ≠ 0.</p>",
+ "hint": "Ideal gas: U = f(T). Irreversible: ΔS<sub>total</sub> &gt; 0.",
+ "hi": {
+  "q": "समतापीय परिस्थिति में एक आदर्श गैस के अनुत्क्रमणीय प्रसरण के लिए सही विकल्प है:",
+  "o": ["ΔU ≠ 0, ΔS<sub>total</sub> = 0", "ΔU = 0, ΔS<sub>total</sub> = 0", "ΔU ≠ 0, ΔS<sub>total</sub> ≠ 0", "ΔU = 0, ΔS<sub>total</sub> ≠ 0"],
+  "sol": "<p>आदर्श गैस के लिए U केवल T पर निर्भर करती है; समतापीय → <b>ΔU = 0</b>।</p><p>अनुत्क्रमणीय (स्वतः प्रवर्तित) प्रक्रम में निकाय + परिवेश की कुल एन्ट्रॉपी बढ़ती है: <b>ΔS<sub>total</sub> &gt; 0</b>, अर्थात् ≠ 0।</p>",
+  "hint": "आदर्श गैस: U = f(T)। अनुत्क्रमणीय: ΔS<sub>total</sub> &gt; 0।"
+ }
+},
+"chem11-thermodynamics-neet-2020-code-f3-q71": {
+ "sol": "<p>Δ<sub>r</sub>G° = −RT ln K (NCERT Eq 5.23).</p><p>= <b>−8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(2 × 10<sup>13</sup>)</b> (large K → strongly negative Δ<sub>r</sub>G°).</p>",
+ "hint": "ΔG° = −RT ln K; note the minus sign and the given K.",
+ "hi": {
+  "q": "सुक्रोस का जल-अपघटन निम्नलिखित अभिक्रिया द्वारा दिया जाता है।<br>सुक्रोस + H<sub>2</sub>O ⇌ ग्लूकोस + फ्रक्टोस<br>यदि 300 K पर साम्य स्थिरांक (K<sub>c</sub>) 2 × 10<sup>13</sup> है, तो उसी ताप पर Δ<sub>r</sub>G° का मान होगा:",
+  "o": ["8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(3 × 10<sup>13</sup>)", "−8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(4 × 10<sup>13</sup>)", "−8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(2 × 10<sup>13</sup>)", "8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(2 × 10<sup>13</sup>)"],
+  "sol": "<p>Δ<sub>r</sub>G° = −RT ln K (NCERT Eq 5.23)।</p><p>= <b>−8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(2 × 10<sup>13</sup>)</b> (बड़ा K → अत्यधिक ऋणात्मक Δ<sub>r</sub>G°)।</p>",
+  "hint": "ΔG° = −RT ln K; ऋण चिह्न और दिए गए K पर ध्यान दें।"
+ }
+},
+"chem11-thermodynamics-neet-2020-code-f3-q77": {
+ "sol": "<p>Adiabatic → q = 0. Free expansion is into vacuum (p<sub>ex</sub> = 0) → w = 0. Then ΔU = 0, and for an ideal gas ΔT = 0 (NCERT §5.2.1, free expansion).</p>",
+ "hint": "Expansion against zero pressure does no work.",
+ "hi": {
+  "q": "रुद्धोष्म परिस्थिति में एक आदर्श गैस के मुक्त प्रसरण के लिए सही विकल्प है:",
+  "o": ["q &lt; 0, ΔT = 0 और w = 0", "q &gt; 0, ΔT &gt; 0 और w &gt; 0", "q = 0, ΔT = 0 और w = 0", "q = 0, ΔT &lt; 0 और w &gt; 0"],
+  "sol": "<p>रुद्धोष्म → q = 0। मुक्त प्रसरण निर्वात में होता है (p<sub>ex</sub> = 0) → w = 0। तब ΔU = 0, और आदर्श गैस के लिए ΔT = 0 (NCERT §5.2.1, मुक्त प्रसरण)।</p>",
+  "hint": "शून्य दाब के विरुद्ध प्रसरण में कोई कार्य नहीं होता।"
+ }
+},
+"chem11-thermodynamics-neet-2020-code-f3-q86": {
+ "sol": "<p>Bond formation releases energy: Δ<sub>r</sub>H &lt; 0. Two gas atoms become one molecule: fewer particles, so Δ<sub>r</sub>S &lt; 0.</p>",
+ "hint": "Forming a bond: exothermic and more ordered.",
+ "hi": {
+  "q": "अभिक्रिया 2Cl(g) → Cl<sub>2</sub>(g) के लिए सही विकल्प है:",
+  "o": ["Δ<sub>r</sub>H &lt; 0 और Δ<sub>r</sub>S &gt; 0", "Δ<sub>r</sub>H &lt; 0 और Δ<sub>r</sub>S &lt; 0", "Δ<sub>r</sub>H &gt; 0 और Δ<sub>r</sub>S &gt; 0", "Δ<sub>r</sub>H &gt; 0 और Δ<sub>r</sub>S &lt; 0"],
+  "sol": "<p>आबंध बनने पर ऊर्जा निकलती है: Δ<sub>r</sub>H &lt; 0। गैस के दो परमाणु एक अणु बनते हैं: कण कम, अतः Δ<sub>r</sub>S &lt; 0।</p>",
+  "hint": "आबंध बनना: ऊष्माक्षेपी और अधिक व्यवस्थित।"
+ }
+},
+"chem11-thermodynamics-neet-2019-code-s2-q136": {
+ "sol": "<p>Sublimation, evaporation and isothermal expansion all increase disorder (ΔS &gt; 0). In 2H(g) → H<sub>2</sub>(g) two particles become one: <b>ΔS &lt; 0</b>.</p>",
+ "hint": "Look for the process that reduces the number of gas particles.",
+ "hi": {
+  "q": "किस स्थिति में एन्ट्रॉपी में परिवर्तन ऋणात्मक है ?",
+  "o": ["ठोस का गैस में ऊर्ध्वपातन", "2H(g) → H<sub>2</sub>(g)", "जल का वाष्पन", "स्थिर ताप पर गैस का प्रसरण"],
+  "sol": "<p>ऊर्ध्वपातन, वाष्पन और समतापीय प्रसरण, सभी में अव्यवस्था बढ़ती है (ΔS &gt; 0)। 2H(g) → H<sub>2</sub>(g) में दो कण एक बनते हैं: <b>ΔS &lt; 0</b>।</p>",
+  "hint": "वह प्रक्रम ढूँढें जिसमें गैस के कणों की संख्या घटती है।"
+ }
+},
+"chem11-thermodynamics-neet-2019-code-s2-q140": {
+ "sol": "<p>Work against constant external pressure: w = −p<sub>ex</sub>ΔV = −2 bar × (0.25 − 0.1) L = −0.3 L bar = −30 J. This is the work done <i>on</i> the gas; the work done <b>by</b> the gas is <b>+30 J</b> (NTA final key).</p>",
+ "hint": "w = −p<sub>ex</sub>ΔV; the question asks for the work done by the gas.",
+ "trap": "−30 J is the work done on the gas (NCERT sign convention); the question asks for work done by the gas.",
+ "hi": {
+  "q": "समतापीय परिस्थिति में 300 K पर एक गैस 2 bar के स्थिर बाह्य दाब के विरुद्ध 0.1 L से 0.25 L तक प्रसरित होती है। गैस द्वारा किया गया कार्य है :<br>[दिया है 1 L bar = 100 J]",
+  "o": ["25 J", "30 J", "−30 J", "5 kJ"],
+  "sol": "<p>स्थिर बाह्य दाब के विरुद्ध कार्य: w = −p<sub>ex</sub>ΔV = −2 bar × (0.25 − 0.1) L = −0.3 L bar = −30 J। यह गैस <i>पर</i> किया गया कार्य है; गैस <b>द्वारा</b> किया गया कार्य <b>+30 J</b> है (NTA अंतिम उत्तर कुंजी)।</p>",
+  "hint": "w = −p<sub>ex</sub>ΔV; प्रश्न गैस द्वारा किया गया कार्य पूछता है।",
+  "trap": "−30 J गैस पर किया गया कार्य है (NCERT चिह्न परिपाटी); प्रश्न गैस द्वारा किया गया कार्य पूछता है।"
+ }
+},
+"chem11-thermodynamics-neet-2017-code-a-q60": {
+ "sol": "<p>Well insulated → q = 0, so ΔU = w.</p><p>w = −p<sub>ex</sub>ΔV = −2.5 atm × (4.50 − 2.50) L = −5.0 L atm = −5.0 × 101.3 J ≈ <b>−505 J</b>.</p>",
+ "hint": "Insulated means adiabatic: ΔU = w. 1 L atm ≈ 101.3 J.",
+ "hi": {
+  "q": "एक गैस को सुविलगित (well insulated) पात्र में 2.5 atm के स्थिर बाह्य दाब के विरुद्ध 2.50 L के प्रारंभिक आयतन से 4.50 L के अंतिम आयतन तक प्रसरित होने दिया जाता है। गैस की आंतरिक ऊर्जा में परिवर्तन ΔU जूल में होगा :",
+  "o": ["1136.25 J", "−500 J", "−505 J", "+505 J"],
+  "sol": "<p>सुविलगित → q = 0, अतः ΔU = w।</p><p>w = −p<sub>ex</sub>ΔV = −2.5 atm × (4.50 − 2.50) L = −5.0 L atm = −5.0 × 101.3 J ≈ <b>−505 J</b>।</p>",
+  "hint": "विलगित का अर्थ रुद्धोष्म: ΔU = w। 1 L atm ≈ 101.3 J।"
+ }
+},
+"chem11-thermodynamics-neet-2017-code-a-q77": {
+ "sol": "<p>Both ΔH and ΔS are positive, so ΔG = ΔH − TΔS becomes negative above T = ΔH/ΔS = 35500/83.6 = 424.6 K ≈ 425 K.</p><p>Spontaneous at <b>T &gt; 425 K</b>.</p>",
+ "hint": "Find the temperature where ΔG = 0; convert kJ to J.",
+ "hi": {
+  "q": "किसी दी गई अभिक्रिया के लिए ΔH = 35.5 kJ mol<sup>−1</sup> और ΔS = 83.6 J K<sup>−1</sup> mol<sup>−1</sup> है। अभिक्रिया स्वतः प्रवर्तित होगी : (मान लीजिए कि ΔH और ΔS ताप के साथ नहीं बदलते)",
+  "o": ["T &lt; 425 K पर", "T &gt; 425 K पर", "सभी तापों पर", "T &gt; 298 K पर"],
+  "sol": "<p>ΔH और ΔS दोनों धनात्मक हैं, अतः ΔG = ΔH − TΔS, T = ΔH/ΔS = 35500/83.6 = 424.6 K ≈ 425 K से ऊपर ऋणात्मक हो जाता है।</p><p><b>T &gt; 425 K</b> पर स्वतः प्रवर्तित।</p>",
+  "hint": "वह ताप ज्ञात करें जिस पर ΔG = 0; kJ को J में बदलें।"
+ }
+},
+"chem11-thermodynamics-neet-2016-phase-1-code-a-q64": {
+ "sol": "<p>ΔG = ΔH − TΔS is negative at every temperature only when ΔH &lt; 0 and ΔS &gt; 0 (NCERT Table 5.4).</p>",
+ "hint": "Both terms of ΔG must be negative.",
+ "hi": {
+  "q": "सभी तापों पर स्वतः प्रवर्तित अभिक्रिया के लिए सही ऊष्मागतिक परिस्थितियाँ हैं :",
+  "o": ["ΔH &lt; 0 और ΔS = 0", "ΔH &gt; 0 और ΔS &lt; 0", "ΔH &lt; 0 और ΔS &gt; 0", "ΔH &lt; 0 और ΔS &lt; 0"],
+  "sol": "<p>ΔG = ΔH − TΔS हर ताप पर तभी ऋणात्मक होता है जब ΔH &lt; 0 और ΔS &gt; 0 (NCERT सारणी 5.4)।</p>",
+  "hint": "ΔG के दोनों पद ऋणात्मक होने चाहिए।"
+ }
+},
+"chem11-thermodynamics-neet-2016-phase-2-code-aa-q52": {
+ "sol": "<p>Isothermal, reversible: ΔS = q<sub>rev</sub>/T = nR ln(V<sub>f</sub>/V<sub>i</sub>). By Boyle's law V<sub>f</sub>/V<sub>i</sub> = p<sub>i</sub>/p<sub>f</sub>, so <b>ΔS = nR ln(p<sub>i</sub>/p<sub>f</sub>)</b>.</p>",
+ "hint": "For isothermal expansion, q<sub>rev</sub> = nRT ln(V<sub>f</sub>/V<sub>i</sub>).",
+ "hi": {
+  "q": "एक आदर्श गैस के नमूने का दाब समतापीय रूप से p<sub>i</sub> से p<sub>f</sub> तक बदलने पर एन्ट्रॉपी परिवर्तन दिया जाता है",
+  "o": ["ΔS = nR ln(p<sub>f</sub>/p<sub>i</sub>)", "ΔS = nR ln(p<sub>i</sub>/p<sub>f</sub>)", "ΔS = nRT ln(p<sub>f</sub>/p<sub>i</sub>)", "ΔS = RT ln(p<sub>i</sub>/p<sub>f</sub>)"],
+  "sol": "<p>समतापीय, उत्क्रमणीय: ΔS = q<sub>rev</sub>/T = nR ln(V<sub>f</sub>/V<sub>i</sub>)। बॉयल के नियम से V<sub>f</sub>/V<sub>i</sub> = p<sub>i</sub>/p<sub>f</sub>, अतः <b>ΔS = nR ln(p<sub>i</sub>/p<sub>f</sub>)</b>।</p>",
+  "hint": "समतापीय प्रसरण के लिए q<sub>rev</sub> = nRT ln(V<sub>f</sub>/V<sub>i</sub>)।"
+ }
+},
+"chem11-thermodynamics-neet-2015-re-exam-code-d-q129": {
+ "sol": "<p>35.2 g CO<sub>2</sub> = 35.2/44 = 0.8 mol.</p><p>Heat = 0.8 × (−393.5) = −314.8 ≈ <b>−315 kJ</b> (released).</p>",
+ "hint": "Moles of CO<sub>2</sub> × enthalpy of combustion per mole.",
+ "hi": {
+  "q": "कार्बन से CO<sub>2</sub> बनने की दहन ऊष्मा −393.5 kJ/mol है। कार्बन और ऑक्सीजन गैस से 35.2 g CO<sub>2</sub> बनने पर निर्मुक्त ऊष्मा है :",
+  "o": ["−315 kJ", "+315 kJ", "−630 kJ", "−3.15 kJ"],
+  "sol": "<p>35.2 g CO<sub>2</sub> = 35.2/44 = 0.8 mol।</p><p>ऊष्मा = 0.8 × (−393.5) = −314.8 ≈ <b>−315 kJ</b> (निर्मुक्त)।</p>",
+  "hint": "CO<sub>2</sub> के मोल × प्रति मोल दहन एन्थैल्पी।"
+ }
+},
+"chem11-thermodynamics-neet-2018-code-aa-q85": {
+ "sol": "<p>½X<sub>2</sub> + ½Y<sub>2</sub> → XY. Let bond enthalpies be X<sub>2</sub> = a, Y<sub>2</sub> = 0.5a, XY = a.</p><p>Δ<sub>f</sub>H = Σ(bonds broken) − Σ(bonds formed) = ½a + ½(0.5a) − a = −0.25a = −200 → a = <b>800 kJ mol<sup>−1</sup></b>.</p>",
+ "hint": "Formation of one mole of XY needs half a mole each of X<sub>2</sub> and Y<sub>2</sub>.",
+ "trap": "Using whole moles of X<sub>2</sub> and Y<sub>2</sub> gives 400 kJ mol<sup>−1</sup>.",
+ "hi": {
+  "q": "X<sub>2</sub>, Y<sub>2</sub> और XY की आबंध वियोजन ऊर्जाएँ 1 : 0.5 : 1 के अनुपात में हैं। XY के विरचन के लिए ΔH का मान −200 kJ mol<sup>−1</sup> है। X<sub>2</sub> की आबंध वियोजन ऊर्जा होगी",
+  "o": ["800 kJ mol<sup>−1</sup>", "100 kJ mol<sup>−1</sup>", "200 kJ mol<sup>−1</sup>", "400 kJ mol<sup>−1</sup>"],
+  "sol": "<p>½X<sub>2</sub> + ½Y<sub>2</sub> → XY। मान लें आबंध एन्थैल्पी X<sub>2</sub> = a, Y<sub>2</sub> = 0.5a, XY = a।</p><p>Δ<sub>f</sub>H = Σ(टूटे आबंध) − Σ(बने आबंध) = ½a + ½(0.5a) − a = −0.25a = −200 → a = <b>800 kJ mol<sup>−1</sup></b>।</p>",
+  "hint": "XY के एक मोल के विरचन के लिए X<sub>2</sub> और Y<sub>2</sub> प्रत्येक का आधा मोल चाहिए।",
+  "trap": "X<sub>2</sub> और Y<sub>2</sub> के पूरे मोल लेने पर 400 kJ mol<sup>−1</sup> आता है।"
+ }
+},
+"chem11-thermodynamics-neet-2022-code-t2-q72": {
+ "sol": "<p>On a p-V graph, the magnitude of work is the area under the curve. Curve (1) encloses the largest area under it, so it represents the maximum work.</p>",
+ "hint": "Work = area under the p-V curve.",
+ "hi": {
+  "q": "निम्नलिखित में से कौन-सा p-V वक्र अधिकतम किया गया कार्य दर्शाता है ?",
+  "o": ["समतापीय वक्र जिसके नीचे बड़ा क्षेत्रफल है (आरेख अनुसार)", "ऊर्ध्वाधर रेखा (आरेख अनुसार)", "तीव्र ढाल वाला समतापीय वक्र, कम क्षेत्रफल (आरेख अनुसार)", "चक्रीय पथ (आरेख अनुसार)"],
+  "sol": "<p>p-V आलेख में कार्य का परिमाण वक्र के नीचे के क्षेत्रफल के बराबर होता है। वक्र (1) के नीचे सबसे बड़ा क्षेत्रफल है, अतः यह अधिकतम कार्य दर्शाता है।</p>",
+  "hint": "कार्य = p-V वक्र के नीचे का क्षेत्रफल।"
+ }
+}
+}
