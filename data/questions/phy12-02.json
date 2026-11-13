@@ -1,0 +1,1500 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-02",
+ "subject": "physics",
+ "class": 12,
+ "unit": 2,
+ "title": {
+  "en": "Electrostatic Potential and Capacitance"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "2.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "2.2",
+   "title": "Electrostatic Potential",
+   "hi": "स्थिरवैद्युत विभव",
+   "pdfPage": 3
+  },
+  {
+   "id": "2.3",
+   "title": "Potential due to a Point Charge",
+   "hi": "बिंदु आवेश के कारण विभव",
+   "pdfPage": 4
+  },
+  {
+   "id": "2.4",
+   "title": "Potential due to an Electric Dipole",
+   "hi": "वैद्युत द्विध्रुव के कारण विभव",
+   "pdfPage": 5
+  },
+  {
+   "id": "2.5",
+   "title": "Potential due to a System of Charges",
+   "hi": "आवेशों के निकाय के कारण विभव",
+   "pdfPage": 7
+  },
+  {
+   "id": "2.6",
+   "title": "Equipotential Surfaces",
+   "hi": "समविभव पृष्ठ",
+   "pdfPage": 10
+  },
+  {
+   "id": "2.6.1",
+   "title": "Relation between Field and Potential",
+   "hi": "विद्युत क्षेत्र तथा वैद्युत विभव में संबंध",
+   "pdfPage": 11
+  },
+  {
+   "id": "2.7",
+   "title": "Potential Energy of a System of Charges",
+   "hi": "आवेशों के निकाय की स्थितिज ऊर्जा",
+   "pdfPage": 11
+  },
+  {
+   "id": "2.8",
+   "title": "Potential Energy in an External Field",
+   "hi": "बाह्य क्षेत्र में स्थितिज ऊर्जा",
+   "pdfPage": 14
+  },
+  {
+   "id": "2.8.1",
+   "title": "Potential Energy of a Single Charge",
+   "hi": "एकल आवेश की स्थितिज ऊर्जा",
+   "pdfPage": 14
+  },
+  {
+   "id": "2.8.2",
+   "title": "Potential Energy of a System of Two Charges in an External Field",
+   "hi": "किसी बाह्य क्षेत्र में दो आवेशों के निकाय की स्थितिज ऊर्जा",
+   "pdfPage": 15
+  },
+  {
+   "id": "2.8.3",
+   "title": "Potential Energy of a Dipole in an External Field",
+   "hi": "बाह्य क्षेत्र में द्विध्रुव की स्थितिज ऊर्जा",
+   "pdfPage": 16
+  },
+  {
+   "id": "2.9",
+   "title": "Electrostatics of Conductors",
+   "hi": "चालक-स्थिरवैद्युतिकी",
+   "pdfPage": 17
+  },
+  {
+   "id": "2.10",
+   "title": "Dielectrics and Polarisation",
+   "hi": "परावैद्युत तथा ध्रुवण",
+   "pdfPage": 21
+  },
+  {
+   "id": "2.11",
+   "title": "Capacitors and Capacitance",
+   "hi": "संधारित्र तथा धारिता",
+   "pdfPage": 23
+  },
+  {
+   "id": "2.12",
+   "title": "The Parallel Plate Capacitor",
+   "hi": "समांतर पट्टिका संधारित्र",
+   "pdfPage": 24
+  },
+  {
+   "id": "2.13",
+   "title": "Effect of Dielectric on Capacitance",
+   "hi": "धारिता पर परावैद्युत का प्रभाव",
+   "pdfPage": 25
+  },
+  {
+   "id": "2.14",
+   "title": "Combination of Capacitors",
+   "hi": "संधारित्रों का संयोजन",
+   "pdfPage": 27
+  },
+  {
+   "id": "2.14.1",
+   "title": "Capacitors in Series",
+   "hi": "संधारित्रों का श्रेणीक्रम संयोजन",
+   "pdfPage": 27
+  },
+  {
+   "id": "2.14.2",
+   "title": "Capacitors in Parallel",
+   "hi": "संधारित्रों का पार्श्वक्रम संयोजन",
+   "pdfPage": 28
+  },
+  {
+   "id": "2.15",
+   "title": "Energy Stored in a Capacitor",
+   "hi": "संधारित्र में संचित ऊर्जा",
+   "pdfPage": 29
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-02-neet-2015-re-exam-code-d-q157",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If potential (in volts) in a region is expressed as V(x, y, z) = 6xy − y + 2yz, the electric field (in N/C) at point (1, 1, 0) is :",
+     "o": [
+      "−(6î + 5ĵ + 2k̂)",
+      "−(2î + 3ĵ + k̂)",
+      "−(6î + 9ĵ + k̂)",
+      "−(3î + 5ĵ + 3k̂)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q157",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2015-re-exam-code-d-q158",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A parallel plate air capacitor has capacity ‘C’, distance of separation between plates is ‘d’ and potential difference ‘V’ is applied between the plates. Force of attraction between the plates of the parallel plate air capacitor is: CV2",
+     "o": [
+      "CV<sup>2</sup>/(2d)",
+      "CV<sup>2</sup>/d",
+      "C<sup>2</sup>V<sup>2</sup>/(2d<sup>2</sup>)",
+      "C<sup>2</sup>V<sup>2</sup>/(2d)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.12",
+     "2.15"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q158",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2016-phase-1-code-a-q5",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A capacitor of 2 μF is charged as shown in the diagram. When the switch S is turned to position 2, the percentage of its stored energy dissipated is :",
+     "o": [
+      "0%",
+      "20%",
+      "75%",
+      "80%"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.14",
+     "2.15"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q5",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Circuit figure in the paper (2 μF charged, then connected to 8 μF); needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2016-phase-2-code-aa-q24",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A parallel-plate capacitor of area A, plate separation d and capacitance C is filled with four dielectric materials having dielectric constants k , k , k and k as shown in the figure below. If a single dielectric material is to be used to have the same capacitance C in this capacitor, then its dielectric constant k is given by",
+     "o": [
+      "k = k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub> + 3k<sub>4</sub>",
+      "k = (2/3)(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>) + 2k<sub>4</sub>",
+      "2/k = 3/(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>) + 1/k<sub>4</sub>",
+      "1/k = 1/k<sub>1</sub> + 1/k<sub>2</sub> + 1/k<sub>3</sub> + 3/(2k<sub>4</sub>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.13",
+     "2.14"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q24",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Figure: top half (d/2) split into three columns k<sub>1</sub>, k<sub>2</sub>, k<sub>3</sub> (A/3 each), bottom half k<sub>4</sub>. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2017-code-a-q12",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The diagrams below show regions of equipotentials. A positive charge is moved from A to B in each diagram.",
+     "o": [
+      "Maximum work is required to move q in figure (c).",
+      "In all the four cases the work done is the same.",
+      "Minimum work is required to move q in figure (a).",
+      "Maximum work is required to move q in figure (b)."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q12",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "Four equipotential diagrams (A at 10 V/20 V side, B at 30 V/40 V side); needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2017-code-a-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A capacitor is charged by a battery. The battery is removed and another identical uncharged capacitor is connected in parallel. The total electrostatic energy of resulting system",
+     "o": [
+      "Increases by a factor of 4",
+      "Decreases by a factor of 2",
+      "Remains the same",
+      "Increases by a factor of 2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.14",
+     "2.15"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q17",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2018-code-aa-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The electrostatic force between the metal plates of an isolated parallel plate capacitor C having a charge Q and area A, is :",
+     "o": [
+      "proportional to the square root of the distance between the plates",
+      "linearly proportional to the distance between the plates",
+      "independent of the distance between the plates",
+      "inversely proportional to the distance between the plates"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.12"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q23",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2020-code-f3-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a certain region of space with volume 0.2 m<sup>3</sup>, the electric potential is found to be 5 V throughout. The magnitude of electric field in this region is :",
+     "o": [
+      "1 N/C",
+      "5 N/C",
+      "Zero",
+      "0.5 N/C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q8",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2020-code-f3-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A short electric dipole has a dipole moment of 16 × 10<sup>−9</sup> C m. The electric potential due to the dipole at a point at a distance of 0.6 m from the centre of the dipole, situated on a line making an angle of 60° with the dipole axis is : (1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup>)",
+     "o": [
+      "400 V",
+      "Zero",
+      "50 V",
+      "200 V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q13",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2020-code-f3-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (ε<sub>0</sub> = 8.85 × 10<sup>−12</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>)",
+     "o": [
+      "0.44 × 10<sup>−10</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>",
+      "5.00 C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>",
+      "0.44 × 10<sup>−13</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>",
+      "1.77 × 10<sup>−12</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.13"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q27",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2021-code-p3-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Polar molecules are the molecules",
+     "o": [
+      "Having a permanent electric dipole moment",
+      "Having zero dipole moment",
+      "Acquire a dipole moment only in the presence of electric field due to displacement of charges",
+      "Acquire a dipole moment only when magnetic field is absent"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q2",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2021-code-p3-q4",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two charged spherical conductors of radius R<sub>1</sub> and R<sub>2</sub> are connected by a wire. Then the ratio of surface charge densities of the spheres (σ<sub>1</sub>/σ<sub>2</sub>) is :",
+     "o": [
+      "R<sub>1</sub><sup>2</sup>/R<sub>2</sub><sup>2</sup>",
+      "R<sub>1</sub>/R<sub>2</sub>",
+      "R<sub>2</sub>/R<sub>1</sub>",
+      "√(R<sub>1</sub>/R<sub>2</sub>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q4",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2021-code-p3-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A parallel plate capacitor has a uniform electric field 'E⃗' in the space between the plates. If the distance between the plates is 'd' and the area of each plate is 'A', the energy stored in the capacitor is : (ε<sub>0</sub> = permittivity of free space)",
+     "o": [
+      "E<sup>2</sup>Ad/ε<sub>0</sub>",
+      "(1/2)ε<sub>0</sub>E<sup>2</sup>",
+      "ε<sub>0</sub>EAd",
+      "(1/2)ε<sub>0</sub>E<sup>2</sup>Ad"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.15"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q5",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2021-code-p3-q20",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The equivalent capacitance of the combination shown in the figure is :",
+     "o": [
+      "3C/2",
+      "3C",
+      "2C",
+      "C/2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.14.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q20",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "Two capacitors C in parallel between the terminals (top and bottom branches); a third C joins the two branches on the same side, so it is shorted. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2021-code-p3-q36",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Twenty seven drops of same size are charged at 220 V each. They combine to form a bigger drop. Calculate the potential of the bigger drop.",
+     "o": [
+      "1980 V",
+      "660 V",
+      "1320 V",
+      "1520 V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.3",
+     "2.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q36",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "The Aakash copy prints \"200 V\", which gives 9 × 200 = 1800 V (not among the options); the keyed 1980 V = 9 × 220 V, so the value is entered as 220 V. Check against an official P3 booklet."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2022-code-t2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two hollow conducting spheres of radii R<sub>1</sub> and R<sub>2</sub> (R<sub>1</sub> >> R<sub>2</sub>) have equal charges. The potential would be :",
+     "o": [
+      "more on smaller sphere",
+      "equal on both the spheres",
+      "dependent on the material property of the sphere",
+      "more on bigger sphere"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.3",
+     "2.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q1",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2022-code-t2-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The angle between the electric lines of force and the equipotential surface is :",
+     "o": [
+      "45°",
+      "90°",
+      "180°",
+      "0°"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q32",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2022-code-t2-q38",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A capacitor of capacitance C = 900 pF is charged fully by 100 V battery B as shown in figure (a). Then it is disconnected from the battery and connected to another uncharged capacitor of capacitance C = 900 pF as shown in figure (b). The electrostatic energy stored by the system (b) is :",
+     "o": [
+      "3.25 × 10<sup>−6</sup> J",
+      "2.25 × 10<sup>−6</sup> J",
+      "1.5 × 10<sup>−6</sup> J",
+      "4.5 × 10<sup>−6</sup> J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.15",
+     "2.14.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q38",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "The figures only repeat the text (charging, then the charged C joined across the uncharged C)."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2023-topic-wise-copy-q18",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The equivalent capacitance of the system shown in the following circuit is :",
+     "o": [
+      "9 μF",
+      "2 μF",
+      "3 μF",
+      "6 μF"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.14"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q18",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "A 3 μF capacitor in series with two 3 μF capacitors in parallel, between A and B. A redrawn figure helps."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2023-topic-wise-copy-q41",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electric dipole is placed as shown in the figure. The electric potential (in 10<sup>2</sup> V) at point P due to the dipole is : (ε<sub>0</sub> = permittivity of free space and 1/(4πε<sub>0</sub>) = K)",
+     "o": [
+      "(8/3)qK",
+      "(3/8)qK",
+      "(5/8)qK",
+      "(8/5)qK"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q41",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "Charges −q and +q are 3 cm on either side of O; P lies on the axis beyond +q, 5 cm from O."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2024-q26-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the plates of a parallel plate capacitor connected to a battery are moved close to each other, then<br>A. the charge stored in it, increases.<br>B. the energy stored in it, decreases.<br>C. its capacitance increases.<br>D. the ratio of charge to its potential remains the same.<br>E. the product of charge and voltage increases.<br>Choose the most appropriate answer from the options given below :",
+     "o": [
+      "A, B and E only",
+      "A, C and E only",
+      "B, D and E only",
+      "A, D and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.12",
+     "2.15"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q26 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2024-q27-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the following circuit, the equivalent capacitance between terminal A and terminal B is :",
+     "o": [
+      "2 μF",
+      "1 μF",
+      "0.5 μF",
+      "4 μF"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.14"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q27 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Five 2 μF capacitors in a balanced bridge: two in series on top, two in series below, one across the middle. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2024-q28-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A thin spherical shell is charged by some source. The potential difference between the two points C and P (in V) shown in the figure is : (Take 1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> SI units)",
+     "o": [
+      "3 × 10<sup>5</sup>",
+      "1 × 10<sup>5</sup>",
+      "0.5 × 10<sup>5</sup>",
+      "Zero"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.3",
+     "2.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q28 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Shell of radius R = 3 cm carrying q = 1 μC; C is the centre, P is on the shell."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2024-q29-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements : one is labelled as Assertion A and the other is labelled as Reason R.<br>Assertion A : The potential (V) at any axial point, at 2 m distance (r) from the centre of the dipole of dipole moment vector p⃗ of magnitude, 4 × 10<sup>−6</sup> C m, is ±9 × 10<sup>3</sup> V. (Take 1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> SI units)<br>Reason R : V = ±2p/(4πε<sub>0</sub>r<sup>2</sup>), where r is the distance of any axial point, situated at 2 m from the centre of the dipole.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true and R is NOT the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q29 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The value in Assertion A is clipped in the copy; \"±9 × 10<sup>3</sup> V\" is taken from its solution."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2025-code-45-q20",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The plates of a parallel plate capacitor are separated by d. Two slabs of different dielectric constant K<sub>1</sub> and K<sub>2</sub> with thickness (3/8)d and d/2, respectively are inserted in the capacitor. Due to this, the capacitance becomes two times larger than when there is nothing between the plates. If K<sub>1</sub> = 1.25 K<sub>2</sub>, the value of K<sub>1</sub> is :",
+     "o": [
+      "2.66",
+      "2.33",
+      "1.60",
+      "1.33"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.13"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q20",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2025-code-45-q35",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electric dipole with dipole moment 5 × 10<sup>−6</sup> C m is aligned with the direction of a uniform electric field of magnitude 4 × 10<sup>5</sup> N/C. The dipole is then rotated through an angle of 60° with respect to the electric field. The change in the potential energy of the dipole is :",
+     "o": [
+      "0.8 J",
+      "1.0 J",
+      "1.2 J",
+      "1.5 J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q35",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2026-code-13-q9",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Five capacitors of capacitances C<sub>1</sub> = C<sub>2</sub> = C<sub>3</sub> = C<sub>4</sub> = 10 μF and C<sub>5</sub> = 2.5 μF are connected as shown, along with a battery of 50 V. The equivalent capacitance and the charges on each capacitor respectively are :",
+     "o": [
+      "4 μF, 250 μC on C<sub>1</sub> to C<sub>4</sub> and 125 μC on C<sub>5</sub>",
+      "5 μF, 250 μC on all capacitors",
+      "5 μF, 125 μC on C<sub>1</sub> to C<sub>4</sub> and 25 μC on C<sub>5</sub>",
+      "5 μF, 125 μC on all capacitors"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.14"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q9",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "C<sub>1</sub>, C<sub>2</sub>, C<sub>3</sub>, C<sub>4</sub> in series form one branch, C<sub>5</sub> the other; both branches are directly across the 50 V battery. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-02-neet-2026-code-13-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider two uncharged capacitors of equal capacitance 200 pF. One of them is charged by a 100 V supply and disconnected. Now this capacitor is connected to the uncharged capacitor. The amount of electrostatic energy lost in the process is :",
+     "o": [
+      "0.5 J",
+      "1.0 × 10<sup>−6</sup> J",
+      "0.5 × 10<sup>−6</sup> J",
+      "1.0 J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.15",
+     "2.14.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q13",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-02-neet-2026-code-13-q24",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct?<br>A. Inside a conductor, the electrostatic field is zero.<br>B. Electric field at the surface of a charged conductor does not depend on its surface charge density.<br>C. The interior of a charged conductor can have no excess charge in the static situation.<br>D. At the surface of a charged conductor, the electrostatic field must be normal to the surface at every point.<br>E. The electrostatic potential is zero everywhere inside a charged conductor.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, C and D only",
+      "A, C and E only",
+      "C, D and E only",
+      "A, B and D only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-02",
+    "paras": [
+     "2.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q24",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
