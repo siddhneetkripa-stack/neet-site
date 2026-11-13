@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check bank answers against official answer keys and record the result on each question.
 
-    python3 tools/apply_keys.py KEYS.json [--write]
+    python3 tools/apply_keys.py content/keys/neet-official-keys.json [--write]
 
 KEYS.json: {"<year>-<booklet>": {"meta": {"source": "...", "year": 2019, "match": "Code S2"}, "key": {"46": "2", ...}}}
 `match` is the text that must appear in a question's source.paper for this key to apply (e.g. "Code S2",
@@ -16,7 +16,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def main():
-    keys = json.load(open(sys.argv[1], encoding="utf-8"))
+    doc = json.load(open(sys.argv[1], encoding="utf-8"))
+    keys = doc.get("keys", doc)
     write = "--write" in sys.argv
     stats = {}
     for f in sorted(glob.glob(os.path.join(ROOT, "content", "questions", "*.json"))):
