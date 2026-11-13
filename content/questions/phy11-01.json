@@ -87,10 +87,22 @@
       "−1, −1, −1",
       "1, 1, 1",
       "1, −1, −1"
-     ]
+     ],
+     "sol": "<p>[v<sub>c</sub>] = LT<sup>−1</sup>, [η] = ML<sup>−1</sup>T<sup>−1</sup>, [ρ] = ML<sup>−3</sup>, [r] = L. Equating powers in LT<sup>−1</sup> = M<sup>x+y</sup>L<sup>−x−3y+z</sup>T<sup>−x</sup>:</p><p>T: −x = −1 ⇒ x = 1; M: x + y = 0 ⇒ y = −1; L: −x − 3y + z = 1 ⇒ z = 1 + 1 − 3 = −1.</p><p>So x, y, z = <b>1, −1, −1</b> (v<sub>c</sub> = Re·η/(ρr)).</p>",
+     "hint": "Write the dimensions of η, ρ and r and equate the powers of M, L and T."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि किसी नली में बहते द्रव के क्रांतिक वेग v<sub>c</sub> की विमाएँ [η<sup>x</sup> ρ<sup>y</sup> r<sup>z</sup>] के रूप में व्यक्त की जाएँ, जहाँ η, ρ और r क्रमशः द्रव का श्यानता गुणांक, द्रव का घनत्व और नली की त्रिज्या हैं, तो x, y और z के मान हैं :",
+     "o": [
+      "−1, −1, 1",
+      "−1, −1, −1",
+      "1, 1, 1",
+      "1, −1, −1"
+     ],
+     "sol": "<p>[v<sub>c</sub>] = LT<sup>−1</sup>, [η] = ML<sup>−1</sup>T<sup>−1</sup>, [ρ] = ML<sup>−3</sup>, [r] = L. LT<sup>−1</sup> = M<sup>x+y</sup>L<sup>−x−3y+z</sup>T<sup>−x</sup> में घातों की तुलना करने पर :</p><p>T: −x = −1 ⇒ x = 1; M: x + y = 0 ⇒ y = −1; L: −x − 3y + z = 1 ⇒ z = 1 + 1 − 3 = −1.</p><p>अतः x, y, z = <b>1, −1, −1</b> (v<sub>c</sub> = Re·η/(ρr))।</p>",
+     "hint": "η, ρ और r की विमाएँ लिखकर M, L और T की घातों की तुलना कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -133,10 +145,22 @@
       "√(hG)/c<sup>5/2</sup>",
       "√(hc/G)",
       "√(Gc/h<sup>3/2</sup>)"
-     ]
+     ],
+     "sol": "<p>[h] = ML<sup>2</sup>T<sup>−1</sup>, [G] = M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup>, [c] = LT<sup>−1</sup>. So [hG] = L<sup>5</sup>T<sup>−3</sup> and [√(hG)] = L<sup>5/2</sup>T<sup>−3/2</sup>.</p><p>Dividing by c<sup>3/2</sup> = L<sup>3/2</sup>T<sup>−3/2</sup> leaves L. Hence <b>√(hG)/c<sup>3/2</sup></b> is a length (the Planck length).</p>",
+     "hint": "M cancels in hG; then choose the power of c that removes T."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्लांक स्थिरांक (h), निर्वात में प्रकाश की चाल (c) और न्यूटन का गुरुत्वाकर्षण स्थिरांक (G) तीन मूल स्थिरांक हैं। इनका निम्नलिखित में से कौन-सा संयोजन लंबाई की विमा रखता है?",
+     "o": [
+      "√(hG)/c<sup>3/2</sup>",
+      "√(hG)/c<sup>5/2</sup>",
+      "√(hc/G)",
+      "√(Gc/h<sup>3/2</sup>)"
+     ],
+     "sol": "<p>[h] = ML<sup>2</sup>T<sup>−1</sup>, [G] = M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup>, [c] = LT<sup>−1</sup>. अतः [hG] = L<sup>5</sup>T<sup>−3</sup> और [√(hG)] = L<sup>5/2</sup>T<sup>−3/2</sup>।</p><p>c<sup>3/2</sup> = L<sup>3/2</sup>T<sup>−3/2</sup> से भाग देने पर L बचता है। अतः <b>√(hG)/c<sup>3/2</sup></b> लंबाई है (प्लांक लंबाई)।</p>",
+     "hint": "hG में M कट जाता है; फिर c की वह घात चुनिए जिससे T हट जाए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -179,10 +203,22 @@
       "c<sup>2</sup>[G e<sup>2</sup>/(4πε<sub>0</sub>)]<sup>1/2</sup>",
       "(1/c<sup>2</sup>)[e<sup>2</sup>/(G 4πε<sub>0</sub>)]<sup>1/2</sup>",
       "(1/c)G e<sup>2</sup>/(4πε<sub>0</sub>)"
-     ]
+     ],
+     "sol": "<p>e<sup>2</sup>/(4πε<sub>0</sub>) = F r<sup>2</sup>, so its dimensions are ML<sup>3</sup>T<sup>−2</sup>. With [G] = M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup>: [G e<sup>2</sup>/(4πε<sub>0</sub>)] = L<sup>6</sup>T<sup>−4</sup>, whose square root is L<sup>3</sup>T<sup>−2</sup>.</p><p>Dividing by c<sup>2</sup> = L<sup>2</sup>T<sup>−2</sup> gives L: <b>(1/c<sup>2</sup>)[G e<sup>2</sup>/(4πε<sub>0</sub>)]<sup>1/2</sup></b>.</p>",
+     "hint": "From Coulomb's law, e<sup>2</sup>/(4πε<sub>0</sub>) has the dimensions of F × r<sup>2</sup> (force × square of distance)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "c, G और e<sup>2</sup>/(4πε<sub>0</sub>) से बनी लंबाई की विमा वाली भौतिक राशि है [c प्रकाश का वेग, G सार्वत्रिक गुरुत्वीय नियतांक और e आवेश है] :",
+     "o": [
+      "(1/c<sup>2</sup>)[G e<sup>2</sup>/(4πε<sub>0</sub>)]<sup>1/2</sup>",
+      "c<sup>2</sup>[G e<sup>2</sup>/(4πε<sub>0</sub>)]<sup>1/2</sup>",
+      "(1/c<sup>2</sup>)[e<sup>2</sup>/(G 4πε<sub>0</sub>)]<sup>1/2</sup>",
+      "(1/c)G e<sup>2</sup>/(4πε<sub>0</sub>)"
+     ],
+     "sol": "<p>e<sup>2</sup>/(4πε<sub>0</sub>) = F r<sup>2</sup>, अतः इसकी विमाएँ ML<sup>3</sup>T<sup>−2</sup> हैं। [G] = M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup> लेने पर : [G e<sup>2</sup>/(4πε<sub>0</sub>)] = L<sup>6</sup>T<sup>−4</sup>, जिसका वर्गमूल L<sup>3</sup>T<sup>−2</sup> है।</p><p>c<sup>2</sup> = L<sup>2</sup>T<sup>−2</sup> से भाग देने पर L मिलता है : <b>(1/c<sup>2</sup>)[G e<sup>2</sup>/(4πε<sub>0</sub>)]<sup>1/2</sup></b>।</p>",
+     "hint": "कूलॉम नियम से e<sup>2</sup>/(4πε<sub>0</sub>) की विमाएँ F × r<sup>2</sup> (बल × दूरी का वर्ग) के समान हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -225,10 +261,24 @@
       "10%",
       "(3/13)%",
       "16%"
-     ]
+     ],
+     "sol": "<p>For X = A<sup>2</sup>B<sup>1/2</sup>/(C<sup>1/3</sup>D<sup>3</sup>) the maximum fractional error adds the powers times the individual errors:</p><p>ΔX/X = 2(1%) + (1/2)(2%) + (1/3)(3%) + 3(4%) = 2% + 1% + 1% + 12% = <b>16%</b>.</p>",
+     "hint": "Errors always add (never subtract), each multiplied by its power.",
+     "trap": "Subtracting the errors of quantities in the denominator gives the wrong answer −10%."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी प्रयोग में भौतिक राशियों A, B, C और D के मापन में प्रतिशत त्रुटियाँ क्रमशः 1%, 2%, 3% और 4% हैं। तब X के मापन में अधिकतम प्रतिशत त्रुटि, जहाँ X = A<sup>2</sup>B<sup>1/2</sup>/(C<sup>1/3</sup>D<sup>3</sup>), होगी :",
+     "o": [
+      "−10%",
+      "10%",
+      "(3/13)%",
+      "16%"
+     ],
+     "sol": "<p>X = A<sup>2</sup>B<sup>1/2</sup>/(C<sup>1/3</sup>D<sup>3</sup>) के लिए अधिकतम भिन्नात्मक त्रुटि में प्रत्येक त्रुटि को उसकी घात से गुणा करके जोड़ते हैं :</p><p>ΔX/X = 2(1%) + (1/2)(2%) + (1/3)(3%) + 3(4%) = 2% + 1% + 1% + 12% = <b>16%</b>।</p>",
+     "hint": "त्रुटियाँ सदैव जुड़ती हैं (घटती नहीं), प्रत्येक को उसकी घात से गुणा करके।",
+     "trap": "हर में स्थित राशियों की त्रुटियाँ घटाने पर गलत उत्तर −10% मिलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -270,10 +320,22 @@
       "[ML<sup>−1</sup>T<sup>−2</sup>]",
       "[MLT<sup>−2</sup>]",
       "[ML<sup>2</sup>T<sup>−2</sup>]"
-     ]
+     ],
+     "sol": "<p>Stress = force/area = MLT<sup>−2</sup>/L<sup>2</sup> = <b>[ML<sup>−1</sup>T<sup>−2</sup>]</b> (the same as pressure).</p>",
+     "hint": "Stress has the same dimensions as pressure."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रतिबल की विमाएँ हैं :",
+     "o": [
+      "[ML<sup>0</sup>T<sup>−2</sup>]",
+      "[ML<sup>−1</sup>T<sup>−2</sup>]",
+      "[MLT<sup>−2</sup>]",
+      "[ML<sup>2</sup>T<sup>−2</sup>]"
+     ],
+     "sol": "<p>प्रतिबल = बल/क्षेत्रफल = MLT<sup>−2</sup>/L<sup>2</sup> = <b>[ML<sup>−1</sup>T<sup>−2</sup>]</b> (दाब के समान)।</p>",
+     "hint": "प्रतिबल की विमाएँ दाब के समान हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -316,10 +378,22 @@
       "9.9 m",
       "9.9801 m",
       "9.98 m"
-     ]
+     ],
+     "sol": "<p>9.99 m − 0.0099 m = 9.9801 m. In subtraction the result keeps as many decimal places as the number with the fewest (9.99 has two), so the answer is <b>9.98 m</b>.</p>",
+     "hint": "Addition/subtraction: keep the least number of decimal places, not significant figures."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सार्थक अंकों को ध्यान में रखते हुए 9.99 m − 0.0099 m का मान क्या है?",
+     "o": [
+      "9.980 m",
+      "9.9 m",
+      "9.9801 m",
+      "9.98 m"
+     ],
+     "sol": "<p>9.99 m − 0.0099 m = 9.9801 m। घटाने में परिणाम में उतने ही दशमलव स्थान रखे जाते हैं जितने सबसे कम दशमलव स्थान वाली संख्या में हैं (9.99 में दो), अतः उत्तर <b>9.98 m</b> है।</p>",
+     "hint": "जोड़ने/घटाने में सबसे कम दशमलव स्थान रखें, सार्थक अंक नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -362,10 +436,22 @@
       "[M<sup>2</sup>] [L<sup>−1</sup>] [T<sup>0</sup>]",
       "[M] [L<sup>−1</sup>] [T<sup>−1</sup>]",
       "[M] [L<sup>0</sup>] [T<sup>0</sup>]"
-     ]
+     ],
+     "sol": "<p>[E] = ML<sup>2</sup>T<sup>−2</sup> and [G] = M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup> (from F = Gm<sub>1</sub>m<sub>2</sub>/r<sup>2</sup>).</p><p>[E/G] = ML<sup>2</sup>T<sup>−2</sup> / M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup> = <b>[M<sup>2</sup>] [L<sup>−1</sup>] [T<sup>0</sup>]</b>.</p>",
+     "hint": "Get [G] from Newton's law of gravitation."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि E और G क्रमशः ऊर्जा और गुरुत्वाकर्षण स्थिरांक को दर्शाते हैं, तो E/G की विमाएँ हैं :",
+     "o": [
+      "[M<sup>2</sup>] [L<sup>−2</sup>] [T<sup>−1</sup>]",
+      "[M<sup>2</sup>] [L<sup>−1</sup>] [T<sup>0</sup>]",
+      "[M] [L<sup>−1</sup>] [T<sup>−1</sup>]",
+      "[M] [L<sup>0</sup>] [T<sup>0</sup>]"
+     ],
+     "sol": "<p>[E] = ML<sup>2</sup>T<sup>−2</sup> और [G] = M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup> (F = Gm<sub>1</sub>m<sub>2</sub>/r<sup>2</sup> से)।</p><p>[E/G] = ML<sup>2</sup>T<sup>−2</sup> / M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup> = <b>[M<sup>2</sup>] [L<sup>−1</sup>] [T<sup>0</sup>]</b>।</p>",
+     "hint": "[G] न्यूटन के गुरुत्वाकर्षण नियम से प्राप्त कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -411,10 +497,22 @@
       "[F][A][T]",
       "[F][A][T<sup>2</sup>]",
       "[F][A][T<sup>−1</sup>]"
-     ]
+     ],
+     "sol": "<p>Energy = force × distance. A distance can be written from acceleration and time as [A][T<sup>2</sup>] (s = at<sup>2</sup>/2).</p><p>So [energy] = <b>[F][A][T<sup>2</sup>]</b>. Check: MLT<sup>−2</sup> · LT<sup>−2</sup> · T<sup>2</sup> = ML<sup>2</sup>T<sup>−2</sup>.</p>",
+     "hint": "Express length through acceleration and time."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि बल [F], त्वरण [A] और समय [T] को मूल भौतिक राशियाँ चुना जाए, तो ऊर्जा की विमाएँ ज्ञात कीजिए।",
+     "o": [
+      "[F][A<sup>−1</sup>][T]",
+      "[F][A][T]",
+      "[F][A][T<sup>2</sup>]",
+      "[F][A][T<sup>−1</sup>]"
+     ],
+     "sol": "<p>ऊर्जा = बल × दूरी। दूरी को त्वरण और समय से [A][T<sup>2</sup>] लिखा जा सकता है (s = at<sup>2</sup>/2)।</p><p>अतः [ऊर्जा] = <b>[F][A][T<sup>2</sup>]</b>। जाँच : MLT<sup>−2</sup> · LT<sup>−2</sup> · T<sup>2</sup> = ML<sup>2</sup>T<sup>−2</sup>।</p>",
+     "hint": "लंबाई को त्वरण और समय के पदों में व्यक्त कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -457,10 +555,22 @@
       "No units and no dimensions",
       "Both units and dimensions",
       "Units but no dimensions"
-     ]
+     ],
+     "sol": "<p>Plane angle = arc/radius and solid angle = A/r<sup>2</sup> (area/square of radius) are ratios of like quantities, so they have no dimensions. They still have units: radian (rad) and steradian (sr). Answer: <b>units but no dimensions</b>.</p>",
+     "hint": "Radian and steradian are SI units of dimensionless quantities."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समतलीय कोण और घन कोण में होते हैं :",
+     "o": [
+      "विमाएँ परंतु मात्रक नहीं",
+      "न मात्रक, न विमाएँ",
+      "मात्रक और विमाएँ दोनों",
+      "मात्रक परंतु विमाएँ नहीं"
+     ],
+     "sol": "<p>समतलीय कोण = चाप/त्रिज्या और घन कोण = A/r<sup>2</sup> (क्षेत्रफल/त्रिज्या का वर्ग) समान राशियों के अनुपात हैं, अतः ये विमाहीन हैं। फिर भी इनके मात्रक हैं : रेडियन (rad) और स्टेरेडियन (sr)। उत्तर : <b>मात्रक परंतु विमाएँ नहीं</b>।</p>",
+     "hint": "रेडियन और स्टेरेडियन विमाहीन राशियों के SI मात्रक हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -504,10 +614,22 @@
       "magnetic permeability",
       "electric permittivity",
       "magnetic flux"
-     ]
+     ],
+     "sol": "<p>From the force between two parallel currents, F = μ<sub>0</sub>I<sub>1</sub>I<sub>2</sub>l/(2πd), so [μ<sub>0</sub>] = [F]/[I<sup>2</sup>] = MLT<sup>−2</sup>A<sup>−2</sup>. This is <b>magnetic permeability</b>.</p><p>(Self inductance is ML<sup>2</sup>T<sup>−2</sup>A<sup>−2</sup>, permittivity M<sup>−1</sup>L<sup>−3</sup>T<sup>4</sup>A<sup>2</sup>, magnetic flux ML<sup>2</sup>T<sup>−2</sup>A<sup>−1</sup>.)</p>",
+     "hint": "Use F/l = μ<sub>0</sub>I<sub>1</sub>I<sub>2</sub>/(2πd)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "विमाएँ [MLT<sup>−2</sup>A<sup>−2</sup>] किसकी हैं?",
+     "o": [
+      "स्वप्रेरकत्व",
+      "चुंबकशीलता",
+      "विद्युतशीलता",
+      "चुंबकीय फलक्स"
+     ],
+     "sol": "<p>दो समांतर धाराओं के बीच बल F = μ<sub>0</sub>I<sub>1</sub>I<sub>2</sub>l/(2πd) से [μ<sub>0</sub>] = [F]/[I<sup>2</sup>] = MLT<sup>−2</sup>A<sup>−2</sup>। यह <b>चुंबकशीलता</b> है।</p><p>(स्वप्रेरकत्व ML<sup>2</sup>T<sup>−2</sup>A<sup>−2</sup>, विद्युतशीलता M<sup>−1</sup>L<sup>−3</sup>T<sup>4</sup>A<sup>2</sup>, चुंबकीय फलक्स ML<sup>2</sup>T<sup>−2</sup>A<sup>−1</sup>।)</p>",
+     "hint": "F/l = μ<sub>0</sub>I<sub>1</sub>I<sub>2</sub>/(2πd) का उपयोग कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -553,10 +675,22 @@
       "1382.5",
       "14 × 10<sup>2</sup>",
       "138 × 10<sup>1</sup>"
-     ]
+     ],
+     "sol": "<p>Area = 55.3 m × 25 m = 1382.5 m<sup>2</sup>. In multiplication the result keeps the least number of significant figures among the factors: 25 has two. So the area is 1.4 × 10<sup>3</sup> m<sup>2</sup> = <b>14 × 10<sup>2</sup></b> m<sup>2</sup>.</p>",
+     "hint": "Multiplication: keep the least number of significant figures (here 2)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "55.3 m लंबाई और 25 m चौड़ाई वाले एक आयताकार खेत का क्षेत्रफल (m<sup>2</sup> में), सही सार्थक अंकों तक पूर्णांकन के बाद है :",
+     "o": [
+      "1382",
+      "1382.5",
+      "14 × 10<sup>2</sup>",
+      "138 × 10<sup>1</sup>"
+     ],
+     "sol": "<p>क्षेत्रफल = 55.3 m × 25 m = 1382.5 m<sup>2</sup>। गुणा में परिणाम में उतने सार्थक अंक रखे जाते हैं जितने सबसे कम सार्थक अंक वाले गुणक में हैं : 25 में दो। अतः क्षेत्रफल 1.4 × 10<sup>3</sup> m<sup>2</sup> = <b>14 × 10<sup>2</sup></b> m<sup>2</sup> है।</p>",
+     "hint": "गुणा में सबसे कम सार्थक अंक रखें (यहाँ 2)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -599,10 +733,22 @@
       "Instrumental errors",
       "Personal errors",
       "Least count errors"
-     ]
+     ],
+     "sol": "<p>Errors that change unpredictably from one reading to the next, for example because of fluctuations in temperature or supply voltage, are <b>random errors</b>. They are reduced by taking many readings and averaging.</p><p>Instrumental and least count errors come from the instrument; personal errors from the observer.</p>",
+     "hint": "Unpredictable, irregular errors = random errors."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ताप और वोल्टता आपूर्ति में अप्रत्याशित उतार-चढ़ाव के कारण मापन में होने वाली त्रुटियाँ हैं :",
+     "o": [
+      "यादृच्छिक त्रुटियाँ",
+      "उपकरण त्रुटियाँ",
+      "व्यक्तिगत त्रुटियाँ",
+      "अल्पतमांक त्रुटियाँ"
+     ],
+     "sol": "<p>जो त्रुटियाँ एक पाठ्यांक से दूसरे पाठ्यांक में अनिश्चित रूप से बदलती हैं, जैसे ताप या आपूर्ति वोल्टता के उतार-चढ़ाव के कारण, वे <b>यादृच्छिक त्रुटियाँ</b> हैं। अनेक पाठ्यांक लेकर उनका औसत लेने से ये कम होती हैं।</p><p>उपकरण और अल्पतमांक त्रुटियाँ उपकरण से, तथा व्यक्तिगत त्रुटियाँ प्रेक्षक से आती हैं।</p>",
+     "hint": "अनिश्चित, अनियमित त्रुटियाँ = यादृच्छिक त्रुटियाँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -644,10 +790,22 @@
       "1.2%",
       "1.3%",
       "1.6%"
-     ]
+     ],
+     "sol": "<p>Density ρ = m/(πr<sup>2</sup>l), so Δρ/ρ = Δm/m + 2Δr/r + Δl/l.</p><p>Δm/m = 0.002/0.4 = 0.5%; 2Δr/r = 2 × 0.001/0.3 ≈ 0.67%; Δl/l = 0.02/5 = 0.4%.</p><p>Total ≈ 1.57% ≈ <b>1.6%</b>.</p>",
+     "hint": "The radius enters squared, so its error counts twice."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक धातु के तार का द्रव्यमान (0.4 ± 0.002) g, त्रिज्या (0.3 ± 0.001) mm और लंबाई (5 ± 0.02) cm है। घनत्व के मापन में अधिकतम संभावित प्रतिशत त्रुटि लगभग होगी :",
+     "o": [
+      "1.4%",
+      "1.2%",
+      "1.3%",
+      "1.6%"
+     ],
+     "sol": "<p>घनत्व ρ = m/(πr<sup>2</sup>l), अतः Δρ/ρ = Δm/m + 2Δr/r + Δl/l।</p><p>Δm/m = 0.002/0.4 = 0.5%; 2Δr/r = 2 × 0.001/0.3 ≈ 0.67%; Δl/l = 0.02/5 = 0.4%।</p><p>कुल ≈ 1.57% ≈ <b>1.6%</b>।</p>",
+     "hint": "त्रिज्या का वर्ग आता है, अतः उसकी त्रुटि दो बार गिनी जाती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -689,10 +847,22 @@
       "αt/β",
       "αβt",
       "αβ/t"
-     ]
+     ],
+     "sol": "<p>Each term of a sum has the dimensions of F: [αt<sup>2</sup>] = [F] ⇒ [α] = [F]T<sup>−2</sup>; [βt] = [F] ⇒ [β] = [F]T<sup>−1</sup>.</p><p>[αt/β] = [F]T<sup>−2</sup> · T / ([F]T<sup>−1</sup>) = 1, so <b>αt/β</b> is dimensionless.</p>",
+     "hint": "Every term in a physical sum has the same dimensions."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "F = αt<sup>2</sup> + βt द्वारा परिभाषित एक बल किसी दिए गए समय t पर एक कण पर कार्य करता है। यदि α और β नियतांक हैं, तो विमाहीन गुणक है :",
+     "o": [
+      "βt/α",
+      "αt/β",
+      "αβt",
+      "αβ/t"
+     ],
+     "sol": "<p>योग के प्रत्येक पद की विमाएँ F के समान होती हैं : [αt<sup>2</sup>] = [F] ⇒ [α] = [F]T<sup>−2</sup>; [βt] = [F] ⇒ [β] = [F]T<sup>−1</sup>।</p><p>[αt/β] = [F]T<sup>−2</sup> · T / ([F]T<sup>−1</sup>) = 1, अतः <b>αt/β</b> विमाहीन है।</p>",
+     "hint": "किसी भौतिक योग के प्रत्येक पद की विमाएँ समान होती हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -736,10 +906,22 @@
       "stress and angle",
       "strain and arc",
       "angular speed and stress"
-     ]
+     ],
+     "sol": "<p>Solid angle (A/r<sup>2</sup>) is dimensionless. Strain (change in length/length) and plane angle (arc/radius) are also dimensionless. Stress, arc length and angular speed are not. Answer: <b>strain and angle</b>.</p>",
+     "hint": "Look for ratios of like quantities."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वे राशियाँ जिनकी विमाएँ घन कोण की विमाओं के समान हैं :",
+     "o": [
+      "विकृति और कोण",
+      "प्रतिबल और कोण",
+      "विकृति और चाप",
+      "कोणीय चाल और प्रतिबल"
+     ],
+     "sol": "<p>घन कोण (A/r<sup>2</sup>) विमाहीन है। विकृति (लंबाई में परिवर्तन/लंबाई) और समतलीय कोण (चाप/त्रिज्या) भी विमाहीन हैं। प्रतिबल, चाप की लंबाई और कोणीय चाल विमाहीन नहीं हैं। उत्तर : <b>विकृति और कोण</b>।</p>",
+     "hint": "समान राशियों के अनुपात खोजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -784,10 +966,22 @@
       "2%",
       "13%",
       "15%"
-     ]
+     ],
+     "sol": "<p>For P = a<sup>3</sup>b<sup>2</sup>/(c√d): ΔP/P = 3(Δa/a) + 2(Δb/b) + Δc/c + (1/2)(Δd/d).</p><p>= 3(1%) + 2(3%) + 2% + (1/2)(4%) = 3% + 6% + 2% + 2% = <b>13%</b>.</p>",
+     "hint": "Multiply each percentage error by its power and add."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक भौतिक राशि P चार प्रेक्षणों a, b, c और d से इस प्रकार संबंधित है : P = a<sup>3</sup>b<sup>2</sup>/(c√d)। a, b, c और d के मापन में प्रतिशत त्रुटियाँ क्रमशः 1%, 3%, 2% और 4% हैं। राशि P में प्रतिशत त्रुटि है :",
+     "o": [
+      "10%",
+      "2%",
+      "13%",
+      "15%"
+     ],
+     "sol": "<p>P = a<sup>3</sup>b<sup>2</sup>/(c√d) के लिए : ΔP/P = 3(Δa/a) + 2(Δb/b) + Δc/c + (1/2)(Δd/d)।</p><p>= 3(1%) + 2(3%) + 2% + (1/2)(4%) = 3% + 6% + 2% + 2% = <b>13%</b>।</p>",
+     "hint": "प्रत्येक प्रतिशत त्रुटि को उसकी घात से गुणा करके जोड़िए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -829,10 +1023,22 @@
       "500",
       "3 × 10<sup>10</sup>",
       "400"
-     ]
+     ],
+     "sol": "<p>Distance = speed × time. Time = 6 min 40 s = 400 s. With the speed of light taken as 1, distance = 1 × 400 = <b>400</b> new units (one unit = the distance light travels in 1 s).</p>",
+     "hint": "Convert the time to seconds; the new unit of length is one light-second."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निर्वात में प्रकाश की चाल को एकांक माना जाता है। यदि प्रकाश को सूर्य से पृथ्वी तक पहुँचने में 6 min 40 s लगते हैं, तो नए मात्रक में सूर्य और पृथ्वी के बीच की दूरी है :",
+     "o": [
+      "3 × 10<sup>8</sup>",
+      "500",
+      "3 × 10<sup>10</sup>",
+      "400"
+     ],
+     "sol": "<p>दूरी = चाल × समय। समय = 6 min 40 s = 400 s। प्रकाश की चाल 1 लेने पर दूरी = 1 × 400 = <b>400</b> नए मात्रक (एक मात्रक = प्रकाश द्वारा 1 s में चली दूरी)।</p>",
+     "hint": "समय को सेकंड में बदलिए; लंबाई का नया मात्रक एक प्रकाश-सेकंड है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -875,10 +1081,24 @@
       "7.7",
       "7.65",
       "7.6"
-     ]
+     ],
+     "sol": "<p>Volume = (9.0 cm)<sup>3</sup> = 729 cm<sup>3</sup> = 7.29 × 10<sup>−4</sup> m<sup>3</sup>. Density = 5.580 kg / 7.29 × 10<sup>−4</sup> m<sup>3</sup> = 7.654 × 10<sup>3</sup> kg m<sup>−3</sup>.</p><p>The side 9.0 cm has only two significant figures, so the density is rounded to two: <b>7.7</b> × 10<sup>3</sup> kg m<sup>−3</sup>.</p>",
+     "hint": "The result can have no more significant figures than the least precise measurement (9.0 cm: two).",
+     "trap": "7.6 is truncated, not rounded: 7.654 rounds up to 7.7."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "5.580 kg द्रव्यमान के एक धात्विक घन की प्रत्येक भुजा 9.0 cm मापी गई है। सार्थक अंकों को ध्यान में रखते हुए घन के पदार्थ के घनत्व को X × 10<sup>3</sup> kg m<sup>−3</sup> के रूप में सबसे अच्छे ढंग से व्यक्त किया जा सकता है, जहाँ X का मान है :",
+     "o": [
+      "7.654",
+      "7.7",
+      "7.65",
+      "7.6"
+     ],
+     "sol": "<p>आयतन = (9.0 cm)<sup>3</sup> = 729 cm<sup>3</sup> = 7.29 × 10<sup>−4</sup> m<sup>3</sup>। घनत्व = 5.580 kg / 7.29 × 10<sup>−4</sup> m<sup>3</sup> = 7.654 × 10<sup>3</sup> kg m<sup>−3</sup>।</p><p>भुजा 9.0 cm में केवल दो सार्थक अंक हैं, अतः घनत्व को दो सार्थक अंकों तक पूर्णांकित करते हैं : <b>7.7</b> × 10<sup>3</sup> kg m<sup>−3</sup>।</p>",
+     "hint": "परिणाम में सबसे कम परिशुद्ध मापन (9.0 cm : दो) से अधिक सार्थक अंक नहीं हो सकते।",
+     "trap": "7.6 पूर्णांकन नहीं, काट-छाँट है : 7.654 का पूर्णांकन 7.7 होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
