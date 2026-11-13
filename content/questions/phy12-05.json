@@ -1,0 +1,552 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-05",
+ "subject": "physics",
+ "class": 12,
+ "unit": 5,
+ "title": {
+  "en": "Magnetism and Matter"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph105.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "5.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "5.2",
+   "title": "The Bar Magnet",
+   "hi": "छड़ चुंबक",
+   "pdfPage": 2
+  },
+  {
+   "id": "5.2.1",
+   "title": "The Magnetic Field Lines",
+   "hi": "चुंबकीय क्षेत्र रेखाएँ",
+   "pdfPage": 2
+  },
+  {
+   "id": "5.2.2",
+   "title": "Bar Magnet as an Equivalent Solenoid",
+   "hi": "छड़ चुंबक का एक धारावाही परिनालिका की तरह व्यवहार",
+   "pdfPage": 3
+  },
+  {
+   "id": "5.2.3",
+   "title": "The Dipole in a Uniform Magnetic Field",
+   "hi": "एकसमान चुंबकीय क्षेत्र में द्विध्रुव",
+   "pdfPage": 4
+  },
+  {
+   "id": "5.2.4",
+   "title": "The Electrostatic Analog",
+   "hi": "स्थिरवैद्युत अनुरूप",
+   "pdfPage": 5
+  },
+  {
+   "id": "5.3",
+   "title": "Magnetism and Gauss's Law",
+   "hi": "चुंबकत्व एवं गाउस नियम",
+   "pdfPage": 7
+  },
+  {
+   "id": "5.4",
+   "title": "Magnetisation and Magnetic Intensity",
+   "hi": "चुंबकीकरण एवं चुंबकीय तीव्रता",
+   "pdfPage": 10
+  },
+  {
+   "id": "5.5",
+   "title": "Magnetic Properties of Materials",
+   "hi": "पदार्थों के चुंबकीय गुण",
+   "pdfPage": 12
+  },
+  {
+   "id": "5.5.1",
+   "title": "Diamagnetism",
+   "hi": "प्रतिचुंबकत्व",
+   "pdfPage": 12
+  },
+  {
+   "id": "5.5.2",
+   "title": "Paramagnetism",
+   "hi": "अनुचुंबकत्व",
+   "pdfPage": 13
+  },
+  {
+   "id": "5.5.3",
+   "title": "Ferromagnetism",
+   "hi": "लौह चुंबकत्व",
+   "pdfPage": 14
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-05-neet-2016-phase-1-code-a-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The magnetic susceptibility is negative for:",
+     "o": [
+      "diamagnetic material only",
+      "paramagnetic material only",
+      "ferromagnetic material only",
+      "paramagnetic and ferromagnetic materials"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.5.1",
+     "5.5.2",
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q3",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2016-phase-2-code-aa-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A bar magnet is hung by a thin cotton thread in a uniform horizontal magnetic field and is in equilibrium state. The energy required to rotate it by 60° is W. Now the torque required to keep the magnet in this new position is :",
+     "o": [
+      "W/√3",
+      "√3 W",
+      "√3 W/2",
+      "2W/√3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q28",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2017-code-a-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If θ<sub>1</sub> and θ<sub>2</sub> be the apparent angles of dip observed in two vertical planes at right angles to each other, then the true angle of dip θ is given by :",
+     "o": [
+      "cot<sup>2</sup>θ = cot<sup>2</sup>θ<sub>1</sub> + cot<sup>2</sup>θ<sub>2</sub>",
+      "tan<sup>2</sup>θ = tan<sup>2</sup>θ<sub>1</sub> + tan<sup>2</sup>θ<sub>2</sub>",
+      "cot<sup>2</sup>θ = cot<sup>2</sup>θ<sub>1</sub> − cot<sup>2</sup>θ<sub>2</sub>",
+      "tan<sup>2</sup>θ = tan<sup>2</sup>θ<sub>1</sub> − tan<sup>2</sup>θ<sub>2</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 5 · Earth's magnetism (apparent dip)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q28",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2018-code-aa-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from :",
+     "o": [
+      "the lattice structure of the material of the rod",
+      "the magnetic field",
+      "the current source",
+      "the induced electric field due to the changing magnetic field"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q27",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2019-code-s2-q99",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At a point A on the earth's surface the angle of dip, δ = +25°. At a point B on the earth's surface the angle of dip, δ = −25°. We can interpret that :",
+     "o": [
+      "A is located in the northern hemisphere and B is located in the southern hemisphere",
+      "A and B are both located in the southern hemisphere",
+      "A and B are both located in the northern hemisphere",
+      "A is located in the southern hemisphere and B is located in the northern hemisphere"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 5 · Earth's magnetism (angle of dip)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q99",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2020-code-f3-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An iron rod of susceptibility 599 is subjected to a magnetising field of 1200 A m<sup>−1</sup>. The permeability of the material of the rod is : (μ<sub>0</sub> = 4π × 10<sup>−7</sup> T m A<sup>−1</sup>)",
+     "o": [
+      "2.4π × 10<sup>−5</sup> T m A<sup>−1</sup>",
+      "2.4π × 10<sup>−7</sup> T m A<sup>−1</sup>",
+      "2.4π × 10<sup>−4</sup> T m A<sup>−1</sup>",
+      "8.0 × 10<sup>−5</sup> T m A<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q26",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2023-topic-wise-copy-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The net magnetic flux through any closed surface is :",
+     "o": [
+      "Negative",
+      "Zero",
+      "Positive",
+      "Infinity"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q22",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-05-neet-2024-q2-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II.<br>List-I (Material) — List-II (Susceptibility (χ))<br>A. Diamagnetic — I. χ = 0<br>B. Ferromagnetic — II. 0 > χ ≥ −1<br>C. Paramagnetic — III. χ >> 1<br>D. Non-magnetic — IV. 0 < χ < ε (a small positive number)<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A-II, B-III, C-IV, D-I",
+      "A-II, B-I, C-III, D-IV",
+      "A-III, B-II, C-I, D-IV",
+      "A-IV, B-III, C-II, D-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q2 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-05-neet-2024-q21-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An iron bar of length L has magnetic moment M. It is bent at the middle of its length such that the two arms make an angle 60° with each other. The magnetic moment of this new magnet is :",
+     "o": [
+      "M",
+      "M/2",
+      "2M",
+      "M/√3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.2",
+     "5.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q21 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-05-neet-2024-q46-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a uniform magnetic field of 0.049 T, a magnetic needle performs 20 complete oscillations in 5 seconds as shown. The moment of inertia of the needle is 9.8 × 10<sup>−6</sup> kg m<sup>2</sup>. If the magnitude of magnetic moment of the needle is x × 10<sup>−5</sup> A m<sup>2</sup>, then the value of 'x' is :",
+     "o": [
+      "5π<sup>2</sup>",
+      "128π<sup>2</sup>",
+      "50π<sup>2</sup>",
+      "1280π<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q46 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The figure only shows a suspended needle in a horizontal field."
+   }
+  }
+ ]
+}
