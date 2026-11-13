@@ -2681,6 +2681,138 @@
    "hi": "प्रति न्यूक्लिऑन",
    "source": "ncert-hi-text (physics)",
    "check": false
+  },
+  {
+   "en": "semiconductor",
+   "hi": "अर्धचालक",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "majority carrier",
+   "hi": "बहुसंख्यक वाहक",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "minority carrier",
+   "hi": "अल्पसंख्यक वाहक",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "depletion region",
+   "hi": "ह्रासी क्षेत्र",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "forward bias",
+   "hi": "अग्रदिशिक बायस",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "reverse bias",
+   "hi": "पश्चदिशिक बायस",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "barrier potential",
+   "hi": "रोधिका विभव",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "rectifier",
+   "hi": "दिष्टकारी",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "full wave rectifier",
+   "hi": "पूर्ण तरंग दिष्टकारी",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "centre-tapped transformer",
+   "hi": "मध्य निष्कासी ट्रांसफ़ार्मर",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "ripple",
+   "hi": "उर्मिका",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "trivalent",
+   "hi": "त्रिसंयोजी",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "pentavalent",
+   "hi": "पंचसंयोजी",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "dopant",
+   "hi": "अपमिश्रक",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "breakdown",
+   "hi": "भंजन",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "junction",
+   "hi": "संधि",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "collector",
+   "hi": "संग्राहक",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "emitter",
+   "hi": "उत्सर्जक",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "input",
+   "hi": "निवेश",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "output",
+   "hi": "निर्गत",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "hole",
+   "hi": "होल",
+   "source": "ncert-hi-text (physics)",
+   "check": false
+  },
+  {
+   "en": "load resistance",
+   "hi": "लोड प्रतिरोध",
+   "source": "ncert-hi-text (physics)",
+   "check": false
   }
  ],
  "noNcertTerm": [
@@ -2848,6 +2980,66 @@
    "en": "daughter nucleus",
    "hi_used": "संतति नाभिक",
    "note": "संतति used in NCERT Hindi (biology); phrase not found in physics text"
+  },
+  {
+   "en": "common emitter (CE)",
+   "hi_used": "उभयनिष्ठ उत्सर्जक",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "amplifier",
+   "hi_used": "प्रवर्धक",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "voltage gain",
+   "hi_used": "वोल्टता लब्धि",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "power gain",
+   "hi_used": "शक्ति लब्धि",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "current amplification factor / current gain",
+   "hi_used": "धारा प्रवर्धन गुणांक / धारा लब्धि",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "truth table",
+   "hi_used": "सत्यमान सारणी",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "logic gate",
+   "hi_used": "लॉजिक गेट",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "photovoltaic device",
+   "hi_used": "प्रकाश वोल्टीय युक्ति",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "solar cell",
+   "hi_used": "सौर सेल",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "quadrant",
+   "hi_used": "चतुर्थांश",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "reverse saturation current",
+   "hi_used": "पश्चदिशिक संतृप्त धारा",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
+  },
+  {
+   "en": "Boolean operation",
+   "hi_used": "बूलियन संक्रिया",
+   "note": "transistors, logic gates, special diodes are not in the rationalised NCERT Hindi text"
   }
  ]
 }

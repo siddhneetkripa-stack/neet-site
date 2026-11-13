@@ -74,10 +74,22 @@
       "20 mA",
       "35 mA",
       "30 mA"
-     ]
+     ],
+     "sol": "<p>The diode is forward biased and takes 0.5 V. Voltage left for R = 3.5 − 0.5 = 3.0 V.</p><p>I = 3.0/100 = 0.03 A = <b>30 mA</b>.</p>",
+     "hint": "Subtract the barrier potential from the e.m.f."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दी गई आकृति में एक डायोड D, बाह्य प्रतिरोध R = 100 Ω और 3.5 V के e.m.f. से जुड़ा है। यदि डायोड के सिरों पर विकसित रोधिका विभव 0.5 V है, तो परिपथ में धारा होगी :",
+     "o": [
+      "40 mA",
+      "20 mA",
+      "35 mA",
+      "30 mA"
+     ],
+     "sol": "<p>डायोड अग्रदिशिक बायस में है और 0.5 V लेता है। R के लिए शेष वोल्टता = 3.5 − 0.5 = 3.0 V।</p><p>I = 3.0/100 = 0.03 A = <b>30 mA</b>।</p>",
+     "hint": "e.m.f. में से रोधिका विभव घटाइए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -121,10 +133,22 @@
       "2 cos(15t + 5π/6)",
       "300 cos(15t + 4π/3)",
       "300 cos(15t + π/3)"
-     ]
+     ],
+     "sol": "<p>A CE amplifier multiplies the amplitude by the gain and reverses the phase (adds π): output = 150 × 2 cos(15t + π/3 + π) = <b>300 cos(15t + 4π/3)</b>.</p><p>(Transistor amplifiers are no longer in the NEET syllabus.)</p>",
+     "hint": "CE configuration: 180° phase shift."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "150 वोल्टता लब्धि वाले एक CE प्रवर्धक को दिया गया निवेश सिग्नल V<sub>i</sub> = 2 cos(15t + π/3) है। संगत निर्गत सिग्नल होगा :",
+     "o": [
+      "75 cos(15t + 2π/3)",
+      "2 cos(15t + 5π/6)",
+      "300 cos(15t + 4π/3)",
+      "300 cos(15t + π/3)"
+     ],
+     "sol": "<p>CE प्रवर्धक आयाम को लब्धि से गुणा करता है और कला उलट देता है (π जोड़ता है) : निर्गत = 150 × 2 cos(15t + π/3 + π) = <b>300 cos(15t + 4π/3)</b>।</p><p>(ट्रांजिस्टर प्रवर्धक अब NEET पाठ्यक्रम में नहीं हैं।)</p>",
+     "hint": "CE विन्यास : 180° कला परिवर्तन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -166,10 +190,22 @@
       "10<sup>−2</sup> A",
       "10<sup>−1</sup> A",
       "10<sup>−3</sup> A"
-     ]
+     ],
+     "sol": "<p>In the figure A is at +4 V and B at −6 V, with the ideal diode forward biased and a 1 kΩ resistor between them. The ideal diode drops no voltage, so I = (4 − (−6))/1000 = 10/1000 = <b>10<sup>−2</sup> A</b>.</p>",
+     "hint": "Ideal forward-biased diode = closed switch."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "संधि डायोड को आदर्श मानिए। AB से प्रवाहित धारा का मान है :",
+     "o": [
+      "0 A",
+      "10<sup>−2</sup> A",
+      "10<sup>−1</sup> A",
+      "10<sup>−3</sup> A"
+     ],
+     "sol": "<p>आकृति में A, +4 V पर और B, −6 V पर है, उनके बीच आदर्श डायोड अग्रदिशिक बायस में है और 1 kΩ का प्रतिरोधक है। आदर्श डायोड पर कोई वोल्टता पात नहीं होता, अतः I = (4 − (−6))/1000 = 10/1000 = <b>10<sup>−2</sup> A</b>।</p>",
+     "hint": "आदर्श अग्रदिशिक बायस डायोड = बंद स्विच।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -213,10 +249,22 @@
       "3.69, 3.84",
       "4, 4",
       "4, 3.69"
-     ]
+     ],
+     "sol": "<p>Voltage gain A<sub>v</sub> = β × R<sub>L</sub>/R<sub>i</sub> = 0.96 × 800/192 = 4. Power gain = β × A<sub>v</sub> = 0.96 × 4 = 3.84.</p><p>Answer: <b>4, 3.84</b>. (Transistor amplifiers are no longer in the NEET syllabus.)</p>",
+     "hint": "A<sub>v</sub> = β R<sub>L</sub>/R<sub>i</sub>; power gain = β A<sub>v</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी प्रवर्धक में एक npn ट्रांजिस्टर उभयनिष्ठ उत्सर्जक विन्यास में जुड़ा है। संग्राहक परिपथ में 800 Ω का लोड प्रतिरोध जुड़ा है और इसके सिरों पर वोल्टता पात 0.8 V है। यदि धारा प्रवर्धन गुणांक 0.96 है और परिपथ का निवेश प्रतिरोध 192 Ω है, तो प्रवर्धक की वोल्टता लब्धि और शक्ति लब्धि क्रमशः होंगी :",
+     "o": [
+      "4, 3.84",
+      "3.69, 3.84",
+      "4, 4",
+      "4, 3.69"
+     ],
+     "sol": "<p>वोल्टता लब्धि A<sub>v</sub> = β × R<sub>L</sub>/R<sub>i</sub> = 0.96 × 800/192 = 4। शक्ति लब्धि = β × A<sub>v</sub> = 0.96 × 4 = 3.84।</p><p>उत्तर : <b>4, 3.84</b>। (ट्रांजिस्टर प्रवर्धक अब NEET पाठ्यक्रम में नहीं हैं।)</p>",
+     "hint": "A<sub>v</sub> = β R<sub>L</sub>/R<sub>i</sub>; शक्ति लब्धि = β A<sub>v</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -259,10 +307,22 @@
       "A = 1, B = 0, C = 0",
       "A = 1, B = 1, C = 0",
       "A = 1, B = 0, C = 1"
-     ]
+     ],
+     "sol": "<p>In the paper's circuit A and B go to an OR gate, whose output goes with C to an AND gate: Y = (A + B)·C.</p><p>Y = 1 needs C = 1 and at least one of A, B = 1. Only <b>A = 1, B = 0, C = 1</b> does this.</p>",
+     "hint": "Any input set with C = 0 gives Y = 0."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित परिपथ के लिए निर्गत 1 प्राप्त करने हेतु निवेश का सही विकल्प है :",
+     "o": [
+      "A = 0, B = 1, C = 0",
+      "A = 1, B = 0, C = 0",
+      "A = 1, B = 1, C = 0",
+      "A = 1, B = 0, C = 1"
+     ],
+     "sol": "<p>प्रश्नपत्र के परिपथ में A और B एक OR गेट में जाते हैं, जिसका निर्गत C के साथ एक AND गेट में जाता है : Y = (A + B)·C।</p><p>Y = 1 के लिए C = 1 और A, B में से कम से कम एक = 1 चाहिए। केवल <b>A = 1, B = 0, C = 1</b> यह देता है।</p>",
+     "hint": "C = 0 वाला कोई भी निवेश Y = 0 देता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -305,10 +365,22 @@
       "20 mV",
       "30 mV",
       "15 mV"
-     ]
+     ],
+     "sol": "<p>Voltage gain = β × R<sub>C</sub>/R<sub>B</sub> = 100 × 2/1 = 200. Input = 4 V/200 = 0.02 V = <b>20 mV</b>.</p><p>(Transistor amplifiers are no longer in the NEET syllabus.)</p>",
+     "hint": "A<sub>v</sub> = β R<sub>C</sub>/R<sub>B</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "CE ट्रांजिस्टर प्रवर्धक के लिए, 2 kΩ के संग्राहक प्रतिरोध के सिरों पर ऑडियो सिग्नल वोल्टता 4 V है। यदि ट्रांजिस्टर का धारा प्रवर्धन गुणांक 100 और आधार प्रतिरोध 1 k Ω है, तो निवेश सिग्नल वोल्टता है",
+     "o": [
+      "10 mV",
+      "20 mV",
+      "30 mV",
+      "15 mV"
+     ],
+     "sol": "<p>वोल्टता लब्धि = β × R<sub>C</sub>/R<sub>B</sub> = 100 × 2/1 = 200। निवेश = 4 V/200 = 0.02 V = <b>20 mV</b>।</p><p>(ट्रांजिस्टर प्रवर्धक अब NEET पाठ्यक्रम में नहीं हैं।)</p>",
+     "hint": "A<sub>v</sub> = β R<sub>C</sub>/R<sub>B</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -351,10 +423,22 @@
       "10.0 A",
       "1.43 A",
       "3.13 A"
-     ]
+     ],
+     "sol": "<p>D<sub>1</sub> is reverse biased, so the R<sub>2</sub> branch carries no current. D<sub>2</sub> is forward biased (ideal, zero drop), so the circuit is R<sub>1</sub> + R<sub>3</sub> = 2 + 2 = 4 Ω.</p><p>I = 10/4 = <b>2.5 A</b>.</p>",
+     "hint": "Remove the reverse-biased branch."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिए गए परिपथ में दो आदर्श डायोड आकृति में दिखाए अनुसार जुड़े हैं। प्रतिरोध R<sub>1</sub> से प्रवाहित धारा होगी :",
+     "o": [
+      "2.5 A",
+      "10.0 A",
+      "1.43 A",
+      "3.13 A"
+     ],
+     "sol": "<p>D<sub>1</sub> पश्चदिशिक बायस में है, अतः R<sub>2</sub> शाखा में कोई धारा नहीं। D<sub>2</sub> अग्रदिशिक बायस में है (आदर्श, शून्य पात), अतः परिपथ R<sub>1</sub> + R<sub>3</sub> = 2 + 2 = 4 Ω है।</p><p>I = 10/4 = <b>2.5 A</b>।</p>",
+     "hint": "पश्चदिशिक बायस वाली शाखा हटा दीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -398,10 +482,22 @@
       "0, 0",
       "1, 0",
       "1, 1"
-     ]
+     ],
+     "sol": "<p>In the paper's circuit gate P is an AND gate on A, B and gate Q is a NOR gate on P and C: Y = (A·B + C)‾.</p><p>All inputs 0: P = 0, Y = (0 + 0)‾ = 1. All inputs 1: P = 1, Y = (1 + 1)‾ = 0. Answer: <b>1, 0</b>.</p>",
+     "hint": "Work out P first, then Y."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित परिपथ में निर्गत Y क्या है, जब तीनों निवेश A, B, C पहले 0 और फिर 1 हैं?",
+     "o": [
+      "0, 1",
+      "0, 0",
+      "1, 0",
+      "1, 1"
+     ],
+     "sol": "<p>प्रश्नपत्र के परिपथ में गेट P, A, B पर एक AND गेट है और गेट Q, P और C पर एक NOR गेट है : Y = (A·B + C)‾।</p><p>सभी निवेश 0 : P = 0, Y = (0 + 0)‾ = 1। सभी निवेश 1 : P = 1, Y = (1 + 1)‾ = 0। उत्तर : <b>1, 0</b>।</p>",
+     "hint": "पहले P, फिर Y ज्ञात कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -444,10 +540,22 @@
       "15 and 200",
       "150 and 15000",
       "20 and 2000"
-     ]
+     ],
+     "sol": "<p>Voltage gain = β × R<sub>C</sub>/R<sub>B</sub> = 100 × 3/2 = 150. Power gain = β × voltage gain = 100 × 150 = 15000.</p><p>Answer: <b>150 and 15000</b>. (Transistor amplifiers are no longer in the NEET syllabus.)</p>",
+     "hint": "Power gain = current gain × voltage gain."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक उभयनिष्ठ उत्सर्जक ट्रांजिस्टर प्रवर्धक में संग्राहक के सिरों पर ऑडियो सिग्नल वोल्टता 3 V है। संग्राहक का प्रतिरोध 3 kΩ है। यदि धारा लब्धि 100 और आधार प्रतिरोध 2 kΩ है, तो प्रवर्धक की वोल्टता और शक्ति लब्धि है :",
+     "o": [
+      "200 और 1000",
+      "15 और 200",
+      "150 और 15000",
+      "20 और 2000"
+     ],
+     "sol": "<p>वोल्टता लब्धि = β × R<sub>C</sub>/R<sub>B</sub> = 100 × 3/2 = 150। शक्ति लब्धि = β × वोल्टता लब्धि = 100 × 150 = 15000।</p><p>उत्तर : <b>150 और 15000</b>। (ट्रांजिस्टर प्रवर्धक अब NEET पाठ्यक्रम में नहीं हैं।)</p>",
+     "hint": "शक्ति लब्धि = धारा लब्धि × वोल्टता लब्धि।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -489,10 +597,22 @@
       "−4 V —▷|— R — −3 V",
       "−2 V —▷|— R — +2 V",
       "3 V —▷|— R — 5 V"
-     ]
+     ],
+     "sol": "<p>Forward bias means the p side is at a higher potential than the n side. (1): p at 0 V, n at −2 V → forward. (2): −4 V vs −3 V, p lower → reverse. (3): −2 V vs +2 V → reverse. (4): 3 V vs 5 V → reverse.</p><p>Answer: <b>option (1)</b>.</p>",
+     "hint": "Forward bias: V<sub>p</sub> > V<sub>n</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा अग्रदिशिक बायस डायोड को निरूपित करता है?",
+     "o": [
+      "0 V —▷|— R — −2 V",
+      "−4 V —▷|— R — −3 V",
+      "−2 V —▷|— R — +2 V",
+      "3 V —▷|— R — 5 V"
+     ],
+     "sol": "<p>अग्रदिशिक बायस का अर्थ है p सिरा n सिरे से उच्च विभव पर है। (1) : p, 0 V पर, n, −2 V पर → अग्रदिशिक। (2) : −4 V और −3 V, p निम्न → पश्चदिशिक। (3) : −2 V और +2 V → पश्चदिशिक। (4) : 3 V और 5 V → पश्चदिशिक।</p><p>उत्तर : <b>विकल्प (1)</b>।</p>",
+     "hint": "अग्रदिशिक बायस : V<sub>p</sub> > V<sub>n</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -536,10 +656,22 @@
       "OR gate",
       "NOR gate",
       "NOT gate"
-     ]
+     ],
+     "sol": "<p>Tracing the network in the paper gives Y = (A + B)‾: the output is 1 only when A = B = 0. Truth table 0 0 → 1; 0 1 → 0; 1 0 → 0; 1 1 → 0. That is a <b>NOR gate</b>.</p>",
+     "hint": "Write the truth table stage by stage."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिया गया विद्युत नेटवर्क किसके तुल्य है?",
+     "o": [
+      "AND गेट",
+      "OR गेट",
+      "NOR गेट",
+      "NOT गेट"
+     ],
+     "sol": "<p>प्रश्नपत्र के नेटवर्क को चरणबद्ध हल करने पर Y = (A + B)‾ : निर्गत केवल A = B = 0 पर 1 है। सत्यमान सारणी 0 0 → 1; 0 1 → 0; 1 0 → 0; 1 1 → 0। यह <b>NOR गेट</b> है।</p>",
+     "hint": "चरण-दर-चरण सत्यमान सारणी लिखिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -582,10 +714,22 @@
       "I<sub>B</sub> = 25 μA, I<sub>C</sub> = 5 mA, β = 200",
       "I<sub>B</sub> = 40 μA, I<sub>C</sub> = 10 mA, β = 250",
       "I<sub>B</sub> = 40 μA, I<sub>C</sub> = 5 mA, β = 125"
-     ]
+     ],
+     "sol": "<p>With V<sub>BE</sub> = 0: I<sub>B</sub> = 20 V/500 kΩ = 40 μA. With V<sub>CE</sub> = 0: I<sub>C</sub> = 20 V/4 kΩ = 5 mA.</p><p>β = I<sub>C</sub>/I<sub>B</sub> = 5 × 10<sup>−3</sup>/40 × 10<sup>−6</sup> = 125. Answer: <b>I<sub>B</sub> = 40 μA, I<sub>C</sub> = 5 mA, β = 125</b>.</p>",
+     "hint": "Each resistor carries its full supply voltage."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आकृति में दिखाए गए परिपथ में निवेश वोल्टता V<sub>i</sub> 20 V है, V<sub>BE</sub> = 0 और V<sub>CE</sub> = 0 है। I<sub>B</sub>, I<sub>C</sub> और β के मान हैं :",
+     "o": [
+      "I<sub>B</sub> = 20 μA, I<sub>C</sub> = 5 mA, β = 250",
+      "I<sub>B</sub> = 25 μA, I<sub>C</sub> = 5 mA, β = 200",
+      "I<sub>B</sub> = 40 μA, I<sub>C</sub> = 10 mA, β = 250",
+      "I<sub>B</sub> = 40 μA, I<sub>C</sub> = 5 mA, β = 125"
+     ],
+     "sol": "<p>V<sub>BE</sub> = 0 से : I<sub>B</sub> = 20 V/500 kΩ = 40 μA। V<sub>CE</sub> = 0 से : I<sub>C</sub> = 20 V/4 kΩ = 5 mA।</p><p>β = I<sub>C</sub>/I<sub>B</sub> = 5 × 10<sup>−3</sup>/40 × 10<sup>−6</sup> = 125। उत्तर : <b>I<sub>B</sub> = 40 μA, I<sub>C</sub> = 5 mA, β = 125</b>।</p>",
+     "hint": "प्रत्येक प्रतिरोधक पर पूरी स्रोत वोल्टता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -628,10 +772,22 @@
       "affects only forward resistance",
       "affects only reverse resistance",
       "affects the overall V – I characteristics of p-n junction"
-     ]
+     ],
+     "sol": "<p>Heating creates more electron–hole pairs: reverse saturation current rises, the barrier potential falls and forward current rises for a given voltage. Both forward and reverse behaviour change: it <b>affects the overall V – I characteristics</b>.</p>",
+     "hint": "Temperature changes the number of minority carriers and the barrier."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी p-n संधि डायोड में तापन के कारण ताप में परिवर्तन :",
+     "o": [
+      "p-n संधि के प्रतिरोध को प्रभावित नहीं करता",
+      "केवल अग्रदिशिक प्रतिरोध को प्रभावित करता है",
+      "केवल पश्चदिशिक प्रतिरोध को प्रभावित करता है",
+      "p-n संधि के संपूर्ण V – I अभिलाक्षणिक को प्रभावित करता है"
+     ],
+     "sol": "<p>तापन से अधिक इलेक्ट्रॉन–होल युग्म बनते हैं : पश्चदिशिक संतृप्त धारा बढ़ती है, रोधिका विभव घटता है और दी गई वोल्टता पर अग्रदिशिक धारा बढ़ती है। अग्रदिशिक और पश्चदिशिक दोनों व्यवहार बदलते हैं : यह <b>संपूर्ण V – I अभिलाक्षणिक को प्रभावित करता है</b>।</p>",
+     "hint": "ताप अल्पसंख्यक वाहकों की संख्या और रोधिका दोनों बदलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -674,10 +830,22 @@
       "A·B̄ + Ā·B",
       "(A·B)‾",
       "(A + B)‾"
-     ]
+     ],
+     "sol": "<p>The two AND gates give A·B̄ and Ā·B; the OR gate adds them: Y = <b>A·B̄ + Ā·B</b> (the XOR function).</p>",
+     "hint": "Read each AND gate's inputs, then OR them."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित गेटों के संयोजन में निर्गत Y को निवेशों A और B के पदों में इस प्रकार लिखा जा सकता है :",
+     "o": [
+      "(A·B)‾ + A·B",
+      "A·B̄ + Ā·B",
+      "(A·B)‾",
+      "(A + B)‾"
+     ],
+     "sol": "<p>दोनों AND गेट A·B̄ और Ā·B देते हैं; OR गेट उन्हें जोड़ता है : Y = <b>A·B̄ + Ā·B</b> (XOR फलन)।</p>",
+     "hint": "प्रत्येक AND गेट के निवेश पढ़िए, फिर उन्हें OR कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -720,10 +888,22 @@
       "NOR",
       "AND",
       "OR"
-     ]
+     ],
+     "sol": "<p>The LED (Y) glows unless both switches A and B are closed together, which short it to ground. Y = 0 only for A = B = 1: Y = (A·B)‾, a <b>NAND</b> operation.</p>",
+     "hint": "Series switches act like AND; the shorting inverts it."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "बनाए गए परिपथ आरेख द्वारा निरूपित सही बूलियन संक्रिया है :",
+     "o": [
+      "NAND",
+      "NOR",
+      "AND",
+      "OR"
+     ],
+     "sol": "<p>LED (Y) तब तक दीप्त रहता है जब तक दोनों स्विच A और B एक साथ बंद होकर उसे भूमि से लघुपथित न कर दें। Y = 0 केवल A = B = 1 पर : Y = (A·B)‾, एक <b>NAND</b> संक्रिया।</p>",
+     "hint": "श्रेणी स्विच AND की तरह कार्य करते हैं; लघुपथन इसे उलट देता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -766,10 +946,22 @@
       "Electrons are the majority carriers and pentavalent atoms are the dopants.",
       "Electrons are the majority carriers and trivalent atoms are the dopants.",
       "Holes are the majority carriers and trivalent atoms are the dopants."
-     ]
+     ],
+     "sol": "<p>A p-type semiconductor is made by doping with trivalent atoms (B, Al, In), which accept electrons and create holes. So <b>holes are the majority carriers and trivalent atoms are the dopants</b>.</p>",
+     "hint": "p for positive holes, from trivalent acceptors."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "p-प्रकार के अर्धचालक के लिए निम्नलिखित में से कौन-सा कथन सत्य है?",
+     "o": [
+      "होल बहुसंख्यक वाहक हैं और पंचसंयोजी परमाणु अपमिश्रक हैं।",
+      "इलेक्ट्रॉन बहुसंख्यक वाहक हैं और पंचसंयोजी परमाणु अपमिश्रक हैं।",
+      "इलेक्ट्रॉन बहुसंख्यक वाहक हैं और त्रिसंयोजी परमाणु अपमिश्रक हैं।",
+      "होल बहुसंख्यक वाहक हैं और त्रिसंयोजी परमाणु अपमिश्रक हैं।"
+     ],
+     "sol": "<p>p-प्रकार का अर्धचालक त्रिसंयोजी परमाणुओं (B, Al, In) से अपमिश्रण द्वारा बनता है, जो इलेक्ट्रॉन ग्रहण कर होल बनाते हैं। अतः <b>होल बहुसंख्यक वाहक हैं और त्रिसंयोजी परमाणु अपमिश्रक हैं</b>।</p>",
+     "hint": "p अर्थात धनात्मक होल, त्रिसंयोजी ग्राही से।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -812,10 +1004,22 @@
       "The base region must be very thin and lightly doped.",
       "Base, emitter and collector regions should have same doping concentrations.",
       "Base, emitter and collector regions should have same size."
-     ]
+     ],
+     "sol": "<p>For transistor action the emitter junction is forward biased and the collector junction reverse biased; the emitter is heavily doped, the collector is largest, and the <b>base must be very thin and lightly doped</b> so that most carriers cross it to the collector.</p><p>(Transistors are no longer in the NEET syllabus.)</p>",
+     "hint": "A thin, lightly doped base lets carriers pass without recombining."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ट्रांजिस्टर क्रिया के लिए निम्नलिखित में से कौन-सा कथन सही है?",
+     "o": [
+      "उत्सर्जक संधि और संग्राहक संधि दोनों अग्रदिशिक बायस में हैं।",
+      "आधार क्षेत्र बहुत पतला और हल्का अपमिश्रित होना चाहिए।",
+      "आधार, उत्सर्जक और संग्राहक क्षेत्रों की अपमिश्रण सांद्रता समान होनी चाहिए।",
+      "आधार, उत्सर्जक और संग्राहक क्षेत्रों का आकार समान होना चाहिए।"
+     ],
+     "sol": "<p>ट्रांजिस्टर क्रिया के लिए उत्सर्जक संधि अग्रदिशिक बायस और संग्राहक संधि पश्चदिशिक बायस में होती है; उत्सर्जक भारी अपमिश्रित होता है, संग्राहक सबसे बड़ा होता है, और <b>आधार बहुत पतला और हल्का अपमिश्रित होना चाहिए</b> ताकि अधिकांश वाहक उसे पार कर संग्राहक तक पहुँचें।</p><p>(ट्रांजिस्टर अब NEET पाठ्यक्रम में नहीं हैं।)</p>",
+     "hint": "पतला, हल्का अपमिश्रित आधार वाहकों को बिना पुनर्संयोजन के गुजरने देता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -857,10 +1061,22 @@
       "A B Y: 0 0 1; 0 1 0; 1 0 0; 1 1 0",
       "A B Y: 0 0 0; 0 1 0; 1 0 0; 1 1 1",
       "A B Y: 0 0 0; 0 1 1; 1 0 1; 1 1 1"
-     ]
+     ],
+     "sol": "<p>Y = NOR(Ā, B̄) = (Ā + B̄)‾ = A·B (De Morgan). So Y = 1 only for A = B = 1: truth table <b>0 0 0; 0 1 0; 1 0 0; 1 1 1</b> (an AND gate).</p>",
+     "hint": "NOR of inverted inputs = AND."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दर्शाए गए लॉजिक परिपथ के लिए सत्यमान सारणी है :",
+     "o": [
+      "A B Y: 0 0 1; 0 1 1; 1 0 1; 1 1 0",
+      "A B Y: 0 0 1; 0 1 0; 1 0 0; 1 1 0",
+      "A B Y: 0 0 0; 0 1 0; 1 0 0; 1 1 1",
+      "A B Y: 0 0 0; 0 1 1; 1 0 1; 1 1 1"
+     ],
+     "sol": "<p>Y = NOR(Ā, B̄) = (Ā + B̄)‾ = A·B (De Morgan)। अतः Y = 1 केवल A = B = 1 पर : सत्यमान सारणी <b>0 0 0; 0 1 0; 1 0 0; 1 1 1</b> (एक AND गेट)।</p>",
+     "hint": "उलटे निवेशों का NOR = AND।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -903,10 +1119,22 @@
       "increase in forward current",
       "forward bias only",
       "reverse bias only"
-     ]
+     ],
+     "sol": "<p>Reverse bias pulls majority carriers away from the junction, widening the depletion region; forward bias narrows it. So: <b>reverse bias only</b>.</p>",
+     "hint": "Reverse bias adds to the barrier."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "p-n संधि डायोड में ह्रासी क्षेत्र की चौड़ाई में वृद्धि किसके कारण होती है?",
+     "o": [
+      "अग्रदिशिक बायस और पश्चदिशिक बायस दोनों",
+      "अग्रदिशिक धारा में वृद्धि",
+      "केवल अग्रदिशिक बायस",
+      "केवल पश्चदिशिक बायस"
+     ],
+     "sol": "<p>पश्चदिशिक बायस बहुसंख्यक वाहकों को संधि से दूर खींचता है, जिससे ह्रासी क्षेत्र चौड़ा होता है; अग्रदिशिक बायस इसे संकरा करता है। अतः : <b>केवल पश्चदिशिक बायस</b>।</p>",
+     "hint": "पश्चदिशिक बायस रोधिका को बढ़ाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -949,10 +1177,22 @@
       "(A) and (B) both are correct.",
       "(A) and (B) both are incorrect.",
       "(A) is correct and (B) is incorrect."
-     ]
+     ],
+     "sol": "<p>(A) is correct: a Zener diode regulates voltage in reverse breakdown. (B) is incorrect: the barrier potential is about 0.7 V for Si and 0.3 V for Ge, not 0.1–0.3 V in general.</p><p>Answer: <b>(A) is correct and (B) is incorrect</b>.</p>",
+     "hint": "Si junction barrier ≈ 0.7 V."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित कथनों (A) और (B) पर विचार कीजिए और सही उत्तर पहचानिए।<br>(A) वोल्टता नियंत्रक के रूप में उपयोग किए जाने पर जेनर डायोड पश्चदिशिक बायस में जोड़ा जाता है।<br>(B) p-n संधि का रोधिका विभव 0.1 V से 0.3 V के बीच होता है।",
+     "o": [
+      "(A) गलत है परंतु (B) सही है।",
+      "(A) और (B) दोनों सही हैं।",
+      "(A) और (B) दोनों गलत हैं।",
+      "(A) सही है और (B) गलत है।"
+     ],
+     "sol": "<p>(A) सही है : जेनर डायोड पश्चदिशिक भंजन में वोल्टता नियंत्रित करता है। (B) गलत है : रोधिका विभव Si के लिए लगभग 0.7 V और Ge के लिए 0.3 V है, सामान्यतः 0.1–0.3 V नहीं।</p><p>उत्तर : <b>(A) सही है और (B) गलत है</b>।</p>",
+     "hint": "Si संधि की रोधिका ≈ 0.7 V।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -996,10 +1236,22 @@
       "Current in n-type = current in p-type",
       "Current in p-type > current in n-type",
       "Current in n-type > current in p-type"
-     ]
+     ],
+     "sol": "<p>With the same carrier concentration and the same field, current ∝ mobility. Electrons are more mobile than holes, so <b>current in n-type > current in p-type</b>.</p>",
+     "hint": "Electron mobility > hole mobility."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी n-प्रकार के अर्धचालक में इलेक्ट्रॉन सांद्रता, p-प्रकार के अर्धचालक में होल सांद्रता के समान है। दोनों पर एक बाह्य (विद्युत) क्षेत्र लगाया जाता है। उनमें धाराओं की तुलना कीजिए।",
+     "o": [
+      "p-प्रकार में कोई धारा प्रवाहित नहीं होगी, धारा केवल n-प्रकार में प्रवाहित होगी",
+      "n-प्रकार में धारा = p-प्रकार में धारा",
+      "p-प्रकार में धारा > n-प्रकार में धारा",
+      "n-प्रकार में धारा > p-प्रकार में धारा"
+     ],
+     "sol": "<p>समान वाहक सांद्रता और समान क्षेत्र पर धारा ∝ गतिशीलता। इलेक्ट्रॉन होलों से अधिक गतिशील हैं, अतः <b>n-प्रकार में धारा > p-प्रकार में धारा</b>।</p>",
+     "hint": "इलेक्ट्रॉन गतिशीलता > होल गतिशीलता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1042,10 +1294,22 @@
       "[waveform 2: 5 V from t<sub>1</sub> to t<sub>3</sub>, 0 V to t<sub>6</sub>, then 5 V]",
       "[waveform 3: y = 5 V throughout]",
       "[waveform 4: 0 V from t<sub>1</sub> to t<sub>3</sub>, 5 V to t<sub>6</sub>, then 0 V]"
-     ]
+     ],
+     "sol": "<p>The circuit gives y = A·B + (B·C)‾. From the waveforms, C is low exactly while B is high (t<sub>2</sub>–t<sub>4</sub>), so B·C is never 1 and (B·C)‾ = 1 at all times.</p><p>Hence y = 1, i.e. <b>y = 5 V throughout</b>.</p>",
+     "hint": "Check whether B and C are ever high together."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिए गए परिपथ के लिए निवेश डिजिटल सिग्नल टर्मिनल A, B और C पर लगाए जाते हैं। टर्मिनल y पर निर्गत क्या होगा?",
+     "o": [
+      "[तरंगरूप 1 : y = 0 V, t<sub>1</sub>…t<sub>6</sub> पर स्पाइक]",
+      "[तरंगरूप 2 : t<sub>1</sub> से t<sub>3</sub> तक 5 V, t<sub>6</sub> तक 0 V, फिर 5 V]",
+      "[तरंगरूप 3 : y = 5 V सर्वत्र]",
+      "[तरंगरूप 4 : t<sub>1</sub> से t<sub>3</sub> तक 0 V, t<sub>6</sub> तक 5 V, फिर 0 V]"
+     ],
+     "sol": "<p>परिपथ y = A·B + (B·C)‾ देता है। तरंगरूपों से, C ठीक उसी समय निम्न है जब B उच्च है (t<sub>2</sub>–t<sub>4</sub>), अतः B·C कभी 1 नहीं होता और (B·C)‾ = 1 सदैव।</p><p>अतः y = 1, अर्थात <b>y = 5 V सर्वत्र</b>।</p>",
+     "hint": "जाँचिए कि B और C कभी एक साथ उच्च होते हैं या नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1088,10 +1352,22 @@
       "Circuit (c) only",
       "Both circuits (a) and (c)",
       "Circuit (a) only"
-     ]
+     ],
+     "sol": "<p>In (a) PN … PN and (c) NP … NP the two junctions face the same way, so both are forward biased (or both reverse biased) and identical: equal drops. In (b) PN … NP one junction is forward and the other reverse biased: unequal drops.</p><p>Answer: <b>both circuits (a) and (c)</b>.</p>",
+     "hint": "Same orientation → same bias → same drop."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिए गए परिपथों (a), (b) और (c) में, दोनों p-n संधियों के सिरों पर विभव पात किसमें समान है?",
+     "o": [
+      "केवल परिपथ (b)",
+      "केवल परिपथ (c)",
+      "परिपथ (a) और (c) दोनों",
+      "केवल परिपथ (a)"
+     ],
+     "sol": "<p>(a) PN … PN और (c) NP … NP में दोनों संधियाँ एक ही दिशा में हैं, अतः दोनों अग्रदिशिक (या दोनों पश्चदिशिक) बायस में और सर्वसम हैं : समान पात। (b) PN … NP में एक संधि अग्रदिशिक और दूसरी पश्चदिशिक बायस में है : असमान पात।</p><p>उत्तर : <b>परिपथ (a) और (c) दोनों</b>।</p>",
+     "hint": "समान दिशा → समान बायस → समान पात।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1135,10 +1411,22 @@
       "60 Hz",
       "120 Hz",
       "Zero"
-     ]
+     ],
+     "sol": "<p>A half-wave rectifier passes one half of each cycle, giving one output pulse per input cycle: output frequency = input frequency = <b>60 Hz</b>. (A full-wave rectifier would give 120 Hz.)</p>",
+     "hint": "One pulse per cycle."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अर्ध-तरंग दिष्टकरण में, यदि निवेश आवृत्ति 60 Hz है, तो निर्गत आवृत्ति होगी :",
+     "o": [
+      "30 Hz",
+      "60 Hz",
+      "120 Hz",
+      "शून्य"
+     ],
+     "sol": "<p>अर्ध-तरंग दिष्टकारी प्रत्येक चक्र का एक अर्धभाग पारित करता है, जिससे प्रति निवेश चक्र एक निर्गत स्पंद मिलता है : निर्गत आवृत्ति = निवेश आवृत्ति = <b>60 Hz</b>। (पूर्ण तरंग दिष्टकारी 120 Hz देता।)</p>",
+     "hint": "प्रति चक्र एक स्पंद।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1181,10 +1469,22 @@
       "A B C: 0 0 1; 0 1 0; 1 0 1; 1 1 0",
       "A B C: 0 0 0; 0 1 1; 1 0 0; 1 1 1",
       "A B C: 0 0 0; 0 1 1; 1 0 1; 1 1 0"
-     ]
+     ],
+     "sol": "<p>C = NAND(A, B) · NAND(Ā, B). Row by row: A = 0, B = 0: 1 · 1 = 1. A = 0, B = 1: 1 · NAND(1, 1) = 0. A = 1, B = 0: 1 · 1 = 1. A = 1, B = 1: NAND(1, 1) = 0 ⇒ 0.</p><p>Truth table <b>0 0 1; 0 1 0; 1 0 1; 1 1 0</b> (C = B̄).</p>",
+     "hint": "Evaluate each NAND for all four rows."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिए गए लॉजिक परिपथ के लिए सत्यमान सारणी है :",
+     "o": [
+      "A B C: 0 0 1; 0 1 0; 1 0 0; 1 1 1",
+      "A B C: 0 0 1; 0 1 0; 1 0 1; 1 1 0",
+      "A B C: 0 0 0; 0 1 1; 1 0 0; 1 1 1",
+      "A B C: 0 0 0; 0 1 1; 1 0 1; 1 1 0"
+     ],
+     "sol": "<p>C = NAND(A, B) · NAND(Ā, B)। पंक्ति-दर-पंक्ति : A = 0, B = 0 : 1 · 1 = 1। A = 0, B = 1 : 1 · NAND(1, 1) = 0। A = 1, B = 0 : 1 · 1 = 1। A = 1, B = 1 : NAND(1, 1) = 0 ⇒ 0।</p><p>सत्यमान सारणी <b>0 0 1; 0 1 0; 1 0 1; 1 1 0</b> (C = B̄)।</p>",
+     "hint": "चारों पंक्तियों के लिए प्रत्येक NAND का मान निकालिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1227,10 +1527,22 @@
       "A centre-tapped transformer",
       "p-n junction diodes",
       "Capacitor"
-     ]
+     ],
+     "sol": "<p>The diodes and the centre-tapped transformer produce the pulsating dc; the <b>capacitor</b> placed across the load charges at the peaks and discharges slowly between them, filtering out the ac ripple.</p>",
+     "hint": "Capacitor filter."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक पूर्ण तरंग दिष्टकारी परिपथ में दो p-n संधि डायोड, एक मध्य निष्कासी ट्रांसफ़ार्मर, संधारित्र और एक लोड प्रतिरोध होते हैं। इनमें से कौन-सा घटक दिष्टकृत निर्गत से ac उर्मिका हटाता है?",
+     "o": [
+      "लोड प्रतिरोध",
+      "एक मध्य निष्कासी ट्रांसफ़ार्मर",
+      "p-n संधि डायोड",
+      "संधारित्र"
+     ],
+     "sol": "<p>डायोड और मध्य निष्कासी ट्रांसफ़ार्मर स्पंदमान dc बनाते हैं; लोड के सिरों पर लगा <b>संधारित्र</b> शिखरों पर आवेशित होकर उनके बीच धीरे-धीरे निरावेशित होता है, जिससे ac उर्मिका छन जाती है।</p>",
+     "hint": "संधारित्र फिल्टर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1273,10 +1585,22 @@
       "Both Statement I and Statement II are correct.",
       "Both Statement I and Statement II are incorrect.",
       "Statement I is correct but Statement II is incorrect."
-     ]
+     ],
+     "sol": "<p>Statement I: photovoltaic devices (solar cells) convert optical radiation into electricity, correct. Statement II: a Zener diode is designed to work in reverse breakdown, correct.</p><p>Answer: <b>both Statement I and Statement II are correct</b>.</p>",
+     "hint": "Solar cell = photovoltaic device."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : प्रकाश वोल्टीय युक्तियाँ प्रकाशिक विकिरण को विद्युत में परिवर्तित कर सकती हैं।<br>कथन II : जेनर डायोड को भंजन क्षेत्र में पश्चदिशिक बायस में कार्य करने के लिए अभिकल्पित किया जाता है।<br>उपरोक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I गलत है परंतु कथन II सही है।",
+      "कथन I और कथन II दोनों सही हैं।",
+      "कथन I और कथन II दोनों गलत हैं।",
+      "कथन I सही है परंतु कथन II गलत है।"
+     ],
+     "sol": "<p>कथन I : प्रकाश वोल्टीय युक्तियाँ (सौर सेल) प्रकाशिक विकिरण को विद्युत में बदलती हैं, सही। कथन II : जेनर डायोड पश्चदिशिक भंजन में कार्य करने के लिए अभिकल्पित है, सही।</p><p>उत्तर : <b>कथन I और कथन II दोनों सही हैं</b>।</p>",
+     "hint": "सौर सेल = प्रकाश वोल्टीय युक्ति।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1320,10 +1644,22 @@
       "A B Y: 0 0 1; 0 1 1; 1 0 1; 1 1 0",
       "A B Y: 0 0 0; 0 1 1; 1 0 1; 1 1 1",
       "A B Y: 0 0 1; 0 1 0; 1 0 1; 1 1 0"
-     ]
+     ],
+     "sol": "<p>Y = NAND(Ā, B̄) = (Ā·B̄)‾ = A + B (De Morgan). Truth table <b>0 0 0; 0 1 1; 1 0 1; 1 1 1</b> (an OR gate).</p>",
+     "hint": "NAND of inverted inputs = OR."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित लॉजिक परिपथ के लिए सत्यमान सारणी है :",
+     "o": [
+      "A B Y: 0 0 0; 0 1 0; 1 0 0; 1 1 1",
+      "A B Y: 0 0 1; 0 1 1; 1 0 1; 1 1 0",
+      "A B Y: 0 0 0; 0 1 1; 1 0 1; 1 1 1",
+      "A B Y: 0 0 1; 0 1 0; 1 0 1; 1 1 0"
+     ],
+     "sol": "<p>Y = NAND(Ā, B̄) = (Ā·B̄)‾ = A + B (De Morgan)। सत्यमान सारणी <b>0 0 0; 0 1 1; 1 0 1; 1 1 1</b> (एक OR गेट)।</p>",
+     "hint": "उलटे निवेशों का NAND = OR।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1366,10 +1702,22 @@
       "NOR gate",
       "OR gate",
       "AND gate"
-     ]
+     ],
+     "sol": "<p>NAND with both inputs A gives Ā; NOR with both inputs B gives B̄. The final NOR: Y = (Ā + B̄)‾ = A·B. Y behaves like an <b>AND gate</b>.</p>",
+     "hint": "A gate with tied inputs acts as NOT."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिए गए लॉजिक गेट का निर्गत (Y) किसके निर्गत के समान है?",
+     "o": [
+      "NAND गेट",
+      "NOR गेट",
+      "OR गेट",
+      "AND गेट"
+     ],
+     "sol": "<p>दोनों निवेश A वाला NAND, Ā देता है; दोनों निवेश B वाला NOR, B̄ देता है। अंतिम NOR : Y = (Ā + B̄)‾ = A·B। Y एक <b>AND गेट</b> की तरह व्यवहार करता है।</p>",
+     "hint": "जुड़े निवेशों वाला गेट NOT की तरह कार्य करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1412,10 +1760,22 @@
       "A · B̄ + Ā",
       "B̄",
       "B"
-     ]
+     ],
+     "sol": "<p>From the table, Y = 1 exactly when B = 0, whatever A is: Y = <b>B̄</b>.</p><p>Check (2): A·B̄ + Ā gives 1 for A = 0, B = 1, which the table says is 0, so it is wrong.</p>",
+     "hint": "Look at which input Y follows."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक लॉजिक परिपथ निम्नलिखित सत्यमान सारणी के अनुसार निर्गत Y देता है :<br>A B Y: 0 0 1; 0 1 0; 1 0 1; 1 1 0<br>निर्गत Y का व्यंजक है :",
+     "o": [
+      "A · B + Ā",
+      "A · B̄ + Ā",
+      "B̄",
+      "B"
+     ],
+     "sol": "<p>सारणी से, Y = 1 ठीक तब है जब B = 0, A कुछ भी हो : Y = <b>B̄</b>।</p><p>जाँच (2) : A·B̄ + Ā, A = 0, B = 1 के लिए 1 देता है, जबकि सारणी में 0 है, अतः यह गलत है।</p>",
+     "hint": "देखिए Y किस निवेश का अनुसरण करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1457,10 +1817,22 @@
       "Both A and B are correct.",
       "Both A and B are incorrect.",
       "A is correct but B is incorrect."
-     ]
+     ],
+     "sol": "<p>A: a solar cell delivers power: its voltage is positive while its current flows the reverse way, so its I–V curve lies in the IV quadrant, correct. B: the small (μA) reverse current is due to <i>minority</i> carriers, so B is incorrect.</p><p>Answer: <b>A is correct but B is incorrect</b>.</p>",
+     "hint": "Reverse current: minority carriers."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित कथनों A और B पर विचार कीजिए और सही उत्तर पहचानिए :<br>A. सौर सेल के लिए I–V अभिलाक्षणिक दिए गए ग्राफ़ के IV चतुर्थांश में होता है।<br>B. पश्चदिशिक बायस p-n संधि डायोड में (μA) में मापी गई धारा बहुसंख्यक आवेश वाहकों के कारण होती है।",
+     "o": [
+      "A गलत है परंतु B सही है।",
+      "A और B दोनों सही हैं।",
+      "A और B दोनों गलत हैं।",
+      "A सही है परंतु B गलत है।"
+     ],
+     "sol": "<p>A : सौर सेल शक्ति देता है : इसकी वोल्टता धनात्मक है जबकि धारा विपरीत दिशा में बहती है, अतः इसका I–V वक्र IV चतुर्थांश में होता है, सही। B : छोटी (μA) पश्चदिशिक धारा <i>अल्पसंख्यक</i> वाहकों के कारण है, अतः B गलत है।</p><p>उत्तर : <b>A सही है परंतु B गलत है</b>।</p>",
+     "hint": "पश्चदिशिक धारा : अल्पसंख्यक वाहक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1505,10 +1877,22 @@
       "NAND",
       "OR",
       "NOR"
-     ]
+     ],
+     "sol": "<p>NOR(A, B) = 1 only for A = B = 0; NAND(A, B) = 1 in that case too. The AND of the two is therefore 1 only for A = B = 0 and 0 otherwise, which is the <b>NOR</b> truth table.</p>",
+     "hint": "Find the rows where both feeding gates give 1."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिए गए लॉजिक कार्यान्वयन का निर्गत (Y) एक _____ गेट के निर्गत के समान है।",
+     "o": [
+      "AND",
+      "NAND",
+      "OR",
+      "NOR"
+     ],
+     "sol": "<p>NOR(A, B) = 1 केवल A = B = 0 पर; उस स्थिति में NAND(A, B) = 1 भी है। अतः दोनों का AND केवल A = B = 0 पर 1 और अन्यथा 0 है, जो <b>NOR</b> की सत्यमान सारणी है।</p>",
+     "hint": "वे पंक्तियाँ ढूँढिए जहाँ दोनों गेट 1 देते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1551,10 +1935,22 @@
       "D<sub>1</sub> is reverse biased, D<sub>2</sub> is forward biased",
       "D<sub>1</sub> and D<sub>2</sub> both are forward biased",
       "D<sub>1</sub> and D<sub>2</sub> both are reverse biased"
-     ]
+     ],
+     "sol": "<p>ω = 100π ⇒ T = 20 ms; t = 15 ms = 3T/4, where V<sub>in</sub> = 220 sin(1.5π) = −220 V: the negative half-cycle. In the usual centre-tap drawing D<sub>1</sub> conducts on the positive half and D<sub>2</sub> on the negative half, so now <b>D<sub>1</sub> is reverse biased and D<sub>2</sub> forward biased</b>.</p><p>Because the figure can be read either way round, NTA accepted options (1) and (2).</p>",
+     "hint": "Find which half-cycle t = 15 ms falls in."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "डायोड (D<sub>1</sub>) और (D<sub>2</sub>) वाला एक पूर्ण तरंग दिष्टकारी परिपथ आकृति में दिखाया गया है। यदि निवेश वोल्टता V<sub>in</sub> = 220 sin (100πt) वोल्ट है, तो t = 15 msec पर :",
+     "o": [
+      "D<sub>1</sub> अग्रदिशिक बायस में है, D<sub>2</sub> पश्चदिशिक बायस में है",
+      "D<sub>1</sub> पश्चदिशिक बायस में है, D<sub>2</sub> अग्रदिशिक बायस में है",
+      "D<sub>1</sub> और D<sub>2</sub> दोनों अग्रदिशिक बायस में हैं",
+      "D<sub>1</sub> और D<sub>2</sub> दोनों पश्चदिशिक बायस में हैं"
+     ],
+     "sol": "<p>ω = 100π ⇒ T = 20 ms; t = 15 ms = 3T/4, जहाँ V<sub>in</sub> = 220 sin(1.5π) = −220 V : ऋणात्मक अर्ध-चक्र। सामान्य मध्य निष्कासी आरेख में D<sub>1</sub> धनात्मक अर्ध-चक्र में और D<sub>2</sub> ऋणात्मक अर्ध-चक्र में चालन करता है, अतः अब <b>D<sub>1</sub> पश्चदिशिक बायस में और D<sub>2</sub> अग्रदिशिक बायस में है</b>।</p><p>चूँकि आकृति को किसी भी प्रकार पढ़ा जा सकता है, NTA ने विकल्प (1) और (2) दोनों स्वीकार किए।</p>",
+     "hint": "ज्ञात कीजिए कि t = 15 ms किस अर्ध-चक्र में है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1601,10 +1997,22 @@
       "Both Statements A and B are false",
       "Statement A is true, but Statement B is false",
       "Statement A is false, but Statement B is true"
-     ]
+     ],
+     "sol": "<p>A is true: above the threshold (cut-in) voltage the forward current rises sharply. B is false: that is the forward current; the reverse saturation current is the tiny current under reverse bias.</p><p>Answer: <b>Statement A is true, but Statement B is false</b>.</p>",
+     "hint": "Saturation current belongs to reverse bias."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>A. जब p-n संधि डायोड के सिरों पर अग्रदिशिक बायस वोल्टता एक निश्चित देहली वोल्टता से अधिक बढ़ती है, तो डायोड धारा उल्लेखनीय रूप से बढ़ती है।<br>B. इस धारा को पश्चदिशिक संतृप्त धारा कहते हैं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "कथन A और B दोनों सत्य हैं",
+      "कथन A और B दोनों असत्य हैं",
+      "कथन A सत्य है, परंतु कथन B असत्य है",
+      "कथन A असत्य है, परंतु कथन B सत्य है"
+     ],
+     "sol": "<p>A सत्य है : देहली (कट-इन) वोल्टता के ऊपर अग्रदिशिक धारा तेज़ी से बढ़ती है। B असत्य है : वह अग्रदिशिक धारा है; पश्चदिशिक संतृप्त धारा पश्चदिशिक बायस में बहने वाली बहुत छोटी धारा है।</p><p>उत्तर : <b>कथन A सत्य है, परंतु कथन B असत्य है</b>।</p>",
+     "hint": "संतृप्त धारा पश्चदिशिक बायस से संबंधित है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1647,10 +2055,22 @@
       "[graph 2: positive humps every half cycle]",
       "[graph 3: negative humps every half cycle]",
       "[graph 4: positive half cycle, then zero]"
-     ]
+     ],
+     "sol": "<p>The source, diode and R are in series. In the figure the diode is reverse biased during the positive half-cycle: no current flows, so the whole source voltage appears across D (a positive hump). In the negative half-cycle the diode conducts and, being ideal, has almost no voltage across it.</p><p>So V<sub>D</sub> is <b>a positive half-cycle, then zero</b> (graph 4).</p>",
+     "hint": "Off diode: full source voltage across it; on diode: ≈ 0."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दिखाए गए परिपथ में डायोड D के सिरों पर प्रकट होने वाली वोल्टता किस रूप की होगी?",
+     "o": [
+      "[ग्राफ़ 1 : पूर्ण ज्या तरंग]",
+      "[ग्राफ़ 2 : प्रत्येक अर्ध-चक्र में धनात्मक उभार]",
+      "[ग्राफ़ 3 : प्रत्येक अर्ध-चक्र में ऋणात्मक उभार]",
+      "[ग्राफ़ 4 : धनात्मक अर्ध-चक्र, फिर शून्य]"
+     ],
+     "sol": "<p>स्रोत, डायोड और R श्रेणी में हैं। आकृति में धनात्मक अर्ध-चक्र में डायोड पश्चदिशिक बायस में है : कोई धारा नहीं बहती, अतः पूरी स्रोत वोल्टता D के सिरों पर आती है (धनात्मक उभार)। ऋणात्मक अर्ध-चक्र में डायोड चालन करता है और आदर्श होने से उस पर लगभग कोई वोल्टता नहीं रहती।</p><p>अतः V<sub>D</sub> <b>धनात्मक अर्ध-चक्र, फिर शून्य</b> है (ग्राफ़ 4)।</p>",
+     "hint": "बंद डायोड : पूरी स्रोत वोल्टता उस पर; चालू डायोड : ≈ 0।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1694,10 +2114,22 @@
       "15/2 A",
       "5/3 A",
       "5/9 A"
-     ]
+     ],
+     "sol": "<p>Only the forward-biased branches conduct: the 4 Ω and 2 Ω branches, each directly across 10 V (ideal diodes). The reverse-biased 3 Ω and 5 Ω branches carry nothing.</p><p>I = 10/4 + 10/2 = 2.5 + 5 = <b>15/2 A</b>.</p>",
+     "hint": "Drop the reverse-biased branches."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दिखाए गए परिपथ में धारा I है : (सभी डायोड आदर्श और सर्वसम हैं)",
+     "o": [
+      "1/3 A",
+      "15/2 A",
+      "5/3 A",
+      "5/9 A"
+     ],
+     "sol": "<p>केवल अग्रदिशिक बायस वाली शाखाएँ चालन करती हैं : 4 Ω और 2 Ω की शाखाएँ, प्रत्येक सीधे 10 V के सिरों पर (आदर्श डायोड)। पश्चदिशिक बायस वाली 3 Ω और 5 Ω शाखाओं में कोई धारा नहीं।</p><p>I = 10/4 + 10/2 = 2.5 + 5 = <b>15/2 A</b>।</p>",
+     "hint": "पश्चदिशिक बायस वाली शाखाएँ हटा दीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
