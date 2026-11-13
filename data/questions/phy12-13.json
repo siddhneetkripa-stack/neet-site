@@ -98,10 +98,22 @@
       "30",
       "45",
       "60"
-     ]
+     ],
+     "sol": "<p>After 40% decay, 60% remains; after 85% decay, 15% remains. 60% → 15% is a factor of 4 = 2 half-lives.</p><p>Time = 2 × 30 = <b>60</b> minutes.</p><p>(Decay law is no longer in the NEET syllabus.)</p>",
+     "hint": "Work with the fraction remaining, not decayed."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी रेडियोऐक्टिव पदार्थ की अर्धायु 30 मिनट है। उसी रेडियोऐक्टिव पदार्थ के 40% क्षय और 85% क्षय के बीच लगा समय (मिनट में) है",
+     "o": [
+      "15",
+      "30",
+      "45",
+      "60"
+     ],
+     "sol": "<p>40% क्षय के बाद 60% शेष रहता है; 85% क्षय के बाद 15% शेष रहता है। 60% → 15% गुणक 4 = 2 अर्धायु है।</p><p>समय = 2 × 30 = <b>60</b> मिनट।</p><p>(क्षय नियम अब NEET पाठ्यक्रम में नहीं है।)</p>",
+     "hint": "क्षय हुए भाग से नहीं, शेष भाग से काम कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -145,10 +157,22 @@
       "1/(7λ)",
       "1/(8λ)",
       "1/(9λ)"
-     ]
+     ],
+     "sol": "<p>N<sub>A</sub> = N<sub>0</sub>e<sup>−8λt</sup>, N<sub>B</sub> = N<sub>0</sub>e<sup>−λt</sup>. N<sub>A</sub>/N<sub>B</sub> = e<sup>−7λt</sup> = 1/e ⇒ t = <b>1/(7λ)</b>.</p><p class='errata'>As printed, N<sub>B</sub>/N<sub>A</sub> = e<sup>7λt</sup> only grows and never equals 1/e; the key's answer 1/(7λ) is for N<sub>A</sub>/N<sub>B</sub> = 1/e.</p>",
+     "hint": "Ratio of two exponentials: subtract the decay constants."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "रेडियोऐक्टिव पदार्थ 'A' का क्षय नियतांक '8λ' और पदार्थ 'B' का क्षय नियतांक 'λ' है। प्रारंभ में उनमें नाभिकों की संख्या समान है। कितने समय बाद पदार्थ 'B' और 'A' के नाभिकों की संख्या का अनुपात 1/e होगा?",
+     "o": [
+      "1/λ",
+      "1/(7λ)",
+      "1/(8λ)",
+      "1/(9λ)"
+     ],
+     "sol": "<p>N<sub>A</sub> = N<sub>0</sub>e<sup>−8λt</sup>, N<sub>B</sub> = N<sub>0</sub>e<sup>−λt</sup>। N<sub>A</sub>/N<sub>B</sub> = e<sup>−7λt</sup> = 1/e ⇒ t = <b>1/(7λ)</b>।</p><p class='errata'>जैसा छपा है, N<sub>B</sub>/N<sub>A</sub> = e<sup>7λt</sup> केवल बढ़ता है और कभी 1/e नहीं होता; कुंजी का उत्तर 1/(7λ), N<sub>A</sub>/N<sub>B</sub> = 1/e के लिए है।</p>",
+     "hint": "दो चरघातांकियों का अनुपात : क्षय नियतांकों को घटाइए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -192,10 +216,22 @@
       "10",
       "20",
       "15"
-     ]
+     ],
+     "sol": "<p>450 disintegrated ⇒ 150 of 600 remain = 1/4 = (1/2)<sup>2</sup>: two half-lives.</p><p>Time = 2 × 10 = <b>20</b> minutes.</p>",
+     "hint": "Fraction remaining = (1/2)<sup>n</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी रेडियोऐक्टिव पदार्थ की अर्धायु 10 मिनट है। यदि प्रारंभ में 600 नाभिक हैं, तो 450 नाभिकों के विघटन में लगा समय (मिनट में) है :",
+     "o": [
+      "30",
+      "10",
+      "20",
+      "15"
+     ],
+     "sol": "<p>450 विघटित ⇒ 600 में से 150 शेष = 1/4 = (1/2)<sup>2</sup> : दो अर्धायु।</p><p>समय = 2 × 10 = <b>20</b> मिनट।</p>",
+     "hint": "शेष भाग = (1/2)<sup>n</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -238,10 +274,22 @@
       "2 protons only",
       "2 protons and 2 neutrons only",
       "2 electrons, 2 protons and 2 neutrons"
-     ]
+     ],
+     "sol": "<p>An α-particle is a helium-4 nucleus: <b>2 protons and 2 neutrons only</b>, with no electrons.</p>",
+     "hint": "α = <sup>4</sup><sub>2</sub>He nucleus."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "α-कण में होते हैं :",
+     "o": [
+      "केवल 2 इलेक्ट्रॉन और 4 प्रोटॉन",
+      "केवल 2 प्रोटॉन",
+      "केवल 2 प्रोटॉन और 2 न्यूट्रॉन",
+      "2 इलेक्ट्रॉन, 2 प्रोटॉन और 2 न्यूट्रॉन"
+     ],
+     "sol": "<p>α-कण हीलियम-4 का नाभिक है : <b>केवल 2 प्रोटॉन और 2 न्यूट्रॉन</b>, कोई इलेक्ट्रॉन नहीं।</p>",
+     "hint": "α = <sup>4</sup><sub>2</sub>He नाभिक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -284,10 +332,22 @@
       "0.5 × 10<sup>13</sup> J",
       "4.5 × 10<sup>16</sup> J",
       "4.5 × 10<sup>13</sup> J"
-     ]
+     ],
+     "sol": "<p>E = mc<sup>2</sup> = 0.5 × 10<sup>−3</sup> kg × (3 × 10<sup>8</sup>)<sup>2</sup> = 0.5 × 10<sup>−3</sup> × 9 × 10<sup>16</sup> = <b>4.5 × 10<sup>13</sup> J</b>.</p>",
+     "hint": "Convert grams to kilograms."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी पदार्थ के 0.5 g की तुल्य ऊर्जा है :",
+     "o": [
+      "1.5 × 10<sup>13</sup> J",
+      "0.5 × 10<sup>13</sup> J",
+      "4.5 × 10<sup>16</sup> J",
+      "4.5 × 10<sup>13</sup> J"
+     ],
+     "sol": "<p>E = mc<sup>2</sup> = 0.5 × 10<sup>−3</sup> kg × (3 × 10<sup>8</sup>)<sup>2</sup> = 0.5 × 10<sup>−3</sup> × 9 × 10<sup>16</sup> = <b>4.5 × 10<sup>13</sup> J</b>।</p>",
+     "hint": "ग्राम को किलोग्राम में बदलिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -330,10 +390,22 @@
       "<sup>103</sup><sub>36</sub>Kr",
       "<sup>144</sup><sub>56</sub>Ba",
       "<sup>91</sup><sub>40</sub>Zr"
-     ]
+     ],
+     "sol": "<p>Balance mass numbers: 235 + 1 = 89 + 3 × 1 + A ⇒ A = 144. Balance charge: 92 = 36 + Z ⇒ Z = 56 (barium). Product: <b><sup>144</sup><sub>56</sub>Ba</b>.</p>",
+     "hint": "Conserve A and Z separately."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जब यूरेनियम समस्थानिक <sup>235</sup><sub>92</sub>U पर एक न्यूट्रॉन की बमबारी की जाती है, तो यह <sup>89</sup><sub>36</sub>Kr, तीन न्यूट्रॉन और यह उत्पन्न करता है :",
+     "o": [
+      "<sup>101</sup><sub>36</sub>Kr",
+      "<sup>103</sup><sub>36</sub>Kr",
+      "<sup>144</sup><sub>56</sub>Ba",
+      "<sup>91</sup><sub>40</sub>Zr"
+     ],
+     "sol": "<p>द्रव्यमान संख्याओं का संतुलन : 235 + 1 = 89 + 3 × 1 + A ⇒ A = 144। आवेश का संतुलन : 92 = 36 + Z ⇒ Z = 56 (बेरियम)। उत्पाद : <b><sup>144</sup><sub>56</sub>Ba</b>।</p>",
+     "hint": "A और Z को अलग-अलग संरक्षित कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -376,10 +448,22 @@
       "α, β<sup>−</sup>, β<sup>+</sup>",
       "α, β<sup>+</sup>, β<sup>−</sup>",
       "β<sup>+</sup>, α, β<sup>−</sup>"
-     ]
+     ],
+     "sol": "<p>Z → Z − 1 with no change in A: β<sup>+</sup>. Z − 1 → Z − 3: drop of 2 in Z, an α. Z − 3 → Z − 2: rise of 1, β<sup>−</sup>.</p><p>Sequence: <b>β<sup>+</sup>, α, β<sup>−</sup></b>.</p>",
+     "hint": "β<sup>+</sup>: Z − 1; α: Z − 2; β<sup>−</sup>: Z + 1."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक रेडियोऐक्टिव नाभिक <sup>A</sup><sub>Z</sub>X अनुक्रम <sup>A</sup><sub>Z</sub>X → <sub>Z−1</sub>B → <sub>Z−3</sub>C → <sub>Z−2</sub>D में स्वतः क्षयित होता है, जहाँ Z तत्व X का परमाणु क्रमांक है। अनुक्रम में संभावित क्षय कण हैं :",
+     "o": [
+      "β<sup>−</sup>, α, β<sup>+</sup>",
+      "α, β<sup>−</sup>, β<sup>+</sup>",
+      "α, β<sup>+</sup>, β<sup>−</sup>",
+      "β<sup>+</sup>, α, β<sup>−</sup>"
+     ],
+     "sol": "<p>Z → Z − 1 : β<sup>+</sup>। Z − 1 → Z − 3 : Z में 2 की कमी, α। Z − 3 → Z − 2 : 1 की वृद्धि, β<sup>−</sup>।</p><p>अनुक्रम : <b>β<sup>+</sup>, α, β<sup>−</sup></b>।</p>",
+     "hint": "β<sup>+</sup> : Z − 1; α : Z − 2; β<sup>−</sup> : Z + 1।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -422,10 +506,22 @@
       "1/2",
       "1/(2√2)",
       "2/3"
-     ]
+     ],
+     "sol": "<p>150 h = 1.5 half-lives. Fraction = (1/2)<sup>1.5</sup> = 1/(2√2) ≈ 0.354. Answer: <b>1/(2√2)</b>.</p>",
+     "hint": "Fraction = (1/2)<sup>t/T</sup>, even for non-integer t/T."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक रेडियोऐक्टिव न्यूक्लाइड की अर्धायु 100 घंटे है। 150 घंटे बाद मूल सक्रियता का जो अंश शेष रहेगा, वह होगा :",
+     "o": [
+      "2/(3√2)",
+      "1/2",
+      "1/(2√2)",
+      "2/3"
+     ],
+     "sol": "<p>150 h = 1.5 अर्धायु। अंश = (1/2)<sup>1.5</sup> = 1/(2√2) ≈ 0.354। उत्तर : <b>1/(2√2)</b>।</p>",
+     "hint": "अंश = (1/2)<sup>t/T</sup>, t/T पूर्णांक न हो तब भी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -468,10 +564,22 @@
       "0.9 MeV",
       "9.4 MeV",
       "804 MeV"
-     ]
+     ],
+     "sol": "<p>Binding energy before: 240 × 7.6 = 1824 MeV. After: 2 × 120 × 8.5 = 2040 MeV.</p><p>Gain = 2040 − 1824 = <b>216 MeV</b> (= 240 × 0.9), released in fission.</p>",
+     "hint": "Total binding energy = A × (binding energy per nucleon)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "द्रव्यमान संख्या 240 का एक नाभिक प्रत्येक 120 द्रव्यमान संख्या वाले दो खंडों में टूटता है। अविखंडित नाभिक की प्रति न्यूक्लिऑन बंधन-ऊर्जा 7.6 MeV है, जबकि खंडों की 8.5 MeV है। इस प्रक्रम में बंधन-ऊर्जा में कुल वृद्धि है :",
+     "o": [
+      "216 MeV",
+      "0.9 MeV",
+      "9.4 MeV",
+      "804 MeV"
+     ],
+     "sol": "<p>पहले बंधन-ऊर्जा : 240 × 7.6 = 1824 MeV। बाद में : 2 × 120 × 8.5 = 2040 MeV।</p><p>वृद्धि = 2040 − 1824 = <b>216 MeV</b> (= 240 × 0.9), जो विखंडन में मुक्त होती है।</p>",
+     "hint": "कुल बंधन-ऊर्जा = A × (प्रति न्यूक्लिऑन बंधन-ऊर्जा)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -515,10 +623,22 @@
       "<sup>22</sup><sub>10</sub>Ne",
       "<sup>22</sup><sub>12</sub>Mg",
       "<sup>23</sup><sub>11</sub>Na"
-     ]
+     ],
+     "sol": "<p>Positron emission: Z falls by 1, A unchanged. <sup>22</sup><sub>11</sub>Na → <sup>22</sup><sub>10</sub>X + e<sup>+</sup> + ν; Z = 10 is neon: <b><sup>22</sup><sub>10</sub>Ne</b>.</p>",
+     "hint": "β<sup>+</sup>: a proton turns into a neutron."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दी गई नाभिकीय अभिक्रिया में तत्व X है : <sup>22</sup><sub>11</sub>Na → X + e<sup>+</sup> + ν",
+     "o": [
+      "<sup>23</sup><sub>10</sub>Ne",
+      "<sup>22</sup><sub>10</sub>Ne",
+      "<sup>22</sup><sub>12</sub>Mg",
+      "<sup>23</sup><sub>11</sub>Na"
+     ],
+     "sol": "<p>पॉज़िट्रॉन उत्सर्जन : Z में 1 की कमी, A अपरिवर्तित। <sup>22</sup><sub>11</sub>Na → <sup>22</sup><sub>10</sub>X + e<sup>+</sup> + ν; Z = 10 नियॉन है : <b><sup>22</sup><sub>10</sub>Ne</b>।</p>",
+     "hint": "β<sup>+</sup> : एक प्रोटॉन न्यूट्रॉन में बदलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -561,10 +681,22 @@
       "5 : 4",
       "25 : 16",
       "1 : 1"
-     ]
+     ],
+     "sol": "<p>R = R<sub>0</sub>A<sup>1/3</sup>. R<sub>1</sub>/R<sub>2</sub> = (125/64)<sup>1/3</sup> = <b>5 : 4</b>.</p>",
+     "hint": "R ∝ A<sup>1/3</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "द्रव्यमान संख्या 189 का एक नाभिक द्रव्यमान संख्या 125 और 64 वाले दो नाभिकों में विभक्त होता है। दोनों संतति नाभिकों की त्रिज्याओं का अनुपात क्रमशः है :",
+     "o": [
+      "4 : 5",
+      "5 : 4",
+      "25 : 16",
+      "1 : 1"
+     ],
+     "sol": "<p>R = R<sub>0</sub>A<sup>1/3</sup>। R<sub>1</sub>/R<sub>2</sub> = (125/64)<sup>1/3</sup> = <b>5 : 4</b>।</p>",
+     "hint": "R ∝ A<sup>1/3</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -607,10 +739,22 @@
       "20 minutes",
       "40 minutes",
       "60 minutes"
-     ]
+     ],
+     "sol": "<p>1/16 = (1/2)<sup>4</sup>: four half-lives = 4 × 20 = <b>80 minutes</b>.</p>",
+     "hint": "Count halvings."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी रेडियोऐक्टिव पदार्थ की अर्धायु 20 मिनट है। कितने समय में पदार्थ की सक्रियता उसके प्रारंभिक मान का (1/16)<sup>th</sup> भाग रह जाती है?",
+     "o": [
+      "80 मिनट",
+      "20 मिनट",
+      "40 मिनट",
+      "60 मिनट"
+     ],
+     "sol": "<p>1/16 = (1/2)<sup>4</sup> : चार अर्धायु = 4 × 20 = <b>80 मिनट</b>।</p>",
+     "hint": "आधा होने की संख्या गिनिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -653,10 +797,22 @@
       "286, 80",
       "288, 82",
       "286, 81"
-     ]
+     ],
+     "sol": "<p>α: (290, 82) → (286, 80). e<sup>+</sup>: Z − 1 → (286, 79). β<sup>−</sup>: Z + 1 → (286, 80). e<sup>−</sup> (another β<sup>−</sup>): Z + 1 → (286, 81).</p><p>Q: mass number <b>286</b>, atomic number <b>81</b>.</p>",
+     "hint": "Only α changes A (by 4); each β changes Z by 1."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "<sup>290</sup><sub>82</sub>X →(α) Y →(e<sup>+</sup>) Z →(β<sup>−</sup>) P →(e<sup>−</sup>) Q<br>ऊपर दिए गए नाभिकीय उत्सर्जन में, उत्पाद Q की द्रव्यमान संख्या और परमाणु क्रमांक क्रमशः हैं :",
+     "o": [
+      "280, 81",
+      "286, 80",
+      "288, 82",
+      "286, 81"
+     ],
+     "sol": "<p>α : (290, 82) → (286, 80)। e<sup>+</sup> : Z − 1 → (286, 79)। β<sup>−</sup> : Z + 1 → (286, 80)। e<sup>−</sup> (एक और β<sup>−</sup>) : Z + 1 → (286, 81)।</p><p>Q : द्रव्यमान संख्या <b>286</b>, परमाणु क्रमांक <b>81</b>।</p>",
+     "hint": "केवल α, A को (4 से) बदलता है; प्रत्येक β, Z को 1 से बदलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -700,10 +856,22 @@
       "B and D are true, but A and C are false",
       "B and C are true, but A and D are false",
       "A and C are true, but B and D are false"
-     ]
+     ],
+     "sol": "<p>R = R<sub>0</sub>A<sup>1/3</sup>, so volume ∝ R<sup>3</sup> ∝ A: B true, A false. Mass defect is the difference between the total mass of the free nucleons and the nucleus's mass: D true, C false (atom vs nucleus differ only by the electrons).</p><p>Answer: <b>B and D are true, but A and C are false</b>.</p>",
+     "hint": "Radius ∝ A<sup>1/3</sup>, so volume ∝ A."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "चार कथन दिए गए हैं (A द्रव्यमान संख्या है) :<br>A. नाभिक का आयतन A<sup>1/3</sup> के अनुक्रमानुपाती है।<br>B. नाभिक का आयतन A के अनुक्रमानुपाती है।<br>C. परमाणु और उसके नाभिक के द्रव्यमान के अंतर को द्रव्यमान क्षति कहते हैं।<br>D. नाभिक और उसके संघटकों के द्रव्यमान के अंतर को द्रव्यमान क्षति कहते हैं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A और D सत्य हैं, परंतु B और C असत्य हैं",
+      "B और D सत्य हैं, परंतु A और C असत्य हैं",
+      "B और C सत्य हैं, परंतु A और D असत्य हैं",
+      "A और C सत्य हैं, परंतु B और D असत्य हैं"
+     ],
+     "sol": "<p>R = R<sub>0</sub>A<sup>1/3</sup>, अतः आयतन ∝ R<sup>3</sup> ∝ A : B सत्य, A असत्य। द्रव्यमान क्षति मुक्त न्यूक्लिऑनों के कुल द्रव्यमान और नाभिक के द्रव्यमान का अंतर है : D सत्य, C असत्य (परमाणु और नाभिक में केवल इलेक्ट्रॉनों का अंतर है)।</p><p>उत्तर : <b>B और D सत्य हैं, परंतु A और C असत्य हैं</b>।</p>",
+     "hint": "त्रिज्या ∝ A<sup>1/3</sup>, अतः आयतन ∝ A।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -747,10 +915,22 @@
       "20",
       "12",
       "19"
-     ]
+     ],
+     "sol": "<p>Volume V = m/ρ = 19.926 × 10<sup>−27</sup>/2.29 × 10<sup>17</sup> = 8.70 × 10<sup>−44</sup> m<sup>3</sup>. Also V = (4π/3)R<sub>0</sub><sup>3</sup>A = (12.56/3) × 1.728 × 10<sup>−45</sup> × A = 7.23 × 10<sup>−45</sup> A.</p><p>A = 8.70 × 10<sup>−44</sup>/7.23 × 10<sup>−45</sup> ≈ <b>12</b> (carbon-12: its mass is 12 u = 19.93 × 10<sup>−27</sup> kg).</p>",
+     "hint": "V = m/ρ = (4π/3)R<sub>0</sub><sup>3</sup>A."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक अज्ञात नाभिक का नाभिकीय घनत्व 2.29 × 10<sup>17</sup> kg/m<sup>3</sup> और द्रव्यमान 19.926 × 10<sup>−27</sup> kg है। इसकी द्रव्यमान संख्या A लगभग है : (R<sub>0</sub> = 1.2 × 10<sup>−15</sup> m, 4π = 12.56 लीजिए)",
+     "o": [
+      "16",
+      "20",
+      "12",
+      "19"
+     ],
+     "sol": "<p>आयतन V = m/ρ = 19.926 × 10<sup>−27</sup>/2.29 × 10<sup>17</sup> = 8.70 × 10<sup>−44</sup> m<sup>3</sup>। साथ ही V = (4π/3)R<sub>0</sub><sup>3</sup>A = (12.56/3) × 1.728 × 10<sup>−45</sup> × A = 7.23 × 10<sup>−45</sup> A।</p><p>A = 8.70 × 10<sup>−44</sup>/7.23 × 10<sup>−45</sup> ≈ <b>12</b> (कार्बन-12 : इसका द्रव्यमान 12 u = 19.93 × 10<sup>−27</sup> kg)।</p>",
+     "hint": "V = m/ρ = (4π/3)R<sub>0</sub><sup>3</sup>A।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
