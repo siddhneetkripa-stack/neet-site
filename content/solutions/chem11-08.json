@@ -1,0 +1,486 @@
+{
+ "chem11-08-neet-2025-code-45-q72": {
+  "sol": "<ul><li>A CHCl<sub>3</sub> (b.p. 334 K) + aniline (b.p. 457 K): boiling points far apart → simple distillation (IV).</li><li>B crude oil: many fractions with close boiling points → fractional distillation (III).</li><li>C glycerol from spent-lye: decomposes below its b.p. → distillation under reduced pressure (I).</li><li>D aniline–water: steam volatile, immiscible with water → steam distillation (II).</li></ul><p>A-IV, B-III, C-I, D-II.</p>",
+  "hint": "These are NCERT's own examples for each distillation method.",
+  "hi": {
+   "q": "सूची I का सूची II से मिलान कीजिए<br>सूची-I (मिश्रण): (A) CHCl<sub>3</sub> + C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub> (B) पेट्रोलियम उद्योग में कच्चा तेल (C) स्पेंट-लाई से ग्लिसरॉल (D) ऐनिलीन - जल<br>सूची-II (पृथक्करण की विधि): (I) कम दाब पर आसवन (II) भाप आसवन (III) प्रभाजी आसवन (IV) सरल आसवन<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+   "o": [
+    "A-IV, B-III, C-I, D-II",
+    "A-IV, B-III, C-II, D-I",
+    "A-III, B-IV, C-I, D-II",
+    "A-III, B-IV, C-II, D-I"
+   ],
+   "sol": "<ul><li>A CHCl<sub>3</sub> (क्वथनांक 334 K) + ऐनिलीन (क्वथनांक 457 K): क्वथनांकों में बड़ा अंतर → सरल आसवन (IV)।</li><li>B कच्चा तेल: निकट क्वथनांकों वाले अनेक प्रभाग → प्रभाजी आसवन (III)।</li><li>C स्पेंट-लाई से ग्लिसरॉल: अपने क्वथनांक से नीचे अपघटित होता है → कम दाब पर आसवन (I)।</li><li>D ऐनिलीन–जल: भाप-वाष्पशील, जल में अमिश्रणीय → भाप आसवन (II)।</li></ul><p>A-IV, B-III, C-I, D-II।</p>",
+   "hint": "ये प्रत्येक आसवन विधि के लिए NCERT के ही उदाहरण हैं।"
+  }
+ },
+ "chem11-08-neet-2025-code-45-q76": {
+  "sol": "<p>A C–H bond is stronger when the carbon orbital has more s-character (shorter bond).</p><ul><li>II: ≡C–H, sp (50% s) — strongest.</li><li>I: benzene C–H, sp<sup>2</sup> (33% s).</li><li>III: cyclopropane C–H, close to sp<sup>2</sup> but with less s-character than benzene (ring strain puts more p-character in the C–C bonds and more s into C–H than in normal sp<sup>3</sup>, but still below sp<sup>2</sup>).</li></ul><p>Order: <b>II &gt; I &gt; III</b>.</p>",
+  "hint": "More s-character → shorter, stronger C–H bond.",
+  "hi": {
+   "q": "दिए गए यौगिकों I–III में * से चिह्नित C – H आबंध की आबंध वियोजन ऊर्जा का सही क्रम है :-<br>I: बेन्जीन का C–H; II: फेनिलएथाइन (C<sub>6</sub>H<sub>5</sub>C≡CH) का ≡C–H; III: साइक्लोप्रोपेन का C–H",
+   "o": [
+    "II &gt; I &gt; III",
+    "I &gt; II &gt; III",
+    "III &gt; II &gt; I",
+    "II &gt; III &gt; I"
+   ],
+   "sol": "<p>कार्बन कक्षक में s-लक्षण अधिक होने पर C–H आबंध अधिक प्रबल (छोटा) होता है।</p><ul><li>II: ≡C–H, sp (50% s) — सबसे प्रबल।</li><li>I: बेन्जीन का C–H, sp<sup>2</sup> (33% s)।</li><li>III: साइक्लोप्रोपेन का C–H, लगभग sp<sup>2</sup> परंतु बेन्जीन से कम s-लक्षण (वलय विकृति के कारण C–C आबंधों में p-लक्षण और C–H में सामान्य sp<sup>3</sup> से अधिक s-लक्षण होता है, फिर भी sp<sup>2</sup> से कम)।</li></ul><p>क्रम: <b>II &gt; I &gt; III</b>।</p>",
+   "hint": "अधिक s-लक्षण → छोटा, अधिक प्रबल C–H आबंध।"
+  }
+ },
+ "chem11-08-neet-2025-code-45-q86": {
+  "sol": "<p>Cyclic ethers C<sub>4</sub>H<sub>8</sub>O (one ring, O in the ring):</p><ul><li>5-membered: oxolane (THF) — 1</li><li>4-membered: 2-methyloxetane (chiral, 2) + 3-methyloxetane (1) — 3</li><li>3-membered: 2-ethyloxirane (chiral, 2) + 2,2-dimethyloxirane (1) + 2,3-dimethyloxirane (cis meso 1 + trans pair 2 = 3) — 6</li></ul><p>Total = 1 + 3 + 6 = <b>10</b>.</p>",
+  "hint": "Work through the ring sizes one at a time; count stereoisomers of each chiral or cis/trans structure.",
+  "trap": "cis-2,3-Dimethyloxirane is meso (one isomer); the trans form is a pair of enantiomers.",
+  "hi": {
+   "q": "आण्विक सूत्र C<sub>4</sub>H<sub>8</sub>O वाले चक्रीय ईथरों के संभव समावयवों (संरचनात्मक तथा त्रिविम समावयव दोनों) की कुल संख्या है :",
+   "o": [
+    "6",
+    "8",
+    "10",
+    "11"
+   ],
+   "sol": "<p>चक्रीय ईथर C<sub>4</sub>H<sub>8</sub>O (एक वलय, O वलय में):</p><ul><li>5-सदस्यी: ऑक्सोलेन (THF) — 1</li><li>4-सदस्यी: 2-मेथिलऑक्सीटेन (काइरल, 2) + 3-मेथिलऑक्सीटेन (1) — 3</li><li>3-सदस्यी: 2-एथिलऑक्सिरेन (काइरल, 2) + 2,2-डाइमेथिलऑक्सिरेन (1) + 2,3-डाइमेथिलऑक्सिरेन (समपक्ष मेसो 1 + विपक्ष युग्म 2 = 3) — 6</li></ul><p>कुल = 1 + 3 + 6 = <b>10</b>।</p>",
+   "hint": "वलय के आकार के अनुसार क्रम से चलें; हर काइरल या समपक्ष/विपक्ष संरचना के त्रिविम समावयव गिनें।",
+   "trap": "समपक्ष-2,3-डाइमेथिलऑक्सिरेन मेसो है (एक समावयव); विपक्ष रूप एनैन्टिओमरों का युग्म है।"
+  }
+ },
+ "chem11-08-neet-2025-code-45-q90": {
+  "sol": "<p>Lassaigne's test fuses the compound with sodium so that N, S and halogens become NaCN, Na<sub>2</sub>S and NaX (reactions 1–3). Heating with CuO to oxidise carbon to CO<sub>2</sub> is the test for carbon (and hydrogen), not part of Lassaigne's test.</p>",
+  "hint": "Lassaigne = sodium fusion.",
+  "hi": {
+   "q": "निम्नलिखित में से कौन-सी अभिक्रिया \"लैंसे परीक्षण\" से संबंधित नहीं है?",
+   "o": [
+    "Na + C + N —Δ→ NaCN",
+    "2Na + S —Δ→ Na<sub>2</sub>S",
+    "Na + X —Δ→ NaX",
+    "2CuO + C —Δ→ 2Cu + CO<sub>2</sub>"
+   ],
+   "sol": "<p>लैंसे परीक्षण में यौगिक को सोडियम के साथ संगलित किया जाता है जिससे N, S और हैलोजेन NaCN, Na<sub>2</sub>S और NaX बनते हैं (अभिक्रियाएँ 1–3)। CuO के साथ गरम करके कार्बन को CO<sub>2</sub> में ऑक्सीकृत करना कार्बन (और हाइड्रोजन) का परीक्षण है, लैंसे परीक्षण का भाग नहीं।</p>",
+   "hint": "लैंसे = सोडियम संगलन।"
+  }
+ },
+ "chem11-08-neet-2024-q56-esaral-copy": {
+  "sol": "<p>Passing directly from solid to vapour is sublimation; it separates sublimable solids (camphor, naphthalene, anthracene) from non-sublimable impurities.</p>",
+  "hint": "Solid → vapour without melting.",
+  "hi": {
+   "q": "गरम करने पर कुछ ठोस पदार्थ द्रव अवस्था में आए बिना ठोस से वाष्प अवस्था में बदल जाते हैं। उपर्युक्त सिद्धांत पर आधारित ऐसे ठोस पदार्थों के शोधन की तकनीक कहलाती है",
+   "o": [
+    "क्रिस्टलन",
+    "ऊर्ध्वपातन",
+    "आसवन",
+    "वर्णलेखन"
+   ],
+   "sol": "<p>ठोस से सीधे वाष्प में जाना ऊर्ध्वपातन है; इससे ऊर्ध्वपातनीय ठोस (कपूर, नैफ्थेलीन, ऐन्थ्रासीन) अऊर्ध्वपातनीय अशुद्धियों से पृथक् किए जाते हैं।</p>",
+   "hint": "पिघले बिना ठोस → वाष्प।"
+  }
+ },
+ "chem11-08-neet-2024-q57-esaral-copy": {
+  "sol": "<p>Carbocation stability: 3° &gt; 2° &gt; 1° (hyperconjugation and +I effect of alkyl groups). Options 1 and 2 are secondary, option 3 is primary, and the 1-methylcyclohexyl cation is <b>tertiary</b>.</p>",
+  "hint": "Classify each cationic carbon as 1°, 2° or 3°.",
+  "hi": {
+   "q": "निम्नलिखित में से सबसे स्थायी कार्बधनायन है :",
+   "o": [
+    "CH<sub>3</sub>CH<sub>2</sub>–C<sup>+</sup>H–CH(CH<sub>3</sub>)<sub>2</sub>",
+    "CH<sub>3</sub>–C<sup>+</sup>H–CH<sub>2</sub>–CH(CH<sub>3</sub>)<sub>2</sub>",
+    "Cyclopentyl–C<sup>+</sup>H<sub>2</sub> (साइक्लोपेन्टिल)",
+    "1-मेथिलसाइक्लोहेक्सिल धनायन"
+   ],
+   "sol": "<p>कार्बधनायन का स्थायित्व: 3° &gt; 2° &gt; 1° (ऐल्किल समूहों का अतिसंयुग्मन और +I प्रभाव)। विकल्प 1 और 2 द्वितीयक हैं, विकल्प 3 प्राथमिक है, और 1-मेथिलसाइक्लोहेक्सिल धनायन <b>तृतीयक</b> है।</p>",
+   "hint": "प्रत्येक धनायनी कार्बन को 1°, 2° या 3° में वर्गीकृत करें।"
+  }
+ },
+ "chem11-08-neet-2026-q47-esaral-copy": {
+  "sol": "<p>Friedel–Crafts methylation gives toluene (W). Nitration of toluene gives o-nitrotoluene (X) and p-nitrotoluene (Y). These are liquids/low-melting solids with different boiling points (about 495 K and 511 K), so they are separated by <b>fractional distillation</b>.</p>",
+  "hint": "Identify X and Y first; they are isomers with close boiling points.",
+  "hi": {
+   "q": "निम्नलिखित अभिक्रिया अनुक्रम में दो उत्पाद X और Y बनते हैं:<br>बेन्जीन + CH<sub>3</sub>Cl —निर्जल AlCl<sub>3</sub>→ W —तनु HNO<sub>3</sub> + तनु H<sub>2</sub>SO<sub>4</sub>, गरम→ X + Y<br>उत्पादों X और Y के पृथक्करण के लिए प्रयुक्त की जा सकने वाली उपयुक्त विधि है :",
+   "o": [
+    "सतत निष्कर्षण",
+    "विभेदी निष्कर्षण",
+    "ऊर्ध्वपातन",
+    "प्रभाजी आसवन"
+   ],
+   "sol": "<p>फ्रीडेल-क्राफ्ट्स मेथिलन से टॉलूईन (W) बनता है। टॉलूईन के नाइट्रोकरण से o-नाइट्रोटॉलूईन (X) और p-नाइट्रोटॉलूईन (Y) बनते हैं। ये भिन्न क्वथनांकों (लगभग 495 K और 511 K) वाले द्रव/कम गलनांक वाले ठोस हैं, अतः इन्हें <b>प्रभाजी आसवन</b> से पृथक् किया जाता है।</p>",
+   "hint": "पहले X और Y पहचानें; ये निकट क्वथनांकों वाले समावयवी हैं।"
+  }
+ },
+ "chem11-08-neet-2026-q62-esaral-copy": {
+  "sol": "<p>Metamers have the same functional group but different alkyl groups on either side of it. CH<sub>3</sub>–O–C<sub>3</sub>H<sub>7</sub> and C<sub>2</sub>H<sub>5</sub>–O–C<sub>2</sub>H<sub>5</sub> are both ethers (C<sub>4</sub>H<sub>10</sub>O) → metamers. (2) position isomers, (3) chain isomers, (4) functional isomers.</p>",
+  "hint": "Same functional group, different groups on its two sides.",
+  "hi": {
+   "q": "निम्नलिखित में से मध्यावयवी अणुओं का युग्म है :",
+   "o": [
+    "CH<sub>3</sub>OCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> और CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub>",
+    "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH और CH<sub>3</sub> − CH(OH) − CH<sub>3</sub>",
+    "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> और (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>3</sub>",
+    "CH<sub>3</sub>COCH<sub>3</sub> और CH<sub>3</sub>CH<sub>2</sub>CHO"
+   ],
+   "sol": "<p>मध्यावयवियों में समान क्रियात्मक समूह होता है परंतु उसके दोनों ओर भिन्न ऐल्किल समूह होते हैं। CH<sub>3</sub>–O–C<sub>3</sub>H<sub>7</sub> और C<sub>2</sub>H<sub>5</sub>–O–C<sub>2</sub>H<sub>5</sub> दोनों ईथर (C<sub>4</sub>H<sub>10</sub>O) हैं → मध्यावयवी। (2) स्थिति समावयवी, (3) श्रृंखला समावयवी, (4) क्रियात्मक समूह समावयवी।</p>",
+   "hint": "समान क्रियात्मक समूह, उसके दोनों ओर भिन्न समूह।"
+  }
+ },
+ "chem11-08-neet-2026-q72-esaral-copy": {
+  "sol": "<p>The longest chain has 7 carbons (heptane), with an ethyl and a methyl group on C-3 and C-5 from either end. With a tie, alphabetical order decides: ethyl gets the lower number → <b>3-ethyl-5-methylheptane</b>.</p>",
+  "hint": "Equal locants from both ends → the alphabetically first substituent gets the lower number.",
+  "hi": {
+   "q": "निम्नलिखित यौगिक का सही IUPAC नाम है<br>CH<sub>3</sub>–CH<sub>2</sub>–CH(CH<sub>2</sub>CH<sub>3</sub>)–CH<sub>2</sub>–CH(CH<sub>3</sub>)–CH<sub>2</sub>–CH<sub>3</sub>",
+   "o": [
+    "3-ethyl-5-methylheptane",
+    "3-methyl-5-ethylheptane",
+    "2, 4-diethylhexane",
+    "3, 5-diethylhexane"
+   ],
+   "sol": "<p>सबसे लंबी श्रृंखला में 7 कार्बन (हेप्टेन) हैं, जिसमें किसी भी सिरे से C-3 और C-5 पर एक एथिल और एक मेथिल समूह है। बराबरी होने पर वर्णक्रम से निर्णय होता है: एथिल को छोटी संख्या मिलती है → <b>3-ethyl-5-methylheptane</b>।</p>",
+   "hint": "दोनों सिरों से समान स्थान-संख्या → वर्णक्रम में पहले आने वाले प्रतिस्थापी को छोटी संख्या।"
+  }
+ },
+ "chem11-08-neet-2026-q81-esaral-copy": {
+  "sol": "<p>In an organic compound N, S and halogens are covalently bonded. Fusion with sodium converts them to ionic NaCN, Na<sub>2</sub>S and NaX, which can be detected by ionic tests. <b>Covalent → ionic</b>.</p>",
+  "hint": "Why fuse with sodium? To make ions that common tests detect.",
+  "hi": {
+   "q": "लैंसे परीक्षण के दौरान कार्बनिक यौगिक में उपस्थित तत्व किस रूप से किस रूप में परिवर्तित होते हैं :",
+   "o": [
+    "आयनिक रूप से आयनिक रूप में",
+    "सहसंयोजी रूप से आयनिक रूप में",
+    "आयनिक रूप से सहसंयोजी रूप में",
+    "सहसंयोजी रूप से सहसंयोजी रूप में"
+   ],
+   "sol": "<p>कार्बनिक यौगिक में N, S और हैलोजेन सहसंयोजी रूप से आबंधित होते हैं। सोडियम के साथ संगलन उन्हें आयनिक NaCN, Na<sub>2</sub>S और NaX में बदल देता है, जिनका पता आयनिक परीक्षणों से लगाया जा सकता है। <b>सहसंयोजी → आयनिक</b>।</p>",
+   "hint": "सोडियम के साथ संगलन क्यों? ताकि ऐसे आयन बनें जिनका पता सामान्य परीक्षणों से लगे।"
+  }
+ },
+ "chem11-08-neet-2023-topic-wise-copy-q14": {
+  "sol": "<p>With N and S both present, sodium fusion gives NaSCN. With Fe<sup>3+</sup> this forms the blood-red complex <b>[Fe(SCN)]<sup>2+</sup></b>. Prussian blue (option 2) is the test for N alone; NaSCN itself is colourless.</p>",
+  "hint": "Thiocyanate + Fe<sup>3+</sup> → blood red.",
+  "hi": {
+   "q": "किसी कार्बनिक यौगिक के लैंसे निष्कर्ष में नाइट्रोजन और सल्फर दोनों उपस्थित हैं, जो Fe<sup>3+</sup> के साथ रक्त-लाल रंग देता है, इसका कारण किसका बनना है",
+   "o": [
+    "[Fe(SCN)]<sup>2+</sup>",
+    "Fe<sub>4</sub>[Fe(CN)<sub>6</sub>]<sub>3</sub>.xH<sub>2</sub>O",
+    "NaSCN",
+    "[Fe(CN)<sub>5</sub>NOS]<sup>4−</sup>"
+   ],
+   "sol": "<p>N और S दोनों उपस्थित होने पर सोडियम संगलन से NaSCN बनता है। Fe<sup>3+</sup> के साथ यह रक्त-लाल संकुल <b>[Fe(SCN)]<sup>2+</sup></b> बनाता है। प्रशियन ब्लू (विकल्प 2) केवल N का परीक्षण है; NaSCN स्वयं रंगहीन है।</p>",
+   "hint": "थायोसायनेट + Fe<sup>3+</sup> → रक्त-लाल।"
+  }
+ },
+ "chem11-08-neet-2023-topic-wise-copy-q15": {
+  "sol": "<p>Pyridine C<sub>5</sub>H<sub>5</sub>N: ring bonds 6 σ + 5 C–H σ = <b>11 σ</b>; three C=C/C=N double bonds → <b>3 π</b>; N carries <b>1 lone pair</b> (in an sp<sup>2</sup> orbital, not part of the aromatic sextet).</p>",
+  "hint": "Draw pyridine like benzene with one CH replaced by N.",
+  "hi": {
+   "q": "पिरिडीन में σ आबंधों, π आबंधों और इलेक्ट्रॉनों के एकाकी युग्मों की संख्या क्रमशः है",
+   "o": [
+    "12, 2, 1",
+    "11, 2, 0",
+    "12, 3, 0",
+    "11, 3, 1"
+   ],
+   "sol": "<p>पिरिडीन C<sub>5</sub>H<sub>5</sub>N: वलय आबंध 6 σ + 5 C–H σ = <b>11 σ</b>; तीन C=C/C=N द्विआबंध → <b>3 π</b>; N पर <b>1 एकाकी युग्म</b> (sp<sup>2</sup> कक्षक में, ऐरोमैटिक षष्टक का भाग नहीं)।</p>",
+   "hint": "पिरिडीन को बेन्जीन जैसा बनाएँ जिसमें एक CH के स्थान पर N हो।"
+  }
+ },
+ "chem11-08-neet-2021-code-p3-q65": {
+  "sol": "<p>2,6-Dimethyldec-4-ene: a 10-carbon main chain (dec-), a C=C between C-4 and C-5 (-4-ene), and CH<sub>3</sub> groups on C-2 and C-6. In bond-line form: CH<sub>3</sub>–CH(CH<sub>3</sub>)–CH<sub>2</sub>–CH=CH–CH(CH<sub>3</sub>)–CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>, which is structure (2).</p>",
+  "hint": "Draw the 10-carbon chain first, then place the double bond and the methyls.",
+  "hi": {
+   "q": "2, 6-Dimethyl-dec-4-ene की सही संरचना है",
+   "o": [
+    "[आबंध-रेखा संरचना 1]",
+    "[आबंध-रेखा संरचना 2]",
+    "[आबंध-रेखा संरचना 3]",
+    "[आबंध-रेखा संरचना 4]"
+   ],
+   "sol": "<p>2,6-Dimethyldec-4-ene: 10 कार्बन की मुख्य श्रृंखला (dec-), C-4 और C-5 के बीच C=C (-4-ene), और C-2 तथा C-6 पर CH<sub>3</sub> समूह। आबंध-रेखा रूप में: CH<sub>3</sub>–CH(CH<sub>3</sub>)–CH<sub>2</sub>–CH=CH–CH(CH<sub>3</sub>)–CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>, जो संरचना (2) है।</p>",
+   "hint": "पहले 10 कार्बन की श्रृंखला बनाएँ, फिर द्विआबंध और मेथिल समूह रखें।"
+  }
+ },
+ "chem11-08-neet-2021-code-p3-q73": {
+  "sol": "<p>Metamerism needs a polyvalent functional group (like –O–) with different groups on its two sides. C<sub>4</sub>H<sub>10</sub>O has the ethers C<sub>2</sub>H<sub>5</sub>OC<sub>2</sub>H<sub>5</sub> and CH<sub>3</sub>OC<sub>3</sub>H<sub>7</sub> → metamers (NCERT's own example). C<sub>3</sub>H<sub>8</sub>O has only one ether (CH<sub>3</sub>OC<sub>2</sub>H<sub>5</sub>); C<sub>5</sub>H<sub>12</sub> has no functional group.</p>",
+  "hint": "You need at least two different ways to split the carbons around –O–.",
+  "hi": {
+   "q": "मध्यावयवता प्रदर्शित करने वाला यौगिक है :",
+   "o": [
+    "C<sub>4</sub>H<sub>10</sub>O",
+    "C<sub>5</sub>H<sub>12</sub>",
+    "C<sub>3</sub>H<sub>8</sub>O",
+    "C<sub>3</sub>H<sub>6</sub>O"
+   ],
+   "sol": "<p>मध्यावयवता के लिए बहुसंयोजी क्रियात्मक समूह (जैसे –O–) चाहिए जिसके दोनों ओर भिन्न समूह हों। C<sub>4</sub>H<sub>10</sub>O के ईथर C<sub>2</sub>H<sub>5</sub>OC<sub>2</sub>H<sub>5</sub> और CH<sub>3</sub>OC<sub>3</sub>H<sub>7</sub> → मध्यावयवी (NCERT का ही उदाहरण)। C<sub>3</sub>H<sub>8</sub>O का केवल एक ईथर (CH<sub>3</sub>OC<sub>2</sub>H<sub>5</sub>) है; C<sub>5</sub>H<sub>12</sub> में कोई क्रियात्मक समूह नहीं।</p>",
+   "hint": "–O– के दोनों ओर कार्बनों को बाँटने के कम से कम दो भिन्न तरीके चाहिए।"
+  }
+ },
+ "chem11-08-neet-2020-code-f3-q59": {
+  "sol": "<p>The tert-butyl cation has 9 α-C–H bonds that can overlap with the empty p orbital; the sec-butyl cation has 5. More hyperconjugative structures → more stable. (The +I effect also helps, but –CH<sub>3</sub> has no −I or ±R effect.)</p>",
+  "hint": "Count α-hydrogens.",
+  "hi": {
+   "q": "तृतीयक ब्यूटिल कार्बधनायन, द्वितीयक ब्यूटिल कार्बधनायन से अधिक स्थायी है, निम्नलिखित में से किसके कारण ?",
+   "o": [
+    "–CH<sub>3</sub> समूहों का −R प्रभाव",
+    "अतिसंयुग्मन",
+    "–CH<sub>3</sub> समूहों का −I प्रभाव",
+    "–CH<sub>3</sub> समूहों का + R प्रभाव"
+   ],
+   "sol": "<p>tert-ब्यूटिल धनायन में 9 α-C–H आबंध हैं जो रिक्त p कक्षक से अतिव्यापन कर सकते हैं; sec-ब्यूटिल धनायन में 5 हैं। अधिक अतिसंयुग्मी संरचनाएँ → अधिक स्थायी। (+I प्रभाव भी सहायक है, परंतु –CH<sub>3</sub> का कोई −I या ±R प्रभाव नहीं होता।)</p>",
+   "hint": "α-हाइड्रोजन गिनें।"
+  }
+ },
+ "chem11-08-neet-2020-code-f3-q66": {
+  "sol": "<p>In paper chromatography, water held in the cellulose fibres is the stationary phase; components distribute between it and the moving solvent. So it is <b>partition chromatography</b> (NCERT §8.8.5).</p>",
+  "hint": "The stationary phase is a liquid (water in the paper).",
+  "hi": {
+   "q": "पेपर वर्णलेखन किसका उदाहरण है :",
+   "o": [
+    "पतली परत वर्णलेखन",
+    "स्तंभ वर्णलेखन",
+    "अधिशोषण वर्णलेखन",
+    "वितरण वर्णलेखन"
+   ],
+   "sol": "<p>पेपर वर्णलेखन में सेलुलोस तंतुओं में रुका जल स्थिर प्रावस्था है; घटक इसके और गतिशील विलायक के बीच वितरित होते हैं। अतः यह <b>वितरण वर्णलेखन</b> है (NCERT §8.8.5)।</p>",
+   "hint": "स्थिर प्रावस्था एक द्रव (पेपर में जल) है।"
+  }
+ },
+ "chem11-08-neet-2019-code-s2-q147": {
+  "sol": "<p>Pent-2-en-4-yne: CH<sub>3</sub>–CH=CH–C≡CH.</p><p>σ: 4 C–C + 6 C–H = <b>10</b>. π: 1 (C=C) + 2 (C≡C) = <b>3</b>.</p>",
+  "hint": "Every bond has one σ; double adds 1 π, triple adds 2 π.",
+  "hi": {
+   "q": "pent-2-en-4-yne में सिग्मा (σ) और पाई (π) आबंधों की संख्या है :",
+   "o": [
+    "11 σ आबंध और 2 π आबंध",
+    "13 σ आबंध और कोई π आबंध नहीं",
+    "10 σ आबंध और 3 π आबंध",
+    "8 σ आबंध और 5 π आबंध"
+   ],
+   "sol": "<p>Pent-2-en-4-yne: CH<sub>3</sub>–CH=CH–C≡CH।</p><p>σ: 4 C–C + 6 C–H = <b>10</b>। π: 1 (C=C) + 2 (C≡C) = <b>3</b>।</p>",
+   "hint": "हर आबंध में एक σ; द्विआबंध में 1 π और, त्रिआबंध में 2 π और।"
+  }
+ },
+ "chem11-08-neet-2017-code-a-q70": {
+  "sol": "<p>An electrophile accepts an electron pair from a nucleophile. It can be positively charged (H<sup>+</sup>, NO<sub>2</sub><sup>+</sup>, carbocations) or neutral with an electron-deficient atom (BF<sub>3</sub>, AlCl<sub>3</sub>, carbonyl carbon). Statement (4).</p>",
+  "hint": "Electrophile = 'electron-loving' = electron-pair acceptor.",
+  "hi": {
+   "q": "इलेक्ट्रॉनस्नेही के संबंध में सही कथन है :",
+   "o": [
+    "इलेक्ट्रॉनस्नेही एक ऋणावेशित स्पीशीज़ है और नाभिकस्नेही से इलेक्ट्रॉन युग्म ग्रहण करके आबंध बना सकता है",
+    "इलेक्ट्रॉनस्नेही एक ऋणावेशित स्पीशीज़ है और अन्य इलेक्ट्रॉनस्नेही से इलेक्ट्रॉन युग्म ग्रहण करके आबंध बना सकता है",
+    "इलेक्ट्रॉनस्नेही सामान्यतः उदासीन स्पीशीज़ होते हैं और नाभिकस्नेही से इलेक्ट्रॉन युग्म ग्रहण करके आबंध बना सकते हैं",
+    "इलेक्ट्रॉनस्नेही उदासीन या धनावेशित स्पीशीज़ हो सकता है और नाभिकस्नेही से इलेक्ट्रॉन युग्म ग्रहण करके आबंध बना सकता है"
+   ],
+   "sol": "<p>इलेक्ट्रॉनस्नेही, नाभिकस्नेही से इलेक्ट्रॉन युग्म ग्रहण करता है। यह धनावेशित (H<sup>+</sup>, NO<sub>2</sub><sup>+</sup>, कार्बधनायन) या इलेक्ट्रॉन न्यून परमाणु वाला उदासीन (BF<sub>3</sub>, AlCl<sub>3</sub>, कार्बोनिल कार्बन) हो सकता है। कथन (4)।</p>",
+   "hint": "इलेक्ट्रॉनस्नेही = 'इलेक्ट्रॉन-प्रेमी' = इलेक्ट्रॉन युग्म ग्राही।"
+  }
+ },
+ "chem11-08-neet-2017-code-a-q78": {
+  "sol": "<p>o-Nitrophenol has intramolecular H-bonding, so it is steam volatile. p-Nitrophenol is held by intermolecular H-bonds and is not. <b>Steam distillation</b> separates them (NCERT's example).</p>",
+  "hint": "Intramolecular H-bond → volatile isomer.",
+  "hi": {
+   "q": "ऑर्थो और पैरा-नाइट्रोफीनॉलों के 1 : 1 मिश्रण के पृथक्करण की सबसे उपयुक्त विधि है :",
+   "o": [
+    "ऊर्ध्वपातन",
+    "वर्णलेखन",
+    "क्रिस्टलन",
+    "भाप आसवन"
+   ],
+   "sol": "<p>o-नाइट्रोफीनॉल में अंतराअणुक के स्थान पर अंतःअणुक H-आबंधन है, अतः यह भाप-वाष्पशील है। p-नाइट्रोफीनॉल अंतराअणुक H-आबंधों से जुड़ा रहता है और वाष्पशील नहीं है। <b>भाप आसवन</b> इन्हें पृथक् करता है (NCERT का उदाहरण)।</p>",
+   "hint": "अंतःअणुक H-आबंध → वाष्पशील समावयवी।"
+  }
+ },
+ "chem11-08-neet-2017-code-a-q89": {
+  "sol": "<p>Principal group: –CHO, so C-1 is the aldehyde carbon. Chain: C1(HO)–C2H(CH<sub>3</sub>)–C3(=O)–C4H=C5H–C6H<sub>3</sub>: hex-4-enal, with a methyl at C-2 and a ketone (oxo/'keto') at C-3 → 2-methyl-3-oxohex-4-enal, written in the options as <b>3-keto-2-methylhex-4-enal</b>.</p>",
+  "hint": "The aldehyde outranks the ketone and takes C-1.",
+  "trap": "'Keto' is an old prefix; the current IUPAC prefix is 'oxo'.",
+  "hi": {
+   "q": "यौगिक H–CO–CH(CH<sub>3</sub>)–CO–CH=CH–CH<sub>3</sub> का IUPAC नाम है",
+   "o": [
+    "3-keto-2-methylhex-4-enal",
+    "5-formylhex-2-en-3-one",
+    "5-methyl-4-oxohex-2-en-5-al",
+    "3-keto-2-methylhex-5-enal"
+   ],
+   "sol": "<p>मुख्य समूह: –CHO, अतः C-1 ऐल्डिहाइड कार्बन है। श्रृंखला: C1(HO)–C2H(CH<sub>3</sub>)–C3(=O)–C4H=C5H–C6H<sub>3</sub>: hex-4-enal, C-2 पर मेथिल और C-3 पर कीटोन (oxo/'keto') → 2-methyl-3-oxohex-4-enal, जो विकल्पों में <b>3-keto-2-methylhex-4-enal</b> लिखा है।</p>",
+   "hint": "ऐल्डिहाइड की वरीयता कीटोन से अधिक है और वह C-1 लेता है।",
+   "trap": "'Keto' पुराना पूर्वलग्न है; वर्तमान IUPAC पूर्वलग्न 'oxo' है।"
+  }
+ },
+ "chem11-08-neet-2016-phase-1-code-a-q84": {
+  "sol": "<p>A biphenyl is optically active only if rotation about the central C–C bond is blocked by bulky ortho groups <i>and</i> neither ring has a plane of symmetry. 2,2′-Dibromo-6,6′-diiodobiphenyl has two large groups on each ring (Br and I, different), so rotation is blocked and the molecule is chiral (atropisomerism). With only one ortho group per ring, rotation is not blocked enough.</p><p class='errata'>Atropisomerism is not in NCERT (question marked outside_ncert).</p>",
+  "hint": "Needs bulky, different ortho groups on both rings.",
+  "hi": {
+   "q": "निम्नलिखित में से कौन-सा बाइफेनिल प्रकाशिक सक्रिय है ?",
+   "o": [
+    "2-नाइट्रो-?-आयोडोबाइफेनिल (चित्रानुसार: एक वलय पर NO<sub>2</sub>, दूसरे पर I)",
+    "2,2′-डाइब्रोमो-6,6′-डाइआयोडोबाइफेनिल (चित्रानुसार)",
+    "2,2′-डाइआयोडोबाइफेनिल (चित्रानुसार)",
+    "2,2′-डाइमेथिलबाइफेनिल (चित्रानुसार)"
+   ],
+   "sol": "<p>बाइफेनिल केवल तभी प्रकाशिक सक्रिय होता है जब बड़े ऑर्थो समूह केंद्रीय C–C आबंध के परितः घूर्णन को रोकें <i>और</i> किसी भी वलय में सममित तल न हो। 2,2′-डाइब्रोमो-6,6′-डाइआयोडोबाइफेनिल में प्रत्येक वलय पर दो बड़े समूह (Br और I, भिन्न) हैं, अतः घूर्णन रुक जाता है और अणु काइरल होता है (ऐट्रोपसमावयवता)। प्रति वलय केवल एक ऑर्थो समूह होने पर घूर्णन पर्याप्त नहीं रुकता।</p><p class='errata'>ऐट्रोपसमावयवता NCERT में नहीं है (प्रश्न outside_ncert चिह्नित)।</p>",
+   "hint": "दोनों वलयों पर बड़े, भिन्न ऑर्थो समूह चाहिए।"
+  }
+ },
+ "chem11-08-neet-2016-phase-1-code-a-q90": {
+  "sol": "<p>The negatively charged carbon in CH<sub>3</sub>C≡C<sup>−</sup> is a triply bonded carbon, which is sp hybridised. The lone pair sits in an <b>sp</b> orbital (50% s-character, which also makes this carbanion relatively stable).</p>",
+  "hint": "Triple-bonded carbon → sp.",
+  "hi": {
+   "q": "दिए गए कार्बऋणायन CH<sub>3</sub>C≡C<sup>−</sup> में इलेक्ट्रॉन युग्म निम्नलिखित में से किस कक्षक में उपस्थित है ?",
+   "o": [
+    "2p",
+    "sp<sup>3</sup>",
+    "sp<sup>2</sup>",
+    "sp"
+   ],
+   "sol": "<p>CH<sub>3</sub>C≡C<sup>−</sup> में ऋणावेशित कार्बन त्रिआबंधित है, जो sp संकरित है। एकाकी युग्म <b>sp</b> कक्षक में रहता है (50% s-लक्षण, जिससे यह कार्बऋणायन अपेक्षाकृत स्थायी भी होता है)।</p>",
+   "hint": "त्रिआबंधित कार्बन → sp।"
+  }
+ },
+ "chem11-08-neet-2016-phase-2-code-aa-q77": {
+  "sol": "<p>In biphenyl every carbon is sp<sup>2</sup>, so all atoms can lie in one plane (as in the crystal). Cyclohexane and bicyclohexyl have sp<sup>3</sup> carbons; in (CH<sub>3</sub>)<sub>2</sub>C=C(CN)<sub>2</sub> the methyl hydrogens are out of the plane. Key: biphenyl.</p><p class='errata'>In the gas phase the two rings of biphenyl are twisted by about 44°, so this key is open to question; it is kept as the official answer.</p>",
+  "hint": "Look for a molecule with no sp<sup>3</sup> carbon.",
+  "hi": {
+   "q": "निम्नलिखित में से किस अणु में सभी परमाणु समतलीय हैं?",
+   "o": [
+    "बाइफेनिल",
+    "साइक्लोहेक्सेन (चित्रानुसार)",
+    "(CH<sub>3</sub>)<sub>2</sub>C=C(CN)<sub>2</sub>",
+    "बाइसाइक्लोहेक्सिल (चित्रानुसार)"
+   ],
+   "sol": "<p>बाइफेनिल में हर कार्बन sp<sup>2</sup> है, अतः सभी परमाणु एक तल में हो सकते हैं (जैसे क्रिस्टल में)। साइक्लोहेक्सेन और बाइसाइक्लोहेक्सिल में sp<sup>3</sup> कार्बन हैं; (CH<sub>3</sub>)<sub>2</sub>C=C(CN)<sub>2</sub> में मेथिल हाइड्रोजन तल से बाहर हैं। कुंजी: बाइफेनिल।</p><p class='errata'>गैस प्रावस्था में बाइफेनिल के दोनों वलय लगभग 44° मुड़े होते हैं, अतः यह कुंजी विवादास्पद है; इसे आधिकारिक उत्तर के रूप में रखा गया है।</p>",
+   "hint": "ऐसा अणु ढूँढें जिसमें कोई sp<sup>3</sup> कार्बन न हो।"
+  }
+ },
+ "chem11-08-neet-2016-phase-2-code-aa-q79": {
+  "sol": "<p>The N lone pair is delocalised into the ring, placing negative charge on C-2, C-3, C-4 and C-5. The official CBSE key gives (3) 2 and 4.</p><p class='errata'>Electrophilic substitution of pyrrole actually occurs at C-2/C-5, so many books give (4) 2 and 5. The official key is kept here. Heterocyclic chemistry is not in NCERT (question marked outside_ncert).</p>",
+  "hint": "Draw the resonance structures that move the N lone pair into the ring.",
+  "hi": {
+   "q": "पिरोल में इलेक्ट्रॉन घनत्व अधिकतम है [वलय पर संख्यांकित स्थितियाँ: N1, C2, C3, C4, C5]",
+   "o": [
+    "2 और 3",
+    "3 और 4",
+    "2 और 4",
+    "2 और 5"
+   ],
+   "sol": "<p>N का एकाकी युग्म वलय में विस्थानित होता है, जिससे C-2, C-3, C-4 और C-5 पर ऋणावेश आता है। आधिकारिक CBSE कुंजी (3) 2 और 4 देती है।</p><p class='errata'>पिरोल का इलेक्ट्रॉनस्नेही प्रतिस्थापन वास्तव में C-2/C-5 पर होता है, अतः कई पुस्तकें (4) 2 और 5 देती हैं। यहाँ आधिकारिक कुंजी रखी गई है। विषमचक्रीय रसायन NCERT में नहीं है (प्रश्न outside_ncert चिह्नित)।</p>",
+   "hint": "वे अनुनादी संरचनाएँ बनाएँ जो N के एकाकी युग्म को वलय में ले जाती हैं।"
+  }
+ },
+ "chem11-08-neet-2015-re-exam-code-d-q123": {
+  "sol": "<p>C<sub>3</sub>H<sub>9</sub>N amines: propan-1-amine, propan-2-amine (1°), N-methylethanamine (2°), N,N-dimethylmethanamine (3°) = <b>4</b>.</p>",
+  "hint": "List 1°, 2° and 3° amines.",
+  "hi": {
+   "q": "आण्विक सूत्र C<sub>3</sub>H<sub>9</sub>N से संभव संरचनात्मक समावयवों की संख्या है :",
+   "o": [
+    "4",
+    "5",
+    "2",
+    "3"
+   ],
+   "sol": "<p>C<sub>3</sub>H<sub>9</sub>N ऐमीन: प्रोपेन-1-ऐमीन, प्रोपेन-2-ऐमीन (1°), N-मेथिलएथेनेमीन (2°), N,N-डाइमेथिलमेथेनेमीन (3°) = <b>4</b>।</p>",
+   "hint": "1°, 2° और 3° ऐमीनों की सूची बनाएँ।"
+  }
+ },
+ "chem11-08-neet-2015-re-exam-code-d-q124": {
+  "sol": "<p>A nucleophile donates an electron pair, so it is a Lewis <i>base</i>, not a Lewis acid. Statement (1) is incorrect. NH<sub>3</sub> is a nucleophile; nucleophiles attack electron-poor sites; they are nucleus-seeking, not electron-seeking.</p>",
+  "hint": "Nucleophile = electron-pair donor = Lewis base.",
+  "hi": {
+   "q": "नाभिकस्नेही के लिए निम्नलिखित में से कौन-सा कथन सही नहीं है ?",
+   "o": [
+    "नाभिकस्नेही एक लूइस अम्ल है",
+    "अमोनिया एक नाभिकस्नेही है",
+    "नाभिकस्नेही कम e<sup>−</sup> घनत्व वाले स्थलों पर आक्रमण करते हैं",
+    "नाभिकस्नेही इलेक्ट्रॉन की खोज नहीं करते"
+   ],
+   "sol": "<p>नाभिकस्नेही इलेक्ट्रॉन युग्म दान करता है, अतः यह लूइस <i>क्षारक</i> है, लूइस अम्ल नहीं। कथन (1) गलत है। NH<sub>3</sub> नाभिकस्नेही है; नाभिकस्नेही इलेक्ट्रॉन-न्यून स्थलों पर आक्रमण करते हैं; ये नाभिक की खोज करते हैं, इलेक्ट्रॉन की नहीं।</p>",
+   "hint": "नाभिकस्नेही = इलेक्ट्रॉन युग्म दाता = लूइस क्षारक।"
+  }
+ },
+ "chem11-08-neet-2015-re-exam-code-d-q134": {
+  "sol": "<p>Lactic acid CH<sub>3</sub>CH(OH)COOH has one chiral carbon. Its two optically active forms are non-superimposable mirror images: <b>enantiomers</b>.</p>",
+  "hint": "One chiral centre → a pair of mirror images.",
+  "hi": {
+   "q": "CH<sub>3</sub>CHOH.COOH की दो संभव त्रिविम संरचनाएँ, जो प्रकाशिक सक्रिय हैं, कहलाती हैं :",
+   "o": [
+    "डायस्टीरियोमर",
+    "ऐट्रोपसमावयवी",
+    "एनैन्टिओमर",
+    "मेसोमर"
+   ],
+   "sol": "<p>लैक्टिक अम्ल CH<sub>3</sub>CH(OH)COOH में एक काइरल कार्बन है। इसके दो प्रकाशिक सक्रिय रूप एक-दूसरे के अनध्यारोपणीय दर्पण प्रतिबिम्ब हैं: <b>एनैन्टिओमर</b>।</p>",
+   "hint": "एक काइरल केंद्र → दर्पण प्रतिबिम्बों का एक युग्म।"
+  }
+ },
+ "chem11-08-neet-2018-code-aa-q63": {
+  "sol": "<p>CH<sub>2</sub>=CH–C≡CH: C-1 and C-2 are double-bonded (sp<sup>2</sup>, sp<sup>2</sup>), C-3 and C-4 are triple-bonded (sp, sp).</p>",
+  "hint": "Double bond → sp<sup>2</sup>; triple bond → sp.",
+  "hi": {
+   "q": "निम्नलिखित में से कौन-सा अणु बाएँ से दाएँ परमाणुओं में संकरण का क्रम sp<sup>2</sup>, sp<sup>2</sup>, sp, sp दर्शाता है ?",
+   "o": [
+    "CH<sub>2</sub> = CH – CH = CH<sub>2</sub>",
+    "CH<sub>2</sub> = CH – C ≡ CH",
+    "HC ≡ C – C ≡ CH",
+    "CH<sub>3</sub> – CH = CH – CH<sub>3</sub>"
+   ],
+   "sol": "<p>CH<sub>2</sub>=CH–C≡CH: C-1 और C-2 द्विआबंधित हैं (sp<sup>2</sup>, sp<sup>2</sup>), C-3 और C-4 त्रिआबंधित हैं (sp, sp)।</p>",
+   "hint": "द्विआबंध → sp<sup>2</sup>; त्रिआबंध → sp।"
+  }
+ },
+ "chem11-08-neet-2018-code-aa-q64": {
+  "sol": "<p>NO<sub>2</sub> is strongly electron-withdrawing (−R, −I). A cyclohexadienyl cation is least stable when the positive charge sits on the carbon bearing NO<sub>2</sub> (or is delocalised onto it), and most stable when NO<sub>2</sub> is at a position the charge never reaches (meta to the attacked carbon). Structure (2) has the charge away from the NO<sub>2</sub>-bearing carbon, so it is the most stable.</p><p class='errata'>Diagram question: needs a redrawn figure before it goes live.</p>",
+  "hint": "Keep the positive charge away from the carbon carrying NO<sub>2</sub>.",
+  "hi": {
+   "q": "निम्नलिखित में से किस कार्बधनायन के सबसे अधिक स्थायी होने की अपेक्षा है ?<br>[NO<sub>2</sub> और Y,H-प्रतिस्थापित कार्बन वाले चार साइक्लोहेक्साडाइईनिल धनायन, धनावेश भिन्न स्थितियों पर]",
+   "o": [
+    "[संरचना 1, चित्रानुसार]",
+    "[संरचना 2, चित्रानुसार]",
+    "[संरचना 3, चित्रानुसार]",
+    "[संरचना 4, चित्रानुसार]"
+   ],
+   "sol": "<p>NO<sub>2</sub> प्रबल इलेक्ट्रॉन-आकर्षी (−R, −I) है। साइक्लोहेक्साडाइईनिल धनायन तब सबसे कम स्थायी होता है जब धनावेश NO<sub>2</sub> वाले कार्बन पर हो (या उस पर विस्थानित हो), और तब सबसे अधिक स्थायी जब NO<sub>2</sub> ऐसी स्थिति पर हो जहाँ आवेश कभी नहीं पहुँचता (आक्रमित कार्बन से मेटा)। संरचना (2) में आवेश NO<sub>2</sub> वाले कार्बन से दूर है, अतः यह सबसे स्थायी है।</p><p class='errata'>चित्र आधारित प्रश्न: लाइव होने से पहले नया चित्र चाहिए।</p>",
+   "hint": "धनावेश को NO<sub>2</sub> वाले कार्बन से दूर रखें।"
+  }
+ },
+ "chem11-08-neet-2018-code-aa-q65": {
+  "sol": "<p>The −I effect grows with the electronegativity of the atom attached to the ring/chain: F &gt; O &gt; N. So –NH<sub>2</sub> &lt; –OR &lt; –F (key, option 3). Option 2 (–NR<sub>2</sub> &lt; –OR &lt; –F) is also correct for the same reason, and is accepted.</p>",
+  "hint": "−I follows electronegativity: F &gt; O &gt; N.",
+  "hi": {
+   "q": "प्रतिस्थापियों के – I प्रभाव के संबंध में निम्नलिखित में से कौन-सा सही है ? (R = ऐल्किल)",
+   "o": [
+    "–NH<sub>2</sub> &gt; –OR &gt; –F",
+    "–NR<sub>2</sub> &lt; –OR &lt; –F",
+    "–NH<sub>2</sub> &lt; –OR &lt; –F",
+    "–NR<sub>2</sub> &gt; –OR &gt; –F"
+   ],
+   "sol": "<p>−I प्रभाव जुड़े हुए परमाणु की विद्युत् ऋणात्मकता के साथ बढ़ता है: F &gt; O &gt; N। अतः –NH<sub>2</sub> &lt; –OR &lt; –F (कुंजी, विकल्प 3)। विकल्प 2 (–NR<sub>2</sub> &lt; –OR &lt; –F) भी इसी कारण सही है और स्वीकार्य है।</p>",
+   "hint": "−I विद्युत् ऋणात्मकता के अनुसार: F &gt; O &gt; N।"
+  }
+ },
+ "chem11-08-neet-2022-code-t2-q71": {
+  "sol": "<p>Kjeldahl's method does not work for nitrogen in nitro and azo groups or in a ring (pyridine), because this nitrogen is not converted to ammonium sulphate (NCERT §8.10.2). Aniline has an –NH<sub>2</sub> group, so it can be estimated.</p>",
+  "hint": "Exclusions: nitro, azo, N in a ring.",
+  "hi": {
+   "q": "नाइट्रोजन के आकलन की कैल्डॉल विधि का उपयोग निम्नलिखित में से किस यौगिक में नाइट्रोजन की मात्रा के आकलन के लिए किया जा सकता है ?",
+   "o": [
+    "पिरिडीन",
+    "ऐनिलीन",
+    "ऐज़ोबेन्जीन",
+    "नाइट्रोबेन्जीन"
+   ],
+   "sol": "<p>नाइट्रो और ऐज़ो समूहों तथा वलय में उपस्थित (पिरिडीन) नाइट्रोजन के लिए कैल्डॉल विधि काम नहीं करती, क्योंकि यह नाइट्रोजन अमोनियम सल्फेट में नहीं बदलती (NCERT §8.10.2)। ऐनिलीन में –NH<sub>2</sub> समूह है, अतः इसका आकलन हो सकता है।</p>",
+   "hint": "अपवाद: नाइट्रो, ऐज़ो, वलय में N।"
+  }
+ },
+ "chem11-08-neet-2022-code-t2-q87": {
+  "sol": "<p>The principal group is –OH (suffix -ol); halogens and methyl are prefixes. Number so that OH gets the lowest locant: from the CH<sub>2</sub>Br end, OH is on C-3 (from the other end it would be C-4). Substituents: 1-bromo, 5-chloro, 4-methyl, alphabetical → <b>1-bromo-5-chloro-4-methylhexan-3-ol</b>.</p>",
+  "hint": "The –OH decides the numbering; prefixes go in alphabetical order.",
+  "hi": {
+   "q": "निम्नलिखित यौगिक का सही IUPAC नाम है :<br>CH<sub>3</sub>–CH(Cl)–CH(CH<sub>3</sub>)–CH(OH)–CH<sub>2</sub>–CH<sub>2</sub>Br",
+   "o": [
+    "6-bromo-2-chloro-4-methylhexan-4-ol",
+    "1-bromo-4-methyl-5-chlorohexan-3-ol",
+    "6-bromo-4-methyl-2-chlorohexan-4-ol",
+    "1-bromo-5-chloro-4-methylhexan-3-ol"
+   ],
+   "sol": "<p>मुख्य समूह –OH (अनुलग्न -ol) है; हैलोजेन और मेथिल पूर्वलग्न हैं। संख्यांकन ऐसा करें कि OH को सबसे छोटी संख्या मिले: CH<sub>2</sub>Br सिरे से OH, C-3 पर है (दूसरे सिरे से C-4 होता)। प्रतिस्थापी: 1-bromo, 5-chloro, 4-methyl, वर्णक्रम में → <b>1-bromo-5-chloro-4-methylhexan-3-ol</b>।</p>",
+   "hint": "–OH संख्यांकन तय करता है; पूर्वलग्न वर्णक्रम में।"
+  }
+ }
+}
