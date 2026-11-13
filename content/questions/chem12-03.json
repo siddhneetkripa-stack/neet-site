@@ -1209,6 +1209,101 @@
     "keyCheck": "NTA final key: 2",
     "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
    }
+  },
+  {
+   "id": "chem12-03-neet-2022-code-t2-q80",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The given graph is a representation of kinetics of a reaction.<br>[graph at constant temperature T: y constant (horizontal line) as x increases]<br>The y and x axes for zero and first order reactions, respectively are",
+     "o": [
+      "zero order (y = concentration and x = time), first order (y = rate constant and x = concentration)",
+      "zero order (y = rate and x = concentration), first order (y = t<sub>1/2</sub> and x = concentration)",
+      "zero order (y = rate and x = concentration), first order (y = rate and x = t<sub>1/2</sub>)",
+      "zero order (y = concentration and x = time), first order (y = t<sub>1/2</sub> and x = concentration)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.1",
+     "3.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q80",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
+    "note": "Graph is a horizontal line; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "chem12-03-neet-2022-code-t2-q92",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a first order reaction A → Products, initial concentration of A is 0.1 M, which becomes 0.001 M after 5 minutes. Rate constant for the reaction in min<sup>−1</sup> is",
+     "o": [
+      "0.9212",
+      "0.4606",
+      "0.2303",
+      "1.3818"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q92",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
   }
  ]
 }

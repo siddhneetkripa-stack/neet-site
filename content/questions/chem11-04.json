@@ -1677,6 +1677,101 @@
     "keyCheck": "NTA final key: 2",
     "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
    }
+  },
+  {
+   "id": "chem11-04-neet-2022-code-t2-q75",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which amongst following is <b>incorrect</b> statement ?",
+     "o": [
+      "C<sub>2</sub> molecule has four electrons in its two degenerate π molecular orbitals.",
+      "H<sub>2</sub><sup>+</sup> ion has one electron",
+      "O<sub>2</sub><sup>+</sup> ion is diamagnetic.",
+      "The bond orders of O<sub>2</sub><sup>+</sup>, O<sub>2</sub>, O<sub>2</sub><sup>−</sup> and O<sub>2</sub><sup>2−</sup> are 2.5, 2, 1.5 and 1, respectively."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-04",
+    "paras": [
+     "4.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q75",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "chem11-04-neet-2022-code-t2-q76",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Amongst the following which one will have maximum 'lone pair-lone pair' electron repulsions ?",
+     "o": [
+      "IF<sub>5</sub>",
+      "SF<sub>4</sub>",
+      "XeF<sub>2</sub>",
+      "ClF<sub>3</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-04",
+    "paras": [
+     "4.4"
+    ],
+    "otherChapters": [
+     "Old NCERT 12 · p-Block (interhalogens, XeF2)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q76",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
   }
  ]
 }

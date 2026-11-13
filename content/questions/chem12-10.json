@@ -916,6 +916,53 @@
     "keyCheck": "NTA final key: 3",
     "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
    }
+  },
+  {
+   "id": "chem12-10-neet-2022-code-t2-q81",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The incorrect statement regarding enzymes is:",
+     "o": [
+      "Like chemical catalysts enzymes reduce the activation energy of bio processes.",
+      "Enzymes are polysaccharides.",
+      "Enzymes are very specific for a particular reaction and substrate.",
+      "Enzymes are biocatalysts."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-10",
+    "paras": [
+     "10.3",
+     "10.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q81",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
   }
  ]
 }

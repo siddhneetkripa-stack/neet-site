@@ -1487,6 +1487,100 @@
     "keyCheck": "NTA final key: 2",
     "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
    }
+  },
+  {
+   "id": "chem12-05-neet-2022-code-t2-q62",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The IUPAC name of the complex - [Ag(H<sub>2</sub>O)<sub>2</sub>][Ag(CN)<sub>2</sub>] is:",
+     "o": [
+      "diaquasilver(II) dicyanidoargentate(II)",
+      "dicyanidosilver(II) diaquaargentate(II)",
+      "diaquasilver(I) dicyanidoargentate(I)",
+      "dicyanidosilver(I) diaquaargentate(I)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q62",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "chem12-05-neet-2022-code-t2-q95",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The order of energy absorbed which is responsible for the color of complexes<br>(A) [Ni(H<sub>2</sub>O)<sub>2</sub>(en)<sub>2</sub>]<sup>2+</sup><br>(B) [Ni(H<sub>2</sub>O)<sub>4</sub>(en)]<sup>2+</sup> and<br>(C) [Ni(en)<sub>3</sub>]<sup>2+</sup>",
+     "o": [
+      "(C) &gt; (B) &gt; (A)",
+      "(C) &gt; (A) &gt; (B)",
+      "(B) &gt; (A) &gt; (C)",
+      "(A) &gt; (B) &gt; (C)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.5.4",
+     "5.5.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q95",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
   }
  ]
 }

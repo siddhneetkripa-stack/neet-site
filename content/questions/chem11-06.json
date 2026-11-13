@@ -1800,6 +1800,99 @@
     "keyCheck": "NTA final key: 3",
     "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
    }
+  },
+  {
+   "id": "chem11-06-neet-2022-code-t2-q74",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The pH of the solution containing 50 mL each of 0.10 M sodium acetate and 0.01 M acetic acid is [Given pK<sub>a</sub> of CH<sub>3</sub>COOH = 4.57]",
+     "o": [
+      "3.57",
+      "4.57",
+      "2.57",
+      "5.57"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.12.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q74",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "chem11-06-neet-2022-code-t2-q88",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "3O<sub>2</sub>(g) ⇌ 2O<sub>3</sub>(g)<br>for the above reaction at 298 K, K<sub>C</sub> is found to be 3.0 × 10<sup>−59</sup>. If the concentration of O<sub>2</sub> at equilibrium is 0.040 M then concentration of O<sub>3</sub> in M is",
+     "o": [
+      "1.9 × 10<sup>−63</sup>",
+      "2.4 × 10<sup>31</sup>",
+      "1.2 × 10<sup>21</sup>",
+      "4.38 × 10<sup>−32</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.6.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q88",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
   }
  ]
 }

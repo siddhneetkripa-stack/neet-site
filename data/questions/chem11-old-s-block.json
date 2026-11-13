@@ -647,6 +647,96 @@
     "keyCheck": "NTA final key: 2",
     "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
    }
+  },
+  {
+   "id": "chem11-old-s-block-neet-2022-code-t2-q78",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the <b>incorrect</b> statement from the following",
+     "o": [
+      "The oxidation number of K in KO<sub>2</sub> is +4.",
+      "Ionisation enthalpy of alkali metals decreases from top to bottom in the group.",
+      "Lithium is the strongest reducing agent among the alkali metals.",
+      "Alkali metals react with water to form their hydroxides."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-old-s-block",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Unit 10 · Alkali metals (superoxides, ionisation enthalpy, reducing power)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q78",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "chem11-old-s-block-neet-2022-code-t2-q84",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II.<br>List-I: (a) Li (b) Na (c) KOH (d) Cs<br>List-II: (i) absorbent for carbon dioxide (ii) electrochemical cells (iii) coolant in fast breeder reactors (iv) photoelectric cell<br>Choose the <b>correct answer</b> from the options given below :",
+     "o": [
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-old-s-block",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Unit 10 · Uses of alkali metals and compounds"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q84",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
   }
  ]
 }

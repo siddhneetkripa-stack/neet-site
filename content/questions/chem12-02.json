@@ -1083,6 +1083,153 @@
     "keyCheck": "Answer printed in the copy: 2; matches our solving",
     "keySource": "Answers in the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf); six unprinted answers solved by us (noted per question); text from the official bilingual Code D booklet. No official key for 2015 in neet-sources."
    }
+  },
+  {
+   "id": "chem12-02-neet-2022-code-t2-q66",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At 298 K, the standard electrode potentials of Cu<sup>2+</sup>/Cu, Zn<sup>2+</sup>/Zn, Fe<sup>2+</sup>/Fe and Ag<sup>+</sup>/Ag are 0.34 V, −0.76 V, −0.44 V and 0.80 V, respectively.<br>On the basis of standard electrode potential, predict which of the following reaction can not occur ?",
+     "o": [
+      "CuSO<sub>4</sub>(aq) + Fe(s) → FeSO<sub>4</sub>(aq) + Cu(s)",
+      "FeSO<sub>4</sub>(aq) + Zn(s) → ZnSO<sub>4</sub>(aq) + Fe(s)",
+      "2CuSO<sub>4</sub>(aq) + 2Ag(s) → 2Cu(s) + Ag<sub>2</sub>SO<sub>4</sub>(aq)",
+      "CuSO<sub>4</sub>(aq) + Zn(s) → ZnSO<sub>4</sub>(aq) + Cu(s)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.2.1"
+    ],
+    "otherChapters": [
+     "Class 11 · Redox Reactions"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q66",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "chem12-02-neet-2022-code-t2-q83",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are half cell reactions :<br>MnO<sub>4</sub><sup>−</sup> + 8H<sup>+</sup> + 5e<sup>−</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O, E°<sub>Mn<sup>2+</sup>/MnO<sub>4</sub><sup>−</sup></sub> = −1.510 V<br>½O<sub>2</sub> + 2H<sup>+</sup> + 2e<sup>−</sup> → H<sub>2</sub>O, E°<sub>O<sub>2</sub>/H<sub>2</sub>O</sub> = +1.223 V<br>Will the permanganate ion, MnO<sub>4</sub><sup>−</sup> liberate O<sub>2</sub> from water in the presence of an acid ?",
+     "o": [
+      "No, because E°<sub>cell</sub> = −0.287 V",
+      "Yes, because E°<sub>cell</sub> = +2.733 V",
+      "No, because E°<sub>cell</sub> = −2.733 V",
+      "Yes, because E°<sub>cell</sub> = +0.287 V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.2.1",
+     "2.3.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Redox Reactions"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q83",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
+    "note": "The first potential is printed as an oxidation potential (Mn2+/MnO4− = −1.510 V), i.e. reduction potential +1.510 V."
+   }
+  },
+  {
+   "id": "chem12-02-neet-2022-code-t2-q97",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Find the emf of the cell in which the following reaction takes place at 298 K<br>Ni(s) + 2Ag<sup>+</sup> (0.001 M) → Ni<sup>2+</sup> (0.001 M) + 2Ag(s)<br>(Given that E°<sub>cell</sub> = 10.5 V, 2.303RT/F = 0.059 at 298 K)",
+     "o": [
+      "1.385 V",
+      "0.9615 V",
+      "1.05 V",
+      "1.0385 V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q97",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Declared bonus in the copy's key (no option is correct)",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
+    "note": "BONUS in the copy's key: with E°cell = 10.5 V as printed the answer (10.41 V) is not offered. If the intended value is 1.05 V, E = 1.05 − (0.059/2)×3 = 0.9615 V (option 2). Check NTA's final key; keep out of tests until then. Section B (attempt any 10 of 15)."
+   }
   }
  ]
 }

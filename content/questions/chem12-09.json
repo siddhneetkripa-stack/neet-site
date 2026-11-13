@@ -1109,6 +1109,101 @@
     "keyCheck": "NTA final key: 4",
     "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
    }
+  },
+  {
+   "id": "chem12-09-neet-2022-code-t2-q69",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I : Primary aliphatic amines react with HNO<sub>2</sub> to give unstable diazonium salts.<br>Statement II : Primary aromatic amines react with HNO<sub>2</sub> to form diazonium salts which are stable even above 300 K.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both Statement-I and Statement-II are incorrect.",
+      "Statement-I is correct but Statement-II is incorrect.",
+      "Statement-I is incorrect but Statement-II is correct.",
+      "Both Statement-I and Statement-II are correct."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.7",
+     "9.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q69",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "chem12-09-neet-2022-code-t2-q100",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The product formed from the following reaction sequence is<br>C<sub>6</sub>H<sub>5</sub>CN —(i) LiAlH<sub>4</sub>, H<sub>2</sub>O (ii) NaNO<sub>2</sub> + HCl (iii) H<sub>2</sub>O→",
+     "o": [
+      "C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>N<sub>2</sub><sup>+</sup>Cl<sup>−</sup>",
+      "C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>Cl",
+      "C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>OH",
+      "C<sub>6</sub>H<sub>5</sub>CONH<sub>2</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.4",
+     "9.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q100",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
+    "note": "Drawn with benzene rings in the paper. Section B (attempt any 10 of 15)."
+   }
   }
  ]
 }

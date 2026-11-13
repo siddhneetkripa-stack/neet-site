@@ -603,6 +603,97 @@
     "keyCheck": "NTA final key: 1",
     "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
    }
+  },
+  {
+   "id": "chem12-old-solid-state-neet-2022-code-t2-q70",
+   "type": "assertion-reason",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R).<br>Assertion (A) : In a particular point defect, an ionic solid is electrically neutral, even if few of its cations are missing from its unit cells.<br>Reason (R) : In an ionic solid, Frenkel defect arises due to dislocation of cation from its lattice site to interstitial site, maintaining overall electrical neutrality.<br>In the light of the above statements, choose the most appropriate answer from the options given below:",
+     "o": [
+      "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "(A) is not correct but (R) is correct.",
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-old-solid-state",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 1 · Point defects"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q70",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "chem12-old-solid-state-neet-2022-code-t2-q99",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Copper crystallises in fcc unit cell with cell edge length of 3.608 × 10<sup>−8</sup> cm. The density of copper is 8.92 g cm<sup>−3</sup>. Calculate the atomic mass of copper.",
+     "o": [
+      "31.55 u",
+      "60 u",
+      "65 u",
+      "63.1 u"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-old-solid-state",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 1 · Density of a unit cell"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q99",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
   }
  ]
 }

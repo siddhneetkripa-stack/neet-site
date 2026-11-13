@@ -339,6 +339,51 @@
     "keyCheck": "NTA final key: 3",
     "keySource": "Published answer key, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text read from the scanned official bilingual Code AA booklet (OCR + page images)"
    }
+  },
+  {
+   "id": "chem11-old-hydrogen-neet-2022-code-t2-q56",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II<br>List-I (Hydrides): (a) MgH<sub>2</sub> (b) GeH<sub>4</sub> (c) B<sub>2</sub>H<sub>6</sub> (d) HF<br>List-II (Nature): (i) Electron precise (ii) Electron deficient (iii) Electron rich (iv) Ionic<br>Choose the correct answer from the options given below :",
+     "o": [
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(i), (b)-(ii), (c)-(iv), (d)-(iii)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-old-hydrogen",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Unit 9 · Hydrides (electron-deficient, -precise, -rich; ionic)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q56",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources."
+   }
   }
  ]
 }
