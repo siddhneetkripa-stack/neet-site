@@ -1,0 +1,917 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-12",
+ "subject": "biology",
+ "class": 11,
+ "unit": 12,
+ "title": {
+  "en": "Respiration in Plants"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo112.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "12.1",
+   "title": "Do Plants Breathe?",
+   "hi": "क्या पादप साँस लेते हैं?",
+   "pdfPage": 2
+  },
+  {
+   "id": "12.2",
+   "title": "Glycolysis",
+   "hi": "ग्लाइकोलिसिस",
+   "pdfPage": 3
+  },
+  {
+   "id": "12.3",
+   "title": "Fermentation",
+   "hi": "किण्वन",
+   "pdfPage": 5
+  },
+  {
+   "id": "12.4",
+   "title": "Aerobic Respiration",
+   "hi": "ऑक्सी श्वसन (साँस)",
+   "pdfPage": 6
+  },
+  {
+   "id": "12.4.1",
+   "title": "Tricarboxylic Acid Cycle",
+   "hi": "ट्राइकार्बोक्सिलिक अम्ल चक्र (टीसीए)",
+   "pdfPage": 6
+  },
+  {
+   "id": "12.4.2",
+   "title": "Electron Transport System (ETS) and Oxidative",
+   "hi": "इलेक्ट्रॉन परिवहन तंत्र अथवा ऑक्सीकरणी फॉस्फोरिलिकरण",
+   "pdfPage": 7
+  },
+  {
+   "id": "12.5",
+   "title": "The Respiratory Balance Sheet",
+   "hi": "श्वसनीय संतुलन चार्ट",
+   "pdfPage": 9
+  },
+  {
+   "id": "12.6",
+   "title": "Amphibolic Pathway",
+   "hi": "ऐंफीबोलिक पथ",
+   "pdfPage": 10
+  },
+  {
+   "id": "12.7",
+   "title": "Respiratory Quotient",
+   "hi": "साँस गुणांक",
+   "pdfPage": 11
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-12-neet-2016-phase-2-code-aa-q108",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following biomolecules is common to respiration-mediated breakdown of fats, carbohydrates and proteins?",
+     "o": [
+      "Glucose-6-phosphate",
+      "Fructose 1,6-bisphosphate",
+      "Pyruvic acid",
+      "Acetyl CoA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q108",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-12-neet-2016-phase-2-code-aa-q142",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Oxidative phosphorylation is",
+     "o": [
+      "Formation of ATP by transfer of phosphate group from a substrate to ADP",
+      "Oxidation of phosphate group in ATP",
+      "Addition of phosphate group to ATP",
+      "Formation of ATP by energy released from electrons removed during substrate oxidation"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q142",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-12-neet-2017-code-a-q138",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement is wrong for Krebs' cycle?",
+     "o": [
+      "There are three points in the cycle where NAD<sup>+</sup> is reduced to NADH + H<sup>+</sup>",
+      "There is one point in the cycle where FAD<sup>+</sup> is reduced to FADH<sub>2</sub>",
+      "During conversion of succinyl CoA to succinic acid, a molecule of GTP is synthesised",
+      "The cycle starts with condensation of acetyl group (acetyl CoA) with pyruvic acid to yield citric acid"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q138",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-12-neet-2018-code-aa-q96",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the role of NAD<sup>+</sup> in cellular respiration?",
+     "o": [
+      "It is a nucleotide source for ATP synthesis.",
+      "It functions as an electron carrier.",
+      "It functions as an enzyme.",
+      "It is the final electron acceptor for anaerobic respiration."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q96",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-12-neet-2018-code-aa-q170",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of these statements is incorrect?",
+     "o": [
+      "Glycolysis operates as long as it is supplied with NAD that can pick up hydrogen atoms.",
+      "Glycolysis occurs in cytosol.",
+      "Enzymes of TCA cycle are present in mitochondrial matrix.",
+      "Oxidative phosphorylation takes place in outer mitochondrial membrane."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.2",
+     "12.4",
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q170",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-12-neet-2019-code-s2-q20",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Respiratory quotient (RQ) value of tripalmitin is :",
+     "o": [
+      "0.07",
+      "0.09",
+      "0.9",
+      "0.7"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q20",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-12-neet-2019-code-s2-q74",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Conversion of glucose to glucose-6-phosphate, the first irreversible reaction of glycolysis, is catalyzed by :",
+     "o": [
+      "Enolase",
+      "Phosphofructokinase",
+      "Aldolase",
+      "Hexokinase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q74",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-12-neet-2020-code-f3-q103",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The number of substrate level phosphorylations in one turn of citric acid cycle is :",
+     "o": [
+      "Two",
+      "Three 13thSeptember 2020, Biology Page | 5",
+      "Zero",
+      "One"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q103",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-12-neet-2021-code-p3-q144",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is incorrect?",
+     "o": [
+      "Oxidation-reduction reactions produce proton gradient in respiration",
+      "During aerobic respiration, role of oxygen is limited to the terminal stage",
+      "In ETC (Electron Transport Chain), one molecule of NADH + H<sup>+</sup> gives rise to 2 ATP molecules, and one FADH<sub>2</sub> gives rise to 3 ATP molecules",
+      "ATP is synthesized through complex V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q144",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-12-neet-2022-code-t2-q110",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the net gain of ATP when each molecule of glucose is converted to two molecules of pyruvic acid?",
+     "o": [
+      "Six",
+      "Two",
+      "Eight",
+      "Four"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1,
+    "alsoAccepted": [
+     2
+    ]
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q110",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "The copy prints '(2, 3)': net gain is 2 ATP, or 8 ATP if the 2 NADH are counted (old NCERT). Both accepted in the copy's key."
+   }
+  },
+  {
+   "id": "bio11-12-neet-2022-code-t2-q126",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What amount of energy is released from glucose during lactic acid fermentation?",
+     "o": [
+      "More than 18%",
+      "About 10%",
+      "Less than 7%",
+      "Approximately 15%"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q126",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-12-neet-2023-topic-wise-copy-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R :<br>Assertion A: ATP is used at two steps in glycolysis.<br>Reason R: First ATP is used in converting glucose into glucose-6-phosphate and second ATP is used in conversion of fructose-6-phosphate into fructose-1,6-diphosphate.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "A is false but R is true.",
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A.",
+      "A is true but R is false."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q16",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-12-neet-2023-topic-wise-copy-q44",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(A) Oxidative decarboxylation — (I) Citrate synthase<br>(B) Glycolysis — (II) Pyruvate<br>(C) Oxidative phosphorylation — (III) Electron transport system<br>(D) Tricarboxylic acid cycle — (IV) EMP pathway",
+     "o": [
+      "A-II, B-IV, C-III, D-I",
+      "A-III, B-IV, C-II, D-I",
+      "A-II, B-IV, C-I, D-III",
+      "A-III, B-I, C-II, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.2",
+     "12.4",
+     "12.4.1",
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q44",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-12-neet-2024-q164-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Citric acid cycle — I. Cytoplasm<br>B. Glycolysis — II. Mitochondrial matrix<br>C. Electron transport system — III. Intermembrane space of mitochondria<br>D. Proton gradient — IV. Inner mitochondrial membrane",
+     "o": [
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-III, C-II, D-I",
+      "A-I, B-II, C-III, D-IV",
+      "A-II, B-I, C-IV, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.2",
+     "12.4",
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q164 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-12-neet-2024-q185-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the step in tricarboxylic acid cycle, which does not involve oxidation of substrate.",
+     "o": [
+      "Succinic acid → Malic acid",
+      "Succinyl-CoA → Succinic acid",
+      "Isocitrate → α-ketoglutaric acid",
+      "Malic acid → Oxaloacetic acid"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q185 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-12-neet-2025-code-45-q91",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The complex II of mitochondrial electron transport chain is also known as",
+     "o": [
+      "Cytochrome bc<sub>1</sub>",
+      "Succinate dehydrogenase",
+      "Cytochrome c oxidase",
+      "NADH dehydrogenase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q91",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio11-12-neet-2026-q95-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>List-I (Process) — List-II (Location)<br>A. Glycolysis — I. Inner mitochondrial membrane<br>B. ETS — II. Mitochondrial matrix<br>C. Accumulation of protons — III. Cytoplasm<br>D. Krebs' cycle — IV. Intermembrane space",
+     "o": [
+      "A-IV, B-II, C-I, D-III",
+      "A-I, B-IV, C-III, D-II",
+      "A-II, B-III, C-IV, D-I",
+      "A-III, B-I, C-IV, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.2",
+     "12.4",
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q95 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q134."
+   }
+  },
+  {
+   "id": "bio11-12-neet-2026-q126-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "2(C<sub>51</sub>H<sub>98</sub>O<sub>6</sub>) + 145 O<sub>2</sub> → 102 CO<sub>2</sub> + 98 H<sub>2</sub>O + energy<br>The Respiratory Quotient (RQ) of a biomolecule used for respiration, as per the above equation, would be :",
+     "o": [
+      "Less than 0.5",
+      "Between 1.25 and 2",
+      "1.0",
+      "Between 0.5 and 0.95"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q126 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "RQ = 102/145 ≈ 0.70. Code 13 booklet Q103."
+   }
+  }
+ ]
+}
