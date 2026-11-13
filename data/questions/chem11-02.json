@@ -186,10 +186,24 @@
       "1/16",
       "1/9",
       "1/4"
-     ]
+     ],
+     "sol": "<p>1/λ ∝ (1/n<sub>1</sub><sup>2</sup> − 1/n<sub>2</sub><sup>2</sup>).</p><ul><li>2 → 3: 1/4 − 1/9 = 5/36</li><li>4 → 6: 1/16 − 1/36 = 5/144</li></ul><p>λ<sub>1</sub>/λ<sub>2</sub> = (5/144)/(5/36) = <b>1/4</b>.</p>",
+     "hint": "Wavelength is inversely proportional to (1/n<sub>1</sub><sup>2</sup> − 1/n<sub>2</sub><sup>2</sup>).",
+     "trap": "Taking the ratio of the brackets directly (not inverted) gives 4."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हाइड्रोजन परमाणु द्वारा क्रमशः n = 2 → n = 3 और n = 4 → n = 6 संक्रमणों में अवशोषित प्रकाश की तरंगदैर्घ्यों का अनुपात है",
+     "o": [
+      "1/36",
+      "1/16",
+      "1/9",
+      "1/4"
+     ],
+     "sol": "<p>1/λ ∝ (1/n<sub>1</sub><sup>2</sup> − 1/n<sub>2</sub><sup>2</sup>)।</p><ul><li>2 → 3: 1/4 − 1/9 = 5/36</li><li>4 → 6: 1/16 − 1/36 = 5/144</li></ul><p>λ<sub>1</sub>/λ<sub>2</sub> = (5/144)/(5/36) = <b>1/4</b>।</p>",
+     "hint": "तरंगदैर्घ्य (1/n<sub>1</sub><sup>2</sup> − 1/n<sub>2</sub><sup>2</sup>) के व्युत्क्रमानुपाती होती है।",
+     "trap": "कोष्ठकों का सीधा अनुपात (बिना उलटे) लेने पर 4 आता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -232,10 +246,22 @@
       "E<sub>n</sub>(Li<sup>2+</sup>) = −8.72 × 10<sup>−18</sup> J; r<sub>n</sub>(Li<sup>2+</sup>) = 26.4 pm; E<sub>n</sub>(He<sup>+</sup>) = −19.62 × 10<sup>−18</sup> J; r<sub>n</sub>(He<sup>+</sup>) = 17.6 pm",
       "E<sub>n</sub>(Li<sup>2+</sup>) = −19.62 × 10<sup>−16</sup> J; r<sub>n</sub>(Li<sup>2+</sup>) = 17.6 pm; E<sub>n</sub>(He<sup>+</sup>) = −8.72 × 10<sup>−16</sup> J; r<sub>n</sub>(He<sup>+</sup>) = 26.4 pm",
       "E<sub>n</sub>(Li<sup>2+</sup>) = −8.72 × 10<sup>−16</sup> J; r<sub>n</sub>(Li<sup>2+</sup>) = 17.6 pm; E<sub>n</sub>(He<sup>+</sup>) = −19.62 × 10<sup>−16</sup> J; r<sub>n</sub>(He<sup>+</sup>) = 17.6 pm"
-     ]
+     ],
+     "sol": "<p>E<sub>n</sub> = −R<sub>H</sub>Z<sup>2</sup>/n<sup>2</sup>; r<sub>n</sub> = a<sub>0</sub>n<sup>2</sup>/Z (n = 1).</p><ul><li>He<sup>+</sup> (Z = 2): E = −2.18 × 10<sup>−18</sup> × 4 = −8.72 × 10<sup>−18</sup> J; r = 52.9/2 = 26.4 pm</li><li>Li<sup>2+</sup> (Z = 3): E = −2.18 × 10<sup>−18</sup> × 9 = −19.62 × 10<sup>−18</sup> J; r = 52.9/3 = 17.6 pm</li></ul><p>Option <b>(1)</b>.</p>",
+     "hint": "Energy ∝ Z<sup>2</sup>, radius ∝ 1/Z for the first orbit."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "He<sup>+</sup> और Li<sup>2+</sup> की प्रथम बोर कक्षा की ऊर्जा और त्रिज्या हैं [दिया है R<sub>H</sub> = 2.18 × 10<sup>−18</sup> J, a<sub>0</sub> = 52.9 pm]",
+     "o": [
+      "E<sub>n</sub>(Li<sup>2+</sup>) = −19.62 × 10<sup>−18</sup> J; r<sub>n</sub>(Li<sup>2+</sup>) = 17.6 pm; E<sub>n</sub>(He<sup>+</sup>) = −8.72 × 10<sup>−18</sup> J; r<sub>n</sub>(He<sup>+</sup>) = 26.4 pm",
+      "E<sub>n</sub>(Li<sup>2+</sup>) = −8.72 × 10<sup>−18</sup> J; r<sub>n</sub>(Li<sup>2+</sup>) = 26.4 pm; E<sub>n</sub>(He<sup>+</sup>) = −19.62 × 10<sup>−18</sup> J; r<sub>n</sub>(He<sup>+</sup>) = 17.6 pm",
+      "E<sub>n</sub>(Li<sup>2+</sup>) = −19.62 × 10<sup>−16</sup> J; r<sub>n</sub>(Li<sup>2+</sup>) = 17.6 pm; E<sub>n</sub>(He<sup>+</sup>) = −8.72 × 10<sup>−16</sup> J; r<sub>n</sub>(He<sup>+</sup>) = 26.4 pm",
+      "E<sub>n</sub>(Li<sup>2+</sup>) = −8.72 × 10<sup>−16</sup> J; r<sub>n</sub>(Li<sup>2+</sup>) = 17.6 pm; E<sub>n</sub>(He<sup>+</sup>) = −19.62 × 10<sup>−16</sup> J; r<sub>n</sub>(He<sup>+</sup>) = 17.6 pm"
+     ],
+     "sol": "<p>E<sub>n</sub> = −R<sub>H</sub>Z<sup>2</sup>/n<sup>2</sup>; r<sub>n</sub> = a<sub>0</sub>n<sup>2</sup>/Z (n = 1)।</p><ul><li>He<sup>+</sup> (Z = 2): E = −2.18 × 10<sup>−18</sup> × 4 = −8.72 × 10<sup>−18</sup> J; r = 52.9/2 = 26.4 pm</li><li>Li<sup>2+</sup> (Z = 3): E = −2.18 × 10<sup>−18</sup> × 9 = −19.62 × 10<sup>−18</sup> J; r = 52.9/3 = 17.6 pm</li></ul><p>विकल्प <b>(1)</b>।</p>",
+     "hint": "प्रथम कक्षा के लिए ऊर्जा ∝ Z<sup>2</sup>, त्रिज्या ∝ 1/Z।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -278,10 +304,22 @@
       "A-I, B-III, C-II, D-IV",
       "A-III, B-IV, C-II, D-I",
       "A-II, B-I, C-IV, D-III"
-     ]
+     ],
+     "sol": "<p>m<sub>l</sub> → orientation of the orbital (III); m<sub>s</sub> → orientation of spin (IV); l → shape (I); n → size (II).</p><p>Answer: <b>A-III, B-IV, C-I, D-II</b>.</p>",
+     "hint": "n: size, l: shape, m<sub>l</sub>: orientation, m<sub>s</sub>: spin."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए<br>सूची I (क्वांटम संख्या): A. m<sub>l</sub> B. m<sub>s</sub> C. l D. n<br>सूची II (दी गई जानकारी): I. कक्षक की आकृति II. कक्षक का आकार III. कक्षक का अभिविन्यास IV. इलेक्ट्रॉन के प्रचक्रण का अभिविन्यास<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए",
+     "o": [
+      "A-III, B-IV, C-I, D-II",
+      "A-I, B-III, C-II, D-IV",
+      "A-III, B-IV, C-II, D-I",
+      "A-II, B-I, C-IV, D-III"
+     ],
+     "sol": "<p>m<sub>l</sub> → कक्षक का अभिविन्यास (III); m<sub>s</sub> → प्रचक्रण का अभिविन्यास (IV); l → आकृति (I); n → आकार (II)।</p><p>उत्तर: <b>A-III, B-IV, C-I, D-II</b>।</p>",
+     "hint": "n: आकार, l: आकृति, m<sub>l</sub>: अभिविन्यास, m<sub>s</sub>: प्रचक्रण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -325,10 +363,22 @@
       "−x/9",
       "−4x",
       "−4x/9"
-     ]
+     ],
+     "sol": "<p>E ∝ Z<sup>2</sup>/n<sup>2</sup>.</p><ul><li>He<sup>+</sup>, n = 1: Z<sup>2</sup>/n<sup>2</sup> = 4/1 = 4 → E = −x</li><li>Be<sup>3+</sup>, n = 2: Z<sup>2</sup>/n<sup>2</sup> = 16/4 = 4 → same energy, <b>−x</b></li></ul>",
+     "hint": "Compare Z<sup>2</sup>/n<sup>2</sup> for the two cases."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "He<sup>+</sup> आयन के लिए मूल अवस्था (n = 1) में इलेक्ट्रॉन की ऊर्जा −x J है, तब Be<sup>3+</sup> आयन के लिए n = 2 अवस्था में इलेक्ट्रॉन की ऊर्जा J में है",
+     "o": [
+      "−x",
+      "−x/9",
+      "−4x",
+      "−4x/9"
+     ],
+     "sol": "<p>E ∝ Z<sup>2</sup>/n<sup>2</sup>।</p><ul><li>He<sup>+</sup>, n = 1: Z<sup>2</sup>/n<sup>2</sup> = 4/1 = 4 → E = −x</li><li>Be<sup>3+</sup>, n = 2: Z<sup>2</sup>/n<sup>2</sup> = 16/4 = 4 → समान ऊर्जा, <b>−x</b></li></ul>",
+     "hint": "दोनों स्थितियों के लिए Z<sup>2</sup>/n<sup>2</sup> की तुलना करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -371,10 +421,22 @@
       "A-I, B-II, C-III, D-IV",
       "A-II, B-III, C-I, D-IV",
       "A-IV, B-II, C-III, D-I"
-     ]
+     ],
+     "sol": "<p>l = 0, 1, 2, 3 ↔ s, p, d, f. (2, 1) = 2p (II); (4, 0) = 4s (III); (5, 3) = 5f (IV); (3, 2) = 3d (I).</p><p>Answer: <b>A-II, B-III, C-IV, D-I</b>.</p>",
+     "hint": "The orbital name is n followed by the letter for l."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>सूची-I (क्वांटम संख्याएँ 'n', 'l'): (A) 2, 1 (B) 4, 0 (C) 5, 3 (D) 3, 2<br>सूची-II (कक्षक): (I) 3d (II) 2p (III) 4s (IV) 5f<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "A-II, B-III, C-IV, D-I",
+      "A-I, B-II, C-III, D-IV",
+      "A-II, B-III, C-I, D-IV",
+      "A-IV, B-II, C-III, D-I"
+     ],
+     "sol": "<p>l = 0, 1, 2, 3 ↔ s, p, d, f। (2, 1) = 2p (II); (4, 0) = 4s (III); (5, 3) = 5f (IV); (3, 2) = 3d (I)।</p><p>उत्तर: <b>A-II, B-III, C-IV, D-I</b>।</p>",
+     "hint": "कक्षक का नाम: n और उसके बाद l का अक्षर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -418,10 +480,24 @@
       "4.06 × 10<sup>19</sup>",
       "1.35 × 10<sup>19</sup>",
       "2.71 × 10<sup>19</sup>"
-     ]
+     ],
+     "sol": "<p>Light power = 8% of 150 W = 12 J s<sup>−1</sup>.</p><p>Photons per second = 12 ÷ 4.42 × 10<sup>−19</sup> = <b>2.71 × 10<sup>19</sup></b>.</p>",
+     "hint": "Only 8% of the power becomes light.",
+     "trap": "Using the full 150 W gives 33.9 × 10<sup>19</sup>; using 8 W gives 1.81 × 10<sup>19</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक बल्ब 150 वाट का है, जो 8% ऊर्जा को प्रकाश में बदलता है। यदि एक फोटॉन की ऊर्जा 4.42 × 10<sup>−19</sup> J है, तो बल्ब प्रति सेकंड कितने फोटॉन उत्सर्जित करता है?",
+     "o": [
+      "27.2 × 10<sup>19</sup>",
+      "4.06 × 10<sup>19</sup>",
+      "1.35 × 10<sup>19</sup>",
+      "2.71 × 10<sup>19</sup>"
+     ],
+     "sol": "<p>प्रकाश की शक्ति = 150 W का 8% = 12 J s<sup>−1</sup>।</p><p>प्रति सेकंड फोटॉन = 12 ÷ 4.42 × 10<sup>−19</sup> = <b>2.71 × 10<sup>19</sup></b>।</p>",
+     "hint": "शक्ति का केवल 8% प्रकाश बनता है।",
+     "trap": "पूरे 150 W लेने पर 33.9 × 10<sup>19</sup> आता है; 8 W लेने पर 1.81 × 10<sup>19</sup> आता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -464,10 +540,22 @@
       "A, B and C only",
       "C, D and E only",
       "A and E only"
-     ]
+     ],
+     "sol": "<ul><li>A ✗ atoms are made of three fundamental particles (electron, proton, neutron).</li><li>B ✓ m<sub>e</sub> = 9.10939 × 10<sup>−31</sup> kg.</li><li>C ✓ isotopes have the same electrons, so the same chemistry.</li><li>D ✗ nucleons are protons and <i>neutrons</i>.</li><li>E ✓ Dalton took the atom as the ultimate particle.</li></ul><p>Answer: <b>B, C and E only</b>.</p>",
+     "hint": "Nucleons live in the nucleus."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से सही कथन चुनिए:<br>A. सभी तत्त्वों के परमाणु दो मूल कणों से बने होते हैं।<br>B. इलेक्ट्रॉन का द्रव्यमान 9.10939 × 10<sup>−31</sup> kg है।<br>C. किसी तत्त्व के सभी समस्थानिक समान रासायनिक गुण दर्शाते हैं।<br>D. प्रोटॉनों और इलेक्ट्रॉनों को सामूहिक रूप से न्यूक्लिऑन कहते हैं।<br>E. डाल्टन के परमाणु सिद्धांत ने परमाणु को द्रव्य का अंतिम कण माना।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "केवल B, C और E",
+      "केवल A, B और C",
+      "केवल C, D और E",
+      "केवल A और E"
+     ],
+     "sol": "<ul><li>A ✗ परमाणु तीन मूल कणों (इलेक्ट्रॉन, प्रोटॉन, न्यूट्रॉन) से बने होते हैं।</li><li>B ✓ m<sub>e</sub> = 9.10939 × 10<sup>−31</sup> kg।</li><li>C ✓ समस्थानिकों में इलेक्ट्रॉन समान होते हैं, अतः रसायन समान।</li><li>D ✗ न्यूक्लिऑन प्रोटॉन और <i>न्यूट्रॉन</i> हैं।</li><li>E ✓ डाल्टन ने परमाणु को अंतिम कण माना।</li></ul><p>उत्तर: <b>केवल B, C और E</b>।</p>",
+     "hint": "न्यूक्लिऑन नाभिक में रहते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -514,10 +602,22 @@
       "ℓ = (n<sub>m</sub> − 1)/2",
       "ℓ = 2n<sub>m</sub> + 1",
       "n<sub>m</sub> = 2ℓ<sup>2</sup> + 1"
-     ]
+     ],
+     "sol": "<p>For a given l, m<sub>l</sub> = −l … +l, so n<sub>m</sub> = 2l + 1 → <b>l = (n<sub>m</sub> − 1)/2</b>.</p>",
+     "hint": "m<sub>l</sub> takes 2l + 1 values."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिगंशी क्वांटम संख्या (l) के किसी दिए गए मान के लिए n<sub>m</sub> (n<sub>m</sub> = चुंबकीय क्वांटम संख्या (m) के अनुमत मानों की संख्या) के बीच संबंध है",
+     "o": [
+      "n<sub>m</sub> = ℓ + 2",
+      "ℓ = (n<sub>m</sub> − 1)/2",
+      "ℓ = 2n<sub>m</sub> + 1",
+      "n<sub>m</sub> = 2ℓ<sup>2</sup> + 1"
+     ],
+     "sol": "<p>दिए गए l के लिए m<sub>l</sub> = −l … +l, अतः n<sub>m</sub> = 2l + 1 → <b>l = (n<sub>m</sub> − 1)/2</b>।</p>",
+     "hint": "m<sub>l</sub> के 2l + 1 मान होते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -560,10 +660,22 @@
       "219.3 m",
       "219.2 m",
       "2192 m"
-     ]
+     ],
+     "sol": "<p>λ = c/ν = 3.0 × 10<sup>8</sup> ÷ 1.368 × 10<sup>6</sup> = <b>219.3 m</b>.</p>",
+     "hint": "Convert kHz to Hz: 1,368 kHz = 1.368 × 10<sup>6</sup> Hz."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ऑल इंडिया रेडियो, नई दिल्ली का एक स्टेशन 1,368 kHz (किलोहर्ट्ज़) आवृत्ति पर प्रसारण करता है। ट्रांसमीटर द्वारा उत्सर्जित विद्युत चुंबकीय विकिरण की तरंगदैर्घ्य है : [प्रकाश का वेग c = 3.0 × 10<sup>8</sup> ms<sup>−1</sup>]",
+     "o": [
+      "21.92 cm",
+      "219.3 m",
+      "219.2 m",
+      "2192 m"
+     ],
+     "sol": "<p>λ = c/ν = 3.0 × 10<sup>8</sup> ÷ 1.368 × 10<sup>6</sup> = <b>219.3 m</b>।</p>",
+     "hint": "kHz को Hz में बदलें: 1,368 kHz = 1.368 × 10<sup>6</sup> Hz।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -606,10 +718,22 @@
       "175, 104 and 71",
       "71, 104 and 71",
       "104, 71 and 71"
-     ]
+     ],
+     "sol": "<p>Z = 71 → 71 protons and 71 electrons (neutral atom). Neutrons = A − Z = 175 − 71 = 104.</p><p>Answer: <b>71, 104 and 71</b>.</p>",
+     "hint": "Lower number = atomic number, upper = mass number."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "<sup>175</sup><sub>71</sub>Lu में प्रोटॉनों, न्यूट्रॉनों और इलेक्ट्रॉनों की संख्या क्रमशः है :",
+     "o": [
+      "71, 71 और 104",
+      "175, 104 और 71",
+      "71, 104 और 71",
+      "104, 71 और 71"
+     ],
+     "sol": "<p>Z = 71 → 71 प्रोटॉन और 71 इलेक्ट्रॉन (उदासीन परमाणु)। न्यूट्रॉन = A − Z = 175 − 71 = 104।</p><p>उत्तर: <b>71, 104 और 71</b>।</p>",
+     "hint": "नीचे की संख्या = परमाणु क्रमांक, ऊपर की = द्रव्यमान संख्या।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -652,10 +776,22 @@
       "Brackett series",
       "Lyman series",
       "Balmer series"
-     ]
+     ],
+     "sol": "<p>Lyman (to n = 1) lies in the ultraviolet; <b>Balmer</b> (to n = 2) in the visible; Paschen, Brackett, Pfund (to n = 3, 4, 5) in the infrared (NCERT Table 2.3).</p>",
+     "hint": "Transitions ending at n = 2."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हाइड्रोजन परमाणु के स्पेक्ट्रम में संक्रमणों की निम्नलिखित में से कौन-सी श्रेणी दृश्य क्षेत्र में आती है?",
+     "o": [
+      "पाशन श्रेणी",
+      "ब्रैकेट श्रेणी",
+      "लाइमैन श्रेणी",
+      "बामर श्रेणी"
+     ],
+     "sol": "<p>लाइमैन (n = 1 तक) पराबैंगनी में; <b>बामर</b> (n = 2 तक) दृश्य क्षेत्र में; पाशन, ब्रैकेट, फुंड (n = 3, 4, 5 तक) अवरक्त में होती हैं (NCERT सारणी 2.3)।</p>",
+     "hint": "n = 2 पर समाप्त होने वाले संक्रमण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -698,10 +834,22 @@
       "5f &gt; 6p &gt; 4d &gt; 5p",
       "5f &gt; 6p &gt; 5p &gt; 4d",
       "6p &gt; 5f &gt; 5p &gt; 4d"
-     ]
+     ],
+     "sol": "<p>(n + l) rule: 4d = 6, 5p = 6, 6p = 7, 5f = 8. Equal (n + l): higher n is higher in energy, so 5p &gt; 4d.</p><p>Decreasing order: <b>5f &gt; 6p &gt; 5p &gt; 4d</b>.</p>",
+     "hint": "Use n + l; for a tie, larger n is higher."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "4d, 5p, 5f और 6p कक्षकों को ऊर्जा के घटते क्रम में व्यवस्थित किया गया है। सही विकल्प है:",
+     "o": [
+      "6p &gt; 5f &gt; 4d &gt; 5p",
+      "5f &gt; 6p &gt; 4d &gt; 5p",
+      "5f &gt; 6p &gt; 5p &gt; 4d",
+      "6p &gt; 5f &gt; 5p &gt; 4d"
+     ],
+     "sol": "<p>(n + l) नियम: 4d = 6, 5p = 6, 6p = 7, 5f = 8। समान (n + l) होने पर अधिक n वाले की ऊर्जा अधिक, अतः 5p &gt; 4d।</p><p>घटता क्रम: <b>5f &gt; 6p &gt; 5p &gt; 4d</b>।</p>",
+     "hint": "n + l का प्रयोग करें; बराबर होने पर बड़ा n अधिक ऊर्जा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -744,10 +892,22 @@
       "The uncertainty principle is ΔE × Δt ≥ h/4π.",
       "Half filled and fully filled orbitals have greater stability due to greater exchange energy, greater symmetry and more balanced arrangement.",
       "The energy of 2s orbital is less than the energy of 2p orbital in case of Hydrogen like atoms."
-     ]
+     ],
+     "sol": "<p>(1), (2) and (3) are correct statements of NCERT §2.5–2.6. In hydrogen-like (one-electron) species, orbital energy depends only on n, so 2s and 2p have the <b>same</b> energy: statement (4) is wrong.</p>",
+     "hint": "One-electron systems: energy depends on n alone."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कौन-सा कथन गलत है ?",
+     "o": [
+      "दे ब्रॉग्ली तरंगदैर्घ्य λ = h/mv द्वारा दी जाती है, जहाँ m = कण का द्रव्यमान, v = कण का समूह वेग।",
+      "अनिश्चितता सिद्धांत ΔE × Δt ≥ h/4π है।",
+      "अर्धपूरित और पूर्णपूरित कक्षक अधिक विनिमय ऊर्जा, अधिक सममिति और अधिक संतुलित व्यवस्था के कारण अधिक स्थायी होते हैं।",
+      "हाइड्रोजन जैसे परमाणुओं में 2s कक्षक की ऊर्जा 2p कक्षक की ऊर्जा से कम होती है।"
+     ],
+     "sol": "<p>(1), (2) और (3), NCERT §2.5–2.6 के सही कथन हैं। हाइड्रोजन जैसी (एक-इलेक्ट्रॉन) स्पीशीज़ में कक्षक की ऊर्जा केवल n पर निर्भर करती है, अतः 2s और 2p की ऊर्जा <b>समान</b> होती है: कथन (4) गलत है।</p>",
+     "hint": "एक-इलेक्ट्रॉन निकाय: ऊर्जा केवल n पर निर्भर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -792,10 +952,22 @@
       "Magnetic quantum number",
       "Azimuthal quantum number",
       "Spin quantum number"
-     ]
+     ],
+     "sol": "<p>Two electrons in one orbital have the same n, l and m<sub>l</sub>; by Pauli's principle they must differ in spin: m<sub>s</sub> = +½ and −½.</p>",
+     "hint": "Pauli exclusion principle."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक ही कक्षक में स्थित दो इलेक्ट्रॉनों में किसके द्वारा भेद किया जाता है :",
+     "o": [
+      "मुख्य क्वांटम संख्या",
+      "चुंबकीय क्वांटम संख्या",
+      "दिगंशी क्वांटम संख्या",
+      "प्रचक्रण क्वांटम संख्या"
+     ],
+     "sol": "<p>एक कक्षक के दो इलेक्ट्रॉनों के n, l और m<sub>l</sub> समान होते हैं; पाउली के सिद्धांत के अनुसार उनका प्रचक्रण भिन्न होना चाहिए: m<sub>s</sub> = +½ और −½।</p>",
+     "hint": "पाउली का अपवर्जन सिद्धांत।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -838,10 +1010,24 @@
       "6",
       "10",
       "14"
-     ]
+     ],
+     "sol": "<p>n = 3, l = 1 describes the 3p <i>subshell</i>, but the question asks about one <b>orbital</b>, and any orbital holds at most <b>2</b> electrons.</p>",
+     "hint": "Read carefully: orbital, not subshell.",
+     "trap": "6 is the capacity of the whole 3p subshell."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उस कक्षक में कितने इलेक्ट्रॉन समा सकते हैं जिसके लिए n = 3 और l = 1 है?",
+     "o": [
+      "2",
+      "6",
+      "10",
+      "14"
+     ],
+     "sol": "<p>n = 3, l = 1, 3p <i>उपकोश</i> को दर्शाते हैं, पर प्रश्न एक <b>कक्षक</b> के बारे में है, और किसी भी कक्षक में अधिकतम <b>2</b> इलेक्ट्रॉन होते हैं।</p>",
+     "hint": "ध्यान से पढ़ें: कक्षक, उपकोश नहीं।",
+     "trap": "6 पूरे 3p उपकोश की क्षमता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -884,10 +1070,22 @@
       "d<sub>xz</sub>, d<sub>yz</sub>",
       "d<sub>z²</sub>, d<sub>x²−y²</sub>",
       "d<sub>xy</sub>, d<sub>x²−y²</sub>"
-     ]
+     ],
+     "sol": "<p>The lobes of d<sub>z²</sub> (along z) and d<sub>x²−y²</sub> (along x and y) lie on the axes; d<sub>xy</sub>, d<sub>yz</sub>, d<sub>xz</sub> lie between the axes.</p>",
+     "hint": "Look for orbitals whose subscripts are squared axes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से d-कक्षकों के किस युग्म में इलेक्ट्रॉन घनत्व अक्षों के अनुदिश होगा?",
+     "o": [
+      "d<sub>z²</sub>, d<sub>xz</sub>",
+      "d<sub>xz</sub>, d<sub>yz</sub>",
+      "d<sub>z²</sub>, d<sub>x²−y²</sub>",
+      "d<sub>xy</sub>, d<sub>x²−y²</sub>"
+     ],
+     "sol": "<p>d<sub>z²</sub> (z के अनुदिश) और d<sub>x²−y²</sub> (x और y के अनुदिश) की पालियाँ अक्षों पर होती हैं; d<sub>xy</sub>, d<sub>yz</sub>, d<sub>xz</sub> अक्षों के बीच होती हैं।</p>",
+     "hint": "वे कक्षक ढूँढें जिनके पादांक में अक्षों के वर्ग हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -930,10 +1128,22 @@
       "4s 3s 3p 3d",
       "3s 3p 3d 4s",
       "3s 3p 4s 3d"
-     ]
+     ],
+     "sol": "<p>In the Aufbau (filling) order, 3s &lt; 3p &lt; 4s &lt; 3d, which is option <b>(4)</b>, the official key.</p><p class='errata'>Note: once electrons occupy 3d (as in Ti), the 3d orbitals actually lie below 4s, which supports option (3). The official CBSE key gives (4), the Aufbau (filling) order.</p>",
+     "hint": "Write the Aufbau order: 3s, 3p, 4s, 3d."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "टाइटेनियम परमाणु में दिए गए कक्षकों की ऊर्जा का बढ़ता हुआ सही क्रम कौन-सा है ? (परमाणु क्रमांक Z = 22)",
+     "o": [
+      "3s 4s 3p 3d",
+      "4s 3s 3p 3d",
+      "3s 3p 3d 4s",
+      "3s 3p 4s 3d"
+     ],
+     "sol": "<p>आउफबाउ (भरने के) क्रम में 3s &lt; 3p &lt; 4s &lt; 3d, जो विकल्प <b>(4)</b> है, आधिकारिक उत्तर कुंजी।</p><p class='errata'>टिप्पणी: जब इलेक्ट्रॉन 3d में आ जाते हैं (जैसे Ti में), तो 3d कक्षक वास्तव में 4s से नीचे होते हैं, जो विकल्प (3) का समर्थन करता है। आधिकारिक CBSE कुंजी (4), अर्थात् आउफबाउ क्रम देती है।</p>",
+     "hint": "आउफबाउ क्रम लिखें: 3s, 3p, 4s, 3d।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -978,10 +1188,22 @@
       "An orbital is designated by three quantum numbers while an electron in an atom is designated by four quantum numbers.",
       "Total orbital angular momentum of electron in 's' orbital is equal to zero.",
       "The value of m for d<sub>z²</sub> is zero."
-     ]
+     ],
+     "sol": "<p>(1) is wrong: by Hund's rule the three 2p electrons of N must have <b>parallel</b> spins (↑ ↑ ↑), not ↑ ↑ ↓. (2), (3) (l = 0 for s) and (4) (m = 0 for d<sub>z²</sub>) are correct.</p>",
+     "hint": "Check the 2p boxes against Hund's rule."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कौन-सा कथन <i>गलत</i> है ?",
+     "o": [
+      "N परमाणु का इलेक्ट्रॉनिक विन्यास 1s<sup>2</sup> 2s<sup>2</sup> 2p<sub>x</sub><sup>1</sup> 2p<sub>y</sub><sup>1</sup> 2p<sub>z</sub><sup>1</sup> है, जिसके बॉक्स ↑↓ ↑↓ ↑ ↑ ↓ दर्शाए गए हैं",
+      "एक कक्षक को तीन क्वांटम संख्याओं से निर्दिष्ट किया जाता है जबकि परमाणु में एक इलेक्ट्रॉन को चार क्वांटम संख्याओं से निर्दिष्ट किया जाता है।",
+      "'s' कक्षक में इलेक्ट्रॉन का कुल कक्षक कोणीय संवेग शून्य के बराबर है।",
+      "d<sub>z²</sub> के लिए m का मान शून्य है।"
+     ],
+     "sol": "<p>(1) गलत है: हुंड के नियम के अनुसार N के तीन 2p इलेक्ट्रॉनों का प्रचक्रण <b>समांतर</b> (↑ ↑ ↑) होना चाहिए, ↑ ↑ ↓ नहीं। (2), (3) (s के लिए l = 0) और (4) (d<sub>z²</sub> के लिए m = 0) सही हैं।</p>",
+     "hint": "2p बॉक्सों को हुंड के नियम से जाँचें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1026,10 +1248,22 @@
       "In an atom, all the five 3d orbitals are equal in energy in free state.",
       "The shapes of d<sub>xy</sub>, d<sub>yz</sub> and d<sub>zx</sub> orbitals are similar to each other; and d<sub>x²−y²</sub> and d<sub>z²</sub> are similar to each other.",
       "All the five 5d orbitals are different in size when compared to the respective 4d orbitals"
-     ]
+     ],
+     "sol": "<p>d<sub>xy</sub>, d<sub>yz</sub>, d<sub>zx</sub> and d<sub>x²−y²</sub> all have four-lobed (clover) shapes, while d<sub>z²</sub> has two lobes and a ring. So d<sub>x²−y²</sub> and d<sub>z²</sub> are <b>not</b> similar: statement (3) is incorrect.</p>",
+     "hint": "d<sub>z²</sub> is the odd one out in shape."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से <b>गलत</b> कथन पहचानिए।",
+     "o": [
+      "सभी पाँच 4d कक्षकों की आकृतियाँ संगत 3d कक्षकों के समान होती हैं।",
+      "किसी परमाणु में मुक्त अवस्था में सभी पाँच 3d कक्षकों की ऊर्जा समान होती है।",
+      "d<sub>xy</sub>, d<sub>yz</sub> और d<sub>zx</sub> कक्षकों की आकृतियाँ एक-दूसरे के समान हैं; और d<sub>x²−y²</sub> और d<sub>z²</sub> एक-दूसरे के समान हैं।",
+      "सभी पाँच 5d कक्षक संगत 4d कक्षकों की तुलना में आकार में भिन्न होते हैं"
+     ],
+     "sol": "<p>d<sub>xy</sub>, d<sub>yz</sub>, d<sub>zx</sub> और d<sub>x²−y²</sub> सभी की आकृति चार पालियों वाली होती है, जबकि d<sub>z²</sub> में दो पालियाँ और एक वलय होता है। अतः d<sub>x²−y²</sub> और d<sub>z²</sub> समान <b>नहीं</b> हैं: कथन (3) गलत है।</p>",
+     "hint": "आकृति में d<sub>z²</sub> सबसे अलग है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1073,10 +1307,22 @@
       "1.587 pm",
       "158.7 Å",
       "158.7 pm"
-     ]
+     ],
+     "sol": "<p>r ∝ n<sup>2</sup>/Z.</p><p>r(Li<sup>2+</sup>, n = 3)/r(He<sup>+</sup>, n = 2) = (9/3)/(4/2) = 3/2 → r = 105.8 × 3/2 = <b>158.7 pm</b>.</p>",
+     "hint": "Take the ratio of n<sup>2</sup>/Z for the two cases."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि He<sup>+</sup> आयन की दूसरी बोर कक्षा की त्रिज्या 105.8 pm है, तो Li<sup>2+</sup> आयन की तीसरी बोर कक्षा की त्रिज्या क्या है?",
+     "o": [
+      "15.87 pm",
+      "1.587 pm",
+      "158.7 Å",
+      "158.7 pm"
+     ],
+     "sol": "<p>r ∝ n<sup>2</sup>/Z।</p><p>r(Li<sup>2+</sup>, n = 3)/r(He<sup>+</sup>, n = 2) = (9/3)/(4/2) = 3/2 → r = 105.8 × 3/2 = <b>158.7 pm</b>।</p>",
+     "hint": "दोनों स्थितियों के लिए n<sup>2</sup>/Z का अनुपात लें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
