@@ -125,10 +125,22 @@
       "10.86 kg m<sup>2</sup> s<sup>−2</sup>",
       "2.86 kg m<sup>2</sup> s<sup>−2</sup>",
       "6.66 kg m<sup>2</sup> s<sup>−2</sup>"
-     ]
+     ],
+     "sol": "<p>v = 54 km h<sup>−1</sup> = 15 m/s, so ω<sub>0</sub> = v/r = 15/0.45 = 33.3 rad/s. Angular deceleration α = ω<sub>0</sub>/t = 33.3/15 = 2.22 rad/s<sup>2</sup>.</p><p>τ = Iα = 3 × 2.22 ≈ <b>6.66 kg m<sup>2</sup> s<sup>−2</sup></b>.</p>",
+     "hint": "Convert v to ω = v/r, then τ = I Δω/Δt."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक मोटरगाड़ी सड़क पर 54 km h<sup>−1</sup> की चाल से चलती है। इसके पहियों की त्रिज्या 0.45 m है और पहिए का उसकी घूर्णन अक्ष के परितः जड़त्व आघूर्ण 3 kg m<sup>2</sup> है। यदि वाहन को 15 s में विराम में लाया जाता है, तो इसके ब्रेकों द्वारा पहिए को दिए गए औसत बल आघूर्ण का परिमाण है :",
+     "o": [
+      "8.58 kg m<sup>2</sup> s<sup>−2</sup>",
+      "10.86 kg m<sup>2</sup> s<sup>−2</sup>",
+      "2.86 kg m<sup>2</sup> s<sup>−2</sup>",
+      "6.66 kg m<sup>2</sup> s<sup>−2</sup>"
+     ],
+     "sol": "<p>v = 54 km h<sup>−1</sup> = 15 m/s, अतः ω<sub>0</sub> = v/r = 15/0.45 = 33.3 rad/s । कोणीय मंदन α = ω<sub>0</sub>/t = 33.3/15 = 2.22 rad/s<sup>2</sup>।</p><p>τ = Iα = 3 × 2.22 ≈ <b>6.66 kg m<sup>2</sup> s<sup>−2</sup></b>।</p>",
+     "hint": "v को ω = v/r में बदलिए, फिर τ = I Δω/Δt।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -171,10 +183,22 @@
       "x = (m<sub>2</sub>/m<sub>1</sub>)L",
       "x = m<sub>2</sub>L/(m<sub>1</sub> + m<sub>2</sub>)",
       "x = m<sub>1</sub>L/(m<sub>1</sub> + m<sub>2</sub>)"
-     ]
+     ],
+     "sol": "<p>Work needed = (1/2)Iω<sub>0</sub><sup>2</sup>, which is least when I is least. For an axis at distance x from m<sub>1</sub>: I = m<sub>1</sub>x<sup>2</sup> + m<sub>2</sub>(L − x)<sup>2</sup>.</p><p>dI/dx = 0 ⇒ m<sub>1</sub>x = m<sub>2</sub>(L − x) ⇒ <b>x = m<sub>2</sub>L/(m<sub>1</sub> + m<sub>2</sub>)</b>, i.e. the axis passes through the centre of mass.</p>",
+     "hint": "The moment of inertia is least about an axis through the centre of mass."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "L लंबाई और नगण्य द्रव्यमान की एक दृढ़ छड़ के विपरीत सिरों पर बिंदु द्रव्यमान m<sub>1</sub> और m<sub>2</sub> रखे हैं। छड़ को इसके लंबवत एक अक्ष के परितः घुमाया जाना है। छड़ पर उस बिंदु P की स्थिति, जिससे होकर अक्ष गुजरे ताकि छड़ को कोणीय वेग ω<sub>0</sub> से घुमाने के लिए आवश्यक कार्य न्यूनतम हो, दी जाती है :",
+     "o": [
+      "x = (m<sub>1</sub>/m<sub>2</sub>)L",
+      "x = (m<sub>2</sub>/m<sub>1</sub>)L",
+      "x = m<sub>2</sub>L/(m<sub>1</sub> + m<sub>2</sub>)",
+      "x = m<sub>1</sub>L/(m<sub>1</sub> + m<sub>2</sub>)"
+     ],
+     "sol": "<p>आवश्यक कार्य = (1/2)Iω<sub>0</sub><sup>2</sup>, जो I न्यूनतम होने पर न्यूनतम है। m<sub>1</sub> से x दूरी पर अक्ष के लिए : I = m<sub>1</sub>x<sup>2</sup> + m<sub>2</sub>(L − x)<sup>2</sup>।</p><p>dI/dx = 0 ⇒ m<sub>1</sub>x = m<sub>2</sub>(L − x) ⇒ <b>x = m<sub>2</sub>L/(m<sub>1</sub> + m<sub>2</sub>)</b>, अर्थात अक्ष द्रव्यमान केन्द्र से गुजरती है।</p>",
+     "hint": "द्रव्यमान केन्द्र से गुजरने वाली अक्ष के परितः जड़त्व आघूर्ण न्यूनतम होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -217,10 +241,22 @@
       "Zero",
       "1",
       "−1"
-     ]
+     ],
+     "sol": "<p>Angular momentum about the origin is conserved if the torque τ⃗ = r⃗ × F⃗ = 0, i.e. F⃗ is parallel to r⃗:</p><p>α/2 = 3/(−6) = 6/(−12) = −1/2 ⇒ α = <b>−1</b>.</p>",
+     "hint": "Zero torque ⇔ F⃗ ∥ r⃗ (components in proportion)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक बल F⃗ = αî + 3ĵ + 6k̂ बिंदु r⃗ = 2î − 6ĵ − 12k̂ पर कार्य कर रहा है। α का वह मान जिसके लिए मूल बिंदु के परितः कोणीय संवेग संरक्षित रहता है :",
+     "o": [
+      "2",
+      "शून्य",
+      "1",
+      "−1"
+     ],
+     "sol": "<p>मूल बिंदु के परितः कोणीय संवेग संरक्षित रहता है यदि बल आघूर्ण τ⃗ = r⃗ × F⃗ = 0, अर्थात F⃗, r⃗ के समांतर हो :</p><p>α/2 = 3/(−6) = 6/(−12) = −1/2 ⇒ α = <b>−1</b>।</p>",
+     "hint": "शून्य बल आघूर्ण ⇔ F⃗ ∥ r⃗ (घटक समानुपाती)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -263,10 +299,22 @@
       "13MR<sup>2</sup>/32",
       "11MR<sup>2</sup>/32",
       "9MR<sup>2</sup>/32"
-     ]
+     ],
+     "sol": "<p>Removed disc: radius R/2, mass M/4 (area ratio 1/4), centre at R/2 from O. Its moment of inertia about O (parallel-axis theorem): (M/4)(R/2)<sup>2</sup>/2 + (M/4)(R/2)<sup>2</sup> = MR<sup>2</sup>/32 + MR<sup>2</sup>/16 = 3MR<sup>2</sup>/32.</p><p>Remaining: MR<sup>2</sup>/2 − 3MR<sup>2</sup>/32 = 16MR<sup>2</sup>/32 − 3MR<sup>2</sup>/32 = <b>13MR<sup>2</sup>/32</b>.</p>",
+     "hint": "Subtract the hole's moment of inertia, shifted to O with the parallel-axis theorem."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "R त्रिज्या और M द्रव्यमान की एक चकती से R व्यास का एक वृत्ताकार छिद्र काटा जाता है, जिसकी परिधि केंद्र से होकर गुजरती है। केंद्र से गुजरने वाली लंबवत अक्ष के परितः चकती के शेष भाग का जड़त्व आघूर्ण क्या है?",
+     "o": [
+      "15MR<sup>2</sup>/32",
+      "13MR<sup>2</sup>/32",
+      "11MR<sup>2</sup>/32",
+      "9MR<sup>2</sup>/32"
+     ],
+     "sol": "<p>हटाई गई चकती : त्रिज्या R/2, द्रव्यमान M/4 (क्षेत्रफल अनुपात 1/4), केंद्र O से R/2 पर। O के परितः इसका जड़त्व आघूर्ण (समांतर अक्षों का प्रमेय) : (M/4)(R/2)<sup>2</sup>/2 + (M/4)(R/2)<sup>2</sup> = MR<sup>2</sup>/32 + MR<sup>2</sup>/16 = 3MR<sup>2</sup>/32।</p><p>शेष : MR<sup>2</sup>/2 − 3MR<sup>2</sup>/32 = 16MR<sup>2</sup>/32 − 3MR<sup>2</sup>/32 = <b>13MR<sup>2</sup>/32</b>।</p>",
+     "hint": "छिद्र का जड़त्व आघूर्ण समांतर अक्षों के प्रमेय से O पर स्थानांतरित करके घटाइए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -311,10 +359,22 @@
       "7.0",
       "6.0",
       "3.0"
-     ]
+     ],
+     "sol": "<p>At the rim r = 0.5 m. Tangential acceleration a<sub>t</sub> = αr = 2.0 × 0.5 = 1 m s<sup>−2</sup>. After 2.0 s, ω = αt = 4 rad/s, so centripetal acceleration a<sub>c</sub> = ω<sup>2</sup>r = 16 × 0.5 = 8 m s<sup>−2</sup>.</p><p>Net a = √(8<sup>2</sup> + 1<sup>2</sup>) ≈ <b>8.0</b> m s<sup>−2</sup>.</p>",
+     "hint": "Combine a<sub>t</sub> = αr and a<sub>c</sub> = ω<sup>2</sup>r at right angles."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "50 cm त्रिज्या की एक एकसमान वृत्ताकार चकती विराम में है और अपने तल के लंबवत तथा केंद्र से गुजरने वाली अक्ष के परितः घूमने के लिए स्वतंत्र है। इस पर एक बल आघूर्ण लगाया जाता है जो 2.0 rad s<sup>−2</sup> का नियत कोणीय त्वरण उत्पन्न करता है। 2.0 s के अंत में इसका (परिधि पर) नेट त्वरण m s<sup>−2</sup> में लगभग है :",
+     "o": [
+      "8.0",
+      "7.0",
+      "6.0",
+      "3.0"
+     ],
+     "sol": "<p>परिधि पर r = 0.5 m। स्पर्शरेखीय त्वरण a<sub>t</sub> = αr = 2.0 × 0.5 = 1 m s<sup>−2</sup>। 2.0 s के बाद ω = αt = 4 rad/s, अतः अभिकेंद्र त्वरण a<sub>c</sub> = ω<sup>2</sup>r = 16 × 0.5 = 8 m s<sup>−2</sup>।</p><p>नेट a = √(8<sup>2</sup> + 1<sup>2</sup>) ≈ <b>8.0</b> m s<sup>−2</sup>।</p>",
+     "hint": "a<sub>t</sub> = αr और a<sub>c</sub> = ω<sup>2</sup>r को लंबवत रूप में जोड़िए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -357,10 +417,22 @@
       "Sphere",
       "Both reach at the same time",
       "Depends on their masses"
-     ]
+     ],
+     "sol": "<p>Rolling down an incline: a = g sin θ/(1 + I/(mR<sup>2</sup>)). For a disc I/(mR<sup>2</sup>) = 1/2, for a solid sphere 2/5. The sphere has the larger acceleration (independent of mass and radius), so the <b>sphere</b> reaches the bottom first.</p>",
+     "hint": "Smaller I/(mR<sup>2</sup>) ⇒ less energy goes into rotation ⇒ faster."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समान त्रिज्या परंतु भिन्न द्रव्यमानों वाली एक चकती और एक गोला समान ऊँचाई और लंबाई के दो आनत तलों पर लुढ़कते हैं। दोनों में से कौन-सी वस्तु तल की तली पर पहले पहुँचती है?",
+     "o": [
+      "चकती",
+      "गोला",
+      "दोनों एक ही समय पर पहुँचते हैं",
+      "उनके द्रव्यमानों पर निर्भर करता है"
+     ],
+     "sol": "<p>आनत तल पर लुढ़कते समय : a = g sin θ/(1 + I/(mR<sup>2</sup>))। चकती के लिए I/(mR<sup>2</sup>) = 1/2, ठोस गोले के लिए 2/5। गोले का त्वरण अधिक है (द्रव्यमान और त्रिज्या पर निर्भर नहीं), अतः <b>गोला</b> पहले तली पर पहुँचता है।</p>",
+     "hint": "कम I/(mR<sup>2</sup>) ⇒ घूर्णन में कम ऊर्जा जाती है ⇒ तेज।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -404,10 +476,22 @@
       "L<sub>A</sub> = 2L<sub>B</sub>",
       "L<sub>B</sub> > L<sub>A</sub>",
       "L<sub>A</sub> > L<sub>B</sub>"
-     ]
+     ],
+     "sol": "<p>Rotational kinetic energy K = L<sup>2</sup>/(2I). With equal K, L = √(2IK) ∝ √I. Since I<sub>B</sub> > I<sub>A</sub>: <b>L<sub>B</sub> > L<sub>A</sub></b>. (The masses do not matter.)</p>",
+     "hint": "K = L<sup>2</sup>/2I."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "m और 2m द्रव्यमानों वाले दो घूर्णन करते पिंड A और B, जिनके जड़त्व आघूर्ण I<sub>A</sub> और I<sub>B</sub> (I<sub>B</sub> > I<sub>A</sub>) हैं, की घूर्णन की गतिज ऊर्जा समान है। यदि L<sub>A</sub> और L<sub>B</sub> क्रमशः उनके कोणीय संवेग हैं, तो :",
+     "o": [
+      "L<sub>A</sub> = L<sub>B</sub>/2",
+      "L<sub>A</sub> = 2L<sub>B</sub>",
+      "L<sub>B</sub> > L<sub>A</sub>",
+      "L<sub>A</sub> > L<sub>B</sub>"
+     ],
+     "sol": "<p>घूर्णन की गतिज ऊर्जा K = L<sup>2</sup>/(2I)। समान K के लिए L = √(2IK) ∝ √I। चूँकि I<sub>B</sub> > I<sub>A</sub> : <b>L<sub>B</sub> > L<sub>A</sub></b>। (द्रव्यमानों का कोई प्रभाव नहीं।)</p>",
+     "hint": "K = L<sup>2</sup>/2I।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -451,10 +535,22 @@
       "1 : 5",
       "1 : 4",
       "3 : 1"
-     ]
+     ],
+     "sol": "<p>Sphere: E<sub>s</sub> = (1/2)(2/5)mR<sup>2</sup>ω<sup>2</sup> = (1/5)mR<sup>2</sup>ω<sup>2</sup>. Cylinder: E<sub>c</sub> = (1/2)(1/2)mR<sup>2</sup>(2ω)<sup>2</sup> = mR<sup>2</sup>ω<sup>2</sup>.</p><p>E<sub>sphere</sub>/E<sub>cylinder</sub> = <b>1 : 5</b>.</p>",
+     "hint": "I<sub>sphere</sub> = (2/5)mR<sup>2</sup>, I<sub>cylinder</sub> = (1/2)mR<sup>2</sup>; the cylinder has 2ω."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "m द्रव्यमान और R त्रिज्या का एक ठोस गोला अपने व्यास के परितः घूर्णन कर रहा है। समान द्रव्यमान और समान त्रिज्या का एक ठोस बेलन भी अपनी ज्यामितीय अक्ष के परितः गोले की दोगुनी कोणीय चाल से घूर्णन कर रहा है। उनकी घूर्णन की गतिज ऊर्जाओं का अनुपात (E<sub>sphere</sub>/E<sub>cylinder</sub>) होगा :",
+     "o": [
+      "2 : 3",
+      "1 : 5",
+      "1 : 4",
+      "3 : 1"
+     ],
+     "sol": "<p>गोला : E<sub>s</sub> = (1/2)(2/5)mR<sup>2</sup>ω<sup>2</sup> = (1/5)mR<sup>2</sup>ω<sup>2</sup>। बेलन : E<sub>c</sub> = (1/2)(1/2)mR<sup>2</sup>(2ω)<sup>2</sup> = mR<sup>2</sup>ω<sup>2</sup>।</p><p>E<sub>sphere</sub>/E<sub>cylinder</sub> = <b>1 : 5</b>।</p>",
+     "hint": "I<sub>sphere</sub> = (2/5)mR<sup>2</sup>, I<sub>cylinder</sub> = (1/2)mR<sup>2</sup>; बेलन का कोणीय वेग 2ω है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -498,10 +594,22 @@
       "(m<sub>1</sub> + m<sub>2</sub>)l<sup>2</sup>/(m<sub>1</sub>m<sub>2</sub>)",
       "(m<sub>1</sub> + m<sub>2</sub>)l<sup>2</sup>",
       "√(m<sub>1</sub>m<sub>2</sub>) l<sup>2</sup>"
-     ]
+     ],
+     "sol": "<p>Distances from the centre of mass: r<sub>1</sub> = m<sub>2</sub>l/(m<sub>1</sub> + m<sub>2</sub>), r<sub>2</sub> = m<sub>1</sub>l/(m<sub>1</sub> + m<sub>2</sub>).</p><p>I = m<sub>1</sub>r<sub>1</sub><sup>2</sup> + m<sub>2</sub>r<sub>2</sub><sup>2</sup> = m<sub>1</sub>m<sub>2</sub>l<sup>2</sup>(m<sub>2</sub> + m<sub>1</sub>)/(m<sub>1</sub> + m<sub>2</sub>)<sup>2</sup> = <b>m<sub>1</sub>m<sub>2</sub>l<sup>2</sup>/(m<sub>1</sub> + m<sub>2</sub>)</b>.</p>",
+     "hint": "Find each mass's distance from the centre of mass first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "l लंबाई की एक हलकी छड़ के दोनों सिरों पर दो द्रव्यमान m<sub>1</sub> और m<sub>2</sub> लगे हैं। छड़ के लंबवत और द्रव्यमान केन्द्र से गुजरने वाली अक्ष के परितः निकाय का जड़त्व आघूर्ण है :",
+     "o": [
+      "m<sub>1</sub>m<sub>2</sub>l<sup>2</sup>/(m<sub>1</sub> + m<sub>2</sub>)",
+      "(m<sub>1</sub> + m<sub>2</sub>)l<sup>2</sup>/(m<sub>1</sub>m<sub>2</sub>)",
+      "(m<sub>1</sub> + m<sub>2</sub>)l<sup>2</sup>",
+      "√(m<sub>1</sub>m<sub>2</sub>) l<sup>2</sup>"
+     ],
+     "sol": "<p>द्रव्यमान केन्द्र से दूरियाँ : r<sub>1</sub> = m<sub>2</sub>l/(m<sub>1</sub> + m<sub>2</sub>), r<sub>2</sub> = m<sub>1</sub>l/(m<sub>1</sub> + m<sub>2</sub>)।</p><p>I = m<sub>1</sub>r<sub>1</sub><sup>2</sup> + m<sub>2</sub>r<sub>2</sub><sup>2</sup> = m<sub>1</sub>m<sub>2</sub>l<sup>2</sup>(m<sub>2</sub> + m<sub>1</sub>)/(m<sub>1</sub> + m<sub>2</sub>)<sup>2</sup> = <b>m<sub>1</sub>m<sub>2</sub>l<sup>2</sup>/(m<sub>1</sub> + m<sub>2</sub>)</b>।</p>",
+     "hint": "पहले प्रत्येक द्रव्यमान की द्रव्यमान केन्द्र से दूरी ज्ञात कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -544,10 +652,22 @@
       "(a) and (b)",
       "(b) and (c)",
       "(c) and (d)"
-     ]
+     ],
+     "sol": "<p>(a) False: the centre of gravity coincides with the centre of mass only when g is uniform over the body. (b) True: the gravitational torque about the centre of gravity is zero (and in uniform g that point is the centre of mass). (c) False: a couple has zero net force, so it produces only rotation. (d) True: mechanical advantage > 1 means load > effort.</p><p>Answer: <b>(b) and (d)</b>.</p>",
+     "hint": "A couple gives torque but no net force."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से कथन सही हैं?<br>(a) किसी पिंड का द्रव्यमान केन्द्र सदैव उसके गुरुत्व केन्द्र से संपाती होता है।<br>(b) किसी पिंड का द्रव्यमान केन्द्र वह बिंदु है जिसके परितः पिंड पर कुल गुरुत्वीय बल आघूर्ण शून्य होता है।<br>(c) पिंड पर लगा एक बलयुग्म पिंड में स्थानांतरीय और घूर्णी दोनों गतियाँ उत्पन्न करता है।<br>(d) एक से अधिक यांत्रिक लाभ का अर्थ है कि छोटे आयास से बड़े भार को उठाया जा सकता है।",
+     "o": [
+      "(b) और (d)",
+      "(a) और (b)",
+      "(b) और (c)",
+      "(c) और (d)"
+     ],
+     "sol": "<p>(a) असत्य : गुरुत्व केन्द्र द्रव्यमान केन्द्र से तभी संपाती होता है जब पूरे पिंड पर g एकसमान हो। (b) सत्य : गुरुत्व केन्द्र के परितः गुरुत्वीय बल आघूर्ण शून्य होता है (और एकसमान g में वह बिंदु द्रव्यमान केन्द्र है)। (c) असत्य : बलयुग्म का नेट बल शून्य होता है, अतः यह केवल घूर्णन उत्पन्न करता है। (d) सत्य : यांत्रिक लाभ > 1 का अर्थ है भार > आयास।</p><p>उत्तर : <b>(b) और (d)</b>।</p>",
+     "hint": "बलयुग्म बल आघूर्ण देता है परंतु नेट बल नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -591,10 +711,22 @@
       "(1/4)I(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup>",
       "I(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup>",
       "(I/8)(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup>"
-     ]
+     ],
+     "sol": "<p>No external torque, so angular momentum is conserved: Iω<sub>1</sub> + Iω<sub>2</sub> = 2Iω ⇒ ω = (ω<sub>1</sub> + ω<sub>2</sub>)/2.</p><p>Loss = (1/2)I(ω<sub>1</sub><sup>2</sup> + ω<sub>2</sub><sup>2</sup>) − (1/2)(2I)ω<sup>2</sup> = (I/2)[ω<sub>1</sub><sup>2</sup> + ω<sub>2</sub><sup>2</sup> − (ω<sub>1</sub> + ω<sub>2</sub>)<sup>2</sup>/2] = <b>(1/4)I(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup></b>.</p>",
+     "hint": "Conserve L, then compare kinetic energies (like a perfectly inelastic collision)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समान जड़त्व आघूर्ण वाली दो चकतियाँ केंद्र से गुजरने वाली और चकती के तल के लंबवत अपनी नियमित अक्ष के परितः कोणीय वेगों ω<sub>1</sub> और ω<sub>2</sub> से घूर्णन कर रही हैं। घूर्णन अक्षों को संपाती रखते हुए उन्हें आमने-सामने संपर्क में लाया जाता है। इस प्रक्रिया में ऊर्जा हानि का व्यंजक है :",
+     "o": [
+      "(1/2)I(ω<sub>1</sub> + ω<sub>2</sub>)<sup>2</sup>",
+      "(1/4)I(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup>",
+      "I(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup>",
+      "(I/8)(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup>"
+     ],
+     "sol": "<p>कोई बाह्य बल आघूर्ण नहीं, अतः कोणीय संवेग संरक्षित है : Iω<sub>1</sub> + Iω<sub>2</sub> = 2Iω ⇒ ω = (ω<sub>1</sub> + ω<sub>2</sub>)/2।</p><p>हानि = (1/2)I(ω<sub>1</sub><sup>2</sup> + ω<sub>2</sub><sup>2</sup>) − (1/2)(2I)ω<sup>2</sup> = (I/2)[ω<sub>1</sub><sup>2</sup> + ω<sub>2</sub><sup>2</sup> − (ω<sub>1</sub> + ω<sub>2</sub>)<sup>2</sup>/2] = <b>(1/4)I(ω<sub>1</sub> − ω<sub>2</sub>)<sup>2</sup></b>।</p>",
+     "hint": "L संरक्षित कीजिए, फिर गतिज ऊर्जाओं की तुलना कीजिए (पूर्णतः अप्रत्यास्थ संघट्ट की तरह)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -637,10 +769,22 @@
       "0.25 rad/s<sup>2</sup>",
       "25 rad/s<sup>2</sup>",
       "5 m/s<sup>2</sup>"
-     ]
+     ],
+     "sol": "<p>Hollow cylinder: I = MR<sup>2</sup> = 3 × (0.4)<sup>2</sup> = 0.48 kg m<sup>2</sup>. Torque τ = FR = 30 × 0.4 = 12 N m.</p><p>α = τ/I = 12/0.48 = <b>25 rad/s<sup>2</sup></b>.</p>",
+     "hint": "τ = Iα with I = MR<sup>2</sup> for a thin hollow cylinder; note the unit of α."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "3 kg द्रव्यमान और 40 cm त्रिज्या के एक खोखले बेलन पर एक रस्सी लपेटी गई है। यदि रस्सी को 30 N के बल से खींचा जाए, तो बेलन का कोणीय त्वरण क्या है?",
+     "o": [
+      "25 m/s<sup>2</sup>",
+      "0.25 rad/s<sup>2</sup>",
+      "25 rad/s<sup>2</sup>",
+      "5 m/s<sup>2</sup>"
+     ],
+     "sol": "<p>खोखला बेलन : I = MR<sup>2</sup> = 3 × (0.4)<sup>2</sup> = 0.48 kg m<sup>2</sup>। बल आघूर्ण τ = FR = 30 × 0.4 = 12 N m।</p><p>α = τ/I = 12/0.48 = <b>25 rad/s<sup>2</sup></b>।</p>",
+     "hint": "पतले खोखले बेलन के लिए I = MR<sup>2</sup> लेकर τ = Iα; α का मात्रक ध्यान दीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -683,10 +827,22 @@
       "W<sub>A</sub> > W<sub>B</sub> > W<sub>C</sub>",
       "W<sub>C</sub> > W<sub>B</sub> > W<sub>A</sub>",
       "W<sub>A</sub> > W<sub>C</sub> > W<sub>B</sub>"
-     ]
+     ],
+     "sol": "<p>Work to stop = rotational kinetic energy = (1/2)Iω<sup>2</sup> ∝ I (same ω).</p><p>I<sub>ring</sub> = MR<sup>2</sup> > I<sub>disc</sub> = MR<sup>2</sup>/2 > I<sub>sphere</sub> = 2MR<sup>2</sup>/5, so <b>W<sub>C</sub> > W<sub>B</sub> > W<sub>A</sub></b>.</p>",
+     "hint": "Compare moments of inertia: ring > disc > solid sphere."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "तीन वस्तुएँ, A : (एक ठोस गोला), B : (एक पतली वृत्ताकार चकती) और C : (एक वृत्ताकार वलय), प्रत्येक का द्रव्यमान M और त्रिज्या R समान है। ये सभी अपनी-अपनी सममित अक्ष के परितः समान कोणीय चाल ω से घूम रही हैं। इन्हें विराम में लाने के लिए आवश्यक कार्य (W) संबंध को संतुष्ट करेंगे :",
+     "o": [
+      "W<sub>B</sub> > W<sub>A</sub> > W<sub>C</sub>",
+      "W<sub>A</sub> > W<sub>B</sub> > W<sub>C</sub>",
+      "W<sub>C</sub> > W<sub>B</sub> > W<sub>A</sub>",
+      "W<sub>A</sub> > W<sub>C</sub> > W<sub>B</sub>"
+     ],
+     "sol": "<p>रोकने के लिए कार्य = घूर्णन की गतिज ऊर्जा = (1/2)Iω<sup>2</sup> ∝ I (समान ω)।</p><p>I<sub>ring</sub> = MR<sup>2</sup> > I<sub>disc</sub> = MR<sup>2</sup>/2 > I<sub>sphere</sub> = 2MR<sup>2</sup>/5, अतः <b>W<sub>C</sub> > W<sub>B</sub> > W<sub>A</sub></b>।</p>",
+     "hint": "जड़त्व आघूर्णों की तुलना कीजिए : वलय > चकती > ठोस गोला।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -730,10 +886,22 @@
       "−4î − ĵ − 8k̂",
       "−8î − 4ĵ − 7k̂",
       "−7î − 4ĵ − 8k̂"
-     ]
+     ],
+     "sol": "<p>Position of the point of application relative to (2, −2, −2): r⃗ = (2 − 2)î + (0 + 2)ĵ + (−3 + 2)k̂ = 2ĵ − k̂.</p><p>τ⃗ = r⃗ × F⃗ = (2ĵ − k̂) × (4î + 5ĵ − 6k̂) = î[(2)(−6) − (−1)(5)] − ĵ[(0)(−6) − (−1)(4)] + k̂[(0)(5) − (2)(4)] = <b>−7î − 4ĵ − 8k̂</b>.</p>",
+     "hint": "Use r⃗ from the reference point to the point of application, then r⃗ × F⃗."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "बिंदु (2, 0, −3) पर लगे बल F⃗ = 4î + 5ĵ − 6k̂ का बिंदु (2, −2, −2) के परितः आघूर्ण दिया जाता है :",
+     "o": [
+      "−7î − 8ĵ − 4k̂",
+      "−4î − ĵ − 8k̂",
+      "−8î − 4ĵ − 7k̂",
+      "−7î − 4ĵ − 8k̂"
+     ],
+     "sol": "<p>(2, −2, −2) के सापेक्ष बल के लगने के बिंदु की स्थिति : r⃗ = (2 − 2)î + (0 + 2)ĵ + (−3 + 2)k̂ = 2ĵ − k̂।</p><p>τ⃗ = r⃗ × F⃗ = (2ĵ − k̂) × (4î + 5ĵ − 6k̂) = î[(2)(−6) − (−1)(5)] − ĵ[(0)(−6) − (−1)(4)] + k̂[(0)(5) − (2)(4)] = <b>−7î − 4ĵ − 8k̂</b>।</p>",
+     "hint": "संदर्भ बिंदु से बल के लगने के बिंदु तक r⃗ लीजिए, फिर r⃗ × F⃗।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -776,10 +944,22 @@
       "Moment of inertia",
       "Angular velocity",
       "Angular momentum"
-     ]
+     ],
+     "sol": "<p>In free space there is no external torque, so the <b>angular momentum</b> L = Iω stays constant. As the radius increases, I increases and ω decreases; the rotational kinetic energy L<sup>2</sup>/(2I) also decreases.</p>",
+     "hint": "No external torque ⇒ L conserved."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक ठोस गोला मुक्त आकाश में अपनी सममित अक्ष के परितः स्वतंत्र रूप से घूर्णन कर रहा है। द्रव्यमान समान रखते हुए गोले की त्रिज्या बढ़ा दी जाती है। गोले के लिए निम्नलिखित में से कौन-सी भौतिक राशि नियत रहेगी?",
+     "o": [
+      "घूर्णन की गतिज ऊर्जा",
+      "जड़त्व आघूर्ण",
+      "कोणीय वेग",
+      "कोणीय संवेग"
+     ],
+     "sol": "<p>मुक्त आकाश में कोई बाह्य बल आघूर्ण नहीं है, अतः <b>कोणीय संवेग</b> L = Iω नियत रहता है। त्रिज्या बढ़ने पर I बढ़ता है और ω घटता है; घूर्णन की गतिज ऊर्जा L<sup>2</sup>/(2I) भी घटती है।</p>",
+     "hint": "बाह्य बल आघूर्ण शून्य ⇒ L संरक्षित।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -822,10 +1002,22 @@
       "5 : 7",
       "7 : 10",
       "2 : 5"
-     ]
+     ],
+     "sol": "<p>For rolling without slipping v = ωR. Solid sphere: K<sub>t</sub> = (1/2)mv<sup>2</sup>, K<sub>r</sub> = (1/2)(2/5)mR<sup>2</sup>ω<sup>2</sup> = (1/5)mv<sup>2</sup>.</p><p>K<sub>t</sub> : (K<sub>t</sub> + K<sub>r</sub>) = (1/2) : (1/2 + 1/5) = (1/2) : (7/10) = <b>5 : 7</b>.</p>",
+     "hint": "K<sub>r</sub>/K<sub>t</sub> = I/(mR<sup>2</sup>) = 2/5 for a solid sphere."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक ठोस गोला लोटनिक गति में है। लोटनिक गति में पिंड में स्थानांतरीय गतिज ऊर्जा (K<sub>t</sub>) और घूर्णन की गतिज ऊर्जा (K<sub>r</sub>) दोनों एक साथ होती हैं। गोले के लिए अनुपात K<sub>t</sub> : (K<sub>t</sub> + K<sub>r</sub>) है :",
+     "o": [
+      "10 : 7",
+      "5 : 7",
+      "7 : 10",
+      "2 : 5"
+     ],
+     "sol": "<p>फिसले बिना लुढ़कने के लिए v = ωR। ठोस गोला : K<sub>t</sub> = (1/2)mv<sup>2</sup>, K<sub>r</sub> = (1/2)(2/5)mR<sup>2</sup>ω<sup>2</sup> = (1/5)mv<sup>2</sup>।</p><p>K<sub>t</sub> : (K<sub>t</sub> + K<sub>r</sub>) = (1/2) : (1/2 + 1/5) = (1/2) : (7/10) = <b>5 : 7</b>।</p>",
+     "hint": "ठोस गोले के लिए K<sub>r</sub>/K<sub>t</sub> = I/(mR<sup>2</sup>) = 2/5।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -869,10 +1061,22 @@
       "1 J",
       "3 J",
       "30 kJ"
-     ]
+     ],
+     "sol": "<p>Rolling disc: K = (1/2)Mv<sup>2</sup> + (1/2)(MR<sup>2</sup>/2)(v/R)<sup>2</sup> = (3/4)Mv<sup>2</sup>.</p><p>K = (3/4) × 100 × (0.2)<sup>2</sup> = 3 J. Work needed to stop it = <b>3 J</b>.</p>",
+     "hint": "Include both translational and rotational kinetic energy."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "2 m त्रिज्या और 100 kg द्रव्यमान की एक चकती क्षैतिज फर्श पर लुढ़कती है। इसके द्रव्यमान केन्द्र की चाल 20 cm/s है। इसे रोकने के लिए कितना कार्य आवश्यक है?",
+     "o": [
+      "2 J",
+      "1 J",
+      "3 J",
+      "30 kJ"
+     ],
+     "sol": "<p>लुढ़कती चकती : K = (1/2)Mv<sup>2</sup> + (1/2)(MR<sup>2</sup>/2)(v/R)<sup>2</sup> = (3/4)Mv<sup>2</sup>।</p><p>K = (3/4) × 100 × (0.2)<sup>2</sup> = 3 J। इसे रोकने के लिए आवश्यक कार्य = <b>3 J</b>।</p>",
+     "hint": "स्थानांतरीय और घूर्णन दोनों गतिज ऊर्जाएँ जोड़िए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -916,10 +1120,22 @@
       "2 × 10<sup>6</sup> N m",
       "2 × 10<sup>−6</sup> N m",
       "2 × 10<sup>−3</sup> N m"
-     ]
+     ],
+     "sol": "<p>ω<sub>0</sub> = 3 rpm = 3 × 2π/60 = π/10 rad/s. I = (1/2)MR<sup>2</sup> = (1/2)(2)(0.04)<sup>2</sup> = 1.6 × 10<sup>−3</sup> kg m<sup>2</sup>. Angle θ = 2π rev × 2π = 4π<sup>2</sup> rad.</p><p>ω<sub>0</sub><sup>2</sup> = 2αθ ⇒ α = (π<sup>2</sup>/100)/(8π<sup>2</sup>) = 1/800 rad/s<sup>2</sup>. τ = Iα = 1.6 × 10<sup>−3</sup>/800 = <b>2 × 10<sup>−6</sup> N m</b>.</p>",
+     "hint": "Convert rpm and revolutions to rad/s and rad first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "2 kg द्रव्यमान और 4 cm त्रिज्या का एक ठोस बेलन अपनी अक्ष के परितः 3 rpm की दर से घूर्णन कर रहा है। इसे 2π परिक्रमणों के बाद रोकने के लिए आवश्यक बल आघूर्ण है :",
+     "o": [
+      "12 × 10<sup>−4</sup> N m",
+      "2 × 10<sup>6</sup> N m",
+      "2 × 10<sup>−6</sup> N m",
+      "2 × 10<sup>−3</sup> N m"
+     ],
+     "sol": "<p>ω<sub>0</sub> = 3 rpm = 3 × 2π/60 = π/10 rad/s । I = (1/2)MR<sup>2</sup> = (1/2)(2)(0.04)<sup>2</sup> = 1.6 × 10<sup>−3</sup> kg m<sup>2</sup>। कोण θ = 2π rev × 2π = 4π<sup>2</sup> rad।</p><p>ω<sub>0</sub><sup>2</sup> = 2αθ ⇒ α = (π<sup>2</sup>/100)/(8π<sup>2</sup>) = 1/800 rad/s<sup>2</sup>। τ = Iα = 1.6 × 10<sup>−3</sup>/800 = <b>2 × 10<sup>−6</sup> N m</b>।</p>",
+     "hint": "पहले rpm और परिक्रमणों को rad/s और rad में बदलिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -963,10 +1179,22 @@
       "6k̂ N m",
       "6î N m",
       "6ĵ N m"
-     ]
+     ],
+     "sol": "<p>τ⃗ = r⃗ × F⃗ = (2k̂) × (3ĵ) = 6(k̂ × ĵ) = <b>−6î N m</b> (since k̂ × ĵ = −î).</p>",
+     "hint": "Cyclic order î → ĵ → k̂ gives +; reverse order gives −."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जब एक कण, जिसका स्थिति सदिश 2k̂ m है, पर 3ĵ N का बल कार्य करता है, तो मूल बिंदु के परितः बल आघूर्ण ज्ञात कीजिए।",
+     "o": [
+      "−6î N m",
+      "6k̂ N m",
+      "6î N m",
+      "6ĵ N m"
+     ],
+     "sol": "<p>τ⃗ = r⃗ × F⃗ = (2k̂) × (3ĵ) = 6(k̂ × ĵ) = <b>−6î N m</b> (क्योंकि k̂ × ĵ = −î)।</p>",
+     "hint": "चक्रीय क्रम î → ĵ → k̂ से + और उलटे क्रम से − मिलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1003,16 +1231,28 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "Two particles of mass 5kg and 10 kg respectively are attached to the two ends of a rigid rod of length 1m with negligible mass. The centre of mass of the system from the 5kg particle is nearly at a distance of:",
+     "q": "Two particles of mass 5 kg and 10 kg respectively are attached to the two ends of a rigid rod of length 1 m with negligible mass. The centre of mass of the system from the 5 kg particle is nearly at a distance of:",
      "o": [
       "67 cm",
       "80 cm",
       "33 cm",
       "50 cm"
-     ]
+     ],
+     "sol": "<p>From the 5 kg particle: x<sub>cm</sub> = (10 × 1)/(5 + 10) = 2/3 m ≈ <b>67 cm</b>.</p>",
+     "hint": "The centre of mass lies nearer the heavier mass."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "5 kg और 10 kg द्रव्यमान के दो कण नगण्य द्रव्यमान वाली 1 m लंबी एक दृढ़ छड़ के दोनों सिरों पर लगे हैं। 5 kg वाले कण से निकाय का द्रव्यमान केन्द्र लगभग कितनी दूरी पर है?",
+     "o": [
+      "67 cm",
+      "80 cm",
+      "33 cm",
+      "50 cm"
+     ],
+     "sol": "<p>5 kg वाले कण से : x<sub>cm</sub> = (10 × 1)/(5 + 10) = 2/3 m ≈ <b>67 cm</b>।</p>",
+     "hint": "द्रव्यमान केन्द्र भारी द्रव्यमान के निकट होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1055,10 +1295,22 @@
       "3/4",
       "7/8",
       "1/4"
-     ]
+     ],
+     "sol": "<p>Removing a 90° arc leaves 3/4 of the ring, mass 3M/4, all of it still at distance R from the axis.</p><p>I = (3M/4)R<sup>2</sup> ⇒ K = <b>3/4</b>.</p>",
+     "hint": "Every bit of a ring is at distance R from the central axis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "'M' द्रव्यमान और 'R' त्रिज्या के एक वृत्ताकार वलय से 90° के कोण वाले भाग के संगत एक चाप हटा दिया जाता है। वलय के केंद्र से गुजरने वाली और वलय के तल के लंबवत अक्ष के परितः वलय के शेष भाग का जड़त्व आघूर्ण 'MR<sup>2</sup>' का 'K' गुना है। तब 'K' का मान है :",
+     "o": [
+      "1/8",
+      "3/4",
+      "7/8",
+      "1/4"
+     ],
+     "sol": "<p>90° का चाप हटाने पर वलय का 3/4 भाग बचता है, द्रव्यमान 3M/4, जो पूरा अक्ष से R दूरी पर है।</p><p>I = (3M/4)R<sup>2</sup> ⇒ K = <b>3/4</b>।</p>",
+     "hint": "वलय का प्रत्येक भाग केंद्रीय अक्ष से R दूरी पर है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1101,10 +1353,22 @@
       "1/2 kg",
       "1/3 kg",
       "1/6 kg"
-     ]
+     ],
+     "sol": "<p>Take moments about the wedge (40 cm mark). Anticlockwise: 2 kg at 20 cm, arm 0.2 m: 2g × 0.2 = 0.4g. Clockwise: rod's weight 0.5g at its centre (100 cm), arm 0.6 m: 0.3g; m at 160 cm, arm 1.2 m: 1.2mg.</p><p>0.4g = 0.3g + 1.2mg ⇒ m = 0.1/1.2 = <b>1/12 kg</b>.</p>",
+     "hint": "Include the rod's own weight at its midpoint."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "200 cm लंबाई और 500 g द्रव्यमान की एक एकसमान छड़ 40 cm चिह्न पर रखे एक वेज पर संतुलित है। चित्र में दिखाए अनुसार छड़ के 20 cm चिह्न पर 2 kg का एक द्रव्यमान और 160 cm चिह्न पर एक अज्ञात द्रव्यमान 'm' लटकाया गया है। 'm' का वह मान ज्ञात कीजिए जिससे छड़ संतुलन में रहे। (g = 10 m/s<sup>2</sup>)",
+     "o": [
+      "1/12 kg",
+      "1/2 kg",
+      "1/3 kg",
+      "1/6 kg"
+     ],
+     "sol": "<p>वेज (40 cm चिह्न) के परितः आघूर्ण लीजिए। वामावर्त : 20 cm पर 2 kg, भुजा 0.2 m : 2g × 0.2 = 0.4g। दक्षिणावर्त : छड़ का भार 0.5g उसके मध्य (100 cm) पर, भुजा 0.6 m : 0.3g; 160 cm पर m, भुजा 1.2 m : 1.2mg।</p><p>0.4g = 0.3g + 1.2mg ⇒ m = 0.1/1.2 = <b>1/12 kg</b>।</p>",
+     "hint": "छड़ का अपना भार उसके मध्य बिंदु पर लीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1148,10 +1412,22 @@
       "12π",
       "104π",
       "2π"
-     ]
+     ],
+     "sol": "<p>α = (ω − ω<sub>0</sub>)/t = (3120 − 1200) rpm/16 s = 120 rpm per second = 120 × 2π/60 rad/s<sup>2</sup> = <b>4π</b> rad/s<sup>2</sup>.</p>",
+     "hint": "1 rpm = 2π/60 rad/s."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एकसमान कोणीय त्वरण से गतिमान एक गतिपालक चक्र की कोणीय चाल 16 सेकंड में 1200 rpm से 3120 rpm हो जाती है। rad/s<sup>2</sup> में कोणीय त्वरण है :",
+     "o": [
+      "4π",
+      "12π",
+      "104π",
+      "2π"
+     ],
+     "sol": "<p>α = (ω − ω<sub>0</sub>)/t = (3120 − 1200) rpm/16 s = 120 rpm प्रति सेकंड = 120 × 2π/60 rad/s<sup>2</sup> = <b>4π</b> rad/s<sup>2</sup>।</p>",
+     "hint": "1 rpm = 2π/60 rad/s ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1195,10 +1471,22 @@
       "10 m",
       "5 m",
       "10/3 m"
-     ]
+     ],
+     "sol": "<p>From the 10 kg mass: x<sub>cm</sub> = (20 × 10)/(10 + 20) = <b>20/3 m</b>.</p>",
+     "hint": "x<sub>cm</sub> = m<sub>2</sub>L/(m<sub>1</sub> + m<sub>2</sub>) measured from m<sub>1</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "10 kg और 20 kg द्रव्यमान की दो वस्तुएँ नगण्य द्रव्यमान वाली 10 m लंबी एक दृढ़ छड़ के दोनों सिरों से जुड़ी हैं। 10 kg द्रव्यमान से निकाय के द्रव्यमान केन्द्र की दूरी है :",
+     "o": [
+      "20/3 m",
+      "10 m",
+      "5 m",
+      "10/3 m"
+     ],
+     "sol": "<p>10 kg द्रव्यमान से : x<sub>cm</sub> = (20 × 10)/(10 + 20) = <b>20/3 m</b>।</p>",
+     "hint": "m<sub>1</sub> से मापी गई दूरी x<sub>cm</sub> = m<sub>2</sub>L/(m<sub>1</sub> + m<sub>2</sub>)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1241,10 +1529,22 @@
       "4 : 1",
       "1 : √2",
       "2 : 1"
-     ]
+     ],
+     "sol": "<p>About the central axis normal to the disc: I<sub>1</sub> = MR<sup>2</sup>/2 ⇒ k<sub>1</sub> = R/√2. About a diameter (perpendicular-axis theorem): I<sub>2</sub> = I<sub>1</sub>/2 = MR<sup>2</sup>/4 ⇒ k<sub>2</sub> = R/2.</p><p>k<sub>1</sub>/k<sub>2</sub> = (1/√2)/(1/2) = <b>√2 : 1</b>.</p>",
+     "hint": "Perpendicular-axis theorem: I<sub>z</sub> = I<sub>x</sub> + I<sub>y</sub>, so I<sub>diameter</sub> = I<sub>z</sub>/2."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक पतली एकसमान चकती की उसके केंद्र से गुजरने वाली और तल के अभिलंब अक्ष के परितः परिभ्रमण त्रिज्या का, चकती के व्यास के परितः परिभ्रमण त्रिज्या से अनुपात है :",
+     "o": [
+      "√2 : 1",
+      "4 : 1",
+      "1 : √2",
+      "2 : 1"
+     ],
+     "sol": "<p>चकती के अभिलंब केंद्रीय अक्ष के परितः : I<sub>1</sub> = MR<sup>2</sup>/2 ⇒ k<sub>1</sub> = R/√2। व्यास के परितः (लंबवत अक्षों का प्रमेय) : I<sub>2</sub> = I<sub>1</sub>/2 = MR<sup>2</sup>/4 ⇒ k<sub>2</sub> = R/2।</p><p>k<sub>1</sub>/k<sub>2</sub> = (1/√2)/(1/2) = <b>√2 : 1</b>।</p>",
+     "hint": "लंबवत अक्षों का प्रमेय : I<sub>z</sub> = I<sub>x</sub> + I<sub>y</sub>, अतः I<sub>diameter</sub> = I<sub>z</sub>/2।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1288,10 +1588,22 @@
       "along the radius, away from centre",
       "along the radius towards the centre",
       "along the tangent to its position"
-     ]
+     ],
+     "sol": "<p>For rotation about a fixed axis, the angular velocity and angular acceleration vectors both lie <b>along the axis of rotation</b> (right-hand rule). The tangential and radial directions belong to the linear acceleration of a point.</p>",
+     "hint": "Angular quantities are axial vectors."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वृत्त की परिधि के अनुदिश गतिमान किसी पिंड का कोणीय त्वरण होता है :",
+     "o": [
+      "घूर्णन अक्ष के अनुदिश",
+      "त्रिज्या के अनुदिश, केंद्र से दूर",
+      "त्रिज्या के अनुदिश, केंद्र की ओर",
+      "अपनी स्थिति पर स्पर्शरेखा के अनुदिश"
+     ],
+     "sol": "<p>स्थिर अक्ष के परितः घूर्णन में कोणीय वेग और कोणीय त्वरण दोनों सदिश <b>घूर्णन अक्ष के अनुदिश</b> होते हैं (दक्षिण हस्त नियम)। स्पर्शरेखीय और त्रिज्य दिशाएँ किसी बिंदु के रैखिक त्वरण से संबंधित हैं।</p>",
+     "hint": "कोणीय राशियाँ अक्षीय सदिश हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1334,10 +1646,24 @@
       "3 : 5",
       "5 : 3",
       "2 : 5"
-     ]
+     ],
+     "sol": "<p>Solid sphere about a diameter: I = (2/5)MR<sup>2</sup> ⇒ k<sub>1</sub> = R√(2/5). Thin hollow sphere: I = (2/3)MR<sup>2</sup> ⇒ k<sub>2</sub> = R√(2/3).</p><p>k<sub>1</sub>/k<sub>2</sub> = √(3/5), i.e. √3 : √5. None of the printed options matches; 3 : 5 is the ratio of the squares (of the moments of inertia). The copy gives no answer, so option (2) is only a placeholder.</p>",
+     "hint": "k = √(I/M); compare √(2/5) with √(2/3).",
+     "trap": "3 : 5 is I<sub>1</sub> : I<sub>2</sub>, not k<sub>1</sub> : k<sub>2</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "M द्रव्यमान और R त्रिज्या के एक ठोस गोले की उसकी अपनी अक्ष के परितः परिभ्रमण त्रिज्या का, समान द्रव्यमान और त्रिज्या के पतले खोखले गोले की उसकी अक्ष के परितः परिभ्रमण त्रिज्या से अनुपात है :",
+     "o": [
+      "5 : 2",
+      "3 : 5",
+      "5 : 3",
+      "2 : 5"
+     ],
+     "sol": "<p>व्यास के परितः ठोस गोला : I = (2/5)MR<sup>2</sup> ⇒ k<sub>1</sub> = R√(2/5)। पतला खोखला गोला : I = (2/3)MR<sup>2</sup> ⇒ k<sub>2</sub> = R√(2/3)।</p><p>k<sub>1</sub>/k<sub>2</sub> = √(3/5), अर्थात √3 : √5। मुद्रित विकल्पों में से कोई भी मेल नहीं खाता; 3 : 5 वर्गों (जड़त्व आघूर्णों) का अनुपात है। प्रति में कोई उत्तर नहीं दिया गया, अतः विकल्प (2) केवल स्थान-पूरक है।</p>",
+     "hint": "k = √(I/M); √(2/5) की तुलना √(2/3) से कीजिए।",
+     "trap": "3 : 5, I<sub>1</sub> : I<sub>2</sub> है, k<sub>1</sub> : k<sub>2</sub> नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1381,10 +1707,22 @@
       "17.5 cm",
       "20.7 cm",
       "72.0 cm"
-     ]
+     ],
+     "sol": "<p>Thin rod about its midpoint: I = ml<sup>2</sup>/12 ⇒ 2400 = 400 × l<sup>2</sup>/12 ⇒ l<sup>2</sup> = 72 cm<sup>2</sup> ⇒ l ≈ <b>8.5 cm</b>.</p>",
+     "hint": "Work in g and cm throughout."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक पतली छड़ का उसके मध्य बिंदु से गुजरने वाली और छड़ के लंबवत अक्ष के परितः जड़त्व आघूर्ण 2400 g cm<sup>2</sup> है। 400 g की इस छड़ की लंबाई लगभग है :",
+     "o": [
+      "8.5 cm",
+      "17.5 cm",
+      "20.7 cm",
+      "72.0 cm"
+     ],
+     "sol": "<p>मध्य बिंदु के परितः पतली छड़ : I = ml<sup>2</sup>/12 ⇒ 2400 = 400 × l<sup>2</sup>/12 ⇒ l<sup>2</sup> = 72 cm<sup>2</sup> ⇒ l ≈ <b>8.5 cm</b>।</p>",
+     "hint": "पूरे समय g और cm में गणना कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1427,10 +1765,22 @@
       "Point P moves faster than point Q",
       "Both the points P and Q move with equal speeds",
       "Point P has zero speed"
-     ]
+     ],
+     "sol": "<p>In rolling without slipping, each point's velocity = v (centre) + ωR (rotation) with v = ωR. At the top P they add: 2v. At the contact point Q they cancel: 0. So <b>P moves faster than Q</b>.</p>",
+     "hint": "Contact point is momentarily at rest; top point moves at 2v."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक बैलगाड़ी का पहिया एक समतल सड़क पर लुढ़क रहा है, जैसा कि नीचे चित्र में दिखाया गया है। यदि दर्शाई गई दिशा में इसकी रैखिक चाल v है, तो निम्नलिखित में से कौन-सा विकल्प सही है (P और Q पहिए के क्रमशः उच्चतम और निम्नतम बिंदु हैं)?",
+     "o": [
+      "बिंदु P बिंदु Q से धीमे चलता है",
+      "बिंदु P बिंदु Q से तेज चलता है",
+      "बिंदु P और Q दोनों समान चाल से चलते हैं",
+      "बिंदु P की चाल शून्य है"
+     ],
+     "sol": "<p>फिसले बिना लुढ़कने में प्रत्येक बिंदु का वेग = v (केंद्र) + ωR (घूर्णन), जहाँ v = ωR। शीर्ष P पर ये जुड़ते हैं : 2v। संपर्क बिंदु Q पर ये निरस्त होते हैं : 0। अतः <b>P, Q से तेज चलता है</b>।</p>",
+     "hint": "संपर्क बिंदु क्षणिक रूप से विराम में होता है; शीर्ष बिंदु 2v से चलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1474,10 +1824,22 @@
       "105 days",
       "115 days",
       "108 days"
-     ]
+     ],
+     "sol": "<p>No external torque ⇒ L = Iω is conserved. I = (2/5)MR<sup>2</sup>, so doubling R makes I four times larger and ω one-fourth: T′ = 4T = 4 × 27 = <b>108 days</b>.</p>",
+     "hint": "T ∝ I ∝ R<sup>2</sup> at constant L and M."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूर्य अपने केंद्र के परितः 27 दिनों में एक बार घूमता है। यदि सूर्य बिना किसी बाह्य प्रभाव के अपनी वर्तमान त्रिज्या के दोगुने तक फैल जाए, तो परिक्रमण की अवधि क्या होगी? सूर्य को एकसमान घनत्व का गोला मानिए।",
+     "o": [
+      "100 दिन",
+      "105 दिन",
+      "115 दिन",
+      "108 दिन"
+     ],
+     "sol": "<p>कोई बाह्य बल आघूर्ण नहीं ⇒ L = Iω संरक्षित। I = (2/5)MR<sup>2</sup>, अतः R दोगुनी होने पर I चार गुना और ω एक-चौथाई हो जाता है : T′ = 4T = 4 × 27 = <b>108 दिन</b>।</p>",
+     "hint": "नियत L और M पर T ∝ I ∝ R<sup>2</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1520,10 +1882,22 @@
       "100√3 N",
       "200 N",
       "200√3 N"
-     ]
+     ],
+     "sol": "<p>The rod makes 60° with the wall, i.e. θ = 30° with the floor. Forces: weight Mg at the middle, floor reaction N<sub>1</sub> (up) and friction f (towards the wall), wall reaction N<sub>2</sub> (horizontal). Equilibrium: N<sub>1</sub> = Mg, f = N<sub>2</sub>.</p><p>Torques about the foot: Mg(L/2)cos θ = N<sub>2</sub>L sin θ ⇒ f = N<sub>2</sub> = (Mg/2)cot 30° = (200/2)√3 = <b>100√3 N</b>.</p>",
+     "hint": "Take torques about the bottom end to remove N<sub>1</sub> and f."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "20 kg द्रव्यमान और 5 m लंबाई की एक एकसमान छड़ एक चिकनी ऊर्ध्वाधर दीवार से 60° का कोण बनाते हुए उस पर टिकी है। दूसरा सिरा एक खुरदरे क्षैतिज फर्श पर टिका है। फर्श द्वारा छड़ पर लगाया गया घर्षण बल है (g = 10 m/s<sup>2</sup> लीजिए) :",
+     "o": [
+      "100 N",
+      "100√3 N",
+      "200 N",
+      "200√3 N"
+     ],
+     "sol": "<p>छड़ दीवार से 60° बनाती है, अर्थात फर्श से θ = 30°। बल : मध्य में भार Mg, फर्श की प्रतिक्रिया N<sub>1</sub> (ऊपर) और घर्षण f (दीवार की ओर), दीवार की प्रतिक्रिया N<sub>2</sub> (क्षैतिज)। संतुलन : N<sub>1</sub> = Mg, f = N<sub>2</sub>।</p><p>निचले सिरे के परितः आघूर्ण : Mg(L/2)cos θ = N<sub>2</sub>L sin θ ⇒ f = N<sub>2</sub> = (Mg/2)cot 30° = (200/2)√3 = <b>100√3 N</b>।</p>",
+     "hint": "N<sub>1</sub> और f को हटाने के लिए निचले सिरे के परितः आघूर्ण लीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1566,10 +1940,22 @@
       "7/40",
       "7/57",
       "7/64"
-     ]
+     ],
+     "sol": "<p>Let the big sphere's mass be M. The small sphere (radius R, half the radius) has mass M/8; its centre is R from the Y-axis. Parallel-axis theorem: I<sub>small</sub> = (2/5)(M/8)R<sup>2</sup> + (M/8)R<sup>2</sup> = (7/40)MR<sup>2</sup>.</p><p>I<sub>whole</sub> = (2/5)M(2R)<sup>2</sup> = (64/40)MR<sup>2</sup>, so I<sub>rest</sub> = (57/40)MR<sup>2</sup>. Ratio = <b>7/57</b>.</p>",
+     "hint": "Mass scales as radius cubed; shift the small sphere's I with the parallel-axis theorem."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "2R त्रिज्या के एक बड़े ठोस गोले से R त्रिज्या का एक गोला काटा जाता है, जैसा कि चित्र में दिखाया गया है। Y-अक्ष के परितः छोटे गोले के जड़त्व आघूर्ण का गोले के शेष भाग के जड़त्व आघूर्ण से अनुपात है :",
+     "o": [
+      "7/8",
+      "7/40",
+      "7/57",
+      "7/64"
+     ],
+     "sol": "<p>माना बड़े गोले का द्रव्यमान M है। छोटे गोले (त्रिज्या R, आधी त्रिज्या) का द्रव्यमान M/8 है; इसका केंद्र Y-अक्ष से R दूरी पर है। समांतर अक्षों का प्रमेय : I<sub>small</sub> = (2/5)(M/8)R<sup>2</sup> + (M/8)R<sup>2</sup> = (7/40)MR<sup>2</sup>।</p><p>I<sub>whole</sub> = (2/5)M(2R)<sup>2</sup> = (64/40)MR<sup>2</sup>, अतः I<sub>rest</sub> = (57/40)MR<sup>2</sup>। अनुपात = <b>7/57</b>।</p>",
+     "hint": "द्रव्यमान त्रिज्या के घन के अनुपात में है; छोटे गोले का I समांतर अक्षों के प्रमेय से स्थानांतरित कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1614,10 +2000,22 @@
       "300",
       "900",
       "150"
-     ]
+     ],
+     "sol": "<p>With uniform angular acceleration the average speed is (600 + 1200)/2 = 900 rpm = 15 rev/s. Revolutions in 10 s = 15 × 10 = <b>150</b>.</p>",
+     "hint": "Revolutions = average rev/s × time."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक गतिपालक चक्र की कोणीय चाल 10 s में 600 rpm से 1200 rpm तक बढ़ाई जाती है। इस समय में गतिपालक चक्र द्वारा पूरे किए गए परिक्रमणों की संख्या है :",
+     "o": [
+      "600",
+      "300",
+      "900",
+      "150"
+     ],
+     "sol": "<p>एकसमान कोणीय त्वरण के साथ औसत चाल (600 + 1200)/2 = 900 rpm = 15 rev/s है। 10 s में परिक्रमण = 15 × 10 = <b>150</b>।</p>",
+     "hint": "परिक्रमण = औसत rev/s × समय।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1660,10 +2058,22 @@
       "3mL<sup>2</sup>/(8π<sup>2</sup>)",
       "3mL<sup>3</sup>/(8π<sup>2</sup>)",
       "3mL<sup>2</sup>/(8π)"
-     ]
+     ],
+     "sol": "<p>Ring: mass M = mL, radius R = L/(2π). About a diameter I = MR<sup>2</sup>/2; about the parallel tangent yy′ in the plane: I = MR<sup>2</sup>/2 + MR<sup>2</sup> = (3/2)MR<sup>2</sup>.</p><p>I = (3/2)(mL)(L<sup>2</sup>/(4π<sup>2</sup>)) = <b>3mL<sup>3</sup>/(8π<sup>2</sup>)</b>.</p>",
+     "hint": "I<sub>diameter</sub> = MR<sup>2</sup>/2, then the parallel-axis theorem to the tangent."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "'L' लंबाई और 'm' रैखिक द्रव्यमान घनत्व के एक पतले तार को केंद्र 'C' वाले एक वृत्ताकार वलय (x-y तल में) के रूप में मोड़ा गया है, जैसा कि चित्र में दिखाया गया है। अक्ष yy' के परितः वलय का जड़त्व आघूर्ण होगा :",
+     "o": [
+      "3mL<sup>3</sup>/(8π)",
+      "3mL<sup>2</sup>/(8π<sup>2</sup>)",
+      "3mL<sup>3</sup>/(8π<sup>2</sup>)",
+      "3mL<sup>2</sup>/(8π)"
+     ],
+     "sol": "<p>वलय : द्रव्यमान M = mL, त्रिज्या R = L/(2π)। व्यास के परितः I = MR<sup>2</sup>/2; तल में समांतर स्पर्शरेखा yy′ के परितः : I = MR<sup>2</sup>/2 + MR<sup>2</sup> = (3/2)MR<sup>2</sup>।</p><p>I = (3/2)(mL)(L<sup>2</sup>/(4π<sup>2</sup>)) = <b>3mL<sup>3</sup>/(8π<sup>2</sup>)</b>।</p>",
+     "hint": "I<sub>diameter</sub> = MR<sup>2</sup>/2, फिर स्पर्शरेखा तक समांतर अक्षों का प्रमेय।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
