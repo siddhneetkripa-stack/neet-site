@@ -1,0 +1,1186 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-07",
+ "subject": "physics",
+ "class": 11,
+ "unit": 7,
+ "title": {
+  "en": "Gravitation"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph107.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "7.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "7.2",
+   "title": "Kepler's Laws",
+   "pdfPage": 2
+  },
+  {
+   "id": "7.3",
+   "title": "Universal Law of Gravitation",
+   "pdfPage": 2
+  },
+  {
+   "id": "7.4",
+   "title": "The Gravitational Constant",
+   "pdfPage": 5
+  },
+  {
+   "id": "7.5",
+   "title": "Acceleration due to Gravity of the Earth",
+   "pdfPage": 6
+  },
+  {
+   "id": "7.6",
+   "title": "Acceleration due to Gravity below and above the Surface of Earth",
+   "pdfPage": 7
+  },
+  {
+   "id": "7.7",
+   "title": "Gravitational Potential Energy",
+   "pdfPage": 7
+  },
+  {
+   "id": "7.8",
+   "title": "Escape Speed",
+   "pdfPage": 9
+  },
+  {
+   "id": "7.9",
+   "title": "Earth Satellites",
+   "pdfPage": 11
+  },
+  {
+   "id": "7.10",
+   "title": "Energy of an Orbiting Satellite",
+   "hi": "कक्षा में गतिशील उपग्रह की",
+   "pdfPage": 12
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-07-neet-2015-re-exam-code-d-q162",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A satellite S is moving in an elliptical orbit around the earth. The mass of the satellite is very small compared to the mass of the earth. Then,",
+     "o": [
+      "The total mechanical energy of S varies periodically with time",
+      "The linear momentum of S remains constant in magnitude",
+      "The acceleration of S is always directed towards the centre of the earth",
+      "The angular momentum of S about the centre of the earth changes in direction, but its magnitude remains constant"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.2",
+     "7.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q162",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2015-re-exam-code-d-q167",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A remote-sensing satellite of earth revolves in a circular orbit at a height of 0.25 × 10<sup>6</sup> m above the surface of earth. If earth's radius is 6.38 × 10<sup>6</sup> m and g = 9.8 m s<sup>−2</sup>, then the orbital speed of the satellite is :",
+     "o": [
+      "8.56 km s<sup>−1</sup>",
+      "9.13 km s<sup>−1</sup>",
+      "6.67 km s<sup>−1</sup>",
+      "7.76 km s<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q167",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2016-phase-1-code-a-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At what height from the surface of earth the gravitation potential and the value of g are −5.4 × 10<sup>7</sup> J kg<sup>−1</sup> and 6.0 m s<sup>−2</sup> respectively? Take the radius of earth as 6400 km :",
+     "o": [
+      "2600 km",
+      "1600 km",
+      "1400 km",
+      "2000 km"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.5",
+     "7.6",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q7",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2016-phase-1-code-a-q36",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The ratio of escape velocity at earth (υe ) to the escape velocity at a planet (υp ) whose radius and mean density are twice as that of earth is:",
+     "o": [
+      "1 : 2",
+      "1 : 2√2",
+      "1 : 4",
+      "1 : √2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q36",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2016-phase-2-code-aa-q11",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Starting from the centre of the earth having radius R, the variation of g (acceleration due to gravity) is shown by :",
+     "o": [
+      "[graph A]",
+      "[graph B]",
+      "[graph C]",
+      "[graph D]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q11",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Options are graphs; the keyed graph rises linearly from 0 to R and then falls as 1/r<sup>2</sup>. Needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy11-07-neet-2016-phase-2-code-aa-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A satellite of mass m is orbiting the earth (of radius R) at a height h from its surface. The total energy of the satellite in terms of g<sub>0</sub>, the value of acceleration due to gravity at the earth's surface, is :",
+     "o": [
+      "mg<sub>0</sub>R<sup>2</sup>/(2(R + h))",
+      "−mg<sub>0</sub>R<sup>2</sup>/(2(R + h))",
+      "2mg<sub>0</sub>R<sup>2</sup>/(R + h)",
+      "−2mg<sub>0</sub>R<sup>2</sup>/(R + h)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q12",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2017-code-a-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The acceleration due to gravity at a height 1 km above the earth is the same as at a depth d below the surface of earth. Then :",
+     "o": [
+      "d = 1/2 km",
+      "d = 1 km",
+      "d = 3/2 km",
+      "d = 2 km"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q25",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2017-code-a-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two astronauts are floating in gravitational free space after having lost contact with their spaceship. The two will:",
+     "o": [
+      "Keep floating at the same distance between them",
+      "Move towards each other",
+      "Move away from each other",
+      "Will become stationary"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q30",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2018-code-aa-q39",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The kinetic energies of a planet in an elliptical orbit about the Sun, at positions A, B and C are K<sub>A</sub>, K<sub>B</sub> and K<sub>C</sub>, respectively. AC is the major axis and SB is perpendicular to AC at the position of the Sun S as shown in the figure. Then :",
+     "o": [
+      "K<sub>B</sub> < K<sub>A</sub> < K<sub>C</sub>",
+      "K<sub>A</sub> > K<sub>B</sub> > K<sub>C</sub>",
+      "K<sub>A</sub> < K<sub>B</sub> < K<sub>C</sub>",
+      "K<sub>B</sub> > K<sub>A</sub> > K<sub>C</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q39",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2018-code-aa-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the mass of the Sun were ten times smaller and the universal gravitational constant were ten times larger in magnitude, which of the following is not correct?",
+     "o": [
+      "Time period of a simple pendulum on the Earth would decrease.",
+      "Walking on the ground would become more difficult.",
+      "Raindrops will fall faster.",
+      "'g' on the Earth will not change."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.3",
+     "7.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q40",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2019-code-s2-q109",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A body weighs 200 N on the surface of the earth. How much will it weigh half way down to the centre of the earth?",
+     "o": [
+      "250 N",
+      "100 N",
+      "150 N",
+      "200 N"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q109",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2019-code-s2-q118",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The work done to raise a mass m from the surface of the earth to a height h, which is equal to the radius of the earth, is :",
+     "o": [
+      "(1/2) mgR",
+      "(3/2) mgR",
+      "mgR",
+      "2mgR"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q118",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2020-code-f3-q31",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A body weighs 72 N on the surface of the earth. What is the gravitational force on it, at a height equal to half the radius of the earth ?",
+     "o": [
+      "30 N",
+      "24 N",
+      "48 N",
+      "32 N"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q31",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2021-code-p3-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The escape velocity from the Earth's surface is v. The escape velocity from the surface of another planet having a radius, four times that of Earth and same mass density is :",
+     "o": [
+      "4v",
+      "v",
+      "2v",
+      "3v"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q13",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2021-code-p3-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle of mass 'm' is projected with a velocity v = kV<sub>e</sub> (k < 1) from the surface of the earth. (V<sub>e</sub> = escape velocity) The maximum height above the surface reached by the particle is :",
+     "o": [
+      "Rk<sup>2</sup>/(1 − k<sup>2</sup>)",
+      "R(k/(1 − k))<sup>2</sup>",
+      "R(k/(1 + k))<sup>2</sup>",
+      "R<sup>2</sup>k/(1 + k)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.7",
+     "7.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q38",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2022-code-t2-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A body of mass 60 g experiences a gravitational force of 3.0 N, when placed at a particular point. The magnitude of the gravitational field intensity at that point is :",
+     "o": [
+      "50 N/kg",
+      "20 N/kg",
+      "180 N/kg",
+      "0.05 N/kg"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q30",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Gravitational field intensity (force per unit mass) is not defined by name in the rationalised chapter."
+   }
+  },
+  {
+   "id": "phy11-07-neet-2022-code-t2-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II<br>(a) Gravitational constant (G) — (i) [L<sup>2</sup>T<sup>−2</sup>]<br>(b) Gravitational potential energy — (ii) [M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup>]<br>(c) Gravitational potential — (iii) [LT<sup>−2</sup>]<br>(d) Gravitational intensity — (iv) [ML<sup>2</sup>T<sup>−2</sup>]<br>Choose the correct answer from the options given below :",
+     "o": [
+      "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+      "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.3",
+     "7.7"
+    ],
+    "otherChapters": [
+     "Class 11 · Units and Measurement"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q39",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-07-neet-2023-topic-wise-copy-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two bodies of mass m and 9m are placed at a distance R. The gravitational potential on the line joining the bodies where the gravitational field equals zero, will be (G = gravitational constant) :",
+     "o": [
+      "−20Gm/R",
+      "−8Gm/R",
+      "−12Gm/R",
+      "−16Gm/R"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.7",
+     "7.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q9",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-07-neet-2023-topic-wise-copy-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A satellite is orbiting just above the surface of the earth with period T. If d is the density of the earth and G is the universal constant of gravitation, the quantity 3π/(Gd) represents :",
+     "o": [
+      "√T",
+      "T",
+      "T<sup>2</sup>",
+      "T<sup>3</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q39",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-07-neet-2024-q35-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The minimum energy required to launch a satellite of mass m from the surface of earth of mass M and radius R in a circular orbit at an altitude of 2R from the surface of the earth is :",
+     "o": [
+      "5GmM/(6R)",
+      "2GmM/(3R)",
+      "GmM/(2R)",
+      "GmM/(3R)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q35 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-07-neet-2024-q36-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The mass of a planet is 1/10<sup>th</sup> that of the earth and its diameter is half that of the earth. The acceleration due to gravity on that planet is :",
+     "o": [
+      "19.6 m s<sup>−2</sup>",
+      "9.8 m s<sup>−2</sup>",
+      "4.9 m s<sup>−2</sup>",
+      "3.92 m s<sup>−2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q36 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-07-neet-2025-code-45-q31",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The radius of Martian orbit around the Sun is about 4 times the radius of the orbit of Mercury. The Martian year is 687 Earth days. Then which of the following is the length of 1 year on Mercury?",
+     "o": [
+      "88 earth days",
+      "225 earth days",
+      "172 earth days",
+      "124 earth days"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q31",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2025-code-45-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A body weighs 48 N on the surface of the earth. The gravitational force experienced by the body due to the earth at a height equal to one-third the radius of the earth from its surface is :",
+     "o": [
+      "16 N",
+      "27 N",
+      "32 N",
+      "36 N"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q32",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-07-neet-2026-code-13-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The amount of work done to raise a mass 'm' from the surface of the Earth to a height equal to the radius of the Earth 'R', will be :",
+     "o": [
+      "mgR/2",
+      "mgR",
+      "mgR/4",
+      "2mgR"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-07",
+    "paras": [
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q10",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
