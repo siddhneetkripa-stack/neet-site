@@ -35,7 +35,7 @@ def plain(s):
     s = re.sub(r"(?<=[a-z\u0900-\u097F]{2})/", " / ", s)          # diamond/SiC, हीरा/SiC
     s = re.sub(r"/(?=[a-z\u0900-\u097F]{2})", " / ", s)           # Na/liquid NH3, Na/द्रव NH3
     s = re.sub(r"(?<=[A-Za-z\u0900-\u097F])-(?=[\d\[])", " ", s)      # Pent-1-ene, cis-2-butene / पेन्ट-1-ईन
-    s = re.sub(r"(?<=[a-z\u0900-\u097F])-(?=[A-Z])", " ", s)       # aryl-O, ऐरिल-O
+    s = re.sub(r"(?<=[a-z\u0900-\u097F)])-(?=[A-Z])", " ", s)      # aryl-O, ऐरिल-O
     s = re.sub(r"/(?=[A-Z][a-z]{2})", " / ", s)                       # C6H5COCl/Anhyd. AlCl3, X2/Red P
     s = re.sub(r"(?<=\d)-(?=\()", " ", s)                              # 2-(cyclohexyl)
     s = re.sub(r"(?<![A-Za-z])([A-Z])-(?=[A-Z][a-z])", r"\1 ", s)       # X-Ethanol, Y-But-2-enal
