@@ -7356,6 +7356,320 @@
     "keyCheck": "Official NTA final key (Question ID 695278374): 230; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
    }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-04-05-shift-2-q54",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following data for the reaction X<sub>2</sub>(g) + Y<sub>2</sub>(g) ⇌ 2XY(g) at 600 K. The Δ<sub>r</sub>G° (in kJ mol<sup>−1</sup>) for the reaction is :<br>Δ<sub>f</sub>H°<sub>600 K</sub> (kJ mol<sup>−1</sup>): XY(g) 42, X<sub>2</sub>(g) 8, Y<sub>2</sub>(g) 80; S°<sub>600 K</sub> (J mol<sup>−1</sup> K<sup>−1</sup>): XY(g) 200, X<sub>2</sub>(g) 140, Y<sub>2</sub>(g) 250",
+     "o": [
+      "−21000",
+      "−10",
+      "−1000",
+      "−9.012"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "gibbs-eq",
+     "use-formation"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-05-shift-2 Q54",
+    "session": "5 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121504, option ID 6911211714): option 2 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-04-05-shift-2-q55",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct order of molar heat capacities measured at 298 K and 1 bar is :",
+     "o": [
+      "Copper(s) &gt; Bromine(l) &gt; Helium(g)",
+      "Bromine(l) &gt; Copper(s) &gt; Helium(g)",
+      "Helium(g) &gt; Bromine(l) &gt; Copper(s)",
+      "Helium(g) &gt; Bromine(l) = Copper(s)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "heat-capacity"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-05-shift-2 Q55",
+    "session": "5 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121505, option ID 6911211718): option 2 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-04-06-shift-1-q55",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Arrange the following isothermal processes in order of the magnitude of the work (p − V) involved between states 1 and 2.<br>A. Expansion in single stage w<sub>A</sub><br>B. Expansion in multi stages w<sub>B</sub><br>C. Compression in single stage w<sub>C</sub><br>D. Compression in multi stages w<sub>D</sub><br>Choose the correct option.",
+     "o": [
+      "|w<sub>B</sub>| &gt; |w<sub>A</sub>| &gt; |w<sub>C</sub>| &gt; |w<sub>D</sub>|",
+      "|w<sub>C</sub>| &gt; |w<sub>D</sub>| &gt; |w<sub>A</sub>| &gt; |w<sub>B</sub>|",
+      "|w<sub>C</sub>| &gt; |w<sub>D</sub>| &gt; |w<sub>B</sub>| &gt; |w<sub>A</sub>|",
+      "|w<sub>B</sub>| &gt; |w<sub>A</sub>| &gt; |w<sub>D</sub>| &gt; |w<sub>C</sub>|"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "reversible",
+     "single-step"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-06-shift-1 Q55",
+    "session": "6 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 6952782190, option ID 6952787684): option 3 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-04-06-shift-1-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the reaction X ⇌ Y at 300 K. If ΔH<sup>θ</sup> and K are 28.40 kJ mol<sup>−1</sup> and 1.8 × 10<sup>−7</sup> at the same temperature, then the magnitude of ΔS<sup>θ</sup> for the reaction in J K<sup>−1</sup> mol<sup>−1</sup> is ________. (Nearest integer)<br>(Given : R = 8.3 J K<sup>−1</sup> mol<sup>−1</sup>, ln 10 = 2.3, log 3 = 0.48, log 2 = 0.30)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 34,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "g-and-k",
+     "gibbs-eq"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-06-shift-1 Q75",
+    "session": "6 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 6952782210): 34; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-04-06-shift-2-q54",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List - I with List - II. Given V<sub>1</sub> and V<sub>2</sub> are initial and final volumes respectively.<br>List - I (Isothermal process): A. Reversible expansion B. Free expansion C. Irreversible Compression D. Cyclic reversible<br>List - II (Expression): I. q = 0 II. q = nRT ln(V<sub>2</sub>/V<sub>1</sub>) III. w = −p<sub>ext</sub>(V<sub>1</sub> − V<sub>2</sub>) IV. q<sub>rev</sub>/T = 0<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A-II, B-III, C-I, D-IV",
+      "A-II, B-I, C-IV, D-III",
+      "A-II, B-I, C-III, D-IV",
+      "A-I, B-II, C-III, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "process-summary"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-06-shift-2 Q54",
+    "session": "6 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 6911211254, option ID 6911214265): option 3 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "Expression III is printed as w = −p<sub>ext</sub>(V<sub>1</sub> − V<sub>2</sub>); NCERT writes w = −p<sub>ex</sub>(V<sub>f</sub> − V<sub>i</sub>) = −p<sub>ex</sub>(V<sub>2</sub> − V<sub>1</sub>). NTA's matching (C-III) is unaffected."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-04-06-shift-2-q74",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a closed flask at 600 K, one mole of X<sub>2</sub>Y<sub>4</sub>(g) attains equilibrium as given below : X<sub>2</sub>Y<sub>4</sub>(g) ⇌ 2XY<sub>2</sub>(g)<br>At equilibrium, 75% X<sub>2</sub>Y<sub>4</sub>(g) was dissociated and the total pressure is 1 atm. The magnitude of Δ<sub>r</sub>G° (in kJ mol<sup>−1</sup>) at this temperature is ________. (Nearest Integer)<br>(Given : R = 8.3 J mol<sup>−1</sup> K<sup>−1</sup>; ln 10 = 2.3, log 2 = 0.3, log 3 = 0.48, log 5 = 0.69, log 7 = 0.84)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 8,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "g-and-k"
+    ],
+    "otherChapters": [
+     "Class 11 · Equilibrium"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-06-shift-2 Q74",
+    "session": "6 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 6911211274): 8; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-04-08-shift-2-q74",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the reaction 2H<sub>2</sub>S(g) + 3O<sub>2</sub>(g) → 2H<sub>2</sub>O(l) + 2SO<sub>2</sub>(g). The magnitude of enthalpy change for the reaction in kJ mol<sup>−1</sup> is ________. (Nearest integer)<br>Given : Δ<sub>f</sub>H°(H<sub>2</sub>S) = −20.1 kJ mol<sup>−1</sup>, Δ<sub>f</sub>H°(H<sub>2</sub>O) = −286.0 kJ mol<sup>−1</sup>, Δ<sub>f</sub>H°(SO<sub>2</sub>) = −297.0 kJ mol<sup>−1</sup>"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 1126,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "use-formation"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-08-shift-2 Q74",
+    "session": "8 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121599): 1126; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
   }
  ]
 }

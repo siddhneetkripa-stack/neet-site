@@ -51,6 +51,11 @@ Source of truth for building this site. Every Claude / AI session working on nee
   - Hindi proofreading of the 80 Unit 1 PYQs (status `draft` → `proofread`); the Phase 0 gate ("works in Hindi and English on phone and PC") is met technically with draft Hindi.
   - Move the Reader / PYQ pages to read the bank files (Phase 1), then retire `tools/convert_questions.py`.
   - Content pipeline (two-model check, Hindi review queue).
+- JEE Main Chemistry PYQ session (13 Nov 2026, Claude on the Musafir2507 account), branch `claude/jee-chem-pyq` (from `design/final-b-c`; not merged):
+  - **JEE Main 2026 Session 2 (April) Chemistry fully tagged: 9 shifts, 225 questions** (223 new + 2 already in the Unit 1 bank), batches `content/pyq-batches/jee-2026-04-*-chemistry.json`, added with `tools/add_pyqs.py` (status draft; English transcribed from the official NTA question papers; Hindi and solutions not written yet).
+  - Answers: every one taken from the **official NTA final key (Session 2)** by mapping the key's correct option ID to its position in the official paper (`neet-sources/scripts/pyq-tools/jee_nta_optionkey.py`), and every one also solved by us — all agree. Two keys flagged in notes: 5 Apr S1 Q72 (data give 41.6, key 41), 6 Apr S1 Q67 (NTA's meta-alkylation answer). 8 Apr S2 Q64 (aromatic count) to be checked when the figure is redrawn. 30 diagram questions need redrawn figures.
+  - **Why January 2026 is different:** the official papers have "Question Shuffling: Yes / Option Shuffling: Yes", so the NTA key (by Question ID) cannot be matched to the eSaral copies' order. For Session 1 only the numerical answers can be checked against NTA (as a set); MCQs must be solved independently (as the Unit 1 session did). Earlier years (2020–2025) have the answers printed in the eSaral copies.
+  - Next: JEE Main 2026 Session 1 (10 shifts, eSaral copies), then 2025 → 2020; then solutions + Hindi for all JEE PYQs.
 
 ## 1. Vision and positioning
 

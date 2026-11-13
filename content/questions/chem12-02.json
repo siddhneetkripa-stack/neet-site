@@ -1652,6 +1652,237 @@
     "keyCheck": "Official NTA final key (Question ID 695278448): 2; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
    }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-05-shift-2-q57",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "One half cell in a voltaic cell is constructed by dipping silver rod in AgNO<sub>3</sub> solution of unknown concentration, other half cell is Zn rod dipped in 1 molar solution of ZnSO<sub>4</sub>. A voltage of 1.60 V is measured at 298 K for this cell. What is the concentration of Ag<sup>+</sup> ions used in terms of log x (x = [Ag<sup>+</sup>]) ?<br>E°<sub>Zn<sup>2+</sup>/Zn</sub> = −0.76 V, E°<sub>Ag<sup>+</sup>/Ag</sub> = +0.80 V, 2.303RT/F = 0.059 V",
+     "o": [
+      "2/3.9",
+      "4/5.9",
+      "2.9/2",
+      "5.9/4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-05-shift-2 Q57",
+    "session": "5 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121507, option ID 6911211726): option 2 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-05-shift-2-q74",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At 298 K, the molar conductivity of x% (w/w) MX solution (aqueous) is 123.5 S cm<sup>2</sup> mol<sup>−1</sup>. The conductance of same solution is 1.9 × 10<sup>−3</sup> S. The value of x is ________ × 10<sup>−2</sup>.<br>(Given : cell constant = 1.3 cm<sup>−1</sup>; molar mass of MX is 75 g mol<sup>−1</sup>, density of aqueous solution of MX at 298 K is 1.0 g mL<sup>−1</sup>)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 15,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-05-shift-2 Q74",
+    "session": "5 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121524): 15; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-06-shift-1-q58",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following data: Λ°<sub>m</sub> (S cm<sup>2</sup> mol<sup>−1</sup>) of BaCl<sub>2</sub> = x<sub>1</sub>, H<sub>2</sub>SO<sub>4</sub> = x<sub>2</sub>, HCl = x<sub>3</sub>.<br>BaSO<sub>4</sub> is sparingly soluble in water. If the conductivity of the saturated BaSO<sub>4</sub> solution is x S cm<sup>−1</sup> then the solubility product of BaSO<sub>4</sub> can be given as<br>(Here Λ<sub>m</sub> = αΛ°<sub>m</sub>)",
+     "o": [
+      "10<sup>6</sup>x<sup>2</sup> / [α<sup>2</sup>(x<sub>1</sub> + x<sub>2</sub> − 2x<sub>3</sub>)<sup>2</sup>]",
+      "x<sup>2</sup> / (x<sub>1</sub> + x<sub>2</sub> − 2x<sub>3</sub>)<sup>2</sup>",
+      "α<sup>2</sup>(x<sub>1</sub> + x<sub>2</sub> − 2x<sub>3</sub>)<sup>2</sup> / (10<sup>6</sup>x<sup>2</sup>)",
+      "x<sup>2</sup> / (x<sub>1</sub> + x<sub>2</sub> + 2x<sub>3</sub>)<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Equilibrium (solubility product)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-06-shift-1 Q58",
+    "session": "6 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 6952782193, option ID 6952787694): option 1 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "The paper's note reads “Here Λ<sub>m</sub> = αΛ°<sub>m</sub>” (the image is unclear between = and αΛ°); NTA's answer keeps α in the expression."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-06-shift-2-q57",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a general redox reaction<br>Anode: Red<sub>1</sub> → Ox<sub>1</sub><sup>n<sub>1</sub>+</sup> + n<sub>1</sub>e<sup>−</sup><br>Cathode: Ox<sub>2</sub> + n<sub>2</sub>e<sup>−</sup> → Red<sub>2</sub><sup>n<sub>2</sub>−</sup><br>Which of the following statement is incorrect ?",
+     "o": [
+      "The overall reaction can be written as n<sub>2</sub>Red<sub>1</sub> + n<sub>1</sub>Ox<sub>2</sub> ⇌ n<sub>2</sub>Ox<sub>1</sub><sup>n<sub>1</sub>+</sup> + n<sub>1</sub>Red<sub>2</sub><sup>n<sub>2</sub>−</sup>",
+      "The electrons do not appear in the overall reaction because electrons produced at the anode are consumed at the cathode.",
+      "[Graph of (E − E°)/(RT/F) against log<sub>10</sub>Q with straight lines for n = 1, 2, 3] Here n is the number of electrons transferred in redox reaction.",
+      "If the reaction is carried out reversibly, the electrical work done is equal to the ratio of charge and potential difference through which charge is moved."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3",
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-06-shift-2 Q57",
+    "session": "6 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 6911211257, option ID 6911214278): option 4 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "Option (3) contains a graph (Nernst lines for n = 1, 2, 3, slope ∝ 1/n); needs a redrawn figure before it goes live."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-08-shift-2-q56",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given at 298 K : E°<sub>Fe<sup>2+</sup>/Fe</sub> = X Volt, E°<sub>Fe<sup>3+</sup>/Fe</sub> = Y Volt. The E°<sub>Fe<sup>3+</sup>/Fe<sup>2+</sup></sub> in Volt at 298 K is given by :",
+     "o": [
+      "2X − 3Y",
+      "3Y − 2X",
+      "3Y + 2X",
+      "Y + X"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-08-shift-2 Q56",
+    "session": "8 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121581, option ID 6911211977): option 2 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
   }
  ]
 }
