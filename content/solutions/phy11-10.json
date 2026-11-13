@@ -18,7 +18,7 @@
   "sol": "<p>Wien's displacement law: λ<sub>m</sub> = b/T = 2.88 × 10<sup>6</sup>/5760 = 500 nm. The black-body spectrum peaks at 500 nm, so U<sub>2</sub> is the largest of the three, and none of them is zero.</p><p>Hence <b>U<sub>2</sub> > U<sub>1</sub></b>.</p><p class='errata'>The official key gives (3), U<sub>1</sub> > U<sub>2</sub>, reasoning u ∝ 1/λ<sup>4</sup>; that is not how a black-body spectrum behaves (the energy falls off on both sides of λ<sub>m</sub>).</p>",
   "hint": "Find λ<sub>m</sub> first; the spectrum peaks there.",
   "hi": {
-   "q": "एक कृष्णिका 5760 K ताप पर है। पिंड द्वारा 250 nm तरंगदैर्ध्य पर उत्सर्जित विकिरण की ऊर्जा U<sub>1</sub>, 500 nm तरंगदैर्ध्य पर U<sub>2</sub> और 1000 nm पर U<sub>3</sub> है। वीन नियतांक b = 2.88 × 10<sup>6</sup> nm K। निम्नलिखित में से कौन-सा सही है?",
+   "q": "एक कृष्णिका 5760 K ताप पर है। पिंड द्वारा 250 nm तरंगदैर्घ्य पर उत्सर्जित विकिरण की ऊर्जा U<sub>1</sub>, 500 nm तरंगदैर्घ्य पर U<sub>2</sub> और 1000 nm पर U<sub>3</sub> है। वीन नियतांक b = 2.88 × 10<sup>6</sup> nm K। निम्नलिखित में से कौन-सा सही है?",
    "o": [
     "U<sub>1</sub> = 0",
     "U<sub>3</sub> = 0",
@@ -123,7 +123,7 @@
   "sol": "<p>Wien: λ<sub>m</sub>T = constant. λ<sub>m</sub> becomes (3/4)λ<sub>0</sub> ⇒ T becomes (4/3)T.</p><p>Stefan: P ∝ T<sup>4</sup> ⇒ n = (4/3)<sup>4</sup> = <b>256/81</b>.</p>",
   "hint": "Combine Wien's law with Stefan's law.",
   "hi": {
-   "q": "एक कृष्णिका द्वारा विकिरित शक्ति P है और यह तरंगदैर्ध्य λ<sub>0</sub> पर अधिकतम ऊर्जा विकिरित करती है। यदि अब कृष्णिका का ताप इस प्रकार बदला जाए कि यह तरंगदैर्ध्य (3/4)λ<sub>0</sub> पर अधिकतम ऊर्जा विकिरित करे, तो इसके द्वारा विकिरित शक्ति nP हो जाती है। n का मान है :",
+   "q": "एक कृष्णिका द्वारा विकिरित शक्ति P है और यह तरंगदैर्घ्य λ<sub>0</sub> पर अधिकतम ऊर्जा विकिरित करती है। यदि अब कृष्णिका का ताप इस प्रकार बदला जाए कि यह तरंगदैर्घ्य (3/4)λ<sub>0</sub> पर अधिकतम ऊर्जा विकिरित करे, तो इसके द्वारा विकिरित शक्ति nP हो जाती है। n का मान है :",
    "o": [
     "256/81",
     "4/3",
