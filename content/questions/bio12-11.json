@@ -56,10 +56,22 @@
       "Parasitism",
       "Mutualism",
       "Competition"
-     ]
+     ],
+     "sol": "<p>In <b>competition</b> (− −) both species are harmed, because each reduces the resources or fitness available to the other. Predation and parasitism are + −, mutualism is + +.</p>",
+     "hint": "Both get a minus sign."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से किस पारस्परिक क्रिया में दोनों साथी प्रतिकूल रूप से प्रभावित होते हैं?",
+     "o": [
+      "परभक्षण",
+      "परजीविता",
+      "सहोपकारिता",
+      "स्पर्धा"
+     ],
+     "sol": "<p><b>स्पर्धा</b> (− −) में दोनों जातियों को हानि होती है, क्योंकि प्रत्येक दूसरे के लिए उपलब्ध संसाधन या योग्यता घटाती है। परभक्षण और परजीविता + − हैं, सहोपकारिता + + है।</p>",
+     "hint": "दोनों को ऋण चिह्न।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -102,10 +114,22 @@
       "Competition for the same resources excludes species having different food preferences",
       "No two species can occupy the same niche indefinitely for the same limiting resources",
       "Larger organisms exclude smaller ones through competition"
-     ]
+     ],
+     "sol": "<p>Gause's competitive exclusion principle: two closely related species competing for the same limiting resources cannot co-exist indefinitely; the competitively inferior one is eventually eliminated. In niche terms — <b>no two species can occupy the same niche indefinitely</b> for the same limiting resources.</p>",
+     "hint": "Same resource, same niche, no co-existence."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गॉसे का स्पर्धी अपवर्जन नियम बताता है कि :",
+     "o": [
+      "अधिक संख्या वाली जाति स्पर्धा द्वारा कम संख्या वाली जाति को बाहर कर देगी",
+      "समान संसाधनों के लिए स्पर्धा भिन्न आहार पसंद वाली जातियों को बाहर कर देती है",
+      "समान सीमाकारी संसाधनों के लिए कोई भी दो जातियाँ एक ही निकेत में अनंतकाल तक नहीं रह सकतीं",
+      "बड़े जीव स्पर्धा द्वारा छोटे जीवों को बाहर कर देते हैं"
+     ],
+     "sol": "<p>गॉसे का स्पर्धी अपवर्जन नियम: समान सीमाकारी संसाधनों के लिए स्पर्धा करने वाली दो निकट संबंधित जातियाँ अनंतकाल तक साथ नहीं रह सकतीं; स्पर्धा में कमज़ोर जाति अंततः समाप्त हो जाती है। निकेत के रूप में — <b>समान सीमाकारी संसाधनों के लिए कोई भी दो जातियाँ एक ही निकेत में अनंतकाल तक नहीं रह सकतीं</b>।</p>",
+     "hint": "समान संसाधन, समान निकेत, सहअस्तित्व नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -148,10 +172,22 @@
       "When N nears the carrying capacity of the habitat",
       "When N/K equals zero",
       "When death rate is greater than birth rate"
-     ]
+     ],
+     "sol": "<p>dN/dt = rN(1 − N/K) becomes zero when 1 − N/K = 0, i.e. when <b>N/K is exactly one</b> (N = K, the carrying capacity). Merely 'nearing' K still leaves a small positive growth rate.</p>",
+     "hint": "Put the bracket equal to zero."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "लॉजिस्टिक मॉडल के अनुसार समष्टि की वृद्धि दर कब शून्य होती है? लॉजिस्टिक मॉडल dN/dt = rN(1 − N/K) है",
+     "o": [
+      "जब N/K ठीक एक हो",
+      "जब N आवास की पोषण क्षमता के निकट पहुँचे",
+      "जब N/K शून्य हो",
+      "जब मृत्युदर जन्मदर से अधिक हो"
+     ],
+     "sol": "<p>dN/dt = rN(1 − N/K) तब शून्य होता है जब 1 − N/K = 0, अर्थात् जब <b>N/K ठीक एक</b> हो (N = K, पोषण क्षमता)। केवल K के 'निकट' पहुँचने पर अभी भी थोड़ी धनात्मक वृद्धि दर रहती है।</p>",
+     "hint": "कोष्ठक को शून्य के बराबर रखें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -194,10 +230,22 @@
       "Smaller animals have a higher metabolic rate",
       "Small animals have a lower O<sub>2</sub> requirement",
       "The efficiency of muscles in large animals is less than in the small animals"
-     ]
+     ],
+     "sol": "<p>Small animals have a larger surface area relative to volume and a <b>higher metabolic rate</b> per unit body weight, so they can generate the energy for running uphill more easily. (This topic was in the old NCERT and was dropped in 2024.)</p>",
+     "hint": "Per gram, small animals burn energy faster."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक छोटे जंतु के लिए बड़े जंतु की तुलना में चढ़ाई पर दौड़ना बहुत आसान होता है, क्योंकि :",
+     "o": [
+      "कम शरीर भार उठाना आसान होता है",
+      "छोटे जंतुओं की उपापचयी दर अधिक होती है",
+      "छोटे जंतुओं की O<sub>2</sub> आवश्यकता कम होती है",
+      "बड़े जंतुओं में पेशियों की दक्षता छोटे जंतुओं से कम होती है"
+     ],
+     "sol": "<p>छोटे जंतुओं में आयतन की तुलना में सतह क्षेत्र अधिक और प्रति इकाई शरीर भार <b>उपापचयी दर अधिक</b> होती है, अतः वे चढ़ाई पर दौड़ने के लिए ऊर्जा आसानी से उत्पन्न कर लेते हैं। (यह विषय पुरानी NCERT में था और 2024 में हटा दिया गया।)</p>",
+     "hint": "प्रति ग्राम, छोटे जंतु ऊर्जा तेज़ी से खर्च करते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -239,10 +287,22 @@
       "Large number of progeny with large size",
       "Small number of progeny with small size",
       "Small number of progeny with large size"
-     ]
+     ],
+     "sol": "<p>r-selected species (high intrinsic rate of increase) produce a <b>large number of small-sized progeny</b> with little parental care; K-selected species produce few, large offspring.</p>",
+     "hint": "r = many and small."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "r-चयनित जातियों के लिए निम्नलिखित में से कौन-सा सही है?",
+     "o": [
+      "छोटे आकार की अधिक संख्या में संतति",
+      "बड़े आकार की अधिक संख्या में संतति",
+      "छोटे आकार की कम संख्या में संतति",
+      "बड़े आकार की कम संख्या में संतति"
+     ],
+     "sol": "<p>r-चयनित जातियाँ (उच्च नैज वृद्धि दर) कम पैतृक देखभाल के साथ <b>छोटे आकार की अधिक संख्या में संतति</b> उत्पन्न करती हैं; K-चयनित जातियाँ कम, बड़ी संतति देती हैं।</p>",
+     "hint": "r = अधिक और छोटी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -285,10 +345,22 @@
       "Amensalism",
       "Commensalism",
       "Parasitism"
-     ]
+     ],
+     "sol": "<p>An interaction where one species benefits (+) and the other is harmed (−) is predation or <b>parasitism</b>. Of the options, only parasitism is + −; mutualism is + +, commensalism + 0, amensalism − 0.</p>",
+     "hint": "+ − options: predation, parasitism."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि लाभदायक पारस्परिक क्रिया को '+' चिह्न, हानिकारक को '–' तथा उदासीन को '0' चिह्न दिया जाए, तो '+' '–' द्वारा निरूपित समष्टि पारस्परिक क्रिया है :",
+     "o": [
+      "सहोपकारिता",
+      "एमेन्सेलिज्म (amensalism)",
+      "सहभोजिता",
+      "परजीविता"
+     ],
+     "sol": "<p>जिस पारस्परिक क्रिया में एक जाति को लाभ (+) और दूसरी को हानि (−) हो, वह परभक्षण या <b>परजीविता</b> है। विकल्पों में केवल परजीविता + − है; सहोपकारिता + +, सहभोजिता + 0, एमेन्सेलिज्म − 0 है।</p>",
+     "hint": "+ − वाले: परभक्षण, परजीविता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -331,10 +403,22 @@
       "G. F. Gause",
       "MacArthur",
       "Verhulst and Pearl"
-     ]
+     ],
+     "sol": "<p>The competitive exclusion principle was stated by <b>G. F. Gause</b>, from his experiments with <i>Paramecium</i>. MacArthur showed resource partitioning in warblers; Verhulst and Pearl gave the logistic growth model.</p>",
+     "hint": "Gause's principle."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्पर्धी अपवर्जन का नियम किसने दिया?",
+     "o": [
+      "C. डार्विन",
+      "G. F. गॉसे",
+      "मैकआर्थर",
+      "विर्हुस्ट तथा पर्ल"
+     ],
+     "sol": "<p>स्पर्धी अपवर्जन नियम <b>G. F. गॉसे</b> ने <i>पैरामीशियम</i> पर अपने प्रयोगों से दिया। मैकआर्थर ने वार्बलर पक्षियों में संसाधन विभाजन दिखाया; विर्हुस्ट तथा पर्ल ने लॉजिस्टिक वृद्धि मॉडल दिया।</p>",
+     "hint": "गॉसे का नियम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -377,10 +461,22 @@
       "Amensalism",
       "Antibiosis",
       "Mutualism"
-     ]
+     ],
+     "sol": "<p>Mycorrhizae are associations between fungi and roots of higher plants: the fungus helps the plant absorb nutrients and the plant provides the fungus with carbohydrates — <b>mutualism</b> (+ +).</p>",
+     "hint": "Both partners gain."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कवकमूल (माइकोराइजा) किसका उदाहरण है?",
+     "o": [
+      "कवकस्थैतिकता (fungistasis)",
+      "एमेन्सेलिज्म",
+      "प्रतिजीविता (antibiosis)",
+      "सहोपकारिता"
+     ],
+     "sol": "<p>कवकमूल कवकों और उच्च पादपों की जड़ों का सहयोग है: कवक पादप को पोषक तत्व अवशोषित करने में सहायता करता है और पादप कवक को कार्बोहाइड्रेट देता है — <b>सहोपकारिता</b> (+ +)।</p>",
+     "hint": "दोनों साथियों को लाभ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -423,10 +519,22 @@
       "K = N",
       "K > N",
       "K < N"
-     ]
+     ],
+     "sol": "<p>In logistic growth the curve levels off (the asymptote) when the population density reaches the carrying capacity: <b>K = N</b>, so (K − N)/K = 0 and growth stops.</p>",
+     "hint": "Plateau at the carrying capacity."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "लॉजिस्टिक वृद्धि वक्र में अनंतस्पर्शी प्रावस्था कब प्राप्त होती है?",
+     "o": [
+      "जब 'r' का मान शून्य की ओर जाता है",
+      "K = N",
+      "K > N",
+      "K < N"
+     ],
+     "sol": "<p>लॉजिस्टिक वृद्धि में वक्र समतल (अनंतस्पर्शी) तब होता है जब समष्टि घनत्व पोषण क्षमता तक पहुँच जाता है: <b>K = N</b>, अतः (K − N)/K = 0 और वृद्धि रुक जाती है।</p>",
+     "hint": "पोषण क्षमता पर पठार।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -469,10 +577,22 @@
       "Birth rate",
       "Death rate",
       "Number of individuals entering a habitat"
-     ]
+     ],
+     "sol": "<p><b>Natality</b> is the number of births during a given period in the population that are added to the initial density — the birth rate. Mortality is the death rate; immigration and emigration are individuals entering and leaving.</p>",
+     "hint": "Natal means birth."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जन्मदर (natality) से तात्पर्य है :",
+     "o": [
+      "आवास छोड़ने वाले जीवों की संख्या",
+      "जन्म दर",
+      "मृत्यु दर",
+      "आवास में आने वाले जीवों की संख्या"
+     ],
+     "sol": "<p><b>जन्मदर</b> किसी समय अवधि में समष्टि में होने वाले जन्मों की संख्या है जो प्रारंभिक घनत्व में जुड़ती है। मृत्युदर मृत्यु की दर है; आप्रवासन और उत्प्रवासन क्रमशः आने और जाने वाले जीव हैं।</p>",
+     "hint": "जन्म से।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -515,10 +635,22 @@
       "the physical space where an organism lives",
       "all the biological factors in the organism's environment",
       "the functional role played by the organism where it lives"
-     ]
+     ],
+     "sol": "<p>A niche is the <b>functional role</b> of an organism in its ecosystem — the range of conditions it tolerates, the resources it uses and its interactions. The physical space where it lives is its habitat. (This topic was in the old NCERT and was dropped in 2024.)</p>",
+     "hint": "Niche = profession; habitat = address."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निकेत (niche) है :",
+     "o": [
+      "जीव को जीवित रहने के लिए आवश्यक ताप का परास",
+      "वह भौतिक स्थान जहाँ जीव रहता है",
+      "जीव के पर्यावरण के सभी जैविक कारक",
+      "जीव जहाँ रहता है वहाँ उसके द्वारा निभाई गई कार्यात्मक भूमिका"
+     ],
+     "sol": "<p>निकेत जीव की अपने पारितंत्र में <b>कार्यात्मक भूमिका</b> है — वह जिन दशाओं को सहता है, जिन संसाधनों का उपयोग करता है और जो पारस्परिक क्रियाएँ करता है। जहाँ वह रहता है वह भौतिक स्थान उसका आवास है। (यह विषय पुरानी NCERT में था और 2024 में हटा दिया गया।)</p>",
+     "hint": "निकेत = व्यवसाय; आवास = पता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -560,10 +692,22 @@
       "Mutualism",
       "Commensalism",
       "Amensalism"
-     ]
+     ],
+     "sol": "<p>In <b>amensalism</b> (− 0) one species is harmed and the other is unaffected. <i>Penicillium</i> secretes penicillin, which kills bacteria while the fungus is unaffected — this interaction is used to produce antibiotics.</p>",
+     "hint": "Penicillium vs bacteria."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सी समष्टि पारस्परिक क्रिया आयुर्विज्ञान में प्रतिजैविकों के उत्पादन के लिए व्यापक रूप से प्रयुक्त होती है?",
+     "o": [
+      "परजीविता",
+      "सहोपकारिता",
+      "सहभोजिता",
+      "एमेन्सेलिज्म"
+     ],
+     "sol": "<p><b>एमेन्सेलिज्म</b> (− 0) में एक जाति को हानि होती है और दूसरी अप्रभावित रहती है। <i>Penicillium</i> पेनिसिलिन स्रावित करता है जो जीवाणुओं को मारता है जबकि कवक अप्रभावित रहता है — यही पारस्परिक क्रिया प्रतिजैविक उत्पादन में प्रयुक्त होती है।</p>",
+     "hint": "<i>Penicillium</i> बनाम जीवाणु।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -606,10 +750,22 @@
       "reproductive individuals are less than the post-reproductive individuals.",
       "pre-reproductive individuals are more than the reproductive individuals.",
       "pre-reproductive individuals are less than the reproductive individuals."
-     ]
+     ],
+     "sol": "<p>A growing (expanding) population has a broad-based age pyramid: <b>pre-reproductive individuals are more than the reproductive</b> ones, which are more than the post-reproductive.</p>",
+     "hint": "Wide base = many young."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी देश की बढ़ती समष्टि में :",
+     "o": [
+      "जननक्षम तथा जनन-पूर्व जीवों की संख्या बराबर होती है।",
+      "जननक्षम जीव जनन-पश्च जीवों से कम होते हैं।",
+      "जनन-पूर्व जीव जननक्षम जीवों से अधिक होते हैं।",
+      "जनन-पूर्व जीव जननक्षम जीवों से कम होते हैं।"
+     ],
+     "sol": "<p>बढ़ती समष्टि का आयु पिरामिड चौड़े आधार वाला होता है: <b>जनन-पूर्व जीव जननक्षम जीवों से अधिक</b> होते हैं, और जननक्षम जनन-पश्च से अधिक।</p>",
+     "hint": "चौड़ा आधार = अधिक युवा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -652,10 +808,22 @@
       "Species interaction",
       "Sex ratio",
       "Natality"
-     ]
+     ],
+     "sol": "<p>Population attributes (which individuals don't have) include birth rate (natality), death rate (mortality), sex ratio and age distribution. <b>Species interaction</b> concerns two different populations, not an attribute of one population.</p>",
+     "hint": "An attribute belongs to one population."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा समष्टि का गुण नहीं है?",
+     "o": [
+      "मृत्युदर",
+      "जाति पारस्परिक क्रिया",
+      "लिंग अनुपात",
+      "जन्मदर"
+     ],
+     "sol": "<p>समष्टि के गुण (जो व्यष्टियों में नहीं होते) हैं जन्मदर, मृत्युदर, लिंग अनुपात तथा आयु-वितरण। <b>जाति पारस्परिक क्रिया</b> दो भिन्न समष्टियों से संबंधित है, एक समष्टि का गुण नहीं।</p>",
+     "hint": "गुण एक समष्टि का होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -698,10 +866,22 @@
       "Resource partitioning",
       "Competitive release",
       "Mutualism"
-     ]
+     ],
+     "sol": "<p>Competing species can co-exist by <b>resource partitioning</b> — choosing different times for feeding or different foraging patterns (MacArthur's five warbler species on the same tree).</p>",
+     "hint": "MacArthur's warblers."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रकृति में अंतरजातीय स्पर्धा के बावजूद स्पर्धी जातियों ने अपने अस्तित्व के लिए कौन-सी क्रियाविधि विकसित की होगी?",
+     "o": [
+      "परभक्षण",
+      "संसाधन विभाजन",
+      "स्पर्धी मुक्ति (competitive release)",
+      "सहोपकारिता"
+     ],
+     "sol": "<p>स्पर्धी जातियाँ <b>संसाधन विभाजन</b> द्वारा साथ रह सकती हैं — भोजन के लिए भिन्न समय या भिन्न चारण प्रतिरूप चुनकर (एक ही पेड़ पर मैकआर्थर की पाँच वार्बलर जातियाँ)।</p>",
+     "hint": "मैकआर्थर के वार्बलर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -744,10 +924,22 @@
       "Species A (–); Species B (0)",
       "Species A (+); Species B (+)",
       "Species A (–); Species B (–)"
-     ]
+     ],
+     "sol": "<p>In amensalism one species is harmed (−) and the other is unaffected (0): <b>Species A (–); Species B (0)</b>.</p>",
+     "hint": "Minus and zero."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एमेन्सेलिज्म को किस प्रकार निरूपित किया जा सकता है?",
+     "o": [
+      "जाति A (+); जाति B (0)",
+      "जाति A (–); जाति B (0)",
+      "जाति A (+); जाति B (+)",
+      "जाति A (–); जाति B (–)"
+     ],
+     "sol": "<p>एमेन्सेलिज्म में एक जाति को हानि (−) होती है और दूसरी अप्रभावित (0) रहती है: <b>जाति A (–); जाति B (0)</b>।</p>",
+     "hint": "ऋण और शून्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -790,10 +982,22 @@
       "The base of number logarithms",
       "The base of exponential logarithms",
       "The base of natural logarithms"
-     ]
+     ],
+     "sol": "<p>In N<sub>t</sub> = N<sub>0</sub>e<sup>rt</sup>, e is the <b>base of natural logarithms</b> (2.71828); N<sub>t</sub> is the density after time t, N<sub>0</sub> the density at time zero and r the intrinsic rate of natural increase.</p>",
+     "hint": "e ≈ 2.718."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "चरघातांकी वृद्धि समीकरण N<sub>t</sub> = N<sub>0</sub>e<sup>rt</sup> में e निरूपित करता है :",
+     "o": [
+      "ज्यामितीय लघुगणक का आधार",
+      "संख्या लघुगणक का आधार",
+      "चरघातांकी लघुगणक का आधार",
+      "प्राकृतिक लघुगणक का आधार"
+     ],
+     "sol": "<p>N<sub>t</sub> = N<sub>0</sub>e<sup>rt</sup> में e <b>प्राकृतिक लघुगणक का आधार</b> (2.71828) है; N<sub>t</sub> समय t के बाद का घनत्व, N<sub>0</sub> शून्य समय पर घनत्व और r प्राकृतिक वृद्धि की नैज दर है।</p>",
+     "hint": "e ≈ 2.718।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -837,10 +1041,22 @@
       "(a) iv, (b) ii, (c) iii, (d) i",
       "(a) iv, (b) i, (c) iii, (d) ii",
       "(a) iv, (b) i, (c) ii, (d) iii"
-     ]
+     ],
+     "sol": "<ul><li>(a) Allen's rule (shorter ears and limbs in cold climates to reduce heat loss) — polar seal (iv).</li><li>(b) Physiological adaptation — kangaroo rat, which meets its water needs by internal fat oxidation and concentrated urine (i).</li><li>(c) Behavioural adaptation — desert lizard basking in the sun or hiding in shade (ii).</li><li>(d) Biochemical adaptation — fish living at great depths in the sea (iii).</li></ul><p>(a) iv, (b) i, (c) ii, (d) iii. (Old NCERT topic, dropped in 2024.)</p>",
+     "hint": "Lizard behaviour = basking."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(a) एलेन का नियम — (i) कंगारू चूहा<br>(b) कार्यिकीय अनुकूलन — (ii) मरुस्थलीय छिपकली<br>(c) व्यावहारिक अनुकूलन — (iii) गहराई पर समुद्री मछली<br>(d) जैवरासायनिक अनुकूलन — (iv) ध्रुवीय सील",
+     "o": [
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) iv, (b) ii, (c) iii, (d) i",
+      "(a) iv, (b) i, (c) iii, (d) ii",
+      "(a) iv, (b) i, (c) ii, (d) iii"
+     ],
+     "sol": "<ul><li>(a) एलेन का नियम (ठंडी जलवायु में ऊष्मा हानि घटाने के लिए छोटे कान और पाद) — ध्रुवीय सील (iv)।</li><li>(b) कार्यिकीय अनुकूलन — कंगारू चूहा, जो आंतरिक वसा ऑक्सीकरण और सांद्र मूत्र से जल की आवश्यकता पूरी करता है (i)।</li><li>(c) व्यावहारिक अनुकूलन — मरुस्थलीय छिपकली का धूप सेंकना या छाया में छिपना (ii)।</li><li>(d) जैवरासायनिक अनुकूलन — समुद्र की बहुत गहराई में रहने वाली मछली (iii)।</li></ul><p>(a) iv, (b) i, (c) ii, (d) iii। (पुरानी NCERT का विषय, 2024 में हटाया गया।)</p>",
+     "hint": "छिपकली का व्यवहार = धूप सेंकना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -883,10 +1099,22 @@
       "Both (A) and (R) are true and (R) is the correct explanation of (A)",
       "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
       "(A) is true but (R) is false"
-     ]
+     ],
+     "sol": "<p>A is true: at high altitude people get altitude sickness (nausea, fatigue, heart palpitations). R is true and explains it: low atmospheric pressure means the body does not get enough oxygen. Over time the body compensates by making more RBCs. (Old NCERT topic, dropped in 2024.)</p>",
+     "hint": "Less pressure → less O₂ → sickness."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अभिकथन (A) : कोई व्यक्ति अधिक ऊँचाई पर जाता है और उसे साँस लेने में कठिनाई तथा हृदय की धड़कन बढ़ने जैसे लक्षणों के साथ 'तुंगता बीमारी' होती है।<br>कारण (R) : अधिक ऊँचाई पर कम वायुमंडलीय दाब के कारण शरीर को पर्याप्त ऑक्सीजन नहीं मिलती।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।",
+     "o": [
+      "(A) गलत है परंतु (R) सही है",
+      "(A) और (R) दोनों सही हैं तथा (R), (A) की सही व्याख्या है",
+      "(A) और (R) दोनों सही हैं परंतु (R), (A) की सही व्याख्या नहीं है",
+      "(A) सही है परंतु (R) गलत है"
+     ],
+     "sol": "<p>A सही है: अधिक ऊँचाई पर लोगों को तुंगता बीमारी (मितली, थकान, हृदय की धड़कन बढ़ना) होती है। R सही है और इसकी व्याख्या करता है: कम वायुमंडलीय दाब के कारण शरीर को पर्याप्त ऑक्सीजन नहीं मिलती। समय के साथ शरीर अधिक RBC बनाकर इसकी पूर्ति करता है। (पुरानी NCERT का विषय, 2024 में हटाया गया।)</p>",
+     "hint": "कम दाब → कम O₂ → बीमारी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -929,10 +1157,22 @@
       "Both the interacting species are negatively impacted",
       "It is necessitated by nature to maintain the ecological balance",
       "It helps in maintaining species diversity in a community"
-     ]
+     ],
+     "sol": "<p>Predation is a + − interaction: the predator benefits and only the prey is harmed. So 'both species are negatively impacted' cannot describe predation. Predation can drive a prey species extinct (if overexploited), is nature's way of keeping balance, and maintains species diversity by reducing competition among prey.</p>",
+     "hint": "Predator gains, prey loses."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन परभक्षण से नहीं जोड़ा जा सकता?",
+     "o": [
+      "इससे किसी जाति का विलोपन हो सकता है",
+      "पारस्परिक क्रिया करने वाली दोनों जातियाँ नकारात्मक रूप से प्रभावित होती हैं",
+      "पारिस्थितिक संतुलन बनाए रखने के लिए प्रकृति को इसकी आवश्यकता है",
+      "यह समुदाय में जाति विविधता बनाए रखने में सहायता करता है"
+     ],
+     "sol": "<p>परभक्षण + − पारस्परिक क्रिया है: परभक्षी को लाभ होता है और केवल शिकार को हानि। अतः 'दोनों जातियाँ नकारात्मक रूप से प्रभावित' परभक्षण का वर्णन नहीं हो सकता। अतिदोहन होने पर परभक्षण से शिकार जाति विलुप्त हो सकती है, यह प्रकृति का संतुलन रखने का तरीका है, और शिकार जातियों के बीच स्पर्धा घटाकर जाति विविधता बनाए रखता है।</p>",
+     "hint": "परभक्षी को लाभ, शिकार को हानि।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -975,10 +1215,22 @@
       "Commensalism",
       "Competition",
       "Predation"
-     ]
+     ],
+     "sol": "<p>(+) for one and (−) for the other: <b>predation</b> (also parasitism). Amensalism is − 0, commensalism + 0, competition − −.</p>",
+     "hint": "Predator +, prey −."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समष्टि की अंतरजातीय पारस्परिक क्रिया को समझाते समय लाभदायक पारस्परिक क्रिया के लिए (+) चिह्न, हानिकारक के लिए (−) चिह्न तथा उदासीन के लिए (0) चिह्न दिया जाता है। निम्नलिखित में से किस पारस्परिक क्रिया में एक जाति को (+) तथा दूसरी जाति को (−) दिया जा सकता है?",
+     "o": [
+      "एमेन्सेलिज्म",
+      "सहभोजिता",
+      "स्पर्धा",
+      "परभक्षण"
+     ],
+     "sol": "<p>एक के लिए (+) और दूसरी के लिए (−): <b>परभक्षण</b> (और परजीविता)। एमेन्सेलिज्म − 0, सहभोजिता + 0, स्पर्धा − − है।</p>",
+     "hint": "परभक्षी +, शिकार −।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1022,10 +1274,22 @@
       "1.0",
       "zero",
       "0.1"
-     ]
+     ],
+     "sol": "<p>Death rate = deaths ÷ population = 8 ÷ 80 = <b>0.1</b> individuals per <i>Drosophila</i> per week (NCERT's own worked example).</p>",
+     "hint": "Per capita rate."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि प्रयोगशाला की '80' <i>Drosophila</i> की समष्टि में से '8' एक सप्ताह में मर गईं, तो समष्टि में मृत्युदर ___ जीव प्रति <i>Drosophila</i> प्रति सप्ताह है।",
+     "o": [
+      "10",
+      "1.0",
+      "शून्य",
+      "0.1"
+     ],
+     "sol": "<p>मृत्युदर = मृत्यु ÷ समष्टि = 8 ÷ 80 = <b>0.1</b> जीव प्रति <i>Drosophila</i> प्रति सप्ताह (NCERT का अपना हल किया उदाहरण)।</p>",
+     "hint": "प्रति व्यष्टि दर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1068,10 +1332,22 @@
       "Both Statement I and Statement II are true",
       "Both Statement I and Statement II are false",
       "Statement I is correct but Statement II is false."
-     ]
+     ],
+     "sol": "<p>Statement I is correct — it is NCERT's statement of Gause's principle. Statement II is false: NCERT says that, in general, <b>herbivores and plants</b> are more adversely affected by competition than carnivores.</p>",
+     "hint": "NCERT names herbivores and plants."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : गॉसे का 'स्पर्धी अपवर्जन नियम' बताता है कि समान संसाधनों के लिए स्पर्धा करने वाली दो निकट संबंधित जातियाँ अनंतकाल तक साथ नहीं रह सकतीं और स्पर्धा में कमज़ोर जाति अंततः समाप्त हो जाएगी।<br>कथन II : सामान्यतः, शाकाहारियों की अपेक्षा मांसाहारी स्पर्धा से अधिक प्रतिकूल रूप से प्रभावित होते हैं।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "कथन I गलत है परंतु कथन II सत्य है",
+      "कथन I तथा कथन II दोनों सत्य हैं",
+      "कथन I तथा कथन II दोनों असत्य हैं",
+      "कथन I सही है परंतु कथन II असत्य है।"
+     ],
+     "sol": "<p>कथन I सही है — यह गॉसे के नियम का NCERT कथन है। कथन II असत्य है: NCERT के अनुसार सामान्यतः मांसाहारियों की अपेक्षा <b>शाकाहारी और पादप</b> स्पर्धा से अधिक प्रतिकूलतः प्रभावित होते हैं।</p>",
+     "hint": "NCERT शाकाहारी और पादप बताता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1115,10 +1391,22 @@
       "A-IV, B-II, C-I, D-III",
       "A-IV, B-I, C-II, D-III",
       "A-IV, B-III, C-I, D-II"
-     ]
+     ],
+     "sol": "<ul><li>(A) Mutualism — +(A), +(B) (IV).</li><li>(B) Commensalism — +(A), 0(B) (I).</li><li>(C) Amensalism — −(A), 0(B) (II).</li><li>(D) Parasitism — +(A), −(B) (III).</li></ul><p>A-IV, B-I, C-II, D-III.</p>",
+     "hint": "NCERT Table 11.1."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>सूची-I (पारस्परिक क्रिया) — सूची-II (जाति A तथा B)<br>(A) सहोपकारिता — (I) +(A), 0(B)<br>(B) सहभोजिता — (II) −(A), 0(B)<br>(C) एमेन्सेलिज्म — (III) +(A), −(B)<br>(D) परजीविता — (IV) +(A), +(B)",
+     "o": [
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-II, C-I, D-III",
+      "A-IV, B-I, C-II, D-III",
+      "A-IV, B-III, C-I, D-II"
+     ],
+     "sol": "<ul><li>(A) सहोपकारिता — +(A), +(B) (IV)।</li><li>(B) सहभोजिता — +(A), 0(B) (I)।</li><li>(C) एमेन्सेलिज्म — −(A), 0(B) (II)।</li><li>(D) परजीविता — +(A), −(B) (III)।</li></ul><p>A-IV, B-I, C-II, D-III।</p>",
+     "hint": "NCERT सारणी 11.1।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1162,10 +1450,22 @@
       "A-I, B-II, C-III, D-IV",
       "A-I, B-II, C-IV, D-III",
       "A-III, B-IV, C-I, D-II"
-     ]
+     ],
+     "sol": "<ul><li>(A) Leopard and lion in the same forest — competition for prey (I).</li><li>(B) Cuckoo laying eggs in a crow's nest — brood parasitism (II).</li><li>(C) Fungi and plant roots in mycorrhizae — mutualism (III).</li><li>(D) Cattle egret and grazing cattle — commensalism (IV).</li></ul><p>A-I, B-II, C-III, D-IV.</p>",
+     "hint": "All four are NCERT examples."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>सूची-I (पारस्परिक क्रिया करने वाली जातियाँ) — सूची-II (पारस्परिक क्रिया का नाम)<br>(A) वन/घास स्थल में तेंदुआ तथा शेर — (I) स्पर्धा<br>(B) कौवे के घोंसले में अंडे देती कोयल — (II) अंड परजीविता<br>(C) कवकमूल में कवक तथा उच्च पादप की जड़ — (III) सहोपकारिता<br>(D) खेत में बगुला तथा मवेशी — (IV) सहभोजिता",
+     "o": [
+      "A-II, B-III, C-I, D-IV",
+      "A-I, B-II, C-III, D-IV",
+      "A-I, B-II, C-IV, D-III",
+      "A-III, B-IV, C-I, D-II"
+     ],
+     "sol": "<ul><li>(A) एक ही वन में तेंदुआ और शेर — शिकार के लिए स्पर्धा (I)।</li><li>(B) कौवे के घोंसले में कोयल के अंडे — अंड परजीविता (II)।</li><li>(C) कवकमूल में कवक और पादप की जड़ें — सहोपकारिता (III)।</li><li>(D) बगुला और चरते मवेशी — सहभोजिता (IV)।</li></ul><p>A-I, B-II, C-III, D-IV।</p>",
+     "hint": "चारों NCERT के उदाहरण हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1208,10 +1508,22 @@
       "A-II, B-I, C-III, D-IV",
       "A-II, B-III, C-I, D-IV",
       "A-II, B-IV, C-I, D-III"
-     ]
+     ],
+     "sol": "<ul><li>(A) Logistic growth — limited resources (II).</li><li>(B) Exponential growth — unlimited resources (I).</li><li>(C) Expanding age pyramid — pre-reproductive largest, then reproductive, then post-reproductive (III).</li><li>(D) Stable age pyramid — pre-reproductive and reproductive groups about the same (IV).</li></ul><p>A-II, B-I, C-III, D-IV.</p>",
+     "hint": "Exponential needs unlimited resources."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(A) लॉजिस्टिक वृद्धि — (I) असीमित संसाधन उपलब्धता की दशा<br>(B) चरघातांकी वृद्धि — (II) सीमित संसाधन उपलब्धता की दशा<br>(C) बढ़ता आयु पिरामिड — (III) जनन-पूर्व आयु के जीवों का प्रतिशत सबसे अधिक, उसके बाद जननक्षम तथा जनन-पश्च आयु वर्ग<br>(D) स्थिर आयु पिरामिड — (IV) जनन-पूर्व तथा जननक्षम आयु वर्ग के जीवों का प्रतिशत समान",
+     "o": [
+      "A-II, B-IV, C-III, D-I",
+      "A-II, B-I, C-III, D-IV",
+      "A-II, B-III, C-I, D-IV",
+      "A-II, B-IV, C-I, D-III"
+     ],
+     "sol": "<ul><li>(A) लॉजिस्टिक वृद्धि — सीमित संसाधन (II)।</li><li>(B) चरघातांकी वृद्धि — असीमित संसाधन (I)।</li><li>(C) बढ़ता आयु पिरामिड — जनन-पूर्व सबसे अधिक, फिर जननक्षम, फिर जनन-पश्च (III)।</li><li>(D) स्थिर आयु पिरामिड — जनन-पूर्व और जननक्षम वर्ग लगभग बराबर (IV)।</li></ul><p>A-II, B-I, C-III, D-IV।</p>",
+     "hint": "चरघातांकी वृद्धि के लिए असीमित संसाधन चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1256,10 +1568,22 @@
       "Biotic potential",
       "Carrying capacity",
       "Population density"
-     ]
+     ],
+     "sol": "<p>In dN/dt = rN[(K − N)/K], N is population density, r the intrinsic rate of natural increase and K the <b>carrying capacity</b> — the maximum population the habitat can support.</p>",
+     "hint": "The ceiling the curve approaches."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "विर्हुस्ट-पर्ल लॉजिस्टिक वृद्धि का समीकरण dN/dt = rN[(K − N)/K] है। इस समीकरण में K दर्शाता है :",
+     "o": [
+      "प्राकृतिक वृद्धि की नैज दर",
+      "जैविक विभव",
+      "पोषण क्षमता",
+      "समष्टि घनत्व"
+     ],
+     "sol": "<p>dN/dt = rN[(K − N)/K] में N समष्टि घनत्व, r प्राकृतिक वृद्धि की नैज दर तथा K <b>पोषण क्षमता</b> है — आवास द्वारा पोषित की जा सकने वाली अधिकतम समष्टि।</p>",
+     "hint": "वह सीमा जिसकी ओर वक्र बढ़ता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1302,10 +1626,22 @@
       "Statement I is true but Statement II is false",
       "Statement I is false but Statement II is true",
       "Both Statement I and Statement II are true"
-     ]
+     ],
+     "sol": "<p>Statement I is false: Gause's principle is about species competing for the <b>same</b> resources, not different ones. Statement II is true: the inferior competitor is eliminated, and NCERT notes this may hold when resources are limiting.</p>",
+     "hint": "Same resources, not different."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : गॉसे का स्पर्धी अपवर्जन नियम बताता है कि भिन्न संसाधनों के लिए स्पर्धा करने वाली दो निकट संबंधित जातियाँ अनंतकाल तक साथ नहीं रह सकतीं।<br>कथन II : गॉसे के नियम के अनुसार स्पर्धा के दौरान कमज़ोर जाति समाप्त हो जाएगी। यह तब सत्य हो सकता है जब संसाधन सीमित हों।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों असत्य हैं",
+      "कथन I सत्य है परंतु कथन II असत्य है",
+      "कथन I असत्य है परंतु कथन II सत्य है",
+      "कथन I तथा कथन II दोनों सत्य हैं"
+     ],
+     "sol": "<p>कथन I असत्य है: गॉसे का नियम <b>समान</b> संसाधनों के लिए स्पर्धा करने वाली जातियों के बारे में है, भिन्न के नहीं। कथन II सत्य है: कमज़ोर स्पर्धी समाप्त हो जाता है, और NCERT के अनुसार यह तब सत्य हो सकता है जब संसाधन सीमित हों।</p>",
+     "hint": "समान संसाधन, भिन्न नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1348,10 +1684,22 @@
       "Mutualism",
       "Predation",
       "Amensalism"
-     ]
+     ],
+     "sol": "<p>NCERT: an orchid growing as an epiphyte on a mango branch benefits, while the mango tree gets neither harm nor benefit — <b>commensalism</b> (+ 0).</p>",
+     "hint": "One gains, the other is unaffected."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आम की शाखा पर उगने वाले अधिपादप निम्नलिखित में से किसका उदाहरण हैं?",
+     "o": [
+      "सहभोजिता",
+      "सहोपकारिता",
+      "परभक्षण",
+      "एमेन्सेलिज्म"
+     ],
+     "sol": "<p>NCERT: आम की शाखा पर अधिपादप के रूप में उगने वाले ऑर्किड को लाभ होता है, जबकि आम के पेड़ को न हानि न लाभ — <b>सहभोजिता</b> (+ 0)।</p>",
+     "hint": "एक को लाभ, दूसरा अप्रभावित।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1394,10 +1742,22 @@
       "Ramdeo Misra",
       "Ram Udar",
       "Birbal Sahni"
-     ]
+     ],
+     "sol": "<p><b>Ramdeo Misra</b> (born 1908) is revered as the father of ecology in India; he laid the foundations of tropical community and production ecology and set up ecology teaching and research in India. (Misra appears in NCERT's unit opener, not in the chapter text.)</p>",
+     "hint": "NCERT's ecology unit biography."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "भारत में पारिस्थितिकी के जनक के रूप में किसे जाना जाता है?",
+     "o": [
+      "S.R. कश्यप",
+      "रामदेव मिश्रा",
+      "राम उदार",
+      "बीरबल साहनी"
+     ],
+     "sol": "<p><b>रामदेव मिश्रा</b> (जन्म 1908) भारत में पारिस्थितिकी के जनक के रूप में जाने जाते हैं; उन्होंने उष्णकटिबंधीय समुदाय तथा उत्पादन पारिस्थितिकी की नींव रखी और भारत में पारिस्थितिकी का शिक्षण और अनुसंधान आरंभ किया। (वे NCERT के इकाई आरंभ पृष्ठ पर हैं, अध्याय पाठ में नहीं।)</p>",
+     "hint": "NCERT की पारिस्थितिकी इकाई की जीवनी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1441,10 +1801,22 @@
       "Both statement I and statement II are incorrect",
       "Statement I is correct but statement II is incorrect",
       "Statement I is incorrect but statement II is correct"
-     ]
+     ],
+     "sol": "<p>Statement I is incorrect: calling the fig 'non-vegetarian' is not a biological fact. Statement II is also treated as incorrect by the key: in NCERT's fig–wasp mutualism, the female wasp uses the fruit as an egg-laying site and the developing seeds feed its larvae, while the wasp pollinates the fig's <b>inflorescence (flowers)</b> while searching for egg-laying sites — the fruit itself is not pollinated. Both incorrect.</p>",
+     "hint": "Flowers are pollinated, not fruits."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : अंजीर का फल मांसाहारी फल है क्योंकि इसमें अंजीर बर्र बंद रहते हैं।<br>कथन II : अंजीर बर्र तथा अंजीर का पेड़ सहोपकारी संबंध दर्शाते हैं क्योंकि अंजीर बर्र अपना जीवन चक्र अंजीर फल में पूरा करता है तथा अंजीर फल का परागण अंजीर बर्र द्वारा होता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों सही हैं",
+      "कथन I तथा कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है"
+     ],
+     "sol": "<p>कथन I गलत है: अंजीर को 'मांसाहारी' कहना जैविक तथ्य नहीं है। कथन II को भी कुंजी गलत मानती है: NCERT के अंजीर–बर्र सहोपकारिता उदाहरण में मादा बर्र फल को अंडे देने के स्थान के रूप में और विकासशील बीजों को अपने लार्वा के भोजन के रूप में प्रयोग करती है, जबकि अंडे देने के उपयुक्त स्थान खोजते हुए बर्र अंजीर के <b>पुष्पक्रम (पुष्पों)</b> का परागण करती है — फल का परागण नहीं होता। दोनों गलत।</p>",
+     "hint": "परागण पुष्पों का होता है, फलों का नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1488,10 +1860,22 @@
       "dN/dt = rN[(K − N)/K]",
       "dN/dt = rN[(N − K)/N]",
       "dN/dt = N[(r − K)/K]"
-     ]
+     ],
+     "sol": "<p>Verhulst–Pearl logistic growth: <b>dN/dt = rN[(K − N)/K]</b>, where N is density, r the intrinsic rate of natural increase and K the carrying capacity.</p>",
+     "hint": "Exponential term rN times the brake (K − N)/K."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा समीकरण समष्टि की विर्हुस्ट-पर्ल लॉजिस्टिक वृद्धि को निरूपित करता है?",
+     "o": [
+      "dN/dt = r[(K − N)/K]",
+      "dN/dt = rN[(K − N)/K]",
+      "dN/dt = rN[(N − K)/N]",
+      "dN/dt = N[(r − K)/K]"
+     ],
+     "sol": "<p>विर्हुस्ट-पर्ल लॉजिस्टिक वृद्धि: <b>dN/dt = rN[(K − N)/K]</b>, जहाँ N घनत्व, r प्राकृतिक वृद्धि की नैज दर तथा K पोषण क्षमता है।</p>",
+     "hint": "चरघातांकी पद rN × अवरोध (K − N)/K।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1534,10 +1918,22 @@
       "B and E",
       "B, D and E",
       "A and D"
-     ]
+     ],
+     "sol": "<ul><li>A — false: in commensalism the other species is unaffected, not harmed.</li><li>B — true: both benefit in mutualism.</li><li>C — false: in commensalism only one benefits.</li><li>D — true: in parasitism one benefits and the other is harmed.</li><li>E — true: in amensalism one is harmed and the other unaffected.</li></ul><p>B, D and E.</p>",
+     "hint": "Use the +, −, 0 table."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दो जातियों के बीच समष्टि पारस्परिक क्रियाओं के संबंध में सही कथन चुनिए :<br>A. परजीविता तथा सहभोजिता दोनों में केवल एक जाति को लाभ होता है और दूसरी जाति को हानि होती है।<br>B. सहोपकारिता में दोनों जातियों को लाभ होता है।<br>C. सहभोजिता में दोनों जातियों को लाभ होता है।<br>D. परजीविता में केवल एक जाति को लाभ होता है और दूसरी जाति को हानि होती है।<br>E. एमेन्सेलिज्म में एक जाति को हानि होती है और दूसरी अप्रभावित रहती है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A तथा B",
+      "B तथा E",
+      "B, D तथा E",
+      "A तथा D"
+     ],
+     "sol": "<ul><li>A — गलत: सहभोजिता में दूसरी जाति अप्रभावित रहती है, हानि नहीं होती।</li><li>B — सही: सहोपकारिता में दोनों को लाभ।</li><li>C — गलत: सहभोजिता में केवल एक को लाभ।</li><li>D — सही: परजीविता में एक को लाभ और दूसरी को हानि।</li><li>E — सही: एमेन्सेलिज्म में एक को हानि और दूसरी अप्रभावित।</li></ul><p>B, D तथा E।</p>",
+     "hint": "+, −, 0 सारणी का प्रयोग करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1581,10 +1977,22 @@
       "dN/dt = rN[K/(K − N)]",
       "dN/dt = rN[(K − N)/N]",
       "dN/dt = rN[(K + N)/K]"
-     ]
+     ],
+     "sol": "<p>Verhulst–Pearl logistic growth: <b>dN/dt = rN[(K − N)/K]</b>. When N is small the bracket is near 1 (nearly exponential); when N = K it is 0 (no growth).</p>",
+     "hint": "Check the bracket at N = K."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा समीकरण विर्हुस्ट-पर्ल लॉजिस्टिक समष्टि वृद्धि दर्शाता है?",
+     "o": [
+      "dN/dt = rN[(K − N)/K]",
+      "dN/dt = rN[K/(K − N)]",
+      "dN/dt = rN[(K − N)/N]",
+      "dN/dt = rN[(K + N)/K]"
+     ],
+     "sol": "<p>विर्हुस्ट-पर्ल लॉजिस्टिक वृद्धि: <b>dN/dt = rN[(K − N)/K]</b>। N छोटा होने पर कोष्ठक लगभग 1 (लगभग चरघातांकी); N = K पर यह 0 (वृद्धि नहीं)।</p>",
+     "hint": "N = K पर कोष्ठक जाँचें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1628,10 +2036,22 @@
       "Ophrys and bumblebee",
       "Female wasp and fig",
       "Cuckoo and crow"
-     ]
+     ],
+     "sol": "<p>The Mediterranean orchid <i>Ophrys</i> uses 'sexual deceit': one petal resembles a female bee, so the male bee 'pseudocopulates' with it and gets dusted with pollen, which it carries to another flower. Clown fish–sea anemone is commensalism, fig–wasp is mutualism and cuckoo–crow is brood parasitism.</p>",
+     "hint": "A petal that looks like a female bee."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा 'लैंगिक कपट' का उपयुक्त उदाहरण है?",
+     "o": [
+      "समुद्री ऐनिमोन तथा क्लाउन मछली",
+      "<i>Ophrys</i> तथा भौंरा (bumblebee)",
+      "मादा बर्र तथा अंजीर",
+      "कोयल तथा कौवा"
+     ],
+     "sol": "<p>भूमध्यसागरीय आर्किड <i>Ophrys</i> 'लैंगिक कपट' का सहारा लेता है: इसकी एक पंखुड़ी मादा मक्षिका जैसी दिखती है, अतः नर मक्षिका उससे 'कूटमैथुन' करता है और पराग से ढक जाता है, जिसे वह दूसरे पुष्प तक ले जाता है। क्लाउन मछली–समुद्री ऐनिमोन सहभोजिता, अंजीर–बर्र सहोपकारिता तथा कोयल–कौवा अंड परजीविता है।</p>",
+     "hint": "मादा मक्षिका जैसी दिखने वाली पंखुड़ी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
