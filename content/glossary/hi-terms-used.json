@@ -982,7 +982,11 @@
   {
    "en": "thalamus",
    "hi": "पुष्पासन",
-   "source": "ncert-hi-text class 12 biology"
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "थेलेमस"
+   ],
+   "note": "botany (flower) = पुष्पासन; brain part = थेलेमस (NCERT 18.4.1)"
   },
   {
    "en": "pericarp",
@@ -6563,6 +6567,159 @@
    "en": "cartilaginous joints",
    "hi": "उपास्थि युक्त जोड़",
    "source": "bio11-17"
+  },
+  {
+   "en": "Schwann cells",
+   "hi": "श्वान कोशिका",
+   "source": "bio11-18"
+  },
+  {
+   "en": "myelin sheath",
+   "hi": "माइलिन",
+   "source": "bio11-18"
+  },
+  {
+   "en": "myelinated",
+   "hi": "आच्छदी",
+   "source": "bio11-18"
+  },
+  {
+   "en": "synapse",
+   "hi": "सिनेप्स",
+   "source": "bio11-18"
+  },
+  {
+   "en": "synaptic cleft",
+   "hi": "सिनेप्टिक दरार",
+   "source": "bio11-18"
+  },
+  {
+   "en": "post-synaptic",
+   "hi": "पश्च सिनेप्टिक",
+   "source": "bio11-18"
+  },
+  {
+   "en": "pre-synaptic",
+   "hi": "पूर्व सिनेप्टिक",
+   "source": "bio11-18"
+  },
+  {
+   "en": "neurotransmitter",
+   "hi": "तंत्रिका संचारी",
+   "source": "bio11-18"
+  },
+  {
+   "en": "electrical synapse",
+   "hi": "विद्युत सिनेप्स",
+   "source": "bio11-18"
+  },
+  {
+   "en": "chemical synapse",
+   "hi": "रासायनिक सिनेप्स",
+   "source": "bio11-18"
+  },
+  {
+   "en": "hypothalamus",
+   "hi": "हाइपोथेलेमस",
+   "source": "bio11-18",
+   "variants": [
+    "हाइपोथैलेमस"
+   ]
+  },
+  {
+   "en": "limbic system",
+   "hi": "लिंबिक",
+   "source": "bio11-18"
+  },
+  {
+   "en": "corpus callosum",
+   "hi": "कार्पस कैलोसम",
+   "source": "bio11-18"
+  },
+  {
+   "en": "pons",
+   "hi": "पोंस",
+   "source": "bio11-18"
+  },
+  {
+   "en": "cerebrum",
+   "hi": "प्रमस्तिष्क",
+   "source": "bio11-18"
+  },
+  {
+   "en": "cerebral hemispheres",
+   "hi": "प्रमस्तिष्क गोलार्द्ध",
+   "source": "bio11-18"
+  },
+  {
+   "en": "brain stem",
+   "hi": "मस्तिष्क स्तंभ",
+   "source": "bio11-18"
+  },
+  {
+   "en": "mid-brain",
+   "hi": "मध्य मस्तिष्क",
+   "source": "bio11-18"
+  },
+  {
+   "en": "fore-brain",
+   "hi": "अग्र मस्तिष्क",
+   "source": "bio11-18"
+  },
+  {
+   "en": "hind-brain",
+   "hi": "पश्च मस्तिष्क",
+   "source": "bio11-18"
+  },
+  {
+   "en": "axon",
+   "hi": "तंत्रिकाक्ष",
+   "source": "bio11-18"
+  },
+  {
+   "en": "cell body",
+   "hi": "कोशिका काय",
+   "source": "bio11-18"
+  },
+  {
+   "en": "retina",
+   "hi": "दृष्टि पटल",
+   "source": "bio11-18",
+   "variants": [
+    "दृष्टिपटल",
+    "रेटिना"
+   ]
+  },
+  {
+   "en": "organ of Corti",
+   "hi": "कोर्टी का अंग",
+   "source": "bio11-18"
+  },
+  {
+   "en": "cochlea",
+   "hi": "कर्णावर्त",
+   "source": "bio11-18"
+  },
+  {
+   "en": "basilar membrane",
+   "hi": "आधारस्थ झिल्ली",
+   "source": "bio11-18"
+  },
+  {
+   "en": "stapes",
+   "hi": "स्टेपीज",
+   "source": "bio11-18"
+  },
+  {
+   "en": "sensory",
+   "hi": "संवेदी",
+   "source": "bio11-18",
+   "check": false
+  },
+  {
+   "en": "motor area",
+   "hi": "प्रेरक क्षेत्र",
+   "source": "bio11-18"
   }
  ],
  "noNcertTerm": [
@@ -7595,6 +7752,56 @@
    "en": "vertebrosternal / vertebral ribs",
    "hi_used": "वर्टिब्रोस्टर्नल / वर्टिब्रल",
    "note": "NCERT Hindi names only वर्टिब्रोकांड्रल; bio11-17"
+  },
+  {
+   "en": "eye terms: fovea, rods, cones, iris, ciliary body, blind spot, sclera, cornea",
+   "hi_used": "फोविया, शलाकाएँ, शंकु, परितारिका, पक्ष्माभी काय, अंध बिंदु, दृढ़ पटल, कॉर्निया",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "opsin / retinal / retinol / rhodopsin",
+   "hi_used": "ऑप्सिन / रेटिनल / रेटिनॉल / रोडॉप्सिन",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "ear: Eustachian tube, oval window, labyrinth",
+   "hi_used": "यूस्टेकियन नलिका, अंडाकार खिड़की, लेबिरिंथ",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "oligodendrocytes / astrocytes / osteoclasts",
+   "hi_used": "ऑलिगोडेंड्रोसाइट / एस्ट्रोसाइट / ऑस्टियोक्लास्ट",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "nociceptors / Meissner corpuscles / graded potential / hyperpolarised",
+   "hi_used": "पीड़ाग्राही / माइस्नर कणिकाएँ / क्रमिक विभव / अतिध्रुवित",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "Nissl granules",
+   "hi_used": "निसल कण",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "anterior horn of spinal cord",
+   "hi_used": "अग्र श्रृंग",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "epithalamus",
+   "hi_used": "अधिचेतक",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "corpora quadrigemina",
+   "hi_used": "कॉर्पोरा क्वाड्रीजेमीन",
+   "note": "NCERT Hindi 18.4.2 prints it (split across a line in the text file); bio11-18"
+  },
+  {
+   "en": "neurosecretory cells",
+   "hi_used": "तंत्रिका स्रावी कोशिकाएँ",
+   "note": "NCERT Hindi 18.4.1 prints तंत्रिका स्त्रावी कोशिकाएं (split across a line in the text file); bio11-18"
   }
  ]
 }
