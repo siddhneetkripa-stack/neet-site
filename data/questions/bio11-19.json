@@ -1,0 +1,1575 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-19",
+ "subject": "biology",
+ "class": 11,
+ "unit": 19,
+ "title": {
+  "en": "Chemical Coordination and Integration"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo119.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "19.1",
+   "title": "Endocrine Glands and Hormones",
+   "hi": "अंतःस्त्रावी ग्रंथियां और हार्मोन",
+   "pdfPage": 1
+  },
+  {
+   "id": "19.2",
+   "title": "Human Endocrine System",
+   "hi": "मानव अंतःस्त्रावी तंत्र",
+   "pdfPage": 2
+  },
+  {
+   "id": "19.2.1",
+   "title": "The Hypothalamus",
+   "hi": "हाइपोथैलेमस",
+   "pdfPage": 2
+  },
+  {
+   "id": "19.2.2",
+   "title": "The Pituitary Gland",
+   "hi": "पीयूष ग्रंथि",
+   "pdfPage": 3
+  },
+  {
+   "id": "19.2.3",
+   "title": "The Pineal Gland",
+   "hi": "पिनियल ग्रंथि",
+   "pdfPage": 4
+  },
+  {
+   "id": "19.2.4",
+   "title": "Thyroid Gland",
+   "hi": "थाइरॉइड ग्रंथि",
+   "pdfPage": 4
+  },
+  {
+   "id": "19.2.5",
+   "title": "Parathyroid Gland",
+   "hi": "पैराथाइरॉइड ग्रंथि",
+   "pdfPage": 5
+  },
+  {
+   "id": "19.2.6",
+   "title": "Thymus",
+   "hi": "थाइमस ग्रंथि",
+   "pdfPage": 5
+  },
+  {
+   "id": "19.2.7",
+   "title": "Adrenal Gland",
+   "hi": "अधिवृक्क ग्रंथि",
+   "pdfPage": 6
+  },
+  {
+   "id": "19.2.8",
+   "title": "Pancreas",
+   "hi": "अग्नाशय",
+   "pdfPage": 7
+  },
+  {
+   "id": "19.2.9",
+   "title": "Testis",
+   "hi": "वृषण",
+   "pdfPage": 8
+  },
+  {
+   "id": "19.2.10",
+   "title": "Ovary",
+   "hi": "अंडाशय",
+   "pdfPage": 8
+  },
+  {
+   "id": "19.3",
+   "title": "Hormones of Heart, Kidney and Gastrointestinal Tract",
+   "hi": "हृदय, वृक्क और जठर आंत्रीय पथ के हार्मोन",
+   "pdfPage": 9
+  },
+  {
+   "id": "19.4",
+   "title": "Mechanism of Hormone Action",
+   "hi": "हार्मोन क्रिया की क्रियाविधि",
+   "pdfPage": 9
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-19-neet-2015-re-exam-code-d-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following hormones is not involved in sugar metabolism?",
+     "o": [
+      "Aldosterone",
+      "Insulin",
+      "Glucagon",
+      "Cortisone"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.7",
+     "19.2.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q40",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2015-re-exam-code-d-q44",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following hormones though synthesised elsewhere, is stored and released by the master gland?",
+     "o": [
+      "Luteinizing hormone",
+      "Prolactin",
+      "Melanocyte stimulating hormone",
+      "Antidiuretic hormone"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q44",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2016-phase-1-code-a-q108",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following pairs of hormones are not antagonistic (having opposite effects) to each other?",
+     "o": [
+      "Parathormone – Calcitonin",
+      "Insulin – Glucagon",
+      "Aldosterone – Atrial Natriuretic Factor",
+      "Relaxin – Inhibin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.5",
+     "19.2.8",
+     "19.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Human Reproduction"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q108",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2016-phase-1-code-a-q133",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the correct statement on ‘inhibin’:",
+     "o": [
+      "Inhibits the secretion of LH, FSH and Prolactin",
+      "Is produced by granulosa cells in ovary and inhibits the secretion of FSH",
+      "Is produced by granulosa cells in ovary and inhibits the secretion of LH",
+      "Is produced by nurse cells in testes and inhibits the secretion of LH"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.9",
+     "19.2.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q133",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)",
+    "note": "Inhibin is not described in the rationalised NCERT."
+   }
+  },
+  {
+   "id": "bio11-19-neet-2016-phase-1-code-a-q147",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The amino acid Tryptophan is the precursor for the synthesis of:",
+     "o": [
+      "Melatonin and Serotonin",
+      "Thyroxine and Triiodothyronine",
+      "Estrogen and Progesterone",
+      "Cortisol and Cortisone"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Body Fluids and Circulation"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q147",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)",
+    "note": "NCERT names melatonin and serotonin but not tryptophan as their precursor."
+   }
+  },
+  {
+   "id": "bio11-19-neet-2016-phase-2-code-aa-q147",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which hormones do stimulate the production of pancreatic juice and bicarbonate?",
+     "o": [
+      "Angiotensin and epinephrine",
+      "Gastrin and insulin",
+      "Cholecystokinin and secretin",
+      "Insulin and glucagon"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.3"
+    ],
+    "otherChapters": [
+     "Old NCERT 11 Ch 16 · Digestion and Absorption"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q147",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2016-phase-2-code-aa-q150",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Graves' disease is caused due to",
+     "o": [
+      "Hyposecretion of thyroid gland",
+      "Hypersecretion of thyroid gland",
+      "Hyposecretion of adrenal gland",
+      "Hypersecretion of adrenal gland"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q150",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2016-phase-2-code-aa-q153",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Name a peptide hormone which acts mainly on hepatocytes, adipocytes and enhances cellular glucose uptake and utilization.",
+     "o": [
+      "Insulin",
+      "Glucagon",
+      "Secretin",
+      "Gastrin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q153",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2016-phase-2-code-aa-q157",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The posterior pituitary gland is not a 'true' endocrine gland because",
+     "o": [
+      "It is provided with a duct",
+      "It only stores and releases hormones",
+      "It is under the regulation of hypothalamus",
+      "It secretes enzymes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q157",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2017-code-a-q108",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A temporary endocrine gland in the human body is",
+     "o": [
+      "Pineal gland",
+      "Corpus cardiacum",
+      "Corpus luteum",
+      "Corpus allatum"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.10"
+    ],
+    "otherChapters": [
+     "Class 12 · Human Reproduction"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q108",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2017-code-a-q149",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "GnRH, a hypothalamic hormone, needed in reproduction, acts on :",
+     "o": [
+      "Anterior pituitary gland and stimulates secretion of LH and oxytocin",
+      "Anterior pituitary gland and stimulates secretion of LH and FSH",
+      "Posterior pituitary gland and stimulates secretion of oxytocin and FSH",
+      "Posterior pituitary gland and stimulates secretion of LH and relaxin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q149",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2017-code-a-q169",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Hypersecretion of Growth Hormone in adults does not cause further increase in height, because :",
+     "o": [
+      "Growth Hormone becomes inactive in adults",
+      "Epiphyseal plates close after adolescence",
+      "Bones lose their sensitivity to Growth Hormone in adults",
+      "Muscle fibres do not grow in size after birth"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q169",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2018-code-aa-q140",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is an amino acid derived hormone?",
+     "o": [
+      "Estradiol",
+      "Ecdysone",
+      "Epinephrine",
+      "Estriol"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q140",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2019-code-s2-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How does steroid hormone influence the cellular activities ?",
+     "o": [
+      "Activating cyclic AMP located on the cell membrane",
+      "Using aquaporin channels as second messenger",
+      "Changing the permeability of the cell membrane",
+      "Binding to DNA and forming a gene-hormone complex"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q7",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2019-code-s2-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following hormones with the respective disease :<br>(a) Insulin — (i) Addison's disease<br>(b) Thyroxin — (ii) Diabetes insipidus<br>(c) Corticoids — (iii) Acromegaly<br>(d) Growth Hormone — (iv) Goitre<br>(v) Diabetes mellitus<br>Select the correct option.",
+     "o": [
+      "(a) v, (b) iv, (c) i, (d) iii",
+      "(a) ii, (b) iv, (c) i, (d) iii",
+      "(a) v, (b) i, (c) ii, (d) iii",
+      "(a) ii, (b) iv, (c) iii, (d) i"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.2",
+     "19.2.4",
+     "19.2.7",
+     "19.2.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q13",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2019-code-s2-q49",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following glucose transporters is insulin-dependent?",
+     "o": [
+      "GLUT III",
+      "GLUT IV",
+      "GLUT I",
+      "GLUT II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q49",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)",
+    "note": "Glucose transporters are not in NCERT."
+   }
+  },
+  {
+   "id": "bio11-19-neet-2020-code-f3-q91",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Presence of which of the following conditions in urine are indicative of Diabetes Mellitus ?",
+     "o": [
+      "Ketonuria and Glycosuria",
+      "Renal calculi and Hyperglycaemia",
+      "Uremia and Ketonuria",
+      "Uremia and Renal Calculi"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.8"
+    ],
+    "otherChapters": [
+     "Class 11 · Excretory Products and their Elimination"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q91",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2020-code-f3-q149",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following columns and select the correct option :<br>(a) Pituitary gland — (i) Grave's disease<br>(b) Thyroid gland — (ii) Diabetes mellitus<br>(c) Adrenal gland — (iii) Diabetes insipidus<br>(d) Pancreas — (iv) Addison's disease",
+     "o": [
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) ii, (b) i, (c) iv, (d) iii",
+      "(a) iv, (b) iii, (c) i, (d) ii",
+      "(a) iii, (b) ii, (c) i, (d) iv"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.2",
+     "19.2.4",
+     "19.2.7",
+     "19.2.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q149",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2020-code-f3-q164",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the correct statement.",
+     "o": [
+      "Insulin acts on pancreatic cells and adipocytes.",
+      "Insulin is associated with hyperglycemia.",
+      "Glucocorticoids stimulate gluconeogenesis.",
+      "Glucagon is associated with hypoglycemia."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.7",
+     "19.2.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q164",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2021-code-p3-q151",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Erythropoietin hormone which stimulates RBC formation is produced by :",
+     "o": [
+      "Juxtaglomerular cells of the kidney",
+      "Alpha cells of pancreas",
+      "The cells of rostral adenohypophysis",
+      "The cells of bone marrow"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q151",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2022-code-t2-q199",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are not the effects of Parathyroid hormone?<br>(a) Stimulates the process of bone resorption<br>(b) Decreases Ca<sup>2+</sup> level in blood<br>(c) Reabsorption of Ca<sup>2+</sup> by renal tubules<br>(d) Decreases the absorption of Ca<sup>2+</sup> from digested food<br>(e) Increases metabolism of carbohydrates<br>Choose the most appropriate answer from the options given below :",
+     "o": [
+      "(b), (d) and (e) only",
+      "(a) and (e) only",
+      "(b) and (c) only",
+      "(a) and (c) only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q199",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15). Answer by solving (the OCR merged this item into Q198; check the copy's printed answer)."
+   }
+  },
+  {
+   "id": "bio11-19-neet-2023-topic-wise-copy-q65",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(A) CCK — (I) Kidney<br>(B) GIP — (II) Heart<br>(C) ANF — (III) Gastric gland<br>(D) ADH — (IV) Pancreas",
+     "o": [
+      "A-IV, B-II, C-III, D-I",
+      "A-IV, B-III, C-II, D-I",
+      "A-III, B-II, C-IV, D-I",
+      "A-II, B-IV, C-I, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q65",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-19-neet-2023-topic-wise-copy-q97",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are NOT under the control of thyroid hormone?<br>A. Maintenance of water and electrolyte balance<br>B. Regulation of basal metabolic rate<br>C. Normal rhythm of sleep-wake cycle<br>D. Development of immune system<br>E. Support the process of RBC formation<br>Choose the correct answer from the options given below :",
+     "o": [
+      "D and E only",
+      "A and D only",
+      "B and C only",
+      "C and D only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q97",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-19-neet-2024-q108-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R :<br>Assertion A: FSH acts upon ovarian follicles in female and Leydig cells in male.<br>Reason R: Growing ovarian follicles secrete estrogen in female while interstitial cells secrete androgen in male human being.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.9",
+     "19.2.10"
+    ],
+    "otherChapters": [
+     "Class 12 · Human Reproduction"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q108 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-19-neet-2024-q123-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not a steroid hormone?",
+     "o": [
+      "Cortisol",
+      "Testosterone",
+      "Progesterone",
+      "Glucagon"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q123 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-19-neet-2024-q176-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Exophthalmic goiter — I. Excess secretion of cortisol, moon face & hyperglycemia<br>B. Acromegaly — II. Hypo-secretion of thyroid hormone and stunted growth<br>C. Cushing's syndrome — III. Hyper secretion of thyroid hormone & protruding eye balls<br>D. Cretinism — IV. Excessive secretion of growth hormone",
+     "o": [
+      "A-I, B-III, C-II, D-IV",
+      "A-IV, B-II, C-I, D-III",
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-IV, C-I, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.2",
+     "19.2.4",
+     "19.2.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q176 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options clipped at the right edge in the eSaral copy; completed from the other options (each is a permutation)."
+   }
+  },
+  {
+   "id": "bio11-19-neet-2025-code-45-q148",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>A. Heart — I. Erythropoietin<br>B. Kidney — II. Aldosterone<br>C. Gastro-intestinal tract — III. Atrial natriuretic factor<br>D. Adrenal cortex — IV. Secretin",
+     "o": [
+      "A-II, B-I, C-III, D-IV",
+      "A-IV, B-III, C-II, D-I",
+      "A-I, B-III, C-IV, D-II",
+      "A-III, B-I, C-IV, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.3",
+     "19.2.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q148",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2025-code-45-q160",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following statements regarding function of adrenal medullary hormones :<br>A. It causes pupillary constriction<br>B. It is a hyperglycemic hormone<br>C. It causes piloerection<br>D. It increases strength of heart contraction<br>Choose the correct answer from the options given below :",
+     "o": [
+      "C and D Only",
+      "B, C and D Only",
+      "A, C and D Only",
+      "D Only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q160",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2025-code-45-q165",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following hormones released from the pituitary is actually synthesized in the hypothalamus?",
+     "o": [
+      "Luteinizing hormone (LH)",
+      "Anti-diuretic hormone (ADH)",
+      "Follicle-stimulating hormone (FSH)",
+      "Adrenocorticotrophic hormone (ACTH)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q165",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2025-code-45-q178",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>A. Progesterone — I. Pars intermedia<br>B. Relaxin — II. Ovary<br>C. Melanocyte stimulating hormone — III. Adrenal medulla<br>D. Catecholamines — IV. Corpus luteum",
+     "o": [
+      "A-IV, B-II, C-I, D-III",
+      "A-IV, B-II, C-III, D-I",
+      "A-II, B-IV, C-I, D-III",
+      "A-III, B-II, C-IV, D-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.2",
+     "19.2.7",
+     "19.2.10"
+    ],
+    "otherChapters": [
+     "Class 12 · Human Reproduction"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q178",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio11-19-neet-2026-q178-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following hormones with their respective functions :<br>A. Cortisol — I. Stimulates the formation of alveoli in mammary glands<br>B. Aldosterone — II. Produces anti-inflammatory reactions<br>C. Cholecystokinin — III. Stimulates reabsorption of Na<sup>+</sup> and water from renal tubules<br>D. Progesterone — IV. Stimulates secretion of pancreatic enzymes and bile juice",
+     "o": [
+      "A–II, B–III, C–IV, D–I",
+      "A–III, B–II, C–IV, D–I",
+      "A–II, B–IV, C–III, D–I",
+      "A–II, B–III, C–I, D–IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.7",
+     "19.3",
+     "19.2.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q178 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q158."
+   }
+  }
+ ]
+}
