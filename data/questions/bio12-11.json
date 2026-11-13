@@ -1,0 +1,1667 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio12-11",
+ "subject": "biology",
+ "class": 12,
+ "unit": 11,
+ "title": {
+  "en": "Organisms and Populations"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lebo111.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "11.1",
+   "title": "Populations",
+   "hi": "समष्टियाँ",
+   "pdfPage": 4
+  },
+  {
+   "id": "11.1.1",
+   "title": "Population Attributes",
+   "hi": "समिष्ट गुण",
+   "pdfPage": 4
+  },
+  {
+   "id": "11.1.2",
+   "title": "Population Growth",
+   "hi": "समष्टि वृद्धि",
+   "pdfPage": 5
+  },
+  {
+   "id": "11.1.3",
+   "title": "Life History Variation",
+   "hi": "जीवन-वृत्त विभिन्नता",
+   "pdfPage": 9
+  },
+  {
+   "id": "11.1.4",
+   "title": "Population Interactions",
+   "hi": "समष्टि पारस्परिक क्रियाएँ",
+   "pdfPage": 9
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio12-11-neet-2015-re-exam-code-d-q56",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In which of the following interaction both partners are adversely affected?",
+     "o": [
+      "Predation",
+      "Parasitism",
+      "Mutualism",
+      "Competition"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q56",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2016-phase-1-code-a-q91",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Gause's principle of competitive exclusion states that:",
+     "o": [
+      "More abundant species will exclude the less abundant species through competition",
+      "Competition for the same resources excludes species having different food preferences",
+      "No two species can occupy the same niche indefinitely for the same limiting resources",
+      "Larger organisms exclude smaller ones through competition"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q91",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2016-phase-1-code-a-q155",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When does the growth rate of a population following the logistic model equal zero? The logistic model is given as dN/dt = rN(1 − N/K)",
+     "o": [
+      "When N/K is exactly one",
+      "When N nears the carrying capacity of the habitat",
+      "When N/K equals zero",
+      "When death rate is greater than birth rate"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q155",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2016-phase-1-code-a-q171",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "It is much easier for a small animal to run uphill than for a large animal, because:",
+     "o": [
+      "It is easier to carry a small body weight",
+      "Smaller animals have a higher metabolic rate",
+      "Small animals have a lower O<sub>2</sub> requirement",
+      "The efficiency of muscles in large animals is less than in the small animals"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 13 · Responses to abiotic factors (body size and metabolic rate)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q171",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2016-phase-2-code-aa-q132",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is correct for r-selected species?",
+     "o": [
+      "Large number of progeny with small size",
+      "Large number of progeny with large size",
+      "Small number of progeny with small size",
+      "Small number of progeny with large size"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q132",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2016-phase-2-code-aa-q133",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If '+' sign is assigned to beneficial interaction, '–' sign to detrimental and '0' sign to neutral interaction, then the population interaction represented by '+' '–' refers to :",
+     "o": [
+      "Mutualism",
+      "Amensalism",
+      "Commensalism",
+      "Parasitism"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q133",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2016-phase-2-code-aa-q177",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The principle of competitive exclusion was stated by",
+     "o": [
+      "C. Darwin",
+      "G. F. Gause",
+      "MacArthur",
+      "Verhulst and Pearl"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q177",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2017-code-a-q116",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Mycorrhizae are the example of",
+     "o": [
+      "Fungistasis",
+      "Amensalism",
+      "Antibiosis",
+      "Mutualism"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q116",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2017-code-a-q143",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Asymptote in a logistic growth curve is obtained when :",
+     "o": [
+      "The value of 'r' approaches zero",
+      "K = N",
+      "K > N",
+      "K < N"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q143",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2018-code-aa-q111",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Natality refers to :",
+     "o": [
+      "Number of individuals leaving the habitat",
+      "Birth rate",
+      "Death rate",
+      "Number of individuals entering a habitat"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q111",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2018-code-aa-q114",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Niche is :",
+     "o": [
+      "the range of temperature that the organism needs to live",
+      "the physical space where an organism lives",
+      "all the biological factors in the organism's environment",
+      "the functional role played by the organism where it lives"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 13 · Organism and its environment (niche)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q114",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2018-code-aa-q153",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following population interactions is widely used in medical science for the production of antibiotics?",
+     "o": [
+      "Parasitism",
+      "Mutualism",
+      "Commensalism",
+      "Amensalism"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q153",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2018-code-aa-q156",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a growing population of a country, :",
+     "o": [
+      "reproductive and pre-reproductive individuals are equal in number.",
+      "reproductive individuals are less than the post-reproductive individuals.",
+      "pre-reproductive individuals are more than the reproductive individuals.",
+      "pre-reproductive individuals are less than the reproductive individuals."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q156",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2020-code-f3-q179",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not an attribute of a population?",
+     "o": [
+      "Mortality",
+      "Species interaction",
+      "Sex ratio",
+      "Natality"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q179",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2021-code-p3-q128",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In spite of interspecific competition in nature, which mechanism the competing species might have evolved for their survival?",
+     "o": [
+      "Predation",
+      "Resource partitioning",
+      "Competitive release",
+      "Mutualism"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q128",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2021-code-p3-q135",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Amensalism can be represented as:",
+     "o": [
+      "Species A (+); Species B (0)",
+      "Species A (–); Species B (0)",
+      "Species A (+); Species B (+)",
+      "Species A (–); Species B (–)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q135",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2021-code-p3-q140",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the exponential growth equation N<sub>t</sub> = N<sub>0</sub>e<sup>rt</sup>, e represents :",
+     "o": [
+      "The base of geometric logarithms",
+      "The base of number logarithms",
+      "The base of exponential logarithms",
+      "The base of natural logarithms"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q140",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2021-code-p3-q186",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(a) Allen's Rule — (i) Kangaroo rat<br>(b) Physiological adaptation — (ii) Desert lizard<br>(c) Behavioural adaptation — (iii) Marine fish at depth<br>(d) Biochemical adaptation — (iv) Polar seal",
+     "o": [
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) iv, (b) ii, (c) iii, (d) i",
+      "(a) iv, (b) i, (c) iii, (d) ii",
+      "(a) iv, (b) i, (c) ii, (d) iii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 13 · Responses to abiotic factors; adaptations"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q186",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2021-code-p3-q192",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Assertion (A): A person goes to high altitude and experiences 'altitude sickness' with symptoms like breathing difficulty and heart palpitations.<br>Reason (R): Due to low atmospheric pressure at high altitude, the body does not get sufficient oxygen.<br>In the light of the above statements, choose the correct answer from the options given below.",
+     "o": [
+      "(A) is false but (R) is true",
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "(A) is true but (R) is false"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 13 · Altitude sickness"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q192",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2022-code-t2-q121",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statements cannot be connected to Predation ?",
+     "o": [
+      "It might lead to extinction of a species",
+      "Both the interacting species are negatively impacted",
+      "It is necessitated by nature to maintain the ecological balance",
+      "It helps in maintaining species diversity in a community"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q121",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2022-code-t2-q145",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "While explaining interspecific interaction of population, (+) sign is assigned for beneficial interaction, (−) sign is assigned for detrimental interaction and (0) for neutral interaction. Which of the following interactions can be assigned (+) for one species and (−) for another species involved in the interaction?",
+     "o": [
+      "Amensalism",
+      "Commensalism",
+      "Competition",
+      "Predation"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q145",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2022-code-t2-q170",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If '8' Drosophila in a laboratory population of '80' died during a week, the death rate in the population is ___ individuals per Drosophila per week.",
+     "o": [
+      "10",
+      "1.0",
+      "zero",
+      "0.1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q170",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2023-topic-wise-copy-q48",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Gause's 'Competitive Exclusion Principle' states that two closely related species competing for the same resources cannot co-exist indefinitely and competitively inferior one will be eliminated eventually.<br>Statement II: In general, carnivores are more adversely affected by competition than herbivores.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Statement I is incorrect but Statement II is true",
+      "Both Statement I and Statement II are true",
+      "Both Statement I and Statement II are false",
+      "Statement I is correct but Statement II is false."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q48",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2023-topic-wise-copy-q49",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>List-I (Interaction) — List-II (Species A and B)<br>(A) Mutualism — (I) +(A), 0(B)<br>(B) Commensalism — (II) −(A), 0(B)<br>(C) Amensalism — (III) +(A), −(B)<br>(D) Parasitism — (IV) +(A), +(B)",
+     "o": [
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-II, C-I, D-III",
+      "A-IV, B-I, C-II, D-III",
+      "A-IV, B-III, C-I, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q49",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2023-topic-wise-copy-q83",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>List-I (Interacting species) — List-II (Name of interaction)<br>(A) A Leopard and a Lion in a forest/grassland — (I) Competition<br>(B) A Cuckoo laying egg in a Crow's nest — (II) Brood parasitism<br>(C) Fungi and root of a higher plant in Mycorrhizae — (III) Mutualism<br>(D) A cattle egret and a Cattle in a field — (IV) Commensalism",
+     "o": [
+      "A-II, B-III, C-I, D-IV",
+      "A-I, B-II, C-III, D-IV",
+      "A-I, B-II, C-IV, D-III",
+      "A-III, B-IV, C-I, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q83",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2023-topic-wise-copy-q100",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(A) Logistic growth — (I) Unlimited resource availability condition<br>(B) Exponential growth — (II) Limited resource availability condition<br>(C) Expanding age pyramid — (III) The percent individuals of pre-reproductive age is largest followed by reproductive and post reproductive age groups<br>(D) Stable age pyramid — (IV) The percent individuals of pre-reproductive and reproductive age group are same",
+     "o": [
+      "A-II, B-IV, C-III, D-I",
+      "A-II, B-I, C-III, D-IV",
+      "A-II, B-III, C-I, D-IV",
+      "A-II, B-IV, C-I, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.1",
+     "11.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q100",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2024-q130-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The equation of Verhulst-Pearl logistic growth is dN/dt = rN[(K − N)/K]. From this equation, K indicates :",
+     "o": [
+      "Intrinsic rate of natural increase",
+      "Biotic potential",
+      "Carrying capacity",
+      "Population density"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q130 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2024-q189-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Gause's competitive exclusion principle states that two closely related species competing for different resources cannot exist indefinitely.<br>Statement II: According to Gause's principle, during competition, the inferior will be eliminated. This may be true if resources are limiting.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are false",
+      "Statement I is true but Statement II is false",
+      "Statement I is false but Statement II is true",
+      "Both Statement I and Statement II are true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q189 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2025-code-45-q97",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Epiphytes that are growing on a mango branch is an example of which of the following?",
+     "o": [
+      "Commensalism",
+      "Mutualism",
+      "Predation",
+      "Amensalism"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q97",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2025-code-45-q133",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Who is known as the father of Ecology in India?",
+     "o": [
+      "S.R. Kashyap",
+      "Ramdeo Misra",
+      "Ram Udar",
+      "Birbal Sahni"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q133",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)",
+    "note": "Ramdeo Misra is named in the NCERT Ecology unit opener, not in a chapter section."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2025-code-45-q157",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Fig fruit is a non-vegetarian fruit as it has enclosed fig wasps in it.<br>Statement II: Fig wasp and fig tree exhibit mutual relationship as fig wasp completes its life cycle in fig fruit and fig fruit gets pollinated by fig wasp.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both statement I and statement II are correct",
+      "Both statement I and statement II are incorrect",
+      "Statement I is correct but statement II is incorrect",
+      "Statement I is incorrect but statement II is correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q157",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)",
+    "note": "NCERT describes the fig–wasp mutualism (the wasp pollinates the fig inflorescence and uses the fruit to lay eggs); the key treats statement II as incorrect as worded."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2025-code-45-q180",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following equations represents the Verhulst-Pearl Logistic Growth of population?",
+     "o": [
+      "dN/dt = r[(K − N)/K]",
+      "dN/dt = rN[(K − N)/K]",
+      "dN/dt = rN[(N − K)/N]",
+      "dN/dt = N[(r − K)/K]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q180",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-11-neet-2026-q164-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Choose the correct statements regarding population interactions between two species :<br>A. In both parasitism and commensalism, only one species benefits and the other species is harmed.<br>B. Both species benefit in mutualism.<br>C. Both species benefit in commensalism.<br>D. In parasitism, only one species benefits and the other species is harmed.<br>E. In amensalism, one species is harmed and the other is unaffected.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A and B",
+      "B and E",
+      "B, D and E",
+      "A and D"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q164 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q144."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2026-q169-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following equations depicts Verhulst-Pearl logistic population growth?",
+     "o": [
+      "dN/dt = rN[(K − N)/K]",
+      "dN/dt = rN[K/(K − N)]",
+      "dN/dt = rN[(K − N)/N]",
+      "dN/dt = rN[(K + N)/K]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q169 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q149."
+   }
+  },
+  {
+   "id": "bio12-11-neet-2026-q171-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following is an appropriate example of 'sexual deceit'?",
+     "o": [
+      "Sea anemone and clown fish",
+      "Ophrys and bumblebee",
+      "Female wasp and fig",
+      "Cuckoo and crow"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-11",
+    "paras": [
+     "11.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q171 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q151."
+   }
+  }
+ ]
+}
