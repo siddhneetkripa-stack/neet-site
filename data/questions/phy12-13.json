@@ -1,0 +1,785 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-13",
+ "subject": "physics",
+ "class": 12,
+ "unit": 13,
+ "title": {
+  "en": "Nuclei"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph205.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "13.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "13.2",
+   "title": "Atomic Masses and Composition of Nucleus",
+   "hi": "परमाणु द्रव्यमान एवं नाभिक की संरचना",
+   "pdfPage": 1
+  },
+  {
+   "id": "13.3",
+   "title": "Size of the Nucleus",
+   "hi": "नाभिक का साइज़",
+   "pdfPage": 4
+  },
+  {
+   "id": "13.4",
+   "title": "Mass-Energy and Nuclear Binding Energy",
+   "hi": "द्रव्यमान-उर्जा तथा नाभिकीय बंधन-उर्जा",
+   "pdfPage": 5
+  },
+  {
+   "id": "13.4.1",
+   "title": "Mass – Energy",
+   "hi": "द्रव्यमान-ऊर्जा",
+   "pdfPage": 5
+  },
+  {
+   "id": "13.4.2",
+   "title": "Nuclear Binding Energy",
+   "hi": "नाभिकीय बंधन-ऊर्जा",
+   "pdfPage": 5
+  },
+  {
+   "id": "13.5",
+   "title": "Nuclear Force",
+   "hi": "नाभिकीय बल",
+   "pdfPage": 8
+  },
+  {
+   "id": "13.6",
+   "title": "Radioactivity",
+   "hi": "रेडियोऐक्टिवता",
+   "pdfPage": 9
+  },
+  {
+   "id": "13.7",
+   "title": "Nuclear Energy",
+   "hi": "नाभिकीय ऊर्जा",
+   "pdfPage": 9
+  },
+  {
+   "id": "13.7.1",
+   "title": "Fission",
+   "hi": "विखंडन",
+   "pdfPage": 10
+  },
+  {
+   "id": "13.7.2",
+   "title": "Nuclear Fusion – Energy Generation in Stars",
+   "hi": "नाभिकीय संलयन-तारों में ऊर्जा जनन",
+   "pdfPage": 10
+  },
+  {
+   "id": "13.7.3",
+   "title": "Controlled Thermonuclear Fusion",
+   "hi": "नियंत्रित ताप नाभिकीय संलयन",
+   "pdfPage": 12
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-13-neet-2016-phase-2-code-aa-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The half-life of a radioactive substance is 30 minutes. The time (in minutes) taken between 40% decay and 85% decay of the same radioactive substance is",
+     "o": [
+      "15",
+      "30",
+      "45",
+      "60"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q42",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Radioactive decay law is not in the NEET 2026 syllabus."
+   }
+  },
+  {
+   "id": "phy12-13-neet-2017-code-a-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Radioactive material 'A' has decay constant '8λ' and material 'B' has decay constant 'λ'. Initially they have same number of nuclei. After what time, the ratio of number of nuclei of material 'B' to that 'A' will be 1/e?",
+     "o": [
+      "1/λ",
+      "1/(7λ)",
+      "1/(8λ)",
+      "1/(9λ)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q3",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "As printed, N<sub>B</sub>/N<sub>A</sub> = e<sup>7λt</sup> only grows; the key's 1/(7λ) corresponds to N<sub>A</sub>/N<sub>B</sub> = 1/e."
+   }
+  },
+  {
+   "id": "phy12-13-neet-2018-code-aa-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a radioactive material, half-life is 10 minutes. If initially there are 600 number of nuclei, the time taken (in minutes) for the disintegration of 450 nuclei is :",
+     "o": [
+      "30",
+      "10",
+      "20",
+      "15"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q13",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-13-neet-2019-code-s2-q102",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "α-particle consists of :",
+     "o": [
+      "2 electrons and 4 protons only",
+      "2 protons only",
+      "2 protons and 2 neutrons only",
+      "2 electrons, 2 protons and 2 neutrons"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q102",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-13-neet-2020-code-f3-q19",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The energy equivalent of 0.5 g of a substance is :",
+     "o": [
+      "1.5 × 10<sup>13</sup> J",
+      "0.5 × 10<sup>13</sup> J",
+      "4.5 × 10<sup>16</sup> J",
+      "4.5 × 10<sup>13</sup> J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q19",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-13-neet-2020-code-f3-q41",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When a uranium isotope <sup>235</sup><sub>92</sub>U is bombarded with a neutron, it generates <sup>89</sup><sub>36</sub>Kr, three neutrons and :",
+     "o": [
+      "<sup>101</sup><sub>36</sub>Kr",
+      "<sup>103</sup><sub>36</sub>Kr",
+      "<sup>144</sup><sub>56</sub>Ba",
+      "<sup>91</sup><sub>40</sub>Zr"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q41",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-13-neet-2021-code-p3-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A radioactive nucleus <sup>A</sup><sub>Z</sub>X undergoes spontaneous decay in the sequence <sup>A</sup><sub>Z</sub>X → <sub>Z−1</sub>B → <sub>Z−3</sub>C → <sub>Z−2</sub>D, where Z is the atomic number of element X. The possible decay particles in the sequence are :",
+     "o": [
+      "β<sup>−</sup>, α, β<sup>+</sup>",
+      "α, β<sup>−</sup>, β<sup>+</sup>",
+      "α, β<sup>+</sup>, β<sup>−</sup>",
+      "β<sup>+</sup>, α, β<sup>−</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q14",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-13-neet-2021-code-p3-q19",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The half-life of a radioactive nuclide is 100 hours. The fraction of original activity that will remain after 150 hours would be :",
+     "o": [
+      "2/(3√2)",
+      "1/2",
+      "1/(2√2)",
+      "2/3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q19",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-13-neet-2021-code-p3-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A nucleus with mass number 240 breaks into two fragments each of mass number 120, the binding energy per nucleon of unfragmented nuclei is 7.6 MeV while that of fragments is 8.5 MeV. The total gain in the binding energy in the process is :",
+     "o": [
+      "216 MeV",
+      "0.9 MeV",
+      "9.4 MeV",
+      "804 MeV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.4.2",
+     "13.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q22",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-13-neet-2022-code-t2-q31",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the given nuclear reaction, the element X is : <sup>22</sup><sub>11</sub>Na → X + e<sup>+</sup> + ν",
+     "o": [
+      "<sup>23</sup><sub>10</sub>Ne",
+      "<sup>22</sup><sub>10</sub>Ne",
+      "<sup>22</sup><sub>12</sub>Mg",
+      "<sup>23</sup><sub>11</sub>Na"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q31",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-13-neet-2022-code-t2-q50",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A nucleus of mass number 189 splits into two nuclei having mass number 125 and 64. The ratio of radius of two daughter nuclei respectively is :",
+     "o": [
+      "4 : 5",
+      "5 : 4",
+      "25 : 16",
+      "1 : 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q50",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-13-neet-2023-topic-wise-copy-q33",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The half life of a radioactive substance is 20 minutes. In how much time, the activity of substance drops to (1/16)<sup>th</sup> of its initial value?",
+     "o": [
+      "80 minutes",
+      "20 minutes",
+      "40 minutes",
+      "60 minutes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q33",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-13-neet-2024-q11-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "<sup>290</sup><sub>82</sub>X →(α) Y →(e<sup>+</sup>) Z →(β<sup>−</sup>) P →(e<sup>−</sup>) Q<br>In the nuclear emission stated above, the mass number and atomic number of the product Q respectively, are :",
+     "o": [
+      "280, 81",
+      "286, 80",
+      "288, 82",
+      "286, 81"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q11 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Option (4) is clipped in the copy after \"286,\"; its solution gives Q as (286, 81)."
+   }
+  },
+  {
+   "id": "phy12-13-neet-2026-code-13-q19",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Four statements are given (A is mass number) :<br>A. The volume of a nucleus is proportional to A<sup>1/3</sup>.<br>B. The volume of a nucleus is proportional to A.<br>C. The difference in mass of an atom and its nucleus is called the mass defect.<br>D. The difference in mass of a nucleus and its constituents is called the mass defect.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A and D are true, but B and C are false",
+      "B and D are true, but A and C are false",
+      "B and C are true, but A and D are false",
+      "A and C are true, but B and D are false"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.3",
+     "13.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q19",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-13-neet-2026-code-13-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An unknown nucleus has a nuclear density of 2.29 × 10<sup>17</sup> kg/m<sup>3</sup> and mass of 19.926 × 10<sup>−27</sup> kg. Its mass number A is approximately : (Take R<sub>0</sub> = 1.2 × 10<sup>−15</sup> m, 4π = 12.56)",
+     "o": [
+      "16",
+      "20",
+      "12",
+      "19"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-13",
+    "paras": [
+     "13.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q27",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
