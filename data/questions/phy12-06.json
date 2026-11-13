@@ -1,0 +1,832 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-06",
+ "subject": "physics",
+ "class": 12,
+ "unit": 6,
+ "title": {
+  "en": "Electromagnetic Induction"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph106.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "6.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "6.2",
+   "title": "The Experiments of Faraday and Henry",
+   "hi": "फैराडे एवं हेनरी के प्रयोग",
+   "pdfPage": 2
+  },
+  {
+   "id": "6.3",
+   "title": "Magnetic Flux",
+   "hi": "चुंबकीय फलक्स",
+   "pdfPage": 3
+  },
+  {
+   "id": "6.4",
+   "title": "Faraday's Law of Induction",
+   "hi": "फैराडे का प्रेरण का नियम",
+   "pdfPage": 4
+  },
+  {
+   "id": "6.5",
+   "title": "Lenz's Law and Conservation of Energy",
+   "hi": "लेंज का नियम तथा ऊर्जा संरक्षण",
+   "pdfPage": 7
+  },
+  {
+   "id": "6.6",
+   "title": "Motional Electromotive Force",
+   "hi": "गतिक विद्युत वाहक बल",
+   "pdfPage": 9
+  },
+  {
+   "id": "6.7",
+   "title": "Inductance",
+   "hi": "प्रेरकत्व",
+   "pdfPage": 12
+  },
+  {
+   "id": "6.7.1",
+   "title": "Mutual Inductance",
+   "hi": "अन्योन्य प्रेरकत्व",
+   "pdfPage": 12
+  },
+  {
+   "id": "6.7.2",
+   "title": "Self-inductance",
+   "hi": "स्व-प्रेरकत्व",
+   "pdfPage": 15
+  },
+  {
+   "id": "6.8",
+   "title": "AC Generator",
+   "hi": "प्रत्यावर्ती धारा जनित्र",
+   "pdfPage": 17
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-06-neet-2015-re-exam-code-d-q154",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron moves on a straight line path XY as shown. The abcd is a coil adjacent to the path of electron. What will be the direction of current, if any, induced in the coil?",
+     "o": [
+      "adcb",
+      "The current will reverse its direction as the electron goes past the coil",
+      "No current induced",
+      "abcd"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.4",
+     "6.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q154",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 2",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
+    "note": "Figure in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2016-phase-1-code-a-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long solenoid has 1000 turns. When a current of 4A flows through it the magnetic flux linked with each turn of the solenoid is 4 × 10−3 Wb. The self-inductance of the solenoid is:",
+     "o": [
+      "4 H",
+      "3 H",
+      "2 H",
+      "1 H"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q42",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-06-neet-2016-phase-2-code-aa-q31",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A uniform magnetic field is restricted within a region of radius r. The magnetic field changes with time at a rate dB/dt. Loop 1 of radius R > r encloses the region r and loop 2 of radius R is outside the region of magnetic field as shown in the figure below. Then the e.m.f. generated is :",
+     "o": [
+      "Zero in loop 1 and zero in loop 2",
+      "−(dB/dt)πr<sup>2</sup> in loop 1 and −(dB/dt)πr<sup>2</sup> in loop 2",
+      "−(dB/dt)πR<sup>2</sup> in loop 1 and zero in loop 2",
+      "−(dB/dt)πr<sup>2</sup> in loop 1 and zero in loop 2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q31",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Option 3 radius read as R from the scan (it prints like r); needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2017-code-a-q8",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Figure shows a circuit that contains three identical resistors with resistance R = 9.0 Ω each, two identical inductors with inductance L = 2.0 mH each, and an ideal battery with emf ε = 18 V. The current 'i' through the battery just after the switch closed is :",
+     "o": [
+      "2 mA",
+      "0.2 A",
+      "2 A",
+      "0 ampere"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q8",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "Key marks (3) with an asterisk; the copy notes the question is not correctly framed. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2017-code-a-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long solenoid of diameter 0.1 m has 2 × 10<sup>4</sup> turns per metre. At the centre of the solenoid, a coil of 100 turns and radius 0.01 m is placed with its axis coinciding with the solenoid axis. The current in the solenoid reduces at a constant rate to 0 A from 4 A in 0.05 s. If the resistance of the coil is 10π<sup>2</sup> Ω, the total charge flowing through the coil during this time is :",
+     "o": [
+      "32π μC",
+      "16 μC",
+      "32 μC",
+      "16π μC"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q38",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-06-neet-2018-code-aa-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The magnetic potential energy stored in a certain inductor is 25 mJ, when the current in the inductor is 60 mA. This inductor is of inductance :",
+     "o": [
+      "1.389 H",
+      "138.88 H",
+      "0.138 H",
+      "13.89 H"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q21",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-06-neet-2019-code-s2-q98",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 800 turn coil of effective area 0.05 m<sup>2</sup> is kept perpendicular to a magnetic field 5 × 10<sup>−5</sup> T. When the plane of the coil is rotated by 90° around any of its coplanar axis in 0.1 s, the emf induced in the coil will be :",
+     "o": [
+      "2 × 10<sup>−3</sup> V",
+      "0.02 V",
+      "2 V",
+      "0.2 V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q98",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-06-neet-2019-code-s2-q107",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In which of the following devices the eddy current effect is not used?",
+     "o": [
+      "electromagnet",
+      "electric heater",
+      "induction furnace",
+      "magnetic braking in train"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1,
+    "alsoAccepted": [
+     0,
+     2,
+     3
+    ]
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 6 · Eddy currents"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q107",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: A (all options)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "NTA's final key gives \"A\" for this question: every option was awarded marks. Our answer: (2) electric heater."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2021-code-p3-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two conducting circular loops of radii R<sub>1</sub> and R<sub>2</sub> are placed in the same plane with their centres coinciding. If R<sub>1</sub> >> R<sub>2</sub>, the mutual inductance M between them will be directly proportional to :",
+     "o": [
+      "R<sub>2</sub><sup>2</sup>/R<sub>1</sub>",
+      "R<sub>1</sub>/R<sub>2</sub>",
+      "R<sub>2</sub>/R<sub>1</sub>",
+      "R<sub>1</sub><sup>2</sup>/R<sub>2</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q40",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-06-neet-2022-code-t2-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A square loop of side 1 m and resistance 1 Ω is placed in a magnetic field of 0.5 T. If the plane of loop is perpendicular to the direction of magnetic field, the magnetic flux through the loop is :",
+     "o": [
+      "0.5 weber",
+      "1 weber",
+      "zero weber",
+      "2 weber"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q17",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2022-code-t2-q48",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A big circular coil of 1000 turns and average radius 10 m is rotating about its horizontal diameter at 2 rad s<sup>−1</sup>. If the vertical component of earth's magnetic field at that place is 2 × 10<sup>−5</sup> T and electrical resistance of the coil is 12.56 Ω, then the maximum induced current in the coil will be :",
+     "o": [
+      "1.5 A",
+      "1 A",
+      "2 A",
+      "0.25 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q48",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2023-topic-wise-copy-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The magnetic energy stored in an inductor of inductance 4 μH carrying a current of 2 A is :",
+     "o": [
+      "8 μJ",
+      "4 μJ",
+      "4 mJ",
+      "8 mJ"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q23",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2024-q7-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A sheet is placed on a horizontal surface in front of a strong magnetic pole. A force is needed to :<br>A. hold the sheet there if it is magnetic.<br>B. hold the sheet there if it is non-magnetic.<br>C. move the sheet away from the pole with uniform velocity if it is conducting.<br>D. move the sheet away from the pole with uniform velocity if it is both, non-conducting and non-polar.<br>Choose the correct statement(s) from the options given below :",
+     "o": [
+      "B and D only",
+      "A and C only",
+      "A, C and D only",
+      "C only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.5"
+    ],
+    "otherChapters": [
+     "Class 12 · Magnetism and Matter"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q7 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Statement C rests on eddy currents, which the rationalised chapter no longer treats."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2024-q8-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the above diagram, a strong bar magnet is moving towards solenoid-2 from solenoid-1. The direction of induced current in solenoid-1 and that in solenoid-2, respectively, are through the directions :",
+     "o": [
+      "AB and DC",
+      "BA and CD",
+      "AB and CD",
+      "BA and DC"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q8 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Solenoid-1 (ends A, B) on the left, the magnet (N on the left, S on the right) moving right, solenoid-2 (ends C, D) on the right. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2025-code-45-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "AB is a part of an electrical circuit (see figure). The potential difference \"V<sub>A</sub> − V<sub>B</sub>\", at the instant when current i = 2 A and is increasing at a rate of 1 amp/second is :",
+     "o": [
+      "5 volt",
+      "6 volt",
+      "9 volt",
+      "10 volt"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.2"
+    ],
+    "otherChapters": [
+     "Class 12 · Current Electricity"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q11",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "From A to B in series: a 1 H inductor, a 5 V cell (positive terminal towards A) and 2 Ω, current i from A to B."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2026-code-13-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A rectangular wire loop of sides 8 cm and 3 cm with a small cut, is moving out of a region of uniform magnetic field of magnitude 0.3 T directed normal to the plane of the loop. The emf developed across the cut, if the velocity of the loop is 2 cm s<sup>−1</sup>, in a direction normal to the shorter side of the loop, will be :",
+     "o": [
+      "1.8 × 10<sup>−4</sup> volt",
+      "1.3 × 10<sup>−4</sup> volt",
+      "1.2 × 10<sup>−4</sup> volt",
+      "4.8 × 10<sup>−4</sup> volt"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q39",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
