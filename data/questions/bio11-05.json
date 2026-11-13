@@ -2450,7 +2450,7 @@
       "⊕ ⚥ K<sub>(5)</sub> <span style='border-top:1px solid;border-radius:50% 50% 0 0;padding-top:1px'>C<sub>(5)</sub> A<sub>5</sub></span> <u>G</u><sub>(2)</sub>",
       "⊕ ⚥ K<sub>5</sub> <span style='border-top:1px solid;border-radius:50% 50% 0 0;padding-top:1px'>C<sub>(5)</sub> A<sub>5</sub></span> <u>G</u><sub>(2)</sub>"
      ],
-     "sol": "<p>NCERT 5.9, सोलैनेसी: त्रिज्यसममित, उभयलिंगी; पाँच जुड़े बाह्यदल K<sub>(5)</sub>; पाँच जुड़े दल C<sub>(5)</sub>; पाँच पुंकेसर दलों से जुड़े (<b>दललग्न</b> — C तथा A को जोड़ने वाले चाप से दिखाया जाता है); द्विअंडपी युक्तांडपी ऊर्ध्ववर्ती अंडाशय <u>G</u><sub>(2)</sub>। केवल विकल्प 3 में जुड़े बाह्यदल <b>तथा</b> दललग्न चाप दोनों हैं।</p>",
+     "sol": "<p>NCERT 5.9, सोलैनेसी: त्रिज्यसममित, उभयलिंगी; पाँच जुड़े बाह्यदल K<sub>(5)</sub>; दलपुंज में पाँच जुड़े दल C<sub>(5)</sub>; पाँच पुंकेसर दलों से जुड़े (<b>दललग्न</b> — C तथा A को जोड़ने वाले चाप से दिखाया जाता है); द्विअंडपी युक्तांडपी ऊर्ध्ववर्ती अंडाशय <u>G</u><sub>(2)</sub>। केवल विकल्प 3 में जुड़े बाह्यदल <b>तथा</b> दललग्न चाप दोनों हैं।</p>",
      "hint": "K<sub>(5)</sub> तथा C–A चाप खोजिए।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
@@ -2600,6 +2600,399 @@
     "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)",
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q95."
+   }
+  },
+  {
+   "id": "bio11-05-ai-5-3-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In leaves where the veinlets form a network in the lamina, the venation is called ___, and it is generally found in ___.",
+     "o": [
+      "parallel; monocotyledons",
+      "reticulate; dicotyledons",
+      "reticulate; monocotyledons",
+      "parallel; dicotyledons"
+     ],
+     "sol": "<p>NCERT 5.3.1: venation is the arrangement of veins and veinlets in the lamina. A network of veinlets is <b>reticulate</b> venation, typical of <b>dicotyledons</b>; veins running parallel within the lamina is parallel venation, characteristic of most monocotyledons.</p>",
+     "hint": "Net = reticulate."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "जिन पत्तियों की स्तरिका में शिरिकाएँ एक जाल-सा बनाती हैं, उनके शिराविन्यास को ___ कहते हैं, तथा यह प्रायः ___ में मिलता है।",
+     "o": [
+      "समानांतर; एकबीजपत्री पौधों",
+      "जालिका; द्विबीजपत्री पौधों",
+      "जालिका; एकबीजपत्री पौधों",
+      "समानांतर; द्विबीजपत्री पौधों"
+     ],
+     "sol": "<p>NCERT 5.3.1: पत्ती पर शिरा तथा शिरिकाओं के विन्यास को शिराविन्यास कहते हैं। शिरिकाओं का जाल <b>जालिका</b> शिराविन्यास है, जो प्रायः <b>द्विबीजपत्री</b> पौधों में मिलता है; शिरिकाएँ समानांतर होने पर समानांतर शिराविन्यास होता है, जो प्रायः एकबीजपत्री पौधों में मिलता है।</p>",
+     "hint": "जाल = जालिका।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-05",
+    "paras": [
+     "5.3.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.3.1",
+    "label": "Practice"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-05-ncertex-5-3-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement correctly describes a palmately compound leaf?",
+     "o": [
+      "Leaflets are arranged on a common axis, the rachis, as in neem",
+      "The lamina is incised but the incisions do not reach the midrib",
+      "Leaflets are attached at a common point at the tip of the petiole, as in silk cotton",
+      "A bud is present in the axil of each leaflet"
+     ],
+     "sol": "<p>NCERT 5.3.2: in a <b>palmately compound</b> leaf the leaflets are attached at a common point — the tip of the petiole — as in <b>silk cotton</b>. Leaflets on a common axis (rachis, representing the midrib) make a pinnately compound leaf, as in neem. Incisions not reaching the midrib describe a simple leaf, and leaflets never have buds in their axils.</p>",
+     "hint": "Palm: fingers from one point."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "हस्ताकार संयुक्त पत्ती का सही वर्णन कौन-सा कथन करता है?",
+     "o": [
+      "पत्रक एक ही अक्ष (मध्यशिरा) पर स्थित होते हैं, जैसे नीम में",
+      "स्तरिका कटी होती है परंतु कटाव मध्यशिरा तक नहीं पहुँचता",
+      "पत्रक एक ही बिंदु अर्थात् पर्णवृंत की चोटी से जुड़े रहते हैं, जैसे सिल्क कॉटन में",
+      "प्रत्येक पत्रक के कक्ष में कली होती है"
+     ],
+     "sol": "<p>NCERT 5.3.2: <b>हस्ताकार संयुक्त</b> पत्ती में पत्रक एक ही बिंदु — पर्णवृंत की चोटी — से जुड़े रहते हैं, जैसे <b>सिल्क कॉटन</b> में। एक ही अक्ष (मध्यशिरा के रूप में) पर स्थित पत्रक पिच्छाकार संयुक्त पत्ती बनाते हैं, जैसे नीम में। कटाव का मध्यशिरा तक न पहुँचना सरल पत्ती का लक्षण है, और पत्रकों के कक्ष में कली कभी नहीं होती।</p>",
+     "hint": "हस्त: एक बिंदु से अंगुलियाँ।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-05",
+    "paras": [
+     "5.3.2"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 5.1 (pinnately vs palmately compound leaf), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-05-ai-5-3-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A student finds a twig bearing several leaf-like green blades and cannot decide whether it is one compound leaf or a branch with simple leaves. Which observation settles it as a compound leaf?",
+     "o": [
+      "A bud is present in the axil of the petiole but not in the axils of the leaflets",
+      "A bud is present in the axil of every blade",
+      "The blades show reticulate venation",
+      "The blades are arranged alternately"
+     ],
+     "sol": "<p>NCERT 5.3.2: a bud is present in the axil of the petiole in both simple and compound leaves, but <b>not in the axil of the leaflets</b> of a compound leaf. So buds only at the petiole base mean one compound leaf; a bud in the axil of every blade means a branch carrying simple leaves. Venation and arrangement do not distinguish the two.</p>",
+     "hint": "Look for axillary buds.",
+     "trap": "Leaflets look like leaves, but they never carry axillary buds."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "एक छात्र को एक टहनी मिलती है जिस पर पत्ती जैसी कई हरी फलकें हैं, और वह तय नहीं कर पाता कि यह एक संयुक्त पत्ती है या सरल पत्तियों वाली शाखा। कौन-सा प्रेक्षण इसे संयुक्त पत्ती सिद्ध करता है?",
+     "o": [
+      "पर्णवृंत के कक्ष में कली होती है परंतु पत्रकों के कक्ष में कली नहीं होती",
+      "प्रत्येक फलक के कक्ष में कली होती है",
+      "फलकों में जालिका शिराविन्यास होता है",
+      "फलक एकांतर क्रम में लगे होते हैं"
+     ],
+     "sol": "<p>NCERT 5.3.2: सरल तथा संयुक्त पत्तियों, दोनों में पर्णवृंत के कक्ष में कली होती है, लेकिन संयुक्त पत्ती के <b>पत्रकों के कक्ष में कली नहीं होती</b>। अतः केवल पर्णवृंत के आधार पर कली होना एक संयुक्त पत्ती दर्शाता है; हर फलक के कक्ष में कली हो तो वह सरल पत्तियों वाली शाखा है। शिराविन्यास तथा क्रम से यह भेद नहीं होता।</p>",
+     "hint": "कक्षस्थ कली देखिए।",
+     "trap": "पत्रक पत्ती जैसे दिखते हैं, परंतु उनमें कक्षस्थ कली कभी नहीं होती।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-05",
+    "paras": [
+     "5.3.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.3.2",
+    "label": "Practice"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-05-ncertex-5-3-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the plant with its type of phyllotaxy :<br>A. China rose — I. Whorled<br>B. Guava — II. Alternate<br>C. <i>Alstonia</i> — III. Opposite",
+     "o": [
+      "A-I, B-II, C-III",
+      "A-III, B-II, C-I",
+      "A-II, B-I, C-III",
+      "A-II, B-III, C-I"
+     ],
+     "sol": "<p>NCERT 5.3.3:</p><ul><li>Alternate — a single leaf at each node: china rose, mustard, sunflower (A-II).</li><li>Opposite — a pair of leaves at each node, opposite each other: <i>Calotropis</i>, guava (B-III).</li><li>Whorled — more than two leaves at a node forming a whorl: <i>Alstonia</i> (C-I).</li></ul><p>A-II, B-III, C-I.</p>",
+     "hint": "Count leaves per node."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पौधे का उसके पर्णविन्यास के प्रकार से मिलान कीजिए :<br>A. गुड़हल — I. चक्करदार<br>B. अमरूद — II. एकांतर<br>C. <i>Alstonia</i> — III. सम्मुख",
+     "o": [
+      "A-I, B-II, C-III",
+      "A-III, B-II, C-I",
+      "A-II, B-I, C-III",
+      "A-II, B-III, C-I"
+     ],
+     "sol": "<p>NCERT 5.3.3:</p><ul><li>एकांतर — प्रत्येक गांठ पर एक अकेली पत्ती: गुड़हल, सरसों, सूर्यमुखी (A-II)।</li><li>सम्मुख — प्रत्येक गांठ पर एक-दूसरे के सम्मुख एक जोड़ी पत्ती: <i>Calotropis</i> (आक), अमरूद (B-III)।</li><li>चक्करदार — एक गांठ पर दो से अधिक पत्तियाँ चक्कर बनाती हैं: <i>Alstonia</i> (C-I)।</li></ul><p>A-II, B-III, C-I।</p>",
+     "hint": "प्रत्येक गांठ पर पत्तियाँ गिनिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-05",
+    "paras": [
+     "5.3.3"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 5.2 (types of phyllotaxy with examples), reworded as a matching MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-05-ncertex-5-5-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which is the correct order of the four floral whorls of a typical flower, from the outermost to the innermost?",
+     "o": [
+      "Corolla → calyx → gynoecium → androecium",
+      "Calyx → corolla → androecium → gynoecium",
+      "Calyx → androecium → corolla → gynoecium",
+      "Gynoecium → androecium → corolla → calyx"
+     ],
+     "sol": "<p>NCERT 5.5–5.5.1: a typical flower has four whorls on the thalamus — <b>calyx</b> (outermost, sepals), <b>corolla</b> (petals), <b>androecium</b> (stamens) and <b>gynoecium</b> (carpels, innermost). Calyx and corolla are accessory organs; androecium and gynoecium are the reproductive organs.</p>",
+     "hint": "Sepals outside, carpels in the centre."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "एक प्ररूपी पुष्प के चार पुष्पी चक्रों का सबसे बाहरी से सबसे भीतरी तक सही क्रम कौन-सा है?",
+     "o": [
+      "कोरोला → केलिक्स → जायांग → पुमंग",
+      "केलिक्स → कोरोला → पुमंग → जायांग",
+      "केलिक्स → पुमंग → कोरोला → जायांग",
+      "जायांग → पुमंग → कोरोला → केलिक्स"
+     ],
+     "sol": "<p>NCERT 5.5–5.5.1: प्ररूपी पुष्प में पुष्पासन पर चार चक्र होते हैं — <b>केलिक्स</b> (सबसे बाहरी, बाह्य दल), <b>कोरोला</b> (दल), <b>पुमंग</b> (पुंकेसर) तथा <b>जायांग</b> (अंडप, सबसे भीतरी)। केलिक्स तथा कोरोला सहायक अंग हैं; पुमंग तथा जायांग जनन अंग हैं।</p>",
+     "hint": "बाह्य दल बाहर, अंडप केंद्र में।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-05",
+    "paras": [
+     "5.5.1"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 5.8 (parts of a typical flower), reworded as an MCQ"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-05-ai-5-5-1-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements about the calyx is correct?",
+     "o": [
+      "It is the innermost whorl and its members are called petals",
+      "Its members are usually brightly coloured to attract insects",
+      "Its members are generally green and protect the flower in the bud stage; it is gamosepalous when the sepals are united",
+      "It is polysepalous when the sepals are united"
+     ],
+     "sol": "<p>NCERT 5.5.1.1: the calyx is the <b>outermost</b> whorl; its members, the sepals, are generally green and leaf-like and <b>protect the flower in the bud stage</b>. United sepals = <b>gamosepalous</b>; free sepals = polysepalous. Brightly coloured members attracting insects are petals (corolla).</p>",
+     "hint": "Gamo- = united.",
+     "trap": "Gamosepalous (united) and polysepalous (free) are easily swapped."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "केलिक्स के संबंध में निम्नलिखित में से कौन-सा कथन सही है?",
+     "o": [
+      "यह सबसे भीतरी चक्र है तथा इसकी इकाइयों को दल कहते हैं",
+      "इसकी इकाइयाँ कीटों को आकर्षित करने के लिए प्रायः चमकीले रंग की होती हैं",
+      "इसकी इकाइयाँ प्रायः हरी होती हैं तथा कली की अवस्था में फूल की रक्षा करती हैं; बाह्य दल जुड़े हों तो यह संयुक्त बाह्य दली कहलाता है",
+      "बाह्य दल जुड़े हों तो यह पृथक बाह्य दली कहलाता है"
+     ],
+     "sol": "<p>NCERT 5.5.1.1: केलिक्स पुष्प का <b>सबसे बाहरी</b> चक्र है; इसकी इकाइयाँ, बाह्य दल, प्रायः हरी पत्तियों की तरह होती हैं और <b>कली की अवस्था में फूल की रक्षा करती हैं</b>। जुड़े हुए बाह्य दल = <b>संयुक्त बाह्य दली</b>; मुक्त बाह्य दल = पृथक बाह्य दली। कीटों को आकर्षित करने वाली चमकीली इकाइयाँ दल (कोरोला) हैं।</p>",
+     "hint": "संयुक्त = जुड़े हुए।",
+     "trap": "संयुक्त बाह्य दली (जुड़े) तथा पृथक बाह्य दली (मुक्त) आसानी से उलट जाते हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-05",
+    "paras": [
+     "5.5.1.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.5.1.1",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-05-ai-5-7-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A seed is made up of a seed coat and an embryo. In which pair of plants does the embryo have only one cotyledon?",
+     "o": [
+      "Wheat and maize",
+      "Gram and pea",
+      "Pea and maize",
+      "Gram and wheat"
+     ],
+     "sol": "<p>NCERT 5.7: ovules develop into seeds after fertilisation; a seed has a seed coat and an embryo made of a radicle, an embryonal axis and <b>one cotyledon (wheat, maize)</b> or two cotyledons (gram, pea).</p>",
+     "hint": "Cereals are monocots."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "बीज में एक बीजावरण तथा भ्रूण होता है। पौधों के किस युग्म में भ्रूण में केवल एक बीजपत्र होता है?",
+     "o": [
+      "गेहूँ तथा मक्का",
+      "चना तथा मटर",
+      "मटर तथा मक्का",
+      "चना तथा गेहूँ"
+     ],
+     "sol": "<p>NCERT 5.7: निषेचन के बाद बीजांड से बीज बनते हैं; बीज में एक बीजावरण तथा भ्रूण होता है, और भ्रूण में एक मूलांकुर, एक भ्रूणीय अक्ष तथा <b>एक (गेहूँ, मक्का)</b> अथवा दो (चना, मटर) बीजपत्र होते हैं।</p>",
+     "hint": "अनाज एकबीजपत्री हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-05",
+    "paras": [
+     "5.7"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.7",
+    "label": "Practice"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
    }
   }
  ],
