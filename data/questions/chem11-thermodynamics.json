@@ -7047,6 +7047,93 @@
     "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
     "note": "Options are graphs; needs redrawn figures."
    }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-04-02-shift-1-q54",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following data.<br>(i) 2Al(s) + 6HCl(aq) → Al<sub>2</sub>Cl<sub>6</sub>(aq) + 3H<sub>2</sub>(g) + 1200 kJ/mol<br>(ii) H<sub>2</sub>(g) + Cl<sub>2</sub>(g) → 2HCl(g) + 164 kJ/mol.<br>(iii) HCl(g) + aq → HCl(aq) + 83 kJ/mol.<br>(iv) Al<sub>2</sub>Cl<sub>6</sub>(s) + aq → Al<sub>2</sub>Cl<sub>6</sub>(aq) + 663 kJ/mol<br>The enthalpy of formation of anhydrous solid Al<sub>2</sub>Cl<sub>6</sub> is :",
+     "o": [
+      "−648 kJ mol<sup>−1</sup>",
+      "−1350 kJ mol<sup>−1</sup>",
+      "−2002 kJ mol<sup>−1</sup>",
+      "−1527 kJ mol<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "hess"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-1 Q54",
+    "session": "2 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 69112154, option ID 691121186): option 4 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2026-2026-04-02-shift-1-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At the transition temperature T, A ⇌ B and ΔG<sup>0</sup> = 105 − 35 log T where A and B are two states of substance X. The transition temperature in °C when pressure is 1 atm is ________. (Nearest integer)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 727,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "eq-criterion"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-1 Q75",
+    "session": "2 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 69112175): 727; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
   }
  ]
 }

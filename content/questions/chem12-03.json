@@ -1618,6 +1618,94 @@
     "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
     "note": "Section B (attempt any 10 of 15)."
    }
+  },
+  {
+   "id": "chem12-03-jee-2026-2026-04-02-shift-1-q58",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "t<sub>100%</sub> is the time required for the 100% completion of the reaction while t<sub>½</sub> is the time required for 50% of the reaction to be completed. Which of the following option correctly represents the relation between t<sub>100%</sub> and t<sub>½</sub> for zero and first order reactions respectively ?",
+     "o": [
+      "t<sub>100%</sub> = (t<sub>½</sub>)<sup>2</sup> and t<sub>100%</sub> = (t<sub>½</sub>)<sup>−∞</sup>",
+      "t<sub>100%</sub> = 2t<sub>½</sub> and t<sub>100%</sub> = (t<sub>½</sub>)<sup>∞</sup>",
+      "t<sub>100%</sub> = 2t<sub>½</sub> and t<sub>100%</sub> = (2t<sub>½</sub>)<sup>2</sup>",
+      "t<sub>100%</sub> = (t<sub>½</sub>)<sup>∞</sup> and t<sub>100%</sub> = 2t<sub>½</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-1 Q58",
+    "session": "2 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 69112158, option ID 691121200): option 2 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "Option (2) is printed as (t½)^∞ for first order: the intended meaning is that a first-order reaction never reaches 100% (t100% → ∞)."
+   }
+  },
+  {
+   "id": "chem12-03-jee-2026-2026-04-02-shift-1-q74",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For reaction A → P, rate constant k = 1.5 × 10<sup>3</sup> s<sup>−1</sup> at 27°C. If activation energy for the above reaction is 60 kJ mol<sup>−1</sup>, then the temperature (in °C) at which rate constant, k = 4.5 × 10<sup>3</sup> s<sup>−1</sup> is ________. (Nearest integer)<br>Given : log 2 = 0.30, log 3 = 0.48, R = 8.3 J K<sup>−1</sup> mol<sup>−1</sup>, ln 10 = 2.3"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 41,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-1 Q74",
+    "session": "2 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 69112174): 41; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
   }
  ]
 }

@@ -1520,6 +1520,52 @@
     "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
     "note": "BONUS in the copy's key: with E°cell = 10.5 V as printed the answer (10.41 V) is not offered. If the intended value is 1.05 V, E = 1.05 − (0.059/2)×3 = 0.9615 V (option 2). Check NTA's final key; keep out of tests until then. Section B (attempt any 10 of 15)."
    }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-02-shift-1-q57",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electrochemical cell is constructed using half cells in the direction of spontaneous change<br>Fe(OH)<sub>2</sub>(s) + 2e<sup>−</sup> → Fe(s) + 2OH<sup>−</sup>(aq) &nbsp; E<sup>θ</sup> = −0.88 V<br>and AgBr(s) + e<sup>−</sup> → Ag(s) + Br<sup>−</sup>(aq) &nbsp; E<sup>θ</sup> = +0.07 V<br>Which of the following option is correct ?",
+     "o": [
+      "Overall reaction Fe(s) + 2OH<sup>−</sup>(aq) + 2AgBr(s) ⇌ Fe(OH)<sub>2</sub>(s) + 2Ag(s) + 2Br<sup>−</sup>(aq)",
+      "E<sup>θ</sup><sub>cell</sub> = −0.95 V",
+      "Fe is reduced in the electrochemical cell",
+      "E<sup>θ</sup><sub>cell</sub> is an extensive property"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-1 Q57",
+    "session": "2 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 69112157, option ID 691121195): option 1 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
   }
  ]
 }
