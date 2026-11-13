@@ -701,7 +701,10 @@
   {
    "en": "promoter",
    "hi": "उन्नायक",
-   "source": "ncert-hi-text class 12 biology"
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "प्रोत्साहक"
+   ]
   },
   {
    "en": "terminator",
@@ -960,7 +963,10 @@
   {
    "en": "coleoptile",
    "hi": "प्रांकुरचोल",
-   "source": "ncert-hi-text class 12 biology"
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "प्रांकुर चोल"
+   ]
   },
   {
    "en": "coleorhiza",
@@ -5452,6 +5458,169 @@
    "en": "tripalmitin",
    "hi": "ट्राइपामिटिन",
    "source": "bio11-12"
+  },
+  {
+   "en": "gibberellin",
+   "hi": "जिबरेलिन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "cytokinin",
+   "hi": "साइटोकाइनिन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "ethylene",
+   "hi": "एथीलिन",
+   "source": "bio11-13",
+   "check": false,
+   "note": "Chemistry book spells it differently (एथिलीन); Biology NCERT uses एथीलिन"
+  },
+  {
+   "en": "abscisic acid",
+   "hi": "एबसीसिक एसिड",
+   "source": "bio11-13"
+  },
+  {
+   "en": "abscission",
+   "hi": "विलगन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "dedifferentiation",
+   "hi": "निर्विभेदन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "redifferentiation",
+   "hi": "पुनर्विभेदन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "plasticity",
+   "hi": "प्लास्टिसिटी",
+   "source": "bio11-13"
+  },
+  {
+   "en": "heterophylly",
+   "hi": "विषमपर्णता",
+   "source": "bio11-13"
+  },
+  {
+   "en": "apical dominance",
+   "hi": "शीर्षस्थ प्रभाविता",
+   "source": "bio11-13"
+  },
+  {
+   "en": "parthenocarpy",
+   "hi": "अनिषेकफलन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "herbicide",
+   "hi": "शाकनाशी",
+   "source": "bio11-13"
+  },
+  {
+   "en": "stress hormone",
+   "hi": "तनाव हार्मोन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "malting",
+   "hi": "माल्टिंग",
+   "source": "bio11-13"
+  },
+  {
+   "en": "senescence",
+   "hi": "जरावस्था",
+   "source": "bio11-13"
+  },
+  {
+   "en": "lag phase",
+   "hi": "पश्चता अवस्था",
+   "source": "bio11-13"
+  },
+  {
+   "en": "log phase",
+   "hi": "चरघातांकी",
+   "source": "bio11-13"
+  },
+  {
+   "en": "vacuolation",
+   "hi": "रसधानी भवन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "cell enlargement",
+   "hi": "कोशिका विशालीकरण",
+   "source": "bio11-13"
+  },
+  {
+   "en": "kinetin",
+   "hi": "काइनेटिन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "plant growth regulator",
+   "hi": "पादप वृद्धि नियामक",
+   "source": "bio11-13"
+  },
+  {
+   "en": "root hair",
+   "hi": "मूल रोम",
+   "source": "bio11-13"
+  },
+  {
+   "en": "pineapple",
+   "hi": "अनानास",
+   "source": "bio11-13"
+  },
+  {
+   "en": "petiole",
+   "hi": "पर्णवृंत",
+   "source": "bio11-13"
+  },
+  {
+   "en": "gibberellic acid",
+   "hi": "जिब्बेरेलिक अम्ल",
+   "source": "bio11-13"
+  },
+  {
+   "en": "brewing industry",
+   "hi": "आसव (शराब) उद्योग",
+   "source": "bio11-13"
+  },
+  {
+   "en": "buttercup",
+   "hi": "बटरकप",
+   "source": "bio11-13"
+  },
+  {
+   "en": "larkspur",
+   "hi": "लार्कस्पर",
+   "source": "bio11-13"
+  },
+  {
+   "en": "coriander",
+   "hi": "धनिया",
+   "source": "bio11-13"
+  },
+  {
+   "en": "dormancy",
+   "hi": "प्रसुप्ति",
+   "source": "bio11-13"
+  },
+  {
+   "en": "conifers",
+   "hi": "शंकुवृक्षों",
+   "source": "bio11-13",
+   "check": false
+  },
+  {
+   "en": "deep water rice",
+   "hi": "गहरे पानी के धान",
+   "source": "bio11-13"
   }
  ],
  "noNcertTerm": [
@@ -6334,6 +6503,46 @@
    "en": "succinic dehydrogenase",
    "hi_used": "सक्सीनिक डिहाइड्रोजिनेज",
    "note": "NCERT Hindi 9.8.4 prints it (split across a line in the text file); bio11-09"
+  },
+  {
+   "en": "bioassay",
+   "hi_used": "जैव आमापन",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "Avena coleoptile curvature test",
+   "hi_used": "Avena प्रांकुर चोल वक्रण परीक्षण",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "phytochrome / chromoprotein",
+   "hi_used": "फाइटोक्रोम / वर्णकी प्रोटीन",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "photoperiodism / florigen",
+   "hi_used": "दीप्तिकालिता / फ्लोरिजन",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "seed dormancy inhibitors (phenolic acid, para-ascorbic acid)",
+   "hi_used": "फीनोलिक अम्ल, पैरा-एस्कॉर्बिक अम्ल",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "zeatin",
+   "hi_used": "ज़िएटिन",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "callus",
+   "hi_used": "कैलस",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "lettuce hypocotyl",
+   "hi_used": "लेट्यूस बीजपत्राधार",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
   }
  ]
 }
