@@ -1,0 +1,2161 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-03",
+ "subject": "physics",
+ "class": 12,
+ "unit": 3,
+ "title": {
+  "en": "Current Electricity"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph103.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "3.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "3.2",
+   "title": "Electric Current",
+   "hi": "विद्युत धारा",
+   "pdfPage": 1
+  },
+  {
+   "id": "3.3",
+   "title": "Electric Currents in Conductors",
+   "hi": "चालक में विद्युत धारा",
+   "pdfPage": 2
+  },
+  {
+   "id": "3.4",
+   "title": "Ohm's Law",
+   "hi": "ओम का नियम",
+   "pdfPage": 3
+  },
+  {
+   "id": "3.5",
+   "title": "Drift of Electrons and the Origin of Resistivity",
+   "hi": "इलेक्ट्रॉन का अपवाह एवं प्रतिरोधकता का उद्गम",
+   "pdfPage": 5
+  },
+  {
+   "id": "3.5.1",
+   "title": "Mobility",
+   "hi": "गतिशीलता",
+   "pdfPage": 8
+  },
+  {
+   "id": "3.6",
+   "title": "Limitations of Ohm's Law",
+   "hi": "ओम के नियम की सीमाएँ",
+   "pdfPage": 9
+  },
+  {
+   "id": "3.7",
+   "title": "Resistivity of Various Materials",
+   "hi": "विभिन्न पदार्थों की प्रतिरोधकता",
+   "pdfPage": 9
+  },
+  {
+   "id": "3.8",
+   "title": "Temperature Dependence of Resistivity",
+   "hi": "प्रतिरोधकता की ताप पर निर्भरता",
+   "pdfPage": 10
+  },
+  {
+   "id": "3.9",
+   "title": "Electrical Energy, Power",
+   "hi": "विद्युत ऊर्जा, शक्ति",
+   "pdfPage": 12
+  },
+  {
+   "id": "3.10",
+   "title": "Cells, EMF, Internal Resistance",
+   "hi": "सेल, विद्युत वाहक बल (emf), आंतरिक प्रतिरोध",
+   "pdfPage": 13
+  },
+  {
+   "id": "3.11",
+   "title": "Cells in Series and in Parallel",
+   "hi": "श्रेणी तथा पार्श्वक्रम में सेल",
+   "pdfPage": 15
+  },
+  {
+   "id": "3.12",
+   "title": "Kirchhoff's Rules",
+   "hi": "किरखोफ के नियम",
+   "pdfPage": 17
+  },
+  {
+   "id": "3.13",
+   "title": "Wheatstone Bridge",
+   "hi": "व्हीटस्टोन सेतु",
+   "pdfPage": 20
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-03-neet-2015-re-exam-code-d-q142",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A circuit contains an ammeter, a battery of 30 V and a resistance 40.8 ohm all connected in series. If the ammeter has a coil of resistance 480 ohm and a shunt of 20 ohm, the reading in the ammeter will be :",
+     "o": [
+      "0.25 A",
+      "2A",
+      "1A",
+      "0.5 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.4"
+    ],
+    "otherChapters": [
+     "Class 12 · Moving Charges and Magnetism"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q142",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
+    "note": "Ammeter resistance = 480 × 20/500 = 19.2 Ω; I = 30/(40.8 + 19.2) = 0.5 A."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2015-re-exam-code-d-q147",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two metal wires of identical dimensions are connected in series. If σ<sub>1</sub> and σ<sub>2</sub> are the conductivities of the metal wires respectively, the effective conductivity of the combination is :",
+     "o": [
+      "(σ<sub>1</sub> + σ<sub>2</sub>)/(2σ<sub>1</sub>σ<sub>2</sub>)",
+      "(σ<sub>1</sub> + σ<sub>2</sub>)/(σ<sub>1</sub>σ<sub>2</sub>)",
+      "σ<sub>1</sub>σ<sub>2</sub>/(σ<sub>1</sub> + σ<sub>2</sub>)",
+      "2σ<sub>1</sub>σ<sub>2</sub>/(σ<sub>1</sub> + σ<sub>2</sub>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.5",
+     "3.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q147",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2015-re-exam-code-d-q164",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A potentiometer wire of length L and a resistance r are connected in series with a battery of e.m.f. E<sub>0</sub> and a resistance r<sub>1</sub>. An unknown e.m.f. E is balanced at a length l of the potentiometer wire. The e.m.f. E will be given by :",
+     "o": [
+      "E<sub>0</sub>r l/((r + r<sub>1</sub>)L)",
+      "E<sub>0</sub>l/L",
+      "LE<sub>0</sub>r/((r + r<sub>1</sub>)l)",
+      "LE<sub>0</sub>r/(l r<sub>1</sub>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 3 · Potentiometer"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q164",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2016-phase-1-code-a-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The charge flowing through a resistance R varies with time t as Q = at − bt<sup>2</sup>, where a and b are positive constants. The total heat produced in R is :",
+     "o": [
+      "a<sup>3</sup>R/(6b)",
+      "a<sup>3</sup>R/(3b)",
+      "a<sup>3</sup>R/(2b)",
+      "a<sup>3</sup>R/b"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q14",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2016-phase-1-code-a-q31",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A potentiometer wire is 100 cm long and a constant potential difference is maintained across it. Two cells are connected in series first to support one another and then in opposite direction. The balance points are obtained at 50 cm and 10 cm from the positive end of the wire in the two cases. The ratio of emf's is :",
+     "o": [
+      "5 : 1",
+      "5 : 4",
+      "3 : 4",
+      "3 : 2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 3 · Potentiometer"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q31",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2016-phase-2-code-aa-q25",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The potential difference (V<sub>A</sub> − V<sub>B</sub>) between the points A and B in the given figure is :",
+     "o": [
+      "−3 V",
+      "+3 V",
+      "+6 V",
+      "+9 V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.10",
+     "3.12"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q25",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Figure: A —(I = 2 A)— 2 Ω — 3 V cell — 1 Ω — B. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2016-phase-2-code-aa-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A filament bulb (500 W, 100 V) is to be used in a 230 V main supply. When a resistance R is connected in series, it works perfectly and the bulb consumes 500 W. The value of R is :",
+     "o": [
+      "230 Ω",
+      "46 Ω",
+      "26 Ω",
+      "13 Ω"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q26",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2017-code-a-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A potentiometer is an accurate and versatile device to make electrical measurements of E.M.F., because the method involves :",
+     "o": [
+      "Cells",
+      "Potential gradients",
+      "A condition of no current flow through the galvanometer",
+      "A combination of cells, galvanometer and resistances"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 3 · Potentiometer"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q1",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2017-code-a-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The resistance of a wire is 'R' ohm. If it is melted and stretched to 'n' times its original length, its new resistance will be :",
+     "o": [
+      "nR",
+      "R/n",
+      "n<sup>2</sup>R",
+      "R/n<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.4",
+     "3.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q45",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2018-code-aa-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A carbon resistor of (47 ± 4.7) kΩ is to be marked with rings of different colours for its identification. The colour code sequence will be :",
+     "o": [
+      "Yellow – Green – Violet – Gold",
+      "Yellow – Violet – Orange – Silver",
+      "Violet – Yellow – Orange – Silver",
+      "Green – Orange – Violet – Gold"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q5",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)",
+    "note": "The colour code table was removed from the rationalised chapter."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2018-code-aa-q6",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A set of 'n' equal resistors, of value 'R' each, are connected in series to a battery of emf 'E' and internal resistance 'R'. The current drawn is I. Now, the 'n' resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of 'n' is :",
+     "o": [
+      "20",
+      "11",
+      "10",
+      "9"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q6",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2018-code-aa-q7",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A battery consists of a variable number 'n' of identical cells (having internal resistance 'r' each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n?",
+     "o": [
+      "[graph 1: I rises and saturates]",
+      "[graph 2: I ∝ n, straight line]",
+      "[graph 3: I constant]",
+      "[graph 4: I rises ever faster]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q7",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2019-code-s2-q97",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the circuits shown below, the readings of the voltmeters and the ammeters will be :",
+     "o": [
+      "V<sub>1</sub> = V<sub>2</sub> and i<sub>1</sub> = i<sub>2</sub>",
+      "V<sub>2</sub> > V<sub>1</sub> and i<sub>1</sub> > i<sub>2</sub>",
+      "V<sub>2</sub> > V<sub>1</sub> and i<sub>1</sub> = i<sub>2</sub>",
+      "V<sub>1</sub> = V<sub>2</sub> and i<sub>1</sub> > i<sub>2</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.12"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q97",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "Circuit 1: 10 V cell, 10 Ω with V<sub>1</sub> across it, ammeter A<sub>1</sub> in series. Circuit 2: 10 V cell, 10 Ω in parallel with (10 Ω + V<sub>2</sub> in series), ammeter A<sub>2</sub> in series. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2019-code-s2-q119",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following acts as a circuit protection device?",
+     "o": [
+      "switch",
+      "fuse",
+      "conductor",
+      "inductor"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q119",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2019-code-s2-q124",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Six similar bulbs are connected as shown in the figure with a DC source of emf E, and zero internal resistance. The ratio of power consumption by the bulbs when (i) all are glowing and (ii) in the situation when two from section A and one from section B are glowing, will be :",
+     "o": [
+      "1 : 2",
+      "2 : 1",
+      "4 : 9",
+      "9 : 4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q124",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "Section A: three bulbs in parallel; section B: three bulbs in parallel; A and B in series with E. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2020-code-f3-q15",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following graphs represents the variation of resistivity (ρ) with temperature (T) for copper?",
+     "o": [
+      "[graph 1: ρ rises slowly then faster, from a non-zero value at T = 0]",
+      "[graph 2: ρ falls, ever faster]",
+      "[graph 3: ρ rises linearly from the origin]",
+      "[graph 4: ρ falls steeply then levels off]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q15",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2020-code-f3-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A charged particle having drift velocity of 7.5 × 10<sup>−4</sup> m s<sup>−1</sup> in an electric field of 3 × 10<sup>−10</sup> V m<sup>−1</sup> has a mobility in m<sup>2</sup> V<sup>−1</sup> s<sup>−1</sup> of :",
+     "o": [
+      "2.5 × 10<sup>−6</sup>",
+      "2.25 × 10<sup>−15</sup>",
+      "2.25 × 10<sup>15</sup>",
+      "2.5 × 10<sup>6</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q28",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2020-code-f3-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The colour code of a resistance is given below: Yellow – Violet – Brown – Gold. The values of resistance and tolerance, respectively, are :",
+     "o": [
+      "4.7 kΩ, 5%",
+      "470 Ω, 5%",
+      "470 kΩ, 5%",
+      "47 kΩ, 10%"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q29",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)",
+    "note": "The colour code table was removed from the rationalised chapter."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2020-code-f3-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The solids which have the negative temperature coefficient of resistance are :",
+     "o": [
+      "semiconductors only",
+      "insulators and semiconductors",
+      "metals",
+      "insulators only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q30",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2020-code-f3-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A resistance wire connected in the left gap of a metre bridge balances a 10 Ω resistance in the right gap at a point which divides the bridge wire in the ratio 3 : 2. If the length of the resistance wire is 1.5 m, then the length of 1 Ω of the resistance wire is :",
+     "o": [
+      "1.5 × 10<sup>−1</sup> m",
+      "1.5 × 10<sup>−2</sup> m",
+      "1.0 × 10<sup>−2</sup> m",
+      "1.0 × 10<sup>−1</sup> m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.13"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q45",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)",
+    "note": "The metre bridge is in the NCERT lab manual; the rationalised textbook keeps only the Wheatstone bridge."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2021-code-p3-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Column-I gives certain physical terms associated with flow of current through a metallic conductor. Column-II gives some mathematical relations involving electrical quantities. Match Column-I and Column-II with appropriate relations.<br>(A) Drift velocity — (P) m/(ne<sup>2</sup>ρ)<br>(B) Electrical resistivity — (Q) nev<sub>d</sub><br>(C) Relaxation period — (R) (eE/m)τ<br>(D) Current density — (S) E/J",
+     "o": [
+      "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
+      "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
+      "(A)-(R), (B)-(S), (C)-(Q), (D)-(P)",
+      "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.5",
+     "3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q3",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2021-code-p3-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The effective resistance of a parallel connection that consists of four wires of equal length, equal area of cross-section and same material is 0.25 Ω. What will be the effective resistance if they are connected in series?",
+     "o": [
+      "4 Ω",
+      "0.25 Ω",
+      "0.5 Ω",
+      "1 Ω"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q21",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "Series and parallel combination of resistors is not a separate section in the rationalised chapter."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2021-code-p3-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a potentiometer circuit a cell of EMF 1.5 V gives balance point at 36 cm length of wire. If another cell of EMF 2.5 V replaces the first cell, then at what length of the wire, the balance point occurs?",
+     "o": [
+      "62 cm",
+      "60 cm",
+      "21.6 cm",
+      "64 cm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 3 · Potentiometer"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q30",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2021-code-p3-q43",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Three resistors having resistances r<sub>1</sub>, r<sub>2</sub> and r<sub>3</sub> are connected as shown in the given circuit. The ratio i<sub>3</sub>/i<sub>1</sub> of currents in terms of resistances used in the circuit is :",
+     "o": [
+      "r<sub>2</sub>/(r<sub>1</sub> + r<sub>3</sub>)",
+      "r<sub>1</sub>/(r<sub>2</sub> + r<sub>3</sub>)",
+      "r<sub>2</sub>/(r<sub>2</sub> + r<sub>3</sub>)",
+      "r<sub>1</sub>/(r<sub>1</sub> + r<sub>2</sub>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.12"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q43",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "r<sub>1</sub> (current i<sub>1</sub>) in series with r<sub>2</sub> (i<sub>2</sub>) and r<sub>3</sub> (i<sub>3</sub>) in parallel, between A and B."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2022-code-t2-q15",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two resistors of resistance, 100 Ω and 200 Ω are connected in parallel in an electrical circuit. The ratio of the thermal energy developed in 100 Ω to that in 200 Ω in a given time is :",
+     "o": [
+      "2 : 1",
+      "1 : 4",
+      "4 : 1",
+      "1 : 2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q15",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2022-code-t2-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "As the temperature increases, the electrical resistance :",
+     "o": [
+      "decreases for both conductors and semiconductors",
+      "increases for conductors but decreases for semiconductors",
+      "decreases for conductors but increases for semiconductors",
+      "increases for both conductors and semiconductors"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q28",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2022-code-t2-q33",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A copper wire of length 10 m and radius (10<sup>−2</sup>/√π) m has electrical resistance of 10 Ω. The current density in the wire for an electric field strength of 10 (V/m) is :",
+     "o": [
+      "10<sup>6</sup> A/m<sup>2</sup>",
+      "10<sup>−5</sup> A/m<sup>2</sup>",
+      "10<sup>5</sup> A/m<sup>2</sup>",
+      "10<sup>4</sup> A/m<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.4",
+     "3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q33",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "The eSaral copy prints the radius as (10<sup>−2</sup>/π) m, but its own solution uses 10<sup>−2</sup>/√π m (area 10<sup>−4</sup> m<sup>2</sup>); with 10<sup>−2</sup>/π m no option fits. Check against an official booklet."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2022-code-t2-q46",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A Wheatstone bridge is used to determine the value of unknown resistance X by adjusting the variable resistance Y as shown in the figure. For the most precise measurement of X, the resistances P and Q :",
+     "o": [
+      "should be approximately equal and are small",
+      "should be very large and unequal",
+      "do not play any significant role",
+      "should be approximately equal to 2X"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.13"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q46",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "The figure is the usual bridge: P and X in one pair of arms, Q and Y (variable) in the other, galvanometer G across."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2023-topic-wise-copy-q19",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The magnitude and direction of the current in the following circuit is :",
+     "o": [
+      "1.5 A from B to A through E",
+      "0.2 A from B to A through E",
+      "0.5 A from A to B through E",
+      "(5/9) A from A to B through E"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.10",
+     "3.12"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q19",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "Loop ABCD: from A, 2 Ω, a 10 V cell, point E, a 5 V cell opposing it, 1 Ω to B; 7 Ω from C to D. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2023-topic-wise-copy-q20",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the galvanometer G does not show any deflection in the circuit shown, the value of R is given by :",
+     "o": [
+      "400 Ω",
+      "200 Ω",
+      "50 Ω",
+      "100 Ω"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.12"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q20",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "Circuit: a cell in series with 400 Ω and R; the branch with G and a 2 V cell is across R. No deflection means the p.d. across R is 2 V, so E·R/(400 + R) = 2. The copy prints the cell as 40 V, which gives R ≈ 21 Ω (no option); the keyed 100 Ω needs E = 10 V. Check the cell value against an official booklet. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2023-topic-wise-copy-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Resistance of a carbon resistor determined from colour codes is (22000 ± 5%) Ω. The colour of third band must be :",
+     "o": [
+      "Yellow",
+      "Red",
+      "Green",
+      "Orange"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q21",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "The colour code table was removed from the rationalised chapter."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2023-topic-wise-copy-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The resistance of platinum wire at 0 °C is 2 Ω and 6.8 Ω at 80 °C. The temperature coefficient of resistance of the wire is :",
+     "o": [
+      "3 × 10<sup>−1</sup> °C<sup>−1</sup>",
+      "3 × 10<sup>−4</sup> °C<sup>−1</sup>",
+      "3 × 10<sup>−3</sup> °C<sup>−1</sup>",
+      "3 × 10<sup>−2</sup> °C<sup>−1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q42",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2023-topic-wise-copy-q43",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "10 resistors, each of resistance R are connected in series to a battery of emf E and negligible internal resistance. Then those are connected in parallel to the same battery, the current is increased n times. The value of n is :",
+     "o": [
+      "1000",
+      "10",
+      "100",
+      "1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q43",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "Series and parallel combination of resistors is not a separate section in the rationalised chapter."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2024-q1-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Choose the correct circuit which can achieve the bridge balance.",
+     "o": [
+      "[circuit A]",
+      "[circuit B]",
+      "[circuit C]",
+      "[circuit D]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.13"
+    ],
+    "otherChapters": [
+     "Class 12 · Semiconductor Electronics"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q1 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Four Wheatstone bridges with arms 10 Ω, 10 Ω, 15 Ω and 5 Ω plus a diode D in the 5 Ω arm, with the diode and cell turned different ways; balance needs the diode forward biased with R<sub>D</sub> = 10 Ω (10/15 = 10/(5 + R<sub>D</sub>)). Options are circuit figures; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2024-q23-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two heaters A and B have power rating of 1 kW and 2 kW, respectively. These two are first connected in series and then in parallel to a fixed power source. The ratio of power outputs for these two cases is :",
+     "o": [
+      "1 : 1",
+      "2 : 9",
+      "1 : 2",
+      "2 : 3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q23 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The end of option (4) is clipped in the copy (\"2 : 3\" as published)."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2024-q24-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A wire of length 'l' and resistance 100 Ω is divided into 10 equal parts. The first 5 parts are connected in series while the next 5 parts are connected in parallel. The two combinations are again connected in series. The resistance of this final combination is :",
+     "o": [
+      "26 Ω",
+      "52 Ω",
+      "55 Ω",
+      "60 Ω"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q24 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2024-q25-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The terminal voltage of the battery, whose emf is 10 V and internal resistance 1 Ω, when connected through an external resistance of 4 Ω as shown in the figure is :",
+     "o": [
+      "4 V",
+      "6 V",
+      "8 V",
+      "10 V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q25 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The figure only repeats the data."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2025-code-45-q6",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The current passing through the battery in the given circuit, is :",
+     "o": [
+      "2.0 A",
+      "0.5 A",
+      "2.5 A",
+      "1.5 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.13",
+     "3.12"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q6",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "A balanced Wheatstone bridge (5 Ω, 2.5 Ω, 3 Ω, 1.5 Ω, with 6 Ω across) of 8/3 Ω, in series with 1.5 Ω, 5.5 Ω and a 5 V cell of internal resistance 1/3 Ω. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2025-code-45-q33",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A wire of resistance R is cut into 8 equal pieces. From these pieces two equivalent resistances are made by adding four of these together in parallel. Then these two sets are added in series. The net effective resistance of the combination is :",
+     "o": [
+      "R/64",
+      "R/32",
+      "R/16",
+      "R/8"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q33",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "Series and parallel combination of resistors is not a separate section in the rationalised chapter."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2025-code-45-q36",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A constant voltage of 50 V is maintained between the points A and B of the circuit shown in the figure. The current through the branch CD of the circuit is :",
+     "o": [
+      "1.5 A",
+      "2.0 A",
+      "2.5 A",
+      "3.0 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.12"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q36",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "From A: 1 Ω (to C) in parallel with 3 Ω (to D); then 2 Ω from C and 4 Ω from D to B; branch CD joins C and D. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2026-code-13-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A room heater is rated 400 W, 220 V. If the supply voltage drops to 200 V, what will be the power consumed (approximately)?",
+     "o": [
+      "400 W",
+      "121 W",
+      "331 W",
+      "200 W"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q2",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2026-code-13-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A resistor is connected to a battery of 12 V emf and internal resistance 2 Ω. If the current in the circuit is 0.6 A, the terminal voltage of the battery is :",
+     "o": [
+      "12 V",
+      "1.2 V",
+      "10 V",
+      "10.8 V"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q21",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-03-neet-2026-code-13-q22",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a metre bridge experiment (see figure), the positions of the cell, E, and galvanometer, G, are interchanged. We shall observe in the galvanometer :",
+     "o": [
+      "Only the right-sided deflection",
+      "Only the left-sided deflection",
+      "There will be no deflection irrespective of the position of the jockey",
+      "Both right-sided and left-sided deflection and at balance point, no deflection"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.13"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q22",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "Metre bridge with R<sub>1</sub> and R<sub>2</sub> in the gaps; after the swap the cell E is in the jockey branch and G across the outer ends. The metre bridge is in the NCERT lab manual; the textbook keeps the Wheatstone bridge. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-03-neet-2026-code-13-q45",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A uniform metallic wire having resistance 4 Ω is bent to form a square loop (ABCD) (see figure). A resistance of 2 Ω is connected between points B and D and a battery of 2 V is connected across points A and C as shown in the figure. Now the value of current (I) is :",
+     "o": [
+      "4 A",
+      "4.5 A",
+      "8 A",
+      "2 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-03",
+    "paras": [
+     "3.13",
+     "3.12"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q45",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "Each side of the square is 1 Ω; by symmetry B and D are at the same potential, so no current flows in the 2 Ω diagonal."
+   }
+  }
+ ]
+}
