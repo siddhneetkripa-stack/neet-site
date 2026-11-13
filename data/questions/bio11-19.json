@@ -110,10 +110,22 @@
       "Insulin",
       "Glucagon",
       "Cortisone"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.7–19.2.8: insulin lowers and glucagon raises blood glucose; cortisone/cortisol (glucocorticoids) stimulate gluconeogenesis. <b>Aldosterone</b> is a mineralocorticoid that regulates Na<sup>+</sup>, water and K<sup>+</sup> — it is not involved in sugar metabolism.</p>",
+     "hint": "Mineralocorticoid."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा हार्मोन शर्करा उपापचय में सम्मिलित नहीं है?",
+     "o": [
+      "एल्डोस्टीरॉन",
+      "इंसुलिन",
+      "ग्लूकागॉन",
+      "कॉर्टिसॉन"
+     ],
+     "sol": "<p>NCERT 19.2.7–19.2.8: इंसुलिन रक्त ग्लूकोज घटाता है तथा ग्लूकागॉन बढ़ाता है; कॉर्टिसॉन/कॉर्टिसॉल (ग्लूकोकॉर्टिकॉइड) ग्लूकोनियोजिनेसिस को प्रेरित करते हैं। <b>एल्डोस्टीरॉन</b> एक मिनरलोकॉर्टिकॉइड है जो Na<sup>+</sup>, जल तथा K<sup>+</sup> का नियमन करता है — यह शर्करा उपापचय में सम्मिलित नहीं है।</p>",
+     "hint": "मिनरलोकॉर्टिकॉइड।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -157,10 +169,22 @@
       "Prolactin",
       "Melanocyte stimulating hormone",
       "Antidiuretic hormone"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.2: the neurohypophysis (posterior pituitary) stores and releases oxytocin and vasopressin (<b>antidiuretic hormone</b>), which are actually synthesised by the hypothalamus and transported along axons. LH, prolactin and MSH are made in the adenohypophysis itself.</p>",
+     "hint": "Posterior pituitary hormones."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा हार्मोन अन्यत्र संश्लेषित होने पर भी मास्टर ग्रंथि द्वारा संग्रहित तथा मुक्त किया जाता है?",
+     "o": [
+      "ल्यूटिनाइजिंग हार्मोन",
+      "प्रोलैक्टिन",
+      "मेलानोसाइट प्रेरक हार्मोन",
+      "प्रतिमूत्रल हार्मोन"
+     ],
+     "sol": "<p>NCERT 19.2.2: न्यूरोहाइपोफाइसिस (पश्च पीयूष ग्रंथि) ऑक्सीटॉसिन तथा वेसोप्रेसिन (<b>प्रतिमूत्रल हार्मोन</b>) का संग्रह और स्राव करती है, जो वास्तव में हाइपोथैलेमस द्वारा संश्लेषित होकर तंत्रिकाक्ष होते हुए पहुँचते हैं। LH, प्रोलैक्टिन तथा MSH एडिनोहाइपोफाइसिस में ही बनते हैं।</p>",
+     "hint": "पश्च पीयूष ग्रंथि के हार्मोन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -203,10 +227,22 @@
       "Insulin – Glucagon",
       "Aldosterone – Atrial Natriuretic Factor",
       "Relaxin – Inhibin"
-     ]
+     ],
+     "sol": "<p>Antagonistic pairs: parathormone raises and calcitonin (TCT) lowers blood Ca<sup>2+</sup> (NCERT 19.2.4–19.2.5); insulin lowers and glucagon raises blood glucose (19.2.8); aldosterone raises and ANF lowers blood pressure (16.5, 19.3). <b>Relaxin</b> (relaxes pelvic ligaments at parturition) and <b>inhibin</b> (inhibits FSH) do not have opposite effects.</p>",
+     "hint": "Unrelated actions."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से हार्मोनों का कौन-सा युग्म एक-दूसरे का विरोधी (विपरीत प्रभाव वाला) नहीं है?",
+     "o": [
+      "पैराथॉर्मोन – कैल्सिटोनिन",
+      "इंसुलिन – ग्लूकागॉन",
+      "एल्डोस्टीरॉन – एट्रियल नेट्रियुरेटिक कारक",
+      "रिलैक्सिन – इनहिबिन"
+     ],
+     "sol": "<p>विरोधी युग्म: पैराथॉर्मोन रक्त Ca<sup>2+</sup> बढ़ाता है तथा कैल्सिटोनिन (TCT) घटाता है (NCERT 19.2.4–19.2.5); इंसुलिन रक्त ग्लूकोज घटाता है तथा ग्लूकागॉन बढ़ाता है (19.2.8); एल्डोस्टीरॉन रक्त दाब बढ़ाता है तथा ANF घटाता है (16.5, 19.3)। <b>रिलैक्सिन</b> (प्रसव के समय श्रोणि स्नायुओं को शिथिल करता है) तथा <b>इनहिबिन</b> (FSH को रोकता है) के प्रभाव विपरीत नहीं हैं।</p>",
+     "hint": "असंबंधित क्रियाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -254,10 +290,22 @@
       "Is produced by granulosa cells in ovary and inhibits the secretion of FSH",
       "Is produced by granulosa cells in ovary and inhibits the secretion of LH",
       "Is produced by nurse cells in testes and inhibits the secretion of LH"
-     ]
+     ],
+     "sol": "<p>Inhibin is a peptide hormone produced by the <b>granulosa cells</b> of ovarian follicles (and by Sertoli cells in testes); it selectively <b>inhibits FSH</b> secretion from the anterior pituitary, not LH or prolactin. (Beyond NCERT; official answer.)</p>",
+     "hint": "Inhibin → FSH."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "'इनहिबिन' के बारे में सही कथन पहचानिए :",
+     "o": [
+      "LH, FSH तथा प्रोलैक्टिन के स्राव को रोकता है",
+      "अंडाशय की कणिकामय कोशिकाओं द्वारा बनता है तथा FSH के स्राव को रोकता है",
+      "अंडाशय की कणिकामय कोशिकाओं द्वारा बनता है तथा LH के स्राव को रोकता है",
+      "वृषण की पोषी कोशिकाओं द्वारा बनता है तथा LH के स्राव को रोकता है"
+     ],
+     "sol": "<p>इनहिबिन एक पेप्टाइड हार्मोन है जो अंडाशयी पुटकों की <b>कणिकामय कोशिकाओं</b> द्वारा (तथा वृषण में सर्टोली कोशिकाओं द्वारा) बनता है; यह अग्र पीयूष ग्रंथि से केवल <b>FSH</b> के स्राव को <b>रोकता</b> है, LH या प्रोलैक्टिन को नहीं। (NCERT से आगे; आधिकारिक उत्तर।)</p>",
+     "hint": "इनहिबिन → FSH।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -302,10 +350,22 @@
       "Thyroxine and Triiodothyronine",
       "Estrogen and Progesterone",
       "Cortisol and Cortisone"
-     ]
+     ],
+     "sol": "<p>Tryptophan is hydroxylated and decarboxylated to <b>serotonin</b>, which in the pineal gland is converted to <b>melatonin</b>. Thyroxine and T<sub>3</sub> come from tyrosine; estrogen, progesterone and cortisol are steroids from cholesterol. (Beyond NCERT 19.2.3.)</p>",
+     "hint": "Indole amino acid → indole hormones."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एमीनो अम्ल ट्रिप्टोफैन किसके संश्लेषण का पूर्वगामी है?",
+     "o": [
+      "मेलेटोनिन तथा सिरोटोनिन",
+      "थायरोक्सीन तथा ट्राईआइडोथायरोनीन",
+      "एस्ट्रोजेन तथा प्रोजेस्टेरॉन",
+      "कॉर्टिसॉल तथा कॉर्टिसॉन"
+     ],
+     "sol": "<p>ट्रिप्टोफैन से <b>सिरोटोनिन</b> बनता है, जो पिनियल ग्रंथि में <b>मेलेटोनिन</b> में बदलता है। थायरोक्सीन तथा T<sub>3</sub> टायरोसीन से बनते हैं; एस्ट्रोजेन, प्रोजेस्टेरॉन तथा कॉर्टिसॉल कोलेस्टेरॉल से बने स्टीरॉइड हैं। (NCERT 19.2.3 से आगे।)</p>",
+     "hint": "इंडोल एमीनो अम्ल → इंडोल हार्मोन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -352,10 +412,22 @@
       "Gastrin and insulin",
       "Cholecystokinin and secretin",
       "Insulin and glucagon"
-     ]
+     ],
+     "sol": "<p>NCERT 19.3: <b>secretin</b> acts on the exocrine pancreas and stimulates secretion of water and bicarbonate ions; <b>cholecystokinin</b> acts on the pancreas and gall bladder to stimulate pancreatic enzymes and bile.</p>",
+     "hint": "Gut hormones."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कौन-से हार्मोन अग्नाशयी रस तथा बाइकार्बोनेट के उत्पादन को प्रेरित करते हैं?",
+     "o": [
+      "एंजियोटेंसिन तथा एपिनेफ्रीन",
+      "गैस्ट्रिन तथा इंसुलिन",
+      "कोलिसिस्टोकाइनिन तथा सेक्रेटिन",
+      "इंसुलिन तथा ग्लूकागॉन"
+     ],
+     "sol": "<p>NCERT 19.3: <b>सेक्रेटिन</b> बहिःस्रावी अग्नाशय पर कार्य कर जल तथा बाइकार्बोनेट आयनों के स्राव को प्रेरित करता है; <b>कोलिसिस्टोकाइनिन</b> अग्नाशय और पित्ताशय पर कार्य कर अग्नाशयी एंजाइम और पित्त रस के स्राव को प्रेरित करता है।</p>",
+     "hint": "जठर आंत्रीय हार्मोन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -401,10 +473,22 @@
       "Hypersecretion of thyroid gland",
       "Hyposecretion of adrenal gland",
       "Hypersecretion of adrenal gland"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.4: exophthalmic goitre (Graves' disease) is a form of <b>hyperthyroidism</b> — enlarged thyroid, protruding eyeballs, increased basal metabolic rate and weight loss.</p>",
+     "hint": "Bulging eyes, high BMR."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ग्रेवस् रोग किसके कारण होता है?",
+     "o": [
+      "थाइरॉइड ग्रंथि का अल्प स्राव",
+      "थाइरॉइड ग्रंथि का अति स्राव",
+      "अधिवृक्क ग्रंथि का अल्प स्राव",
+      "अधिवृक्क ग्रंथि का अति स्राव"
+     ],
+     "sol": "<p>NCERT 19.2.4: नेत्रोत्सेधी गलगण्ड (ग्रेवस् रोग) <b>थाइरॉइड अतिक्रियता</b> का एक रूप है — थाइरॉइड ग्रंथि में वृद्धि, नेत्र गोलकों का बाहर उभरना, आधारी उपापचय दर में वृद्धि तथा भार में ह्रास।</p>",
+     "hint": "उभरी आँखें, उच्च BMR।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -447,10 +531,22 @@
       "Glucagon",
       "Secretin",
       "Gastrin"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.8: <b>insulin</b> is a peptide (protein) hormone that acts mainly on hepatocytes and adipocytes and enhances cellular glucose uptake and utilisation.</p>",
+     "hint": "Lowers blood sugar."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उस पेप्टाइड हार्मोन का नाम बताइए जो मुख्यतः हिपेटोसाइट तथा एडीपोसाइट पर कार्य करता है तथा कोशिकीय ग्लूकोज अभिग्रहण और उपयोग को बढ़ाता है।",
+     "o": [
+      "इंसुलिन",
+      "ग्लूकागॉन",
+      "सेक्रेटिन",
+      "गैस्ट्रिन"
+     ],
+     "sol": "<p>NCERT 19.2.8: <b>इंसुलिन</b> एक पेप्टाइड (प्रोटीन) हार्मोन है जो मुख्यतः हिपेटोसाइट और एडीपोसाइट पर कार्य करता है और कोशिकीय ग्लूकोज अभिग्रहण और उपयोग को बढ़ाता है।</p>",
+     "hint": "रक्त शर्करा घटाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -493,10 +589,22 @@
       "It only stores and releases hormones",
       "It is under the regulation of hypothalamus",
       "It secretes enzymes"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.2: the posterior pituitary <b>only stores and releases</b> oxytocin and vasopressin, which are synthesised by the hypothalamus — it does not make them, so it is not a 'true' endocrine gland.</p>",
+     "hint": "Storage only."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पश्च पीयूष ग्रंथि 'वास्तविक' अंतःस्रावी ग्रंथि नहीं है, क्योंकि",
+     "o": [
+      "इसमें वाहिनी होती है",
+      "यह केवल हार्मोनों का संग्रह और मोचन करती है",
+      "यह हाइपोथैलेमस के नियंत्रण में है",
+      "यह एंजाइम स्रावित करती है"
+     ],
+     "sol": "<p>NCERT 19.2.2: पश्च पीयूष ग्रंथि हाइपोथैलेमस द्वारा संश्लेषित ऑक्सीटॉसिन और वेसोप्रेसिन का <b>केवल संग्रह और स्राव</b> करती है — यह उन्हें बनाती नहीं, अतः 'वास्तविक' अंतःस्रावी ग्रंथि नहीं है।</p>",
+     "hint": "केवल संग्रह।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -539,10 +647,22 @@
       "Corpus cardiacum",
       "Corpus luteum",
       "Corpus allatum"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.10: after ovulation the ruptured follicle becomes the <b>corpus luteum</b>, which secretes progesterone; it degenerates if pregnancy does not occur — a temporary endocrine gland. The pineal is permanent; corpus cardiacum and corpus allatum are insect glands.</p>",
+     "hint": "Forms after ovulation."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव शरीर में एक अस्थायी अंतःस्रावी ग्रंथि है",
+     "o": [
+      "पिनियल ग्रंथि",
+      "कॉर्पस कार्डिएकम",
+      "पीत पिंड (कॉर्पस ल्यूटियम)",
+      "कॉर्पस एलेटम"
+     ],
+     "sol": "<p>NCERT 19.2.10: अंडोत्सर्ग के पश्चात विखंडित पुटिका <b>पीत पिंड (कॉर्पस ल्यूटियम)</b> में बदल जाती है, जो प्रोजेस्टेरॉन का स्राव करता है; सगर्भता न होने पर यह नष्ट हो जाता है — अस्थायी अंतःस्रावी ग्रंथि। पिनियल स्थायी है; कॉर्पस कार्डिएकम तथा कॉर्पस एलेटम कीट ग्रंथियाँ हैं।</p>",
+     "hint": "अंडोत्सर्ग के बाद बनता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -588,10 +708,22 @@
       "Anterior pituitary gland and stimulates secretion of LH and FSH",
       "Posterior pituitary gland and stimulates secretion of oxytocin and FSH",
       "Posterior pituitary gland and stimulates secretion of LH and relaxin"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.1–19.2.2: gonadotrophin releasing hormone (GnRH) from the hypothalamus stimulates the <b>anterior pituitary</b> to synthesise and release the gonadotrophins <b>LH and FSH</b>. Oxytocin is a posterior pituitary hormone made by the hypothalamus; relaxin is not pituitary.</p>",
+     "hint": "Gonadotrophins."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जनन में आवश्यक हाइपोथैलेमिक हार्मोन GnRH किस पर कार्य करता है?",
+     "o": [
+      "अग्र पीयूष ग्रंथि पर तथा LH और ऑक्सीटॉसिन के स्राव को प्रेरित करता है",
+      "अग्र पीयूष ग्रंथि पर तथा LH और FSH के स्राव को प्रेरित करता है",
+      "पश्च पीयूष ग्रंथि पर तथा ऑक्सीटॉसिन और FSH के स्राव को प्रेरित करता है",
+      "पश्च पीयूष ग्रंथि पर तथा LH और रिलैक्सिन के स्राव को प्रेरित करता है"
+     ],
+     "sol": "<p>NCERT 19.2.1–19.2.2: हाइपोथैलेमस का गोनेडोट्रोफिन मुक्तकारी हार्मोन (GnRH) <b>अग्र पीयूष ग्रंथि</b> को गोनेडोट्रोफिन <b>LH तथा FSH</b> के संश्लेषण और स्राव के लिए प्रेरित करता है। ऑक्सीटॉसिन हाइपोथैलेमस में बनने वाला पश्च पीयूष हार्मोन है; रिलैक्सिन पीयूष हार्मोन नहीं है।</p>",
+     "hint": "गोनेडोट्रोफिन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -634,10 +766,22 @@
       "Epiphyseal plates close after adolescence",
       "Bones lose their sensitivity to Growth Hormone in adults",
       "Muscle fibres do not grow in size after birth"
-     ]
+     ],
+     "sol": "<p>Growth in height happens at the cartilaginous growth (epiphyseal) plates of long bones. After adolescence these plates ossify and close, so excess GH in adults cannot lengthen bones; instead it thickens bones and soft tissues, causing <b>acromegaly</b> (NCERT 19.2.2). Answer: epiphyseal plates close after adolescence.</p>",
+     "hint": "Growth plates fuse."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वयस्कों में वृद्धि हार्मोन का अति स्राव लंबाई में और वृद्धि नहीं करता, क्योंकि :",
+     "o": [
+      "वयस्कों में वृद्धि हार्मोन निष्क्रिय हो जाता है",
+      "किशोरावस्था के बाद एपिफाइसियल प्लेटें बंद हो जाती हैं",
+      "वयस्कों में अस्थियाँ वृद्धि हार्मोन के प्रति संवेदनशीलता खो देती हैं",
+      "जन्म के बाद पेशी रेशों का आकार नहीं बढ़ता"
+     ],
+     "sol": "<p>लंबाई में वृद्धि लंबी अस्थियों की उपास्थिमय वृद्धि (एपिफाइसियल) प्लेटों पर होती है। किशोरावस्था के बाद ये प्लेटें अस्थिभूत होकर बंद हो जाती हैं, अतः वयस्कों में अधिक GH अस्थियों को लंबा नहीं कर सकता; बल्कि अस्थियों और कोमल ऊतकों को मोटा कर <b>अतिकायता (एक्रोमेगेली)</b> उत्पन्न करता है (NCERT 19.2.2)। उत्तर: किशोरावस्था के बाद एपिफाइसियल प्लेटें बंद हो जाती हैं।</p>",
+     "hint": "वृद्धि प्लेटें जुड़ जाती हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -680,10 +824,22 @@
       "Ecdysone",
       "Epinephrine",
       "Estriol"
-     ]
+     ],
+     "sol": "<p>NCERT 19.4: hormones are grouped as peptide/protein, steroids (e.g. cortisol, testosterone, <b>estradiol</b>, progesterone), iodothyronines, and <b>amino acid derivatives (e.g. epinephrine)</b>. Estriol is a steroid; ecdysone (insect moulting hormone) is a steroid too.</p>",
+     "hint": "Catecholamine from tyrosine."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा एमीनो अम्ल व्युत्पन्न हार्मोन है?",
+     "o": [
+      "एस्ट्राडायोल",
+      "एक्डाइसोन",
+      "एपिनेफ्रीन",
+      "एस्ट्रियॉल"
+     ],
+     "sol": "<p>NCERT 19.4: हार्मोन पेप्टाइड/प्रोटीन, स्टीरॉइड (जैसे कोर्टिसोल, टेस्टोस्टेरोन, <b>एस्ट्राडायोल</b>, प्रोजेस्टेरॉन), आयोडोथाइरोनिन तथा <b>अमीनो अम्लों के व्युत्पन्न (जैसे एपिनेफ्रीन)</b> में बाँटे जाते हैं। एस्ट्रियॉल स्टीरॉइड है; एक्डाइसोन (कीट निर्मोचन हार्मोन) भी स्टीरॉइड है।</p>",
+     "hint": "टायरोसीन से बना कैटेकॉलमीन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -726,10 +882,22 @@
       "Using aquaporin channels as second messenger",
       "Changing the permeability of the cell membrane",
       "Binding to DNA and forming a gene-hormone complex"
-     ]
+     ],
+     "sol": "<p>NCERT 19.4: steroid hormones enter the cell and bind intracellular (mostly nuclear) receptors; the hormone–receptor complex interacts with the genome (<b>binds DNA</b>) and regulates gene expression. Cyclic AMP second messengers are used by membrane-receptor (protein) hormones.</p>",
+     "hint": "Intracellular receptors."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्टीरॉइड हार्मोन कोशिकीय क्रियाओं को कैसे प्रभावित करते हैं?",
+     "o": [
+      "कोशिका झिल्ली पर स्थित चक्रीय AMP को सक्रिय करके",
+      "जलवाही चैनलों (aquaporin) को द्वितीयक संदेशवाहक के रूप में उपयोग करके",
+      "कोशिका झिल्ली की पारगम्यता बदलकर",
+      "DNA से जुड़कर तथा जीन-हार्मोन सम्मिश्र बनाकर"
+     ],
+     "sol": "<p>NCERT 19.4: स्टीरॉइड हार्मोन कोशिका में प्रवेश कर अंतरा कोशिकीय (अधिकांश केंद्रकीय) ग्राहियों से जुड़ते हैं; हार्मोनग्राही सम्मिश्र जीनोम से पारस्परिक क्रिया कर (<b>DNA से जुड़कर</b>) जीन की अभिव्यक्ति का नियमन करता है। चक्रीय AMP जैसे द्वितीयक संदेशवाहक झिल्ली ग्राही (प्रोटीन) हार्मोन उपयोग करते हैं।</p>",
+     "hint": "अंतरा कोशिकीय ग्राही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -772,10 +940,22 @@
       "(a) ii, (b) iv, (c) i, (d) iii",
       "(a) v, (b) i, (c) ii, (d) iii",
       "(a) ii, (b) iv, (c) iii, (d) i"
-     ]
+     ],
+     "sol": "<ul><li>(a) Insulin deficiency — diabetes mellitus (v).</li><li>(b) Thyroxine (iodine deficiency) — goitre (iv).</li><li>(c) Corticoids (hyposecretion) — Addison's disease (i).</li><li>(d) Growth hormone (excess in adults) — acromegaly (iii).</li></ul><p>(a) v, (b) iv, (c) i, (d) iii (NCERT 19.2). Diabetes insipidus (ii) is due to ADH.</p>",
+     "hint": "Insipidus is ADH."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित हार्मोनों का संबंधित रोग से मिलान कीजिए :<br>(a) इंसुलिन — (i) एडीसन रोग<br>(b) थायरोक्सीन — (ii) उदकमेह (डायबिटीज इन्सीपिडस)<br>(c) कॉर्टिकॉइड — (iii) अतिकायता (एक्रोमेगेली)<br>(d) वृद्धि हार्मोन — (iv) गलगंड<br>(v) मधुमेह (डायबिटीज मेलीटस)<br>सही विकल्प चुनिए।",
+     "o": [
+      "(a) v, (b) iv, (c) i, (d) iii",
+      "(a) ii, (b) iv, (c) i, (d) iii",
+      "(a) v, (b) i, (c) ii, (d) iii",
+      "(a) ii, (b) iv, (c) iii, (d) i"
+     ],
+     "sol": "<ul><li>(a) इंसुलिन की कमी — मधुमेह (v)।</li><li>(b) थायरोक्सीन (आयोडीन की कमी) — गलगंड (iv)।</li><li>(c) कॉर्टिकॉइड (अल्प स्राव) — एडीसन रोग (i)।</li><li>(d) वृद्धि हार्मोन (वयस्कों में अधिकता) — अतिकायता (iii)।</li></ul><p>(a) v, (b) iv, (c) i, (d) iii (NCERT 19.2)। उदकमेह (ii) ADH के कारण होता है।</p>",
+     "hint": "उदकमेह ADH से।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -821,10 +1001,22 @@
       "GLUT IV",
       "GLUT I",
       "GLUT II"
-     ]
+     ],
+     "sol": "<p><b>GLUT IV</b> is the insulin-dependent glucose transporter of skeletal muscle and adipose tissue: insulin moves GLUT IV to the cell membrane, increasing glucose uptake (NCERT 19.2.8 says insulin increases cellular glucose uptake; the transporter name is beyond NCERT). GLUT I, II and III work without insulin.</p>",
+     "hint": "Muscle and fat transporter."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा ग्लूकोज वाहक इंसुलिन-आश्रित है?",
+     "o": [
+      "GLUT III",
+      "GLUT IV",
+      "GLUT I",
+      "GLUT II"
+     ],
+     "sol": "<p><b>GLUT IV</b> कंकाल पेशी तथा वसा ऊतक का इंसुलिन-आश्रित ग्लूकोज वाहक है: इंसुलिन GLUT IV को कोशिका झिल्ली पर लाता है, जिससे ग्लूकोज अभिग्रहण बढ़ता है (NCERT 19.2.8 के अनुसार इंसुलिन कोशिकीय ग्लूकोज अभिग्रहण बढ़ाता है; वाहक का नाम NCERT से आगे है)। GLUT I, II तथा III इंसुलिन के बिना कार्य करते हैं।</p>",
+     "hint": "पेशी तथा वसा का वाहक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -868,10 +1060,22 @@
       "Renal calculi and Hyperglycaemia",
       "Uremia and Ketonuria",
       "Uremia and Renal Calculi"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.8 and 16.6: prolonged hyperglycaemia leads to diabetes mellitus, with loss of glucose in urine (<b>glycosuria</b>) and formation of ketone bodies (<b>ketonuria</b>). Hyperglycaemia is in blood, not urine; uremia and renal calculi are kidney disorders.</p>",
+     "hint": "Both end in -uria."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मूत्र में निम्नलिखित में से किन स्थितियों की उपस्थिति मधुमेह (डायबिटीज मेलीटस) की सूचक है?",
+     "o": [
+      "कीटोनयूरिया तथा ग्लाइकोसूरिया",
+      "रीनल केलकलाई तथा हाइपरग्लाइसिमिया",
+      "यूरिमिया तथा कीटोनयूरिया",
+      "यूरिमिया तथा रीनल केलकलाई"
+     ],
+     "sol": "<p>NCERT 19.2.8 तथा 16.6: लंबी अवधि तक हाइपरग्लाइसिमिया होने पर मधुमेह होता है, जिसमें मूत्र के साथ ग्लूकोज का ह्रास (<b>ग्लाइकोसूरिया</b>) तथा कीटोन काय का निर्माण (<b>कीटोनयूरिया</b>) होता है। हाइपरग्लाइसिमिया रक्त में होता है, मूत्र में नहीं; यूरिमिया तथा रीनल केलकलाई वृक्क विकार हैं।</p>",
+     "hint": "दोनों -यूरिया पर समाप्त।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -917,10 +1121,22 @@
       "(a) ii, (b) i, (c) iv, (d) iii",
       "(a) iv, (b) iii, (c) i, (d) ii",
       "(a) iii, (b) ii, (c) i, (d) iv"
-     ]
+     ],
+     "sol": "<ul><li>(a) Pituitary — diabetes insipidus, from impaired ADH (iii).</li><li>(b) Thyroid — Graves' disease (i).</li><li>(c) Adrenal — Addison's disease (iv).</li><li>(d) Pancreas — diabetes mellitus (ii).</li></ul><p>(a) iii, (b) i, (c) iv, (d) ii (NCERT 19.2).</p>",
+     "hint": "ADH is released by the pituitary."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित स्तंभों का मिलान कीजिए तथा सही विकल्प चुनिए :<br>(a) पीयूष ग्रंथि — (i) ग्रेवस् रोग<br>(b) थाइरॉइड ग्रंथि — (ii) मधुमेह (डायबिटीज मेलीटस)<br>(c) अधिवृक्क ग्रंथि — (iii) उदकमेह (डायबिटीज इन्सीपिडस)<br>(d) अग्नाशय — (iv) एडीसन रोग",
+     "o": [
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) ii, (b) i, (c) iv, (d) iii",
+      "(a) iv, (b) iii, (c) i, (d) ii",
+      "(a) iii, (b) ii, (c) i, (d) iv"
+     ],
+     "sol": "<ul><li>(a) पीयूष ग्रंथि — ADH विकृति से उदकमेह (iii)।</li><li>(b) थाइरॉइड — ग्रेवस् रोग (i)।</li><li>(c) अधिवृक्क — एडीसन रोग (iv)।</li><li>(d) अग्नाशय — मधुमेह (ii)।</li></ul><p>(a) iii, (b) i, (c) iv, (d) ii (NCERT 19.2)।</p>",
+     "hint": "ADH पीयूष ग्रंथि से मुक्त होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -966,10 +1182,22 @@
       "Insulin is associated with hyperglycemia.",
       "Glucocorticoids stimulate gluconeogenesis.",
       "Glucagon is associated with hypoglycemia."
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.7: <b>glucocorticoids stimulate gluconeogenesis</b>, lipolysis and proteolysis — option 3 is correct. Insulin acts mainly on hepatocytes and adipocytes (not pancreatic cells) and is associated with hypoglycaemia; glucagon is associated with hyperglycaemia.</p>",
+     "hint": "Cortisol makes new glucose."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही कथन चुनिए।",
+     "o": [
+      "इंसुलिन अग्नाशयी कोशिकाओं तथा एडीपोसाइट पर कार्य करता है।",
+      "इंसुलिन हाइपरग्लाइसिमिया से संबंधित है।",
+      "ग्लूकोकॉर्टिकॉइड ग्लूकोनियोजिनेसिस को प्रेरित करते हैं।",
+      "ग्लूकागॉन हाइपोग्लाइसिमिया से संबंधित है।"
+     ],
+     "sol": "<p>NCERT 19.2.7: <b>ग्लूकोकॉर्टिकॉइड ग्लूकोनियोजिनेसिस</b>, वसा अपघटन और प्रोटीन अपघटन को <b>प्रेरित करते हैं</b> — विकल्प 3 सही है। इंसुलिन मुख्यतः हिपेटोसाइट और एडीपोसाइट पर (अग्नाशयी कोशिकाओं पर नहीं) कार्य करता है तथा हाइपोग्लाइसिमिया से संबंधित है; ग्लूकागॉन हाइपरग्लाइसिमिया से संबंधित है।</p>",
+     "hint": "कॉर्टिसॉल नया ग्लूकोज बनवाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1013,10 +1241,22 @@
       "Alpha cells of pancreas",
       "The cells of rostral adenohypophysis",
       "The cells of bone marrow"
-     ]
+     ],
+     "sol": "<p>NCERT 19.3: the <b>juxtaglomerular cells of the kidney</b> produce erythropoietin, which stimulates erythropoiesis (RBC formation).</p>",
+     "hint": "Kidney hormone."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "RBC निर्माण को प्रेरित करने वाला इरिथ्रोपोईटिन हार्मोन किसके द्वारा बनता है?",
+     "o": [
+      "वृक्क की जक्स्टाग्लोमेरूलर कोशिकाएँ",
+      "अग्नाशय की ऐल्फा कोशिकाएँ",
+      "अग्र एडिनोहाइपोफाइसिस की कोशिकाएँ",
+      "अस्थि मज्जा की कोशिकाएँ"
+     ],
+     "sol": "<p>NCERT 19.3: <b>वृक्क की जक्स्टाग्लोमेरूलर कोशिकाएँ</b> इरिथ्रोपोईटिन बनाती हैं, जो रक्ताणु उत्पत्ति (RBC के निर्माण) को प्रेरित करता है।</p>",
+     "hint": "वृक्क का हार्मोन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1059,10 +1299,22 @@
       "(a) and (e) only",
       "(b) and (c) only",
       "(a) and (c) only"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.5: PTH stimulates bone resorption (a), stimulates reabsorption of Ca<sup>2+</sup> by renal tubules (c), and increases Ca<sup>2+</sup> absorption from digested food — so it <i>raises</i> blood Ca<sup>2+</sup> (hypercalcaemic hormone). Not its effects: (b) decreasing blood Ca<sup>2+</sup>, (d) decreasing Ca<sup>2+</sup> absorption, (e) increasing carbohydrate metabolism. Answer: (b), (d) and (e) only.</p>",
+     "hint": "PTH raises blood calcium."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से पैराथाइरॉइड हार्मोन के प्रभाव नहीं हैं?<br>(a) अस्थि अवशोषण प्रक्रम को प्रेरित करता है<br>(b) रक्त में Ca<sup>2+</sup> स्तर घटाता है<br>(c) वृक्क नलिकाओं द्वारा Ca<sup>2+</sup> का पुनरावशोषण<br>(d) पचित भोजन से Ca<sup>2+</sup> का अवशोषण घटाता है<br>(e) कार्बोहाइड्रेट के उपापचय को बढ़ाता है<br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "केवल (b), (d) तथा (e)",
+      "केवल (a) तथा (e)",
+      "केवल (b) तथा (c)",
+      "केवल (a) तथा (c)"
+     ],
+     "sol": "<p>NCERT 19.2.5: PTH अस्थि अवशोषण को प्रेरित करता है (a), वृक्क नलिकाओं से Ca<sup>2+</sup> के पुनरावशोषण को प्रेरित करता है (c), तथा पचित भोजन से Ca<sup>2+</sup> के अवशोषण को बढ़ाता है — अतः यह रक्त Ca<sup>2+</sup> को <i>बढ़ाता</i> है (अतिकैल्सियम रक्तता हार्मोन)। इसके प्रभाव नहीं हैं: (b) रक्त Ca<sup>2+</sup> घटाना, (d) Ca<sup>2+</sup> अवशोषण घटाना, (e) कार्बोहाइड्रेट उपापचय बढ़ाना। उत्तर: केवल (b), (d) तथा (e)।</p>",
+     "hint": "PTH रक्त कैल्सियम बढ़ाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1106,10 +1358,22 @@
       "A-IV, B-III, C-II, D-I",
       "A-III, B-II, C-IV, D-I",
       "A-II, B-IV, C-I, D-III"
-     ]
+     ],
+     "sol": "<ul><li>(A) CCK — acts on the pancreas (and gall bladder) (IV).</li><li>(B) GIP — inhibits gastric secretion, acting on gastric glands (III).</li><li>(C) ANF — secreted by the atrial wall of the heart (II).</li><li>(D) ADH — acts on the kidney tubules (I).</li></ul><p>A-IV, B-III, C-II, D-I (NCERT 19.3, 19.2.2).</p>",
+     "hint": "GIP inhibits the stomach."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(A) CCK — (I) वृक्क<br>(B) GIP — (II) हृदय<br>(C) ANF — (III) जठर ग्रंथि<br>(D) ADH — (IV) अग्नाशय",
+     "o": [
+      "A-IV, B-II, C-III, D-I",
+      "A-IV, B-III, C-II, D-I",
+      "A-III, B-II, C-IV, D-I",
+      "A-II, B-IV, C-I, D-III"
+     ],
+     "sol": "<ul><li>(A) CCK — अग्नाशय (तथा पित्ताशय) पर कार्य करता है (IV)।</li><li>(B) GIP — जठर स्राव को अवरुद्ध करता है, जठर ग्रंथियों पर (III)।</li><li>(C) ANF — हृदय की अलिंद भित्ति द्वारा स्रावित (II)।</li><li>(D) ADH — वृक्क नलिकाओं पर कार्य करता है (I)।</li></ul><p>A-IV, B-III, C-II, D-I (NCERT 19.3, 19.2.2)।</p>",
+     "hint": "GIP आमाशय को रोकता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1152,10 +1416,22 @@
       "A and D only",
       "B and C only",
       "C and D only"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.4: thyroid hormones regulate basal metabolic rate (B), support RBC formation (E) and influence maintenance of water and electrolyte balance (A). The <b>sleep–wake cycle</b> is regulated by melatonin from the pineal gland (19.2.3), and <b>development of the immune system</b> by the thymus (19.2.6). C and D only.</p>",
+     "hint": "Pineal and thymus jobs."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से थाइरॉइड हार्मोन के नियंत्रण में नहीं हैं?<br>A. जल तथा विद्युत अपघट्य संतुलन बनाए रखना<br>B. आधारीय उपापचयी दर का नियमन<br>C. सोने-जागने के चक्र की सामान्य लय<br>D. प्रतिरक्षा तंत्र का विकास<br>E. लाल रक्त कणिकाओं (RBC) के निर्माण की प्रक्रिया में सहायता<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल D तथा E",
+      "केवल A तथा D",
+      "केवल B तथा C",
+      "केवल C तथा D"
+     ],
+     "sol": "<p>NCERT 19.2.4: थाइरॉइड हार्मोन आधारीय उपापचयी दर का नियमन करते हैं (B), लाल रक्त कणिकाओं (RBC) के निर्माण में सहायता करते हैं (E) तथा जल और विद्युत अपघट्यों के नियमन को प्रभावित करते हैं (A)। <b>सोने-जागने का चक्र</b> पिनियल ग्रंथि के मेलेटोनिन से (19.2.3), तथा <b>प्रतिरक्षा तंत्र का विकास</b> थाइमस ग्रंथि से (19.2.6) नियंत्रित होता है। केवल C तथा D।</p>",
+     "hint": "पिनियल तथा थाइमस के कार्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1199,10 +1475,22 @@
       "Both A and R are true but R is NOT the correct explanation of A",
       "A is true but R is false",
       "A is false but R is true"
-     ]
+     ],
+     "sol": "<p>Assertion A is false: NCERT 19.2.2 — in males FSH (with androgens) regulates spermatogenesis via the Sertoli cells; it is <b>LH</b> that acts on the Leydig cells to stimulate androgen secretion. Reason R is true: growing ovarian follicles secrete estrogen (19.2.10) and Leydig (interstitial) cells secrete androgens (19.2.9).</p>",
+     "hint": "LH → Leydig."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं: एक को अभिकथन A तथा दूसरे को कारण R कहा गया है :<br>अभिकथन A: FSH मादा में अंडाशयी पुटकों पर तथा नर में लेइडिग कोशिकाओं पर कार्य करता है।<br>कारण R: मनुष्य में परिवर्धित हो रहे अंडाशयी पुटक मादा में एस्ट्रोजेन स्रावित करते हैं, जबकि नर में अंतराली कोशिकाएँ एंड्रोजेन स्रावित करती हैं।<br>उपरोक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A तथा R दोनों सही हैं तथा R, A की सही व्याख्या है",
+      "A तथा R दोनों सही हैं परंतु R, A की सही व्याख्या नहीं है",
+      "A सही है परंतु R गलत है",
+      "A गलत है परंतु R सही है"
+     ],
+     "sol": "<p>अभिकथन A गलत है: NCERT 19.2.2 — नरों में FSH (एंड्रोजेन के साथ) सर्टोली कोशिकाओं द्वारा शुक्रजनन को नियंत्रित करता है; लेइडिग कोशिकाओं पर <b>LH</b> कार्य कर एंड्रोजेन का स्राव कराता है। कारण R सही है: परिवर्धित हो रहे अंडाशयी पुटक एस्ट्रोजेन स्रावित करते हैं (19.2.10) तथा लेइडिग (अंतराली) कोशिकाएँ एंड्रोजेन स्रावित करती हैं (19.2.9)।</p>",
+     "hint": "LH → लेइडिग।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1249,10 +1537,22 @@
       "Testosterone",
       "Progesterone",
       "Glucagon"
-     ]
+     ],
+     "sol": "<p>NCERT 19.4: cortisol, testosterone, estradiol and progesterone are steroid hormones. <b>Glucagon</b> is a peptide hormone (19.2.8).</p>",
+     "hint": "Islet peptide."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा स्टीरॉइड हार्मोन नहीं है?",
+     "o": [
+      "कॉर्टिसॉल",
+      "टेस्टोस्टेरोन",
+      "प्रोजेस्टेरॉन",
+      "ग्लूकागॉन"
+     ],
+     "sol": "<p>NCERT 19.4: कॉर्टिसॉल, टेस्टोस्टेरोन, एस्ट्राडायोल तथा प्रोजेस्टेरॉन स्टीरॉइड हार्मोन हैं। <b>ग्लूकागॉन</b> एक पेप्टाइड हार्मोन है (19.2.8)।</p>",
+     "hint": "द्वीप का पेप्टाइड।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1295,10 +1595,22 @@
       "A-IV, B-II, C-I, D-III",
       "A-III, B-IV, C-II, D-I",
       "A-III, B-IV, C-I, D-II"
-     ]
+     ],
+     "sol": "<ul><li>A. Exophthalmic goitre — hypersecretion of thyroid hormone, protruding eyeballs (III; NCERT 19.2.4).</li><li>B. Acromegaly — excess growth hormone in adults (IV; 19.2.2).</li><li>C. Cushing's syndrome — excess cortisol, moon face, hyperglycaemia (I; beyond NCERT).</li><li>D. Cretinism — hypothyroidism in pregnancy, stunted growth (II; 19.2.4).</li></ul><p>A-III, B-IV, C-I, D-II.</p>",
+     "hint": "Cushing's = too much cortisol."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. नेत्रोत्सेधी गलगण्ड — I. कॉर्टिसॉल का अति स्राव, चंद्राकार मुख तथा हाइपरग्लाइसिमिया<br>B. अतिकायता (एक्रोमेगेली) — II. थाइरॉइड हार्मोन का अल्प स्राव तथा अवरुद्ध वृद्धि<br>C. कुशिंग सिंड्रोम — III. थाइरॉइड हार्मोन का अति स्राव तथा उभरे नेत्र गोलक<br>D. क्रिटेनिज्म — IV. वृद्धि हार्मोन का अत्यधिक स्राव",
+     "o": [
+      "A-I, B-III, C-II, D-IV",
+      "A-IV, B-II, C-I, D-III",
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-IV, C-I, D-II"
+     ],
+     "sol": "<ul><li>A. नेत्रोत्सेधी गलगण्ड — थाइरॉइड हार्मोन का अति स्राव, उभरे नेत्र गोलक (III; NCERT 19.2.4)।</li><li>B. अतिकायता — वयस्कों में वृद्धि हार्मोन की अधिकता (IV; 19.2.2)।</li><li>C. कुशिंग सिंड्रोम — कॉर्टिसॉल की अधिकता, चंद्राकार मुख, हाइपरग्लाइसिमिया (I; NCERT से आगे)।</li><li>D. क्रिटेनिज्म — गर्भावस्था में अवथाइरॉइडता, अवरुद्ध वृद्धि (II; 19.2.4)।</li></ul><p>A-III, B-IV, C-I, D-II।</p>",
+     "hint": "कुशिंग = अधिक कॉर्टिसॉल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1344,10 +1656,22 @@
       "A-IV, B-III, C-II, D-I",
       "A-I, B-III, C-IV, D-II",
       "A-III, B-I, C-IV, D-II"
-     ]
+     ],
+     "sol": "<ul><li>A. Heart — atrial natriuretic factor (III).</li><li>B. Kidney — erythropoietin (I).</li><li>C. Gastro-intestinal tract — secretin (IV).</li><li>D. Adrenal cortex — aldosterone (II).</li></ul><p>A-III, B-I, C-IV, D-II (NCERT 19.3, 19.2.7).</p>",
+     "hint": "Organ → its hormone."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>A. हृदय — I. इरिथ्रोपोईटिन<br>B. वृक्क — II. एल्डोस्टीरॉन<br>C. जठर आंत्रीय पथ — III. एट्रियल नेट्रियुरेटिक कारक<br>D. अधिवृक्क वल्कुट — IV. सेक्रेटिन",
+     "o": [
+      "A-II, B-I, C-III, D-IV",
+      "A-IV, B-III, C-II, D-I",
+      "A-I, B-III, C-IV, D-II",
+      "A-III, B-I, C-IV, D-II"
+     ],
+     "sol": "<ul><li>A. हृदय — एट्रियल नेट्रियुरेटिक कारक (III)।</li><li>B. वृक्क — इरिथ्रोपोईटिन (I)।</li><li>C. जठर आंत्रीय पथ — सेक्रेटिन (IV)।</li><li>D. अधिवृक्क वल्कुट — एल्डोस्टीरॉन (II)।</li></ul><p>A-III, B-I, C-IV, D-II (NCERT 19.3, 19.2.7)।</p>",
+     "hint": "अंग → उसका हार्मोन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1391,10 +1715,22 @@
       "B, C and D Only",
       "A, C and D Only",
       "D Only"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.7: adrenaline and noradrenaline increase alertness, <b>pupillary dilation</b> (so A, constriction, is wrong), piloerection (C), sweating, heart beat and <b>strength of heart contraction</b> (D), and stimulate glycogen breakdown, raising blood glucose — a <b>hyperglycaemic</b> effect (B). B, C and D only.</p>",
+     "hint": "Fight-or-flight dilates pupils."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अधिवृक्क मध्यांश के हार्मोनों के कार्य के संबंध में निम्नलिखित कथनों पर विचार कीजिए :<br>A. यह पुतली का संकुचन करता है<br>B. यह एक हाइपरग्लाइसिमिक हार्मोन है<br>C. यह रोंगटे खड़े करता है<br>D. यह हृदय संकुचन की क्षमता बढ़ाता है<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल C तथा D",
+      "केवल B, C तथा D",
+      "केवल A, C तथा D",
+      "केवल D"
+     ],
+     "sol": "<p>NCERT 19.2.7: एड्रिनलीन और नॉरएड्रिनलीन सक्रियता, <b>आँखों की पुतलियों का फैलाव</b> (अतः A, संकुचन, गलत), रोंगटे खड़े होना (C), पसीना, हृदय की धड़कन तथा <b>हृदय संकुचन की क्षमता</b> (D) बढ़ाते हैं, और ग्लाइकोजन विखंडन को प्रेरित कर रक्त ग्लूकोज बढ़ाते हैं — <b>हाइपरग्लाइसिमिक</b> प्रभाव (B)। केवल B, C तथा D।</p>",
+     "hint": "आपातकाल में पुतलियाँ फैलती हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1437,10 +1773,22 @@
       "Anti-diuretic hormone (ADH)",
       "Follicle-stimulating hormone (FSH)",
       "Adrenocorticotrophic hormone (ACTH)"
-     ]
+     ],
+     "sol": "<p>NCERT 19.2.2: oxytocin and vasopressin (<b>ADH</b>) are synthesised in the hypothalamus and transported along axons to the posterior pituitary, which releases them. LH, FSH and ACTH are made by the anterior pituitary.</p>",
+     "hint": "Posterior pituitary hormone."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पीयूष ग्रंथि से मुक्त होने वाले निम्नलिखित हार्मोनों में से कौन वास्तव में हाइपोथैलेमस में संश्लेषित होता है?",
+     "o": [
+      "ल्यूटिनाइजिंग हार्मोन (LH)",
+      "प्रतिमूत्रल हार्मोन (ADH)",
+      "पुटिका प्रेरक हार्मोन (FSH)",
+      "एड्रिनोकार्टिकोट्रॉफिक हार्मोन (ACTH)"
+     ],
+     "sol": "<p>NCERT 19.2.2: ऑक्सीटॉसिन तथा वेसोप्रेसिन (<b>ADH</b>) हाइपोथैलेमस में संश्लेषित होकर तंत्रिकाक्ष होते हुए पश्च पीयूष ग्रंथि तक पहुँचते हैं, जो इन्हें मुक्त करती है। LH, FSH तथा ACTH अग्र पीयूष ग्रंथि बनाती है।</p>",
+     "hint": "पश्च पीयूष ग्रंथि का हार्मोन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1483,10 +1831,22 @@
       "A-IV, B-II, C-III, D-I",
       "A-II, B-IV, C-I, D-III",
       "A-III, B-II, C-IV, D-I"
-     ]
+     ],
+     "sol": "<ul><li>A. Progesterone — corpus luteum (IV; NCERT 19.2.10).</li><li>B. Relaxin — ovary (II; Class 12 NCERT 2.6).</li><li>C. MSH — pars intermedia (I; 19.2.2).</li><li>D. Catecholamines — adrenal medulla (III; 19.2.7).</li></ul><p>A-IV, B-II, C-I, D-III.</p>",
+     "hint": "MSH from the pars intermedia."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>A. प्रोजेस्टेरॉन — I. पार्स इंटरमीडिया<br>B. रिलैक्सिन — II. अंडाशय<br>C. मेलानोसाइट प्रेरक हार्मोन — III. अधिवृक्क मध्यांश<br>D. कैटेकॉलमीन — IV. पीत पिंड (कॉर्पस ल्यूटियम)",
+     "o": [
+      "A-IV, B-II, C-I, D-III",
+      "A-IV, B-II, C-III, D-I",
+      "A-II, B-IV, C-I, D-III",
+      "A-III, B-II, C-IV, D-I"
+     ],
+     "sol": "<ul><li>A. प्रोजेस्टेरॉन — पीत पिंड (IV; NCERT 19.2.10)।</li><li>B. रिलैक्सिन — अंडाशय (II; कक्षा 12 NCERT 2.6)।</li><li>C. MSH — पार्स इंटरमीडिया (I; 19.2.2)।</li><li>D. कैटेकॉलमीन — अधिवृक्क मध्यांश (III; 19.2.7)।</li></ul><p>A-IV, B-II, C-I, D-III।</p>",
+     "hint": "MSH पार्स इंटरमीडिया से।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1534,10 +1894,22 @@
       "A–III, B–II, C–IV, D–I",
       "A–II, B–IV, C–III, D–I",
       "A–II, B–III, C–I, D–IV"
-     ]
+     ],
+     "sol": "<ul><li>A. Cortisol — produces anti-inflammatory reactions (II; NCERT 19.2.7).</li><li>B. Aldosterone — stimulates reabsorption of Na<sup>+</sup> and water from renal tubules (III).</li><li>C. Cholecystokinin — stimulates secretion of pancreatic enzymes and bile juice (IV; 19.3).</li><li>D. Progesterone — stimulates formation of alveoli (milk-storing sacs) in mammary glands (I; 19.2.10).</li></ul><p>A–II, B–III, C–IV, D–I.</p>",
+     "hint": "Progesterone prepares the breast."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित हार्मोनों का उनके संबंधित कार्यों से मिलान कीजिए :<br>A. कॉर्टिसॉल — I. स्तन ग्रंथियों में कूपिकाओं के निर्माण को प्रेरित करता है<br>B. एल्डोस्टीरॉन — II. प्रतिशोथ प्रतिक्रियाएँ उत्पन्न करता है<br>C. कोलिसिस्टोकाइनिन — III. वृक्क नलिकाओं से Na<sup>+</sup> तथा जल के पुनरावशोषण को प्रेरित करता है<br>D. प्रोजेस्टेरॉन — IV. अग्नाशयी एंजाइम तथा पित्त रस के स्राव को प्रेरित करता है",
+     "o": [
+      "A–II, B–III, C–IV, D–I",
+      "A–III, B–II, C–IV, D–I",
+      "A–II, B–IV, C–III, D–I",
+      "A–II, B–III, C–I, D–IV"
+     ],
+     "sol": "<ul><li>A. कॉर्टिसॉल — प्रतिशोथ प्रतिक्रियाएँ (II; NCERT 19.2.7)।</li><li>B. एल्डोस्टीरॉन — वृक्क नलिकाओं से Na<sup>+</sup> तथा जल का पुनरावशोषण (III)।</li><li>C. कोलिसिस्टोकाइनिन — अग्नाशयी एंजाइम तथा पित्त रस का स्राव (IV; 19.3)।</li><li>D. प्रोजेस्टेरॉन — स्तन ग्रंथियों में दुग्ध संग्रह कूपिकाओं का निर्माण (I; 19.2.10)।</li></ul><p>A–II, B–III, C–IV, D–I।</p>",
+     "hint": "प्रोजेस्टेरॉन स्तन को तैयार करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
