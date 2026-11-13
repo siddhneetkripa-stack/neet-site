@@ -118,10 +118,22 @@
       "0.125",
       "0.225",
       "0.215"
-     ]
+     ],
+     "sol": "<p>Λ°<sub>m</sub> = Λ°<sub>+</sub> + Λ°<sub>−</sub> = 349.6 + 50.4 = 400 S cm<sup>2</sup> mol<sup>−1</sup>.</p><p>α = Λ<sub>m</sub>/Λ°<sub>m</sub> = 90/400 = <b>0.225</b>.</p>",
+     "hint": "α = Λ<sub>m</sub>/Λ°<sub>m</sub>; Kohlrausch's law gives Λ°<sub>m</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि एक एकक्षारकी दुर्बल अम्ल के 0.050 mol L<sup>−1</sup> विलयन की मोलर चालकता (Λ<sub>m</sub>) 90 S cm<sup>2</sup> mol<sup>−1</sup> है, तो इसकी वियोजन मात्रा होगी [मान लीजिए Λ°<sub>+</sub> = 349.6 S cm<sup>2</sup> mol<sup>−1</sup> और Λ°<sub>−</sub> = 50.4 S cm<sup>2</sup> mol<sup>−1</sup>।]",
+     "o": [
+      "0.115",
+      "0.125",
+      "0.225",
+      "0.215"
+     ],
+     "sol": "<p>Λ°<sub>m</sub> = Λ°<sub>+</sub> + Λ°<sub>−</sub> = 349.6 + 50.4 = 400 S cm<sup>2</sup> mol<sup>−1</sup>।</p><p>α = Λ<sub>m</sub>/Λ°<sub>m</sub> = 90/400 = <b>0.225</b>।</p>",
+     "hint": "α = Λ<sub>m</sub>/Λ°<sub>m</sub>; कोलराउश नियम से Λ°<sub>m</sub> मिलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -164,10 +176,22 @@
       "0.315 g",
       "31.5 g",
       "0.0315 g"
-     ]
+     ],
+     "sol": "<p>Q = It = 9.6487 × 100 = 964.87 C = 0.01 F. Cu<sup>2+</sup> + 2e<sup>−</sup> → Cu, so moles Cu = 0.005.</p><p>Mass = 0.005 × 63 = <b>0.315 g</b>.</p>",
+     "hint": "Charge in faradays ÷ 2 = moles of Cu."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कॉपर सल्फेट विलयन वाले वोल्टामीटर में 100 सेकंड तक 9.6487 A धारा प्रवाहित करने पर निक्षेपित कॉपर का द्रव्यमान ग्राम में है (दिया है : Cu का मोलर द्रव्यमान : 63 g mol<sup>−1</sup>, 1 F = 96487 C)",
+     "o": [
+      "3.15 g",
+      "0.315 g",
+      "31.5 g",
+      "0.0315 g"
+     ],
+     "sol": "<p>Q = It = 9.6487 × 100 = 964.87 C = 0.01 F। Cu<sup>2+</sup> + 2e<sup>−</sup> → Cu, अतः Cu के मोल = 0.005।</p><p>द्रव्यमान = 0.005 × 63 = <b>0.315 g</b>।</p>",
+     "hint": "फैराडे में आवेश ÷ 2 = Cu के मोल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -211,10 +235,22 @@
       "A-III, B-IV, C-I, D-II",
       "A-II, B-III, C-I, D-IV",
       "A-III, B-IV, C-II, D-I"
-     ]
+     ],
+     "sol": "<ul><li>A: 2H<sub>2</sub>O → O<sub>2</sub> + 4H<sup>+</sup> + 4e<sup>−</sup>; 1 mol H<sub>2</sub>O needs 2F (II).</li><li>B: MnO<sub>4</sub><sup>−</sup> (+7) → Mn<sup>2+</sup> (+2): 5F (IV).</li><li>C: Ca<sup>2+</sup> + 2e<sup>−</sup> → Ca; 1.5 mol × 2 = 3F (I).</li><li>D: Fe (+2) → Fe (+3): 1F (III).</li></ul><p>A-II, B-IV, C-I, D-III.</p>",
+     "hint": "Faradays = moles × change in oxidation number."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए<br>सूची I (रूपांतरण): (A) H<sub>2</sub>O के 1 mol का O<sub>2</sub> में (B) MnO<sub>4</sub><sup>−</sup> के 1 mol का Mn<sup>2+</sup> में (C) गलित CaCl<sub>2</sub> से Ca का 1.5 mol (D) FeO के 1 mol का Fe<sub>2</sub>O<sub>3</sub> में<br>सूची II (आवश्यक फैराडे की संख्या): (I) 3F (II) 2F (III) 1F (IV) 5F<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए",
+     "o": [
+      "A-II, B-IV, C-I, D-III",
+      "A-III, B-IV, C-I, D-II",
+      "A-II, B-III, C-I, D-IV",
+      "A-III, B-IV, C-II, D-I"
+     ],
+     "sol": "<ul><li>A: 2H<sub>2</sub>O → O<sub>2</sub> + 4H<sup>+</sup> + 4e<sup>−</sup>; 1 mol H<sub>2</sub>O के लिए 2F (II)।</li><li>B: MnO<sub>4</sub><sup>−</sup> (+7) → Mn<sup>2+</sup> (+2): 5F (IV)।</li><li>C: Ca<sup>2+</sup> + 2e<sup>−</sup> → Ca; 1.5 mol × 2 = 3F (I)।</li><li>D: Fe (+2) → Fe (+3): 1F (III)।</li></ul><p>A-II, B-IV, C-I, D-III।</p>",
+     "hint": "फैराडे = मोल × ऑक्सीकरण संख्या में परिवर्तन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -260,10 +296,22 @@
       "0.5876 g",
       "2.4036 g",
       "1.7052 g"
-     ]
+     ],
+     "sol": "<p>Q = It = 1.5 × 600 = 900 C. Moles of e<sup>−</sup> = 900/96487 = 9.33 × 10<sup>−3</sup>; moles Cu = 4.66 × 10<sup>−3</sup>.</p><p>Mass = 4.66 × 10<sup>−3</sup> × 63 = <b>0.2938 g</b>.</p>",
+     "hint": "Convert minutes to seconds first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कॉपर सल्फेट के एक विलयन का 1.5 ऐम्पियर धारा से 10 मिनट तक वैद्युतअपघटन किया जाता है। कैथोड पर निक्षेपित कॉपर का द्रव्यमान है : (दिया है : Cu का मोलर द्रव्यमान : 63 g mol<sup>−1</sup>; 1 F = 96487 C mol<sup>−1</sup>)",
+     "o": [
+      "0.2938 g",
+      "0.5876 g",
+      "2.4036 g",
+      "1.7052 g"
+     ],
+     "sol": "<p>Q = It = 1.5 × 600 = 900 C। e<sup>−</sup> के मोल = 900/96487 = 9.33 × 10<sup>−3</sup>; Cu के मोल = 4.66 × 10<sup>−3</sup>।</p><p>द्रव्यमान = 4.66 × 10<sup>−3</sup> × 63 = <b>0.2938 g</b>।</p>",
+     "hint": "पहले मिनट को सेकंड में बदलें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -307,10 +355,24 @@
       "0.109 V",
       "0.035 V",
       "−0.035 V"
-     ]
+     ],
+     "sol": "<p>As written (H<sub>2</sub> on the left), the half cell is an oxidation: H<sub>2</sub> → 2H<sup>+</sup> + 2e<sup>−</sup>.</p><p>E = E° − (0.059/2) log([H<sup>+</sup>]<sup>2</sup>/p<sub>H<sub>2</sub></sub>) = 0 − 0.0295 × log(4 × 10<sup>−4</sup>/2) = −0.0295 × (−3.699) = <b>+0.109 V</b>.</p>",
+     "hint": "Write the Nernst equation for H<sub>2</sub> → 2H<sup>+</sup> + 2e<sup>−</sup>.",
+     "trap": "For the reduction (H<sup>+</sup> → H<sub>2</sub>) the sign flips to −0.109 V."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दिए गए अर्ध सेल का emf परिकलित कीजिए :<br>Pt(s) | H<sub>2</sub>(g, 2 atm) | HCl(aq, 0.02 M)<br>E°<sub>H<sub>2</sub>/H<sup>+</sup></sub> = 0 V<br>(दिया है : 2.303RT/F = 0.059, log 2 = 0.3010)",
+     "o": [
+      "−0.109 V",
+      "0.109 V",
+      "0.035 V",
+      "−0.035 V"
+     ],
+     "sol": "<p>जैसा लिखा है (H<sub>2</sub> बाईं ओर), अर्ध सेल एक ऑक्सीकरण है: H<sub>2</sub> → 2H<sup>+</sup> + 2e<sup>−</sup>।</p><p>E = E° − (0.059/2) log([H<sup>+</sup>]<sup>2</sup>/p<sub>H<sub>2</sub></sub>) = 0 − 0.0295 × log(4 × 10<sup>−4</sup>/2) = −0.0295 × (−3.699) = <b>+0.109 V</b>।</p>",
+     "hint": "H<sub>2</sub> → 2H<sup>+</sup> + 2e<sup>−</sup> के लिए नेर्न्स्ट समीकरण लिखें।",
+     "trap": "अपचयन (H<sup>+</sup> → H<sub>2</sub>) के लिए चिह्न उलटकर −0.109 V हो जाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -354,10 +416,22 @@
       "1.34 cm<sup>−1</sup>",
       "3.28 cm<sup>−1</sup>",
       "1.26 cm<sup>−1</sup>"
-     ]
+     ],
+     "sol": "<p>κ = G*/R → G* = κ × R = 0.0210 × 60 = <b>1.26 cm<sup>−1</sup></b>.</p>",
+     "hint": "Cell constant = conductivity × resistance."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "25°C पर KCl के सेंटीमोलर विलयन की चालकता 0.0210 ohm<sup>−1</sup> cm<sup>−1</sup> है और 25 °C पर विलयन वाले सेल का प्रतिरोध 60 ohm है। सेल स्थिरांक का मान है:",
+     "o": [
+      "3.34 cm<sup>−1</sup>",
+      "1.34 cm<sup>−1</sup>",
+      "3.28 cm<sup>−1</sup>",
+      "1.26 cm<sup>−1</sup>"
+     ],
+     "sol": "<p>κ = G*/R → G* = κ × R = 0.0210 × 60 = <b>1.26 cm<sup>−1</sup></b>।</p>",
+     "hint": "सेल स्थिरांक = चालकता × प्रतिरोध।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -400,10 +474,22 @@
       "Both A and R are true and R is the correct explanation of A.",
       "Both A and R are true but R is NOT the correct explanation of A.",
       "A is true but R is false."
-     ]
+     ],
+     "sol": "<p>E<sub>cell</sub> is intensive (does not depend on how much reacts), but Δ<sub>r</sub>G is extensive. Doubling the equation doubles n and doubles Δ<sub>r</sub>G while E<sub>cell</sub> stays the same; that is why Δ<sub>r</sub>G = −nFE<sub>cell</sub> depends on n. Both true; R explains A.</p>",
+     "hint": "Multiply the cell reaction by 2 and see what changes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं : एक को अभिकथन A और दूसरे को कारण R कहा गया है:<br>अभिकथन A: समीकरण Δ<sub>r</sub>G = −nFE<sub>cell</sub> में, Δ<sub>r</sub>G का मान n पर निर्भर करता है।<br>कारण R: E<sub>cell</sub> एक गहन गुण है और Δ<sub>r</sub>G एक विस्तीर्ण गुण है।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "A असत्य है परंतु R सत्य है।",
+      "A और R दोनों सत्य हैं और R, A की सही व्याख्या है।",
+      "A और R दोनों सत्य हैं परंतु R, A की सही व्याख्या नहीं है।",
+      "A सत्य है परंतु R असत्य है।"
+     ],
+     "sol": "<p>E<sub>cell</sub> गहन गुण है (अभिक्रिया की मात्रा पर निर्भर नहीं), परंतु Δ<sub>r</sub>G विस्तीर्ण गुण है। समीकरण को दोगुना करने पर n और Δ<sub>r</sub>G दोगुने हो जाते हैं जबकि E<sub>cell</sub> वही रहता है; इसीलिए Δ<sub>r</sub>G = −nFE<sub>cell</sub>, n पर निर्भर करता है। दोनों सत्य; R, A की व्याख्या करता है।</p>",
+     "hint": "सेल अभिक्रिया को 2 से गुणा करके देखें कि क्या बदलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -446,10 +532,22 @@
       "201.28 S cm<sup>2</sup> mol<sup>−1</sup>",
       "390.71 S cm<sup>2</sup> mol<sup>−1</sup>",
       "698.28 S cm<sup>2</sup> mol<sup>−1</sup>"
-     ]
+     ],
+     "sol": "<p>Kohlrausch's law: Λ°(CH<sub>3</sub>COOH) = Λ°(CH<sub>3</sub>COONa) + Λ°(HCl) − Λ°(NaCl) = 91.0 + 426.16 − 126.45 = <b>390.71 S cm<sup>2</sup> mol<sup>−1</sup></b>.</p>",
+     "hint": "Add the salts that supply CH<sub>3</sub>COO<sup>−</sup> and H<sup>+</sup>, subtract the one that supplies Na<sup>+</sup> and Cl<sup>−</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अनंत तनुता पर NaCl, HCl और CH<sub>3</sub>COONa की मोलर चालकताएँ क्रमशः 126.45, 426.16 और 91.0 S cm<sup>2</sup> mol<sup>−1</sup> हैं। अनंत तनुता पर CH<sub>3</sub>COOH की मोलर चालकता है। अपने उत्तर के लिए सही विकल्प चुनिए।",
+     "o": [
+      "540.48 S cm<sup>2</sup> mol<sup>−1</sup>",
+      "201.28 S cm<sup>2</sup> mol<sup>−1</sup>",
+      "390.71 S cm<sup>2</sup> mol<sup>−1</sup>",
+      "698.28 S cm<sup>2</sup> mol<sup>−1</sup>"
+     ],
+     "sol": "<p>कोलराउश नियम: Λ°(CH<sub>3</sub>COOH) = Λ°(CH<sub>3</sub>COONa) + Λ°(HCl) − Λ°(NaCl) = 91.0 + 426.16 − 126.45 = <b>390.71 S cm<sup>2</sup> mol<sup>−1</sup></b>।</p>",
+     "hint": "CH<sub>3</sub>COO<sup>−</sup> और H<sup>+</sup> देने वाले लवण जोड़ें, Na<sup>+</sup> और Cl<sup>−</sup> देने वाला घटाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -492,10 +590,22 @@
       "1.75 × 10<sup>−4</sup> mol L<sup>−1</sup>",
       "2.50 × 10<sup>−4</sup> mol L<sup>−1</sup>",
       "1.75 × 10<sup>−5</sup> mol L<sup>−1</sup>"
-     ]
+     ],
+     "sol": "<p>Λ°<sub>m</sub> = 350 + 50 = 400; α = 20/400 = 0.05.</p><p>K<sub>a</sub> = cα<sup>2</sup>/(1 − α) ≈ cα<sup>2</sup> = 0.007 × 0.0025 = <b>1.75 × 10<sup>−5</sup> mol L<sup>−1</sup></b>. (Without the approximation, 1.84 × 10<sup>−5</sup>; the option uses cα<sup>2</sup>.)</p>",
+     "hint": "α from conductivities, then K<sub>a</sub> = cα<sup>2</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "0.007 M ऐसीटिक अम्ल की मोलर चालकता 20 S cm<sup>2</sup> mol<sup>−1</sup> है। ऐसीटिक अम्ल का वियोजन स्थिरांक क्या है? सही विकल्प चुनिए।<br>[Λ°<sub>H<sup>+</sup></sub> = 350 S cm<sup>2</sup> mol<sup>−1</sup>, Λ°<sub>CH<sub>3</sub>COO<sup>−</sup></sub> = 50 S cm<sup>2</sup> mol<sup>−1</sup>]",
+     "o": [
+      "2.50 × 10<sup>−5</sup> mol L<sup>−1</sup>",
+      "1.75 × 10<sup>−4</sup> mol L<sup>−1</sup>",
+      "2.50 × 10<sup>−4</sup> mol L<sup>−1</sup>",
+      "1.75 × 10<sup>−5</sup> mol L<sup>−1</sup>"
+     ],
+     "sol": "<p>Λ°<sub>m</sub> = 350 + 50 = 400; α = 20/400 = 0.05।</p><p>K<sub>a</sub> = cα<sup>2</sup>/(1 − α) ≈ cα<sup>2</sup> = 0.007 × 0.0025 = <b>1.75 × 10<sup>−5</sup> mol L<sup>−1</sup></b>। (सन्निकटन के बिना 1.84 × 10<sup>−5</sup>; विकल्प cα<sup>2</sup> का उपयोग करता है।)</p>",
+     "hint": "चालकताओं से α, फिर K<sub>a</sub> = cα<sup>2</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -542,10 +652,22 @@
       "SO<sub>2</sub> gas",
       "Hydrogen gas",
       "Oxygen gas"
-     ]
+     ],
+     "sol": "<p>In dilute H<sub>2</sub>SO<sub>4</sub> water is oxidised at the Pt anode: 2H<sub>2</sub>O → O<sub>2</sub> + 4H<sup>+</sup> + 4e<sup>−</sup>, giving <b>oxygen</b>. (In concentrated acid, S<sub>2</sub>O<sub>8</sub><sup>2−</sup> forms instead; H<sub>2</sub> forms at the cathode.)</p>",
+     "hint": "Dilute acid: water is oxidised at the anode."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्लैटिनम (Pt) इलेक्ट्रोड का उपयोग करके तनु सल्फ्यूरिक अम्ल के वैद्युतअपघटन पर ऐनोड पर प्राप्त उत्पाद होगा:",
+     "o": [
+      "H<sub>2</sub>S गैस",
+      "SO<sub>2</sub> गैस",
+      "हाइड्रोजन गैस",
+      "ऑक्सीजन गैस"
+     ],
+     "sol": "<p>तनु H<sub>2</sub>SO<sub>4</sub> में Pt ऐनोड पर जल ऑक्सीकृत होता है: 2H<sub>2</sub>O → O<sub>2</sub> + 4H<sup>+</sup> + 4e<sup>−</sup>, जिससे <b>ऑक्सीजन</b> मिलती है। (सांद्र अम्ल में इसके स्थान पर S<sub>2</sub>O<sub>8</sub><sup>2−</sup> बनता है; कैथोड पर H<sub>2</sub> बनती है।)</p>",
+     "hint": "तनु अम्ल: ऐनोड पर जल ऑक्सीकृत होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -588,10 +710,22 @@
       "4",
       "1",
       "2"
-     ]
+     ],
+     "sol": "<p>20 g Ca = 0.5 mol. Ca<sup>2+</sup> + 2e<sup>−</sup> → Ca, so 0.5 × 2 = <b>1 F</b>.</p>",
+     "hint": "2 F per mole of Ca."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गलित CaCl<sub>2</sub> से 20 g कैल्सियम बनाने के लिए आवश्यक फैराडे (F) की संख्या है (Ca का परमाणु द्रव्यमान = 40 g mol<sup>−1</sup>):",
+     "o": [
+      "3",
+      "4",
+      "1",
+      "2"
+     ],
+     "sol": "<p>20 g Ca = 0.5 mol। Ca<sup>2+</sup> + 2e<sup>−</sup> → Ca, अतः 0.5 × 2 = <b>1 F</b>।</p>",
+     "hint": "Ca के प्रति मोल 2 F।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -634,10 +768,22 @@
       "1.0 × 10<sup>30</sup>",
       "1.0 × 10<sup>2</sup>",
       "1.0 × 10<sup>5</sup>"
-     ]
+     ],
+     "sol": "<p>E°<sub>cell</sub> = (0.059/n) log K → log K = 1 × 0.59/0.059 = 10 → K = <b>1.0 × 10<sup>10</sup></b>.</p>",
+     "hint": "log K = nE°/0.059."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक इलेक्ट्रॉन वाले सेल के लिए 298 K पर E°<sub>cell</sub> = 0.59 V है, सेल अभिक्रिया का साम्य स्थिरांक है:<br>[दिया है कि T = 298 K पर 2.303 RT/F = 0.059 V]",
+     "o": [
+      "1.0 × 10<sup>10</sup>",
+      "1.0 × 10<sup>30</sup>",
+      "1.0 × 10<sup>2</sup>",
+      "1.0 × 10<sup>5</sup>"
+     ],
+     "sol": "<p>E°<sub>cell</sub> = (0.059/n) log K → log K = 1 × 0.59/0.059 = 10 → K = <b>1.0 × 10<sup>10</sup></b>।</p>",
+     "hint": "log K = nE°/0.059।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -680,10 +826,22 @@
       "23.16 kJ mol<sup>−1</sup>",
       "−46.32 kJ mol<sup>−1</sup>",
       "−23.16 kJ mol<sup>−1</sup>"
-     ]
+     ],
+     "sol": "<p>n = 2 (2Fe<sup>3+</sup> + 2e<sup>−</sup>). Δ<sub>r</sub>G° = −nFE° = −2 × 96500 × 0.24 = −46320 J = <b>−46.32 kJ mol<sup>−1</sup></b>.</p>",
+     "hint": "Two electrons are transferred."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सेल अभिक्रिया 2Fe<sup>3+</sup>(aq) + 2I<sup>−</sup>(aq) → 2Fe<sup>2+</sup>(aq) + I<sub>2</sub>(aq) के लिए<br>298 K पर E°<sub>cell</sub> = 0.24 V है। सेल अभिक्रिया की मानक गिब्ज़ ऊर्जा (Δ<sub>r</sub>G°) है:<br>(दिया है कि फैराडे स्थिरांक F = 96500 C mol<sup>−1</sup>)",
+     "o": [
+      "46.32 kJ mol<sup>−1</sup>",
+      "23.16 kJ mol<sup>−1</sup>",
+      "−46.32 kJ mol<sup>−1</sup>",
+      "−23.16 kJ mol<sup>−1</sup>"
+     ],
+     "sol": "<p>n = 2 (2Fe<sup>3+</sup> + 2e<sup>−</sup>)। Δ<sub>r</sub>G° = −nFE° = −2 × 96500 × 0.24 = −46320 J = <b>−46.32 kJ mol<sup>−1</sup></b>।</p>",
+     "hint": "दो इलेक्ट्रॉनों का स्थानांतरण होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -726,10 +884,22 @@
       "E<sub>1</sub> &lt; E<sub>2</sub>",
       "E<sub>1</sub> &gt; E<sub>2</sub>",
       "E<sub>2</sub> = 0 ≠ E<sub>1</sub>"
-     ]
+     ],
+     "sol": "<p>E = E° − (0.059/2) log([Zn<sup>2+</sup>]/[Cu<sup>2+</sup>]).</p><p>E<sub>1</sub> = E° − 0.0295 log(0.01/1) = E° + 0.059 V; E<sub>2</sub> = E° − 0.0295 log(1/0.01) = E° − 0.059 V. So <b>E<sub>1</sub> &gt; E<sub>2</sub></b>.</p>",
+     "hint": "A larger [Cu<sup>2+</sup>]/[Zn<sup>2+</sup>] ratio raises the emf."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "विद्युत् रासायनिक सेल :<br>Zn|ZnSO<sub>4</sub> (0.01 M)||CuSO<sub>4</sub> (1.0 M)|Cu में इस डेनियल सेल का emf E<sub>1</sub> है। जब ZnSO<sub>4</sub> की सांद्रता 1.0 M और CuSO<sub>4</sub> की 0.01 M कर दी जाती है, तो emf बदलकर E<sub>2</sub> हो जाता है। निम्नलिखित में से E<sub>1</sub> और E<sub>2</sub> के बीच कौन-सा संबंध है? (दिया है, RT/F = 0.059)",
+     "o": [
+      "E<sub>1</sub> = E<sub>2</sub>",
+      "E<sub>1</sub> &lt; E<sub>2</sub>",
+      "E<sub>1</sub> &gt; E<sub>2</sub>",
+      "E<sub>2</sub> = 0 ≠ E<sub>1</sub>"
+     ],
+     "sol": "<p>E = E° − (0.059/2) log([Zn<sup>2+</sup>]/[Cu<sup>2+</sup>])।</p><p>E<sub>1</sub> = E° − 0.0295 log(0.01/1) = E° + 0.059 V; E<sub>2</sub> = E° − 0.0295 log(1/0.01) = E° − 0.059 V। अतः <b>E<sub>1</sub> &gt; E<sub>2</sub></b>।</p>",
+     "hint": "[Cu<sup>2+</sup>]/[Zn<sup>2+</sup>] अनुपात बढ़ने पर emf बढ़ता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -772,10 +942,22 @@
       "10<sup>−12</sup> atm",
       "10<sup>−10</sup> atm",
       "10<sup>−4</sup> atm"
-     ]
+     ],
+     "sol": "<p>2H<sup>+</sup> + 2e<sup>−</sup> → H<sub>2</sub>: E = 0 − (0.059/2) log(p<sub>H<sub>2</sub></sub>/[H<sup>+</sup>]<sup>2</sup>). For E = 0, p<sub>H<sub>2</sub></sub> = [H<sup>+</sup>]<sup>2</sup> = (10<sup>−7</sup>)<sup>2</sup> = <b>10<sup>−14</sup> atm</b>.</p>",
+     "hint": "In pure water [H<sup>+</sup>] = 10<sup>−7</sup> M."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "298 K पर शुद्ध जल में H<sub>2</sub>-इलेक्ट्रोड का विभव शून्य करने के लिए आवश्यक H<sub>2</sub> का दाब है",
+     "o": [
+      "10<sup>−14</sup> atm",
+      "10<sup>−12</sup> atm",
+      "10<sup>−10</sup> atm",
+      "10<sup>−4</sup> atm"
+     ],
+     "sol": "<p>2H<sup>+</sup> + 2e<sup>−</sup> → H<sub>2</sub>: E = 0 − (0.059/2) log(p<sub>H<sub>2</sub></sub>/[H<sup>+</sup>]<sup>2</sup>)। E = 0 के लिए p<sub>H<sub>2</sub></sub> = [H<sup>+</sup>]<sup>2</sup> = (10<sup>−7</sup>)<sup>2</sup> = <b>10<sup>−14</sup> atm</b>।</p>",
+     "hint": "शुद्ध जल में [H<sup>+</sup>] = 10<sup>−7</sup> M।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -818,10 +1000,22 @@
       "11.52 S cm<sup>2</sup>/mol",
       "0.086 S cm<sup>2</sup>/mol",
       "28.8 S cm<sup>2</sup>/mol"
-     ]
+     ],
+     "sol": "<p>Λ<sub>m</sub> = κ × 1000/c = 5.76 × 10<sup>−3</sup> × 1000/0.5 = <b>11.52 S cm<sup>2</sup> mol<sup>−1</sup></b>.</p>",
+     "hint": "Use 1000/c to convert mol dm<sup>−3</sup> to mol cm<sup>−3</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "298 K पर 5.76 × 10<sup>−3</sup> S cm<sup>−1</sup> वैद्युतअपघटनी चालकता वाले AgNO<sub>3</sub> के 0.5 mol dm<sup>−3</sup> विलयन की मोलर चालकता है",
+     "o": [
+      "2.88 S cm<sup>2</sup>/mol",
+      "11.52 S cm<sup>2</sup>/mol",
+      "0.086 S cm<sup>2</sup>/mol",
+      "28.8 S cm<sup>2</sup>/mol"
+     ],
+     "sol": "<p>Λ<sub>m</sub> = κ × 1000/c = 5.76 × 10<sup>−3</sup> × 1000/0.5 = <b>11.52 S cm<sup>2</sup> mol<sup>−1</sup></b>।</p>",
+     "hint": "mol dm<sup>−3</sup> को mol cm<sup>−3</sup> में बदलने के लिए 1000/c का उपयोग करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -864,10 +1058,22 @@
       "110 minutes",
       "220 minutes",
       "330 minutes"
-     ]
+     ],
+     "sol": "<p>2Cl<sup>−</sup> → Cl<sub>2</sub> + 2e<sup>−</sup>: 0.10 mol Cl<sub>2</sub> needs 0.20 F = 19300 C.</p><p>t = 19300/3 = 6433 s = 107 minutes ≈ <b>110 minutes</b>.</p>",
+     "hint": "2 F per mole of Cl<sub>2</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गलित सोडियम क्लोराइड के वैद्युतअपघटन के दौरान 3 ऐम्पियर धारा का उपयोग करके 0.10 mol क्लोरीन गैस बनाने में लगने वाला समय है",
+     "o": [
+      "55 मिनट",
+      "110 मिनट",
+      "220 मिनट",
+      "330 मिनट"
+     ],
+     "sol": "<p>2Cl<sup>−</sup> → Cl<sub>2</sub> + 2e<sup>−</sup>: 0.10 mol Cl<sub>2</sub> के लिए 0.20 F = 19300 C।</p><p>t = 19300/3 = 6433 s = 107 मिनट ≈ <b>110 मिनट</b>।</p>",
+     "hint": "Cl<sub>2</sub> के प्रति मोल 2 F।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -910,10 +1116,22 @@
       "ΔG° &gt; 0; K<sub>eq</sub> &gt; 1",
       "ΔG° &lt; 0; K<sub>eq</sub> &lt; 1",
       "ΔG° &lt; 0; K<sub>eq</sub> &lt; 1"
-     ]
+     ],
+     "sol": "<p>ΔG° = −nFE°: E° &lt; 0 → ΔG° &gt; 0. ΔG° = −RT ln K: ΔG° &gt; 0 → ln K &lt; 0 → <b>K &lt; 1</b>.</p>",
+     "hint": "Negative E° = non-spontaneous = reactants favoured."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि किसी दी गई अभिक्रिया के लिए E°<sub>cell</sub> का मान ऋणात्मक है, तो निम्नलिखित में से कौन ΔG° और K<sub>eq</sub> के मानों के लिए सही संबंध देता है?",
+     "o": [
+      "ΔG° &gt; 0; K<sub>eq</sub> &lt; 1",
+      "ΔG° &gt; 0; K<sub>eq</sub> &gt; 1",
+      "ΔG° &lt; 0; K<sub>eq</sub> &lt; 1",
+      "ΔG° &lt; 0; K<sub>eq</sub> &lt; 1"
+     ],
+     "sol": "<p>ΔG° = −nFE°: E° &lt; 0 → ΔG° &gt; 0। ΔG° = −RT ln K: ΔG° &gt; 0 → ln K &lt; 0 → <b>K &lt; 1</b>।</p>",
+     "hint": "ऋणात्मक E° = अस्वतः प्रवर्तित = अभिकारकों का पक्ष।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -958,10 +1176,22 @@
       "6 × 10<sup>20</sup>",
       "3.75 × 10<sup>20</sup>",
       "7.48 × 10<sup>23</sup>"
-     ]
+     ],
+     "sol": "<p>Q = It = 1 × 60 = 60 C. Number of electrons = 60/(1.60 × 10<sup>−19</sup>) = <b>3.75 × 10<sup>20</sup></b>.</p>",
+     "hint": "Charge ÷ charge per electron."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "1 ऐम्पियर धारा द्वारा 60 सेकंड में वैद्युतअपघटन के दौरान कैथोड पर पहुँचाए गए इलेक्ट्रॉनों की संख्या है (इलेक्ट्रॉन पर आवेश = 1.60 × 10<sup>−19</sup> C)",
+     "o": [
+      "6 × 10<sup>23</sup>",
+      "6 × 10<sup>20</sup>",
+      "3.75 × 10<sup>20</sup>",
+      "7.48 × 10<sup>23</sup>"
+     ],
+     "sol": "<p>Q = It = 1 × 60 = 60 C। इलेक्ट्रॉनों की संख्या = 60/(1.60 × 10<sup>−19</sup>) = <b>3.75 × 10<sup>20</sup></b>।</p>",
+     "hint": "आवेश ÷ प्रति इलेक्ट्रॉन आवेश।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1004,10 +1234,22 @@
       "Zinc has lower melting point than iron",
       "Zinc has lower negative electrode potential than iron",
       "Zinc has higher negative electrode potential than iron"
-     ]
+     ],
+     "sol": "<p>E°(Zn<sup>2+</sup>/Zn) = −0.76 V is more negative than E°(Fe<sup>2+</sup>/Fe) = −0.44 V, so zinc is oxidised in preference to iron. The zinc layer protects iron even when scratched (sacrificial protection). Iron on zinc would corrode instead.</p>",
+     "hint": "The metal with the more negative E° corrodes first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यशद-लेपित (गैल्वेनीकृत) आयरन बनाने के लिए आयरन पर ज़िंक का लेप किया जा सकता है परंतु इसका उलटा संभव नहीं है। इसका कारण है",
+     "o": [
+      "ज़िंक आयरन से हलका है",
+      "ज़िंक का गलनांक आयरन से कम है",
+      "ज़िंक का ऋणात्मक इलेक्ट्रोड विभव आयरन से कम है",
+      "ज़िंक का ऋणात्मक इलेक्ट्रोड विभव आयरन से अधिक है"
+     ],
+     "sol": "<p>E°(Zn<sup>2+</sup>/Zn) = −0.76 V, E°(Fe<sup>2+</sup>/Fe) = −0.44 V से अधिक ऋणात्मक है, अतः आयरन की तुलना में ज़िंक पहले ऑक्सीकृत होता है। खरोंच लगने पर भी ज़िंक की परत आयरन की रक्षा करती है (त्यागी सुरक्षा)। ज़िंक पर आयरन का लेप हो तो स्वयं आयरन का संक्षारण होगा।</p>",
+     "hint": "अधिक ऋणात्मक E° वाली धातु का संक्षारण पहले होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1050,10 +1292,22 @@
       "Hydrochloric acid, HCl",
       "Ammonia, NH<sub>3</sub>",
       "Fructose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>"
-     ]
+     ],
+     "sol": "<p>HCl is a strong electrolyte, fully ionised into H<sup>+</sup> and Cl<sup>−</sup>; H<sup>+</sup> also has very high ionic mobility. Acetic acid and ammonia are weak electrolytes; fructose is a non-electrolyte. Best conductor: <b>HCl</b>.</p>",
+     "hint": "Strong electrolyte with the fastest ion."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से किस यौगिक का जलीय विलयन विद्युत् धारा का सबसे अच्छा चालक है ?",
+     "o": [
+      "ऐसीटिक अम्ल, C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>",
+      "हाइड्रोक्लोरिक अम्ल, HCl",
+      "अमोनिया, NH<sub>3</sub>",
+      "फ्रक्टोस, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>"
+     ],
+     "sol": "<p>HCl प्रबल वैद्युतअपघट्य है, पूर्णतः H<sup>+</sup> और Cl<sup>−</sup> में आयनित; H<sup>+</sup> की आयनिक गतिशीलता भी बहुत अधिक है। ऐसीटिक अम्ल और अमोनिया दुर्बल वैद्युतअपघट्य हैं; फ्रक्टोस अवैद्युतअपघट्य है। सबसे अच्छा चालक: <b>HCl</b>।</p>",
+     "hint": "सबसे तेज़ आयन वाला प्रबल वैद्युतअपघट्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1096,10 +1350,22 @@
       "FeSO<sub>4</sub>(aq) + Zn(s) → ZnSO<sub>4</sub>(aq) + Fe(s)",
       "2CuSO<sub>4</sub>(aq) + 2Ag(s) → 2Cu(s) + Ag<sub>2</sub>SO<sub>4</sub>(aq)",
       "CuSO<sub>4</sub>(aq) + Zn(s) → ZnSO<sub>4</sub>(aq) + Cu(s)"
-     ]
+     ],
+     "sol": "<p>A metal displaces another from solution only if its E° is lower. Ag (E° = +0.80 V) is above Cu (+0.34 V), so Ag cannot reduce Cu<sup>2+</sup>: reaction (3) cannot occur (E°<sub>cell</sub> = 0.34 − 0.80 = −0.46 V). Fe and Zn both displace Cu; Zn displaces Fe.</p>",
+     "hint": "Lower E° metal reduces the ion of the higher E° metal."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "298 K पर Cu<sup>2+</sup>/Cu, Zn<sup>2+</sup>/Zn, Fe<sup>2+</sup>/Fe और Ag<sup>+</sup>/Ag के मानक इलेक्ट्रोड विभव क्रमशः 0.34 V, −0.76 V, −0.44 V और 0.80 V हैं।<br>मानक इलेक्ट्रोड विभव के आधार पर प्रागुक्ति कीजिए कि निम्नलिखित में से कौन-सी अभिक्रिया नहीं हो सकती ?",
+     "o": [
+      "CuSO<sub>4</sub>(aq) + Fe(s) → FeSO<sub>4</sub>(aq) + Cu(s)",
+      "FeSO<sub>4</sub>(aq) + Zn(s) → ZnSO<sub>4</sub>(aq) + Fe(s)",
+      "2CuSO<sub>4</sub>(aq) + 2Ag(s) → 2Cu(s) + Ag<sub>2</sub>SO<sub>4</sub>(aq)",
+      "CuSO<sub>4</sub>(aq) + Zn(s) → ZnSO<sub>4</sub>(aq) + Cu(s)"
+     ],
+     "sol": "<p>कोई धातु दूसरी धातु को विलयन से तभी विस्थापित करती है जब उसका E° कम हो। Ag (E° = +0.80 V), Cu (+0.34 V) से ऊपर है, अतः Ag, Cu<sup>2+</sup> को अपचयित नहीं कर सकता: अभिक्रिया (3) नहीं हो सकती (E°<sub>cell</sub> = 0.34 − 0.80 = −0.46 V)। Fe और Zn दोनों Cu को विस्थापित करते हैं; Zn, Fe को विस्थापित करता है।</p>",
+     "hint": "कम E° वाली धातु अधिक E° वाली धातु के आयन को अपचयित करती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1145,10 +1411,22 @@
       "Yes, because E°<sub>cell</sub> = +2.733 V",
       "No, because E°<sub>cell</sub> = −2.733 V",
       "Yes, because E°<sub>cell</sub> = +0.287 V"
-     ]
+     ],
+     "sol": "<p>The value −1.510 V is given for Mn<sup>2+</sup>/MnO<sub>4</sub><sup>−</sup> (oxidation), so the reduction potential of MnO<sub>4</sub><sup>−</sup>/Mn<sup>2+</sup> is +1.510 V. MnO<sub>4</sub><sup>−</sup> is reduced (cathode) and water is oxidised to O<sub>2</sub> (anode):</p><p>E°<sub>cell</sub> = 1.510 − 1.223 = <b>+0.287 V</b> &gt; 0, so yes, O<sub>2</sub> can be liberated.</p>",
+     "hint": "Turn the given oxidation potential into a reduction potential first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे अर्ध सेल अभिक्रियाएँ दी गई हैं :<br>MnO<sub>4</sub><sup>−</sup> + 8H<sup>+</sup> + 5e<sup>−</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O, E°<sub>Mn<sup>2+</sup>/MnO<sub>4</sub><sup>−</sup></sub> = −1.510 V<br>½O<sub>2</sub> + 2H<sup>+</sup> + 2e<sup>−</sup> → H<sub>2</sub>O, E°<sub>O<sub>2</sub>/H<sub>2</sub>O</sub> = +1.223 V<br>क्या अम्ल की उपस्थिति में परमैंगनेट आयन, MnO<sub>4</sub><sup>−</sup> जल से O<sub>2</sub> मुक्त करेगा ?",
+     "o": [
+      "नहीं, क्योंकि E°<sub>cell</sub> = −0.287 V",
+      "हाँ, क्योंकि E°<sub>cell</sub> = +2.733 V",
+      "नहीं, क्योंकि E°<sub>cell</sub> = −2.733 V",
+      "हाँ, क्योंकि E°<sub>cell</sub> = +0.287 V"
+     ],
+     "sol": "<p>मान −1.510 V, Mn<sup>2+</sup>/MnO<sub>4</sub><sup>−</sup> (ऑक्सीकरण) के लिए दिया है, अतः MnO<sub>4</sub><sup>−</sup>/Mn<sup>2+</sup> का अपचयन विभव +1.510 V है। MnO<sub>4</sub><sup>−</sup> अपचयित होता है (कैथोड) और जल O<sub>2</sub> में ऑक्सीकृत होता है (ऐनोड):</p><p>E°<sub>cell</sub> = 1.510 − 1.223 = <b>+0.287 V</b> &gt; 0, अतः हाँ, O<sub>2</sub> निर्मुक्त हो सकती है।</p>",
+     "hint": "पहले दिए गए ऑक्सीकरण विभव को अपचयन विभव में बदलें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1196,10 +1474,22 @@
       "0.9615 V",
       "1.05 V",
       "1.0385 V"
-     ]
+     ],
+     "sol": "<p>n = 2; Q = [Ni<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup> = 0.001/(0.001)<sup>2</sup> = 10<sup>3</sup>.</p><p>E = E° − (0.059/2) log 10<sup>3</sup> = E° − 0.0885 V. With E° = 1.05 V: E = <b>0.9615 V</b>.</p><p class='errata'>The paper prints E°<sub>cell</sub> = 10.5 V (misprint for 1.05 V); with 10.5 V no option fits (10.41 V). The question was treated as a bonus; keep it out of tests.</p>",
+     "hint": "Nernst equation with n = 2 and Q = 10<sup>3</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उस सेल का emf ज्ञात कीजिए जिसमें 298 K पर निम्नलिखित अभिक्रिया होती है<br>Ni(s) + 2Ag<sup>+</sup> (0.001 M) → Ni<sup>2+</sup> (0.001 M) + 2Ag(s)<br>(दिया है कि E°<sub>cell</sub> = 10.5 V, 298 K पर 2.303RT/F = 0.059)",
+     "o": [
+      "1.385 V",
+      "0.9615 V",
+      "1.05 V",
+      "1.0385 V"
+     ],
+     "sol": "<p>n = 2; Q = [Ni<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup> = 0.001/(0.001)<sup>2</sup> = 10<sup>3</sup>।</p><p>E = E° − (0.059/2) log 10<sup>3</sup> = E° − 0.0885 V। E° = 1.05 V लेने पर: E = <b>0.9615 V</b>।</p><p class='errata'>प्रश्नपत्र में E°<sub>cell</sub> = 10.5 V छपा है (1.05 V के स्थान पर मुद्रण त्रुटि); 10.5 V से कोई विकल्प नहीं मिलता (10.41 V)। प्रश्न बोनस माना गया; इसे टेस्ट में न रखें।</p>",
+     "hint": "n = 2 और Q = 10<sup>3</sup> के साथ नेर्न्स्ट समीकरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
