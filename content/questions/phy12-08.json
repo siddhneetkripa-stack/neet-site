@@ -1,0 +1,1023 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-08",
+ "subject": "physics",
+ "class": 12,
+ "unit": 8,
+ "title": {
+  "en": "Electromagnetic Waves"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph108.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "8.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "8.2",
+   "title": "Displacement Current",
+   "hi": "विस्थापन धारा",
+   "pdfPage": 2
+  },
+  {
+   "id": "8.3",
+   "title": "Electromagnetic Waves",
+   "hi": "वैद्युतचुंबकीय तरंगें",
+   "pdfPage": 5
+  },
+  {
+   "id": "8.3.1",
+   "title": "Sources of Electromagnetic Waves",
+   "hi": "तरंगों के स्रोत",
+   "pdfPage": 5
+  },
+  {
+   "id": "8.3.2",
+   "title": "Nature of Electromagnetic Waves",
+   "hi": "वैद्युतचुंबकीय तरंगों की प्रकृति",
+   "pdfPage": 6
+  },
+  {
+   "id": "8.4",
+   "title": "Electromagnetic Spectrum",
+   "hi": "वैद्युतचुंबकीय स्पेक्ट्रम",
+   "pdfPage": 8
+  },
+  {
+   "id": "8.4.1",
+   "title": "Radio Waves",
+   "hi": "रेडियो तरंगें",
+   "pdfPage": 9
+  },
+  {
+   "id": "8.4.2",
+   "title": "Microwaves",
+   "hi": "सूक्ष्म तरंगें",
+   "pdfPage": 9
+  },
+  {
+   "id": "8.4.3",
+   "title": "Infrared Waves",
+   "hi": "अवरक्त तरंगें",
+   "pdfPage": 10
+  },
+  {
+   "id": "8.4.4",
+   "title": "Visible Rays",
+   "hi": "दृश्य प्रकाश तरंगें",
+   "pdfPage": 10
+  },
+  {
+   "id": "8.4.5",
+   "title": "Ultraviolet Rays",
+   "hi": "पराबैंगनी तरंगें",
+   "pdfPage": 10
+  },
+  {
+   "id": "8.4.6",
+   "title": "X-rays",
+   "hi": "X-किरणें",
+   "pdfPage": 11
+  },
+  {
+   "id": "8.4.7",
+   "title": "Gamma Rays",
+   "hi": "गामा किरणें",
+   "pdfPage": 11
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-08-neet-2015-re-exam-code-d-q137",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The energy of the em waves is of the order of 15 keV. To which part of the spectrum does it belong?",
+     "o": [
+      "Infra-red rays",
+      "Ultraviolet rays",
+      "γ-rays",
+      "X-rays"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q137",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2016-phase-1-code-a-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Out of the following options which one can be used to produce a propagating electromagnetic wave?",
+     "o": [
+      "A charge moving at constant velocity",
+      "A stationary charge",
+      "A chargeless particle",
+      "An accelerating charge"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q8",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2016-phase-2-code-aa-q33",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 100 Ω resistance and a capacitor of 100 Ω reactance are connected in series across a 220 V source. When the capacitor is 50% charged, the peak value of the displacement current is :",
+     "o": [
+      "2.2 A",
+      "11 A",
+      "4.4 A",
+      "11√2 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q33",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2017-code-a-q31",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In an electromagnetic wave in free space the root mean square value of the electric field is E<sub>rms</sub> = 6 V/m. The peak value of the magnetic field is :",
+     "o": [
+      "1.41 × 10<sup>−8</sup> T",
+      "2.83 × 10<sup>−8</sup> T",
+      "0.70 × 10<sup>−8</sup> T",
+      "4.23 × 10<sup>−8</sup> T"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q31",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2018-code-aa-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An em wave is propagating in a medium with a velocity V⃗ = V î. The instantaneous oscillating electric field of this em wave is along +y axis. Then the direction of oscillating magnetic field of the em wave will be along :",
+     "o": [
+      "−y direction",
+      "+z direction",
+      "−z direction",
+      "−x direction"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q18",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2019-code-s2-q121",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A parallel plate capacitor of capacitance 20 μF is being charged by a voltage source whose potential is changing at the rate of 3 V/s. The conduction current through the connecting wires, and the displacement current through the plates of the capacitor, would be, respectively :",
+     "o": [
+      "60 μA, zero",
+      "zero, zero",
+      "zero, 60 μA",
+      "60 μA, 60 μA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q121",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2019-code-s2-q128",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which colour of the light has the longest wavelength?",
+     "o": [
+      "green",
+      "violet",
+      "red",
+      "blue"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.4.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q128",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2020-code-f3-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The ratio of contributions made by the electric field and magnetic field components to the intensity of an electromagnetic wave is : (c = speed of electromagnetic waves)",
+     "o": [
+      "1 : c",
+      "1 : c2",
+      "c : 1",
+      "1 : 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q16",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2020-code-f3-q43",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Light with an average flux of 20 W/cm<sup>2</sup> falls on a non-reflecting surface at normal incidence having surface area 20 cm<sup>2</sup>. The energy received by the surface during time span of 1 minute is :",
+     "o": [
+      "24 × 10<sup>3</sup> J",
+      "48 × 10<sup>3</sup> J",
+      "10 × 10<sup>3</sup> J",
+      "12 × 10<sup>3</sup> J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q43",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2021-code-p3-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A capacitor of capacitance 'C' is connected across an ac source of voltage V, given by V = V<sub>0</sub> sin ωt. The displacement current between the plates of the capacitor would then be given by :",
+     "o": [
+      "I<sub>d</sub> = V<sub>0</sub>ωC sin ωt",
+      "I<sub>d</sub> = V<sub>0</sub>ωC cos ωt",
+      "I<sub>d</sub> = (V<sub>0</sub>/ωC) cos ωt",
+      "I<sub>d</sub> = (V<sub>0</sub>/ωC) sin ωt"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q28",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2021-code-p3-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a plane electromagnetic wave propagating in x-direction, which one of the following combinations gives the correct possible directions for electric field (E) and magnetic field (B) respectively?",
+     "o": [
+      "−ĵ + k̂, −ĵ + k̂",
+      "ĵ + k̂, ĵ + k̂",
+      "−ĵ + k̂, −ĵ − k̂",
+      "ĵ + k̂, −ĵ − k̂"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q32",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2022-code-t2-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When light propagates through a material medium of relative permittivity ε<sub>r</sub> and relative permeability μ<sub>r</sub>, the velocity of light, v is given by : (c − velocity of light in vacuum)",
+     "o": [
+      "v = √(μ<sub>r</sub>/ε<sub>r</sub>)",
+      "v = √(ε<sub>r</sub>/μ<sub>r</sub>)",
+      "v = c/√(ε<sub>r</sub>μ<sub>r</sub>)",
+      "v = c"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q14",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-08-neet-2022-code-t2-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II<br>(a) AM radio waves — (i) 10<sup>−10</sup> m<br>(b) Microwaves — (ii) 10<sup>2</sup> m<br>(c) Infrared radiations — (iii) 10<sup>−2</sup> m<br>(d) X-rays — (iv) 10<sup>−4</sup> m<br>Choose the correct answer from the options given below :",
+     "o": [
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q22",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-08-neet-2023-topic-wise-copy-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An ac source is connected to a capacitor C. Due to decrease in its operating frequency :",
+     "o": [
+      "capacitive reactance remains constant",
+      "capacitive reactance decreases",
+      "displacement current increases",
+      "displacement current decreases"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.2"
+    ],
+    "otherChapters": [
+     "Class 12 · Alternating Current"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q26",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-08-neet-2023-topic-wise-copy-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a plane electromagnetic wave travelling in free space, the electric field component oscillates sinusoidally at a frequency of 2.0 × 10<sup>10</sup> Hz and amplitude 48 V m<sup>−1</sup>. Then the amplitude of oscillating magnetic field is : (Speed of light in free space = 3 × 10<sup>8</sup> m s<sup>−1</sup>)",
+     "o": [
+      "1.6 × 10<sup>−6</sup> T",
+      "1.6 × 10<sup>−9</sup> T",
+      "1.6 × 10<sup>−8</sup> T",
+      "1.6 × 10<sup>−7</sup> T"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q27",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-08-neet-2024-q18-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The property which is not of an electromagnetic wave travelling in free space is that :",
+     "o": [
+      "They are transverse in nature",
+      "The energy density in electric field is equal to energy density in magnetic field",
+      "They travel with a speed equal to 1/√(μ<sub>0</sub>ε<sub>0</sub>)",
+      "They originate from charges moving with uniform speed"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.3.1",
+     "8.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q18 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-08-neet-2024-q19-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A parallel plate capacitor is charged by connecting it to a battery through a resistor. If I is the current in the circuit, then in the gap between the plates :",
+     "o": [
+      "There is no current",
+      "Displacement current of magnitude equal to I flows in the same direction as I",
+      "Displacement current of magnitude equal to I flows in a direction opposite to that of I",
+      "Displacement current of magnitude greater than I flows but can be in any direction"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q19 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-08-neet-2025-code-45-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The electric field in a plane electromagnetic wave is given by E<sub>z</sub> = 60 cos (5x + 1.5 × 10<sup>9</sup> t) V/m. Then expression for the corresponding magnetic field is (here subscripts denote the direction of the field) :",
+     "o": [
+      "B<sub>y</sub> = 2 × 10<sup>−7</sup> cos (5x + 1.5 × 10<sup>9</sup> t) T",
+      "B<sub>x</sub> = 2 × 10<sup>−7</sup> cos (5x + 1.5 × 10<sup>9</sup> t) T",
+      "B<sub>z</sub> = 60 cos (5x + 1.5 × 10<sup>9</sup> t) T",
+      "B<sub>y</sub> = 60 sin (5x + 1.5 × 10<sup>9</sup> t) T"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q9",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2025-code-45-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A parallel plate capacitor made of circular plates is being charged such that the surface charge density on its plates is increasing at a constant rate with time. The magnetic field arising due to displacement current is :",
+     "o": [
+      "Zero at all places",
+      "Constant between the plates and zero outside the plates",
+      "Non-zero everywhere with maximum at the imaginary cylindrical surface connecting peripheries of the plates",
+      "Zero between the plates and non-zero outside"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.2"
+    ],
+    "otherChapters": [
+     "Class 12 · Moving Charges and Magnetism"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q26",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-08-neet-2026-code-13-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>List I (Electromagnetic wave) — List II (Production)<br>A. Microwave — I. Electrons in atoms emit light when they move from a higher energy level to a lower energy level<br>B. Visible light — II. Radioactive decay of nucleus<br>C. Gamma rays — III. Vibration of atoms and molecules<br>D. Infra-red rays — IV. Klystron valve or magnetron valve<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A-IV, B-III, C-II, D-I",
+      "A-III, B-IV, C-I, D-II",
+      "A-III, B-I, C-II, D-IV",
+      "A-IV, B-I, C-II, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-08",
+    "paras": [
+     "8.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q34",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
