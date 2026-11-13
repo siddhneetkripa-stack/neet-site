@@ -1,0 +1,914 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-01",
+ "subject": "physics",
+ "class": 11,
+ "unit": 1,
+ "title": {
+  "en": "Units and Measurements"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "1.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "1.2",
+   "title": "The International System of Units",
+   "hi": "मात्रकों की अंतर्राष्ट्रीय प्रणाली",
+   "pdfPage": 1
+  },
+  {
+   "id": "1.3",
+   "title": "Significant Figures",
+   "hi": "सार्थक अंक",
+   "pdfPage": 3
+  },
+  {
+   "id": "1.3.1",
+   "title": "Rules for Arithmetic Operations with Significant Figures",
+   "pdfPage": 5
+  },
+  {
+   "id": "1.3.2",
+   "title": "Rounding off the Uncertain Digits",
+   "pdfPage": 5
+  },
+  {
+   "id": "1.3.3",
+   "title": "Rules for Determining the Uncertainty in the Results of Arithmetic Calculations",
+   "pdfPage": 6
+  },
+  {
+   "id": "1.4",
+   "title": "Dimensions of Physical Quantities",
+   "hi": "भौतिक राशियों की विमाएँ",
+   "pdfPage": 7
+  },
+  {
+   "id": "1.5",
+   "title": "Dimensional Formulae and Dimensional Equations",
+   "hi": "विमीय सूत्र एवं विमीय समीकरणें",
+   "pdfPage": 7
+  },
+  {
+   "id": "1.6",
+   "title": "Dimensional Analysis and its Applications",
+   "hi": "विमीय विश्लेषण एवं इसके अनुप्रयोग",
+   "pdfPage": 7
+  },
+  {
+   "id": "1.6.1",
+   "title": "Checking the Dimensional Consistency of Equations",
+   "pdfPage": 8
+  },
+  {
+   "id": "1.6.2",
+   "title": "Deducing Relation among the Physical Quantities",
+   "pdfPage": 9
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-01-neet-2015-re-exam-code-d-q176",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If dimensions of critical velocity v<sub>c</sub> of a liquid flowing through a tube are expressed as [η<sup>x</sup> ρ<sup>y</sup> r<sup>z</sup>], where η, ρ and r are the coefficient of viscosity of liquid, density of liquid and radius of the tube respectively, then the values of x, y and z are given by :",
+     "o": [
+      "−1, −1, 1",
+      "−1, −1, −1",
+      "1, 1, 1",
+      "1, −1, −1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q176",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-01-neet-2016-phase-2-code-aa-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Planck's constant (h), speed of light in vacuum (c) and Newton's gravitational constant (G) are three fundamental constants. Which of the following combinations of these has the dimension of length?",
+     "o": [
+      "√(hG)/c<sup>3/2</sup>",
+      "√(hG)/c<sup>5/2</sup>",
+      "√(hc/G)",
+      "√(Gc/h<sup>3/2</sup>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q1",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-01-neet-2017-code-a-q19",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A physical quantity of the dimensions of length that can be formed out of c, G and e<sup>2</sup>/(4πε<sub>0</sub>) is [c is velocity of light, G is universal constant of gravitation and e is charge] :",
+     "o": [
+      "(1/c<sup>2</sup>)[G e<sup>2</sup>/(4πε<sub>0</sub>)]<sup>1/2</sup>",
+      "c<sup>2</sup>[G e<sup>2</sup>/(4πε<sub>0</sub>)]<sup>1/2</sup>",
+      "(1/c<sup>2</sup>)[e<sup>2</sup>/(G 4πε<sub>0</sub>)]<sup>1/2</sup>",
+      "(1/c)G e<sup>2</sup>/(4πε<sub>0</sub>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q19",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-01-neet-2019-code-s2-q104",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In an experiment the percentage of error occurred in the measurement of physical quantities A, B, C and D are 1%, 2%, 3% and 4% respectively. Then the maximum percentage of error in the measurement X, where X = A<sup>2</sup>B<sup>1/2</sup>/(C<sup>1/3</sup>D<sup>3</sup>), will be :",
+     "o": [
+      "−10%",
+      "10%",
+      "(3/13)%",
+      "16%"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 2 · Errors in measurement (combination of errors)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q104",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-01-neet-2020-code-f3-q4",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Dimensions of stress are :",
+     "o": [
+      "[ML<sup>0</sup>T<sup>−2</sup>]",
+      "[ML<sup>−1</sup>T<sup>−2</sup>]",
+      "[MLT<sup>−2</sup>]",
+      "[ML<sup>2</sup>T<sup>−2</sup>]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q4",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-01-neet-2020-code-f3-q20",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Taking into account of the significant figures, what is the value of 9.99 m − 0.0099 m?",
+     "o": [
+      "9.980 m",
+      "9.9 m",
+      "9.9801 m",
+      "9.98 m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q20",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-01-neet-2021-code-p3-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If E and G respectively denote energy and gravitational constant, then E/G has the dimensions of :",
+     "o": [
+      "[M<sup>2</sup>] [L<sup>−2</sup>] [T<sup>−1</sup>]",
+      "[M<sup>2</sup>] [L<sup>−1</sup>] [T<sup>0</sup>]",
+      "[M] [L<sup>−1</sup>] [T<sup>−1</sup>]",
+      "[M] [L<sup>0</sup>] [T<sup>0</sup>]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.5"
+    ],
+    "otherChapters": [
+     "Class 11 · Gravitation"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q7",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-01-neet-2021-code-p3-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If force [F], acceleration [A] and time [T] are chosen as the fundamental physical quantities, find the dimensions of energy.",
+     "o": [
+      "[F][A<sup>−1</sup>][T]",
+      "[F][A][T]",
+      "[F][A][T<sup>2</sup>]",
+      "[F][A][T<sup>−1</sup>]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q29",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-01-neet-2022-code-t2-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Plane angle and solid angle have :",
+     "o": [
+      "Dimensions but no units",
+      "No units and no dimensions",
+      "Both units and dimensions",
+      "Units but no dimensions"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.2",
+     "1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q13",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-01-neet-2022-code-t2-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The dimensions [MLT<sup>−2</sup>A<sup>−2</sup>] belong to the :",
+     "o": [
+      "self inductance",
+      "magnetic permeability",
+      "electric permittivity",
+      "magnetic flux"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.5"
+    ],
+    "otherChapters": [
+     "Class 12 · Moving Charges and Magnetism"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q18",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-01-neet-2022-code-t2-q37",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The area of a rectangular field (in m<sup>2</sup>) of length 55.3 m and breadth 25 m after rounding off the value for correct significant digits is :",
+     "o": [
+      "1382",
+      "1382.5",
+      "14 × 10<sup>2</sup>",
+      "138 × 10<sup>1</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q37",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-01-neet-2023-topic-wise-copy-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The errors in the measurement which arise due to unpredictable fluctuations in temperature and voltage supply are :",
+     "o": [
+      "Random errors",
+      "Instrumental errors",
+      "Personal errors",
+      "Least count errors"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 2 · Errors in measurement (random errors)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q1",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-01-neet-2023-topic-wise-copy-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A metal wire has mass (0.4 ± 0.002) g, radius (0.3 ± 0.001) mm and length (5 ± 0.02) cm. The maximum possible percentage error in the measurement of density will nearly be :",
+     "o": [
+      "1.4%",
+      "1.2%",
+      "1.3%",
+      "1.6%"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 2 · Errors in measurement (combination of errors)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q2",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-01-neet-2024-q42-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A force defined by F = αt<sup>2</sup> + βt acts on a particle at a given time t. The factor which is dimensionless, if α and β are constants, is :",
+     "o": [
+      "βt/α",
+      "αt/β",
+      "αβt",
+      "αβ/t"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.5",
+     "1.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q42 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-01-neet-2024-q43-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The quantities which have the same dimensions as those of solid angle are :",
+     "o": [
+      "strain and angle",
+      "stress and angle",
+      "strain and arc",
+      "angular speed and stress"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.4",
+     "1.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q43 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The end of option (4) is clipped in the copy after \"angular speed and\"; \"stress\" is completed from the published paper and should be checked against an official booklet."
+   }
+  },
+  {
+   "id": "phy11-01-neet-2025-code-45-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A physical quantity P is related to four observations a, b, c and d as follows : P = a<sup>3</sup>b<sup>2</sup>/(c√d). The percentage errors of measurement in a, b, c and d are 1%, 3%, 2% and 4% respectively. The percentage error in the quantity P is :",
+     "o": [
+      "10%",
+      "2%",
+      "13%",
+      "15%"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 2 · Errors in measurement (combination of errors)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q42",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-01-neet-2026-code-13-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The speed of light in vacuum is taken as unity. If light takes 6 min 40 s to reach the Earth from the Sun, the distance between the Sun and the Earth in new unit is :",
+     "o": [
+      "3 × 10<sup>8</sup>",
+      "500",
+      "3 × 10<sup>10</sup>",
+      "400"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q38",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-01-neet-2026-code-13-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Each side of a metallic cube of mass 5.580 kg is measured to be 9.0 cm. Keeping the significant figures in view, the density of the material of the cube can be best expressed as X × 10<sup>3</sup> kg m<sup>−3</sup>, where the value of X is :",
+     "o": [
+      "7.654",
+      "7.7",
+      "7.65",
+      "7.6"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-01",
+    "paras": [
+     "1.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q42",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "DIFFERS from Answer key Code 13, NEET 2026 (4); ours: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "<p class='errata'>Density = 5.580 kg / (0.090 m)<sup>3</sup> = 7.654 × 10<sup>3</sup> kg m<sup>−3</sup>. The side (9.0 cm) has two significant figures, so the result rounds to 7.7 (option 2). The Code 13 key gives option (4), 7.6, which is truncated rather than rounded.</p>"
+   }
+  }
+ ]
+}
