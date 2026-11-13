@@ -2841,7 +2841,7 @@
    "text": {
     "en": {
      "status": "checked",
-     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R).<br>Assertion (A): At 10°C, the density of a 5M solution of KCl [atomic masses of K and Cl are 39 &amp; 35.5 g mol<sup>−1</sup>]. The solution is cooled to −21°C. The molality of the solution will remain unchanged.<br>Reason (R): The molality of a solution does not change with temperature as mass remains unaffected with temperature.<br>In the light of the above statements, choose the correct answer from the options given below:",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R).<br>Assertion (A): At 10°C, the density of a 5M solution of KCl [atomic masses of K and Cl are 39 &amp; 35.5 g mol<sup>−1</sup>] is 'x' g mL<sup>−1</sup>. The solution is cooled to −21°C. The molality of the solution will remain unchanged.<br>Reason (R): The molality of a solution does not change with temperature as mass remains unaffected with temperature.<br>In the light of the above statements, choose the correct answer from the options given below:",
      "o": [
       "Both (A) and (R) are true and (R) is the correct explanation of (A)",
       "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
@@ -2853,7 +2853,7 @@
     },
     "hi": {
      "status": "draft",
-     "q": "नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया है।<br>अभिकथन (A): 10°C पर KCl के 5M विलयन का घनत्व [K और Cl के परमाणु द्रव्यमान 39 और 35.5 g mol<sup>−1</sup> हैं]। विलयन को −21°C तक ठंडा किया जाता है। विलयन की मोललता अपरिवर्तित रहेगी।<br>कारण (R): ताप के साथ विलयन की मोललता नहीं बदलती क्योंकि ताप से द्रव्यमान प्रभावित नहीं होता।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "q": "नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया है।<br>अभिकथन (A): 10°C पर KCl के 5M विलयन का घनत्व [K और Cl के परमाणु द्रव्यमान 39 और 35.5 g mol<sup>−1</sup> हैं] 'x' g mL<sup>−1</sup> है। विलयन को −21°C तक ठंडा किया जाता है। विलयन की मोललता अपरिवर्तित रहेगी।<br>कारण (R): ताप के साथ विलयन की मोललता नहीं बदलती क्योंकि ताप से द्रव्यमान प्रभावित नहीं होता।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
      "o": [
       "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है",
       "(A) और (R) दोनों सही हैं परंतु (R), (A) की सही व्याख्या नहीं है",
@@ -2901,7 +2901,8 @@
    "status": "live",
    "review": {
     "modelA": "Claude (worked solution)",
-    "keyCheck": "Matches the official NTA answer"
+    "keyCheck": "Matches the official NTA answer",
+    "note": "Source copy (eSaral) omits \"is 'x' g mL⁻¹\"; restored from other published copies of the 27 Jun 2022 Shift 1 paper (Cracku, Careers360, Allen, Examside)."
    },
    "ncert_status": "in_ncert",
    "syllabus_status": "current"
