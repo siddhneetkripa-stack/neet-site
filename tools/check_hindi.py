@@ -18,7 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UNITS = {"g", "kg", "mg", "mol", "L", "mL", "dm", "cm", "m", "K", "atm", "bar", "u", "s", "J", "kJ", "M", "m", "Pa", "kPa",
          "nm", "pm", "Hz", "V", "A", "C", "W", "°C", "min", "h", "ppm", "N"}
 # English words that look like symbols; dropped on both sides (so single-letter labels like "A" are not compared).
-STOP = {"A", "An", "At", "In", "Of", "If", "It", "Is", "On", "Or", "To", "So", "No", "As", "Be", "By", "Do", "We", "I", "s", "OR", "AND", "NOT", "II", "III", "IV", "V", "VI", "-I", "-II", "-III", "-IV"}
+STOP = {"A", "An", "At", "In", "Of", "If", "It", "Is", "On", "Or", "To", "So", "No", "As", "Be", "By", "Do", "We", "I", "s", "OR", "AND", "NOT", "IE", "EN", "II", "III", "IV", "V", "VI", "-I", "-II", "-III", "-IV"}
 SUBS = str.maketrans("₀₁₂₃₄₅₆₇₈₉⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺", "01234567890123456789-+")
 
 
@@ -28,7 +28,7 @@ def plain(s):
     s = html.unescape(s).translate(SUBS).replace("−", "-").replace("–", "-")
     s = re.sub(r"[’']s\b", "", s)
     s = re.sub(r"(?<=[A-Za-z])-(?=[a-z]{2,})", " ", s)        # U-tube -> U tube
-    s = re.sub(r"(?<=[A-Za-z])-(?=[^\x00-\x7f])", " ", s)       # U-नली -> U नली
+    s = re.sub(r"(?<=[A-Za-z])-(?=[\u0900-\u0963\u0966-\u097F])", " ", s)  # not before the danda       # U-नली -> U नली
     s = s.replace("%", " % ")
     return s
 

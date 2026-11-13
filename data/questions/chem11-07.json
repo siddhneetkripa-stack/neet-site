@@ -78,10 +78,22 @@
       "+2, −2, and +6",
       "+1, −2, and +4",
       "+4, −4, and +6"
-     ]
+     ],
+     "sol": "<ul><li>KO<sub>2</sub> (superoxide): K = <b>+1</b> (alkali metal).</li><li>H<sub>2</sub>O<sub>2</sub> (peroxide): O = <b>−1</b>.</li><li>H<sub>2</sub>SO<sub>4</sub>: 2(+1) + S + 4(−2) = 0 → S = <b>+6</b>.</li></ul>",
+     "hint": "Alkali metals are always +1; O in peroxides is −1."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित यौगिकों पर विचार कीजिए: <u>K</u>O<sub>2</sub>, H<sub>2</sub><u>O</u><sub>2</sub> और H<sub>2</sub><u>S</u>O<sub>4</sub>।<br>इनमें रेखांकित तत्त्वों की ऑक्सीकरण अवस्थाएँ क्रमशः हैं,",
+     "o": [
+      "+1, −1, और +6",
+      "+2, −2, और +6",
+      "+1, −2, और +4",
+      "+4, −4, और +6"
+     ],
+     "sol": "<ul><li>KO<sub>2</sub> (सुपरऑक्साइड): K = <b>+1</b> (क्षार धातु)।</li><li>H<sub>2</sub>O<sub>2</sub> (परॉक्साइड): O = <b>−1</b>।</li><li>H<sub>2</sub>SO<sub>4</sub>: 2(+1) + S + 4(−2) = 0 → S = <b>+6</b>।</li></ul>",
+     "hint": "क्षार धातुएँ सदैव +1; परॉक्साइड में O, −1।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -125,10 +137,22 @@
       "2KClO<sub>3</sub> + I<sub>2</sub> → 2KIO<sub>3</sub> + Cl<sub>2</sub>",
       "H<sub>2</sub> + Cl<sub>2</sub> → 2HCl",
       "BaCl<sub>2</sub> + Na<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + 2NaCl"
-     ]
+     ],
+     "sol": "<p>In BaCl<sub>2</sub> + Na<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + 2NaCl every element keeps its oxidation number (Ba +2, Cl −1, Na +1, S +6, O −2): a double displacement (precipitation), <b>not redox</b>. The other three all involve electron transfer.</p>",
+     "hint": "Look for a reaction where no oxidation number changes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कौन-सी अभिक्रिया अपचयोपचय अभिक्रिया नहीं है?",
+     "o": [
+      "Zn + CuSO<sub>4</sub> → ZnSO<sub>4</sub> + Cu",
+      "2KClO<sub>3</sub> + I<sub>2</sub> → 2KIO<sub>3</sub> + Cl<sub>2</sub>",
+      "H<sub>2</sub> + Cl<sub>2</sub> → 2HCl",
+      "BaCl<sub>2</sub> + Na<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + 2NaCl"
+     ],
+     "sol": "<p>BaCl<sub>2</sub> + Na<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + 2NaCl में हर तत्त्व की ऑक्सीकरण संख्या वही रहती है (Ba +2, Cl −1, Na +1, S +6, O −2): यह द्विविस्थापन (अवक्षेपण) है, <b>अपचयोपचय नहीं</b>। बाकी तीनों में इलेक्ट्रॉन स्थानांतरण होता है।</p>",
+     "hint": "वह अभिक्रिया ढूँढें जिसमें कोई ऑक्सीकरण संख्या नहीं बदलती।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -172,10 +196,22 @@
       "1, 3, 8",
       "3, 8, 1",
       "1, 8, 3"
-     ]
+     ],
+     "sol": "<p>Cr: +6 → +3 (gains 3 e<sup>−</sup> each, 6 per Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup>). S: +4 → +6 (loses 2 e<sup>−</sup>). Electron balance: 1 Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> : 3 SO<sub>3</sub><sup>2−</sup>.</p><p>Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> + 3SO<sub>3</sub><sup>2−</sup> + 8H<sup>+</sup> → 2Cr<sup>3+</sup> + 3SO<sub>4</sub><sup>2−</sup> + 4H<sub>2</sub>O → a, b, c = <b>1, 3, 8</b>.</p>",
+     "hint": "Balance electrons first, then O with H<sub>2</sub>O and H with H<sup>+</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दी गई अपचयोपचय अभिक्रिया को संतुलित करने पर,<br>aCr<sub>2</sub>O<sub>7</sub><sup>2−</sup> + bSO<sub>3</sub><sup>2−</sup>(aq) + cH<sup>+</sup>(aq) → 2aCr<sup>3+</sup>(aq) + bSO<sub>4</sub><sup>2−</sup>(aq) + c/2 H<sub>2</sub>O(l)<br>गुणांक a, b और c क्रमशः पाए जाते हैं:",
+     "o": [
+      "8, 1, 3",
+      "1, 3, 8",
+      "3, 8, 1",
+      "1, 8, 3"
+     ],
+     "sol": "<p>Cr: +6 → +3 (प्रत्येक 3 e<sup>−</sup> ग्रहण करता है, प्रति Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> 6)। S: +4 → +6 (2 e<sup>−</sup> त्यागता है)। इलेक्ट्रॉन संतुलन: 1 Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> : 3 SO<sub>3</sub><sup>2−</sup>।</p><p>Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> + 3SO<sub>3</sub><sup>2−</sup> + 8H<sup>+</sup> → 2Cr<sup>3+</sup> + 3SO<sub>4</sub><sup>2−</sup> + 4H<sub>2</sub>O → a, b, c = <b>1, 3, 8</b>।</p>",
+     "hint": "पहले इलेक्ट्रॉन संतुलित करें, फिर O को H<sub>2</sub>O से और H को H<sup>+</sup> से।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -218,10 +254,22 @@
       "2KClO<sub>3</sub> —Δ→ 2KCl + 3O<sub>2</sub>",
       "Cr<sub>2</sub>O<sub>3</sub> + 2Al —Δ→ Al<sub>2</sub>O<sub>3</sub> + 2Cr",
       "Fe + 2HCl → FeCl<sub>2</sub> + H<sub>2</sub>↑"
-     ]
+     ],
+     "sol": "<p>In Cr<sub>2</sub>O<sub>3</sub> + 2Al → Al<sub>2</sub>O<sub>3</sub> + 2Cr a metal (Al) displaces another metal (Cr) from its compound: metal displacement (NCERT §7.3.1). (4) displaces hydrogen, not a metal; (1) and (2) are decompositions.</p>",
+     "hint": "A free metal must come out of a compound."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सी अभिक्रिया धातु विस्थापन अभिक्रिया है? सही विकल्प चुनिए।",
+     "o": [
+      "2Pb(NO<sub>3</sub>)<sub>2</sub> → 2PbO + 4NO<sub>2</sub> + O<sub>2</sub>↑",
+      "2KClO<sub>3</sub> —Δ→ 2KCl + 3O<sub>2</sub>",
+      "Cr<sub>2</sub>O<sub>3</sub> + 2Al —Δ→ Al<sub>2</sub>O<sub>3</sub> + 2Cr",
+      "Fe + 2HCl → FeCl<sub>2</sub> + H<sub>2</sub>↑"
+     ],
+     "sol": "<p>Cr<sub>2</sub>O<sub>3</sub> + 2Al → Al<sub>2</sub>O<sub>3</sub> + 2Cr में एक धातु (Al) दूसरी धातु (Cr) को उसके यौगिक से विस्थापित करती है: धातु विस्थापन (NCERT §7.3.1)। (4) में हाइड्रोजन विस्थापित होती है, धातु नहीं; (1) और (2) अपघटन हैं।</p>",
+     "hint": "यौगिक से एक मुक्त धातु निकलनी चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -264,10 +312,22 @@
       "0 to −4",
       "+4 to +4",
       "0 to +4"
-     ]
+     ],
+     "sol": "<p>CH<sub>4</sub>: C + 4(+1) = 0 → C = −4. CCl<sub>4</sub>: C + 4(−1) = 0 → C = +4. Change: <b>−4 to +4</b>.</p>",
+     "hint": "H is +1, Cl is −1."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित अभिक्रिया में कार्बन की ऑक्सीकरण संख्या में क्या परिवर्तन होता है?<br>CH<sub>4</sub>(g) + 4Cl<sub>2</sub>(g) → CCl<sub>4</sub>(l) + 4HCl(g)",
+     "o": [
+      "−4 से +4",
+      "0 से −4",
+      "+4 से +4",
+      "0 से +4"
+     ],
+     "sol": "<p>CH<sub>4</sub>: C + 4(+1) = 0 → C = −4। CCl<sub>4</sub>: C + 4(−1) = 0 → C = +4। परिवर्तन: <b>−4 से +4</b>।</p>",
+     "hint": "H, +1 और Cl, −1 है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -310,10 +370,22 @@
       "(a) and (d) only",
       "(a) and (b) only",
       "(a), (b) and (c)"
-     ]
+     ],
+     "sol": "<p>Disproportionation: one element in one oxidation state goes both up and down.</p><ul><li>(a) Cu: +1 → +2 and 0 ✓</li><li>(b) Mn: +6 → +7 and +4 ✓</li><li>(c) Mn is only reduced (+7 → +6, +4) and O oxidised: decomposition, not disproportionation.</li><li>(d) Mn +7 and +2 meet at +4: the reverse (comproportionation).</li></ul><p>Answer: <b>(a) and (b) only</b>.</p>",
+     "hint": "The same element must be both oxidised and reduced."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सी अभिक्रियाएँ असमानुपातन अभिक्रियाएँ हैं ?<br>(a) 2Cu<sup>+</sup> → Cu<sup>2+</sup> + Cu<sup>0</sup><br>(b) 3MnO<sub>4</sub><sup>2−</sup> + 4H<sup>+</sup> → 2MnO<sub>4</sub><sup>−</sup> + MnO<sub>2</sub> + 2H<sub>2</sub>O<br>(c) 2KMnO<sub>4</sub> —Δ→ K<sub>2</sub>MnO<sub>4</sub> + MnO<sub>2</sub> + O<sub>2</sub><br>(d) 2MnO<sub>4</sub><sup>−</sup> + 3Mn<sup>2+</sup> + 2H<sub>2</sub>O → 5MnO<sub>2</sub> + 4H<sup>+</sup><br>निम्नलिखित में से सही विकल्प चुनिए :",
+     "o": [
+      "(a), (c) और (d)",
+      "केवल (a) और (d)",
+      "केवल (a) और (b)",
+      "(a), (b) और (c)"
+     ],
+     "sol": "<p>असमानुपातन: एक ऑक्सीकरण अवस्था वाला एक ही तत्त्व ऊपर और नीचे दोनों जाता है।</p><ul><li>(a) Cu: +1 → +2 और 0 ✓</li><li>(b) Mn: +6 → +7 और +4 ✓</li><li>(c) Mn केवल अपचयित होता है (+7 → +6, +4) और O ऑक्सीकृत: अपघटन, असमानुपातन नहीं।</li><li>(d) Mn +7 और +2 मिलकर +4: उलटी प्रक्रिया (समानुपातन)।</li></ul><p>उत्तर: <b>केवल (a) और (b)</b>।</p>",
+     "hint": "एक ही तत्त्व का ऑक्सीकरण और अपचयन दोनों होना चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -357,10 +429,22 @@
       "FeSO<sub>3</sub>",
       "FeC<sub>2</sub>O<sub>4</sub>",
       "Fe(NO<sub>2</sub>)<sub>2</sub>"
-     ]
+     ],
+     "sol": "<p>Count electrons lost per formula unit on full oxidation:</p><ul><li>FeSO<sub>4</sub>: Fe<sup>2+</sup> → Fe<sup>3+</sup>: <b>1</b></li><li>FeSO<sub>3</sub>: 1 (Fe) + 2 (SO<sub>3</sub><sup>2−</sup> → SO<sub>4</sub><sup>2−</sup>) = 3</li><li>FeC<sub>2</sub>O<sub>4</sub>: 1 + 2 (C<sub>2</sub>O<sub>4</sub><sup>2−</sup> → 2CO<sub>2</sub>) = 3</li><li>Fe(NO<sub>2</sub>)<sub>2</sub>: 1 + 2 × 2 (NO<sub>2</sub><sup>−</sup> → NO<sub>3</sub><sup>−</sup>) = 5</li></ul><p>FeSO<sub>4</sub> loses the fewest electrons, so needs the least KMnO<sub>4</sub>.</p>",
+     "hint": "Only Fe<sup>2+</sup> is oxidisable in FeSO<sub>4</sub>; the anions in the others are too."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पूर्ण आयनन मानते हुए, निम्नलिखित में से किस यौगिक के समान मोलों के पूर्ण ऑक्सीकरण के लिए अम्लीय KMnO<sub>4</sub> की सबसे कम मात्रा की आवश्यकता होगी ?",
+     "o": [
+      "FeSO<sub>4</sub>",
+      "FeSO<sub>3</sub>",
+      "FeC<sub>2</sub>O<sub>4</sub>",
+      "Fe(NO<sub>2</sub>)<sub>2</sub>"
+     ],
+     "sol": "<p>पूर्ण ऑक्सीकरण में प्रति सूत्र इकाई त्यागे गए इलेक्ट्रॉन गिनें:</p><ul><li>FeSO<sub>4</sub>: Fe<sup>2+</sup> → Fe<sup>3+</sup>: <b>1</b></li><li>FeSO<sub>3</sub>: 1 (Fe) + 2 (SO<sub>3</sub><sup>2−</sup> → SO<sub>4</sub><sup>2−</sup>) = 3</li><li>FeC<sub>2</sub>O<sub>4</sub>: 1 + 2 (C<sub>2</sub>O<sub>4</sub><sup>2−</sup> → 2CO<sub>2</sub>) = 3</li><li>Fe(NO<sub>2</sub>)<sub>2</sub>: 1 + 2 × 2 (NO<sub>2</sub><sup>−</sup> → NO<sub>3</sub><sup>−</sup>) = 5</li></ul><p>FeSO<sub>4</sub> सबसे कम इलेक्ट्रॉन त्यागता है, अतः सबसे कम KMnO<sub>4</sub> चाहिए।</p>",
+     "hint": "FeSO<sub>4</sub> में केवल Fe<sup>2+</sup> ऑक्सीकृत होता है; बाकी में ऋणायन भी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -407,10 +491,22 @@
       "HNO<sub>3</sub>, NO, NH<sub>4</sub>Cl, N<sub>2</sub>",
       "HNO<sub>3</sub>, NO, N<sub>2</sub>, NH<sub>4</sub>Cl",
       "NH<sub>4</sub>Cl, N<sub>2</sub>, NO, HNO<sub>3</sub>"
-     ]
+     ],
+     "sol": "<p>Oxidation states of N: HNO<sub>3</sub> +5, NO +2, N<sub>2</sub> 0, NH<sub>4</sub>Cl −3.</p><p>Decreasing order: <b>HNO<sub>3</sub>, NO, N<sub>2</sub>, NH<sub>4</sub>Cl</b>.</p>",
+     "hint": "In NH<sub>4</sub><sup>+</sup>, N + 4(+1) = +1."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "N-यौगिकों का उनकी ऑक्सीकरण अवस्थाओं के घटते क्रम में सही क्रम है",
+     "o": [
+      "HNO<sub>3</sub>, NH<sub>4</sub>Cl, NO, N<sub>2</sub>",
+      "HNO<sub>3</sub>, NO, NH<sub>4</sub>Cl, N<sub>2</sub>",
+      "HNO<sub>3</sub>, NO, N<sub>2</sub>, NH<sub>4</sub>Cl",
+      "NH<sub>4</sub>Cl, N<sub>2</sub>, NO, HNO<sub>3</sub>"
+     ],
+     "sol": "<p>N की ऑक्सीकरण अवस्थाएँ: HNO<sub>3</sub> +5, NO +2, N<sub>2</sub> 0, NH<sub>4</sub>Cl −3।</p><p>घटता क्रम: <b>HNO<sub>3</sub>, NO, N<sub>2</sub>, NH<sub>4</sub>Cl</b>।</p>",
+     "hint": "NH<sub>4</sub><sup>+</sup> में N + 4(+1) = +1।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -453,10 +549,22 @@
       "BrO<sub>4</sub><sup>−</sup>",
       "BrO<sub>3</sub><sup>−</sup>",
       "HBrO"
-     ]
+     ],
+     "sol": "<p>A species disproportionates if E° for its reduction (step to its right) exceeds E° for its formation from the higher state (step to its left), so that E°<sub>cell</sub> &gt; 0.</p><p>HBrO: reduction to Br<sub>2</sub> = 1.595 V; oxidation to BrO<sub>3</sub><sup>−</sup> uses −1.5 V → E°<sub>cell</sub> = 1.595 − 1.5 = +0.095 V &gt; 0. <b>HBrO</b> disproportionates. (Br<sub>2</sub>: 1.0652 − 1.595 &lt; 0.)</p>",
+     "hint": "Compare the potential on the right of each species with the one on its left."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दिए गए आरेख में विभिन्न विद्युत् वाहक बल (emf) मानों के संगत ब्रोमीन की ऑक्सीकरण अवस्था में परिवर्तन पर विचार कीजिए :<br>BrO<sub>4</sub><sup>−</sup> —1.82 V→ BrO<sub>3</sub><sup>−</sup> —1.5 V→ HBrO —1.595 V→ Br<sub>2</sub> —1.0652 V→ Br<sup>−</sup><br>तब असमानुपातन करने वाली स्पीशीज़ है",
+     "o": [
+      "Br<sub>2</sub>",
+      "BrO<sub>4</sub><sup>−</sup>",
+      "BrO<sub>3</sub><sup>−</sup>",
+      "HBrO"
+     ],
+     "sol": "<p>कोई स्पीशीज़ असमानुपातन करती है यदि उसके अपचयन (दाईं ओर का पद) का E°, उसके उच्च अवस्था से बनने (बाईं ओर का पद) के E° से अधिक हो, जिससे E°<sub>cell</sub> &gt; 0 हो।</p><p>HBrO: Br<sub>2</sub> तक अपचयन = 1.595 V; BrO<sub>3</sub><sup>−</sup> तक ऑक्सीकरण में −1.5 V → E°<sub>cell</sub> = 1.595 − 1.5 = +0.095 V &gt; 0। <b>HBrO</b> असमानुपातन करता है। (Br<sub>2</sub>: 1.0652 − 1.595 &lt; 0।)</p>",
+     "hint": "हर स्पीशीज़ के दाईं ओर के विभव की तुलना उसके बाईं ओर के विभव से करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -500,10 +608,22 @@
       "2, 5, 16",
       "16, 5, 2",
       "5, 16, 2"
-     ]
+     ],
+     "sol": "<p>Mn: +7 → +2 (gains 5 e<sup>−</sup>). C in C<sub>2</sub>O<sub>4</sub><sup>2−</sup>: +3 → +4 (loses 2 e<sup>−</sup> per C<sub>2</sub>O<sub>4</sub><sup>2−</sup>). Balance: 2 MnO<sub>4</sub><sup>−</sup> : 5 C<sub>2</sub>O<sub>4</sub><sup>2−</sup>.</p><p>2MnO<sub>4</sub><sup>−</sup> + 5C<sub>2</sub>O<sub>4</sub><sup>2−</sup> + 16H<sup>+</sup> → 2Mn<sup>2+</sup> + 10CO<sub>2</sub> + 8H<sub>2</sub>O → <b>2, 5, 16</b>.</p>",
+     "hint": "10 electrons transferred in all."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अपचयोपचय अभिक्रिया<br>MnO<sub>4</sub><sup>−</sup> + C<sub>2</sub>O<sub>4</sub><sup>2−</sup> + H<sup>+</sup> → Mn<sup>2+</sup> + CO<sub>2</sub> + H<sub>2</sub>O<br>के संतुलित समीकरण के लिए अभिकारकों के सही गुणांक हैं (MnO<sub>4</sub><sup>−</sup>, C<sub>2</sub>O<sub>4</sub><sup>2−</sup>, H<sup>+</sup>)",
+     "o": [
+      "2, 16, 5",
+      "2, 5, 16",
+      "16, 5, 2",
+      "5, 16, 2"
+     ],
+     "sol": "<p>Mn: +7 → +2 (5 e<sup>−</sup> ग्रहण)। C<sub>2</sub>O<sub>4</sub><sup>2−</sup> में C: +3 → +4 (प्रति C<sub>2</sub>O<sub>4</sub><sup>2−</sup> 2 e<sup>−</sup> त्याग)। संतुलन: 2 MnO<sub>4</sub><sup>−</sup> : 5 C<sub>2</sub>O<sub>4</sub><sup>2−</sup>।</p><p>2MnO<sub>4</sub><sup>−</sup> + 5C<sub>2</sub>O<sub>4</sub><sup>2−</sup> + 16H<sup>+</sup> → 2Mn<sup>2+</sup> + 10CO<sub>2</sub> + 8H<sub>2</sub>O → <b>2, 5, 16</b>।</p>",
+     "hint": "कुल 10 इलेक्ट्रॉन स्थानांतरित होते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -546,10 +666,22 @@
       "+7 to +3",
       "+6 to +5",
       "+7 to +4"
-     ]
+     ],
+     "sol": "<p>In neutral or faintly alkaline medium: 2MnO<sub>4</sub><sup>−</sup> + I<sup>−</sup> + H<sub>2</sub>O → 2MnO<sub>2</sub> + IO<sub>3</sub><sup>−</sup> + 2OH<sup>−</sup>. Mn goes from +7 (MnO<sub>4</sub><sup>−</sup>) to <b>+4</b> (MnO<sub>2</sub>).</p>",
+     "hint": "In neutral/alkaline medium permanganate is reduced to MnO<sub>2</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उदासीन या हल्के क्षारीय माध्यम में KMnO<sub>4</sub> आयोडाइड को आयोडेट में ऑक्सीकृत करता है। इस अभिक्रिया में मैंगनीज़ की ऑक्सीकरण अवस्था में परिवर्तन है",
+     "o": [
+      "+6 से +4",
+      "+7 से +3",
+      "+6 से +5",
+      "+7 से +4"
+     ],
+     "sol": "<p>उदासीन या हल्के क्षारीय माध्यम में: 2MnO<sub>4</sub><sup>−</sup> + I<sup>−</sup> + H<sub>2</sub>O → 2MnO<sub>2</sub> + IO<sub>3</sub><sup>−</sup> + 2OH<sup>−</sup>। Mn, +7 (MnO<sub>4</sub><sup>−</sup>) से <b>+4</b> (MnO<sub>2</sub>) तक जाता है।</p>",
+     "hint": "उदासीन/क्षारीय माध्यम में परमैंगनेट MnO<sub>2</sub> में अपचयित होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
