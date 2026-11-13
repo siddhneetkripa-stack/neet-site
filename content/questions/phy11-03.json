@@ -92,10 +92,22 @@
       "Magnitude of the velocity of particle is 8 metre/second",
       "Path of the particle is a circle of radius 4 metre",
       "Acceleration vector is along −R⃗"
-     ]
+     ],
+     "sol": "<p>|R⃗| = 4 m at all times, so the path is a circle of radius 4 m with ω = 2π rad/s. Speed v = Rω = 4 × 2π = 8π m/s, not 8 m/s.</p><p>Acceleration = −ω<sup>2</sup>R⃗, of magnitude ω<sup>2</sup>R = v<sup>2</sup>/R, directed along −R⃗. So the wrong statement is <b>“magnitude of the velocity is 8 metre/second”</b>.</p>",
+     "hint": "Find ω from the argument 2πt; then v = Rω."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी कण का स्थिति सदिश R⃗ समय के फलन के रूप में R⃗ = 4 sin(2πt) î + 4 cos(2πt) ĵ द्वारा दिया गया है, जहाँ R मीटर में, t सेकंड में है तथा î और ĵ क्रमशः x- और y-दिशाओं के अनुदिश एकांक सदिश हैं। कण की गति के लिए निम्नलिखित में से कौन-सा कथन गलत है?",
+     "o": [
+      "त्वरण सदिश का परिमाण v<sup>2</sup>/R है, जहाँ v कण का वेग है",
+      "कण के वेग का परिमाण 8 मीटर/सेकंड है",
+      "कण का पथ 4 मीटर त्रिज्या का एक वृत्त है",
+      "त्वरण सदिश −R⃗ के अनुदिश है"
+     ],
+     "sol": "<p>|R⃗| = 4 m सदैव, अतः पथ 4 m त्रिज्या का वृत्त है जिसमें ω = 2π rad/s । चाल v = Rω = 4 × 2π = 8π m/s है, 8 m/s नहीं।</p><p>त्वरण = −ω<sup>2</sup>R⃗, जिसका परिमाण ω<sup>2</sup>R = v<sup>2</sup>/R है और दिशा −R⃗ के अनुदिश। अतः गलत कथन है <b>“वेग का परिमाण 8 मीटर/सेकंड है”</b>।</p>",
+     "hint": "कोणांक 2πt से ω ज्ञात कीजिए; फिर v = Rω।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -138,10 +150,22 @@
       "r⃗<sub>1</sub> × v⃗<sub>1</sub> = r⃗<sub>2</sub> × v⃗<sub>2</sub>",
       "r⃗<sub>1</sub> − r⃗<sub>2</sub> = v⃗<sub>1</sub> − v⃗<sub>2</sub>",
       "(r⃗<sub>1</sub> − r⃗<sub>2</sub>)/|r⃗<sub>1</sub> − r⃗<sub>2</sub>| = (v⃗<sub>2</sub> − v⃗<sub>1</sub>)/|v⃗<sub>2</sub> − v⃗<sub>1</sub>|"
-     ]
+     ],
+     "sol": "<p>They collide if at some time t > 0: r⃗<sub>1</sub> + v⃗<sub>1</sub>t = r⃗<sub>2</sub> + v⃗<sub>2</sub>t ⇒ r⃗<sub>1</sub> − r⃗<sub>2</sub> = (v⃗<sub>2</sub> − v⃗<sub>1</sub>)t.</p><p>So r⃗<sub>1</sub> − r⃗<sub>2</sub> must point the same way as v⃗<sub>2</sub> − v⃗<sub>1</sub>: <b>(r⃗<sub>1</sub> − r⃗<sub>2</sub>)/|r⃗<sub>1</sub> − r⃗<sub>2</sub>| = (v⃗<sub>2</sub> − v⃗<sub>1</sub>)/|v⃗<sub>2</sub> − v⃗<sub>1</sub>|</b>.</p>",
+     "hint": "In the frame of A, B must move straight towards A."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दो कण A और B नियत वेगों v⃗<sub>1</sub> और v⃗<sub>2</sub> से चलते हैं। प्रारंभिक क्षण पर उनके स्थिति सदिश क्रमशः r⃗<sub>1</sub> और r⃗<sub>2</sub> हैं। कणों A और B की टक्कर के लिए प्रतिबंध है :",
+     "o": [
+      "r⃗<sub>1</sub> · v⃗<sub>1</sub> = r⃗<sub>2</sub> · v⃗<sub>2</sub>",
+      "r⃗<sub>1</sub> × v⃗<sub>1</sub> = r⃗<sub>2</sub> × v⃗<sub>2</sub>",
+      "r⃗<sub>1</sub> − r⃗<sub>2</sub> = v⃗<sub>1</sub> − v⃗<sub>2</sub>",
+      "(r⃗<sub>1</sub> − r⃗<sub>2</sub>)/|r⃗<sub>1</sub> − r⃗<sub>2</sub>| = (v⃗<sub>2</sub> − v⃗<sub>1</sub>)/|v⃗<sub>2</sub> − v⃗<sub>1</sub>|"
+     ],
+     "sol": "<p>टक्कर तब होगी जब किसी समय t > 0 पर : r⃗<sub>1</sub> + v⃗<sub>1</sub>t = r⃗<sub>2</sub> + v⃗<sub>2</sub>t ⇒ r⃗<sub>1</sub> − r⃗<sub>2</sub> = (v⃗<sub>2</sub> − v⃗<sub>1</sub>)t।</p><p>अतः r⃗<sub>1</sub> − r⃗<sub>2</sub> की दिशा v⃗<sub>2</sub> − v⃗<sub>1</sub> की दिशा के समान होनी चाहिए : <b>(r⃗<sub>1</sub> − r⃗<sub>2</sub>)/|r⃗<sub>1</sub> − r⃗<sub>2</sub>| = (v⃗<sub>2</sub> − v⃗<sub>1</sub>)/|v⃗<sub>2</sub> − v⃗<sub>1</sub>|</b>।</p>",
+     "hint": "A के निर्देश तंत्र में B को सीधे A की ओर चलना चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -184,10 +208,22 @@
       "Velocity and acceleration both are parallel to r⃗.",
       "Velocity is perpendicular to r⃗ and acceleration is directed towards the origin.",
       "Velocity is perpendicular to r⃗ and acceleration is directed away from the origin."
-     ]
+     ],
+     "sol": "<p>v⃗ = dr⃗/dt = ω(−sin ωt x̂ + cos ωt ŷ), and v⃗ · r⃗ = 0, so the velocity is perpendicular to r⃗.</p><p>a⃗ = dv⃗/dt = −ω<sup>2</sup>(cos ωt x̂ + sin ωt ŷ) = −ω<sup>2</sup>r⃗, directed towards the origin. Answer: <b>velocity ⊥ r⃗ and acceleration towards the origin</b>.</p>",
+     "hint": "Uniform circular motion: centripetal acceleration −ω<sup>2</sup>r⃗."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक कण इस प्रकार चलता है कि उसका स्थिति सदिश r⃗ = cos ωt x̂ + sin ωt ŷ द्वारा दिया जाता है, जहाँ ω एक नियतांक है। निम्नलिखित में से कौन-सा सत्य है?",
+     "o": [
+      "वेग और त्वरण दोनों r⃗ के लंबवत हैं।",
+      "वेग और त्वरण दोनों r⃗ के समांतर हैं।",
+      "वेग r⃗ के लंबवत है और त्वरण मूल बिंदु की ओर निर्दिष्ट है।",
+      "वेग r⃗ के लंबवत है और त्वरण मूल बिंदु से दूर की ओर निर्दिष्ट है।"
+     ],
+     "sol": "<p>v⃗ = dr⃗/dt = ω(−sin ωt x̂ + cos ωt ŷ), और v⃗ · r⃗ = 0, अतः वेग r⃗ के लंबवत है।</p><p>a⃗ = dv⃗/dt = −ω<sup>2</sup>(cos ωt x̂ + sin ωt ŷ) = −ω<sup>2</sup>r⃗, जो मूल बिंदु की ओर है। उत्तर : <b>वेग r⃗ के लंबवत और त्वरण मूल बिंदु की ओर</b>।</p>",
+     "hint": "एकसमान वृत्तीय गति : अभिकेंद्र त्वरण −ω<sup>2</sup>r⃗।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -230,10 +266,22 @@
       "90°",
       "45°",
       "180°"
-     ]
+     ],
+     "sol": "<p>|A⃗ + B⃗|<sup>2</sup> = A<sup>2</sup> + B<sup>2</sup> + 2AB cos θ and |A⃗ − B⃗|<sup>2</sup> = A<sup>2</sup> + B<sup>2</sup> − 2AB cos θ.</p><p>Equal magnitudes ⇒ 4AB cos θ = 0 ⇒ θ = <b>90°</b>.</p>",
+     "hint": "The diagonals of a parallelogram are equal only for a rectangle."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि दो सदिशों के योग का परिमाण उन दोनों सदिशों के अंतर के परिमाण के बराबर है, तो इन सदिशों के बीच का कोण है :",
+     "o": [
+      "0°",
+      "90°",
+      "45°",
+      "180°"
+     ],
+     "sol": "<p>|A⃗ + B⃗|<sup>2</sup> = A<sup>2</sup> + B<sup>2</sup> + 2AB cos θ और |A⃗ − B⃗|<sup>2</sup> = A<sup>2</sup> + B<sup>2</sup> − 2AB cos θ।</p><p>परिमाण बराबर ⇒ 4AB cos θ = 0 ⇒ θ = <b>90°</b>।</p>",
+     "hint": "समांतर चतुर्भुज के विकर्ण केवल आयत के लिए बराबर होते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -277,10 +325,22 @@
       "5 m/s<sup>2</sup>",
       "−4 m/s<sup>2</sup>",
       "−8 m/s<sup>2</sup>"
-     ]
+     ],
+     "sol": "<p>a<sub>x</sub> = d<sup>2</sup>x/dt<sup>2</sup> = −4 m/s<sup>2</sup> and a<sub>y</sub> = d<sup>2</sup>y/dt<sup>2</sup> = 0. The acceleration is constant: <b>−4 m/s<sup>2</sup></b> (along x) at every instant, including t = 2 s.</p>",
+     "hint": "Differentiate each coordinate twice."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी क्षण पर कण के x और y निर्देशांक क्रमशः x = 5t − 2t<sup>2</sup> और y = 10t हैं, जहाँ x और y मीटर में तथा t सेकंड में है। t = 2 s पर कण का त्वरण है :",
+     "o": [
+      "0",
+      "5 m/s<sup>2</sup>",
+      "−4 m/s<sup>2</sup>",
+      "−8 m/s<sup>2</sup>"
+     ],
+     "sol": "<p>a<sub>x</sub> = d<sup>2</sup>x/dt<sup>2</sup> = −4 m/s<sup>2</sup> और a<sub>y</sub> = d<sup>2</sup>y/dt<sup>2</sup> = 0। त्वरण नियत है : प्रत्येक क्षण पर, t = 2 s सहित, <b>−4 m/s<sup>2</sup></b> (x के अनुदिश)।</p>",
+     "hint": "प्रत्येक निर्देशांक का दो बार अवकलन कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -323,10 +383,22 @@
       "45° west",
       "30° west",
       "0°"
-     ]
+     ],
+     "sol": "<p>For the shortest path the swimmer's resultant velocity must point due north, so the eastward river velocity must be cancelled by the westward part of his velocity: 20 sin θ = 10 ⇒ sin θ = 1/2 ⇒ θ = <b>30° west</b> of north.</p>",
+     "hint": "Shortest path: resultant velocity straight across the river."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्थिर जल में एक तैराक की चाल 20 m/s है। नदी के जल की चाल 10 m/s है और यह पूर्व की ओर बह रहा है। यदि वह दक्षिणी किनारे पर खड़ा है और नदी को सबसे छोटे पथ से पार करना चाहता है, तो उत्तर के सापेक्ष उसे किस कोण पर तैरना चाहिए?",
+     "o": [
+      "60° पश्चिम",
+      "45° पश्चिम",
+      "30° पश्चिम",
+      "0°"
+     ],
+     "sol": "<p>सबसे छोटे पथ के लिए तैराक का परिणामी वेग ठीक उत्तर की ओर होना चाहिए, अतः नदी का पूर्व दिशा का वेग उसके वेग के पश्चिमी घटक से निरस्त होना चाहिए : 20 sin θ = 10 ⇒ sin θ = 1/2 ⇒ θ = उत्तर से <b>30° पश्चिम</b>।</p>",
+     "hint": "सबसे छोटा पथ : परिणामी वेग नदी के ठीक आर-पार।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -370,10 +442,22 @@
       "1 : 1",
       "r<sub>A</sub> : r<sub>B</sub>",
       "v<sub>A</sub> : v<sub>B</sub>"
-     ]
+     ],
+     "sol": "<p>Angular speed ω = 2π/T. With the same period T, ω<sub>A</sub> = ω<sub>B</sub>: ratio <b>1 : 1</b>. (The linear speeds differ: v = ωr.)</p>",
+     "hint": "ω depends only on T."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दो कण A और B संकेंद्री वृत्तों में, जिनकी त्रिज्याएँ r<sub>A</sub> और r<sub>B</sub> हैं, क्रमशः v<sub>A</sub> और v<sub>B</sub> चाल से एकसमान वृत्तीय गति कर रहे हैं। उनका घूर्णन आवर्तकाल समान है। A की कोणीय चाल का B की कोणीय चाल से अनुपात होगा :",
+     "o": [
+      "r<sub>B</sub> : r<sub>A</sub>",
+      "1 : 1",
+      "r<sub>A</sub> : r<sub>B</sub>",
+      "v<sub>A</sub> : v<sub>B</sub>"
+     ],
+     "sol": "<p>कोणीय चाल ω = 2π/T । समान आवर्तकाल T के लिए ω<sub>A</sub> = ω<sub>B</sub> : अनुपात <b>1 : 1</b>। (रैखिक चालें भिन्न हैं : v = ωr।)</p>",
+     "hint": "ω केवल T पर निर्भर है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -416,10 +500,22 @@
       "20 m/s, 5 m/s<sup>2</sup>",
       "20 m/s, 0",
       "20√2 m/s, 0"
-     ]
+     ],
+     "sol": "<p>At t = 4 s the car (and the ball) has horizontal velocity 5 × 4 = 20 m/s. Once released, the ball has no horizontal force, so it keeps 20 m/s horizontally and gains vertical velocity g × 2 = 20 m/s by t = 6 s.</p><p>Speed = √(20<sup>2</sup> + 20<sup>2</sup>) = 20√2 m/s; acceleration = g = 10 m/s<sup>2</sup>. Answer: <b>20√2 m/s, 10 m/s<sup>2</sup></b>.</p>",
+     "hint": "After release only gravity acts on the ball."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक कार विराम से चलना प्रारंभ करती है और 5 m/s<sup>2</sup> से त्वरित होती है। t = 4 s पर कार में बैठा एक व्यक्ति खिड़की से एक गेंद गिराता है। t = 6 s पर गेंद का वेग और त्वरण क्या है?",
+     "o": [
+      "20√2 m/s, 10 m/s<sup>2</sup>",
+      "20 m/s, 5 m/s<sup>2</sup>",
+      "20 m/s, 0",
+      "20√2 m/s, 0"
+     ],
+     "sol": "<p>t = 4 s पर कार (और गेंद) का क्षैतिज वेग 5 × 4 = 20 m/s है। छोड़े जाने के बाद गेंद पर कोई क्षैतिज बल नहीं है, अतः वह क्षैतिज दिशा में 20 m/s बनाए रखती है और t = 6 s तक ऊर्ध्वाधर वेग g × 2 = 20 m/s प्राप्त करती है।</p><p>चाल = √(20<sup>2</sup> + 20<sup>2</sup>) = 20√2 m/s; त्वरण = g = 10 m/s<sup>2</sup>। उत्तर : <b>20√2 m/s, 10 m/s<sup>2</sup></b>।</p>",
+     "hint": "छोड़े जाने के बाद गेंद पर केवल गुरुत्व कार्य करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -465,10 +561,22 @@
       "θ = cos<sup>−1</sup>(gT<sup>2</sup>/(π<sup>2</sup>R))<sup>1/2</sup>",
       "θ = cos<sup>−1</sup>(π<sup>2</sup>R/(gT<sup>2</sup>))<sup>1/2</sup>",
       "θ = sin<sup>−1</sup>(π<sup>2</sup>R/(gT<sup>2</sup>))<sup>1/2</sup>"
-     ]
+     ],
+     "sol": "<p>Speed in the circle: v = 2πR/T. Maximum height of a projectile: H = v<sup>2</sup> sin<sup>2</sup>θ/(2g) = 4R.</p><p>sin<sup>2</sup>θ = 8gR/v<sup>2</sup> = 8gR T<sup>2</sup>/(4π<sup>2</sup>R<sup>2</sup>) = 2gT<sup>2</sup>/(π<sup>2</sup>R) ⇒ <b>θ = sin<sup>−1</sup>(2gT<sup>2</sup>/(π<sup>2</sup>R))<sup>1/2</sup></b>.</p>",
+     "hint": "Combine v = 2πR/T with H = v<sup>2</sup> sin<sup>2</sup>θ/2g."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "R त्रिज्या के वृत्त में एकसमान चाल से चलता एक कण एक परिक्रमा पूरी करने में T समय लेता है। यदि इस कण को उसी चाल से क्षैतिज से 'θ' कोण पर प्रक्षेपित किया जाए, तो इसके द्वारा प्राप्त अधिकतम ऊँचाई 4R है। प्रक्षेपण कोण θ दिया जाता है :",
+     "o": [
+      "θ = sin<sup>−1</sup>(2gT<sup>2</sup>/(π<sup>2</sup>R))<sup>1/2</sup>",
+      "θ = cos<sup>−1</sup>(gT<sup>2</sup>/(π<sup>2</sup>R))<sup>1/2</sup>",
+      "θ = cos<sup>−1</sup>(π<sup>2</sup>R/(gT<sup>2</sup>))<sup>1/2</sup>",
+      "θ = sin<sup>−1</sup>(π<sup>2</sup>R/(gT<sup>2</sup>))<sup>1/2</sup>"
+     ],
+     "sol": "<p>वृत्त में चाल : v = 2πR/T । प्रक्षेप्य की अधिकतम ऊँचाई : H = v<sup>2</sup> sin<sup>2</sup>θ/(2g) = 4R।</p><p>sin<sup>2</sup>θ = 8gR/v<sup>2</sup> = 8gR T<sup>2</sup>/(4π<sup>2</sup>R<sup>2</sup>) = 2gT<sup>2</sup>/(π<sup>2</sup>R) ⇒ <b>θ = sin<sup>−1</sup>(2gT<sup>2</sup>/(π<sup>2</sup>R))<sup>1/2</sup></b>।</p>",
+     "hint": "v = 2πR/T को H = v<sup>2</sup> sin<sup>2</sup>θ/2g के साथ जोड़िए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -512,10 +620,24 @@
       "5 m s<sup>−1</sup>",
       "10 m s<sup>−1</sup>",
       "Zero"
-     ]
+     ],
+     "sol": "<p>60° with the vertical means 30° with the horizontal. At the highest point only the horizontal component remains: v = 10 cos 30° = 10 × (√3/2) = <b>5√3 m s<sup>−1</sup></b>.</p>",
+     "hint": "Check whether the angle is measured from the vertical or the horizontal.",
+     "trap": "Using cos 60° (as if the angle were from the horizontal) gives 5 m s<sup>−1</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक गेंद को 10 m s<sup>−1</sup> के वेग से ऊर्ध्वाधर दिशा से 60° के कोण पर प्रक्षेपित किया जाता है। इसके प्रक्षेप-पथ के उच्चतम बिंदु पर इसकी चाल होगी :",
+     "o": [
+      "5√3 m s<sup>−1</sup>",
+      "5 m s<sup>−1</sup>",
+      "10 m s<sup>−1</sup>",
+      "शून्य"
+     ],
+     "sol": "<p>ऊर्ध्वाधर से 60° का अर्थ क्षैतिज से 30° है। उच्चतम बिंदु पर केवल क्षैतिज घटक बचता है : v = 10 cos 30° = 10 × (√3/2) = <b>5√3 m s<sup>−1</sup></b>।</p>",
+     "hint": "देखिए कि कोण ऊर्ध्वाधर से मापा गया है या क्षैतिज से।",
+     "trap": "cos 60° लेने पर (मानो कोण क्षैतिज से हो) 5 m s<sup>−1</sup> मिलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -558,10 +680,22 @@
       "along eastward",
       "along northward",
       "along north-east"
-     ]
+     ],
+     "sol": "<p>The force is along the change in velocity: Δv⃗ = v⃗<sub>final</sub> − v⃗<sub>initial</sub> = v(east) − v(south) = v(east) + v(north).</p><p>This points <b>north-east</b>, so the force on the player is along north-east.</p>",
+     "hint": "F⃗ is along Δv⃗ = v⃗<sub>f</sub> − v⃗<sub>i</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक फुटबॉल खिलाड़ी दक्षिण की ओर चल रहा है और एक प्रतिद्वंद्वी से बचने के लिए अचानक उसी चाल से पूर्व की ओर मुड़ जाता है। मुड़ते समय खिलाड़ी पर लगने वाला बल है :",
+     "o": [
+      "दक्षिण-पश्चिम के अनुदिश",
+      "पूर्व की ओर",
+      "उत्तर की ओर",
+      "उत्तर-पूर्व के अनुदिश"
+     ],
+     "sol": "<p>बल वेग में परिवर्तन के अनुदिश होता है : Δv⃗ = v⃗<sub>final</sub> − v⃗<sub>initial</sub> = v(पूर्व) − v(दक्षिण) = v(पूर्व) + v(उत्तर)।</p><p>यह <b>उत्तर-पूर्व</b> की ओर है, अतः खिलाड़ी पर बल उत्तर-पूर्व के अनुदिश है।</p>",
+     "hint": "F⃗, Δv⃗ = v⃗<sub>f</sub> − v⃗<sub>i</sub> के अनुदिश है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -608,10 +742,22 @@
       "2800 m",
       "2000 m",
       "1000 m"
-     ]
+     ],
+     "sol": "<p>H = u<sup>2</sup> sin<sup>2</sup>θ/(2g) = (280 × 0.5)<sup>2</sup>/(2 × 9.8) = 140<sup>2</sup>/19.6 = 19600/19.6 = <b>1000 m</b>.</p>",
+     "hint": "Only the vertical component u sin θ decides the height."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक बंदूक से एक गोली 280 m/s की चाल से क्षैतिज से 30° ऊपर की दिशा में दागी जाती है। गोली द्वारा प्राप्त अधिकतम ऊँचाई है : (g = 9.8 m s<sup>−2</sup>, sin 30° = 0.5)",
+     "o": [
+      "3000 m",
+      "2800 m",
+      "2000 m",
+      "1000 m"
+     ],
+     "sol": "<p>H = u<sup>2</sup> sin<sup>2</sup>θ/(2g) = (280 × 0.5)<sup>2</sup>/(2 × 9.8) = 140<sup>2</sup>/19.6 = 19600/19.6 = <b>1000 m</b>।</p>",
+     "hint": "केवल ऊर्ध्वाधर घटक u sin θ ऊँचाई निर्धारित करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -654,10 +800,22 @@
       "Constant acceleration",
       "Constant velocity and varying acceleration",
       "Varying velocity and varying acceleration"
-     ]
+     ],
+     "sol": "<p>In uniform circular motion the speed is constant but the direction of velocity changes, so the velocity varies. The centripetal acceleration has constant magnitude v<sup>2</sup>/r but always points to the centre, so its direction (and the acceleration vector) also varies. Answer: <b>varying velocity and varying acceleration</b>.</p>",
+     "hint": "Vectors change when their direction changes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वृत्तीय पथ में एकसमान चाल से चलता हुआ एक कण बनाए रखता है :",
+     "o": [
+      "नियत वेग",
+      "नियत त्वरण",
+      "नियत वेग और परिवर्ती त्वरण",
+      "परिवर्ती वेग और परिवर्ती त्वरण"
+     ],
+     "sol": "<p>एकसमान वृत्तीय गति में चाल नियत रहती है परंतु वेग की दिशा बदलती है, अतः वेग परिवर्ती है। अभिकेंद्र त्वरण का परिमाण v<sup>2</sup>/r नियत है परंतु वह सदैव केंद्र की ओर होता है, अतः उसकी दिशा (और त्वरण सदिश) भी बदलती है। उत्तर : <b>परिवर्ती वेग और परिवर्ती त्वरण</b>।</p>",
+     "hint": "दिशा बदलने पर सदिश बदल जाते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
