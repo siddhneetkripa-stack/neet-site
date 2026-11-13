@@ -1,0 +1,1055 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-07",
+ "subject": "physics",
+ "class": 12,
+ "unit": 7,
+ "title": {
+  "en": "Alternating Current"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph107.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "7.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "7.2",
+   "title": "AC Voltage Applied to a Resistor",
+   "hi": "प्रतिरोधक पर प्रयुक्त ac वोल्टता",
+   "pdfPage": 2
+  },
+  {
+   "id": "7.3",
+   "title": "Representation of AC Current and Voltage by Rotating Vectors — Phasors",
+   "hi": "ac धारा एवं वोल्टता का घूर्णी सदिश द्वारा निरूपण",
+   "pdfPage": 5
+  },
+  {
+   "id": "7.4",
+   "title": "AC Voltage Applied to an Inductor",
+   "hi": "प्रेरक पर प्रयुक्त ac वोल्टता",
+   "pdfPage": 5
+  },
+  {
+   "id": "7.5",
+   "title": "AC Voltage Applied to a Capacitor",
+   "hi": "संधारित्र पर प्रयुक्त ac वोल्टता",
+   "pdfPage": 8
+  },
+  {
+   "id": "7.6",
+   "title": "AC Voltage Applied to a Series LCR Circuit",
+   "hi": "श्रेणीबद्ध LCR परिपथ पर प्रयुक्त ac वोल्टता",
+   "pdfPage": 10
+  },
+  {
+   "id": "7.6.1",
+   "title": "Phasor-diagram Solution",
+   "hi": "फेजर आरेख द्वारा हल",
+   "pdfPage": 11
+  },
+  {
+   "id": "7.6.2",
+   "title": "Resonance",
+   "hi": "अनुनाद",
+   "pdfPage": 12
+  },
+  {
+   "id": "7.7",
+   "title": "Power in AC Circuit: The Power Factor",
+   "hi": "ac परिपथों में शक्ति : शक्ति गुणांक",
+   "pdfPage": 14
+  },
+  {
+   "id": "7.8",
+   "title": "Transformers",
+   "hi": "ट्रांसफॉर्मर",
+   "pdfPage": 18
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-07-neet-2015-re-exam-code-d-q145",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A series R-C circuit is connected to an alternating voltage source. Consider two situations :<br>(a) When capacitor is air filled.<br>(b) When capacitor is mica filled.<br>Current through resistor is i and voltage across capacitor is V, then :",
+     "o": [
+      "V<sub>a</sub> > V<sub>b</sub>",
+      "i<sub>a</sub> > i<sub>b</sub>",
+      "V<sub>a</sub> = V<sub>b</sub>",
+      "V<sub>a</sub> < V<sub>b</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q145",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2016-phase-1-code-a-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An inductor 20 mH, a capacitor 50 μF and a resistor 40 Ω are connected in series across a source of emf V = 10 sin 340 t. The power loss in A.C. circuit is :",
+     "o": [
+      "0.51 W",
+      "0.67 W",
+      "0.76 W",
+      "0.89 W"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q40",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Direct working gives P ≈ 0.46 W (Z ≈ 65.6 Ω); the key's 0.51 W is the nearest option."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2016-phase-1-code-a-q43",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A small signal voltage V(t) = V0 sin ωt is applied across an ideal capacitor C:",
+     "o": [
+      "Current I(t) lags voltage V(t) by 90°",
+      "Over a full cycle the capacitor C does not consume any energy from the voltage source",
+      "Current I(t) is in phase with voltage V(t)",
+      "Current I(t) leads voltage V(t) by 180°"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.5",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q43",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2016-phase-2-code-aa-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following combinations should be selected for better tuning of an L-C-R circuit used for communication?",
+     "o": [
+      "R = 20 Ω, L = 1.5 H, C = 35 μF",
+      "R = 25 Ω, L = 2.5 H, C = 45 μF",
+      "R = 15 Ω, L = 3.5 H, C = 30 μF",
+      "R = 25 Ω, L = 1.5 H, C = 45 μF"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q30",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2016-phase-2-code-aa-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The potential differences across the resistance, capacitance and inductance are 80 V, 40 V and 100 V respectively in an L-C-R circuit. The power factor of this circuit is :",
+     "o": [
+      "0.4",
+      "0.5",
+      "0.8",
+      "1.0"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q32",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2018-code-aa-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314t. The power loss in the circuit is :",
+     "o": [
+      "2.74 W",
+      "0.43 W",
+      "0.79 W",
+      "1.13 W"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q28",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2020-code-f3-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A series LCR circuit is connected to an AC voltage source. When L is removed from the circuit, the phase difference between current and voltage is π/3. If instead C is removed from the circuit, the phase difference is again π/3 between current and voltage. The power factor of the circuit is :",
+     "o": [
+      "1.0",
+      "−1.0",
+      "zero",
+      "0.5"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q22",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2020-code-f3-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 40 μF capacitor is connected to a 200 V, 50 Hz ac supply. The rms value of the current in the circuit is, nearly :",
+     "o": [
+      "2.5 A",
+      "25.1 A",
+      "1.7 A",
+      "2.05 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q32",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2021-code-p3-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An inductor of inductance L, a capacitor of capacitance C and a resistor of resistance 'R' are connected in series to an ac source of potential difference 'V' volts as shown in figure. Potential difference across L, C and R is 40 V, 10 V and 40 V, respectively. The amplitude of current flowing through LCR series circuit is 10√2 A. The impedance of the circuit is :",
+     "o": [
+      "5 Ω",
+      "4√2 Ω",
+      "5√2 Ω",
+      "4 Ω"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q16",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "The figure only repeats the data (L, C, R in series across V with 40 V, 10 V, 40 V marked)."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2021-code-p3-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A step down transformer connected to an ac mains supply of 220 V is made to operate at 11 V, 44 W lamp. Ignoring power losses in the transformer, what is the current in the primary circuit?",
+     "o": [
+      "4 A",
+      "0.2 A",
+      "0.4 A",
+      "2 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q45",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2021-code-p3-q47",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A series LCR circuit containing 5.0 H inductor, 80 μF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :",
+     "o": [
+      "42 rad/s and 58 rad/s",
+      "25 rad/s and 75 rad/s",
+      "50 rad/s and 25 rad/s",
+      "46 rad/s and 54 rad/s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q47",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "Half-power frequencies are not derived in the rationalised chapter: ω = ω<sub>0</sub> ± R/2L = 50 ± 4 rad/s."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2022-code-t2-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The peak voltage of the ac source is equal to :",
+     "o": [
+      "the rms value of the ac source",
+      "√2 times the rms value of the ac source",
+      "1/√2 times the rms value of the ac source",
+      "the value of voltage supplied to the circuit"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q25",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2022-code-t2-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A series LCR circuit with inductance 10 H, capacitance 10 μF, resistance 50 Ω is connected to an ac source of voltage, V = 200 sin (100t) volt. If the resonant frequency of the LCR circuit is ν<sub>0</sub> and the frequency of the ac source is ν, then :",
+     "o": [
+      "ν<sub>0</sub> = ν = 50/π Hz",
+      "ν<sub>0</sub> = 50/π Hz, ν = 50 Hz",
+      "ν = 100 Hz; ν<sub>0</sub> = 100/π Hz",
+      "ν<sub>0</sub> = ν = 50 Hz"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q45",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2023-topic-wise-copy-q24",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a series LCR circuit, the inductance L is 10 mH, capacitance C is 1 μF and resistance R is 100 Ω. The frequency at which resonance occurs is :",
+     "o": [
+      "1.59 kHz",
+      "15.9 rad/s",
+      "15.9 kHz",
+      "1.59 rad/s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q24",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2023-topic-wise-copy-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 12 V, 60 W lamp is connected to the secondary of a step down transformer, whose primary is connected to ac mains of 220 V. Assuming the transformer to be ideal, what is the current in the primary winding?",
+     "o": [
+      "0.37 A",
+      "0.27 A",
+      "2.7 A",
+      "3.7 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q25",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2023-topic-wise-copy-q46",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The net impedance of circuit (as shown in figure) will be :",
+     "o": [
+      "25 Ω",
+      "10√2 Ω",
+      "15 Ω",
+      "5√5 Ω"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q46",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "Series circuit: L = 50/π mH, C = 10<sup>3</sup>/π μF, R = 10 Ω across a 220 V, 50 Hz source. The copy prints options (1) and (3) in W instead of Ω."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2024-q6-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In an ideal transformer, the turns ratio is N<sub>P</sub>/N<sub>S</sub> = 1/2. The ratio V<sub>S</sub> : V<sub>P</sub> is equal to (the symbols carry their usual meaning) :",
+     "o": [
+      "1 : 2",
+      "2 : 1",
+      "1 : 1",
+      "1 : 4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q6 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2024-q20-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 10 μF capacitor is connected to a 210 V, 50 Hz source as shown in figure. The peak current in the circuit is nearly (π = 3.14) :",
+     "o": [
+      "0.58 A",
+      "0.93 A",
+      "1.20 A",
+      "0.35 A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q20 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The figure only shows the capacitor across the source."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2025-code-45-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "To an ac power supply of 220 V at 50 Hz, a resistor of 20 Ω, a capacitor of reactance 25 Ω and an inductor of reactance 45 Ω are connected in series. The corresponding current in the circuit and the phase angle between the current and the voltage is, respectively :",
+     "o": [
+      "7.8 A and 30°",
+      "7.8 A and 45°",
+      "15.6 A and 30°",
+      "15.6 A and 45°"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q16",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2026-code-13-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An ac circuit contains a resistance of 1 kΩ, a capacitor of 0.1 μF and an inductor of 1 mH connected in series. The resonance frequency of the circuit is approximately :",
+     "o": [
+      "15.9 kHz",
+      "20.7 kHz",
+      "10.1 kHz",
+      "13.5 kHz"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q14",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2026-code-13-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The peak value of an alternating current is 5 A and frequency is 60 Hz. How long will the current, starting from zero, take to reach the peak value?",
+     "o": [
+      "1/120 s",
+      "1/240 s",
+      "1/30 s",
+      "1/60 s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q17",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
