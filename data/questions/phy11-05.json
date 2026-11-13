@@ -110,10 +110,22 @@
       "(3/√2)v",
       "(√3/2)v",
       "(2√2/3)v"
-     ]
+     ],
+     "sol": "<p>Elastic collision ⇒ kinetic energy is conserved: (1/2)Mv<sup>2</sup> = (1/2)M(v/3)<sup>2</sup> + (1/2)Mv<sub>2</sub><sup>2</sup>.</p><p>v<sub>2</sub><sup>2</sup> = v<sup>2</sup> − v<sup>2</sup>/9 = 8v<sup>2</sup>/9 ⇒ v<sub>2</sub> = <b>(2√2/3)v</b>. (For equal masses the two blocks move off at 90° to each other.)</p>",
+     "hint": "Energy conservation alone fixes the second speed."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक घर्षणरहित पृष्ठ पर v चाल से चल रहा M द्रव्यमान का एक गुटका समान द्रव्यमान M के एक अन्य गुटके से, जो प्रारंभ में विराम में है, प्रत्यास्थ संघट्ट करता है। संघट्ट के बाद पहला गुटका अपनी प्रारंभिक दिशा से θ कोण पर v/3 चाल से चलता है। संघट्ट के बाद दूसरे गुटके की चाल है :",
+     "o": [
+      "(3/4)v",
+      "(3/√2)v",
+      "(√3/2)v",
+      "(2√2/3)v"
+     ],
+     "sol": "<p>प्रत्यास्थ संघट्ट ⇒ गतिज ऊर्जा संरक्षित : (1/2)Mv<sup>2</sup> = (1/2)M(v/3)<sup>2</sup> + (1/2)Mv<sub>2</sub><sup>2</sup>।</p><p>v<sub>2</sub><sup>2</sup> = v<sup>2</sup> − v<sup>2</sup>/9 = 8v<sup>2</sup>/9 ⇒ v<sub>2</sub> = <b>(2√2/3)v</b>। (समान द्रव्यमानों के लिए दोनों गुटके परस्पर 90° पर चलते हैं।)</p>",
+     "hint": "केवल ऊर्जा संरक्षण से दूसरी चाल निर्धारित हो जाती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -156,10 +168,22 @@
       "28 m s<sup>−1</sup>",
       "10 m s<sup>−1</sup>",
       "14 m s<sup>−1</sup>"
-     ]
+     ],
+     "sol": "<p>After the collision the ball has just enough energy to rise 20 m: E<sub>after</sub> = mg(20). It lost 50%, so just before hitting the ground E<sub>before</sub> = 2mg(20) = mg(40).</p><p>Energy at the start: (1/2)mv<sub>0</sub><sup>2</sup> + mg(20) = mg(40) ⇒ v<sub>0</sub><sup>2</sup> = 2g(20) = 400 ⇒ v<sub>0</sub> = <b>20 m s<sup>−1</sup></b>.</p>",
+     "hint": "Energy before impact is twice the energy after impact."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक गेंद को 20 m की ऊँचाई से प्रारंभिक वेग v<sub>0</sub> से ऊर्ध्वाधर नीचे की ओर फेंका जाता है। यह धरती से टकराती है, संघट्ट में अपनी 50 प्रतिशत ऊर्जा खो देती है और उसी ऊँचाई तक वापस उछलती है। प्रारंभिक वेग v<sub>0</sub> है : (g = 10 m s<sup>−2</sup> लीजिए)",
+     "o": [
+      "20 m s<sup>−1</sup>",
+      "28 m s<sup>−1</sup>",
+      "10 m s<sup>−1</sup>",
+      "14 m s<sup>−1</sup>"
+     ],
+     "sol": "<p>संघट्ट के बाद गेंद के पास 20 m उठने भर की ऊर्जा है : E<sub>after</sub> = mg(20)। इसने 50% खोई, अतः धरती से टकराने से ठीक पहले E<sub>before</sub> = 2mg(20) = mg(40)।</p><p>प्रारंभ में ऊर्जा : (1/2)mv<sub>0</sub><sup>2</sup> + mg(20) = mg(40) ⇒ v<sub>0</sub><sup>2</sup> = 2g(20) = 400 ⇒ v<sub>0</sub> = <b>20 m s<sup>−1</sup></b>।</p>",
+     "hint": "संघट्ट से पहले की ऊर्जा संघट्ट के बाद की ऊर्जा की दोगुनी है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -202,10 +226,22 @@
       "t = π/ω",
       "t = 0",
       "t = π/(4ω)"
-     ]
+     ],
+     "sol": "<p>A⃗ · B⃗ = cos ωt cos(ωt/2) + sin ωt sin(ωt/2) = cos(ωt − ωt/2) = cos(ωt/2).</p><p>Orthogonal ⇒ cos(ωt/2) = 0 ⇒ ωt/2 = π/2 ⇒ <b>t = π/ω</b>.</p>",
+     "hint": "Orthogonal ⇔ dot product zero; use cos(a − b)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि सदिश A⃗ = cos ωt î + sin ωt ĵ और B⃗ = cos(ωt/2) î + sin(ωt/2) ĵ समय के फलन हैं, तो t का वह मान जिस पर वे परस्पर लंबकोणीय हैं :",
+     "o": [
+      "t = π/(2ω)",
+      "t = π/ω",
+      "t = 0",
+      "t = π/(4ω)"
+     ],
+     "sol": "<p>A⃗ · B⃗ = cos ωt cos(ωt/2) + sin ωt sin(ωt/2) = cos(ωt − ωt/2) = cos(ωt/2)।</p><p>लंबकोणीय ⇒ cos(ωt/2) = 0 ⇒ ωt/2 = π/2 ⇒ <b>t = π/ω</b>।</p>",
+     "hint": "लंबकोणीय ⇔ अदिश गुणनफल शून्य; cos(a − b) का उपयोग कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -248,10 +284,22 @@
       "√(2gR)",
       "√(3gR)",
       "√(5gR)"
-     ]
+     ],
+     "sol": "<p>At the top the minimum speed satisfies mg = mv<sub>top</sub><sup>2</sup>/R ⇒ v<sub>top</sub><sup>2</sup> = gR. Energy conservation from bottom to top (rise 2R):</p><p>v<sub>bottom</sub><sup>2</sup> = v<sub>top</sub><sup>2</sup> + 4gR = 5gR ⇒ v<sub>min</sub> = <b>√(5gR)</b>.</p>",
+     "hint": "Tension (or normal force) can just become zero at the top."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "m द्रव्यमान के किसी पिंड को R त्रिज्या के एक ऊर्ध्वाधर लूप में किस न्यूनतम वेग से प्रवेश करना चाहिए ताकि वह लूप पूरा कर सके?",
+     "o": [
+      "√(gR)",
+      "√(2gR)",
+      "√(3gR)",
+      "√(5gR)"
+     ],
+     "sol": "<p>शिखर पर न्यूनतम चाल के लिए mg = mv<sub>top</sub><sup>2</sup>/R ⇒ v<sub>top</sub><sup>2</sup> = gR। तली से शिखर तक (2R ऊँचाई) ऊर्जा संरक्षण :</p><p>v<sub>bottom</sub><sup>2</sup> = v<sub>top</sub><sup>2</sup> + 4gR = 5gR ⇒ v<sub>min</sub> = <b>√(5gR)</b>।</p>",
+     "hint": "शिखर पर तनाव (या अभिलंब बल) ठीक शून्य हो सकता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -294,10 +342,22 @@
       "(2t<sup>2</sup> + 4t<sup>4</sup>) W",
       "(2t<sup>3</sup> + 3t<sup>4</sup>) W",
       "(2t<sup>3</sup> + 3t<sup>5</sup>) W"
-     ]
+     ],
+     "sol": "<p>m = 1 kg, so a⃗ = F⃗ = 2t î + 3t<sup>2</sup> ĵ. Starting from rest: v⃗ = ∫a⃗ dt = t<sup>2</sup> î + t<sup>3</sup> ĵ.</p><p>P = F⃗ · v⃗ = (2t)(t<sup>2</sup>) + (3t<sup>2</sup>)(t<sup>3</sup>) = <b>(2t<sup>3</sup> + 3t<sup>5</sup>) W</b>.</p>",
+     "hint": "Integrate a to get v, then P = F⃗ · v⃗."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "1 kg द्रव्यमान का एक पिंड समय-निर्भर बल F⃗ = (2t î + 3t<sup>2</sup> ĵ) N के प्रभाव में चलना प्रारंभ करता है, जहाँ î और ĵ, x और y अक्ष के अनुदिश एकांक सदिश हैं। समय t पर बल द्वारा विकसित शक्ति क्या होगी?",
+     "o": [
+      "(2t<sup>2</sup> + 3t<sup>3</sup>) W",
+      "(2t<sup>2</sup> + 4t<sup>4</sup>) W",
+      "(2t<sup>3</sup> + 3t<sup>4</sup>) W",
+      "(2t<sup>3</sup> + 3t<sup>5</sup>) W"
+     ],
+     "sol": "<p>m = 1 kg, अतः a⃗ = F⃗ = 2t î + 3t<sup>2</sup> ĵ। विराम से प्रारंभ : v⃗ = ∫a⃗ dt = t<sup>2</sup> î + t<sup>3</sup> ĵ।</p><p>P = F⃗ · v⃗ = (2t)(t<sup>2</sup>) + (3t<sup>2</sup>)(t<sup>3</sup>) = <b>(2t<sup>3</sup> + 3t<sup>5</sup>) W</b>।</p>",
+     "hint": "a का समाकलन करके v प्राप्त कीजिए, फिर P = F⃗ · v⃗।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -340,10 +400,22 @@
       "80 m s<sup>−1</sup>",
       "120 m s<sup>−1</sup>",
       "160 m s<sup>−1</sup>"
-     ]
+     ],
+     "sol": "<p>The block rises 10 cm, so its speed just after the hit was V = √(2gh) = √(2 × 10 × 0.1) = √2 ≈ 1.41 m/s.</p><p>Momentum during the short impact: 0.01 × 400 = 0.01v + 2 × 1.41 ⇒ 0.01v = 4 − 2.83 = 1.17 ⇒ v ≈ 117 m s<sup>−1</sup> ≈ <b>120 m s<sup>−1</sup></b>.</p>",
+     "hint": "Momentum is conserved in the impact; energy only after it (block rising)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "400 m s<sup>−1</sup> के वेग से क्षैतिज दिशा में चलती 10 g द्रव्यमान की एक गोली 2 kg द्रव्यमान के लकड़ी के एक गुटके से टकराती है, जो 5 m लंबी हलकी अवितान्य डोरी से लटका है। परिणामस्वरूप गुटके का गुरुत्व केंद्र 10 cm की ऊर्ध्वाधर दूरी तक उठ जाता है। गुटके से क्षैतिज दिशा में बाहर निकलने के बाद गोली की चाल होगी :",
+     "o": [
+      "100 m s<sup>−1</sup>",
+      "80 m s<sup>−1</sup>",
+      "120 m s<sup>−1</sup>",
+      "160 m s<sup>−1</sup>"
+     ],
+     "sol": "<p>गुटका 10 cm उठता है, अतः संघट्ट के ठीक बाद उसकी चाल V = √(2gh) = √(2 × 10 × 0.1) = √2 ≈ 1.41 m/s थी।</p><p>अल्प संघट्ट के दौरान संवेग : 0.01 × 400 = 0.01v + 2 × 1.41 ⇒ 0.01v = 4 − 2.83 = 1.17 ⇒ v ≈ 117 m s<sup>−1</sup> ≈ <b>120 m s<sup>−1</sup></b>।</p>",
+     "hint": "संघट्ट में संवेग संरक्षित है; ऊर्जा संरक्षण केवल उसके बाद (गुटके के उठने में)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -388,10 +460,24 @@
       "0.5 m/s and – 0.3 m/s",
       "– 0.3 m/s and 0.5 m/s",
       "0.3 m/s and 0.5 m/s"
-     ]
+     ],
+     "sol": "<p>In a one-dimensional elastic collision of equal masses the velocities are exchanged: A gets −0.3 m/s and B gets 0.5 m/s.</p><p>Velocities of B and A respectively: <b>0.5 m/s and −0.3 m/s</b>.</p>",
+     "hint": "Equal masses, elastic, head-on ⇒ velocities swap.",
+     "trap": "The question asks for B first, then A."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दो सर्वसम गेंदें A और B, जिनके वेग क्रमशः 0.5 m/s और –0.3 m/s हैं, एक विमा में प्रत्यास्थ संघट्ट करती हैं। संघट्ट के बाद B और A के वेग क्रमशः होंगे",
+     "o": [
+      "– 0.5 m/s और 0.3 m/s",
+      "0.5 m/s और – 0.3 m/s",
+      "– 0.3 m/s और 0.5 m/s",
+      "0.3 m/s और 0.5 m/s"
+     ],
+     "sol": "<p>समान द्रव्यमानों की एकविमीय प्रत्यास्थ संघट्ट में वेग परस्पर बदल जाते हैं : A को −0.3 m/s और B को 0.5 m/s मिलता है।</p><p>B और A के वेग क्रमशः : <b>0.5 m/s और −0.3 m/s</b>।</p>",
+     "hint": "समान द्रव्यमान, प्रत्यास्थ, सम्मुख संघट्ट ⇒ वेग परस्पर बदल जाते हैं।",
+     "trap": "प्रश्न में पहले B, फिर A पूछा गया है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -434,10 +520,22 @@
       "11 J",
       "5 J",
       "2 J"
-     ]
+     ],
+     "sol": "<p>Displacement d⃗ = (4ĵ + 3k̂) − (−2î + 5ĵ) = 2î − ĵ + 3k̂ (m).</p><p>W = F⃗ · d⃗ = (4)(2) + (3)(−1) + (0)(3) = 8 − 3 = <b>5 J</b>.</p>",
+     "hint": "Work = F⃗ · (final position − initial position)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक कण बिंदु (−2î + 5ĵ) से (4ĵ + 3k̂) तक चलता है जब उस पर (4î + 3ĵ) N का बल लगाया जाता है। बल द्वारा कितना कार्य किया गया है?",
+     "o": [
+      "8 J",
+      "11 J",
+      "5 J",
+      "2 J"
+     ],
+     "sol": "<p>विस्थापन d⃗ = (4ĵ + 3k̂) − (−2î + 5ĵ) = 2î − ĵ + 3k̂ (m)।</p><p>W = F⃗ · d⃗ = (4)(2) + (3)(−1) + (0)(3) = 8 − 3 = <b>5 J</b>।</p>",
+     "hint": "कार्य = F⃗ · (अंतिम स्थिति − प्रारंभिक स्थिति)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -481,10 +579,22 @@
       "(i) 1.25 J, (ii) −8.25 J",
       "(i) 100 J, (ii) 8.75 J",
       "(i) 10 J, (ii) −8.75 J"
-     ]
+     ],
+     "sol": "<p>(i) W<sub>g</sub> = mgh = 10<sup>−3</sup> × 10 × 1000 = 10 J.</p><p>(ii) Final K = (1/2)(10<sup>−3</sup>)(50)<sup>2</sup> = 1.25 J. Work–energy theorem: W<sub>g</sub> + W<sub>air</sub> = ΔK ⇒ W<sub>air</sub> = 1.25 − 10 = −8.75 J. Answer: <b>(i) 10 J, (ii) −8.75 J</b>.</p>",
+     "hint": "Total work = change in kinetic energy."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "1 g द्रव्यमान की वर्षा जल की एक बूँद पर विचार कीजिए जो 1 km की ऊँचाई से गिर रही है। यह 50 m/s की चाल से धरती से टकराती है। g को 10 m/s<sup>2</sup> मान के साथ नियत लीजिए। (i) गुरुत्वीय बल द्वारा और (ii) वायु के प्रतिरोधी बल द्वारा किया गया कार्य है :",
+     "o": [
+      "(i) −10 J, (ii) −8.25 J",
+      "(i) 1.25 J, (ii) −8.25 J",
+      "(i) 100 J, (ii) 8.75 J",
+      "(i) 10 J, (ii) −8.75 J"
+     ],
+     "sol": "<p>(i) W<sub>g</sub> = mgh = 10<sup>−3</sup> × 10 × 1000 = 10 J।</p><p>(ii) अंतिम K = (1/2)(10<sup>−3</sup>)(50)<sup>2</sup> = 1.25 J। कार्य-ऊर्जा प्रमेय : W<sub>g</sub> + W<sub>air</sub> = ΔK ⇒ W<sub>air</sub> = 1.25 − 10 = −8.75 J। उत्तर : <b>(i) 10 J, (ii) −8.75 J</b>।</p>",
+     "hint": "कुल कार्य = गतिज ऊर्जा में परिवर्तन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -527,10 +637,22 @@
       "D",
       "(3/2)D",
       "(5/4)D"
-     ]
+     ],
+     "sol": "<p>To just complete a vertical circle of radius R the speed at the bottom must be √(5gR), so the release height above the bottom is h = v<sup>2</sup>/(2g) = 5R/2.</p><p>With R = D/2: h = 5D/4 = <b>(5/4)D</b>.</p>",
+     "hint": "h = 2.5R on a frictionless track."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "विराम से प्रारंभ करके एक घर्षणरहित पथ पर h ऊँचाई से फिसलता हुआ एक पिंड (चित्र में दिखाए अनुसार) व्यास AB = D वाले एक ऊर्ध्वाधर वृत्त को ठीक-ठीक पूरा करता है। ऊँचाई h बराबर है :",
+     "o": [
+      "(7/5)D",
+      "D",
+      "(3/2)D",
+      "(5/4)D"
+     ],
+     "sol": "<p>R त्रिज्या के ऊर्ध्वाधर वृत्त को ठीक-ठीक पूरा करने के लिए तली पर चाल √(5gR) होनी चाहिए, अतः तली से छोड़ने की ऊँचाई h = v<sup>2</sup>/(2g) = 5R/2।</p><p>R = D/2 रखने पर : h = 5D/4 = <b>(5/4)D</b>।</p>",
+     "hint": "घर्षणरहित पथ पर h = 2.5R।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -573,10 +695,22 @@
       "0.25",
       "0.5",
       "0.4"
-     ]
+     ],
+     "sol": "<p>Momentum: mv = 4m v′ ⇒ v′ = v/4 for the heavier block; the lighter one stops.</p><p>e = (speed of separation)/(speed of approach) = (v/4 − 0)/(v − 0) = <b>0.25</b>.</p>",
+     "hint": "e = relative speed after / relative speed before."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "m द्रव्यमान का एक गतिमान गुटका 4m द्रव्यमान के एक अन्य स्थिर गुटके से टकराता है। संघट्ट के बाद हलका गुटका विराम में आ जाता है। जब हलके गुटके का प्रारंभिक वेग v हो, तब प्रत्यवस्थान गुणांक (e) का मान होगा :",
+     "o": [
+      "0.8",
+      "0.25",
+      "0.5",
+      "0.4"
+     ],
+     "sol": "<p>संवेग : mv = 4m v′ ⇒ भारी गुटके के लिए v′ = v/4; हलका गुटका रुक जाता है।</p><p>e = (अलग होने की चाल)/(पास आने की चाल) = (v/4 − 0)/(v − 0) = <b>0.25</b>।</p>",
+     "hint": "e = बाद की आपेक्षिक चाल / पहले की आपेक्षिक चाल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -620,10 +754,22 @@
       "5/9",
       "1/9",
       "8/9"
-     ]
+     ],
+     "sol": "<p>Elastic head-on, B at rest: v<sub>A</sub> = (m<sub>A</sub> − m<sub>B</sub>)u/(m<sub>A</sub> + m<sub>B</sub>) = (4m − 2m)u/(6m) = u/3.</p><p>A keeps (1/3)<sup>2</sup> = 1/9 of its kinetic energy, so the fraction lost is <b>8/9</b>.</p>",
+     "hint": "Find A's final speed with the one-dimensional elastic collision formula."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "u चाल से चल रहा 4m द्रव्यमान का पिंड A, विराम में स्थित 2m द्रव्यमान के एक अन्य पिंड B से टकराता है। संघट्ट सम्मुख और प्रत्यास्थ है। संघट्ट के बाद टकराने वाले पिंड A द्वारा खोई गई ऊर्जा का अंश है :",
+     "o": [
+      "4/9",
+      "5/9",
+      "1/9",
+      "8/9"
+     ],
+     "sol": "<p>सम्मुख प्रत्यास्थ, B विराम में : v<sub>A</sub> = (m<sub>A</sub> − m<sub>B</sub>)u/(m<sub>A</sub> + m<sub>B</sub>) = (4m − 2m)u/(6m) = u/3।</p><p>A के पास अपनी गतिज ऊर्जा का (1/3)<sup>2</sup> = 1/9 बचता है, अतः खोया गया अंश <b>8/9</b> है।</p>",
+     "hint": "एकविमीय प्रत्यास्थ संघट्ट के सूत्र से A की अंतिम चाल ज्ञात कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -666,10 +812,22 @@
       "20 J",
       "30 J",
       "5 J"
-     ]
+     ],
+     "sol": "<p>W = ∫<sub>0</sub><sup>1</sup> (20 + 10y) dy = [20y + 5y<sup>2</sup>]<sub>0</sub><sup>1</sup> = 20 + 5 = <b>25 J</b>.</p>",
+     "hint": "Work by a variable force = area under the F–y graph."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक कण पर y-दिशा में बल F = 20 + 10y कार्य करता है, जहाँ F न्यूटन में और y मीटर में है। कण को y = 0 से y = 1 m तक ले जाने में इस बल द्वारा किया गया कार्य है :",
+     "o": [
+      "25 J",
+      "20 J",
+      "30 J",
+      "5 J"
+     ],
+     "sol": "<p>W = ∫<sub>0</sub><sup>1</sup> (20 + 10y) dy = [20y + 5y<sup>2</sup>]<sub>0</sub><sup>1</sup> = 20 + 5 = <b>25 J</b>।</p>",
+     "hint": "परिवर्ती बल द्वारा कार्य = F–y ग्राफ के नीचे का क्षेत्रफल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -712,10 +870,22 @@
       "inclined at an angle of 60° from vertical",
       "the mass is at the highest point",
       "the wire is horizontal"
-     ]
+     ],
+     "sol": "<p>Tension T = mv<sup>2</sup>/r + mg cos θ (θ measured from the lowest point). At the lowest point cos θ = 1 and the speed is also greatest, so T is maximum there: the wire is most likely to break <b>at the lowest point</b>.</p>",
+     "hint": "Both mg cos θ and v<sup>2</sup> are largest at the bottom."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "m द्रव्यमान को एक पतले तार से बाँधकर ऊर्ध्वाधर वृत्त में घुमाया जाता है। तार के टूटने की सबसे अधिक संभावना तब है जब :",
+     "o": [
+      "द्रव्यमान निम्नतम बिंदु पर हो",
+      "ऊर्ध्वाधर से 60° के कोण पर झुका हो",
+      "द्रव्यमान उच्चतम बिंदु पर हो",
+      "तार क्षैतिज हो"
+     ],
+     "sol": "<p>तनाव T = mv<sup>2</sup>/r + mg cos θ (θ निम्नतम बिंदु से मापा गया)। निम्नतम बिंदु पर cos θ = 1 और चाल भी अधिकतम है, अतः वहाँ T अधिकतम है : तार के टूटने की सबसे अधिक संभावना <b>निम्नतम बिंदु पर</b> है।</p>",
+     "hint": "mg cos θ और v<sup>2</sup> दोनों तली पर अधिकतम हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -758,10 +928,22 @@
       "1 : 2√3",
       "1 : √2",
       "√2 : 1"
-     ]
+     ],
+     "sol": "<p>On a smooth incline the object rises until its kinetic energy becomes potential energy: (1/2)mu<sup>2</sup> = mg x sin θ ⇒ x = u<sup>2</sup>/(2g sin θ).</p><p>x<sub>1</sub>/x<sub>2</sub> = sin 30°/sin 60° = (1/2)/(√3/2) = <b>1 : √3</b>.</p>",
+     "hint": "x ∝ 1/sin θ for the same launch speed."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जब किसी वस्तु को क्षैतिज से 60° के कोण पर रखे एक लंबे चिकने आनत तल की तली से प्रक्षेपित किया जाता है, तो यह तल के अनुदिश x<sub>1</sub> दूरी तक जा सकती है। परंतु जब झुकाव घटाकर 30° कर दिया जाता है और उसी वस्तु को उसी वेग से प्रक्षेपित किया जाता है, तो यह x<sub>2</sub> दूरी तक जा सकती है। तब x<sub>1</sub> : x<sub>2</sub> होगा :",
+     "o": [
+      "1 : √3",
+      "1 : 2√3",
+      "1 : √2",
+      "√2 : 1"
+     ],
+     "sol": "<p>चिकने आनत तल पर वस्तु तब तक चढ़ती है जब तक उसकी गतिज ऊर्जा स्थितिज ऊर्जा में न बदल जाए : (1/2)mu<sup>2</sup> = mg x sin θ ⇒ x = u<sup>2</sup>/(2g sin θ)।</p><p>x<sub>1</sub>/x<sub>2</sub> = sin 30°/sin 60° = (1/2)/(√3/2) = <b>1 : √3</b>।</p>",
+     "hint": "समान प्रक्षेपण चाल के लिए x ∝ 1/sin θ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -807,10 +989,22 @@
       "S/4, 3gS/2",
       "S/4, √(3gS)/2",
       "S/2, √(3gS)/2"
-     ]
+     ],
+     "sol": "<p>Total energy = mgS. At height h: K = 3U = 3mgh, so mgS = mgh + 3mgh ⇒ h = S/4.</p><p>(1/2)mv<sup>2</sup> = 3mg(S/4) ⇒ v = √(3gS/2). Answer: <b>S/4, √(3gS/2)</b>.</p>",
+     "hint": "K + U = mgS with K = 3U."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक कण को पृथ्वी के पृष्ठ से S ऊँचाई से छोड़ा जाता है। एक निश्चित ऊँचाई पर इसकी गतिज ऊर्जा इसकी स्थितिज ऊर्जा की तीन गुनी है। उस क्षण पृथ्वी के पृष्ठ से ऊँचाई और कण की चाल क्रमशः हैं :",
+     "o": [
+      "S/4, √(3gS/2)",
+      "S/4, 3gS/2",
+      "S/4, √(3gS)/2",
+      "S/2, √(3gS)/2"
+     ],
+     "sol": "<p>कुल ऊर्जा = mgS। h ऊँचाई पर : K = 3U = 3mgh, अतः mgS = mgh + 3mgh ⇒ h = S/4।</p><p>(1/2)mv<sup>2</sup> = 3mg(S/4) ⇒ v = √(3gS/2)। उत्तर : <b>S/4, √(3gS/2)</b>।</p>",
+     "hint": "K + U = mgS, जहाँ K = 3U।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -853,10 +1047,22 @@
       "10.2 kW",
       "8.1 kW",
       "12.3 kW"
-     ]
+     ],
+     "sol": "<p>Input power = (mass per second) × g × h = 15 × 10 × 60 = 9000 W. With 10% lost, output = 0.9 × 9000 = 8100 W = <b>8.1 kW</b>.</p>",
+     "hint": "Power = (dm/dt)gh."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक टर्बाइन चलाने के लिए जल 15 kg/s की दर से 60 m की ऊँचाई से गिरता है। घर्षण बल के कारण हानि निवेश ऊर्जा की 10% है। टर्बाइन द्वारा कितनी शक्ति उत्पन्न होती है? (g = 10 m/s<sup>2</sup>)",
+     "o": [
+      "7.0 kW",
+      "10.2 kW",
+      "8.1 kW",
+      "12.3 kW"
+     ],
+     "sol": "<p>निवेश शक्ति = (प्रति सेकंड द्रव्यमान) × g × h = 15 × 10 × 60 = 9000 W। 10% हानि के साथ निर्गत = 0.9 × 9000 = 8100 W = <b>8.1 kW</b>।</p>",
+     "hint": "शक्ति = (dm/dt)gh।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -899,10 +1105,22 @@
       "36 × 10<sup>5</sup> J",
       "1 × 10<sup>5</sup> J",
       "36 × 10<sup>7</sup> J"
-     ]
+     ],
+     "sol": "<p>Energy = power × time = 100 × 10<sup>3</sup> W × 3600 s = 3.6 × 10<sup>8</sup> J = <b>36 × 10<sup>7</sup> J</b>.</p>",
+     "hint": "1 hour = 3600 s."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "100 kW के एक प्रेषित्र द्वारा 1 घंटे में आदर्श रूप से विकिरित ऊर्जा होगी :",
+     "o": [
+      "36 × 10<sup>4</sup> J",
+      "36 × 10<sup>5</sup> J",
+      "1 × 10<sup>5</sup> J",
+      "36 × 10<sup>7</sup> J"
+     ],
+     "sol": "<p>ऊर्जा = शक्ति × समय = 100 × 10<sup>3</sup> W × 3600 s = 3.6 × 10<sup>8</sup> J = <b>36 × 10<sup>7</sup> J</b>।</p>",
+     "hint": "1 घंटा = 3600 s।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -945,10 +1163,22 @@
       "34500",
       "23500",
       "23000"
-     ]
+     ],
+     "sol": "<p>At constant speed the motor's force balances weight and friction: F = mg + f = 2000 × 10 + 3000 = 23000 N.</p><p>P = Fv = 23000 × 1.5 = <b>34500 W</b>.</p>",
+     "hint": "Constant velocity ⇒ net force zero; P = Fv."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "2000 kg (लिफ्ट + यात्री) अधिकतम भार वाली एक विद्युत लिफ्ट 1.5 m s<sup>−1</sup> की नियत चाल से ऊपर जा रही है। गति का विरोध करने वाला घर्षण बल 3000 N है। मोटर द्वारा लिफ्ट को दी गई न्यूनतम शक्ति वाट में है : (g = 10 m s<sup>−2</sup>)",
+     "o": [
+      "20000",
+      "34500",
+      "23500",
+      "23000"
+     ],
+     "sol": "<p>नियत चाल पर मोटर का बल भार और घर्षण को संतुलित करता है : F = mg + f = 2000 × 10 + 3000 = 23000 N।</p><p>P = Fv = 23000 × 1.5 = <b>34500 W</b>।</p>",
+     "hint": "नियत वेग ⇒ नेट बल शून्य; P = Fv।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -994,10 +1224,22 @@
       "2U",
       "4U",
       "8U"
-     ]
+     ],
+     "sol": "<p>Spring potential energy U = (1/2)kx<sup>2</sup> ∝ x<sup>2</sup>. Stretching 4 times as much (8 cm instead of 2 cm) gives 4<sup>2</sup> = 16 times the energy: <b>16U</b>.</p>",
+     "hint": "U ∝ x<sup>2</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक लंबी स्प्रिंग को 2 cm खींचने पर उसकी स्थितिज ऊर्जा U है। यदि स्प्रिंग को 8 cm खींचा जाए, तो उसमें संचित स्थितिज ऊर्जा होगी :",
+     "o": [
+      "16U",
+      "2U",
+      "4U",
+      "8U"
+     ],
+     "sol": "<p>स्प्रिंग की स्थितिज ऊर्जा U = (1/2)kx<sup>2</sup> ∝ x<sup>2</sup>। 4 गुना अधिक खींचने पर (2 cm के स्थान पर 8 cm) ऊर्जा 4<sup>2</sup> = 16 गुनी हो जाती है : <b>16U</b>।</p>",
+     "hint": "U ∝ x<sup>2</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1040,10 +1282,22 @@
       "27 cm",
       "24 cm",
       "28 cm"
-     ]
+     ],
+     "sol": "<p>The resistive force is constant, so the loss of kinetic energy is proportional to the distance. In the first 24 cm, K falls from u<sup>2</sup> to u<sup>2</sup>/9 (in units of m/2): a loss of 8u<sup>2</sup>/9.</p><p>The remaining u<sup>2</sup>/9 is one-eighth of that, so it is lost in 24/8 = 3 cm. Total length = 24 + 3 = <b>27 cm</b>.</p>",
+     "hint": "Work–energy theorem with a constant resisting force: ΔK ∝ distance."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक बंदूक से गोली को u वेग से एक आयताकार लकड़ी के गुटके पर दागा जाता है। जब गोली गुटके में उसकी लंबाई के अनुदिश क्षैतिज दिशा में 24 cm चल लेती है, तब गोली का वेग u/3 हो जाता है। फिर यह उसी दिशा में गुटके में और आगे जाकर ठीक गुटके के दूसरे सिरे पर विराम में आ जाती है। गुटके की कुल लंबाई है :",
+     "o": [
+      "30 cm",
+      "27 cm",
+      "24 cm",
+      "28 cm"
+     ],
+     "sol": "<p>प्रतिरोधी बल नियत है, अतः गतिज ऊर्जा में हानि दूरी के अनुक्रमानुपाती है। पहले 24 cm में K, u<sup>2</sup> से u<sup>2</sup>/9 तक घटती है (m/2 के मात्रकों में) : हानि 8u<sup>2</sup>/9।</p><p>शेष u<sup>2</sup>/9 इसका आठवाँ भाग है, अतः यह 24/8 = 3 cm में समाप्त हो जाती है। कुल लंबाई = 24 + 3 = <b>27 cm</b>।</p>",
+     "hint": "नियत प्रतिरोधी बल के साथ कार्य-ऊर्जा प्रमेय : ΔK ∝ दूरी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1086,10 +1340,22 @@
       "2 : 1",
       "4 : 1",
       "1 : 4"
-     ]
+     ],
+     "sol": "<p>In a completely inelastic collision the bodies move together. Momentum: mv<sub>1</sub> = (m + m)v<sub>2</sub> ⇒ v<sub>1</sub> : v<sub>2</sub> = <b>2 : 1</b>.</p>",
+     "hint": "Bodies stick together; only momentum is conserved."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समान द्रव्यमान के दो पिंड A और B एकविमीय पूर्णतः अप्रत्यास्थ संघट्ट करते हैं। संघट्ट से पहले पिंड A, v<sub>1</sub> वेग से चलता है जबकि पिंड B विराम में है। संघट्ट के बाद निकाय का वेग v<sub>2</sub> है। अनुपात v<sub>1</sub> : v<sub>2</sub> है :",
+     "o": [
+      "1 : 2",
+      "2 : 1",
+      "4 : 1",
+      "1 : 4"
+     ],
+     "sol": "<p>पूर्णतः अप्रत्यास्थ संघट्ट में पिंड साथ-साथ चलते हैं। संवेग : mv<sub>1</sub> = (m + m)v<sub>2</sub> ⇒ v<sub>1</sub> : v<sub>2</sub> = <b>2 : 1</b>।</p>",
+     "hint": "पिंड आपस में जुड़ जाते हैं; केवल संवेग संरक्षित है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1132,10 +1398,22 @@
       "5",
       "7",
       "6"
-     ]
+     ],
+     "sol": "<p>x = 2t − 1 ⇒ v = dx/dt = 2 m/s (constant). Instantaneous power P = Fv = 5 × 2 = <b>10 W</b>.</p>",
+     "hint": "P = Fv."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी समय t पर 5 N बल के प्रभाव में किसी कण का विस्थापन 2t − 1 (SI मात्रक) द्वारा दिया गया है। तात्क्षणिक शक्ति का मान है (SI मात्रक में) :",
+     "o": [
+      "10",
+      "5",
+      "7",
+      "6"
+     ],
+     "sol": "<p>x = 2t − 1 ⇒ v = dx/dt = 2 m/s (नियत)। तात्क्षणिक शक्ति P = Fv = 5 × 2 = <b>10 W</b>।</p>",
+     "hint": "P = Fv।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1181,10 +1459,22 @@
       "2/3",
       "1/3",
       "1/2"
-     ]
+     ],
+     "sol": "<p>Work–energy theorem: the braking force removes all the kinetic energy, F × s = K ⇒ F = K/s.</p><p>F<sub>A</sub>/F<sub>B</sub> = (100/1000)/(225/1500) = 0.1/0.15 = <b>2/3</b>.</p>",
+     "hint": "F = K/s for each car."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दो समान कारों A और B की गतिज ऊर्जाएँ क्रमशः 100 J और 225 J हैं। ब्रेक लगाने पर कार A, 1000 m के बाद और कार B, 1500 m के बाद रुकती है। यदि F<sub>A</sub> और F<sub>B</sub> क्रमशः कारों A और B पर ब्रेकों द्वारा लगाए गए बल हैं, तो अनुपात F<sub>A</sub>/F<sub>B</sub> है :",
+     "o": [
+      "3/2",
+      "2/3",
+      "1/3",
+      "1/2"
+     ],
+     "sol": "<p>कार्य-ऊर्जा प्रमेय : ब्रेक बल पूरी गतिज ऊर्जा समाप्त करता है, F × s = K ⇒ F = K/s ।</p><p>F<sub>A</sub>/F<sub>B</sub> = (100/1000)/(225/1500) = 0.1/0.15 = <b>2/3</b>।</p>",
+     "hint": "प्रत्येक कार के लिए F = K/s ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1227,10 +1517,22 @@
       "(1/(2 + 3 sin θ))<sup>1/2</sup>",
       "(cos θ/(2 + 3 sin θ))<sup>1/2</sup>",
       "(sin θ/(2 + 3 sin θ))<sup>1/2</sup>"
-     ]
+     ],
+     "sol": "<p>The string goes slack at P (angle θ above the horizontal) when tension becomes zero; then the radial component of gravity alone gives the centripetal force: mg sin θ = mv<sup>2</sup>/l ⇒ v<sup>2</sup> = gl sin θ.</p><p>Energy from the lowest point (height of P above it = l + l sin θ): v<sub>0</sub><sup>2</sup> = v<sup>2</sup> + 2gl(1 + sin θ) = gl(2 + 3 sin θ).</p><p>v/v<sub>0</sub> = <b>(sin θ/(2 + 3 sin θ))<sup>1/2</sup></b>.</p>",
+     "hint": "Slack ⇒ T = 0 ⇒ mg sin θ = mv<sup>2</sup>/l; then use energy conservation."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "भारी द्रव्यमान m का एक डोलक l लंबाई की एक हलकी डोरी से लटका है। डोलक को चित्र में दिखाए अनुसार क्षैतिज वेग v<sub>0</sub> दिया जाता है। यदि डोरी क्षैतिज से θ कोण बनाने वाले किसी बिंदु P पर ढीली हो जाती है, तो बिंदु P पर डोलक की चाल v का उसकी प्रारंभिक चाल v<sub>0</sub> से अनुपात है :",
+     "o": [
+      "(sin θ)<sup>1/2</sup>",
+      "(1/(2 + 3 sin θ))<sup>1/2</sup>",
+      "(cos θ/(2 + 3 sin θ))<sup>1/2</sup>",
+      "(sin θ/(2 + 3 sin θ))<sup>1/2</sup>"
+     ],
+     "sol": "<p>डोरी P पर (क्षैतिज से θ कोण ऊपर) तब ढीली होती है जब तनाव शून्य हो जाता है; तब केवल गुरुत्व का त्रिज्य घटक अभिकेंद्र बल देता है : mg sin θ = mv<sup>2</sup>/l ⇒ v<sup>2</sup> = gl sin θ।</p><p>निम्नतम बिंदु से ऊर्जा (P की उससे ऊँचाई = l + l sin θ) : v<sub>0</sub><sup>2</sup> = v<sup>2</sup> + 2gl(1 + sin θ) = gl(2 + 3 sin θ)।</p><p>v/v<sub>0</sub> = <b>(sin θ/(2 + 3 sin θ))<sup>1/2</sup></b>।</p>",
+     "hint": "ढीली ⇒ T = 0 ⇒ mg sin θ = mv<sup>2</sup>/l; फिर ऊर्जा संरक्षण लगाइए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1274,10 +1576,22 @@
       "19.6 W",
       "39.2 kW",
       "39.2 W"
-     ]
+     ],
+     "sol": "<p>Work done = mgh = 1000 × 9.8 × 20 = 196000 J. Power = W/t = 196000/10 = 19600 W = <b>19.6 kW</b>.</p>",
+     "hint": "P = mgh/t."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक क्रेन, जो 1000 kg द्रव्यमान को 10 s में 20 m की ऊँचाई तक उठाती है, की शक्ति है : (g = 9.8 m/s<sup>2</sup>)",
+     "o": [
+      "19.6 kW",
+      "19.6 W",
+      "39.2 kW",
+      "39.2 W"
+     ],
+     "sol": "<p>किया गया कार्य = mgh = 1000 × 9.8 × 20 = 196000 J। शक्ति = W/t = 196000/10 = 19600 W = <b>19.6 kW</b>।</p>",
+     "hint": "P = mgh/t ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
