@@ -91,10 +91,22 @@
       "106 Hz",
       "97 Hz",
       "100 Hz"
-     ]
+     ],
+     "sol": "<p>Only the component of the source velocity along the source–observer line matters: 19.4 cos 60° = 9.7 m/s, towards the observer.</p><p>f′ = f × v/(v − v<sub>s</sub>) = 100 × 330/(330 − 9.7) = 100 × 330/320.3 ≈ <b>103 Hz</b>.</p>",
+     "hint": "Use the velocity component along the line of sight."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "100 Hz आवृत्ति की तरंगें उत्सर्जित करने वाला एक ध्वनि स्रोत S और एक प्रेक्षक O एक-दूसरे से कुछ दूरी पर स्थित हैं। स्रोत चित्र में दिखाए अनुसार स्रोत-प्रेक्षक रेखा से 60° के कोण पर 19.4 m s<sup>−1</sup> की चाल से चल रहा है। प्रेक्षक विराम में है। प्रेक्षक द्वारा प्रेक्षित आभासी आवृत्ति (वायु में ध्वनि का वेग 330 m s<sup>−1</sup>) है :",
+     "o": [
+      "103 Hz",
+      "106 Hz",
+      "97 Hz",
+      "100 Hz"
+     ],
+     "sol": "<p>स्रोत-प्रेक्षक रेखा के अनुदिश स्रोत के वेग का केवल घटक प्रभावी है : 19.4 cos 60° = 9.7 m/s, प्रेक्षक की ओर।</p><p>f′ = f × v/(v − v<sub>s</sub>) = 100 × 330/(330 − 9.7) = 100 × 330/320.3 ≈ <b>103 Hz</b>।</p>",
+     "hint": "दृष्टि रेखा के अनुदिश वेग का घटक लीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -136,10 +148,22 @@
       "10.5 Hz",
       "105 Hz",
       "155 Hz"
-     ]
+     ],
+     "sol": "<p>For a string fixed at both ends the resonant frequencies are nf<sub>1</sub>. Two neighbouring ones differ by f<sub>1</sub>: f<sub>1</sub> = 420 − 315 = <b>105 Hz</b> (315 = 3 × 105, 420 = 4 × 105).</p>",
+     "hint": "Consecutive harmonics differ by the fundamental."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक डोरी 75.0 cm की दूरी पर स्थित स्थिर बिंदुओं के बीच तानित है। इसकी अनुनादी आवृत्तियाँ 420 Hz और 315 Hz प्रेक्षित की जाती हैं। इन दोनों के बीच कोई अन्य अनुनादी आवृत्ति नहीं है। इस डोरी के लिए निम्नतम अनुनादी आवृत्ति है :",
+     "o": [
+      "205 Hz",
+      "10.5 Hz",
+      "105 Hz",
+      "155 Hz"
+     ],
+     "sol": "<p>दोनों सिरों पर स्थिर डोरी की अनुनादी आवृत्तियाँ nf<sub>1</sub> होती हैं। दो पड़ोसी आवृत्तियों का अंतर f<sub>1</sub> है : f<sub>1</sub> = 420 − 315 = <b>105 Hz</b> (315 = 3 × 105, 420 = 4 × 105)।</p>",
+     "hint": "क्रमागत गुणावृत्तियों का अंतर मूल आवृत्ति के बराबर है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -182,10 +206,22 @@
       "800 Hz",
       "838 Hz",
       "885 Hz"
-     ]
+     ],
+     "sol": "<p>The cliff receives sound from a source approaching it at 15 m/s: f′ = 800 × 330/(330 − 15) = 800 × 330/315 ≈ 838 Hz. The cliff reflects this frequency to the stationary observer unchanged.</p><p>Echo frequency ≈ <b>838 Hz</b>.</p>",
+     "hint": "Treat the cliff as a stationary observer, then as a stationary source."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "800 Hz आवृत्ति की ध्वनि उत्सर्जित करता एक सायरन एक प्रेक्षक से दूर एक चट्टान की ओर 15 m s<sup>−1</sup> की चाल से चलता है। तब चट्टान से परावर्तित प्रतिध्वनि में प्रेक्षक द्वारा सुनी गई ध्वनि की आवृत्ति है : (वायु में ध्वनि का वेग = 330 m s<sup>−1</sup> लीजिए)",
+     "o": [
+      "765 Hz",
+      "800 Hz",
+      "838 Hz",
+      "885 Hz"
+     ],
+     "sol": "<p>चट्टान, अपनी ओर 15 m/s से आते स्रोत की ध्वनि ग्रहण करती है : f′ = 800 × 330/(330 − 15) = 800 × 330/315 ≈ 838 Hz। चट्टान यही आवृत्ति स्थिर प्रेक्षक की ओर अपरिवर्तित परावर्तित करती है।</p><p>प्रतिध्वनि की आवृत्ति ≈ <b>838 Hz</b>।</p>",
+     "hint": "चट्टान को पहले स्थिर प्रेक्षक, फिर स्थिर स्रोत मानिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -227,10 +263,22 @@
       "√((m<sub>1</sub> + m<sub>2</sub>)/m<sub>2</sub>)",
       "√(m<sub>2</sub>/m<sub>1</sub>)",
       "√((m<sub>1</sub> + m<sub>2</sub>)/m<sub>1</sub>)"
-     ]
+     ],
+     "sol": "<p>Tension at the bottom = m<sub>2</sub>g; at the top = (m<sub>1</sub> + m<sub>2</sub>)g. Wave speed v = √(T/μ) and the frequency does not change, so λ ∝ v ∝ √T.</p><p>λ<sub>2</sub>/λ<sub>1</sub> = <b>√((m<sub>1</sub> + m<sub>2</sub>)/m<sub>2</sub>)</b>.</p>",
+     "hint": "Frequency stays the same along the rope; λ ∝ √T."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "L लंबाई और m<sub>1</sub> द्रव्यमान की एक एकसमान रस्सी एक दृढ़ आधार से ऊर्ध्वाधर लटकी है। रस्सी के मुक्त सिरे से m<sub>2</sub> द्रव्यमान का एक गुटका जुड़ा है। रस्सी के निचले सिरे पर λ<sub>1</sub> तरंगदैर्ध्य का एक अनुप्रस्थ स्पंद उत्पन्न किया जाता है। रस्सी के शीर्ष पर पहुँचने पर स्पंद की तरंगदैर्ध्य λ<sub>2</sub> है। अनुपात λ<sub>2</sub>/λ<sub>1</sub> है :",
+     "o": [
+      "√(m<sub>1</sub>/m<sub>2</sub>)",
+      "√((m<sub>1</sub> + m<sub>2</sub>)/m<sub>2</sub>)",
+      "√(m<sub>2</sub>/m<sub>1</sub>)",
+      "√((m<sub>1</sub> + m<sub>2</sub>)/m<sub>1</sub>)"
+     ],
+     "sol": "<p>तली पर तनाव = m<sub>2</sub>g; शीर्ष पर = (m<sub>1</sub> + m<sub>2</sub>)g। तरंग चाल v = √(T/μ) और आवृत्ति नहीं बदलती, अतः λ ∝ v ∝ √T।</p><p>λ<sub>2</sub>/λ<sub>1</sub> = <b>√((m<sub>1</sub> + m<sub>2</sub>)/m<sub>2</sub>)</b>।</p>",
+     "hint": "रस्सी के अनुदिश आवृत्ति समान रहती है; λ ∝ √T।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -273,10 +321,22 @@
       "100 cm",
       "150 cm",
       "200 cm"
-     ]
+     ],
+     "sol": "<p>A pipe closed at one end resonates at lengths λ/4, 3λ/4, 5λ/4, … Smallest length λ/4 = 50 cm, so the next is 3λ/4 = 3 × 50 = <b>150 cm</b>.</p>",
+     "hint": "Successive resonance lengths differ by λ/2 = 100 cm."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक सिरे पर बंद और दूसरे सिरे पर खुला एक वायु स्तंभ एक स्वरित्र द्विभुज के साथ तब अनुनाद करता है जब स्तंभ की न्यूनतम लंबाई 50 cm है। उसी स्वरित्र द्विभुज के साथ अनुनाद करने वाली स्तंभ की अगली बड़ी लंबाई है :",
+     "o": [
+      "66.7 cm",
+      "100 cm",
+      "150 cm",
+      "200 cm"
+     ],
+     "sol": "<p>एक सिरे पर बंद पाइप λ/4, 3λ/4, 5λ/4, … लंबाइयों पर अनुनाद करता है। न्यूनतम लंबाई λ/4 = 50 cm, अतः अगली 3λ/4 = 3 × 50 = <b>150 cm</b>।</p>",
+     "hint": "क्रमागत अनुनाद लंबाइयों का अंतर λ/2 = 100 cm है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -319,10 +379,22 @@
       "2L",
       "L/2",
       "4L"
-     ]
+     ],
+     "sol": "<p>Open pipe of length l: second overtone = 3rd harmonic = 3v/(2l). Closed pipe of length L: first overtone = 3rd harmonic = 3v/(4L).</p><p>3v/(2l) = 3v/(4L) ⇒ l = <b>2L</b>.</p>",
+     "hint": "Open pipe: all harmonics; closed pipe: odd harmonics only."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक खुले ऑर्गन पाइप का द्वितीय अधिस्वरक, L मीटर लंबे एक बंद पाइप के प्रथम अधिस्वरक की आवृत्ति के बराबर है। खुले पाइप की लंबाई होगी :",
+     "o": [
+      "L",
+      "2L",
+      "L/2",
+      "4L"
+     ],
+     "sol": "<p>l लंबाई का खुला पाइप : द्वितीय अधिस्वरक = तृतीय गुणावृत्ति = 3v/(2l)। L लंबाई का बंद पाइप : प्रथम अधिस्वरक = तृतीय गुणावृत्ति = 3v/(4L)।</p><p>3v/(2l) = 3v/(4L) ⇒ l = <b>2L</b>।</p>",
+     "hint": "खुला पाइप : सभी गुणावृत्तियाँ; बंद पाइप : केवल विषम गुणावृत्तियाँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -365,10 +437,22 @@
       "4",
       "3",
       "2"
-     ]
+     ],
+     "sol": "<p>Write the sum as A cos 2πnt × [1 + 2 cos 2πt]: the middle frequency n is modulated by an envelope 1 + 2 cos 2πt, which has period 1 s. Its loud maxima come once per second, but taking intensity maxima of the combined waves the standard answer is the largest frequency difference: (n + 1) − (n − 1) = <b>2</b> beats per second.</p>",
+     "hint": "Beat frequency = difference between the extreme frequencies."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समान आयाम की तीन ध्वनि तरंगों की आवृत्तियाँ (n − 1), n, (n + 1) हैं। वे अध्यारोपित होकर विस्पंद उत्पन्न करती हैं। प्रति सेकंड उत्पन्न विस्पंदों की संख्या होगी :",
+     "o": [
+      "1",
+      "4",
+      "3",
+      "2"
+     ],
+     "sol": "<p>योग को A cos 2πnt × [1 + 2 cos 2πt] के रूप में लिखिए : मध्य आवृत्ति n एक आवरण 1 + 2 cos 2πt द्वारा मॉडुलित है, जिसका आवर्तकाल 1 s है। इसके प्रबल उच्चिष्ठ प्रति सेकंड एक बार आते हैं, परंतु संयुक्त तरंगों की तीव्रता उच्चिष्ठों के लिए मानक उत्तर सबसे बड़ा आवृत्ति अंतर है : (n + 1) − (n − 1) = <b>2</b> विस्पंद प्रति सेकंड।</p>",
+     "hint": "विस्पंद आवृत्ति = चरम आवृत्तियों का अंतर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -411,10 +495,22 @@
       "361 Hz",
       "411 Hz",
       "448 Hz"
-     ]
+     ],
+     "sol": "<p>Source (first car) approaches at v<sub>s</sub> = 22 m/s; observer (second car) approaches at v<sub>o</sub> = 16.5 m/s.</p><p>f′ = f(v + v<sub>o</sub>)/(v − v<sub>s</sub>) = 400 × 356.5/318 ≈ <b>448 Hz</b>.</p>",
+     "hint": "Both moving towards each other ⇒ frequency increases."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "विपरीत दिशाओं में चलती दो कारें एक-दूसरे की ओर क्रमशः 22 m/s और 16.5 m/s की चाल से आ रही हैं। पहली कार का चालक 400 Hz आवृत्ति का हॉर्न बजाता है। दूसरी कार के चालक द्वारा सुनी गई आवृत्ति है [ध्वनि का वेग 340 m/s]",
+     "o": [
+      "350 Hz",
+      "361 Hz",
+      "411 Hz",
+      "448 Hz"
+     ],
+     "sol": "<p>स्रोत (पहली कार) v<sub>s</sub> = 22 m/s से पास आता है; प्रेक्षक (दूसरी कार) v<sub>o</sub> = 16.5 m/s से पास आता है।</p><p>f′ = f(v + v<sub>o</sub>)/(v − v<sub>s</sub>) = 400 × 356.5/318 ≈ <b>448 Hz</b>।</p>",
+     "hint": "दोनों एक-दूसरे की ओर ⇒ आवृत्ति बढ़ती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -456,10 +552,22 @@
       "20 Hz",
       "30 Hz",
       "40 Hz"
-     ]
+     ],
+     "sol": "<p>A closed tube has only odd harmonics f<sub>1</sub>, 3f<sub>1</sub>, 5f<sub>1</sub>, … so neighbouring harmonics differ by 2f<sub>1</sub>.</p><p>2f<sub>1</sub> = 260 − 220 = 40 ⇒ f<sub>1</sub> = <b>20 Hz</b> (220 = 11f<sub>1</sub>, 260 = 13f<sub>1</sub>).</p>",
+     "hint": "Odd harmonics only: the gap is 2f<sub>1</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक सिरे पर बंद और दूसरे सिरे पर खुली नली की दो निकटतम गुणावृत्तियाँ 220 Hz और 260 Hz हैं। निकाय की मूल आवृत्ति क्या है?",
+     "o": [
+      "10 Hz",
+      "20 Hz",
+      "30 Hz",
+      "40 Hz"
+     ],
+     "sol": "<p>बंद नली में केवल विषम गुणावृत्तियाँ f<sub>1</sub>, 3f<sub>1</sub>, 5f<sub>1</sub>, … होती हैं, अतः पड़ोसी गुणावृत्तियों का अंतर 2f<sub>1</sub> है।</p><p>2f<sub>1</sub> = 260 − 220 = 40 ⇒ f<sub>1</sub> = <b>20 Hz</b> (220 = 11f<sub>1</sub>, 260 = 13f<sub>1</sub>)।</p>",
+     "hint": "केवल विषम गुणावृत्तियाँ : अंतर 2f<sub>1</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -502,10 +610,22 @@
       "8 cm",
       "13.2 cm",
       "16 cm"
-     ]
+     ],
+     "sol": "<p>Closed pipe (20 cm): third harmonic = 3v/(4 × 20). Open pipe of length L: fundamental = v/(2L).</p><p>v/(2L) = 3v/80 ⇒ L = 80/6 ≈ <b>13.3 cm</b> (option 13.2 cm).</p>",
+     "hint": "Third harmonic of a closed pipe = 3v/4L."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक खुले ऑर्गन पाइप की मूल आवृत्ति एक बंद ऑर्गन पाइप की तृतीय गुणावृत्ति के बराबर है। यदि बंद ऑर्गन पाइप की लंबाई 20 cm है, तो खुले ऑर्गन पाइप की लंबाई है :",
+     "o": [
+      "12.5 cm",
+      "8 cm",
+      "13.2 cm",
+      "16 cm"
+     ],
+     "sol": "<p>बंद पाइप (20 cm) : तृतीय गुणावृत्ति = 3v/(4 × 20)। L लंबाई का खुला पाइप : मूल आवृत्ति = v/(2L)।</p><p>v/(2L) = 3v/80 ⇒ L = 80/6 ≈ <b>13.3 cm</b> (विकल्प 13.2 cm)।</p>",
+     "hint": "बंद पाइप की तृतीय गुणावृत्ति = 3v/4L।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -548,10 +668,22 @@
       "537 Hz",
       "523 Hz",
       "524 Hz"
-     ]
+     ],
+     "sol": "<p>Beats 6 Hz ⇒ f<sub>B</sub> = 524 or 536 Hz. Decreasing the tension in B lowers f<sub>B</sub>. The beat frequency rises to 7 Hz only if f<sub>B</sub> moves away from 530 Hz, i.e. f<sub>B</sub> was below it: f<sub>B</sub> = <b>524 Hz</b> (it becomes 523 Hz).</p>",
+     "hint": "Lower tension ⇒ lower frequency; check which choice increases the beats."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक गिटार में एक ही पदार्थ की बनी दो डोरियाँ A और B थोड़ी बेसुरी हैं और 6 Hz आवृत्ति के विस्पंद उत्पन्न करती हैं। जब B में तनाव थोड़ा कम किया जाता है, तो विस्पंद आवृत्ति बढ़कर 7 Hz हो जाती है। यदि A की आवृत्ति 530 Hz है, तो B की मूल आवृत्ति होगी :",
+     "o": [
+      "536 Hz",
+      "537 Hz",
+      "523 Hz",
+      "524 Hz"
+     ],
+     "sol": "<p>विस्पंद 6 Hz ⇒ f<sub>B</sub> = 524 या 536 Hz। B का तनाव घटाने पर f<sub>B</sub> घटती है। विस्पंद आवृत्ति 7 Hz तभी होगी जब f<sub>B</sub>, 530 Hz से और दूर हो, अर्थात f<sub>B</sub> उससे कम थी : f<sub>B</sub> = <b>524 Hz</b> (यह 523 Hz हो जाती है)।</p>",
+     "hint": "कम तनाव ⇒ कम आवृत्ति; देखिए कौन-सा विकल्प विस्पंद बढ़ाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -594,10 +726,22 @@
       "1 : √2",
       "1 : 2",
       "1 : 1"
-     ]
+     ],
+     "sol": "<p>v = √(T/μ) ∝ √T. Doubling T: v<sub>i</sub>/v<sub>f</sub> = √(T/2T) = <b>1 : √2</b>.</p>",
+     "hint": "Speed on a string ∝ √tension."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि तानित डोरी पर प्रारंभिक तनाव दोगुना कर दिया जाए, तो डोरी के अनुदिश अनुप्रस्थ तरंग की प्रारंभिक और अंतिम चालों का अनुपात है :",
+     "o": [
+      "√2 : 1",
+      "1 : √2",
+      "1 : 2",
+      "1 : 1"
+     ],
+     "sol": "<p>v = √(T/μ) ∝ √T। T दोगुना करने पर : v<sub>i</sub>/v<sub>f</sub> = √(T/2T) = <b>1 : √2</b>।</p>",
+     "hint": "डोरी पर चाल ∝ √तनाव।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -640,10 +784,22 @@
       "1 : 2",
       "2 : 1",
       "1 : 3"
-     ]
+     ],
+     "sol": "<p>Open pipe fundamental v/(2L); closed pipe fundamental v/(4L). Ratio = <b>2 : 1</b>.</p>",
+     "hint": "Closed pipe: L = λ/4; open pipe: L = λ/2."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समान लंबाई वाले खुले पाइप और बंद पाइप द्वारा उत्पन्न मूल गुणावृत्ति की आवृत्तियों का अनुपात है :",
+     "o": [
+      "3 : 1",
+      "1 : 2",
+      "2 : 1",
+      "1 : 3"
+     ],
+     "sol": "<p>खुले पाइप की मूल आवृत्ति v/(2L); बंद पाइप की मूल आवृत्ति v/(4L)। अनुपात = <b>2 : 1</b>।</p>",
+     "hint": "बंद पाइप : L = λ/4; खुला पाइप : L = λ/2।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -686,10 +842,22 @@
       "f",
       "3f/2",
       "2f"
-     ]
+     ],
+     "sol": "<p>Open pipe of length L: f = v/(2L). Dipped to half its length, it becomes a pipe of length L/2 closed at the water end: f′ = v/(4 × L/2) = v/(2L) = <b>f</b>.</p>",
+     "hint": "Water closes one end and halves the air column."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दोनों सिरों पर खुले एक पाइप की वायु में मूल आवृत्ति f है। अब पाइप को जल के ड्रम में उसकी आधी लंबाई तक ऊर्ध्वाधर डुबोया जाता है। वायु स्तंभ की मूल आवृत्ति अब बराबर है :",
+     "o": [
+      "f/2",
+      "f",
+      "3f/2",
+      "2f"
+     ],
+     "sol": "<p>L लंबाई का खुला पाइप : f = v/(2L)। आधी लंबाई तक डुबोने पर यह जल वाले सिरे पर बंद L/2 लंबाई का पाइप बन जाता है : f′ = v/(4 × L/2) = v/(2L) = <b>f</b>।</p>",
+     "hint": "जल एक सिरे को बंद करता है और वायु स्तंभ को आधा कर देता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -732,10 +900,22 @@
       "0.008π rad",
       "0.8π rad",
       "8π rad"
-     ]
+     ],
+     "sol": "<p>Phase = 2π(10t − 0.0080x + 0.35), so the angular wave number is k = 2π × 0.0080 rad/cm. For Δx = 0.5 m = 50 cm:</p><p>Δφ = kΔx = 2π × 0.0080 × 50 = <b>0.8π rad</b>.</p>",
+     "hint": "x is in cm: convert 0.5 m to 50 cm."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक प्रगामी आवर्ती तरंग y(x, t) = 2.0 cos 2π(10t − 0.0080x + 0.35) के लिए, जहाँ x और y, cm में तथा t, s में हैं। 0.5 m की दूरी पर स्थित दो बिंदुओं की दोलन गतियों के बीच कलांतर है :",
+     "o": [
+      "0.08π rad",
+      "0.008π rad",
+      "0.8π rad",
+      "8π rad"
+     ],
+     "sol": "<p>कला = 2π(10t − 0.0080x + 0.35), अतः कोणीय तरंग संख्या k = 2π × 0.0080 rad/cm । Δx = 0.5 m = 50 cm के लिए :</p><p>Δφ = kΔx = 2π × 0.0080 × 50 = <b>0.8π rad</b>।</p>",
+     "hint": "x, cm में है : 0.5 m को 50 cm में बदलिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
