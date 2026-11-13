@@ -103,10 +103,22 @@
       "4 minutes",
       "5 minutes",
       "10 minutes"
-     ]
+     ],
+     "sol": "<p>99.9% completion leaves 1/1000 of the reactant. For first order, t = (t<sub>1/2</sub>/0.693) ln 1000 = t<sub>1/2</sub> × log 1000/log 2 = 1 × 3/0.301 ≈ 9.97 minutes ≈ <b>10 minutes</b>.</p>",
+     "hint": "t<sub>99.9%</sub> ≈ 10 half-lives (2<sup>10</sup> ≈ 1000)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि किसी प्रथम कोटि की अभिक्रिया की अर्धायु (t<sub>1/2</sub>) 1 min है, तो अभिक्रिया के 99.9 % पूर्ण होने में लगने वाला समय निकटतम है:",
+     "o": [
+      "2 मिनट",
+      "4 मिनट",
+      "5 मिनट",
+      "10 मिनट"
+     ],
+     "sol": "<p>99.9% पूर्ण होने पर अभिकारक का 1/1000 शेष रहता है। प्रथम कोटि के लिए t = (t<sub>1/2</sub>/0.693) ln 1000 = t<sub>1/2</sub> × log 1000/log 2 = 1 × 3/0.301 ≈ 9.97 मिनट ≈ <b>10 मिनट</b>।</p>",
+     "hint": "t<sub>99.9%</sub> ≈ 10 अर्धायु (2<sup>10</sup> ≈ 1000)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -150,10 +162,22 @@
       "23.1 s",
       "210 s",
       "21.0 s"
-     ]
+     ],
+     "sol": "<p>The unit s<sup>−1</sup> shows first order. 7.2 → 0.9 is a factor of 8 = 2<sup>3</sup>.</p><p>t = (2.303/k) log 8 = (2.303/0.03) × 0.903 = <b>69.3 s</b>.</p>",
+     "hint": "Three half-lives; t<sub>1/2</sub> = 0.693/0.03 = 23.1 s."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि किसी अभिक्रिया का वेग स्थिरांक 0.03 s<sup>−1</sup> है, तो अभिकारक की 7.2 mol L<sup>−1</sup> सांद्रता को घटकर 0.9 mol L<sup>−1</sup> होने में कितना समय लगेगा?<br>(दिया है: log 2 = 0.301)",
+     "o": [
+      "69.3 s",
+      "23.1 s",
+      "210 s",
+      "21.0 s"
+     ],
+     "sol": "<p>इकाई s<sup>−1</sup> प्रथम कोटि दर्शाती है। 7.2 → 0.9 का अनुपात 8 = 2<sup>3</sup> है।</p><p>t = (2.303/k) log 8 = (2.303/0.03) × 0.903 = <b>69.3 s</b>।</p>",
+     "hint": "तीन अर्धायु; t<sub>1/2</sub> = 0.693/0.03 = 23.1 s।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -196,10 +220,22 @@
       "380.4 kJ/mol",
       "3.80 kJ/mol",
       "3804 kJ/mol"
-     ]
+     ],
+     "sol": "<p>log(k<sub>2</sub>/k<sub>1</sub>) = (E<sub>a</sub>/2.303R)(T<sub>2</sub> − T<sub>1</sub>)/(T<sub>1</sub>T<sub>2</sub>), with T<sub>1</sub> = 300 K, T<sub>2</sub> = 330 K.</p><p>E<sub>a</sub> = 2.303 × 8.314 × 0.6021 × (300 × 330/30) = 38044 J = <b>38.04 kJ mol<sup>−1</sup></b>.</p>",
+     "hint": "Convert °C to K before using the two-temperature Arrhenius equation."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ताप 27°C से 57°C करने पर किसी अभिक्रिया का वेग चार गुना हो जाता है। सक्रियण ऊर्जा परिकलित कीजिए।<br>(दिया है R = 8.314 J K<sup>−1</sup> mol<sup>−1</sup>, log 4 = 0.6021)",
+     "o": [
+      "38.04 kJ/mol",
+      "380.4 kJ/mol",
+      "3.80 kJ/mol",
+      "3804 kJ/mol"
+     ],
+     "sol": "<p>log(k<sub>2</sub>/k<sub>1</sub>) = (E<sub>a</sub>/2.303R)(T<sub>2</sub> − T<sub>1</sub>)/(T<sub>1</sub>T<sub>2</sub>), जहाँ T<sub>1</sub> = 300 K, T<sub>2</sub> = 330 K।</p><p>E<sub>a</sub> = 2.303 × 8.314 × 0.6021 × (300 × 330/30) = 38044 J = <b>38.04 kJ mol<sup>−1</sup></b>।</p>",
+     "hint": "दो-ताप वाले आर्रेनियस समीकरण से पहले °C को K में बदलें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -242,10 +278,22 @@
       "probability of collision",
       "orientation of reactant molecules during collision",
       "rate constant at two different temperatures"
-     ]
+     ],
+     "sol": "<p>From log(k<sub>2</sub>/k<sub>1</sub>) = (E<sub>a</sub>/2.303R)[(T<sub>2</sub> − T<sub>1</sub>)/T<sub>1</sub>T<sub>2</sub>], E<sub>a</sub> follows directly from the <b>rate constants at two different temperatures</b>. One value of k alone is not enough (A is unknown).</p>",
+     "hint": "Two unknowns (A, E<sub>a</sub>) need two data points."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी भी रासायनिक अभिक्रिया की सक्रियण ऊर्जा परिकलित की जा सकती है यदि किसका मान ज्ञात हो",
+     "o": [
+      "मानक ताप पर वेग स्थिरांक",
+      "संघट्ट की प्रायिकता",
+      "संघट्ट के दौरान अभिकारक अणुओं का अभिविन्यास",
+      "दो भिन्न तापों पर वेग स्थिरांक"
+     ],
+     "sol": "<p>log(k<sub>2</sub>/k<sub>1</sub>) = (E<sub>a</sub>/2.303R)[(T<sub>2</sub> − T<sub>1</sub>)/T<sub>1</sub>T<sub>2</sub>] से E<sub>a</sub> सीधे <b>दो भिन्न तापों पर वेग स्थिरांकों</b> से मिलता है। k का केवल एक मान पर्याप्त नहीं (A अज्ञात है)।</p>",
+     "hint": "दो अज्ञात (A, E<sub>a</sub>) के लिए दो आँकड़े चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -288,10 +336,22 @@
       "Straight line of positive slope with positive intercept (as drawn)",
       "Straight line of positive slope through the origin (as drawn)",
       "Straight line of negative slope with positive intercept on the ln k axis"
-     ]
+     ],
+     "sol": "<p>ln k = ln A − (E<sub>a</sub>/R)(1/T): a straight line with slope −E<sub>a</sub>/R (negative) and intercept ln A on the ln k axis (positive for usual A). Option (4).</p>",
+     "hint": "Compare with y = c + mx."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ln k बनाम 1/T का कौन-सा आलेख आर्रेनियस समीकरण के अनुरूप है?",
+     "o": [
+      "धनात्मक ढाल वाली सरल रेखा, 1/T अक्ष के नीचे से आरंभ (चित्रानुसार)",
+      "धनात्मक ढाल और धनात्मक अंतःखंड वाली सरल रेखा (चित्रानुसार)",
+      "मूल बिंदु से होकर जाने वाली धनात्मक ढाल की सरल रेखा (चित्रानुसार)",
+      "ln k अक्ष पर धनात्मक अंतःखंड वाली ऋणात्मक ढाल की सरल रेखा"
+     ],
+     "sol": "<p>ln k = ln A − (E<sub>a</sub>/R)(1/T): ढाल −E<sub>a</sub>/R (ऋणात्मक) और ln k अक्ष पर अंतःखंड ln A (सामान्य A के लिए धनात्मक) वाली सरल रेखा। विकल्प (4)।</p>",
+     "hint": "y = c + mx से तुलना करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -335,10 +395,22 @@
       "A-IV, B-III, C-I, D-II",
       "A-I, B-II, C-III, D-IV",
       "A-IV, B-II, C-I, D-III"
-     ]
+     ],
+     "sol": "<p>Units of k = (mol L<sup>−1</sup>)<sup>1−n</sup> s<sup>−1</sup>.</p><ul><li>n = 0: mol L<sup>−1</sup> s<sup>−1</sup> (IV)</li><li>n = 1: s<sup>−1</sup> (III)</li><li>n = 2: mol<sup>−1</sup> L s<sup>−1</sup> (I)</li><li>n = 3: mol<sup>−2</sup> L<sup>2</sup> s<sup>−1</sup> (II)</li></ul>",
+     "hint": "k unit = (mol L<sup>−1</sup>)<sup>1−n</sup> s<sup>−1</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>सूची-I (अभिक्रिया की कोटि): A. शून्य कोटि B. प्रथम कोटि C. द्वितीय कोटि D. तृतीय कोटि<br>सूची-II (वेग स्थिरांक की इकाई): I. mol<sup>−1</sup> L s<sup>−1</sup> II. mol<sup>−2</sup> L<sup>2</sup> s<sup>−1</sup> III. s<sup>−1</sup> IV. mol L<sup>−1</sup> s<sup>−1</sup><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "A-IV, B-III, C-II, D-I",
+      "A-IV, B-III, C-I, D-II",
+      "A-I, B-II, C-III, D-IV",
+      "A-IV, B-II, C-I, D-III"
+     ],
+     "sol": "<p>k की इकाई = (mol L<sup>−1</sup>)<sup>1−n</sup> s<sup>−1</sup>।</p><ul><li>n = 0: mol L<sup>−1</sup> s<sup>−1</sup> (IV)</li><li>n = 1: s<sup>−1</sup> (III)</li><li>n = 2: mol<sup>−1</sup> L s<sup>−1</sup> (I)</li><li>n = 3: mol<sup>−2</sup> L<sup>2</sup> s<sup>−1</sup> (II)</li></ul>",
+     "hint": "k की इकाई = (mol L<sup>−1</sup>)<sup>1−n</sup> s<sup>−1</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -381,10 +453,22 @@
       "18.63",
       "14.34",
       "24.84"
-     ]
+     ],
+     "sol": "<p>Compare with ln k = ln A − E<sub>a</sub>/RT: E<sub>a</sub>/R = 1.25 × 10<sup>4</sup> K.</p><p>E<sub>a</sub> = 1.25 × 10<sup>4</sup> × 1.987 = 24838 cal ≈ <b>24.84 kcal mol<sup>−1</sup></b>.</p>",
+     "hint": "The coefficient of 1/T is E<sub>a</sub>/R (natural log, so no 2.303)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी ताप T(K) पर होने वाली एक प्रथम कोटि की अभिक्रिया के वेग स्थिरांक के लिए नीचे एक व्यंजक दिया गया है।<br>ln k = 14.34 − (1.25 × 10<sup>4</sup>)/T<br>अभिक्रिया की सक्रियण ऊर्जा kcal mol<sup>−1</sup> में है (दिया है : k, s<sup>−1</sup> में है, R = 1.987 cal mol<sup>−1</sup> K<sup>−1</sup>)",
+     "o": [
+      "12.42",
+      "18.63",
+      "14.34",
+      "24.84"
+     ],
+     "sol": "<p>ln k = ln A − E<sub>a</sub>/RT से तुलना: E<sub>a</sub>/R = 1.25 × 10<sup>4</sup> K।</p><p>E<sub>a</sub> = 1.25 × 10<sup>4</sup> × 1.987 = 24838 cal ≈ <b>24.84 kcal mol<sup>−1</sup></b>।</p>",
+     "hint": "1/T का गुणांक E<sub>a</sub>/R है (प्राकृतिक लघुगणक, अतः 2.303 नहीं)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -428,10 +512,22 @@
       "2.5",
       "2",
       "0"
-     ]
+     ],
+     "sol": "<p>Zero order: [R] = [R]<sub>0</sub> − kt, a straight line of slope −k on a [R] vs t plot. A linear fall of concentration with time means order <b>0</b>.</p>",
+     "hint": "Which order gives a straight line for [R] vs t?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी अभिक्रिया R → उत्पाद के लिए सांद्रता [R] बनाम समय का आलेख दर्शाए अनुसार ऋणात्मक ढाल रखता है। अभिक्रिया की कोटि है :<br>[आलेख: [R] समय के साथ रैखिक रूप से घटता है, k = −ढाल]",
+     "o": [
+      "1",
+      "2.5",
+      "2",
+      "0"
+     ],
+     "sol": "<p>शून्य कोटि: [R] = [R]<sub>0</sub> − kt, [R] बनाम t आलेख पर −k ढाल वाली सरल रेखा। समय के साथ सांद्रता का रैखिक रूप से घटना कोटि <b>0</b> दर्शाता है।</p>",
+     "hint": "किस कोटि के लिए [R] बनाम t सरल रेखा होती है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -475,10 +571,22 @@
       "decrease by a factor of nine.",
       "increase by a factor of six.",
       "increase by a factor of nine"
-     ]
+     ],
+     "sol": "<p>Rate ∝ [A]<sup>2</sup>. Tripling [A] multiplies the rate by 3<sup>2</sup> = <b>9</b>.</p>",
+     "hint": "Raise the factor to the order in A."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी अभिक्रिया के लिए वेग = k[A]<sup>2</sup>[B] है। B की सांद्रता स्थिर रखते हुए A की प्रारंभिक सांद्रता तिगुनी करने पर प्रारंभिक वेग",
+     "o": [
+      "तीन गुना बढ़ जाएगा।",
+      "नौ गुना घट जाएगा।",
+      "छह गुना बढ़ जाएगा।",
+      "नौ गुना बढ़ जाएगा"
+     ],
+     "sol": "<p>वेग ∝ [A]<sup>2</sup>। [A] तिगुना करने पर वेग 3<sup>2</sup> = <b>9</b> गुना हो जाता है।</p>",
+     "hint": "गुणक की घात A में कोटि के बराबर लें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -521,10 +629,22 @@
       "Both A and R are true and R is the correct explanation of A.",
       "Both A and R are true but R is NOT the correct explanation of A.",
       "A is true but R is false."
-     ]
+     ],
+     "sol": "<p>R is the textbook definition of activation energy, so R is true. A is also accepted as true (some reactions, such as combination of free radicals, have essentially zero E<sub>a</sub>). But the definition of E<sub>a</sub> does not explain why it can be zero. <b>Both true; R is not the explanation.</b></p>",
+     "hint": "A definition does not explain a special case."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं: एक को अभिकथन A और दूसरे को कारण R कहा गया है:<br>अभिकथन A: किसी अभिक्रिया की सक्रियण ऊर्जा शून्य हो सकती है।<br>कारण R: अभिकारक अणुओं द्वारा अवशोषित ऊर्जा की वह न्यूनतम अतिरिक्त मात्रा, जिससे उनकी ऊर्जा देहली मान के बराबर हो जाए, सक्रियण ऊर्जा कहलाती है।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+     "o": [
+      "A असत्य है परंतु R सत्य है।",
+      "A और R दोनों सत्य हैं और R, A की सही व्याख्या है।",
+      "A और R दोनों सत्य हैं परंतु R, A की सही व्याख्या नहीं है।",
+      "A सत्य है परंतु R असत्य है।"
+     ],
+     "sol": "<p>R सक्रियण ऊर्जा की पाठ्यपुस्तक वाली परिभाषा है, अतः R सत्य है। A भी सत्य माना जाता है (कुछ अभिक्रियाओं, जैसे मुक्त मूलकों के संयोजन, का E<sub>a</sub> लगभग शून्य होता है)। परंतु E<sub>a</sub> की परिभाषा यह नहीं बताती कि यह शून्य क्यों हो सकती है। <b>दोनों सत्य; R व्याख्या नहीं है।</b></p>",
+     "hint": "परिभाषा किसी विशेष स्थिति की व्याख्या नहीं करती।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -567,10 +687,22 @@
       "PE profile with B slightly above A (as drawn)",
       "PE profile with B below A, activation barrier above A",
       "PE profile with A and B at the same level (as drawn)"
-     ]
+     ],
+     "sol": "<p>ΔH = −4.2 kJ mol<sup>−1</sup> (exothermic) → B lies below A. Activation enthalpy 9.6 kJ mol<sup>−1</sup> → the peak is 9.6 kJ above A. The profile with B below A and a barrier above A is option (3).</p>",
+     "hint": "Exothermic: products below reactants; E<sub>a</sub> is measured from the reactants."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अभिक्रिया A → B के लिए अभिक्रिया की एन्थैल्पी −4.2 kJ mol<sup>−1</sup> और सक्रियण की एन्थैल्पी 9.6 kJ mol<sup>−1</sup> है। अभिक्रिया के लिए सही स्थितिज ऊर्जा आलेख विकल्प में दर्शाया गया है।",
+     "o": [
+      "स्थितिज ऊर्जा (PE) आलेख जिसमें B, A से ऊपर है (चित्रानुसार)",
+      "स्थितिज ऊर्जा (PE) आलेख जिसमें B, A से थोड़ा ऊपर है (चित्रानुसार)",
+      "स्थितिज ऊर्जा (PE) आलेख जिसमें B, A से नीचे है, सक्रियण अवरोध A से ऊपर",
+      "स्थितिज ऊर्जा (PE) आलेख जिसमें A और B समान स्तर पर हैं (चित्रानुसार)"
+     ],
+     "sol": "<p>ΔH = −4.2 kJ mol<sup>−1</sup> (ऊष्माक्षेपी) → B, A से नीचे है। सक्रियण एन्थैल्पी 9.6 kJ mol<sup>−1</sup> → शिखर A से 9.6 kJ ऊपर है। B को A से नीचे और अवरोध को A से ऊपर दिखाने वाला आलेख विकल्प (3) है।</p>",
+     "hint": "ऊष्माक्षेपी: उत्पाद अभिकारकों से नीचे; E<sub>a</sub> अभिकारकों से मापी जाती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -617,10 +749,24 @@
       "41.5 kJ mol<sup>−1</sup>",
       "83.0 kJ mol<sup>−1</sup>",
       "166 kJ mol<sup>−1</sup>"
-     ]
+     ],
+     "sol": "<p>Slope of ln k vs 1/T = −E<sub>a</sub>/R → E<sub>a</sub> = 5 × 10<sup>3</sup> × 8.314 = 41570 J ≈ <b>41.5 kJ mol<sup>−1</sup></b>.</p>",
+     "hint": "Natural log: slope = −E<sub>a</sub>/R.",
+     "trap": "83 kJ would come from wrongly multiplying by 2; 2.303 enters only for log<sub>10</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रथम कोटि की अभिक्रिया के आर्रेनियस आलेख (ln k बनाम 1/T) की ढाल −5 × 10<sup>3</sup> K है। अभिक्रिया के E<sub>a</sub> का मान है। अपने उत्तर के लिए सही विकल्प चुनिए।<br>[दिया है R = 8.314 JK<sup>−1</sup>mol<sup>−1</sup>]",
+     "o": [
+      "−83 kJ mol<sup>−1</sup>",
+      "41.5 kJ mol<sup>−1</sup>",
+      "83.0 kJ mol<sup>−1</sup>",
+      "166 kJ mol<sup>−1</sup>"
+     ],
+     "sol": "<p>ln k बनाम 1/T की ढाल = −E<sub>a</sub>/R → E<sub>a</sub> = 5 × 10<sup>3</sup> × 8.314 = 41570 J ≈ <b>41.5 kJ mol<sup>−1</sup></b>।</p>",
+     "hint": "प्राकृतिक लघुगणक: ढाल = −E<sub>a</sub>/R।",
+     "trap": "83 kJ, 2 से गलत गुणा करने पर आता है; 2.303 केवल log<sub>10</sub> के लिए आता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -664,10 +810,22 @@
       "collision frequency",
       "activation energy",
       "heat of reaction"
-     ]
+     ],
+     "sol": "<p>More molecules per unit volume → more collisions per second: the <b>collision frequency</b> rises. Threshold energy, activation energy and heat of reaction are properties of the reaction and do not depend on concentration.</p>",
+     "hint": "Concentration changes how often molecules meet."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी अभिक्रिया के अभिकारकों की सांद्रता में वृद्धि से किसमें परिवर्तन होता है :",
+     "o": [
+      "देहली ऊर्जा",
+      "संघट्ट आवृत्ति",
+      "सक्रियण ऊर्जा",
+      "अभिक्रिया की ऊष्मा"
+     ],
+     "sol": "<p>प्रति इकाई आयतन अधिक अणु → प्रति सेकंड अधिक संघट्ट: <b>संघट्ट आवृत्ति</b> बढ़ती है। देहली ऊर्जा, सक्रियण ऊर्जा और अभिक्रिया की ऊष्मा अभिक्रिया के गुण हैं और सांद्रता पर निर्भर नहीं करते।</p>",
+     "hint": "सांद्रता यह बदलती है कि अणु कितनी बार मिलते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -710,10 +868,22 @@
       "1000 s",
       "100 s",
       "200 s"
-     ]
+     ],
+     "sol": "<p>t = (2.303/k) log([R]<sub>0</sub>/[R]) = (2.303/4.606 × 10<sup>−3</sup>) × log(2.0/0.2) = 500 × 1 = <b>500 s</b>.</p>",
+     "hint": "Mass ratio = concentration ratio = 10."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी प्रथम कोटि की अभिक्रिया का वेग स्थिरांक 4.606 × 10<sup>−3</sup> s<sup>−1</sup> है। अभिकारक के 2.0 g को 0.2 g तक घटाने में आवश्यक समय है:",
+     "o": [
+      "500 s",
+      "1000 s",
+      "100 s",
+      "200 s"
+     ],
+     "sol": "<p>t = (2.303/k) log([R]<sub>0</sub>/[R]) = (2.303/4.606 × 10<sup>−3</sup>) × log(2.0/0.2) = 500 × 1 = <b>500 s</b>।</p>",
+     "hint": "द्रव्यमान अनुपात = सांद्रता अनुपात = 10।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -756,10 +926,22 @@
       "3 d[H<sub>2</sub>]/dt = 2 d[NH<sub>3</sub>]/dt",
       "−(1/3) d[H<sub>2</sub>]/dt = −(1/2) d[NH<sub>3</sub>]/dt",
       "−d[N<sub>2</sub>]/dt = 2 d[NH<sub>3</sub>]/dt"
-     ]
+     ],
+     "sol": "<p>Rate = −d[N<sub>2</sub>]/dt = −(1/3) d[H<sub>2</sub>]/dt = (1/2) d[NH<sub>3</sub>]/dt. So <b>−d[N<sub>2</sub>]/dt = (1/2) d[NH<sub>3</sub>]/dt</b>. (Option 3 has the wrong sign for NH<sub>3</sub>, a product.)</p>",
+     "hint": "Divide each rate by its coefficient; reactants get a minus sign."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "रासायनिक अभिक्रिया N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g) के लिए सही विकल्प है :",
+     "o": [
+      "−d[N<sub>2</sub>]/dt = (1/2) d[NH<sub>3</sub>]/dt",
+      "3 d[H<sub>2</sub>]/dt = 2 d[NH<sub>3</sub>]/dt",
+      "−(1/3) d[H<sub>2</sub>]/dt = −(1/2) d[NH<sub>3</sub>]/dt",
+      "−d[N<sub>2</sub>]/dt = 2 d[NH<sub>3</sub>]/dt"
+     ],
+     "sol": "<p>वेग = −d[N<sub>2</sub>]/dt = −(1/3) d[H<sub>2</sub>]/dt = (1/2) d[NH<sub>3</sub>]/dt। अतः <b>−d[N<sub>2</sub>]/dt = (1/2) d[NH<sub>3</sub>]/dt</b>। (विकल्प 3 में उत्पाद NH<sub>3</sub> का चिह्न गलत है।)</p>",
+     "hint": "हर वेग को उसके गुणांक से भाग दें; अभिकारकों के साथ ऋण चिह्न।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -802,10 +984,22 @@
       "t = 2.303/k",
       "t = 0.693/k",
       "t = 6.909/k"
-     ]
+     ],
+     "sol": "<p>99% completion leaves 1/100: t = (2.303/k) log 100 = <b>4.606/k</b>.</p>",
+     "hint": "log 100 = 2."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि किसी प्रथम कोटि की अभिक्रिया का वेग स्थिरांक k है, तो अभिक्रिया के 99% पूर्ण होने में आवश्यक समय (t) दिया जाता है :",
+     "o": [
+      "t = 4.606/k",
+      "t = 2.303/k",
+      "t = 0.693/k",
+      "t = 6.909/k"
+     ],
+     "sol": "<p>99% पूर्ण होने पर 1/100 शेष रहता है: t = (2.303/k) log 100 = <b>4.606/k</b>।</p>",
+     "hint": "log 100 = 2।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -848,10 +1042,22 @@
       "138.6 sec",
       "346.5 sec",
       "693.0 sec"
-     ]
+     ],
+     "sol": "<p>20 g → 5 g is two half-lives. t<sub>1/2</sub> = 0.693/10<sup>−2</sup> = 69.3 s, so t = 2 × 69.3 = <b>138.6 s</b>.</p>",
+     "hint": "Count halvings: 20 → 10 → 5."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक प्रथम कोटि की अभिक्रिया का विशिष्ट अभिक्रिया वेग 10<sup>−2</sup> sec<sup>−1</sup> है। अभिकारक के 20 g को घटकर 5 g होने में कितना समय लगेगा ?",
+     "o": [
+      "238.6 sec",
+      "138.6 sec",
+      "346.5 sec",
+      "693.0 sec"
+     ],
+     "sol": "<p>20 g → 5 g दो अर्धायु हैं। t<sub>1/2</sub> = 0.693/10<sup>−2</sup> = 69.3 s, अतः t = 2 × 69.3 = <b>138.6 s</b>।</p>",
+     "hint": "आधा होने के चरण गिनें: 20 → 10 → 5।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -894,10 +1100,22 @@
       "2",
       "0",
       "1.5"
-     ]
+     ],
+     "sol": "<p>The slow step (ii) decides the rate: rate = k[X][Y<sub>2</sub>]. X comes from step (i), which is fast and treated as an equilibrium, so [X] ∝ [X<sub>2</sub>]<sup>1/2</sup>. Rate = k′[X<sub>2</sub>]<sup>1/2</sup>[Y<sub>2</sub>] → order = ½ + 1 = <b>1.5</b>.</p>",
+     "hint": "Replace the intermediate X using the fast step."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक काल्पनिक अभिक्रिया X<sub>2</sub> + Y<sub>2</sub> → 2XY की क्रियाविधि नीचे दी गई है<br>(i) X<sub>2</sub> → X + X (तीव्र)<br>(ii) X + Y<sub>2</sub> ⇌ XY + Y (मंद)<br>(iii) X + Y → XY (तीव्र)<br>अभिक्रिया की समग्र कोटि होगी",
+     "o": [
+      "1",
+      "2",
+      "0",
+      "1.5"
+     ],
+     "sol": "<p>मंद पद (ii) वेग निर्धारित करता है: वेग = k[X][Y<sub>2</sub>]। X पद (i) से आता है, जो तीव्र है और साम्य माना जाता है, अतः [X] ∝ [X<sub>2</sub>]<sup>1/2</sup>। वेग = k′[X<sub>2</sub>]<sup>1/2</sup>[Y<sub>2</sub>] → कोटि = ½ + 1 = <b>1.5</b>।</p>",
+     "hint": "तीव्र पद का उपयोग करके मध्यवर्ती X को प्रतिस्थापित करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -941,10 +1159,22 @@
       "34.1 s",
       "44.1 s",
       "54.1 s"
-     ]
+     ],
+     "sol": "<p>For first order, rate ∝ [A], so r<sub>1</sub>/r<sub>2</sub> = [A]<sub>1</sub>/[A]<sub>2</sub> = 0.04/0.03 over 10 s.</p><p>k = (2.303/10) log(4/3) = 0.2303 × 0.1249 = 0.02877 s<sup>−1</sup>; t<sub>1/2</sub> = 0.693/0.02877 = <b>24.1 s</b>.</p>",
+     "hint": "Ratio of rates = ratio of concentrations."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी प्रथम कोटि की अभिक्रिया का वेग अभिक्रिया आरंभ होने के 10 सेकंड बाद 0.04 mol l<sup>−1</sup> s<sup>−1</sup> और 20 सेकंड बाद 0.03 mol l<sup>−1</sup> s<sup>−1</sup> है। अभिक्रिया की अर्धायु है :",
+     "o": [
+      "24.1 s",
+      "34.1 s",
+      "44.1 s",
+      "54.1 s"
+     ],
+     "sol": "<p>प्रथम कोटि के लिए वेग ∝ [A], अतः 10 s के अंतराल में r<sub>1</sub>/r<sub>2</sub> = [A]<sub>1</sub>/[A]<sub>2</sub> = 0.04/0.03।</p><p>k = (2.303/10) log(4/3) = 0.2303 × 0.1249 = 0.02877 s<sup>−1</sup>; t<sub>1/2</sub> = 0.693/0.02877 = <b>24.1 s</b>।</p>",
+     "hint": "वेगों का अनुपात = सांद्रताओं का अनुपात।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -987,10 +1217,22 @@
       "Internal energy",
       "Enthalpy",
       "Activation energy"
-     ]
+     ],
+     "sol": "<p>A catalyst provides a new path with lower <b>activation energy</b>. It does not change ΔH, ΔU, ΔS or ΔG of the reaction, nor the equilibrium constant.</p>",
+     "hint": "Catalysts change the path, not the start and end states."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "रासायनिक अभिक्रिया के दौरान उत्प्रेरक मिलाने से निम्नलिखित में से कौन-सी राशि बदल जाती है ?",
+     "o": [
+      "एन्ट्रॉपी",
+      "आंतरिक ऊर्जा",
+      "एन्थैल्पी",
+      "सक्रियण ऊर्जा"
+     ],
+     "sol": "<p>उत्प्रेरक कम <b>सक्रियण ऊर्जा</b> वाला नया पथ देता है। यह अभिक्रिया के ΔH, ΔU, ΔS या ΔG को, और न ही साम्य स्थिरांक को, बदलता है।</p>",
+     "hint": "उत्प्रेरक पथ बदलता है, प्रारंभिक और अंतिम अवस्थाएँ नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1033,10 +1275,22 @@
       "rate is inversely proportional to the surface coverage",
       "rate is independent of the surface coverage",
       "rate of decomposition is very slow"
-     ]
+     ],
+     "sol": "<p>At low pressure only a small part of the tungsten surface is covered by PH<sub>3</sub>, and the coverage is proportional to the pressure (concentration). The rate is proportional to the surface coverage, so rate ∝ [PH<sub>3</sub>]: first order. (At high pressure the surface is saturated and the reaction becomes zero order.)</p>",
+     "hint": "Low pressure: coverage ∝ pressure."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्न दाब पर टंगस्टन पर फ़ॉस्फ़ीन (PH<sub>3</sub>) का अपघटन एक प्रथम कोटि की अभिक्रिया है। इसका कारण है कि",
+     "o": [
+      "वेग पृष्ठ आवरण के समानुपाती है",
+      "वेग पृष्ठ आवरण के व्युत्क्रमानुपाती है",
+      "वेग पृष्ठ आवरण पर निर्भर नहीं करता",
+      "अपघटन का वेग बहुत धीमा है"
+     ],
+     "sol": "<p>निम्न दाब पर टंगस्टन पृष्ठ का केवल थोड़ा भाग PH<sub>3</sub> से ढका होता है, और यह आवरण दाब (सांद्रता) के समानुपाती होता है। वेग पृष्ठ आवरण के समानुपाती है, अतः वेग ∝ [PH<sub>3</sub>]: प्रथम कोटि। (उच्च दाब पर पृष्ठ संतृप्त हो जाता है और अभिक्रिया शून्य कोटि की हो जाती है।)</p>",
+     "hint": "निम्न दाब: आवरण ∝ दाब।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1083,10 +1337,22 @@
       "3.60 M",
       "0.36 M",
       "0.72 M"
-     ]
+     ],
+     "sol": "<p>The unit (mole per second, i.e. mol L<sup>−1</sup> s<sup>−1</sup>) shows zero order: rate = k, independent of [A].</p><p>[B] formed = kt = 0.6 × 10<sup>−3</sup> × 1200 = <b>0.72 M</b> (less than the 5 M of A available, so A is not used up).</p>",
+     "hint": "Read the order from the unit of k."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अभिक्रिया A → B का वेग स्थिरांक 0.6 × 10<sup>−3</sup> मोल प्रति सेकंड है। यदि A की सांद्रता 5 M हो, तो 20 मिनट बाद B की सांद्रता है :",
+     "o": [
+      "1.08 M",
+      "3.60 M",
+      "0.36 M",
+      "0.72 M"
+     ],
+     "sol": "<p>इकाई (मोल प्रति सेकंड, अर्थात् mol L<sup>−1</sup> s<sup>−1</sup>) शून्य कोटि दर्शाती है: वेग = k, [A] पर निर्भर नहीं।</p><p>बना [B] = kt = 0.6 × 10<sup>−3</sup> × 1200 = <b>0.72 M</b> (उपलब्ध 5 M A से कम, अतः A समाप्त नहीं होता)।</p>",
+     "hint": "k की इकाई से कोटि पढ़ें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1129,10 +1395,22 @@
       "the half-life of a first-order reaction does not depend on [A]<sub>0</sub>; the half-life of a second-order reaction does depend on [A]<sub>0</sub>",
       "the rate of a first-order reaction does not depend on reactant concentrations; the rate of a second-order reaction does depend on reactant concentrations",
       "the rate of a first-order reaction does depend on reactant concentrations; the rate of a second-order reaction does not depend on reactant concentrations"
-     ]
+     ],
+     "sol": "<p>First order: t<sub>1/2</sub> = 0.693/k, independent of [A]<sub>0</sub>. Second order: t<sub>1/2</sub> = 1/(k[A]<sub>0</sub>), which depends on [A]<sub>0</sub>. Both orders can be catalysed and both rates depend on concentration. Statement (2).</p>",
+     "hint": "Compare the half-life formulas."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रथम और द्वितीय कोटि की अभिक्रियाओं के बीच सही अंतर यह है कि",
+     "o": [
+      "प्रथम कोटि की अभिक्रिया उत्प्रेरित की जा सकती है; द्वितीय कोटि की अभिक्रिया उत्प्रेरित नहीं की जा सकती",
+      "प्रथम कोटि की अभिक्रिया की अर्धायु [A]<sub>0</sub> पर निर्भर नहीं करती; द्वितीय कोटि की अभिक्रिया की अर्धायु [A]<sub>0</sub> पर निर्भर करती है",
+      "प्रथम कोटि की अभिक्रिया का वेग अभिकारक सांद्रताओं पर निर्भर नहीं करता; द्वितीय कोटि की अभिक्रिया का वेग अभिकारक सांद्रताओं पर निर्भर करता है",
+      "प्रथम कोटि की अभिक्रिया का वेग अभिकारक सांद्रताओं पर निर्भर करता है; द्वितीय कोटि की अभिक्रिया का वेग अभिकारक सांद्रताओं पर निर्भर नहीं करता"
+     ],
+     "sol": "<p>प्रथम कोटि: t<sub>1/2</sub> = 0.693/k, [A]<sub>0</sub> पर निर्भर नहीं। द्वितीय कोटि: t<sub>1/2</sub> = 1/(k[A]<sub>0</sub>), जो [A]<sub>0</sub> पर निर्भर है। दोनों कोटियाँ उत्प्रेरित हो सकती हैं और दोनों के वेग सांद्रता पर निर्भर हैं। कथन (2)।</p>",
+     "hint": "अर्धायु के सूत्रों की तुलना करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1175,10 +1453,22 @@
       "is doubled",
       "is halved",
       "remains unchanged"
-     ]
+     ],
+     "sol": "<p>Zero order: t<sub>1/2</sub> = [R]<sub>0</sub>/2k ∝ [R]<sub>0</sub>. Doubling [R]<sub>0</sub> <b>doubles</b> the half-life.</p>",
+     "hint": "Zero order: t<sub>1/2</sub> ∝ [R]<sub>0</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अभिकारक की प्रारंभिक सांद्रता दोगुनी करने पर शून्य कोटि की अभिक्रिया की अर्धायु",
+     "o": [
+      "तिगुनी हो जाती है",
+      "दोगुनी हो जाती है",
+      "आधी हो जाती है",
+      "अपरिवर्तित रहती है"
+     ],
+     "sol": "<p>शून्य कोटि: t<sub>1/2</sub> = [R]<sub>0</sub>/2k ∝ [R]<sub>0</sub>। [R]<sub>0</sub> दोगुना करने पर अर्धायु <b>दोगुनी</b> हो जाती है।</p>",
+     "hint": "शून्य कोटि: t<sub>1/2</sub> ∝ [R]<sub>0</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1222,10 +1512,22 @@
       "zero order (y = rate and x = concentration), first order (y = t<sub>1/2</sub> and x = concentration)",
       "zero order (y = rate and x = concentration), first order (y = rate and x = t<sub>1/2</sub>)",
       "zero order (y = concentration and x = time), first order (y = t<sub>1/2</sub> and x = concentration)"
-     ]
+     ],
+     "sol": "<p>A horizontal line means y does not change with x.</p><ul><li>Zero order: rate = k, independent of concentration → y = rate, x = concentration.</li><li>First order: t<sub>1/2</sub> = 0.693/k, independent of concentration → y = t<sub>1/2</sub>, x = concentration.</li></ul><p>Option (2).</p>",
+     "hint": "Find a quantity that stays constant as concentration changes, for each order."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिया गया आलेख किसी अभिक्रिया की बलगतिकी का निरूपण है।<br>[स्थिर ताप T पर आलेख: x बढ़ने पर y स्थिर (क्षैतिज रेखा)]<br>शून्य और प्रथम कोटि की अभिक्रियाओं के लिए क्रमशः y और x अक्ष हैं",
+     "o": [
+      "शून्य कोटि (y = सांद्रता और x = समय), प्रथम कोटि (y = वेग स्थिरांक और x = सांद्रता)",
+      "शून्य कोटि (y = वेग और x = सांद्रता), प्रथम कोटि (y = t<sub>1/2</sub> और x = सांद्रता)",
+      "शून्य कोटि (y = वेग और x = सांद्रता), प्रथम कोटि (y = वेग और x = t<sub>1/2</sub>)",
+      "शून्य कोटि (y = सांद्रता और x = समय), प्रथम कोटि (y = t<sub>1/2</sub> और x = सांद्रता)"
+     ],
+     "sol": "<p>क्षैतिज रेखा का अर्थ है कि x के साथ y नहीं बदलता।</p><ul><li>शून्य कोटि: वेग = k, सांद्रता पर निर्भर नहीं → y = वेग, x = सांद्रता।</li><li>प्रथम कोटि: t<sub>1/2</sub> = 0.693/k, सांद्रता पर निर्भर नहीं → y = t<sub>1/2</sub>, x = सांद्रता।</li></ul><p>विकल्प (2)।</p>",
+     "hint": "प्रत्येक कोटि के लिए ऐसी राशि ढूँढें जो सांद्रता बदलने पर स्थिर रहे।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1270,10 +1572,22 @@
       "0.4606",
       "0.2303",
       "1.3818"
-     ]
+     ],
+     "sol": "<p>k = (2.303/t) log([A]<sub>0</sub>/[A]) = (2.303/5) × log(0.1/0.001) = 0.4606 × 2 = <b>0.9212 min<sup>−1</sup></b>.</p>",
+     "hint": "log 100 = 2."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रथम कोटि की अभिक्रिया A → उत्पाद के लिए A की प्रारंभिक सांद्रता 0.1 M है, जो 5 मिनट बाद 0.001 M हो जाती है। अभिक्रिया का वेग स्थिरांक min<sup>−1</sup> में है",
+     "o": [
+      "0.9212",
+      "0.4606",
+      "0.2303",
+      "1.3818"
+     ],
+     "sol": "<p>k = (2.303/t) log([A]<sub>0</sub>/[A]) = (2.303/5) × log(0.1/0.001) = 0.4606 × 2 = <b>0.9212 min<sup>−1</sup></b>।</p>",
+     "hint": "log 100 = 2।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
