@@ -33,6 +33,10 @@ def plain(s):
     s = s.replace("%", " % ")
     s = re.sub(r"(?<=\d)-(?=[A-Za-z\u0900-\u097F]{2})", " ", s)    # 1,4-dichlorobenzene / 1,4-डाइक्लोरो...
     s = re.sub(r"(?<=[a-z\u0900-\u097F]{2})/", " / ", s)          # diamond/SiC, हीरा/SiC
+    s = re.sub(r"/(?=[a-z\u0900-\u097F]{2})", " / ", s)           # Na/liquid NH3, Na/द्रव NH3
+    s = re.sub(r"(?<=[A-Za-z\u0900-\u097F])-(?=\d)", " ", s)      # Pent-1-ene, cis-2-butene / पेन्ट-1-ईन
+    s = re.sub(r"[A-Za-z]*[\u00C0-\u024F][A-Za-z]*", " ", s)      # names with accents: Hückel
+    s = s.replace("→", " → ").replace("⇌", " ⇌ ")
     return s
 
 
