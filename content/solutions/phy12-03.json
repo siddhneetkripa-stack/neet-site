@@ -1,0 +1,662 @@
+{
+ "phy12-03-neet-2015-re-exam-code-d-q142": {
+  "sol": "<p>Ammeter resistance = coil and shunt in parallel = 480 × 20/(480 + 20) = 19.2 Ω.</p><p>I = 30/(40.8 + 19.2) = 30/60 = <b>0.5 A</b>.</p>",
+  "hint": "An ammeter is a galvanometer with a shunt in parallel.",
+  "hi": {
+   "q": "एक परिपथ में एक ऐमीटर, 30 V की एक बैटरी और 40.8 ohm का एक प्रतिरोध श्रेणीक्रम में जुड़े हैं। यदि ऐमीटर की कुंडली का प्रतिरोध 480 ohm और शंट 20 ohm है, तो ऐमीटर का पाठ्यांक होगा :",
+   "o": [
+    "0.25 A",
+    "2 A",
+    "1 A",
+    "0.5 A"
+   ],
+   "sol": "<p>ऐमीटर का प्रतिरोध = कुंडली और शंट पार्श्वक्रम में = 480 × 20/(480 + 20) = 19.2 Ω।</p><p>I = 30/(40.8 + 19.2) = 30/60 = <b>0.5 A</b>।</p>",
+   "hint": "ऐमीटर एक गैल्वेनोमीटर है जिसके पार्श्वक्रम में शंट लगा है।"
+  }
+ },
+ "phy12-03-neet-2015-re-exam-code-d-q147": {
+  "sol": "<p>Each wire: R = l/(σA). In series R<sub>total</sub> = (l/A)(1/σ<sub>1</sub> + 1/σ<sub>2</sub>), and this must equal 2l/(σ<sub>eff</sub>A).</p><p>2/σ<sub>eff</sub> = 1/σ<sub>1</sub> + 1/σ<sub>2</sub> ⇒ <b>σ<sub>eff</sub> = 2σ<sub>1</sub>σ<sub>2</sub>/(σ<sub>1</sub> + σ<sub>2</sub>)</b>.</p>",
+  "hint": "The combination has length 2l and area A.",
+  "hi": {
+   "q": "सर्वसम विमाओं वाले धातु के दो तार श्रेणीक्रम में जुड़े हैं। यदि σ<sub>1</sub> और σ<sub>2</sub> क्रमशः धातु के तारों की चालकताएँ हैं, तो संयोजन की प्रभावी चालकता है :",
+   "o": [
+    "(σ<sub>1</sub> + σ<sub>2</sub>)/(2σ<sub>1</sub>σ<sub>2</sub>)",
+    "(σ<sub>1</sub> + σ<sub>2</sub>)/(σ<sub>1</sub>σ<sub>2</sub>)",
+    "σ<sub>1</sub>σ<sub>2</sub>/(σ<sub>1</sub> + σ<sub>2</sub>)",
+    "2σ<sub>1</sub>σ<sub>2</sub>/(σ<sub>1</sub> + σ<sub>2</sub>)"
+   ],
+   "sol": "<p>प्रत्येक तार : R = l/(σA)। श्रेणीक्रम में R<sub>total</sub> = (l/A)(1/σ<sub>1</sub> + 1/σ<sub>2</sub>), जो 2l/(σ<sub>eff</sub>A) के बराबर होना चाहिए।</p><p>2/σ<sub>eff</sub> = 1/σ<sub>1</sub> + 1/σ<sub>2</sub> ⇒ <b>σ<sub>eff</sub> = 2σ<sub>1</sub>σ<sub>2</sub>/(σ<sub>1</sub> + σ<sub>2</sub>)</b>।</p>",
+   "hint": "संयोजन की लंबाई 2l और क्षेत्रफल A है।"
+  }
+ },
+ "phy12-03-neet-2015-re-exam-code-d-q164": {
+  "sol": "<p>Current through the potentiometer wire I = E<sub>0</sub>/(r + r<sub>1</sub>); potential gradient = Ir/L. At balance E = (Ir/L) × l.</p><p><b>E = E<sub>0</sub>r l/((r + r<sub>1</sub>)L)</b>.</p>",
+  "hint": "Potential gradient = V<sub>wire</sub>/L.",
+  "hi": {
+   "q": "L लंबाई और r प्रतिरोध का एक पोटेंशियोमीटर तार, विद्युत वाहक बल E<sub>0</sub> की एक बैटरी और प्रतिरोध r<sub>1</sub> के साथ श्रेणीक्रम में जुड़ा है। एक अज्ञात विद्युत वाहक बल E, पोटेंशियोमीटर तार की l लंबाई पर संतुलित होता है। विद्युत वाहक बल E दिया जाएगा :",
+   "o": [
+    "E<sub>0</sub>r l/((r + r<sub>1</sub>)L)",
+    "E<sub>0</sub>l/L",
+    "LE<sub>0</sub>r/((r + r<sub>1</sub>)l)",
+    "LE<sub>0</sub>r/(l r<sub>1</sub>)"
+   ],
+   "sol": "<p>पोटेंशियोमीटर तार में धारा I = E<sub>0</sub>/(r + r<sub>1</sub>); विभव प्रवणता = Ir/L । संतुलन पर E = (Ir/L) × l।</p><p><b>E = E<sub>0</sub>r l/((r + r<sub>1</sub>)L)</b>।</p>",
+   "hint": "विभव प्रवणता = V<sub>wire</sub>/L ।"
+  }
+ },
+ "phy12-03-neet-2016-phase-1-code-a-q14": {
+  "sol": "<p>I = dQ/dt = a − 2bt, which falls to zero at t = a/(2b) (after that the formula no longer describes a current through R).</p><p>H = ∫<sub>0</sub><sup>a/2b</sup> I<sup>2</sup>R dt = R∫<sub>0</sub><sup>a/2b</sup>(a − 2bt)<sup>2</sup> dt = R a<sup>3</sup>/(6b). Answer: <b>a<sup>3</sup>R/(6b)</b>.</p>",
+  "hint": "Integrate I<sup>2</sup>R only while the current flows.",
+  "hi": {
+   "q": "एक प्रतिरोध R से प्रवाहित आवेश समय t के साथ Q = at − bt<sup>2</sup> के अनुसार बदलता है, जहाँ a और b धनात्मक नियतांक हैं। R में उत्पन्न कुल ऊष्मा है :",
+   "o": [
+    "a<sup>3</sup>R/(6b)",
+    "a<sup>3</sup>R/(3b)",
+    "a<sup>3</sup>R/(2b)",
+    "a<sup>3</sup>R/b"
+   ],
+   "sol": "<p>I = dQ/dt = a − 2bt, जो t = a/(2b) पर शून्य हो जाती है (उसके बाद यह सूत्र R से धारा का वर्णन नहीं करता)।</p><p>H = ∫<sub>0</sub><sup>a/2b</sup> I<sup>2</sup>R dt = R∫<sub>0</sub><sup>a/2b</sup>(a − 2bt)<sup>2</sup> dt = R a<sup>3</sup>/(6b)। उत्तर : <b>a<sup>3</sup>R/(6b)</b>।</p>",
+   "hint": "I<sup>2</sup>R का समाकलन केवल तब तक कीजिए जब तक धारा प्रवाहित है।"
+  }
+ },
+ "phy12-03-neet-2016-phase-1-code-a-q31": {
+  "sol": "<p>Balance length ∝ emf. Supporting: E<sub>1</sub> + E<sub>2</sub> ∝ 50; opposing: E<sub>1</sub> − E<sub>2</sub> ∝ 10.</p><p>E<sub>1</sub> ∝ 30, E<sub>2</sub> ∝ 20 ⇒ E<sub>1</sub> : E<sub>2</sub> = <b>3 : 2</b>.</p>",
+  "hint": "Add and subtract the two balance lengths.",
+  "hi": {
+   "q": "एक पोटेंशियोमीटर तार 100 cm लंबा है और इसके सिरों पर एक नियत विभवांतर बनाए रखा गया है। दो सेल पहले एक-दूसरे की सहायता करते हुए और फिर विपरीत दिशा में श्रेणीक्रम में जोड़े जाते हैं। दोनों स्थितियों में तार के धनात्मक सिरे से संतुलन बिंदु 50 cm और 10 cm पर प्राप्त होते हैं। विद्युत वाहक बलों का अनुपात है :",
+   "o": [
+    "5 : 1",
+    "5 : 4",
+    "3 : 4",
+    "3 : 2"
+   ],
+   "sol": "<p>संतुलन लंबाई ∝ विद्युत वाहक बल। सहायक : E<sub>1</sub> + E<sub>2</sub> ∝ 50; विरोधी : E<sub>1</sub> − E<sub>2</sub> ∝ 10।</p><p>E<sub>1</sub> ∝ 30, E<sub>2</sub> ∝ 20 ⇒ E<sub>1</sub> : E<sub>2</sub> = <b>3 : 2</b>।</p>",
+   "hint": "दोनों संतुलन लंबाइयों को जोड़िए और घटाइए।"
+  }
+ },
+ "phy12-03-neet-2016-phase-2-code-aa-q25": {
+  "sol": "<p>Going from A to B with the current (2 A): the potential falls by IR across each resistor, 2 × 2 = 4 V and 2 × 1 = 2 V, and the cell is placed so that it also lowers the potential by 3 V from A to B.</p><p>V<sub>A</sub> − V<sub>B</sub> = 4 + 3 + 2 = <b>+9 V</b>.</p>",
+  "hint": "Walk from A to B adding the drops: IR in the direction of current, and the cell's emf with its sign.",
+  "hi": {
+   "q": "दिए गए चित्र में बिंदुओं A और B के बीच विभवांतर (V<sub>A</sub> − V<sub>B</sub>) है :",
+   "o": [
+    "−3 V",
+    "+3 V",
+    "+6 V",
+    "+9 V"
+   ],
+   "sol": "<p>धारा (2 A) की दिशा में A से B जाने पर : प्रत्येक प्रतिरोध पर विभव IR घटता है, 2 × 2 = 4 V और 2 × 1 = 2 V, और सेल इस प्रकार लगा है कि वह भी A से B की ओर विभव 3 V घटाता है।</p><p>V<sub>A</sub> − V<sub>B</sub> = 4 + 3 + 2 = <b>+9 V</b>।</p>",
+   "hint": "A से B चलते हुए विभवपात जोड़िए : धारा की दिशा में IR, और सेल का विद्युत वाहक बल उसके चिह्न सहित।"
+  }
+ },
+ "phy12-03-neet-2016-phase-2-code-aa-q26": {
+  "sol": "<p>Bulb: R<sub>b</sub> = V<sup>2</sup>/P = 100<sup>2</sup>/500 = 20 Ω, rated current I = P/V = 5 A. The series resistor must drop 230 − 100 = 130 V at 5 A.</p><p>R = 130/5 = <b>26 Ω</b>.</p>",
+  "hint": "The bulb must get its rated 100 V and 5 A.",
+  "hi": {
+   "q": "एक तंतु बल्ब (500 W, 100 V) को 230 V की मुख्य आपूर्ति में उपयोग करना है। जब एक प्रतिरोध R श्रेणीक्रम में जोड़ा जाता है, तो यह ठीक कार्य करता है और बल्ब 500 W की खपत करता है। R का मान है :",
+   "o": [
+    "230 Ω",
+    "46 Ω",
+    "26 Ω",
+    "13 Ω"
+   ],
+   "sol": "<p>बल्ब : R<sub>b</sub> = V<sup>2</sup>/P = 100<sup>2</sup>/500 = 20 Ω, निर्धारित धारा I = P/V = 5 A। श्रेणी प्रतिरोध पर 5 A पर 230 − 100 = 130 V का विभवपात होना चाहिए।</p><p>R = 130/5 = <b>26 Ω</b>।</p>",
+   "hint": "बल्ब को उसका निर्धारित 100 V और 5 A मिलना चाहिए।"
+  }
+ },
+ "phy12-03-neet-2017-code-a-q1": {
+  "sol": "<p>At balance no current flows through the galvanometer, so no current is drawn from the cell being measured: there is no drop across its internal resistance and the true emf is compared. Answer: <b>a condition of no current flow through the galvanometer</b>.</p>",
+  "hint": "A null method draws no current from the cell.",
+  "hi": {
+   "q": "पोटेंशियोमीटर विद्युत वाहक बल (E.M.F.) के विद्युत मापन के लिए एक परिशुद्ध और बहुमुखी युक्ति है, क्योंकि इस विधि में सम्मिलित है :",
+   "o": [
+    "सेल",
+    "विभव प्रवणता",
+    "गैल्वेनोमीटर से कोई धारा प्रवाहित न होने की स्थिति",
+    "सेलों, गैल्वेनोमीटर और प्रतिरोधों का संयोजन"
+   ],
+   "sol": "<p>संतुलन पर गैल्वेनोमीटर से कोई धारा प्रवाहित नहीं होती, अतः मापे जा रहे सेल से कोई धारा नहीं ली जाती : उसके आंतरिक प्रतिरोध पर कोई विभवपात नहीं होता और वास्तविक विद्युत वाहक बल की तुलना होती है। उत्तर : <b>गैल्वेनोमीटर से कोई धारा प्रवाहित न होने की स्थिति</b>।</p>",
+   "hint": "शून्य विधि सेल से कोई धारा नहीं लेती।"
+  }
+ },
+ "phy12-03-neet-2017-code-a-q45": {
+  "sol": "<p>Volume is constant: stretching to n times the length makes the area A/n. R = ρl/A becomes ρ(nl)/(A/n) = <b>n<sup>2</sup>R</b>.</p>",
+  "hint": "Fixed volume: R ∝ l<sup>2</sup>.",
+  "hi": {
+   "q": "एक तार का प्रतिरोध 'R' ohm है। यदि इसे पिघलाकर इसकी मूल लंबाई का 'n' गुना खींचा जाए, तो इसका नया प्रतिरोध होगा :",
+   "o": [
+    "nR",
+    "R/n",
+    "n<sup>2</sup>R",
+    "R/n<sup>2</sup>"
+   ],
+   "sol": "<p>आयतन नियत है : लंबाई n गुनी करने पर क्षेत्रफल A/n हो जाता है। R = ρl/A बदलकर ρ(nl)/(A/n) = <b>n<sup>2</sup>R</b> हो जाता है।</p>",
+   "hint": "नियत आयतन : R ∝ l<sup>2</sup>।"
+  }
+ },
+ "phy12-03-neet-2018-code-aa-q5": {
+  "sol": "<p>47 kΩ = 47 × 10<sup>3</sup> Ω: first digit 4 → yellow, second 7 → violet, multiplier 10<sup>3</sup> → orange; tolerance 4.7/47 = 10% → silver.</p><p>Answer: <b>Yellow – Violet – Orange – Silver</b>.</p>",
+  "hint": "Colour digits: black 0 … yellow 4, green 5, blue 6, violet 7; gold 5%, silver 10%.",
+  "hi": {
+   "q": "(47 ± 4.7) kΩ के एक कार्बन प्रतिरोधक की पहचान के लिए उस पर विभिन्न रंगों के वलय अंकित करने हैं। वर्ण कोड का क्रम होगा :",
+   "o": [
+    "पीला – हरा – बैंगनी – सुनहरा",
+    "पीला – बैंगनी – नारंगी – रुपहला",
+    "बैंगनी – पीला – नारंगी – रुपहला",
+    "हरा – नारंगी – बैंगनी – सुनहरा"
+   ],
+   "sol": "<p>47 kΩ = 47 × 10<sup>3</sup> Ω : पहला अंक 4 → पीला, दूसरा 7 → बैंगनी, गुणक 10<sup>3</sup> → नारंगी; सह्यता 4.7/47 = 10% → रुपहला (सिल्वर)।</p><p>उत्तर : <b>पीला – बैंगनी – नारंगी – रुपहला</b>।</p>",
+   "hint": "रंगों के अंक : काला 0 … पीला 4, हरा 5, नीला 6, बैंगनी 7; सुनहरा 5%, रुपहला 10%।"
+  }
+ },
+ "phy12-03-neet-2018-code-aa-q6": {
+  "sol": "<p>Series: I = E/(nR + R). Parallel: 10I = E/(R/n + R) = nE/(R(1 + n)).</p><p>Dividing: 10 = [n/(R(n + 1))] × R(n + 1) = n ⇒ n = <b>10</b>.</p>",
+  "hint": "Write both currents and take their ratio.",
+  "hi": {
+   "q": "'R' मान के 'n' समान प्रतिरोधों का एक समूह विद्युत वाहक बल 'E' और आंतरिक प्रतिरोध 'R' वाली एक बैटरी के साथ श्रेणीक्रम में जुड़ा है। ली गई धारा I है। अब 'n' प्रतिरोधों को उसी बैटरी से पार्श्वक्रम में जोड़ा जाता है। तब बैटरी से ली गई धारा 10 I हो जाती है। 'n' का मान है :",
+   "o": [
+    "20",
+    "11",
+    "10",
+    "9"
+   ],
+   "sol": "<p>श्रेणी : I = E/(nR + R)। पार्श्व : 10I = E/(R/n + R) = nE/(R(1 + n))।</p><p>भाग देने पर : 10 = [n/(R(n + 1))] × R(n + 1) = n ⇒ n = <b>10</b>।</p>",
+   "hint": "दोनों धाराएँ लिखकर उनका अनुपात लीजिए।"
+  }
+ },
+ "phy12-03-neet-2018-code-aa-q7": {
+  "sol": "<p>n cells in series, short-circuited: total emf nE, total resistance nr. I = nE/(nr) = E/r, the same for every n: a horizontal straight line, <b>graph 3</b>.</p>",
+  "hint": "Both emf and internal resistance grow in proportion to n.",
+  "hi": {
+   "q": "एक बैटरी में चर संख्या 'n' के सर्वसम सेल (प्रत्येक का आंतरिक प्रतिरोध 'r') श्रेणीक्रम में जुड़े हैं। बैटरी के टर्मिनलों को लघुपथित करके धारा I मापी जाती है। कौन-सा ग्राफ I और n के बीच सही संबंध दर्शाता है?",
+   "o": [
+    "[ग्राफ 1 : I बढ़कर संतृप्त होती है]",
+    "[ग्राफ 2 : I ∝ n, सरल रेखा]",
+    "[ग्राफ 3 : I नियत]",
+    "[ग्राफ 4 : I तेजी से बढ़ती है]"
+   ],
+   "sol": "<p>श्रेणीक्रम में n सेल, लघुपथित : कुल विद्युत वाहक बल nE, कुल प्रतिरोध nr। I = nE/(nr) = E/r, प्रत्येक n के लिए समान : क्षैतिज सरल रेखा, <b>ग्राफ 3</b>।</p>",
+   "hint": "विद्युत वाहक बल और आंतरिक प्रतिरोध दोनों n के अनुपात में बढ़ते हैं।"
+  }
+ },
+ "phy12-03-neet-2019-code-s2-q97": {
+  "sol": "<p>Circuit 1: the ideal voltmeter across 10 Ω reads the full 10 V; current i<sub>1</sub> = 10/10 = 1 A. Circuit 2: an ideal voltmeter draws no current, so the branch with it carries none and its 10 Ω drops nothing: V<sub>2</sub> reads the full 10 V, and i<sub>2</sub> = 10/10 = 1 A through the other 10 Ω.</p><p><b>V<sub>1</sub> = V<sub>2</sub> and i<sub>1</sub> = i<sub>2</sub></b>.</p>",
+  "hint": "Ideal voltmeter: infinite resistance, no current.",
+  "hi": {
+   "q": "नीचे दिखाए गए परिपथों में वोल्टमीटरों और ऐमीटरों के पाठ्यांक होंगे :",
+   "o": [
+    "V<sub>1</sub> = V<sub>2</sub> और i<sub>1</sub> = i<sub>2</sub>",
+    "V<sub>2</sub> > V<sub>1</sub> और i<sub>1</sub> > i<sub>2</sub>",
+    "V<sub>2</sub> > V<sub>1</sub> और i<sub>1</sub> = i<sub>2</sub>",
+    "V<sub>1</sub> = V<sub>2</sub> और i<sub>1</sub> > i<sub>2</sub>"
+   ],
+   "sol": "<p>परिपथ 1 : 10 Ω के सिरों पर आदर्श वोल्टमीटर पूरे 10 V पढ़ता है; धारा i<sub>1</sub> = 10/10 = 1 A। परिपथ 2 : आदर्श वोल्टमीटर कोई धारा नहीं लेता, अतः उस शाखा में कोई धारा नहीं और उसके 10 Ω पर कोई विभवपात नहीं : V<sub>2</sub> पूरे 10 V पढ़ता है, और दूसरे 10 Ω से i<sub>2</sub> = 10/10 = 1 A।</p><p><b>V<sub>1</sub> = V<sub>2</sub> और i<sub>1</sub> = i<sub>2</sub></b>।</p>",
+   "hint": "आदर्श वोल्टमीटर : अनंत प्रतिरोध, कोई धारा नहीं।"
+  }
+ },
+ "phy12-03-neet-2019-code-s2-q119": {
+  "sol": "<p>A <b>fuse</b> is a short wire of low melting point in series with the circuit; an excessive current heats and melts it, breaking the circuit and protecting the appliances.</p>",
+  "hint": "It melts when the current is too large.",
+  "hi": {
+   "q": "निम्नलिखित में से कौन परिपथ सुरक्षा युक्ति के रूप में कार्य करता है?",
+   "o": [
+    "स्विच",
+    "फ्यूज़ (fuse)",
+    "चालक",
+    "प्रेरक"
+   ],
+   "sol": "<p><b>फ्यूज़</b> परिपथ के श्रेणीक्रम में लगा कम गलनांक वाला एक छोटा तार है; अत्यधिक धारा उसे गर्म करके पिघला देती है, जिससे परिपथ टूट जाता है और उपकरण सुरक्षित रहते हैं।</p>",
+   "hint": "धारा बहुत अधिक होने पर यह पिघल जाता है।"
+  }
+ },
+ "phy12-03-neet-2019-code-s2-q124": {
+  "sol": "<p>Let each bulb be R. (i) All glowing: each section is three in parallel, R/3; total 2R/3; P<sub>1</sub> = E<sup>2</sup>/(2R/3) = 3E<sup>2</sup>/(2R).</p><p>(ii) Two in A (R/2) and one in B (R): total 3R/2; P<sub>2</sub> = 2E<sup>2</sup>/(3R). P<sub>1</sub> : P<sub>2</sub> = (3/2) : (2/3) = <b>9 : 4</b>.</p>",
+  "hint": "Total power = E<sup>2</sup>/R<sub>total</sub>.",
+  "hi": {
+   "q": "छह समान बल्ब चित्र में दिखाए अनुसार विद्युत वाहक बल E और शून्य आंतरिक प्रतिरोध वाले एक DC स्रोत से जुड़े हैं। (i) सभी के जलने पर और (ii) खंड A के दो और खंड B का एक बल्ब जलने की स्थिति में बल्बों द्वारा शक्ति खपत का अनुपात होगा :",
+   "o": [
+    "1 : 2",
+    "2 : 1",
+    "4 : 9",
+    "9 : 4"
+   ],
+   "sol": "<p>माना प्रत्येक बल्ब R है। (i) सभी जलते हैं : प्रत्येक खंड में तीन पार्श्वक्रम में, R/3; कुल 2R/3; P<sub>1</sub> = E<sup>2</sup>/(2R/3) = 3E<sup>2</sup>/(2R)।</p><p>(ii) A में दो (R/2) और B में एक (R) : कुल 3R/2; P<sub>2</sub> = 2E<sup>2</sup>/(3R)। P<sub>1</sub> : P<sub>2</sub> = (3/2) : (2/3) = <b>9 : 4</b>।</p>",
+   "hint": "कुल शक्ति = E<sup>2</sup>/R<sub>total</sub>।"
+  }
+ },
+ "phy12-03-neet-2020-code-f3-q15": {
+  "sol": "<p>For a metal like copper, ρ rises with temperature roughly as ρ<sub>0</sub>[1 + α(T − T<sub>0</sub>)] at ordinary temperatures, curving upward at higher T, and stays at a small non-zero residual value near absolute zero. That is <b>graph 1</b>.</p>",
+  "hint": "Metal: ρ increases with T and does not start from zero.",
+  "hi": {
+   "q": "निम्नलिखित में से कौन-सा ग्राफ ताँबे के लिए ताप (T) के साथ प्रतिरोधकता (ρ) में परिवर्तन को निरूपित करता है?",
+   "o": [
+    "[ग्राफ 1 : T = 0 पर अशून्य मान से ρ पहले धीरे फिर तेजी से बढ़ती है]",
+    "[ग्राफ 2 : ρ तेजी से घटती है]",
+    "[ग्राफ 3 : ρ मूल बिंदु से रैखिक रूप से बढ़ती है]",
+    "[ग्राफ 4 : ρ तेजी से घटकर स्थिर होती है]"
+   ],
+   "sol": "<p>ताँबे जैसी धातु के लिए सामान्य तापों पर ρ लगभग ρ<sub>0</sub>[1 + α(T − T<sub>0</sub>)] के अनुसार ताप के साथ बढ़ती है, उच्च T पर ऊपर की ओर मुड़ती है, और परम शून्य के निकट एक छोटे अशून्य अवशिष्ट मान पर रहती है। यह <b>ग्राफ 1</b> है।</p>",
+   "hint": "धातु : ρ, T के साथ बढ़ती है और शून्य से प्रारंभ नहीं होती।"
+  }
+ },
+ "phy12-03-neet-2020-code-f3-q28": {
+  "sol": "<p>Mobility μ = v<sub>d</sub>/E = 7.5 × 10<sup>−4</sup>/(3 × 10<sup>−10</sup>) = <b>2.5 × 10<sup>6</sup></b> m<sup>2</sup> V<sup>−1</sup> s<sup>−1</sup>.</p>",
+  "hint": "μ = v<sub>d</sub>/E.",
+  "hi": {
+   "q": "3 × 10<sup>−10</sup> V m<sup>−1</sup> के विद्युत क्षेत्र में 7.5 × 10<sup>−4</sup> m s<sup>−1</sup> अपवाह वेग वाले एक आवेशित कण की गतिशीलता m<sup>2</sup> V<sup>−1</sup> s<sup>−1</sup> में है :",
+   "o": [
+    "2.5 × 10<sup>−6</sup>",
+    "2.25 × 10<sup>−15</sup>",
+    "2.25 × 10<sup>15</sup>",
+    "2.5 × 10<sup>6</sup>"
+   ],
+   "sol": "<p>गतिशीलता μ = v<sub>d</sub>/E = 7.5 × 10<sup>−4</sup>/(3 × 10<sup>−10</sup>) = <b>2.5 × 10<sup>6</sup></b> m<sup>2</sup> V<sup>−1</sup> s<sup>−1</sup>।</p>",
+   "hint": "μ = v<sub>d</sub>/E ।"
+  }
+ },
+ "phy12-03-neet-2020-code-f3-q29": {
+  "sol": "<p>Yellow 4, violet 7, brown multiplier 10<sup>1</sup>: 47 × 10 = 470 Ω; gold tolerance 5%. Answer: <b>470 Ω, 5%</b>.</p>",
+  "hint": "Third band is the power of ten.",
+  "hi": {
+   "q": "एक प्रतिरोध का वर्ण कोड नीचे दिया गया है : पीला – बैंगनी – भूरा – सुनहरा। प्रतिरोध और सह्यता के मान क्रमशः हैं :",
+   "o": [
+    "4.7 kΩ, 5%",
+    "470 Ω, 5%",
+    "470 kΩ, 5%",
+    "47 kΩ, 10%"
+   ],
+   "sol": "<p>पीला 4, बैंगनी 7, भूरा गुणक 10<sup>1</sup> : 47 × 10 = 470 Ω; सुनहरा सह्यता 5%। उत्तर : <b>470 Ω, 5%</b>।</p>",
+   "hint": "तीसरा वलय दस की घात है।"
+  }
+ },
+ "phy12-03-neet-2020-code-f3-q30": {
+  "sol": "<p>In semiconductors and insulators more charge carriers are freed as temperature rises, so resistance falls: a negative temperature coefficient. Metals have a positive coefficient. Answer: <b>insulators and semiconductors</b>.</p>",
+  "hint": "Carrier density rises with T in semiconductors/insulators.",
+  "hi": {
+   "q": "जिन ठोसों का प्रतिरोध ताप गुणांक ऋणात्मक होता है, वे हैं :",
+   "o": [
+    "केवल अर्धचालक",
+    "विद्युतरोधी और अर्धचालक",
+    "धातुएँ",
+    "केवल विद्युतरोधी"
+   ],
+   "sol": "<p>अर्धचालकों और विद्युतरोधियों में ताप बढ़ने पर अधिक आवेश वाहक मुक्त होते हैं, अतः प्रतिरोध घटता है : ऋणात्मक ताप गुणांक। धातुओं का गुणांक धनात्मक होता है। उत्तर : <b>विद्युतरोधी और अर्धचालक</b>।</p>",
+   "hint": "अर्धचालकों/विद्युतरोधियों में T के साथ वाहक घनत्व बढ़ता है।"
+  }
+ },
+ "phy12-03-neet-2020-code-f3-q45": {
+  "sol": "<p>Bridge balance: X/10 = 3/2 ⇒ X = 15 Ω for the 1.5 m wire. Resistance per metre = 15/1.5 = 10 Ω/m, so 1 Ω corresponds to <b>1.0 × 10<sup>−1</sup> m</b>.</p>",
+  "hint": "Find the wire's total resistance first.",
+  "hi": {
+   "q": "मीटर सेतु के बाएँ अंतराल में जुड़ा एक प्रतिरोध तार दाएँ अंतराल में 10 Ω प्रतिरोध को उस बिंदु पर संतुलित करता है जो सेतु तार को 3 : 2 के अनुपात में विभाजित करता है। यदि प्रतिरोध तार की लंबाई 1.5 m है, तो प्रतिरोध तार के 1 Ω की लंबाई है :",
+   "o": [
+    "1.5 × 10<sup>−1</sup> m",
+    "1.5 × 10<sup>−2</sup> m",
+    "1.0 × 10<sup>−2</sup> m",
+    "1.0 × 10<sup>−1</sup> m"
+   ],
+   "sol": "<p>सेतु संतुलन : X/10 = 3/2 ⇒ 1.5 m तार के लिए X = 15 Ω। प्रति मीटर प्रतिरोध = 15/1.5 = 10 Ω/m, अतः 1 Ω की लंबाई <b>1.0 × 10<sup>−1</sup> m</b> है।</p>",
+   "hint": "पहले तार का कुल प्रतिरोध ज्ञात कीजिए।"
+  }
+ },
+ "phy12-03-neet-2021-code-p3-q3": {
+  "sol": "<p>Drift velocity v<sub>d</sub> = (eE/m)τ → R. Resistivity ρ = E/J → S. Relaxation time τ = m/(ne<sup>2</sup>ρ) → P. Current density J = nev<sub>d</sub> → Q.</p><p>Answer: <b>(A)-(R), (B)-(S), (C)-(P), (D)-(Q)</b>.</p>",
+  "hint": "ρ = m/(ne<sup>2</sup>τ) rearranges to τ = m/(ne<sup>2</sup>ρ).",
+  "hi": {
+   "q": "स्तंभ-I में किसी धात्विक चालक से धारा प्रवाह से संबंधित कुछ भौतिक पद दिए गए हैं। स्तंभ-II में विद्युत राशियों से संबंधित कुछ गणितीय संबंध दिए गए हैं। स्तंभ-I का स्तंभ-II के उपयुक्त संबंधों से मिलान कीजिए।<br>(A) अपवाह वेग — (P) m/(ne<sup>2</sup>ρ)<br>(B) विद्युत प्रतिरोधकता — (Q) nev<sub>d</sub><br>(C) विश्रांति काल — (R) (eE/m)τ<br>(D) धारा घनत्व — (S) E/J",
+   "o": [
+    "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
+    "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
+    "(A)-(R), (B)-(S), (C)-(Q), (D)-(P)",
+    "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)"
+   ],
+   "sol": "<p>अपवाह वेग v<sub>d</sub> = (eE/m)τ → R। प्रतिरोधकता ρ = E/J → S। विश्रांति काल τ = m/(ne<sup>2</sup>ρ) → P। धारा घनत्व J = nev<sub>d</sub> → Q।</p><p>उत्तर : <b>(A)-(R), (B)-(S), (C)-(P), (D)-(Q)</b>।</p>",
+   "hint": "ρ = m/(ne<sup>2</sup>τ) को पुनर्व्यवस्थित करने पर τ = m/(ne<sup>2</sup>ρ)।"
+  }
+ },
+ "phy12-03-neet-2021-code-p3-q21": {
+  "sol": "<p>Four equal wires R in parallel: R/4 = 0.25 Ω ⇒ R = 1 Ω. In series: 4R = <b>4 Ω</b>.</p>",
+  "hint": "Series/parallel ratio for n equal resistors is n<sup>2</sup>.",
+  "hi": {
+   "q": "समान लंबाई, समान अनुप्रस्थ काट क्षेत्रफल और एक ही पदार्थ के चार तारों वाले पार्श्व संयोजन का प्रभावी प्रतिरोध 0.25 Ω है। यदि उन्हें श्रेणीक्रम में जोड़ा जाए, तो प्रभावी प्रतिरोध क्या होगा?",
+   "o": [
+    "4 Ω",
+    "0.25 Ω",
+    "0.5 Ω",
+    "1 Ω"
+   ],
+   "sol": "<p>चार समान तार R पार्श्वक्रम में : R/4 = 0.25 Ω ⇒ R = 1 Ω। श्रेणीक्रम में : 4R = <b>4 Ω</b>।</p>",
+   "hint": "n समान प्रतिरोधों के लिए श्रेणी/पार्श्व अनुपात n<sup>2</sup> है।"
+  }
+ },
+ "phy12-03-neet-2021-code-p3-q30": {
+  "sol": "<p>With the same current in the potentiometer wire, the balance length is proportional to the emf: l<sub>2</sub> = 36 × 2.5/1.5 = <b>60 cm</b>.</p>",
+  "hint": "E ∝ l at balance.",
+  "hi": {
+   "q": "एक पोटेंशियोमीटर परिपथ में 1.5 V विद्युत वाहक बल (EMF) का एक सेल तार की 36 cm लंबाई पर संतुलन बिंदु देता है। यदि पहले सेल के स्थान पर 2.5 V विद्युत वाहक बल (EMF) का दूसरा सेल लगाया जाए, तो तार की किस लंबाई पर संतुलन बिंदु प्राप्त होगा?",
+   "o": [
+    "62 cm",
+    "60 cm",
+    "21.6 cm",
+    "64 cm"
+   ],
+   "sol": "<p>पोटेंशियोमीटर तार में समान धारा होने पर संतुलन लंबाई विद्युत वाहक बल के अनुक्रमानुपाती है : l<sub>2</sub> = 36 × 2.5/1.5 = <b>60 cm</b>।</p>",
+   "hint": "संतुलन पर E ∝ l।"
+  }
+ },
+ "phy12-03-neet-2021-code-p3-q43": {
+  "sol": "<p>i<sub>1</sub> divides between r<sub>2</sub> and r<sub>3</sub> in parallel, inversely as their resistances: i<sub>3</sub> = i<sub>1</sub> × r<sub>2</sub>/(r<sub>2</sub> + r<sub>3</sub>).</p><p>i<sub>3</sub>/i<sub>1</sub> = <b>r<sub>2</sub>/(r<sub>2</sub> + r<sub>3</sub>)</b>.</p>",
+  "hint": "Current divider: the branch current ∝ the other branch's resistance.",
+  "hi": {
+   "q": "r<sub>1</sub>, r<sub>2</sub> और r<sub>3</sub> प्रतिरोधों वाले तीन प्रतिरोधक दिए गए परिपथ में दिखाए अनुसार जुड़े हैं। परिपथ में प्रयुक्त प्रतिरोधों के पदों में धाराओं का अनुपात i<sub>3</sub>/i<sub>1</sub> है :",
+   "o": [
+    "r<sub>2</sub>/(r<sub>1</sub> + r<sub>3</sub>)",
+    "r<sub>1</sub>/(r<sub>2</sub> + r<sub>3</sub>)",
+    "r<sub>2</sub>/(r<sub>2</sub> + r<sub>3</sub>)",
+    "r<sub>1</sub>/(r<sub>1</sub> + r<sub>2</sub>)"
+   ],
+   "sol": "<p>i<sub>1</sub>, पार्श्वक्रम में जुड़े r<sub>2</sub> और r<sub>3</sub> में उनके प्रतिरोधों के व्युत्क्रम अनुपात में बँटती है : i<sub>3</sub> = i<sub>1</sub> × r<sub>2</sub>/(r<sub>2</sub> + r<sub>3</sub>)।</p><p>i<sub>3</sub>/i<sub>1</sub> = <b>r<sub>2</sub>/(r<sub>2</sub> + r<sub>3</sub>)</b>।</p>",
+   "hint": "धारा विभाजन : शाखा की धारा ∝ दूसरी शाखा का प्रतिरोध।"
+  }
+ },
+ "phy12-03-neet-2022-code-t2-q15": {
+  "sol": "<p>In parallel both resistors have the same voltage V, so heat in time t = V<sup>2</sup>t/R ∝ 1/R.</p><p>H<sub>100</sub> : H<sub>200</sub> = 200 : 100 = <b>2 : 1</b>.</p>",
+  "hint": "Same V ⇒ P ∝ 1/R.",
+  "hi": {
+   "q": "100 Ω और 200 Ω प्रतिरोध वाले दो प्रतिरोधक एक विद्युत परिपथ में पार्श्वक्रम में जुड़े हैं। किसी दिए गए समय में 100 Ω में उत्पन्न ऊष्मीय ऊर्जा का 200 Ω में उत्पन्न ऊष्मीय ऊर्जा से अनुपात है :",
+   "o": [
+    "2 : 1",
+    "1 : 4",
+    "4 : 1",
+    "1 : 2"
+   ],
+   "sol": "<p>पार्श्वक्रम में दोनों प्रतिरोधकों पर समान वोल्टता V है, अतः t समय में ऊष्मा = V<sup>2</sup>t/R ∝ 1/R ।</p><p>H<sub>100</sub> : H<sub>200</sub> = 200 : 100 = <b>2 : 1</b>।</p>",
+   "hint": "समान V ⇒ P ∝ 1/R ।"
+  }
+ },
+ "phy12-03-neet-2022-code-t2-q28": {
+  "sol": "<p>In conductors (metals) electrons collide more often at higher temperature (smaller τ), so resistance <b>increases</b>; in semiconductors many more carriers are produced, so resistance <b>decreases</b>.</p>",
+  "hint": "Metals: positive α; semiconductors: negative α.",
+  "hi": {
+   "q": "ताप बढ़ने पर विद्युत प्रतिरोध :",
+   "o": [
+    "चालकों और अर्धचालकों दोनों के लिए घटता है",
+    "चालकों के लिए बढ़ता है परंतु अर्धचालकों के लिए घटता है",
+    "चालकों के लिए घटता है परंतु अर्धचालकों के लिए बढ़ता है",
+    "चालकों और अर्धचालकों दोनों के लिए बढ़ता है"
+   ],
+   "sol": "<p>चालकों (धातुओं) में अधिक ताप पर इलेक्ट्रॉन अधिक बार संघट्ट करते हैं (कम τ), अतः प्रतिरोध <b>बढ़ता</b> है; अर्धचालकों में बहुत अधिक वाहक उत्पन्न होते हैं, अतः प्रतिरोध <b>घटता</b> है।</p>",
+   "hint": "धातु : धनात्मक α; अर्धचालक : ऋणात्मक α।"
+  }
+ },
+ "phy12-03-neet-2022-code-t2-q33": {
+  "sol": "<p>Area A = πr<sup>2</sup> = π × (10<sup>−2</sup>/√π)<sup>2</sup> = 10<sup>−4</sup> m<sup>2</sup>. Resistivity ρ = RA/l = 10 × 10<sup>−4</sup>/10 = 10<sup>−4</sup> Ω m.</p><p>J = E/ρ = 10/10<sup>−4</sup> = <b>10<sup>5</sup> A/m<sup>2</sup></b>.</p>",
+  "hint": "J = σE = E/ρ.",
+  "hi": {
+   "q": "10 m लंबाई और (10<sup>−2</sup>/√π) m त्रिज्या वाले ताँबे के एक तार का विद्युत प्रतिरोध 10 Ω है। 10 (V/m) विद्युत क्षेत्र तीव्रता के लिए तार में धारा घनत्व है :",
+   "o": [
+    "10<sup>6</sup> A/m<sup>2</sup>",
+    "10<sup>−5</sup> A/m<sup>2</sup>",
+    "10<sup>5</sup> A/m<sup>2</sup>",
+    "10<sup>4</sup> A/m<sup>2</sup>"
+   ],
+   "sol": "<p>क्षेत्रफल A = πr<sup>2</sup> = π × (10<sup>−2</sup>/√π)<sup>2</sup> = 10<sup>−4</sup> m<sup>2</sup>। प्रतिरोधकता ρ = RA/l = 10 × 10<sup>−4</sup>/10 = 10<sup>−4</sup> Ω m।</p><p>J = E/ρ = 10/10<sup>−4</sup> = <b>10<sup>5</sup> A/m<sup>2</sup></b>।</p>",
+   "hint": "J = σE = E/ρ।"
+  }
+ },
+ "phy12-03-neet-2022-code-t2-q46": {
+  "sol": "<p>A Wheatstone bridge is most sensitive when all four arms are of comparable value. With P and Q about equal (and not large), the balance point is sharp and X ≈ Y can be read precisely. Answer: <b>P and Q should be approximately equal and small</b>.</p>",
+  "hint": "Bridge sensitivity is greatest with similar arm resistances.",
+  "hi": {
+   "q": "चित्र में दिखाए अनुसार परिवर्ती प्रतिरोध Y को समायोजित करके अज्ञात प्रतिरोध X का मान ज्ञात करने के लिए एक व्हीटस्टोन सेतु का उपयोग किया जाता है। X के सबसे परिशुद्ध मापन के लिए प्रतिरोध P और Q :",
+   "o": [
+    "लगभग बराबर और छोटे होने चाहिए",
+    "बहुत बड़े और असमान होने चाहिए",
+    "कोई महत्वपूर्ण भूमिका नहीं निभाते",
+    "लगभग 2X के बराबर होने चाहिए"
+   ],
+   "sol": "<p>व्हीटस्टोन सेतु सबसे अधिक सुग्राही तब होता है जब चारों भुजाएँ तुलनीय मान की हों। P और Q लगभग बराबर (और बड़े नहीं) होने पर संतुलन बिंदु तीक्ष्ण होता है और X ≈ Y परिशुद्धता से पढ़ा जा सकता है। उत्तर : <b>P और Q लगभग बराबर और छोटे होने चाहिए</b>।</p>",
+   "hint": "समान भुजा प्रतिरोधों पर सेतु की सुग्राहिता अधिकतम होती है।"
+  }
+ },
+ "phy12-03-neet-2023-topic-wise-copy-q19": {
+  "sol": "<p>The two cells oppose each other: net emf = 10 − 5 = 5 V, driving current in the direction of the 10 V cell. Total resistance = 2 + 1 + 7 = 10 Ω.</p><p>I = 5/10 = 0.5 A, flowing <b>from A to B through E</b>.</p>",
+  "hint": "Opposing cells subtract; the larger emf sets the direction.",
+  "hi": {
+   "q": "निम्नलिखित परिपथ में धारा का परिमाण और दिशा है :",
+   "o": [
+    "E से होकर B से A की ओर 1.5 A",
+    "E से होकर B से A की ओर 0.2 A",
+    "E से होकर A से B की ओर 0.5 A",
+    "E से होकर A से B की ओर (5/9) A"
+   ],
+   "sol": "<p>दोनों सेल एक-दूसरे का विरोध करते हैं : नेट विद्युत वाहक बल = 10 − 5 = 5 V, जो 10 V सेल की दिशा में धारा चलाता है। कुल प्रतिरोध = 2 + 1 + 7 = 10 Ω।</p><p>I = 5/10 = 0.5 A, <b>E से होकर A से B की ओर</b>।</p>",
+   "hint": "विरोधी सेल घटते हैं; बड़ा विद्युत वाहक बल दिशा तय करता है।"
+  }
+ },
+ "phy12-03-neet-2023-topic-wise-copy-q20": {
+  "sol": "<p>No deflection: the G branch (with its 2 V cell) carries no current, so the p.d. across R must equal 2 V. The main cell drives I = E/(400 + R) through 400 Ω and R: E R/(400 + R) = 2.</p><p>With E = 10 V (the value the keyed answer needs): 10R = 800 + 2R ⇒ R = <b>100 Ω</b>.</p><p class='errata'>The copy prints the main cell as 40 V; then 40R = 800 + 2R gives R ≈ 21 Ω, which is not an option.</p>",
+  "hint": "Null galvanometer ⇒ p.d. across R = 2 V.",
+  "hi": {
+   "q": "यदि दिखाए गए परिपथ में गैल्वेनोमीटर G कोई विक्षेप नहीं दर्शाता, तो R का मान दिया जाता है :",
+   "o": [
+    "400 Ω",
+    "200 Ω",
+    "50 Ω",
+    "100 Ω"
+   ],
+   "sol": "<p>कोई विक्षेप नहीं : G शाखा (अपने 2 V सेल सहित) में कोई धारा नहीं, अतः R के सिरों पर विभवांतर 2 V होना चाहिए। मुख्य सेल 400 Ω और R से I = E/(400 + R) धारा चलाता है : E R/(400 + R) = 2।</p><p>E = 10 V के साथ (कुंजी के उत्तर के लिए आवश्यक मान) : 10R = 800 + 2R ⇒ R = <b>100 Ω</b>।</p><p class='errata'>प्रति में मुख्य सेल 40 V छपा है; तब 40R = 800 + 2R से R ≈ 21 Ω मिलता है, जो विकल्प नहीं है।</p>",
+   "hint": "शून्य गैल्वेनोमीटर ⇒ R के सिरों पर विभवांतर = 2 V।"
+  }
+ },
+ "phy12-03-neet-2023-topic-wise-copy-q21": {
+  "sol": "<p>22000 Ω = 22 × 10<sup>3</sup> Ω: red (2), red (2), and the third band is the multiplier 10<sup>3</sup> = <b>orange</b>; gold for 5%.</p>",
+  "hint": "The third band gives the power of ten.",
+  "hi": {
+   "q": "वर्ण कोड से निर्धारित एक कार्बन प्रतिरोधक का प्रतिरोध (22000 ± 5%) Ω है। तीसरे वलय का रंग होना चाहिए :",
+   "o": [
+    "पीला",
+    "लाल",
+    "हरा",
+    "नारंगी"
+   ],
+   "sol": "<p>22000 Ω = 22 × 10<sup>3</sup> Ω : लाल (2), लाल (2), और तीसरा वलय गुणक 10<sup>3</sup> = <b>नारंगी</b>; 5% के लिए सुनहरा।</p>",
+   "hint": "तीसरा वलय दस की घात देता है।"
+  }
+ },
+ "phy12-03-neet-2023-topic-wise-copy-q42": {
+  "sol": "<p>R<sub>T</sub> = R<sub>0</sub>(1 + αΔT) ⇒ α = (R<sub>T</sub> − R<sub>0</sub>)/(R<sub>0</sub>ΔT) = (6.8 − 2)/(2 × 80) = 4.8/160 = <b>3 × 10<sup>−2</sup> °C<sup>−1</sup></b>.</p>",
+  "hint": "α = ΔR/(R<sub>0</sub>ΔT).",
+  "hi": {
+   "q": "प्लैटिनम तार का प्रतिरोध 0 °C पर 2 Ω और 80 °C पर 6.8 Ω है। तार का प्रतिरोध ताप गुणांक है :",
+   "o": [
+    "3 × 10<sup>−1</sup> °C<sup>−1</sup>",
+    "3 × 10<sup>−4</sup> °C<sup>−1</sup>",
+    "3 × 10<sup>−3</sup> °C<sup>−1</sup>",
+    "3 × 10<sup>−2</sup> °C<sup>−1</sup>"
+   ],
+   "sol": "<p>R<sub>T</sub> = R<sub>0</sub>(1 + αΔT) ⇒ α = (R<sub>T</sub> − R<sub>0</sub>)/(R<sub>0</sub>ΔT) = (6.8 − 2)/(2 × 80) = 4.8/160 = <b>3 × 10<sup>−2</sup> °C<sup>−1</sup></b>।</p>",
+   "hint": "α = ΔR/(R<sub>0</sub>ΔT)।"
+  }
+ },
+ "phy12-03-neet-2023-topic-wise-copy-q43": {
+  "sol": "<p>Series: R<sub>s</sub> = 10R; parallel: R<sub>p</sub> = R/10. With the same battery, I ∝ 1/R<sub>total</sub>: n = R<sub>s</sub>/R<sub>p</sub> = <b>100</b>.</p>",
+  "hint": "n equal resistors: series/parallel = n<sup>2</sup>.",
+  "hi": {
+   "q": "प्रत्येक R प्रतिरोध वाले 10 प्रतिरोधक विद्युत वाहक बल E और नगण्य आंतरिक प्रतिरोध वाली एक बैटरी के साथ श्रेणीक्रम में जुड़े हैं। फिर उन्हें उसी बैटरी से पार्श्वक्रम में जोड़ा जाता है, जिससे धारा n गुनी हो जाती है। n का मान है :",
+   "o": [
+    "1000",
+    "10",
+    "100",
+    "1"
+   ],
+   "sol": "<p>श्रेणी : R<sub>s</sub> = 10R; पार्श्व : R<sub>p</sub> = R/10। उसी बैटरी के साथ I ∝ 1/R<sub>total</sub> : n = R<sub>s</sub>/R<sub>p</sub> = <b>100</b>।</p>",
+   "hint": "n समान प्रतिरोधक : श्रेणी/पार्श्व = n<sup>2</sup>।"
+  }
+ },
+ "phy12-03-neet-2024-q1-esaral-physics-copy": {
+  "sol": "<p>Balance needs 10/15 = 10/(5 + R<sub>D</sub>), i.e. the diode arm must offer R<sub>D</sub> = 10 Ω. A reverse-biased diode blocks (infinite resistance), so the diode must be forward biased; its forward resistance then completes the ratio. Only circuit <b>A</b> has the diode forward biased by the cell, so it is the one that can balance.</p>",
+  "hint": "A bridge arm containing a reverse-biased diode is open.",
+  "hi": {
+   "q": "वह सही परिपथ चुनिए जो सेतु संतुलन प्राप्त कर सकता है।",
+   "o": [
+    "[परिपथ A]",
+    "[परिपथ B]",
+    "[परिपथ C]",
+    "[परिपथ D]"
+   ],
+   "sol": "<p>संतुलन के लिए 10/15 = 10/(5 + R<sub>D</sub>), अर्थात डायोड वाली भुजा का प्रतिरोध R<sub>D</sub> = 10 Ω होना चाहिए। पश्चदिशिक बायस डायोड धारा रोकता है (अनंत प्रतिरोध), अतः डायोड अग्रदिशिक बायस में होना चाहिए; तब उसका अग्र प्रतिरोध अनुपात पूरा करता है। केवल परिपथ <b>A</b> में डायोड सेल द्वारा अग्रदिशिक बायस में है, अतः वही संतुलित हो सकता है।</p>",
+   "hint": "पश्चदिशिक बायस डायोड वाली सेतु भुजा खुली होती है।"
+  }
+ },
+ "phy12-03-neet-2024-q23-esaral-physics-copy": {
+  "sol": "<p>Same supply V: R = V<sup>2</sup>/P, so R<sub>A</sub> = 2R<sub>B</sub> (A is 1 kW, B is 2 kW). Series: P<sub>s</sub> = V<sup>2</sup>/(3R<sub>B</sub>). Parallel: P<sub>p</sub> = V<sup>2</sup>/R<sub>A</sub> + V<sup>2</sup>/R<sub>B</sub> = 3V<sup>2</sup>/(2R<sub>B</sub>).</p><p>P<sub>s</sub> : P<sub>p</sub> = (1/3) : (3/2) = <b>2 : 9</b>.</p>",
+  "hint": "Series of 1 kW and 2 kW gives 2/3 kW; parallel gives 3 kW.",
+  "hi": {
+   "q": "दो तापकों A और B की शक्ति निर्धारण क्रमशः 1 kW और 2 kW है। इन्हें पहले श्रेणीक्रम में और फिर पार्श्वक्रम में एक नियत शक्ति स्रोत से जोड़ा जाता है। इन दोनों स्थितियों के लिए निर्गत शक्तियों का अनुपात है :",
+   "o": [
+    "1 : 1",
+    "2 : 9",
+    "1 : 2",
+    "2 : 3"
+   ],
+   "sol": "<p>समान आपूर्ति V : R = V<sup>2</sup>/P, अतः R<sub>A</sub> = 2R<sub>B</sub> (A, 1 kW; B, 2 kW)। श्रेणी : P<sub>s</sub> = V<sup>2</sup>/(3R<sub>B</sub>)। पार्श्व : P<sub>p</sub> = V<sup>2</sup>/R<sub>A</sub> + V<sup>2</sup>/R<sub>B</sub> = 3V<sup>2</sup>/(2R<sub>B</sub>)।</p><p>P<sub>s</sub> : P<sub>p</sub> = (1/3) : (3/2) = <b>2 : 9</b>।</p>",
+   "hint": "1 kW और 2 kW श्रेणीक्रम में 2/3 kW देते हैं; पार्श्वक्रम में 3 kW।"
+  }
+ },
+ "phy12-03-neet-2024-q24-esaral-physics-copy": {
+  "sol": "<p>Each part = 10 Ω. Five in series = 50 Ω; five in parallel = 10/5 = 2 Ω. In series: 50 + 2 = <b>52 Ω</b>.</p>",
+  "hint": "Each tenth of the wire is 10 Ω.",
+  "hi": {
+   "q": "'l' लंबाई और 100 Ω प्रतिरोध वाले एक तार को 10 समान भागों में विभाजित किया जाता है। पहले 5 भाग श्रेणीक्रम में जोड़े जाते हैं जबकि अगले 5 भाग पार्श्वक्रम में। दोनों संयोजनों को पुनः श्रेणीक्रम में जोड़ा जाता है। इस अंतिम संयोजन का प्रतिरोध है :",
+   "o": [
+    "26 Ω",
+    "52 Ω",
+    "55 Ω",
+    "60 Ω"
+   ],
+   "sol": "<p>प्रत्येक भाग = 10 Ω। पाँच श्रेणीक्रम में = 50 Ω; पाँच पार्श्वक्रम में = 10/5 = 2 Ω। श्रेणीक्रम में : 50 + 2 = <b>52 Ω</b>।</p>",
+   "hint": "तार का प्रत्येक दसवाँ भाग 10 Ω है।"
+  }
+ },
+ "phy12-03-neet-2024-q25-esaral-physics-copy": {
+  "sol": "<p>I = E/(R + r) = 10/(4 + 1) = 2 A. Terminal voltage V = E − Ir = 10 − 2 × 1 = <b>8 V</b> (= IR = 2 × 4).</p>",
+  "hint": "V = E − Ir.",
+  "hi": {
+   "q": "10 V विद्युत वाहक बल और 1 Ω आंतरिक प्रतिरोध वाली बैटरी को चित्र में दिखाए अनुसार 4 Ω के बाह्य प्रतिरोध से जोड़ने पर उसकी टर्मिनल वोल्टता है :",
+   "o": [
+    "4 V",
+    "6 V",
+    "8 V",
+    "10 V"
+   ],
+   "sol": "<p>I = E/(R + r) = 10/(4 + 1) = 2 A। टर्मिनल वोल्टता V = E − Ir = 10 − 2 × 1 = <b>8 V</b> (= IR = 2 × 4)।</p>",
+   "hint": "V = E − Ir।"
+  }
+ },
+ "phy12-03-neet-2025-code-45-q6": {
+  "sol": "<p>In the bridge the arms satisfy 5/3 = 2.5/1.5, so it is balanced and the 6 Ω across it carries no current. What remains is two paths in parallel, 2.5 + 1.5 = 4 Ω and 5 + 3 = 8 Ω: R′ = (4 × 8)/12 = 8/3 Ω.</p><p>Total R = 8/3 + 1/3 + 1.5 + 5.5 = 10 Ω ⇒ I = 5/10 = <b>0.5 A</b>.</p>",
+  "hint": "Balanced bridge: ignore the middle resistor.",
+  "hi": {
+   "q": "दिए गए परिपथ में बैटरी से प्रवाहित धारा है :",
+   "o": [
+    "2.0 A",
+    "0.5 A",
+    "2.5 A",
+    "1.5 A"
+   ],
+   "sol": "<p>सेतु की भुजाएँ 5/3 = 2.5/1.5 को संतुष्ट करती हैं, अतः यह संतुलित है और इसके आर-पार 6 Ω में कोई धारा नहीं। शेष दो पथ पार्श्वक्रम में हैं, 2.5 + 1.5 = 4 Ω और 5 + 3 = 8 Ω : R′ = (4 × 8)/12 = 8/3 Ω।</p><p>कुल R = 8/3 + 1/3 + 1.5 + 5.5 = 10 Ω ⇒ I = 5/10 = <b>0.5 A</b>।</p>",
+   "hint": "संतुलित सेतु : बीच के प्रतिरोधक की उपेक्षा कीजिए।"
+  }
+ },
+ "phy12-03-neet-2025-code-45-q33": {
+  "sol": "<p>Each piece R/8. Four in parallel: (R/8)/4 = R/32. Two such sets in series: 2 × R/32 = <b>R/16</b>.</p>",
+  "hint": "Cut first, then combine.",
+  "hi": {
+   "q": "R प्रतिरोध वाले एक तार को 8 समान टुकड़ों में काटा जाता है। इन टुकड़ों में से चार-चार को पार्श्वक्रम में जोड़कर दो तुल्य प्रतिरोध बनाए जाते हैं। फिर इन दोनों समूहों को श्रेणीक्रम में जोड़ा जाता है। संयोजन का नेट प्रभावी प्रतिरोध है :",
+   "o": [
+    "R/64",
+    "R/32",
+    "R/16",
+    "R/8"
+   ],
+   "sol": "<p>प्रत्येक टुकड़ा R/8। चार पार्श्वक्रम में : (R/8)/4 = R/32। ऐसे दो समूह श्रेणीक्रम में : 2 × R/32 = <b>R/16</b>।</p>",
+   "hint": "पहले काटिए, फिर जोड़िए।"
+  }
+ },
+ "phy12-03-neet-2025-code-45-q36": {
+  "sol": "<p>Between A and the C–D link: 1 Ω ∥ 3 Ω = 3/4 Ω; between C–D and B: 2 Ω ∥ 4 Ω = 4/3 Ω. Total 25/12 Ω, so I = 50 × 12/25 = 24 A.</p><p>Current through 1 Ω = 24 × 3/4 = 18 A (into C); through 2 Ω = 24 × 4/6 = 16 A (out of C). Junction rule at C: I<sub>CD</sub> = 18 − 16 = <b>2.0 A</b> (from C to D).</p>",
+  "hint": "Treat C and D as one node to find the branch currents, then apply the junction rule at C.",
+  "hi": {
+   "q": "चित्र में दिखाए गए परिपथ के बिंदुओं A और B के बीच 50 V की नियत वोल्टता बनाए रखी गई है। परिपथ की शाखा CD से धारा है :",
+   "o": [
+    "1.5 A",
+    "2.0 A",
+    "2.5 A",
+    "3.0 A"
+   ],
+   "sol": "<p>A और C–D कड़ी के बीच : 1 Ω ∥ 3 Ω = 3/4 Ω; C–D और B के बीच : 2 Ω ∥ 4 Ω = 4/3 Ω। कुल 25/12 Ω, अतः I = 50 × 12/25 = 24 A।</p><p>1 Ω से धारा = 24 × 3/4 = 18 A (C में); 2 Ω से = 24 × 4/6 = 16 A (C से बाहर)। C पर संधि नियम : I<sub>CD</sub> = 18 − 16 = <b>2.0 A</b> (C से D की ओर)।</p>",
+   "hint": "शाखा धाराएँ ज्ञात करने के लिए C और D को एक संधि मानिए, फिर C पर संधि नियम लगाइए।"
+  }
+ },
+ "phy12-03-neet-2026-code-13-q2": {
+  "sol": "<p>R = V<sup>2</sup>/P = 220<sup>2</sup>/400 = 121 Ω (assumed constant). At 200 V: P = 200<sup>2</sup>/121 ≈ <b>331 W</b>.</p>",
+  "hint": "Resistance is fixed; P ∝ V<sup>2</sup>.",
+  "hi": {
+   "q": "एक कक्ष तापक 400 W, 220 V निर्धारित है। यदि आपूर्ति वोल्टता घटकर 200 V हो जाए, तो खपत की गई शक्ति (लगभग) क्या होगी?",
+   "o": [
+    "400 W",
+    "121 W",
+    "331 W",
+    "200 W"
+   ],
+   "sol": "<p>R = V<sup>2</sup>/P = 220<sup>2</sup>/400 = 121 Ω (नियत माना)। 200 V पर : P = 200<sup>2</sup>/121 ≈ <b>331 W</b>।</p>",
+   "hint": "प्रतिरोध नियत है; P ∝ V<sup>2</sup>।"
+  }
+ },
+ "phy12-03-neet-2026-code-13-q21": {
+  "sol": "<p>V = E − Ir = 12 − 0.6 × 2 = <b>10.8 V</b>.</p>",
+  "hint": "Terminal voltage = emf − drop across internal resistance.",
+  "hi": {
+   "q": "एक प्रतिरोधक 12 V विद्युत वाहक बल और 2 Ω आंतरिक प्रतिरोध वाली बैटरी से जुड़ा है। यदि परिपथ में धारा 0.6 A है, तो बैटरी की टर्मिनल वोल्टता है :",
+   "o": [
+    "12 V",
+    "1.2 V",
+    "10 V",
+    "10.8 V"
+   ],
+   "sol": "<p>V = E − Ir = 12 − 0.6 × 2 = <b>10.8 V</b>।</p>",
+   "hint": "टर्मिनल वोल्टता = विद्युत वाहक बल − आंतरिक प्रतिरोध पर विभवपात।"
+  }
+ },
+ "phy12-03-neet-2026-code-13-q22": {
+  "sol": "<p>The balance condition of a bridge is unchanged if the cell and galvanometer are interchanged (reciprocity). So moving the jockey still gives a deflection one way on one side of the balance point, the other way beyond it, and <b>no deflection at the balance point</b>.</p>",
+  "hint": "Swapping battery and galvanometer leaves the balance point unchanged.",
+  "hi": {
+   "q": "एक मीटर सेतु प्रयोग में (चित्र देखिए) सेल E और गैल्वेनोमीटर G की स्थितियाँ आपस में बदल दी जाती हैं। हम गैल्वेनोमीटर में देखेंगे :",
+   "o": [
+    "केवल दाईं ओर विक्षेप",
+    "केवल बाईं ओर विक्षेप",
+    "जॉकी की स्थिति से निरपेक्ष कोई विक्षेप नहीं होगा",
+    "दाईं ओर और बाईं ओर दोनों विक्षेप तथा संतुलन बिंदु पर कोई विक्षेप नहीं"
+   ],
+   "sol": "<p>सेल और गैल्वेनोमीटर की स्थितियाँ बदलने पर सेतु की संतुलन स्थिति नहीं बदलती (व्युत्क्रमता)। अतः जॉकी चलाने पर संतुलन बिंदु के एक ओर एक दिशा में, दूसरी ओर विपरीत दिशा में विक्षेप होता है, और <b>संतुलन बिंदु पर कोई विक्षेप नहीं</b>।</p>",
+   "hint": "बैटरी और गैल्वेनोमीटर बदलने पर संतुलन बिंदु नहीं बदलता।"
+  }
+ },
+ "phy12-03-neet-2026-code-13-q45": {
+  "sol": "<p>Each side of the square is 1 Ω. With the battery across A and C, the paths A→B→C and A→D→C are identical, so B and D are at the same potential and the 2 Ω diagonal carries no current.</p><p>Two 2 Ω paths in parallel: 1 Ω. I = 2/1 = <b>2 A</b>.</p>",
+  "hint": "Symmetry: B and D at equal potential.",
+  "hi": {
+   "q": "4 Ω प्रतिरोध वाले एक एकसमान धात्विक तार को मोड़कर एक वर्गाकार लूप (ABCD) बनाया गया है (चित्र देखिए)। बिंदुओं B और D के बीच 2 Ω का एक प्रतिरोध जोड़ा गया है और बिंदुओं A और C के बीच चित्र में दिखाए अनुसार 2 V की एक बैटरी जोड़ी गई है। अब धारा (I) का मान है :",
+   "o": [
+    "4 A",
+    "4.5 A",
+    "8 A",
+    "2 A"
+   ],
+   "sol": "<p>वर्ग की प्रत्येक भुजा 1 Ω है। A और C के बीच बैटरी होने पर पथ A→B→C और A→D→C सर्वसम हैं, अतः B और D समान विभव पर हैं और 2 Ω विकर्ण में कोई धारा नहीं।</p><p>दो 2 Ω पथ पार्श्वक्रम में : 1 Ω। I = 2/1 = <b>2 A</b>।</p>",
+   "hint": "सममिति : B और D समान विभव पर।"
+  }
+ }
+}
