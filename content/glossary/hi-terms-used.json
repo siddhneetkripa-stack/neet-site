@@ -456,7 +456,10 @@
   {
    "en": "Methane",
    "hi": "मेथेन",
-   "source": "ncert-hi-text"
+   "source": "ncert-hi-text",
+   "variants": [
+    "मीथेन"
+   ]
   },
   {
    "en": "Ethane",
@@ -2156,6 +2159,136 @@
    "en": "Computed tomography",
    "hi": "अभिकलित टॉमोग्राफी",
    "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "butyric acid",
+   "hi": "ब्युट्रिक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "biology spelling; chemistry questions use the chemistry book form"
+  },
+  {
+   "en": "citric acid",
+   "hi": "सिट्रिक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "biology spelling; chemistry questions use the chemistry book form"
+  },
+  {
+   "en": "acetic acid",
+   "hi": "एसिटिक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "biology spelling; chemistry questions use the chemistry book form"
+  },
+  {
+   "en": "lactic acid",
+   "hi": "लैक्टिक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "biology spelling; chemistry questions use the chemistry book form"
+  },
+  {
+   "en": "cyclosporin A",
+   "hi": "साइक्लोस्पोरिन-ए",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "statins",
+   "hi": "स्टैटिन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "lipase",
+   "hi": "लाइपेज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Swiss cheese",
+   "hi": "स्विस चीज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "activated sludge",
+   "hi": "आपंक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "anaerobic sludge digester",
+   "hi": "अवायवीय आपंक संपाचित्र",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "primary treatment",
+   "hi": "प्राथमिक उपचार",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "secondary treatment",
+   "hi": "द्वितीयक उपचार",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "effluent",
+   "hi": "बहिःस्राव",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sewage",
+   "hi": "वाहित मल",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "biocontrol",
+   "hi": "जैव नियंत्रण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "biofertiliser",
+   "hi": "जैव उर्वरक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "mycorrhiza",
+   "hi": "माइकोराइजा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "immunosuppressive",
+   "hi": "प्रतिरक्षा निरोधक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "antibiotic",
+   "hi": "प्रतिजैविक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "distillation",
+   "hi": "आसवन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "brandy",
+   "hi": "ब्रांडी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "beer",
+   "hi": "बियर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "curd",
+   "hi": "दही",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ethanol",
+   "hi": "ऐथानॉल",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "biology spelling; chemistry questions use the chemistry book form"
   }
  ],
  "noNcertTerm": [
@@ -2318,6 +2451,11 @@
    "en": "flipper",
    "hi_used": "फ्लिपर (NCERT Hindi: फिलपर्स, an OCR form)",
    "note": "not in NCERT Hindi text (bio12-06)"
+  },
+  {
+   "en": "streptokinase",
+   "hi_used": "स्ट्रेप्टोकाइनेज",
+   "note": "NCERT Hindi ch08 prints it with a garbled conjunct (स्टै्रप्टोकाइनेज) in the extracted text; normal spelling used"
   }
  ]
 }

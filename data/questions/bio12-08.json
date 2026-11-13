@@ -76,10 +76,22 @@
       "(a) iv, (b) ii, (c) i, (d) iii",
       "(a) iii, (b) i, (c) iv, (d) ii",
       "(a) iii, (b) iv, (c) i, (d) ii"
-     ]
+     ],
+     "sol": "<ul><li>(a) <i>Saccharomyces cerevisiae</i> — commercial production of ethanol (iii).</li><li>(b) <i>Monascus purpureus</i> — statins, blood-cholesterol lowering agents (iv).</li><li>(c) <i>Trichoderma polysporum</i> — cyclosporin A, an immunosuppressive agent (i).</li><li>(d) <i>Propionibacterium shermanii</i> — large holes in Swiss cheese (ii).</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii.</p>",
+     "hint": "Each microbe has one NCERT product."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूक्ष्मजीवों की निम्नलिखित सूची का उनके महत्व से मिलान कीजिए :<br>(a) <i>Saccharomyces cerevisiae</i> — (i) प्रतिरक्षा निरोधक कारकों का उत्पादन<br>(b) <i>Monascus purpureus</i> — (ii) स्विस चीज़ का परिपक्वन<br>(c) <i>Trichoderma polysporum</i> — (iii) ऐथानॉल का व्यापारिक उत्पादन<br>(d) <i>Propionibacterium shermanii</i> — (iv) रक्त-कॉलिस्ट्रॉल कम करने वाले कारकों का उत्पादन",
+     "o": [
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) iv, (b) ii, (c) i, (d) iii",
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) iii, (b) iv, (c) i, (d) ii"
+     ],
+     "sol": "<ul><li>(a) <i>Saccharomyces cerevisiae</i> — ऐथानॉल का व्यापारिक उत्पादन (iii)।</li><li>(b) <i>Monascus purpureus</i> — स्टैटिन, रक्त-कॉलिस्ट्रॉल कम करने वाले कारक (iv)।</li><li>(c) <i>Trichoderma polysporum</i> — साइक्लोस्पोरिन-ए, प्रतिरक्षा निरोधक कारक (i)।</li><li>(d) <i>Propionibacterium shermanii</i> — स्विस चीज़ के बड़े छिद्र (ii)।</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii।</p>",
+     "hint": "हर सूक्ष्मजीव का NCERT में एक उत्पाद है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -123,10 +135,22 @@
       "Monascus purpureus — Statins — Lowering of blood cholesterol",
       "Streptococcus — Streptokinase — Removal of clot from blood vessel",
       "Clostridium butylicum — Lipase — Removal of oil stains"
-     ]
+     ],
+     "sol": "<p><i>Clostridium butylicum</i> produces <b>butyric acid</b>, not lipase. Lipases (used in detergents to remove oil stains) come from other microbes. The other three rows match NCERT.</p>",
+     "hint": "Clostridium butylicum → butyric acid."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दी गई तालिका में निम्नलिखित में से कौन-सा गलत सुमेलित है? (सूक्ष्मजीव — उत्पाद — उपयोग)",
+     "o": [
+      "<i>Trichoderma polysporum</i> — साइक्लोस्पोरिन-ए — प्रतिरक्षा निरोधक औषध",
+      "<i>Monascus purpureus</i> — स्टैटिन — रक्त कॉलिस्ट्रॉल कम करना",
+      "<i>Streptococcus</i> — स्ट्रेप्टोकाइनेज — रक्त वाहिका से थक्का हटाना",
+      "<i>Clostridium butylicum</i> — लाइपेज — तेल के धब्बे हटाना"
+     ],
+     "sol": "<p><i>Clostridium butylicum</i> <b>ब्युट्रिक अम्ल</b> बनाता है, लाइपेज नहीं। लाइपेज (अपमार्जकों में तेल के धब्बे हटाने हेतु) अन्य सूक्ष्मजीवों से प्राप्त होते हैं। अन्य तीनों पंक्तियाँ NCERT से मेल खाती हैं।</p>",
+     "hint": "<i>Clostridium butylicum</i> → ब्युट्रिक अम्ल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -169,10 +193,22 @@
       "(a) iii, (b) i, (c) iv, (d) ii",
       "(a) i, (b) iv, (c) ii, (d) iii",
       "(a) iii, (b) iv, (c) i, (d) ii"
-     ]
+     ],
+     "sol": "<ul><li>(a) Citric acid — <i>Aspergillus niger</i> (iii).</li><li>(b) Cyclosporin A — <i>Trichoderma polysporum</i> (i).</li><li>(c) Statins — <i>Monascus purpureus</i> (iv).</li><li>(d) Butyric acid — <i>Clostridium butylicum</i> (ii).</li></ul><p>(a) iii, (b) i, (c) iv, (d) ii.</p>",
+     "hint": "NCERT 8.2.3 list."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I का स्तंभ II से मिलान कीजिए तथा नीचे दिए गए कोड से सही विकल्प चुनिए :<br>(a) सिट्रिक अम्ल — (i) <i>Trichoderma</i><br>(b) साइक्लोस्पोरिन-ए — (ii) <i>Clostridium</i><br>(c) स्टैटिन — (iii) <i>Aspergillus</i><br>(d) ब्युट्रिक अम्ल — (iv) <i>Monascus</i>",
+     "o": [
+      "(a) iii, (b) i, (c) ii, (d) iv",
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) i, (b) iv, (c) ii, (d) iii",
+      "(a) iii, (b) iv, (c) i, (d) ii"
+     ],
+     "sol": "<ul><li>(a) सिट्रिक अम्ल — <i>Aspergillus niger</i> (iii)।</li><li>(b) साइक्लोस्पोरिन-ए — <i>Trichoderma polysporum</i> (i)।</li><li>(c) स्टैटिन — <i>Monascus purpureus</i> (iv)।</li><li>(d) ब्युट्रिक अम्ल — <i>Clostridium butylicum</i> (ii)।</li></ul><p>(a) iii, (b) i, (c) iv, (d) ii।</p>",
+     "hint": "NCERT 8.2.3 की सूची।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -215,10 +251,22 @@
       "Dairy industry",
       "Petroleum industry",
       "Sugar industry"
-     ]
+     ],
+     "sol": "<p>BOD measures the oxygen used by microbes to oxidise biodegradable organic matter. Domestic sewage and dairy and sugar effluents are mostly biodegradable, so BOD reflects their pollution. <b>Petroleum industry</b> effluents contain non-biodegradable or toxic compounds that microbes cannot oxidise, so BOD under-reports that pollution.</p>",
+     "hint": "BOD sees only what microbes can oxidise."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किस प्रकार के बहिःस्राव प्राप्त करने वाले जलाशयों के लिए जैव रासायनिक ऑक्सीजन माँग (BOD) प्रदूषण का अच्छा सूचकांक नहीं हो सकती?",
+     "o": [
+      "घरेलू वाहित मल",
+      "डेयरी उद्योग",
+      "पेट्रोलियम उद्योग",
+      "चीनी उद्योग"
+     ],
+     "sol": "<p>BOD उस ऑक्सीजन को मापती है जिसे सूक्ष्मजीव जैवनिम्नीकरणीय कार्बनिक पदार्थों के ऑक्सीकरण में उपयोग करते हैं। घरेलू वाहित मल तथा डेयरी और चीनी उद्योग के बहिःस्राव अधिकतर जैवनिम्नीकरणीय होते हैं, अतः BOD उनका प्रदूषण दर्शाती है। <b>पेट्रोलियम उद्योग</b> के बहिःस्राव में ऐसे अजैवनिम्नीकरणीय या विषैले यौगिक होते हैं जिनका सूक्ष्मजीव ऑक्सीकरण नहीं कर सकते, अतः BOD उस प्रदूषण को कम दिखाती है।</p>",
+     "hint": "BOD केवल वही दिखाती है जिसे सूक्ष्मजीव ऑक्सीकृत कर सकें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -261,10 +309,22 @@
       "Rhodospirillum – Mycorrhiza",
       "Anabaena – Nitrogen fixer",
       "Rhizobium – Alfalfa"
-     ]
+     ],
+     "sol": "<p><i>Rhodospirillum</i> is a free-living photosynthetic (purple non-sulphur) bacterium, not a mycorrhizal fungus; mycorrhiza is formed by fungi such as <i>Glomus</i>. <i>Frankia</i>–<i>Alnus</i> (root nodules), <i>Anabaena</i> (N₂ fixer) and <i>Rhizobium</i>–alfalfa are correct.</p>",
+     "hint": "Mycorrhiza = fungus + root."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "बेमेल युग्म चुनिए :",
+     "o": [
+      "<i>Frankia</i> – <i>Alnus</i>",
+      "<i>Rhodospirillum</i> – माइकोराइजा",
+      "<i>Anabaena</i> – नाइट्रोजन स्थिरीकारक",
+      "<i>Rhizobium</i> – ऐल्फाल्फा"
+     ],
+     "sol": "<p><i>Rhodospirillum</i> मुक्तजीवी प्रकाश-संश्लेषी जीवाणु है, माइकोराइजा बनाने वाला कवक नहीं; माइकोराइजा <i>Glomus</i> जैसे कवक बनाते हैं। <i>Frankia</i>–<i>Alnus</i> (मूल ग्रंथिकाएँ), <i>Anabaena</i> (N₂ स्थिरीकारक) तथा <i>Rhizobium</i>–ऐल्फाल्फा सही हैं।</p>",
+     "hint": "माइकोराइजा = कवक + जड़।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -310,10 +370,22 @@
       "Methanobacterium : Lactic acid",
       "Penicillium notatum : Acetic acid",
       "Saccharomyces cerevisiae : Ethanol"
-     ]
+     ],
+     "sol": "<p><i>Saccharomyces cerevisiae</i> (brewer's yeast) is used for industrial <b>ethanol</b>. <i>Acetobacter aceti</i> gives acetic acid, <i>Methanobacterium</i> gives methane (biogas), and <i>Penicillium notatum</i> gives the antibiotic penicillin.</p>",
+     "hint": "Fix each microbe's product."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा उनके द्वारा उत्पादित उत्पाद के लिए सही सुमेलित है?",
+     "o": [
+      "<i>Acetobacter aceti</i> : प्रतिजैविक",
+      "<i>Methanobacterium</i> : लैक्टिक अम्ल",
+      "<i>Penicillium notatum</i> : एसिटिक अम्ल",
+      "<i>Saccharomyces cerevisiae</i> : ऐथानॉल"
+     ],
+     "sol": "<p><i>Saccharomyces cerevisiae</i> (ब्रुअर्स यीस्ट) औद्योगिक <b>ऐथानॉल</b> के लिए प्रयुक्त होता है। <i>Acetobacter aceti</i> एसिटिक अम्ल, <i>Methanobacterium</i> मीथेन (जैव गैस) तथा <i>Penicillium notatum</i> प्रतिजैविक पेनिसिलिन देता है।</p>",
+     "hint": "हर सूक्ष्मजीव का उत्पाद तय करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -357,10 +429,22 @@
       "Secondary treatment",
       "Primary treatment",
       "Sludge treatment"
-     ]
+     ],
+     "sol": "<p><b>Primary treatment</b> is physical: sequential filtration removes floating debris and sedimentation removes grit and suspended solids (primary sludge). Secondary (biological) treatment reduces the organic matter (BOD).</p>",
+     "hint": "Physical removal = primary."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वाहित मल उपचार में निम्नलिखित में से कौन-सा निलंबित ठोस हटाता है?",
+     "o": [
+      "तृतीयक उपचार",
+      "द्वितीयक उपचार",
+      "प्राथमिक उपचार",
+      "आपंक उपचार"
+     ],
+     "sol": "<p><b>प्राथमिक उपचार</b> भौतिक है: क्रमिक निस्यंदन से तैरता कचरा और अवसादन से कंकड़ तथा निलंबित ठोस (प्राथमिक आपंक) हटते हैं। द्वितीयक (जैविक) उपचार कार्बनिक पदार्थ (BOD) घटाता है।</p>",
+     "hint": "भौतिक निष्कासन = प्राथमिक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -403,10 +487,22 @@
       "Vitamin A",
       "Vitamin D",
       "Vitamin E"
-     ]
+     ],
+     "sol": "<p>Lactic acid bacteria (LAB) that turn milk into curd also increase its <b>vitamin B<sub>12</sub></b> content, improving its nutritional quality (NCERT).</p>",
+     "hint": "NCERT names one vitamin."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दूध का दही में परिवर्तन किसकी मात्रा बढ़ाकर उसके पोषण मान में सुधार करता है?",
+     "o": [
+      "विटामिन B<sub>12</sub>",
+      "विटामिन A",
+      "विटामिन D",
+      "विटामिन E"
+     ],
+     "sol": "<p>दूध को दही में बदलने वाले लैक्टिक एसिड बैक्टीरिया (LAB) उसमें <b>विटामिन B<sub>12</sub></b> की मात्रा भी बढ़ाते हैं, जिससे पोषण गुणवत्ता सुधरती है (NCERT)।</p>",
+     "hint": "NCERT एक विटामिन का नाम देता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -449,10 +545,22 @@
       "Its seeds contain inhibitors that prevent germination",
       "Its embryo is immature",
       "It has obligate association with mycorrhizae"
-     ]
+     ],
+     "sol": "<p><i>Pinus</i> has an <b>obligate association with mycorrhizal fungi</b>: the fungal partner helps absorb water and minerals (especially phosphorus), so the seedling cannot establish without it. Seed coat, inhibitors or embryo maturity are not the reason.</p>",
+     "hint": "NCERT (Plant Kingdom) mentions Pinus roots with fungi."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "<i>Pinus</i> का बीज कवकीय सहयोग के बिना अंकुरित तथा स्थापित नहीं हो सकता। इसका कारण है :",
+     "o": [
+      "इसका बीजावरण बहुत कठोर होता है",
+      "इसके बीजों में अंकुरण रोकने वाले निरोधक होते हैं",
+      "इसका भ्रूण अपरिपक्व होता है",
+      "इसका माइकोराइजा के साथ अनिवार्य संबंध होता है"
+     ],
+     "sol": "<p><i>Pinus</i> का <b>माइकोराइजा कवकों के साथ अनिवार्य संबंध</b> है: कवक साथी जल तथा खनिज (विशेषकर फॉस्फोरस) के अवशोषण में सहायता करता है, अतः इसके बिना नवोद्भिद स्थापित नहीं हो पाता। बीजावरण, निरोधक या भ्रूण की परिपक्वता इसका कारण नहीं है।</p>",
+     "hint": "NCERT (वनस्पति जगत) में <i>Pinus</i> की जड़ों के साथ कवक का उल्लेख है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -496,10 +604,22 @@
       "(a) ii, (b) i, (c) iii, (d) v",
       "(a) ii, (b) iv, (c) v, (d) iii",
       "(a) ii, (b) iv, (c) iii, (d) v"
-     ]
+     ],
+     "sol": "<ul><li>(a) <i>Lactobacillus</i> — curd (ii).</li><li>(b) <i>Saccharomyces cerevisiae</i> — bread (baker's yeast) (iv).</li><li>(c) <i>Aspergillus niger</i> — citric acid (iii).</li><li>(d) <i>Acetobacter aceti</i> — acetic acid (v).</li></ul><p>(a) ii, (b) iv, (c) iii, (d) v. Cheese (i) is the extra item.</p>",
+     "hint": "There is one extra item in Column II."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित जीवों का उनके द्वारा उत्पादित उत्पादों से मिलान कीजिए :<br>(a) <i>Lactobacillus</i> — (i) चीज़<br>(b) <i>Saccharomyces cerevisiae</i> — (ii) दही<br>(c) <i>Aspergillus niger</i> — (iii) सिट्रिक अम्ल<br>(d) <i>Acetobacter aceti</i> — (iv) ब्रेड<br>(v) एसिटिक अम्ल<br>सही विकल्प चुनिए।",
+     "o": [
+      "(a) iii, (b) iv, (c) v, (d) i",
+      "(a) ii, (b) i, (c) iii, (d) v",
+      "(a) ii, (b) iv, (c) v, (d) iii",
+      "(a) ii, (b) iv, (c) iii, (d) v"
+     ],
+     "sol": "<ul><li>(a) <i>Lactobacillus</i> — दही (ii)।</li><li>(b) <i>Saccharomyces cerevisiae</i> — ब्रेड (बेकर्स यीस्ट) (iv)।</li><li>(c) <i>Aspergillus niger</i> — सिट्रिक अम्ल (iii)।</li><li>(d) <i>Acetobacter aceti</i> — एसिटिक अम्ल (v)।</li></ul><p>(a) ii, (b) iv, (c) iii, (d) v। चीज़ (i) अतिरिक्त है।</p>",
+     "hint": "स्तंभ II में एक मद अतिरिक्त है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -543,10 +663,22 @@
       "Lactobacillus",
       "Trichoderma",
       "Chlorella"
-     ]
+     ],
+     "sol": "<p><i>Trichoderma</i> species are free-living fungi in the root ecosystem that act as <b>biocontrol agents</b> against several plant pathogens. <i>Anabaena</i> is a biofertiliser, <i>Lactobacillus</i> makes curd, <i>Chlorella</i> is a single-cell protein source.</p>",
+     "hint": "NCERT's fungal biocontrol agent."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पादप रोगों के उपचार में जैव नियंत्रण कारक के रूप में निम्नलिखित में से किसका उपयोग हो सकता है?",
+     "o": [
+      "<i>Anabaena</i>",
+      "<i>Lactobacillus</i>",
+      "<i>Trichoderma</i>",
+      "<i>Chlorella</i>"
+     ],
+     "sol": "<p><i>Trichoderma</i> की प्रजातियाँ जड़ पारितंत्र में मुक्तजीवी कवक हैं जो अनेक पादप रोगजनकों के विरुद्ध <b>जैव नियंत्रण कारक</b> का कार्य करती हैं। <i>Anabaena</i> जैव उर्वरक है, <i>Lactobacillus</i> दही बनाता है, <i>Chlorella</i> एकल कोशिका प्रोटीन का स्रोत है।</p>",
+     "hint": "NCERT का कवकीय जैव नियंत्रण कारक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -589,10 +721,22 @@
       "Lipase",
       "Cyclosporin A",
       "Statin"
-     ]
+     ],
+     "sol": "<p><b>Statins</b>, produced by the yeast <i>Monascus purpureus</i>, lower blood cholesterol by competitively inhibiting the enzyme of cholesterol synthesis. Streptokinase dissolves clots, lipase is used in detergents, cyclosporin A is an immunosuppressant.</p>",
+     "hint": "From Monascus purpureus."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा व्यापारिक रक्त कॉलिस्ट्रॉल कम करने वाला कारक है?",
+     "o": [
+      "स्ट्रेप्टोकाइनेज",
+      "लाइपेज",
+      "साइक्लोस्पोरिन-ए",
+      "स्टैटिन"
+     ],
+     "sol": "<p>यीस्ट <i>Monascus purpureus</i> द्वारा उत्पादित <b>स्टैटिन</b> कॉलिस्ट्रॉल संश्लेषण के एंजाइम का स्पर्धी संदमन कर रक्त कॉलिस्ट्रॉल कम करते हैं। स्ट्रेप्टोकाइनेज थक्का घोलता है, लाइपेज अपमार्जकों में, साइक्लोस्पोरिन-ए प्रतिरक्षा निरोधक है।</p>",
+     "hint": "<i>Monascus purpureus</i> से।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -635,10 +779,22 @@
       "Nostoc, Azospirillum, Nucleopolyhedrovirus",
       "Bacillus thuringiensis, Tobacco mosaic virus, Aphids",
       "Trichoderma, Baculovirus, Bacillus thuringiensis"
-     ]
+     ],
+     "sol": "<p>Biocontrol agents in NCERT: the fungus <i>Trichoderma</i>, baculoviruses (genus <i>Nucleopolyhedrovirus</i>) and the bacterium <i>Bacillus thuringiensis</i> (Bt). <i>Nostoc</i>, <i>Azospirillum</i>, <i>Oscillatoria</i> and <i>Rhizobium</i> are biofertilisers; TMV and aphids are pests/pathogens.</p>",
+     "hint": "All three must kill or suppress pests."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जैव नियंत्रण कारकों का सही समूह चुनिए :",
+     "o": [
+      "<i>Oscillatoria</i>, <i>Rhizobium</i>, <i>Trichoderma</i>",
+      "<i>Nostoc</i>, <i>Azospirillum</i>, <i>Nucleopolyhedrovirus</i>",
+      "<i>Bacillus thuringiensis</i>, तंबाकू मोज़ेक वायरस, ऐफिड",
+      "<i>Trichoderma</i>, बैक्युलोवायरस, <i>Bacillus thuringiensis</i>"
+     ],
+     "sol": "<p>NCERT में जैव नियंत्रण कारक: कवक <i>Trichoderma</i>, बैक्युलोवायरस (वंश <i>Nucleopolyhedrovirus</i>) तथा जीवाणु <i>Bacillus thuringiensis</i> (Bt)। <i>Nostoc</i>, <i>Azospirillum</i>, <i>Oscillatoria</i> तथा <i>Rhizobium</i> जैव उर्वरक हैं; TMV और ऐफिड पीड़क/रोगजनक हैं।</p>",
+     "hint": "तीनों को पीड़कों को मारना या दबाना चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -681,10 +837,22 @@
       "Activated sludge",
       "Primary sludge",
       "Floating debris"
-     ]
+     ],
+     "sol": "<p>In secondary treatment, the settled sediment of bacterial flocs is called <b>activated sludge</b>. A small part is pumped back to the aeration tank as inoculum; the major part is pumped into large tanks called anaerobic sludge digesters, where anaerobic bacteria digest it and produce biogas.</p>",
+     "hint": "It comes out of the settling tank of secondary treatment."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वाहित मल के आगे उपचार के लिए अवायवीय आपंक संपाचित्र में निम्नलिखित में से क्या डाला जाता है?",
+     "o": [
+      "प्राथमिक उपचार के बहिःस्राव",
+      "सक्रियित आपंक",
+      "प्राथमिक आपंक",
+      "तैरता कचरा"
+     ],
+     "sol": "<p>द्वितीयक उपचार में जीवाणु ऊर्णकों (फ्लॉक) का बैठा हुआ अवसाद <b>सक्रियित आपंक</b> कहलाता है। इसका छोटा भाग निवेशद्रव्य के रूप में वायुवीय टैंक में वापस पंप होता है; मुख्य भाग बड़े टैंकों — अवायवीय आपंक संपाचित्रों — में पंप होता है, जहाँ अवायवीय जीवाणु इसका पाचन कर जैव गैस बनाते हैं।</p>",
+     "hint": "यह द्वितीयक उपचार के निःसादन टैंक से आता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -727,10 +895,22 @@
       "(a) iv, (b) iii, (c) ii, (d) i",
       "(a) iii, (b) iv, (c) ii, (d) i",
       "(a) ii, (b) i, (c) iv, (d) iii"
-     ]
+     ],
+     "sol": "<ul><li>(a) <i>Clostridium butylicum</i> — butyric acid (ii).</li><li>(b) <i>Trichoderma polysporum</i> — cyclosporin A (i).</li><li>(c) <i>Monascus purpureus</i> — blood-cholesterol lowering agent (statins) (iv).</li><li>(d) <i>Aspergillus niger</i> — citric acid (iii).</li></ul><p>(a) ii, (b) i, (c) iv, (d) iii.</p>",
+     "hint": "Butylicum → butyric."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित स्तंभों का मिलान कीजिए तथा सही विकल्प चुनिए :<br>(a) <i>Clostridium butylicum</i> — (i) साइक्लोस्पोरिन-ए<br>(b) <i>Trichoderma polysporum</i> — (ii) ब्युट्रिक अम्ल<br>(c) <i>Monascus purpureus</i> — (iii) सिट्रिक अम्ल<br>(d) <i>Aspergillus niger</i> — (iv) रक्त कॉलिस्ट्रॉल कम करने वाला कारक",
+     "o": [
+      "(a) i, (b) ii, (c) iv, (d) iii",
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) iii, (b) iv, (c) ii, (d) i",
+      "(a) ii, (b) i, (c) iv, (d) iii"
+     ],
+     "sol": "<ul><li>(a) <i>Clostridium butylicum</i> — ब्युट्रिक अम्ल (ii)।</li><li>(b) <i>Trichoderma polysporum</i> — साइक्लोस्पोरिन-ए (i)।</li><li>(c) <i>Monascus purpureus</i> — रक्त कॉलिस्ट्रॉल कम करने वाला कारक (स्टैटिन) (iv)।</li><li>(d) <i>Aspergillus niger</i> — सिट्रिक अम्ल (iii)।</li></ul><p>(a) ii, (b) i, (c) iv, (d) iii।</p>",
+     "hint": "<i>butylicum</i> → ब्युट्रिक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -773,10 +953,22 @@
       "(a) iii, (b) i, (c) iv, (d) ii",
       "(a) i, (b) ii, (c) iii, (d) iv",
       "(a) ii, (b) iii, (c) i, (d) iv"
-     ]
+     ],
+     "sol": "<ul><li>(a) <i>Aspergillus niger</i> — citric acid (iii).</li><li>(b) <i>Acetobacter aceti</i> — acetic acid (i).</li><li>(c) <i>Clostridium butylicum</i> — butyric acid (iv).</li><li>(d) <i>Lactobacillus</i> — lactic acid (ii).</li></ul><p>(a) iii, (b) i, (c) iv, (d) ii.</p>",
+     "hint": "The names give the acids away."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(a) <i>Aspergillus niger</i> — (i) एसिटिक अम्ल<br>(b) <i>Acetobacter aceti</i> — (ii) लैक्टिक अम्ल<br>(c) <i>Clostridium butylicum</i> — (iii) सिट्रिक अम्ल<br>(d) <i>Lactobacillus</i> — (iv) ब्युट्रिक अम्ल",
+     "o": [
+      "(a) iv, (b) ii, (c) i, (d) iii",
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) i, (b) ii, (c) iii, (d) iv",
+      "(a) ii, (b) iii, (c) i, (d) iv"
+     ],
+     "sol": "<ul><li>(a) <i>Aspergillus niger</i> — सिट्रिक अम्ल (iii)।</li><li>(b) <i>Acetobacter aceti</i> — एसिटिक अम्ल (i)।</li><li>(c) <i>Clostridium butylicum</i> — ब्युट्रिक अम्ल (iv)।</li><li>(d) <i>Lactobacillus</i> — लैक्टिक अम्ल (ii)।</li></ul><p>(a) iii, (b) i, (c) iv, (d) ii।</p>",
+     "hint": "नामों से ही अम्ल पता चलते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -819,10 +1011,22 @@
       "Aspergillus niger",
       "Streptococcus cerevisiae",
       "Trichoderma polysporum"
-     ]
+     ],
+     "sol": "<p>Cyclosporin A, an immunosuppressive agent used in organ-transplant patients, is produced by the fungus <b><i>Trichoderma polysporum</i></b>. (Note: option 3's name '<i>Streptococcus cerevisiae</i>' is not a real organism.)</p>",
+     "hint": "Same microbe as in the 2016 table."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रतिरक्षा निरोधक अणु साइक्लोस्पोरिन-ए के उत्पादन के लिए उत्तरदायी सूक्ष्मजीव पहचानिए :",
+     "o": [
+      "<i>Clostridium butylicum</i>",
+      "<i>Aspergillus niger</i>",
+      "<i>Streptococcus cerevisiae</i>",
+      "<i>Trichoderma polysporum</i>"
+     ],
+     "sol": "<p>अंग प्रत्यारोपण रोगियों में प्रयुक्त प्रतिरक्षा निरोधक साइक्लोस्पोरिन-ए कवक <b><i>Trichoderma polysporum</i></b> द्वारा बनता है। (विकल्प 3 का नाम '<i>Streptococcus cerevisiae</i>' कोई वास्तविक जीव नहीं है।)</p>",
+     "hint": "2016 की तालिका वाला ही सूक्ष्मजीव।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -861,14 +1065,26 @@
      "status": "draft",
      "q": "Match List I with List II :<br>A. Clostridium butylicum — I. Ethanol<br>B. Saccharomyces cerevisiae — II. Streptokinase<br>C. Trichoderma polysporum — III. Butyric acid<br>D. Streptococcus sp. — IV. Cyclosporin-A",
      "o": [
-      "Clostridium I. Ethanol butylicum",
-      "Saccharomyces II. Streptokinase cerevisiae",
-      "Trichoderma III. Butyric acid polysporum",
-      "Streptococcus sp. IV. Cyclosporin-A Choose the correct answer from the options give below: (A) A-III, B-I, C-II, D-IV (B) A-II, B-IV, C-III, D-I (C) A-III, B-I, C-IV, D-II (D) A-IV, B-I, C-III, D-II"
-     ]
+      "A-III, B-I, C-II, D-IV",
+      "A-II, B-IV, C-III, D-I",
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-I, C-III, D-II"
+     ],
+     "sol": "<ul><li>A <i>Clostridium butylicum</i> — butyric acid (III).</li><li>B <i>Saccharomyces cerevisiae</i> — ethanol (I).</li><li>C <i>Trichoderma polysporum</i> — cyclosporin A (IV).</li><li>D <i>Streptococcus</i> sp. — streptokinase (II).</li></ul><p>A-III, B-I, C-IV, D-II.</p>",
+     "hint": "Streptococcus → streptokinase."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. <i>Clostridium butylicum</i> — I. ऐथानॉल<br>B. <i>Saccharomyces cerevisiae</i> — II. स्ट्रेप्टोकाइनेज<br>C. <i>Trichoderma polysporum</i> — III. ब्युट्रिक अम्ल<br>D. <i>Streptococcus</i> sp. — IV. साइक्लोस्पोरिन-ए",
+     "o": [
+      "A-III, B-I, C-II, D-IV",
+      "A-II, B-IV, C-III, D-I",
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-I, C-III, D-II"
+     ],
+     "sol": "<ul><li>A <i>Clostridium butylicum</i> — ब्युट्रिक अम्ल (III)।</li><li>B <i>Saccharomyces cerevisiae</i> — ऐथानॉल (I)।</li><li>C <i>Trichoderma polysporum</i> — साइक्लोस्पोरिन-ए (IV)।</li><li>D <i>Streptococcus</i> sp. — स्ट्रेप्टोकाइनेज (II)।</li></ul><p>A-III, B-I, C-IV, D-II।</p>",
+     "hint": "<i>Streptococcus</i> → स्ट्रेप्टोकाइनेज।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -911,10 +1127,22 @@
       "Brandy",
       "Beer",
       "Rum"
-     ]
+     ],
+     "sol": "<p>NCERT: wine and <b>beer</b> are produced without distillation, whereas whisky, brandy and rum are made by distilling the fermented broth.</p>",
+     "hint": "Two NCERT non-distilled drinks: wine and …"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यीस्ट द्वारा उत्पादित अनासवित ऐल्कोहलीय पेय का उदाहरण निम्नलिखित में से कौन-सा है?",
+     "o": [
+      "ह्विस्की",
+      "ब्रांडी",
+      "बियर",
+      "रम"
+     ],
+     "sol": "<p>NCERT: वाइन तथा <b>बियर</b> का उत्पादन बिना आसवन के होता है, जबकि ह्विस्की, ब्रांडी और रम किण्वित घोल के आसवन से बनते हैं।</p>",
+     "hint": "NCERT के दो अनासवित पेय: वाइन और …",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -957,10 +1185,22 @@
       "Ethanol production",
       "Liver disease treatment",
       "Removing clots from blood vessels"
-     ]
+     ],
+     "sol": "<p>Streptokinase, from <i>Streptococcus</i> (modified by genetic engineering), is a 'clot buster' used to <b>remove clots from blood vessels</b> of patients with myocardial infarction.</p>",
+     "hint": "Clot buster."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जीवाणु <i>Streptococcus</i> द्वारा उत्पादित स्ट्रेप्टोकाइनेज का उपयोग किसके लिए होता है?",
+     "o": [
+      "दही उत्पादन",
+      "ऐथानॉल उत्पादन",
+      "यकृत रोग का उपचार",
+      "रक्त वाहिकाओं से थक्का हटाना"
+     ],
+     "sol": "<p><i>Streptococcus</i> से प्राप्त (आनुवंशिक इंजीनियरिंग द्वारा रूपांतरित) स्ट्रेप्टोकाइनेज 'थक्का स्फोटन' है, जो हृदयाघात के रोगियों में <b>रक्त वाहिकाओं से थक्का हटाने</b> में प्रयुक्त होता है।</p>",
+     "hint": "थक्का स्फोटन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1003,10 +1243,22 @@
       "D only",
       "B only",
       "E only"
-     ]
+     ],
+     "sol": "<p><i>Azotobacter</i> (free-living bacterium) and the cyanobacteria <i>Anabaena</i>, <i>Nostoc</i> and <i>Oscillatoria</i> fix atmospheric nitrogen. <b><i>Volvox</i></b> is a green alga and cannot fix nitrogen. D only.</p>",
+     "hint": "Find the eukaryote."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से जीव नाइट्रोजन स्थिर नहीं कर सकते?<br>A. <i>Azotobacter</i><br>B. <i>Oscillatoria</i><br>C. <i>Anabaena</i><br>D. <i>Volvox</i><br>E. <i>Nostoc</i><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A",
+      "केवल D",
+      "केवल B",
+      "केवल E"
+     ],
+     "sol": "<p><i>Azotobacter</i> (मुक्तजीवी जीवाणु) तथा सायनोबैक्टीरिया <i>Anabaena</i>, <i>Nostoc</i> और <i>Oscillatoria</i> वायुमंडलीय नाइट्रोजन स्थिर करते हैं। <b><i>Volvox</i></b> हरा शैवाल है और नाइट्रोजन स्थिर नहीं कर सकता। केवल D।</p>",
+     "hint": "सुकेंद्रकी को खोजें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1052,10 +1304,22 @@
       "A and C only",
       "C and D only",
       "C and E only"
-     ]
+     ],
+     "sol": "<p>Household products: <i>Lactobacillus</i> (curd), <i>Saccharomyces cerevisiae</i> (bread dough) and <i>Propionibacterium sharmanii</i> (Swiss cheese). <i>Aspergillus niger</i> (citric acid) and <i>Trichoderma polysporum</i> (cyclosporin A) are used in industry, not at home. A and C only.</p>",
+     "hint": "Remove the industrial producers."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से सूक्ष्मजीव घरेलू उत्पादों के निर्माण में सम्मिलित नहीं हैं?<br>A. <i>Aspergillus niger</i><br>B. <i>Lactobacillus</i><br>C. <i>Trichoderma polysporum</i><br>D. <i>Saccharomyces cerevisiae</i><br>E. <i>Propionibacterium sharmanii</i><br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A तथा B",
+      "केवल A तथा C",
+      "केवल C तथा D",
+      "केवल C तथा E"
+     ],
+     "sol": "<p>घरेलू उत्पाद: <i>Lactobacillus</i> (दही), <i>Saccharomyces cerevisiae</i> (ब्रेड का आटा) तथा <i>Propionibacterium sharmanii</i> (स्विस चीज़)। <i>Aspergillus niger</i> (सिट्रिक अम्ल) और <i>Trichoderma polysporum</i> (साइक्लोस्पोरिन-ए) उद्योग में प्रयुक्त होते हैं, घर में नहीं। केवल A तथा C।</p>",
+     "hint": "औद्योगिक उत्पादक हटा दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1098,10 +1362,22 @@
       "The production of large amount of CO<sub>2</sub> and H<sub>2</sub> by lactic acid bacteria called Lactobacillus",
       "The production of large amount of CO<sub>2</sub> by Propionibacterium sharmanii",
       "The production of large amount of CO<sub>2</sub> by Clostridium butylicum"
-     ]
+     ],
+     "sol": "<p>The large holes in Swiss cheese are due to the production of a large amount of CO<sub>2</sub> by the bacterium <b><i>Propionibacterium sharmanii</i></b>. No H<sub>2</sub> is involved, and the other microbes are not used for this cheese.</p>",
+     "hint": "Propionibacterium, one gas only."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "'स्विस चीज़' में बड़े छिद्र बनने का कारण क्या है?",
+     "o": [
+      "<i>Trichoderma polysporum</i> द्वारा अधिक मात्रा में CO<sub>2</sub> तथा H<sub>2</sub> का उत्पादन",
+      "लैक्टिक अम्ल जीवाणु <i>Lactobacillus</i> द्वारा अधिक मात्रा में CO<sub>2</sub> तथा H<sub>2</sub> का उत्पादन",
+      "<i>Propionibacterium sharmanii</i> द्वारा अधिक मात्रा में CO<sub>2</sub> का उत्पादन",
+      "<i>Clostridium butylicum</i> द्वारा अधिक मात्रा में CO<sub>2</sub> का उत्पादन"
+     ],
+     "sol": "<p>स्विस चीज़ के बड़े छिद्र जीवाणु <b><i>Propionibacterium sharmanii</i></b> द्वारा अधिक मात्रा में CO<sub>2</sub> के उत्पादन के कारण होते हैं। इसमें H<sub>2</sub> नहीं बनती, और अन्य सूक्ष्मजीव इस चीज़ के लिए प्रयुक्त नहीं होते।</p>",
+     "hint": "<i>Propionibacterium</i>, केवल एक गैस।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1145,10 +1421,22 @@
       "A-III, B-II, C-IV, D-I",
       "A-II, B-III, C-IV, D-I",
       "A-IV, B-III, C-II, D-I"
-     ]
+     ],
+     "sol": "<ul><li>A Streptokinase — removal of clots from blood vessels (II).</li><li>B Statins — blood-cholesterol lowering (III).</li><li>C Lipases — detergent formulations (IV).</li><li>D Cyclosporin A — immunosuppressive agent (I).</li></ul><p>A-II, B-III, C-IV, D-I.</p>",
+     "hint": "Each molecule has one NCERT use."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>सूची-I (जैवसक्रिय अणु) — सूची-II (महत्व)<br>A. स्ट्रेप्टोकाइनेज — I. प्रतिरक्षा निरोधक कारक<br>B. स्टैटिन — II. रक्त वाहिकाओं से थक्का हटाना<br>C. लाइपेज — III. रक्त कॉलिस्ट्रॉल कम करने वाला कारक<br>D. साइक्लोस्पोरिन-ए — IV. अपमार्जक संरूपण",
+     "o": [
+      "A-II, B-III, C-I, D-IV",
+      "A-III, B-II, C-IV, D-I",
+      "A-II, B-III, C-IV, D-I",
+      "A-IV, B-III, C-II, D-I"
+     ],
+     "sol": "<ul><li>A स्ट्रेप्टोकाइनेज — रक्त वाहिकाओं से थक्का हटाना (II)।</li><li>B स्टैटिन — रक्त कॉलिस्ट्रॉल कम करना (III)।</li><li>C लाइपेज — अपमार्जक संरूपण (IV)।</li><li>D साइक्लोस्पोरिन-ए — प्रतिरक्षा निरोधक कारक (I)।</li></ul><p>A-II, B-III, C-IV, D-I।</p>",
+     "hint": "हर अणु का NCERT में एक उपयोग है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
