@@ -713,6 +713,52 @@
     "keyCheck": "Answer printed in the copy: 3; matches our solving",
     "keySource": "Answers in the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf). No NTA final key for 2019 in neet-sources."
    }
+  },
+  {
+   "id": "chem12-02-neet-2017-code-a-q63",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the electrochemical cell :<br>Zn|ZnSO<sub>4</sub> (0.01 M)||CuSO<sub>4</sub> (1.0 M)|Cu, the emf of this Daniel cell is E<sub>1</sub>. When the concentration of ZnSO<sub>4</sub> is changed to 1.0 M and that of CuSO<sub>4</sub> changed to 0.01 M, the emf changes to E<sub>2</sub>. From the followings, which one is the relationship between E<sub>1</sub> and E<sub>2</sub>? (Given, RT/F = 0.059)",
+     "o": [
+      "E<sub>1</sub> = E<sub>2</sub>",
+      "E<sub>1</sub> &lt; E<sub>2</sub>",
+      "E<sub>1</sub> &gt; E<sub>2</sub>",
+      "E<sub>2</sub> = 0 ≠ E<sub>1</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q63",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 3",
+    "keySource": "Published answer key, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the official bilingual CBSE booklet, Code A"
+   }
   }
  ]
 }

@@ -731,6 +731,54 @@
     "keyCheck": "Answer printed in the copy: 3; matches our solving",
     "keySource": "Answers in the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf). No NTA final key for 2019 in neet-sources."
    }
+  },
+  {
+   "id": "chem11-02-neet-2017-code-a-q59",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one is the wrong statement ?",
+     "o": [
+      "de-Broglie's wavelength is given by λ = h/mv, where m = mass of the particle, v = group velocity of the particle.",
+      "The uncertainty principle is ΔE × Δt ≥ h/4π.",
+      "Half filled and fully filled orbitals have greater stability due to greater exchange energy, greater symmetry and more balanced arrangement.",
+      "The energy of 2s orbital is less than the energy of 2p orbital in case of Hydrogen like atoms."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-02",
+    "paras": [
+     "2.5.1",
+     "2.5.2",
+     "2.6.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q59",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 4",
+    "keySource": "Published answer key, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the official bilingual CBSE booklet, Code A"
+   }
   }
  ]
 }

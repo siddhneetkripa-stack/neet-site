@@ -6444,6 +6444,100 @@
     "keyCheck": "Answer printed in the copy: 3; matches our solving",
     "keySource": "Answers in the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf). No NTA final key for 2019 in neet-sources."
    }
+  },
+  {
+   "id": "chem11-thermodynamics-neet-2017-code-a-q60",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A gas is allowed to expand in a well insulated container against a constant external pressure of 2.5 atm from an initial volume of 2.50 L to a final volume of 4.50 L. The change in internal energy ΔU of the gas in joules will be :",
+     "o": [
+      "1136.25 J",
+      "−500 J",
+      "−505 J",
+      "+505 J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "first-law",
+     "single-step"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q60",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 3",
+    "keySource": "Published answer key, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the official bilingual CBSE booklet, Code A"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-neet-2017-code-a-q77",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a given reaction, ΔH = 35.5 kJ mol<sup>−1</sup> and ΔS = 83.6 J K<sup>−1</sup> mol<sup>−1</sup>. The reaction is spontaneous at : (Assume that ΔH and ΔS do not vary with temperature)",
+     "o": [
+      "T &lt; 425 K",
+      "T &gt; 425 K",
+      "all temperatures",
+      "T &gt; 298 K"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "temp-effect",
+     "gibbs-criterion"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q77",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 2",
+    "keySource": "Published answer key, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the official bilingual CBSE booklet, Code A"
+   }
   }
  ]
 }

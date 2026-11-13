@@ -283,6 +283,55 @@
     "keyCheck": "Answer printed in the copy: 1; matches our solving",
     "keySource": "Answers in the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf). No NTA final key for 2019 in neet-sources."
    }
+  },
+  {
+   "id": "chem12-old-solid-state-neet-2017-code-a-q50",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which is the <b>incorrect</b> statement ?",
+     "o": [
+      "FeO<sub>0.98</sub> has non stoichiometric metal deficiency defect.",
+      "Density decreases in case of crystals with Schottky's defect.",
+      "NaCl(s) is insulator, silicon is semiconductor, silver is conductor, quartz is piezo electric crystal.",
+      "Frenkel defect is favoured in those ionic compounds in which sizes of cation and anions are almost equal."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3,
+    "alsoAccepted": [
+     0
+    ]
+   },
+   "ncert": {
+    "chapter": "chem12-old-solid-state",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Unit 1 · Imperfections in solids; electrical properties"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q50",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key: 1,4",
+    "keySource": "Published answer key, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the official bilingual CBSE booklet, Code A",
+    "note": "The published key gives (1,4)# — both accepted."
+   }
   }
  ]
 }

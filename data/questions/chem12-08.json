@@ -857,6 +857,103 @@
     "keySource": "Answers in the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf). No NTA final key for 2019 in neet-sources.",
     "note": "Diagram/structure question: the paper shows structures; written here in text. Needs a redrawn figure before it goes live."
    }
+  },
+  {
+   "id": "chem12-08-neet-2017-code-a-q52",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Of the following, which is the product formed when cyclohexanone undergoes aldol condensation followed by heating ?",
+     "o": [
+      "2-(Cyclohexyl)…: aldol (β-hydroxy ketone) structure (as drawn)",
+      "2-Cyclohexylidenecyclohexan-1-one",
+      "Hydroxy structure (as drawn)",
+      "Dione structure (as drawn)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q52",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 2",
+    "keySource": "Published answer key, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the official bilingual CBSE booklet, Code A",
+    "note": "Diagram/structure question: the paper shows structures; written here in text. Needs a redrawn figure before it goes live."
+   }
+  },
+  {
+   "id": "chem12-08-neet-2017-code-a-q61",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the reactions :<br>X (C<sub>2</sub>H<sub>6</sub>O) —Cu, 573 K→ A; A —[Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>, OH<sup>−</sup>, Δ→ silver mirror observed; A —OH<sup>−</sup>, Δ→ Y; A —NH<sub>2</sub>–NH–CO–NH<sub>2</sub>→ Z<br>Identify A, X, Y and Z",
+     "o": [
+      "A-Methoxymethane, X-Ethanoic acid, Y-Acetate ion, Z-hydrazine.",
+      "A-Methoxymethane, X-Ethanol, Y-Ethanoic acid, Z-Semicarbazide.",
+      "A-Ethanal, X-Ethanol, Y-But-2-enal, Z-Semicarbazone.",
+      "A-Ethanol, X-Acetaldehyde, Y-Butanone, Z-Hydrazone."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.4"
+    ],
+    "otherChapters": [
+     "Class 12 · Alcohols (dehydrogenation with Cu)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q61",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key: 3",
+    "keySource": "Published answer key, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the official bilingual CBSE booklet, Code A",
+    "note": "Reaction scheme is drawn in the paper."
+   }
   }
  ]
 }
