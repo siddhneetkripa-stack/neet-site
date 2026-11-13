@@ -1,0 +1,948 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-11",
+ "subject": "physics",
+ "class": 11,
+ "unit": 11,
+ "title": {
+  "en": "Thermodynamics"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph204.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "11.1",
+   "title": "Introduction",
+   "pdfPage": 1
+  },
+  {
+   "id": "11.2",
+   "title": "Thermal Equilibrium",
+   "pdfPage": 2
+  },
+  {
+   "id": "11.3",
+   "title": "Zeroth Law of Thermodynamics",
+   "pdfPage": 3
+  },
+  {
+   "id": "11.4",
+   "title": "Heat, Internal Energy and Work",
+   "pdfPage": 4
+  },
+  {
+   "id": "11.5",
+   "title": "First Law of Thermodynamics",
+   "pdfPage": 5
+  },
+  {
+   "id": "11.6",
+   "title": "Specific Heat Capacity",
+   "pdfPage": 6
+  },
+  {
+   "id": "11.7",
+   "title": "Thermodynamic State Variables and Equation of State",
+   "pdfPage": 7
+  },
+  {
+   "id": "11.8",
+   "title": "Thermodynamic Processes",
+   "pdfPage": 8
+  },
+  {
+   "id": "11.8.1",
+   "title": "Quasi-static Process",
+   "pdfPage": 8
+  },
+  {
+   "id": "11.8.2",
+   "title": "Isothermal Process",
+   "pdfPage": 9
+  },
+  {
+   "id": "11.8.3",
+   "title": "Adiabatic Process",
+   "pdfPage": 10
+  },
+  {
+   "id": "11.8.4",
+   "title": "Isochoric Process",
+   "pdfPage": 10
+  },
+  {
+   "id": "11.8.5",
+   "title": "Isobaric Process",
+   "pdfPage": 10
+  },
+  {
+   "id": "11.8.6",
+   "title": "Cyclic Process",
+   "pdfPage": 10
+  },
+  {
+   "id": "11.9",
+   "title": "Second Law of Thermodynamics",
+   "pdfPage": 11
+  },
+  {
+   "id": "11.10",
+   "title": "Reversible and Irreversible Processes",
+   "pdfPage": 11
+  },
+  {
+   "id": "11.11",
+   "title": "Carnot Engine",
+   "pdfPage": 12
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-11-neet-2015-re-exam-code-d-q144",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An ideal gas is compressed to half its initial volume by means of several processes. Which of the processes results in the maximum work done on the gas?",
+     "o": [
+      "Isobaric",
+      "Isochoric",
+      "Isothermal",
+      "Adiabatic"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q144",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-11-neet-2015-re-exam-code-d-q169",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The coefficient of performance of a refrigerator is 5. If the temperature inside freezer is −20 °C, the temperature of the surroundings to which it rejects heat is :",
+     "o": [
+      "41 °C",
+      "11 °C",
+      "21 °C",
+      "31 °C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q169",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
+    "note": "Refrigerators were removed from the rationalised NCERT chapter; Carnot relation T<sub>2</sub>/(T<sub>1</sub> − T<sub>2</sub>) = 5 gives T<sub>1</sub> ≈ 304 K."
+   }
+  },
+  {
+   "id": "phy11-11-neet-2016-phase-1-code-a-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A refrigerator works between 4 °C and 30 °C. It is required to remove 600 calories of heat every second in order to keep the temperature of the refrigerated space constant. The power required is : (Take 1 cal = 4.2 Joules)",
+     "o": [
+      "2.365 W",
+      "23.65 W",
+      "236.5 W",
+      "2365 W"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q11",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Refrigerators were removed from the rationalised chapter; COP = 277/26 ≈ 10.65, P = 2520/10.65 ≈ 236.5 W."
+   }
+  },
+  {
+   "id": "phy11-11-neet-2016-phase-1-code-a-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A gas is compressed isothermally to half its initial volume. The same gas is compressed separately through an adiabatic process until its volume is again reduced to half. Then:",
+     "o": [
+      "Compressing the gas isothermally will require more work to be done.",
+      "Compressing the gas through adiabatic process will require more work to be done.",
+      "Compressing the gas isothermally or adiabatically will require the same amount of work.",
+      "Which of the case (whether compression through isothermal or through adiabatic process) requires more work will depend upon the atomicity of the gas."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.8.2",
+     "11.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q30",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-11-neet-2016-phase-2-code-aa-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "One mole of an ideal monatomic gas undergoes a process described by the equation PV<sup>3</sup> = constant. The heat capacity of the gas during this process is :",
+     "o": [
+      "(3/2)R",
+      "(5/2)R",
+      "2R",
+      "R"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.6",
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q17",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Options 2–4 not legible in the copy (page break); entered as in the official paper to be confirmed. C = C<sub>v</sub> + R/(1 − n) = 1.5R − 0.5R = R."
+   }
+  },
+  {
+   "id": "phy11-11-neet-2016-phase-2-code-aa-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The temperature inside a refrigerator is t<sub>2</sub> °C and the room temperature is t<sub>1</sub> °C. The amount of heat delivered to the room for each joule of electrical energy consumed ideally will be :",
+     "o": [
+      "t<sub>1</sub>/(t<sub>1</sub> − t<sub>2</sub>)",
+      "(t<sub>1</sub> + 273)/(t<sub>1</sub> − t<sub>2</sub>)",
+      "(t<sub>2</sub> + 273)/(t<sub>1</sub> − t<sub>2</sub>)",
+      "(t<sub>1</sub> + t<sub>2</sub>)/(t<sub>1</sub> + 273)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q18",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-11-neet-2017-code-a-q16",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Thermodynamic processes are indicated in the following diagram. Match the following :<br>P. Process I — a. Adiabatic<br>Q. Process II — b. Isobaric<br>R. Process III — c. Isochoric<br>S. Process IV — d. Isothermal",
+     "o": [
+      "P → a, Q → c, R → d, S → b",
+      "P → c, Q → a, R → d, S → b",
+      "P → c, Q → d, R → b, S → a",
+      "P → d, Q → b, R → a, S → c"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q16",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "P–V diagram with isotherms 300 K, 500 K, 700 K; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-11-neet-2017-code-a-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A Carnot engine having an efficiency of 1/10 as heat engine, is used as a refrigerator. If the work done on the system is 10 J, the amount of energy absorbed from the reservoir at lower temperature is :",
+     "o": [
+      "1 J",
+      "90 J",
+      "99 J",
+      "100 J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q27",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-11-neet-2018-code-aa-q1",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The volume (V) of a monatomic gas varies with its temperature (T), as shown in the graph. The ratio of work done by the gas, to the heat absorbed by it, when it undergoes a change from state A to state B, is :",
+     "o": [
+      "1/3",
+      "2/3",
+      "2/5",
+      "2/7"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.8.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q1",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)",
+    "note": "V–T graph is a straight line through the origin (isobaric). Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-11-neet-2018-code-aa-q4",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The efficiency of an ideal heat engine working between the freezing point and boiling point of water, is :",
+     "o": [
+      "6.25%",
+      "20%",
+      "26.8%",
+      "12.5%"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q4",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-11-neet-2018-code-aa-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A sample of 0.1 g of water at 100 °C and normal pressure (1.013 × 10<sup>5</sup> N m<sup>−2</sup>) requires 54 cal of heat energy to convert to steam at 100 °C. If the volume of the steam produced is 167.1 cc, the change in internal energy of the sample, is :",
+     "o": [
+      "42.2 J",
+      "208.7 J",
+      "104.3 J",
+      "84.5 J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.5"
+    ],
+    "otherChapters": [
+     "Class 11 · Thermal Properties of Matter"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q45",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)",
+    "note": "ΔU = 54 × 4.2 − 1.013 × 10<sup>5</sup> × 167.1 × 10<sup>−6</sup> ≈ 226.8 − 16.9 = 209.9 J ≈ 208.7 J (the key value uses 4.184 J/cal and V<sub>water</sub> ≈ 0.1 cc)."
+   }
+  },
+  {
+   "id": "phy11-11-neet-2019-code-s2-q106",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In which of the following processes, heat is neither absorbed nor released by a system?",
+     "o": [
+      "isobaric",
+      "isochoric",
+      "isothermal",
+      "adiabatic"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q106",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-11-neet-2020-code-f3-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two cylinders A and B of equal capacity are connected to each other via a stop cock. A contains an ideal gas at standard temperature and pressure. B is completely evacuated. The entire system is thermally insulated. The stop cock is suddenly opened. The process is :",
+     "o": [
+      "isochoric",
+      "isobaric",
+      "isothermal",
+      "adiabatic"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.8",
+     "11.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q25",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-11-neet-2022-code-t2-q21",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An ideal gas undergoes four different processes from the same initial state as shown in the figure below. Those processes are adiabatic, isothermal, isobaric and isochoric. The curve which represents the adiabatic process among 1, 2, 3 and 4 is :",
+     "o": [
+      "2",
+      "3",
+      "4",
+      "1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.8.2",
+     "11.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q21",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "P–V diagram from one initial point: 1 vertical (down), 2 steeper falling curve, 3 gentler falling curve, 4 horizontal. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-11-neet-2023-topic-wise-copy-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A Carnot engine has an efficiency of 50% when its source is at a temperature 327 °C. The temperature of the sink is :",
+     "o": [
+      "200 °C",
+      "27 °C",
+      "15 °C",
+      "100 °C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q13",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-11-neet-2024-q33-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A thermodynamic system is taken through the cycle abcda. The work done by the gas along the path bc is :",
+     "o": [
+      "Zero",
+      "30 J",
+      "−90 J",
+      "−60 J"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.8.4",
+     "11.8.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q33 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Rectangle on a P–V diagram: a (100 cm<sup>3</sup>, 100 kPa), b (400 cm<sup>3</sup>, 100 kPa), c (400 cm<sup>3</sup>, 300 kPa), d (100 cm<sup>3</sup>, 300 kPa). The end of option (4) is clipped in the copy. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-11-neet-2025-code-45-q41",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two gases A and B are filled at the same pressure in separate cylinders with movable pistons of radius r<sub>A</sub> and r<sub>B</sub>, respectively. On supplying an equal amount of heat to both the systems reversibly under constant pressure, the pistons of gas A and B are displaced by 16 cm and 9 cm, respectively. If the change in their internal energy is the same, then the ratio r<sub>A</sub>/r<sub>B</sub> is equal to :",
+     "o": [
+      "4/3",
+      "3/4",
+      "2/√3",
+      "√3/2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.5",
+     "11.8.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q41",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-11-neet-2026-code-13-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electric heater supplies heat to a system at a rate of 100 W. If the system performs work at a rate of 75 J/s, then the rate at which internal energy increases will be :",
+     "o": [
+      "75 W",
+      "25 W",
+      "100 W",
+      "125 W"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-11",
+    "paras": [
+     "11.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q16",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}
