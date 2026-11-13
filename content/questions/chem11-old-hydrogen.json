@@ -26,10 +26,22 @@
       "CO and H<sub>2</sub>O",
       "CO<sub>2</sub> and H<sub>2</sub>",
       "CO<sub>2</sub> and H<sub>2</sub>O"
-     ]
+     ],
+     "sol": "<p>Steam reforming: CH<sub>4</sub>(g) + H<sub>2</sub>O(g) —Ni, 1270 K→ CO(g) + 3H<sub>2</sub>(g). The CO + H<sub>2</sub> mixture is water gas/synthesis gas (syngas).</p>",
+     "hint": "Product is syngas."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निकैल उत्प्रेरक की उपस्थिति में 1273 K पर मेथेन भाप से अभिक्रिया करके बनाती है :",
+     "o": [
+      "CO और H<sub>2</sub>",
+      "CO और H<sub>2</sub>O",
+      "CO<sub>2</sub> और H<sub>2</sub>",
+      "CO<sub>2</sub> और H<sub>2</sub>O"
+     ],
+     "sol": "<p>भाप पुनर्संभावन: CH<sub>4</sub>(g) + H<sub>2</sub>O(g) —Ni, 1270 K→ CO(g) + 3H<sub>2</sub>(g)। CO + H<sub>2</sub> का मिश्रण जल गैस/संश्लेषण गैस (सिनगैस) है।</p>",
+     "hint": "उत्पाद सिनगैस है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -72,10 +84,22 @@
       "B, C, D, E only",
       "B, D only",
       "D, E only"
-     ]
+     ],
+     "sol": "<ul><li>A ✓ H<sub>2</sub> reduces heavy metal oxides.</li><li>B ✓ D<sub>2</sub>O is used as a tracer for reaction mechanisms.</li><li>C ✓ hydrogenation of oils gives fats (vanaspati).</li><li>D ✗ the H–H bond enthalpy (435.9 kJ mol<sup>−1</sup>) is the <i>highest</i> for a single bond between two atoms of any element.</li><li>E ✗ H<sub>2</sub> reduces oxides of metals <i>less</i> active than iron.</li></ul><p>Not correct: <b>D and E</b>.</p>",
+     "hint": "H–H is one of the strongest single bonds."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से कथन सही नहीं हैं?<br>A. हाइड्रोजन का उपयोग भारी धातु ऑक्साइडों को धातुओं में अपचयित करने में होता है।<br>B. भारी जल का उपयोग अभिक्रिया क्रियाविधि के अध्ययन में होता है।<br>C. हाइड्रोजन का उपयोग तेलों से संतृप्त वसा बनाने में होता है।<br>D. किसी भी तत्व के दो परमाणुओं के बीच एकल आबंध की तुलना में H-H आबंध वियोजन एन्थैल्पी न्यूनतम है।<br>E. हाइड्रोजन आयरन से अधिक सक्रिय धातुओं के ऑक्साइडों को अपचयित करती है।<br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए:",
+     "o": [
+      "केवल A, B, C",
+      "केवल B, C, D, E",
+      "केवल B, D",
+      "केवल D, E"
+     ],
+     "sol": "<ul><li>A ✓ H<sub>2</sub> भारी धातु ऑक्साइडों को अपचयित करती है।</li><li>B ✓ D<sub>2</sub>O अभिक्रिया क्रियाविधि के लिए अनुरेखक के रूप में प्रयुक्त होता है।</li><li>C ✓ तेलों के हाइड्रोजनन से वसा (वनस्पति) बनती है।</li><li>D ✗ H–H आबंध एन्थैल्पी (435.9 kJ mol<sup>−1</sup>) किसी भी तत्व के दो परमाणुओं के बीच एकल आबंध के लिए <i>उच्चतम</i> है।</li><li>E ✗ H<sub>2</sub> आयरन से <i>कम</i> सक्रिय धातुओं के ऑक्साइडों को अपचयित करती है।</li></ul><p>सही नहीं: <b>D और E</b>।</p>",
+     "hint": "H–H सबसे प्रबल एकल आबंधों में से एक है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -117,10 +141,22 @@
       "Beta (β<sup>−</sup>)",
       "Alpha (α)",
       "Gamma (γ)"
-     ]
+     ],
+     "sol": "<p>Tritium (<sup>3</sup>H) has a high n/p ratio; it decays by β<sup>−</sup> emission: <sup>3</sup><sub>1</sub>H → <sup>3</sup><sub>2</sub>He + β<sup>−</sup> (t<sub>1/2</sub> ≈ 12.3 years).</p>",
+     "hint": "Neutron-rich nucleus → β<sup>−</sup> decay."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हाइड्रोजन का रेडियोऐक्टिव समस्थानिक ट्रिटियम निम्नलिखित में से कौन-सा कण उत्सर्जित करता है?",
+     "o": [
+      "न्यूट्रॉन (n)",
+      "बीटा (β<sup>−</sup>)",
+      "ऐल्फ़ा (α)",
+      "गामा (γ)"
+     ],
+     "sol": "<p>ट्रिटियम (<sup>3</sup>H) का n/p अनुपात अधिक है; यह β<sup>−</sup> उत्सर्जन द्वारा क्षयित होता है: <sup>3</sup><sub>1</sub>H → <sup>3</sup><sub>2</sub>He + β<sup>−</sup> (t<sub>1/2</sub> ≈ 12.3 वर्ष)।</p>",
+     "hint": "न्यूट्रॉन-समृद्ध नाभिक → β<sup>−</sup> क्षय।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -162,10 +198,22 @@
       "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
       "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)"
-     ]
+     ],
+     "sol": "<ul><li>(a) CO + H<sub>2</sub>: synthesis gas (iii).</li><li>(b) temporary hardness: Mg(HCO<sub>3</sub>)<sub>2</sub> + Ca(HCO<sub>3</sub>)<sub>2</sub> (i).</li><li>(c) B<sub>2</sub>H<sub>6</sub>: electron-deficient hydride (ii).</li><li>(d) H<sub>2</sub>O<sub>2</sub>: non-planar (open-book) structure (iv).</li></ul>",
+     "hint": "Temporary hardness is due to hydrogencarbonates."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित का मिलान कीजिए और सही विकल्प पहचानिए।<br>(a) CO(g) + H<sub>2</sub>(g) (b) जल की अस्थायी कठोरता (c) B<sub>2</sub>H<sub>6</sub> (d) H<sub>2</sub>O<sub>2</sub><br>(i) Mg(HCO<sub>3</sub>)<sub>2</sub> + Ca(HCO<sub>3</sub>)<sub>2</sub> (ii) एक इलेक्ट्रॉन न्यून हाइड्राइड (iii) संश्लेषण गैस (iv) असमतलीय संरचना",
+     "o": [
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)"
+     ],
+     "sol": "<ul><li>(a) CO + H<sub>2</sub>: संश्लेषण गैस (iii)।</li><li>(b) अस्थायी कठोरता: Mg(HCO<sub>3</sub>)<sub>2</sub> + Ca(HCO<sub>3</sub>)<sub>2</sub> (i)।</li><li>(c) B<sub>2</sub>H<sub>6</sub>: इलेक्ट्रॉन न्यून हाइड्राइड (ii)।</li><li>(d) H<sub>2</sub>O<sub>2</sub>: असमतलीय (खुली पुस्तक) संरचना (iv)।</li></ul>",
+     "hint": "अस्थायी कठोरता हाइड्रोजनकार्बोनेटों के कारण होती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -210,10 +258,22 @@
       "Synthetic resins method",
       "Calgon's method",
       "Clark's method"
-     ]
+     ],
+     "sol": "<p>Temporary hardness (Ca/Mg hydrogencarbonates) is removed by boiling or by Clark's method: adding a calculated amount of lime, Ca(HCO<sub>3</sub>)<sub>2</sub> + Ca(OH)<sub>2</sub> → 2CaCO<sub>3</sub>↓ + 2H<sub>2</sub>O. Ion exchange, synthetic resins and Calgon are used for permanent hardness.</p>",
+     "hint": "Clark's method = adding lime."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जल की अस्थायी कठोरता दूर करने के लिए प्रयुक्त विधि है :",
+     "o": [
+      "आयन - विनिमय विधि",
+      "संश्लेषित रेज़िन विधि",
+      "कैलगन विधि",
+      "क्लार्क विधि"
+     ],
+     "sol": "<p>अस्थायी कठोरता (Ca/Mg हाइड्रोजनकार्बोनेट) उबालकर या क्लार्क विधि से दूर होती है: चूने की परिकलित मात्रा मिलाना, Ca(HCO<sub>3</sub>)<sub>2</sub> + Ca(OH)<sub>2</sub> → 2CaCO<sub>3</sub>↓ + 2H<sub>2</sub>O। आयन विनिमय, संश्लेषित रेज़िन और कैलगन स्थायी कठोरता के लिए प्रयुक्त होते हैं।</p>",
+     "hint": "क्लार्क विधि = चूना मिलाना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -255,10 +315,22 @@
       "Hydrogen never acts as cation in ionic salts.",
       "Hydronium ion, H<sub>3</sub>O<sup>+</sup> exists freely in solution.",
       "Dihydrogen does not act as a reducing agent."
-     ]
+     ],
+     "sol": "<p>(1) is incorrect: protium (<sup>1</sup>H) is by far the most common isotope (99.985%); tritium is rare. (4) is also incorrect: dihydrogen <i>is</i> a reducing agent (it reduces metal oxides), so the key accepts both (1) and (4). (2) H<sup>+</sup> does not exist as a free cation in salts; (3) H<sub>3</sub>O<sup>+</sup> exists in solution.</p>",
+     "hint": "Two statements here are wrong; the key accepts both."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हाइड्रोजन के संबंध में निम्नलिखित में से कौन-सा कथन गलत है ?",
+     "o": [
+      "हाइड्रोजन के तीन समस्थानिक हैं जिनमें ट्रिटियम सबसे सामान्य है।",
+      "हाइड्रोजन आयनिक लवणों में कभी धनायन के रूप में कार्य नहीं करती।",
+      "हाइड्रोनियम आयन, H<sub>3</sub>O<sup>+</sup> विलयन में मुक्त रूप से रहता है।",
+      "डाइहाइड्रोजन अपचायक के रूप में कार्य नहीं करती।"
+     ],
+     "sol": "<p>(1) गलत है: प्रोटियम (<sup>1</sup>H) सबसे अधिक सामान्य समस्थानिक है (99.985%); ट्रिटियम दुर्लभ है। (4) भी गलत है: डाइहाइड्रोजन अपचायक <i>है</i> (यह धातु ऑक्साइडों को अपचयित करती है), अतः कुंजी (1) और (4) दोनों स्वीकार करती है। (2) लवणों में H<sup>+</sup> मुक्त धनायन के रूप में नहीं रहता; (3) H<sub>3</sub>O<sup>+</sup> विलयन में रहता है।</p>",
+     "hint": "यहाँ दो कथन गलत हैं; कुंजी दोनों स्वीकार करती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -304,10 +376,22 @@
       "CaH<sub>2</sub> &lt; BeH<sub>2</sub> &lt; BaH<sub>2</sub>",
       "BeH<sub>2</sub> &lt; CaH<sub>2</sub> &lt; BaH<sub>2</sub>",
       "BaH<sub>2</sub> &lt; BeH<sub>2</sub> &lt; CaH<sub>2</sub>"
-     ]
+     ],
+     "sol": "<p>Ionic character of saline hydrides rises with the electropositive character (and size) of the metal: BeH<sub>2</sub> (covalent, polymeric) &lt; CaH<sub>2</sub> &lt; BaH<sub>2</sub>.</p>",
+     "hint": "Down group 2 → more ionic."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "CaH<sub>2</sub>, BeH<sub>2</sub>, BaH<sub>2</sub> में आयनिक लक्षण का क्रम है",
+     "o": [
+      "BeH<sub>2</sub> &lt; BaH<sub>2</sub> &lt; CaH<sub>2</sub>",
+      "CaH<sub>2</sub> &lt; BeH<sub>2</sub> &lt; BaH<sub>2</sub>",
+      "BeH<sub>2</sub> &lt; CaH<sub>2</sub> &lt; BaH<sub>2</sub>",
+      "BaH<sub>2</sub> &lt; BeH<sub>2</sub> &lt; CaH<sub>2</sub>"
+     ],
+     "sol": "<p>लवणीय हाइड्राइडों का आयनिक लक्षण धातु के विद्युत्-धनात्मक लक्षण (और आकार) के साथ बढ़ता है: BeH<sub>2</sub> (सहसंयोजी, बहुलकी) &lt; CaH<sub>2</sub> &lt; BaH<sub>2</sub>।</p>",
+     "hint": "वर्ग 2 में नीचे → अधिक आयनिक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -352,10 +436,22 @@
       "(a)-(i), (b)-(ii), (c)-(iv), (d)-(iii)",
       "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
       "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)"
-     ]
+     ],
+     "sol": "<ul><li>(a) MgH<sub>2</sub>: ionic (saline) hydride (iv).</li><li>(b) GeH<sub>4</sub>: group 14, electron-precise (i).</li><li>(c) B<sub>2</sub>H<sub>6</sub>: group 13, electron-deficient (ii).</li><li>(d) HF: group 17, lone pairs on F → electron-rich (iii).</li></ul>",
+     "hint": "Group 13 deficient, 14 precise, 15–17 rich."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए<br>सूची-I (हाइड्राइड): (a) MgH<sub>2</sub> (b) GeH<sub>4</sub> (c) B<sub>2</sub>H<sub>6</sub> (d) HF<br>सूची-II (प्रकृति): (i) इलेक्ट्रॉन परिशुद्ध (ii) इलेक्ट्रॉन न्यून (iii) इलेक्ट्रॉन समृद्ध (iv) आयनिक<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(i), (b)-(ii), (c)-(iv), (d)-(iii)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)"
+     ],
+     "sol": "<ul><li>(a) MgH<sub>2</sub>: आयनिक (लवणीय) हाइड्राइड (iv)।</li><li>(b) GeH<sub>4</sub>: वर्ग 14, इलेक्ट्रॉन परिशुद्ध (i)।</li><li>(c) B<sub>2</sub>H<sub>6</sub>: वर्ग 13, इलेक्ट्रॉन न्यून (ii)।</li><li>(d) HF: वर्ग 17, F पर एकाकी युग्म → इलेक्ट्रॉन समृद्ध (iii)।</li></ul>",
+     "hint": "वर्ग 13 न्यून, 14 परिशुद्ध, 15–17 समृद्ध।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
