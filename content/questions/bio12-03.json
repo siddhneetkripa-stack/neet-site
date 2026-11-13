@@ -53,10 +53,22 @@
       "Implantation of defective embryo in the uterus",
       "Pregnancies terminated due to hormonal imbalance",
       "Pregnancies with genetic abnormality"
-     ]
+     ],
+     "sol": "<p>An ectopic pregnancy is one in which the embryo implants <b>outside the uterus</b>, usually in the fallopian tube. NCERT lists it among the complications of untreated sexually transmitted infections (and PID).</p>",
+     "hint": "Ectopic = out of place."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अस्थानिक सगर्भता किसे कहते हैं?",
+     "o": [
+      "गर्भाशय के अतिरिक्त किसी अन्य स्थान पर भ्रूण का अंतर्रोपण",
+      "गर्भाशय में दोषयुक्त भ्रूण का अंतर्रोपण",
+      "हॉर्मोन असंतुलन के कारण समाप्त हुई सगर्भता",
+      "आनुवंशिक असामान्यता वाली सगर्भता"
+     ],
+     "sol": "<p>अस्थानिक सगर्भता में भ्रूण <b>गर्भाशय के बाहर</b>, प्रायः अंडवाहिनी में, अंतर्रोपित होता है। NCERT इसे अनुपचारित यौन संचारित रोगों (तथा PID) की जटिलताओं में गिनाता है।</p>",
+     "hint": "अस्थानिक = गलत स्थान पर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -99,10 +111,22 @@
       "Gamete internal fertilization and transfer",
       "Germ cell internal fallopian transfer",
       "Gamete inseminated fallopian transfer"
-     ]
+     ],
+     "sol": "<p>GIFT = <b>Gamete Intra Fallopian Transfer</b>: an ovum from a donor is transferred into the fallopian tube of a woman who cannot produce ova but can support fertilisation and development.</p>",
+     "hint": "Compare with ZIFT (zygote)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक संतानहीन दंपति को GIFT नामक तकनीक द्वारा संतान प्राप्त करने में सहायता दी जा सकती है। इस तकनीक का पूरा नाम है :",
+     "o": [
+      "Gamete intra fallopian transfer (युग्मक अंतः डिंब वाहिनी स्थानांतरण)",
+      "Gamete internal fertilization and transfer",
+      "Germ cell internal fallopian transfer",
+      "Gamete inseminated fallopian transfer"
+     ],
+     "sol": "<p>GIFT = <b>Gamete Intra Fallopian Transfer</b> (युग्मक अंतः डिंब वाहिनी स्थानांतरण): दाता का अंडाणु उस स्त्री की फैलोपी नलिका में स्थानांतरित किया जाता है जो अंडाणु नहीं बना सकती पर निषेचन तथा परिवर्धन के लिए उपयुक्त वातावरण दे सकती है।</p>",
+     "hint": "ZIFT (युग्मनज) से तुलना करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -145,10 +169,22 @@
       "It is used for prenatal sex determination",
       "It can be used for detection of Down syndrome",
       "It can be used for detection of Cleft palate"
-     ]
+     ],
+     "sol": "<p>Amniocentesis tests foetal cells in the amniotic fluid for chromosomal/genetic disorders (e.g. Down syndrome) and can reveal the sex; it is usually done at 14–16 weeks. Cleft palate is a structural defect, not detectable by chromosome analysis of amniotic cells, so statement 4 is incorrect.</p>",
+     "hint": "It reads chromosomes, not anatomy."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उल्बवेधन (ऐमीनोसैंटैसिस) के संदर्भ में निम्नलिखित में से कौन-सा कथन गलत है?",
+     "o": [
+      "यह सामान्यतः तब किया जाता है जब स्त्री 14 – 16 सप्ताह की गर्भवती हो",
+      "इसका उपयोग प्रसवपूर्व लिंग निर्धारण के लिए होता है",
+      "इसका उपयोग डाउन सिंड्रोम का पता लगाने में हो सकता है",
+      "इसका उपयोग खंड तालु (cleft palate) का पता लगाने में हो सकता है"
+     ],
+     "sol": "<p>उल्बवेधन में उल्ब द्रव की गर्भ कोशिकाओं की क्रोमोसोमी/आनुवंशिक विकारों (जैसे डाउन सिंड्रोम) के लिए जाँच होती है और इससे लिंग भी पता चल सकता है; यह सामान्यतः 14–16 सप्ताह पर किया जाता है। खंड तालु एक संरचनात्मक दोष है, जो उल्ब कोशिकाओं के क्रोमोसोम विश्लेषण से पता नहीं चलता; अतः कथन 4 गलत है।</p>",
+     "hint": "यह क्रोमोसोम पढ़ता है, शरीर रचना नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -191,10 +227,22 @@
       "Intra uterine devices — Increase phagocytosis of sperms, suppress sperm motility and fertilizing capacity of sperms",
       "Hormonal contraceptives — Prevent/retard entry of sperms, prevent ovulation and fertilization",
       "Vasectomy — Prevents spermatogenesis"
-     ]
+     ],
+     "sol": "<p>Vasectomy removes or ties a small part of the vas deferens; it <b>blocks transport</b> of sperms, it does not stop spermatogenesis in the testis. The other three pairs match NCERT.</p>",
+     "hint": "Cutting a duct cannot stop the factory."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा उपाय गर्भनिरोधक की बताई गई क्रिया नहीं देता?",
+     "o": [
+      "रोधक विधियाँ — निषेचन रोकती हैं",
+      "अंतः गर्भाशयी युक्तियाँ — शुक्राणुओं की भक्षकाणुक्रिया बढ़ाती हैं, शुक्राणुओं की गतिशीलता तथा निषेचन क्षमता घटाती हैं",
+      "हॉर्मोनी गर्भनिरोधक — शुक्राणुओं का प्रवेश रोकते/धीमा करते हैं, अंडोत्सर्ग तथा निषेचन रोकते हैं",
+      "शुक्रवाहक-उच्छेदन — शुक्रजनन रोकता है"
+     ],
+     "sol": "<p>शुक्रवाहक-उच्छेदन में शुक्रवाहक का छोटा भाग काटकर बाँध दिया जाता है; यह शुक्राणुओं का <b>परिवहन रोकता</b> है, वृषण में शुक्रजनन नहीं रोकता। अन्य तीनों युग्म NCERT के अनुसार सही हैं।</p>",
+     "hint": "वाहिनी काटने से उत्पादन नहीं रुकता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -237,10 +285,22 @@
       "Multiload-375",
       "Lippes loop",
       "Cu7"
-     ]
+     ],
+     "sol": "<p>Hormone-releasing IUDs: <b>LNG-20</b> and Progestasert. Multiload-375 and Cu7 are copper-releasing; Lippes loop is non-medicated.</p>",
+     "hint": "LNG = levonorgestrel, a progestogen."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा हॉर्मोन मोचक IUD है?",
+     "o": [
+      "LNG-20",
+      "मल्टीलोड-375",
+      "लिप्पेस लूप",
+      "Cu7"
+     ],
+     "sol": "<p>हॉर्मोन मोचक IUD: <b>LNG-20</b> तथा प्रोजेस्टासर्ट। मल्टीलोड-375 और Cu7 ताँबा मोचक हैं; लिप्पेस लूप औषधिरहित है।</p>",
+     "hint": "LNG = लिवोनॉरजेस्ट्रेल, एक प्रोजेस्टोजन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -283,10 +343,22 @@
       "No sperm occurs in epididymis",
       "Vasa deferentia is cut and tied",
       "Irreversible sterility"
-     ]
+     ],
+     "sol": "<p>In vasectomy the vas deferens is cut and tied, so sperms do not reach the semen. Sperms are still made in the testis and stored in the epididymis, so 'no sperm occurs in epididymis' is incorrect. (Sterilisation is treated as practically irreversible.)</p>",
+     "hint": "The cut is below the epididymis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "शुक्रवाहक-उच्छेदन के संबंध में निम्नलिखित में से कौन-सा गलत है?",
+     "o": [
+      "शुक्रीय द्रव में शुक्राणु नहीं होते",
+      "अधिवृषण में शुक्राणु नहीं होते",
+      "शुक्रवाहक काटकर बाँध दिया जाता है",
+      "अपरिवर्तनीय बंध्यता"
+     ],
+     "sol": "<p>शुक्रवाहक-उच्छेदन में शुक्रवाहक काटकर बाँध दिया जाता है, अतः शुक्राणु वीर्य तक नहीं पहुँचते। शुक्राणु वृषण में बनते रहते हैं और अधिवृषण में संग्रहित होते हैं, अतः 'अधिवृषण में शुक्राणु नहीं होते' गलत है। (बंध्यकरण को व्यवहार में अपरिवर्तनीय माना जाता है।)</p>",
+     "hint": "कटाव अधिवृषण के नीचे होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -329,10 +401,22 @@
       "Fallopian tube",
       "Fimbriae",
       "Cervix"
-     ]
+     ],
+     "sol": "<p>In ZIFT a zygote or early embryo (up to 8 blastomeres) goes into the fallopian tube; embryos with <b>more than 8 blastomeres</b> are transferred into the <b>uterus</b> (IUT). So an embryo with more than 16 blastomeres goes to the uterus.</p>",
+     "hint": "More than 8 blastomeres → IUT."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पात्रे निषेचन द्वारा बना 16 से अधिक कोरकखंडों वाला भ्रूण कहाँ स्थानांतरित किया जाता है?",
+     "o": [
+      "गर्भाशय",
+      "अंडवाहिनी",
+      "झालर (फिंब्री)",
+      "गर्भाशय ग्रीवा"
+     ],
+     "sol": "<p>ZIFT में युग्मनज या प्रारंभिक भ्रूण (8 कोरकखंड तक) फैलोपी नलिका में जाता है; <b>8 से अधिक कोरकखंडों</b> वाले भ्रूण <b>गर्भाशय</b> में स्थानांतरित होते हैं (IUT)। अतः 16 से अधिक कोरकखंडों वाला भ्रूण गर्भाशय में जाता है।</p>",
+     "hint": "8 से अधिक कोरकखंड → IUT।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -375,10 +459,22 @@
       "(a) iii, (b) iv, (c) i, (d) ii",
       "(a) iv, (b) ii, (c) iii, (d) i",
       "(a) iv, (b) iii, (c) ii, (d) i"
-     ]
+     ],
+     "sol": "<ul><li>(a) Gonorrhoea — <i>Neisseria</i> (ii).</li><li>(b) Syphilis — <i>Treponema</i> (iii).</li><li>(c) Genital warts — human papilloma virus (iv).</li><li>(d) AIDS — HIV (i).</li></ul><p>(a) ii, (b) iii, (c) iv, (d) i. NCERT names these diseases but not all their agents.</p>",
+     "hint": "Two bacteria, two viruses."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित यौन संचारित रोगों (स्तंभ I) का उनके कारक (स्तंभ II) से मिलान कीजिए तथा सही विकल्प चुनिए।<br>(a) सुजाक — (i) HIV<br>(b) सिफिलिस — (ii) <i>नाइसेरिया</i><br>(c) लैंगिक मस्से — (iii) <i>ट्रेपोनेमा</i><br>(d) एड्स (AIDS) — (iv) ह्यूमन पैपिलोमा वायरस",
+     "o": [
+      "(a) ii, (b) iii, (c) iv, (d) i",
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) iv, (b) ii, (c) iii, (d) i",
+      "(a) iv, (b) iii, (c) ii, (d) i"
+     ],
+     "sol": "<ul><li>(a) सुजाक — <i>नाइसेरिया</i> (ii)।</li><li>(b) सिफिलिस — <i>ट्रेपोनेमा</i> (iii)।</li><li>(c) लैंगिक मस्से — ह्यूमन पैपिलोमा वायरस (iv)।</li><li>(d) एड्स (AIDS) — HIV (i)।</li></ul><p>(a) ii, (b) iii, (c) iv, (d) i। NCERT इन रोगों के नाम देता है, पर सभी के कारक नहीं।</p>",
+     "hint": "दो जीवाणु, दो वायरस।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -422,10 +518,22 @@
       "Gamete intracytoplasmic fallopian transfer",
       "Artificial Insemination",
       "Intracytoplasmic sperm injection"
-     ]
+     ],
+     "sol": "<p>NCERT: when the male partner cannot inseminate the female or has a very low sperm count, the problem is corrected by <b>artificial insemination</b> (semen from the husband or a donor introduced into the vagina or uterus, IUI). This is the answer the key gives; ICSI is also used in practice but NCERT links low sperm count to AI.</p>",
+     "hint": "NCERT's remedy for low sperm count."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी दंपति में जहाँ पुरुष के शुक्राणुओं की संख्या बहुत कम है, निषेचन के लिए कौन-सी तकनीक उपयुक्त होगी?",
+     "o": [
+      "अंतः गर्भाशयी स्थानांतरण",
+      "युग्मक अंतः कोशिकीय फैलोपी स्थानांतरण",
+      "कृत्रिम वीर्यसेचन",
+      "अंतः कोशिकीय शुक्राणु निक्षेपण"
+     ],
+     "sol": "<p>NCERT: जब पुरुष साथी स्त्री को वीर्यसेचित नहीं कर सकता या उसके शुक्राणुओं की संख्या बहुत कम है, तब <b>कृत्रिम वीर्यसेचन</b> (पति या दाता का वीर्य योनि या गर्भाशय में प्रविष्ट करना, IUI) से निवारण होता है। कुंजी यही उत्तर देती है; व्यवहार में ICSI भी प्रयुक्त होता है, पर NCERT कम शुक्राणु संख्या को AI से जोड़ता है।</p>",
+     "hint": "कम शुक्राणु संख्या के लिए NCERT का उपाय।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -469,10 +577,22 @@
       "They inhibit gametogenesis",
       "They make uterus unsuitable for implantation",
       "They inhibit ovulation"
-     ]
+     ],
+     "sol": "<p>Cu ions released by copper IUDs <b>suppress sperm motility and the fertilising capacity</b> of sperms (IUDs also increase phagocytosis of sperms). They do not stop gametogenesis or ovulation; making the uterus unsuitable for implantation is the action of hormone-releasing IUDs.</p>",
+     "hint": "Copper acts on sperms."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ताँबा मोचक IUD में ताँबे के आयनों का कार्य है :",
+     "o": [
+      "ये शुक्राणुओं की गतिशीलता तथा निषेचन क्षमता को घटाते हैं",
+      "ये युग्मकजनन को रोकते हैं",
+      "ये गर्भाशय को अंतर्रोपण के लिए अनुपयुक्त बनाते हैं",
+      "ये अंडोत्सर्ग को रोकते हैं"
+     ],
+     "sol": "<p>ताँबा मोचक IUD से निकले Cu आयन <b>शुक्राणुओं की गतिशीलता तथा निषेचन क्षमता घटाते</b> हैं (IUD शुक्राणुओं की भक्षकाणुक्रिया भी बढ़ाते हैं)। ये युग्मकजनन या अंडोत्सर्ग नहीं रोकते; गर्भाशय को अंतर्रोपण के लिए अनुपयुक्त बनाना हॉर्मोन मोचक IUD का कार्य है।</p>",
+     "hint": "ताँबा शुक्राणुओं पर कार्य करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -515,10 +635,22 @@
       "increases the concentration of estrogen and prevents ovulation in females.",
       "blocks estrogen receptors in the uterus, preventing eggs from getting implanted.",
       "is a post-coital contraceptive."
-     ]
+     ],
+     "sol": "<p>Saheli (centchroman), developed at CDRI Lucknow, is a once-a-week non-steroidal oral pill. It acts as an anti-estrogen: it <b>blocks estrogen receptors in the uterus</b>, so the egg cannot implant. It is not an IUD, does not raise estrogen and is not a post-coital pill. (NCERT names Saheli but not its mechanism.)</p>",
+     "hint": "Non-steroidal, weekly, anti-estrogen."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गर्भनिरोधक 'सहेली' (SAHELI) :",
+     "o": [
+      "एक IUD है।",
+      "स्त्रियों में ऐस्ट्रोजन की सांद्रता बढ़ाकर अंडोत्सर्ग रोकती है।",
+      "गर्भाशय में ऐस्ट्रोजन ग्राहियों को अवरुद्ध करती है, जिससे अंडे का अंतर्रोपण नहीं हो पाता।",
+      "मैथुन-पश्च गर्भनिरोधक है।"
+     ],
+     "sol": "<p>सहेली (सेंटक्रोमन), जिसकी खोज CDRI लखनऊ में हुई, सप्ताह में एक बार ली जाने वाली गैर-स्टीरॉइडी गोली है। यह ऐस्ट्रोजन-रोधी है: <b>गर्भाशय में ऐस्ट्रोजन ग्राहियों को अवरुद्ध</b> करती है, जिससे अंडा अंतर्रोपित नहीं हो पाता। यह IUD नहीं है, ऐस्ट्रोजन नहीं बढ़ाती और मैथुन-पश्च गोली नहीं है। (NCERT सहेली का नाम देता है, क्रियाविधि नहीं।)</p>",
+     "hint": "गैर-स्टीरॉइडी, साप्ताहिक, ऐस्ट्रोजन-रोधी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -562,10 +694,22 @@
       "Pills, Emergency contraceptives, Barrier methods",
       "Lactational amenorrhea, Pills, Emergency contraceptives",
       "Barrier method, Lactational amenorrhea, Pills"
-     ]
+     ],
+     "sol": "<p>Pills and emergency contraceptives contain progestogens/estrogens. In <b>lactational amenorrhea</b>, ovulation is suppressed by the hormones of intense breast-feeding (high prolactin). CuT works by copper ions and barrier methods are physical, so options with them are wrong.</p>",
+     "hint": "Remove CuT and barriers."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से किन गर्भनिरोधक विधियों में हॉर्मोन की भूमिका होती है?",
+     "o": [
+      "CuT, गोलियाँ, आपातकालिक गर्भनिरोधक",
+      "गोलियाँ, आपातकालिक गर्भनिरोधक, रोधक विधियाँ",
+      "स्तनपान अनार्तव, गोलियाँ, आपातकालिक गर्भनिरोधक",
+      "रोधक विधि, स्तनपान अनार्तव, गोलियाँ"
+     ],
+     "sol": "<p>गोलियों तथा आपातकालिक गर्भनिरोधकों में प्रोजेस्टोजन/ऐस्ट्रोजन होते हैं। <b>स्तनपान अनार्तव</b> में तीव्र स्तनपान के हॉर्मोन (उच्च प्रोलैक्टिन) अंडोत्सर्ग रोकते हैं। CuT ताँबे के आयनों से तथा रोधक विधियाँ भौतिक रूप से कार्य करती हैं, अतः उनवाले विकल्प गलत हैं।</p>",
+     "hint": "CuT और रोधक हटा दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -608,10 +752,22 @@
       "Chlamydiasis",
       "Gonorrhoea",
       "Genital warts."
-     ]
+     ],
+     "sol": "<p>NCERT: except hepatitis-B, genital herpes and HIV infection, all other sexually transmitted infections are completely curable if detected early and treated properly. <b>Genital herpes</b> (a viral infection) is not completely curable. Chlamydiasis and gonorrhoea are bacterial and curable; genital warts are listed as curable too.</p>",
+     "hint": "NCERT's three exceptions."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा यौन संचारित रोग पूरी तरह उपचार योग्य नहीं है?",
+     "o": [
+      "जननिक परिसर्प",
+      "क्लेमिडियता",
+      "सुजाक",
+      "लैंगिक मस्से।"
+     ],
+     "sol": "<p>NCERT: यकृतशोथ-B, जननिक परिसर्प तथा HIV संक्रमण को छोड़कर अन्य सभी यौन संचारित रोग शुरुआत में पहचानकर ठीक इलाज करने पर पूरी तरह उपचार योग्य हैं। <b>जननिक परिसर्प</b> (वायरस जनित) पूरी तरह उपचार योग्य नहीं है। क्लेमिडियता और सुजाक जीवाणु जनित तथा उपचार योग्य हैं; लैंगिक मस्से भी उपचार योग्य सूची में हैं।</p>",
+     "hint": "NCERT के तीन अपवाद।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -654,10 +810,22 @@
       "Lippes Loop, Multiload 375",
       "Vaults, LNG-20",
       "Multiload 375, Progestasert"
-     ]
+     ],
+     "sol": "<p>Hormone-releasing IUDs in NCERT: <b>Progestasert and LNG-20</b>. Lippes loop is non-medicated, Multiload 375 is copper-releasing and vaults are barriers.</p>",
+     "hint": "Both must release progestogen."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हॉर्मोन मोचक अंतः गर्भाशयी युक्तियाँ चुनिए।",
+     "o": [
+      "प्रोजेस्टासर्ट, LNG-20",
+      "लिप्पेस लूप, मल्टीलोड 375",
+      "वॉल्ट, LNG-20",
+      "मल्टीलोड 375, प्रोजेस्टासर्ट"
+     ],
+     "sol": "<p>NCERT में हॉर्मोन मोचक IUD: <b>प्रोजेस्टासर्ट तथा LNG-20</b>। लिप्पेस लूप औषधिरहित है, मल्टीलोड 375 ताँबा मोचक है और वॉल्ट रोधक है।</p>",
+     "hint": "दोनों को प्रोजेस्टोजन मोचित करना चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -700,10 +868,22 @@
       "GIFT and ICSI",
       "ZIFT and IUT",
       "GIFT and ZIFT"
-     ]
+     ],
+     "sol": "<p>Embryos are transferred in <b>ZIFT</b> (zygote/embryo up to 8 blastomeres into the fallopian tube) and <b>IUT</b> (embryo of more than 8 blastomeres into the uterus). GIFT transfers a gamete (ovum) and ICSI injects a sperm into an ovum.</p>",
+     "hint": "Z = zygote; G = gamete."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से किन तकनीकों में गर्भधारण न कर सकने वाली स्त्रियों की सहायता के लिए भ्रूण स्थानांतरित किए जाते हैं?",
+     "o": [
+      "ICSI तथा ZIFT",
+      "GIFT तथा ICSI",
+      "ZIFT तथा IUT",
+      "GIFT तथा ZIFT"
+     ],
+     "sol": "<p>भ्रूण <b>ZIFT</b> (युग्मनज/8 कोरकखंड तक का भ्रूण फैलोपी नलिका में) तथा <b>IUT</b> (8 से अधिक कोरकखंडों वाला भ्रूण गर्भाशय में) में स्थानांतरित होते हैं। GIFT में युग्मक (अंडाणु) स्थानांतरित होता है और ICSI में शुक्राणु अंडाणु में अंतःक्षेपित होता है।</p>",
+     "hint": "Z = युग्मनज; G = युग्मक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -746,10 +926,22 @@
       "Cancer, AIDS, syphilis",
       "Gonorrhoea, Syphilis, Genital Herpes",
       "Gonorrhoea, Syphilis, Genital Herpes"
-     ]
+     ],
+     "sol": "<p>Gonorrhoea, syphilis and genital herpes are all sexually transmitted. Malaria and filaria are vector-borne and cancer is not infectious.</p><p class='errata'>In our copy options 3 and 4 are printed the same; the official key gives option 3. Check the option text against the official F3 booklet.</p>",
+     "hint": "Remove any option with a disease that is not sexually transmitted."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सभी यौन संचारित रोगों वाला विकल्प चुनिए।",
+     "o": [
+      "एड्स (AIDS), मलेरिया, फाइलेरिया",
+      "कैंसर, एड्स (AIDS), सिफिलिस",
+      "सुजाक, सिफिलिस, जननिक परिसर्प",
+      "सुजाक, सिफिलिस, जननिक परिसर्प"
+     ],
+     "sol": "<p>सुजाक, सिफिलिस तथा जननिक परिसर्प सभी यौन संचारित हैं। मलेरिया और फाइलेरिया रोगवाहक द्वारा फैलते हैं और कैंसर संक्रामक नहीं है।</p><p class='errata'>हमारी प्रति में विकल्प 3 और 4 एक जैसे छपे हैं; आधिकारिक कुंजी विकल्प 3 देती है। विकल्पों को आधिकारिक F3 पुस्तिका से मिलाएँ।</p>",
+     "hint": "जिस विकल्प में यौन संचारित रोग न हो उसे हटाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -793,10 +985,22 @@
       "(a), (b) and (c) only",
       "(b), (c) and (d) only",
       "(b) and (c) only"
-     ]
+     ],
+     "sol": "<p>These infections spread by sexual contact, by sharing of injection needles or surgical instruments with infected persons, by <b>transfusion of infected blood</b> (b) and from an <b>infected mother to the foetus</b> (c). Sterile needles (a), kissing (d) and inheritance (e) do not transmit them. (b) and (c) only.</p>",
+     "hint": "Sterile needles are safe; these infections are not inherited."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "रतिज रोग किसके द्वारा फैल सकते हैं?<br>(a) निर्जर्मित सुइयों का उपयोग<br>(b) संक्रमित व्यक्ति के रक्त का आधान<br>(c) संक्रमित माता से गर्भस्थ शिशु में<br>(d) चुंबन<br>(e) वंशागति<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।",
+     "o": [
+      "केवल (a) तथा (c)",
+      "केवल (a), (b) तथा (c)",
+      "केवल (b), (c) तथा (d)",
+      "केवल (b) तथा (c)"
+     ],
+     "sol": "<p>यौन संचारित रोग यौन संपर्क से, संक्रमित व्यक्ति के साथ सुई या शल्य औजार साझा करने से, <b>संदूषित रक्ताधान</b> (b) से तथा <b>संक्रमित माता से गर्भस्थ शिशु</b> (c) में फैलते हैं। निर्जर्मित सुइयाँ (a), चुंबन (d) और वंशागति (e) इन्हें नहीं फैलाते। केवल (b) तथा (c)।</p>",
+     "hint": "निर्जर्मित सुइयाँ सुरक्षित हैं; ये रोग वंशागत नहीं होते।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -839,10 +1043,22 @@
       "(a) iv, (b) ii, (c) i, (d) iii",
       "(a) i, (b) iii, (c) ii, (d) iv",
       "(a) ii, (b) iv, (c) iii, (d) i"
-     ]
+     ],
+     "sol": "<ul><li>(a) Vaults — rubber barriers that block entry of sperm through the cervix (i).</li><li>(b) IUDs — increase phagocytosis of sperms in the uterus (iii).</li><li>(c) Vasectomy — a small part of the vas deferens is removed or tied (ii).</li><li>(d) Tubectomy — a small part of the fallopian tube is removed or tied (iv).</li></ul><p>(a) i, (b) iii, (c) ii, (d) iv.</p>",
+     "hint": "Vas → vasectomy; tube → tubectomy."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(a) वॉल्ट — (i) गर्भाशय ग्रीवा से शुक्राणु का प्रवेश अवरुद्ध<br>(b) IUD — (ii) शुक्रवाहक को हटाना<br>(c) शुक्रवाहक-उच्छेदन — (iii) गर्भाशय में शुक्राणुओं की भक्षकाणुक्रिया<br>(d) नलिका उच्छेदन — (iv) अंडवाहिनी को हटाना",
+     "o": [
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) iv, (b) ii, (c) i, (d) iii",
+      "(a) i, (b) iii, (c) ii, (d) iv",
+      "(a) ii, (b) iv, (c) iii, (d) i"
+     ],
+     "sol": "<ul><li>(a) वॉल्ट — रबर के रोधक जो गर्भाशय ग्रीवा से शुक्राणु का प्रवेश रोकते हैं (i)।</li><li>(b) IUD — गर्भाशय में शुक्राणुओं की भक्षकाणुक्रिया बढ़ाते हैं (iii)।</li><li>(c) शुक्रवाहक-उच्छेदन — शुक्रवाहक का छोटा भाग हटाया या बाँधा जाता है (ii)।</li><li>(d) नलिका उच्छेदन — अंडवाहिनी का छोटा भाग हटाया या बाँधा जाता है (iv)।</li></ul><p>(a) i, (b) iii, (c) ii, (d) iv।</p>",
+     "hint": "शुक्रवाहक → शुक्रवाहक-उच्छेदन; नलिका → नलिका उच्छेदन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -885,10 +1101,22 @@
       "CuT",
       "LNG 20",
       "Cu 7"
-     ]
+     ],
+     "sol": "<p><b>LNG-20</b> releases a progestogen (levonorgestrel), so it is a hormone-releasing IUD. Multiload 375, CuT and Cu7 release copper.</p>",
+     "hint": "Every option except one has copper."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा हॉर्मोन मोचक IUD का उदाहरण है?",
+     "o": [
+      "मल्टीलोड 375",
+      "CuT",
+      "LNG 20",
+      "Cu 7"
+     ],
+     "sol": "<p><b>LNG-20</b> एक प्रोजेस्टोजन (लिवोनॉरजेस्ट्रेल) मोचित करता है, अतः यह हॉर्मोन मोचक IUD है। मल्टीलोड 375, CuT तथा Cu7 ताँबा मोचित करते हैं।</p>",
+     "hint": "एक को छोड़ सभी विकल्पों में ताँबा है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -931,10 +1159,22 @@
       "Non-medicated IUD",
       "Copper releasing IUD",
       "Cervical barrier"
-     ]
+     ],
+     "sol": "<p>NCERT classifies IUDs as non-medicated (<b>Lippes loop</b>), copper-releasing (CuT, Cu7, Multiload 375) and hormone-releasing (Progestasert, LNG-20). Lippes loop is a <b>non-medicated IUD</b>.</p>",
+     "hint": "Lippes loop carries no drug."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "लिप्पेस लूप एक प्रकार का गर्भनिरोधक है जिसका उपयोग किस रूप में होता है?",
+     "o": [
+      "वॉल्ट रोधक",
+      "औषधिरहित IUD",
+      "ताँबा मोचक IUD",
+      "गर्भाशय ग्रीवा रोधक"
+     ],
+     "sol": "<p>NCERT IUD को औषधिरहित (<b>लिप्पेस लूप</b>), ताँबा मोचक (CuT, Cu7, मल्टीलोड 375) तथा हॉर्मोन मोचक (प्रोजेस्टासर्ट, LNG-20) में बाँटता है। लिप्पेस लूप <b>औषधिरहित IUD</b> है।</p>",
+     "hint": "लिप्पेस लूप में कोई औषधि नहीं होती।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -977,10 +1217,22 @@
       "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
       "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)"
-     ]
+     ],
+     "sol": "<ul><li>(a) Diaphragms — cover the cervix and block sperm entry (iv).</li><li>(b) Pills — inhibit ovulation and implantation (i).</li><li>(c) IUDs — increase phagocytosis of sperms in the uterus (ii).</li><li>(d) Lactational amenorrhea — no menstrual cycle or ovulation after parturition during intense lactation (iii).</li></ul><p>(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii).</p>",
+     "hint": "Each method has one NCERT action."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गर्भनिरोध की विधियों तथा उनकी क्रियाओं के संदर्भ में सूची-I का सूची-II से मिलान कीजिए :<br>(a) डायाफ्रॉम — (i) अंडोत्सर्ग तथा अंतर्रोपण को रोकती हैं<br>(b) गर्भनिरोधक गोलियाँ — (ii) गर्भाशय में शुक्राणुओं की भक्षकाणुक्रिया बढ़ाते हैं<br>(c) अंतः गर्भाशयी युक्तियाँ — (iii) प्रसव के बाद आर्तव चक्र तथा अंडोत्सर्ग का न होना<br>(d) स्तनपान अनार्तव — (iv) ये गर्भाशय ग्रीवा को ढककर शुक्राणुओं का प्रवेश रोकते हैं",
+     "o": [
+      "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
+      "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)"
+     ],
+     "sol": "<ul><li>(a) डायाफ्रॉम — गर्भाशय ग्रीवा को ढककर शुक्राणु का प्रवेश रोकते हैं (iv)।</li><li>(b) गोलियाँ — अंडोत्सर्ग तथा अंतर्रोपण रोकती हैं (i)।</li><li>(c) IUD — गर्भाशय में शुक्राणुओं की भक्षकाणुक्रिया बढ़ाते हैं (ii)।</li><li>(d) स्तनपान अनार्तव — प्रसव के बाद तीव्र स्तनपान की अवधि में आर्तव चक्र और अंडोत्सर्ग नहीं होते (iii)।</li></ul><p>(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)।</p>",
+     "hint": "हर विधि की NCERT में एक क्रिया है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1024,10 +1276,22 @@
       "Genital herpes",
       "Gonorrhoea",
       "Hepatitis-B"
-     ]
+     ],
+     "sol": "<p>Of the options, only <b>gonorrhoea</b> (bacterial) is completely curable if detected early and treated properly. HIV infection, genital herpes and hepatitis-B are NCERT's three exceptions.</p>",
+     "hint": "Pick the one that is not an NCERT exception."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित सामान्य यौन संचारित रोगों में से कौन-सा शुरुआत में पहचाने जाने तथा ठीक से उपचार करने पर पूरी तरह उपचार योग्य है?",
+     "o": [
+      "HIV संक्रमण",
+      "जननिक परिसर्प",
+      "सुजाक",
+      "यकृतशोथ-B"
+     ],
+     "sol": "<p>विकल्पों में केवल <b>सुजाक</b> (जीवाणु जनित) शुरुआत में पहचानकर ठीक इलाज करने पर पूरी तरह उपचार योग्य है। HIV संक्रमण, जननिक परिसर्प और यकृतशोथ-B NCERT के तीन अपवाद हैं।</p>",
+     "hint": "जो NCERT का अपवाद नहीं है उसे चुनें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1070,10 +1334,22 @@
       "Both A and R are true and R is the correct explanation of A.",
       "Both A and R are true and R is NOT the correct explanation of A.",
       "A is true but R is false."
-     ]
+     ],
+     "sol": "<p>A is false: the RCH programme includes a <b>statutory ban</b> on amniocentesis for sex determination; amniocentesis for sex determination is not a strategy of the programme. R is true: the ban checks the rising menace of female foeticide.</p>",
+     "hint": "The ban, not the test, is the strategy."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं : एक को अभिकथन A तथा दूसरे को कारण R कहा गया है :<br>अभिकथन A : लिंग निर्धारण के लिए उल्बवेधन जनन एवं बाल स्वास्थ्य सेवा कार्यक्रम की कार्ययोजनाओं में से एक है।<br>कारण R : उल्बवेधन पर प्रतिबंध बढ़ती मादा भ्रूण हत्या को रोकता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A गलत है परंतु R सही है।",
+      "A तथा R दोनों सही हैं तथा R, A की सही व्याख्या है।",
+      "A तथा R दोनों सही हैं परंतु R, A की सही व्याख्या नहीं है।",
+      "A सही है परंतु R गलत है।"
+     ],
+     "sol": "<p>A गलत है: RCH कार्यक्रम में लिंग निर्धारण हेतु उल्बवेधन पर <b>वैधानिक प्रतिबंध</b> शामिल है; लिंग निर्धारण के लिए उल्बवेधन कार्यक्रम की कार्ययोजना नहीं है। R सही है: यह प्रतिबंध बढ़ती मादा भ्रूण हत्या को रोकता है।</p>",
+     "hint": "जाँच नहीं, प्रतिबंध कार्ययोजना है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1116,10 +1392,22 @@
       "A-III, B-I, C-IV, D-II",
       "A-III, B-IV, C-II, D-I",
       "A-II, B-III, C-I, D-IV"
-     ]
+     ],
+     "sol": "<ul><li>(A) Vasectomy — surgical method (III).</li><li>(B) Coitus interruptus — natural method (IV).</li><li>(C) Cervical caps — barrier method (II).</li><li>(D) Saheli — oral pill (I).</li></ul><p>A-III, B-IV, C-II, D-I.</p>",
+     "hint": "Sort each into NCERT's categories."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(A) शुक्रवाहक-उच्छेदन — (I) मुख से ली जाने वाली विधि<br>(B) बाह्य स्खलन (अंतरित मैथुन) — (II) रोधक विधि<br>(C) गर्भाशय ग्रीवा टोपी — (III) शल्य क्रियात्मक विधि<br>(D) सहेली — (IV) प्राकृतिक विधि",
+     "o": [
+      "A-IV, B-II, C-I, D-III",
+      "A-III, B-I, C-IV, D-II",
+      "A-III, B-IV, C-II, D-I",
+      "A-II, B-III, C-I, D-IV"
+     ],
+     "sol": "<ul><li>(A) शुक्रवाहक-उच्छेदन — शल्य क्रियात्मक विधि (III)।</li><li>(B) बाह्य स्खलन — प्राकृतिक विधि (IV)।</li><li>(C) गर्भाशय ग्रीवा टोपी — रोधक विधि (II)।</li><li>(D) सहेली — मुख से ली जाने वाली गोली (I)।</li></ul><p>A-III, B-IV, C-II, D-I।</p>",
+     "hint": "हर एक को NCERT की श्रेणी में रखें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1162,10 +1450,22 @@
       "A-I, B-III, C-IV, D-II",
       "A-IV, B-I, C-II, D-III",
       "A-III, B-I, C-IV, D-II"
-     ]
+     ],
+     "sol": "<ul><li>A Non-medicated IUD — Lippes loop (III).</li><li>B Copper-releasing IUD — Multiload 375 (I).</li><li>C Hormone-releasing IUD — LNG-20 (IV).</li><li>D Implants — progestogens (alone or with estrogen) placed under the skin (II).</li></ul><p>A-III, B-I, C-IV, D-II.</p>",
+     "hint": "Implants carry hormones under the skin."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. औषधिरहित IUD — I. मल्टीलोड 375<br>B. ताँबा मोचक IUD — II. प्रोजेस्टोजन<br>C. हॉर्मोन मोचक IUD — III. लिप्पेस लूप<br>D. अंतर्रोप — IV. LNG-20",
+     "o": [
+      "A-III, B-I, C-II, D-IV",
+      "A-I, B-III, C-IV, D-II",
+      "A-IV, B-I, C-II, D-III",
+      "A-III, B-I, C-IV, D-II"
+     ],
+     "sol": "<ul><li>A औषधिरहित IUD — लिप्पेस लूप (III)।</li><li>B ताँबा मोचक IUD — मल्टीलोड 375 (I)।</li><li>C हॉर्मोन मोचक IUD — LNG-20 (IV)।</li><li>D अंतर्रोप — त्वचा के नीचे रखे प्रोजेस्टोजन (अकेले या ऐस्ट्रोजन के साथ) (II)।</li></ul><p>A-III, B-I, C-IV, D-II।</p>",
+     "hint": "अंतर्रोप त्वचा के नीचे हॉर्मोन रखते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1209,10 +1509,22 @@
       "Periodic abstinence",
       "Lactational amenorrhea",
       "Vaults"
-     ]
+     ],
+     "sol": "<p>Natural methods avoid meeting of ovum and sperm: periodic abstinence, coitus interruptus (withdrawal) and lactational amenorrhea. <b>Vaults</b> are rubber barriers placed in the female tract — a barrier method, not natural.</p>",
+     "hint": "Natural methods use no device."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सी प्राकृतिक/परंपरागत गर्भनिरोधक विधि नहीं है?",
+     "o": [
+      "बाह्य स्खलन (अंतरित मैथुन)",
+      "आवधिक संयम",
+      "स्तनपान अनार्तव",
+      "वॉल्ट"
+     ],
+     "sol": "<p>प्राकृतिक विधियाँ अंडाणु और शुक्राणु के मिलन से बचाती हैं: आवधिक संयम, बाह्य स्खलन तथा स्तनपान अनार्तव। <b>वॉल्ट</b> स्त्री जनन मार्ग में लगाए जाने वाले रबर के रोधक हैं — यह रोधक विधि है, प्राकृतिक नहीं।</p>",
+     "hint": "प्राकृतिक विधियों में कोई युक्ति नहीं होती।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1255,10 +1567,22 @@
       "A,C,D,F only",
       "A,B,C,D only",
       "A,B,C,E,F only"
-     ]
+     ],
+     "sol": "<ul><li>A — no: IVF does not carry a high fatality risk to the mother.</li><li>B — yes: it needs costly instruments and reagents (NCERT: only in a few centres, very expensive).</li><li>C — no: donors can be other persons, not necessarily husband/wife.</li><li>D — yes: NCERT notes that the craze for one's own child reduces adoption of orphans.</li><li>E — no: IVF is available in India.</li><li>F — yes: an early embryo may fail to survive after transfer.</li></ul><p>B, D, F only.</p>",
+     "hint": "NCERT points: cost, few centres, adoption."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "IVF विधि को अपनाने में संभावित कमियाँ क्या हैं?<br>A. माता के लिए मृत्यु का उच्च जोखिम<br>B. महँगे उपकरण तथा अभिकर्मक<br>C. पति/पत्नी का दाता होना आवश्यक<br>D. अनाथों को कम गोद लिया जाना<br>E. भारत में उपलब्ध नहीं<br>F. प्रारंभिक भ्रूण के जीवित न रहने की संभावना<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल B,D,F",
+      "केवल A,C,D,F",
+      "केवल A,B,C,D",
+      "केवल A,B,C,E,F"
+     ],
+     "sol": "<ul><li>A — नहीं: IVF में माता के लिए मृत्यु का उच्च जोखिम नहीं है।</li><li>B — हाँ: इसमें महँगे उपकरण और अभिकर्मक लगते हैं (NCERT: केवल कुछ केंद्रों में, बहुत महँगा)।</li><li>C — नहीं: दाता अन्य व्यक्ति भी हो सकते हैं, पति/पत्नी होना आवश्यक नहीं।</li><li>D — हाँ: NCERT के अनुसार अपनी संतान की चाह से अनाथों को गोद लेना कम होता है।</li><li>E — नहीं: IVF भारत में उपलब्ध है।</li><li>F — हाँ: स्थानांतरण के बाद प्रारंभिक भ्रूण जीवित न रहे, यह संभव है।</li></ul><p>केवल B, D, F।</p>",
+     "hint": "NCERT के बिंदु: खर्च, कुछ ही केंद्र, गोद लेना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1301,10 +1625,22 @@
       "Early embryos with up to 8 blastomeres are transferred into the fallopian tube of an infertile female.",
       "Early embryos with up to 8 blastomeres are transferred to the uterus of an infertile female.",
       "It is the transfer of an ovum collected from a donor into the fallopian tube of another female who cannot produce ovum but can provide suitable environment for fertilization and development."
-     ]
+     ],
+     "sol": "<p>GIFT (gamete intra fallopian transfer): an <b>ovum collected from a donor is transferred into the fallopian tube</b> of a woman who cannot produce ova but can provide a suitable environment for fertilisation and development. Options 2 and 3 describe ZIFT and IUT with embryos; option 1 puts the ovum in the uterus.</p>",
+     "hint": "G = gamete, F = fallopian tube."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "बंध्यता दूर करने हेतु GIFT के संबंध में सही कथन चुनिए।",
+     "o": [
+      "दाता स्त्री से एकत्रित अंडाणु बंध्य स्त्री के गर्भाशय में स्थानांतरित किए जाते हैं।",
+      "8 कोरकखंड तक के प्रारंभिक भ्रूण बंध्य स्त्री की फैलोपी नलिका में स्थानांतरित किए जाते हैं।",
+      "8 कोरकखंड तक के प्रारंभिक भ्रूण बंध्य स्त्री के गर्भाशय में स्थानांतरित किए जाते हैं।",
+      "यह दाता से एकत्रित अंडाणु का उस अन्य स्त्री की फैलोपी नलिका में स्थानांतरण है जो अंडाणु उत्पन्न नहीं कर सकती पर निषेचन तथा परिवर्धन के लिए उपयुक्त वातावरण प्रदान कर सकती है।"
+     ],
+     "sol": "<p>GIFT (युग्मक अंतः डिंब वाहिनी स्थानांतरण): <b>दाता से लिया गया अंडाणु उस स्त्री की फैलोपी नलिका में स्थानांतरित</b> किया जाता है जो अंडाणु नहीं बना सकती पर निषेचन और परिवर्धन के लिए उपयुक्त वातावरण दे सकती है। विकल्प 2 और 3 भ्रूण वाले ZIFT और IUT हैं; विकल्प 1 अंडाणु को गर्भाशय में रखता है।</p>",
+     "hint": "G = युग्मक, F = फैलोपी नलिका।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1348,10 +1684,22 @@
       "A-IV, B-III, C-I, D-II",
       "A-III, B-IV, C-II, D-I",
       "A-III, B-IV, C-I, D-II"
-     ]
+     ],
+     "sol": "<ul><li>A Progestasert — hormone-releasing IUD (III).</li><li>B Multiload 375 — copper-releasing IUD (IV).</li><li>C Diaphragm — rubber barrier used by females (I).</li><li>D Saheli — oral contraceptive pill (II).</li></ul><p>A-III, B-IV, C-I, D-II.</p>",
+     "hint": "Same NCERT categories as 2024."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. प्रोजेस्टासर्ट — I. स्त्रियों द्वारा प्रयुक्त रबर का रोधक<br>B. मल्टीलोड 375 — II. मुख से लिया जाने वाला गर्भनिरोधक<br>C. डायाफ्रॉम — III. हॉर्मोन मोचक IUD<br>D. सहेली — IV. ताँबा मोचक IUD",
+     "o": [
+      "A-IV, B-II, C-I, D-III",
+      "A-IV, B-III, C-I, D-II",
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-IV, C-I, D-II"
+     ],
+     "sol": "<ul><li>A प्रोजेस्टासर्ट — हॉर्मोन मोचक IUD (III)।</li><li>B मल्टीलोड 375 — ताँबा मोचक IUD (IV)।</li><li>C डायाफ्रॉम — स्त्रियों द्वारा प्रयुक्त रबर का रोधक (I)।</li><li>D सहेली — मुख से ली जाने वाली गर्भनिरोधक गोली (II)।</li></ul><p>A-III, B-IV, C-I, D-II।</p>",
+     "hint": "2024 वाली ही NCERT श्रेणियाँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
