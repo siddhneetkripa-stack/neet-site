@@ -1589,6 +1589,294 @@
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
     "note": "Diagram question: structures written as names; needs redrawn figures before it goes live."
    }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-04-02-shift-2-q68",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify compounds A and E in the following reaction sequence (starting compound drawn in the paper: 4-nitroethylbenzene):<br>4-nitroethylbenzene —Br<sub>2</sub>/AlBr<sub>3</sub>→ A —Sn/HCl→ B —NaNO<sub>2</sub>/HCl, 273–278 K→ C —C<sub>2</sub>H<sub>5</sub>OH→ D —(i) KMnO<sub>4</sub>/KOH (ii) H<sub>3</sub>O<sup>+</sup>→ E",
+     "o": [
+      "A = 2-bromo-4-ethyl-1-nitrobenzene (Br ortho to NO<sub>2</sub>, meta to C<sub>2</sub>H<sub>5</sub>); E = 3-bromobenzoic acid",
+      "A = 2-bromo-1-ethyl-4-nitrobenzene (Br ortho to C<sub>2</sub>H<sub>5</sub>); E = 2-bromobenzoic acid",
+      "A = 1-(2-bromoethyl)-4-nitrobenzene; E = benzoic acid",
+      "A = 2-bromo-1-ethyl-4-nitrobenzene (Br ortho to C<sub>2</sub>H<sub>5</sub>); E = 3-bromo-4-hydroxybenzoic acid"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.10"
+    ],
+    "otherChapters": [
+     "Class 12 · Aldehydes, Ketones and Carboxylic Acids",
+     "Class 11 · Hydrocarbons (directive influence)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-2 Q68",
+    "session": "2 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121218, option ID 691121750): option 2 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "Diagram question: all four options are pairs of structures; the option texts here are descriptions of the drawings. Option (1) shows Br meta to the ethyl group and E with Br meta to COOH. Needs redrawn figures before it goes live."
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-04-02-shift-2-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following reactions sequence (starting compound drawn in the paper: 4-nitrotoluene):<br>4-nitrotoluene —(i) Sn/HCl; OH<sup>−</sup> (ii) (CH<sub>3</sub>CO)<sub>2</sub>O (iii) Br<sub>2</sub>/AlBr<sub>3</sub> (iv) H<sub>3</sub>O<sup>+</sup>→ Major Product (P)<br>When the product (P) is subjected to Carius analysis using AgNO<sub>3</sub>, 1.0 g of the product (P) will produce ________ g of the precipitate of AgBr. (Nearest Integer)<br>(Given : molar mass in g mol<sup>−1</sup> C : 12, H : 1, O : 16, N : 14, Br : 80, Ag : 108)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 1,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.6"
+    ],
+    "otherChapters": [
+     "Class 11 · Organic Chemistry: Some Basic Principles (Carius method)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-2 Q75",
+    "session": "2 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121225): 1; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-04-04-shift-1-q67",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Product C of the following reaction sequence will be<br>Aniline —Br<sub>2</sub>/water→ A (major product) —NaNO<sub>2</sub>/HCl, 273–278 K→ B —(i) HBF<sub>4</sub> (ii) NaNO<sub>2</sub>, Cu, Δ→ C",
+     "o": [
+      "1-Bromo-4-nitrobenzene",
+      "1,3,5-Tribromo-2-nitrobenzene",
+      "4-Bromo-1-nitrobenzene",
+      "1,3,5-Tribromobenzene"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.6",
+     "9.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-04-shift-1 Q67",
+    "session": "4 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 695278292, option ID 6952781001): option 2 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-04-04-shift-2-q67",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The strongest conjugate acid will result from:",
+     "o": [
+      "aniline",
+      "4-methoxyaniline",
+      "4-nitroaniline",
+      "4-methylaniline"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-04-shift-2 Q67",
+    "session": "4 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 695278442, option ID 6952781512): option 3 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "Options are drawn as structures in the paper; written here by name."
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-04-05-shift-1-q66",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Benzyl isocyanide can be obtained from<br>A. benzyl bromide + AgCN<br>B. benzylamine —CHCl<sub>3</sub>, aq NaOH→<br>C. bromobenzene + AgCN<br>D. aniline —CHCl<sub>3</sub>, aq NaOH→<br>E. 2-phenylethyl bromide + KCN<br>Choose the correct answer from the options given below:",
+     "o": [
+      "A and B Only",
+      "A and C Only",
+      "B and D Only",
+      "D and E Only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.6"
+    ],
+    "otherChapters": [
+     "Class 12 · Haloalkanes and Haloarenes"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-05-shift-1 Q66",
+    "session": "5 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 695278366, option ID 6952781251): option 1 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "Diagram question: the paper shows structures; written here in text. Needs a redrawn figure before it goes live."
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-04-05-shift-1-q68",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the incorrect statements.<br>A. Benzylamine is a stronger base than aniline.<br>B. 4-Methoxyaniline can be synthesized by Gabriel phthalimide synthesis.<br>C. 2-Phenylacetamide —Br<sub>2</sub>, NaOH→ primary aromatic amine.<br>D. 4-Nitroaniline —(i) NaNO<sub>2</sub>, HCl, 0°C (ii) Δ→ product will dissolve in NaOH.<br>Choose the correct answer from the options given below:",
+     "o": [
+      "A and D Only",
+      "A and C Only",
+      "B and C Only",
+      "A and B Only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.4",
+     "9.6",
+     "9.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-05-shift-1 Q68",
+    "session": "5 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 695278368, option ID 6952781261): option 3 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "Diagram question: the paper shows structures; written here in text. Needs a redrawn figure before it goes live."
+   }
   }
  ]
 }

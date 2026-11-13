@@ -1225,6 +1225,141 @@
     "keyCheck": "Official NTA final key (Question ID 69112155, option ID 691121190): option 4 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
    }
+  },
+  {
+   "id": "chem12-01-jee-2026-2026-04-02-shift-2-q55",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Solution A is prepared by dissolving 1 g of a protein (molar mass = 50000 g mol<sup>−1</sup>) in 0.5 L of water at 300 K. Its osmotic pressure is x bar. Solution B is made by dissolving 2 g of same protein in 1 L of water at 300 K. Osmotic pressure of solution B is y bar. Entire solution of A is mixed with entire solution of B at same temperature. The osmotic pressure of resultant solution is z bar. x, y and z respectively are :<br>(R = 0.083 L bar mol<sup>−1</sup> K<sup>−1</sup>)",
+     "o": [
+      "9.96 × 10<sup>−4</sup>; 9.96 × 10<sup>−4</sup>; 9.96 × 10<sup>−4</sup>",
+      "9.96 × 10<sup>−4</sup>; 9.96 × 10<sup>−4</sup>; 19.92 × 10<sup>−4</sup>",
+      "4.98 × 10<sup>−4</sup>; 4.98 × 10<sup>−4</sup>; 9.96 × 10<sup>−4</sup>",
+      "4.98 × 10<sup>−4</sup>; 4.98 × 10<sup>−4</sup>; 4.98 × 10<sup>−4</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-01",
+    "paras": [
+     "1.6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-2 Q55",
+    "session": "2 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121205, option ID 691121697): option 1 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-01-jee-2026-2026-04-04-shift-1-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A non-volatile, non-electrolyte solid solute when dissolved in 40 g of a solvent, the vapour pressure of the solvent decreased from 760 mm Hg to 750 mm Hg. If the same solution boils at 320 K, then the number of moles of the solvent present in the solution is ________. (Nearest integer)<br>[Given: boiling point of the pure solvent = 319.5 K, K<sub>b</sub> of the solvent = 0.3 K kg mol<sup>−1</sup>]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 5,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-01",
+    "paras": [
+     "1.6.1",
+     "1.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-04-shift-1 Q75",
+    "session": "4 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 695278300): 5; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-01-jee-2026-2026-04-04-shift-2-q54",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At 27 °C, 0.1 M, 1 L K<sub>4</sub>[Fe(CN)<sub>6</sub>] aqueous solution and 0.1 M, 1 L FeCl<sub>3</sub> aqueous solution are placed in a container separated by a semi permeable membrane AB (K<sub>4</sub>[Fe(CN)<sub>6</sub>] on side ‘x’, FeCl<sub>3</sub> on side ‘y’). Assume complete dissociation of both the solutes. Which of the following statement is correct?",
+     "o": [
+      "Blue color is formed on both sides.",
+      "Ionic solutes in aqueous solution can pass through semi-permeable membrane.",
+      "Solution on side ‘y’ is hypotonic.",
+      "To cause the reverse flow of solvent during osmosis, external pressure (any value) should be applied to side ‘x’."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-01",
+    "paras": [
+     "1.6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-04-shift-2 Q54",
+    "session": "4 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 695278429, option ID 6952781460): option 3 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "Simple container sketch in the paper (two sides x and y); the text above carries all of it."
+   }
   }
  ]
 }

@@ -1566,6 +1566,92 @@
     "keyCheck": "Official NTA final key (Question ID 69112157, option ID 691121195): option 1 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
    }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-02-shift-2-q73",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following two half-cell reactions along with the standard reduction potential given :<br>CO<sub>2</sub> + 6H<sup>+</sup> + 6e<sup>−</sup> → CH<sub>3</sub>OH + H<sub>2</sub>O &nbsp; E°<sub>red</sub> = 0.02 V<br>½O<sub>2</sub> + 2H<sup>+</sup> + 2e<sup>−</sup> → H<sub>2</sub>O &nbsp; E°<sub>red</sub> = 1.23 V<br>A fuel cell was set up using the above two reactions such that the cell operates under the standard condition of 1 bar pressure and 298 K temperature. The fuel cell works with 80% efficiency. If the work derived from the cell using 1 mol of CH<sub>3</sub>OH is used to compress an ideal gas isothermally against a constant pressure of 1 kPa, then the change in the volume of the gas, ΔV = ________ m<sup>3</sup>. (nearest integer)<br>Given : F = 96500 C mol<sup>−1</sup>"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 560,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.7",
+     "2.3.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Thermodynamics"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-2 Q73",
+    "session": "2 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121223): 560; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-04-shift-2-q73",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electrochemical cell consists of the following two redox couples, M<sup>x+</sup>(aq)/M(s) [E°<sub>red</sub> = +0.15 V] and Fe<sup>3+</sup>(aq)/Fe(s) [E°<sub>red</sub> = −0.036 V]. The cell EMF (E<sub>cell</sub>) is recorded to be 0.2057 V. If the reaction quotient of the electrochemical reaction is found to be 10<sup>−2</sup>, then the value of x is ________. (Nearest integer)<br>[Given : M is a p-block metal and 2.303RT/F = 0.059 V]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 2,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-04-shift-2 Q73",
+    "session": "4 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 695278448): 2; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
   }
  ]
 }
