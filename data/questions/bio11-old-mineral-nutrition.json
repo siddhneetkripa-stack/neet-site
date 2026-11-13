@@ -1,0 +1,561 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-old-mineral-nutrition",
+ "subject": "biology",
+ "class": 11,
+ "unit": 12,
+ "title": {
+  "en": "Mineral Nutrition"
+ },
+ "ncert_status": "old_ncert_only",
+ "syllabus_status": "dropped_2024",
+ "oldNcert": "Old NCERT Class 11 Biology Ch 12 Mineral Nutrition",
+ "note": "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+ "paragraphs": [],
+ "questions": [
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2015-re-exam-code-d-q71",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "During biological nitrogen fixation, inactivation of nitrogenase by oxygen poisoning is prevented by:",
+     "o": [
+      "Xanthophyll",
+      "Carotene",
+      "Cytochrome",
+      "Leghaemoglobin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Nitrogen fixation: leghaemoglobin"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q71",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2016-phase-1-code-a-q98",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In which of the following, all three are macronutrients?",
+     "o": [
+      "Boron, zinc, manganese",
+      "Iron, copper, molybdenum",
+      "Molybdenum, magnesium, manganese",
+      "Nitrogen, nickel, phosphorus"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Macronutrients and micronutrients"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q98",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: Bonus",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)",
+    "note": "No option has three macronutrients (nickel is a micronutrient); CBSE awarded marks to all (bonus). Never use in tests. Official key: Bonus."
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2016-phase-2-code-aa-q112",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which is essential for the growth of root tip ?",
+     "o": [
+      "Zn",
+      "Fe",
+      "Ca",
+      "Mn"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Role of calcium"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q112",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2018-code-aa-q95",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following elements is responsible for maintaining turgor in cells?",
+     "o": [
+      "Potassium",
+      "Sodium",
+      "Magnesium",
+      "Calcium"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Role of potassium"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q95",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 1",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2018-code-aa-q97",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In which of the following forms is iron absorbed by plants?",
+     "o": [
+      "Free element",
+      "Ferrous",
+      "Ferric",
+      "Both ferric and ferrous"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Iron (absorbed as Fe³⁺)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q97",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2019-code-s2-q62",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Thiobacillus is a group of bacteria helpful in carrying out :",
+     "o": [
+      "Nitrification",
+      "Denitrification",
+      "Nitrogen fixation",
+      "Chemoautotrophic fixation"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Nitrogen cycle (denitrification)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q62",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2020-code-f3-q121",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following concerning essential elements and their functions in plants :<br>(a) Iron — (i) Photolysis of water<br>(b) Zinc — (ii) Pollen germination<br>(c) Boron — (iii) Required for chlorophyll biosynthesis<br>(d) Manganese — (iv) IAA biosynthesis",
+     "o": [
+      "(a) iii, (b) iv, (c) ii, (d) i",
+      "(a) iv, (b) i, (c) ii, (d) iii",
+      "(a) ii, (b) i, (c) iv, (d) iii",
+      "(a) iv, (b) iii, (c) ii, (d) i"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Role of micronutrients"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q121",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2020-code-f3-q167",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The product(s) of reaction catalyzed by nitrogenase in root nodules of leguminous plant is/are :",
+     "o": [
+      "Ammonia and oxygen",
+      "Ammonia and hydrogen",
+      "Ammonia alone",
+      "Nitrate alone"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Nitrogenase reaction"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q167",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2021-code-p3-q143",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match Column-I with Column-II :<br>(a) Nitrococcus — (i) Denitrification<br>(b) Rhizobium — (ii) Conversion of ammonia to nitrite<br>(c) Thiobacillus — (iii) Conversion of nitrite to nitrate<br>(d) Nitrobacter — (iv) Conversion of atmospheric nitrogen to ammonia",
+     "o": [
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) ii, (b) iv, (c) i, (d) iii",
+      "(a) i, (b) ii, (c) iii, (d) iv",
+      "(a) iii, (b) i, (c) iv, (d) ii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Nitrogen cycle"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q143",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2022-code-t2-q116",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(a) Manganese — (i) Activates the enzyme catalase<br>(b) Magnesium — (ii) Required for pollen germination<br>(c) Boron — (iii) Activates enzymes of respiration<br>(d) Iron — (iv) Functions in splitting of water during photosynthesis",
+     "o": [
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Role of micronutrients"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q116",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2022-code-t2-q132",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following produces nitrogen fixing nodules on the roots of Alnus ?",
+     "o": [
+      "Frankia",
+      "Rhodospirillum",
+      "Beijerinckia",
+      "Rhizobium"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Nitrogen fixation (Frankia)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q132",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-old-mineral-nutrition-neet-2023-topic-wise-copy-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(A) Iron — (I) Synthesis of auxin<br>(B) Zinc — (II) Component of nitrate reductase<br>(C) Boron — (III) Activator of catalase<br>(D) Molybdenum — (IV) Cell elongation and differentiation",
+     "o": [
+      "A-II, B-IV, C-I, D-III",
+      "A-III, B-II, C-I, D-IV",
+      "A-II, B-III, C-IV, D-I",
+      "A-III, B-I, C-IV, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-old-mineral-nutrition",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 12 · Role of micronutrients"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q42",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  }
+ ]
+}
