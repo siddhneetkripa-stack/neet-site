@@ -1,0 +1,3501 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio12-05",
+ "subject": "biology",
+ "class": 12,
+ "unit": 5,
+ "title": {
+  "en": "Molecular Basis of Inheritance"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lebo105.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "5.1",
+   "title": "The DNA",
+   "hi": "डीएनए",
+   "pdfPage": 2
+  },
+  {
+   "id": "5.1.1",
+   "title": "Structure of Polynucleotide Chain",
+   "hi": "पॉलीन्यूक्लियोटाइड शृंखला की संरचना",
+   "pdfPage": 2
+  },
+  {
+   "id": "5.1.2",
+   "title": "Packaging of DNA Helix",
+   "hi": "डीएनए कुंडली का पैकेजिंग",
+   "pdfPage": 5
+  },
+  {
+   "id": "5.2",
+   "title": "The Search for Genetic Material",
+   "hi": "आनुवंशिक पदार्थ की खोज",
+   "pdfPage": 6
+  },
+  {
+   "id": "5.2.1",
+   "title": "The Genetic Material is DNA",
+   "hi": "आनुवंशिक पदार्थ डीएनए है",
+   "pdfPage": 7
+  },
+  {
+   "id": "5.2.2",
+   "title": "Properties of Genetic Material (DNA versus RNA)",
+   "hi": "आनुवंशिक पदार्थ के गुण (डीएनए बनाम आरएनए)",
+   "pdfPage": 8
+  },
+  {
+   "id": "5.3",
+   "title": "RNA World",
+   "hi": "आरएनए संसार",
+   "pdfPage": 10
+  },
+  {
+   "id": "5.4",
+   "title": "Replication",
+   "hi": "प्रतिकृति",
+   "pdfPage": 10
+  },
+  {
+   "id": "5.4.1",
+   "title": "The Experimental Proof",
+   "hi": "प्रायोगिक प्रमाण",
+   "pdfPage": 10
+  },
+  {
+   "id": "5.4.2",
+   "title": "The Machinery and the Enzymes",
+   "hi": "कार्यप्रणाली व एंजाइम",
+   "pdfPage": 12
+  },
+  {
+   "id": "5.5",
+   "title": "Transcription",
+   "hi": "अनुलेखन",
+   "pdfPage": 13
+  },
+  {
+   "id": "5.5.1",
+   "title": "Transcription Unit",
+   "hi": "अनुलेखन इकाई",
+   "pdfPage": 13
+  },
+  {
+   "id": "5.5.2",
+   "title": "Transcription Unit and the Gene",
+   "hi": "अनुलेखन इकाई व जीन",
+   "pdfPage": 14
+  },
+  {
+   "id": "5.5.3",
+   "title": "Types of RNA and the process of Transcription",
+   "hi": "आरएनए के प्रकार व अनुलेखन का प्रक्रम",
+   "pdfPage": 15
+  },
+  {
+   "id": "5.6",
+   "title": "Genetic Code",
+   "hi": "आनुवंशिक कूट",
+   "pdfPage": 17
+  },
+  {
+   "id": "5.6.1",
+   "title": "Mutations and Genetic Code",
+   "hi": "उत्परिवर्तन व आनुवंशिक कूट",
+   "pdfPage": 19
+  },
+  {
+   "id": "5.7",
+   "title": "Translation",
+   "hi": "स्थानांतरण",
+   "pdfPage": 20
+  },
+  {
+   "id": "5.8",
+   "title": "Regulation of Gene Expression",
+   "hi": "जीन अभिव्यक्ति का नियमन",
+   "pdfPage": 21
+  },
+  {
+   "id": "5.8.1",
+   "title": "The Lac operon",
+   "hi": "लैक प्रचालेक (लैक-ओपेरान)",
+   "pdfPage": 22
+  },
+  {
+   "id": "5.9",
+   "title": "Human Genome Project",
+   "hi": "मानव जीनोम परियोजना",
+   "pdfPage": 24
+  },
+  {
+   "id": "5.9.1",
+   "title": "Salient Features of Human Genome",
+   "hi": "मानव जीनोम की मुख्य विशेषताएँ",
+   "pdfPage": 26
+  },
+  {
+   "id": "5.9.2",
+   "title": "Applications and Future Challenges",
+   "hi": "उपयोग व भविष्य की चुनौतियाँ",
+   "pdfPage": 26
+  },
+  {
+   "id": "5.10",
+   "title": "DNA Fingerprinting",
+   "hi": "डीएनए अंगुलिछापी (डीएनए फिंगर प्रिंटिंग)",
+   "pdfPage": 27
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio12-05-neet-2015-re-exam-code-d-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following is not applicable to RNA?",
+     "o": [
+      "5’ phosphoryl and 3’ hydroxyl ends",
+      "Heterocyclic nitrogenous bases",
+      "Chargaff’s rule",
+      "Complementary base pairing"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q2",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2015-re-exam-code-d-q57",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the correct order of organization of genetic material from largest to smallest :",
+     "o": [
+      "Genome, chromosomes, nucleotide, gene",
+      "Genome, chromosome, gene, nucleotide",
+      "Chromosome, genome, nucleotide, gene",
+      "Chromosome, gene, genome, nucleotide"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q57",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 2",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2015-re-exam-code-d-q79",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Satellite DNA is important because it:",
+     "o": [
+      "Shows high degree of polymorphism in population and also the same degree of polymorphism in an individual, which is heritable from parents to children",
+      "Does not code for proteins and is same in all members of the population",
+      "Codes for enzymes needed for DNA replication",
+      "Codes for proteins needed in cell cycle"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q79",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2016-phase-1-code-a-q107",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is required as inducer(s) for the expression of Lac operon?",
+     "o": [
+      "Glucose",
+      "Galactose",
+      "Lactose",
+      "Lactose and galactose"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q107",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2016-phase-1-code-a-q141",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not required for any of the techniques of DNA fingerprinting available at present?",
+     "o": [
+      "Polymerase chain reaction",
+      "Zinc finger analysis",
+      "Restriction enzymes",
+      "DNA – DNA hybridization"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q141",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2016-phase-1-code-a-q158",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following is the starter codon?",
+     "o": [
+      "AUG",
+      "UGA",
+      "UAA",
+      "UAG"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q158",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2016-phase-2-code-aa-q120",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Taylor conducted the experiments to prove semiconservative mode of chromosome replication on :",
+     "o": [
+      "Vinca rosea",
+      "Vicia faba",
+      "Drosophila melanogaster",
+      "E. coli"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q120",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2016-phase-2-code-aa-q122",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The equivalent of a structural gene is",
+     "o": [
+      "Muton",
+      "Cistron",
+      "Operon",
+      "Recon"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q122",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2016-phase-2-code-aa-q124",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following rRNAs acts as structural RNA as well as ribozyme in bacteria?",
+     "o": [
+      "5S rRNA",
+      "18S rRNA",
+      "23S rRNA",
+      "5.8S rRNA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q124",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2016-phase-2-code-aa-q170",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A molecule that can act as a genetic material must fulfil the traits given below, except :",
+     "o": [
+      "It should be able to express itself in the form of 'Mendelian characters'",
+      "It should be able to generate its replica",
+      "It should be unstable structurally and chemically",
+      "It should provide the scope for slow changes that are required for evolution"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q170",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2016-phase-2-code-aa-q171",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "DNA-dependent RNA polymerase catalyses transcription on one strand of the DNA which is called the :",
+     "o": [
+      "Template strand",
+      "Coding strand",
+      "Alpha strand",
+      "Antistrand"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q171",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2017-code-a-q100",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The final proof for DNA as the genetic material came from the experiments of :",
+     "o": [
+      "Griffith",
+      "Hershey and Chase",
+      "Avery, MacLeod and McCarty",
+      "Hargobind Khorana"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q100",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2017-code-a-q104",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "During DNA replication, Okazaki fragments are used to elongate :",
+     "o": [
+      "The leading strand towards replication fork",
+      "The lagging strand towards replication fork",
+      "The leading strand away from replication fork",
+      "The lagging strand away from the replication fork"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q104",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2017-code-a-q111",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Spliceosomes are not found in cells of",
+     "o": [
+      "Plants",
+      "Fungi",
+      "Animals",
+      "Bacteria"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q111",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2017-code-a-q124",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The association of histone H1 with a nucleosome indicates :",
+     "o": [
+      "Transcription is occurring",
+      "DNA replication is occurring",
+      "The DNA is condensed into a Chromatin Fibre",
+      "The DNA double helix is exposed"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q124",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2017-code-a-q130",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If there are 999 bases in an RNA that codes for a protein with 333 amino acids, and the base at position 901 is deleted such that the length of the RNA becomes 998 bases, how many codons will be altered?",
+     "o": [
+      "1",
+      "11",
+      "33",
+      "333"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q130",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)",
+    "note": "Stem start restored (lost at a column break in the copy). Codons 301–333 are shifted: 33."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2017-code-a-q140",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following RNAs should be most abundant in animal cell?",
+     "o": [
+      "r-RNA",
+      "t-RNA",
+      "m-RNA",
+      "mi-RNA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q140",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)",
+    "note": "Relative abundance of RNA types is not given in NCERT."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2017-code-a-q174",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "DNA replication in bacteria occurs",
+     "o": [
+      "During S-phase",
+      "Within nucleolus",
+      "Prior to fission",
+      "Just before transcription"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q174",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2018-code-aa-q102",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the correct match :",
+     "o": [
+      "T.H. Morgan – Transduction",
+      "F<sub>2</sub> × Recessive parent – Dihybrid cross",
+      "Ribozyme – Nucleic acid",
+      "G. Mendel – Transformation"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Principles of Inheritance and Variation"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q102",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2018-code-aa-q106",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The experimental proof for semiconservative replication of DNA was first shown in a :",
+     "o": [
+      "Plant",
+      "Bacterium",
+      "Fungus",
+      "Virus"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q106",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2018-code-aa-q109",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the correct match :",
+     "o": [
+      "Matthew Meselson and F. Stahl – Pisum sativum",
+      "Alfred Hershey and Martha Chase – TMV",
+      "Alec Jeffreys – Streptococcus pneumoniae",
+      "Francois Jacob and Jacques Monod – Lac operon"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.8.1",
+     "5.4.1",
+     "5.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q109",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2018-code-aa-q158",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "All of the following are part of an operon except :",
+     "o": [
+      "an enhancer",
+      "structural genes",
+      "an operator",
+      "a promoter"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q158",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 1",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2018-code-aa-q161",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "AGGTATCGCAT is a sequence from the coding strand of a gene. What will be the corresponding sequence of the transcribed mRNA?",
+     "o": [
+      "ACCUAUGCGAU",
+      "UGGTUTCGCAT",
+      "AGGUAUCGCAU",
+      "UCCAUAGCGUA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q161",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2019-code-s2-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Expressed Sequence Tags (ESTs) refers to :",
+     "o": [
+      "DNA polymorphism",
+      "Novel DNA sequence",
+      "Genes expressed as RNA",
+      "Polypeptide expression"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q8",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2019-code-s2-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Under which of the following conditions will there be no change in the reading frame of following mRNA?<br>5′ AAGAGCGGUGCUAUU 3′",
+     "o": [
+      "Insertion of A and G at 4th and 5th positions respectively",
+      "Deletion of GGU from 7th, 8th and 9th position",
+      "Insertion of G at 5th position",
+      "Deletion of G from 5th position"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q23",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2019-code-s2-q50",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Purines found both in DNA and RNA are:",
+     "o": [
+      "Guanine and cytosine",
+      "Cytosine and thymine",
+      "Adenine and thymine",
+      "Adenine and guanine"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q50",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2019-code-s2-q67",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following genes of the Lac operon with their respective products :<br>(a) i gene — (i) β-galactosidase<br>(b) z gene — (ii) Permease<br>(c) a gene — (iii) Repressor<br>(d) y gene — (iv) Transacetylase<br>Select the correct option.",
+     "o": [
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) i, (b) iii, (c) ii, (d) iv",
+      "(a) iii, (b) i, (c) ii, (d) iv"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q67",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2019-code-s2-q72",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following features of genetic code does allow bacteria to produce human insulin by recombinant DNA technology?",
+     "o": [
+      "Genetic code is nearly universal",
+      "Genetic code is specific",
+      "Genetic code is not ambiguous",
+      "Genetic code is redundant"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q72",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2020-code-f3-q118",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The first phase of translation is:",
+     "o": [
+      "Aminoacylation of tRNA",
+      "Recognition of an anti-codon",
+      "Binding of mRNA to ribosome 13thSeptember 2020, Biology Page | 10",
+      "Recognition of DNA molecule"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q118",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2020-code-f3-q122",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Name the enzyme that facilitates opening of DNA helix during transcription.",
+     "o": [
+      "DNA polymerase",
+      "RNA polymerase",
+      "DNA ligase",
+      "DNA helicase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q122",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2020-code-f3-q127",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the distance between two consecutive base pairs is 0.34 nm and the total number of base pairs of a DNA double helix in a typical mammalian cell is 6.6 × 10<sup>9</sup> bp, then the length of the DNA is approximately :",
+     "o": [
+      "2.2 meters",
+      "2.7 meters",
+      "2.0 meters",
+      "2.5 meters"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q127",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)",
+    "note": "6.6 × 10<sup>9</sup> × 0.34 × 10<sup>−9</sup> m = 2.24 m ≈ 2.2 m."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2020-code-f3-q140",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is correct ?",
+     "o": [
+      "Adenine pairs with thymine through three H-bonds.",
+      "Adenine does not pair with thymine.",
+      "Adenine pairs with thymine through two H-bonds.",
+      "Adenine pairs with thymine through one H-bond."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q140",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2021-code-p3-q126",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Complete the flow chart on central dogma :<br>(a) DNA —(b)→ mRNA —(c)→ (d)",
+     "o": [
+      "(a)-Transduction; (b)-Translation; (c)-Replication; (d)-Protein",
+      "(a)-Replication; (b)-Transcription; (c)-Transduction; (d)-Protein",
+      "(a)-Translation; (b)-Replication; (c)-Transcription; (d)-Transduction",
+      "(a)-Replication; (b)-Transcription; (c)-Translation; (d)-Protein"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q126",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Flow chart in the paper (arrow from DNA back to DNA is (a)); needs a redrawn figure."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2021-code-p3-q136",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the role of RNA polymerase III in the process of transcription in eukaryotes?",
+     "o": [
+      "Transcribes only snRNAs",
+      "Transcribes rRNAs (28S, 18S and 5.8S)",
+      "Transcribes tRNA, 5S rRNA and snRNA",
+      "Transcribes precursor of mRNA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q136",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2021-code-p3-q139",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "DNA fingerprinting involves identifying differences in some specific regions in DNA sequence, called as",
+     "o": [
+      "Polymorphic DNA",
+      "Satellite DNA",
+      "Repetitive DNA",
+      "Single nucleotides"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q139",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2021-code-p3-q146",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the correct statement.",
+     "o": [
+      "Split gene arrangement is characteristic of prokaryotes",
+      "In capping, methyl guanosine triphosphate is added to the 3' end of hnRNA",
+      "RNA polymerase binds with Rho factor to terminate the process of transcription in bacteria",
+      "The coding strand in a transcription unit is copied to an mRNA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q146",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2021-code-p3-q171",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which is the \"only enzyme\" that has \"capability\" to catalyse initiation, elongation and termination in the process of transcription in prokaryotes?",
+     "o": [
+      "DNase",
+      "DNA dependent DNA polymerase",
+      "DNA dependent RNA polymerase",
+      "DNA Ligase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q171",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2021-code-p3-q176",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If Adenine makes 30% of the DNA molecule, what will be the percentage of Thymine, Guanine and Cytosine in it?",
+     "o": [
+      "T : 20 ; G : 25 ; C : 25",
+      "T : 20 ; G : 30 ; C : 20",
+      "T : 20 ; G : 20 ; C : 30",
+      "T : 30 ; G : 20 ; C : 20"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q176",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "A = T = 30%, so G = C = (100 − 60)/2 = 20%."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2021-code-p3-q189",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statements about Histones is wrong ?",
+     "o": [
+      "Histones carry positive charge in the side chain",
+      "Histones are organized to form a unit of 8 molecules",
+      "The pH of histones is slightly acidic",
+      "Histones are rich in amino acids - Lysine and Arginine"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q189",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2021-code-p3-q199",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Statement I: The codon 'AUG' codes for methionine and phenylalanine.<br>Statement II: 'AAA' and 'AAG' both codons code for the amino acid lysine.<br>In the light of the above statements, choose the correct answer from the options given below.",
+     "o": [
+      "Statement I is incorrect but Statement II is true",
+      "Both Statement I and Statement II are true",
+      "Both Statement I and Statement II are false",
+      "Statement I is correct but Statement II is false"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q199",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2022-code-t2-q104",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Read the following statements and choose the set of correct statements :<br>(a) Euchromatin is loosely packed chromatin.<br>(b) Heterochromatin is transcriptionally active.<br>(c) Histone octamer is wrapped by negatively charged DNA in nucleosome.<br>(d) Histones are rich in lysine and arginine.<br>(e) A typical nucleosome contains 400 bp of DNA helix.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "(a), (c), (d) only",
+      "(b), (e) only",
+      "(a), (c), (e) only",
+      "(b), (d), (e) only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q104",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2022-code-t2-q115",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "DNA polymorphism forms the basis of:",
+     "o": [
+      "DNA fingerprinting",
+      "Both genetic mapping and DNA fingerprinting",
+      "Translation",
+      "Genetic mapping"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q115",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2022-code-t2-q117",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The process of translation of mRNA to proteins begins as soon as :",
+     "o": [
+      "The larger subunit of ribosome encounters mRNA",
+      "Both the subunits join together to bind with mRNA",
+      "The tRNA is activated and the larger subunit of ribosome encounters mRNA",
+      "The small subunit of ribosome encounters mRNA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q117",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2022-code-t2-q149",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If a geneticist uses the blind approach for sequencing the whole genome of an organism, followed by assignment of function to different segments, the methodology adopted by him is called as :",
+     "o": [
+      "Gene mapping",
+      "Expressed sequence tags",
+      "Bioinformatics",
+      "Sequence annotation"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q149",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2022-code-t2-q162",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In an E. coli strain i gene gets mutated and its product can not bind the inducer molecule. If growth medium is provided with lactose, what will be the outcome?",
+     "o": [
+      "z, y, a genes will be transcribed",
+      "z, y, a genes will not be translated",
+      "RNA polymerase will bind the promoter region",
+      "Only z gene will get transcribed"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q162",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2022-code-t2-q164",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the length of a DNA molecule is 1.1 metres, what will be the approximate number of base pairs?",
+     "o": [
+      "6.6 × 10<sup>9</sup> bp",
+      "3.3 × 10<sup>6</sup> bp",
+      "6.6 × 10<sup>6</sup> bp",
+      "3.3 × 10<sup>9</sup> bp"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q164",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "1.1 m ÷ 0.34 × 10<sup>−9</sup> m ≈ 3.2 × 10<sup>9</sup> bp."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2022-code-t2-q191",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Ten E. coli cells with <sup>15</sup>N-dsDNA are incubated in medium containing <sup>14</sup>N nucleotide. After 60 minutes, how many E. coli cells will have DNA totally free from <sup>15</sup>N?",
+     "o": [
+      "40 cells",
+      "60 cells",
+      "80 cells",
+      "20 cells"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q191",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15). After 60 min (3 generations of 20 min) 10 cells give 80 cells; 20 carry one ¹⁵N strand, so 60 are free of ¹⁵N."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2023-topic-wise-copy-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the role of RNA polymerase III in the process of transcription in Eukaryotes?",
+     "o": [
+      "Transcription of only snRNAs",
+      "Transcription of rRNAs (28S, 18S and 5.8S)",
+      "Transcription of tRNA, 5S rRNA and snRNA",
+      "Transcription of precursor of mRNA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q25",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2023-topic-wise-copy-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Expressed Sequence Tags (ESTs) refers to",
+     "o": [
+      "Certain important expressed genes.",
+      "All genes that are expressed as RNA.",
+      "All genes that are expressed as proteins.",
+      "All genes whether expressed or unexpressed."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q26",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2023-topic-wise-copy-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Unequivocal proof that DNA is the genetic material was first proposed by",
+     "o": [
+      "Wilkins and Franklin",
+      "Frederick Griffith",
+      "Alfred Hershey and Martha Chase",
+      "Avery, MacLeod and McCarty"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q27",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2023-topic-wise-copy-q46",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How many different proteins does the ribosome consist of?",
+     "o": [
+      "20",
+      "80",
+      "60",
+      "40"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q46",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2023-topic-wise-copy-q74",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: RNA mutates at a faster rate.<br>Statement II: Viruses having RNA genome and shorter life span mutate and evolve faster.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Statement I false but Statement II is true.",
+      "Both Statement I and Statement II are true.",
+      "Both Statement I and Statement II are false.",
+      "Statement I is true but Statement II is false."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q74",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2023-topic-wise-copy-q75",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(A) Gene 'a' — (I) β-galactosidase<br>(B) Gene 'y' — (II) Transacetylase<br>(C) Gene 'i' — (III) Permease<br>(D) Gene 'z' — (IV) Repressor protein",
+     "o": [
+      "A-III, B-I, C-IV, D-II",
+      "A-III, B-I, C-IV, D-III",
+      "A-II, B-III, C-IV, D-I",
+      "A-III, B-IV, C-I, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q75",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2023-topic-wise-copy-q76",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: In prokaryotes, the positively charged DNA is held with some negatively charged proteins in a region called nucleoid.<br>Statement II: In eukaryotes, the negatively charged DNA is wrapped around the positively charged histone octamer to form nucleosome.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Statement I is incorrect but Statement II is true.",
+      "Both Statement I and Statement II are true.",
+      "Both Statement I and Statement II are false.",
+      "Statement I is correct but Statement II is false."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q76",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2023-topic-wise-copy-q98",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following is the sequence on corresponding coding strand, if the sequence on mRNA formed is as follows : 5′ AUCGAUCGAUCGAUCGAUCGAUCGAUCG 3′",
+     "o": [
+      "3′ ATCGATCGATCGATCGATCGATCGATCG 5′",
+      "5′ UAGCUAGCUAGCUAGCUAGCUAGCUAGC 3′",
+      "3′ UAGCUAGCUAGCUAGCUAGCUAGCUAGC 5′",
+      "5′ ATCGATCGATCGATCGATCGATCGATCG 3′"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q98",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2024-q133-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following lists :<br>(A) Frederick Griffith — (I) Genetic code<br>(B) Francois Jacob & Jacques Monod — (II) Semi-conservative mode of DNA replication<br>(C) Har Gobind Khorana — (III) Transformation<br>(D) Meselson & Stahl — (IV) Lac operon",
+     "o": [
+      "A-III, B-II, C-I, D-IV",
+      "A-III, B-IV, C-I, D-II",
+      "A-II, B-III, C-IV, D-I",
+      "A-IV, B-I, C-II, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.2.1",
+     "5.8.1",
+     "5.6",
+     "5.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q133 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options partly overprinted and clipped in the copy; read from the page image."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2024-q170-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The lactose present in the growth medium of bacteria is transported to the cell by the action of :",
+     "o": [
+      "Beta-galactosidase",
+      "Acetylase",
+      "Permease",
+      "Polymerase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q170 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2024-q171-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A transcription unit in DNA is defined primarily by the three regions in DNA and these are with respect to upstream and downstream end :",
+     "o": [
+      "Repressor, Operator gene, Structural gene",
+      "Structural gene, Transposons, Operator gene",
+      "Inducer, Repressor, Structural gene",
+      "Promotor, Structural gene, Terminator"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q171 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2024-q175-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one is the correct product of DNA dependent RNA polymerase to the given template?<br>3′ TACATGGCAAATATCCATTCA 5′",
+     "o": [
+      "5′ AUGUACCGUUUAUAGGUAAGU 3′",
+      "5′ AUGUAAAGUUUAUAGGUAAGU 3′",
+      "5′ AUGUACCGUUUAUAGGGAAGU 3′",
+      "5′ ATGTACCGTTTATAGGTAAGT 3′"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q175 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options overprinted in the copy; read from the page image."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2024-q177-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. RNA Polymerase III — I. snRNPs<br>B. Termination of transcription — II. Promotor<br>C. Splicing of exons — III. Rho factor<br>D. TATA box — IV. SnRNAs, tRNA",
+     "o": [
+      "A-III, B-II, C-IV, D-I",
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-III, C-I, D-II",
+      "A-I, B-III, C-IV, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.1",
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q177 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options clipped at the right edge in the eSaral copy; completed from the other options (each is a permutation)."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2024-q195-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statement is correct regarding the process of replication in E. coli?",
+     "o": [
+      "The DNA dependent DNA polymerase catalyses polymerization in 5′ → 3′ as well as 3′ → 5′ direction.",
+      "The DNA dependent DNA polymerase catalyses polymerization in 5′ → 3′ direction.",
+      "The DNA dependent DNA polymerase catalyses polymerization in one direction that is 3′ → 5′ .",
+      "The DNA dependent RNA polymerase catalyses polymerization in one direction that is 5′ → 3′ ."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q195 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2025-code-45-q96",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: In the RNA world, RNA is considered the first genetic material evolved to carry out essential life processes. RNA acts as a genetic material and also as a catalyst for some important biochemical reactions in living systems. Being reactive, RNA is unstable.<br>Statement II: DNA evolved from RNA and is a more stable genetic material. Its double helical strands being complementary, resist changes by evolving repairing mechanism.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both statement I and statement II are correct.",
+      "Both statement I and statement II are incorrect.",
+      "Statement I is correct but statement II is incorrect.",
+      "Statement I is incorrect but statement II is correct."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q96",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2025-code-45-q106",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which chromosome in the human genome has the highest number of genes?",
+     "o": [
+      "Chromosome X",
+      "Chromosome Y",
+      "Chromosome 1",
+      "Chromosome 10"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q106",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2025-code-45-q129",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are the post-transcriptional events in a eukaryotic cell?<br>A. Transport of pre-mRNA to cytoplasm prior to splicing.<br>B. Removal of introns and joining of exons.<br>C. Addition of methyl group at 5′ end of hnRNA.<br>D. Addition of adenine residues at 3′ end of hnRNA.<br>E. Base pairing of two complementary RNAs.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, B, C only",
+      "B, C, D only",
+      "B, C, E only",
+      "C, D, E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q129",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2025-code-45-q134",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>A. Alfred Hershey and Martha Chase — I. Streptococcus pneumoniae<br>B. Euchromatin — II. Densely packed and dark-stained<br>C. Frederick Griffith — III. Loosely packed and light-stained<br>D. Heterochromatin — IV. DNA as genetic material confirmation",
+     "o": [
+      "A-II, B-IV, C-I, D-III",
+      "A-IV, B-II, C-III, D-I",
+      "A-IV, B-III, C-I, D-II",
+      "A-III, B-II, C-IV, D-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.2.1",
+     "5.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q134",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)",
+    "note": "Options overprinted/clipped in the eSaral copy; read from the page image (permutations completed)."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2025-code-45-q146",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Histones are enriched with :",
+     "o": [
+      "Lysine & Arginine",
+      "Leucine & Lysine",
+      "Phenylalanine & Leucine",
+      "Phenylalanine & Arginine"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q146",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2025-code-45-q163",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Who proposed that the genetic code for amino acids should be made up of three nucleotides?",
+     "o": [
+      "George Gamow",
+      "Francis Crick",
+      "Jacque Monod",
+      "Franklin Stahl"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q163",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2025-code-45-q174",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which factor is important for termination of transcription?",
+     "o": [
+      "α (alpha)",
+      "σ (sigma)",
+      "ρ (rho)",
+      "γ (gamma)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q174",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio12-05-neet-2026-q108-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct with reference to packaging of DNA helix?<br>A. Histones are organized to form a unit of eight molecules called histone octamer.<br>B. Histones are negatively charged basic proteins.<br>C. Histones are rich in the basic amino acid residues lysine and arginine.<br>D. The positively charged DNA is wrapped around histone octamer to form nucleosome.<br>E. The packaging of chromatin at higher levels requires an additional set of proteins called non-histone chromosomal proteins.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "B, D and E only",
+      "A, B and D only",
+      "C, D and E only",
+      "A, C and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q108 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q121."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2026-q115-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct with reference to a transcription unit?<br>A. A transcription unit in DNA is defined primarily by three regions: promoter, structural gene and terminator.<br>B. The promoter is said to be located towards the 5′ end of the structural gene.<br>C. The promoter is a DNA sequence that provides binding site for RNA polymerase.<br>D. The promoter defines the template and coding strands.<br>E. The terminator is located towards the 3′ end of the coding strand and it defines the end of the process of transcription.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "B, C, D and E only",
+      "A, B, C, D and E",
+      "A, B, C and D only",
+      "A, C, D and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q115 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q114."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2026-q116-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Arrange the following steps of DNA fingerprinting in the correct sequence :<br>A. Isolation of DNA and its digestion by restriction endonucleases.<br>B. Hybridisation using a labelled VNTR probe.<br>C. Transferring of separated DNA fragments to synthetic membranes.<br>D. Detection of hybridised DNA fragments by autoradiography.<br>E. Separation of DNA fragments by electrophoresis.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, E, B, C, D",
+      "A, D, B, E, C",
+      "A, B, D, C, E",
+      "A, E, C, B, D"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q116 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q113."
+   }
+  },
+  {
+   "id": "bio12-05-neet-2026-q128-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the lac operon, the z gene codes for: n",
+     "o": [
+      "the repressor of lac operon",
+      "transacetylase",
+      "permease",
+      "beta-galactosidase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q128 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q101."
+   }
+  }
+ ]
+}
