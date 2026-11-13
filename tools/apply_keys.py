@@ -31,7 +31,7 @@ def main():
                 meta = k["meta"]
                 if src.get("year") != meta["year"] or meta["match"].lower() not in src.get("paper", "").lower():
                     continue
-                m = re.search(r"Q(\d+)\s*$", src["paper"])
+                m = re.search(r"Q(\d+)\b", src["paper"])
                 if not m or m.group(1) not in k["key"]:
                     continue
                 val = k["key"][m.group(1)].strip()
