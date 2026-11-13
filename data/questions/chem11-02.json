@@ -917,6 +917,54 @@
     "keyCheck": "Answer printed in the copy: C; matches our solving",
     "keySource": "Answers in the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf). No official key for 2016 in neet-sources."
    }
+  },
+  {
+   "id": "chem11-02-neet-2015-re-exam-code-d-q126",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which is the correct order of increasing energy of the listed orbitals in the atom of titanium ? (At. no. Z = 22)",
+     "o": [
+      "3s 4s 3p 3d",
+      "4s 3s 3p 3d",
+      "3s 3p 3d 4s",
+      "3s 3p 4s 3d"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-02",
+    "paras": [
+     "2.6.3",
+     "2.6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q126",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf); six unprinted answers solved by us (noted per question); text from the official bilingual Code D booklet. No official key for 2015 in neet-sources.",
+    "note": "The solutions copy gives (4), the (n+l) filling order. In the titanium atom itself 3d lies below 4s, which supports (3); check the official key."
+   }
   }
  ]
 }
