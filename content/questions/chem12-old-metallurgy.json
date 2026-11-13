@@ -26,10 +26,22 @@
       "Fe<sub>2</sub>O<sub>3</sub> + CO → 2FeO + CO<sub>2</sub>",
       "FeO + CO → Fe + CO<sub>2</sub>",
       "C + CO<sub>2</sub> → 2CO"
-     ]
+     ],
+     "sol": "<p>In the blast furnace, 3Fe<sub>2</sub>O<sub>3</sub> + CO → 2Fe<sub>3</sub>O<sub>4</sub> + CO<sub>2</sub> and Fe<sub>3</sub>O<sub>4</sub> + 4CO → 3Fe + 4CO<sub>2</sub>, and Fe<sub>2</sub>O<sub>3</sub> + CO → 2FeO + CO<sub>2</sub>, take place in the lower-temperature zone (500–800 K). In 900–1500 K: C + CO<sub>2</sub> → 2CO, CaO + SiO<sub>2</sub> → CaSiO<sub>3</sub> (slag) and FeO + CO → Fe + CO<sub>2</sub>. So (2) does not occur in that range.</p>",
+     "hint": "Fe<sub>2</sub>O<sub>3</sub> is reduced high in the furnace, at 500–800 K."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आयरन के निष्कर्षण के दौरान वात्या भट्टी में 900 K से 1500 K ताप परास में होने वाली अभिक्रिया जो नहीं होती, है:",
+     "o": [
+      "CaO + SiO<sub>2</sub> → CaSiO<sub>3</sub>",
+      "Fe<sub>2</sub>O<sub>3</sub> + CO → 2FeO + CO<sub>2</sub>",
+      "FeO + CO → Fe + CO<sub>2</sub>",
+      "C + CO<sub>2</sub> → 2CO"
+     ],
+     "sol": "<p>वात्या भट्टी में 3Fe<sub>2</sub>O<sub>3</sub> + CO → 2Fe<sub>3</sub>O<sub>4</sub> + CO<sub>2</sub>, Fe<sub>3</sub>O<sub>4</sub> + 4CO → 3Fe + 4CO<sub>2</sub> और Fe<sub>2</sub>O<sub>3</sub> + CO → 2FeO + CO<sub>2</sub> निम्न ताप क्षेत्र (500–800 K) में होती हैं। 900–1500 K में: C + CO<sub>2</sub> → 2CO, CaO + SiO<sub>2</sub> → CaSiO<sub>3</sub> (धातुमल) और FeO + CO → Fe + CO<sub>2</sub>। अतः (2) इस परास में नहीं होती।</p>",
+     "hint": "Fe<sub>2</sub>O<sub>3</sub> भट्टी के ऊपरी भाग में 500–800 K पर अपचयित होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -71,10 +83,22 @@
       "Upto 1200 K",
       "Upto 2200 K",
       "Upto 1900 K"
-     ]
+     ],
+     "sol": "<p>Near the tuyeres of the blast furnace, burning coke (C + O<sub>2</sub> → CO<sub>2</sub>) raises the temperature to about <b>2200 K</b>, the highest in the furnace.</p>",
+     "hint": "Hottest zone is at the bottom, ~2200 K."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वात्या भट्टी में प्राप्त किया जा सकने वाला अधिकतम ताप है :",
+     "o": [
+      "5000 K तक",
+      "1200 K तक",
+      "2200 K तक",
+      "1900 K तक"
+     ],
+     "sol": "<p>वात्या भट्टी के तल के पास जलता कोक (C + O<sub>2</sub> → CO<sub>2</sub>) ताप को लगभग <b>2200 K</b> तक बढ़ा देता है, जो भट्टी में उच्चतम है।</p>",
+     "hint": "सबसे गरम क्षेत्र तल पर, ~2200 K।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -116,10 +140,22 @@
       "Electrolysis",
       "Chromatography",
       "Distillation"
-     ]
+     ],
+     "sol": "<p>A metal that is liquid at room temperature is mercury. Low-boiling metals such as Hg and Zn are refined by <b>distillation</b>: the metal vaporises and is condensed, leaving impurities behind.</p>",
+     "hint": "Liquid metal = Hg; low boiling point."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कमरे के ताप पर द्रव रहने वाली धातु को अति शुद्ध रूप में प्राप्त करने के लिए निम्नलिखित में से कौन-सी विधि प्रयुक्त की जा सकती है?",
+     "o": [
+      "मंडल परिष्करण",
+      "विद्युत्-अपघटन",
+      "वर्णलेखन",
+      "आसवन"
+     ],
+     "sol": "<p>कमरे के ताप पर द्रव धातु मर्करी है। Hg और Zn जैसी कम क्वथनांक वाली धातुएँ <b>आसवन</b> से शोधित होती हैं: धातु वाष्पित होकर संघनित होती है और अशुद्धियाँ पीछे रह जाती हैं।</p>",
+     "hint": "द्रव धातु = Hg; कम क्वथनांक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -161,10 +197,22 @@
       "Pig iron can be moulded into a variety of shapes.",
       "Wrought iron is impure iron with 4% carbon.",
       "Blister copper has blistered appearance due to evolution of CO<sub>2</sub>."
-     ]
+     ],
+     "sol": "<p>(2) ✓ pig iron is cast into a variety of shapes (old NCERT). (1) ✗ Ni is refined by the Mond process; van Arkel is for Zr/Ti. (3) ✗ wrought iron is the purest commercial iron (&lt; 0.5% C); pig iron has about 4% C. (4) ✗ blister copper looks blistered because SO<sub>2</sub> escapes.</p>",
+     "hint": "Mond → Ni; van Arkel → Zr, Ti."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से सही कथन पहचानिए:",
+     "o": [
+      "निकैल का वाष्प प्रावस्था परिष्करण वान आर्केल विधि द्वारा किया जाता है।",
+      "कच्चे लोहे को विभिन्न आकृतियों में ढाला जा सकता है।",
+      "पिटवाँ लोहा 4% कार्बन वाला अशुद्ध लोहा है।",
+      "फफोलेदार कॉपर का फफोलेदार रूप CO<sub>2</sub> के निकलने के कारण होता है।"
+     ],
+     "sol": "<p>(2) ✓ कच्चे लोहे को विभिन्न आकृतियों में ढाला जाता है (पुरानी NCERT)। (1) ✗ Ni का परिष्करण मॉन्ड विधि से होता है; वान आर्केल Zr/Ti के लिए है। (3) ✗ पिटवाँ लोहा सबसे शुद्ध व्यावसायिक लोहा है (&lt; 0.5% C); कच्चे लोहे में लगभग 4% C होता है। (4) ✗ फफोलेदार कॉपर SO<sub>2</sub> के निकलने के कारण फफोलेदार दिखता है।</p>",
+     "hint": "मॉन्ड → Ni; वान आर्केल → Zr, Ti।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -206,10 +254,22 @@
       "CuCO<sub>3</sub>.Cu(OH)<sub>2</sub>",
       "CuFeS<sub>2</sub>",
       "Cu(OH)<sub>2</sub>"
-     ]
+     ],
+     "sol": "<p>Malachite is basic copper carbonate, CuCO<sub>3</sub>·Cu(OH)<sub>2</sub>. Fe<sub>3</sub>O<sub>4</sub> is magnetite; CuFeS<sub>2</sub> is copper pyrites.</p>",
+     "hint": "Malachite is green basic copper carbonate."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से मैलाकाइट कौन-सा है?",
+     "o": [
+      "Fe<sub>3</sub>O<sub>4</sub>",
+      "CuCO<sub>3</sub>.Cu(OH)<sub>2</sub>",
+      "CuFeS<sub>2</sub>",
+      "Cu(OH)<sub>2</sub>"
+     ],
+     "sol": "<p>मैलाकाइट क्षारकीय कॉपर कार्बोनेट, CuCO<sub>3</sub>·Cu(OH)<sub>2</sub>, है। Fe<sub>3</sub>O<sub>4</sub> मैग्नेटाइट है; CuFeS<sub>2</sub> कॉपर पाइराइट है।</p>",
+     "hint": "मैलाकाइट हरा क्षारकीय कॉपर कार्बोनेट है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -251,10 +311,22 @@
       "distillation",
       "zone refining",
       "displacement with Zn"
-     ]
+     ],
+     "sol": "<p>Leaching with CN<sup>−</sup> and air gives [Ag(CN)<sub>2</sub>]<sup>−</sup>. Zinc, being more reactive, displaces silver: 2[Ag(CN)<sub>2</sub>]<sup>−</sup> + Zn → [Zn(CN)<sub>4</sub>]<sup>2−</sup> + 2Ag.</p>",
+     "hint": "More reactive metal displaces Ag from its complex."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गोल्ड और सिल्वर के निष्कर्षण में CN<sup>−</sup> आयन से निक्षालन होता है। बाद में सिल्वर किसके द्वारा पुनः प्राप्त किया जाता है :",
+     "o": [
+      "द्रावण गलनिक",
+      "आसवन",
+      "मंडल परिष्करण",
+      "Zn द्वारा विस्थापन"
+     ],
+     "sol": "<p>CN<sup>−</sup> और वायु से निक्षालन पर [Ag(CN)<sub>2</sub>]<sup>−</sup> बनता है। अधिक क्रियाशील ज़िंक सिल्वर को विस्थापित करता है: 2[Ag(CN)<sub>2</sub>]<sup>−</sup> + Zn → [Zn(CN)<sub>4</sub>]<sup>2−</sup> + 2Ag।</p>",
+     "hint": "अधिक क्रियाशील धातु Ag को उसके संकुल से विस्थापित करती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -296,10 +368,22 @@
       "(a)-(ii), (b)-(iii), (c)-(i), (d)-(v)",
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(a)-(iii), (b)-(iv), (c)-(v), (d)-(i)"
-     ]
+     ],
+     "sol": "<ul><li>Cyanide process: extraction of Au (iv).</li><li>Froth flotation: concentration (dressing) of sulphide ores such as ZnS (ii).</li><li>Electrolytic reduction: extraction of Al (iii).</li><li>Zone refining: ultrapure Ge for semiconductors (i).</li></ul>",
+     "hint": "Froth flotation is for sulphide ores."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कॉलम I की मदों का कॉलम II की मदों से मिलान कीजिए और सही कोड दीजिए :<br>कॉलम I: (a) सायनाइड प्रक्रम (b) झाग प्लवन प्रक्रम (c) विद्युत्-अपघटनी अपचयन (d) मंडल परिष्करण<br>कॉलम II: (i) अति शुद्ध Ge (ii) ZnS का सांद्रण (iii) Al का निष्कर्षण (iv) Au का निष्कर्षण (v) Ni का शोधन",
+     "o": [
+      "(a)-(iv), (b)-(ii), (c)-(iii), (d)-(i)",
+      "(a)-(ii), (b)-(iii), (c)-(i), (d)-(v)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(iii), (b)-(iv), (c)-(v), (d)-(i)"
+     ],
+     "sol": "<ul><li>सायनाइड प्रक्रम: Au का निष्कर्षण (iv)।</li><li>झाग प्लवन: ZnS जैसे सल्फाइड अयस्कों का सांद्रण (ii)।</li><li>विद्युत्-अपघटनी अपचयन: Al का निष्कर्षण (iii)।</li><li>मंडल परिष्करण: अर्धचालकों के लिए अति शुद्ध Ge (i)।</li></ul>",
+     "hint": "झाग प्लवन सल्फाइड अयस्कों के लिए है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -341,10 +425,22 @@
       "carbon monoxide",
       "copper(I) sulphide",
       "sulphur dioxide"
-     ]
+     ],
+     "sol": "<p>Self-reduction in the Bessemer converter: 2Cu<sub>2</sub>O + Cu<sub>2</sub>S → 6Cu + SO<sub>2</sub>. The reducing agent is copper(I) sulphide.</p>",
+     "hint": "Copper's own sulphide reduces its oxide."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कॉपर के सल्फाइड अयस्क से निष्कर्षण में धातु अंततः क्यूप्रस ऑक्साइड के किसके द्वारा अपचयन से प्राप्त होती है :",
+     "o": [
+      "आयरन(II) सल्फाइड",
+      "कार्बन मोनोऑक्साइड",
+      "कॉपर(I) सल्फाइड",
+      "सल्फर डाइऑक्साइड"
+     ],
+     "sol": "<p>बेसेमर परिवर्तक में स्वअपचयन: 2Cu<sub>2</sub>O + Cu<sub>2</sub>S → 6Cu + SO<sub>2</sub>। अपचायक कॉपर(I) सल्फाइड है।</p>",
+     "hint": "कॉपर का अपना सल्फाइड उसके ऑक्साइड को अपचयित करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -386,10 +482,22 @@
       "Zn",
       "Fe",
       "Cu"
-     ]
+     ],
+     "sol": "<p>In the Ellingham diagram, a metal can reduce another metal's oxide if its own oxide line lies below. The MgO line lies below the Al<sub>2</sub>O<sub>3</sub> line (at least above ~1623 K), so Mg can reduce alumina; Zn, Fe and Cu cannot.</p>",
+     "hint": "Lower line in the Ellingham diagram reduces the upper one."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एलिंघम आरेख को ध्यान में रखते हुए, निम्नलिखित में से कौन-सी धातु ऐलुमिना के अपचयन के लिए प्रयुक्त की जा सकती है ?",
+     "o": [
+      "Mg",
+      "Zn",
+      "Fe",
+      "Cu"
+     ],
+     "sol": "<p>एलिंघम आरेख में कोई धातु दूसरी धातु के ऑक्साइड को तभी अपचयित कर सकती है जब उसकी अपनी ऑक्साइड रेखा नीचे हो। MgO रेखा Al<sub>2</sub>O<sub>3</sub> रेखा से नीचे है (कम से कम ~1623 K से ऊपर), अतः Mg ऐलुमिना को अपचयित कर सकता है; Zn, Fe और Cu नहीं।</p>",
+     "hint": "एलिंघम आरेख में नीचे वाली रेखा ऊपर वाली को अपचयित करती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -431,10 +539,22 @@
       "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
       "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
-     ]
+     ],
+     "sol": "<ul><li>Haematite: Fe<sub>2</sub>O<sub>3</sub> (iii).</li><li>Magnetite: Fe<sub>3</sub>O<sub>4</sub> (i).</li><li>Calamine: ZnCO<sub>3</sub> (ii).</li><li>Kaolinite: [Al<sub>2</sub>(OH)<sub>4</sub>Si<sub>2</sub>O<sub>5</sub>] (iv).</li></ul>",
+     "hint": "Magnetite is the magnetic mixed oxide Fe<sub>3</sub>O<sub>4</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए।<br>सूची-I (अयस्क): (a) हेमेटाइट (b) मैग्नेटाइट (c) कैलामाइन (d) केओलिनाइट<br>सूची-II (संघटन): (i) Fe<sub>3</sub>O<sub>4</sub> (ii) ZnCO<sub>3</sub> (iii) Fe<sub>2</sub>O<sub>3</sub> (iv) [Al<sub>2</sub>(OH)<sub>4</sub>Si<sub>2</sub>O<sub>5</sub>]<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+     ],
+     "sol": "<ul><li>हेमेटाइट: Fe<sub>2</sub>O<sub>3</sub> (iii)।</li><li>मैग्नेटाइट: Fe<sub>3</sub>O<sub>4</sub> (i)।</li><li>कैलामाइन: ZnCO<sub>3</sub> (ii)।</li><li>केओलिनाइट: [Al<sub>2</sub>(OH)<sub>4</sub>Si<sub>2</sub>O<sub>5</sub>] (iv)।</li></ul>",
+     "hint": "मैग्नेटाइट चुंबकीय मिश्रित ऑक्साइड Fe<sub>3</sub>O<sub>4</sub> है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
