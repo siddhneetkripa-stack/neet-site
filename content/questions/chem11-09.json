@@ -3468,6 +3468,140 @@
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
     "note": "Diagram question: reactions drawn as structures, written here by name. Br<sub>2</sub> adds across a C=C bond (allylic bromination needs NBS), so (3) is not correct."
    }
+  },
+  {
+   "id": "chem11-09-jee-2025-2025-01-22-shift-2-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following alkanes has only one kind of secondary hydrogen atom (all its CH<sub>2</sub> hydrogens equivalent)?",
+     "o": [
+      "2,2,4,4-tetramethylheptane",
+      "2,2,3,4-tetramethylheptane",
+      "2,2,3,3-tetramethyloctane",
+      "3-ethyl-2,2-dimethylpentane"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-2 Q8",
+    "session": "22 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the paper asks “which one has two secondary hydrogen atoms”, but each option has four or more; the intended answer (3-ethyl-2,2-dimethylpentane) is the one whose secondary hydrogens are all equivalent."
+   }
+  },
+  {
+   "id": "chem11-09-jee-2025-2025-01-22-shift-2-q24",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An open-chain hydrocarbon C<sub>6</sub>H<sub>6</sub> gives a single product on monobromination and takes up 4 moles of H<sub>2</sub> (catalyst) to give a completely hydrogenated product. Find the number of π-electrons in this C<sub>6</sub>H<sub>6</sub>."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 8,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.4",
+     "9.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-2 Q24",
+    "session": "22 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: “open-chain” added; otherwise benzene (6 π electrons, takes only 3 H<sub>2</sub>) is the natural reading of C<sub>6</sub>H<sub>6</sub>."
+   }
+  },
+  {
+   "id": "chem11-09-jee-2025-2025-01-23-shift-2-q22",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An open-chain compound X consumes two moles of H<sub>2</sub>, and when X is heated with KMnO<sub>4</sub>/H<sup>+</sup> it gives (CH<sub>3</sub>)<sub>2</sub>C=O, CH<sub>3</sub>COOH and CH<sub>3</sub>–CO–CH<sub>2</sub>–CH<sub>2</sub>–COOH. The number of σ bonds in X is ______."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 27,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Aldehydes, Ketones and Carboxylic Acids"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-2 Q22",
+    "session": "23 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
   }
  ]
 }

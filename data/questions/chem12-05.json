@@ -3508,6 +3508,283 @@
     "keyCheck": "Matches one of NTA's numerical answers for this shift (2, 4, 78, 5, 6); worked out by us",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem12-05-jee-2025-2025-01-22-shift-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For the complex ion [NiCl<sub>4</sub>]<sup>2−</sup>, what is the charge on the metal and the shape of the complex respectively?",
+     "o": [
+      "+2, Tetrahedral",
+      "+2, Square planar",
+      "+4, Tetrahedral",
+      "+4, Square planar"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.5.1",
+     "5.5.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-1 Q1",
+    "session": "22 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-05-jee-2025-2025-01-22-shift-2-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Arrange in decreasing order of crystal field splitting energy: (i) [Co(NH<sub>3</sub>)<sub>4</sub>]<sup>2+</sup> (tetrahedral) (ii) [Co(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup> (iii) [Co(NH<sub>3</sub>)<sub>6</sub>]<sup>2+</sup> (iv) [Co(en)<sub>3</sub>]<sup>3+</sup>",
+     "o": [
+      "(iv) &gt; (ii) &gt; (iii) &gt; (i)",
+      "(iv) &gt; (iii) &gt; (ii) &gt; (i)",
+      "(i) &gt; (iii) &gt; (ii) &gt; (iv)",
+      "(i) &gt; (ii) &gt; (iii) &gt; (iv)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.5.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-2 Q3",
+    "session": "22 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the paper says ‘CFSE’; the ordering intended (by ligand strength, metal charge and geometry) is of the splitting energy Δ, and (i) is stated to be tetrahedral."
+   }
+  },
+  {
+   "id": "chem12-05-jee-2025-2025-01-22-shift-2-q22",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Ni<sup>2+</sup> + 2DMG → Complex. How many hydrogen bonds are present in one molecule of the complex?"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 2,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.7"
+    ],
+    "otherChapters": [
+     "Practical chemistry · test for Ni<sup>2+</sup>"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-2 Q22",
+    "session": "22 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-05-jee-2025-2025-01-23-shift-1-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following compounds can show fac-mer isomerism?",
+     "o": [
+      "[Co(NH<sub>3</sub>)<sub>6</sub>]Cl<sub>3</sub>",
+      "[Co(NH<sub>3</sub>)<sub>3</sub>Cl<sub>3</sub>]",
+      "[Co(en)<sub>2</sub>(NH<sub>3</sub>)<sub>2</sub>]Cl<sub>3</sub>",
+      "[Co(H<sub>2</sub>O)<sub>6</sub>]Cl<sub>3</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-1 Q3",
+    "session": "23 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-05-jee-2025-2025-01-23-shift-1-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Co<sup>2+</sup> forms an octahedral complex with a spin-only magnetic moment of 3.83 BM. The correct electronic configuration for cobalt in the complex is",
+     "o": [
+      "t<sub>2g</sub><sup>5</sup> e<sub>g</sub><sup>2</sup>",
+      "t<sub>2g</sub><sup>6</sup> e<sub>g</sub><sup>1</sup>",
+      "t<sub>2g</sub><sup>4</sup> e<sub>g</sub><sup>3</sup>",
+      "e<sup>4</sup> t<sub>2</sub><sup>3</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.5.2",
+     "5.5.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-1 Q11",
+    "session": "23 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-05-jee-2025-2025-01-23-shift-2-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following complexes has a d<sup>4</sup> configuration?",
+     "o": [
+      "[Fe(CN)<sub>6</sub>]<sup>3−</sup>",
+      "[MnF<sub>6</sub>]<sup>3−</sup>",
+      "[Co(CN)<sub>6</sub>]<sup>3−</sup>",
+      "[CoCl<sub>4</sub>]<sup>2−</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-05",
+    "paras": [
+     "5.5.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-2 Q9",
+    "session": "23 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
   }
  ]
 }

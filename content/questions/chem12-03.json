@@ -2773,6 +2773,100 @@
     "keyCheck": "Matches one of NTA's numerical answers for this shift (2, 4, 78, 5, 6); worked out by us",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem12-03-jee-2025-2025-01-23-shift-1-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A(g) → 2B(g). For the given first order reaction, the initial pressure was 0.6 atm and the rate constant is 4.606 × 10<sup>−2</sup> s<sup>−1</sup>. Find the total pressure at 100 s.",
+     "o": [
+      "0.6 atm",
+      "1.194 atm",
+      "0.594 atm",
+      "0.006 atm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-1 Q13",
+    "session": "23 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: “first order” and “total” added; the recalled paper did not say which pressure is asked, and 0.594 atm (option 3) is only the drop in the pressure of A."
+   }
+  },
+  {
+   "id": "chem12-03-jee-2025-2025-01-23-shift-2-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following plots of rate against concentration represents a zero order reaction?",
+     "o": [
+      "a horizontal line (rate independent of concentration)",
+      "a straight line through the origin",
+      "a straight line falling with concentration",
+      "a curve falling with concentration"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-03",
+    "paras": [
+     "3.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-2 Q5",
+    "session": "23 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Options are graphs in the copy; described here."
+   }
   }
  ]
 }

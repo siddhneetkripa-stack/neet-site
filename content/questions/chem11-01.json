@@ -7509,6 +7509,142 @@
     "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem11-01-jee-2025-2025-01-22-shift-1-q15",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "CO<sub>2</sub> gas is passed through V mL of 0.1 M Ca(OH)<sub>2</sub> solution until exactly half of the Ca(OH)<sub>2</sub> has reacted. The remaining Ca(OH)<sub>2</sub> is neutralised by 40 mL of 0.1 M HCl. The volume V of Ca(OH)<sub>2</sub> solution taken initially is",
+     "o": [
+      "40 mL",
+      "20 mL",
+      "80 mL",
+      "50 mL"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-01",
+    "paras": [
+     "1.10",
+     "1.10.2c"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-1 Q15",
+    "session": "22 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the recalled paper's wording (“CO<sub>2</sub> at 1 atm, 273 K … excess Ca(OH)<sub>2</sub> is neutralised … if 50% Ca(OH)<sub>2</sub> reacts”) was garbled; the data and answer are unchanged."
+   }
+  },
+  {
+   "id": "chem11-01-jee-2025-2025-01-23-shift-1-q22",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When 10<sup>21</sup> molecules are removed from x mg of CO<sub>2</sub>(g), 2.4 × 10<sup>−3</sup> moles of CO<sub>2</sub> are left. Calculate the value of x. [Take N<sub>A</sub> = 6 × 10<sup>23</sup>]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 179,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-01",
+    "paras": [
+     "1.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-1 Q22",
+    "session": "23 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem11-01-jee-2025-2025-01-23-shift-2-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "0.01 mole of a hydrocarbon gives 1.76 g CO<sub>2</sub> and 0.9 g H<sub>2</sub>O on complete combustion. Find the formula of the compound.",
+     "o": [
+      "C<sub>3</sub>H<sub>8</sub>",
+      "C<sub>4</sub>H<sub>10</sub>",
+      "C<sub>5</sub>H<sub>12</sub>",
+      "C<sub>6</sub>H<sub>14</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-01",
+    "paras": [
+     "1.9.1",
+     "1.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-2 Q17",
+    "session": "23 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
   }
  ]
 }

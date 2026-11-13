@@ -2557,6 +2557,147 @@
     "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem12-04-jee-2025-2025-01-22-shift-1-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "4f<sup>7</sup> configuration is possible for (a) Eu<sup>3+</sup>, (b) Eu<sup>2+</sup>, (c) Gd<sup>3+</sup>, (d) Tb<sup>3+</sup>, (e) Sm<sup>2+</sup>",
+     "o": [
+      "(a) and (c)",
+      "(b) and (c)",
+      "(d) and (e)",
+      "Only (c)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-04",
+    "paras": [
+     "4.5.1",
+     "4.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-1 Q12",
+    "session": "22 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-04-jee-2025-2025-01-23-shift-1-q4",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following pairs of ions (in aqueous solution) have the same colour?",
+     "o": [
+      "Ti<sup>4+</sup>, V<sup>3+</sup>",
+      "Cr<sup>2+</sup>, Cu<sup>2+</sup>",
+      "Cr<sup>3+</sup>, Ni<sup>2+</sup>",
+      "Mn<sup>3+</sup>, Fe<sup>2+</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-04",
+    "paras": [
+     "4.3.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-1 Q4",
+    "session": "23 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Colours as in NCERT Table 4.8: Cr<sup>2+</sup> and Cu<sup>2+</sup> both blue."
+   }
+  },
+  {
+   "id": "chem12-04-jee-2025-2025-01-23-shift-2-q4",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II.<br>List-I (Alloys): A. Bronze B. Stainless steel C. UK Gold Coin D. Brass<br>List-II (Metals): (i) Fe, Cr and Ni (ii) Cu and Sn (iii) Cu and Zn (iv) Au, Ag, Cu, Zn and Ni",
+     "o": [
+      "A-(ii), B-(i), C-(iv), D-(iii)",
+      "A-(iii), B-(iv), C-(i), D-(ii)",
+      "A-(iv), B-(iii), C-(ii), D-(i)",
+      "A-(i), B-(ii), C-(iii), D-(iv)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-04",
+    "paras": [
+     "4.3.14"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-2 Q4",
+    "session": "23 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Composition of the UK gold coin is beyond the NCERT text; the other three match by elimination."
+   }
   }
  ]
 }

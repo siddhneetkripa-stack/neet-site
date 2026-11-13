@@ -3203,6 +3203,139 @@
     "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem11-04-jee-2025-2025-01-22-shift-1-q23",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How many of the following species have a linear shape? SO<sub>2</sub>, BeCl<sub>2</sub>, N<sub>3</sub><sup>−</sup>, I<sub>3</sub><sup>−</sup>, NO<sub>2</sub><sup>+</sup>, NO<sub>2</sub>"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 4,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-04",
+    "paras": [
+     "4.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-1 Q23",
+    "session": "22 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem11-04-jee-2025-2025-01-22-shift-2-q6",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Compare the dipole moments of (I) NF<sub>3</sub> (II) CHCl<sub>3</sub> (III) H<sub>2</sub>S (IV) HBr",
+     "o": [
+      "I &gt; II &gt; III &gt; IV",
+      "II &gt; III &gt; I &gt; IV",
+      "II &gt; III &gt; IV &gt; I",
+      "III &gt; I &gt; IV &gt; II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-04",
+    "paras": [
+     "4.3.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-2 Q6",
+    "session": "22 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem11-04-jee-2025-2025-01-23-shift-1-q9",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match Column I with Column II and choose the correct option.<br>Column I: A. BF<sub>3</sub> B. CCl<sub>4</sub>, CO<sub>2</sub> C. PCl<sub>5</sub>, BrF<sub>5</sub> D. NO<br>Column II: (i) Odd e<sup>−</sup> species (ii) Expanded octet (iii) Complete octet (iv) Electron deficient",
+     "o": [
+      "A – (iii), B – (iv), C – (i), D – (ii)",
+      "A – (iv), B – (ii), C – (iii), D – (i)",
+      "A – (iv), B – (iii), C – (ii), D – (i)",
+      "A – (i), B – (ii), C – (iii), D – (iv)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-04",
+    "paras": [
+     "4.1.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-1 Q9",
+    "session": "23 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
   }
  ]
 }

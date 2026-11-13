@@ -2410,6 +2410,182 @@
     "keyCheck": "Matches one of NTA's numerical answers for this shift (2, 4, 78, 5, 6); worked out by us",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-22-shift-1-q25",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A current of two ampere is passed through molten AlCl<sub>3</sub> for 30 min. Find the mass (in mg) of aluminium deposited at the cathode. (Nearest integer)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 336,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-1 Q25",
+    "session": "22 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-22-shift-2-q16",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following statements S-1 and S-2 and choose the correct option.<br>S-1 : During corrosion, the metal surface acts only as the cathode, where the metal is reduced.<br>S-2 : Rate of corrosion is more in alkaline medium than in acidic medium.",
+     "o": [
+      "Both S-1 and S-2 are correct",
+      "Both S-1 and S-2 are incorrect",
+      "S-1 is correct but S-2 is incorrect",
+      "S-1 is incorrect but S-2 is correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-2 Q16",
+    "session": "22 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the recalled S-1 (“pure metal acts as anode and impure metal acts as cathode”) can be read as true; it is replaced by a statement that is plainly false, keeping the printed answer (both incorrect)."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-23-shift-1-q23",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following Latimer diagram: FeO<sub>4</sub><sup>2−</sup> —2.0 V→ Fe<sup>3+</sup> —0.8 V→ Fe<sup>2+</sup> —(−0.5 V)→ Fe<sup>0</sup>. Find E°<sub>FeO<sub>4</sub><sup>2−</sup>/Fe<sup>2+</sup></sub> (in V, nearest integer)."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 2,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-1 Q23",
+    "session": "23 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-23-shift-2-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following E° values: E°<sub>Ag<sup>+</sup>/Ag</sub> = 0.8 V, E°<sub>Zn<sup>2+</sup>/Zn</sub> = −0.76 V, E°<sub>Cu<sup>2+</sup>/Cu</sub> = 0.34 V, E°<sub>Mg<sup>2+</sup>/Mg</sub> = −2.36 V. Which of the following cells will have the most negative value of ΔG° (per mole of the metal oxidised)?",
+     "o": [
+      "Zn|Zn<sup>2+</sup>||Cu<sup>2+</sup>|Cu",
+      "Mg|Mg<sup>2+</sup>||Ag<sup>+</sup>|Ag",
+      "Mg|Mg<sup>2+</sup>||Zn<sup>2+</sup>|Zn",
+      "Cu|Cu<sup>2+</sup>||Ag<sup>+</sup>|Ag"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-2 Q14",
+    "session": "23 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: ‘per mole of the metal oxidised’ added so that n = 2 in every cell and ΔG° depends on E°<sub>cell</sub> alone."
+   }
   }
  ]
 }

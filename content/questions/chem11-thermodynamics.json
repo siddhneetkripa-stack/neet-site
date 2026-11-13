@@ -8233,6 +8233,282 @@
     "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
     "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
    }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2025-2025-01-22-shift-1-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a closed insulated container, a liquid is stirred with a paddle to increase the temperature. Which of the following is true?",
+     "o": [
+      "w = 0, ΔE = q ≠ 0",
+      "ΔE = w ≠ 0, q = 0",
+      "ΔE = w = 0, q ≠ 0",
+      "ΔE = 0, w = q ≠ 0"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "first-law",
+     "work-adiabatic"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-1 Q16",
+    "session": "22 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2025-2025-01-22-shift-2-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the extensive and intensive properties.",
+     "o": [
+      "Mass, volume, conductivity – Intensive property",
+      "Mass, temperature, heat, volume – Extensive property",
+      "Mass, volume, internal energy – Extensive property",
+      "Density, temperature, moles, internal energy – Intensive property"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "ext-int"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-2 Q12",
+    "session": "22 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2025-2025-01-22-shift-2-q15",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the columns and choose the correct option.<br>(A) (∂H/∂T)<sub>P</sub> (B) (∂G/∂P)<sub>T</sub> (C) (∂U/∂T)<sub>V</sub> (D) (∂G/∂T)<sub>P</sub><br>(P) C<sub>P</sub> (Q) C<sub>V</sub> (R) −S (S) V",
+     "o": [
+      "(A)–(P), (B)–(S), (C)–(Q), (D)–(R)",
+      "(A)–(P), (B)–(S), (C)–(R), (D)–(Q)",
+      "(A)–(P), (B)–(R), (C)–(Q), (D)–(S)",
+      "(A)–(Q), (B)–(S), (C)–(P), (D)–(R)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "heat-capacity",
+     "gibbs-eq"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-2 Q15",
+    "session": "22 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "(∂G/∂P)<sub>T</sub> and (∂G/∂T)<sub>P</sub> are beyond the NCERT text; C<sub>P</sub> and C<sub>V</sub> are NCERT 5.2.2(c)."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2025-2025-01-23-shift-1-q24",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the given values: ΔH = 55 kJ mol<sup>−1</sup>, ΔS = 175 J mol<sup>−1</sup> K<sup>−1</sup>, T = 25 °C (take 298 K). Calculate the value of the Gibbs energy change (ΔG) in J mol<sup>−1</sup>."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 2850,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "gibbs-eq"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-1 Q24",
+    "session": "23 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2025-2025-01-23-shift-2-q6",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Using the relation ΔG = ΔH − TΔS, which of the following combinations can never give a spontaneous reaction, whatever the temperature?",
+     "o": [
+      "ΔH &gt; 0, ΔS &gt; 0",
+      "ΔH &gt; 0, ΔS &lt; 0",
+      "ΔH &lt; 0, ΔS &gt; 0",
+      "ΔH &lt; 0, ΔS &lt; 0"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "temp-effect"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-2 Q6",
+    "session": "23 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the recalled wording (“which relation is incorrect for a spontaneous reaction at a given temperature”) depends on the temperature for options (1) and (4); asking which combination is never spontaneous gives one answer."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-jee-2025-2025-01-23-shift-2-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An ideal gas undergoes the following process: A (2V<sub>0</sub>, P<sub>0</sub>) → B (3V<sub>0</sub>, P<sub>0</sub>) at constant pressure → C (3V<sub>0</sub>, 2P<sub>0</sub>) at constant volume → D (2V<sub>0</sub>, 2P<sub>0</sub>) → E (V<sub>0</sub>, 2P<sub>0</sub>) at constant pressure. Find the total work done on the gas (IUPAC sign convention).",
+     "o": [
+      "−3P<sub>0</sub>V<sub>0</sub>",
+      "2P<sub>0</sub>V<sub>0</sub>",
+      "3P<sub>0</sub>V<sub>0</sub>",
+      "3P<sub>0</sub>V<sub>0</sub>/2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "work"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-2 Q12",
+    "session": "23 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the paper's p–V graph is written as coordinates, and ‘on the gas’ added; the paper's “find work done” leaves the sign open between options (1) and (3)."
+   }
   }
  ]
 }
