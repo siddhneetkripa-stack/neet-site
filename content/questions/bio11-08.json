@@ -1,0 +1,2323 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-08",
+ "subject": "biology",
+ "class": 11,
+ "unit": 8,
+ "title": {
+  "en": "Cell: The Unit of Life"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo108.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "8.1",
+   "title": "What is a Cell?",
+   "hi": "कोशिका क्या है?",
+   "pdfPage": 3
+  },
+  {
+   "id": "8.2",
+   "title": "Cell Theory",
+   "hi": "कोशिका सिद्धांत",
+   "pdfPage": 3
+  },
+  {
+   "id": "8.3",
+   "title": "An Overview of Cell",
+   "hi": "कोशिका का समग्र अवलोकन",
+   "pdfPage": 4
+  },
+  {
+   "id": "8.4",
+   "title": "Prokaryotic Cells",
+   "hi": "प्रोकैरियोटिक कोशिकाएं",
+   "pdfPage": 5
+  },
+  {
+   "id": "8.4.1",
+   "title": "Cell Envelope and its Modifications",
+   "hi": "कोशिका आवरण और इसके रूपांतर",
+   "pdfPage": 6
+  },
+  {
+   "id": "8.4.2",
+   "title": "Ribosomes and Inclusion Bodies",
+   "hi": "राइबोसोम व अंतर्विष्ट पिंड",
+   "pdfPage": 7
+  },
+  {
+   "id": "8.5",
+   "title": "Eukaryotic Cells",
+   "hi": "यूकैरियोटिक कोशिकाएं (ससीमकेंद्रकी कोशिकाएं)",
+   "pdfPage": 7
+  },
+  {
+   "id": "8.5.1",
+   "title": "Cell Membrane",
+   "hi": "कोशिका झिल्ली",
+   "pdfPage": 9
+  },
+  {
+   "id": "8.5.2",
+   "title": "Cell Wall",
+   "hi": "कोशिका भित्ति",
+   "pdfPage": 10
+  },
+  {
+   "id": "8.5.3",
+   "title": "Endomembrane System",
+   "hi": "अंतः झिल्लिका तंत्र",
+   "pdfPage": 10
+  },
+  {
+   "id": "8.5.4",
+   "title": "Mitochondria",
+   "hi": "सूत्रकणिका (माइटोकोंड्रिया)",
+   "pdfPage": 12
+  },
+  {
+   "id": "8.5.5",
+   "title": "Plastids",
+   "hi": "लवक (प्लास्टिड)",
+   "pdfPage": 13
+  },
+  {
+   "id": "8.5.6",
+   "title": "Ribosomes",
+   "hi": "राइबोसोम",
+   "pdfPage": 14
+  },
+  {
+   "id": "8.5.7",
+   "title": "Cytoskeleton",
+   "hi": "साइटोपंजर (साइटोस्केलेटन)",
+   "pdfPage": 14
+  },
+  {
+   "id": "8.5.8",
+   "title": "Cilia and Flagella",
+   "hi": "पक्ष्माभ व कशाभिका (सीलिया तथा फलैजिला)",
+   "pdfPage": 15
+  },
+  {
+   "id": "8.5.9",
+   "title": "Centrosome and Centrioles",
+   "hi": "तारककाय व तारककेंद्र (सैन्ट्रोसोम तथा सैन्ट्रीयोल)",
+   "pdfPage": 15
+  },
+  {
+   "id": "8.5.10",
+   "title": "Nucleus",
+   "hi": "केंद्रक (न्यूक्लिअस)",
+   "pdfPage": 16
+  },
+  {
+   "id": "8.5.11",
+   "title": "Microbodies",
+   "pdfPage": 18
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-08-neet-2015-re-exam-code-d-q4",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are not membrane – bound?",
+     "o": [
+      "Ribosomes",
+      "Lysosomes",
+      "Mesosomes",
+      "Vacuoles"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.6",
+     "8.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q4",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2015-re-exam-code-d-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following structure is not found in a prokaryotic cell?",
+     "o": [
+      "Ribosome",
+      "Mesosome",
+      "Plasma membrane",
+      "Nuclear envelope"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q13",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2015-re-exam-code-d-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The structures that help some bacteria to attach to rocks and/or host tissue are :",
+     "o": [
+      "Fimbriae",
+      "Mesosomes",
+      "Holdfast",
+      "Rhizoids"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q17",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2015-re-exam-code-d-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Chromatophores take part in :",
+     "o": [
+      "Growth",
+      "Movement",
+      "Respiration",
+      "Photosynthesis"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q26",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2015-re-exam-code-d-q74",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Balbiani rings are sites of:",
+     "o": [
+      "Nucleotide synthesis",
+      "Polysaccharide synthesis",
+      "RNA and protein synthesis",
+      "Lipid synthesis"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q74",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)",
+    "note": "Balbiani rings (polytene chromosomes) are not in NCERT."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2015-re-exam-code-d-q75",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the columns and identify the correct option.<br>Column I — Column II<br>(a) Thylakoids — (i) Disc-shaped sacs in Golgi apparatus<br>(b) Cristae — (ii) Condensed structure of DNA<br>(c) Cisternae — (iii) Flat membranous sacs in stroma<br>(d) Chromatin — (iv) Infoldings in mitochondria",
+     "o": [
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) iii, (b) iv, (c) ii, (d) i",
+      "(a) iv, (b) iii, (c) i, (d) ii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3",
+     "8.5.4",
+     "8.5.5",
+     "8.5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q75",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2015-re-exam-code-d-q76",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Cellular organelles with membranes are:",
+     "o": [
+      "Chromosomes, ribosomes and endoplasmic reticulum",
+      "Endoplasmic reticulum, ribosomes and nuclei",
+      "Lysosomes, Golgi apparatus and mitochondria",
+      "Nuclei, ribosomes and mitochondria"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q76",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2016-phase-1-code-a-q101",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Mitochondria and chloroplast are :<br>(i) semi-autonomous organelles<br>(ii) formed by division of pre-existing organelles and they contain DNA but lack protein synthesizing machinery<br>Which one of the following options is correct?",
+     "o": [
+      "Both (i) and (ii) are correct",
+      "(ii) is true but (i) is false",
+      "(i) is true but (ii) is false",
+      "Both (i) and (ii) are false"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.4",
+     "8.5.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q101",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2016-phase-1-code-a-q109",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Microtubules are the constituents of:",
+     "o": [
+      "Cilia, Flagella and Peroxisomes",
+      "Spindle fibres, centrioles and cilia",
+      "Centrioles, spindle fibres and chromatin",
+      "Centrosome, Nucleosome and Centrioles"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.7",
+     "8.5.8",
+     "8.5.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q109",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2016-phase-1-code-a-q110",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A complex of ribosomes attached to single strand of RNA is known as:",
+     "o": [
+      "Polysome",
+      "Polymer",
+      "Polypeptide",
+      "Okazaki fragment"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q110",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2016-phase-1-code-a-q136",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following cell organelles is enclosed by a single membrane?",
+     "o": [
+      "Mitochondria",
+      "Chloroplasts",
+      "Lysosomes",
+      "Nuclei"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q136",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2016-phase-2-code-aa-q104",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the mismatch.",
+     "o": [
+      "Gas vacuoles – Green bacteria",
+      "Large central vacuoles – Animal cells",
+      "Protists – Eukaryotes",
+      "Methanogens – Prokaryotes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3",
+     "8.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q104",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2016-phase-2-code-aa-q105",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the wrong statement",
+     "o": [
+      "Bacterial cell wall is made up of peptidoglycan",
+      "Pili and fimbriae are mainly involved in motility of bacterial cells",
+      "Cyanobacteria lack flagellated cells",
+      "Mycoplasma is a wall-less microorganism"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q105",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2016-phase-2-code-aa-q106",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A cell organelle containing hydrolytic enzymes is",
+     "o": [
+      "Lysosome",
+      "Microsome",
+      "Ribosome",
+      "Mesosome"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q106",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2017-code-a-q114",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following cell organelles is responsible for extracting energy from carbohydrates to form ATP?",
+     "o": [
+      "Lysosome",
+      "Ribosome",
+      "Chloroplast",
+      "Mitochondrion"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q114",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2017-code-a-q173",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following components provides sticky character to the bacterial cell?",
+     "o": [
+      "Cell wall",
+      "Nuclear membrane",
+      "Plasma membrane",
+      "Glycocalyx"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q173",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2018-code-aa-q119",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The Golgi complex participates in :",
+     "o": [
+      "Respiration in bacteria",
+      "Formation of secretory vesicles",
+      "Fatty acid breakdown",
+      "Activation of amino acid"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q119",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2018-code-aa-q121",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is true for nucleolus?",
+     "o": [
+      "It takes part in spindle formation.",
+      "It is a membrane-bound structure.",
+      "Larger nucleoli are present in dividing cells.",
+      "It is a site for active ribosomal RNA synthesis."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q121",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2018-code-aa-q171",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the incorrect match :",
+     "o": [
+      "Submetacentric chromosomes – L-shaped chromosomes",
+      "Allosomes – Sex chromosomes",
+      "Lampbrush chromosomes – Diplotene bivalents",
+      "Polytene chromosomes – Oocytes of amphibians"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.10"
+    ],
+    "otherChapters": [
+     "Class 11 · Cell Cycle and Cell Division"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q171",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)",
+    "note": "Lampbrush and polytene chromosomes are beyond NCERT."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2018-code-aa-q173",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following events does not occur in rough endoplasmic reticulum?",
+     "o": [
+      "Cleavage of signal peptide",
+      "Protein glycosylation",
+      "Protein folding",
+      "Phospholipid synthesis"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q173",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)",
+    "note": "NCERT: SER is the site of lipid synthesis; signal-peptide cleavage and glycosylation details are beyond NCERT."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2018-code-aa-q174",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Many ribosomes may associate with a single mRNA to form multiple copies of a polypeptide simultaneously. Such strings of ribosomes are termed as :",
+     "o": [
+      "Plastidome",
+      "Polyhedral bodies",
+      "Polysome",
+      "Nucleosome"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q174",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2019-code-s2-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following pair of organelles does not contain DNA?",
+     "o": [
+      "Lysosomes and Vacuoles",
+      "Nuclear envelope and Mitochondria",
+      "Mitochondria and Lysosomes",
+      "Chloroplast and Vacuoles"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3",
+     "8.5.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q11",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2019-code-s2-q47",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The shorter and longer arms of a submetacentric chromosome are referred to as :",
+     "o": [
+      "q-arm and p-arm respectively",
+      "m-arm and n-arm respectively",
+      "s-arm and l-arm respectively",
+      "p-arm and q-arm respectively"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q47",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)",
+    "note": "p and q arm names are beyond NCERT."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2019-code-s2-q54",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements regarding mitochondria is incorrect?",
+     "o": [
+      "Inner membrane is convoluted with infoldings.",
+      "Mitochondrial matrix contains single circular DNA molecule and ribosomes.",
+      "Outer membrane is permeable to monomers of carbohydrates, fats and proteins.",
+      "Enzymes of electron transport are embedded in outer membrane."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q54",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2019-code-s2-q68",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is not correct?",
+     "o": [
+      "Lysosomes are membrane bound structures.",
+      "Lysosomes are formed by the process of packaging in the endoplasmic reticulum.",
+      "Lysosomes have numerous hydrolytic enzymes.",
+      "The hydrolytic enzymes of lysosomes are active under acidic pH."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q68",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2019-code-s2-q76",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The concept of \"Omnis cellula-e cellula\" regarding cell division was first proposed by :",
+     "o": [
+      "Schleiden",
+      "Aristotle",
+      "Rudolf Virchow",
+      "Theodore Schwann"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q76",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2020-code-f3-q128",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which is the important site of formation of glycoproteins and glycolipids in eukaryotic cells?",
+     "o": [
+      "Golgi bodies",
+      "Polysomes",
+      "Endoplasmic reticulum",
+      "Peroxisomes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q128",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2020-code-f3-q156",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements about inclusion bodies is incorrect ?",
+     "o": [
+      "They lie free in the cytoplasm",
+      "These represent reserve material in cytoplasm.",
+      "They are not bound by any membrane.",
+      "These are involved in ingestion of food particles."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q156",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2021-code-p3-q117",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(a) Cristae — (i) Primary constriction in chromosome<br>(b) Thylakoids — (ii) Disc-shaped sacs in Golgi apparatus<br>(c) Centromere — (iii) Infoldings in mitochondria<br>(d) Cisternae — (iv) Flattened membranous sacs in stroma of plastids",
+     "o": [
+      "(a) ii, (b) iii, (c) iv, (d) i",
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) i, (b) iv, (c) iii, (d) ii",
+      "(a) iii, (b) iv, (c) i, (d) ii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3",
+     "8.5.4",
+     "8.5.5",
+     "8.5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q117",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2021-code-p3-q119",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When the centromere is situated in the middle of two equal arms of chromosomes, the chromosome is referred as :",
+     "o": [
+      "Acrocentric",
+      "Metacentric",
+      "Telocentric",
+      "Sub-metacentric"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q119",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2021-code-p3-q167",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The organelles that are included in the endomembrane system are",
+     "o": [
+      "Golgi complex, Endoplasmic reticulum, Mitochondria and Lysosomes",
+      "Endoplasmic reticulum, Mitochondria, Ribosomes and Lysosomes",
+      "Endoplasmic reticulum, Golgi complex, Lysosomes and Vacuoles",
+      "Golgi complex, Mitochondria, Ribosomes and Lysosomes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q167",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2022-code-t2-q136",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(a) Metacentric chromosome — (i) Centromere situated close to the end forming one extremely short and one very long arms<br>(b) Acrocentric chromosome — (ii) Centromere at the terminal end<br>(c) Sub-metacentric chromosome — (iii) Centromere in the middle forming two equal arms of chromosomes<br>(d) Telocentric chromosome — (iv) Centromere slightly away from the middle forming one shorter arm and one longer arm",
+     "o": [
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q136",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2022-code-t2-q159",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements with respect to Endoplasmic Reticulum is incorrect?",
+     "o": [
+      "SER is devoid of ribosomes",
+      "In prokaryotes only RER are present",
+      "SER are the sites for lipid synthesis",
+      "RER has ribosomes attached to ER"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q159",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2023-topic-wise-copy-q54",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are NOT considered as the part of endomembrane system?<br>A. Mitochondria<br>B. Endoplasmic Reticulum<br>C. Chloroplasts<br>D. Golgi complex<br>E. Peroxisomes<br>Choose the most appropriate answer from the options given below :",
+     "o": [
+      "A, D and E only",
+      "B and D only",
+      "A, C and E only",
+      "A and D only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q54",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2023-topic-wise-copy-q55",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following functions is carried out by cytoskeleton in a cell?",
+     "o": [
+      "Transportation",
+      "Nuclear division",
+      "Protein synthesis",
+      "Motility ology ion-A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q55",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2024-q156-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Mitochondria and chloroplasts are both double membrane bound organelles.<br>Statement II: Inner membrane of mitochondria is relatively less permeable, as compared to chloroplast.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are correct.",
+      "Both Statement I and Statement II are incorrect.",
+      "Statement I is correct but Statement II is incorrect.",
+      "Statement I is incorrect but Statement II is correct."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.4",
+     "8.5.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q156 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2024-q157-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Axoneme — I. Centriole<br>B. Cartwheel pattern — II. Cilia and flagella<br>C. Crista — III. Chromosome<br>D. Satellite — IV. Mitochondria",
+     "o": [
+      "Axoneme (I) Centriole",
+      "Cartwheel (II) Cilia and pattern flagella",
+      "Crista (III) Chromosome",
+      "Satellite (IV) Mitochondria Choose the correct answer from the options give below: (A) A-IV, B-III, C-II, D-I (B) A-IV, B-II, C-III, D-I (C) A-II, B-IV, C-I, D-III (D) A-II, B-I, C-IV, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.4",
+     "8.5.8",
+     "8.5.9",
+     "8.5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q157 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2024-q158-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The DNA present in chloroplast is:",
+     "o": [
+      "Linear, double stranded",
+      "Circular, double stranded",
+      "Linear, single stranded",
+      "Circular, single stranded"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q158 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2024-q159-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Nucleolus — I. Site of formation of glycolipid<br>B. Centriole — II. Organization like the cartwheel<br>C. Leucoplasts — III. Site for active ribosomal RNA synthesis<br>D. Golgi apparatus — IV. For storing nutrients",
+     "o": [
+      "A-III, B-II, C-IV, D-I",
+      "A-II, B-III, C-I, D-IV",
+      "A-III, B-IV, C-II, D-I",
+      "A-I, B-II, C-III, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q159 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options clipped at the right edge in the eSaral copy; completed from the other options (each is a permutation)."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2025-code-45-q98",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "From the statements given below choose the correct option :<br>A. The eukaryotic ribosomes are 80S and prokaryotic ribosomes are 70S.<br>B. Each ribosome has two sub-units.<br>C. The two sub-units of 80S ribosome are 60S and 40S while that of 70S are 50S and 30S.<br>D. The two sub-units of 80S ribosome are 60S and 20S and that of 70S are 50S and 20S.<br>E. The two sub-units of 80S ribosome are 60S and 30S and that of 70S are 50S and 30S.",
+     "o": [
+      "A, B, C are true",
+      "A, B, D are true p‐",
+      "A, B, E are true",
+      "B, D, E are true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q98",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2025-code-45-q121",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>A. Centromere — I. Mitochondrion<br>B. Cilium — II. Cell division<br>C. Cristae — III. Cell movement<br>D. Cell membrane — IV. Phospholipid bilayer",
+     "o": [
+      "A-II, B-III, C-I, D-IV",
+      "A-I, B-II, C-III, D-IV",
+      "A-IV, B-II, C-III, D-I",
+      "A-II, B-I, C-IV, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.10",
+     "8.5.8",
+     "8.5.4",
+     "8.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q121",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "DIFFERS from NTA final key, NEET 2025 Code 45 (4); ours: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)",
+    "note": "Our answer is option 1 by content as the copy prints the options; the NTA key differs, probably because the eSaral copy reorders the match options. Check against the Code 45 booklet."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2025-code-45-q128",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A specialised membranous structure in a prokaryotic cell which helps in cell wall formation, DNA replication and respiration is :",
+     "o": [
+      "Mesosome",
+      "Chromatophores",
+      "Cristae",
+      "Endoplasmic Reticulum"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q128",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2025-code-45-q140",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R) :<br>Assertion (A): The primary function of the Golgi apparatus is to package the materials made by the endoplasmic reticulum and deliver it to intracellular targets and outside the cell.<br>Reason (R): Vesicles containing materials made by the endoplasmic reticulum fuse with the cis face of the Golgi apparatus, and they are modified and released from the trans face of the Golgi apparatus.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q140",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio11-08-neet-2026-q106-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following is the site for active ribosomal RNA synthesis?",
+     "o": [
+      "Nucleolus",
+      "Kinetochore",
+      "Centrosome",
+      "Chromatin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q106 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q123."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2026-q161-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Non-membrane bound cell organelles found in both prokaryotic and eukaryotic cells are ___.",
+     "o": [
+      "Lysosomes",
+      "Centrosomes",
+      "Mitochondria",
+      "Ribosomes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.4.2",
+     "8.5.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q161 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q141."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2026-q173-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the correct statements regarding cell membrane in eukaryotic cell :<br>A. Membrane of human RBCs has approximately 52% protein.<br>B. Major phospholipids are arranged in a bilayer.<br>C. Extensions of the plasma membrane into the cell form mesosomes.<br>D. Tails towards the inner part of lipids are hydrophobic and thus protected from aqueous medium.<br>E. Glycocalyx is present on the outer surface of plasma membrane.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "C, D and E",
+      "B, C and E",
+      "A, B and D",
+      "A, C and D"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q173 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q153."
+   }
+  },
+  {
+   "id": "bio11-08-neet-2026-q174-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Choose the correct statements regarding cell organelles and their inclusions :<br>A. The endomembrane system includes Golgi complex, endoplasmic reticulum and mitochondria.<br>B. Rough endoplasmic reticulum bears ribosomes on its surface.<br>C. Both mitochondria and plastids have circular DNA.<br>D. A network of microtubules, microfilaments and intermediate filaments present in the cytoplasm is the cytoskeleton.<br>E. Mitochondrion is a single membrane-bound structure.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, B and E",
+      "C, D and E",
+      "A and B",
+      "B, C and D"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5",
+     "8.5.3",
+     "8.5.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q174 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q154."
+   }
+  }
+ ]
+}
