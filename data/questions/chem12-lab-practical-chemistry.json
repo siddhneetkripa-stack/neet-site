@@ -647,6 +647,184 @@
     "keyCheck": "Official NTA final key (Question ID 6911211270, option ID 6911214327): option 1 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
    }
+  },
+  {
+   "id": "chem12-lab-practical-chemistry-jee-2026-2026-01-21-shift-1-q65",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following reactions.<br>PbCl<sub>2</sub> + K<sub>2</sub>CrO<sub>4</sub> → A + 2KCl (Hot solution)<br>A + NaOH ⇌ B + Na<sub>2</sub>CrO<sub>4</sub><br>PbSO<sub>4</sub> + 4CH<sub>3</sub>COONH<sub>4</sub> → (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub> + X<br>In the above reactions, A, B and X are respectively.",
+     "o": [
+      "Na<sub>2</sub>[Pb(OH)<sub>2</sub>], PbCrO<sub>4</sub> and (NH<sub>4</sub>)<sub>2</sub>[Pb(CH<sub>3</sub>COO)<sub>4</sub>]",
+      "PbCrO<sub>4</sub>, Na<sub>2</sub>[Pb(OH)<sub>4</sub>] and (NH<sub>4</sub>)<sub>2</sub>[Pb(CH<sub>3</sub>COO)<sub>4</sub>]",
+      "PbCrO<sub>4</sub>, Na<sub>2</sub>[Pb(OH)<sub>4</sub>] and [Pb(NH<sub>3</sub>)<sub>4</sub>]SO<sub>4</sub>",
+      "Na<sub>2</sub>[Pb(OH)<sub>2</sub>], PbCrO<sub>4</sub> and [Pb(NH<sub>3</sub>)<sub>4</sub>]SO<sub>4</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-lab-practical-chemistry",
+    "paras": []
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-1 Q65",
+    "session": "21 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "lab_manual",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-lab-practical-chemistry-jee-2026-2026-01-21-shift-1-q71",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following reactions :<br>NaCl + K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + H<sub>2</sub>SO<sub>4</sub> → A + KHSO<sub>4</sub> + NaHSO<sub>4</sub> + H<sub>2</sub>O<br>A + NaOH → B + NaCl + H<sub>2</sub>O<br>B + H<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O<sub>2</sub> → C + Na<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O<br>In the product ‘C’, ‘X’ is the number of O<sub>2</sub><sup>2−</sup> units, ‘Y’ is the total number oxygen atoms present and ‘Z’ is the oxidation state of Cr. The value of X + Y + Z is ____."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 13,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-lab-practical-chemistry",
+    "paras": [],
+    "otherChapters": [
+     "Class 12 · The d- and f-Block Elements"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-1 Q71",
+    "session": "21 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "lab_manual",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (20, 13, 70, 6, 8); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-lab-practical-chemistry-jee-2026-2026-01-21-shift-2-q64",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "On heating a mixture of common salt and K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> in equal amount along with concentrated H<sub>2</sub>SO<sub>4</sub> in a test tube, a gas is evolved. Formula of the gas evolved and oxidation state of the central metal atom in the gas respectively are:",
+     "o": [
+      "CrO<sub>2</sub>Cl<sub>2</sub> and +5",
+      "CrO<sub>2</sub>Cl<sub>2</sub> and +6",
+      "Cr<sub>2</sub>O<sub>2</sub>Cl<sub>2</sub> and +6",
+      "Cr<sub>2</sub>O<sub>2</sub>Cl<sub>2</sub> and +3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-lab-practical-chemistry",
+    "paras": [],
+    "otherChapters": [
+     "Class 12 · The d- and f-Block Elements"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-2 Q64",
+    "session": "21 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "lab_manual",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-lab-practical-chemistry-jee-2026-2026-01-22-shift-2-q53",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the correct statements :<br>A. Hydrated salts can be used as primary standard.<br>B. Primary standard should not undergo any reaction with air.<br>C. Reactions of primary standard with another substance should be instantaneous and stoichiometric.<br>D. Primary standard should not be soluble in water.<br>E. Primary standard should have low relative molar mass.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, B, C and E Only",
+      "A, B and C Only",
+      "A, B and E Only",
+      "D and E Only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-lab-practical-chemistry",
+    "paras": []
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-2 Q53",
+    "session": "22 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "lab_manual",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Hydrated salts such as oxalic acid dihydrate and Mohr's salt are used as primary standards in the NCERT lab manual."
+   }
   }
  ]
 }

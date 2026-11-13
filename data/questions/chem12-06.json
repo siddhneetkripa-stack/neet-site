@@ -1656,6 +1656,239 @@
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
     "note": "Diagram question: the paper shows structures; written here in text. Needs a redrawn figure before it goes live."
    }
+  },
+  {
+   "id": "chem12-06-jee-2026-2026-01-21-shift-2-q66",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct order of the rate of the reaction for the following reaction with respect to nucleophiles is : CH<sub>3</sub>Br + Nu<sup>−</sup> → CH<sub>3</sub>Nu + Br<sup>−</sup>",
+     "o": [
+      "ClO<sub>4</sub><sup>−</sup> &gt; CH<sub>3</sub>COO<sup>−</sup> &gt; <sup>−</sup>OH &gt; PhO<sup>−</sup>",
+      "CH<sub>3</sub>COO<sup>−</sup> &gt; PhO<sup>−</sup> &gt; <sup>−</sup>OH &gt; ClO<sub>4</sub><sup>−</sup>",
+      "<sup>−</sup>OH &gt; PhO<sup>−</sup> &gt; CH<sub>3</sub>COO<sup>−</sup> &gt; ClO<sub>4</sub><sup>−</sup>",
+      "PhO<sup>−</sup> &gt; <sup>−</sup>OH &gt; CH<sub>3</sub>COO<sup>−</sup> &gt; ClO<sub>4</sub><sup>−</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-2 Q66",
+    "session": "21 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-06-jee-2026-2026-01-21-shift-2-q70",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct order of reactivity of the following benzyl halides towards reaction with KCN is (assume the substitution proceeds by the S<sub>N</sub>1 mechanism): a = 4-hydroxybenzyl bromide, b = 4-aminobenzyl bromide, c = 4-nitrobenzyl bromide, d = 3-nitrobenzyl bromide [drawn in the paper]",
+     "o": [
+      "b &gt; a &gt; d &gt; c",
+      "a &gt; b &gt; c &gt; d",
+      "a &gt; b &gt; d &gt; c",
+      "b &gt; a &gt; c &gt; d"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-2 Q70",
+    "session": "21 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Reworded from the original paper to remove an ambiguity: the paper does not say whether KCN reacts by S<sub>N</sub>1 or S<sub>N</sub>2, which reverses the effect of the nitro groups. With S<sub>N</sub>1 stated, the order follows carbocation stability: NH<sub>2</sub> &gt; OH (electron donors), then m-NO<sub>2</sub> &gt; p-NO<sub>2</sub>. Structures named here; needs redrawn figures."
+   }
+  },
+  {
+   "id": "chem12-06-jee-2026-2026-01-22-shift-1-q54",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct order of reactivity of CH<sub>3</sub>Br in methanol with the following nucleophiles is F<sup>−</sup>, I<sup>−</sup>, C<sub>2</sub>H<sub>5</sub>O<sup>−</sup> and C<sub>6</sub>H<sub>5</sub>O<sup>−</sup>",
+     "o": [
+      "I<sup>−</sup> &gt; C<sub>2</sub>H<sub>5</sub>O<sup>−</sup> &gt; C<sub>6</sub>H<sub>5</sub>O<sup>−</sup> &gt; F<sup>−</sup>",
+      "I<sup>−</sup> &gt; C<sub>2</sub>H<sub>5</sub>O<sup>−</sup> &gt; F<sup>−</sup> &gt; C<sub>6</sub>H<sub>5</sub>O<sup>−</sup>",
+      "I<sup>−</sup> &gt; F<sup>−</sup> &gt; C<sub>6</sub>H<sub>5</sub>O<sup>−</sup> &gt; C<sub>2</sub>H<sub>5</sub>O<sup>−</sup>",
+      "I<sup>−</sup> &gt; C<sub>6</sub>H<sub>5</sub>O<sup>−</sup> &gt; F<sup>−</sup> &gt; C<sub>2</sub>H<sub>5</sub>O<sup>−</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-1 Q54",
+    "session": "22 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-06-jee-2026-2026-01-22-shift-1-q58",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "As compared with chlorocyclohexane, which of the following statements correctly apply to chlorobenzene?<br>A. The magnitude of negative charge is more on chlorine atom.<br>B. The C − Cl bond has partial double bond character.<br>C. C − Cl bond is less polar.<br>D. C − Cl bond is longer due to repulsion between delocalised electrons of the aromatic ring and lone pairs of electrons of chlorine.<br>E. The C − Cl bond is formed using sp<sup>2</sup> hybridised orbital of carbon.<br>Choose the correct answer from the options given below:",
+     "o": [
+      "B, C and E Only",
+      "B, C and D Only",
+      "A, D and E Only",
+      "A, C and E Only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.3",
+     "6.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-1 Q58",
+    "session": "22 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-06-jee-2026-2026-01-22-shift-1-q61",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct order of the rate of reaction of the following reactants with nucleophile by S<sub>N</sub>1 mechanism is : (Given : Structures I and II are rigid) I = 1-bromobicyclo[2.2.2]octane, II = 1-bromobicyclo[2.2.1]heptane (bridgehead), III = tert-butyl bromide, IV = triphenylmethyl bromide [drawn in the paper]",
+     "o": [
+      "I &lt; II &lt; III &lt; IV",
+      "II &lt; I &lt; III &lt; IV",
+      "IV &lt; III &lt; II &lt; I",
+      "III &lt; I &lt; II &lt; IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-1 Q61",
+    "session": "22 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Diagram question: structures named here; needs redrawn figures."
+   }
   }
  ]
 }

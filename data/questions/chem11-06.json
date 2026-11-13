@@ -2906,6 +2906,93 @@
     "keyCheck": "Official NTA final key (Question ID 691121600): 4; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
    }
+  },
+  {
+   "id": "chem11-06-jee-2026-2026-01-21-shift-2-q74",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The first and second ionization constants of H<sub>2</sub>X are 2.5 × 10<sup>−8</sup> and 1.0 × 10<sup>−13</sup> respectively. The concentration of X<sup>2−</sup> in 0.1 M H<sub>2</sub>X solution is _____ × 10<sup>−15</sup> M. (Nearest Integer)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 100,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-2 Q74",
+    "session": "21 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (3, 15, 100, 200, 7); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem11-06-jee-2026-2026-01-22-shift-2-q54",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following mixture gives a buffer solution with pH = 9.25 ? Given : pK<sub>b</sub> (NH<sub>4</sub>OH) = 4.75",
+     "o": [
+      "0.4 M NH<sub>4</sub>OH (1 L) + 0.1 M HCl (1 L)",
+      "0.2 M NH<sub>4</sub>OH (0.5 L) + 0.1 M HCl (0.5 L)",
+      "0.5 M NH<sub>4</sub>OH (0.2 L) + 0.2 M HCl (0.5 L)",
+      "0.2 M NH<sub>4</sub>OH (0.4 L) + 0.1 M HCl (1 L)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.12.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-2 Q54",
+    "session": "22 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
   }
  ]
 }

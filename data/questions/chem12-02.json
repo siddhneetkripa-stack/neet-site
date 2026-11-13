@@ -1883,6 +1883,268 @@
     "keyCheck": "Official NTA final key (Question ID 691121581, option ID 6911211977): option 2 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
    }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-21-shift-1-q73",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The pH and conductance of a weak acid (HX) was found to be 5 and 4 × 10<sup>−5</sup> S, respectively. The conductance was measured under standard condition using a cell where the electrode plates having a surface area of 1 cm<sup>2</sup> were at a distance of 15 cm apart. The value of the limiting molar conductivity is ____ S m<sup>2</sup> mol<sup>−1</sup>. (nearest integer) (Given : degree of dissociation of the weak acid (α) ≪ 1)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 6,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.1",
+     "2.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-1 Q73",
+    "session": "21 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (20, 13, 70, 6, 8); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-21-shift-2-q67",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a closed circuit Daniell cell, which of the following plots is the accurate one at a given temperature? [four graphs of E°<sub>cell</sub> against time]",
+     "o": [
+      "E°<sub>cell</sub> constant with time (horizontal line)",
+      "E°<sub>cell</sub> falling linearly with time",
+      "E°<sub>cell</sub> rising with time",
+      "E°<sub>cell</sub> dropping to zero at one instant (vertical line)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.2",
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-2 Q67",
+    "session": "21 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Diagram question: the options are graphs, described here; needs redrawn figures. E° is a standard value, so it does not change as the cell runs (E<sub>cell</sub> would fall)."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-21-shift-2-q72",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "MX is a sparingly soluble salt that follows the given solubility equilibrium at 298 K. MX(s) ⇌ M<sup>+</sup>(aq) + X<sup>−</sup>(aq); K<sub>sp</sub> = 10<sup>−10</sup><br>If the standard reduction potential for M<sup>+</sup>(aq) + e<sup>−</sup> → M(s) is (E°<sub>M<sup>+</sup>/M</sub>) = 0.79 V, then the value of the standard reduction potential for the metal/metal insoluble salt electrode E°<sub>X<sup>−</sup>/MX(s)/M</sub> is ____ mV. (nearest integer) [Given : 2.303RT/F = 0.059 V]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 200,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Equilibrium (solubility product)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-2 Q72",
+    "session": "21 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (3, 15, 100, 200, 7); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-22-shift-1-q73",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following electrochemical cell at 298 K: Pt | HSnO<sub>2</sub><sup>−</sup>(aq) | Sn(OH)<sub>6</sub><sup>2−</sup>(aq) | OH<sup>−</sup>(aq) | Bi<sub>2</sub>O<sub>3</sub>(s) | Bi(s).<br>If the reaction quotient at a given time is 10<sup>6</sup>, then the cell EMF (E<sub>cell</sub>) is ____ × 10<sup>−1</sup> V (Nearest integer).<br>Given the standard half-cell reduction potential as E°<sub>Bi<sub>2</sub>O<sub>3</sub>/Bi, OH<sup>−</sup></sub> = −0.44 V and E°<sub>Sn(OH)<sub>6</sub><sup>2−</sup>/HSnO<sub>2</sub><sup>−</sup>, OH<sup>−</sup></sub> = −0.90 V"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 4,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-1 Q73",
+    "session": "22 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (33, 4, 1303, 66, 43); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-22-shift-2-q56",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following reduction processes :<br>Al<sup>3+</sup> + 3e<sup>−</sup> → Al(s), E° = −1.66 V<br>Fe<sup>3+</sup> + e<sup>−</sup> → Fe<sup>2+</sup>, E° = +0.77 V<br>Co<sup>3+</sup> + e<sup>−</sup> → Co<sup>2+</sup>, E° = +1.81 V<br>Cr<sup>3+</sup> + 3e<sup>−</sup> → Cr(s), E° = −0.74 V<br>The tendency to act as reducing agent decreases in the order :",
+     "o": [
+      "Cr &gt; Fe<sup>2+</sup> &gt; Al &gt; Co<sup>2+</sup>",
+      "Al &gt; Cr &gt; Co<sup>2+</sup> &gt; Fe<sup>2+</sup>",
+      "Al &gt; Cr &gt; Fe<sup>2+</sup> &gt; Co<sup>2+</sup>",
+      "Al &gt; Fe<sup>2+</sup> &gt; Cr &gt; Co<sup>2+</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-2 Q56",
+    "session": "22 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-22-shift-2-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following electrochemical cell: Pt | O<sub>2</sub>(g)(1 bar) | HCl(aq) || M<sup>2+</sup>(aq, 1.0 M) | M(s). The pH above which, oxygen gas would start to evolve at anode is ____ (nearest integer).<br>[Given: standard reduction potentials E°<sub>M<sup>2+</sup>/M</sub> = 0.994 V, E°<sub>O<sub>2</sub>/H<sub>2</sub>O</sub> = 1.23 V]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 4,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-2 Q75",
+    "session": "22 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (1031, 4, 57, 3, 10); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
   }
  ]
 }

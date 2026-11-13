@@ -2799,6 +2799,240 @@
     "keyCheck": "Official NTA final key (Question ID 691121590, option ID 6911212013): option 2 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
    }
+  },
+  {
+   "id": "chem11-09-jee-2026-2026-01-21-shift-1-q57",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify A in the following reaction. A —2H<sub>2</sub>/Pt→ decalin (bicyclo[4.4.0]decane); A —KMnO<sub>4</sub>, Δ→ cyclohexane-1,2-dicarboxylic acid + oxalic acid (HOOC–COOH). [four hexahydronaphthalenes/octahydronaphthalenes drawn as options]",
+     "o": [
+      "[structure (A): double bonds in both rings, as drawn]",
+      "[structure (B): one ring saturated, the other ring with two conjugated C=C at C5=C6 and C7=C8]",
+      "[structure (C): C=C at the ring fusion]",
+      "[structure (D): one isolated C=C in each ring]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Aldehydes, Ketones and Carboxylic Acids"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-1 Q57",
+    "session": "21 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Diagram question: options are bond-line structures (described here). The products show one ring survives saturated and the other is cleaved at C5=C6 and C7=C8 (C6–C7 becomes oxalic acid). Needs redrawn figures."
+   }
+  },
+  {
+   "id": "chem11-09-jee-2026-2026-01-22-shift-1-q64",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements:<br>Statement I : Benzene is nitrated to give nitrobenzene, which on further treatment with CH<sub>3</sub>COCl/AlCl<sub>3</sub> will give 3-nitroacetophenone.<br>Statement II : −NO<sub>2</sub> group is a m-directing, and deactivating group.<br>In the light of the above statements, choose the most appropriate answer from the options given below",
+     "o": [
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct",
+      "Both Statement I and Statement II are incorrect",
+      "Both Statement I and Statement II are correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.5.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-1 Q64",
+    "session": "22 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem11-09-jee-2026-2026-01-22-shift-1-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The cycloalkene (X) on bromination consumes one mole of bromine per mole of (X) and gives the product (Y) in which C : Br ratio is 3:1. The percentage of bromine in the product (Y) is ____ %. (Nearest integer)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 66,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-1 Q75",
+    "session": "22 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (33, 4, 1303, 66, 43); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem11-09-jee-2026-2026-01-22-shift-2-q57",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following reaction : CH<sub>3</sub>CH<sub>2</sub>CH(Br)CH<sub>2</sub>Br + 2NaNH<sub>2</sub> → X —(i) NaNH<sub>2</sub> (ii) (CH<sub>3</sub>)<sub>2</sub>CH–Br→ Y<br>The product Y formed is :",
+     "o": [
+      "5-methylhex-2-yne",
+      "2-methylhex-3-yne",
+      "Isopropylbut-1-yne",
+      "2-methylhex-2-yne"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-2 Q57",
+    "session": "22 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "The dibromide is drawn as a bond-line structure in the paper; written here as a condensed formula."
+   }
+  },
+  {
+   "id": "chem11-09-jee-2026-2026-01-22-shift-2-q66",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The dibromo compound [P] (molecular formula : C<sub>9</sub>H<sub>10</sub>Br<sub>2</sub>) when heated with excess sodamide followed by treatment with dilute HCl gives [Q]. On warming [Q] with mercuric sulphate and dilute sulphuric acid yield [R] which gives positive Iodoform test but negative Tollen's test. The compound [P] is :",
+     "o": [
+      "4-CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>–CBr<sub>2</sub>–CH<sub>3</sub>",
+      "C<sub>6</sub>H<sub>5</sub>–C(Br)(CH<sub>3</sub>)–CH<sub>2</sub>Br",
+      "2-CH<sub>3</sub>-C<sub>6</sub>H<sub>3</sub>(CH<sub>2</sub>Br)<sub>2</sub> (a xylylene dibromide)",
+      "[a methylcyclohexadiene carrying –C(Br)=CHBr, drawn in the paper]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.4"
+    ],
+    "otherChapters": [
+     "Class 12 · Aldehydes, Ketones and Carboxylic Acids"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-2 Q66",
+    "session": "22 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Diagram question: options are structures, written here as formulae (option 3 partly clipped in the copy); needs redrawn figures."
+   }
   }
  ]
 }

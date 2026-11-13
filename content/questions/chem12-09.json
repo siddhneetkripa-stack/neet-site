@@ -2205,6 +2205,334 @@
     "keyCheck": "Official NTA final key (Question ID 691121593, option ID 6911212026): option 3 in the official paper's order; matches our solving",
     "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
    }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-01-21-shift-1-q53",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An organic compound (P) on treatment with aqueous ammonia under hot condition forms compound (Q) which on heating with Br<sub>2</sub> and KOH forms compound (R) having molecular formula C<sub>6</sub>H<sub>7</sub>N. Names of P, Q and R respectively are.",
+     "o": [
+      "Benzoic acid, benzamide, aniline",
+      "Benzoic acid, 4-methylbenzamide, 4-methylaniline",
+      "Phenylethanoic acid, phenylethanamide, benzamine",
+      "Toluic acid, methylbenzamide, 2-methylaniline"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-1 Q53",
+    "session": "21 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-01-21-shift-1-q70",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A hydrocarbon ‘P’ (C<sub>4</sub>H<sub>8</sub>) on reaction with HCl gives an optically active compound ‘Q’ (C<sub>4</sub>H<sub>9</sub>Cl) which on reaction with one mole of ammonia gives compound ‘R’ (C<sub>4</sub>H<sub>11</sub>N). ‘R’ on diazotization followed by hydrolysis gives ‘S’. Identify P, Q, R and S. [options are sets of condensed structures]",
+     "o": [
+      "[set (A) drawn in the paper: P = but-1-ene with branched Q, R and S]",
+      "P = CH<sub>3</sub>–CH=CH–CH<sub>3</sub>, Q = CH<sub>3</sub>–CH<sub>2</sub>–CHCl–CH<sub>3</sub>, R = CH<sub>3</sub>–CH<sub>2</sub>–CH(NH<sub>2</sub>)–CH<sub>3</sub>, S = CH<sub>3</sub>–CH<sub>2</sub>–CH(OH)–CH<sub>3</sub>",
+      "[set (C) drawn in the paper: P = but-2-ene with 1-substituted Q, R and S]",
+      "[set (D) drawn in the paper: cyclopropane-based P, Q, R and S]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.4",
+     "9.6"
+    ],
+    "otherChapters": [
+     "Class 12 · Haloalkanes and Haloarenes",
+     "Class 11 · Hydrocarbons"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-1 Q70",
+    "session": "21 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Diagram question: options (1), (3) and (4) are sets of structures to be redrawn from the paper; option (2) is transcribed exactly."
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-01-21-shift-1-q74",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following reaction sequence: benzene —conc. HNO<sub>3</sub> + conc. H<sub>2</sub>SO<sub>4</sub>, 333 K→ P —1. Sn/HCl/Δ 2. pH neutralised→ Q —(CH<sub>3</sub>CO)<sub>2</sub>O→ R —conc. HNO<sub>3</sub> + conc. H<sub>2</sub>SO<sub>4</sub>→ S (major product) —1. HCl/EtOH, Δ 2. pH neutralised→ T. The percentage of nitrogen in product ‘T’ formed is ____ %. (Nearest integer) (Given molar mass in g mol<sup>−1</sup> H : 1, C : 12, N : 14, O : 16)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 20,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-1 Q74",
+    "session": "21 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (20, 13, 70, 6, 8); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-01-21-shift-2-q53",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Nitrobenzene —(1) Br<sub>2</sub>/FeBr<sub>3</sub>/Δ (2) Sn/HCl/Δ (3) pH neutralisation (4) Br<sub>2</sub>/H<sub>2</sub>O (5) NaNO<sub>2</sub>/HBr, 0–5°C (6) CuBr/NaBr→ Major Product (P)<br>Consider the above sequence of reactions. The number of bromine atom(s) in the final product (P) will be:",
+     "o": [
+      "1",
+      "5",
+      "6",
+      "3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.6",
+     "9.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-2 Q53",
+    "session": "21 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-01-22-shift-1-q66",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "‘A’ is a neutral organic compound (M.F : C<sub>8</sub>H<sub>9</sub>ON). On treatment with aqueous Br<sub>2</sub>/HO<sup>−</sup>, ‘A’ forms a compound ‘B’ which is soluble in dilute acid. ‘B’ on treatment with aqueous NaNO<sub>2</sub>/HCl (0 – 5°C) produces a compound ‘C’ which on treatment with CuCN/NaCN produces ‘D’. Hydrolysis of ‘D’ produces ‘E’ which is also obtainable from the hydrolysis of ‘A’. ‘E’ on treatment with acidified KMnO<sub>4</sub> produces ‘F’. ‘F’ contains two different types of hydrogen atoms. The structure of ‘A’ is",
+     "o": [
+      "N-methylbenzamide",
+      "2-methylbenzamide",
+      "4-methylbenzamide",
+      "3-methylbenzamide"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.4",
+     "9.10"
+    ],
+    "otherChapters": [
+     "Class 12 · Aldehydes, Ketones and Carboxylic Acids"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-1 Q66",
+    "session": "22 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Options are drawn as structures in the paper; named here."
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-01-22-shift-2-q64",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Cyclohexylmethanamine, C<sub>6</sub>H<sub>11</sub>CH<sub>2</sub>NH<sub>2</sub> —C<sub>6</sub>H<sub>5</sub>COCl, NaOH→ [A] —LiAlH<sub>4</sub>, H<sub>2</sub>O→ [B]. The final product [B] is :",
+     "o": [
+      "C<sub>6</sub>H<sub>11</sub>CH<sub>2</sub>–NH–CO–C<sub>6</sub>H<sub>5</sub>",
+      "C<sub>6</sub>H<sub>11</sub>CH<sub>2</sub>–NH–CH<sub>2</sub>–C<sub>6</sub>H<sub>5</sub>",
+      "C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>–NH–CO–C<sub>6</sub>H<sub>11</sub>",
+      "C<sub>6</sub>H<sub>11</sub>CH<sub>2</sub>–NH–CH(OH)–C<sub>6</sub>H<sub>5</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.6"
+    ],
+    "otherChapters": [
+     "Class 12 · Aldehydes, Ketones and Carboxylic Acids"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-2 Q64",
+    "session": "22 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Diagram question: options are structures, written here as condensed formulae."
+   }
+  },
+  {
+   "id": "chem12-09-jee-2026-2026-01-22-shift-2-q73",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The mass of benzanilide obtained from the benzoylation reaction of 5.8 g of aniline, if yield of product is 82%, is ____ g (nearest integer). (Given molar mass in g mol<sup>−1</sup> : H : 1, C : 12, N : 14, O : 16)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 10,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-2 Q73",
+    "session": "22 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (1031, 4, 57, 3, 10); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
   }
  ]
 }
