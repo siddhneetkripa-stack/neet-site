@@ -73,10 +73,22 @@
       "Endemic",
       "Rare",
       "Keystone"
-     ]
+     ],
+     "sol": "<p>A species confined to a particular region and found nowhere else is <b>endemic</b>. Biodiversity hotspots are regions of high endemism. Alien species are introduced from elsewhere.</p>",
+     "hint": "Found only there."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी विशेष क्षेत्र तक सीमित तथा अन्यत्र न पाई जाने वाली जाति कहलाती है :",
+     "o": [
+      "विदेशी",
+      "स्थानिक",
+      "दुर्लभ",
+      "कीस्टोन (keystone)"
+     ],
+     "sol": "<p>किसी विशेष क्षेत्र तक सीमित और अन्यत्र कहीं न पाई जाने वाली जाति <b>स्थानिक</b> कहलाती है। जैव विविधता हॉट-स्पॉट उच्च स्थानिकता वाले क्षेत्र हैं। विदेशी जातियाँ बाहर से लाई जाती हैं।</p>",
+     "hint": "केवल वहीं पाई जाती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -119,10 +131,22 @@
       "River dolphin",
       "Blue whale",
       "Sea – horse"
-     ]
+     ],
+     "sol": "<p>The Gangetic <b>river dolphin</b> was declared the National Aquatic Animal of India in 2009. (Not in NCERT.)</p>",
+     "hint": "Ganges, freshwater mammal."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "भारत का राष्ट्रीय जलीय जंतु कौन-सा है?",
+     "o": [
+      "गंगा शार्क",
+      "नदी डॉल्फिन",
+      "ब्लू ह्वेल",
+      "समुद्री घोड़ा"
+     ],
+     "sol": "<p>गंगा की <b>नदी डॉल्फिन</b> को 2009 में भारत का राष्ट्रीय जलीय जंतु घोषित किया गया। (NCERT में नहीं।)</p>",
+     "hint": "गंगा, मीठे जल का स्तनधारी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -162,14 +186,26 @@
      "status": "draft",
      "q": "Which of the following is the most important cause of animals and plants being driven to extinction ?",
      "o": [
-      "Over – exploitation",
+      "Over-exploitation",
       "Alien species invasion",
       "Habitat loss and fragmentation",
-      "Co – extinctions"
-     ]
+      "Co-extinctions"
+     ],
+     "sol": "<p>Of the four main causes of biodiversity loss ('the evil quartet'), <b>habitat loss and fragmentation</b> is the most important cause driving animals and plants to extinction (e.g. clearing of tropical rain forests).</p>",
+     "hint": "NCERT calls it the most important cause."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जंतुओं तथा पादपों के विलुप्त होने का सबसे महत्वपूर्ण कारण निम्नलिखित में से कौन-सा है?",
+     "o": [
+      "अतिदोहन",
+      "विदेशी जातियों का आक्रमण",
+      "आवासीय क्षति तथा विखंडन",
+      "सहविलुप्तता"
+     ],
+     "sol": "<p>जैव विविधता ह्रास के चार मुख्य कारणों में से <b>आवासीय क्षति तथा विखंडन</b> जंतुओं और पादपों के विलुप्तीकरण का सबसे मुख्य कारण है (जैसे उष्ण कटिबंधीय वर्षा वनों की कटाई)।</p>",
+     "hint": "NCERT इसे मुख्य कारण कहता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -212,10 +248,22 @@
       "25",
       "34",
       "43"
-     ]
+     ],
+     "sol": "<p>Norman Myers first identified 25 biodiversity hotspots; 9 more were added later, giving a total of <b>34</b> hotspots in the world.</p>",
+     "hint": "25 + 9."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नॉर्मन मायर्स द्वारा अब तक विश्व में कितने जैव विविधता हॉट-स्पॉट चिह्नित किए गए हैं?",
+     "o": [
+      "17",
+      "25",
+      "34",
+      "43"
+     ],
+     "sol": "<p>पहले 25 जैव विविधता हॉट-स्पॉट चिह्नित किए गए; बाद में 9 और जोड़े गए, जिससे संसार में कुल <b>34</b> हॉट-स्पॉट हैं।</p>",
+     "hint": "25 + 9।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -258,10 +306,22 @@
       "Age pyramid – Biome",
       "Parthenium hysterophorus – Threat to biodiversity",
       "Stratification – Population"
-     ]
+     ],
+     "sol": "<p><i>Parthenium hysterophorus</i> (carrot grass), an alien invasive weed, is a threat to native biodiversity — correctly matched. Aerenchyma belongs to hydrophytes, not <i>Opuntia</i>; age pyramids describe populations, not biomes; stratification is a community feature.</p>",
+     "hint": "NCERT lists Parthenium among invasive species."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा सही सुमेलित है?",
+     "o": [
+      "वायूतक – <i>Opuntia</i>",
+      "आयु पिरामिड – जीवोम",
+      "<i>Parthenium hysterophorus</i> – जैव विविधता के लिए खतरा",
+      "स्तरविन्यास – समष्टि"
+     ],
+     "sol": "<p><i>Parthenium hysterophorus</i> (गाजर घास), एक विदेशी आक्रामक खरपतवार, स्थानीय जैव विविधता के लिए खतरा है — सही सुमेलित। वायूतक जलोद्भिदों का लक्षण है, <i>Opuntia</i> का नहीं; आयु पिरामिड समष्टि का होता है, जीवोम का नहीं; स्तरविन्यास समुदाय का लक्षण है।</p>",
+     "hint": "NCERT पार्थेनियम को आक्रामक जातियों में गिनाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -307,10 +367,22 @@
       "Plants whose products are in international trade",
       "Threatened species",
       "Marine vertebrates only"
-     ]
+     ],
+     "sol": "<p>The IUCN Red List documents <b>threatened species</b> and those that have become extinct (e.g. 784 extinctions in the last 500 years, Red List 2004).</p>",
+     "hint": "IUCN's list of species at risk."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "लाल सूची में किसके आँकड़े या जानकारी होती है?",
+     "o": [
+      "सभी आर्थिक महत्व के पादप",
+      "वे पादप जिनके उत्पाद अंतरराष्ट्रीय व्यापार में हैं",
+      "संकटग्रस्त जातियाँ",
+      "केवल समुद्री कशेरुकी"
+     ],
+     "sol": "<p>IUCN की लाल सूची <b>संकटग्रस्त जातियों</b> तथा विलुप्त हो चुकी जातियों का अभिलेख रखती है (जैसे पिछले 500 वर्षों में 784 विलोपन, लाल सूची 2004)।</p>",
+     "hint": "संकट में पड़ी जातियों की IUCN सूची।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -353,10 +425,22 @@
       "Bandhavgarh National Park, Madhya Pradesh",
       "Eaglenest Wildlife Sanctuary, Arunachal Pradesh",
       "Dachigam National Park, Jammu & Kashmir"
-     ]
+     ],
+     "sol": "<p>The Kashmir stag (hangul) is found in <b>Dachigam National Park, Jammu &amp; Kashmir</b>. Keibul Lamjao is known for the brow-antlered deer (sangai). (Not in NCERT; note that the hangul is a red deer, not a musk deer.)</p>",
+     "hint": "Hangul is the Kashmir stag."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा राष्ट्रीय उद्यान प्रसिद्ध कस्तूरी मृग या हंगुल का निवास है?",
+     "o": [
+      "कीबुल लामजाओ राष्ट्रीय उद्यान, मणिपुर",
+      "बांधवगढ़ राष्ट्रीय उद्यान, मध्य प्रदेश",
+      "ईगलनेस्ट वन्यजीव अभ्यारण, अरुणाचल प्रदेश",
+      "दाचीगाम राष्ट्रीय उद्यान, जम्मू &amp; कश्मीर"
+     ],
+     "sol": "<p>कश्मीरी बारहसिंगा (हंगुल) <b>दाचीगाम राष्ट्रीय उद्यान, जम्मू &amp; कश्मीर</b> में पाया जाता है। कीबुल लामजाओ संगाई हिरण के लिए प्रसिद्ध है। (NCERT में नहीं; हंगुल वास्तव में लाल हिरण है, कस्तूरी मृग नहीं।)</p>",
+     "hint": "हंगुल कश्मीरी बारहसिंगा है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -400,10 +484,22 @@
       "Buffer zone",
       "Transition zone",
       "Restoration zone"
-     ]
+     ],
+     "sol": "<p>A biosphere reserve has a legally protected <b>core zone</b> where no human activity is allowed, surrounded by a buffer zone (limited activity) and a transition zone (human settlements, research). (Zones are beyond the current NCERT text.)</p>",
+     "hint": "The innermost, fully protected zone."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जीवमंडल आरक्षिति का वह क्षेत्र जो कानूनी रूप से संरक्षित है तथा जहाँ किसी मानवीय गतिविधि की अनुमति नहीं है, कहलाता है :",
+     "o": [
+      "क्रोड क्षेत्र",
+      "बफर क्षेत्र",
+      "संक्रमण क्षेत्र",
+      "पुनर्स्थापन क्षेत्र"
+     ],
+     "sol": "<p>जीवमंडल आरक्षिति में कानूनी रूप से संरक्षित <b>क्रोड क्षेत्र</b> होता है जहाँ कोई मानवीय गतिविधि नहीं होती, उसके चारों ओर बफर क्षेत्र (सीमित गतिविधि) और संक्रमण क्षेत्र (मानव बस्तियाँ, अनुसंधान) होते हैं। (क्षेत्रों का विवरण वर्तमान NCERT पाठ से बाहर है।)</p>",
+     "hint": "सबसे भीतरी, पूर्ण संरक्षित क्षेत्र।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -447,10 +543,22 @@
       "Biodiversity hot spots",
       "Amazon rainforest",
       "Himalayan region"
-     ]
+     ],
+     "sol": "<p>Ex-situ conservation protects threatened species outside their natural habitat — zoological parks, botanical gardens, <b>wildlife safari parks</b>, seed banks. Hotspots, the Amazon and the Himalaya are natural habitats (in-situ).</p>",
+     "hint": "Ex-situ means outside the habitat."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा संकटग्रस्त जंतुओं तथा पादपों के बाह्यस्थाने संरक्षण से संबंधित है?",
+     "o": [
+      "वन्य जीव सफारी पार्क",
+      "जैव विविधता हॉट-स्पॉट",
+      "अमेजन वर्षा वन",
+      "हिमालय क्षेत्र"
+     ],
+     "sol": "<p>बाह्यस्थाने संरक्षण संकटग्रस्त जातियों को उनके प्राकृतिक आवास से बाहर सुरक्षित रखता है — जंतु उद्यान, वनस्पतिय उद्यान, <b>वन्य जीव सफारी पार्क</b>, बीज बैंक। हॉट-स्पॉट, अमेजन और हिमालय प्राकृतिक आवास हैं (स्वस्थाने)।</p>",
+     "hint": "बाह्यस्थाने अर्थात् आवास से बाहर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -493,10 +601,22 @@
       "Laws of limiting factor",
       "Species area relationships",
       "Population Growth equation"
-     ]
+     ],
+     "sol": "<p>During his explorations of South American jungles, Alexander von Humboldt observed that species richness increases with the explored area up to a limit — the <b>species–area relationship</b> (log S = log C + Z log A).</p>",
+     "hint": "Bigger area, more species."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अलेक्जैंडर वॉन हम्बोल्ट ने सबसे पहले किसका वर्णन किया?",
+     "o": [
+      "पारिस्थितिक जैव विविधता",
+      "सीमाकारी कारकों के नियम",
+      "जाति-क्षेत्र संबंध",
+      "समष्टि वृद्धि समीकरण"
+     ],
+     "sol": "<p>दक्षिणी अमेरिका के जंगलों के अन्वेषण में अलेक्जैंडर वॉन हम्बोल्ट ने देखा कि किसी क्षेत्र की जातीय समृद्धि एक सीमा तक अन्वेषित क्षेत्र के साथ बढ़ती है — <b>जाति-क्षेत्र संबंध</b> (log S = log C + Z log A)।</p>",
+     "hint": "अधिक क्षेत्र, अधिक जातियाँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -539,10 +659,22 @@
       "Sacred groves",
       "Wildlife safari parks",
       "Seed banks"
-     ]
+     ],
+     "sol": "<p>Botanical gardens, wildlife safari parks and seed banks are ex-situ. <b>Sacred groves</b> — forest patches protected by tribal communities on religious grounds — conserve species in their natural habitat, i.e. in-situ.</p>",
+     "hint": "Which one is a natural forest?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित सभी 'बाह्यस्थाने संरक्षण' में सम्मिलित हैं, सिवाय :",
+     "o": [
+      "वनस्पतिय उद्यान",
+      "पवित्र उपवन",
+      "वन्य जीव सफारी पार्क",
+      "बीज बैंक"
+     ],
+     "sol": "<p>वनस्पतिय उद्यान, वन्य जीव सफारी पार्क और बीज बैंक बाह्यस्थाने हैं। <b>पवित्र उपवन</b> — धार्मिक आधार पर जनजातियों द्वारा संरक्षित वन खंड — जातियों को उनके प्राकृतिक आवास में, अर्थात् स्वस्थाने, संरक्षित करते हैं।</p>",
+     "hint": "कौन-सा प्राकृतिक वन है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -585,10 +717,22 @@
       "for immediate steps to discontinue use of CFCs that were damaging the ozone layer",
       "to reduce CO<sub>2</sub> emissions and global warming",
       "for conservation of biodiversity and sustainable utilization of its benefits"
-     ]
+     ],
+     "sol": "<p>The historic Convention on Biological Diversity ('The Earth Summit', Rio de Janeiro, 1992) called upon all nations to take measures <b>for conservation of biodiversity and sustainable utilisation of its benefits</b>. CFCs relate to the Montreal Protocol and CO<sub>2</sub> to the Kyoto Protocol.</p>",
+     "hint": "Convention on Biological Diversity."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "1992 में रियो डी जेनेरियो में हुआ पृथ्वी सम्मेलन किसलिए बुलाया गया था?",
+     "o": [
+      "आक्रामक खरपतवार जातियों से स्थानिक जातियों को होने वाले खतरे का आकलन करने के लिए",
+      "ओज़ोन परत को हानि पहुँचा रहे CFC का उपयोग बंद करने के तात्कालिक उपायों के लिए",
+      "CO<sub>2</sub> उत्सर्जन तथा भूमंडलीय ऊष्मण घटाने के लिए",
+      "जैव विविधता के संरक्षण तथा उसके लाभों के धारणीय उपयोग के लिए"
+     ],
+     "sol": "<p>जैव विविधता पर ऐतिहासिक सम्मेलन ('पृथ्वी सम्मेलन', रियो डी जेनेरियो, 1992) ने सभी राष्ट्रों से <b>जैव विविधता के संरक्षण तथा उसके लाभों के धारणीय उपयोग</b> के उपाय करने का आह्वान किया। CFC मॉन्ट्रियल प्रोटोकॉल से और CO<sub>2</sub> क्योटो प्रोटोकॉल से संबंधित हैं।</p>",
+     "hint": "जैव विविधता पर सम्मेलन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -631,10 +775,22 @@
       "Alien species invasion",
       "Habitat loss and fragmentation",
       "Drought and floods"
-     ]
+     ],
+     "sol": "<p><b>Habitat loss and fragmentation</b> is the most important cause of extinction of animals and plants.</p>",
+     "hint": "Same as NEET 2016."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जंतुओं तथा पादपों के विलुप्त होने का सबसे महत्वपूर्ण कारण निम्नलिखित में से कौन-सा है?",
+     "o": [
+      "आर्थिक दोहन",
+      "विदेशी जातियों का आक्रमण",
+      "आवासीय क्षति तथा विखंडन",
+      "सूखा तथा बाढ़"
+     ],
+     "sol": "<p><b>आवासीय क्षति तथा विखंडन</b> जंतुओं और पादपों के विलुप्तीकरण का सबसे मुख्य कारण है।</p>",
+     "hint": "NEET 2016 जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -677,10 +833,22 @@
       "Sacred Grove",
       "Biosphere Reserve",
       "Wildlife Sanctuary"
-     ]
+     ],
+     "sol": "<p>In-situ conservation protects species in their natural habitat: sacred groves, biosphere reserves, national parks and wildlife sanctuaries. A <b>botanical garden</b> keeps plants outside their habitat — ex-situ.</p>",
+     "hint": "In situ = on site."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सी जैव विविधता के स्वस्थाने संरक्षण की विधि नहीं है?",
+     "o": [
+      "वनस्पतिय उद्यान",
+      "पवित्र उपवन",
+      "जीवमंडल आरक्षिति",
+      "वन्यजीव अभ्यारण"
+     ],
+     "sol": "<p>स्वस्थाने संरक्षण जातियों को उनके प्राकृतिक आवास में बचाता है: पवित्र उपवन, जीवमंडल आरक्षिति, राष्ट्रीय उद्यान और वन्यजीव अभ्यारण। <b>वनस्पतिय उद्यान</b> पादपों को आवास से बाहर रखता है — बाह्यस्थाने।</p>",
+     "hint": "स्वस्थाने = अपने स्थान पर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -723,10 +891,22 @@
       "7 million",
       "1.5 million",
       "20 million"
-     ]
+     ],
+     "sol": "<p>Robert May's more conservative and scientifically sound estimate puts global species diversity at about <b>7 million</b>.</p>",
+     "hint": "NCERT's 70 lakh."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "रॉबर्ट मे के अनुसार वैश्विक जातीय विविधता लगभग है",
+     "o": [
+      "50 मिलियन",
+      "7 मिलियन",
+      "1.5 मिलियन",
+      "20 मिलियन"
+     ],
+     "sol": "<p>रॉबर्ट मे का अधिक संतुलित और वैज्ञानिक रूप से शुद्ध आकलन वैश्विक जातीय विविधता को लगभग <b>7 मिलियन</b> मानता है।</p>",
+     "hint": "NCERT का 70 लाख।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -769,10 +949,22 @@
       "Amazon forests",
       "Western Ghats of India",
       "Madagascar"
-     ]
+     ],
+     "sol": "<p>The tropical <b>Amazon rain forest</b> of South America has the greatest biodiversity on Earth (about 40,000 plant species, 3,000 fish, 1,300 birds, 427 mammals and so on).</p>",
+     "hint": "'Lungs of the planet'."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पृथ्वी के निम्नलिखित में से किस क्षेत्र में सबसे अधिक जातीय विविधता है?",
+     "o": [
+      "हिमालय",
+      "अमेजन वन",
+      "भारत के पश्चिमी घाट",
+      "मेडागास्कर"
+     ],
+     "sol": "<p>दक्षिणी अमेरिका के उष्ण कटिबंधीय <b>अमेजन वर्षा वनों</b> की जैव विविधता पृथ्वी पर सबसे अधिक है (लगभग 40,000 पादप जातियाँ, 3,000 मत्स्य, 1,300 पक्षी, 427 स्तनधारी आदि)।</p>",
+     "hint": "'पृथ्वी का फेफड़ा'।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -815,10 +1007,22 @@
       "Biodiversity loss",
       "Natality",
       "Population explosion"
-     ]
+     ],
+     "sol": "<p>Habitat loss and fragmentation, over-exploitation, alien species invasion and co-extinction are NCERT's four major causes of <b>biodiversity loss</b> ('the evil quartet').</p>",
+     "hint": "The evil quartet."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आवासीय क्षति तथा विखंडन, अतिदोहन, विदेशी जातियों का आक्रमण तथा सहविलुप्तता किसके कारण हैं?",
+     "o": [
+      "स्पर्धा",
+      "जैव विविधता ह्रास",
+      "जन्मदर",
+      "समष्टि विस्फोट"
+     ],
+     "sol": "<p>आवासीय क्षति तथा विखंडन, अतिदोहन, विदेशी जातियों का आक्रमण और सहविलुप्तता NCERT में <b>जैव विविधता ह्रास</b> के चार मुख्य कारण हैं ('दुष्ट चौकड़ी')।</p>",
+     "hint": "दुष्ट चौकड़ी (evil quartet)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -861,10 +1065,22 @@
       "Micropropagation",
       "Cryopreservation",
       "In vitro fertilization"
-     ]
+     ],
+     "sol": "<p>Cryopreservation of gametes, in vitro fertilisation and micropropagation (tissue culture) are ex-situ methods. <b>National parks</b> protect species in their natural habitat — in-situ.</p>",
+     "hint": "Which one is a natural area?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सी बाह्यस्थाने संरक्षण की विधि नहीं है?",
+     "o": [
+      "राष्ट्रीय उद्यान",
+      "सूक्ष्मप्रवर्धन",
+      "निम्नताप परिरक्षण",
+      "पात्रे निषेचन"
+     ],
+     "sol": "<p>युग्मकों का निम्नताप परिरक्षण, पात्रे निषेचन और सूक्ष्मप्रवर्धन (ऊतक संवर्धन) बाह्यस्थाने विधियाँ हैं। <b>राष्ट्रीय उद्यान</b> जातियों को उनके प्राकृतिक आवास में बचाते हैं — स्वस्थाने।</p>",
+     "hint": "कौन-सा प्राकृतिक क्षेत्र है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -907,10 +1123,22 @@
       "Conserve only endangered species",
       "Conserve only extinct species",
       "Protect and conserve the whole ecosystem"
-     ]
+     ],
+     "sol": "<p>In-situ conservation means conserving species in their natural habitat — to save a threatened species we must <b>protect and conserve the whole ecosystem</b> (e.g. the entire forest to save the tiger).</p>",
+     "hint": "Save the forest to save the tiger."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्वस्थाने संरक्षण से तात्पर्य है :",
+     "o": [
+      "केवल अधिक जोखिम वाली जातियों का संरक्षण",
+      "केवल संकटग्रस्त जातियों का संरक्षण",
+      "केवल विलुप्त जातियों का संरक्षण",
+      "संपूर्ण पारितंत्र की सुरक्षा तथा संरक्षण"
+     ],
+     "sol": "<p>स्वस्थाने संरक्षण का अर्थ है जातियों को उनके प्राकृतिक आवास में बचाना — किसी संकटग्रस्त जाति को बचाने के लिए <b>संपूर्ण पारितंत्र की सुरक्षा तथा संरक्षण</b> करना होता है (जैसे बाघ को बचाने के लिए सारा जंगल)।</p>",
+     "hint": "बाघ बचाने के लिए जंगल बचाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -953,10 +1181,22 @@
       "1992",
       "1985",
       "1986"
-     ]
+     ],
+     "sol": "<p>The historic Convention on Biological Diversity, 'The Earth Summit', was held in Rio de Janeiro in <b>1992</b>; the World Summit on Sustainable Development followed in Johannesburg in 2002.</p>",
+     "hint": "Rio 1992, Johannesburg 2002."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जैव विविधता पर ऐतिहासिक सम्मेलन 'पृथ्वी सम्मेलन' रियो डी जेनेरियो में किस वर्ष हुआ था?",
+     "o": [
+      "2002",
+      "1992",
+      "1985",
+      "1986"
+     ],
+     "sol": "<p>जैव विविधता पर ऐतिहासिक सम्मेलन, 'पृथ्वी सम्मेलन', रियो डी जेनेरियो में <b>1992</b> में हुआ; धारणीय विकास पर विश्व शिखर सम्मेलन 2002 में जोहान्सबर्ग में हुआ।</p>",
+     "hint": "रियो 1992, जोहान्सबर्ग 2002।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -999,10 +1239,22 @@
       "Habitat loss and fragmentation",
       "Over exploitation for economic gain",
       "Alien species invasions"
-     ]
+     ],
+     "sol": "<p>Among the evil quartet, <b>habitat loss and fragmentation</b> is the most important cause of extinction.</p>",
+     "hint": "Same NCERT fact again."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "'दुष्ट चौकड़ी (The Evil Quartet)' में से कौन-सा जातियों के विलोपन का सबसे महत्वपूर्ण कारण माना जाता है?",
+     "o": [
+      "सहविलुप्तता",
+      "आवासीय क्षति तथा विखंडन",
+      "आर्थिक लाभ के लिए अतिदोहन",
+      "विदेशी जातियों का आक्रमण"
+     ],
+     "sol": "<p>दुष्ट चौकड़ी में <b>आवासीय क्षति तथा विखंडन</b> विलोपन का सबसे मुख्य कारण है।</p>",
+     "hint": "फिर वही NCERT तथ्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1045,10 +1297,22 @@
       "A and B only",
       "A, B and E only",
       "A, B and D only"
-     ]
+     ],
+     "sol": "<p>NCERT's reasons for high tropical diversity: (A) tropical latitudes remained relatively undisturbed for millions of years, giving long time for diversification; (E) tropical environments are less seasonal, relatively constant and predictable, and (D) such constant environments promote niche specialisation; (C) more solar energy is available, giving higher productivity. B is wrong — the tropics are <b>less</b> seasonal. A, C, D and E only.</p>",
+     "hint": "Tropics are less seasonal."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उष्ण कटिबंधीय क्षेत्रों में सबसे अधिक जाति समृद्धि होती है क्योंकि :<br>A. उष्ण कटिबंधीय अक्षांश लाखों वर्षों से अपेक्षाकृत अबाधित रहे हैं, अतः जाति विविधीकरण के लिए अधिक समय मिला।<br>B. उष्ण कटिबंधीय पर्यावरण अधिक मौसमी होते हैं।<br>C. उष्ण कटिबंधों में अधिक सौर ऊर्जा उपलब्ध है।<br>D. स्थिर पर्यावरण निकेत विशिष्टीकरण को प्रोत्साहित करते हैं।<br>E. उष्ण कटिबंधीय पर्यावरण स्थिर तथा पूर्वानुमेय होते हैं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A, C, D तथा E",
+      "केवल A तथा B",
+      "केवल A, B तथा E",
+      "केवल A, B तथा D"
+     ],
+     "sol": "<p>उष्ण कटिबंध में अधिक विविधता के NCERT कारण: (A) उष्ण कटिबंधीय अक्षांश लाखों वर्षों से अपेक्षाकृत अबाधित रहे, जिससे विविधीकरण के लिए अधिक समय मिला; (E) उष्ण कटिबंधीय पर्यावरण कम मौसमी, अपेक्षाकृत स्थिर और पूर्वानुमेय हैं, और (D) ऐसा स्थिर पर्यावरण निकेत विशिष्टीकरण को प्रोत्साहित करता है; (C) अधिक सौर ऊर्जा उपलब्ध है, जिससे उत्पादकता अधिक है। B गलत है — उष्ण कटिबंध <b>कम</b> मौसमी हैं। केवल A, C, D तथा E।</p>",
+     "hint": "उष्ण कटिबंध कम मौसमी हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1091,10 +1355,22 @@
       "WWF",
       "FOAM",
       "IUCN"
-     ]
+     ],
+     "sol": "<p>The list of threatened (endangered) species — the Red List — is released by the <b>IUCN</b> (International Union for Conservation of Nature). GEAC regulates genetically modified organisms; WWF is a conservation organisation.</p>",
+     "hint": "Red List publisher."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "संकटग्रस्त जातियों की सूची किसके द्वारा जारी की गई थी?",
+     "o": [
+      "GEAC",
+      "WWF",
+      "FOAM",
+      "IUCN"
+     ],
+     "sol": "<p>संकटग्रस्त जातियों की सूची — लाल सूची — <b>IUCN</b> (प्रकृति संरक्षण के लिए अंतरराष्ट्रीय संघ) जारी करता है। GEAC आनुवंशिकतः रूपांतरित जीवों का नियमन करती है; WWF एक संरक्षण संस्था है।</p>",
+     "hint": "लाल सूची का प्रकाशक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1137,10 +1413,22 @@
       "A-I, B-III, C-II, D-IV",
       "A-III, B-IV, C-II, D-I",
       "A-II, B-III, C-I, D-IV"
-     ]
+     ],
+     "sol": "<ul><li>A Robert May — global species diversity about 7 million (III).</li><li>B Alexander von Humboldt — species–area relationship (I).</li><li>C Paul Ehrlich — rivet popper hypothesis (IV).</li><li>D David Tilman — long-term ecosystem experiments using outdoor plots (II).</li></ul><p>A-III, B-I, C-IV, D-II.</p>",
+     "hint": "Ehrlich's aeroplane rivets."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. रॉबर्ट मे — I. जाति-क्षेत्र संबंध<br>B. अलेक्जैंडर वॉन हम्बोल्ट — II. प्रयोगशाला के बाहर के भूखंडों पर लंबे समय तक पारितंत्र प्रयोग<br>C. पॉल एहरलिक — III. वैश्विक जातीय विविधता लगभग 7 मिलियन<br>D. डेविड टिलमैन — IV. रिवेट पोपर परिकल्पना",
+     "o": [
+      "A-III, B-I, C-IV, D-II",
+      "A-I, B-III, C-II, D-IV",
+      "A-III, B-IV, C-II, D-I",
+      "A-II, B-III, C-I, D-IV"
+     ],
+     "sol": "<ul><li>A रॉबर्ट मे — वैश्विक जातीय विविधता लगभग 7 मिलियन (III)।</li><li>B अलेक्जैंडर वॉन हम्बोल्ट — जाति-क्षेत्र संबंध (I)।</li><li>C पॉल एहरलिक — रिवेट पोपर परिकल्पना (IV)।</li><li>D डेविड टिलमैन — प्रयोगशाला के बाहर भूखंडों पर दीर्घकालिक पारितंत्र प्रयोग (II)।</li></ul><p>A-III, B-I, C-IV, D-II।</p>",
+     "hint": "एहरलिक के वायुयान के रिवेट।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1186,10 +1474,22 @@
       "Semi-conservative method",
       "Sustainable development",
       "ex-situ conservation"
-     ]
+     ],
+     "sol": "<p>Taking threatened species out of their natural habitat and protecting them in special settings (zoos, botanical gardens, safari parks, gene banks) is <b>ex-situ conservation</b>.</p>",
+     "hint": "Ex-situ means out of the habitat."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वह संरक्षण जिसमें संकटग्रस्त जातियों को उनके प्राकृतिक आवास से निकालकर विशेष स्थान पर रखा जाता है जहाँ उन्हें सुरक्षा तथा विशेष देखभाल दी जा सके, कहलाता है :",
+     "o": [
+      "स्वस्थाने संरक्षण",
+      "अर्धसंरक्षी विधि",
+      "धारणीय विकास",
+      "बाह्यस्थाने संरक्षण"
+     ],
+     "sol": "<p>संकटग्रस्त जातियों को उनके प्राकृतिक आवास से निकालकर विशेष स्थानों (जंतु उद्यान, वनस्पतिय उद्यान, सफारी पार्क, जीन बैंक) में सुरक्षित रखना <b>बाह्यस्थाने संरक्षण</b> है।</p>",
+     "hint": "बाह्यस्थाने अर्थात् आवास से बाहर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1232,10 +1532,22 @@
       "A, B and E only",
       "A, B and D only",
       "A, C and D only"
-     ]
+     ],
+     "sol": "<p>The major causes of biodiversity loss are habitat loss and fragmentation (D), over-exploitation (A), alien species invasions and co-extinction (B). Mutation and migration are not listed as causes. A, B and D only.</p>",
+     "hint": "Pick from the evil quartet."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जैव विविधता ह्रास के प्रमुख कारण माने जाते हैं :<br>A. अतिदोहन<br>B. सहविलुप्तता<br>C. उत्परिवर्तन<br>D. आवासीय क्षति तथा विखंडन<br>E. प्रवसन<br>सही विकल्प चुनिए :",
+     "o": [
+      "केवल A, B, C तथा D",
+      "केवल A, B तथा E",
+      "केवल A, B तथा D",
+      "केवल A, C तथा D"
+     ],
+     "sol": "<p>जैव विविधता ह्रास के प्रमुख कारण हैं आवासीय क्षति तथा विखंडन (D), अतिदोहन (A), विदेशी जातियों का आक्रमण और सहविलुप्तता (B)। उत्परिवर्तन और प्रवसन इनमें नहीं गिने जाते। केवल A, B तथा D।</p>",
+     "hint": "दुष्ट चौकड़ी में से चुनें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1278,10 +1590,22 @@
       "Wildlife Sanctuary",
       "Zoos and botanical gardens",
       "Protected areas"
-     ]
+     ],
+     "sol": "<p>Ex-situ conservation keeps organisms outside their natural habitat: <b>zoos and botanical gardens</b> (also safari parks and seed banks). National parks, sanctuaries and protected areas are in-situ.</p>",
+     "hint": "Outside the habitat."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा बाह्यस्थाने संरक्षण का उदाहरण है?",
+     "o": [
+      "राष्ट्रीय उद्यान",
+      "वन्यजीव अभ्यारण",
+      "जंतु उद्यान तथा वनस्पतिय उद्यान",
+      "संरक्षित क्षेत्र"
+     ],
+     "sol": "<p>बाह्यस्थाने संरक्षण जीवों को उनके प्राकृतिक आवास से बाहर रखता है: <b>जंतु उद्यान तथा वनस्पतिय उद्यान</b> (और सफारी पार्क, बीज बैंक)। राष्ट्रीय उद्यान, अभ्यारण और संरक्षित क्षेत्र स्वस्थाने हैं।</p>",
+     "hint": "आवास से बाहर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1324,10 +1648,22 @@
       "A-III, B-I, C-II, D-IV",
       "A-III, B-IV, C-II, D-I",
       "A-III, B-II, C-IV, D-I"
-     ]
+     ],
+     "sol": "<ul><li>A The evil quartet — causes of biodiversity loss (III).</li><li>B Ex-situ conservation — cryopreservation of gametes (I).</li><li>C <i>Lantana camara</i> — an alien invasive species (II).</li><li>D Dodo — an example of extinction (IV).</li></ul><p>A-III, B-I, C-II, D-IV.</p>",
+     "hint": "Lantana is invasive; dodo is extinct."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>A. दुष्ट चौकड़ी (The Evil Quartet) — I. निम्नताप परिरक्षण<br>B. बाह्यस्थाने संरक्षण — II. विदेशी जाति का आक्रमण<br>C. <i>Lantana camara</i> — III. जैव विविधता ह्रास के कारण<br>D. डोडो — IV. विलोपन",
+     "o": [
+      "A-III, B-II, C-I, D-IV",
+      "A-III, B-I, C-II, D-IV",
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-II, C-IV, D-I"
+     ],
+     "sol": "<ul><li>A दुष्ट चौकड़ी — जैव विविधता ह्रास के कारण (III)।</li><li>B बाह्यस्थाने संरक्षण — युग्मकों का निम्नताप परिरक्षण (I)।</li><li>C <i>Lantana camara</i> — विदेशी आक्रामक जाति (II)।</li><li>D डोडो — विलोपन का उदाहरण (IV)।</li></ul><p>A-III, B-I, C-II, D-IV।</p>",
+     "hint": "लैंटाना आक्रामक है; डोडो विलुप्त।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1372,10 +1708,22 @@
       "B, C and D only",
       "A, B and E only",
       "C, D and E only"
-     ]
+     ],
+     "sol": "<ul><li>A — correct: clearing the Amazon for soyabean and cattle is NCERT's example of habitat loss.</li><li>B — correct: Steller's sea cow and the passenger pigeon were lost to over-exploitation.</li><li>C — wrong: the Nile perch in Lake Victoria caused the extinction of more than 200 cichlid species.</li><li>D — correct: water hyacinth is an invasive weed.</li><li>E — wrong: co-extinction — dependent plant and animal species also go extinct.</li></ul><p>A, B and D only.</p>",
+     "hint": "Nile perch wiped out cichlids."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से कथन सही हैं?<br>A. सोयाबीन की खेती के लिए अमेजन वर्षा वन का काटा और साफ किया जाना आवासीय क्षति का उदाहरण है।<br>B. स्टेलर समुद्री गाय तथा पैसेंजर कबूतर मानव द्वारा अतिदोहन के कारण विलुप्त हो गए।<br>C. पूर्वी अफ्रीका की विक्टोरिया झील में डाली गई नाइल पर्च ने झील में सिचलिड मछलियों की समष्टि वृद्धि में सहायता की।<br>D. जलकुंभी (water hyacinth) एक आक्रामक जाति है।<br>E. जब कोई जाति विलुप्त होती है, तो उससे जुड़ी पादप तथा जंतु जातियाँ प्रभावित नहीं होतीं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A, B तथा D",
+      "केवल B, C तथा D",
+      "केवल A, B तथा E",
+      "केवल C, D तथा E"
+     ],
+     "sol": "<ul><li>A — सही: सोयाबीन और चारागाहों के लिए अमेजन की कटाई NCERT में आवासीय क्षति का उदाहरण है।</li><li>B — सही: स्टेलर समुद्री गाय और पैसेंजर कबूतर अतिदोहन से लुप्त हुए।</li><li>C — गलत: विक्टोरिया झील में नाइल पर्च से सिचलिड मछलियों की 200 से अधिक जातियाँ विलुप्त हो गईं।</li><li>D — सही: जलकुंभी आक्रामक खरपतवार है।</li><li>E — गलत: सहविलुप्तता — आश्रित पादप और जंतु जातियाँ भी विलुप्त हो जाती हैं।</li></ul><p>केवल A, B तथा D।</p>",
+     "hint": "नाइल पर्च ने सिचलिड मिटा दीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1419,10 +1767,22 @@
       "Sacred Groves",
       "Botanical Gardens",
       "Wildlife Safari Parks"
-     ]
+     ],
+     "sol": "<p><b>Sacred groves</b> are forest patches protected by communities, conserving species in their natural habitat — in-situ. Seed banks, botanical gardens and wildlife safari parks are ex-situ.</p>",
+     "hint": "Natural forest patch."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सी स्वस्थाने संरक्षण विधि है?",
+     "o": [
+      "बीज बैंक",
+      "पवित्र उपवन",
+      "वनस्पतिय उद्यान",
+      "वन्य जीव सफारी पार्क"
+     ],
+     "sol": "<p><b>पवित्र उपवन</b> समुदायों द्वारा संरक्षित वन खंड हैं, जो जातियों को उनके प्राकृतिक आवास में बचाते हैं — स्वस्थाने। बीज बैंक, वनस्पतिय उद्यान और वन्य जीव सफारी पार्क बाह्यस्थाने हैं।</p>",
+     "hint": "प्राकृतिक वन खंड।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1466,10 +1826,22 @@
       "Habitat loss and fragmentation; Air pollution; Water pollution; Co-extinctions",
       "Habitat loss and fragmentation; Over-exploitation; Alien species invasions; Co-extinctions",
       "Over-exploitation; Alien species invasions; Air pollution; Co-extinctions"
-     ]
+     ],
+     "sol": "<p>The evil quartet: <b>habitat loss and fragmentation; over-exploitation; alien species invasions; co-extinctions</b>. Pollution is not one of the four.</p>",
+     "hint": "No pollution in the quartet."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जैव विविधता ह्रास की \"दुष्ट चौकड़ी (The Evil Quartet)\" में निम्नलिखित में से क्या सम्मिलित है?",
+     "o": [
+      "अतिदोहन; विदेशी जातियों का आक्रमण; मृदा प्रदूषण; सहविलुप्तता",
+      "आवासीय क्षति तथा विखंडन; वायु प्रदूषण; जल प्रदूषण; सहविलुप्तता",
+      "आवासीय क्षति तथा विखंडन; अतिदोहन; विदेशी जातियों का आक्रमण; सहविलुप्तता",
+      "अतिदोहन; विदेशी जातियों का आक्रमण; वायु प्रदूषण; सहविलुप्तता"
+     ],
+     "sol": "<p>दुष्ट चौकड़ी: <b>आवासीय क्षति तथा विखंडन; अतिदोहन; विदेशी जातियों का आक्रमण; सहविलुप्तता</b>। प्रदूषण इन चार में नहीं है।</p>",
+     "hint": "चौकड़ी में प्रदूषण नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1513,10 +1885,22 @@
       "The present species extinction rates are 100 to 1000 times faster than in the pre-human times.",
       "The present net species extinction rate is zero.",
       "The current species extinction rate is nearly 10 times faster than that in previous episodes."
-     ]
+     ],
+     "sol": "<p>The sixth extinction in progress differs only in rate: present extinction rates are estimated to be <b>100 to 1000 times faster</b> than in pre-human times, and human activities are responsible.</p>",
+     "hint": "The difference is the rate."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पृथ्वी पर जीवन की उत्पत्ति तथा विविधीकरण के बाद से जातियों के पाँच व्यापक विलोपन हुए हैं। चल रहा छठा विलोपन पिछले विलोपनों से किस प्रकार भिन्न है?",
+     "o": [
+      "वर्तमान जाति विलोपन दरें पिछले विलोपनों से बहुत कम हैं।",
+      "वर्तमान जाति विलोपन दरें मानव से पूर्व के समय की अपेक्षा 100 से 1000 गुना तीव्र हैं।",
+      "वर्तमान शुद्ध जाति विलोपन दर शून्य है।",
+      "वर्तमान जाति विलोपन दर पिछले विलोपनों की अपेक्षा लगभग 10 गुना तीव्र है।"
+     ],
+     "sol": "<p>चल रहा छठा विलोपन केवल दर में भिन्न है: वर्तमान विलोपन दरें मानव के अस्तित्व से पूर्व की अपेक्षा <b>100 से 1000 गुना तीव्र</b> आँकी गई हैं, और इसके लिए मानव क्रियाकलाप उत्तरदायी हैं।</p>",
+     "hint": "अंतर दर में है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1560,10 +1944,22 @@
       "Biofortification",
       "Biomagnification",
       "Bioremediation"
-     ]
+     ],
+     "sol": "<p>Exploring molecular, genetic and species-level diversity for products of economic importance is <b>bioprospecting</b>. Biofortification is breeding crops with more nutrients; biomagnification is the build-up of toxins up food chains; bioremediation is using organisms to clean pollutants.</p>",
+     "hint": "Prospecting = searching for value."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आर्थिक महत्व के उत्पादों के लिए आण्विक, आनुवंशिक तथा जाति स्तर की विविधता की खोज कहलाती है :",
+     "o": [
+      "जैव पूर्वेक्षण (bioprospecting)",
+      "जैव प्रबलीकरण",
+      "जैव आवर्धन",
+      "जैव उपचारण"
+     ],
+     "sol": "<p>आर्थिक महत्व के उत्पादों के लिए आण्विक, आनुवंशिक और जाति स्तर की विविधता की खोज <b>जैव पूर्वेक्षण</b> है। जैव प्रबलीकरण अधिक पोषक तत्व वाली फसलें विकसित करना है; जैव आवर्धन खाद्य शृंखला में विष का बढ़ना है; जैव उपचारण जीवों द्वारा प्रदूषकों की सफाई है।</p>",
+     "hint": "पूर्वेक्षण = मूल्यवान की खोज।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
