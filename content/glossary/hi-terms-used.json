@@ -676,7 +676,10 @@
   {
    "en": "replication",
    "hi": "प्रतिकृति",
-   "source": "ncert-hi-text class 12 biology"
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "प्रतिकृतीयन"
+   ]
   },
   {
    "en": "codon",
@@ -2289,6 +2292,168 @@
    "source": "ncert-hi-text class 12 biology",
    "check": false,
    "note": "biology spelling; chemistry questions use the chemistry book form"
+  },
+  {
+   "en": "restriction enzyme",
+   "hi": "प्रतिबंधन एंजाइम",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "restriction endonuclease",
+   "hi": "प्रतिबंधन एंडोन्यूक्लिएज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "exonuclease",
+   "hi": "एक्सोन्यूक्लिएज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ligase",
+   "hi": "लाइगेज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "vector",
+   "hi": "संवाहक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "plasmid",
+   "hi": "प्लाज्मिड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "palindromic",
+   "hi": "पैलिंड्रोमिक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sticky ends",
+   "hi": "चिपचिपे",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "selectable marker",
+   "hi": "वरणयोग्य चिह्नक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "origin of replication",
+   "hi": "प्रतिकृतीयन का उद्भव",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "recombinant DNA",
+   "hi": "पुनर्योगज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "cloning",
+   "hi": "क्लोनिंग",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "transformed",
+   "hi": "रूपांतरित",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "agarose",
+   "hi": "ऐगारोज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ethidium bromide",
+   "hi": "इथीडियम ब्रोमाइड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "elution",
+   "hi": "क्षालन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "electrophoresis",
+   "hi": "वैद्युत",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "denaturation",
+   "hi": "विकृतीकरण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "primers",
+   "hi": "उपक्रमक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "thermostable",
+   "hi": "तापस्थायी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "bioreactor",
+   "hi": "बायोरिएक्टर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "downstream processing",
+   "hi": "अनुप्रवाह संसाधन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "gene gun",
+   "hi": "जीन गन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "insertional inactivation",
+   "hi": "निवेशी निष्क्रियता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "microinjection",
+   "hi": "सूक्ष्म अंतःक्षेपण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "molecular scissors",
+   "hi": "आणविक कैंची",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "amplification",
+   "hi": "प्रवर्धन",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "colonies",
+   "hi": "निवह",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "foam",
+   "hi": "झाग",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "agitator",
+   "hi": "प्रक्षोभक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "insert",
+   "hi": "संसर्गिका",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
   }
  ],
  "noNcertTerm": [
@@ -2456,6 +2621,21 @@
    "en": "streptokinase",
    "hi_used": "स्ट्रेप्टोकाइनेज",
    "note": "NCERT Hindi ch08 prints it with a garbled conjunct (स्टै्रप्टोकाइनेज) in the extracted text; normal spelling used"
+  },
+  {
+   "en": "annealing (PCR)",
+   "hi_used": "तापानुशीतन",
+   "note": "NCERT Hindi ch09 does not name the step; not in NCERT Hindi text (bio12-09)"
+  },
+  {
+   "en": "extension (PCR)",
+   "hi_used": "विस्तार",
+   "note": "NCERT Hindi ch09 says उपक्रमकों को विस्तृत कर देता है"
+  },
+  {
+   "en": "chromogenic substrate",
+   "hi_used": "वर्णोत्पादक क्रियाधार",
+   "note": "NCERT Hindi ch09 text is garbled here (वर्णोकात्पादकी पदार्थ)"
   }
  ]
 }
