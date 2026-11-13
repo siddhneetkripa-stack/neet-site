@@ -1,0 +1,1303 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-15",
+ "subject": "biology",
+ "class": 11,
+ "unit": 15,
+ "title": {
+  "en": "Body Fluids and Circulation"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo115.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "15.1",
+   "title": "Blood",
+   "hi": "रुधिर",
+   "pdfPage": 1
+  },
+  {
+   "id": "15.1.1",
+   "title": "Plasma",
+   "hi": "प्लाज्मा (प्लैज्मा)",
+   "pdfPage": 1
+  },
+  {
+   "id": "15.1.2",
+   "title": "Formed Elements",
+   "hi": "संगठित पदार्थ",
+   "pdfPage": 2
+  },
+  {
+   "id": "15.1.3",
+   "title": "Blood Groups",
+   "hi": "रक्त समूह (ब्लड ग्रुप)",
+   "pdfPage": 3
+  },
+  {
+   "id": "15.1.4",
+   "title": "Coagulation of Blood",
+   "hi": "रक्त-स्कंदन (रक्त का जमाव)",
+   "pdfPage": 4
+  },
+  {
+   "id": "15.2",
+   "title": "Lymph (Tissue Fluid)",
+   "hi": "लसीका (ऊतक द्रव)",
+   "pdfPage": 5
+  },
+  {
+   "id": "15.3",
+   "title": "Circulatory Pathways",
+   "hi": "परिसंचरण पथ",
+   "pdfPage": 5
+  },
+  {
+   "id": "15.3.1",
+   "title": "Human Circulatory System",
+   "hi": "मानव परिसंचरण तंत्र",
+   "pdfPage": 6
+  },
+  {
+   "id": "15.3.2",
+   "title": "Cardiac Cycle",
+   "hi": "हृद चक्र",
+   "pdfPage": 7
+  },
+  {
+   "id": "15.3.3",
+   "title": "Electrocardiogram (ECG)",
+   "hi": "विद्युत हृद लेख (इलेक्ट्रोकार्डियोग्राम)",
+   "pdfPage": 8
+  },
+  {
+   "id": "15.4",
+   "title": "Double Circulation",
+   "hi": "द्विसंचरण (डबल सरकुलेशन)",
+   "pdfPage": 9
+  },
+  {
+   "id": "15.5",
+   "title": "Regulation of Cardiac Activity",
+   "hi": "हृद क्रिया का नियमन",
+   "pdfPage": 10
+  },
+  {
+   "id": "15.6",
+   "title": "Disorders of Circulatory System",
+   "hi": "परिसंचरण की विकृतियाँ",
+   "pdfPage": 10
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-15-neet-2015-re-exam-code-d-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Doctors use stethoscope to hear the sounds produced during each cardiac cycle. The second sound is heard when :",
+     "o": [
+      "Ventricular walls vibrate due to gushing in of blood from atria",
+      "Semilunar valves close down after the blood flows into vessels from ventricles",
+      "AV node receives signal from SA node",
+      "AV valves open up"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q10",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 2",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2015-re-exam-code-d-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If you suspect major deficiency of antibodies in a person, to which of the following would you look for confirmatory evidence?",
+     "o": [
+      "Serum albumins",
+      "Haemocytes",
+      "Serum globulins",
+      "Fibrinogen in plasma"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q25",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2015-re-exam-code-d-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following animals has two separate circulatory pathways?",
+     "o": [
+      "Lizard",
+      "Whale",
+      "Shark",
+      "Frog"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q32",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 2",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2016-phase-1-code-a-q161",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Blood pressure in the pulmonary artery is:",
+     "o": [
+      "Same as that in the aorta",
+      "More than that in the carotid",
+      "More than that in the pulmonary vein",
+      "Less than that in the venae cavae"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q161",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf)",
+    "note": "NCERT gives no blood-pressure values for these vessels."
+   }
+  },
+  {
+   "id": "bio11-15-neet-2016-phase-2-code-aa-q152",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Name the blood cells, whose reduction in number can cause clotting disorder, leading to excessive loss of blood from the body.",
+     "o": [
+      "Erythrocytes",
+      "Leucocytes",
+      "Neutrophils",
+      "Thrombocytes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q152",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2016-phase-2-code-aa-q155",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Serum differs from blood in",
+     "o": [
+      "Lacking globulins",
+      "Lacking albumins",
+      "Lacking clotting factors",
+      "Lacking antibodies"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q155",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2017-code-a-q98",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Adult human RBCs are enucleate. Which of the following statement(s) is/are most appropriate explanation for this feature?<br>(a) They do not need to reproduce<br>(b) They are somatic cells<br>(c) They do not metabolize<br>(d) All their internal space is available for oxygen transport",
+     "o": [
+      "Only (d)",
+      "Only (a)",
+      "(a), (c) and (d)",
+      "(b) and (c)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q98",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2017-code-a-q99",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The hepatic portal vein drains blood to liver from",
+     "o": [
+      "Heart",
+      "Stomach",
+      "Kidneys",
+      "Intestine"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q99",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2017-code-a-q137",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Frog's heart when taken out of the body continues to beat for some time. Select the best option from the following statements :<br>(a) Frog is a poikilotherm<br>(b) Frog does not have any coronary circulation<br>(c) Heart is \"myogenic\" in nature<br>(d) Heart is autoexcitable",
+     "o": [
+      "Only (c)",
+      "Only (d)",
+      "(a) & (b)",
+      "(c) & (d)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.5"
+    ],
+    "otherChapters": [
+     "Class 11 · Structural Organisation in Animals"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q137",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2018-code-aa-q137",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the items given in Column I with those in Column II and select the correct option given below :<br>(a) Tricuspid valve — (i) Between left atrium and left ventricle<br>(b) Bicuspid valve — (ii) Between right ventricle and pulmonary artery<br>(c) Semilunar valve — (iii) Between right atrium and right ventricle",
+     "o": [
+      "(a) i, (b) ii, (c) iii",
+      "(a) i, (b) iii, (c) ii",
+      "(a) iii, (b) i, (c) ii",
+      "(a) ii, (b) i, (c) iii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q137",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2018-code-aa-q166",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the items given in Column I with those in Column II and select the correct option given below :<br>(a) Fibrinogen — (i) Osmotic balance<br>(b) Globulin — (ii) Blood clotting<br>(c) Albumin — (iii) Defence mechanism",
+     "o": [
+      "(a) i, (b) iii, (c) ii",
+      "(a) i, (b) ii, (c) iii",
+      "(a) iii, (b) ii, (c) i",
+      "(a) ii, (b) iii, (c) i"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q166",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; OCR checked against the page images)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2019-code-s2-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What would be the heart rate of a person if the cardiac output is 5 L, blood volume in the ventricles at the end of diastole is 100 mL and at the end of ventricular systole is 50 mL?",
+     "o": [
+      "100 beats per minute",
+      "125 beats per minute",
+      "50 beats per minute",
+      "75 beats per minute"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q26",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)",
+    "note": "Stroke volume = 100 − 50 = 50 mL; heart rate = 5000/50 = 100 per minute."
+   }
+  },
+  {
+   "id": "bio11-15-neet-2019-code-s2-q66",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the Column I with Column II :<br>(a) P-wave — (i) Depolarisation of ventricles<br>(b) QRS complex — (ii) Repolarisation of ventricles<br>(c) T-wave — (iii) Coronary ischemia<br>(d) Reduction in the size of T-wave — (iv) Depolarisation of atria<br>(v) Repolarisation of atria<br>Select the correct option.",
+     "o": [
+      "(a) ii, (b) i, (c) v, (d) iii",
+      "(a) ii, (b) iii, (c) v, (d) iv",
+      "(a) iv, (b) i, (c) ii, (d) iii",
+      "(a) iv, (b) i, (c) ii, (d) v"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q66",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2020-code-f3-q98",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The QRS complex in a standard ECG represents :",
+     "o": [
+      "Depolarisation of ventricles",
+      "Repolarisation of ventricles",
+      "Repolarisation of auricles",
+      "Depolarisation of auricles"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q98",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2020-code-f3-q133",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following columns and select the correct option :<br>(a) Eosinophils — (i) Immune response<br>(b) Basophils — (ii) Phagocytosis<br>(c) Neutrophils — (iii) Release histaminase, destructive enzymes<br>(d) Lymphocytes — (iv) Release granules containing histamine",
+     "o": [
+      "(a) i, (b) ii, (c) iv, (d) iii",
+      "(a) ii, (b) i, (c) iii, (d) iv",
+      "(a) iii, (b) iv, (c) ii, (d) i",
+      "(a) iv, (b) i, (c) ii, (d) iii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q133",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's biology copy in F3 order (neet-sources/neet-papers/2020/biology-with-solutions.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2021-code-p3-q161",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Persons with 'AB' blood group are called as \"Universal recipients\". This is due to :",
+     "o": [
+      "Absence of antibodies, anti-A and anti-B, in plasma",
+      "Absence of antigens A and B on the surface of RBCs",
+      "Absence of antigens A and B in plasma",
+      "Presence of antibodies, anti-A and anti-B, on RBCs"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q161",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2021-code-p3-q178",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which enzyme is responsible for the conversion of inactive fibrinogens to fibrins?",
+     "o": [
+      "Thrombokinase",
+      "Thrombin",
+      "Renin",
+      "Epinephrine"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q178",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2022-code-t2-q171",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: The coagulum is formed of network of threads called thrombins.<br>Statement II: Spleen is the graveyard of erythrocytes.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct",
+      "Both Statement I and Statement II are correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.4",
+     "15.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q171",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-15-neet-2022-code-t2-q186",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statements is correct ?",
+     "o": [
+      "The tricuspid and the bicuspid valves open due to the pressure exerted by the simultaneous contraction of the atria",
+      "Blood moves freely from atrium to the ventricle during joint diastole.",
+      "Increased ventricular pressure causes closing of the semilunar valves.",
+      "The atrio-ventricular node (AVN) generates an action potential to stimulate atrial contraction"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q186",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-15-neet-2023-topic-wise-copy-q61",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(A) P-wave — (I) Beginning of systole<br>(B) Q-wave — (II) Repolarisation of ventricles<br>(C) QRS complex — (III) Depolarisation of atria<br>(D) T-wave — (IV) Depolarisation of ventricles",
+     "o": [
+      "A-I, B-II, C-III, D-IV",
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-III, C-II, D-I",
+      "A-II, B-IV, C-I, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q61",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-15-neet-2023-topic-wise-copy-q93",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct?<br>A. Basophils are most abundant cells of the total WBCs.<br>B. Basophils secrete histamine, serotonin and heparin.<br>C. Basophils are involved in inflammatory response.<br>D. Basophils have kidney shaped nucleus.<br>E. Basophils are agranulocytes.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A and B only",
+      "D and E only",
+      "C and E only",
+      "B and C only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q93",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-15-neet-2024-q179-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. P-wave — I. Heart muscles are electrically silent<br>B. QRS complex — II. Depolarisation of ventricles<br>C. T-wave — III. Depolarisation of atria<br>D. T-P gap — IV. Repolarisation of ventricles",
+     "o": [
+      "A-III, B-II, C-IV, D-I",
+      "A-II, B-III, C-I, D-IV",
+      "A-IV, B-II, C-I, D-III",
+      "A-I, B-III, C-IV, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q179 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options clipped at the right edge in the eSaral copy; completed from the other options (each is a permutation)."
+   }
+  },
+  {
+   "id": "bio11-15-neet-2024-q183-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Following are the stages of pathway for conduction of an action potential through the heart :<br>A. AV bundle<br>B. Purkinje fibres<br>C. AV node<br>D. Bundle branches<br>E. SA node<br>Choose the correct sequence of pathway from the options given below :",
+     "o": [
+      "A − E − C − B − D",
+      "B − D − E − C − A",
+      "E − A − D − B − C",
+      "E − C − A − D − B"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q183 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-15-neet-2025-code-45-q112",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Cardiac activities of the heart are regulated by :<br>A. Nodal tissue<br>B. A special neural centre in the medulla oblongata<br>C. Adrenal medullary hormones<br>D. Adrenal cortical hormones<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, B and C Only",
+      "A, B, C and D",
+      "A, C and D Only",
+      "A, B and D Only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q112",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the eSaral biology copy in Code 45 order (neet-sources/neet-papers/2025/biology-with-solutions.pdf; right edge clipped, checked against page images)"
+   }
+  },
+  {
+   "id": "bio11-15-neet-2026-q141-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The WBC count of a person's blood sample is 8000/cu.mm. How many eosinophils and lymphocytes would be in the same blood sample approximately?",
+     "o": [
+      "300 – 500/cu.mm and 500 – 700/cu.mm, respectively",
+      "300 – 500/cu.mm and 1200 – 1500/cu.mm, respectively",
+      "100 – 120/cu.mm and 160 – 200/cu.mm, respectively",
+      "160 – 240/cu.mm and 1600 – 2000/cu.mm, respectively"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q141 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Eosinophils 2–3% and lymphocytes 20–25% of 8000. Code 13 booklet Q163."
+   }
+  },
+  {
+   "id": "bio11-15-neet-2026-q147-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the incorrect statements with reference to Rh grouping :<br>A. Erythroblastosis foetalis is a condition observed having foetus with Rh −ve blood and mother with Rh +ve blood.<br>B. Rh antigen is observed on RBCs in the majority of human beings.<br>C. Before blood transfusion, Rh group should also be matched.<br>D. Rh incompatibility is observed when a pregnant mother is Rh −ve and the foetus is Rh +ve.<br>E. Erythroblastosis foetalis can be avoided by administering anti-Rh antibodies to the mother immediately after the delivery of the second child.<br>Choose the answer from the options given below :",
+     "o": [
+      "A and B",
+      "C and D",
+      "A and E",
+      "B and C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q147 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13 (mapped to the eSaral copy order): 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped to the eSaral copy via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf); text from the eSaral biology copy (neet-sources/neet-papers/2026/biology-with-solutions.pdf; right edge clipped)",
+    "note": "Code 13 booklet Q175."
+   }
+  }
+ ]
+}
