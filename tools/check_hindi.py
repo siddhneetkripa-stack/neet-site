@@ -27,12 +27,11 @@ def plain(s):
     s = re.sub(r"<[^>]+>", " ", s)
     s = html.unescape(s).translate(SUBS).replace("−", "-").replace("–", "-")
     s = re.sub(r"[’']s\b", "", s)
+    s = re.sub(r"(?<![A-Za-z])[omp]-(?=[A-Za-z\u0900-\u097F])", " ", s)  # o-/m-/p- prefixes
     s = re.sub(r"(?<=[A-Za-z])-(?=[a-z]{2,})", " ", s)        # U-tube -> U tube
     s = re.sub(r"(?<=[A-Za-z])-(?=[\u0900-\u0963\u0966-\u097F])", " ", s)  # not before the danda       # U-नली -> U नली
     s = s.replace("%", " % ")
     s = re.sub(r"(?<=\d)-(?=[A-Za-z\u0900-\u097F]{2})", " ", s)    # 1,4-dichlorobenzene / 1,4-डाइक्लोरो...
-    s = re.sub(r"(?<![A-Za-z])[omp]-(?=[A-Za-z\u0900-\u097F])", " ", s)  # o-/m-/p- prefixes
-    s = re.sub(r"(?<![A-Za-z])[omp] (?=[\u0900-\u097F])", " ", s)
     s = re.sub(r"(?<=[a-z\u0900-\u097F]{2})/", " / ", s)          # diamond/SiC, हीरा/SiC
     return s
 
