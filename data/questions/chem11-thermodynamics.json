@@ -6584,6 +6584,53 @@
     "keyCheck": "Answer printed in the copy: 3; matches our solving",
     "keySource": "Answers in the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf); text from the Code A booklet. No official key for 2016 in neet-sources."
    }
+  },
+  {
+   "id": "chem11-thermodynamics-neet-2016-phase-2-code-aa-q52",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a sample of perfect gas when its pressure is changed isothermally from p<sub>i</sub> to p<sub>f</sub>, the entropy change is given by",
+     "o": [
+      "ΔS = nR ln(p<sub>f</sub>/p<sub>i</sub>)",
+      "ΔS = nR ln(p<sub>i</sub>/p<sub>f</sub>)",
+      "ΔS = nRT ln(p<sub>f</sub>/p<sub>i</sub>)",
+      "ΔS = RT ln(p<sub>i</sub>/p<sub>f</sub>)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "entropy-quant"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q52",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: B; matches our solving",
+    "keySource": "Answers in the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf). No official key for 2016 in neet-sources.",
+    "note": "The isothermal ΔS expression is derived from ΔS = q<sub>rev</sub>/T; NCERT does not state it explicitly."
+   }
   }
  ]
 }
