@@ -1,0 +1,745 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-02",
+ "subject": "physics",
+ "class": 11,
+ "unit": 2,
+ "title": {
+  "en": "Motion in a Straight Line"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph102.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "2.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "2.2",
+   "title": "Instantaneous Velocity and Speed",
+   "hi": "तात्क्षणिक वेग एवं चाल",
+   "pdfPage": 2
+  },
+  {
+   "id": "2.3",
+   "title": "Acceleration",
+   "hi": "त्वरण",
+   "pdfPage": 3
+  },
+  {
+   "id": "2.4",
+   "title": "Kinematic Equations for Uniformly Accelerated Motion",
+   "hi": "एकसमान त्वरण से गतिमान वस्तु का",
+   "pdfPage": 5
+  },
+  {
+   "id": "2.5",
+   "title": "Relative Velocity",
+   "pdfPage": 5
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-02-neet-2016-phase-1-code-a-q41",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If the velocity of a particle is v = At + Bt<sup>2</sup>, where A and B are constants, then the distance travelled by it between 1 s and 2 s is :",
+     "o": [
+      "(3/2)A + 4B",
+      "3A + 7B",
+      "(3/2)A + (7/3)B",
+      "A/2 + B/3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q41",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-02-neet-2016-phase-2-code-aa-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two cars P and Q start from a point at the same time in a straight line and their positions are represented by X<sub>P</sub>(t) = at + bt<sup>2</sup> and X<sub>Q</sub>(t) = ft − t<sup>2</sup>. At what time do the cars have the same velocity?",
+     "o": [
+      "(a − f)/(1 + b)",
+      "(a + f)/(2(b − 1))",
+      "(a + f)/(2(1 + b))",
+      "(f − a)/(2(1 + b))"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q2",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy11-02-neet-2017-code-a-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Preeti reached the metro station and found that the escalator was not working. She walked up the stationary escalator in time t<sub>1</sub>. On other days, if she remains stationary on the moving escalator, then the escalator takes her up in time t<sub>2</sub>. The time taken by her to walk up on the moving escalator will be :",
+     "o": [
+      "(t<sub>1</sub> + t<sub>2</sub>)/2",
+      "t<sub>1</sub>t<sub>2</sub>/(t<sub>2</sub> − t<sub>1</sub>)",
+      "t<sub>1</sub>t<sub>2</sub>/(t<sub>2</sub> + t<sub>1</sub>)",
+      "t<sub>1</sub> − t<sub>2</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q40",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-02-neet-2018-code-aa-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a uniform electric field E⃗. Due to the force qE⃗, its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively :",
+     "o": [
+      "1 m/s, 3.5 m/s",
+      "1 m/s, 3 m/s",
+      "2 m/s, 4 m/s",
+      "1.5 m/s, 3 m/s"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.4"
+    ],
+    "otherChapters": [
+     "Class 12 · Electric Charges and Fields"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q34",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-02-neet-2020-code-f3-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A ball is thrown vertically downward with a velocity of 20 m/s from the top of a tower. It hits the ground after some time with a velocity of 80 m/s. The height of the tower is : (g = 10 m/s<sup>2</sup>)",
+     "o": [
+      "320 m",
+      "300 m",
+      "360 m",
+      "340 m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q11",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-02-neet-2021-code-p3-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A small block slides down on a smooth inclined plane, starting from rest at time t = 0. Let S<sub>n</sub> be the distance travelled by the block in the interval t = n − 1 to t = n. Then, the ratio S<sub>n</sub>/S<sub>n+1</sub> is :",
+     "o": [
+      "2n/(2n − 1)",
+      "(2n − 1)/2n",
+      "(2n − 1)/(2n + 1)",
+      "(2n + 1)/(2n − 1)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q18",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-02-neet-2022-code-t2-q23",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The displacement-time graphs of two moving particles make angles of 30° and 45° with the x-axis as shown in the figure. The ratio of their respective velocity is :",
+     "o": [
+      "1 : 1",
+      "1 : 2",
+      "1 : √3",
+      "√3 : 1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q23",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "The figure only shows two straight lines from the origin at 30° and 45°."
+   }
+  },
+  {
+   "id": "phy11-02-neet-2022-code-t2-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The ratio of the distances travelled by a freely falling body in the 1st, 2nd, 3rd and 4th second :",
+     "o": [
+      "1 : 4 : 9 : 16",
+      "1 : 3 : 5 : 7",
+      "1 : 1 : 1 : 1",
+      "1 : 2 : 3 : 4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q34",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-02-neet-2023-topic-wise-copy-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A vehicle travels half the distance with speed v and the remaining distance with speed 2v. Its average speed is :",
+     "o": [
+      "3v/4",
+      "v/3",
+      "2v/3",
+      "4v/3"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q3",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-02-neet-2023-topic-wise-copy-q36",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A horizontal bridge is built across a river. A student standing on the bridge throws a small ball vertically upwards with a velocity 4 m s<sup>−1</sup>. The ball strikes the water surface after 4 s. The height of bridge above water surface is : (Take g = 10 m s<sup>−2</sup>)",
+     "o": [
+      "68 m",
+      "56 m",
+      "60 m",
+      "64 m"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q36",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-02-neet-2024-q49-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The velocity v–time t plot of the motion of a body is shown below. The acceleration a–time t graph that best suits this motion is :",
+     "o": [
+      "[graph A: a rises, stays flat, falls back to zero (same shape as v)]",
+      "[graph B: a rises then stays constant]",
+      "[graph C: positive constant, zero, then negative constant]",
+      "[graph D: negative constant, then rising line]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q49 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "v–t: zero, linear rise, constant, linear fall to zero. Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy11-02-neet-2025-code-45-q15",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In some appropriate units, time (t) and position (x) relation of a moving particle is given by t = x<sup>2</sup> + x. The acceleration of the particle is :",
+     "o": [
+      "−2/(x + 2)<sup>3</sup>",
+      "−2/(2x + 1)<sup>3</sup>",
+      "+2/(x + 1)<sup>3</sup>",
+      "+2/(2x + 1)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.2",
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q15",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-02-neet-2025-code-45-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two cities X and Y are connected by a regular bus service with a bus leaving in either direction every T min. A girl is driving scooty with a speed of 60 km/h in the direction X to Y notices that a bus goes past her every 30 minutes in the direction of her motion, and every 10 minutes in the opposite direction. Choose the correct option for the period T of the bus service and the speed (assumed constant) of the buses.",
+     "o": [
+      "9 min, 40 km/h",
+      "25 min, 100 km/h",
+      "10 min, 90 km/h",
+      "15 min, 120 km/h"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q21",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-02-neet-2026-code-13-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When a ruler falls vertically, 5 different persons catch it with different reaction times. (g = 9.8 m s<sup>−2</sup>)<br>A. Person A has reaction time of 0.20 s.<br>B. Person B has reaction time of 0.22 s.<br>C. Person C has reaction time of 0.18 s.<br>D. Person D has reaction time of 0.19 s.<br>E. Person E has reaction time of 0.21 s.<br>What is the correct order of the distance travelled by the ruler for each person?",
+     "o": [
+      "B > E > A > C > D",
+      "C > D > A > E > B",
+      "C > D > A > B > E",
+      "B > E > A > D > C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q11",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-02-neet-2026-code-13-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The following plots show variation of velocity (v) with time (t), of a ball thrown vertically upward, and falling back. Which of the following plots is/are correct?<br>A. v falls linearly to zero, then rises linearly (V shape above the axis)<br>B. v rises linearly, then falls linearly to zero (Λ shape)<br>C. straight line falling from a positive value through zero to negative values<br>D. straight line rising from a negative value through zero to positive values<br>E. U-shaped curve above the axis",
+     "o": [
+      "B only",
+      "A and E only",
+      "C only",
+      "D only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-02",
+    "paras": [
+     "2.3",
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q40",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "The five v–t plots are described in the stem; redrawn figures would help."
+   }
+  }
+ ]
+}
