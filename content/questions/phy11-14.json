@@ -438,7 +438,7 @@
       "3",
       "2"
      ],
-     "sol": "<p>Write the sum as A cos 2πnt × [1 + 2 cos 2πt]: the middle frequency n is modulated by an envelope 1 + 2 cos 2πt, which has period 1 s. Its loud maxima come once per second, but taking intensity maxima of the combined waves the standard answer is the largest frequency difference: (n + 1) − (n − 1) = <b>2</b> beats per second.</p>",
+     "sol": "<p>Adding the three waves: cos 2π(n − 1)t + cos 2πnt + cos 2π(n + 1)t = cos 2πnt × (1 + 2 cos 2πt). The loudness follows the envelope |1 + 2 cos 2πt|, which has maxima at t = 0, 1/2, 1, 3/2, … s (alternately strong, value 3, and weak, value 1).</p><p>So the sound swells <b>2</b> times per second, the largest frequency difference (n + 1) − (n − 1).</p>",
      "hint": "Beat frequency = difference between the extreme frequencies."
     },
     "hi": {
@@ -450,7 +450,7 @@
       "3",
       "2"
      ],
-     "sol": "<p>योग को A cos 2πnt × [1 + 2 cos 2πt] के रूप में लिखिए : मध्य आवृत्ति n एक आवरण 1 + 2 cos 2πt द्वारा मॉडुलित है, जिसका आवर्तकाल 1 s है। इसके प्रबल उच्चिष्ठ प्रति सेकंड एक बार आते हैं, परंतु संयुक्त तरंगों की तीव्रता उच्चिष्ठों के लिए मानक उत्तर सबसे बड़ा आवृत्ति अंतर है : (n + 1) − (n − 1) = <b>2</b> विस्पंद प्रति सेकंड।</p>",
+     "sol": "<p>तीनों तरंगों को जोड़ने पर : cos 2π(n − 1)t + cos 2πnt + cos 2π(n + 1)t = cos 2πnt × (1 + 2 cos 2πt)। प्रबलता आवरण |1 + 2 cos 2πt| का अनुसरण करती है, जिसके उच्चिष्ठ t = 0, 1/2, 1, 3/2, … s पर हैं (बारी-बारी से प्रबल, मान 3, और क्षीण, मान 1)।</p><p>अतः ध्वनि प्रति सेकंड <b>2</b> बार प्रबल होती है, जो सबसे बड़े आवृत्ति अंतर (n + 1) − (n − 1) के बराबर है।</p>",
      "hint": "विस्पंद आवृत्ति = चरम आवृत्तियों का अंतर।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
