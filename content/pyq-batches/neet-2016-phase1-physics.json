@@ -310,14 +310,15 @@
    "U<sub>1</sub> > U<sub>2</sub>",
    "U<sub>2</sub> > U<sub>1</sub>"
   ],
-  "a": 2,
+  "a": 3,
   "year": 2016,
   "exam": "NEET",
   "paper": "Phase 1 Code A Q15",
   "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A",
   "syllabus_status": "dropped_2024",
-  "key": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
-  "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+  "key": "DIFFERS from Official CBSE key, NEET 2016 Phase 1 Code A (3); ours: 4",
+  "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+  "note": "<p class='errata'>By Wien's law λ<sub>m</sub> = b/T = 2.88 × 10<sup>6</sup>/5760 = 500 nm, so the emitted energy is greatest at 500 nm: U<sub>2</sub> > U<sub>1</sub> (option 4). The official key gives option (3), U<sub>1</sub> > U<sub>2</sub>, which contradicts the black-body spectrum.</p>"
  },
  {
   "ch": "phy11-10",
