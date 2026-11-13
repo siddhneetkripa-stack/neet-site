@@ -29,6 +29,8 @@
   const mmss = ms => { const s = Math.round(ms / 1000); return s < 60 ? `${s}s` : `${Math.floor(s / 60)}m ${pad(s % 60)}s`; };
   const L = (obj, lang) => obj ? (obj[lang] || obj.en) : '';
 
+  // Interface language: like NTA's own mock (nta.ac.in/Quiz, checked 13 Nov 2026 with Hindi chosen), only the
+  // instructions page and the question text switch to Hindi; buttons, palette legend and header stay English.
   const UI = {
     en: {
       instructions: 'General Instructions', readCarefully: 'Please read the instructions carefully',
