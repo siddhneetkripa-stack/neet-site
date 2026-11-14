@@ -2288,11 +2288,11 @@
      "q": "निम्नलिखित में से किस एंजाइम में 'हीम' प्रोस्थेटिक समूह होता है?",
      "o": [
       "RuBisCo",
-      "कार्बोनिक ऐनहाइड्रेज",
+      "कार्बोनिक एनहाइड्रेज",
       "सक्सिनेट डिहाइड्रोजिनेज",
       "कैटालेज"
      ],
-     "sol": "<p>NCERT 9.8.6: हाइड्रोजन परॉक्साइड को तोड़ने वाले पेरॉक्सीडेज तथा <b>कैटालेज</b> में हीम प्रोस्थेटिक समूह है। RuBisCO तथा कार्बोनिक ऐनहाइड्रेज धातु आयन (Mg<sup>2+</sup>, Zn<sup>2+</sup>) प्रयुक्त करते हैं; सक्सिनेट डिहाइड्रोजिनेज FAD प्रयुक्त करता है।</p>",
+     "sol": "<p>NCERT 9.8.6: हाइड्रोजन परॉक्साइड को तोड़ने वाले पेरॉक्सीडेज तथा <b>कैटालेज</b> में हीम प्रोस्थेटिक समूह है। RuBisCO तथा कार्बोनिक एनहाइड्रेज धातु आयन (Mg<sup>2+</sup>, Zn<sup>2+</sup>) प्रयुक्त करते हैं; सक्सिनेट डिहाइड्रोजिनेज FAD प्रयुक्त करता है।</p>",
      "hint": "H<sub>2</sub>O<sub>2</sub> तोड़ने वाले एंजाइम।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
@@ -2740,6 +2740,118 @@
     "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Reaction scheme in the paper; needs a redrawn figure. Code 13 booklet Q147."
+   }
+  },
+  {
+   "id": "bio11-09-ai-9-8-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Without an enzyme, about 200 molecules of H<sub>2</sub>CO<sub>3</sub> form from CO<sub>2</sub> and H<sub>2</sub>O in one hour. With carbonic anhydrase, about 600000 molecules form every second. By roughly how many times has the enzyme increased the rate?",
+     "o": [
+      "About 3,000 times",
+      "About 10<sup>6</sup> times",
+      "About 10<sup>7</sup> times",
+      "About 10<sup>9</sup> times"
+     ],
+     "sol": "<p>Put both rates in the same unit. With the enzyme: 600000 × 3600 = 2.16 × 10<sup>9</sup> molecules per hour. Without it: 200 per hour. Ratio = 2.16 × 10<sup>9</sup> ÷ 200 ≈ 1.1 × 10<sup>7</sup>, i.e. about <b>10<sup>7</sup> times</b>, as NCERT 9.8.1 states. (Dividing 600000 by 200 without changing seconds to hours gives the wrong answer 3,000.)</p><p class='errata'>The Hindi edition (p. 114) says the rate rises “10 लाख गुना” (10<sup>6</sup> times); the English edition and the calculation give about 10<sup>7</sup> times.</p>",
+     "hint": "Convert per second to per hour first.",
+     "trap": "Forgetting the 3600 s in an hour gives 3,000."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "एंजाइम के बिना CO<sub>2</sub> तथा H<sub>2</sub>O से एक घंटे में H<sub>2</sub>CO<sub>3</sub> के लगभग 200 अणु बनते हैं। कार्बोनिक एनहाइड्रेज की उपस्थिति में प्रति सेकेंड लगभग 600000 अणु बनते हैं। एंजाइम ने अभिक्रिया की दर को लगभग कितने गुना बढ़ा दिया?",
+     "o": [
+      "लगभग 3,000 गुना",
+      "लगभग 10<sup>6</sup> गुना",
+      "लगभग 10<sup>7</sup> गुना",
+      "लगभग 10<sup>9</sup> गुना"
+     ],
+     "sol": "<p>दोनों दरों को एक ही इकाई में लिखिए। एंजाइम सहित: 600000 × 3600 = 2.16 × 10<sup>9</sup> अणु प्रति घंटा। एंजाइम बिना: 200 अणु प्रति घंटा। अनुपात = 2.16 × 10<sup>9</sup> ÷ 200 ≈ 1.1 × 10<sup>7</sup>, अर्थात लगभग <b>10<sup>7</sup> गुना</b>, जैसा NCERT 9.8.1 (अंग्रेज़ी) में है। (सेकेंड को घंटे में बदले बिना 600000 को 200 से भाग देने पर गलत उत्तर 3,000 आता है।)</p><p class='errata'>हिंदी संस्करण (पृ. 114) में “10 लाख गुना” (10<sup>6</sup> गुना) छपा है; अंग्रेज़ी संस्करण तथा गणना के अनुसार यह लगभग 10<sup>7</sup> गुना है।</p>",
+     "hint": "पहले प्रति सेकेंड को प्रति घंटा में बदलिए।",
+     "trap": "एक घंटे के 3600 s भूलने पर 3,000 आता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.8.1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-09-ai-9-8-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which sequence correctly shows how an enzyme (E) converts its substrate (S) into product (P)?",
+     "o": [
+      "E + S → EP → ES → E + P",
+      "E + S ⇌ ES → EP → E + P",
+      "E + P → ES → E + S",
+      "E + S → E + P, with no complex formed"
+     ],
+     "sol": "<p>NCERT 9.8.3: the substrate binds the enzyme's substrate-binding site to form a highly reactive, short-lived <b>enzyme-substrate complex (ES)</b>; this passes through an <b>enzyme-product complex (EP)</b> and releases the product and the unchanged enzyme: E + S ⇌ ES → EP → E + P. Formation of the ES complex is essential for catalysis.</p>",
+     "hint": "Substrate complex first, product complex next."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कौन-सा अनुक्रम सही दर्शाता है कि एंजाइम (E) अपने क्रियाधार (S) को उत्पाद (P) में कैसे बदलता है?",
+     "o": [
+      "E + S → EP → ES → E + P",
+      "E + S ⇌ ES → EP → E + P",
+      "E + P → ES → E + S",
+      "E + S → E + P, कोई सम्मिश्र नहीं बनता"
+     ],
+     "sol": "<p>NCERT 9.8.3: क्रियाधार एंजाइम के क्रियाधार-बंधन-स्थल से बंध कर अत्यधिक सक्रिय, अल्पावधि का <b>एंजाइम-क्रियाधार सम्मिश्र (ES)</b> बनाता है; यह <b>एंजाइम उत्पाद जटिल (EP)</b> से होकर उत्पाद तथा अपरिवर्तित एंजाइम मुक्त करता है: E + S ⇌ ES → EP → E + P। ES सम्मिश्र का निर्माण उत्प्रेरण के लिए आवश्यक है।</p>",
+     "hint": "पहले क्रियाधार सम्मिश्र, फिर उत्पाद सम्मिश्र।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.8.3"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
    }
   }
  ],
