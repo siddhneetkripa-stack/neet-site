@@ -950,9 +950,9 @@
       "AIDS, Malaria, filaria",
       "Cancer, AIDS, syphilis",
       "Gonorrhoea, Syphilis, Genital Herpes",
-      "Gonorrhoea, Syphilis, Genital Herpes"
+      "Gonorrhoea, Malaria, Genital Herpes"
      ],
-     "sol": "<p>Gonorrhoea, syphilis and genital herpes are all sexually transmitted. Malaria and filaria are vector-borne and cancer is not infectious.</p><p class='errata'>In our copy options 3 and 4 are printed the same; the official key gives option 3. Check the option text against the official F3 booklet.</p>",
+     "sol": "<p>Gonorrhoea, syphilis and genital herpes are all sexually transmitted. Option 4 has malaria, and options 1 and 2 have malaria, filaria or cancer, none of which is sexually transmitted.</p><p class='errata'>Option 4 restored: our copy printed options 3 and 4 the same. Published copies of this NEET 2020 question give the fourth option as 'Gonorrhoea, Malaria, Genital herpes'; its place as option 4 follows our copy and the NTA F3 key (3). Check against the printed F3 booklet.</p>",
      "hint": "Remove any option with a disease that is not sexually transmitted."
     },
     "hi": {
@@ -962,9 +962,9 @@
       "एड्स (AIDS), मलेरिया, फाइलेरिया",
       "कैंसर, एड्स (AIDS), सिफिलिस",
       "सुजाक, सिफिलिस, जननिक परिसर्प",
-      "सुजाक, सिफिलिस, जननिक परिसर्प"
+      "सुजाक, मलेरिया, जननिक परिसर्प"
      ],
-     "sol": "<p>सुजाक, सिफिलिस तथा जननिक परिसर्प सभी यौन संचारित हैं। मलेरिया और फाइलेरिया रोगवाहक द्वारा फैलते हैं और कैंसर संक्रामक नहीं है।</p><p class='errata'>हमारी प्रति में विकल्प 3 और 4 एक जैसे छपे हैं; आधिकारिक कुंजी विकल्प 3 देती है। विकल्पों को आधिकारिक F3 पुस्तिका से मिलाएँ।</p>",
+     "sol": "<p>सुजाक, सिफिलिस तथा जननिक परिसर्प, तीनों यौन संचारित हैं। विकल्प 4 में मलेरिया है, और विकल्प 1 तथा 2 में मलेरिया, फाइलेरिया या कैंसर हैं, जिनमें से कोई भी यौन संचारित नहीं है।</p><p class='errata'>विकल्प 4 पुनः स्थापित: हमारी प्रति में विकल्प 3 और 4 एक जैसे छपे थे। NEET 2020 के इस प्रश्न की प्रकाशित प्रतियों में चौथा विकल्प 'सुजाक, मलेरिया, जननिक परिसर्प' है; विकल्प 4 के रूप में इसका स्थान हमारी प्रति तथा NTA F3 कुंजी (3) से लिया गया है। मुद्रित F3 पुस्तिका से मिलान करें।</p>",
      "hint": "जिस विकल्प में यौन संचारित रोग न हो उसे हटाएँ।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
@@ -995,7 +995,7 @@
    "review": {
     "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 3)",
     "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)",
-    "note": "The copy prints options 3 and 4 identically; check option 4 against the F3 booklet."
+    "note": "Option 4 restored (copy printed options 3 and 4 identically): 'Gonorrhoea, Malaria, Genital herpes', as in published copies of the question (e.g. careers360, examside). Position taken from our copy; answer unchanged (3, NTA F3 key). Check against the printed F3 booklet."
    }
   },
   {
