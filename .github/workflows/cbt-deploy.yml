@@ -20,7 +20,7 @@ jobs:
         run: if [ -n "$CLOUDFLARE_API_TOKEN" ]; then echo "ok=1" >> $GITHUB_OUTPUT; else echo "::notice::Cloudflare secrets not set yet; skipping deploy"; fi
       - uses: actions/setup-node@v4
         if: steps.cf.outputs.ok
-        with: { node-version: 20 }
+        with: { node-version: 22 }
       - run: npm install --no-audit --no-fund
         if: steps.cf.outputs.ok
       - run: npm run deploy
