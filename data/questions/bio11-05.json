@@ -2099,7 +2099,7 @@
       "(a) Perigynous; (b) Epigynous",
       "(a) Perigynous; (b) Perigynous"
      ],
-     "sol": "<p>In both figures (read from the paper) the gynoecium sits in the centre of a cup-shaped thalamus and the sepals, petals and stamens arise from its rim at about the same level as the ovary — both are <b>perigynous</b> (NCERT Figure 5.10 c). The copy's key is (4).</p>",
+     "sol": "<p>In both figures the gynoecium sits in the centre of a cup-shaped thalamus and the sepals, petals and stamens arise from its rim at about the same level as the ovary — both are <b>perigynous</b> (NCERT Figure 5.10 c). The copy's key is (4).</p>",
      "hint": "Look where the other whorls arise relative to the ovary."
     },
     "hi": {
@@ -2111,7 +2111,7 @@
       "(a) परिजायांगी; (b) अधिजायांगी",
       "(a) परिजायांगी; (b) परिजायांगी"
      ],
-     "sol": "<p>दोनों चित्रों में (प्रश्नपत्र से देखा गया) जायांग प्याले जैसे पुष्पासन के केंद्र में है और बाह्यदल, दल तथा पुंकेसर उसके किनारे से लगभग अंडाशय की ऊँचाई पर निकलते हैं — दोनों <b>परिजायांगी</b> हैं (NCERT चित्र 5.10 स)। प्रति की कुंजी (4) है।</p>",
+     "sol": "<p>दोनों चित्रों में जायांग प्याले जैसे पुष्पासन के केंद्र में है और बाह्यदल, दल तथा पुंकेसर उसके किनारे से लगभग अंडाशय की ऊँचाई पर निकलते हैं — दोनों <b>परिजायांगी</b> हैं (NCERT चित्र 5.10 स)। प्रति की कुंजी (4) है।</p>",
      "hint": "देखिए अन्य चक्र अंडाशय के सापेक्ष कहाँ से निकलते हैं।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
@@ -2120,6 +2120,16 @@
     "kind": "single",
     "index": 3
    },
+   "media": [
+    {
+     "src": "assets/figures/bio11-05/bio11-05-neet-2024-q145-esaral-copy.svg",
+     "alt": {
+      "en": "Two flowers, (a) and (b), cut lengthwise to show where the sepals, petals and stamens arise with respect to the ovary",
+      "hi": "दो पुष्प (a) तथा (b) की अनुदैर्ध्य काट, जिसमें अंडाशय के सापेक्ष बाह्यदल, दल तथा पुंकेसरों की स्थिति दिखाई गई है"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio11-05",
     "paras": [
@@ -2142,7 +2152,7 @@
    "review": {
     "keyCheck": "Answer printed in the copy: 4; matches our solving",
     "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
-    "note": "Figures (a) and (b) in the paper; needs redrawn figures."
+    "note": "Figures (a) and (b) in the paper; needs redrawn figures. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {
@@ -2217,7 +2227,7 @@
       "C",
       "D"
      ],
-     "sol": "<p>The figure (read from the paper) is an L.S. of a maize grain like NCERT Figure 5.15: A = coleoptile, B = plumule, <b>C = radicle</b>, D = coleorhiza. The radicle forms the root on germination.</p>",
+     "sol": "<p>The figure is an L.S. of a maize grain like NCERT Figure 5.15: A = coleoptile, B = plumule, <b>C = radicle</b>, D = coleorhiza. The radicle forms the root on germination.</p>",
      "hint": "Radicle sits inside the coleorhiza."
     },
     "hi": {
@@ -2229,7 +2239,7 @@
       "C",
       "D"
      ],
-     "sol": "<p>चित्र (प्रश्नपत्र से देखा गया) NCERT चित्र 5.15 जैसा मक्का के दाने का अनुदैर्घ्य काट (L.S.) है: A = प्रांकुरचोल, B = प्रांकुर, <b>C = मूलांकुर</b>, D = मूलांकुरचोल। अंकुरण पर मूलांकुर से जड़ बनती है।</p>",
+     "sol": "<p>चित्र NCERT चित्र 5.15 जैसा मक्का के दाने का अनुदैर्घ्य काट (L.S.) है: A = प्रांकुरचोल, B = प्रांकुर, <b>C = मूलांकुर</b>, D = मूलांकुरचोल। अंकुरण पर मूलांकुर से जड़ बनती है।</p>",
      "hint": "मूलांकुर मूलांकुरचोल के भीतर।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
@@ -2238,6 +2248,16 @@
     "kind": "single",
     "index": 2
    },
+   "media": [
+    {
+     "src": "assets/figures/bio11-05/bio11-05-neet-2024-q147-esaral-copy.svg",
+     "alt": {
+      "en": "Longitudinal section of a maize grain with four parts of the embryo labelled A, B, C and D",
+      "hi": "मक्का के दाने की अनुदैर्ध्य काट, जिसमें भ्रूण के चार भाग A, B, C तथा D नामांकित हैं"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio11-05",
     "paras": [
@@ -2260,7 +2280,7 @@
    "review": {
     "keyCheck": "Answer printed in the copy: 3; matches our solving",
     "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
-    "note": "Labelled seed figure in the paper; needs a redrawn figure."
+    "note": "Labelled seed figure in the paper; needs a redrawn figure. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {
@@ -2297,6 +2317,16 @@
     "kind": "single",
     "index": 3
    },
+   "media": [
+    {
+     "src": "assets/figures/bio11-05/bio11-05-neet-2025-code-45-q104.svg",
+     "alt": {
+      "en": "Two floral formula symbols: a circle with a plus sign, and the letter G with a line below it",
+      "hi": "पुष्पी सूत्र के दो प्रतीक: धन चिह्न वाला वृत्त तथा नीचे रेखा वाला अक्षर G"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio11-05",
     "paras": [
@@ -2319,7 +2349,7 @@
    "review": {
     "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 4)",
     "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
-    "note": "Floral-formula symbols (⊕, underlined/overlined G) in the paper."
+    "note": "Floral-formula symbols (⊕, underlined/overlined G) in the paper. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {
@@ -2531,6 +2561,16 @@
     "kind": "single",
     "index": 2
    },
+   "media": [
+    {
+     "src": "assets/figures/bio11-05/bio11-05-neet-2026-q121-esaral-copy.svg",
+     "alt": {
+      "en": "Four floral formulas numbered 1 to 4; in formulas 3 and 4 an arc joins C and A",
+      "hi": "1 से 4 तक क्रमांकित चार पुष्पी सूत्र; सूत्र 3 तथा 4 में C और A को एक चाप जोड़ता है"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio11-05",
     "paras": [
@@ -2553,7 +2593,7 @@
    "review": {
     "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)",
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
-    "note": "Options are floral formulas with symbols; the keyed one is ⊕ ⚥ K<sub>(5)</sub> C<sub>(5)</sub> A<sub>5</sub> G<sub>(2)</sub>. Needs the options typeset from the booklet. Code 13 booklet Q108."
+    "note": "Options are floral formulas with symbols; the keyed one is ⊕ ⚥ K<sub>(5)</sub> C<sub>(5)</sub> A<sub>5</sub> G<sub>(2)</sub>. Needs the options typeset from the booklet. Code 13 booklet Q108. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {

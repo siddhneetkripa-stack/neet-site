@@ -1765,6 +1765,16 @@
     "kind": "single",
     "index": 0
    },
+   "media": [
+    {
+     "src": "assets/figures/bio12-02/bio12-02-neet-2024-q101-esaral-copy.svg",
+     "alt": {
+      "en": "Flow chart: GnRH → LH → (B) → androgens → formation of spermatids; GnRH → (A) → (C) → factors → (D)",
+      "hi": "प्रवाह चार्ट: GnRH → LH → (B) → एंड्रोजेन → शुक्राणुप्रसू का निर्माण; GnRH → (A) → (C) → घटक → (D)"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio12-02",
     "paras": [
@@ -1788,7 +1798,7 @@
    "review": {
     "keyCheck": "Answer printed in the copy: 1; matches our solving",
     "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
-    "note": "Labelled diagram (A–D) in the paper; needs a redrawn figure."
+    "note": "Labelled diagram (A–D) in the paper; needs a redrawn figure. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {
