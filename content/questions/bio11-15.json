@@ -1610,6 +1610,171 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q175."
    }
+  },
+  {
+   "id": "bio11-15-ncertex-15-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Blood is called a special connective tissue because it consists of:",
+     "o": [
+      "Cells only, with no matrix",
+      "A fluid matrix (plasma) and formed elements",
+      "A solid matrix of collagen fibres",
+      "Muscle fibres in a fluid"
+     ],
+     "sol": "<p>NCERT 15.1: blood is a special connective tissue consisting of a <b>fluid matrix, plasma, and formed elements</b> (RBCs, WBCs, platelets). Like other connective tissues, it has cells lying in a matrix; here the matrix is fluid.</p>",
+     "hint": "Connective tissue = cells + matrix."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "रक्त को विशेष प्रकार का संयोजी ऊतक कहा जाता है, क्योंकि यह बना होता है:",
+     "o": [
+      "केवल कोशिकाओं से, आधात्री के बिना",
+      "द्रव्य आधात्री (प्लाज्मा) तथा संगठित पदार्थों से",
+      "कोलेजन तंतुओं की ठोस आधात्री से",
+      "द्रव में पेशी तंतुओं से"
+     ],
+     "sol": "<p>NCERT 15.1: रक्त एक विशेष प्रकार का संयोजी ऊतक है, जिसमें <b>द्रव्य आधात्री (मैट्रिक्स) प्लाज्मा तथा संगठित पदार्थ</b> (RBC, WBC, पट्टिकाणु) होते हैं। अन्य संयोजी ऊतकों की तरह इसमें भी कोशिकाएं आधात्री में होती हैं; यहाँ आधात्री द्रव है।</p>",
+     "hint": "संयोजी ऊतक = कोशिकाएं + आधात्री।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.1"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 15.4 (why blood is a connective tissue), reworded as an MCQ"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-15-ncertex-15-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement correctly distinguishes lymph from blood?",
+     "o": [
+      "Lymph is red and contains RBCs; blood is colourless",
+      "Lymph is a colourless fluid with specialised lymphocytes, formed from tissue fluid that leaves behind the larger proteins and most formed elements; it is drained back into major veins",
+      "Lymph carries no nutrients or hormones",
+      "Fats are absorbed directly into blood capillaries of the villi, never into lymph"
+     ],
+     "sol": "<p>NCERT 15.2: as blood passes through tissue capillaries, water and small water-soluble substances move out into the spaces between cells, leaving the larger proteins and most formed elements behind — this is <b>interstitial (tissue) fluid</b>, with the same minerals as plasma. The lymphatic system collects it and drains it back into major veins; the fluid in this system is <b>lymph</b>: <b>colourless</b>, with specialised <b>lymphocytes</b> for immune responses. Lymph also carries nutrients and hormones, and <b>fats are absorbed through lymph</b> in the lacteals of the intestinal villi.</p>",
+     "hint": "Colourless, lymphocytes, lacteals."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कौन-सा कथन लसीका को रक्त से सही रूप में अलग करता है?",
+     "o": [
+      "लसीका लाल होती है और उसमें RBC होती हैं; रक्त रंगहीन होता है",
+      "लसीका विशिष्ट लिंफोसाइट (लसीकाणु) युक्त रंगहीन द्रव है, जो ऊतक द्रव से बनती है (बड़े प्रोटीन तथा अधिकतर संगठित पदार्थ रक्त में ही रह जाते हैं); यह बड़ी शिराओं में वापस छोड़ी जाती है",
+      "लसीका पोषक पदार्थ या हार्मोन नहीं ले जाती",
+      "वसा आंत्र अंकुर की रक्त केशिकाओं में सीधे अवशोषित होती है, लसीका में कभी नहीं"
+     ],
+     "sol": "<p>NCERT 15.2: रक्त जब ऊतकों की केशिकाओं से गुजरता है तो जल तथा जल में घुलनशील छोटे पदार्थ कोशिकाओं के बीच के स्थानों में निकल जाते हैं, बड़े प्रोटीन तथा अधिकतर संगठित पदार्थ रक्त में ही रह जाते हैं — यह <b>अंतराली द्रव (ऊतक द्रव)</b> है, जिसमें प्लैज्मा के समान खनिज लवण होते हैं। लसीका तंत्र इसे एकत्र कर बड़ी शिराओं में वापस छोड़ता है; इस तंत्र का द्रव <b>लसीका</b> है: <b>रंगहीन</b>, प्रतिरक्षा अनुक्रिया के लिए विशिष्ट <b>लिंफोसाइट (लसीकाणु)</b> युक्त। लसीका पोषक पदार्थ व हार्मोन भी ले जाती है, और आंत्र अंकुर के लैक्टियल में <b>वसा लसीका द्वारा अवशोषित</b> होती है।</p>",
+     "hint": "रंगहीन, लिंफोसाइट, लैक्टियल।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.2"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 15.5 (difference between lymph and blood), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-15-ai-15-6-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which disorder of the circulatory system is correctly described?",
+     "o": [
+      "Hypertension — repeated blood pressure readings of 120/80 mm Hg",
+      "Coronary artery disease (atherosclerosis) — deposits of calcium, fat, cholesterol and fibrous tissue narrow the lumen of the arteries supplying the heart muscle",
+      "Angina — the heart stops beating",
+      "Heart failure — the same thing as cardiac arrest"
+     ],
+     "sol": "<p>NCERT 15.6: <b>hypertension</b> is blood pressure above normal (120/80); repeated readings of <b>140/90</b> or higher show hypertension. <b>Coronary artery disease</b> (atherosclerosis) affects the vessels supplying the heart muscle; deposits of calcium, fat, cholesterol and fibrous tissue narrow their lumen. <b>Angina</b> (angina pectoris) is acute chest pain when not enough oxygen reaches the heart muscle. <b>Heart failure</b> is when the heart does not pump blood effectively enough for the body's needs (congestion of the lungs is a main symptom); it is not cardiac arrest (heart stops beating) or a heart attack (heart muscle suddenly damaged by inadequate blood supply).</p><p class='errata'>The Hindi edition (p. 203) runs these definitions together: it describes sudden damage to heart muscle as part of हृदपात (heart failure). In the English book that is a heart attack.</p>",
+     "hint": "120/80 is normal."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "परिसंचरण तंत्र की कौन-सी विकृति सही वर्णित है?",
+     "o": [
+      "अति तनाव (उच्च रक्त दाब) — बार-बार मापने पर रक्त दाब 120/80 mm Hg",
+      "हृद धमनी रोग (एथिरोकाठिंय) — कैल्सियम, वसा, कोलेस्टेरॉल तथा रेशीय ऊतकों के जमा होने से हृदय पेशी को रक्त देने वाली धमनियों की अवकाशिका संकरी हो जाती है",
+      "हृदशूल (एंजाइना) — हृदय की धड़कन बंद हो जाती है",
+      "हृदपात — हृदघात (हृदय की धड़कन रुकना) के समान ही है"
+     ],
+     "sol": "<p>NCERT 15.6: <b>अति तनाव</b> वह अवस्था है जिसमें रक्त दाब सामान्य (120/80) से अधिक होता है; बार-बार मापने पर <b>140/90</b> या अधिक होना अति तनाव है। <b>हृद धमनी रोग</b> (एथिरोकाठिंय) में हृदय पेशी को रक्त देने वाली वाहिनियाँ प्रभावित होती हैं; कैल्सियम, वसा, कोलेस्टेरॉल तथा रेशीय ऊतकों के जमाव से उनकी अवकाशिका संकरी हो जाती है। <b>हृदशूल</b> (एंजाइना पेक्टोरिस) में हृद पेशी तक पर्याप्त ऑक्सीजन न पहुँचने से सीने में तीव्र दर्द होता है। <b>हृदपात</b> में हृदय शरीर की आवश्यकतानुसार प्रभावी ढंग से रक्त पंप नहीं कर पाता (फुप्फुस का संकुलन प्रमुख लक्षण है); यह न हृदय की धड़कन रुकना (cardiac arrest) है, न हार्ट अटैक (अपर्याप्त रक्त आपूर्ति से हृद पेशी को अचानक क्षति)।</p><p class='errata'>हिंदी संस्करण (पृ. 203) में ये परिभाषाएं आपस में मिल गई हैं: वहाँ हृदय पेशी को अचानक क्षति को हृदपात का भाग बताया गया है। अंग्रेज़ी पुस्तक में यह हार्ट अटैक है।</p>",
+     "hint": "120/80 सामान्य है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-15",
+    "paras": [
+     "15.6"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 15.6"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
