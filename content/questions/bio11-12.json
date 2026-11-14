@@ -1128,6 +1128,116 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "RQ = 102/145 ≈ 0.70. Code 13 booklet Q103."
    }
+  },
+  {
+   "id": "bio11-12-ai-12-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Plants have no specialised respiratory organs. Which of the following is <b>not</b> one of the reasons NCERT gives for this?",
+     "o": [
+      "Each plant part takes care of its own gas-exchange needs; little gas is transported between parts",
+      "Roots, stems and leaves respire at rates far lower than animals do",
+      "Living cells lie close to the surface, and loosely packed parenchyma gives a network of air spaces",
+      "Plant cells respire without O<sub>2</sub>, so they never need oxygen"
+     ],
+     "sol": "<p>NCERT 12.1: plants do need O<sub>2</sub> and give out CO<sub>2</sub>; they exchange gases through stomata and lenticels. They manage without respiratory organs because (1) each part handles its own gas exchange, (2) their demand for gas exchange is low (respiration rates are far lower than in animals; large volumes are exchanged only in photosynthesis, when O<sub>2</sub> is released inside the cell), and (3) gases need not diffuse far: living cells are near the surface (in woody stems, thin layers under the bark, with lenticels; inner cells are dead), and loosely packed parenchyma provides connected air spaces. Statement 4 is false.</p>",
+     "hint": "Do plants need O<sub>2</sub> for respiration?"
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पादपों में विशिष्ट श्वसन अंग नहीं होते। इसके लिए NCERT द्वारा दिए गए कारणों में से कौन-सा <b>नहीं</b> है?",
+     "o": [
+      "पादप का प्रत्येक भाग अपनी गैसीय आदान-प्रदान की आवश्यकता का ध्यान रखता है; एक भाग से दूसरे भाग में गैसों का परिवहन बहुत कम होता है",
+      "मूल, तना व पत्ती में श्वसन जंतुओं की अपेक्षा बहुत धीमी दर से होता है",
+      "सजीव कोशिकाएं सतह के पास होती हैं, और ढीली व्यवस्थित पैरेंकाइमा कोशिकाएं वायु स्थानों का जुड़ा जाल बनाती हैं",
+      "पादप कोशिकाएं O<sub>2</sub> के बिना श्वसन करती हैं, इसलिए उन्हें कभी ऑक्सीजन की आवश्यकता नहीं होती"
+     ],
+     "sol": "<p>NCERT 12.1: पादपों को O<sub>2</sub> की आवश्यकता होती है और वे CO<sub>2</sub> मुक्त करते हैं; गैसों का आदान-प्रदान रंध्र व वातरंध्र से होता है। बिना श्वसन अंग के वे इसलिए काम चला लेते हैं क्योंकि (1) प्रत्येक भाग अपना गैसीय आदान-प्रदान स्वयं करता है, (2) गैसीय आदान-प्रदान की माँग कम है (श्वसन दर जंतुओं से बहुत कम; अधिक गैसों का आदान-प्रदान केवल प्रकाश-संश्लेषण में, जब O<sub>2</sub> कोशिका के भीतर ही निकलती है), और (3) गैसों को अधिक दूरी तक विसरित नहीं होना पड़ता: सजीव कोशिकाएं सतह के पास होती हैं (काष्ठीय तनों में छाल के नीचे पतली सतह, वातरंध्र सहित; भीतर की कोशिकाएं मृत), और पैरेंकाइमा कोशिकाओं के बीच वायु स्थानों का जुड़ा जाल होता है। कथन 4 गलत है।</p>",
+     "hint": "क्या पादपों को श्वसन के लिए O<sub>2</sub> चाहिए?"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 12.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-12-ncertex-12-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The net gain of 38 ATP per glucose in aerobic respiration is calculated on certain assumptions. Which of the following is <b>not</b> one of them?",
+     "o": [
+      "Glycolysis, TCA cycle and ETS work one after another in an orderly sequence",
+      "NADH made in glycolysis is transferred into the mitochondria and undergoes oxidative phosphorylation",
+      "Intermediates of the pathway are withdrawn to make other compounds as the cell needs them",
+      "Only glucose is respired; no other substrate enters at any intermediate stage"
+     ],
+     "sol": "<p>NCERT 12.5: the 38 ATP figure is a theoretical exercise that assumes an orderly sequence (glycolysis → TCA cycle → ETS), that glycolytic NADH enters the mitochondria and undergoes oxidative phosphorylation, that <b>no intermediate is used to make any other compound</b>, and that only glucose is respired. Statement 3 describes what actually happens in a living cell (substrates enter and leave the pathways as needed), which is why the assumptions are not really valid.</p>",
+     "hint": "The calculation pretends nothing leaves the pathway."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "ऑक्सी श्वसन में प्रति ग्लूकोज 38 ATP की शुद्ध प्राप्ति कुछ निश्चित कल्पनाओं के आधार पर गणना की जाती है। निम्नलिखित में से कौन-सी उनमें से <b>नहीं</b> है?",
+     "o": [
+      "ग्लाइकोलिसिस, TCA चक्र तथा ETS एक के बाद एक सुव्यवस्थित क्रम में चलते हैं",
+      "ग्लाइकोलिसिस में बना NADH माइटोकोंड्रिया (सूत्र कणिका) में जाकर ऑक्सीकारी-फॉस्फोरिलिकरण करता है",
+      "कोशिका की आवश्यकता अनुसार पथ के मध्यवर्ती दूसरे यौगिक बनाने के लिए निकाल लिए जाते हैं",
+      "केवल ग्लूकोज का श्वसन होता है; कोई दूसरा क्रियाधार किसी मध्यवर्ती चरण में प्रवेश नहीं करता"
+     ],
+     "sol": "<p>NCERT 12.5 (श्वसनीय संतुलन चार्ट): 38 ATP की संख्या एक सैद्धांतिक अभ्यास है, जिसमें माना जाता है कि पथ सुव्यवस्थित क्रम में चलता है (ग्लाइकोलिसिस → TCA चक्र → ETS), ग्लाइकोलिसिस का NADH माइटोकोंड्रिया (सूत्र कणिका) में ऑक्सीकारी-फॉस्फोरिलिकरण करता है, <b>पथ का कोई भी मध्यवर्ती दूसरे यौगिक के निर्माण में उपयोग नहीं होता</b>, तथा केवल ग्लूकोज का श्वसन होता है। कथन 3 वह है जो सजीव कोशिका में वास्तव में होता है (क्रियाधार आवश्यकता अनुसार पथ में आते-जाते हैं), इसीलिए ये कल्पनाएं वास्तव में तर्कसंगत नहीं हैं।</p>",
+     "hint": "गणना मान लेती है कि पथ से कुछ बाहर नहीं जाता।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-12",
+    "paras": [
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 12.8 (assumptions behind the net ATP gain), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
