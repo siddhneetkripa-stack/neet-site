@@ -1642,6 +1642,61 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q152."
    }
+  },
+  {
+   "id": "bio11-17-ai-17-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which pair of cell or organ and type of movement is correctly matched?",
+     "o": [
+      "Macrophages and leucocytes in blood — ciliary movement",
+      "Removal of dust from the trachea and passage of ova through the female reproductive tract — ciliary movement",
+      "Movement of jaws and tongue — amoeboid movement",
+      "Pseudopodia formed by streaming of protoplasm — muscular movement"
+     ],
+     "sol": "<p>NCERT 17.1: human cells show three main movements. <b>Amoeboid</b>: macrophages and leucocytes in blood, by pseudopodia formed by streaming of protoplasm (microfilaments also help). <b>Ciliary</b>: in internal tubular organs lined by ciliated epithelium — cilia in the trachea remove dust and inhaled foreign particles, and ciliary movement helps ova pass through the female reproductive tract. <b>Muscular</b>: limbs, jaws, tongue, and locomotion.</p>",
+     "hint": "Tubes lined with ciliated epithelium."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कौन-सा कोशिका या अंग तथा गति का प्रकार सही मिलाया गया है?",
+     "o": [
+      "रुधिर के भक्षकाणु (महाभक्षकाणु) तथा ल्युकोसाइट (श्वेताणु) — पक्ष्माभी गति",
+      "श्वास नली से धूल कणों का हटना तथा मादा प्रजनन मार्ग में डिंब का परिवहन — पक्ष्माभी गति",
+      "जबड़ों तथा जिह्वा की गति — अमीबीय गति",
+      "जीवद्रव्य की प्रवाही गति से बने कूटपाद — पेशीय गति"
+     ],
+     "sol": "<p>NCERT 17.1: मानव कोशिकाएं तीन मुख्य प्रकार की गति दर्शाती हैं। <b>अमीबीय</b>: रुधिर के महाभक्षकाणु तथा श्वेताणु, जीवद्रव्य की प्रवाही गति से बने कूटपाद द्वारा (सूक्ष्मतंतु भी सहयोगी)। <b>पक्ष्माभी</b>: पक्ष्माभ उपकला से आस्तारित नलिकाकार अंगों में — श्वास नली के पक्ष्माभ धूल कण व बाह्य पदार्थ हटाते हैं, और मादा प्रजनन मार्ग में डिंब का परिवहन पक्ष्माभ गति से होता है। <b>पेशीय</b>: पाद, जबड़े, जिह्वा तथा चलन।</p>",
+     "hint": "पक्ष्माभ उपकला से आस्तारित नलिकाएं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 17.1"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {
