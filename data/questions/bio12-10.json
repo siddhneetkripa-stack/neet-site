@@ -1814,6 +1814,61 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q155."
    }
+  },
+  {
+   "id": "bio12-10-ai-10-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about recombinant therapeutics is correct?",
+     "o": [
+      "They commonly cause unwanted immunological responses, unlike products isolated from animals",
+      "They do not induce the unwanted immunological responses common with similar products from non-human sources; about 30 have been approved for human use worldwide, and 12 are marketed in India",
+      "About 300 recombinant therapeutics are marketed in India",
+      "Recombinant DNA technology cannot produce therapeutic drugs on a mass scale"
+     ],
+     "sol": "<p>NCERT 10.2: recombinant DNA technology has had a large impact on healthcare by enabling <b>mass production of safe and more effective therapeutic drugs</b>. Recombinant therapeutics <b>do not induce unwanted immunological responses</b>, which are common with similar products isolated from non-human sources. At present about <b>30</b> recombinant therapeutics are approved for human use worldwide; <b>12</b> are marketed in India.</p>",
+     "hint": "Safer than animal-derived products; 30 worldwide, 12 in India."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पुनर्योगज चिकित्सीय औषधियों के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "जंतुओं से विलगित उत्पादों के विपरीत, ये प्रायः अवांछित प्रतिरक्षात्मक प्रभाव डालती हैं",
+      "अमानवीय स्रोतों से विलगित ऐसे उत्पादों के विपरीत, ये अवांछित प्रतिरक्षात्मक प्रभाव नहीं डालतीं; विश्व में लगभग 30 मनुष्य के प्रयोग हेतु स्वीकृत हैं, और 12 भारत में विपणित हो रही हैं",
+      "भारत में लगभग 300 पुनर्योगज चिकित्सीय औषधियाँ विपणित हो रही हैं",
+      "पुनर्योगज DNA प्रौद्योगिकी से चिकित्सीय औषधियों का अधिक मात्रा में उत्पादन संभव नहीं है"
+     ],
+     "sol": "<p>NCERT 10.2: पुनर्योगज DNA प्रौद्योगिकी ने स्वास्थ्य सुरक्षा के क्षेत्र में अत्यधिक प्रभाव डाला है, क्योंकि इससे <b>सुरक्षित व अत्यधिक प्रभावी चिकित्सीय औषधियों का अधिक मात्रा में उत्पादन</b> संभव है। पुनर्योगज चिकित्सीय औषधियाँ <b>अवांछित प्रतिरक्षात्मक प्रभाव नहीं डालतीं</b>, जबकि अमानवीय स्रोतों से विलगित ऐसे उत्पादों में यह प्रायः देखा जाता है। वर्तमान में लगभग <b>30</b> पुनर्योगज चिकित्सीय औषधियाँ विश्व में मनुष्य के प्रयोग हेतु स्वीकृत हैं; इनमें से <b>12</b> भारत में विपणित हो रही हैं।</p>",
+     "hint": "जंतु स्रोत के उत्पादों से सुरक्षित; विश्व में 30, भारत में 12।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.2"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {
