@@ -65,10 +65,22 @@
       "Release of secondary oocyte",
       "LH surge",
       "Decrease in estradiol"
-     ]
+     ],
+     "sol": "<p>Around mid-cycle the Graafian follicle is fully developed, the LH surge occurs and the follicle ruptures to release the secondary oocyte (ovulation). Estrogen (estradiol) is at its <b>peak</b> just before ovulation, not decreasing, so 'decrease in estradiol' is not linked with ovulation.</p>",
+     "hint": "High estrogen triggers the LH surge."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव स्त्री में निम्नलिखित में से कौन-सी घटना अंडोत्सर्ग से संबंधित नहीं है?",
+     "o": [
+      "ग्राफी पुटक का पूर्ण परिवर्धन",
+      "द्वितीयक अंडक का मोचन",
+      "LH का चरम स्रवण",
+      "एस्ट्राडाइऑल में कमी"
+     ],
+     "sol": "<p>चक्र के मध्य में ग्राफी पुटक पूर्ण परिवर्धित होता है, LH का चरम स्रवण होता है और पुटक फटकर द्वितीयक अंडक मोचित करता है (अंडोत्सर्ग)। अंडोत्सर्ग से ठीक पहले ऐस्ट्रोजन (एस्ट्राडाइऑल) <b>उच्चतम</b> स्तर पर होता है, घटता नहीं; अतः 'एस्ट्राडाइऑल में कमी' अंडोत्सर्ग से संबंधित नहीं है।</p>",
+     "hint": "उच्च ऐस्ट्रोजन LH के चरम स्रवण को प्रेरित करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -111,10 +123,22 @@
       "Stroma",
       "Zona pellucida",
       "Granulosa"
-     ]
+     ],
+     "sol": "<p>The <b>zona pellucida</b> is a non-cellular membrane secreted around the secondary oocyte in the Graafian follicle. Theca, granulosa and stroma are all made of cells.</p>",
+     "hint": "It is a membrane, not a cell layer."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गह्वर युक्त पुटक में निम्नलिखित में से कौन-सी परत अकोशिकीय होती है?",
+     "o": [
+      "अंतर प्रावरक (थीका इंटरना)",
+      "स्ट्रोमा",
+      "पारदर्शी अंडावरण (जोना पेल्यूसिडा)",
+      "कणिकामय परत (ग्रेनुलोसा)"
+     ],
+     "sol": "<p><b>पारदर्शी अंडावरण</b> ग्राफी पुटक में द्वितीयक अंडक के चारों ओर बनी एक अकोशिकीय झिल्ली है। प्रावरक, कणिकामय परत और स्ट्रोमा सभी कोशिकाओं से बने हैं।</p>",
+     "hint": "यह झिल्ली है, कोशिकाओं की परत नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -157,10 +181,22 @@
       "Uterine implantation",
       "Birth",
       "Puberty"
-     ]
+     ],
+     "sol": "<p>The secondary oocyte is released in metaphase of meiosis II. Meiosis II is completed only when a sperm enters it, i.e. at <b>fertilisation</b>, producing the ovum and the second polar body.</p>",
+     "hint": "Sperm entry is the trigger."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव स्त्रियों में अर्धसूत्री विभाजन-II कब तक पूरा नहीं होता?",
+     "o": [
+      "निषेचन",
+      "गर्भाशय में अंतर्रोपण",
+      "जन्म",
+      "यौवनारंभ"
+     ],
+     "sol": "<p>द्वितीयक अंडक अर्धसूत्री विभाजन II की मध्यावस्था में मोचित होता है। अर्धसूत्री विभाजन II शुक्राणु के प्रवेश करने पर, अर्थात् <b>निषेचन</b> के समय ही पूरा होता है, जिससे अंडाणु और द्वितीय ध्रुवीय पिंड बनते हैं।</p>",
+     "hint": "शुक्राणु का प्रवेश ही प्रेरक है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -203,10 +239,22 @@
       "The ovum and sperms are transported simultaneously to ampullary–isthmic junction of the fallopian tube",
       "The ovum and sperms are transported simultaneously to ampullary–isthmic junction of the cervix",
       "The sperms are transported into cervix within 48 hrs of release of ovum in uterus"
-     ]
+     ],
+     "sol": "<p>Fertilisation takes place in the <b>ampullary–isthmic junction of the fallopian tube</b>. It can happen only if the ovum and the sperms reach this junction at the same time. The cervix has no ampulla or isthmus, and sperms deposited at another time or place cannot fertilise.</p>",
+     "hint": "Site of fertilisation in NCERT."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मनुष्यों में निषेचन व्यावहारिक रूप से तभी संभव है जब :",
+     "o": [
+      "अंडवाहिनी में अंडाणु के मोचन के ठीक बाद शुक्राणु योनि में पहुँचाए जाएँ",
+      "अंडाणु तथा शुक्राणु एक साथ अंडवाहिनी के तुंबिका–संकीर्णपथ संधि स्थल तक पहुँचें",
+      "अंडाणु तथा शुक्राणु एक साथ गर्भाशय ग्रीवा के तुंबिका–संकीर्णपथ संधि स्थल तक पहुँचें",
+      "गर्भाशय में अंडाणु के मोचन के 48 hrs के भीतर शुक्राणु गर्भाशय ग्रीवा में पहुँचाए जाएँ"
+     ],
+     "sol": "<p>निषेचन <b>अंडवाहिनी के तुंबिका–संकीर्णपथ संधि स्थल</b> पर होता है। यह तभी संभव है जब अंडाणु और शुक्राणु एक ही समय इस स्थल तक पहुँचें। गर्भाशय ग्रीवा में तुंबिका या संकीर्णपथ नहीं होते, और किसी अन्य समय या स्थान पर पहुँचे शुक्राणु निषेचन नहीं कर सकते।</p>",
+     "hint": "NCERT में निषेचन का स्थल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -249,10 +297,22 @@
       "LH triggers ovulation in ovary",
       "LH and FSH decrease gradually during the follicular phase",
       "LH triggers secretion of androgens from the Leydig cells"
-     ]
+     ],
+     "sol": "<p>During the follicular phase the levels of LH and FSH <b>increase</b> gradually (LH peaks at mid-cycle). So statement 3 is incorrect. FSH acts on Sertoli cells, LH triggers ovulation and LH stimulates androgen secretion from Leydig cells — all correct.</p>",
+     "hint": "Gonadotropins rise towards the mid-cycle surge."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गलत कथन चुनिए :",
+     "o": [
+      "FSH सर्टोली कोशिकाओं को उद्दीपित करता है जो शुक्राणुजनन में सहायता करती हैं",
+      "LH अंडाशय में अंडोत्सर्ग प्रेरित करता है",
+      "पुटकीय प्रावस्था के दौरान LH तथा FSH धीरे-धीरे घटते हैं",
+      "LH लीडिग कोशिकाओं से एंड्रोजेन का स्रवण प्रेरित करता है"
+     ],
+     "sol": "<p>पुटकीय प्रावस्था में LH और FSH का स्तर धीरे-धीरे <b>बढ़ता</b> है (चक्र के मध्य में LH चरम पर)। अतः कथन 3 गलत है। FSH सर्टोली कोशिकाओं पर कार्य करता है, LH अंडोत्सर्ग प्रेरित करता है तथा LH लीडिग कोशिकाओं से एंड्रोजेन का स्रवण उद्दीपित करता है — ये सब सही हैं।</p>",
+     "hint": "गोनैडोट्रॉपिन मध्य-चक्र के चरम तक बढ़ते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -299,10 +359,22 @@
       "Estrogen and inhibin",
       "Progesterone only",
       "Progesterone and inhibin"
-     ]
+     ],
+     "sol": "<p>Ovarian steroids feed back on the hypothalamus. The circulating levels of <b>estrogen and progesterone</b> change the frequency of GnRH pulses (inhibin acts mainly on FSH at the pituitary). This detail is beyond NCERT.</p>",
+     "hint": "Ovarian steroid feedback on the hypothalamus."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्त्रियों में GnRH स्पंदों की आवृत्ति में परिवर्तन किसके परिसंचारी स्तरों द्वारा नियंत्रित होता है?",
+     "o": [
+      "ऐस्ट्रोजन तथा प्रोजेस्टेरॉन",
+      "ऐस्ट्रोजन तथा इनहिबिन (inhibin)",
+      "केवल प्रोजेस्टेरॉन",
+      "प्रोजेस्टेरॉन तथा इनहिबिन (inhibin)"
+     ],
+     "sol": "<p>अंडाशयी स्टीरॉइड हाइपोथैलेमस पर पुनर्भरण करते हैं। <b>ऐस्ट्रोजन तथा प्रोजेस्टेरॉन</b> के परिसंचारी स्तर GnRH स्पंदों की आवृत्ति बदलते हैं (इनहिबिन मुख्यतः पीयूष ग्रंथि पर FSH को प्रभावित करता है)। यह विवरण NCERT से बाहर है।</p>",
+     "hint": "हाइपोथैलेमस पर अंडाशयी स्टीरॉइड का पुनर्भरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -346,10 +418,22 @@
       "Rete testis → Epididymis → Efferent ductules → Vas deferens",
       "Rete testis → Vas deferens → Efferent ductules → Epididymis",
       "Efferent ductules → Rete testis → Vas deferens → Epididymis"
-     ]
+     ],
+     "sol": "<p>Seminiferous tubules open into the <b>rete testis</b>, which leads to the <b>vasa efferentia</b> (efferent ductules), then the <b>epididymis</b>, then the <b>vas deferens</b>. Order: rete testis → efferent ductules → epididymis → vas deferens.</p>",
+     "hint": "Testis to epididymis needs the efferent ductules."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "शुक्राणुओं के परिवहन का सही मार्ग कौन-सा है?",
+     "o": [
+      "वृषण जालिका → शुक्र वाहिकाएँ → अधिवृषण → शुक्रवाहक",
+      "वृषण जालिका → अधिवृषण → शुक्र वाहिकाएँ → शुक्रवाहक",
+      "वृषण जालिका → शुक्रवाहक → शुक्र वाहिकाएँ → अधिवृषण",
+      "शुक्र वाहिकाएँ → वृषण जालिका → शुक्रवाहक → अधिवृषण"
+     ],
+     "sol": "<p>शुक्रजनक नलिकाएँ <b>वृषण जालिका</b> में खुलती हैं, उससे <b>शुक्र वाहिकाएँ</b>, फिर <b>अधिवृषण</b>, फिर <b>शुक्रवाहक</b>। क्रम: वृषण जालिका → शुक्र वाहिकाएँ → अधिवृषण → शुक्रवाहक।</p>",
+     "hint": "वृषण से अधिवृषण तक शुक्र वाहिकाएँ जोड़ती हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -392,10 +476,22 @@
       "(a) iii, (b) iv, (c) i, (d) ii",
       "(a) iii, (b) i, (c) iv, (d) ii",
       "(a) i, (b) iv, (c) iii, (d) ii"
-     ]
+     ],
+     "sol": "<ul><li>(a) Mons pubis — a cushion of fatty tissue, part of the female external genitalia (iii).</li><li>(b) Antrum — the fluid-filled cavity of the tertiary/Graafian follicle (iv).</li><li>(c) Trophectoderm — the outer layer of the blastocyst, matched by the key with embryo formation (i).</li><li>(d) Nebenkern — the mitochondrial spiral of the sperm middle piece (ii).</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii.</p>",
+     "hint": "Mons pubis and antrum are sure; Nebenkern is in the sperm."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I का स्तंभ II से मिलान कीजिए तथा नीचे दिए गए कोड से सही विकल्प चुनिए :<br>(a) जघन शैल — (i) भ्रूण निर्माण<br>(b) गह्वर — (ii) शुक्राणु<br>(c) पोषकोरक (ट्रोफेक्टोडर्म) — (iii) स्त्री बाह्य जननेंद्रिय<br>(d) नेबेनकर्न (Nebenkern) — (iv) ग्राफी पुटक",
+     "o": [
+      "(a) iii, (b) iv, (c) ii, (d) i",
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) i, (b) iv, (c) iii, (d) ii"
+     ],
+     "sol": "<ul><li>(a) जघन शैल — वसामय ऊतक की गद्दी, स्त्री बाह्य जननेंद्रिय का भाग (iii)।</li><li>(b) गह्वर — तृतीयक/ग्राफी पुटक की तरल से भरी गुहा (iv)।</li><li>(c) पोषकोरक — कोरकपुटी की बाहरी परत, कुंजी इसे भ्रूण निर्माण (i) से मिलाती है।</li><li>(d) नेबेनकर्न — शुक्राणु के मध्य खंड की सूत्रकणिकाओं की कुंडली (ii)।</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii।</p>",
+     "hint": "जघन शैल और गह्वर पक्के हैं; नेबेनकर्न शुक्राणु में है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -441,10 +537,22 @@
       "Placenta",
       "Fallopian tube",
       "Pituitary"
-     ]
+     ],
+     "sol": "<p>The <b>placenta</b> also acts as an endocrine tissue and produces hCG, hPL, estrogens and progestogens during pregnancy.</p>",
+     "hint": "hPL = human placental lactogen."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "hCG, hPL, ऐस्ट्रोजन, प्रोजेस्टेरॉन जैसे अनेक हॉर्मोन किसके द्वारा उत्पन्न होते हैं?",
+     "o": [
+      "अंडाशय",
+      "अपरा",
+      "अंडवाहिनी",
+      "पीयूष ग्रंथि"
+     ],
+     "sol": "<p><b>अपरा</b> अंतःस्रावी ऊतक का भी कार्य करती है और सगर्भता के दौरान hCG, hPL, ऐस्ट्रोजन तथा प्रोजेस्टोजन बनाती है।</p>",
+     "hint": "hPL = मानव अपरा लैक्टोजन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -487,10 +595,22 @@
       "Epididymis",
       "Vas deferens",
       "Female Reproductive tract"
-     ]
+     ],
+     "sol": "<p>Capacitation — the final changes that make sperms able to fertilise — takes place in the <b>female reproductive tract</b> (in about 5–6 hours). It is not described in NCERT.</p>",
+     "hint": "Sperms become fertile only after entering the female tract."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "धारितायन (capacitation) कहाँ होता है?",
+     "o": [
+      "वृषण जालिका",
+      "अधिवृषण",
+      "शुक्रवाहक",
+      "स्त्री जनन पथ"
+     ],
+     "sol": "<p>धारितायन — वे अंतिम परिवर्तन जो शुक्राणुओं को निषेचन योग्य बनाते हैं — <b>स्त्री जनन पथ</b> में होता है (लगभग 5–6 घंटे में)। यह NCERT में वर्णित नहीं है।</p>",
+     "hint": "शुक्राणु स्त्री जनन पथ में पहुँचकर ही निषेचन योग्य बनते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -534,10 +654,22 @@
       "endoderm and mesoderm",
       "ectoderm and mesoderm",
       "ectoderm and endoderm"
-     ]
+     ],
+     "sol": "<p>The amnion is an extra-embryonic membrane formed from the <b>ectoderm and mesoderm</b> (somatopleure). The chorion is from trophoblast + mesoderm; yolk sac from endoderm + mesoderm. This is beyond NCERT.</p>",
+     "hint": "Amnion and chorion = somatopleure."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तनधारी भ्रूण का उल्व (amnion) किससे व्युत्पन्न होता है?",
+     "o": [
+      "मध्यजनस्तर तथा पोषकोरक",
+      "अंतः त्वचा तथा मध्यजनस्तर",
+      "बाह्य त्वचा तथा मध्यजनस्तर",
+      "बाह्य त्वचा तथा अंतः त्वचा"
+     ],
+     "sol": "<p>उल्व एक भ्रूणबाह्य झिल्ली है जो <b>बाह्य त्वचा तथा मध्यजनस्तर</b> से बनती है। जरायु पोषकोरक + मध्यजनस्तर से; पीतक कोष अंतः त्वचा + मध्यजनस्तर से बनता है। यह NCERT से बाहर है।</p>",
+     "hint": "उल्व और जरायु = बाह्य त्वचा + मध्यजनस्तर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -581,10 +713,22 @@
       "hCG, hPL, estrogens, relaxin, oxytocin",
       "hCG, hPL, progestogens, prolactin",
       "hCG, progestogens, estrogens, glucocorticoids"
-     ]
+     ],
+     "sol": "<p>The placenta secretes <b>hCG, hPL, estrogens and progestogens</b>. Relaxin is secreted by the ovary in late pregnancy; oxytocin and prolactin come from the pituitary; glucocorticoids from the adrenal.</p>",
+     "hint": "Remove anything made by ovary, pituitary or adrenal."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सगर्भता बनाए रखने के लिए अपरा द्वारा स्रावित हॉर्मोन हैं :",
+     "o": [
+      "hCG, hPL, प्रोजेस्टोजन, ऐस्ट्रोजन",
+      "hCG, hPL, ऐस्ट्रोजन, रिलैक्सिन, ऑक्सीटोसिन",
+      "hCG, hPL, प्रोजेस्टोजन, प्रोलैक्टिन",
+      "hCG, प्रोजेस्टोजन, ऐस्ट्रोजन, ग्लूकोकॉर्टिकॉइड"
+     ],
+     "sol": "<p>अपरा <b>hCG, hPL, ऐस्ट्रोजन तथा प्रोजेस्टोजन</b> स्रावित करती है। रिलैक्सिन सगर्भता के उत्तरार्ध में अंडाशय से; ऑक्सीटोसिन और प्रोलैक्टिन पीयूष ग्रंथि से; ग्लूकोकॉर्टिकॉइड अधिवृक्क से आते हैं।</p>",
+     "hint": "अंडाशय, पीयूष या अधिवृक्क के हॉर्मोन हटा दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -627,10 +771,22 @@
       "In spermiogenesis spermatozoa are formed, while in spermiation spermatids are formed.",
       "In spermiogenesis spermatids are formed, while in spermiation spermatozoa are formed.",
       "In spermiogenesis spermatozoa are formed, while in spermiation spermatozoa are released from sertoli cells into the cavity of seminiferous tubules."
-     ]
+     ],
+     "sol": "<p><b>Spermiogenesis</b>: spermatids are transformed into spermatozoa. <b>Spermiation</b>: the sperm heads embedded in Sertoli cells are released into the lumen (cavity) of the seminiferous tubules. Option 4 states both correctly.</p>",
+     "hint": "-genesis = formed; -ation = released."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "शुक्राणुजनन (स्पर्मिओजेनेसिस) तथा स्पर्मिएशन में अंतर है :",
+     "o": [
+      "शुक्राणुजनन में शुक्राणु सर्टोली कोशिकाओं से शुक्रजनक नलिकाओं की गुहा में मोचित होते हैं, जबकि स्पर्मिएशन में शुक्राणु बनते हैं।",
+      "शुक्राणुजनन में शुक्राणु बनते हैं, जबकि स्पर्मिएशन में शुक्राणुप्रसू बनते हैं।",
+      "शुक्राणुजनन में शुक्राणुप्रसू बनते हैं, जबकि स्पर्मिएशन में शुक्राणु बनते हैं।",
+      "शुक्राणुजनन में शुक्राणु बनते हैं, जबकि स्पर्मिएशन में शुक्राणु सर्टोली कोशिकाओं से शुक्रजनक नलिकाओं की गुहा में मोचित होते हैं।"
+     ],
+     "sol": "<p><b>शुक्राणुजनन</b>: शुक्राणुप्रसू रूपांतरित होकर शुक्राणु बनते हैं। <b>स्पर्मिएशन (वीर्यसेचन)</b>: सर्टोली कोशिकाओं में धँसे शुक्राणु शुक्रजनक नलिकाओं की गुहा में मोचित होते हैं। विकल्प 4 दोनों को सही बताता है।</p>",
+     "hint": "जनन = बनना; स्पर्मिएशन = मोचन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -673,10 +829,22 @@
       "(a) i, (b) iii, (c) ii",
       "(a) iii, (b) ii, (c) i",
       "(a) iii, (b) i, (c) ii"
-     ]
+     ],
+     "sol": "<p>The follicular phase of the ovary coincides with the <b>proliferative phase</b> of the uterus (a–ii); the luteal phase with the <b>secretory phase</b> (b–iii); menstruation is the breakdown of the endometrial lining (c–i).</p>",
+     "hint": "Ovarian phase ↔ uterine phase."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I के मदों का स्तंभ II के मदों से मिलान कीजिए तथा नीचे दिए गए सही विकल्प चुनिए :<br>(a) प्रचुरोद्भवन प्रावस्था — (i) गर्भाशय अंतःस्तर का विघटन<br>(b) स्रावी प्रावस्था — (ii) पुटकीय प्रावस्था<br>(c) ऋतुस्राव — (iii) पीत पिंड प्रावस्था",
+     "o": [
+      "(a) ii, (b) iii, (c) i",
+      "(a) i, (b) iii, (c) ii",
+      "(a) iii, (b) ii, (c) i",
+      "(a) iii, (b) i, (c) ii"
+     ],
+     "sol": "<p>अंडाशय की पुटकीय प्रावस्था गर्भाशय की <b>प्रचुरोद्भवन प्रावस्था</b> के साथ होती है (a–ii); पीत पिंड प्रावस्था <b>स्रावी प्रावस्था</b> के साथ (b–iii); ऋतुस्राव गर्भाशय अंतःस्तर का विघटन है (c–i)।</p>",
+     "hint": "अंडाशयी प्रावस्था ↔ गर्भाशयी प्रावस्था।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -719,10 +887,22 @@
       "simultaneously with first cleavage",
       "after entry of sperm but before fertilization",
       "after fertilization"
-     ]
+     ],
+     "sol": "<p>Entry of the sperm induces the secondary oocyte to complete meiosis II, releasing the second polar body. This happens <b>after the sperm enters but before</b> the sperm and egg nuclei fuse (fertilisation is completed by that fusion).</p>",
+     "hint": "Sperm entry → meiosis II completes → then nuclear fusion."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अंड केंद्रक से द्वितीय ध्रुवीय पिंड का निष्कासन कब होता है?",
+     "o": [
+      "अंडाणु में शुक्राणु के प्रवेश से पहले",
+      "प्रथम विदलन के साथ-साथ",
+      "शुक्राणु के प्रवेश के बाद परंतु निषेचन से पहले",
+      "निषेचन के बाद"
+     ],
+     "sol": "<p>शुक्राणु का प्रवेश द्वितीयक अंडक को अर्धसूत्री विभाजन II पूरा करने को प्रेरित करता है, जिससे द्वितीय ध्रुवीय पिंड बाहर निकलता है। यह <b>शुक्राणु के प्रवेश के बाद परंतु</b> शुक्राणु और अंड के केंद्रकों के संलयन से पहले होता है (उस संलयन से निषेचन पूरा होता है)।</p>",
+     "hint": "शुक्राणु प्रवेश → अर्धसूत्री विभाजन II पूरा → फिर केंद्रक संलयन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -765,10 +945,22 @@
       "Testis → Epididymis → Vasa efferentia → Vas deferens → Ejaculatory duct → Inguinal canal → Urethra → Urethral meatus",
       "Testis → Epididymis → Vasa efferentia → Rete testis → Inguinal canal → Urethra",
       "Seminiferous tubules → Rete testis → Vasa efferentia → Epididymis → Vas deferens → Ejaculatory duct → Urethra → Urethral meatus"
-     ]
+     ],
+     "sol": "<p>Sperms pass: seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens → ejaculatory duct → urethra → urethral meatus. The inguinal canal is not a duct the sperms travel in; options 2 and 3 also place the epididymis before the vasa efferentia.</p>",
+     "hint": "Rete testis comes before the vasa efferentia."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पुरुष जनन तंत्र में शुक्राणु कोशिकाओं के परिवहन का सही क्रम चुनिए।",
+     "o": [
+      "शुक्रजनक नलिकाएँ → शुक्र वाहिकाएँ → अधिवृषण → वंक्षण नाल → मूत्रमार्ग",
+      "वृषण → अधिवृषण → शुक्र वाहिकाएँ → शुक्रवाहक → स्खलनीय वाहिनी → वंक्षण नाल → मूत्रमार्ग → मूत्रमार्ग छिद्र",
+      "वृषण → अधिवृषण → शुक्र वाहिकाएँ → वृषण जालिका → वंक्षण नाल → मूत्रमार्ग",
+      "शुक्रजनक नलिकाएँ → वृषण जालिका → शुक्र वाहिकाएँ → अधिवृषण → शुक्रवाहक → स्खलनीय वाहिनी → मूत्रमार्ग → मूत्रमार्ग छिद्र"
+     ],
+     "sol": "<p>शुक्राणु का मार्ग: शुक्रजनक नलिकाएँ → वृषण जालिका → शुक्र वाहिकाएँ → अधिवृषण → शुक्रवाहक → स्खलनीय वाहिनी → मूत्रमार्ग → मूत्रमार्ग छिद्र। वंक्षण नाल वह वाहिनी नहीं है जिसमें शुक्राणु चलते हैं; विकल्प 2 और 3 अधिवृषण को शुक्र वाहिकाओं से पहले भी रखते हैं।</p>",
+     "hint": "वृषण जालिका शुक्र वाहिकाओं से पहले आती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -811,10 +1003,22 @@
       "(a) ii, (b) iii, (c) iv, (d) i",
       "(a) iv, (b) iii, (c) i, (d) ii",
       "(a) i, (b) iv, (c) ii, (d) iii"
-     ]
+     ],
+     "sol": "<ul><li>(a) Placenta → secretes hCG (ii).</li><li>(b) Zona pellucida → layer around the ovum (iii).</li><li>(c) Bulbo-urethral glands → secretion helps lubricate the penis (iv).</li><li>(d) Leydig cells → secrete androgens (i).</li></ul><p>(a) ii, (b) iii, (c) iv, (d) i.</p>",
+     "hint": "Each structure has one NCERT function."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित स्तंभों का मिलान कीजिए तथा सही विकल्प चुनिए :<br>(a) अपरा — (i) एंड्रोजेन<br>(b) पारदर्शी अंडावरण — (ii) मानव जरायु गोनैडोट्रॉपिन (hCG)<br>(c) बल्बोयूरेथ्रल ग्रंथियाँ — (iii) अंडाणु की परत<br>(d) लीडिग कोशिकाएँ — (iv) शिश्न का स्नेहन",
+     "o": [
+      "(a) iii, (b) ii, (c) iv, (d) i",
+      "(a) ii, (b) iii, (c) iv, (d) i",
+      "(a) iv, (b) iii, (c) i, (d) ii",
+      "(a) i, (b) iv, (c) ii, (d) iii"
+     ],
+     "sol": "<ul><li>(a) अपरा → hCG का स्रवण (ii)।</li><li>(b) पारदर्शी अंडावरण → अंडाणु के चारों ओर की परत (iii)।</li><li>(c) बल्बोयूरेथ्रल ग्रंथियाँ → स्राव शिश्न के स्नेहन में सहायक (iv)।</li><li>(d) लीडिग कोशिकाएँ → एंड्रोजेन का स्रवण (i)।</li></ul><p>(a) ii, (b) iii, (c) iv, (d) i।</p>",
+     "hint": "हर संरचना का NCERT में एक कार्य है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -859,10 +1063,22 @@
       "At the time of fusion of a sperm with an ovum",
       "Prior to ovulation",
       "At the time of copulation"
-     ]
+     ],
+     "sol": "<p>The secondary oocyte stays arrested in meiosis II; it completes the division only when a sperm enters it, i.e. <b>at the time of fusion of a sperm with the ovum</b>. It is not completed before ovulation or at copulation.</p>",
+     "hint": "Same fact as 2015: meiosis II waits for the sperm."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "द्वितीयक अंडक का अर्धसूत्री विभाजन कब पूरा होता है?",
+     "o": [
+      "युग्मनज बनने के बाद",
+      "शुक्राणु के अंडाणु से संलयन के समय",
+      "अंडोत्सर्ग से पहले",
+      "मैथुन के समय"
+     ],
+     "sol": "<p>द्वितीयक अंडक अर्धसूत्री विभाजन II में रुका रहता है; शुक्राणु के प्रवेश करने पर ही, अर्थात् <b>शुक्राणु के अंडाणु से संलयन के समय</b>, विभाजन पूरा होता है। यह अंडोत्सर्ग से पहले या मैथुन के समय पूरा नहीं होता।</p>",
+     "hint": "2015 वाला ही तथ्य: अर्धसूत्री विभाजन II शुक्राणु की प्रतीक्षा करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -905,10 +1121,22 @@
       "Low concentration of FSH",
       "High concentration of Estrogen",
       "High concentration of Progesterone"
-     ]
+     ],
+     "sol": "<p>Ovulation is caused by the LH surge, which is triggered when the growing follicle's <b>estrogen</b> rises to a high level near mid-cycle. Low LH or FSH cannot cause it, and high progesterone belongs to the luteal phase after ovulation.</p>",
+     "hint": "High estrogen → LH surge → ovulation."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से किस हॉर्मोन का स्तर ग्राफी पुटक से अंडाणु के मोचन (अंडोत्सर्ग) का कारण बनेगा?",
+     "o": [
+      "LH की निम्न सांद्रता",
+      "FSH की निम्न सांद्रता",
+      "ऐस्ट्रोजन की उच्च सांद्रता",
+      "प्रोजेस्टेरॉन की उच्च सांद्रता"
+     ],
+     "sol": "<p>अंडोत्सर्ग LH के चरम स्रवण से होता है, जो तब प्रेरित होता है जब चक्र के मध्य के निकट वर्धमान पुटक का <b>ऐस्ट्रोजन</b> उच्च स्तर तक पहुँचता है। LH या FSH की निम्न सांद्रता यह नहीं कर सकती, और उच्च प्रोजेस्टेरॉन अंडोत्सर्ग के बाद पीत पिंड प्रावस्था में होता है।</p>",
+     "hint": "उच्च ऐस्ट्रोजन → LH का चरम → अंडोत्सर्ग।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -951,10 +1179,22 @@
       "Corona radiata",
       "Vitelline membrane",
       "Perivitelline space"
-     ]
+     ],
+     "sol": "<p>The sperm first contacts and binds to receptor glycoproteins (ZP3) of the <b>zona pellucida</b>; this binding also blocks entry of other sperms. NCERT only says the sperm comes in contact with the zona pellucida; the receptor detail is beyond NCERT.</p>",
+     "hint": "The layer the sperm touches before entering."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तनधारियों में शुक्राणु बंधन के लिए ग्राही कहाँ उपस्थित होते हैं?",
+     "o": [
+      "पारदर्शी अंडावरण",
+      "अरीय किरीट (कोरोना रेडिएटा)",
+      "पीतक झिल्ली",
+      "परिपीतक अवकाश"
+     ],
+     "sol": "<p>शुक्राणु पहले <b>पारदर्शी अंडावरण</b> के ग्राही ग्लाइकोप्रोटीन (ZP3) से संपर्क कर बंधता है; यह बंधन अन्य शुक्राणुओं के प्रवेश को भी रोकता है। NCERT केवल यह कहता है कि शुक्राणु पारदर्शी अंडावरण के संपर्क में आता है; ग्राही का विवरण NCERT से बाहर है।</p>",
+     "hint": "वह परत जिसे शुक्राणु प्रवेश से पहले छूता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -998,10 +1238,22 @@
       "Increase in estrogen and progesterone ratio",
       "Synthesis of prostaglandins",
       "Release of Oxytocin"
-     ]
+     ],
+     "sol": "<p>Parturition is induced by a neuroendocrine mechanism: signals from the fully developed foetus and placenta cause mild uterine contractions (fetal ejection reflex), oxytocin release, and the estrogen–progesterone ratio rises; prostaglandins also aid contractions. <b>Prolactin</b> is concerned with milk production, not with initiating birth.</p>",
+     "hint": "Which hormone is for lactation?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा मनुष्यों में प्रसव के आरंभ का महत्वपूर्ण घटक नहीं है?",
+     "o": [
+      "प्रोलैक्टिन का मोचन",
+      "ऐस्ट्रोजन तथा प्रोजेस्टेरॉन अनुपात में वृद्धि",
+      "प्रोस्टाग्लैंडिन (prostaglandin) का संश्लेषण",
+      "ऑक्सीटोसिन का मोचन"
+     ],
+     "sol": "<p>प्रसव एक तंत्रिअंतःस्रावी क्रियाविधि से प्रेरित होता है: पूर्ण विकसित गर्भ तथा अपरा के संकेत गर्भाशय के हल्के संकुचन (गर्भ उत्क्षेपन प्रतिवर्त), ऑक्सीटोसिन का मोचन कराते हैं, और ऐस्ट्रोजन–प्रोजेस्टेरॉन अनुपात बढ़ता है; प्रोस्टाग्लैंडिन भी संकुचन में सहायक हैं। <b>प्रोलैक्टिन</b> दुग्ध उत्पादन से संबंधित है, प्रसव के आरंभ से नहीं।</p>",
+     "hint": "कौन-सा हॉर्मोन दुग्धस्रवण के लिए है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1045,10 +1297,22 @@
       "Graafian follicle",
       "Corpus luteum",
       "Foetus"
-     ]
+     ],
+     "sol": "<p>NCERT: in the later phase of pregnancy a hormone called <b>relaxin</b> is secreted by the ovary — specifically by the <b>corpus luteum</b>. It relaxes the pelvic ligaments for birth.</p>",
+     "hint": "Ovarian, not placental."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सगर्भता के उत्तरार्ध में रिलैक्सिन हॉर्मोन का स्रवण कौन करता है?",
+     "o": [
+      "गर्भाशय",
+      "ग्राफी पुटक",
+      "पीत पिंड",
+      "गर्भ (भ्रूण)"
+     ],
+     "sol": "<p>NCERT: सगर्भता के उत्तरार्ध में अंडाशय द्वारा <b>रिलैक्सिन</b> नामक हॉर्मोन स्रवित होता है — विशेष रूप से <b>पीत पिंड</b> द्वारा। यह प्रसव के लिए श्रोणि स्नायुओं को शिथिल करता है।</p>",
+     "hint": "अंडाशयी, अपरा का नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1092,10 +1356,22 @@
       "Statement I is correct but Statement II is incorrect",
       "Statement I is incorrect but Statement II is correct",
       "Both Statement I and Statement II are correct"
-     ]
+     ],
+     "sol": "<p>Statement I is correct: release of sperms from Sertoli cells into the seminiferous tubules is <b>spermiation</b>. Statement II is incorrect: spermiogenesis is the transformation of <b>spermatids</b> into sperms; the whole process from spermatogonia is spermatogenesis.</p>",
+     "hint": "Spermiogenesis starts from spermatids."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : शुक्रजनक नलिकाओं में शुक्राणुओं का मोचन स्पर्मिएशन कहलाता है।<br>कथन II : शुक्राणुजन से शुक्राणुओं के बनने की प्रक्रिया शुक्राणुजनन (स्पर्मिओजेनेसिस) है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है",
+      "कथन I तथा कथन II दोनों सही हैं"
+     ],
+     "sol": "<p>कथन I सही है: सर्टोली कोशिकाओं से शुक्रजनक नलिकाओं में शुक्राणुओं का मोचन <b>स्पर्मिएशन</b> है। कथन II गलत है: शुक्राणुजनन <b>शुक्राणुप्रसू</b> का शुक्राणुओं में रूपांतरण है; शुक्राणुजन से आरंभ होने वाली पूरी प्रक्रिया शुक्रजनन है।</p>",
+     "hint": "शुक्राणुजनन शुक्राणुप्रसू से आरंभ होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1138,10 +1414,22 @@
       "(b), (d) and (e) only",
       "(b), (c) and (e) only",
       "(c) and (e) only"
-     ]
+     ],
+     "sol": "<ul><li>(a) Both give haploid gametes — common.</li><li>(b) Sperm differentiation (spermiogenesis) follows completed meiosis; the egg completes meiosis II only at fertilisation — true for spermatogenesis only.</li><li>(c) Spermatogonia keep dividing mitotically and enter meiosis continuously; oogonia stop forming before birth — spermatogenesis only.</li><li>(d) Both are controlled by LH and FSH — common.</li><li>(e) Spermatogenesis begins at puberty; oogenesis begins in foetal life — spermatogenesis only.</li></ul><p>(b), (c) and (e).</p>",
+     "hint": "Remove what is common to both."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से कथन शुक्रजनन के लिए सत्य हैं परंतु अंडजनन के लिए सत्य नहीं?<br>(a) इससे अगुणित युग्मक बनते हैं।<br>(b) युग्मक का विभेदन अर्धसूत्री विभाजन पूरा होने के बाद होता है।<br>(c) समसूत्री विभाजन करती स्टेम कोशिकाओं की समष्टि में अर्धसूत्री विभाजन निरंतर होता रहता है।<br>(d) यह अग्र पीयूष से स्रावित ल्यूटिनाइजिंग हॉर्मोन (LH) तथा पुटकोद्दीपक हॉर्मोन (FSH) द्वारा नियंत्रित होता है।<br>(e) यह यौवनारंभ पर आरंभ होता है।<br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "केवल (b) तथा (c)",
+      "केवल (b), (d) तथा (e)",
+      "केवल (b), (c) तथा (e)",
+      "केवल (c) तथा (e)"
+     ],
+     "sol": "<ul><li>(a) दोनों में अगुणित युग्मक बनते हैं — समान।</li><li>(b) शुक्राणु विभेदन (शुक्राणुजनन) पूरे अर्धसूत्री विभाजन के बाद होता है; अंड अर्धसूत्री विभाजन II निषेचन पर ही पूरा करता है — केवल शुक्रजनन में सत्य।</li><li>(c) शुक्राणुजन समसूत्री विभाजन करते रहते हैं और निरंतर अर्धसूत्री विभाजन में जाते हैं; अंडजननी कोशिकाएँ जन्म से पहले ही बनना बंद हो जाती हैं — केवल शुक्रजनन।</li><li>(d) दोनों LH तथा FSH से नियंत्रित — समान।</li><li>(e) शुक्रजनन यौवनारंभ पर आरंभ होता है; अंडजनन भ्रूणीय अवस्था में — केवल शुक्रजनन।</li></ul><p>(b), (c) तथा (e)।</p>",
+     "hint": "जो दोनों में समान है उसे हटा दें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1184,10 +1472,22 @@
       "Birth",
       "Adult",
       "Puberty"
-     ]
+     ],
+     "sol": "<p>Oogenesis is initiated during <b>embryonic (foetal) development</b>: millions of oogonia form in each foetal ovary and enter meiosis I as primary oocytes before birth.</p>",
+     "hint": "Females are born with primary oocytes already formed."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जीवन की किस अवस्था में अंडजनन प्रक्रिया आरंभ होती है?",
+     "o": [
+      "भ्रूणीय परिवर्धन अवस्था",
+      "जन्म",
+      "वयस्क",
+      "यौवनारंभ"
+     ],
+     "sol": "<p>अंडजनन <b>भ्रूणीय परिवर्धन</b> के दौरान आरंभ होता है: गर्भ के प्रत्येक अंडाशय में लाखों अंडजननी कोशिकाएँ बनती हैं और जन्म से पहले ही प्राथमिक अंडक के रूप में अर्धसूत्री विभाजन I में प्रवेश करती हैं।</p>",
+     "hint": "स्त्री जन्म के समय ही प्राथमिक अंडक लेकर पैदा होती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1230,10 +1530,22 @@
       "Both Statement I and Statement II are true.",
       "Both Statement I and Statement II are false.",
       "Statement I is correct but Statement II is false."
-     ]
+     ],
+     "sol": "<p>Statement I is true: the vas deferens receives a duct from the seminal vesicle and opens into the urethra as the ejaculatory duct. Statement II is true: the cavity of the cervix is the cervical canal, which with the vagina forms the birth canal. Both true.</p>",
+     "hint": "Both are NCERT sentences."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : शुक्रवाहक शुक्राशय से एक वाहिनी प्राप्त करता है और स्खलनीय वाहिनी के रूप में मूत्रमार्ग में खुलता है।<br>कथन II : गर्भाशय ग्रीवा की गुहा को ग्रीवा नाल कहते हैं, जो योनि के साथ मिलकर जन्म नाल बनाती है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "कथन I गलत है परंतु कथन II सत्य है।",
+      "कथन I तथा कथन II दोनों सत्य हैं।",
+      "कथन I तथा कथन II दोनों असत्य हैं।",
+      "कथन I सही है परंतु कथन II असत्य है।"
+     ],
+     "sol": "<p>कथन I सत्य है: शुक्रवाहक शुक्राशय से एक वाहिनी प्राप्त करता है और स्खलनीय वाहिनी के रूप में मूत्रमार्ग में खुलता है। कथन II सत्य है: गर्भाशय ग्रीवा की गुहा ग्रीवा नाल है, जो योनि के साथ जन्म नाल बनाती है। दोनों सत्य।</p>",
+     "hint": "दोनों NCERT के वाक्य हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1277,10 +1589,22 @@
       "Both A and R are true and R is the correct explanation of A.",
       "Both A and R are true but R is NOT the correct explanation of A.",
       "A is true but R is false."
-     ]
+     ],
+     "sol": "<p>A is true: the blastocyst implants in the endometrium. R is true: without fertilisation the corpus luteum degenerates, progesterone falls and the endometrium disintegrates (menstruation). But R explains menstruation, not why the endometrium is needed for implantation. Both true, R not the explanation.</p>",
+     "hint": "R is about a non-pregnant cycle."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं : एक को अभिकथन A तथा दूसरे को कारण R कहा गया है :<br>अभिकथन A : कोरकपुटी के अंतर्रोपण के लिए गर्भाशय अंतःस्तर आवश्यक है।<br>कारण R : निषेचन न होने पर पीत पिंड ह्रासित हो जाता है जिससे गर्भाशय अंतःस्तर का विघटन होता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A गलत है परंतु R सही है।",
+      "A तथा R दोनों सही हैं तथा R, A की सही व्याख्या है।",
+      "A तथा R दोनों सही हैं परंतु R, A की सही व्याख्या नहीं है।",
+      "A सही है परंतु R गलत है।"
+     ],
+     "sol": "<p>A सही है: कोरकपुटी गर्भाशय अंतःस्तर में अंतर्रोपित होती है। R सही है: निषेचन न होने पर पीत पिंड ह्रासित होता है, प्रोजेस्टेरॉन घटता है और गर्भाशय अंतःस्तर विघटित होता है (ऋतुस्राव)। परंतु R ऋतुस्राव की व्याख्या करता है, यह नहीं कि अंतर्रोपण के लिए अंतःस्तर क्यों आवश्यक है। दोनों सही, R व्याख्या नहीं।</p>",
+     "hint": "R गर्भरहित चक्र के बारे में है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1324,10 +1648,22 @@
       "A and D only",
       "A and B only",
       "A, B and C only"
-     ]
+     ],
+     "sol": "<ul><li>A — true: in non-primate mammals (cows, sheep, rats, dogs) the cycle is the oestrus cycle.</li><li>B — false: the first menstruation is <b>menarche</b>, not menopause.</li><li>C — true: lack of menstruation may indicate pregnancy (or stress, poor health).</li><li>D — true: menstrual cycles continue from menarche to menopause.</li></ul><p>A, C and D only.</p>",
+     "hint": "Menarche starts, menopause ends."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्त्री जनन चक्र के संबंध में निम्नलिखित में से कौन-से कथन सही हैं?<br>A. गैर-प्राइमेट स्तनधारियों में जनन के दौरान होने वाले चक्रीय परिवर्तन मद चक्र (oestrus cycle) कहलाते हैं।<br>B. प्रथम आर्तव चक्र यौवनारंभ पर आरंभ होता है और रजोनिवृत्ति कहलाता है।<br>C. ऋतुस्राव का न होना सगर्भता का संकेत हो सकता है।<br>D. चक्रीय ऋतुस्राव रजोदर्शन तथा रजोनिवृत्ति के बीच चलता है।<br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "केवल A, C तथा D",
+      "केवल A तथा D",
+      "केवल A तथा B",
+      "केवल A, B तथा C"
+     ],
+     "sol": "<ul><li>A — सही: गैर-प्राइमेट स्तनधारियों (गाय, भेड़, चूहे, कुत्ते) में यह चक्र मद चक्र है।</li><li>B — गलत: प्रथम ऋतुस्राव <b>रजोदर्शन</b> है, रजोनिवृत्ति नहीं।</li><li>C — सही: ऋतुस्राव का न होना सगर्भता का संकेत हो सकता है (या तनाव, खराब स्वास्थ्य)।</li><li>D — सही: आर्तव चक्र रजोदर्शन से रजोनिवृत्ति तक चलते हैं।</li></ul><p>केवल A, C तथा D।</p>",
+     "hint": "रजोदर्शन से आरंभ, रजोनिवृत्ति पर अंत।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1364,16 +1700,28 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "Identify the correct option (A), (B), (C), (D) with respect to spermatogenesis.",
+     "q": "Identify the correct option (A), (B), (C), (D) with respect to spermatogenesis.<br>GnRH → LH → (B) → Androgens → Formation of spermatids<br>GnRH → (A) → (C) → Factors → (D)",
      "o": [
       "FSH, Leydig cells, Sertoli cells, spermiogenesis.",
       "ICSH, Interstitial cells, Leydig cells, spermiogenesis.",
       "FSH, Sertoli cells, Leydig cells, spermatogenesis.",
       "ICSH, Leydig cells, Sertoli cells, spermatogenesis."
-     ]
+     ],
+     "sol": "<p>In the flow chart, GnRH acts on the pituitary to release LH and (A) <b>FSH</b>. LH acts on (B) <b>Leydig cells</b>, which secrete androgens that stimulate spermatogenesis. FSH acts on (C) <b>Sertoli cells</b>, which secrete factors that help (D) <b>spermiogenesis</b>.</p>",
+     "hint": "LH → Leydig; FSH → Sertoli."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "शुक्रजनन के संदर्भ में (A), (B), (C), (D) के लिए सही विकल्प पहचानिए।<br>GnRH → LH → (B) → एंड्रोजेन → शुक्राणुप्रसू का निर्माण<br>GnRH → (A) → (C) → घटक → (D)",
+     "o": [
+      "FSH, लीडिग कोशिकाएँ, सर्टोली कोशिकाएँ, शुक्राणुजनन।",
+      "ICSH, अंतराली कोशिकाएँ, लीडिग कोशिकाएँ, शुक्राणुजनन।",
+      "FSH, सर्टोली कोशिकाएँ, लीडिग कोशिकाएँ, शुक्रजनन।",
+      "ICSH, लीडिग कोशिकाएँ, सर्टोली कोशिकाएँ, शुक्रजनन।"
+     ],
+     "sol": "<p>प्रवाह चित्र में GnRH पीयूष ग्रंथि पर कार्य कर LH तथा (A) <b>FSH</b> मुक्त कराता है। LH (B) <b>लीडिग कोशिकाओं</b> पर कार्य करता है, जो एंड्रोजेन स्रावित करती हैं जो शुक्रजनन उद्दीपित करते हैं। FSH (C) <b>सर्टोली कोशिकाओं</b> पर कार्य करता है, जो ऐसे घटक स्रावित करती हैं जो (D) <b>शुक्राणुजनन</b> में सहायता करते हैं।</p>",
+     "hint": "LH → लीडिग; FSH → सर्टोली।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1418,10 +1766,22 @@
       "Isthmus",
       "Infundibulum",
       "Ampulla"
-     ]
+     ],
+     "sol": "<p>The fallopian tube has three parts: <b>infundibulum</b> (with fimbriae), <b>ampulla</b> and <b>isthmus</b>. The fundus is the upper part of the uterus, not of the tube.</p>",
+     "hint": "Fundus belongs to the uterus."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा अंडवाहिनी (फैलोपी नलिका) का घटक नहीं है?",
+     "o": [
+      "गर्भाशय बुध्न (fundus)",
+      "संकीर्णपथ",
+      "कीपक",
+      "तुंबिका"
+     ],
+     "sol": "<p>अंडवाहिनी के तीन भाग हैं: <b>कीपक</b> (झालर सहित), <b>तुंबिका</b> तथा <b>संकीर्णपथ</b>। बुध्न गर्भाशय का ऊपरी भाग है, अंडवाहिनी का नहीं।</p>",
+     "hint": "बुध्न गर्भाशय का भाग है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1464,10 +1824,22 @@
       "Both Statement I and Statement II are false",
       "Statement I is true but Statement II is false",
       "Statement I is false but Statement II is true"
-     ]
+     ],
+     "sol": "<p>Statement I is true: NCERT says the presence or absence of the hymen is not a reliable indicator of virginity or sexual experience. Statement II is false: the hymen may also be torn by a sudden fall or jolt, insertion of a vaginal tampon, or active sports such as horse riding or cycling; in some women it persists even after coitus.</p>",
+     "hint": "NCERT lists other causes of a torn hymen."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : योनिच्छद की उपस्थिति अथवा अनुपस्थिति कौमार्य का विश्वसनीय संकेत नहीं है।<br>कथन II : योनिच्छद केवल प्रथम मैथुन के दौरान ही फटता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों सत्य हैं",
+      "कथन I तथा कथन II दोनों असत्य हैं",
+      "कथन I सत्य है परंतु कथन II असत्य है",
+      "कथन I असत्य है परंतु कथन II सत्य है"
+     ],
+     "sol": "<p>कथन I सत्य है: NCERT के अनुसार योनिच्छद की उपस्थिति अथवा अनुपस्थिति कौमार्य या यौन अनुभव का विश्वसनीय संकेत नहीं है। कथन II असत्य है: योनिच्छद अचानक गिरने या झटके, योनि टैम्पोन डालने, या घुड़सवारी, साइकिल चलाने जैसे खेलों से भी फट सकता है; कुछ स्त्रियों में यह मैथुन के बाद भी बना रहता है।</p>",
+     "hint": "NCERT योनिच्छद फटने के अन्य कारण बताता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1510,10 +1882,22 @@
       "A-IV, B-III, C-II, D-I",
       "A-III, B-IV, C-II, D-I",
       "A-III, B-II, C-I, D-IV"
-     ]
+     ],
+     "sol": "<ul><li>A Head → elongated haploid nucleus = genetic material (IV).</li><li>B Middle piece → many mitochondria = energy (III).</li><li>C Acrosome → filled with enzymes for fertilisation (I).</li><li>D Tail → sperm motility (II).</li></ul><p>A-IV, B-III, C-I, D-II.</p>",
+     "hint": "Mitochondria are in the middle piece."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>A. शीर्ष — I. एंजाइम<br>B. मध्य खंड — II. शुक्राणु की गतिशीलता<br>C. अग्रपिंडक — III. ऊर्जा<br>D. पूँछ — IV. आनुवंशिक पदार्थ",
+     "o": [
+      "A-IV, B-III, C-I, D-II",
+      "A-IV, B-III, C-II, D-I",
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-II, C-I, D-IV"
+     ],
+     "sol": "<ul><li>A शीर्ष → दीर्घीकृत अगुणित केंद्रक = आनुवंशिक पदार्थ (IV)।</li><li>B मध्य खंड → असंख्य सूत्रकणिकाएँ = ऊर्जा (III)।</li><li>C अग्रपिंडक → निषेचन हेतु एंजाइमों से भरा (I)।</li><li>D पूँछ → शुक्राणु की गतिशीलता (II)।</li></ul><p>A-IV, B-III, C-I, D-II।</p>",
+     "hint": "सूत्रकणिकाएँ मध्य खंड में होती हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1557,10 +1941,22 @@
       "B and C only",
       "B, C, D and E only",
       "A, C, D and E only"
-     ]
+     ],
+     "sol": "<p>NCERT timeline: heart forms after one month (C true); limbs and digits by the end of the second month (D true); most major organ systems by the end of 12 weeks, the first trimester (A true, B false); first foetal movements and hair on the head during the fifth month (E true). Correct: <b>A, C, D and E only</b>.</p>",
+     "hint": "Organ systems = end of the first trimester."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही कथन ज्ञात कीजिए :<br>A. मानव सगर्भता में प्रमुख अंग तंत्र 12 सप्ताह के अंत तक बन जाते हैं।<br>B. मानव सगर्भता में प्रमुख अंग तंत्र 8 सप्ताह के अंत तक बन जाते हैं।<br>C. मानव सगर्भता में हृदय गर्भावधि के एक माह बाद बनता है।<br>D. मानव सगर्भता में दूसरे माह के अंत तक पाद तथा अंगुलियाँ विकसित हो जाती हैं।<br>E. मानव सगर्भता में बालों का प्रकट होना सामान्यतः पाँचवें माह में देखा जाता है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A तथा E",
+      "केवल B तथा C",
+      "केवल B, C, D तथा E",
+      "केवल A, C, D तथा E"
+     ],
+     "sol": "<p>NCERT समयरेखा: एक माह बाद हृदय बनता है (C सही); दूसरे माह के अंत तक पाद और अंगुलियाँ (D सही); 12 सप्ताह, अर्थात् पहली तिमाही के अंत तक अधिकांश प्रमुख अंग तंत्र (A सही, B गलत); पाँचवें माह में गर्भ की पहली गतिविधि और सिर पर बाल (E सही)। सही: <b>केवल A, C, D तथा E</b>।</p>",
+     "hint": "अंग तंत्र = पहली तिमाही का अंत।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1603,10 +1999,22 @@
       "A and C are true",
       "B and D are true",
       "B and C are true"
-     ]
+     ],
+     "sol": "<ul><li>A — true: female meiosis begins in foetal life; male meiosis only after puberty.</li><li>B — true: in males meiosis II follows meiosis I quickly; in females meiosis I stops before birth and meiosis II finishes only at fertilisation, years later.</li><li>C — false: the first polar body forms with the <b>secondary</b> oocyte (division of the primary oocyte).</li><li>D — false: the LH surge causes <b>ovulation</b>; menstruation follows the fall of progesterone when the corpus luteum degenerates.</li></ul><p>A and B are true.</p>",
+     "hint": "First polar body is a by-product of meiosis I."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित कथनों पर विचार कीजिए :<br>A. मानव स्त्री युग्मकजनन में न्यूनकारी विभाजन पुरुष युग्मकजनन की अपेक्षा पहले आरंभ होता है।<br>B. प्रथम तथा द्वितीय अर्धसूत्री विभाजन के बीच का अंतराल स्त्रियों की तुलना में पुरुषों में बहुत कम होता है।<br>C. प्रथम ध्रुवीय पिंड प्राथमिक अंडक के निर्माण से संबंधित है।<br>D. ल्यूटिनाइजिंग हॉर्मोन (LH) के चरम स्रवण से गर्भाशय अंतःस्तर का विघटन तथा ऋतुस्राव आरंभ होता है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A तथा B सत्य हैं",
+      "A तथा C सत्य हैं",
+      "B तथा D सत्य हैं",
+      "B तथा C सत्य हैं"
+     ],
+     "sol": "<ul><li>A — सत्य: स्त्री में अर्धसूत्री विभाजन भ्रूणीय अवस्था में आरंभ होता है; पुरुष में यौवनारंभ के बाद।</li><li>B — सत्य: पुरुषों में अर्धसूत्री विभाजन II, I के तुरंत बाद होता है; स्त्रियों में अर्धसूत्री विभाजन I जन्म से पहले रुक जाता है और II वर्षों बाद निषेचन पर ही पूरा होता है।</li><li>C — असत्य: प्रथम ध्रुवीय पिंड <b>द्वितीयक</b> अंडक के साथ बनता है (प्राथमिक अंडक के विभाजन से)।</li><li>D — असत्य: LH का चरम स्रवण <b>अंडोत्सर्ग</b> कराता है; ऋतुस्राव तब होता है जब पीत पिंड के ह्रास से प्रोजेस्टेरॉन घटता है।</li></ul><p>A तथा B सत्य हैं।</p>",
+     "hint": "प्रथम ध्रुवीय पिंड अर्धसूत्री विभाजन I का उपोत्पाद है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1650,10 +2058,22 @@
       "Menarche",
       "Diapause",
       "Ovulation"
-     ]
+     ],
+     "sol": "<p>The first menstruation, at puberty, is called <b>menarche</b>. Menopause is the end of cycles (around 50 years), diapause is a suspended development in animals, ovulation is release of the egg.</p>",
+     "hint": "Men-arche = beginning."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रथम ऋतुस्राव को क्या कहते हैं?",
+     "o": [
+      "रजोनिवृत्ति",
+      "रजोदर्शन",
+      "उपरति (diapause)",
+      "अंडोत्सर्ग"
+     ],
+     "sol": "<p>यौवनारंभ पर प्रथम ऋतुस्राव <b>रजोदर्शन</b> कहलाता है। रजोनिवृत्ति चक्रों का अंत है (लगभग 50 वर्ष), उपरति जंतुओं में परिवर्धन का निलंबन है, अंडोत्सर्ग अंड का मोचन है।</p>",
+     "hint": "रजोदर्शन = आरंभ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1696,10 +2116,22 @@
       "They are fraternal twins.",
       "They were conceived through in vitro fertilization.",
       "They have 75% identical genetic content."
-     ]
+     ],
+     "sol": "<p>Monozygotic (identical) twins come from one zygote and are always the same sex. A boy–girl pair must therefore come from two separate eggs fertilised by two sperms: <b>fraternal (dizygotic)</b> twins. Nothing requires IVF, and fraternal twins share on average about 50% of their genes, not 75%.</p>",
+     "hint": "Identical twins are always the same sex."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आपके पड़ोस में रहने वाले एक परिवार में जुड़वाँ बच्चे पैदा होते हैं। जुड़वाँ एक लड़का तथा एक लड़की हैं। निम्नलिखित में से क्या अवश्य सत्य है?",
+     "o": [
+      "वे एकयुग्मज जुड़वाँ हैं।",
+      "वे भ्रातृ (द्वियुग्मज) जुड़वाँ हैं।",
+      "उनका गर्भाधान पात्रे निषेचन द्वारा हुआ था।",
+      "उनकी आनुवंशिक सामग्री 75% समान है।"
+     ],
+     "sol": "<p>एकयुग्मज (समरूप) जुड़वाँ एक ही युग्मनज से बनते हैं और सदैव एक ही लिंग के होते हैं। अतः लड़का–लड़की का जोड़ा दो अलग शुक्राणुओं से निषेचित दो अलग अंडों से ही बना होगा: <b>भ्रातृ (द्वियुग्मज)</b> जुड़वाँ। पात्रे निषेचन (IVF) आवश्यक नहीं, और भ्रातृ जुड़वाँ औसतन लगभग 50% जीन साझा करते हैं, 75% नहीं।</p>",
+     "hint": "समरूप जुड़वाँ सदैव एक ही लिंग के होते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1743,10 +2175,22 @@
       "C and E only",
       "A and E only",
       "B, C and D only"
-     ]
+     ],
+     "sol": "<ul><li>A — false: spermatogonia multiply by mitosis; only some become primary spermatocytes that enter meiosis.</li><li>B — false: primary spermatocytes complete the <b>first meiotic</b> division to form secondary spermatocytes.</li><li>C — true: secondary spermatocytes undergo meiosis II to give four haploid spermatids.</li><li>D — false: spermatids do not divide; they change shape.</li><li>E — true: spermatids are transformed into spermatozoa by spermiogenesis.</li></ul><p>C and E only.</p>",
+     "hint": "Spermatids transform, they do not divide."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "शुक्राणुजन शुक्राणु उत्पन्न करने के लिए कोशिका विभाजनों की एक श्रृंखला से गुजरते हैं। निम्नलिखित में से सही कथन चुनिए :<br>A. शुक्राणुजन सदैव अर्धसूत्री कोशिका विभाजन करते हैं।<br>B. प्राथमिक शुक्राणु कोशिकाएँ समसूत्री विभाजन से द्वितीयक शुक्राणु कोशिकाएँ बनाती हैं।<br>C. द्वितीयक शुक्राणु कोशिकाएँ अपने दूसरे अर्धसूत्री विभाजन द्वारा अगुणित शुक्राणुप्रसू बनाती हैं।<br>D. शुक्राणुप्रसू समसूत्री विभाजन द्वारा शुक्राणु बनाते हैं।<br>E. शुक्राणुप्रसू शुक्राणुजनन द्वारा शुक्राणुओं में रूपांतरित होते हैं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A, C तथा E",
+      "केवल C तथा E",
+      "केवल A तथा E",
+      "केवल B, C तथा D"
+     ],
+     "sol": "<ul><li>A — गलत: शुक्राणुजन समसूत्री विभाजन से संख्या बढ़ाते हैं; केवल कुछ ही प्राथमिक शुक्राणु कोशिकाएँ बनकर अर्धसूत्री विभाजन में जाते हैं।</li><li>B — गलत: प्राथमिक शुक्राणु कोशिकाएँ <b>प्रथम अर्धसूत्री</b> विभाजन पूरा कर द्वितीयक शुक्राणु कोशिकाएँ बनाती हैं।</li><li>C — सही: द्वितीयक शुक्राणु कोशिकाएँ अर्धसूत्री विभाजन II से चार अगुणित शुक्राणुप्रसू बनाती हैं।</li><li>D — गलत: शुक्राणुप्रसू विभाजित नहीं होते; उनका आकार बदलता है।</li><li>E — सही: शुक्राणुप्रसू शुक्राणुजनन द्वारा शुक्राणुओं में रूपांतरित होते हैं।</li></ul><p>केवल C तथा E।</p>",
+     "hint": "शुक्राणुप्रसू रूपांतरित होते हैं, विभाजित नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1790,10 +2234,22 @@
       "A-II, B-III, C-IV, D-I",
       "A-IV, B-II, C-III, D-I",
       "A-III, B-II, C-IV, D-I"
-     ]
+     ],
+     "sol": "<ul><li>A First movements and hair on the head → fifth month ≈ 20 weeks (II).</li><li>B Limbs and digits → end of the second month = 8 weeks (III).</li><li>C External genital organs → end of the first trimester = 12 weeks (IV).</li><li>D Fine body hair, eyelids separate, eyelashes → end of the second trimester = 24 weeks (I).</li></ul><p>A-II, B-III, C-IV, D-I.</p>",
+     "hint": "Convert NCERT's months to weeks."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सगर्भता के विभिन्न महीनों में भ्रूणीय परिवर्धन से संबंधित सूची I का सूची II से मिलान कीजिए :<br>A. गर्भ की गतिविधि आरंभ होती है और सिर पर बाल उग आते हैं — I. सगर्भता के 24 सप्ताह<br>B. गर्भ में पाद तथा अंगुलियाँ विकसित होती हैं — II. सगर्भता के 20 सप्ताह<br>C. गर्भ में बाह्य जननांग विकसित होते हैं — III. सगर्भता के 8 सप्ताह<br>D. गर्भ का शरीर कोमल बालों से ढक जाता है; पलकें अलग होती हैं और बरौनियाँ बनती हैं — IV. सगर्भता के 12 सप्ताह",
+     "o": [
+      "A-II, B-IV, C-III, D-I",
+      "A-II, B-III, C-IV, D-I",
+      "A-IV, B-II, C-III, D-I",
+      "A-III, B-II, C-IV, D-I"
+     ],
+     "sol": "<ul><li>A पहली गतिविधि और सिर पर बाल → पाँचवाँ माह ≈ 20 सप्ताह (II)।</li><li>B पाद और अंगुलियाँ → दूसरे माह का अंत = 8 सप्ताह (III)।</li><li>C बाह्य जननांग → पहली तिमाही का अंत = 12 सप्ताह (IV)।</li><li>D शरीर पर कोमल बाल, पलकें अलग, बरौनियाँ → दूसरी तिमाही का अंत = 24 सप्ताह (I)।</li></ul><p>A-II, B-III, C-IV, D-I।</p>",
+     "hint": "NCERT के महीनों को सप्ताहों में बदलें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1837,10 +2293,22 @@
       "A, C, B, D",
       "C, A, D, B",
       "C, A, B, D"
-     ]
+     ],
+     "sol": "<p>From outside inwards the ovulated egg has: the <b>corona radiata</b> (follicle cells), the <b>zona pellucida</b>, the <b>perivitelline space</b>, and then the <b>plasma membrane</b> of the ovum. Order: C, A, B, D.</p>",
+     "hint": "Cells outside, membrane inside, a gap between."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्त्री युग्मक के चारों ओर की निम्नलिखित कोशिका परतों/संरचनाओं को बाहर से भीतर की ओर व्यवस्थित कीजिए :<br>A. पारदर्शी अंडावरण<br>B. परिपीतक अवकाश<br>C. अरीय किरीट (कोरोना रेडिएटा)<br>D. अंडाणु की प्लाज्मा झिल्ली<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "D, B, A, C",
+      "A, C, B, D",
+      "C, A, D, B",
+      "C, A, B, D"
+     ],
+     "sol": "<p>बाहर से भीतर की ओर मोचित अंड में: <b>अरीय किरीट</b> (पुटक कोशिकाएँ), <b>पारदर्शी अंडावरण</b>, <b>परिपीतक अवकाश</b>, और फिर अंडाणु की <b>प्लाज्मा झिल्ली</b>। क्रम: C, A, B, D।</p>",
+     "hint": "बाहर कोशिकाएँ, भीतर झिल्ली, बीच में अवकाश।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {

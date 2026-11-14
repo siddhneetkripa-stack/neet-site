@@ -80,10 +80,22 @@
       "Fructose 1,6-bisphosphate",
       "Pyruvic acid",
       "Acetyl CoA"
-     ]
+     ],
+     "sol": "<p>NCERT 12.6: carbohydrates (via pyruvate), fatty acids (by β-oxidation) and many amino acids (after deamination) are all broken down to <b>acetyl CoA</b>, which enters the Krebs cycle — the common intermediate.</p>",
+     "hint": "Entry point of the Krebs cycle."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वसा, कार्बोहाइड्रेट तथा प्रोटीन के श्वसन-आधारित विघटन में निम्नलिखित में से कौन-सा जैव अणु उभयनिष्ठ है?",
+     "o": [
+      "ग्लूकोस-6-फॉस्फेट",
+      "फ्रक्टोस 1,6-बिसफॉस्फेट",
+      "पायरुविक अम्ल",
+      "एसीटाइल कोएंजाइम A (Acetyl CoA)"
+     ],
+     "sol": "<p>NCERT 12.6: कार्बोहाइड्रेट (पायरुवेट द्वारा), वसा अम्ल (β-ऑक्सीकरण द्वारा) तथा अनेक अमीनो अम्ल (विऐमीनीकरण के बाद) सभी <b>एसीटाइल CoA</b> में टूटते हैं, जो क्रेब्स चक्र में प्रवेश करता है — यही उभयनिष्ठ मध्यवर्ती है।</p>",
+     "hint": "क्रेब्स चक्र का प्रवेश बिंदु।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -126,10 +138,22 @@
       "Oxidation of phosphate group in ATP",
       "Addition of phosphate group to ATP",
       "Formation of ATP by energy released from electrons removed during substrate oxidation"
-     ]
+     ],
+     "sol": "<p>NCERT 12.4.2: in oxidative phosphorylation the energy released as electrons (removed during oxidation of substrates, carried by NADH/FADH<sub>2</sub>) pass along the ETS is used to make ATP — option 4. Option 1 describes substrate-level phosphorylation.</p>",
+     "hint": "Energy of oxidation → ATP via ETS."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ऑक्सीकारी-फॉस्फोरिलिकरण है",
+     "o": [
+      "क्रियाधार से ADP पर फॉस्फेट समूह के स्थानांतरण द्वारा ATP का बनना",
+      "ATP में फॉस्फेट समूह का ऑक्सीकरण",
+      "ATP में फॉस्फेट समूह का जुड़ना",
+      "क्रियाधार ऑक्सीकरण में निकाले गए इलेक्ट्रॉनों से मुक्त ऊर्जा द्वारा ATP का बनना"
+     ],
+     "sol": "<p>NCERT 12.4.2: ऑक्सीकारी-फॉस्फोरिलिकरण में क्रियाधारों के ऑक्सीकरण में निकाले गए इलेक्ट्रॉन (NADH/FADH<sub>2</sub> द्वारा लाए गए) जब इलेक्ट्रॉन परिवहन तंत्र (ETS) से गुजरते हैं तो मुक्त ऊर्जा से ATP बनता है — विकल्प 4। विकल्प 1 क्रियाधार स्तर फॉस्फोरिलीकरण का वर्णन है।</p>",
+     "hint": "ऑक्सीकरण ऊर्जा → ETS द्वारा ATP।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -172,10 +196,22 @@
       "There is one point in the cycle where FAD<sup>+</sup> is reduced to FADH<sub>2</sub>",
       "During conversion of succinyl CoA to succinic acid, a molecule of GTP is synthesised",
       "The cycle starts with condensation of acetyl group (acetyl CoA) with pyruvic acid to yield citric acid"
-     ]
+     ],
+     "sol": "<p>NCERT 12.4.1: the Krebs cycle starts with condensation of the acetyl group with <b>oxaloacetic acid (OAA)</b> and water to yield citric acid — not with pyruvic acid. Statement 4 is wrong. There are three NAD<sup>+</sup> reductions, one FAD reduction and one substrate-level phosphorylation (succinyl CoA → succinic acid, GTP).</p>",
+     "hint": "Acetyl CoA + OAA → citrate."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "क्रेब्स चक्र के लिए कौन-सा कथन गलत है?",
+     "o": [
+      "चक्र में तीन स्थान हैं जहाँ NAD<sup>+</sup> का NADH + H<sup>+</sup> में अपचयन होता है",
+      "चक्र में एक स्थान है जहाँ FAD<sup>+</sup> का FADH<sub>2</sub> में अपचयन होता है",
+      "सक्सीनिल CoA के सक्सीनिक अम्ल में परिवर्तन के दौरान GTP का एक अणु संश्लेषित होता है",
+      "चक्र का आरंभ एसीटाइल समूह (एसीटाइल CoA) के पायरुविक अम्ल के साथ संघनन से सिट्रिक अम्ल बनने से होता है"
+     ],
+     "sol": "<p>NCERT 12.4.1: क्रेब्स चक्र का आरंभ एसीटाइल समूह के <b>ओक्सैलोएसिटिक अम्ल (OAA)</b> तथा जल के साथ संघनन से सिट्रिक अम्ल बनने से होता है — पायरुविक अम्ल से नहीं। कथन 4 गलत है। चक्र में तीन NAD<sup>+</sup> अपचयन, एक FAD अपचयन तथा एक क्रियाधार स्तर फॉस्फोरिलीकरण (सक्सीनिल CoA → सक्सीनिक अम्ल, GTP) होता है।</p>",
+     "hint": "एसीटाइल CoA + OAA → सिट्रेट।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -218,10 +254,22 @@
       "It functions as an electron carrier.",
       "It functions as an enzyme.",
       "It is the final electron acceptor for anaerobic respiration."
-     ]
+     ],
+     "sol": "<p>NCERT 12.4.2: NAD<sup>+</sup> accepts hydrogen (electrons) during oxidation steps of glycolysis and the Krebs cycle and passes them to the electron transport system — it is an <b>electron carrier</b>. O<sub>2</sub> is the final acceptor in aerobic respiration.</p>",
+     "hint": "Carries reducing equivalents."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कोशिकीय श्वसन में NAD<sup>+</sup> की क्या भूमिका है?",
+     "o": [
+      "यह ATP संश्लेषण के लिए न्यूक्लियोटाइड का स्रोत है।",
+      "यह इलेक्ट्रॉन वाहक का कार्य करता है।",
+      "यह एंजाइम का कार्य करता है।",
+      "यह अवायवीय श्वसन का अंतिम इलेक्ट्रॉन ग्राही है।"
+     ],
+     "sol": "<p>NCERT 12.4.2: NAD<sup>+</sup> ग्लाइकोलिसिस तथा क्रेब्स चक्र के ऑक्सीकरण चरणों में हाइड्रोजन (इलेक्ट्रॉन) ग्रहण कर उन्हें इलेक्ट्रॉन परिवहन तंत्र तक पहुँचाता है — यह <b>इलेक्ट्रॉन वाहक</b> है। वायवीय श्वसन में अंतिम इलेक्ट्रॉन ग्राही O<sub>2</sub> है।</p>",
+     "hint": "अपचयी समतुल्य ले जाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -264,10 +312,22 @@
       "Glycolysis occurs in cytosol.",
       "Enzymes of TCA cycle are present in mitochondrial matrix.",
       "Oxidative phosphorylation takes place in outer mitochondrial membrane."
-     ]
+     ],
+     "sol": "<p>NCERT 12.4: glycolysis occurs in the cytoplasm and continues as long as NAD<sup>+</sup> is available; TCA cycle enzymes are in the mitochondrial matrix. Oxidative phosphorylation (ETS + ATP synthase) takes place on the <b>inner</b> mitochondrial membrane — statement 4 is incorrect.</p>",
+     "hint": "Inner membrane, not outer."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "इनमें से कौन-सा कथन गलत है?",
+     "o": [
+      "ग्लाइकोलिसिस तब तक चलता है जब तक इसे हाइड्रोजन परमाणु ग्रहण करने वाला NAD मिलता रहे।",
+      "ग्लाइकोलिसिस कोशिकाद्रव्य (साइटोसॉल) में होता है।",
+      "TCA चक्र के एंजाइम माइटोकोंड्रिया के आधात्री में होते हैं।",
+      "ऑक्सीकारी-फॉस्फोरिलिकरण माइटोकोंड्रिया की बाहरी झिल्ली में होता है।"
+     ],
+     "sol": "<p>NCERT 12.4: ग्लाइकोलिसिस कोशिकाद्रव्य में होता है और NAD<sup>+</sup> उपलब्ध रहने तक चलता है; TCA चक्र के एंजाइम माइटोकोंड्रिया के आधात्री में हैं। ऑक्सीकारी-फॉस्फोरिलिकरण (ETS + ATP सिंथेज) माइटोकोंड्रिया की <b>भीतरी</b> झिल्ली पर होता है — कथन 4 गलत है।</p>",
+     "hint": "भीतरी झिल्ली, बाहरी नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -312,10 +372,22 @@
       "0.09",
       "0.9",
       "0.7"
-     ]
+     ],
+     "sol": "<p>NCERT 12.7: for tripalmitin, 2(C<sub>51</sub>H<sub>98</sub>O<sub>6</sub>) + 145 O<sub>2</sub> → 102 CO<sub>2</sub> + 98 H<sub>2</sub>O; RQ = 102/145 ≈ <b>0.7</b>.</p>",
+     "hint": "Fats have RQ below 1."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ट्राइपामिटिन का साँस गुणांक (RQ) मान है :",
+     "o": [
+      "0.07",
+      "0.09",
+      "0.9",
+      "0.7"
+     ],
+     "sol": "<p>NCERT 12.7: ट्राइपामिटिन के लिए 2(C<sub>51</sub>H<sub>98</sub>O<sub>6</sub>) + 145 O<sub>2</sub> → 102 CO<sub>2</sub> + 98 H<sub>2</sub>O; RQ = 102/145 ≈ <b>0.7</b>।</p>",
+     "hint": "वसा का RQ 1 से कम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -358,10 +430,22 @@
       "Phosphofructokinase",
       "Aldolase",
       "Hexokinase"
-     ]
+     ],
+     "sol": "<p>NCERT 12.2: glucose is phosphorylated to glucose-6-phosphate by the enzyme <b>hexokinase</b>, using one ATP.</p>",
+     "hint": "First kinase of glycolysis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ग्लूकोस का ग्लूकोस-6-फॉस्फेट में परिवर्तन, जो ग्लाइकोलिसिस की पहली अनुत्क्रमणीय अभिक्रिया है, किसके द्वारा उत्प्रेरित होता है?",
+     "o": [
+      "इनोलेज",
+      "फॉस्फोफ्रक्टोकाइनेज",
+      "एल्डोलेज",
+      "हेक्सोकाइनेज"
+     ],
+     "sol": "<p>NCERT 12.2: ग्लूकोस एक ATP का उपयोग कर <b>हेक्सोकाइनेज</b> एंजाइम द्वारा ग्लूकोस-6-फॉस्फेट में फॉस्फोरिलीकृत होता है।</p>",
+     "hint": "ग्लाइकोलिसिस का पहला काइनेज।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -401,13 +485,25 @@
      "q": "The number of substrate level phosphorylations in one turn of citric acid cycle is :",
      "o": [
       "Two",
-      "Three 13thSeptember 2020, Biology Page | 5",
+      "Three",
       "Zero",
       "One"
-     ]
+     ],
+     "sol": "<p>NCERT 12.4.1: in one turn of the citric acid cycle there is only <b>one</b> substrate-level phosphorylation — succinyl CoA → succinic acid, forming GTP (which gives ATP).</p>",
+     "hint": "Succinyl CoA step."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सिट्रिक अम्ल चक्र के एक चक्कर में क्रियाधार स्तर फॉस्फोरिलीकरणों की संख्या है :",
+     "o": [
+      "दो",
+      "तीन",
+      "शून्य",
+      "एक"
+     ],
+     "sol": "<p>NCERT 12.4.1: सिट्रिक अम्ल चक्र के एक चक्कर में केवल <b>एक</b> क्रियाधार स्तर फॉस्फोरिलीकरण होता है — सक्सीनिल CoA → सक्सीनिक अम्ल, जिसमें GTP (जिससे ATP) बनता है।</p>",
+     "hint": "सक्सीनिल CoA चरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -450,10 +546,22 @@
       "During aerobic respiration, role of oxygen is limited to the terminal stage",
       "In ETC (Electron Transport Chain), one molecule of NADH + H<sup>+</sup> gives rise to 2 ATP molecules, and one FADH<sub>2</sub> gives rise to 3 ATP molecules",
       "ATP is synthesized through complex V"
-     ]
+     ],
+     "sol": "<p>NCERT 12.4.2: one NADH + H<sup>+</sup> gives <b>3</b> ATP and one FADH<sub>2</sub> gives <b>2</b> ATP — statement 3 has them reversed, so it is incorrect. Redox reactions build the proton gradient; O<sub>2</sub> acts only at the end as the final electron acceptor; ATP is made by complex V (ATP synthase).</p>",
+     "hint": "NADH 3, FADH<sub>2</sub> 2."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन गलत है?",
+     "o": [
+      "श्वसन में ऑक्सीकरण-अपचयन अभिक्रियाएँ प्रोटोन प्रवणता उत्पन्न करती हैं",
+      "वायवीय श्वसन के दौरान ऑक्सीजन की भूमिका अंतिम चरण तक सीमित है",
+      "ETC (इलेक्ट्रॉन परिवहन शृंखला) में NADH + H<sup>+</sup> का एक अणु 2 ATP अणु तथा FADH<sub>2</sub> का एक अणु 3 ATP अणु देता है",
+      "ATP का संश्लेषण कॉम्पलेक्स V द्वारा होता है"
+     ],
+     "sol": "<p>NCERT 12.4.2: एक NADH + H<sup>+</sup> से <b>3</b> ATP तथा एक FADH<sub>2</sub> से <b>2</b> ATP बनते हैं — कथन 3 इन्हें उलट देता है, अतः गलत है। अपचयोपचय अभिक्रियाएँ प्रोटोन प्रवणता बनाती हैं; O<sub>2</sub> केवल अंत में अंतिम इलेक्ट्रॉन ग्राही के रूप में कार्य करती है; ATP कॉम्पलेक्स V (ATP सिंथेज) द्वारा बनता है।</p>",
+     "hint": "NADH 3, FADH<sub>2</sub> 2।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -497,10 +605,22 @@
       "Two",
       "Eight",
       "Four"
-     ]
+     ],
+     "sol": "<p>NCERT 12.2: glycolysis uses 2 ATP and makes 4 ATP — a net gain of <b>2 ATP</b> per glucose; it also gives 2 NADH, which yield 6 more ATP if oxidised through the ETS (total 8). The key accepts both 'Two' (direct net gain) and 'Eight' (counting the NADH).</p>",
+     "hint": "4 made − 2 used."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जब ग्लूकोस का प्रत्येक अणु पायरुविक अम्ल के दो अणुओं में परिवर्तित होता है, तो ATP का शुद्ध लाभ क्या होता है?",
+     "o": [
+      "छह",
+      "दो",
+      "आठ",
+      "चार"
+     ],
+     "sol": "<p>NCERT 12.2: ग्लाइकोलिसिस में 2 ATP उपयोग होते हैं और 4 ATP बनते हैं — प्रति ग्लूकोस <b>2 ATP</b> का शुद्ध लाभ; साथ ही 2 NADH बनते हैं जो ETS में ऑक्सीकृत होकर 6 ATP और देते हैं (कुल 8)। कुंजी 'दो' (प्रत्यक्ष शुद्ध लाभ) तथा 'आठ' (NADH सहित) दोनों स्वीकार करती है।</p>",
+     "hint": "4 बने − 2 उपयोग।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -547,10 +667,22 @@
       "About 10%",
       "Less than 7%",
       "Approximately 15%"
-     ]
+     ],
+     "sol": "<p>NCERT 12.3: in fermentation (lactic acid or alcoholic), <b>less than 7%</b> of the energy in glucose is released, and not all of it is trapped as ATP.</p>",
+     "hint": "Incomplete oxidation."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "लैक्टिक अम्ल किण्वन के दौरान ग्लूकोस से कितनी ऊर्जा मुक्त होती है?",
+     "o": [
+      "18% से अधिक",
+      "लगभग 10%",
+      "7% से कम",
+      "लगभग 15%"
+     ],
+     "sol": "<p>NCERT 12.3: किण्वन (लैक्टिक अम्ल या एल्कोहलिक) में ग्लूकोस की ऊर्जा का <b>7% से कम</b> भाग मुक्त होता है, और वह सब ATP के रूप में संचित भी नहीं होता।</p>",
+     "hint": "अपूर्ण ऑक्सीकरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -593,10 +725,22 @@
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A.",
       "A is true but R is false."
-     ]
+     ],
+     "sol": "<p>NCERT 12.2: ATP is used at two steps of glycolysis — glucose → glucose-6-phosphate (hexokinase) and fructose-6-phosphate → fructose-1,6-bisphosphate (phosphofructokinase). Both A and R are true and R explains A.</p>",
+     "hint": "Two kinase steps."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं: एक को अभिकथन A तथा दूसरे को कारण R कहा गया है :<br>अभिकथन A : ग्लाइकोलिसिस में दो चरणों पर ATP का उपयोग होता है।<br>कारण R : पहला ATP ग्लूकोस को ग्लूकोस-6-फॉस्फेट में बदलने में तथा दूसरा ATP फ्रक्टोस-6-फॉस्फेट को फ्रक्टोस-1,6-डाइफॉस्फेट में बदलने में उपयोग होता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A असत्य है परंतु R सत्य है।",
+      "A तथा R दोनों सत्य हैं और R, A की सही व्याख्या है",
+      "A तथा R दोनों सत्य हैं परंतु R, A की सही व्याख्या नहीं है।",
+      "A सत्य है परंतु R असत्य है।"
+     ],
+     "sol": "<p>NCERT 12.2: ग्लाइकोलिसिस में दो चरणों पर ATP उपयोग होता है — ग्लूकोस → ग्लूकोस-6-फॉस्फेट (हेक्सोकाइनेज) तथा फ्रक्टोस-6-फॉस्फेट → फ्रक्टोस-1,6-बिसफॉस्फेट (फॉस्फोफ्रक्टोकाइनेज)। A तथा R दोनों सत्य हैं और R, A की व्याख्या करता है।</p>",
+     "hint": "दो काइनेज चरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -639,10 +783,22 @@
       "A-III, B-IV, C-II, D-I",
       "A-II, B-IV, C-I, D-III",
       "A-III, B-I, C-II, D-IV"
-     ]
+     ],
+     "sol": "<ul><li>(A) Oxidative decarboxylation — of pyruvate to acetyl CoA (II).</li><li>(B) Glycolysis — EMP pathway (IV).</li><li>(C) Oxidative phosphorylation — electron transport system (III).</li><li>(D) TCA cycle — citrate synthase (I).</li></ul><p>A-II, B-IV, C-III, D-I.</p>",
+     "hint": "EMP = Embden–Meyerhof–Parnas."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(A) ऑक्सीकारी विकार्बोक्सिलीकरण — (I) सिट्रेट सिंथेज<br>(B) ग्लाइकोलिसिस — (II) पायरुवेट<br>(C) ऑक्सीकारी-फॉस्फोरिलिकरण — (III) इलेक्ट्रॉन परिवहन तंत्र<br>(D) ट्राइकार्बोक्सिलिक अम्ल चक्र — (IV) EMP पथ",
+     "o": [
+      "A-II, B-IV, C-III, D-I",
+      "A-III, B-IV, C-II, D-I",
+      "A-II, B-IV, C-I, D-III",
+      "A-III, B-I, C-II, D-IV"
+     ],
+     "sol": "<ul><li>(A) ऑक्सीकारी विकार्बोक्सिलीकरण — पायरुवेट का एसीटाइल CoA में (II)।</li><li>(B) ग्लाइकोलिसिस — EMP पथ (IV)।</li><li>(C) ऑक्सीकारी-फॉस्फोरिलिकरण — इलेक्ट्रॉन परिवहन तंत्र (III)।</li><li>(D) TCA चक्र — सिट्रेट सिंथेज (I)।</li></ul><p>A-II, B-IV, C-III, D-I।</p>",
+     "hint": "EMP = एम्बडेन–मेयरहॉफ–पारनास।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -689,10 +845,22 @@
       "A-IV, B-III, C-II, D-I",
       "A-I, B-II, C-III, D-IV",
       "A-II, B-I, C-IV, D-III"
-     ]
+     ],
+     "sol": "<ul><li>A. Citric acid cycle — mitochondrial matrix (II).</li><li>B. Glycolysis — cytoplasm (I).</li><li>C. Electron transport system — inner mitochondrial membrane (IV).</li><li>D. Proton gradient — protons accumulate in the intermembrane space (III).</li></ul><p>A-II, B-I, C-IV, D-III.</p>",
+     "hint": "Protons pumped outwards into the intermembrane space."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. सिट्रिक अम्ल चक्र — I. कोशिकाद्रव्य<br>B. ग्लाइकोलिसिस — II. माइटोकोंड्रिया का आधात्री<br>C. इलेक्ट्रॉन परिवहन तंत्र — III. माइटोकोंड्रिया का अंतर्झिल्ली अवकाश<br>D. प्रोटोन प्रवणता — IV. माइटोकोंड्रिया की भीतरी झिल्ली",
+     "o": [
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-III, C-II, D-I",
+      "A-I, B-II, C-III, D-IV",
+      "A-II, B-I, C-IV, D-III"
+     ],
+     "sol": "<ul><li>A. सिट्रिक अम्ल चक्र — माइटोकोंड्रिया का आधात्री (II)।</li><li>B. ग्लाइकोलिसिस — कोशिकाद्रव्य (I)।</li><li>C. इलेक्ट्रॉन परिवहन तंत्र — माइटोकोंड्रिया की भीतरी झिल्ली (IV)।</li><li>D. प्रोटोन प्रवणता — प्रोटोन अंतर्झिल्ली अवकाश में संचित होते हैं (III)।</li></ul><p>A-II, B-I, C-IV, D-III।</p>",
+     "hint": "प्रोटोन अंतर्झिल्ली अवकाश में पंप होते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -737,10 +905,22 @@
       "Succinyl-CoA → Succinic acid",
       "Isocitrate → α-ketoglutaric acid",
       "Malic acid → Oxaloacetic acid"
-     ]
+     ],
+     "sol": "<p>NCERT 12.4.1: succinyl CoA → succinic acid is the substrate-level phosphorylation step (GTP formed); no hydrogen is removed, so the substrate is <b>not oxidised</b>. Succinate → (fumarate →) malate involves FAD reduction; isocitrate → α-ketoglutarate and malate → OAA reduce NAD<sup>+</sup>.</p>",
+     "hint": "The GTP step."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ट्राइकार्बोक्सिलिक अम्ल चक्र का वह चरण पहचानिए जिसमें क्रियाधार का ऑक्सीकरण नहीं होता।",
+     "o": [
+      "सक्सीनिक अम्ल → मैलिक अम्ल",
+      "सक्सीनिल-CoA → सक्सीनिक अम्ल",
+      "आइसोसिट्रेट → α-कीटोग्लूटैरिक अम्ल",
+      "मैलिक अम्ल → ओक्सैलोएसिटिक अम्ल"
+     ],
+     "sol": "<p>NCERT 12.4.1: सक्सीनिल CoA → सक्सीनिक अम्ल क्रियाधार स्तर फॉस्फोरिलीकरण का चरण है (GTP बनता है); इसमें हाइड्रोजन नहीं हटता, अतः क्रियाधार का <b>ऑक्सीकरण नहीं</b> होता। सक्सिनेट → (फ्यूमरेट →) मैलेट में FAD अपचयित होता है; आइसोसिट्रेट → α-कीटोग्लूटैरेट तथा मैलेट → OAA में NAD<sup>+</sup> अपचयित होता है।</p>",
+     "hint": "GTP वाला चरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -783,10 +963,22 @@
       "Succinate dehydrogenase",
       "Cytochrome c oxidase",
       "NADH dehydrogenase"
-     ]
+     ],
+     "sol": "<p>NCERT 12.4.2: complex I is NADH dehydrogenase, complex II is <b>succinate dehydrogenase</b> (FADH<sub>2</sub> enters here), complex III is cytochrome bc<sub>1</sub>, complex IV is cytochrome c oxidase, complex V is ATP synthase.</p>",
+     "hint": "FADH<sub>2</sub> entry point."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "माइटोकोंड्रिया की इलेक्ट्रॉन परिवहन शृंखला का कॉम्पलेक्स II और किस नाम से जाना जाता है?",
+     "o": [
+      "साइटोक्रोम bc<sub>1</sub>",
+      "सक्सिनेट डिहाइड्रोजिनेज",
+      "साइटोक्रोम c ऑक्सीडेज",
+      "NADH डिहाइड्रोजिनेज"
+     ],
+     "sol": "<p>NCERT 12.4.2: कॉम्पलेक्स I NADH डिहाइड्रोजिनेज, कॉम्पलेक्स II <b>सक्सिनेट डिहाइड्रोजिनेज</b> (FADH<sub>2</sub> यहाँ प्रवेश करता है), कॉम्पलेक्स III साइटोक्रोम bc<sub>1</sub>, कॉम्पलेक्स IV साइटोक्रोम c ऑक्सीडेज तथा कॉम्पलेक्स V ATP सिंथेज है।</p>",
+     "hint": "FADH<sub>2</sub> का प्रवेश बिंदु।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -829,10 +1021,22 @@
       "A-I, B-IV, C-III, D-II",
       "A-II, B-III, C-IV, D-I",
       "A-III, B-I, C-IV, D-II"
-     ]
+     ],
+     "sol": "<ul><li>A. Glycolysis — cytoplasm (III).</li><li>B. ETS — inner mitochondrial membrane (I).</li><li>C. Accumulation of protons — intermembrane space (IV).</li><li>D. Krebs' cycle — mitochondrial matrix (II).</li></ul><p>A-III, B-I, C-IV, D-II.</p>",
+     "hint": "Same layout as NEET 2024 Q164."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>सूची-I (प्रक्रिया) — सूची-II (स्थान)<br>A. ग्लाइकोलिसिस — I. माइटोकोंड्रिया की भीतरी झिल्ली<br>B. ETS — II. माइटोकोंड्रिया का आधात्री<br>C. प्रोटोनों का संचय — III. कोशिकाद्रव्य<br>D. क्रेब्स चक्र — IV. अंतर्झिल्ली अवकाश",
+     "o": [
+      "A-IV, B-II, C-I, D-III",
+      "A-I, B-IV, C-III, D-II",
+      "A-II, B-III, C-IV, D-I",
+      "A-III, B-I, C-IV, D-II"
+     ],
+     "sol": "<ul><li>A. ग्लाइकोलिसिस — कोशिकाद्रव्य (III)।</li><li>B. ETS — माइटोकोंड्रिया की भीतरी झिल्ली (I)।</li><li>C. प्रोटोनों का संचय — अंतर्झिल्ली अवकाश (IV)।</li><li>D. क्रेब्स चक्र — माइटोकोंड्रिया का आधात्री (II)।</li></ul><p>A-III, B-I, C-IV, D-II।</p>",
+     "hint": "NEET 2024 Q164 जैसी ही व्यवस्था।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -878,10 +1082,22 @@
       "Between 1.25 and 2",
       "1.0",
       "Between 0.5 and 0.95"
-     ]
+     ],
+     "sol": "<p>RQ = CO<sub>2</sub> evolved / O<sub>2</sub> consumed = 102/145 ≈ 0.70 (this is tripalmitin, NCERT 12.7). 0.70 lies <b>between 0.5 and 0.95</b>.</p>",
+     "hint": "Divide 102 by 145."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "2(C<sub>51</sub>H<sub>98</sub>O<sub>6</sub>) + 145 O<sub>2</sub> → 102 CO<sub>2</sub> + 98 H<sub>2</sub>O + ऊर्जा<br>उपर्युक्त समीकरण के अनुसार श्वसन में प्रयुक्त जैव अणु का साँस गुणांक (RQ) होगा :",
+     "o": [
+      "0.5 से कम",
+      "1.25 तथा 2 के बीच",
+      "1.0",
+      "0.5 तथा 0.95 के बीच"
+     ],
+     "sol": "<p>RQ = मुक्त CO<sub>2</sub> / उपयोग हुई O<sub>2</sub> = 102/145 ≈ 0.70 (यह ट्राइपामिटिन है, NCERT 12.7)। 0.70 <b>0.5 तथा 0.95 के बीच</b> है।</p>",
+     "hint": "102 को 145 से भाग दीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -913,5 +1129,90 @@
     "note": "RQ = 102/145 ≈ 0.70. Code 13 booklet Q103."
    }
   }
- ]
+ ],
+ "paraTrends": {
+  "12.6": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2016
+   ],
+   "last": 2016,
+   "recent": false
+  },
+  "12.4.2": {
+   "neet": 8,
+   "jee": 0,
+   "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2021,
+    2018,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "12.4.1": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2024,
+    2023,
+    2020,
+    2017
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "12.2": {
+   "neet": 7,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2023,
+    2022,
+    2019,
+    2018
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "12.4": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2023,
+    2018
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "12.7": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2026,
+    2019
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "12.3": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2022
+   ],
+   "last": 2022,
+   "recent": false
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3
 }

@@ -26,10 +26,22 @@
       "Lima",
       "Warsaw",
       "Durban"
-     ]
+     ],
+     "sol": "<p>The 2012 UN climate change Conference of Parties (COP 18) was held at <b>Doha</b>, Qatar. Durban was 2011, Warsaw 2013, Lima 2014. (Not in NCERT.)</p>",
+     "hint": "COP 18, Qatar."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वर्ष 2012 में जलवायु परिवर्तन पर संयुक्त राष्ट्र (UN) का पक्षकार सम्मेलन कहाँ हुआ था?",
+     "o": [
+      "दोहा",
+      "लीमा",
+      "वारसा",
+      "डरबन"
+     ],
+     "sol": "<p>2012 का संयुक्त राष्ट्र (UN) जलवायु परिवर्तन पक्षकार सम्मेलन (COP 18) <b>दोहा</b>, क़तर में हुआ। डरबन 2011, वारसा 2013, लीमा 2014 में थे। (NCERT में नहीं।)</p>",
+     "hint": "COP 18, क़तर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -71,10 +83,22 @@
       "CO<sub>2</sub> and CO",
       "O<sub>3</sub> and dust",
       "SO<sub>2</sub> and NO<sub>2</sub>"
-     ]
+     ],
+     "sol": "<p>Acid rain is caused by oxides of sulphur and nitrogen — mainly <b>SO<sub>2</sub> and NO<sub>2</sub></b> — which form sulphuric and nitric acids with rain water. (Old NCERT 'Environmental Issues', dropped in 2024.)</p>",
+     "hint": "Sulphuric and nitric acids."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अम्ल वर्षा वायुमंडल में किसकी सांद्रता बढ़ने से होती है?",
+     "o": [
+      "SO<sub>3</sub> तथा CO",
+      "CO<sub>2</sub> तथा CO",
+      "O<sub>3</sub> तथा धूल",
+      "SO<sub>2</sub> तथा NO<sub>2</sub>"
+     ],
+     "sol": "<p>अम्ल वर्षा सल्फर और नाइट्रोजन के ऑक्साइडों — मुख्यतः <b>SO<sub>2</sub> तथा NO<sub>2</sub></b> — से होती है, जो वर्षा जल के साथ सल्फ्यूरिक और नाइट्रिक अम्ल बनाते हैं। (पुरानी NCERT 'पर्यावरण के मुद्दे', 2024 में हटाया गया।)</p>",
+     "hint": "सल्फ्यूरिक और नाइट्रिक अम्ल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -116,10 +140,22 @@
       "Biotransformation",
       "Biogeochemical cycling",
       "Biomagnification"
-     ]
+     ],
+     "sol": "<p>The increase in concentration of a toxicant (e.g. DDT, mercury) at successive trophic levels is <b>biomagnification</b>, because the toxicant is not metabolised or excreted and accumulates up the food chain.</p>",
+     "hint": "Magnified at each level."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उत्तरोत्तर पोषण स्तरों पर विषाक्त पदार्थ की सांद्रता में वृद्धि कहलाती है :",
+     "o": [
+      "जैव अपक्षय",
+      "जैव रूपांतरण",
+      "जैव भू-रासायनिक चक्रण",
+      "जैव आवर्धन"
+     ],
+     "sol": "<p>उत्तरोत्तर पोषण स्तरों पर विषाक्त पदार्थ (जैसे DDT, पारा) की सांद्रता बढ़ना <b>जैव आवर्धन</b> है, क्योंकि विषाक्त पदार्थ उपापचयित या उत्सर्जित नहीं होता और खाद्य शृंखला में ऊपर संचित होता जाता है।</p>",
+     "hint": "हर स्तर पर आवर्धित।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -161,10 +197,22 @@
       "Essential Minerals",
       "Oxygen",
       "Food"
-     ]
+     ],
+     "sol": "<p>In eutrophication, excess nutrients cause algal blooms; when the algae die, their decomposition uses up dissolved oxygen, and fish die because of the lack of <b>oxygen</b>.</p>",
+     "hint": "Decomposers use the oxygen."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जलाशयों का सुपोषण जिससे मछलियाँ मरती हैं, मुख्यतः किसकी अनुपलब्धता के कारण होता है?",
+     "o": [
+      "प्रकाश",
+      "आवश्यक खनिज",
+      "ऑक्सीजन",
+      "भोजन"
+     ],
+     "sol": "<p>सुपोषण में अधिक पोषक तत्वों से शैवाल प्रस्फुटन होता है; शैवाल मरने पर उनका अपघटन घुली ऑक्सीजन को समाप्त कर देता है, और <b>ऑक्सीजन</b> की कमी से मछलियाँ मर जाती हैं।</p>",
+     "hint": "अपघटक ऑक्सीजन खर्च करते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -206,10 +254,22 @@
       "1970s",
       "1980s",
       "1990s"
-     ]
+     ],
+     "sol": "<p>The Government of India introduced Joint Forest Management (JFM) in the <b>1980s</b> to work closely with local communities in protecting and managing forests.</p>",
+     "hint": "Late 1980s."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "भारत में संयुक्त वन प्रबंधन (Joint Forest Management) की अवधारणा कब लागू की गई?",
+     "o": [
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s"
+     ],
+     "sol": "<p>भारत सरकार ने वनों की सुरक्षा और प्रबंधन में स्थानीय समुदायों के साथ मिलकर काम करने के लिए <b>1980s</b> में संयुक्त वन प्रबंधन (JFM) आरंभ किया।</p>",
+     "hint": "1980s का अंत।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -251,10 +311,22 @@
       "Ozone",
       "Ammonia",
       "Methane"
-     ]
+     ],
+     "sol": "<p>Stratospheric <b>ozone</b> absorbs UV-B radiation. Its depletion lets more UV-B reach the Earth, which damages DNA and increases the incidence of skin cancers.</p>",
+     "hint": "The UV shield."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वायुमंडल में किस गैस के क्षय से त्वचा कैंसर की घटनाएँ बढ़ सकती हैं?",
+     "o": [
+      "नाइट्रस ऑक्साइड",
+      "ओज़ोन",
+      "अमोनिया",
+      "मेथेन"
+     ],
+     "sol": "<p>समतापमंडलीय <b>ओज़ोन</b> UV-B विकिरण को अवशोषित करती है। इसके क्षय से अधिक UV-B पृथ्वी तक पहुँचती है, जो DNA को क्षति पहुँचाकर त्वचा कैंसर की घटनाएँ बढ़ाती है।</p>",
+     "hint": "पराबैंगनी (UV) कवच।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -296,10 +368,22 @@
       "Increased population of aquatic food web organisms.",
       "An increased production of fish due to biodegradable nutrients.",
       "Death of fish due to lack of oxygen."
-     ]
+     ],
+     "sol": "<p>Organic sewage is decomposed by microbes that consume a lot of dissolved oxygen (high BOD). The sharp fall in dissolved oxygen causes the <b>death of fish</b>.</p>",
+     "hint": "High BOD → low oxygen."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कार्बनिक अपशिष्ट से भरपूर घरेलू वाहित मल के प्रवेश वाली नदी में क्या हो सकता है?",
+     "o": [
+      "शैवाल प्रस्फुटन के कारण नदी का शीघ्र सूख जाना।",
+      "जलीय खाद्य जाल के जीवों की समष्टि में वृद्धि।",
+      "जैवनिम्नीकरणीय पोषकों के कारण मछली उत्पादन में वृद्धि।",
+      "ऑक्सीजन की कमी से मछलियों की मृत्यु।"
+     ],
+     "sol": "<p>कार्बनिक वाहित मल का अपघटन करने वाले सूक्ष्मजीव बहुत अधिक घुली ऑक्सीजन खर्च करते हैं (उच्च BOD)। घुली ऑक्सीजन में तीव्र गिरावट से <b>मछलियों की मृत्यु</b> होती है।</p>",
+     "hint": "उच्च BOD → कम ऑक्सीजन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -341,10 +425,22 @@
       "Drying of the lake due to algal bloom",
       "Increased population of fish due to lots of nutrients",
       "Mortality of fish due to lack of oxygen"
-     ]
+     ],
+     "sol": "<p>Organic waste in a lake is decomposed by microbes that use up dissolved oxygen; the result is <b>mortality of fish due to lack of oxygen</b>.</p>",
+     "hint": "Same as the river question."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कार्बनिक अपशिष्ट से भरपूर झील में क्या हो सकता है?",
+     "o": [
+      "खनिजों के कारण जलीय जीवों की समष्टि में वृद्धि",
+      "शैवाल प्रस्फुटन के कारण झील का सूख जाना",
+      "अधिक पोषकों के कारण मछलियों की समष्टि में वृद्धि",
+      "ऑक्सीजन की कमी से मछलियों की मृत्यु"
+     ],
+     "sol": "<p>झील में कार्बनिक अपशिष्ट का अपघटन करने वाले सूक्ष्मजीव घुली ऑक्सीजन समाप्त कर देते हैं; परिणाम है <b>ऑक्सीजन की कमी से मछलियों की मृत्यु</b>।</p>",
+     "hint": "नदी वाले प्रश्न जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -386,10 +482,22 @@
       "Seagull",
       "Crab",
       "Eel"
-     ]
+     ],
+     "sol": "<p>By biomagnification DDT concentration rises at each trophic level: water → zooplankton → small fish → large fish → fish-eating birds. The top consumer, the <b>seagull</b> (fish-eating bird), has the highest concentration.</p>",
+     "hint": "Highest at the top of the chain."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जलीय खाद्य शृंखला में DDT की सबसे अधिक सांद्रता किसमें होगी?",
+     "o": [
+      "पादपप्लवक",
+      "सी-गल",
+      "केकड़ा",
+      "ईल"
+     ],
+     "sol": "<p>जैव आवर्धन से DDT की सांद्रता हर पोषण स्तर पर बढ़ती है: जल → प्राणिप्लवक → छोटी मछली → बड़ी मछली → मछलीभक्षी पक्षी। शीर्ष उपभोक्ता <b>सी-गल</b> (मछलीभक्षी पक्षी) में सांद्रता सबसे अधिक होती है।</p>",
+     "hint": "शृंखला के शीर्ष पर सबसे अधिक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -431,10 +539,22 @@
       "They alter rainfall and monsoon patterns",
       "They cause increased agricultural productivity",
       "They have negative impact on agricultural land"
-     ]
+     ],
+     "sol": "<p>Aerosols are harmful to health, alter rainfall and monsoon patterns and harm agricultural land. They <b>do not increase</b> agricultural productivity — they reduce it (less sunlight, acid deposition). (Not in NCERT.)</p>",
+     "hint": "Aerosols are only harmful here."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन ऐरोसॉल के लिए मान्य नहीं है?",
+     "o": [
+      "ये मानव स्वास्थ्य के लिए हानिकारक हैं",
+      "ये वर्षा तथा मानसून प्रतिरूप बदलते हैं",
+      "ये कृषि उत्पादकता बढ़ाते हैं",
+      "इनका कृषि भूमि पर नकारात्मक प्रभाव होता है"
+     ],
+     "sol": "<p>ऐरोसॉल स्वास्थ्य के लिए हानिकारक हैं, वर्षा और मानसून प्रतिरूप बदलते हैं और कृषि भूमि को हानि पहुँचाते हैं। ये कृषि उत्पादकता <b>नहीं बढ़ाते</b> — घटाते हैं (कम सूर्य प्रकाश, अम्ल निक्षेपण)। (NCERT में नहीं।)</p>",
+     "hint": "यहाँ ऐरोसॉल केवल हानिकारक हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -476,10 +596,22 @@
       "21st April",
       "5th June",
       "22nd April"
-     ]
+     ],
+     "sol": "<p>World Ozone Day is observed on <b>16 September</b>, the date the Montreal Protocol was signed (1987). 22 April is Earth Day and 5 June World Environment Day. (Not in NCERT.)</p>",
+     "hint": "Montreal Protocol date."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "विश्व ओज़ोन दिवस कब मनाया जाता है?",
+     "o": [
+      "सितंबर का 16वाँ दिन",
+      "अप्रैल का 21वाँ दिन",
+      "जून का 5वाँ दिन",
+      "अप्रैल का 22वाँ दिन"
+     ],
+     "sol": "<p>विश्व ओज़ोन दिवस <b>16 सितंबर</b> को मनाया जाता है, जिस दिन मॉन्ट्रियल प्रोटोकॉल पर हस्ताक्षर हुए (1987)। 22 अप्रैल पृथ्वी दिवस और 5 जून विश्व पर्यावरण दिवस है। (NCERT में नहीं।)</p>",
+     "hint": "मॉन्ट्रियल प्रोटोकॉल की तिथि।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -521,10 +653,22 @@
       "CO<sub>2</sub>",
       "CO",
       "O<sub>3</sub>"
-     ]
+     ],
+     "sol": "<p>A secondary pollutant forms in the air by reactions of primary pollutants. Ground-level <b>O<sub>3</sub></b> forms from nitrogen oxides and hydrocarbons in sunlight (photochemical smog). SO<sub>2</sub>, CO<sub>2</sub> and CO are emitted directly (primary). (Not in NCERT.)</p>",
+     "hint": "Formed in the air, not emitted."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा द्वितीयक प्रदूषक है?",
+     "o": [
+      "SO<sub>2</sub>",
+      "CO<sub>2</sub>",
+      "CO",
+      "O<sub>3</sub>"
+     ],
+     "sol": "<p>द्वितीयक प्रदूषक वायु में प्राथमिक प्रदूषकों की अभिक्रिया से बनता है। धरातलीय <b>O<sub>3</sub></b> सूर्य प्रकाश में नाइट्रोजन ऑक्साइडों और हाइड्रोकार्बनों से बनती है (प्रकाशरासायनिक धूम-कोहरा)। SO<sub>2</sub>, CO<sub>2</sub> और CO सीधे उत्सर्जित होते हैं (प्राथमिक)। (NCERT में नहीं।)</p>",
+     "hint": "वायु में बनता है, उत्सर्जित नहीं होता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -566,10 +710,22 @@
       "Cl",
       "Carbon",
       "Oxygen"
-     ]
+     ],
+     "sol": "<p>UV rays split CFCs in the stratosphere, releasing <b>Cl</b> atoms. Cl degrades ozone to molecular oxygen and is not consumed — it acts as a catalyst, so one Cl atom can destroy many ozone molecules.</p>",
+     "hint": "From CFCs."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समतापमंडल में निम्नलिखित में से कौन-सा तत्व ओज़ोन के निम्नीकरण तथा आण्विक ऑक्सीजन के मुक्त होने में उत्प्रेरक का कार्य करता है?",
+     "o": [
+      "Fe",
+      "Cl",
+      "कार्बन",
+      "ऑक्सीजन"
+     ],
+     "sol": "<p>समतापमंडल में पराबैंगनी (UV) किरणें CFC को तोड़कर <b>Cl</b> परमाणु मुक्त करती हैं। Cl ओज़ोन को आण्विक ऑक्सीजन में निम्नीकृत करता है और स्वयं खर्च नहीं होता — यह उत्प्रेरक है, अतः एक Cl परमाणु अनेक ओज़ोन अणु नष्ट कर सकता है।</p>",
+     "hint": "CFC से।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -611,10 +767,22 @@
       "(a) i, (b) iii, (c) iv, (d) ii",
       "(a) ii, (b) i, (c) iii, (d) iv",
       "(a) i, (b) ii, (c) iv, (d) iii"
-     ]
+     ],
+     "sol": "<ul><li>(a) Eutrophication — nutrient enrichment of water bodies (iii).</li><li>(b) Sanitary landfill — waste disposal (iv).</li><li>(c) Snow blindness — high dose of UV-B inflames the cornea (i).</li><li>(d) Jhum (slash-and-burn) cultivation — deforestation (ii).</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii.</p>",
+     "hint": "Jhum = slash and burn."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I के मदों का स्तंभ II के मदों से मिलान कीजिए तथा नीचे दिए गए सही विकल्प चुनिए :<br>(a) सुपोषण — (i) UV-B विकिरण<br>(b) स्वच्छता भराव क्षेत्र — (ii) वनोन्मूलन<br>(c) हिम अंधता — (iii) पोषक संवर्धन<br>(d) झूम खेती — (iv) अपशिष्ट निपटान",
+     "o": [
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) i, (b) iii, (c) iv, (d) ii",
+      "(a) ii, (b) i, (c) iii, (d) iv",
+      "(a) i, (b) ii, (c) iv, (d) iii"
+     ],
+     "sol": "<ul><li>(a) सुपोषण — जलाशयों का पोषक संवर्धन (iii)।</li><li>(b) स्वच्छता भराव क्षेत्र — अपशिष्ट निपटान (iv)।</li><li>(c) हिम अंधता — UV-B की अधिक मात्रा से कॉर्निया में शोथ (i)।</li><li>(d) झूम (काटो और जलाओ) खेती — वनोन्मूलन (ii)।</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii।</p>",
+     "hint": "झूम = काटो और जलाओ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -656,10 +824,22 @@
       "Bury the waste within rocks deep below the Earth's surface",
       "Shoot the waste into space",
       "Bury the waste under Antarctic ice-cover"
-     ]
+     ],
+     "sol": "<p>Old NCERT: nuclear waste should be stored after pre-treatment in suitably shielded containers and <b>buried within rocks about 500 m deep below the Earth's surface</b>. Ocean dumping, shooting into space or burial under Antarctic ice are not recommended.</p>",
+     "hint": "Deep under the Earth's surface."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नाभिकीय अपशिष्ट के निपटान के लिए निम्नलिखित में से कौन-सी विधि सबसे उपयुक्त है?",
+     "o": [
+      "अपशिष्ट को गहरे समुद्र के नीचे चट्टानों में डालना",
+      "अपशिष्ट को पृथ्वी की सतह से बहुत नीचे चट्टानों में दबाना",
+      "अपशिष्ट को अंतरिक्ष में भेजना",
+      "अपशिष्ट को अंटार्कटिक बर्फ की परत के नीचे दबाना"
+     ],
+     "sol": "<p>पुरानी NCERT: नाभिकीय अपशिष्ट को पूर्व-उपचार के बाद उपयुक्त परिरक्षित पात्रों में रखकर <b>पृथ्वी की सतह से लगभग 500 m नीचे चट्टानों में दबाना</b> चाहिए। समुद्र में डालना, अंतरिक्ष में भेजना या अंटार्कटिक बर्फ के नीचे दबाना उचित नहीं।</p>",
+     "hint": "पृथ्वी की सतह से गहरे नीचे।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -701,10 +881,22 @@
       "Geneva protocol",
       "Montreal Protocol",
       "Kyoto Protocol"
-     ]
+     ],
+     "sol": "<p>The <b>Montreal Protocol</b> (1987) was signed to control emission of ozone-depleting substances such as chlorofluorocarbons. The Kyoto Protocol concerns greenhouse gases.</p>",
+     "hint": "CFC → ozone → Montreal."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से किस प्रोटोकॉल का उद्देश्य वायुमंडल में क्लोरोफ्लोरोकार्बनों के उत्सर्जन को घटाना था?",
+     "o": [
+      "गोथेनबर्ग प्रोटोकॉल",
+      "जिनेवा प्रोटोकॉल",
+      "मॉन्ट्रियल प्रोटोकॉल",
+      "क्योटो प्रोटोकॉल"
+     ],
+     "sol": "<p><b>मॉन्ट्रियल प्रोटोकॉल</b> (1987) पर क्लोरोफ्लोरोकार्बन जैसे ओज़ोन क्षयकारी पदार्थों के उत्सर्जन को नियंत्रित करने के लिए हस्ताक्षर हुए। क्योटो प्रोटोकॉल ग्रीनहाउस गैसों से संबंधित है।</p>",
+     "hint": "CFC → ओज़ोन → मॉन्ट्रियल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -746,10 +938,22 @@
       "Carbon dioxide and Methane",
       "Ozone and Ammonia",
       "Oxygen and Nitrogen"
-     ]
+     ],
+     "sol": "<p>The main greenhouse gases are <b>carbon dioxide</b> (largest share) and <b>methane</b>, followed by CFCs and nitrous oxide. N<sub>2</sub> and O<sub>2</sub> do not absorb infrared.</p>",
+     "hint": "CO₂ about 60%, CH₄ about 20%."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से गैसों का कौन-सा युग्म मुख्यतः हरितगृह प्रभाव के लिए उत्तरदायी है?",
+     "o": [
+      "नाइट्रोजन तथा सल्फर डाइऑक्साइड",
+      "कार्बन डाइऑक्साइड तथा मेथेन",
+      "ओज़ोन तथा अमोनिया",
+      "ऑक्सीजन तथा नाइट्रोजन"
+     ],
+     "sol": "<p>मुख्य हरितगृह गैसें <b>कार्बन डाइऑक्साइड</b> (सबसे अधिक भाग) और <b>मेथेन</b> हैं, फिर CFC और नाइट्रस ऑक्साइड। N<sub>2</sub> तथा O<sub>2</sub> अवरक्त को अवशोषित नहीं करतीं।</p>",
+     "hint": "CO₂ लगभग 60%, CH₄ लगभग 20%।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -791,10 +995,22 @@
       "making tubes and pipes",
       "making plastic sacks",
       "use as a fertilizer"
-     ]
+     ],
+     "sol": "<p>Polyblend, a fine powder of recycled modified plastic developed by Ahmed Khan in Bengaluru, is mixed with bitumen for <b>laying roads</b>; it improves water repellence and road life.</p>",
+     "hint": "Mixed with bitumen."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पॉलीब्लेंड, पुनर्चक्रित रूपांतरित प्लास्टिक का महीन चूर्ण, किसके लिए अच्छा पदार्थ सिद्ध हुआ है?",
+     "o": [
+      "सड़क निर्माण",
+      "नलियाँ तथा पाइप बनाना",
+      "प्लास्टिक के बोरे बनाना",
+      "उर्वरक के रूप में उपयोग"
+     ],
+     "sol": "<p>बेंगलुरु के अहमद खान द्वारा विकसित पॉलीब्लेंड, पुनर्चक्रित रूपांतरित प्लास्टिक का महीन चूर्ण, बिटुमेन के साथ मिलाकर <b>सड़क बनाने</b> में प्रयुक्त होता है; यह जल प्रतिकर्षण और सड़क की आयु बढ़ाता है।</p>",
+     "hint": "बिटुमेन के साथ मिलाया जाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -836,10 +1052,22 @@
       "Disposal of e-wastes",
       "Transport of Genetically modified organisms from one country to another",
       "Emission of ozone depleting substances"
-     ]
+     ],
+     "sol": "<p>The Montreal Protocol (1987) was signed to control the <b>emission of ozone-depleting substances</b>. Greenhouse gases are under the Kyoto Protocol, and transport of GM organisms under the Cartagena Protocol.</p>",
+     "hint": "Ozone layer treaty."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "1987 में मॉन्ट्रियल प्रोटोकॉल पर किसके नियंत्रण के लिए हस्ताक्षर किए गए?",
+     "o": [
+      "ग्रीनहाउस गैसों का मोचन",
+      "ई-अपशिष्टों का निपटान",
+      "आनुवंशिकतः रूपांतरित जीवों का एक देश से दूसरे देश में परिवहन",
+      "ओज़ोन क्षयकारी पदार्थों का उत्सर्जन"
+     ],
+     "sol": "<p>मॉन्ट्रियल प्रोटोकॉल (1987) पर <b>ओज़ोन क्षयकारी पदार्थों के उत्सर्जन</b> के नियंत्रण के लिए हस्ताक्षर हुए। ग्रीनहाउस गैसें क्योटो प्रोटोकॉल में, और GM जीवों का परिवहन कार्टाजेना प्रोटोकॉल में आता है।</p>",
+     "hint": "ओज़ोन परत की संधि।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -881,10 +1109,22 @@
       "Damage of retina caused by infra-red rays",
       "Freezing of fluids in the eye by low temperature",
       "Inflammation of cornea due to high dose of UV-B radiation"
-     ]
+     ],
+     "sol": "<p>A high dose of UV-B causes inflammation of the cornea, called snow-blindness (cataract-like). In Antarctica, ozone depletion and reflection from snow increase the UV-B dose. So the cause is <b>inflammation of the cornea due to high UV-B</b>.</p>",
+     "hint": "UV-B on the cornea."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अंटार्कटिक क्षेत्र में हिम अंधता किसके कारण होती है?",
+     "o": [
+      "हिम से प्रकाश का अधिक परावर्तन",
+      "अवरक्त किरणों द्वारा दृष्टिपटल की क्षति",
+      "निम्न ताप के कारण आँख के तरलों का जमना",
+      "UV-B विकिरण की अधिक मात्रा के कारण कॉर्निया में शोथ"
+     ],
+     "sol": "<p>UV-B की अधिक मात्रा से कॉर्निया में शोथ होता है, जिसे हिम अंधता कहते हैं। अंटार्कटिका में ओज़ोन क्षय और हिम से परावर्तन UV-B की मात्रा बढ़ाते हैं। अतः कारण है <b>अधिक UV-B से कॉर्निया में शोथ</b>।</p>",
+     "hint": "कॉर्निया पर UV-B।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -926,10 +1166,22 @@
       "CFCs",
       "Stratosphere",
       "Ozone"
-     ]
+     ],
+     "sol": "<p>Dobson units (DU) measure the thickness of <b>ozone</b> in a column of air from the ground to the top of the atmosphere.</p>",
+     "hint": "Ozone column."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "डॉब्सन इकाइयाँ किसकी मोटाई मापने के लिए प्रयुक्त होती हैं?",
+     "o": [
+      "क्षोभमंडल",
+      "CFC",
+      "समतापमंडल",
+      "ओज़ोन"
+     ],
+     "sol": "<p>डॉब्सन इकाइयाँ (DU) धरातल से वायुमंडल के शीर्ष तक वायु के स्तंभ में <b>ओज़ोन</b> की मोटाई मापती हैं।</p>",
+     "hint": "ओज़ोन स्तंभ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -971,10 +1223,22 @@
       "Electrostatic Precipitator",
       "Catalytic Convertor",
       "STP"
-     ]
+     ],
+     "sol": "<p>An <b>electrostatic precipitator</b> removes over 99% of the particulate matter in the exhaust of a thermal power plant: electrodes charge the dust particles, which are then attracted to collecting plates. A scrubber removes gases like SO<sub>2</sub>; a catalytic converter treats vehicle exhaust.</p>",
+     "hint": "Charges and collects dust."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "तापीय विद्युत संयंत्र के धुएँ में उपस्थित कणिकीय पदार्थ हटाने वाली युक्ति है :",
+     "o": [
+      "भस्मक",
+      "स्थिरवैद्युत अवक्षेपित्र",
+      "उत्प्रेरक परिवर्तक",
+      "STP"
+     ],
+     "sol": "<p><b>स्थिरवैद्युत अवक्षेपित्र</b> तापीय विद्युत संयंत्र के धुएँ के 99% से अधिक कणिकीय पदार्थ हटाता है: इलेक्ट्रोड धूल कणों को आवेशित करते हैं, जो फिर संग्राहक पट्टिकाओं की ओर आकर्षित होते हैं। मार्जक SO<sub>2</sub> जैसी गैसें हटाता है; उत्प्रेरक परिवर्तक वाहन के धुएँ का उपचार करता है।</p>",
+     "hint": "धूल को आवेशित कर एकत्र करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1016,10 +1280,22 @@
       "It is cheaper than diesel",
       "It can not be adulterated like diesel",
       "CNG burns more efficiently than diesel"
-     ]
+     ],
+     "sol": "<p>Converting buses to CNG needed engines suited to CNG, so the claim that 'the same diesel engine is used, making conversion cheap' is false. CNG is cheaper than diesel, cannot be adulterated, and burns more efficiently with very little unburnt residue.</p>",
+     "hint": "Conversion needed new engines / pipelines."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिल्ली में बसों का पूरा बेड़ा डीज़ल से CNG में बदला गया। इस संदर्भ में निम्नलिखित में से कौन-सा कथन असत्य है?",
+     "o": [
+      "CNG बसों में वही डीज़ल इंजन प्रयुक्त होता है जिससे परिवर्तन की लागत कम है",
+      "यह डीज़ल से सस्ती है",
+      "इसमें डीज़ल की तरह मिलावट नहीं की जा सकती",
+      "CNG डीज़ल की अपेक्षा अधिक दक्षता से जलती है"
+     ],
+     "sol": "<p>बसों को CNG में बदलने के लिए CNG के अनुकूल इंजन चाहिए थे, अतः 'वही डीज़ल इंजन प्रयुक्त होने से परिवर्तन सस्ता है' कथन असत्य है। CNG डीज़ल से सस्ती है, इसमें मिलावट नहीं हो सकती, और यह बहुत कम बिना जले अवशेष के साथ अधिक दक्षता से जलती है।</p>",
+     "hint": "परिवर्तन में नए इंजन / पाइपलाइन चाहिए थे।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1062,10 +1338,22 @@
       "Statement I is correct but Statement II is incorrect",
       "Statement I is incorrect but Statement II is correct",
       "Both Statement I and Statement II are correct"
-     ]
+     ],
+     "sol": "<p>Statement I is incorrect: passing exhaust through electrically charged wires to charge dust particles describes an <b>electrostatic precipitator</b>; a scrubber sprays water or lime to remove gases like SO<sub>2</sub>. Statement II is treated as incorrect by the key: very fine PM 2.5 particles are the hardest to remove and are not fully removed by either device as stated. Both incorrect.</p>",
+     "hint": "Charged wires = electrostatic precipitator."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : मार्जक (scrubber) में तापीय संयंत्र के धुएँ को धूल कणों को आवेशित करने के लिए विद्युत तारों से गुज़ारा जाता है।<br>कथन II : कणिकीय पदार्थ (PM 2.5) मार्जक द्वारा नहीं हटाया जा सकता परंतु स्थिरवैद्युत अवक्षेपित्र द्वारा हटाया जा सकता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है",
+      "कथन I तथा कथन II दोनों सही हैं"
+     ],
+     "sol": "<p>कथन I गलत है: धूल कणों को आवेशित करने के लिए धुएँ को आवेशित तारों से गुज़ारना <b>स्थिरवैद्युत अवक्षेपित्र</b> का वर्णन है; मार्जक जल या चूने की फुहार से SO<sub>2</sub> जैसी गैसें हटाता है। कुंजी कथन II को भी गलत मानती है: अति सूक्ष्म PM 2.5 कण हटाने में सबसे कठिन हैं और जैसा कहा गया है वैसा कोई भी युक्ति उन्हें पूरी तरह नहीं हटाती। दोनों गलत।</p>",
+     "hint": "आवेशित तार = स्थिरवैद्युत अवक्षेपित्र।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1108,10 +1396,22 @@
       "Dobson units",
       "Decametre",
       "Decibels"
-     ]
+     ],
+     "sol": "<p>The thickness of ozone in a column of air is measured in <b>Dobson units</b> (DU).</p>",
+     "hint": "Same as 2021."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वायुमंडल में वायु के स्तंभ में ओज़ोन की मोटाई किसमें मापी जाती है?",
+     "o": [
+      "किलोबेस",
+      "डॉब्सन इकाई",
+      "डेकामीटर",
+      "डेसिबल"
+     ],
+     "sol": "<p>वायु के स्तंभ में ओज़ोन की मोटाई <b>डॉब्सन इकाइयों</b> (DU) में मापी जाती है।</p>",
+     "hint": "2021 वाले जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1152,11 +1452,23 @@
       "The amount of some toxic substances of industrial waste water increases in the organisms at successive trophic levels.",
       "The micro-organisms involved in biodegradation of organic matter in a sewage polluted water body consume a lot of oxygen causing the death of aquatic organisms.",
       "Algal blooms caused by excess of organic matter in water improve water quality and promote fisheries.",
-      "Water hyacinth grows abundantly in eutrophic water bodies and leads to an imbalance in the ecosystem dynamics of the water body. Zoo Secti"
-     ]
+      "Water hyacinth grows abundantly in eutrophic water bodies and leads to an imbalance in the ecosystem dynamics of the water body."
+     ],
+     "sol": "<p>Algal blooms caused by excess nutrients <b>worsen</b> water quality and kill fish (they cause oxygen depletion and some produce toxins) — statement 3 is not correct. Biomagnification of toxins, oxygen use by microbes in sewage-polluted water, and water hyacinth in eutrophic waters are correct.</p>",
+     "hint": "Blooms are bad for fish."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन सही नहीं है?",
+     "o": [
+      "औद्योगिक अपशिष्ट जल के कुछ विषैले पदार्थों की मात्रा उत्तरोत्तर पोषण स्तरों पर जीवों में बढ़ती जाती है।",
+      "वाहित मल से प्रदूषित जलाशय में कार्बनिक पदार्थ का जैवनिम्नीकरण करने वाले सूक्ष्मजीव बहुत अधिक ऑक्सीजन खर्च करते हैं जिससे जलीय जीव मर जाते हैं।",
+      "जल में अधिक कार्बनिक पदार्थ से होने वाला शैवाल प्रस्फुटन जल की गुणवत्ता सुधारता है और मात्स्यिकी को बढ़ावा देता है।",
+      "सुपोषित जलाशयों में जलकुंभी अधिकता से उगती है और जलाशय की पारितंत्र गतिकी में असंतुलन उत्पन्न करती है।"
+     ],
+     "sol": "<p>अधिक पोषक तत्वों से होने वाला शैवाल प्रस्फुटन जल की गुणवत्ता <b>बिगाड़ता</b> है और मछलियों को मारता है (ऑक्सीजन की कमी करता है और कुछ विष बनाते हैं) — कथन 3 सही नहीं है। विषों का जैव आवर्धन, वाहित मल प्रदूषित जल में सूक्ष्मजीवों द्वारा ऑक्सीजन का उपयोग, और सुपोषित जल में जलकुंभी — सही हैं।</p>",
+     "hint": "प्रस्फुटन मछलियों के लिए हानिकारक है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1199,10 +1511,22 @@
       "Eutrophication refers to increase in domestic sewage and waste water in lakes.",
       "Biomagnification refers to increase in concentration of the toxicant at successive trophic levels.",
       "Presence of large amount of nutrients in water restricts ‘Algal Bloom’."
-     ]
+     ],
+     "sol": "<p><b>Biomagnification</b> is the increase in concentration of a toxicant at successive trophic levels — correct. Algal blooms increase fish mortality; eutrophication is the nutrient enrichment (natural ageing) of a lake; large amounts of nutrients cause algal blooms, not restrict them.</p>",
+     "hint": "Three statements reverse the facts."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन सही है?",
+     "o": [
+      "शैवाल प्रस्फुटन मछलियों की मृत्यु दर घटाता है।",
+      "सुपोषण का अर्थ झीलों में घरेलू वाहित मल तथा अपशिष्ट जल का बढ़ना है।",
+      "जैव आवर्धन का अर्थ उत्तरोत्तर पोषण स्तरों पर विषाक्त पदार्थ की सांद्रता में वृद्धि है।",
+      "जल में अधिक मात्रा में पोषकों की उपस्थिति 'शैवाल प्रस्फुटन' को रोकती है।"
+     ],
+     "sol": "<p><b>जैव आवर्धन</b> उत्तरोत्तर पोषण स्तरों पर विषाक्त पदार्थ की सांद्रता में वृद्धि है — सही। शैवाल प्रस्फुटन मछलियों की मृत्यु बढ़ाता है; सुपोषण झील का पोषक संवर्धन (प्राकृतिक जीर्णन) है; अधिक पोषक शैवाल प्रस्फुटन कराते हैं, रोकते नहीं।</p>",
+     "hint": "तीन कथन तथ्यों को उलट देते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1243,11 +1567,23 @@
       "Statement I incorrect but Statement II is correct.",
       "Both Statement I and Statement II are correct.",
       "Both Statement I and Statement II are incorrect.",
-      "Statement I is correct but Statement II is incorrect. Zoo Secti"
-     ]
+      "Statement I is correct but Statement II is incorrect."
+     ],
+     "sol": "<p>Statement I is correct: the electrostatic precipitator is the most widely used device to remove particulate matter from thermal power plant exhaust. Statement II is incorrect: it removes <b>particulate matter</b>, not ionising radiation.</p>",
+     "hint": "It removes dust, not radiation."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : तापीय विद्युत संयंत्र में स्थिरवैद्युत अवक्षेपित्र सबसे अधिक प्रयुक्त होता है।<br>कथन II : तापीय विद्युत संयंत्र में स्थिरवैद्युत अवक्षेपित्र आयनकारी विकिरणों को हटाता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I गलत है परंतु कथन II सही है।",
+      "कथन I तथा कथन II दोनों सही हैं।",
+      "कथन I तथा कथन II दोनों गलत हैं।",
+      "कथन I सही है परंतु कथन II गलत है।"
+     ],
+     "sol": "<p>कथन I सही है: तापीय विद्युत संयंत्र के धुएँ से कणिकीय पदार्थ हटाने के लिए स्थिरवैद्युत अवक्षेपित्र सबसे अधिक प्रयुक्त युक्ति है। कथन II गलत है: यह <b>कणिकीय पदार्थ</b> हटाता है, आयनकारी विकिरण नहीं।</p>",
+     "hint": "यह धूल हटाता है, विकिरण नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {

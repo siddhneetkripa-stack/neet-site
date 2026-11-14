@@ -142,10 +142,22 @@
       "Seed shape",
       "Flower position",
       "Seed colour"
-     ]
+     ],
+     "sol": "<p>Mendel's seven pea characters: stem height, flower colour, flower position, pod shape, pod colour, seed shape and seed colour. Pod <b>length</b> was not one of them.</p>",
+     "hint": "Recall NCERT's table of the seven contrasting traits."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मटर के पौधों पर अपने प्रसिद्ध प्रयोगों में मेंडल ने किसका उपयोग नहीं किया?",
+     "o": [
+      "फली की लंबाई",
+      "बीज की आकृति",
+      "पुष्प की स्थिति",
+      "बीज का रंग"
+     ],
+     "sol": "<p>मेंडल के मटर के सात लक्षण: तने की लंबाई, पुष्प का रंग, पुष्प की स्थिति, फली की आकृति, फली का रंग, बीज की आकृति तथा बीज का रंग। फली की <b>लंबाई</b> इनमें नहीं थी।</p>",
+     "hint": "NCERT की सात विपरीत लक्षणों वाली सारणी याद करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -188,10 +200,22 @@
       "Autosomal recessive",
       "X-linked dominant",
       "Autosomal dominant"
-     ]
+     ],
+     "sol": "<p>In the chart (needs the figure), affected children are born to unaffected parents and both sexes are affected. A trait that skips a generation and appears in sons and daughters of normal parents is <b>autosomal recessive</b>; the parents are carriers.</p>",
+     "hint": "Affected child from two normal parents → recessive; both sexes alike → autosomal."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दी गई मानव वंशावली में भरे हुए प्रतीक प्रभावित व्यक्तियों को दर्शाते हैं। दी गई वंशावली का प्रकार पहचानिए।",
+     "o": [
+      "X-सहलग्न अप्रभावी",
+      "अलिंग अप्रभावी",
+      "X-सहलग्न प्रभावी",
+      "अलिंग प्रभावी"
+     ],
+     "sol": "<p>चार्ट में (चित्र आवश्यक) अप्रभावित जनकों से प्रभावित संतति उत्पन्न होती है तथा दोनों लिंग प्रभावित हैं। जो लक्षण एक पीढ़ी छोड़कर सामान्य जनकों के पुत्र और पुत्री दोनों में प्रकट हो, वह <b>अलिंग अप्रभावी</b> है; जनक वाहक हैं।</p>",
+     "hint": "दो सामान्य जनकों से प्रभावित संतान → अप्रभावी; दोनों लिंग समान → अलिंग।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -235,10 +259,22 @@
       "Controls a trait only in combination with another gene",
       "Controls multiple traits in an individual",
       "Is expressed only in primitive plants"
-     ]
+     ],
+     "sol": "<p>Pleiotropy: a single gene affects several phenotypic traits. NCERT example: phenylketonuria — one mutant gene causes mental retardation and reduced hair and skin pigmentation.</p>",
+     "hint": "Pleio = many (effects)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक बहुप्रभावी जीन",
+     "o": [
+      "प्लायोसीन काल में विकसित जीन है",
+      "किसी लक्षण को केवल अन्य जीन के साथ मिलकर नियंत्रित करता है",
+      "एक जीव में अनेक लक्षणों को नियंत्रित करता है",
+      "केवल आदिम पौधों में अभिव्यक्त होता है"
+     ],
+     "sol": "<p>बहुप्रभाविता: एक जीन अनेक फीनोटाइपी लक्षणों को प्रभावित करता है। NCERT उदाहरण: फीनाइलकीटोनूरिया — एक उत्परिवर्ती जीन से मानसिक मंदता तथा बालों और त्वचा के वर्णक में कमी होती है।</p>",
+     "hint": "प्लियो = अनेक (प्रभाव)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -281,10 +317,22 @@
       "Alleles that are recessive to each other",
       "Both alleles independently expressed in the heterozygote",
       "One allele dominant on the other"
-     ]
+     ],
+     "sol": "<p>In co-dominance both alleles express themselves fully in the heterozygote — e.g. I<sup>A</sup>I<sup>B</sup> makes both sugar A and sugar B (blood group AB).</p>",
+     "hint": "Think of blood group AB."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सह-प्रभाविता दर्शाने वाले जीन में होते हैं :",
+     "o": [
+      "एक ही क्रोमोसोम पर निकटता से सहलग्न अलील",
+      "ऐसे अलील जो एक-दूसरे के प्रति अप्रभावी हैं",
+      "विषमयुग्मजी में दोनों अलील स्वतंत्र रूप से अभिव्यक्त होते हैं",
+      "एक अलील दूसरे पर प्रभावी होता है"
+     ],
+     "sol": "<p>सह-प्रभाविता में विषमयुग्मजी में दोनों अलील पूर्णतः अभिव्यक्त होते हैं — जैसे I<sup>A</sup>I<sup>B</sup> में शर्करा A और शर्करा B दोनों बनती हैं (रुधिर वर्ग AB)।</p>",
+     "hint": "रुधिर वर्ग AB के बारे में सोचें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -327,10 +375,22 @@
       "G. Mendel",
       "W. Sutton",
       "T.H. Morgan"
-     ]
+     ],
+     "sol": "<p>T.H. Morgan, working on <i>Drosophila</i> dihybrid crosses, coined the term <b>linkage</b> for the physical association of genes on a chromosome (and recombination for non-parental combinations).</p>",
+     "hint": "The fruit-fly geneticist."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "‘सहलग्नता’ शब्द किसने दिया?",
+     "o": [
+      "T. बोवेरी",
+      "G. मेंडल",
+      "W. सटन",
+      "T.H. मॉर्गन"
+     ],
+     "sol": "<p>T.H. मॉर्गन ने <i>ड्रोसोफिला</i> के द्विसंकर क्रॉसों पर कार्य करते हुए क्रोमोसोम पर जीनों के भौतिक जुड़ाव के लिए <b>सहलग्नता</b> शब्द दिया (तथा अजनकीय संयोजनों के लिए पुनर्योजन)।</p>",
+     "hint": "फल मक्खी पर कार्य करने वाले आनुवंशिकीविद्।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -373,10 +433,22 @@
       "Nil",
       "0.25",
       "0.5"
-     ]
+     ],
+     "sol": "<p>Man X<sup>c</sup>Y × normal woman XX → all sons XY (normal), all daughters X<sup>c</sup>X (carriers). A carrier daughter married to a normal man gives sons X<sup>c</sup>Y or XY: probability of a colour-blind grandson (among her sons) = <b>0.5</b>.</p>",
+     "hint": "The gene passes man → daughter (carrier) → grandson."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक वर्णांध पुरुष ऐसी सामान्य दृष्टि वाली स्त्री से विवाह करता है जिसके परिवार में वर्णांधता का कोई इतिहास नहीं है। उनके पौत्र/नाती के वर्णांध होने की प्रायिकता क्या है?",
+     "o": [
+      "1",
+      "शून्य",
+      "0.25",
+      "0.5"
+     ],
+     "sol": "<p>पुरुष X<sup>c</sup>Y × सामान्य स्त्री XX → सभी पुत्र XY (सामान्य), सभी पुत्रियाँ X<sup>c</sup>X (वाहक)। वाहक पुत्री का सामान्य पुरुष से विवाह होने पर पुत्र X<sup>c</sup>Y या XY: वर्णांध नाती की प्रायिकता (उसके पुत्रों में) = <b>0.5</b>।</p>",
+     "hint": "जीन का मार्ग: पुरुष → पुत्री (वाहक) → नाती।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -420,10 +492,22 @@
       "X – linked recessive gene disorder",
       "Chromosomal disorder",
       "Dominant gene disorder"
-     ]
+     ],
+     "sol": "<p>Haemophilia is a sex-linked (X-linked) recessive disorder: carrier females (heterozygous) pass it to sons; affected females are very rare.</p>",
+     "hint": "Royal family pedigree of Queen Victoria."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन हीमोफीलिया का सबसे उपयुक्त वर्णन करता है?",
+     "o": [
+      "अप्रभावी जीन विकार",
+      "X – सहलग्न अप्रभावी जीन विकार",
+      "क्रोमोसोमीय विकार",
+      "प्रभावी जीन विकार"
+     ],
+     "sol": "<p>हीमोफीलिया लिंग-सहलग्न (X-सहलग्न) अप्रभावी विकार है: वाहक स्त्रियाँ (विषमयुग्मजी) इसे पुत्रों को देती हैं; प्रभावित स्त्रियाँ बहुत दुर्लभ हैं।</p>",
+     "hint": "रानी विक्टोरिया की वंशावली।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -466,10 +550,22 @@
       "1 : 2 : 1 :: Tall heterozygous : Tall homozygous : Dwarf",
       "3 : 1 :: Tall : Dwarf",
       "3 : 1 :: Dwarf : Tall"
-     ]
+     ],
+     "sol": "<p>TT × tt → F<sub>1</sub> Tt. Selfing Tt × Tt gives TT : Tt : tt = <b>1 : 2 : 1</b>, i.e. tall homozygous : tall heterozygous : dwarf. (3 : 1 is the phenotypic ratio, not genotypic.)</p>",
+     "hint": "The question asks for genotypes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक शुद्ध लंबे उद्यान मटर पौधे का शुद्ध बौने उद्यान मटर पौधे से संकरण कराया गया। F<sub>1</sub> पौधों का स्वपरागण करने पर प्राप्त जीनोटाइप किस अनुपात में थे?",
+     "o": [
+      "1 : 2 : 1 :: लंबे समयुग्मजी : लंबे विषमयुग्मजी : बौने",
+      "1 : 2 : 1 :: लंबे विषमयुग्मजी : लंबे समयुग्मजी : बौने",
+      "3 : 1 :: लंबे : बौने",
+      "3 : 1 :: बौने : लंबे"
+     ],
+     "sol": "<p>TT × tt → F<sub>1</sub> Tt। Tt × Tt के स्वपरागण से TT : Tt : tt = <b>1 : 2 : 1</b>, अर्थात् लंबे समयुग्मजी : लंबे विषमयुग्मजी : बौने। (3 : 1 फीनोटाइप अनुपात है, जीनोटाइप नहीं।)</p>",
+     "hint": "प्रश्न जीनोटाइप पूछ रहा है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -512,10 +608,22 @@
       "(a) ii, (b) iii, (c) iv, (d) i",
       "(a) iv, (b) i, (c) ii, (d) iii",
       "(a) iv, (b) iii, (c) i, (d) ii"
-     ]
+     ],
+     "sol": "<ul><li>Dominance → only one allele expresses in the heterozygote (ii).</li><li>Codominance → both alleles express fully (iii).</li><li>Pleiotropy → one gene, many characters (iv).</li><li>Polygenic inheritance → many genes, one character (i).</li></ul>",
+     "hint": "Poly-genic = many genes; pleio-tropy = many effects."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I का स्तंभ II से मिलान कीजिए तथा सही विकल्प चुनिए।<br>(a) प्रभाविता — (i) अनेक जीन एक लक्षण को नियंत्रित करते हैं<br>(b) सह-प्रभाविता — (ii) विषमयुग्मजी जीव में केवल एक अलील अभिव्यक्त होता है<br>(c) बहुप्रभाविता — (iii) विषमयुग्मजी जीव में दोनों अलील पूर्णतः अभिव्यक्त होते हैं<br>(d) बहुजीनी वंशागति — (iv) एक जीन अनेक लक्षणों को प्रभावित करता है",
+     "o": [
+      "(a) ii, (b) i, (c) iv, (d) iii",
+      "(a) ii, (b) iii, (c) iv, (d) i",
+      "(a) iv, (b) i, (c) ii, (d) iii",
+      "(a) iv, (b) iii, (c) i, (d) ii"
+     ],
+     "sol": "<ul><li>प्रभाविता → विषमयुग्मजी में केवल एक अलील अभिव्यक्त (ii)।</li><li>सह-प्रभाविता → दोनों अलील पूर्णतः अभिव्यक्त (iii)।</li><li>बहुप्रभाविता → एक जीन, अनेक लक्षण (iv)।</li><li>बहुजीनी वंशागति → अनेक जीन, एक लक्षण (i)।</li></ul>",
+     "hint": "बहुजीनी = अनेक जीन; बहुप्रभाविता = अनेक प्रभाव।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -561,10 +669,22 @@
       "(ii) and (iv) are correct",
       "(i), (iii) and (iv) are correct",
       "(i), (ii) and (iii) are correct"
-     ]
+     ],
+     "sol": "<ul><li>(i) Haemophilia: sex-linked recessive ✓.</li><li>(ii) Down's syndrome: trisomy 21, an aneuploidy ✓.</li><li>(iii) Phenylketonuria: autosomal recessive ✓.</li></ul><p>The official key gives (i), (ii) and (iii).</p><p class='errata'>Statement (iv) is also true — NCERT calls sickle-cell anaemia an autosomal recessive trait — so strictly all four statements are correct; no option offers that, and the key chose option (4).</p>",
+     "hint": "Check each disorder's inheritance type in NCERT 4.8."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही कथन चुनिए :<br>(i) हीमोफीलिया एक लिंग-सहलग्न अप्रभावी रोग है<br>(ii) डाउन सिंड्रोम असुगुणिता के कारण होता है<br>(iii) फीनाइलकीटोनूरिया एक अलिंग अप्रभावी जीन विकार है<br>(iv) दात्र कोशिका अरक्तता एक अलिंग अप्रभावी जीन विकार है",
+     "o": [
+      "(i) और (iv) सही हैं",
+      "(ii) और (iv) सही हैं",
+      "(i), (iii) और (iv) सही हैं",
+      "(i), (ii) और (iii) सही हैं"
+     ],
+     "sol": "<ul><li>(i) हीमोफीलिया: लिंग-सहलग्न अप्रभावी ✓।</li><li>(ii) डाउन सिंड्रोम: क्रोमोसोम 21 की ट्राइसोमी, एक असुगुणिता ✓।</li><li>(iii) फीनाइलकीटोनूरिया: अलिंग अप्रभावी ✓।</li></ul><p>आधिकारिक कुंजी (i), (ii) और (iii) देती है।</p><p class='errata'>कथन (iv) भी सत्य है — NCERT दात्र कोशिका अरक्तता को अलिंग अप्रभावी लक्षण बताती है — अतः वस्तुतः चारों कथन सही हैं; ऐसा कोई विकल्प नहीं है, और कुंजी ने विकल्प (4) चुना।</p>",
+     "hint": "NCERT 4.8 में प्रत्येक विकार की वंशागति का प्रकार देखें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -609,10 +729,22 @@
       "Chromosomes failed to separate during meiosis",
       "The two genes are linked and present on the same chromosome",
       "Both of the characters are controlled by more than one gene"
-     ]
+     ],
+     "sol": "<p>If two genes assorted independently, a test cross would give 1 : 1 : 1 : 1. Many more parental types than recombinants means the genes are <b>linked</b> on the same chromosome and separate only by occasional crossing over.</p>",
+     "hint": "Independent assortment → equal classes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "F<sub>1</sub> द्विसंकर मक्खियों के परीक्षार्थ संकरण में पुनर्योजित प्रकार की अपेक्षा जनकीय प्रकार की संतति अधिक उत्पन्न हुई। यह दर्शाता है :",
+     "o": [
+      "दोनों जीन दो भिन्न क्रोमोसोमों पर स्थित हैं",
+      "अर्धसूत्रण के समय क्रोमोसोम पृथक नहीं हो पाए",
+      "दोनों जीन सहलग्न हैं तथा एक ही क्रोमोसोम पर उपस्थित हैं",
+      "दोनों लक्षण एक से अधिक जीनों द्वारा नियंत्रित हैं"
+     ],
+     "sol": "<p>यदि दो जीनों का स्वतंत्र अपव्यूहन होता तो परीक्षार्थ संकरण 1 : 1 : 1 : 1 देता। पुनर्योजितों से बहुत अधिक जनकीय प्रकार का अर्थ है कि जीन एक ही क्रोमोसोम पर <b>सहलग्न</b> हैं और केवल कभी-कभार जीन विनिमय से अलग होते हैं।</p>",
+     "hint": "स्वतंत्र अपव्यूहन → समान वर्ग।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -655,10 +787,22 @@
       "Duplication",
       "Translocation",
       "Crossing-over"
-     ]
+     ],
+     "sol": "<p>A linkage group = genes on one chromosome. <b>Translocation</b> moves a chromosome segment to a non-homologous chromosome, so its genes join another linkage group. Crossing over exchanges segments between homologues (same linkage group); inversion and duplication stay within a chromosome.</p>",
+     "hint": "Which change involves a non-homologous chromosome?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वह क्रियाविधि जिससे कोई जीन एक सहलग्नता वर्ग से दूसरे में चला जाता है, कहलाती है",
+     "o": [
+      "प्रतिलोमन",
+      "द्विगुणन",
+      "स्थानांतरण",
+      "जीन विनिमय"
+     ],
+     "sol": "<p>सहलग्नता वर्ग = एक क्रोमोसोम के जीन। <b>स्थानांतरण</b> में क्रोमोसोम का एक खंड असमजात क्रोमोसोम पर चला जाता है, अतः उसके जीन दूसरे सहलग्नता वर्ग में आ जाते हैं। जीन विनिमय समजातों के बीच खंडों का आदान-प्रदान है (उसी सहलग्नता वर्ग में); प्रतिलोमन और द्विगुणन एक ही क्रोमोसोम में रहते हैं।</p>",
+     "hint": "किस परिवर्तन में असमजात क्रोमोसोम सम्मिलित है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -701,10 +845,22 @@
       "Produced due to cross-pollination among unrelated plants",
       "Near homozygous and produces offspring of its own kind",
       "Always homozygous recessive in its genetic constitution"
-     ]
+     ],
+     "sol": "<p>A true-breeding line has undergone continuous self-pollination for several generations, so it is (nearly) homozygous and shows stable trait inheritance — it produces offspring like itself. It need not be recessive.</p>",
+     "hint": "True breeding = breeds true to type."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक शुद्ध प्रजनन (तद्रूप प्रजनन) पौधा",
+     "o": [
+      "वह है जो स्वयं प्रजनन कर सकता है",
+      "असंबंधित पौधों के बीच पर-परागण से उत्पन्न होता है",
+      "लगभग समयुग्मजी होता है तथा अपने ही प्रकार की संतति उत्पन्न करता है",
+      "अपने आनुवंशिक संघटन में सदैव समयुग्मजी अप्रभावी होता है"
+     ],
+     "sol": "<p>शुद्ध प्रजनन वंशक्रम में कई पीढ़ियों तक लगातार स्वपरागण होता है, अतः वह (लगभग) समयुग्मजी होता है और लक्षण की स्थिर वंशागति दर्शाता है — अपने जैसी संतति देता है। उसका अप्रभावी होना आवश्यक नहीं।</p>",
+     "hint": "तद्रूप प्रजनन = अपने ही रूप की संतति।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -747,10 +903,22 @@
       "0.5",
       "0.75",
       "1"
-     ]
+     ],
+     "sol": "<p>Sons receive their X from the mother. Mother XX (homozygous normal) → every son XY is normal. Probability = <b>0</b>. (All daughters are carriers.)</p>",
+     "hint": "A father never passes his X to a son."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि एक वर्णांध पुरुष ऐसी स्त्री से विवाह करता है जो सामान्य वर्ण दृष्टि के लिए समयुग्मजी है, तो उनके पुत्र के वर्णांध होने की प्रायिकता है :",
+     "o": [
+      "0",
+      "0.5",
+      "0.75",
+      "1"
+     ],
+     "sol": "<p>पुत्रों को X माता से मिलता है। माता XX (समयुग्मजी सामान्य) → प्रत्येक पुत्र XY सामान्य। प्रायिकता = <b>0</b>। (सभी पुत्रियाँ वाहक होंगी।)</p>",
+     "hint": "पिता अपना X कभी पुत्र को नहीं देता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -793,10 +961,22 @@
       "Klinefelter's syndrome",
       "Turner's syndrome",
       "Sickle cell anaemia"
-     ]
+     ],
+     "sol": "<p>Down's syndrome is trisomy of chromosome 21 (an autosome), from failure of chromatid/chromosome segregation. Klinefelter's (XXY) and Turner's (XO) are sex-chromosome aneuploidies; sickle-cell anaemia is a point mutation.</p>",
+     "hint": "Autosome = not X or Y."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्वसूत्र (अलिंग क्रोमोसोम) के प्राथमिक अवियोजन से होने वाला रोग है :",
+     "o": [
+      "डाउन सिंड्रोम",
+      "क्लाइनफेल्टर सिंड्रोम",
+      "टर्नर सिंड्रोम",
+      "दात्र कोशिका अरक्तता"
+     ],
+     "sol": "<p>डाउन सिंड्रोम क्रोमोसोम 21 (एक अलिंग क्रोमोसोम) की ट्राइसोमी है, जो क्रोमैटिडों/क्रोमोसोमों के विसंयोजन न होने से होती है। क्लाइनफेल्टर (XXY) और टर्नर (XO) लिंग-क्रोमोसोम असुगुणिताएँ हैं; दात्र कोशिका अरक्तता बिंदु उत्परिवर्तन है।</p>",
+     "hint": "अलिंग क्रोमोसोम = X या Y नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -839,10 +1019,22 @@
       "3 genotypes ; 4 phenotypes",
       "4 genotypes ; 3 phenotypes",
       "4 genotypes ; 4 phenotypes"
-     ]
+     ],
+     "sol": "<p>I<sup>A</sup>I<sup>B</sup> × I<sup>A</sup>i → I<sup>A</sup>I<sup>A</sup>, I<sup>A</sup>i, I<sup>A</sup>I<sup>B</sup>, I<sup>B</sup>i: <b>4 genotypes</b>. Phenotypes: A (I<sup>A</sup>I<sup>A</sup>, I<sup>A</sup>i), AB, B → <b>3 phenotypes</b>.</p>",
+     "hint": "Draw the 2 × 2 Punnett square."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पति और पत्नी के जीनोटाइप I<sup>A</sup>I<sup>B</sup> तथा I<sup>A</sup>i हैं। उनकी संतानों के रुधिर वर्गों में कितने भिन्न जीनोटाइप और फीनोटाइप संभव हैं?",
+     "o": [
+      "3 जीनोटाइप ; 3 फीनोटाइप",
+      "3 जीनोटाइप ; 4 फीनोटाइप",
+      "4 जीनोटाइप ; 3 फीनोटाइप",
+      "4 जीनोटाइप ; 4 फीनोटाइप"
+     ],
+     "sol": "<p>I<sup>A</sup>I<sup>B</sup> × I<sup>A</sup>i → I<sup>A</sup>I<sup>A</sup>, I<sup>A</sup>i, I<sup>A</sup>I<sup>B</sup>, I<sup>B</sup>i: <b>4 जीनोटाइप</b>। फीनोटाइप: A (I<sup>A</sup>I<sup>A</sup>, I<sup>A</sup>i), AB, B → <b>3 फीनोटाइप</b>।</p>",
+     "hint": "2 × 2 पनेट वर्ग बनाइए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -885,10 +1077,22 @@
       "Trichomes – Glandular or non-glandular",
       "Seed – Green or Yellow",
       "Pod – Inflated or Constricted"
-     ]
+     ],
+     "sol": "<p>Mendel's seven characters included stem height, seed colour and pod shape (inflated/constricted). Trichomes (glandular/non-glandular hairs) were not studied.</p>",
+     "hint": "Compare with the seven traits in NCERT."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित लक्षणों में से किसे मेंडल ने मटर पर अपने प्रयोगों में नहीं लिया?",
+     "o": [
+      "तना – लंबा या बौना",
+      "रोम (ट्राइकोम) – ग्रंथिल या अग्रंथिल",
+      "बीज – हरा या पीला",
+      "फली – फूली हुई या संकीर्णित"
+     ],
+     "sol": "<p>मेंडल के सात लक्षणों में तने की लंबाई, बीज का रंग तथा फली की आकृति (फूली/संकीर्णित) थे। रोमों (ग्रंथिल/अग्रंथिल) का अध्ययन नहीं किया गया।</p>",
+     "hint": "NCERT के सात लक्षणों से मिलान करें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -931,10 +1135,22 @@
       "1840 - 1850",
       "1857 - 1869",
       "1870 - 1877"
-     ]
+     ],
+     "sol": "<p>NCERT: Mendel conducted hybridisation experiments on garden peas for seven years (<b>1856–1863</b>) and published his results in 1865.</p>",
+     "hint": "Seven years, ending in 1863."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दिए गए में से मेंडल के संकरण प्रयोगों की अवधि कौन-सी है?",
+     "o": [
+      "1856 - 1863",
+      "1840 - 1850",
+      "1857 - 1869",
+      "1870 - 1877"
+     ],
+     "sol": "<p>NCERT: मेंडल ने उद्यान मटर पर सात वर्षों (<b>1856–1863</b>) तक संकरण प्रयोग किए और 1865 में परिणाम प्रकाशित किए।</p>",
+     "hint": "सात वर्ष, जो 1863 में समाप्त हुए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -977,10 +1193,22 @@
       "Both are due to a quantitative defect in globin chain synthesis",
       "Thalassemia is due to less synthesis of globin molecules",
       "Sickle cell anemia is due to a quantitative problem of globin molecules"
-     ]
+     ],
+     "sol": "<p>Thalassemia is a <b>quantitative</b> problem — too few globin chains are synthesised. Sickle-cell anaemia is a <b>qualitative</b> problem — a wrongly functioning globin (Glu → Val at position 6 of the β chain).</p>",
+     "hint": "Thalassemia = how much; sickle cell = what kind."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "थैलेसीमिया और दात्र कोशिका अरक्तता ग्लोबिन अणु के संश्लेषण में समस्या के कारण होते हैं। सही कथन चुनिए।",
+     "o": [
+      "दोनों ग्लोबिन शृंखला संश्लेषण में गुणात्मक दोष के कारण हैं",
+      "दोनों ग्लोबिन शृंखला संश्लेषण में मात्रात्मक दोष के कारण हैं",
+      "थैलेसीमिया ग्लोबिन अणुओं के कम संश्लेषण के कारण है",
+      "दात्र कोशिका अरक्तता ग्लोबिन अणुओं की मात्रात्मक समस्या के कारण है"
+     ],
+     "sol": "<p>थैलेसीमिया <b>मात्रात्मक</b> समस्या है — ग्लोबिन शृंखलाएँ बहुत कम बनती हैं। दात्र कोशिका अरक्तता <b>गुणात्मक</b> समस्या है — गलत कार्य करने वाला ग्लोबिन (β शृंखला में स्थान 6 पर Glu → Val)।</p>",
+     "hint": "थैलेसीमिया = कितना; दात्र कोशिका = किस प्रकार का।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1023,10 +1251,22 @@
       "ABO blood grouping : Co-dominance",
       "Starch synthesis in pea : Multiple alleles",
       "T.H. Morgan : Linkage"
-     ]
+     ],
+     "sol": "<p>Starch synthesis in pea (round/wrinkled seeds, gene B/b) is NCERT's example of <b>incomplete dominance</b> at the level of starch-grain size, not of multiple alleles. The other pairs are correct: grasshopper XO, ABO co-dominance (and multiple alleles), Morgan linkage.</p>",
+     "hint": "Multiple alleles example in NCERT = ABO."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा युग्म गलत सुमेलित है?",
+     "o": [
+      "XO प्रकार का लिंग निर्धारण : टिड्डा",
+      "ABO रुधिर वर्ग : सह-प्रभाविता",
+      "मटर में मंड (स्टार्च) संश्लेषण : बहुअलील",
+      "T.H. मॉर्गन : सहलग्नता"
+     ],
+     "sol": "<p>मटर में मंड संश्लेषण (गोल/झुर्रीदार बीज, जीन B/b) NCERT में मंड कणों के आकार के स्तर पर <b>अपूर्ण प्रभाविता</b> का उदाहरण है, बहुअलील का नहीं। अन्य युग्म सही हैं: टिड्डा XO, ABO सह-प्रभाविता (तथा बहुअलील), मॉर्गन सहलग्नता।</p>",
+     "hint": "NCERT में बहुअलील का उदाहरण = ABO।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1071,10 +1311,22 @@
       "Punnett square was developed by a British scientist.",
       "Franklin Stahl coined the term \"linkage\".",
       "Transduction was discovered by S. Altman."
-     ]
+     ],
+     "sol": "<p>The Punnett square was devised by Reginald C. Punnett, a British geneticist ✓. Spliceosomes act in splicing (processing hnRNA), not translation; Morgan (not Stahl) coined 'linkage'; transduction was discovered by Zinder and Lederberg (Altman discovered ribozymes).</p>",
+     "hint": "Check each name–discovery pair."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही कथन चुनिए :",
+     "o": [
+      "स्प्लाइसियोसोम स्थानांतरण (अनुवादन) में भाग लेते हैं।",
+      "पनेट वर्ग एक ब्रिटिश वैज्ञानिक द्वारा विकसित किया गया था।",
+      "फ्रैंकलिन स्टाल ने \"सहलग्नता\" शब्द दिया।",
+      "पारक्रमण (ट्रांसडक्शन) की खोज S. ऑल्टमैन ने की।"
+     ],
+     "sol": "<p>पनेट वर्ग ब्रिटिश आनुवंशिकीविद् रेजिनाल्ड C. पनेट ने बनाया ✓। स्प्लाइसियोसोम समबंधन (hnRNA का प्रक्रमण) में कार्य करते हैं, स्थानांतरण में नहीं; ‘सहलग्नता’ शब्द मॉर्गन (स्टाल नहीं) ने दिया; ट्रांसडक्शन की खोज ज़िंडर और लेडरबर्ग ने की (ऑल्टमैन ने राइबोज़ाइम खोजे)।</p>",
+     "hint": "प्रत्येक नाम–खोज युग्म जाँचें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1121,10 +1373,22 @@
       "Only sons",
       "Only daughters",
       "Both sons and daughters"
-     ]
+     ],
+     "sol": "<p>A woman passes one of her two X chromosomes to every child, sons and daughters alike, so the X carrying the condition can go to <b>both sons and daughters</b>.</p>",
+     "hint": "Mothers give an X to every child."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक स्त्री के एक X क्रोमोसोम पर X-सहलग्न दशा है। यह क्रोमोसोम किसमें वंशागत हो सकता है?",
+     "o": [
+      "केवल पौत्र-पौत्रियों में",
+      "केवल पुत्रों में",
+      "केवल पुत्रियों में",
+      "पुत्र और पुत्रियाँ दोनों में"
+     ],
+     "sol": "<p>स्त्री अपने दो X क्रोमोसोमों में से एक हर संतान को देती है, पुत्र हो या पुत्री, अतः दशा वाला X <b>पुत्र और पुत्रियों दोनों</b> में जा सकता है।</p>",
+     "hint": "माता हर संतान को एक X देती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1167,10 +1431,22 @@
       "a, b and c",
       "b, c and e",
       "a, c and e"
-     ]
+     ],
+     "sol": "<p>ABO blood groups: I<sup>A</sup> and I<sup>B</sup> are dominant over i (dominance), I<sup>A</sup>I<sup>B</sup> expresses both (co-dominance), and the gene has three alleles (multiple alleles). So <b>a, b and c</b>. Not incomplete dominance or polygenic.</p>",
+     "hint": "Three alleles, two of them co-dominant, both dominant over i."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से अभिलक्षण मनुष्यों में ‘रुधिर वर्गों की वंशागति’ को दर्शाते हैं?<br>a. प्रभाविता<br>b. सह-प्रभाविता<br>c. बहुअलील<br>d. अपूर्ण प्रभाविता<br>e. बहुजीनी वंशागति",
+     "o": [
+      "b, d और e",
+      "a, b और c",
+      "b, c और e",
+      "a, c और e"
+     ],
+     "sol": "<p>ABO रुधिर वर्ग: I<sup>A</sup> और I<sup>B</sup>, i पर प्रभावी (प्रभाविता), I<sup>A</sup>I<sup>B</sup> दोनों को अभिव्यक्त करता है (सह-प्रभाविता), और जीन के तीन अलील हैं (बहुअलील)। अतः <b>a, b और c</b>। अपूर्ण प्रभाविता या बहुजीनी नहीं।</p>",
+     "hint": "तीन अलील, दो सह-प्रभावी, दोनों i पर प्रभावी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1213,10 +1489,22 @@
       "Down's syndrome",
       "Turner's syndrome",
       "Klinefelter's syndrome"
-     ]
+     ],
+     "sol": "<p>Klinefelter's syndrome (47, XXY): overall masculine development with some feminine features such as gynaecomastia (breast development), and the individual is sterile.</p>",
+     "hint": "Extra X in a male."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वह आनुवंशिक विकार कौन-सा है जिसमें व्यक्ति का समग्र विकास पुरुषोचित होता है, स्त्रीवत् स्तन विकास (गाइनीकोमैस्टिया) होता है तथा वह बाँझ होता है?",
+     "o": [
+      "एडवर्ड सिंड्रोम",
+      "डाउन सिंड्रोम",
+      "टर्नर सिंड्रोम",
+      "क्लाइनफेल्टर सिंड्रोम"
+     ],
+     "sol": "<p>क्लाइनफेल्टर सिंड्रोम (47, XXY): समग्र विकास पुरुषोचित परंतु कुछ स्त्रैण लक्षण जैसे गाइनीकोमैस्टिया (स्तन विकास), तथा व्यक्ति बाँझ होता है।</p>",
+     "hint": "पुरुष में एक अतिरिक्त X।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1259,10 +1547,22 @@
       "Law of Segregation does not apply in this experiment.",
       "This experiment does not follow the Principle of Dominance.",
       "Pink colour in F<sub>1</sub> is due to incomplete dominance."
-     ]
+     ],
+     "sol": "<p>Snapdragon flower colour shows incomplete dominance: F<sub>1</sub> pink, F<sub>2</sub> 1/4 red : 2/4 pink : 1/4 white. The principle of dominance does not hold, but the law of segregation <b>does</b> — the alleles R and r separate cleanly and reappear unchanged in F<sub>2</sub>. So statement (2) is incorrect.</p>",
+     "hint": "Pure red and pure white reappear in F<sub>2</sub>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "<i>ऐन्टीराइनम</i> (स्नेपड्रेगन) में लाल पुष्प का सफ़ेद पुष्प से संकरण कराने पर F<sub>1</sub> पीढ़ी में गुलाबी पुष्प प्राप्त हुए। गुलाबी पुष्पों का स्वपरागण करने पर F<sub>2</sub> पीढ़ी में सफ़ेद, लाल और गुलाबी पुष्प मिले। निम्नलिखित में से गलत कथन चुनिए :",
+     "o": [
+      "F<sub>2</sub> का अनुपात 1/4 (लाल) : 2/4 (गुलाबी) : 1/4 (सफ़ेद) है",
+      "इस प्रयोग पर विसंयोजन का नियम लागू नहीं होता।",
+      "यह प्रयोग प्रभाविता के नियम का पालन नहीं करता।",
+      "F<sub>1</sub> में गुलाबी रंग अपूर्ण प्रभाविता के कारण है।"
+     ],
+     "sol": "<p>स्नेपड्रेगन के पुष्प रंग में अपूर्ण प्रभाविता है: F<sub>1</sub> गुलाबी, F<sub>2</sub> 1/4 लाल : 2/4 गुलाबी : 1/4 सफ़ेद। प्रभाविता का नियम लागू नहीं होता, परंतु विसंयोजन का नियम <b>लागू होता है</b> — अलील R और r स्पष्ट रूप से अलग होते हैं और F<sub>2</sub> में अपरिवर्तित पुनः प्रकट होते हैं। अतः कथन (2) गलत है।</p>",
+     "hint": "F<sub>2</sub> में शुद्ध लाल और शुद्ध सफ़ेद पुनः प्रकट होते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1305,10 +1605,22 @@
       "Human males have one of their sex-chromosome much shorter than the other.",
       "Male fruit fly is heterogametic.",
       "In male grasshopper, 50% of sperms have no sex-chromosome."
-     ]
+     ],
+     "sol": "<p>In birds the female is heterogametic (ZW) and the male ZZ, so the sex of the chick depends on the <b>egg</b>, not the sperm — statement (1) is incorrect. Human Y is much shorter than X ✓; male <i>Drosophila</i> (XY) is heterogametic ✓; male grasshopper (XO) gives 50% sperms with X and 50% without X ✓.</p>",
+     "hint": "Birds: ZW female."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गलत कथन चुनिए।",
+     "o": [
+      "पालतू मुर्गियों में संतति का लिंग अंडे की अपेक्षा शुक्राणु के प्रकार पर निर्भर करता है।",
+      "मानव नर में एक लिंग-क्रोमोसोम दूसरे से बहुत छोटा होता है।",
+      "नर फल मक्खी विषमयुग्मकी होती है।",
+      "नर टिड्डे में 50% शुक्राणुओं में कोई लिंग-क्रोमोसोम नहीं होता।"
+     ],
+     "sol": "<p>पक्षियों में मादा विषमयुग्मकी (ZW) और नर ZZ होता है, अतः चूज़े का लिंग शुक्राणु पर नहीं, <b>अंडे</b> पर निर्भर करता है — कथन (1) गलत है। मानव Y, X से बहुत छोटा ✓; नर <i>ड्रोसोफिला</i> (XY) विषमयुग्मकी ✓; नर टिड्डा (XO) 50% X युक्त और 50% X रहित शुक्राणु देता है ✓।</p>",
+     "hint": "पक्षी: ZW मादा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1351,10 +1663,22 @@
       "A unit of distance between genes on chromosomes, representing 50% cross over.",
       "A unit of distance between two expressed genes, representing 10% cross over.",
       "A unit of distance between two expressed genes, representing 100% cross over."
-     ]
+     ],
+     "sol": "<p>One map unit (centimorgan, cM) is the distance between two genes that gives <b>1% recombination</b> (crossing over) between them. Sturtevant used recombination frequency as a measure of gene distance.</p><p class='errata'>NCERT describes mapping by recombination frequency but does not name the centimorgan.</p>",
+     "hint": "1 cM = 1% recombinants."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आनुवंशिक मानचित्र बनाने में अपनाई गई मानचित्र इकाई (सेंटीमॉर्गन) क्या है?",
+     "o": [
+      "क्रोमोसोमों पर जीनों के बीच की दूरी की इकाई, जो 1% जीन विनिमय दर्शाती है।",
+      "क्रोमोसोमों पर जीनों के बीच की दूरी की इकाई, जो 50% जीन विनिमय दर्शाती है।",
+      "दो अभिव्यक्त जीनों के बीच की दूरी की इकाई, जो 10% जीन विनिमय दर्शाती है।",
+      "दो अभिव्यक्त जीनों के बीच की दूरी की इकाई, जो 100% जीन विनिमय दर्शाती है।"
+     ],
+     "sol": "<p>एक मानचित्र इकाई (सेंटीमॉर्गन, cM) दो जीनों के बीच वह दूरी है जिस पर उनके बीच <b>1% पुनर्योजन</b> (जीन विनिमय) होता है। स्टर्टीवेंट ने पुनर्योजन आवृत्ति को जीनों की दूरी का माप माना।</p><p class='errata'>NCERT पुनर्योजन आवृत्ति से मानचित्रण बताती है परंतु सेंटीमॉर्गन का नाम नहीं देती।</p>",
+     "hint": "1 cM = 1% पुनर्योजित।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1398,10 +1722,22 @@
       "Sutton Boveri",
       "T.H. Morgan",
       "Gregor J. Mendel"
-     ]
+     ],
+     "sol": "<p>Alfred Sturtevant, Morgan's student, used the frequency of recombination between gene pairs on the same chromosome as a measure of the distance between them and 'mapped' their positions.</p>",
+     "hint": "Morgan's student who drew the first genetic map."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक ही क्रोमोसोम पर जीन युग्मों के बीच पुनर्योजन की आवृत्ति को जीनों के बीच की दूरी के माप के रूप में किसने समझाया?",
+     "o": [
+      "अल्फ्रेड स्टर्टीवेंट",
+      "सटन बोवेरी",
+      "T.H. मॉर्गन",
+      "ग्रेगर J. मेंडल"
+     ],
+     "sol": "<p>मॉर्गन के शिष्य अल्फ्रेड स्टर्टीवेंट ने एक ही क्रोमोसोम पर जीन युग्मों के बीच पुनर्योजन की आवृत्ति को उनकी दूरी का माप मानकर उनकी स्थितियों का ‘मानचित्रण’ किया।</p>",
+     "hint": "मॉर्गन के शिष्य जिन्होंने पहला आनुवंशिक मानचित्र बनाया।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1444,10 +1780,22 @@
       "Allele 'i' does not produce any sugar.",
       "The gene (I) has three alleles.",
       "A person will have only two of the three alleles."
-     ]
+     ],
+     "sol": "<p>I<sup>A</sup> and I<sup>B</sup> produce <b>slightly different</b> sugars (A and B); together (co-dominance) both sugars are made. So (1) is wrong. i makes no sugar ✓, the gene has three alleles ✓, a diploid person carries any two ✓.</p>",
+     "hint": "Co-dominance: two different products."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ABO रुधिर वर्गों को नियंत्रित करने वाले जीन ‘I’ के संदर्भ में गलत कथन पहचानिए।",
+     "o": [
+      "जब I<sup>A</sup> और I<sup>B</sup> साथ उपस्थित होते हैं, तो वे एक ही प्रकार की शर्करा अभिव्यक्त करते हैं।",
+      "अलील 'i' कोई शर्करा उत्पन्न नहीं करता।",
+      "जीन (I) के तीन अलील हैं।",
+      "एक व्यक्ति में तीन में से केवल दो अलील होंगे।"
+     ],
+     "sol": "<p>I<sup>A</sup> और I<sup>B</sup> <b>थोड़ी भिन्न</b> शर्कराएँ (A और B) बनाते हैं; साथ होने पर (सह-प्रभाविता) दोनों शर्कराएँ बनती हैं। अतः (1) गलत है। i कोई शर्करा नहीं बनाता ✓, जीन के तीन अलील ✓, द्विगुणित व्यक्ति में कोई दो ✓।</p>",
+     "hint": "सह-प्रभाविता: दो भिन्न उत्पाद।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1490,10 +1838,22 @@
       "Morgan",
       "Mendel",
       "Sutton"
-     ]
+     ],
+     "sol": "<p>Sutton and Boveri proposed the chromosomal theory of inheritance; T.H. <b>Morgan</b> and colleagues verified it experimentally with <i>Drosophila</i> crosses (sex-linked genes, linkage).</p>",
+     "hint": "Proposed by Sutton–Boveri; proved by…"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वंशागति के क्रोमोसोमीय सिद्धांत का प्रायोगिक सत्यापन किसने किया?",
+     "o": [
+      "बोवेरी",
+      "मॉर्गन",
+      "मेंडल",
+      "सटन"
+     ],
+     "sol": "<p>सटन और बोवेरी ने वंशागति का क्रोमोसोमीय सिद्धांत प्रस्तुत किया; T.H. <b>मॉर्गन</b> और सहयोगियों ने <i>ड्रोसोफिला</i> के संकरणों (लिंग-सहलग्न जीन, सहलग्नता) से इसका प्रायोगिक सत्यापन किया।</p>",
+     "hint": "प्रस्ताव सटन–बोवेरी का; प्रमाण…",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1536,10 +1896,22 @@
       "Thalassemia – X linked",
       "Haemophilia – Y linked",
       "Phenylketonuria – Autosomal dominant trait"
-     ]
+     ],
+     "sol": "<p>Sickle-cell anaemia is an autosomal recessive trait; the β-globin gene (HBB) lies on chromosome 11 ✓. Thalassemia is autosomal (α: chromosome 16, β: chromosome 11), haemophilia is X-linked, phenylketonuria is autosomal recessive.</p>",
+     "hint": "Only one pair has both parts right."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही मिलान चुनिए",
+     "o": [
+      "दात्र कोशिका अरक्तता – अलिंग अप्रभावी लक्षण, क्रोमोसोम 11",
+      "थैलेसीमिया – X सहलग्न",
+      "हीमोफीलिया – Y सहलग्न",
+      "फीनाइलकीटोनूरिया – अलिंग प्रभावी लक्षण"
+     ],
+     "sol": "<p>दात्र कोशिका अरक्तता अलिंग अप्रभावी लक्षण है; β-ग्लोबिन जीन (HBB) क्रोमोसोम 11 पर है ✓। थैलेसीमिया अलिंग है (α: क्रोमोसोम 16, β: क्रोमोसोम 11), हीमोफीलिया X-सहलग्न है, फीनाइलकीटोनूरिया अलिंग अप्रभावी है।</p>",
+     "hint": "केवल एक युग्म के दोनों भाग सही हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1582,10 +1954,22 @@
       "8",
       "4",
       "2"
-     ]
+     ],
+     "sol": "<p>Mendel selected <b>14</b> true-breeding varieties: 7 pairs, each pair alike except for one character with contrasting traits (e.g. tall/dwarf).</p>",
+     "hint": "7 characters × 2 contrasting forms."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मेंडल ने मटर की कितनी शुद्ध प्रजनन किस्मों को युग्मों के रूप में चुना, जो विपरीत लक्षणों वाले एक लक्षण को छोड़कर समान थीं?",
+     "o": [
+      "14",
+      "8",
+      "4",
+      "2"
+     ],
+     "sol": "<p>मेंडल ने <b>14</b> शुद्ध प्रजनन किस्में चुनीं: 7 युग्म, प्रत्येक युग्म विपरीत लक्षणों वाले एक लक्षण (जैसे लंबा/बौना) को छोड़कर समान।</p>",
+     "hint": "7 लक्षण × 2 विपरीत रूप।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1628,10 +2012,22 @@
       "Bullet square",
       "Punch square",
       "Punnett square"
-     ]
+     ],
+     "sol": "<p>The <b>Punnett square</b>, devised by R.C. Punnett, shows the gametes of the parents, the zygotes, and the F<sub>1</sub> and F<sub>2</sub> plants of a cross.</p>",
+     "hint": "Named after a British geneticist."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जनकों द्वारा युग्मकों का उत्पादन, युग्मनज का निर्माण, F<sub>1</sub> और F<sub>2</sub> पौधे, जिस आरेख से समझे जा सकते हैं, वह कहलाता है :",
+     "o": [
+      "नेट वर्ग",
+      "बुलेट वर्ग",
+      "पंच वर्ग",
+      "पनेट वर्ग"
+     ],
+     "sol": "<p>R.C. पनेट द्वारा बनाया गया <b>पनेट वर्ग</b> संकरण में जनकों के युग्मक, युग्मनज तथा F<sub>1</sub> और F<sub>2</sub> पौधे दर्शाता है।</p>",
+     "hint": "एक ब्रिटिश आनुवंशिकीविद् के नाम पर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1674,10 +2070,22 @@
       "50%",
       "75%",
       "25%"
-     ]
+     ],
+     "sol": "<p>Hb<sup>A</sup>Hb<sup>S</sup> × Hb<sup>A</sup>Hb<sup>S</sup> → 1 Hb<sup>A</sup>Hb<sup>A</sup> : 2 Hb<sup>A</sup>Hb<sup>S</sup> : 1 Hb<sup>S</sup>Hb<sup>S</sup>. Only Hb<sup>S</sup>Hb<sup>S</sup> shows the disease: <b>25%</b> (50% are carriers).</p>",
+     "hint": "Carrier × carrier for a recessive disease."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दात्र कोशिका अरक्तता जीन के लिए विषमयुग्मजी नर और मादा के बीच संकरण में संतति का कितना प्रतिशत रोगग्रस्त होगा?",
+     "o": [
+      "100%",
+      "50%",
+      "75%",
+      "25%"
+     ],
+     "sol": "<p>Hb<sup>A</sup>Hb<sup>S</sup> × Hb<sup>A</sup>Hb<sup>S</sup> → 1 Hb<sup>A</sup>Hb<sup>A</sup> : 2 Hb<sup>A</sup>Hb<sup>S</sup> : 1 Hb<sup>S</sup>Hb<sup>S</sup>। केवल Hb<sup>S</sup>Hb<sup>S</sup> में रोग: <b>25%</b> (50% वाहक)।</p>",
+     "hint": "अप्रभावी रोग के लिए वाहक × वाहक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1720,10 +2128,22 @@
       "Statement I is correct but Statement II is incorrect",
       "Statement I is incorrect but Statement II is correct",
       "Both Statement I and Statement II are correct"
-     ]
+     ],
+     "sol": "<p>Statement I is true. Statement II lists seed shape, seed colour, flower colour, pod shape, pod colour, flower position and stem height — exactly Mendel's seven characters. Both correct.</p>",
+     "hint": "Count the characters in Statement II: seven?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : मेंडल ने मटर के पौधों में विपरीत लक्षणों के सात युग्मों का अध्ययन किया और वंशागति के नियम प्रस्तुत किए।<br>कथन II : मटर के पौधों पर अपने प्रयोग में मेंडल द्वारा परखे गए सात लक्षण थे बीज की आकृति और रंग, पुष्प का रंग, फली की आकृति और रंग, पुष्प की स्थिति तथा तने की लंबाई।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "कथन I और कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है",
+      "कथन I और कथन II दोनों सही हैं"
+     ],
+     "sol": "<p>कथन I सत्य है। कथन II में बीज की आकृति, बीज का रंग, पुष्प का रंग, फली की आकृति, फली का रंग, पुष्प की स्थिति और तने की लंबाई हैं — ठीक मेंडल के सात लक्षण। दोनों सही।</p>",
+     "hint": "कथन II के लक्षण गिनें: सात?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1766,10 +2186,22 @@
       "Grasshoppers",
       "Monkeys",
       "Drosophila"
-     ]
+     ],
+     "sol": "<p>XO type: females XX, males have only one X (XO) — seen in grasshoppers and many insects. <i>Drosophila</i> and mammals (monkeys) are XY; birds are ZW.</p>",
+     "hint": "Male with one sex chromosome."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "XO प्रकार का लिंग निर्धारण किसमें पाया जाता है?",
+     "o": [
+      "पक्षी",
+      "टिड्डे",
+      "बंदर",
+      "ड्रोसोफिला"
+     ],
+     "sol": "<p>XO प्रकार: मादा XX, नर में केवल एक X (XO) — टिड्डों और अनेक कीटों में। <i>ड्रोसोफिला</i> और स्तनधारी (बंदर) XY हैं; पक्षी ZW हैं।</p>",
+     "hint": "एक लिंग-क्रोमोसोम वाला नर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1812,10 +2244,22 @@
       "(A) is correct but (R) is not correct",
       "(A) is not correct but (R) is correct",
       "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
-     ]
+     ],
+     "sol": "<p>A is correct: closely linked genes do not assort independently, so the law fails for them. R is wrong: closely located genes tend to be inherited together, they do <b>not</b> assort independently.</p>",
+     "hint": "Linked genes stay together."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं : एक को अभिकथन (A) तथा दूसरे को कारण (R) कहा गया है :<br>अभिकथन (A) : एक ही क्रोमोसोम पर निकट स्थित जीनों के लिए मेंडल का स्वतंत्र अपव्यूहन का नियम लागू नहीं होता।<br>कारण (R) : निकट स्थित जीनों का स्वतंत्र अपव्यूहन होता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "(A) और (R) दोनों सही हैं परंतु (R), (A) की सही व्याख्या नहीं है",
+      "(A) सही है परंतु (R) सही नहीं है",
+      "(A) सही नहीं है परंतु (R) सही है",
+      "(A) और (R) दोनों सही हैं तथा (R), (A) की सही व्याख्या है"
+     ],
+     "sol": "<p>A सही है: निकटता से सहलग्न जीनों का स्वतंत्र अपव्यूहन नहीं होता, अतः उन पर नियम लागू नहीं होता। R गलत है: निकट स्थित जीन साथ-साथ वंशागत होते हैं, उनका स्वतंत्र अपव्यूहन <b>नहीं</b> होता।</p>",
+     "hint": "सहलग्न जीन साथ रहते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1859,10 +2303,22 @@
       "Haemophilia",
       "Thalassemia",
       "Sickle cell anaemia"
-     ]
+     ],
+     "sol": "<p>Myotonic dystrophy is NCERT's example of an autosomal dominant disorder. Haemophilia is X-linked recessive; thalassemia and sickle-cell anaemia are autosomal recessive.</p>",
+     "hint": "The only dominant one in NCERT's list."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा अलिंग सहलग्न प्रभावी लक्षण की उपस्थिति के कारण होता है?",
+     "o": [
+      "मायोटोनिक डिस्ट्रॉफी",
+      "हीमोफीलिया",
+      "थैलेसीमिया",
+      "दात्र कोशिका अरक्तता"
+     ],
+     "sol": "<p>मायोटोनिक डिस्ट्रॉफी NCERT में अलिंग प्रभावी विकार का उदाहरण है। हीमोफीलिया X-सहलग्न अप्रभावी है; थैलेसीमिया और दात्र कोशिका अरक्तता अलिंग अप्रभावी हैं।</p>",
+     "hint": "NCERT की सूची में एकमात्र प्रभावी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1906,10 +2362,22 @@
       "a, b, c, d",
       "a, c, b, d",
       "a, d, b, c"
-     ]
+     ],
+     "sol": "<p>Recombination frequency ∝ distance. a–c = 5 and b–c = 15 with a–b = 20 = 5 + 15 → order a–c–b. b–d = 9 with c–d = 24 = 15 + 9 and a–d = 29 = 20 + 9 → d lies beyond b. Sequence: <b>a, c, b, d</b>.</p>",
+     "hint": "Start with the smallest distance and check that distances add up."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जीनों a और c के बीच पुनर्योजन आवृत्ति 5% है, b और c के बीच 15%, b और d के बीच 9%, a और b के बीच 20%, c और d के बीच 24% तथा a और d के बीच 29% है। एक रैखिक क्रोमोसोम पर इन जीनों का अनुक्रम क्या होगा?",
+     "o": [
+      "d, b, a, c",
+      "a, b, c, d",
+      "a, c, b, d",
+      "a, d, b, c"
+     ],
+     "sol": "<p>पुनर्योजन आवृत्ति ∝ दूरी। a–c = 5 और b–c = 15 तथा a–b = 20 = 5 + 15 → क्रम a–c–b। b–d = 9 तथा c–d = 24 = 15 + 9 और a–d = 29 = 20 + 9 → d, b के आगे है। अनुक्रम: <b>a, c, b, d</b>।</p>",
+     "hint": "सबसे छोटी दूरी से प्रारंभ करें और जाँचें कि दूरियाँ जुड़ती हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1953,10 +2421,22 @@
       "75%",
       "100%",
       "25%"
-     ]
+     ],
+     "sol": "<p>Colour-blind woman: X<sup>c</sup>X<sup>c</sup>. The man's mother was colour blind, so she gave him X<sup>c</sup>: he is X<sup>c</sup>Y. Every child gets X<sup>c</sup> from the mother and X<sup>c</sup> or Y from the father → all children colour blind: <b>100%</b>.</p>",
+     "hint": "Work out the man's genotype from his mother."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि एक वर्णांध स्त्री ऐसे पुरुष से विवाह करती है जिसकी माता भी वर्णांध थी, तो उसकी संतति में वर्णांधता की संभावना क्या है?",
+     "o": [
+      "50%",
+      "75%",
+      "100%",
+      "25%"
+     ],
+     "sol": "<p>वर्णांध स्त्री: X<sup>c</sup>X<sup>c</sup>। पुरुष की माता वर्णांध थी, अतः उसने उसे X<sup>c</sup> दिया: वह X<sup>c</sup>Y है। हर संतान को माता से X<sup>c</sup> और पिता से X<sup>c</sup> या Y मिलता है → सभी संतानें वर्णांध: <b>100%</b>।</p>",
+     "hint": "पुरुष का जीनोटाइप उसकी माता से निकालें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2000,10 +2480,22 @@
       "presence of several alleles of a single gene controlling a single crossover.",
       "presence of two alleles, each of the two genes controlling a single trait.",
       "a single gene affecting multiple phenotypic expression."
-     ]
+     ],
+     "sol": "<p>Pleiotropy: a single gene produces more than one phenotypic effect (e.g. phenylketonuria). 'More than two genes affecting one character' describes polygenic inheritance.</p>",
+     "hint": "One gene → many effects."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "बहुप्रभाविता की परिघटना से तात्पर्य है",
+     "o": [
+      "एक लक्षण को प्रभावित करने वाले दो से अधिक जीन।",
+      "एक जीन के अनेक अलीलों की उपस्थिति जो एक जीन विनिमय को नियंत्रित करते हैं।",
+      "दो अलीलों की उपस्थिति, दोनों जीनों में से प्रत्येक एक लक्षण को नियंत्रित करता है।",
+      "एक जीन जो अनेक फीनोटाइपी अभिव्यक्तियों को प्रभावित करता है।"
+     ],
+     "sol": "<p>बहुप्रभाविता: एक जीन एक से अधिक फीनोटाइपी प्रभाव उत्पन्न करता है (जैसे फीनाइलकीटोनूरिया)। ‘एक लक्षण को प्रभावित करने वाले दो से अधिक जीन’ बहुजीनी वंशागति है।</p>",
+     "hint": "एक जीन → अनेक प्रभाव।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2046,10 +2538,22 @@
       "Thomas Hunt Morgan",
       "Sutton and Boveri",
       "Alfred Sturtevant"
-     ]
+     ],
+     "sol": "<p>Alfred Sturtevant first used recombination frequency between gene pairs on the same chromosome as a measure of their distance and mapped gene positions.</p>",
+     "hint": "Morgan's student."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक ही क्रोमोसोम पर जीन युग्मों के बीच पुनर्योजन की आवृत्ति को जीनों के बीच की दूरी के माप के रूप में उपयोग करके क्रोमोसोम पर उनकी स्थिति का मानचित्रण सर्वप्रथम किसने किया?",
+     "o": [
+      "हेंकिंग",
+      "थॉमस हंट मॉर्गन",
+      "सटन और बोवेरी",
+      "अल्फ्रेड स्टर्टीवेंट"
+     ],
+     "sol": "<p>अल्फ्रेड स्टर्टीवेंट ने सबसे पहले एक ही क्रोमोसोम पर जीन युग्मों के बीच पुनर्योजन आवृत्ति को उनकी दूरी का माप मानकर जीनों की स्थितियों का मानचित्रण किया।</p>",
+     "hint": "मॉर्गन के शिष्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2092,10 +2596,22 @@
       "A and B only",
       "C and D only",
       "B and E only"
-     ]
+     ],
+     "sol": "<ul><li>A ✗ — Langdon Down (1866) described Down's syndrome.</li><li>B ✓ — masculine development with feminine features (gynaecomastia).</li><li>C ✗ — short stature belongs to Down's/Turner's.</li><li>D ✗ — retarded development is a feature of Down's syndrome.</li><li>E ✓ — sterile.</li></ul><p><b>B and E only</b>.</p>",
+     "hint": "Klinefelter = XXY male; don't mix with Down's features."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "क्लाइनफेल्टर सिंड्रोम के बारे में निम्नलिखित में से कौन-से कथन सही हैं?<br>A. इस विकार का वर्णन सर्वप्रथम लैंगडन डाउन (1866) ने किया।<br>B. ऐसे व्यक्ति का समग्र विकास पुरुषोचित होता है। तथापि स्त्रैण विकास भी अभिव्यक्त होता है।<br>C. प्रभावित व्यक्ति छोटे कद का होता है।<br>D. शारीरिक, मनोप्रेरक और मानसिक विकास मंद होता है।<br>E. ऐसे व्यक्ति बाँझ होते हैं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A और E",
+      "केवल A और B",
+      "केवल C और D",
+      "केवल B और E"
+     ],
+     "sol": "<ul><li>A ✗ — लैंगडन डाउन (1866) ने डाउन सिंड्रोम का वर्णन किया।</li><li>B ✓ — पुरुषोचित विकास के साथ स्त्रैण लक्षण (गाइनीकोमैस्टिया)।</li><li>C ✗ — छोटा कद डाउन/टर्नर का लक्षण है।</li><li>D ✗ — मंद विकास डाउन सिंड्रोम का लक्षण है।</li><li>E ✓ — बाँझ।</li></ul><p><b>केवल B और E</b>।</p>",
+     "hint": "क्लाइनफेल्टर = XXY पुरुष; डाउन के लक्षणों से न मिलाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2139,10 +2655,22 @@
       "[pedigree symbol 2]",
       "[pedigree symbol 3]",
       "[pedigree symbol 4]"
-     ]
+     ],
+     "sol": "<p>In pedigree symbols a single horizontal line joins a mating pair; a <b>double line</b> joining male and female marks mating between relatives (consanguineous mating). The keyed option shows the double line (figure needed).</p>",
+     "hint": "Relatives = double line."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव वंशावली विश्लेषण में निम्नलिखित में से कौन-सा प्रतीक संबंधियों के बीच संगम को दर्शाता है?",
+     "o": [
+      "[वंशावली प्रतीक 1]",
+      "[वंशावली प्रतीक 2]",
+      "[वंशावली प्रतीक 3]",
+      "[वंशावली प्रतीक 4]"
+     ],
+     "sol": "<p>वंशावली प्रतीकों में एक क्षैतिज रेखा संगम युग्म को जोड़ती है; नर और मादा को जोड़ने वाली <b>दोहरी रेखा</b> संबंधियों के बीच संगम (रक्त-संबंधी संगम) दर्शाती है। कुंजी वाला विकल्प दोहरी रेखा दिखाता है (चित्र आवश्यक)।</p>",
+     "hint": "संबंधी = दोहरी रेखा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2186,10 +2714,22 @@
       "Down’s syndrome",
       "Turner’s syndrome",
       "Klinefelter’s syndrome"
-     ]
+     ],
+     "sol": "<p>Down's syndrome (trisomy 21): short stature, small round head, furrowed tongue, partially open mouth, <b>broad palm with characteristic palm crease</b>, retarded development.</p>",
+     "hint": "Trisomy 21 features."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "चौड़ी हथेली तथा उस पर एकल हस्त-रेखा (पामर क्रीज़) किस रोग से पीड़ित व्यक्ति में दिखाई देती है-",
+     "o": [
+      "थैलेसीमिया",
+      "डाउन सिंड्रोम",
+      "टर्नर सिंड्रोम",
+      "क्लाइनफेल्टर सिंड्रोम"
+     ],
+     "sol": "<p>डाउन सिंड्रोम (ट्राइसोमी 21): छोटा कद, छोटा गोल सिर, खाँचेदार जीभ, आंशिक खुला मुँह, <b>चौड़ी हथेली और उस पर विशिष्ट हस्त-रेखा</b>, मंद विकास।</p>",
+     "hint": "ट्राइसोमी 21 के लक्षण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2232,10 +2772,22 @@
       "A, C, D and E only",
       "B, C and D only",
       "A, B, C, D and E"
-     ]
+     ],
+     "sol": "<p>The law of dominance: characters are controlled by discrete units called factors (D), factors occur in pairs (C), and in a dissimilar pair one is dominant and the other recessive (A). It explains why only one parental character is expressed in the F<sub>1</sub> of a monohybrid cross (E). B describes the opposite. Answer: <b>A, C, D and E</b>.</p>",
+     "hint": "NCERT lists three points under the law of dominance."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मेंडल के प्रभाविता के नियम के आधार पर निम्नलिखित में से किसकी व्याख्या की जा सकती है?<br>A. कारकों के एक युग्म में से एक प्रभावी और दूसरा अप्रभावी होता है।<br>B. अलील कोई अभिव्यक्ति नहीं दर्शाते और दोनों लक्षण F<sub>2</sub> पीढ़ी में ज्यों के त्यों प्रकट होते हैं।<br>C. सामान्य द्विगुणित पौधों में कारक युग्मों में होते हैं।<br>D. किसी विशेष लक्षण को नियंत्रित करने वाली विविक्त इकाई कारक कहलाती है।<br>E. एकसंकर संकरण में जनकों के लक्षणों में से केवल एक की अभिव्यक्ति मिलती है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A, B और C",
+      "केवल A, C, D और E",
+      "केवल B, C और D",
+      "A, B, C, D और E"
+     ],
+     "sol": "<p>प्रभाविता का नियम: लक्षण कारक नामक विविक्त इकाइयों द्वारा नियंत्रित होते हैं (D), कारक युग्मों में होते हैं (C), और असमान युग्म में एक प्रभावी तथा दूसरा अप्रभावी होता है (A)। इससे समझ आता है कि एकसंकर संकरण की F<sub>1</sub> में जनकों का केवल एक लक्षण क्यों अभिव्यक्त होता है (E)। B इसका उलटा है। उत्तर: <b>A, C, D और E</b>।</p>",
+     "hint": "NCERT प्रभाविता के नियम में तीन बिंदु बताती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2278,10 +2830,22 @@
       "B only",
       "C & B only",
       "D & E only"
-     ]
+     ],
+     "sol": "<p>An O child is ii, so each parent must carry i. Father B<sup>+</sup> → I<sup>B</sup>i; mother A<sup>+</sup> → I<sup>A</sup>i; child ii. Only combination <b>A</b> fits (B has no i in the parents; C, D, E give the child a non-O genotype).</p>",
+     "hint": "An O child needs an i from each parent."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ABO रुधिर वर्ग पद्धति के अनुसार पिता का रुधिर वर्ग B<sup>+</sup>, माता का A<sup>+</sup> तथा संतान का O<sup>+</sup> है। उनके क्रमशः जीनोटाइप हो सकते हैं :<br>A. I<sup>B</sup>i / I<sup>A</sup>i / ii<br>B. I<sup>B</sup>I<sup>B</sup> / I<sup>A</sup>I<sup>A</sup> / ii<br>C. I<sup>A</sup>I<sup>B</sup> / iI<sup>A</sup> / I<sup>B</sup>i<br>D. I<sup>A</sup>i / I<sup>B</sup>i / I<sup>A</sup>i<br>E. iI<sup>B</sup> / iI<sup>A</sup> / I<sup>A</sup>I<sup>B</sup><br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "केवल A",
+      "केवल B",
+      "केवल C और B",
+      "केवल D और E"
+     ],
+     "sol": "<p>O संतान ii है, अतः प्रत्येक जनक में i होना चाहिए। पिता B<sup>+</sup> → I<sup>B</sup>i; माता A<sup>+</sup> → I<sup>A</sup>i; संतान ii। केवल संयोजन <b>A</b> उपयुक्त है (B में जनकों में i नहीं; C, D, E में संतान का जीनोटाइप O नहीं)।</p>",
+     "hint": "O संतान के लिए प्रत्येक जनक से एक i आवश्यक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2324,10 +2888,22 @@
       "A-II, B-I, C-III, D-IV",
       "A-III, B-IV, C-I, D-II",
       "A-IV, B-III, C-II, D-I"
-     ]
+     ],
+     "sol": "<ul><li>A Alternative forms of a gene → allele (III).</li><li>B F<sub>1</sub> × homozygous recessive parent → test cross (IV).</li><li>C F<sub>1</sub> × either parent → back cross (I).</li><li>D Number of chromosome sets → ploidy (II).</li></ul>",
+     "hint": "Every test cross is a back cross, but not every back cross is a test cross."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. एक जीन के दो या अधिक वैकल्पिक रूप — I. प्रतीप संकरण (बैक क्रॉस)<br>B. F<sub>1</sub> संतति का समयुग्मजी अप्रभावी जनक से संकरण — II. गुणिता (प्लॉइडी)<br>C. F<sub>1</sub> संतति का किसी भी जनक से संकरण — III. अलील<br>D. पौधे में क्रोमोसोम समुच्चयों की संख्या — IV. परीक्षार्थ संकरण",
+     "o": [
+      "A-I, B-II, C-III, D-IV",
+      "A-II, B-I, C-III, D-IV",
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-III, C-II, D-I"
+     ],
+     "sol": "<ul><li>A जीन के वैकल्पिक रूप → अलील (III)।</li><li>B F<sub>1</sub> × समयुग्मजी अप्रभावी जनक → परीक्षार्थ संकरण (IV)।</li><li>C F<sub>1</sub> × कोई भी जनक → प्रतीप संकरण (I)।</li><li>D क्रोमोसोम समुच्चयों की संख्या → गुणिता (II)।</li></ul>",
+     "hint": "हर परीक्षार्थ संकरण प्रतीप संकरण है, पर हर प्रतीप संकरण परीक्षार्थ नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2372,10 +2948,22 @@
       "Bb",
       "BB/Bb",
       "BB"
-     ]
+     ],
+     "sol": "<p>To find whether a dominant-phenotype plant is BB or Bb, do a <b>test cross</b> with the homozygous recessive <b>bb</b>: all black progeny → BB; 1 black : 1 white → Bb.</p>",
+     "hint": "Test cross partner = homozygous recessive."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक पौधे में काला बीज रंग (BB/Bb) सफ़ेद बीज रंग (bb) पर प्रभावी है। काले बीज वाले पौधे का जीनोटाइप ज्ञात करने के लिए आप इसका संकरण निम्नलिखित में से किस जीनोटाइप से करेंगे?",
+     "o": [
+      "bb",
+      "Bb",
+      "BB/Bb",
+      "BB"
+     ],
+     "sol": "<p>प्रभावी फीनोटाइप वाला पौधा BB है या Bb, यह जानने के लिए समयुग्मजी अप्रभावी <b>bb</b> के साथ <b>परीक्षार्थ संकरण</b> करें: सभी संतति काली → BB; 1 काली : 1 सफ़ेद → Bb।</p>",
+     "hint": "परीक्षार्थ संकरण का साथी = समयुग्मजी अप्रभावी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2418,10 +3006,22 @@
       "Red, Pink as well as white flowered plant",
       "Only red flowered plants",
       "Red flowered as well as pink flowered plant"
-     ]
+     ],
+     "sol": "<p>Incomplete dominance: pink Rr × red RR → RR (red) : Rr (pink) = 1 : 1. No white (rr) is possible. So red and pink flowered plants.</p>",
+     "hint": "Pink is heterozygous; red is homozygous."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक गुलाबी पुष्प वाले स्नेपड्रेगन पौधे का लाल पुष्प वाले स्नेपड्रेगन पौधे से संकरण कराया गया। संतति में किस प्रकार का/के फीनोटाइप अपेक्षित है/हैं?",
+     "o": [
+      "केवल गुलाबी पुष्प वाले पौधे",
+      "लाल, गुलाबी तथा सफ़ेद पुष्प वाले पौधे",
+      "केवल लाल पुष्प वाले पौधे",
+      "लाल पुष्प वाले तथा गुलाबी पुष्प वाले पौधे"
+     ],
+     "sol": "<p>अपूर्ण प्रभाविता: गुलाबी Rr × लाल RR → RR (लाल) : Rr (गुलाबी) = 1 : 1। सफ़ेद (rr) संभव नहीं। अतः लाल और गुलाबी पुष्प वाले पौधे।</p>",
+     "hint": "गुलाबी विषमयुग्मजी है; लाल समयुग्मजी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2464,10 +3064,22 @@
       "A-I, B-II, C-III, D-IV",
       "A-III, B-IV, C-I, D-II",
       "A-II, B-III, C-IV, D-I"
-     ]
+     ],
+     "sol": "<ul><li>Down's syndrome → trisomy 21 (III).</li><li>α-thalassemia → genes HBA1, HBA2 on chromosome 16 (IV).</li><li>β-thalassemia → gene HBB on chromosome 11 (I).</li><li>Klinefelter's syndrome → extra X (XXY) (II).</li></ul>",
+     "hint": "α on 16, β on 11 (NCERT)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>A. डाउन सिंड्रोम — I. 11वाँ क्रोमोसोम<br>B. α-थैलेसीमिया — II. 'X' क्रोमोसोम<br>C. β-थैलेसीमिया — III. 21वाँ क्रोमोसोम<br>D. क्लाइनफेल्टर सिंड्रोम — IV. 16वाँ क्रोमोसोम",
+     "o": [
+      "A-IV, B-I, C-II, D-III",
+      "A-I, B-II, C-III, D-IV",
+      "A-III, B-IV, C-I, D-II",
+      "A-II, B-III, C-IV, D-I"
+     ],
+     "sol": "<ul><li>डाउन सिंड्रोम → ट्राइसोमी 21 (III)।</li><li>α-थैलेसीमिया → क्रोमोसोम 16 पर जीन HBA1, HBA2 (IV)।</li><li>β-थैलेसीमिया → क्रोमोसोम 11 पर जीन HBB (I)।</li><li>क्लाइनफेल्टर सिंड्रोम → अतिरिक्त X (XXY) (II)।</li></ul>",
+     "hint": "α 16 पर, β 11 पर (NCERT)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2512,10 +3124,22 @@
       "Non-mendelian inheritance pattern",
       "Autosomal dominant pattern",
       "X-linked recessive inheritance pattern"
-     ]
+     ],
+     "sol": "<p>Polygenic traits (e.g. human skin colour) are controlled by several genes with additive effects and show continuous variation — they do not give Mendel's discrete ratios, so the pattern is <b>non-Mendelian</b>.</p>",
+     "hint": "Continuous variation, many genes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "बहुजीनी लक्षण की वंशागति का प्रतिरूप क्या है?",
+     "o": [
+      "मेंडलीय वंशागति प्रतिरूप",
+      "अमेंडलीय वंशागति प्रतिरूप",
+      "अलिंग प्रभावी प्रतिरूप",
+      "X-सहलग्न अप्रभावी वंशागति प्रतिरूप"
+     ],
+     "sol": "<p>बहुजीनी लक्षण (जैसे मानव त्वचा का रंग) अनेक जीनों के योगात्मक प्रभाव से नियंत्रित होते हैं और सतत विभिन्नता दर्शाते हैं — ये मेंडल के विविक्त अनुपात नहीं देते, अतः प्रतिरूप <b>अमेंडलीय</b> है।</p>",
+     "hint": "सतत विभिन्नता, अनेक जीन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2554,14 +3178,26 @@
      "status": "draft",
      "q": "Genes R and Y follow independent assortment. If RRYY produce round yellow seeds and rryy produce wrinkled green seeds, what will be the phenotypic ratio of the F<sub>2</sub> generation?",
      "o": [
-      "Phenotypic ratio - 1 : 2 : 1 .",
+      "Phenotypic ratio - 1 : 2 : 1",
       "Phenotypic ratio - 3 : 1",
       "Phenotypic ratio - 9 : 3 : 3 : 1",
-      "Phenotypic ratio - 9 : 7 n"
-     ]
+      "Phenotypic ratio - 9 : 7"
+     ],
+     "sol": "<p>RRYY × rryy → F<sub>1</sub> RrYy (round yellow). Selfing a dihybrid with independent assortment gives round yellow : round green : wrinkled yellow : wrinkled green = <b>9 : 3 : 3 : 1</b>.</p>",
+     "hint": "Mendel's dihybrid cross."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जीन R और Y स्वतंत्र अपव्यूहन का पालन करते हैं। यदि RRYY गोल पीले बीज और rryy झुर्रीदार हरे बीज उत्पन्न करते हैं, तो F<sub>2</sub> पीढ़ी का फीनोटाइप अनुपात क्या होगा?",
+     "o": [
+      "फीनोटाइप अनुपात - 1 : 2 : 1",
+      "फीनोटाइप अनुपात - 3 : 1",
+      "फीनोटाइप अनुपात - 9 : 3 : 3 : 1",
+      "फीनोटाइप अनुपात - 9 : 7"
+     ],
+     "sol": "<p>RRYY × rryy → F<sub>1</sub> RrYy (गोल पीले)। स्वतंत्र अपव्यूहन वाले द्विसंकर के स्वपरागण से गोल पीले : गोल हरे : झुर्रीदार पीले : झुर्रीदार हरे = <b>9 : 3 : 3 : 1</b>।</p>",
+     "hint": "मेंडल का द्विसंकर संकरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2604,10 +3240,22 @@
       "1/2",
       "1/8",
       "Zero"
-     ]
+     ],
+     "sol": "<p>In F<sub>1</sub> a carrier mother and a normal father have an affected son, and only males are affected: the disease is <b>X-linked recessive</b>. In F<sub>2</sub> a carrier female (X<sup>c</sup>X) marries her affected cousin (X<sup>c</sup>Y; double line = mating between relatives).</p><p>X<sup>c</sup>X × X<sup>c</sup>Y → X<sup>c</sup>X<sup>c</sup> (affected girl), X<sup>c</sup>X (carrier girl, no disease), X<sup>c</sup>Y (affected boy), XY (normal boy), each 1/4. A child with no disease who carries the mutation = X<sup>c</sup>X = <b>1/4</b>.</p>",
+     "hint": "Only carrier females can be disease-free and still carry the gene."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दी गई वंशावली की सहायता से F<sub>3</sub> पीढ़ी में ऐसी संतान के जन्म की प्रायिकता ज्ञात कीजिए जो रोगमुक्त हो तथा वाहक हो (जीन के एक अलील में रोग उत्परिवर्तन हो)।",
+     "o": [
+      "1/4",
+      "1/2",
+      "1/8",
+      "शून्य"
+     ],
+     "sol": "<p>F<sub>1</sub> में वाहक माता और सामान्य पिता से प्रभावित पुत्र होता है, तथा केवल नर प्रभावित हैं: रोग <b>X-सहलग्न अप्रभावी</b> है। F<sub>2</sub> में वाहक मादा (X<sup>c</sup>X) का विवाह उसके प्रभावित ममेरे/चचेरे भाई (X<sup>c</sup>Y) से होता है (दोहरी रेखा = संबंधियों के बीच संगम)।</p><p>X<sup>c</sup>X × X<sup>c</sup>Y → X<sup>c</sup>X<sup>c</sup> (प्रभावित पुत्री), X<sup>c</sup>X (वाहक पुत्री, रोगमुक्त), X<sup>c</sup>Y (प्रभावित पुत्र), XY (सामान्य पुत्र), प्रत्येक 1/4। रोगमुक्त परंतु उत्परिवर्तन वाली संतान = X<sup>c</sup>X = <b>1/4</b>।</p>",
+     "hint": "केवल वाहक मादा ही रोगमुक्त होते हुए जीन रख सकती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2617,7 +3265,8 @@
    "ncert": {
     "chapter": "bio12-04",
     "paras": [
-     "4.8.1"
+     "4.8.1",
+     "4.8.2"
     ]
    },
    "source": {
@@ -2636,7 +3285,7 @@
    "review": {
     "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)",
     "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
-    "note": "Pedigree chart in the paper; needs a redrawn figure."
+    "note": "Pedigree chart in the paper; needs a redrawn figure. X-linked recessive (affected son of carrier mother in F1); F2 = carrier female × affected male, consanguineous."
    }
   },
   {
@@ -2650,11 +3299,23 @@
       "0%",
       "50%",
       "25%",
-      "75% 26 Paper-(PCB)"
-     ]
+      "75%"
+     ],
+     "sol": "<p>Mother heterozygous A: I<sup>A</sup>i; father heterozygous B: I<sup>B</sup>i. Children: I<sup>A</sup>I<sup>B</sup>, I<sup>A</sup>i, I<sup>B</sup>i, ii — each 1/4. O group (ii) = <b>25%</b>.</p>",
+     "hint": "Each parent gives i with probability 1/2."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उन संतानों के 'O' रुधिर वर्ग होने की प्रायिकता क्या है, जिनकी माता और पिता क्रमशः 'A' और 'B' रुधिर वर्ग के लिए विषमयुग्मजी हैं?",
+     "o": [
+      "0%",
+      "50%",
+      "25%",
+      "75%"
+     ],
+     "sol": "<p>माता विषमयुग्मजी A: I<sup>A</sup>i; पिता विषमयुग्मजी B: I<sup>B</sup>i। संतानें: I<sup>A</sup>I<sup>B</sup>, I<sup>A</sup>i, I<sup>B</sup>i, ii — प्रत्येक 1/4। O वर्ग (ii) = <b>25%</b>।</p>",
+     "hint": "प्रत्येक जनक 1/2 प्रायिकता से i देता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2698,10 +3359,22 @@
       "A-I, B-III, C-II, D-IV",
       "A-II, B-IV, C-III, D-I",
       "A-II, B-I, C-III, D-IV"
-     ]
+     ],
+     "sol": "<ul><li>Incomplete dominance → flower colour in <i>Antirrhinum</i> (II).</li><li>Co-dominance → ABO blood group (IV).</li><li>Pleiotropy → phenylketonuria (III).</li><li>Polygenic inheritance → human skin colour (I).</li></ul>",
+     "hint": "Use NCERT's own example for each."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. अपूर्ण प्रभाविता — I. मानव त्वचा का रंग<br>B. सह-प्रभाविता — II. <i>ऐन्टीराइनम</i> जाति में पुष्प रंग की वंशागति<br>C. बहुप्रभाविता — III. मनुष्यों में फीनाइलकीटोनूरिया रोग<br>D. बहुजीनी वंशागति — IV. ABO रुधिर वर्ग",
+     "o": [
+      "A-I, B-IV, C-III, D-II",
+      "A-I, B-III, C-II, D-IV",
+      "A-II, B-IV, C-III, D-I",
+      "A-II, B-I, C-III, D-IV"
+     ],
+     "sol": "<ul><li>अपूर्ण प्रभाविता → <i>ऐन्टीराइनम</i> में पुष्प रंग (II)।</li><li>सह-प्रभाविता → ABO रुधिर वर्ग (IV)।</li><li>बहुप्रभाविता → फीनाइलकीटोनूरिया (III)।</li><li>बहुजीनी वंशागति → मानव त्वचा का रंग (I)।</li></ul>",
+     "hint": "प्रत्येक के लिए NCERT का अपना उदाहरण लें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2748,10 +3421,22 @@
       "Haemophilia",
       "Sickle-cell anaemia",
       "Thalassemia"
-     ]
+     ],
+     "sol": "<p>Sickle-cell anaemia: a single base substitution (GAG → GUG) replaces glutamic acid by valine at the sixth position of the β-globin chain; the mutant haemoglobin polymerises at low O<sub>2</sub> and RBCs become sickle shaped.</p>",
+     "hint": "Glu → Val, β chain, position 6."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा विकार हीमोग्लोबिन अणु की बीटा ग्लोबिन शृंखला के छठे स्थान पर ग्लूटैमिक अम्ल (Glu) के स्थान पर वेलीन (Val) के प्रतिस्थापन से होता है?",
+     "o": [
+      "फीनाइलकीटोनूरिया",
+      "हीमोफीलिया",
+      "दात्र कोशिका अरक्तता",
+      "थैलेसीमिया"
+     ],
+     "sol": "<p>दात्र कोशिका अरक्तता: एक क्षारक के प्रतिस्थापन (GAG → GUG) से β-ग्लोबिन शृंखला के छठे स्थान पर ग्लूटैमिक अम्ल के स्थान पर वेलीन आ जाता है; कम O<sub>2</sub> पर उत्परिवर्ती हीमोग्लोबिन बहुलकित होता है और RBC दात्राकार हो जाती हैं।</p>",
+     "hint": "Glu → Val, β शृंखला, स्थान 6।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2795,10 +3480,22 @@
       "A, B, C and D only",
       "B, C, D and E only",
       "A, B, D and E only"
-     ]
+     ],
+     "sol": "<ul><li>A ✓ fertilised egg → female (queen or worker).</li><li>B ✓ unfertilised egg → male (drone) by parthenogenesis.</li><li>C ✓ males are haploid (16), females diploid (32).</li><li>D ✗ males are haploid, so they make sperms by <b>mitosis</b>, not meiosis.</li><li>E ✓ this is the haplodiploid system.</li></ul><p><b>A, B, C and E only</b>.</p>",
+     "hint": "A haploid cell cannot undergo meiosis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मधुमक्खियों में लिंग निर्धारण के संदर्भ में निम्नलिखित में से कौन-से कथन सत्य हैं?<br>A. शुक्राणु और अंडे के संयोजन से बनी संतति मादा (रानी या श्रमिक) के रूप में विकसित होती है।<br>B. अनिषेचित अंडा अनिषेकजनन द्वारा नर के रूप में विकसित होता है।<br>C. नर में मादा की तुलना में आधे क्रोमोसोम होते हैं।<br>D. नर अर्धसूत्रण द्वारा शुक्राणु बनाते हैं।<br>E. मधुमक्खियों में अगुणित-द्विगुणित लिंग निर्धारण पद्धति होती है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A, B, C और E",
+      "केवल A, B, C और D",
+      "केवल B, C, D और E",
+      "केवल A, B, D और E"
+     ],
+     "sol": "<ul><li>A ✓ निषेचित अंडा → मादा (रानी या श्रमिक)।</li><li>B ✓ अनिषेचित अंडा → अनिषेकजनन से नर (पुंमधुप)।</li><li>C ✓ नर अगुणित (16), मादा द्विगुणित (32)।</li><li>D ✗ नर अगुणित हैं, अतः शुक्राणु अर्धसूत्रण से नहीं, <b>समसूत्रण</b> से बनाते हैं।</li><li>E ✓ यही अगुणित-द्विगुणित पद्धति है।</li></ul><p><b>केवल A, B, C और E</b>।</p>",
+     "hint": "अगुणित कोशिका में अर्धसूत्रण नहीं हो सकता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2842,10 +3539,22 @@
       "males and females, respectively",
       "all males",
       "all females"
-     ]
+     ],
+     "sol": "<p>Grasshoppers have XO sex determination: females XX, males XO with one chromosome fewer. So the 23-chromosome members are <b>males</b> and the 24-chromosome members are <b>females</b>.</p>",
+     "hint": "Male grasshopper lacks one X."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी टिड्डा जाति की एक समष्टि में कुछ सदस्यों में क्रोमोसोम संख्या 23 और कुछ अन्य सदस्यों में 24 क्रोमोसोम हैं। इस जाति में 23 और 24 क्रोमोसोम वाले सदस्य ___ हैं।",
+     "o": [
+      "क्रमशः मादा और नर",
+      "क्रमशः नर और मादा",
+      "सभी नर",
+      "सभी मादा"
+     ],
+     "sol": "<p>टिड्डों में XO लिंग निर्धारण होता है: मादा XX, नर XO जिसमें एक क्रोमोसोम कम होता है। अतः 23 क्रोमोसोम वाले सदस्य <b>नर</b> और 24 क्रोमोसोम वाले <b>मादा</b> हैं।</p>",
+     "hint": "नर टिड्डे में एक X कम होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2889,10 +3598,22 @@
       "Male grasshoppers",
       "Male earthworms",
       "Male frogs"
-     ]
+     ],
+     "sol": "<p>Male honeybees (drones) develop from unfertilised eggs and are haploid; their gametes are produced by <b>mitosis</b> of haploid cells. Male grasshoppers, earthworms and frogs are diploid and use meiosis.</p>",
+     "hint": "Haplodiploidy."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किस जंतु में अगुणित कोशिकाएँ समसूत्री विभाजन द्वारा युग्मक बनाती हैं?",
+     "o": [
+      "नर मधुमक्खी",
+      "नर टिड्डा",
+      "नर केंचुआ",
+      "नर मेंढक"
+     ],
+     "sol": "<p>नर मधुमक्खियाँ (पुंमधुप) अनिषेचित अंडों से विकसित होकर अगुणित होती हैं; उनके युग्मक अगुणित कोशिकाओं के <b>समसूत्रण</b> से बनते हैं। नर टिड्डे, केंचुए और मेंढक द्विगुणित हैं तथा अर्धसूत्रण करते हैं।</p>",
+     "hint": "अगुणित-द्विगुणिता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2936,10 +3657,22 @@
       "AUG",
       "GUG",
       "GAG"
-     ]
+     ],
+     "sol": "<p>Normal sixth codon of β-globin mRNA: GAG (Glu). In sickle-cell anaemia it becomes <b>GUG</b> (Val); the mutant haemoglobin polymerises under low O<sub>2</sub>, changing RBCs to sickle shape.</p>",
+     "hint": "Single base change A → U in the middle position."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "बीटा ग्लोबिन जीन का वह छठा उत्परिवर्ती कोडॉन जो हीमोग्लोबिन के बहुलकीकरण और RBC की आकृति में परिवर्तन का कारण बनता है, ___ है।",
+     "o": [
+      "CAG",
+      "AUG",
+      "GUG",
+      "GAG"
+     ],
+     "sol": "<p>β-ग्लोबिन mRNA का सामान्य छठा कोडॉन: GAG (Glu)। दात्र कोशिका अरक्तता में यह <b>GUG</b> (Val) हो जाता है; कम O<sub>2</sub> पर उत्परिवर्ती हीमोग्लोबिन बहुलकित होकर RBC को दात्राकार बना देता है।</p>",
+     "hint": "मध्य स्थान पर एकल क्षारक परिवर्तन A → U।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {

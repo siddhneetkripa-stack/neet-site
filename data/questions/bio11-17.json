@@ -68,10 +68,22 @@
       "Synovial joint",
       "Ball and socket joint",
       "Fibrous joint"
-     ]
+     ],
+     "sol": "<p>NCERT 17.4: <b>fibrous joints</b> do not allow any movement — e.g. the flat skull bones fused by dense fibrous connective tissue as sutures. Cartilaginous joints allow limited movement; synovial joints (including ball and socket) allow considerable movement.</p>",
+     "hint": "Skull sutures."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा जोड़ कोई गति नहीं होने देगा?",
+     "o": [
+      "उपास्थि युक्त जोड़",
+      "साइनोवियल जोड़",
+      "कंदुक खल्लिका संधि",
+      "रेशीय जोड़"
+     ],
+     "sol": "<p>NCERT 17.4: <b>रेशीय जोड़</b> किसी प्रकार की गति नहीं होने देते — जैसे कपाल की चपटी अस्थियाँ जो घने रेशीय संयोजी ऊतक द्वारा सीवन के रूप में जुड़ी होती हैं। उपास्थि युक्त जोड़ सीमित गति तथा साइनोवियल जोड़ (कंदुक खल्लिका सहित) काफी गति होने देते हैं।</p>",
+     "hint": "कपाल के सीवन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -114,10 +126,22 @@
       "Production of body heat",
       "Locomotion",
       "Production of erythrocytes"
-     ]
+     ],
+     "sol": "<p>The skeleton supports and protects the body, provides levers for locomotion, stores minerals (Ca<sup>2+</sup>, phosphate) and its red bone marrow produces blood cells including erythrocytes (NCERT 15.1.2). <b>Body heat</b> is produced mainly by muscle metabolism, not by the skeleton.</p>",
+     "hint": "Heat comes from muscles."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कंकाल तंत्र का कार्य नहीं है?",
+     "o": [
+      "खनिजों का संग्रह",
+      "शरीर ऊष्मा का उत्पादन",
+      "गमन",
+      "इरिथ्रोसाइट का उत्पादन"
+     ],
+     "sol": "<p>कंकाल शरीर को आधार तथा सुरक्षा देता है, गमन के लिए उत्तोलक प्रदान करता है, खनिजों (Ca<sup>2+</sup>, फॉस्फेट) का संग्रह करता है और इसकी लाल अस्थि मज्जा इरिथ्रोसाइट सहित रुधिर कोशिकाएँ बनाती है (NCERT 15.1.2)। <b>शरीर ऊष्मा</b> मुख्यतः पेशियों के उपापचय से बनती है, कंकाल से नहीं।</p>",
+     "hint": "ऊष्मा पेशियों से आती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -160,10 +184,22 @@
       "Fatigue",
       "Tetanus",
       "Tonus"
-     ]
+     ],
+     "sol": "<p>When stimuli arrive so rapidly that the muscle cannot relax between them, the twitches fuse into one smooth, sustained contraction — <b>tetanus</b>. Fatigue is loss of the ability to contract; tonus is a mild continuous partial contraction; a spasm is an involuntary contraction. (Not described in NCERT 17.2.2.)</p>",
+     "hint": "Summation of twitches."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निरंतर पेशी संकुचन में क्रमागत उद्दीपनों के बीच शिथिलन न होना कहलाता है :",
+     "o": [
+      "ऐंठन",
+      "श्रांति",
+      "टिटेनस (tetanus)",
+      "तान (tonus)"
+     ],
+     "sol": "<p>जब उद्दीपन इतनी तेजी से आते हैं कि पेशी उनके बीच शिथिल नहीं हो पाती, तो संकुचन मिलकर एक निरंतर संकुचन बनाते हैं — <b>टिटेनस</b>। श्रांति संकुचन क्षमता का ह्रास है; तान हल्का निरंतर आंशिक संकुचन है; ऐंठन अनैच्छिक संकुचन है। (NCERT 17.2.2 में वर्णित नहीं।)</p>",
+     "hint": "संकुचनों का योग।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -207,10 +243,22 @@
       "Voluntary, multinucleate, cylindrical",
       "Involuntary, cylindrical, striated",
       "Voluntary, spindle-shaped, uninucleate"
-     ]
+     ],
+     "sol": "<p>NCERT 17.2: smooth (visceral) muscles are non-striated and <b>involuntary</b>; their cells are spindle-shaped (<b>fusiform</b>) with a single nucleus.</p>",
+     "hint": "Visceral muscle."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "चिकनी पेशियाँ होती हैं",
+     "o": [
+      "अनैच्छिक, तर्कुरूप, अरेखित",
+      "ऐच्छिक, बहुकेंद्रकी, बेलनाकार",
+      "अनैच्छिक, बेलनाकार, रेखित",
+      "ऐच्छिक, तर्कुरूप, एककेंद्रकी"
+     ],
+     "sol": "<p>NCERT 17.2: चिकनी (अंतरंग) पेशियाँ अरेखित तथा <b>अनैच्छिक</b> होती हैं; इनकी कोशिकाएँ तर्कुरूप (<b>फ्यूसीफॉर्म</b>) तथा एककेंद्रकी होती हैं।</p>",
+     "hint": "अंतरंग पेशी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -253,10 +301,22 @@
       "Magnesium",
       "Sodium",
       "Potassium"
-     ]
+     ],
+     "sol": "<p>NCERT 17.2.2: Ca<sup>++</sup> released from the sarcoplasmic reticulum binds a subunit of troponin on actin and removes the masking of the active sites, so myosin heads can form cross bridges. Answer: <b>calcium</b>.</p>",
+     "hint": "Binds troponin."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पेशी संकुचन के दौरान अनुप्रस्थ सेतु क्रिया के लिए मायोसिन हेतु सक्रिय स्थानों को खोलने के लिए उत्तरदायी आयन का नाम बताइए।",
+     "o": [
+      "कैल्सियम",
+      "मैग्नीशियम",
+      "सोडियम",
+      "पोटैशियम"
+     ],
+     "sol": "<p>NCERT 17.2.2: पेशीद्रव्य जालिका से मुक्त Ca<sup>++</sup> एक्टिन पर ट्रोपोनिन की उप-इकाई से बंध बनाकर ढके हुए सक्रिय स्थानों को खोल देता है, जिससे मायोसिन शीर्ष क्रास सेतु बना सकते हैं। उत्तर: <b>कैल्सियम</b>।</p>",
+     "hint": "ट्रोपोनिन से बंधता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -299,10 +359,22 @@
       "High concentration of Ca<sup>2+</sup> and Na<sup>+</sup>",
       "Decreased level of estrogen",
       "Accumulation of uric acid leading to inflammation of joints"
-     ]
+     ],
+     "sol": "<p>NCERT 17.5: osteoporosis is an age-related disorder with decreased bone mass and higher chances of fracture; <b>decreased levels of estrogen</b> is a common cause. Option 1 is myasthenia gravis; option 4 is gout.</p>",
+     "hint": "Common after menopause."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कंकाल तंत्र का आयु-संबंधी रोग अस्थि सुषिरता किसके कारण हो सकता है?",
+     "o": [
+      "तंत्रिका-पेशी संधि को प्रभावित करने वाला प्रतिरक्षा विकार जिससे थकान होती है",
+      "Ca<sup>2+</sup> तथा Na<sup>+</sup> की उच्च सांद्रता",
+      "एस्ट्रोजन के स्तर में कमी",
+      "यूरिक अम्ल के जमाव से जोड़ों की शोथ"
+     ],
+     "sol": "<p>NCERT 17.5: अस्थि सुषिरता उम्र संबंधित विकार है जिसमें अस्थि के पदार्थों में कमी से अस्थि भंग की प्रबल संभावना होती है; <b>एस्ट्रोजन स्तर में कमी</b> इसका सामान्य कारक है। विकल्प 1 माइस्थेनिया ग्रेविस है; विकल्प 4 गाउट है।</p>",
+     "hint": "रजोनिवृत्ति के बाद सामान्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -346,10 +418,22 @@
       "Cartilaginous joint",
       "Synovial joint",
       "Saddle joint"
-     ]
+     ],
+     "sol": "<p>NCERT 17.4: the pivot joint (between atlas and axis) is one of the <b>synovial joints</b>, along with ball and socket, hinge, gliding and saddle joints. Saddle joint is a different synovial joint.</p>",
+     "hint": "Fluid-filled cavity type."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एटलस तथा अक्ष के बीच धुराग्र संधि किस प्रकार की है?",
+     "o": [
+      "रेशीय जोड़",
+      "उपास्थि युक्त जोड़",
+      "साइनोवियल जोड़",
+      "सैडल जोड़"
+     ],
+     "sol": "<p>NCERT 17.4: धुराग्र संधि (एटलस और अक्ष के बीच) कंदुक खल्लिका, कब्जा, विसर्पी तथा सैडल जोड़ों के साथ <b>साइनोवियल जोड़ों</b> में से एक है। सैडल जोड़ एक अलग साइनोवियल जोड़ है।</p>",
+     "hint": "द्रव से भरी गुहा वाला प्रकार।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -392,10 +476,22 @@
       "X = 12, Y = 5: True ribs are attached dorsally to vertebral column and sternum on the two ends",
       "X = 24, Y = 7: True ribs are dorsally attached to vertebral column but are free on ventral side",
       "X = 24, Y = 12: True ribs are dorsally attached to vertebral column but are free on ventral side"
-     ]
+     ],
+     "sol": "<p>NCERT 17.3: there are <b>12 pairs</b> of ribs; the first <b>7 pairs</b> are true ribs, attached dorsally to the thoracic vertebrae and ventrally to the sternum with the help of hyaline cartilage. X = 12, Y = 7.</p>",
+     "hint": "7 true, 3 false, 2 floating."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मनुष्य में पसलियों की 'X' जोड़ियों में से केवल 'Y' जोड़ी वास्तविक पसलियाँ हैं। X तथा Y के मान सही दर्शाने वाला तथा उनकी व्याख्या देने वाला विकल्प चुनिए :",
+     "o": [
+      "X = 12, Y = 7: वास्तविक पसलियाँ पृष्ठ में कशेरुक दंड से तथा अधर में उरोस्थि से जुड़ी होती हैं",
+      "X = 12, Y = 5: वास्तविक पसलियाँ दोनों सिरों पर कशेरुक दंड तथा उरोस्थि से जुड़ी होती हैं",
+      "X = 24, Y = 7: वास्तविक पसलियाँ पृष्ठ में कशेरुक दंड से जुड़ी होती हैं परंतु अधर में स्वतंत्र होती हैं",
+      "X = 24, Y = 12: वास्तविक पसलियाँ पृष्ठ में कशेरुक दंड से जुड़ी होती हैं परंतु अधर में स्वतंत्र होती हैं"
+     ],
+     "sol": "<p>NCERT 17.3: पसलियों की <b>12 जोड़ियाँ</b> होती हैं; प्रथम <b>7 जोड़ी</b> वास्तविक पसलियाँ हैं, जो पृष्ठ में वक्षीय कशेरुकों से तथा अधर में काचाभ उपास्थि की सहायता से उरोस्थि से जुड़ी होती हैं। X = 12, Y = 7।</p>",
+     "hint": "7 वास्तविक, 3 कूट, 2 प्लावी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -438,10 +534,22 @@
       "Progesterone and Aldosterone",
       "Aldosterone and Prolactin",
       "Parathyroid hormone and Prolactin"
-     ]
+     ],
+     "sol": "<p>NCERT 17.5: decreased <b>estrogen</b> is a common cause of osteoporosis. <b>Parathyroid hormone</b> raises blood Ca<sup>2+</sup> by stimulating bone resorption (demineralisation) (NCERT 19.2.5), so excess PTH also leads to bone loss.</p>",
+     "hint": "Bone loss hormones."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से हार्मोन अस्थि सुषिरता में महत्वपूर्ण भूमिका निभा सकते हैं?",
+     "o": [
+      "एस्ट्रोजन तथा पैराथाइरॉइड हार्मोन",
+      "प्रोजेस्टेरॉन तथा एल्डोस्टीरोन",
+      "एल्डोस्टीरोन तथा प्रोलैक्टिन",
+      "पैराथाइरॉइड हार्मोन तथा प्रोलैक्टिन"
+     ],
+     "sol": "<p>NCERT 17.5: <b>एस्ट्रोजन</b> स्तर में कमी अस्थि सुषिरता का सामान्य कारक है। <b>पैराथाइरॉइड हार्मोन</b> अस्थि अवशोषण (विखनिजीकरण) को प्रेरित कर रक्त में Ca<sup>2+</sup> बढ़ाता है (NCERT 19.2.5), अतः अधिक PTH से भी अस्थि क्षय होता है।</p>",
+     "hint": "अस्थि क्षय वाले हार्मोन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -487,10 +595,22 @@
       "activates the myosin ATPase by binding to it.",
       "binds to troponin to remove the masking of active sites on actin for myosin.",
       "prevents the formation of bonds between the myosin cross bridges and the actin filament."
-     ]
+     ],
+     "sol": "<p>NCERT 17.2.2: Ca<sup>++</sup> <b>binds to troponin</b> on the actin filament and removes the masking of the active sites for myosin, allowing cross-bridge formation. It does not bind myosin ATPase, and it promotes (not prevents) cross-bridge formation.</p>",
+     "hint": "Troponin."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कंकाल पेशी संकुचन में कैल्सियम महत्वपूर्ण है, क्योंकि यह :",
+     "o": [
+      "मायोसिन शीर्ष को एक्टिन तंतु से अलग करता है।",
+      "मायोसिन ATPase से बंधकर उसे सक्रिय करता है।",
+      "ट्रोपोनिन से बंधकर एक्टिन पर मायोसिन के लिए सक्रिय स्थानों को खोलता है।",
+      "मायोसिन क्रास सेतुओं तथा एक्टिन तंतु के बीच बंध बनने से रोकता है।"
+     ],
+     "sol": "<p>NCERT 17.2.2: Ca<sup>++</sup> एक्टिन तंतु पर <b>ट्रोपोनिन से बंधकर</b> मायोसिन के लिए ढके हुए सक्रिय स्थानों को खोल देता है, जिससे क्रास सेतु बनते हैं। यह मायोसिन ATPase से नहीं बंधता, और क्रास सेतु बनने को बढ़ाता है (रोकता नहीं)।</p>",
+     "hint": "ट्रोपोनिन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -533,10 +653,22 @@
       "There are seven pairs of vertebrosternal, three pairs of vertebrochondral and two pairs of vertebral ribs.",
       "8th, 9th and 10th pairs of ribs articulate directly with the sternum.",
       "11th and 12th pairs of ribs are connected to the sternum with the help of hyaline cartilage."
-     ]
+     ],
+     "sol": "<p>NCERT 17.3: ribs 1–7 are true (vertebrosternal) ribs, 8–10 are vertebrochondral (false) ribs joined to the 7th rib by hyaline cartilage, and 11–12 are floating (vertebral) ribs not connected ventrally. So option 2 is correct. Option 1 fails for floating ribs; option 3 — 8th–10th do not articulate directly with the sternum; option 4 — 11th and 12th are free ventrally.</p>",
+     "hint": "7 + 3 + 2."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही विकल्प चुनिए।",
+     "o": [
+      "प्रत्येक पसली एक चपटी पतली अस्थि है तथा सभी पसलियाँ पृष्ठ में वक्षीय कशेरुकों से तथा अधर में उरोस्थि से जुड़ी होती हैं।",
+      "वर्टिब्रोस्टर्नल पसलियों की सात जोड़ियाँ, वर्टिब्रोकांड्रल पसलियों की तीन जोड़ियाँ तथा वर्टिब्रल पसलियों की दो जोड़ियाँ होती हैं।",
+      "8वीं, 9वीं तथा 10वीं जोड़ी पसलियाँ उरोस्थि से सीधे संधियोजित होती हैं।",
+      "11वीं तथा 12वीं जोड़ी पसलियाँ काचाभ उपास्थि की सहायता से उरोस्थि से जुड़ी होती हैं।"
+     ],
+     "sol": "<p>NCERT 17.3: पसलियाँ 1–7 वास्तविक (वर्टिब्रोस्टर्नल) पसलियाँ हैं, 8–10 वर्टिब्रोकांड्रल (कूट) पसलियाँ हैं जो काचाभ उपास्थि द्वारा सातवीं पसली से जुड़ती हैं, तथा 11–12 प्लावी पसलियाँ (वर्टिब्रल) हैं जो अधर में जुड़ी नहीं होतीं। अतः विकल्प 2 सही है। विकल्प 1 प्लावी पसलियों पर लागू नहीं; विकल्प 3 — 8वीं–10वीं उरोस्थि से सीधे संधियोजित नहीं होतीं; विकल्प 4 — 11वीं तथा 12वीं अधर में स्वतंत्र होती हैं।</p>",
+     "hint": "7 + 3 + 2।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -579,10 +711,22 @@
       "Botulism",
       "Tetany",
       "Muscular dystrophy"
-     ]
+     ],
+     "sol": "<p>NCERT 17.5: <b>muscular dystrophy</b> is progressive degeneration of skeletal muscle, mostly due to a genetic disorder — it is inherited. Myasthenia gravis is autoimmune; botulism is bacterial poisoning; tetany is due to low Ca<sup>++</sup>.</p>",
+     "hint": "Genetic degeneration."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा पेशीय विकार वंशागत है?",
+     "o": [
+      "माइस्थेनिया ग्रेविस",
+      "बोटुलिज्म",
+      "अपतानिका",
+      "पेशीय दुष्पोषण"
+     ],
+     "sol": "<p>NCERT 17.5: <b>पेशीय दुष्पोषण</b> कंकाल पेशी का अनुक्रमित अपह्रासन है, जो मुख्यतः आनुवंशिक विकार के कारण होता है — यह वंशागत है। माइस्थेनिया ग्रेविस स्वप्रतिरक्षा विकार है; बोटुलिज्म जीवाणु विषाक्तता है; अपतानिका Ca<sup>++</sup> की कमी से होती है।</p>",
+     "hint": "आनुवंशिक अपह्रासन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -625,10 +769,22 @@
       "(a) iv, (b) iii, (c) i, (d) ii",
       "(a) ii, (b) iv, (c) i, (d) iii",
       "(a) i, (b) iii, (c) ii, (d) iv"
-     ]
+     ],
+     "sol": "<ul><li>(a) Floating ribs (11th, 12th) — do not connect with the sternum (iv).</li><li>(b) Acromion — articulates with the clavicle (iii).</li><li>(c) Scapula — located between the second and seventh ribs (i).</li><li>(d) Glenoid cavity — articulates with the head of the humerus (ii).</li></ul><p>(a) iv, (b) iii, (c) i, (d) ii (NCERT 17.3).</p>",
+     "hint": "Shoulder joint = glenoid + humerus."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित स्तंभों का मिलान कीजिए तथा सही विकल्प चुनिए :<br>(a) प्लावी पसलियाँ — (i) दूसरी तथा सातवीं पसली के बीच स्थित<br>(b) एक्रोमिन — (ii) ह्युमूरस का शीर्ष<br>(c) स्कैपुला — (iii) क्लैविकल<br>(d) ग्लीनॉयड गुहा — (iv) उरोस्थि से नहीं जुड़तीं",
+     "o": [
+      "(a) iii, (b) ii, (c) iv, (d) i",
+      "(a) iv, (b) iii, (c) i, (d) ii",
+      "(a) ii, (b) iv, (c) i, (d) iii",
+      "(a) i, (b) iii, (c) ii, (d) iv"
+     ],
+     "sol": "<ul><li>(a) प्लावी पसलियाँ (11वीं, 12वीं) — उरोस्थि से नहीं जुड़तीं (iv)।</li><li>(b) एक्रोमिन — क्लैविकल से संधियोजन (iii)।</li><li>(c) स्कैपुला — दूसरी एवं सातवीं पसली के बीच स्थित (i)।</li><li>(d) ग्लीनॉयड गुहा — ह्युमूरस के शीर्ष से संधियोजन (ii)।</li></ul><p>(a) iv, (b) iii, (c) i, (d) ii (NCERT 17.3)।</p>",
+     "hint": "कंधे का जोड़ = ग्लीनॉयड + ह्युमूरस।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -671,10 +827,22 @@
       "Arthritis",
       "Muscular dystrophy",
       "Myasthenia gravis"
-     ]
+     ],
+     "sol": "<p>NCERT 17.5: <b>myasthenia gravis</b> is an autoimmune disorder affecting the neuromuscular junction, leading to fatigue, weakening and paralysis of skeletal muscle.</p>",
+     "hint": "Autoimmune + neuromuscular junction."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "तंत्रिका-पेशीय संधि को प्रभावित करने वाला चिरकालिक स्वप्रतिरक्षा विकार, जिससे कंकाल पेशी में थकान, कमजोरी तथा पक्षाघात होता है, कहलाता है :",
+     "o": [
+      "गाउट",
+      "संधि शोथ",
+      "पेशीय दुष्पोषण",
+      "माइस्थेनिया ग्रेविस"
+     ],
+     "sol": "<p>NCERT 17.5: <b>माइस्थेनिया ग्रेविस</b> एक स्वप्रतिरक्षा विकार है जो तंत्रिका-पेशी संधि को प्रभावित करता है, जिससे थकान, कमजोरी और कंकाली पेशियों का पक्षाघात होता है।</p>",
+     "hint": "स्वप्रतिरक्षा + तंत्रिका-पेशी संधि।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -717,10 +885,22 @@
       "(a), (c), (d), (e) only",
       "(a), (b), (c), (d) only",
       "(b), (c), (d), (e) only"
-     ]
+     ],
+     "sol": "<p>NCERT 17.2.2 (sliding filament theory): during contraction (a) the H zone disappears, (c) the I band shortens, (d) myosin hydrolyses ATP and releases ADP and P<sub>i</sub>, and (e) the Z-lines attached to actin are pulled inwards. (b) is wrong — the A band keeps its length. Answer: (a), (c), (d), (e) only.</p>",
+     "hint": "A band length is constant."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पेशी संकुचन के दौरान निम्नलिखित में से कौन-सी घटनाएँ होती हैं?<br>(a) 'H' क्षेत्र लुप्त हो जाता है<br>(b) 'A' बैंड चौड़ा हो जाता है<br>(c) 'I' बैंड की चौड़ाई घट जाती है<br>(d) मायोसिन ATP का जल अपघटन कर ADP तथा Pi मुक्त करता है<br>(e) एक्टिन से जुड़ी Z-रेखाएँ अंदर की ओर खिंचती हैं<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।",
+     "o": [
+      "केवल (b), (d), (e), (a)",
+      "केवल (a), (c), (d), (e)",
+      "केवल (a), (b), (c), (d)",
+      "केवल (b), (c), (d), (e)"
+     ],
+     "sol": "<p>NCERT 17.2.2 (सर्पी तंतु सिद्धांत): संकुचन के दौरान (a) H क्षेत्र लुप्त हो जाता है, (c) I बैंड छोटा होता है, (d) मायोसिन ATP का जल अपघटन कर ADP तथा P<sub>i</sub> मुक्त करता है, तथा (e) एक्टिन से जुड़ी Z-रेखाएँ अंदर की ओर खिंचती हैं। (b) गलत है — A बैंड की लंबाई वही रहती है। उत्तर: केवल (a), (c), (d), (e)।</p>",
+     "hint": "A बैंड की लंबाई स्थिर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -764,10 +944,22 @@
       "(a) i, (b) iii, (c) ii, (d) iv",
       "(a) ii, (b) iii, (c) iv, (d) i",
       "(a) iv, (b) ii, (c) iii, (d) i"
-     ]
+     ],
+     "sol": "<ul><li>(a) Scapula — large triangular flat bone (iv).</li><li>(b) Cranium — flat skull bones joined by fibrous joints (sutures) (iii).</li><li>(c) Sternum — a flat bone on the mid-ventral line of the thorax (ii).</li><li>(d) Vertebral column — cartilaginous joints between adjacent vertebrae (i).</li></ul><p>(a) iv, (b) iii, (c) ii, (d) i (NCERT 17.3, 17.4).</p>",
+     "hint": "Sutures are fibrous."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(a) स्कैपुला — (i) उपास्थि युक्त जोड़<br>(b) कपाल — (ii) चपटी अस्थि<br>(c) उरोस्थि — (iii) रेशीय जोड़<br>(d) कशेरुक दंड — (iv) त्रिभुजाकार चपटी अस्थि",
+     "o": [
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) i, (b) iii, (c) ii, (d) iv",
+      "(a) ii, (b) iii, (c) iv, (d) i",
+      "(a) iv, (b) ii, (c) iii, (d) i"
+     ],
+     "sol": "<ul><li>(a) स्कैपुला — बड़ी त्रिभुजाकार चपटी अस्थि (iv)।</li><li>(b) कपाल — रेशीय जोड़ों (सीवन) से जुड़ी चपटी अस्थियाँ (iii)।</li><li>(c) उरोस्थि — वक्ष की मध्य अधर रेखा पर स्थित चपटी अस्थि (ii)।</li><li>(d) कशेरुक दंड — निकटवर्ती कशेरुकों के बीच उपास्थि युक्त जोड़ (i)।</li></ul><p>(a) iv, (b) iii, (c) ii, (d) i (NCERT 17.3, 17.4)।</p>",
+     "hint": "सीवन रेशीय होते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -812,10 +1004,22 @@
       "(A) is correct but (R) is not correct",
       "(A) is not correct but (R) is correct",
       "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
-     ]
+     ],
+     "sol": "<p>NCERT 17.5: Assertion (A) is correct — osteoporosis is decreased bone mass with increased chances of fracture. Reason (R) is <b>not correct</b> — the common cause is <i>decreased</i> levels of estrogen.</p>",
+     "hint": "Estrogen falls, not rises."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) तथा दूसरे को कारण (R) कहा गया है :<br>अभिकथन (A): अस्थि सुषिरता में अस्थि द्रव्यमान घट जाता है तथा अस्थि भंग की संभावना बढ़ जाती है।<br>कारण (R): अस्थि सुषिरता का सामान्य कारण एस्ट्रोजन का बढ़ा हुआ स्तर है।<br>उपरोक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "(A) तथा (R) दोनों सही हैं परंतु (R), (A) की सही व्याख्या नहीं है",
+      "(A) सही है परंतु (R) सही नहीं है",
+      "(A) सही नहीं है परंतु (R) सही है",
+      "(A) तथा (R) दोनों सही हैं तथा (R), (A) की सही व्याख्या है"
+     ],
+     "sol": "<p>NCERT 17.5: अभिकथन (A) सही है — अस्थि सुषिरता में अस्थि पदार्थ घटता है तथा अस्थि भंग की संभावना बढ़ती है। कारण (R) <b>सही नहीं</b> है — सामान्य कारण एस्ट्रोजन स्तर में <i>कमी</i> है।</p>",
+     "hint": "एस्ट्रोजन घटता है, बढ़ता नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -858,10 +1062,22 @@
       "Areolar tissue",
       "Smooth muscle",
       "Intercalated discs"
-     ]
+     ],
+     "sol": "<p>NCERT 17.4: adjacent vertebrae of the vertebral column are joined by <b>cartilage</b> (cartilaginous joints, intervertebral discs), allowing limited movement. Intercalated discs are found in cardiac muscle.</p>",
+     "hint": "Intervertebral discs."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कशेरुक दंड की निकटवर्ती अस्थियों के बीच निम्नलिखित में से क्या उपस्थित होता है?",
+     "o": [
+      "उपास्थि",
+      "गर्तिकामय ऊतक",
+      "चिकनी पेशी",
+      "अंतर्विष्ट डिस्क"
+     ],
+     "sol": "<p>NCERT 17.4: कशेरुक दंड के दो निकटवर्ती कशेरुक <b>उपास्थि</b> द्वारा जुड़े होते हैं (उपास्थि युक्त जोड़, अंतर कशेरुकी डिस्क), जो सीमित गति होने देते हैं। अंतर्विष्ट डिस्क हृद पेशी में पाई जाती हैं।</p>",
+     "hint": "अंतर कशेरुकी डिस्क।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -904,10 +1120,22 @@
       "Myasthenia gravis – Genetic disorder resulting in weakening and paralysis of skeletal muscle",
       "Muscular dystrophy – An auto immune disorder causing progressive degeneration of skeletal muscle",
       "Arthritis – Inflamed joints"
-     ]
+     ],
+     "sol": "<p>NCERT 17.5: <b>arthritis — inflammation of joints</b> is the correct match. The others are wrong: tetany is due to <i>low</i> Ca<sup>++</sup>; myasthenia gravis is autoimmune (not genetic); muscular dystrophy is mostly genetic (not autoimmune).</p>",
+     "hint": "Two descriptions are swapped."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "रोग तथा उसके लक्षण का सही मिलान निम्नलिखित में से कौन-सा है?",
+     "o": [
+      "अपतानिका – उच्च Ca<sup>2+</sup> स्तर से तीव्र ऐंठन",
+      "माइस्थेनिया ग्रेविस – आनुवंशिक विकार जिससे कंकाल पेशी में कमजोरी तथा पक्षाघात होता है",
+      "पेशीय दुष्पोषण – स्वप्रतिरक्षा विकार जिससे कंकाल पेशी का अनुक्रमित अपह्रासन होता है",
+      "संधि शोथ – जोड़ों की शोथ"
+     ],
+     "sol": "<p>NCERT 17.5: <b>संधि शोथ — जोड़ों की शोथ</b> सही मिलान है। अन्य गलत हैं: अपतानिका Ca<sup>++</sup> की <i>कमी</i> से होती है; माइस्थेनिया ग्रेविस स्वप्रतिरक्षा विकार है (आनुवंशिक नहीं); पेशीय दुष्पोषण मुख्यतः आनुवंशिक है (स्वप्रतिरक्षा नहीं)।</p>",
+     "hint": "दो विवरण आपस में बदले गए हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -950,10 +1178,22 @@
       "A-III, B-I, C-II, D-IV",
       "A-II, B-IV, C-I, D-III",
       "A-I, B-IV, C-III, D-II"
-     ]
+     ],
+     "sol": "<ul><li>(A) Cartilaginous joint — between adjacent vertebrae (II).</li><li>(B) Ball and socket joint — between humerus and pectoral girdle (IV).</li><li>(C) Fibrous joint — between flat skull bones (I).</li><li>(D) Saddle joint — between carpal and metacarpal of the thumb (III).</li></ul><p>A-II, B-IV, C-I, D-III (NCERT 17.4).</p>",
+     "hint": "Thumb = saddle."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>सूची-I (जोड़ का प्रकार) — सूची-II (किनके बीच पाया जाता है)<br>(A) उपास्थि युक्त जोड़ — (I) कपाल की चपटी अस्थियों के बीच<br>(B) कंदुक खल्लिका संधि — (II) कशेरुक दंड में निकटवर्ती कशेरुकों के बीच<br>(C) रेशीय जोड़ — (III) अंगूठे के कार्पल तथा मेटाकार्पल के बीच<br>(D) सैडल जोड़ — (IV) ह्युमूरस तथा अंस मेखला के बीच",
+     "o": [
+      "A-II, B-IV, C-III, D-I",
+      "A-III, B-I, C-II, D-IV",
+      "A-II, B-IV, C-I, D-III",
+      "A-I, B-IV, C-III, D-II"
+     ],
+     "sol": "<ul><li>(A) उपास्थि युक्त जोड़ — निकटवर्ती कशेरुकों के बीच (II)।</li><li>(B) कंदुक खल्लिका संधि — ह्युमूरस और अंस मेखला के बीच (IV)।</li><li>(C) रेशीय जोड़ — कपाल की चपटी अस्थियों के बीच (I)।</li><li>(D) सैडल जोड़ — अंगूठे के कार्पल और मेटाकार्पल के बीच (III)।</li></ul><p>A-II, B-IV, C-I, D-III (NCERT 17.4)।</p>",
+     "hint": "अंगूठा = सैडल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -996,10 +1236,22 @@
       "A, B and C only",
       "B and C only",
       "A, C and D only"
-     ]
+     ],
+     "sol": "<p>NCERT 17.2.1:</p><ul><li>A — wrong: the bundles (fascicles) are held together by a collagenous connective tissue layer called <i>fascia</i>, not fascicle.</li><li>B — correct: the sarcoplasmic reticulum is the store house of Ca<sup>2+</sup>.</li><li>C — correct: the striated appearance is due to the distribution pattern of actin and myosin.</li><li>D — wrong: the portion between two successive Z-lines is the sarcomere, the functional unit; the M-line only holds the thick filaments together.</li></ul><p>B and C only.</p>",
+     "hint": "Fascia vs fascicle; Z-line vs M-line."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कंकाल पेशी के संबंध में निम्नलिखित में से कौन-से कथन सही हैं?<br>A. पेशी बंडल पूलिका (fascicle) नामक कोलैजनी संयोजी ऊतक स्तर द्वारा एक साथ जुड़े रहते हैं।<br>B. पेशी रेशे की पेशीद्रव्य जालिका कैल्सियम आयनों का भंडार गृह है।<br>C. कंकाल पेशी रेशे का रेखित रूप एक्टिन तथा मायोसिन प्रोटीनों के वितरण प्रतिरूप के कारण होता है।<br>D. M रेखा को संकुचन की कार्यात्मक इकाई सार्कोमियर माना जाता है।<br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "केवल C तथा D",
+      "केवल A, B तथा C",
+      "केवल B तथा C",
+      "केवल A, C तथा D"
+     ],
+     "sol": "<p>NCERT 17.2.1:</p><ul><li>A — गलत: बंडल (पूलिकाएँ) कोलैजनी संयोजी ऊतक स्तर से घिरे रहते हैं जिसे <i>संपट्ट</i> (fascia) कहते हैं, पूलिका नहीं।</li><li>B — सही: पेशीद्रव्य जालिका Ca<sup>2+</sup> का भंडार गृह है।</li><li>C — सही: रेखित रूप एक्टिन तथा मायोसिन के वितरण प्रतिरूप के कारण है।</li><li>D — गलत: दो क्रमागत Z-रेखाओं के बीच का भाग सार्कोमियर (कार्यात्मक इकाई) है; M-रेखा केवल मोटे तंतुओं को जोड़ती है।</li></ul><p>केवल B तथा C।</p>",
+     "hint": "संपट्ट बनाम पूलिका; Z-रेखा बनाम M-रेखा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1044,10 +1296,22 @@
       "A, B & E only",
       "B, C & E only",
       "C, D & E only"
-     ]
+     ],
+     "sol": "<p>Autoimmune disorders: <b>myasthenia gravis</b> (NCERT 17.5), <b>rheumatoid arthritis</b> (NCERT 7.2.6, Class 12) and <b>systemic lupus erythematosus</b>. Gout is due to uric acid crystals; muscular dystrophy is mostly genetic. A, B & E only.</p>",
+     "hint": "Gout and dystrophy are not immune."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से स्वप्रतिरक्षा विकार हैं?<br>A. माइस्थेनिया ग्रेविस<br>B. आमवाती संधिशोथ<br>C. गाउट<br>D. पेशीय दुष्पोषण<br>E. सिस्टेमिक ल्यूपस एरिथेमेटोसस (SLE)<br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "केवल A, B तथा D",
+      "केवल A, B तथा E",
+      "केवल B, C तथा E",
+      "केवल C, D तथा E"
+     ],
+     "sol": "<p>स्वप्रतिरक्षा विकार: <b>माइस्थेनिया ग्रेविस</b> (NCERT 17.5), <b>आमवाती संधिशोथ</b> (NCERT 7.2.6, कक्षा 12) तथा <b>सिस्टेमिक ल्यूपस एरिथेमेटोसस</b>। गाउट यूरिक अम्ल कणों के कारण होता है; पेशीय दुष्पोषण मुख्यतः आनुवंशिक है। केवल A, B तथा E।</p>",
+     "hint": "गाउट तथा दुष्पोषण प्रतिरक्षा विकार नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1093,10 +1357,22 @@
       "(a) Skeletal – Triceps; (b) Smooth – Stomach; (c) Cardiac – Heart",
       "(a) Skeletal – Biceps; (b) Involuntary – Intestine; (c) Smooth – Heart",
       "(a) Involuntary – Nose tip; (b) Skeletal – Bone; (c) Cardiac – Heart"
-     ]
+     ],
+     "sol": "<p>In the figure, (a) has long cylindrical striated fibres — <b>skeletal</b> muscle (e.g. triceps); (b) has spindle-shaped non-striated cells — <b>smooth</b> muscle (e.g. stomach wall); (c) has branched striated cells joined end to end — <b>cardiac</b> muscle (heart) (NCERT 17.2). Option 2.</p>",
+     "hint": "Branched striated = cardiac."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "तीन प्रकार की पेशियाँ a, b तथा c के रूप में दी गई हैं। मानव शरीर में उनकी स्थिति के साथ सही मिलान वाला युग्म पहचानिए :",
+     "o": [
+      "(a) चिकनी – पैर की अंगुलियाँ; (b) कंकाल – टाँगें; (c) हृद – हृदय",
+      "(a) कंकाल – ट्राइसेप्स; (b) चिकनी – आमाशय; (c) हृद – हृदय",
+      "(a) कंकाल – बाइसेप्स; (b) अनैच्छिक – आंत्र; (c) चिकनी – हृदय",
+      "(a) अनैच्छिक – नाक का सिरा; (b) कंकाल – अस्थि; (c) हृद – हृदय"
+     ],
+     "sol": "<p>चित्र में (a) में लंबे बेलनाकार रेखित रेशे हैं — <b>कंकाल</b> पेशी (जैसे ट्राइसेप्स); (b) में तर्कुरूप अरेखित कोशिकाएँ हैं — <b>चिकनी</b> पेशी (जैसे आमाशय भित्ति); (c) में शाखित रेखित कोशिकाएँ हैं — <b>हृद</b> पेशी (हृदय) (NCERT 17.2)। विकल्प 2।</p>",
+     "hint": "शाखित रेखित = हृद।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1139,14 +1415,26 @@
      "status": "draft",
      "q": "Match List I with List II :<br>A. Fibrous joints — I. Adjacent vertebrae, limited movement<br>B. Cartilaginous joints — II. Humerus and pectoral girdle, rotational movement<br>C. Hinge joints — III. Skull, don't allow any movement<br>D. Ball and socket joints — IV. Knee, help in locomotion",
      "o": [
-      "Fibrous joints I. Adjacent vertebrae, limited movement",
-      "Cartilaginous II. Humerus joints and pectoral girdle, rotational movement",
-      "Hinge joints III. Skull, don’t allow any movement",
-      "Ball and socket IV. Knee, help joints in locomotion Choose the correct answer from the options given belo : (A) A-II, B-III, C-I, D-IV (B) A-III, B-I, C-IV, D-II (C) A-IV, B-II, C-III, D-I (D) A-I, B-III, C-II, D-IV https://admin.esaral.com/quiz-pdf/6104 eSaral"
-     ]
+      "A-II, B-III, C-I, D-IV",
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-II, C-III, D-I",
+      "A-I, B-III, C-II, D-IV"
+     ],
+     "sol": "<ul><li>A. Fibrous joints — skull, do not allow any movement (III).</li><li>B. Cartilaginous joints — adjacent vertebrae, limited movement (I).</li><li>C. Hinge joint — knee, helps in locomotion (IV).</li><li>D. Ball and socket joint — humerus and pectoral girdle, rotational movement (II).</li></ul><p>A-III, B-I, C-IV, D-II (NCERT 17.4).</p>",
+     "hint": "Knee = hinge."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. रेशीय जोड़ — I. निकटवर्ती कशेरुक, सीमित गति<br>B. उपास्थि युक्त जोड़ — II. ह्युमूरस तथा अंस मेखला, घूर्णन गति<br>C. कब्जा संधि — III. कपाल, कोई गति नहीं होने देते<br>D. कंदुक खल्लिका संधि — IV. घुटना, चलन में सहायक",
+     "o": [
+      "A-II, B-III, C-I, D-IV",
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-II, C-III, D-I",
+      "A-I, B-III, C-II, D-IV"
+     ],
+     "sol": "<ul><li>A. रेशीय जोड़ — कपाल, कोई गति नहीं होने देते (III)।</li><li>B. उपास्थि युक्त जोड़ — निकटवर्ती कशेरुक, सीमित गति (I)।</li><li>C. कब्जा संधि — घुटना, चलन में सहायक (IV)।</li><li>D. कंदुक खल्लिका संधि — ह्युमूरस तथा अंस मेखला, घूर्णन गति (II)।</li></ul><p>A-III, B-I, C-IV, D-II (NCERT 17.4)।</p>",
+     "hint": "घुटना = कब्जा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1189,10 +1477,22 @@
       "B, C and E only",
       "A, B and D only",
       "B and E only"
-     ]
+     ],
+     "sol": "<p>NCERT 17.3–17.4:</p><ul><li>A — wrong: the human skull is <i>dicondylic</i> (two occipital condyles).</li><li>B — correct: adjacent vertebrae are joined by cartilaginous joints.</li><li>C — correct: there are 7 cervical vertebrae.</li><li>D — wrong: NCERT calls every rib bicephalic (two articulation surfaces at its dorsal end); the last 2 pairs are not exceptions.</li><li>E — correct: the occipital condyles articulate with the first vertebra, the atlas.</li></ul><p>B, C and E only.</p>",
+     "hint": "Two occipital condyles."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव अंतःकंकाल के संदर्भ में निम्नलिखित में से कौन-से कथन सही हैं?<br>A. मानव करोटि एककंदीय होती है।<br>B. किन्हीं दो निकटवर्ती कशेरुकों के बीच का जोड़ उपास्थि युक्त जोड़ है।<br>C. मनुष्य में ग्रीवा कशेरुकों की संख्या सात है।<br>D. अंतिम 2 जोड़ियों को छोड़कर सभी पसलियाँ द्विशिरस्थ होती हैं।<br>E. करोटि की अनुकपाल अस्थि प्रथम कशेरुक से संधियोजित होती है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल C, D तथा E",
+      "केवल B, C तथा E",
+      "केवल A, B तथा D",
+      "केवल B तथा E"
+     ],
+     "sol": "<p>NCERT 17.3–17.4:</p><ul><li>A — गलत: मानव करोटि <i>द्विकंदीय</i> होती है (दो अनुकपाल अस्थिकंद)।</li><li>B — सही: निकटवर्ती कशेरुक उपास्थि युक्त जोड़ों से जुड़े होते हैं।</li><li>C — सही: ग्रीवा कशेरुक 7 होते हैं।</li><li>D — गलत: NCERT के अनुसार प्रत्येक पसली द्विशिरस्थ है (पृष्ठ सिरे पर दो संधियोजन सतहें); अंतिम 2 जोड़ियाँ अपवाद नहीं हैं।</li><li>E — सही: अनुकपाल अस्थिकंद प्रथम कशेरुक, एटलस, से संधियोजन करते हैं।</li></ul><p>केवल B, C तथा E।</p>",
+     "hint": "दो अनुकपाल अस्थिकंद।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1237,10 +1537,22 @@
       "C and E",
       "C and D",
       "A, B, D and E"
-     ]
+     ],
+     "sol": "<p>NCERT 17.2.2:</p><ul><li>A — correct: a signal from the CNS via a motor neuron reaches the sarcolemma.</li><li>B — correct: the action potential spreads and causes release of Ca<sup>++</sup> into the sarcoplasm.</li><li>C — wrong: the rise in Ca<sup>++</sup> unmasks the active sites on actin so cross bridges can <i>form</i>.</li><li>D — correct: the myosin head binds the exposed active sites on actin, forming a cross bridge.</li><li>E — correct: actin filaments are pulled towards the centre of the A band, shortening the sarcomere.</li></ul><p>A, B, D and E.</p>",
+     "hint": "Ca<sup>++</sup> enables bridges."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पेशी संकुचन के संबंध में सही कथन चुनिए :<br>A. एक प्रेरक न्यूरॉन केंद्रीय तंत्रिका तंत्र (CNS) द्वारा भेजा गया संकेत पेशी रेशे के सार्कोलेमा तक ले जाता है।<br>B. तंत्रिका संकेत एक क्रियाविभव उत्पन्न करता है जिससे सार्कोप्लाज्म में Ca<sup>++</sup> मुक्त होता है।<br>C. Ca<sup>++</sup> में वृद्धि क्रास सेतु तोड़ने के लिए एक्टिन को निष्क्रिय करती है।<br>D. एक्टिन मायोसिन शीर्ष से बंधकर क्रास सेतु बनाता है।<br>E. एक्टिन तंतुओं को 'A' बैंड के केंद्र की ओर खींचकर सार्कोमियर छोटा होता है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A तथा B",
+      "C तथा E",
+      "C तथा D",
+      "A, B, D तथा E"
+     ],
+     "sol": "<p>NCERT 17.2.2:</p><ul><li>A — सही: CNS का संकेत प्रेरक न्यूरॉन द्वारा सार्कोलेमा तक पहुँचता है।</li><li>B — सही: क्रियाविभव फैलकर सार्कोप्लाज्म में Ca<sup>++</sup> मुक्त कराता है।</li><li>C — गलत: Ca<sup>++</sup> में वृद्धि एक्टिन के सक्रिय स्थानों को खोलती है ताकि क्रास सेतु <i>बन</i> सकें।</li><li>D — सही: मायोसिन शीर्ष एक्टिन के खुले सक्रिय स्थानों से बंधकर क्रास सेतु बनाता है।</li><li>E — सही: एक्टिन तंतु 'A' बैंड के केंद्र की ओर खिंचते हैं, जिससे सार्कोमियर छोटा होता है।</li></ul><p>A, B, D तथा E।</p>",
+     "hint": "Ca<sup>++</sup> सेतु बनने देता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1284,10 +1596,22 @@
       "A-IV, B-III, C-II, D-I",
       "A-I, B-II, C-III, D-IV",
       "A-III, B-II, C-I, D-IV"
-     ]
+     ],
+     "sol": "<ul><li>A. Tetany — wild contractions in muscle due to low Ca<sup>2+</sup> in body fluid (III).</li><li>B. Arthritis — inflammation of joints (I).</li><li>C. Myasthenia gravis — autoimmune disorder affecting the neuromuscular junction (II).</li><li>D. Muscular dystrophy — progressive degeneration of skeletal muscle (IV).</li></ul><p>A-III, B-I, C-II, D-IV (NCERT 17.5).</p>",
+     "hint": "Tetany = low calcium."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. अपतानिका — I. जोड़ों की शोथ<br>B. संधि शोथ — II. तंत्रिका-पेशी संधि को प्रभावित करने वाला स्वप्रतिरक्षा विकार<br>C. माइस्थेनिया ग्रेविस — III. शरीर तरल में Ca<sup>2+</sup> की कमी से पेशी में तीव्र ऐंठन<br>D. पेशीय दुष्पोषण — IV. कंकाल पेशी का अनुक्रमित अपह्रासन",
+     "o": [
+      "A-III, B-I, C-II, D-IV",
+      "A-IV, B-III, C-II, D-I",
+      "A-I, B-II, C-III, D-IV",
+      "A-III, B-II, C-I, D-IV"
+     ],
+     "sol": "<ul><li>A. अपतानिका — शरीर तरल में Ca<sup>2+</sup> की कमी से पेशी में तीव्र ऐंठन (III)।</li><li>B. संधि शोथ — जोड़ों की शोथ (I)।</li><li>C. माइस्थेनिया ग्रेविस — तंत्रिका-पेशी संधि को प्रभावित करने वाला स्वप्रतिरक्षा विकार (II)।</li><li>D. पेशीय दुष्पोषण — कंकाल पेशी का अनुक्रमित अपह्रासन (IV)।</li></ul><p>A-III, B-I, C-II, D-IV (NCERT 17.5)।</p>",
+     "hint": "अपतानिका = कैल्सियम की कमी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1319,5 +1643,85 @@
     "note": "Code 13 booklet Q152."
    }
   }
- ]
+ ],
+ "paraTrends": {
+  "17.4": {
+   "neet": 7,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2023,
+    2022,
+    2021,
+    2017,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "17.3": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2026,
+    2021,
+    2020,
+    2019,
+    2017,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "17.2.2": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2026,
+    2023,
+    2021,
+    2018,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "17.2": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2024,
+    2016
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "17.5": {
+   "neet": 8,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2022,
+    2021,
+    2019,
+    2018,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "17.2.1": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2023
+   ],
+   "last": 2023,
+   "recent": false
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3
 }

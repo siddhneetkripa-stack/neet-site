@@ -164,10 +164,22 @@
       "Heterocyclic nitrogenous bases",
       "Chargaff’s rule",
       "Complementary base pairing"
-     ]
+     ],
+     "sol": "<p>Chargaff's rule (A = T, G = C; purines = pyrimidines) holds for double-stranded DNA. RNA is single-stranded, so the base ratios need not be equal. RNA does have 5′ phosphate/3′ OH ends, heterocyclic bases and can base-pair in short regions.</p>",
+     "hint": "Chargaff's rule needs two complementary strands."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा RNA पर लागू नहीं होता?",
+     "o": [
+      "5’ फॉस्फोरिल और 3’ हाइड्रॉक्सिल सिरे",
+      "विषमचक्रीय नाइट्रोजनी क्षारक",
+      "चारगाफ़ का नियम",
+      "पूरक क्षारक युग्मन"
+     ],
+     "sol": "<p>चारगाफ़ का नियम (A = T, G = C; प्यूरीन = पिरिमिडीन) द्विरज्जुक DNA पर लागू होता है। RNA एकल रज्जुक है, अतः क्षारकों का अनुपात समान होना आवश्यक नहीं। RNA में 5′ फॉस्फेट/3′ OH सिरे, विषमचक्रीय क्षारक होते हैं और छोटे भागों में क्षारक युग्मन हो सकता है।</p>",
+     "hint": "चारगाफ़ के नियम के लिए दो पूरक रज्जुक चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -210,10 +222,22 @@
       "Genome, chromosome, gene, nucleotide",
       "Chromosome, genome, nucleotide, gene",
       "Chromosome, gene, genome, nucleotide"
-     ]
+     ],
+     "sol": "<p>Genome (all the DNA) &gt; chromosome (one DNA molecule) &gt; gene (a segment of a chromosome) &gt; nucleotide (one unit).</p>",
+     "hint": "Whole → part → unit."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आनुवंशिक पदार्थ के संगठन का सबसे बड़े से सबसे छोटे तक सही क्रम पहचानिए :",
+     "o": [
+      "जीनोम, क्रोमोसोम, न्यूक्लियोटाइड, जीन",
+      "जीनोम, क्रोमोसोम, जीन, न्यूक्लियोटाइड",
+      "क्रोमोसोम, जीनोम, न्यूक्लियोटाइड, जीन",
+      "क्रोमोसोम, जीन, जीनोम, न्यूक्लियोटाइड"
+     ],
+     "sol": "<p>जीनोम (संपूर्ण DNA) &gt; क्रोमोसोम (एक DNA अणु) &gt; जीन (क्रोमोसोम का एक खंड) &gt; न्यूक्लियोटाइड (एक इकाई)।</p>",
+     "hint": "पूर्ण → भाग → इकाई।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -256,10 +280,22 @@
       "Does not code for proteins and is same in all members of the population",
       "Codes for enzymes needed for DNA replication",
       "Codes for proteins needed in cell cycle"
-     ]
+     ],
+     "sol": "<p>Satellite DNA (repetitive DNA) does not code for proteins but shows a high degree of polymorphism in a population; an individual's pattern is inherited from the parents. This is the basis of DNA fingerprinting.</p>",
+     "hint": "Why is it useful in fingerprinting?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सैटेलाइट (अनुषंगी) DNA महत्त्वपूर्ण है क्योंकि यह :",
+     "o": [
+      "समष्टि में उच्च स्तर की बहुरूपता दर्शाता है तथा एक व्यक्ति में भी उसी स्तर की बहुरूपता होती है, जो जनकों से संतानों में वंशागत होती है",
+      "प्रोटीनों का कूटलेखन नहीं करता तथा समष्टि के सभी सदस्यों में समान होता है",
+      "DNA प्रतिकृति के लिए आवश्यक एंजाइमों का कूटलेखन करता है",
+      "कोशिका चक्र में आवश्यक प्रोटीनों का कूटलेखन करता है"
+     ],
+     "sol": "<p>सैटेलाइट DNA (पुनरावृत्त DNA) प्रोटीनों का कूटलेखन नहीं करता परंतु समष्टि में उच्च स्तर की बहुरूपता दर्शाता है; व्यक्ति का प्रतिरूप जनकों से वंशागत होता है। यही DNA अंगुलिछापी का आधार है।</p>",
+     "hint": "अंगुलिछापी में यह क्यों उपयोगी है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -302,10 +338,22 @@
       "Galactose",
       "Lactose",
       "Lactose and galactose"
-     ]
+     ],
+     "sol": "<p>Lactose (actually its isomer allolactose) acts as the inducer: it binds the repressor, which can no longer bind the operator, so the structural genes are transcribed.</p>",
+     "hint": "The substrate of β-galactosidase."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "लैक प्रचालेक की अभिव्यक्ति के लिए निम्नलिखित में से कौन प्रेरक के रूप में आवश्यक है/हैं?",
+     "o": [
+      "ग्लूकोस",
+      "गैलेक्टोज",
+      "लैक्टोज",
+      "लैक्टोज और गैलेक्टोज"
+     ],
+     "sol": "<p>लैक्टोज (वस्तुतः उसका समावयवी एलोलैक्टोज) प्रेरक है: यह दमनकारी से जुड़ता है, जो फिर प्रचालक से नहीं जुड़ पाता, अतः संरचनात्मक जीनों का अनुलेखन होता है।</p>",
+     "hint": "β-गैलेक्टोसाइडेज़ का क्रियाधार।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -348,10 +396,22 @@
       "Zinc finger analysis",
       "Restriction enzymes",
       "DNA – DNA hybridization"
-     ]
+     ],
+     "sol": "<p>DNA fingerprinting uses restriction digestion, electrophoresis, Southern blotting with DNA–DNA hybridisation to a VNTR probe, and PCR to amplify small samples. 'Zinc finger analysis' is not a fingerprinting technique (zinc fingers are protein DNA-binding motifs).</p>",
+     "hint": "Which one is not a DNA technique?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन वर्तमान में उपलब्ध DNA अंगुलिछापी की किसी भी तकनीक के लिए आवश्यक नहीं है?",
+     "o": [
+      "पॉलीमरेज शृंखला अभिक्रिया",
+      "ज़िंक फिंगर विश्लेषण",
+      "प्रतिबंधन एंजाइम",
+      "DNA – DNA संकरण"
+     ],
+     "sol": "<p>DNA अंगुलिछापी में प्रतिबंधन पाचन, इलेक्ट्रोफोरेसिस, VNTR प्रोब के साथ DNA–DNA संकरण द्वारा सदर्न ब्लॉटिंग, तथा कम नमूने के प्रवर्धन हेतु PCR का उपयोग होता है। ‘ज़िंक फिंगर विश्लेषण’ अंगुलिछापी तकनीक नहीं है (ज़िंक फिंगर प्रोटीन के DNA-बंधक भाग हैं)।</p>",
+     "hint": "कौन-सी DNA तकनीक नहीं है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -394,10 +454,22 @@
       "UGA",
       "UAA",
       "UAG"
-     ]
+     ],
+     "sol": "<p>AUG (methionine) is the initiator (start) codon. UAA, UAG and UGA are stop codons.</p>",
+     "hint": "Start = AUG; stops = UAA, UAG, UGA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से प्रारंभन प्रकूट कौन-सा है?",
+     "o": [
+      "AUG",
+      "UGA",
+      "UAA",
+      "UAG"
+     ],
+     "sol": "<p>AUG (मेथियोनीन) प्रारंभन प्रकूट है। UAA, UAG और UGA समापन प्रकूट हैं।</p>",
+     "hint": "प्रारंभ = AUG; समापन = UAA, UAG, UGA।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -440,10 +512,22 @@
       "Vicia faba",
       "Drosophila melanogaster",
       "E. coli"
-     ]
+     ],
+     "sol": "<p>Taylor and colleagues (1958) used radioactive thymidine on <i>Vicia faba</i> (faba beans) to show that DNA in chromosomes also replicates semi-conservatively.</p>",
+     "hint": "Meselson–Stahl used E. coli; Taylor used a bean."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "टेलर ने क्रोमोसोम की अर्धसंरक्षी प्रतिकृति सिद्ध करने के प्रयोग किस पर किए?",
+     "o": [
+      "<i>विंका रोज़िया</i>",
+      "<i>विसिया फाबा</i>",
+      "<i>ड्रोसोफिला मेलानोगैस्टर</i>",
+      "<i>E. coli</i>"
+     ],
+     "sol": "<p>टेलर और सहयोगियों (1958) ने <i>विसिया फाबा</i> (फाबा सेम) पर रेडियोऐक्टिव थाइमिडीन का उपयोग कर दिखाया कि क्रोमोसोम में DNA की प्रतिकृति भी अर्धसंरक्षी होती है।</p>",
+     "hint": "मेसेल्सन–स्टाल ने <i>E. coli</i> लिया; टेलर ने एक सेम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -486,10 +570,22 @@
       "Cistron",
       "Operon",
       "Recon"
-     ]
+     ],
+     "sol": "<p>A cistron is a segment of DNA coding for one polypeptide — the structural gene in a transcription unit. Muton (unit of mutation) and recon (unit of recombination) are older terms; an operon is a whole regulated unit.</p>",
+     "hint": "One cistron → one polypeptide."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "संरचनात्मक जीन के समतुल्य है",
+     "o": [
+      "म्यूटॉन",
+      "सिस्ट्रॉन",
+      "ओपेरॉन (प्रचालेक)",
+      "रेकॉन"
+     ],
+     "sol": "<p>सिस्ट्रॉन DNA का वह खंड है जो एक पॉलीपेप्टाइड का कूटलेखन करता है — अनुलेखन इकाई में संरचनात्मक जीन। म्यूटॉन (उत्परिवर्तन की इकाई) और रेकॉन (पुनर्योजन की इकाई) पुराने शब्द हैं; प्रचालेक संपूर्ण नियमित इकाई है।</p>",
+     "hint": "एक सिस्ट्रॉन → एक पॉलीपेप्टाइड।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -532,10 +628,22 @@
       "18S rRNA",
       "23S rRNA",
       "5.8S rRNA"
-     ]
+     ],
+     "sol": "<p>In bacteria the 23S rRNA of the large ribosomal subunit is structural and also acts as the enzyme (ribozyme) that catalyses peptide bond formation.</p>",
+     "hint": "Peptidyl transferase activity lies in the large subunit rRNA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जीवाणुओं में निम्नलिखित में से कौन-सा rRNA संरचनात्मक RNA तथा राइबोजाइम दोनों का कार्य करता है?",
+     "o": [
+      "5S rRNA",
+      "18S rRNA",
+      "23S rRNA",
+      "5.8S rRNA"
+     ],
+     "sol": "<p>जीवाणुओं में राइबोसोम के बड़े उपएकक का 23S rRNA संरचनात्मक है तथा पेप्टाइड बंध निर्माण को उत्प्रेरित करने वाले एंजाइम (राइबोजाइम) का कार्य भी करता है।</p>",
+     "hint": "पेप्टिडिल ट्रांसफ़रेज़ सक्रियता बड़े उपएकक के rRNA में है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -578,10 +686,22 @@
       "It should be able to generate its replica",
       "It should be unstable structurally and chemically",
       "It should provide the scope for slow changes that are required for evolution"
-     ]
+     ],
+     "sol": "<p>A genetic material must replicate, be chemically and structurally <b>stable</b>, allow slow changes (mutation) for evolution, and express itself as Mendelian characters. Being unstable is the exception.</p>",
+     "hint": "NCERT lists four criteria."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आनुवंशिक पदार्थ का कार्य कर सकने वाले अणु को नीचे दिए गए लक्षण पूरे करने चाहिए, सिवाय :",
+     "o": [
+      "यह ‘मेंडलीय लक्षणों’ के रूप में स्वयं को अभिव्यक्त कर सके",
+      "यह अपनी प्रतिकृति बना सके",
+      "यह संरचनात्मक और रासायनिक रूप से अस्थायी हो",
+      "यह विकास के लिए आवश्यक धीमे परिवर्तनों का अवसर दे"
+     ],
+     "sol": "<p>आनुवंशिक पदार्थ को प्रतिकृति बनानी चाहिए, रासायनिक और संरचनात्मक रूप से <b>स्थायी</b> होना चाहिए, विकास हेतु धीमे परिवर्तन (उत्परिवर्तन) का अवसर देना चाहिए तथा मेंडलीय लक्षणों के रूप में अभिव्यक्त होना चाहिए। अस्थायी होना अपवाद है।</p>",
+     "hint": "NCERT चार मानदंड बताती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -624,10 +744,22 @@
       "Coding strand",
       "Alpha strand",
       "Antistrand"
-     ]
+     ],
+     "sol": "<p>RNA polymerase uses the 3′→5′ strand as the <b>template strand</b>; the other strand, whose sequence matches the RNA (with T for U), is the coding strand.</p>",
+     "hint": "The strand actually read by the enzyme."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA पर निर्भर RNA पॉलीमरेज DNA के जिस एक रज्जुक पर अनुलेखन उत्प्रेरित करता है, वह कहलाता है :",
+     "o": [
+      "टेम्पलेट रज्जुक",
+      "कूटलेखन रज्जुक",
+      "अल्फ़ा रज्जुक",
+      "प्रति-रज्जुक"
+     ],
+     "sol": "<p>RNA पॉलीमरेज 3′→5′ रज्जुक को <b>टेम्पलेट रज्जुक</b> के रूप में प्रयोग करता है; दूसरा रज्जुक, जिसका अनुक्रम RNA जैसा (U के स्थान पर T) होता है, कूटलेखन रज्जुक है।</p>",
+     "hint": "वह रज्जुक जिसे एंजाइम वास्तव में पढ़ता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -670,10 +802,22 @@
       "Hershey and Chase",
       "Avery, MacLeod and McCarty",
       "Hargobind Khorana"
-     ]
+     ],
+     "sol": "<p>Hershey and Chase (1952) labelled bacteriophage DNA with <sup>32</sup>P and protein with <sup>35</sup>S; only <sup>32</sup>P entered the bacteria, giving the unequivocal proof that DNA is the genetic material.</p>",
+     "hint": "Radioactive phages and a blender."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA के आनुवंशिक पदार्थ होने का अंतिम प्रमाण किसके प्रयोगों से मिला?",
+     "o": [
+      "ग्रिफिथ",
+      "हर्षे और चेस",
+      "एवरी, मैकलॉयड और मैककार्टी",
+      "हरगोविंद खुराना"
+     ],
+     "sol": "<p>हर्षे और चेस (1952) ने जीवाणुभोजी के DNA को <sup>32</sup>P तथा प्रोटीन को <sup>35</sup>S से चिह्नित किया; केवल <sup>32</sup>P जीवाणुओं में गया, जिससे DNA के आनुवंशिक पदार्थ होने का निर्विवाद प्रमाण मिला।</p>",
+     "hint": "रेडियोऐक्टिव जीवाणुभोजी और ब्लेंडर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -716,10 +860,22 @@
       "The lagging strand towards replication fork",
       "The leading strand away from replication fork",
       "The lagging strand away from the replication fork"
-     ]
+     ],
+     "sol": "<p>DNA polymerase works only 5′→3′. On the lagging strand this direction points <b>away from the replication fork</b>, so it is made discontinuously as Okazaki fragments, later joined by DNA ligase.</p>",
+     "hint": "Lagging strand grows opposite to fork movement."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA प्रतिकृति के दौरान ओकाज़ाकी खंड किसके दीर्घीकरण में प्रयुक्त होते हैं?",
+     "o": [
+      "अग्रग रज्जुक, प्रतिकृति द्विशाख की ओर",
+      "पश्चगामी रज्जुक, प्रतिकृति द्विशाख की ओर",
+      "अग्रग रज्जुक, प्रतिकृति द्विशाख से दूर",
+      "पश्चगामी रज्जुक, प्रतिकृति द्विशाख से दूर"
+     ],
+     "sol": "<p>DNA पॉलीमरेज केवल 5′→3′ कार्य करता है। पश्चगामी रज्जुक पर यह दिशा <b>प्रतिकृति द्विशाख से दूर</b> होती है, अतः वह ओकाज़ाकी खंडों के रूप में असतत् बनता है, जिन्हें बाद में DNA लाइगेज जोड़ता है।</p>",
+     "hint": "पश्चगामी रज्जुक द्विशाख की गति के विपरीत बढ़ता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -762,10 +918,22 @@
       "Fungi",
       "Animals",
       "Bacteria"
-     ]
+     ],
+     "sol": "<p>Spliceosomes remove introns from hnRNA. Split genes (introns) are a feature of eukaryotes — plants, fungi, animals. Bacterial genes have no introns, so bacteria have no spliceosomes.</p>",
+     "hint": "Split genes are eukaryotic."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्प्लाइसियोसोम किसकी कोशिकाओं में नहीं पाए जाते?",
+     "o": [
+      "पादप",
+      "कवक",
+      "जंतु",
+      "जीवाणु"
+     ],
+     "sol": "<p>स्प्लाइसियोसोम hnRNA से इंट्रान हटाते हैं। विखंडित जीन (इंट्रान) सुकेंद्रकियों — पादपों, कवकों, जंतुओं — की विशेषता हैं। जीवाणु जीनों में इंट्रान नहीं होते, अतः जीवाणुओं में स्प्लाइसियोसोम नहीं होते।</p>",
+     "hint": "विखंडित जीन सुकेंद्रकी हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -808,10 +976,22 @@
       "DNA replication is occurring",
       "The DNA is condensed into a Chromatin Fibre",
       "The DNA double helix is exposed"
-     ]
+     ],
+     "sol": "<p>Nucleosomes form the 'beads-on-string' chromatin; binding of histone H1 to the linker DNA coils it further into the <b>chromatin fibre</b> (condensed form).</p>",
+     "hint": "H1 is the linker histone."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "न्यूक्लियोसोम के साथ हिस्टोन H1 का संबद्ध होना दर्शाता है :",
+     "o": [
+      "अनुलेखन हो रहा है",
+      "DNA प्रतिकृति हो रही है",
+      "DNA क्रोमेटीन तंतु में संघनित है",
+      "DNA द्विकुंडली खुली है"
+     ],
+     "sol": "<p>न्यूक्लियोसोम ‘धागे में मोती’ जैसा क्रोमेटीन बनाते हैं; संयोजक DNA से हिस्टोन H1 के जुड़ने पर यह और कुंडलित होकर <b>क्रोमेटीन तंतु</b> (संघनित रूप) बनाता है।</p>",
+     "hint": "H1 संयोजक हिस्टोन है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -854,10 +1034,22 @@
       "11",
       "33",
       "333"
-     ]
+     ],
+     "sol": "<p>Codon n covers bases 3n − 2 to 3n. Base 901 is the first base of codon 301. Deleting it shifts the reading frame from codon 301 to the end (333): 333 − 301 + 1 = <b>33 codons</b> altered.</p>",
+     "hint": "Which codon contains base 901?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि किसी RNA में 999 क्षारक हैं जो 333 अमीनो अम्लों वाले प्रोटीन का कूटलेखन करते हैं, और स्थान 901 पर स्थित क्षारक विलोपित हो जाता है जिससे RNA की लंबाई 998 क्षारक हो जाती है, तो कितने प्रकूट परिवर्तित होंगे?",
+     "o": [
+      "1",
+      "11",
+      "33",
+      "333"
+     ],
+     "sol": "<p>प्रकूट n में क्षारक 3n − 2 से 3n तक होते हैं। क्षारक 901 प्रकूट 301 का पहला क्षारक है। इसके विलोपन से प्रकूट 301 से अंत (333) तक पठन ढाँचा खिसक जाता है: 333 − 301 + 1 = <b>33 प्रकूट</b> परिवर्तित।</p>",
+     "hint": "क्षारक 901 किस प्रकूट में है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -901,10 +1093,22 @@
       "t-RNA",
       "m-RNA",
       "mi-RNA"
-     ]
+     ],
+     "sol": "<p>rRNA is the most abundant RNA in a cell (about 80% of total RNA), because ribosomes are present in very large numbers.</p><p class='errata'>Relative abundance of RNA types is not given in NCERT.</p>",
+     "hint": "Ribosomes are everywhere in the cytoplasm."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा RNA जंतु कोशिका में सर्वाधिक मात्रा में होना चाहिए?",
+     "o": [
+      "r-RNA",
+      "t-RNA",
+      "m-RNA",
+      "mi-RNA"
+     ],
+     "sol": "<p>rRNA कोशिका में सर्वाधिक मात्रा वाला RNA है (कुल RNA का लगभग 80%), क्योंकि राइबोसोम बहुत बड़ी संख्या में होते हैं।</p><p class='errata'>RNA प्रकारों की सापेक्ष मात्रा NCERT में नहीं दी गई है।</p>",
+     "hint": "कोशिकाद्रव्य में राइबोसोम हर जगह हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -948,10 +1152,22 @@
       "Within nucleolus",
       "Prior to fission",
       "Just before transcription"
-     ]
+     ],
+     "sol": "<p>Bacteria have no nucleus/nucleolus and no defined S phase; the single circular DNA is replicated before the cell divides by binary fission, so each daughter gets a copy.</p><p class='errata'>The bacterial cell cycle is not described in NCERT.</p>",
+     "hint": "Each daughter cell needs a full copy."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जीवाणुओं में DNA प्रतिकृति होती है",
+     "o": [
+      "S-प्रावस्था के दौरान",
+      "केंद्रिका के भीतर",
+      "विखंडन से पहले",
+      "अनुलेखन से ठीक पहले"
+     ],
+     "sol": "<p>जीवाणुओं में केंद्रक/केंद्रिका तथा निश्चित S प्रावस्था नहीं होती; एकल वृत्ताकार DNA की प्रतिकृति कोशिका के द्विविभाजन से पहले होती है, ताकि प्रत्येक संतति कोशिका को एक प्रति मिले।</p><p class='errata'>जीवाणु कोशिका चक्र NCERT में वर्णित नहीं है।</p>",
+     "hint": "प्रत्येक संतति कोशिका को पूरी प्रति चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -994,10 +1210,22 @@
       "F<sub>2</sub> × Recessive parent – Dihybrid cross",
       "Ribozyme – Nucleic acid",
       "G. Mendel – Transformation"
-     ]
+     ],
+     "sol": "<p>A ribozyme is a catalytic RNA, i.e. a nucleic acid ✓. Morgan worked on linkage (transduction: Zinder and Lederberg); F<sub>1</sub> × recessive parent is a test cross; transformation was discovered by Griffith.</p>",
+     "hint": "Ribo-zyme = RNA enzyme."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही मिलान चुनिए :",
+     "o": [
+      "T.H. मॉर्गन – ट्रांसडक्शन",
+      "F<sub>2</sub> × अप्रभावी जनक – द्विसंकर संकरण",
+      "राइबोजाइम – न्यूक्लिक अम्ल",
+      "G. मेंडल – रूपांतरण"
+     ],
+     "sol": "<p>राइबोजाइम उत्प्रेरक RNA है, अर्थात् न्यूक्लिक अम्ल ✓। मॉर्गन ने सहलग्नता पर कार्य किया (ट्रांसडक्शन: ज़िंडर और लेडरबर्ग); F<sub>1</sub> × अप्रभावी जनक परीक्षार्थ संकरण है; रूपांतरण की खोज ग्रिफिथ ने की।</p>",
+     "hint": "राइबो-जाइम = RNA एंजाइम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1043,10 +1271,22 @@
       "Bacterium",
       "Fungus",
       "Virus"
-     ]
+     ],
+     "sol": "<p>Meselson and Stahl (1958) grew <i>E. coli</i> in <sup>15</sup>N then <sup>14</sup>N medium and separated DNA by CsCl density gradient: the first proof of semi-conservative replication, in a <b>bacterium</b>.</p>",
+     "hint": "<i>E. coli</i>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA की अर्धसंरक्षी प्रतिकृति का प्रायोगिक प्रमाण सबसे पहले किसमें दिखाया गया?",
+     "o": [
+      "पादप",
+      "जीवाणु",
+      "कवक",
+      "विषाणु"
+     ],
+     "sol": "<p>मेसेल्सन और स्टाल (1958) ने <i>E. coli</i> को पहले <sup>15</sup>N फिर <sup>14</sup>N माध्यम में उगाया तथा CsCl घनत्व प्रवणता से DNA अलग किया: अर्धसंरक्षी प्रतिकृति का पहला प्रमाण, एक <b>जीवाणु</b> में।</p>",
+     "hint": "<i>E. coli</i>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1089,10 +1329,22 @@
       "Alfred Hershey and Martha Chase – TMV",
       "Alec Jeffreys – Streptococcus pneumoniae",
       "Francois Jacob and Jacques Monod – Lac operon"
-     ]
+     ],
+     "sol": "<p>Jacob and Monod proposed the lac operon ✓. Meselson–Stahl used <i>E. coli</i>; Hershey–Chase used bacteriophage T2 (not TMV); Alec Jeffreys developed DNA fingerprinting (<i>Streptococcus pneumoniae</i> was Griffith's organism).</p>",
+     "hint": "Operon concept, 1961."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही मिलान चुनिए :",
+     "o": [
+      "मैथ्यू मेसेल्सन और F. स्टाल – <i>पाइसम सैटाइवम</i>",
+      "अल्फ्रेड हर्षे और मार्था चेस – TMV",
+      "एलेक जेफ्रीज़ – <i>स्ट्रेप्टोकोकस न्यूमोनी</i>",
+      "फ्रांस्वा जैकब और जैक मोनो – लैक प्रचालेक"
+     ],
+     "sol": "<p>जैकब और मोनो ने लैक प्रचालेक प्रस्तुत किया ✓। मेसेल्सन–स्टाल ने <i>E. coli</i> लिया; हर्षे–चेस ने जीवाणुभोजी T2 लिया (TMV नहीं); एलेक जेफ्रीज़ ने DNA अंगुलिछापी विकसित की (<i>स्ट्रेप्टोकोकस न्यूमोनी</i> ग्रिफिथ का जीव था)।</p>",
+     "hint": "प्रचालेक संकल्पना, 1961।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1137,10 +1389,22 @@
       "structural genes",
       "an operator",
       "a promoter"
-     ]
+     ],
+     "sol": "<p>An operon has a promoter, an operator and structural genes (with the regulator gene nearby). Enhancers are eukaryotic regulatory sequences, not part of a bacterial operon.</p>",
+     "hint": "Operons are prokaryotic."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित सभी प्रचालेक के भाग हैं, सिवाय :",
+     "o": [
+      "एक वर्धक (एन्हैंसर)",
+      "संरचनात्मक जीन",
+      "एक प्रचालक",
+      "एक उन्नायक"
+     ],
+     "sol": "<p>प्रचालेक में उन्नायक, प्रचालक और संरचनात्मक जीन होते हैं (नियामक जीन पास में)। वर्धक (एन्हैंसर) सुकेंद्रकी नियामक अनुक्रम हैं, जीवाणु प्रचालेक के भाग नहीं।</p>",
+     "hint": "प्रचालेक प्राक्केंद्रकी हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1183,10 +1447,22 @@
       "UGGTUTCGCAT",
       "AGGUAUCGCAU",
       "UCCAUAGCGUA"
-     ]
+     ],
+     "sol": "<p>The mRNA has the same sequence as the coding strand, with U in place of T: AGGTATCGCAT → <b>AGGUAUCGCAU</b>.</p>",
+     "hint": "Coding strand = mRNA with T."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "AGGTATCGCAT किसी जीन के कूटलेखन रज्जुक का अनुक्रम है। अनुलेखित mRNA का संगत अनुक्रम क्या होगा?",
+     "o": [
+      "ACCUAUGCGAU",
+      "UGGTUTCGCAT",
+      "AGGUAUCGCAU",
+      "UCCAUAGCGUA"
+     ],
+     "sol": "<p>mRNA का अनुक्रम कूटलेखन रज्जुक जैसा ही होता है, केवल T के स्थान पर U: AGGTATCGCAT → <b>AGGUAUCGCAU</b>।</p>",
+     "hint": "कूटलेखन रज्जुक = T वाला mRNA।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1229,10 +1505,22 @@
       "Novel DNA sequence",
       "Genes expressed as RNA",
       "Polypeptide expression"
-     ]
+     ],
+     "sol": "<p>First approach of the Human Genome Project: identify all genes that are expressed as RNA — Expressed Sequence Tags (ESTs). The second approach is sequence annotation.</p>",
+     "hint": "Expressed = transcribed."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "व्यक्त अनुक्रम घुंडी (ESTs) से तात्पर्य है :",
+     "o": [
+      "DNA बहुरूपता",
+      "नवीन DNA अनुक्रम",
+      "RNA के रूप में व्यक्त होने वाले जीन",
+      "पॉलीपेप्टाइड अभिव्यक्ति"
+     ],
+     "sol": "<p>मानव जीनोम परियोजना का पहला उपागम: RNA के रूप में व्यक्त होने वाले सभी जीनों की पहचान — व्यक्त अनुक्रम घुंडी (ESTs)। दूसरा उपागम अनुक्रम टिप्पण है।</p>",
+     "hint": "व्यक्त = अनुलेखित।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1275,10 +1563,22 @@
       "Deletion of GGU from 7th, 8th and 9th position",
       "Insertion of G at 5th position",
       "Deletion of G from 5th position"
-     ]
+     ],
+     "sol": "<p>mRNA AAG AGC GGU GCU AUU. Inserting 1 or 2 bases, or deleting 1, shifts every later codon. Deleting the three bases GGU (positions 7–9) removes one whole codon: AAG AGC GCU AUU — the frame is unchanged.</p>",
+     "hint": "Only a change of 3 bases (or a multiple of 3) keeps the frame."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित mRNA के पठन ढाँचे में किस दशा में कोई परिवर्तन नहीं होगा?<br>5′ AAGAGCGGUGCUAUU 3′",
+     "o": [
+      "4th और 5th स्थानों पर क्रमशः A और G का निवेशन",
+      "7th, 8th और 9th स्थान से GGU का विलोपन",
+      "5th स्थान पर G का निवेशन",
+      "5th स्थान से G का विलोपन"
+     ],
+     "sol": "<p>mRNA AAG AGC GGU GCU AUU। 1 या 2 क्षारकों के निवेशन, या 1 के विलोपन से आगे के सभी प्रकूट खिसक जाते हैं। तीन क्षारक GGU (स्थान 7–9) के विलोपन से एक पूरा प्रकूट हटता है: AAG AGC GCU AUU — ढाँचा अपरिवर्तित।</p>",
+     "hint": "केवल 3 (या 3 के गुणज) क्षारकों का परिवर्तन ढाँचा बनाए रखता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1321,10 +1621,22 @@
       "Cytosine and thymine",
       "Adenine and thymine",
       "Adenine and guanine"
-     ]
+     ],
+     "sol": "<p>Purines: adenine and guanine (in both DNA and RNA). Cytosine, thymine (DNA) and uracil (RNA) are pyrimidines.</p>",
+     "hint": "Purines are the two-ring bases."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA और RNA दोनों में पाए जाने वाले प्यूरीन हैं :",
+     "o": [
+      "ग्वानीन और साइटोसीन",
+      "साइटोसीन और थाइमीन",
+      "ऐडेनीन और थाइमीन",
+      "ऐडेनीन और ग्वानीन"
+     ],
+     "sol": "<p>प्यूरीन: ऐडेनीन और ग्वानीन (DNA और RNA दोनों में)। साइटोसीन, थाइमीन (DNA) तथा यूरेसिल (RNA) पिरिमिडीन हैं।</p>",
+     "hint": "प्यूरीन दो वलय वाले क्षारक हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1367,10 +1679,22 @@
       "(a) iii, (b) iv, (c) i, (d) ii",
       "(a) i, (b) iii, (c) ii, (d) iv",
       "(a) iii, (b) i, (c) ii, (d) iv"
-     ]
+     ],
+     "sol": "<ul><li>i gene → repressor (iii)</li><li>z gene → β-galactosidase (i)</li><li>a gene → transacetylase (iv)</li><li>y gene → permease (ii)</li></ul>",
+     "hint": "z-y-a in order: β-galactosidase, permease, transacetylase."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "लैक प्रचालेक के निम्नलिखित जीनों का उनके संबंधित उत्पादों से मिलान कीजिए :<br>(a) i जीन — (i) β-गैलेक्टोसाइडेज़<br>(b) z जीन — (ii) परमिएज़<br>(c) a जीन — (iii) दमनकारी<br>(d) y जीन — (iv) ट्रांसऐसीटाइलेज़<br>सही विकल्प चुनिए।",
+     "o": [
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) i, (b) iii, (c) ii, (d) iv",
+      "(a) iii, (b) i, (c) ii, (d) iv"
+     ],
+     "sol": "<ul><li>i जीन → दमनकारी (iii)</li><li>z जीन → β-गैलेक्टोसाइडेज़ (i)</li><li>a जीन → ट्रांसऐसीटाइलेज़ (iv)</li><li>y जीन → परमिएज़ (ii)</li></ul>",
+     "hint": "क्रम z-y-a: β-गैलेक्टोसाइडेज़, परमिएज़, ट्रांसऐसीटाइलेज़।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1413,10 +1737,22 @@
       "Genetic code is specific",
       "Genetic code is not ambiguous",
       "Genetic code is redundant"
-     ]
+     ],
+     "sol": "<p>Because the genetic code is (nearly) universal, a bacterium reads the human insulin gene's codons as the same amino acids and makes the human protein.</p>",
+     "hint": "Same code in bacteria and humans."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आनुवंशिक कूट का कौन-सा लक्षण पुनर्योगज DNA तकनीक द्वारा जीवाणुओं को मानव इंसुलिन बनाने देता है?",
+     "o": [
+      "आनुवंशिक कूट लगभग सार्वत्रिक है",
+      "आनुवंशिक कूट विशिष्ट है",
+      "आनुवंशिक कूट संदिग्धार्थी नहीं है",
+      "आनुवंशिक कूट अपह्रासित है"
+     ],
+     "sol": "<p>आनुवंशिक कूट (लगभग) सार्वत्रिक है, अतः जीवाणु मानव इंसुलिन जीन के प्रकूटों को उन्हीं अमीनो अम्लों के रूप में पढ़ता है और मानव प्रोटीन बनाता है।</p>",
+     "hint": "जीवाणु और मनुष्य में समान कूट।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1457,12 +1793,24 @@
      "o": [
       "Aminoacylation of tRNA",
       "Recognition of an anti-codon",
-      "Binding of mRNA to ribosome 13thSeptember 2020, Biology Page | 10",
+      "Binding of mRNA to ribosome",
       "Recognition of DNA molecule"
-     ]
+     ],
+     "sol": "<p>Before translation begins, amino acids are activated in the presence of ATP and linked to their tRNA — charging or <b>aminoacylation of tRNA</b>. Only then does the ribosome bind mRNA and start.</p>",
+     "hint": "tRNA must be charged first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्थानांतरण (अनुवादन) की पहली प्रावस्था है :",
+     "o": [
+      "tRNA का ऐमीनोऐसिलेशन",
+      "प्रति-प्रकूट (एंटीकोडान) की पहचान",
+      "राइबोसोम से mRNA का बंधन",
+      "DNA अणु की पहचान"
+     ],
+     "sol": "<p>स्थानांतरण आरंभ होने से पहले ATP की उपस्थिति में अमीनो अम्ल सक्रिय होकर अपने tRNA से जुड़ते हैं — tRNA का आवेशन या <b>ऐमीनोऐसिलेशन</b>। इसके बाद ही राइबोसोम mRNA से जुड़कर प्रारंभ करता है।</p>",
+     "hint": "पहले tRNA का आवेशन आवश्यक है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1505,10 +1853,22 @@
       "RNA polymerase",
       "DNA ligase",
       "DNA helicase"
-     ]
+     ],
+     "sol": "<p>NCERT: RNA polymerase itself facilitates the opening of the DNA helix during transcription and continues elongation. (Helicase opens the helix during replication.)</p>",
+     "hint": "Transcription, not replication."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अनुलेखन के दौरान DNA कुंडली को खोलने में सहायता करने वाले एंजाइम का नाम बताइए।",
+     "o": [
+      "DNA पॉलीमरेज",
+      "RNA पॉलीमरेज",
+      "DNA लाइगेज",
+      "DNA हेलिकेज़"
+     ],
+     "sol": "<p>NCERT: अनुलेखन के दौरान RNA पॉलीमरेज स्वयं DNA कुंडली को खोलने में सहायता करता है और दीर्घीकरण जारी रखता है। (प्रतिकृति में कुंडली हेलिकेज़ खोलता है।)</p>",
+     "hint": "प्रतिकृति नहीं, अनुलेखन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1551,10 +1911,22 @@
       "2.7 meters",
       "2.0 meters",
       "2.5 meters"
-     ]
+     ],
+     "sol": "<p>Length = number of bp × distance per bp = 6.6 × 10<sup>9</sup> × 0.34 × 10<sup>−9</sup> m = 2.244 m ≈ <b>2.2 m</b>.</p>",
+     "hint": "Convert nm to m: 1 nm = 10<sup>−9</sup> m."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि दो क्रमागत क्षारक युग्मों के बीच की दूरी 0.34 nm है तथा एक प्रारूपिक स्तनधारी कोशिका में DNA द्विकुंडली के कुल क्षारक युग्म 6.6 × 10<sup>9</sup> bp हैं, तो DNA की लंबाई लगभग है :",
+     "o": [
+      "2.2 मीटर",
+      "2.7 मीटर",
+      "2.0 मीटर",
+      "2.5 मीटर"
+     ],
+     "sol": "<p>लंबाई = bp की संख्या × प्रति bp दूरी = 6.6 × 10<sup>9</sup> × 0.34 × 10<sup>−9</sup> m = 2.244 m ≈ <b>2.2 m</b>।</p>",
+     "hint": "nm को m में बदलें: 1 nm = 10<sup>−9</sup> m।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1598,10 +1970,22 @@
       "Adenine does not pair with thymine.",
       "Adenine pairs with thymine through two H-bonds.",
       "Adenine pairs with thymine through one H-bond."
-     ]
+     ],
+     "sol": "<p>A pairs with T through <b>two</b> hydrogen bonds; G pairs with C through three.</p>",
+     "hint": "A=T (2), G≡C (3)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन सही है?",
+     "o": [
+      "ऐडेनीन, थाइमीन के साथ तीन H-बंधों से युग्म बनाता है।",
+      "ऐडेनीन, थाइमीन के साथ युग्म नहीं बनाता।",
+      "ऐडेनीन, थाइमीन के साथ दो H-बंधों से युग्म बनाता है।",
+      "ऐडेनीन, थाइमीन के साथ एक H-बंध से युग्म बनाता है।"
+     ],
+     "sol": "<p>A, T के साथ <b>दो</b> हाइड्रोजन बंधों से युग्म बनाता है; G, C के साथ तीन से।</p>",
+     "hint": "A=T (2), G≡C (3)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1644,10 +2028,22 @@
       "(a)-Replication; (b)-Transcription; (c)-Transduction; (d)-Protein",
       "(a)-Translation; (b)-Replication; (c)-Transcription; (d)-Transduction",
       "(a)-Replication; (b)-Transcription; (c)-Translation; (d)-Protein"
-     ]
+     ],
+     "sol": "<p>Central dogma: DNA → DNA by (a) replication; DNA → mRNA by (b) transcription; mRNA → protein by (c) translation; (d) protein.</p>",
+     "hint": "Crick's central dogma."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "केंद्रीय सिद्धांत पर प्रवाह चार्ट पूरा कीजिए :<br>(a) DNA —(b)→ mRNA —(c)→ (d)",
+     "o": [
+      "(a)-ट्रांसडक्शन; (b)-स्थानांतरण; (c)-प्रतिकृति; (d)-प्रोटीन",
+      "(a)-प्रतिकृति; (b)-अनुलेखन; (c)-ट्रांसडक्शन; (d)-प्रोटीन",
+      "(a)-स्थानांतरण; (b)-प्रतिकृति; (c)-अनुलेखन; (d)-ट्रांसडक्शन",
+      "(a)-प्रतिकृति; (b)-अनुलेखन; (c)-स्थानांतरण; (d)-प्रोटीन"
+     ],
+     "sol": "<p>केंद्रीय सिद्धांत: DNA → DNA (a) प्रतिकृति द्वारा; DNA → mRNA (b) अनुलेखन द्वारा; mRNA → प्रोटीन (c) स्थानांतरण द्वारा; (d) प्रोटीन।</p>",
+     "hint": "क्रिक का केंद्रीय सिद्धांत।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1691,10 +2087,22 @@
       "Transcribes rRNAs (28S, 18S and 5.8S)",
       "Transcribes tRNA, 5S rRNA and snRNA",
       "Transcribes precursor of mRNA"
-     ]
+     ],
+     "sol": "<p>Eukaryotic RNA polymerases: I → rRNAs (28S, 18S, 5.8S); II → hnRNA (precursor of mRNA); <b>III → tRNA, 5S rRNA and snRNAs</b>.</p>",
+     "hint": "Remember I-II-III = rRNA, mRNA, tRNA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सुकेंद्रकियों में अनुलेखन की प्रक्रिया में RNA पॉलीमरेज III की क्या भूमिका है?",
+     "o": [
+      "केवल snRNAs का अनुलेखन करता है",
+      "rRNAs (28S, 18S और 5.8S) का अनुलेखन करता है",
+      "tRNA, 5S rRNA और snRNA का अनुलेखन करता है",
+      "mRNA के पूर्ववर्ती का अनुलेखन करता है"
+     ],
+     "sol": "<p>सुकेंद्रकी RNA पॉलीमरेज: I → rRNAs (28S, 18S, 5.8S); II → hnRNA (mRNA का पूर्ववर्ती); <b>III → tRNA, 5S rRNA और snRNAs</b>।</p>",
+     "hint": "I-II-III = rRNA, mRNA, tRNA याद रखें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1738,10 +2146,22 @@
       "Satellite DNA",
       "Repetitive DNA",
       "Single nucleotides"
-     ]
+     ],
+     "sol": "<p>NCERT: DNA fingerprinting involves identifying differences in some specific regions in DNA sequence called <b>repetitive DNA</b>, because in these sequences a small stretch of DNA is repeated many times.</p>",
+     "hint": "NCERT's exact term."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA अंगुलिछापी में DNA अनुक्रम के कुछ विशिष्ट क्षेत्रों में अंतर की पहचान की जाती है, जिन्हें कहते हैं",
+     "o": [
+      "बहुरूपी DNA",
+      "सैटेलाइट DNA",
+      "पुनरावृत्त DNA",
+      "एकल न्यूक्लियोटाइड"
+     ],
+     "sol": "<p>NCERT: DNA अंगुलिछापी में DNA अनुक्रम के कुछ विशिष्ट क्षेत्रों में अंतर पहचाने जाते हैं जिन्हें <b>पुनरावृत्त DNA</b> कहते हैं, क्योंकि इन अनुक्रमों में DNA का एक छोटा भाग अनेक बार दोहराया जाता है।</p>",
+     "hint": "NCERT का सटीक शब्द।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1785,10 +2205,22 @@
       "In capping, methyl guanosine triphosphate is added to the 3' end of hnRNA",
       "RNA polymerase binds with Rho factor to terminate the process of transcription in bacteria",
       "The coding strand in a transcription unit is copied to an mRNA"
-     ]
+     ],
+     "sol": "<p>(3) ✓ In bacteria, termination occurs when RNA polymerase associates with the rho (ρ) factor. (1) Split genes are eukaryotic; (2) the cap (methyl guanosine triphosphate) is added at the 5′ end; (4) the template strand, not the coding strand, is copied.</p>",
+     "hint": "Check each end and each strand."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही कथन पहचानिए।",
+     "o": [
+      "विखंडित जीन व्यवस्था प्राक्केंद्रकियों की विशेषता है",
+      "कैपिंग में मेथिल ग्वानोसीन ट्राइफॉस्फेट hnRNA के 3' सिरे पर जोड़ा जाता है",
+      "जीवाणुओं में अनुलेखन की प्रक्रिया समाप्त करने हेतु RNA पॉलीमरेज रो कारक से जुड़ता है",
+      "अनुलेखन इकाई का कूटलेखन रज्जुक mRNA में प्रतिलिपित होता है"
+     ],
+     "sol": "<p>(3) ✓ जीवाणुओं में समापन तब होता है जब RNA पॉलीमरेज रो (ρ) कारक से जुड़ता है। (1) विखंडित जीन सुकेंद्रकी हैं; (2) कैप (मेथिल ग्वानोसीन ट्राइफॉस्फेट) 5′ सिरे पर जुड़ता है; (4) कूटलेखन नहीं, टेम्पलेट रज्जुक प्रतिलिपित होता है।</p>",
+     "hint": "प्रत्येक सिरा और प्रत्येक रज्जुक जाँचें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1832,10 +2264,22 @@
       "DNA dependent DNA polymerase",
       "DNA dependent RNA polymerase",
       "DNA Ligase"
-     ]
+     ],
+     "sol": "<p>In prokaryotes a single DNA-dependent RNA polymerase transcribes all RNAs; with σ it initiates, it elongates, and with ρ it terminates.</p>",
+     "hint": "One enzyme, helped by σ and ρ."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्राक्केंद्रकियों में अनुलेखन की प्रक्रिया में प्रारंभन, दीर्घीकरण और समापन को उत्प्रेरित करने की \"क्षमता\" रखने वाला \"एकमात्र एंजाइम\" कौन-सा है?",
+     "o": [
+      "DNase",
+      "DNA निर्भर DNA पॉलीमरेज",
+      "DNA निर्भर RNA पॉलीमरेज",
+      "DNA लाइगेज"
+     ],
+     "sol": "<p>प्राक्केंद्रकियों में एक ही DNA-निर्भर RNA पॉलीमरेज सभी RNA का अनुलेखन करता है; σ के साथ प्रारंभन, स्वयं दीर्घीकरण, तथा ρ के साथ समापन करता है।</p>",
+     "hint": "एक एंजाइम, σ और ρ की सहायता से।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1878,10 +2322,22 @@
       "T : 20 ; G : 30 ; C : 20",
       "T : 20 ; G : 20 ; C : 30",
       "T : 30 ; G : 20 ; C : 20"
-     ]
+     ],
+     "sol": "<p>Chargaff: A = T and G = C. A = 30% → T = 30%; G + C = 100 − 60 = 40% → G = C = <b>20%</b>.</p>",
+     "hint": "Pair the bases, then share the rest equally."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि किसी DNA अणु में ऐडेनीन 30% है, तो उसमें थाइमीन, ग्वानीन और साइटोसीन का प्रतिशत क्या होगा?",
+     "o": [
+      "T : 20 ; G : 25 ; C : 25",
+      "T : 20 ; G : 30 ; C : 20",
+      "T : 20 ; G : 20 ; C : 30",
+      "T : 30 ; G : 20 ; C : 20"
+     ],
+     "sol": "<p>चारगाफ़: A = T तथा G = C। A = 30% → T = 30%; G + C = 100 − 60 = 40% → G = C = <b>20%</b>।</p>",
+     "hint": "क्षारकों का युग्म बनाइए, फिर शेष को बराबर बाँटिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1925,10 +2381,22 @@
       "Histones are organized to form a unit of 8 molecules",
       "The pH of histones is slightly acidic",
       "Histones are rich in amino acids - Lysine and Arginine"
-     ]
+     ],
+     "sol": "<p>Histones are <b>basic</b> proteins (rich in lysine and arginine, positively charged side chains), so 'slightly acidic' is wrong. Eight histone molecules form the octamer ✓.</p>",
+     "hint": "Lys and Arg are basic amino acids."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हिस्टोन के विषय में निम्नलिखित में से कौन-सा कथन गलत है?",
+     "o": [
+      "हिस्टोन की पार्श्व शृंखला में धनावेश होता है",
+      "हिस्टोन 8 अणुओं की एक इकाई बनाने के लिए संगठित होते हैं",
+      "हिस्टोन का pH थोड़ा अम्लीय होता है",
+      "हिस्टोन अमीनो अम्ल लाइसीन और आर्जिनीन से समृद्ध होते हैं"
+     ],
+     "sol": "<p>हिस्टोन <b>क्षारकीय</b> प्रोटीन हैं (लाइसीन और आर्जिनीन से समृद्ध, धनावेशित पार्श्व शृंखलाएँ), अतः ‘थोड़ा अम्लीय’ गलत है। आठ हिस्टोन अणु अष्टक बनाते हैं ✓।</p>",
+     "hint": "Lys और Arg क्षारकीय अमीनो अम्ल हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1972,10 +2440,22 @@
       "Both Statement I and Statement II are true",
       "Both Statement I and Statement II are false",
       "Statement I is correct but Statement II is false"
-     ]
+     ],
+     "sol": "<p>Statement I is incorrect: AUG codes only for methionine (and acts as the start codon); phenylalanine is UUU/UUC. Statement II is true: AAA and AAG both code for lysine (degeneracy).</p>",
+     "hint": "One codon → one amino acid (code is unambiguous)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : प्रकूट 'AUG' मेथियोनीन और फेनिलएलेनीन का कूटलेखन करता है।<br>कथन II : 'AAA' और 'AAG' दोनों प्रकूट अमीनो अम्ल लाइसीन का कूटलेखन करते हैं।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "कथन I गलत है परंतु कथन II सही है",
+      "कथन I और कथन II दोनों सही हैं",
+      "कथन I और कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है"
+     ],
+     "sol": "<p>कथन I गलत है: AUG केवल मेथियोनीन का कूटलेखन करता है (और प्रारंभन प्रकूट है); फेनिलएलेनीन UUU/UUC है। कथन II सही है: AAA और AAG दोनों लाइसीन का कूटलेखन करते हैं (अपह्रासित कूट)।</p>",
+     "hint": "एक प्रकूट → एक अमीनो अम्ल (कूट असंदिग्ध है)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2019,10 +2499,22 @@
       "(b), (e) only",
       "(a), (c), (e) only",
       "(b), (d), (e) only"
-     ]
+     ],
+     "sol": "<ul><li>(a) ✓ euchromatin is loosely packed.</li><li>(b) ✗ heterochromatin is transcriptionally inactive.</li><li>(c) ✓ negatively charged DNA wraps the positive histone octamer.</li><li>(d) ✓ lysine and arginine.</li><li>(e) ✗ a nucleosome has about 200 bp.</li></ul>",
+     "hint": "Nucleosome ≈ 200 bp."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित कथनों को पढ़िए तथा सही कथनों का समुच्चय चुनिए :<br>(a) यूक्रोमेटीन ढीला संवेष्टित क्रोमेटीन है।<br>(b) हेटेरोक्रोमेटीन अनुलेखन की दृष्टि से सक्रिय है।<br>(c) न्यूक्लियोसोम में हिस्टोन अष्टक ऋणावेशित DNA से लिपटा होता है।<br>(d) हिस्टोन लाइसीन और आर्जिनीन से समृद्ध होते हैं।<br>(e) एक प्रारूपिक न्यूक्लियोसोम में DNA कुंडली के 400 bp होते हैं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल (a), (c), (d)",
+      "केवल (b), (e)",
+      "केवल (a), (c), (e)",
+      "केवल (b), (d), (e)"
+     ],
+     "sol": "<ul><li>(a) ✓ यूक्रोमेटीन ढीला संवेष्टित है।</li><li>(b) ✗ हेटेरोक्रोमेटीन अनुलेखन में निष्क्रिय है।</li><li>(c) ✓ ऋणावेशित DNA धनावेशित हिस्टोन अष्टक पर लिपटता है।</li><li>(d) ✓ लाइसीन और आर्जिनीन।</li><li>(e) ✗ न्यूक्लियोसोम में लगभग 200 bp होते हैं।</li></ul>",
+     "hint": "न्यूक्लियोसोम ≈ 200 bp।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2065,10 +2557,22 @@
       "Both genetic mapping and DNA fingerprinting",
       "Translation",
       "Genetic mapping"
-     ]
+     ],
+     "sol": "<p>NCERT: polymorphism (variation at the genetic level) forms the basis of genetic mapping of the human genome as well as of DNA fingerprinting.</p>",
+     "hint": "NCERT names two uses."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA बहुरूपता किसका आधार है?",
+     "o": [
+      "DNA अंगुलिछापी",
+      "आनुवंशिक मानचित्रण और DNA अंगुलिछापी दोनों",
+      "स्थानांतरण",
+      "आनुवंशिक मानचित्रण"
+     ],
+     "sol": "<p>NCERT: बहुरूपता (आनुवंशिक स्तर पर विभिन्नता) मानव जीनोम के आनुवंशिक मानचित्रण तथा DNA अंगुलिछापी दोनों का आधार है।</p>",
+     "hint": "NCERT दो उपयोग बताती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2111,10 +2615,22 @@
       "Both the subunits join together to bind with mRNA",
       "The tRNA is activated and the larger subunit of ribosome encounters mRNA",
       "The small subunit of ribosome encounters mRNA"
-     ]
+     ],
+     "sol": "<p>NCERT: translation begins (initiation) as the <b>small subunit</b> of the ribosome encounters the mRNA; the large subunit joins later.</p>",
+     "hint": "Small subunit first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "mRNA से प्रोटीनों के स्थानांतरण की प्रक्रिया तब आरंभ होती है जैसे ही :",
+     "o": [
+      "राइबोसोम का बड़ा उपएकक mRNA से मिलता है",
+      "दोनों उपएकक मिलकर mRNA से जुड़ते हैं",
+      "tRNA सक्रिय होता है और राइबोसोम का बड़ा उपएकक mRNA से मिलता है",
+      "राइबोसोम का छोटा उपएकक mRNA से मिलता है"
+     ],
+     "sol": "<p>NCERT: स्थानांतरण (प्रारंभन) तब शुरू होता है जब राइबोसोम का <b>छोटा उपएकक</b> mRNA से मिलता है; बड़ा उपएकक बाद में जुड़ता है।</p>",
+     "hint": "पहले छोटा उपएकक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2157,10 +2673,22 @@
       "Expressed sequence tags",
       "Bioinformatics",
       "Sequence annotation"
-     ]
+     ],
+     "sol": "<p>The HGP's second approach — sequencing the whole set of the genome (coding and non-coding) blindly and later assigning functions to different regions — is called <b>sequence annotation</b>.</p>",
+     "hint": "First sequence, then annotate."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि कोई आनुवंशिकीविद् किसी जीव के संपूर्ण जीनोम का अनुक्रमण अंधाधुंध उपागम से करता है और फिर विभिन्न खंडों को कार्य निर्धारित करता है, तो अपनाई गई विधि कहलाती है :",
+     "o": [
+      "जीन मानचित्रण",
+      "व्यक्त अनुक्रम घुंडी",
+      "जैव-सूचना विज्ञान",
+      "अनुक्रम टिप्पण"
+     ],
+     "sol": "<p>मानव जीनोम परियोजना (HGP) का दूसरा उपागम — संपूर्ण जीनोम (कूटलेखी और अकूटलेखी) का अंधाधुंध अनुक्रमण करके बाद में विभिन्न क्षेत्रों को कार्य सौंपना — <b>अनुक्रम टिप्पण</b> कहलाता है।</p>",
+     "hint": "पहले अनुक्रमण, फिर टिप्पण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2204,10 +2732,22 @@
       "z, y, a genes will not be translated",
       "RNA polymerase will bind the promoter region",
       "Only z gene will get transcribed"
-     ]
+     ],
+     "sol": "<p>The mutant repressor still binds the operator but cannot bind the inducer, so lactose cannot release it. The operator stays blocked, RNA polymerase cannot transcribe z, y, a — hence they are not transcribed and <b>not translated</b>.</p>",
+     "hint": "Repressor that ignores the inducer = permanently 'off'."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "<i>E. coli</i> के एक प्रभेद में i जीन उत्परिवर्तित हो जाता है और उसका उत्पाद प्रेरक अणु से नहीं जुड़ पाता। यदि वृद्धि माध्यम में लैक्टोज दिया जाए तो परिणाम क्या होगा?",
+     "o": [
+      "z, y, a जीनों का अनुलेखन होगा",
+      "z, y, a जीनों का स्थानांतरण नहीं होगा",
+      "RNA पॉलीमरेज उन्नायक क्षेत्र से जुड़ेगा",
+      "केवल z जीन का अनुलेखन होगा"
+     ],
+     "sol": "<p>उत्परिवर्ती दमनकारी प्रचालक से तो जुड़ता है परंतु प्रेरक से नहीं, अतः लैक्टोज उसे हटा नहीं सकता। प्रचालक अवरुद्ध रहता है, RNA पॉलीमरेज z, y, a का अनुलेखन नहीं कर पाता — अतः न अनुलेखन होता है, न <b>स्थानांतरण</b>।</p>",
+     "hint": "प्रेरक को न पहचानने वाला दमनकारी = स्थायी रूप से ‘बंद’।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2250,15 +2790,27 @@
       "3.3 × 10<sup>6</sup> bp",
       "6.6 × 10<sup>6</sup> bp",
       "3.3 × 10<sup>9</sup> bp"
-     ]
+     ],
+     "sol": "<p>Number of bp = length ÷ distance per bp = 1.1 m ÷ (0.34 × 10<sup>−9</sup> m) ≈ 3.2 × 10<sup>9</sup>, i.e. about <b>3.3 × 10<sup>9</sup> bp</b> (the haploid human genome).</p>",
+     "hint": "Reverse of length = bp × 0.34 nm."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि किसी DNA अणु की लंबाई 1.1 मीटर है, तो क्षारक युग्मों की लगभग संख्या क्या होगी?",
+     "o": [
+      "6.6 × 10<sup>9</sup> bp",
+      "3.3 × 10<sup>6</sup> bp",
+      "6.6 × 10<sup>6</sup> bp",
+      "3.3 × 10<sup>9</sup> bp"
+     ],
+     "sol": "<p>bp की संख्या = लंबाई ÷ प्रति bp दूरी = 1.1 m ÷ (0.34 × 10<sup>−9</sup> m) ≈ 3.2 × 10<sup>9</sup>, अर्थात् लगभग <b>3.3 × 10<sup>9</sup> bp</b> (अगुणित मानव जीनोम)।</p>",
+     "hint": "लंबाई = bp × 0.34 nm का उलटा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
     "kind": "single",
-    "index": 1
+    "index": 3
    },
    "ncert": {
     "chapter": "bio12-05",
@@ -2280,7 +2832,7 @@
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
    "review": {
-    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keyCheck": "Answer printed in the copy: 4; matches our solving (an earlier transcription had 2)",
     "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
     "note": "1.1 m ÷ 0.34 × 10<sup>−9</sup> m ≈ 3.2 × 10<sup>9</sup> bp."
    }
@@ -2297,10 +2849,22 @@
       "60 cells",
       "80 cells",
       "20 cells"
-     ]
+     ],
+     "sol": "<p><i>E. coli</i> divides every 20 min, so 60 min = 3 generations: 10 → 80 cells. Semi-conservative replication keeps the 20 original <sup>15</sup>N strands (2 per original cell) in 20 different cells. Cells totally free of <sup>15</sup>N = 80 − 20 = <b>60</b>.</p>",
+     "hint": "Old strands are never broken up; count them."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "<sup>15</sup>N-dsDNA वाली दस <i>E. coli</i> कोशिकाओं को <sup>14</sup>N न्यूक्लियोटाइड युक्त माध्यम में रखा जाता है। 60 मिनट बाद कितनी <i>E. coli</i> कोशिकाओं का DNA <sup>15</sup>N से पूर्णतः मुक्त होगा?",
+     "o": [
+      "40 कोशिकाएँ",
+      "60 कोशिकाएँ",
+      "80 कोशिकाएँ",
+      "20 कोशिकाएँ"
+     ],
+     "sol": "<p><i>E. coli</i> हर 20 min में विभाजित होता है, अतः 60 min = 3 पीढ़ियाँ: 10 → 80 कोशिकाएँ। अर्धसंरक्षी प्रतिकृति में 20 मूल <sup>15</sup>N रज्जुक (प्रत्येक मूल कोशिका के 2) 20 भिन्न कोशिकाओं में बने रहते हैं। <sup>15</sup>N से पूर्णतः मुक्त कोशिकाएँ = 80 − 20 = <b>60</b>।</p>",
+     "hint": "पुराने रज्जुक कभी टूटते नहीं; उन्हें गिनें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2344,10 +2908,22 @@
       "Transcription of rRNAs (28S, 18S and 5.8S)",
       "Transcription of tRNA, 5S rRNA and snRNA",
       "Transcription of precursor of mRNA"
-     ]
+     ],
+     "sol": "<p>RNA polymerase I → rRNAs (28S, 18S, 5.8S); II → hnRNA; <b>III → tRNA, 5S rRNA and snRNAs</b>.</p>",
+     "hint": "I-II-III = rRNA, mRNA, tRNA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सुकेंद्रकियों में अनुलेखन की प्रक्रिया में RNA पॉलीमरेज III की क्या भूमिका है?",
+     "o": [
+      "केवल snRNAs का अनुलेखन",
+      "rRNAs (28S, 18S और 5.8S) का अनुलेखन",
+      "tRNA, 5S rRNA और snRNA का अनुलेखन",
+      "mRNA के पूर्ववर्ती का अनुलेखन"
+     ],
+     "sol": "<p>RNA पॉलीमरेज I → rRNAs (28S, 18S, 5.8S); II → hnRNA; <b>III → tRNA, 5S rRNA और snRNAs</b>।</p>",
+     "hint": "I-II-III = rRNA, mRNA, tRNA।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2390,10 +2966,22 @@
       "All genes that are expressed as RNA.",
       "All genes that are expressed as proteins.",
       "All genes whether expressed or unexpressed."
-     ]
+     ],
+     "sol": "<p>ESTs: identifying <b>all the genes that are expressed as RNA</b> (the first approach of the Human Genome Project).</p>",
+     "hint": "Expressed = transcribed into RNA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "व्यक्त अनुक्रम घुंडी (ESTs) से तात्पर्य है",
+     "o": [
+      "कुछ महत्त्वपूर्ण व्यक्त जीन।",
+      "वे सभी जीन जो RNA के रूप में व्यक्त होते हैं।",
+      "वे सभी जीन जो प्रोटीन के रूप में व्यक्त होते हैं।",
+      "सभी जीन, व्यक्त हों या अव्यक्त।"
+     ],
+     "sol": "<p>ESTs: <b>RNA के रूप में व्यक्त होने वाले सभी जीनों</b> की पहचान (मानव जीनोम परियोजना का पहला उपागम)।</p>",
+     "hint": "व्यक्त = RNA में अनुलेखित।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2436,10 +3024,22 @@
       "Frederick Griffith",
       "Alfred Hershey and Martha Chase",
       "Avery, MacLeod and McCarty"
-     ]
+     ],
+     "sol": "<p>Hershey and Chase (1952) gave the unequivocal proof that DNA is the genetic material, using bacteriophages labelled with <sup>32</sup>P and <sup>35</sup>S.</p>",
+     "hint": "Unequivocal = beyond doubt."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA के आनुवंशिक पदार्थ होने का निर्विवाद प्रमाण सर्वप्रथम किसने प्रस्तुत किया?",
+     "o": [
+      "विल्किन्स और फ्रैंकलिन",
+      "फ्रेडरिक ग्रिफिथ",
+      "अल्फ्रेड हर्षे और मार्था चेस",
+      "एवरी, मैकलॉयड और मैककार्टी"
+     ],
+     "sol": "<p>हर्षे और चेस (1952) ने <sup>32</sup>P और <sup>35</sup>S से चिह्नित जीवाणुभोजियों द्वारा DNA के आनुवंशिक पदार्थ होने का निर्विवाद प्रमाण दिया।</p>",
+     "hint": "निर्विवाद = संदेह से परे।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2482,10 +3082,22 @@
       "80",
       "60",
       "40"
-     ]
+     ],
+     "sol": "<p>NCERT: the ribosome consists of structural RNAs and about <b>80</b> different proteins.</p>",
+     "hint": "NCERT 5.7."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "राइबोसोम कितने भिन्न प्रोटीनों से बना होता है?",
+     "o": [
+      "20",
+      "80",
+      "60",
+      "40"
+     ],
+     "sol": "<p>NCERT: राइबोसोम संरचनात्मक RNAs और लगभग <b>80</b> भिन्न प्रोटीनों से बना होता है।</p>",
+     "hint": "NCERT 5.7।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2529,10 +3141,22 @@
       "Both Statement I and Statement II are true.",
       "Both Statement I and Statement II are false.",
       "Statement I is true but Statement II is false."
-     ]
+     ],
+     "sol": "<p>Both true. The 2′-OH makes RNA reactive and less stable, so it mutates faster; viruses with RNA genomes and short life spans therefore mutate and evolve faster.</p>",
+     "hint": "2′-OH makes RNA labile."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : RNA तीव्र दर से उत्परिवर्तित होता है।<br>कथन II : RNA जीनोम और छोटे जीवनकाल वाले विषाणु अधिक तेज़ी से उत्परिवर्तित और विकसित होते हैं।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "कथन I असत्य परंतु कथन II सत्य है।",
+      "कथन I और कथन II दोनों सत्य हैं।",
+      "कथन I और कथन II दोनों असत्य हैं।",
+      "कथन I सत्य है परंतु कथन II असत्य है।"
+     ],
+     "sol": "<p>दोनों सत्य। 2′-OH के कारण RNA क्रियाशील और कम स्थायी है, अतः तेज़ी से उत्परिवर्तित होता है; इसलिए RNA जीनोम और छोटे जीवनकाल वाले विषाणु तेज़ी से उत्परिवर्तित और विकसित होते हैं।</p>",
+     "hint": "2′-OH RNA को अस्थायी बनाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2575,10 +3199,22 @@
       "A-III, B-I, C-IV, D-III",
       "A-II, B-III, C-IV, D-I",
       "A-III, B-IV, C-I, D-II"
-     ]
+     ],
+     "sol": "<ul><li>a → transacetylase (II)</li><li>y → permease (III)</li><li>i → repressor (IV)</li><li>z → β-galactosidase (I)</li></ul>",
+     "hint": "z-y-a order of products."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(A) जीन 'a' — (I) β-गैलेक्टोसाइडेज़<br>(B) जीन 'y' — (II) ट्रांसऐसीटाइलेज़<br>(C) जीन 'i' — (III) परमिएज़<br>(D) जीन 'z' — (IV) दमनकारी प्रोटीन",
+     "o": [
+      "A-III, B-I, C-IV, D-II",
+      "A-III, B-I, C-IV, D-III",
+      "A-II, B-III, C-IV, D-I",
+      "A-III, B-IV, C-I, D-II"
+     ],
+     "sol": "<ul><li>a → ट्रांसऐसीटाइलेज़ (II)</li><li>y → परमिएज़ (III)</li><li>i → दमनकारी (IV)</li><li>z → β-गैलेक्टोसाइडेज़ (I)</li></ul>",
+     "hint": "उत्पादों का z-y-a क्रम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2621,10 +3257,22 @@
       "Both Statement I and Statement II are true.",
       "Both Statement I and Statement II are false.",
       "Statement I is correct but Statement II is false."
-     ]
+     ],
+     "sol": "<p>Statement I is incorrect: DNA is <b>negatively</b> charged and in prokaryotes it is held with some <b>positively</b> charged proteins in the nucleoid. Statement II is correct.</p>",
+     "hint": "DNA is always negative (phosphates)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : प्राक्केंद्रकियों में धनावेशित DNA कुछ ऋणावेशित प्रोटीनों के साथ केंद्रकाभ नामक क्षेत्र में रहता है।<br>कथन II : सुकेंद्रकियों में ऋणावेशित DNA धनावेशित हिस्टोन अष्टक के चारों ओर लिपटकर न्यूक्लियोसोम बनाता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "कथन I गलत है परंतु कथन II सत्य है।",
+      "कथन I और कथन II दोनों सत्य हैं।",
+      "कथन I और कथन II दोनों असत्य हैं।",
+      "कथन I सही है परंतु कथन II असत्य है।"
+     ],
+     "sol": "<p>कथन I गलत है: DNA <b>ऋणावेशित</b> है और प्राक्केंद्रकियों में केंद्रकाभ में कुछ <b>धनावेशित</b> प्रोटीनों के साथ रहता है। कथन II सही है।</p>",
+     "hint": "DNA सदैव ऋणावेशित है (फॉस्फेट)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2667,10 +3315,22 @@
       "5′ UAGCUAGCUAGCUAGCUAGCUAGCUAGC 3′",
       "3′ UAGCUAGCUAGCUAGCUAGCUAGCUAGC 5′",
       "5′ ATCGATCGATCGATCGATCGATCGATCG 3′"
-     ]
+     ],
+     "sol": "<p>The coding strand has the same sequence and polarity as mRNA, with T in place of U: <b>5′ ATCGATCG…ATCG 3′</b>. Option (2) is RNA (has U); (1) has the wrong polarity.</p>",
+     "hint": "Same direction, U → T."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि बने हुए mRNA का अनुक्रम निम्नलिखित है, तो संगत कूटलेखन रज्जुक का अनुक्रम कौन-सा है : 5′ AUCGAUCGAUCGAUCGAUCGAUCGAUCG 3′",
+     "o": [
+      "3′ ATCGATCGATCGATCGATCGATCGATCG 5′",
+      "5′ UAGCUAGCUAGCUAGCUAGCUAGCUAGC 3′",
+      "3′ UAGCUAGCUAGCUAGCUAGCUAGCUAGC 5′",
+      "5′ ATCGATCGATCGATCGATCGATCGATCG 3′"
+     ],
+     "sol": "<p>कूटलेखन रज्जुक का अनुक्रम और ध्रुवता mRNA जैसी ही होती है, केवल U के स्थान पर T: <b>5′ ATCGATCG…ATCG 3′</b>। विकल्प (2) RNA है (U है); (1) की ध्रुवता गलत है।</p>",
+     "hint": "वही दिशा, U → T।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2714,10 +3374,22 @@
       "A-III, B-IV, C-I, D-II",
       "A-II, B-III, C-IV, D-I",
       "A-IV, B-I, C-II, D-III"
-     ]
+     ],
+     "sol": "<ul><li>Griffith → transformation (III)</li><li>Jacob & Monod → lac operon (IV)</li><li>Khorana → genetic code (I)</li><li>Meselson & Stahl → semi-conservative replication (II)</li></ul>",
+     "hint": "Pair each scientist with one discovery."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित सूचियों का मिलान कीजिए :<br>(A) फ्रेडरिक ग्रिफिथ — (I) आनुवंशिक कूट<br>(B) फ्रांस्वा जैकब और जैक मोनो — (II) DNA प्रतिकृति की अर्धसंरक्षी विधि<br>(C) हरगोविंद खुराना — (III) रूपांतरण<br>(D) मेसेल्सन और स्टाल — (IV) लैक प्रचालेक",
+     "o": [
+      "A-III, B-II, C-I, D-IV",
+      "A-III, B-IV, C-I, D-II",
+      "A-II, B-III, C-IV, D-I",
+      "A-IV, B-I, C-II, D-III"
+     ],
+     "sol": "<ul><li>ग्रिफिथ → रूपांतरण (III)</li><li>जैकब और मोनो → लैक प्रचालेक (IV)</li><li>खुराना → आनुवंशिक कूट (I)</li><li>मेसेल्सन और स्टाल → अर्धसंरक्षी प्रतिकृति (II)</li></ul>",
+     "hint": "प्रत्येक वैज्ञानिक को एक खोज से जोड़ें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2764,10 +3436,22 @@
       "Acetylase",
       "Permease",
       "Polymerase"
-     ]
+     ],
+     "sol": "<p>The y gene product <b>permease</b> increases the permeability of the cell to β-galactosides, transporting lactose into the cell. β-galactosidase then hydrolyses it.</p>",
+     "hint": "Perme-ase → permeability."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जीवाणुओं के वृद्धि माध्यम में उपस्थित लैक्टोज किसकी क्रिया से कोशिका में पहुँचाया जाता है?",
+     "o": [
+      "बीटा-गैलेक्टोसाइडेज़",
+      "ऐसीटाइलेज़",
+      "परमिएज़",
+      "पॉलीमरेज"
+     ],
+     "sol": "<p>y जीन का उत्पाद <b>परमिएज़</b> β-गैलेक्टोसाइडों के लिए कोशिका की पारगम्यता बढ़ाकर लैक्टोज को कोशिका में पहुँचाता है। फिर β-गैलेक्टोसाइडेज़ उसका जल-अपघटन करता है।</p>",
+     "hint": "परमिएज़ → पारगम्यता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2810,10 +3494,22 @@
       "Structural gene, Transposons, Operator gene",
       "Inducer, Repressor, Structural gene",
       "Promotor, Structural gene, Terminator"
-     ]
+     ],
+     "sol": "<p>A transcription unit has three regions: a <b>promoter</b> (upstream, binds RNA polymerase), the <b>structural gene</b>, and a <b>terminator</b> (downstream).</p>",
+     "hint": "Start signal, gene, stop signal."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA में अनुलेखन इकाई मुख्यतः तीन क्षेत्रों से परिभाषित होती है (DNA में ये तीन क्षेत्र) उर्ध्व (अपस्ट्रीम) और अनुप्रवाह (डाउनस्ट्रीम) सिरे के सापेक्ष हैं :",
+     "o": [
+      "दमनकारी, प्रचालक जीन, संरचनात्मक जीन",
+      "संरचनात्मक जीन, ट्रांसपोज़ॉन, प्रचालक जीन",
+      "प्रेरक, दमनकारी, संरचनात्मक जीन",
+      "उन्नायक, संरचनात्मक जीन, समापक"
+     ],
+     "sol": "<p>अनुलेखन इकाई के तीन क्षेत्र हैं: <b>उन्नायक</b> (उर्ध्व, RNA पॉलीमरेज से जुड़ता है), <b>संरचनात्मक जीन</b>, तथा <b>समापक</b> (अनुप्रवाह)।</p>",
+     "hint": "प्रारंभ संकेत, जीन, समापन संकेत।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2856,10 +3552,22 @@
       "5′ AUGUAAAGUUUAUAGGUAAGU 3′",
       "5′ AUGUACCGUUUAUAGGGAAGU 3′",
       "5′ ATGTACCGTTTATAGGTAAGT 3′"
-     ]
+     ],
+     "sol": "<p>RNA is complementary and antiparallel to the template, with U for A: 3′ TACATGGCAAATATCCATTCA 5′ → <b>5′ AUGUACCGUUUAUAGGUAAGU 3′</b>. (4) has T, so it is DNA; (2) and (3) have mismatches.</p>",
+     "hint": "Pair base by base: A→U, T→A, G→C, C→G."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिए गए टेम्पलेट के लिए DNA निर्भर RNA पॉलीमरेज का सही उत्पाद कौन-सा है?<br>3′ TACATGGCAAATATCCATTCA 5′",
+     "o": [
+      "5′ AUGUACCGUUUAUAGGUAAGU 3′",
+      "5′ AUGUAAAGUUUAUAGGUAAGU 3′",
+      "5′ AUGUACCGUUUAUAGGGAAGU 3′",
+      "5′ ATGTACCGTTTATAGGTAAGT 3′"
+     ],
+     "sol": "<p>RNA टेम्पलेट का पूरक और प्रतिसमांतर होता है, A के सामने U: 3′ TACATGGCAAATATCCATTCA 5′ → <b>5′ AUGUACCGUUUAUAGGUAAGU 3′</b>। (4) में T है, अतः वह DNA है; (2) और (3) में बेमेल क्षारक हैं।</p>",
+     "hint": "क्षारक-दर-क्षारक युग्म बनाइए: A→U, T→A, G→C, C→G।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2903,10 +3611,22 @@
       "A-III, B-IV, C-I, D-II",
       "A-IV, B-III, C-I, D-II",
       "A-I, B-III, C-IV, D-II"
-     ]
+     ],
+     "sol": "<ul><li>RNA polymerase III → snRNAs, tRNA (IV)</li><li>Termination of transcription → rho factor (III)</li><li>Splicing of exons → snRNPs (I)</li><li>TATA box → promoter (II)</li></ul>",
+     "hint": "TATA box is part of the eukaryotic promoter."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. RNA पॉलीमरेज III — I. snRNPs<br>B. अनुलेखन का समापन — II. उन्नायक<br>C. एक्सॉनों का समबंधन — III. रो कारक<br>D. TATA बॉक्स — IV. SnRNAs, tRNA",
+     "o": [
+      "A-III, B-II, C-IV, D-I",
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-III, C-I, D-II",
+      "A-I, B-III, C-IV, D-II"
+     ],
+     "sol": "<ul><li>RNA पॉलीमरेज III → snRNAs, tRNA (IV)</li><li>अनुलेखन का समापन → रो कारक (III)</li><li>एक्सॉनों का समबंधन → snRNPs (I)</li><li>TATA बॉक्स → उन्नायक (II)</li></ul>",
+     "hint": "TATA बॉक्स सुकेंद्रकी उन्नायक का भाग है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2951,10 +3671,22 @@
       "The DNA dependent DNA polymerase catalyses polymerization in 5′ → 3′ direction.",
       "The DNA dependent DNA polymerase catalyses polymerization in one direction that is 3′ → 5′ .",
       "The DNA dependent RNA polymerase catalyses polymerization in one direction that is 5′ → 3′ ."
-     ]
+     ],
+     "sol": "<p>DNA-dependent DNA polymerase catalyses polymerisation in <b>one direction only, 5′ → 3′</b>; that is why replication is continuous on one strand and discontinuous on the other. (4) names RNA polymerase, which is not the replication enzyme.</p>",
+     "hint": "New nucleotides are added to the 3′-OH end."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "<i>E. coli</i> में प्रतिकृति की प्रक्रिया के संबंध में निम्नलिखित में से कौन-सा कथन सही है?",
+     "o": [
+      "DNA निर्भर DNA पॉलीमरेज 5′ → 3′ तथा 3′ → 5′ दोनों दिशाओं में बहुलकीकरण उत्प्रेरित करता है।",
+      "DNA निर्भर DNA पॉलीमरेज 5′ → 3′ दिशा में बहुलकीकरण उत्प्रेरित करता है।",
+      "DNA निर्भर DNA पॉलीमरेज केवल एक दिशा 3′ → 5′ में बहुलकीकरण उत्प्रेरित करता है।",
+      "DNA निर्भर RNA पॉलीमरेज केवल एक दिशा 5′ → 3′ में बहुलकीकरण उत्प्रेरित करता है।"
+     ],
+     "sol": "<p>DNA निर्भर DNA पॉलीमरेज <b>केवल एक दिशा, 5′ → 3′</b> में बहुलकीकरण उत्प्रेरित करता है; इसी कारण एक रज्जुक पर प्रतिकृति सतत् और दूसरे पर असतत् होती है। (4) RNA पॉलीमरेज का नाम लेता है, जो प्रतिकृति का एंजाइम नहीं है।</p>",
+     "hint": "नए न्यूक्लियोटाइड 3′-OH सिरे पर जुड़ते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2997,10 +3729,22 @@
       "Both statement I and statement II are incorrect.",
       "Statement I is correct but statement II is incorrect.",
       "Statement I is incorrect but statement II is correct."
-     ]
+     ],
+     "sol": "<p>Both statements follow NCERT 5.3 (RNA world): RNA was the first genetic material, acts as genetic material and catalyst, and is unstable because it is reactive. DNA evolved from RNA with chemical changes that made it more stable; its complementary double strands resist change by evolving repair.</p>",
+     "hint": "NCERT 5.3, nearly word for word."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : RNA विश्व में RNA को आवश्यक जीवन प्रक्रियाओं को संपन्न करने हेतु विकसित पहला आनुवंशिक पदार्थ माना जाता है। RNA आनुवंशिक पदार्थ तथा जीवित तंत्रों में कुछ महत्त्वपूर्ण जैव-रासायनिक अभिक्रियाओं के उत्प्रेरक का भी कार्य करता है। क्रियाशील होने के कारण RNA अस्थायी है।<br>कथन II : DNA, RNA से विकसित हुआ और अधिक स्थायी आनुवंशिक पदार्थ है। पूरक होने के कारण इसके द्विकुंडलित रज्जुक मरम्मत क्रियाविधि विकसित करके परिवर्तनों का प्रतिरोध करते हैं।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I और कथन II दोनों सही हैं।",
+      "कथन I और कथन II दोनों गलत हैं।",
+      "कथन I सही है परंतु कथन II गलत है।",
+      "कथन I गलत है परंतु कथन II सही है।"
+     ],
+     "sol": "<p>दोनों कथन NCERT 5.3 (RNA विश्व) के अनुसार हैं: RNA पहला आनुवंशिक पदार्थ था, आनुवंशिक पदार्थ और उत्प्रेरक दोनों का कार्य करता है, तथा क्रियाशील होने से अस्थायी है। DNA, RNA से ऐसे रासायनिक परिवर्तनों द्वारा विकसित हुआ जिनसे वह अधिक स्थायी बना; इसके पूरक द्विरज्जुक मरम्मत द्वारा परिवर्तन का प्रतिरोध करते हैं।</p>",
+     "hint": "NCERT 5.3, लगभग शब्दशः।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3043,10 +3787,22 @@
       "Chromosome Y",
       "Chromosome 1",
       "Chromosome 10"
-     ]
+     ],
+     "sol": "<p>NCERT (salient features of the human genome): <b>chromosome 1</b> has the most genes (2968); the Y chromosome has the fewest (231).</p>",
+     "hint": "Most: 1; fewest: Y."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव जीनोम में किस क्रोमोसोम में जीनों की संख्या सर्वाधिक है?",
+     "o": [
+      "क्रोमोसोम X",
+      "क्रोमोसोम Y",
+      "क्रोमोसोम 1",
+      "क्रोमोसोम 10"
+     ],
+     "sol": "<p>NCERT (मानव जीनोम की प्रमुख विशेषताएँ): <b>क्रोमोसोम 1</b> में सबसे अधिक जीन (2968) हैं; Y क्रोमोसोम में सबसे कम (231)।</p>",
+     "hint": "सर्वाधिक: 1; न्यूनतम: Y।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3089,10 +3845,22 @@
       "B, C, D only",
       "B, C, E only",
       "C, D, E only"
-     ]
+     ],
+     "sol": "<p>Post-transcriptional processing of hnRNA in the nucleus: splicing — removal of introns and joining of exons (B); capping — methyl guanosine triphosphate at the 5′ end (C); tailing — adenylate residues at the 3′ end (D). A is wrong (splicing occurs before export); E is not a processing step. <b>B, C, D only</b>.</p>",
+     "hint": "Splicing, capping, tailing."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सुकेंद्रकी कोशिका में निम्नलिखित में से कौन-सी पश्च-अनुलेखन घटनाएँ हैं?<br>A. समबंधन से पहले पूर्व-mRNA का कोशिकाद्रव्य में परिवहन।<br>B. इंट्रानों का निष्कासन और एक्सॉनों का जुड़ना।<br>C. hnRNA के 5′ सिरे पर मेथिल समूह का जुड़ना।<br>D. hnRNA के 3′ सिरे पर ऐडेनीन अवशेषों का जुड़ना।<br>E. दो पूरक RNAs का क्षारक युग्मन।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A, B, C",
+      "केवल B, C, D",
+      "केवल B, C, E",
+      "केवल C, D, E"
+     ],
+     "sol": "<p>केंद्रक में hnRNA का पश्च-अनुलेखन प्रक्रमण: समबंधन — इंट्रानों का निष्कासन और एक्सॉनों का जुड़ना (B); कैपिंग — 5′ सिरे पर मेथिल ग्वानोसीन ट्राइफॉस्फेट (C); पुच्छन — 3′ सिरे पर ऐडेनिलेट अवशेष (D)। A गलत है (समबंधन निर्यात से पहले होता है); E प्रक्रमण चरण नहीं है। <b>केवल B, C, D</b>।</p>",
+     "hint": "समबंधन, कैपिंग, पुच्छन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3135,10 +3903,22 @@
       "A-IV, B-II, C-III, D-I",
       "A-IV, B-III, C-I, D-II",
       "A-III, B-II, C-IV, D-I"
-     ]
+     ],
+     "sol": "<ul><li>Hershey and Chase → confirmed DNA as genetic material (IV)</li><li>Euchromatin → loosely packed, light-stained (III)</li><li>Griffith → <i>Streptococcus pneumoniae</i> (I)</li><li>Heterochromatin → densely packed, dark-stained (II)</li></ul>",
+     "hint": "Euchromatin = light and loose; heterochromatin = dark and dense."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>A. अल्फ्रेड हर्षे और मार्था चेस — I. <i>स्ट्रेप्टोकोकस न्यूमोनी</i><br>B. यूक्रोमेटीन — II. सघन संवेष्टित और गहरा अभिरंजित<br>C. फ्रेडरिक ग्रिफिथ — III. ढीला संवेष्टित और हल्का अभिरंजित<br>D. हेटेरोक्रोमेटीन — IV. DNA के आनुवंशिक पदार्थ होने की पुष्टि",
+     "o": [
+      "A-II, B-IV, C-I, D-III",
+      "A-IV, B-II, C-III, D-I",
+      "A-IV, B-III, C-I, D-II",
+      "A-III, B-II, C-IV, D-I"
+     ],
+     "sol": "<ul><li>हर्षे और चेस → DNA के आनुवंशिक पदार्थ होने की पुष्टि (IV)</li><li>यूक्रोमेटीन → ढीला संवेष्टित, हल्का अभिरंजित (III)</li><li>ग्रिफिथ → <i>स्ट्रेप्टोकोकस न्यूमोनी</i> (I)</li><li>हेटेरोक्रोमेटीन → सघन संवेष्टित, गहरा अभिरंजित (II)</li></ul>",
+     "hint": "यू = हल्का और ढीला; हेटेरो = गहरा और सघन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3183,10 +3963,22 @@
       "Leucine & Lysine",
       "Phenylalanine & Leucine",
       "Phenylalanine & Arginine"
-     ]
+     ],
+     "sol": "<p>Histones are rich in the basic amino acids <b>lysine and arginine</b>, which carry positive charges in their side chains.</p>",
+     "hint": "Basic residues bind the negative DNA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हिस्टोन किससे समृद्ध होते हैं?",
+     "o": [
+      "लाइसीन और आर्जिनीन",
+      "ल्यूसीन और लाइसीन",
+      "फेनिलएलेनीन और ल्यूसीन",
+      "फेनिलएलेनीन और आर्जिनीन"
+     ],
+     "sol": "<p>हिस्टोन क्षारकीय अमीनो अम्लों <b>लाइसीन और आर्जिनीन</b> से समृद्ध होते हैं, जिनकी पार्श्व शृंखलाओं पर धनावेश होता है।</p>",
+     "hint": "क्षारकीय अवशेष ऋणावेशित DNA से जुड़ते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3229,10 +4021,22 @@
       "Francis Crick",
       "Jacque Monod",
       "Franklin Stahl"
-     ]
+     ],
+     "sol": "<p>George Gamow, a physicist, argued that 4 bases must code for 20 amino acids, so the code should be a combination of <b>three</b> nucleotides (4<sup>3</sup> = 64 codons).</p>",
+     "hint": "4<sup>2</sup> = 16 is too few; 4<sup>3</sup> = 64 is enough."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसने प्रस्तावित किया कि अमीनो अम्लों का आनुवंशिक कूट तीन न्यूक्लियोटाइडों से बना होना चाहिए?",
+     "o": [
+      "जॉर्ज गैमो",
+      "फ्रांसिस क्रिक",
+      "जैक मोनो",
+      "फ्रैंकलिन स्टाल"
+     ],
+     "sol": "<p>भौतिकविद् जॉर्ज गैमो ने तर्क दिया कि 4 क्षारकों को 20 अमीनो अम्लों का कूटलेखन करना है, अतः कूट <b>तीन</b> न्यूक्लियोटाइडों का संयोजन होना चाहिए (4<sup>3</sup> = 64 प्रकूट)।</p>",
+     "hint": "4<sup>2</sup> = 16 बहुत कम है; 4<sup>3</sup> = 64 पर्याप्त।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3275,10 +4079,22 @@
       "σ (sigma)",
       "ρ (rho)",
       "γ (gamma)"
-     ]
+     ],
+     "sol": "<p>In bacteria, RNA polymerase associates transiently with the initiation factor σ (sigma) to start and with the termination factor <b>ρ (rho)</b> to terminate transcription.</p>",
+     "hint": "σ starts, ρ stops."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अनुलेखन के समापन के लिए कौन-सा कारक महत्त्वपूर्ण है?",
+     "o": [
+      "α (अल्फ़ा)",
+      "σ (सिग्मा)",
+      "ρ (रो)",
+      "γ (गामा)"
+     ],
+     "sol": "<p>जीवाणुओं में RNA पॉलीमरेज प्रारंभन के लिए अस्थायी रूप से प्रारंभन कारक σ (सिग्मा) से तथा समापन के लिए समापन कारक <b>ρ (रो)</b> से जुड़ता है।</p>",
+     "hint": "σ प्रारंभ, ρ समापन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3321,10 +4137,22 @@
       "A, B and D only",
       "C, D and E only",
       "A, C and E only"
-     ]
+     ],
+     "sol": "<ul><li>A ✓ eight histone molecules form the octamer.</li><li>B ✗ histones are positively charged basic proteins.</li><li>C ✓ rich in lysine and arginine.</li><li>D ✗ DNA is negatively charged.</li><li>E ✓ higher-level packaging needs non-histone chromosomal (NHC) proteins.</li></ul><p><b>A, C and E only</b>.</p>",
+     "hint": "Check the charges."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA कुंडली के संवेष्टन के संदर्भ में निम्नलिखित में से कौन-से कथन सही हैं?<br>A. हिस्टोन आठ अणुओं की एक इकाई बनाने हेतु संगठित होते हैं जिसे हिस्टोन अष्टक कहते हैं।<br>B. हिस्टोन ऋणावेशित क्षारकीय प्रोटीन हैं।<br>C. हिस्टोन क्षारकीय अमीनो अम्ल अवशेषों लाइसीन और आर्जिनीन से समृद्ध हैं।<br>D. धनावेशित DNA हिस्टोन अष्टक के चारों ओर लिपटकर न्यूक्लियोसोम बनाता है।<br>E. उच्च स्तरों पर क्रोमेटीन के संवेष्टन के लिए अतिरिक्त प्रोटीनों की आवश्यकता होती है जिन्हें गैर-हिस्टोन क्रोमोसोमल प्रोटीन कहते हैं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल B, D और E",
+      "केवल A, B और D",
+      "केवल C, D और E",
+      "केवल A, C और E"
+     ],
+     "sol": "<ul><li>A ✓ आठ हिस्टोन अणु अष्टक बनाते हैं।</li><li>B ✗ हिस्टोन धनावेशित क्षारकीय प्रोटीन हैं।</li><li>C ✓ लाइसीन और आर्जिनीन से समृद्ध।</li><li>D ✗ DNA ऋणावेशित है।</li><li>E ✓ उच्च स्तरीय संवेष्टन हेतु गैर-हिस्टोन क्रोमोसोमल (NHC) प्रोटीन आवश्यक।</li></ul><p><b>केवल A, C और E</b>।</p>",
+     "hint": "आवेश जाँचें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3368,10 +4196,22 @@
       "A, B, C, D and E",
       "A, B, C and D only",
       "A, C, D and E only"
-     ]
+     ],
+     "sol": "<p>All five follow NCERT 5.5.1: a transcription unit = promoter, structural gene, terminator (A); the promoter lies towards the 5′ end (upstream) of the structural gene, by convention with respect to the coding strand (B); it provides the binding site for RNA polymerase (C), and its position defines the template and coding strands (D); the terminator lies towards the 3′ end (downstream) of the coding strand and marks the end of transcription (E). <b>A, B, C, D and E</b>.</p>",
+     "hint": "Every statement is an NCERT line."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अनुलेखन इकाई के संदर्भ में निम्नलिखित में से कौन-से कथन सही हैं?<br>A. DNA में अनुलेखन इकाई मुख्यतः तीन क्षेत्रों से परिभाषित होती है: उन्नायक, संरचनात्मक जीन और समापक।<br>B. उन्नायक को संरचनात्मक जीन के 5′ सिरे की ओर स्थित माना जाता है।<br>C. उन्नायक DNA का वह अनुक्रम है जो RNA पॉलीमरेज के लिए बंधन स्थल प्रदान करता है।<br>D. उन्नायक टेम्पलेट और कूटलेखन रज्जुकों को परिभाषित करता है।<br>E. समापक कूटलेखन रज्जुक के 3′ सिरे की ओर स्थित होता है और अनुलेखन की प्रक्रिया का अंत निर्धारित करता है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल B, C, D और E",
+      "A, B, C, D और E",
+      "केवल A, B, C और D",
+      "केवल A, C, D और E"
+     ],
+     "sol": "<p>पाँचों NCERT 5.5.1 के अनुसार हैं: अनुलेखन इकाई = उन्नायक, संरचनात्मक जीन, समापक (A); उन्नायक संरचनात्मक जीन के 5′ सिरे (उर्ध्व) की ओर है, परंपरानुसार कूटलेखन रज्जुक के सापेक्ष (B); यह RNA पॉलीमरेज का बंधन स्थल देता है (C), और इसकी स्थिति टेम्पलेट और कूटलेखन रज्जुक तय करती है (D); समापक कूटलेखन रज्जुक के 3′ सिरे (अनुप्रवाह) की ओर है और अनुलेखन का अंत चिह्नित करता है (E)। <b>A, B, C, D और E</b>।</p>",
+     "hint": "हर कथन NCERT की एक पंक्ति है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3415,10 +4255,22 @@
       "A, D, B, E, C",
       "A, B, D, C, E",
       "A, E, C, B, D"
-     ]
+     ],
+     "sol": "<p>NCERT steps: isolate DNA and digest with restriction endonucleases (A) → separate fragments by electrophoresis (E) → transfer (blot) to nylon/nitrocellulose membranes (C) → hybridise with a labelled VNTR probe (B) → detect hybridised fragments by autoradiography (D). <b>A, E, C, B, D</b>.</p>",
+     "hint": "Southern blotting order: cut, run, blot, probe, expose."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA अंगुलिछापी के निम्नलिखित चरणों को सही क्रम में व्यवस्थित कीजिए :<br>A. DNA का पृथक्करण और प्रतिबंधन एंडोन्यूक्लिएज़ों द्वारा उसका पाचन।<br>B. चिह्नित VNTR प्रोब द्वारा संकरण।<br>C. पृथक किए गए DNA खंडों का संश्लेषित झिल्लियों पर स्थानांतरण।<br>D. स्वविकिरणी चित्रण (ऑटोरेडियोग्राफ़ी) द्वारा संकरित DNA खंडों का पता लगाना।<br>E. इलेक्ट्रोफोरेसिस द्वारा DNA खंडों का पृथक्करण।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A, E, B, C, D",
+      "A, D, B, E, C",
+      "A, B, D, C, E",
+      "A, E, C, B, D"
+     ],
+     "sol": "<p>NCERT चरण: DNA का पृथक्करण और प्रतिबंधन एंडोन्यूक्लिएज़ों से पाचन (A) → इलेक्ट्रोफोरेसिस से खंडों का पृथक्करण (E) → नायलॉन/नाइट्रोसेल्यूलोज़ झिल्ली पर स्थानांतरण (C) → चिह्नित VNTR प्रोब से संकरण (B) → स्वविकिरणी चित्रण से संकरित खंडों का पता (D)। <b>A, E, C, B, D</b>।</p>",
+     "hint": "सदर्न ब्लॉटिंग क्रम: काटना, चलाना, स्थानांतरण, प्रोब, उद्भासन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3456,16 +4308,28 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "In the lac operon, the z gene codes for: n",
+     "q": "In the lac operon, the z gene codes for:",
      "o": [
       "the repressor of lac operon",
       "transacetylase",
       "permease",
       "beta-galactosidase"
-     ]
+     ],
+     "sol": "<p>Lac operon: z → β-galactosidase (hydrolyses lactose to galactose and glucose), y → permease, a → transacetylase; the repressor is made by the i gene.</p>",
+     "hint": "z = the 'lactose-splitting' enzyme."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "लैक प्रचालेक में z जीन किसका कूटलेखन करता है:",
+     "o": [
+      "लैक प्रचालेक का दमनकारी",
+      "ट्रांसऐसीटाइलेज़",
+      "परमिएज़",
+      "बीटा-गैलेक्टोसाइडेज़"
+     ],
+     "sol": "<p>लैक प्रचालेक: z → β-गैलेक्टोसाइडेज़ (लैक्टोज का गैलेक्टोज और ग्लूकोस में जल-अपघटन), y → परमिएज़, a → ट्रांसऐसीटाइलेज़; दमनकारी i जीन बनाता है।</p>",
+     "hint": "z = ‘लैक्टोज तोड़ने वाला’ एंजाइम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -3495,6 +4359,296 @@
     "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q101."
+   }
+  },
+  {
+   "id": "bio12-05-ai-5-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The length of DNA is characteristic of an organism. Which pairing of organism and DNA length is correct?",
+     "o": [
+      "Bacteriophage φ×174 — 48502 bp",
+      "<i>Escherichia coli</i> — 3.3 × 10<sup>9</sup> bp",
+      "Bacteriophage lambda — 48502 bp",
+      "Haploid human DNA — 4.6 × 10<sup>6</sup> bp"
+     ],
+     "sol": "<p>NCERT 5.1: DNA length is given as the number of nucleotides or base pairs (bp):</p><ul><li>bacteriophage φ×174 — 5386 nucleotides;</li><li><b>bacteriophage lambda — 48502 bp</b>;</li><li><i>E. coli</i> — 4.6 × 10<sup>6</sup> bp;</li><li>haploid human DNA — 3.3 × 10<sup>9</sup> bp.</li></ul><p>Options 1, 2 and 4 swap these values.</p>",
+     "hint": "φ×174 is counted in nucleotides, not bp.",
+     "trap": "φ×174 is single-stranded, so its size is given in nucleotides (5386)."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "DNA की लंबाई किसी भी जीव की विशेषता है। जीव तथा DNA की लंबाई का कौन-सा युग्म सही है?",
+     "o": [
+      "जीवाणुभोजी φ×174 — 48502 bp",
+      "<i>Escherichia coli</i> — 3.3 × 10<sup>9</sup> bp",
+      "जीवाणुभोजी लैंब्डा — 48502 bp",
+      "मनुष्य का अगुणित DNA — 4.6 × 10<sup>6</sup> bp"
+     ],
+     "sol": "<p>NCERT 5.1: DNA की लंबाई न्यूक्लियोटाइड्स या क्षार युग्म (bp) की संख्या से बताई जाती है:</p><ul><li>जीवाणुभोजी φ×174 — 5386 न्यूक्लियोटाइड्स;</li><li><b>जीवाणुभोजी लैंब्डा — 48502 क्षार युग्म (bp)</b>;</li><li><i>E. coli</i> — 4.6 × 10<sup>6</sup> bp;</li><li>मनुष्य का अगुणित DNA — 3.3 × 10<sup>9</sup> bp।</li></ul><p>विकल्प 1, 2 तथा 4 में ये मान आपस में बदल दिए गए हैं।</p>",
+     "hint": "φ×174 न्यूक्लियोटाइड्स में गिना जाता है, bp में नहीं।",
+     "trap": "φ×174 एकल रज्जुक है, अतः इसका आकार न्यूक्लियोटाइड्स (5386) में दिया जाता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.1",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-05-ai-5-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In Griffith's experiments with <i>Streptococcus pneumoniae</i>, which of the following, when injected into mice, killed them?",
+     "o": [
+      "Heat-killed S strain alone",
+      "Live R strain alone",
+      "A mixture of heat-killed S strain and live R strain",
+      "A mixture of heat-killed S strain and heat-killed R strain"
+     ],
+     "sol": "<p>NCERT 5.2: S strain bacteria have a mucous (polysaccharide) coat and are virulent; R strain lack it and do not cause pneumonia. Griffith found that live S killed mice; live R and heat-killed S did not. But a <b>mixture of heat-killed S and live R killed the mice</b>, and living S bacteria were recovered from them — the R strain had been <b>transformed</b> by a 'transforming principle' from the dead S strain.</p>",
+     "hint": "Something passed from dead S to live R.",
+     "trap": "Heat-killed S alone is harmless; only live bacteria can multiply and cause disease."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "<i>Streptococcus pneumoniae</i> के साथ ग्रिफिथ के प्रयोगों में निम्नलिखित में से किसे चूहों में अंतःक्षेपित करने पर चूहे मर गए?",
+     "o": [
+      "केवल ताप मृत S प्रभेद",
+      "केवल जीवित R प्रभेद",
+      "ताप मृत S प्रभेद तथा जीवित R प्रभेद का मिश्रण",
+      "ताप मृत S प्रभेद तथा ताप मृत R प्रभेद का मिश्रण"
+     ],
+     "sol": "<p>NCERT 5.2: S प्रभेद के जीवाणु में श्लेष्मा (बहुशर्कराइड) युक्त आवरण होता है और ये उग्र होते हैं; R प्रभेद में यह आवरण नहीं होता और इससे नीमोनिया नहीं होता। ग्रिफिथ ने पाया कि जीवित S से चूहे मरे; जीवित R तथा ताप मृत S से नहीं। परंतु <b>ताप मृत S तथा जीवित R के मिश्रण से चूहे मर गए</b>, और उनसे जीवित S जीवाणु प्राप्त हुए — ताप मृत S प्रभेद के 'रूपांतरित कारक' ने R प्रभेद का <b>रूपांतरण</b> कर दिया था।</p>",
+     "hint": "मृत S से जीवित R में कुछ स्थानांतरित हुआ।",
+     "trap": "केवल ताप मृत S हानिरहित है; केवल जीवित जीवाणु ही गुणन कर रोग उत्पन्न कर सकते हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.2 (Griffith's experiment)",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-05-ai-5-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "During transcription only one strand of a DNA segment is copied into RNA. Which of the following is a reason given in NCERT for not copying both strands?",
+     "o": [
+      "RNA polymerase can bind only to single-stranded DNA",
+      "The two RNA molecules would be complementary and would form double-stranded RNA, which cannot be translated",
+      "Both strands would produce identical RNA molecules, wasting energy",
+      "Uracil cannot pair with adenine on the second strand"
+     ],
+     "sol": "<p>NCERT 5.5 gives two reasons:</p><ol><li>The two strands are complementary, not identical, so they would code for <b>different</b> RNAs and different proteins — one DNA segment coding for two proteins would complicate information transfer.</li><li>The two RNAs, made together, would be <b>complementary to each other and form double-stranded RNA</b>, which would prevent translation into protein.</li></ol><p>Option 3 is wrong because complementary is not identical; in transcription adenine pairs with uracil, so option 4 is wrong too.</p>",
+     "hint": "Complementary RNAs pair up.",
+     "trap": "'Complementary' does not mean 'identical'."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "अनुलेखन के दौरान DNA के एक भाग की केवल एक रज्जुक का RNA में प्रतिलिपीकरण होता है। NCERT के अनुसार दोनों रज्जुकों का प्रतिलिपीकरण न होने का कारण निम्नलिखित में से कौन-सा है?",
+     "o": [
+      "RNA पॉलीमरेज केवल एकल रज्जुक DNA से जुड़ सकता है",
+      "दोनों RNA अणु एक दूसरे के पूरक होंगे तथा द्विरज्जुक RNA बनाएँगे, जिसका प्रोटीन में स्थानांतरण नहीं हो सकता",
+      "दोनों रज्जुक समान RNA अणु बनाएँगी, जिससे ऊर्जा व्यर्थ होगी",
+      "दूसरी रज्जुक पर यूरेसिल एडिनीन के साथ युग्म नहीं बना सकता"
+     ],
+     "sol": "<p>NCERT 5.5 दो कारण बताती है:</p><ol><li>दोनों रज्जुक पूरक हैं, समान नहीं, अतः वे <b>भिन्न</b> अनुक्रमों वाले RNA तथा भिन्न प्रोटीनों का कूटलेखन करेंगी — DNA का एक भाग दो भिन्न प्रोटीनों का कूटलेखन करे तो आनुवंशिक सूचना स्थानांतरण तंत्र में जटिलता उत्पन्न होगी।</li><li>साथ-साथ बने दोनों RNA अणु <b>एक दूसरे के पूरक होकर द्विरज्जुक RNA</b> बनाएँगे, जिससे उसका प्रोटीन में स्थानांतरण नहीं हो पाएगा।</li></ol><p>विकल्प 3 गलत है क्योंकि पूरकता का मतलब समानता नहीं है; अनुलेखन में एडिनीन यूरेसिल के साथ युग्म बनाता है, अतः विकल्प 4 भी गलत है।</p>",
+     "hint": "पूरक RNA आपस में युग्मित हो जाते हैं।",
+     "trap": "'पूरकता' का मतलब 'समानता' नहीं है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.5",
+    "label": "Practice"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-05-ai-5-8-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In eukaryotes, gene expression can be regulated at several levels. Which of the following is <b>not</b> one of the levels listed in NCERT?",
+     "o": [
+      "Transcriptional level (formation of primary transcript)",
+      "Processing level (regulation of splicing)",
+      "Transport of mRNA from the nucleus to the cytoplasm",
+      "Replication level (rate of DNA duplication)"
+     ],
+     "sol": "<p>NCERT 5.8: since gene expression results in a polypeptide, in eukaryotes it can be regulated at (i) the <b>transcriptional</b> level, (ii) the <b>processing</b> level (splicing), (iii) <b>transport of mRNA</b> from nucleus to cytoplasm and (iv) the <b>translational</b> level. DNA replication copies the whole genome and is not a level of regulating a particular gene's expression. (In prokaryotes, control of the rate of transcriptional initiation is the predominant site.)</p>",
+     "hint": "Four levels, all after the gene is read.",
+     "trap": "Replication is not part of gene expression."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "सुकेंद्रकी में जीन अभिव्यक्ति का नियमन कई स्तरों पर हो सकता है। निम्नलिखित में से कौन-सा NCERT में दिए गए स्तरों में <b>नहीं</b> है?",
+     "o": [
+      "अनुलेखन स्तर (प्रारंभिक अनुलेख का निर्माण)",
+      "संसाधन स्तर (संबंधन का नियमन)",
+      "mRNA का केंद्रक से कोशिकाद्रव्य में अभिगमन",
+      "प्रतिकृति स्तर (DNA के द्विगुणन की दर)"
+     ],
+     "sol": "<p>NCERT 5.8: जीन अभिव्यक्ति के परिणामस्वरूप पॉलीपेप्टाइड बनता है, अतः सुकेंद्रकी में इसका नियमन (क) <b>अनुलेखन</b> स्तर, (ख) <b>संसाधन</b> स्तर (संबंधन), (ग) mRNA का केंद्रक से कोशिकाद्रव्य में <b>अभिगमन</b> तथा (घ) <b>स्थानांतरीय</b> स्तर पर हो सकता है। DNA प्रतिकृति पूरे जीनोम की प्रतिलिपि बनाती है और किसी विशेष जीन की अभिव्यक्ति के नियमन का स्तर नहीं है। (असीमकेंद्रकी में अनुलेखन प्रारंभन की दर का नियंत्रण मुख्य स्थल है।)</p>",
+     "hint": "चार स्तर, सभी जीन पढ़े जाने के बाद।",
+     "trap": "प्रतिकृति जीन अभिव्यक्ति का भाग नहीं है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.8"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.8",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-05-ai-5-9-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "According to NCERT, one of the greatest impacts of having the human genome sequence is that:",
+     "o": [
+      "researchers can now study all the genes in a genome — for example, all the transcripts in a tissue, organ or tumour — systematically and on a broad scale, instead of one or a few genes at a time",
+      "every human disease can now be cured by replacing the faulty gene",
+      "DNA fingerprinting has become unnecessary",
+      "the number of genes in humans has been found to equal the number of base pairs"
+     ],
+     "sol": "<p>NCERT 5.9.2: the HG sequence enables a radically new approach to biological research. Earlier, researchers studied <b>one or a few genes at a time</b>; with whole-genome sequences and high-throughput technologies they can <b>study all the genes in a genome</b> — e.g. all the transcripts in a particular tissue, organ or tumour, or how tens of thousands of genes and proteins work together in networks. NCERT makes none of the other claims.</p>",
+     "hint": "From one gene at a time to all genes at once.",
+     "trap": "Knowing a sequence is not the same as curing a disease."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "NCERT के अनुसार मानव जीनोम अनुक्रम प्राप्त होने का सबसे महत्त्वपूर्ण प्रभाव यह है कि :",
+     "o": [
+      "शोधकर्त्ता अब एक समय पर एक या कुछ जीन के स्थान पर जीनोम के सभी जीन — उदाहरणार्थ किसी विशेष ऊतक, अंग या अर्बुद के सभी अनुलेख — का व्यापक स्तर पर व्यवस्थित अध्ययन कर सकते हैं",
+      "अब दोषपूर्ण जीन बदलकर मनुष्य के हर रोग का उपचार किया जा सकता है",
+      "DNA अंगुलिछापी अनावश्यक हो गई है",
+      "मनुष्य में जीनों की संख्या क्षार युग्मों की संख्या के बराबर पाई गई है"
+     ],
+     "sol": "<p>NCERT 5.9.2: HG अनुक्रमों से जैविक अनुसंधानों में मूलतः नए आयामों का समावेश हुआ। पहले शोधकर्त्ता <b>एक समय पर एक या कुछ जीन</b> का अध्ययन कर पाते थे; पूर्ण जीनोम अनुक्रमों व नयी तकनीकों से अब <b>जीनोम के सभी जीनों का अध्ययन</b> किया जा सकता है — जैसे विशेष ऊतकों, अंग या अर्बुद में मिलने वाले सभी अनुलेख, या हजारों जीन व प्रोटीन आपस में जुड़कर कैसे कार्य करते हैं। अन्य कोई दावा NCERT में नहीं है।</p>",
+     "hint": "एक-एक जीन से सभी जीनों तक।",
+     "trap": "अनुक्रम जानना रोग का उपचार करने के समान नहीं है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.9.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.9.2",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
    }
   }
  ]

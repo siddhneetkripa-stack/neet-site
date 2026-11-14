@@ -97,10 +97,22 @@
       "Potometer",
       "Lettuce hypocotyl elongation",
       "Avena coleoptile curvature"
-     ]
+     ],
+     "sol": "<p>The classical bioassay for auxin is the <b><i>Avena</i> coleoptile curvature test</b>: auxin applied to one side of a decapitated coleoptile makes it bend. (NCERT 13.4.2 describes Darwin's and Went's coleoptile experiments; the bioassay name is beyond NCERT.) Lettuce hypocotyl elongation is a gibberellin bioassay.</p>",
+     "hint": "Went's oat coleoptile test."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ऑक्सिन का जैव आमापन (bioassay) किसके द्वारा किया जा सकता है?",
+     "o": [
+      "जल संवर्धन (hydroponics)",
+      "पोटोमीटर",
+      "लेट्यूस बीजपत्राधार का दीर्घीकरण",
+      "<i>Avena</i> प्रांकुर चोल का वक्रण"
+     ],
+     "sol": "<p>ऑक्सिन का उत्कृष्ट जैव आमापन <b><i>Avena</i> प्रांकुर चोल वक्रण परीक्षण</b> है: शीर्ष कटे प्रांकुर चोल के एक ओर ऑक्सिन लगाने से वह मुड़ जाता है। (NCERT 13.4.2 डार्विन तथा वेंट के प्रांकुर चोल प्रयोग बताती है; आमापन का नाम NCERT से बाहर है।) लेट्यूस बीजपत्राधार दीर्घीकरण जिबरेलिन का जैव आमापन है।</p>",
+     "hint": "वेंट का जई प्रांकुर चोल परीक्षण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -143,10 +155,22 @@
       "GA<sub>3</sub>",
       "IAA",
       "Ethylene"
-     ]
+     ],
+     "sol": "<p>The <i>Avena</i> curvature test is a bioassay for auxin — <b>IAA</b> (indole-3-acetic acid).</p>",
+     "hint": "Same test as above."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "<i>Avena</i> वक्रण का उपयोग किसके जैव आमापन के लिए होता है?",
+     "o": [
+      "ABA",
+      "GA<sub>3</sub>",
+      "IAA",
+      "एथीलिन"
+     ],
+     "sol": "<p><i>Avena</i> वक्रण परीक्षण ऑक्सिन — <b>IAA</b> (इंडोल-3 एसिटिक अम्ल) — का जैव आमापन है।</p>",
+     "hint": "ऊपर वाला ही परीक्षण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -189,10 +213,22 @@
       "Auxin and cytokinin",
       "Auxin and abscisic acid",
       "Gibberellin and abscisic acid"
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: in tissue culture, cytokinins with auxins promote shoot and root formation — a higher cytokinin:auxin ratio gives shoots, a higher auxin ratio gives roots. So add <b>auxin and cytokinin</b>.</p>",
+     "hint": "Skoog and Miller's ratio."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आपको कृत्रिम संवर्धन में विभेदन क्षमता वाला एक ऊतक दिया गया है। प्ररोह तथा जड़ दोनों प्राप्त करने के लिए आप माध्यम में हार्मोनों का कौन-सा युग्म मिलाएँगे?",
+     "o": [
+      "IAA तथा जिबरेलिन",
+      "ऑक्सिन तथा साइटोकाइनिन",
+      "ऑक्सिन तथा एबसीसिक एसिड",
+      "जिबरेलिन तथा एबसीसिक एसिड"
+     ],
+     "sol": "<p>NCERT 13.4.3: ऊतक संवर्धन में ऑक्सिन के साथ साइटोकाइनिन प्ररोह तथा जड़ निर्माण को प्रेरित करते हैं — साइटोकाइनिन:ऑक्सिन अनुपात अधिक होने पर प्ररोह, ऑक्सिन अधिक होने पर जड़ें। अतः <b>ऑक्सिन तथा साइटोकाइनिन</b> मिलाइए।</p>",
+     "hint": "स्कूग तथा मिलर का अनुपात।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -235,10 +271,22 @@
       "Glycoprotein",
       "Lipoprotein",
       "Chromoprotein"
-     ]
+     ],
+     "sol": "<p>Phytochrome is a blue-green pigment protein — a <b>chromoprotein</b> (protein with a bilin chromophore) that switches between Pr and Pfr forms. (Photoperiodism details: old NCERT; dropped from NEET 2024.)</p>",
+     "hint": "Protein carrying a pigment."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "फाइटोक्रोम एक",
+     "o": [
+      "फ्लेवोप्रोटीन है",
+      "ग्लाइकोप्रोटीन है",
+      "लाइपोप्रोटीन है",
+      "वर्णकी प्रोटीन (chromoprotein) है"
+     ],
+     "sol": "<p>फाइटोक्रोम नीला-हरा वर्णक प्रोटीन — <b>वर्णकी प्रोटीन</b> (बिलिन वर्णमूलक सहित प्रोटीन) — है जो Pr तथा Pfr रूपों में बदलता रहता है। (दीप्तिकालिता का विवरण: पुरानी NCERT; NEET 2024 से हटाया गया।)</p>",
+     "hint": "वर्णक वाला प्रोटीन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -280,10 +328,22 @@
       "Ethylene",
       "Auxins",
       "Gibberellic acid"
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: <b>auxins</b> prevent premature fruit and leaf drop (but promote abscission of older, mature leaves and fruits). Ethylene promotes abscission.</p>",
+     "hint": "Auxin in orchards."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रारंभिक अवस्था में फल तथा पत्तियों का गिरना किसके प्रयोग से रोका जा सकता है?",
+     "o": [
+      "साइटोकाइनिन",
+      "एथीलिन",
+      "ऑक्सिन",
+      "जिब्बेरेलिक अम्ल"
+     ],
+     "sol": "<p>NCERT 13.4.3: <b>ऑक्सिन</b> फलों तथा पत्तियों के समय से पूर्व गिरने को रोकते हैं (परंतु पुरानी, परिपक्व पत्तियों तथा फलों के विलगन को बढ़ाते हैं)। एथीलिन विलगन को बढ़ाती है।</p>",
+     "hint": "बागानों में ऑक्सिन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -326,10 +386,22 @@
       "Cytokinin and Abscisic acid",
       "Auxin and Ethylene",
       "Gibberellin and Cytokinin"
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: auxins induce flowering in pineapple, and ethylene is used to initiate flowering and synchronise fruit-set in pineapples. Combination: <b>auxin and ethylene</b>.</p>",
+     "hint": "Both are named for pineapple in NCERT."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अनानास के पौधों में फूल आने में बहुत समय लगता है। उपज बढ़ाने के लिए वर्ष भर अनानास में कृत्रिम रूप से पुष्पन प्रेरित करने के लिए हार्मोनों का कौन-सा संयोजन लगाया जा सकता है?",
+     "o": [
+      "जिबरेलिन तथा एबसीसिक एसिड",
+      "साइटोकाइनिन तथा एबसीसिक एसिड",
+      "ऑक्सिन तथा एथीलिन",
+      "जिबरेलिन तथा साइटोकाइनिन"
+     ],
+     "sol": "<p>NCERT 13.4.3: ऑक्सिन अनानास में पुष्पन को प्रेरित करते हैं, और एथीलिन अनानास में पुष्पन आरंभ करने तथा फल लगने को समकालिक करने में प्रयुक्त होती है। संयोजन: <b>ऑक्सिन तथा एथीलिन</b>।</p>",
+     "hint": "NCERT में दोनों अनानास के लिए बताए गए हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -372,10 +444,22 @@
       "Leaves",
       "Lateral buds",
       "Pulvinus"
-     ]
+     ],
+     "sol": "<p>The photoperiodic stimulus is perceived by the <b>leaves</b>; a hormone (florigen) then moves to the shoot apex, which is where flowering happens. (Photoperiodism: old NCERT 15.6; dropped from NEET 2024.)</p>",
+     "hint": "Leaves sense day length."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पादपों में पुष्पन प्रेरित करने के लिए आवश्यक दीप्तिकाल का संवेदन स्थल क्या है?",
+     "o": [
+      "प्ररोह शिखाग्र",
+      "पत्तियाँ",
+      "पार्श्व कलिकाएँ",
+      "पल्विनस"
+     ],
+     "sol": "<p>दीप्तिकाल उद्दीपन का संवेदन <b>पत्तियाँ</b> करती हैं; फिर एक हार्मोन (फ्लोरिजन) प्ररोह शिखाग्र तक जाता है, जहाँ पुष्पन होता है। (दीप्तिकालिता: पुरानी NCERT 15.6; NEET 2024 से हटाया गया।)</p>",
+     "hint": "पत्तियाँ दिन की लंबाई पहचानती हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -417,10 +501,22 @@
       "Abscisic acid",
       "Cytokinin",
       "Gibberellin"
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: spraying sugarcane with <b>gibberellins</b> increases the length of the stem, raising yield by as much as 20 tonnes per acre.</p>",
+     "hint": "GAs cause internode elongation."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उस पादप वृद्धि नियामक का नाम बताइए जिसके गन्ने की फसल पर छिड़काव से तने की लंबाई बढ़ती है और इस प्रकार गन्ने की उपज बढ़ती है।",
+     "o": [
+      "एथीलिन",
+      "एबसीसिक एसिड",
+      "साइटोकाइनिन",
+      "जिबरेलिन"
+     ],
+     "sol": "<p>NCERT 13.4.3: गन्ने पर <b>जिबरेलिन</b> छिड़कने से तने की लंबाई बढ़ती है, जिससे उपज लगभग 20 टन प्रति एकड़ तक बढ़ जाती है।</p>",
+     "hint": "जिबरेलिन (GA) पर्व दीर्घीकरण करते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -463,10 +559,22 @@
       "Dormancy",
       "Log phase",
       "Lag phase"
-     ]
+     ],
+     "sol": "<p>NCERT 13.1.3: in the sigmoid growth curve, growth is slow in the lag phase, <b>maximum in the log (exponential) phase</b>, and slows to the stationary phase.</p>",
+     "hint": "Exponential phase."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वृद्धि की प्रक्रिया अधिकतम किसके दौरान होती है?",
+     "o": [
+      "जरावस्था",
+      "प्रसुप्ति",
+      "लॉग (चरघातांकी) चरण",
+      "पश्चता अवस्था (लैगफेस)"
+     ],
+     "sol": "<p>NCERT 13.1.3: सिग्मॉइड वृद्धि वक्र में पश्चता अवस्था में वृद्धि धीमी, <b>लॉग (चरघातांकी) चरण में अधिकतम</b>, और फिर स्थिर चरण की ओर धीमी हो जाती है।</p>",
+     "hint": "चरघातांकी चरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -509,10 +617,22 @@
       "Para-ascorbic acid",
       "Gibberellic acid",
       "Abscisic acid"
-     ]
+     ],
+     "sol": "<p>Seed dormancy is caused by inhibitors such as abscisic acid, phenolic acids and para-ascorbic acid. <b>Gibberellic acid</b> breaks dormancy — it is a promoter, not an inhibitor. (Old NCERT 15.5.4; dropped from NEET 2024.)</p>",
+     "hint": "GA breaks dormancy."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन बीज प्रसुप्ति को नियंत्रित करने वाला निरोधक पदार्थ नहीं है?",
+     "o": [
+      "फीनोलिक अम्ल",
+      "पैरा-एस्कॉर्बिक अम्ल",
+      "जिब्बेरेलिक अम्ल",
+      "एबसीसिक एसिड"
+     ],
+     "sol": "<p>बीज प्रसुप्ति एबसीसिक एसिड, फीनोलिक अम्ल तथा पैरा-एस्कॉर्बिक अम्ल जैसे निरोधकों से होती है। <b>जिब्बेरेलिक अम्ल</b> प्रसुप्ति तोड़ता है — यह वृद्धि प्रोत्साहक है, निरोधक नहीं। (पुरानी NCERT 15.5.4; NEET 2024 से हटाया गया।)</p>",
+     "hint": "GA प्रसुप्ति तोड़ता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -554,10 +674,22 @@
       "Elasticity",
       "Flexibility",
       "Plasticity"
-     ]
+     ],
+     "sol": "<p>NCERT 13.3: plants follow different pathways in response to the environment or phases of life to form different structures — this ability is <b>plasticity</b> (e.g. heterophylly in cotton, coriander, larkspur, buttercup).</p>",
+     "hint": "Heterophylly."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पादप पर्यावरण या जीवन की प्रावस्थाओं के अनुसार विभिन्न पथ अपनाकर विभिन्न प्रकार की संरचनाएँ बनाते हैं। यह क्षमता कहलाती है :",
+     "o": [
+      "परिपक्वता",
+      "प्रत्यास्थता",
+      "लचीलापन",
+      "प्लास्टिसिटी"
+     ],
+     "sol": "<p>NCERT 13.3: पादप पर्यावरण या जीवन की प्रावस्थाओं के अनुसार विभिन्न पथ अपनाकर विभिन्न संरचनाएँ बनाते हैं — इस क्षमता को <b>प्लास्टिसिटी</b> कहते हैं (जैसे कपास, धनिया, लार्कस्पर, बटरकप में विषमपर्णता)।</p>",
+     "hint": "विषमपर्णता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -600,10 +732,22 @@
       "Shoot apex",
       "Stem",
       "Axillary bud"
-     ]
+     ],
+     "sol": "<p>In photoperiodism the light/dark duration is perceived by the <b>leaf</b>. (Old NCERT; dropped from NEET 2024.)</p>",
+     "hint": "Same as NEET 2019 Q25."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दीप्तिकालिता के दौरान पादपों में प्रकाश का संवेदन स्थल है :",
+     "o": [
+      "पत्ती",
+      "प्ररोह शिखाग्र",
+      "तना",
+      "कक्षस्थ कलिका"
+     ],
+     "sol": "<p>दीप्तिकालिता में प्रकाश/अंधकार की अवधि का संवेदन <b>पत्ती</b> करती है। (पुरानी NCERT; NEET 2024 से हटाया गया।)</p>",
+     "hint": "NEET 2019 Q25 जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -645,10 +789,22 @@
       "IAA",
       "NAA",
       "2, 4-D"
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: <b>2,4-D</b> (2,4-dichlorophenoxyacetic acid), a synthetic auxin, is widely used to kill dicot weeds; it does not affect mature monocots, so it is used for weed-free lawns.</p>",
+     "hint": "Herbicide auxin."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "खेत में खरपतवार नष्ट करने के लिए प्रयुक्त पादप हार्मोन",
+     "o": [
+      "IBA",
+      "IAA",
+      "NAA",
+      "2, 4-D"
+     ],
+     "sol": "<p>NCERT 13.4.3: संश्लेषित ऑक्सिन <b>2,4-D</b> (2,4 डाईक्लोरो फिनोक्सी एसेटिक अम्ल) द्विबीजपत्री खरपतवारों का व्यापक रूप से नाश करता है; यह परिपक्व एकबीजपत्री पादपों को प्रभावित नहीं करता, अतः खरपतवार रहित लॉन बनाने में प्रयुक्त होता है।</p>",
+     "hint": "शाकनाशी ऑक्सिन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -691,10 +847,22 @@
       "Ethylene",
       "Cytokinin",
       "ABA"
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: <b>ethylene</b> increases the number of female flowers in cucumbers, thereby increasing the yield.</p>",
+     "hint": "Female flowers in cucumber."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हाल के वर्षों में खीरे का उत्पादन कई गुना बढ़ा है। निम्नलिखित में से किस पादप हार्मोन के प्रयोग से यह बढ़ी हुई उपज मिली है क्योंकि यह हार्मोन पौधों में मादा पुष्प उत्पन्न करने के लिए जाना जाता है :",
+     "o": [
+      "जिबरेलिन",
+      "एथीलिन",
+      "साइटोकाइनिन",
+      "ABA"
+     ],
+     "sol": "<p>NCERT 13.4.3: <b>एथीलिन</b> खीरों में मादा पुष्पों की संख्या बढ़ाती है, जिससे उपज बढ़ती है।</p>",
+     "hint": "खीरे में मादा पुष्प।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -737,10 +905,22 @@
       "Buttercup",
       "Maize",
       "Cotton"
-     ]
+     ],
+     "sol": "<p>NCERT 13.3 gives heterophylly (plasticity) in cotton, coriander and larkspur (developmental) and in buttercup (environmental). <b>Maize</b> is not an example of plasticity.</p>",
+     "hint": "Not in NCERT's list."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा पादप प्लास्टिसिटी नहीं दर्शाता?",
+     "o": [
+      "धनिया",
+      "बटरकप",
+      "मक्का",
+      "कपास"
+     ],
+     "sol": "<p>NCERT 13.3 कपास, धनिया तथा लार्कस्पर (परिवर्धनीय) और बटरकप (पर्यावरणीय) में विषमपर्णता (प्लास्टिसिटी) बताती है। <b>मक्का</b> प्लास्टिसिटी का उदाहरण नहीं है।</p>",
+     "hint": "NCERT की सूची में नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -783,10 +963,22 @@
       "help overcome apical dominance",
       "kill dicotyledonous weeds in the fields",
       "speed up the malting process"
-     ]
+     ],
+     "sol": "<p>The gaseous PGR is ethylene. NCERT 13.4.3: ethylene promotes root growth and <b>root hair formation</b>, increasing the absorption surface. Overcoming apical dominance is a cytokinin effect, killing dicot weeds is 2,4-D, and speeding malting is GA<sub>3</sub>.</p>",
+     "hint": "C<sub>2</sub>H<sub>4</sub> and root hairs."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गैसीय पादप वृद्धि नियामक का पादपों में उपयोग किया जाता है :",
+     "o": [
+      "अवशोषण सतह बढ़ाने के लिए जड़ वृद्धि तथा मूल रोम निर्माण को प्रोत्साहित करने में",
+      "शीर्षस्थ प्रभाविता को समाप्त करने में",
+      "खेतों में द्विबीजपत्री खरपतवारों को नष्ट करने में",
+      "माल्टिंग की प्रक्रिया तेज करने में"
+     ],
+     "sol": "<p>गैसीय PGR एथीलिन है। NCERT 13.4.3: एथीलिन जड़ वृद्धि तथा <b>मूल रोम निर्माण</b> को प्रोत्साहित करती है, जिससे अवशोषण सतह बढ़ती है। शीर्षस्थ प्रभाविता समाप्त करना साइटोकाइनिन का, द्विबीजपत्री खरपतवार नष्ट करना 2,4-D का, तथा माल्टिंग तेज करना GA<sub>3</sub> का प्रभाव है।</p>",
+     "hint": "C<sub>2</sub>H<sub>4</sub> तथा मूल रोम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -829,10 +1021,22 @@
       "Indole-3-butyric Acid",
       "Gibberellic Acid",
       "Zeatin"
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: spraying juvenile conifers with <b>gibberellins</b> hastens maturity, leading to early seed production.</p>",
+     "hint": "GA effect on conifers."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किशोर शंकुवृक्षों पर निम्नलिखित में से किस पादप हार्मोन के छिड़काव से परिपक्वता अवधि तीव्र होती है, जिससे बीज उत्पादन जल्दी होता है?",
+     "o": [
+      "एबसीसिक एसिड",
+      "इनडोल-3-ब्यूटेरिक अम्ल",
+      "जिब्बेरेलिक अम्ल",
+      "ज़िएटिन (zeatin)"
+     ],
+     "sol": "<p>NCERT 13.4.3: किशोर शंकुवृक्षों पर <b>जिबरेलिन</b> छिड़कने से परिपक्वता तीव्र गति से होती है, जिससे बीज उत्पादन जल्दी होता है।</p>",
+     "hint": "शंकुवृक्षों पर GA का प्रभाव।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -875,10 +1079,22 @@
       "Differentiation",
       "Dedifferentiation",
       "Development"
-     ]
+     ],
+     "sol": "<p>NCERT 13.2: when differentiated cells (e.g. leaf mesophyll) regain the capacity to divide and form callus in culture, the process is <b>dedifferentiation</b>.</p>",
+     "hint": "Back to dividing state."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ऊतक संवर्धन प्रयोगों में पत्ती की पर्णमध्योतक कोशिकाओं को संवर्धन माध्यम में रखने पर कैलस बनता है। इस घटना को कहा जा सकता है :",
+     "o": [
+      "जरावस्था",
+      "विभेदन",
+      "निर्विभेदन",
+      "परिवर्धन"
+     ],
+     "sol": "<p>NCERT 13.2: जब विभेदित कोशिकाएँ (जैसे पत्ती का पर्णमध्योतक) संवर्धन में विभाजन की क्षमता पुनः प्राप्त कर कैलस बनाती हैं, तो यह प्रक्रिया <b>निर्विभेदन</b> है।</p>",
+     "hint": "विभाजन अवस्था में लौटना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -921,10 +1137,22 @@
       "GA<sub>3</sub>",
       "Kinetin",
       "Ethylene"
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: <b>ethylene</b> promotes rapid internode/petiole elongation in deep-water rice plants, helping leaves stay above water.</p>",
+     "hint": "Gas that helps rice outgrow floods."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गहरे पानी के धान में पर्व/पर्णवृंत दीर्घीकरण को कौन-सा हार्मोन प्रोत्साहित करता है?",
+     "o": [
+      "2,4-D",
+      "GA<sub>3</sub>",
+      "काइनेटिन",
+      "एथीलिन"
+     ],
+     "sol": "<p>NCERT 13.4.3: <b>एथीलिन</b> गहरे पानी के धान के पौधों में पर्व/पर्णवृंत के तीव्र दीर्घीकरण को प्रोत्साहित करती है, जिससे पत्तियाँ जल के ऊपर रहती हैं।</p>",
+     "hint": "बाढ़ से ऊपर बढ़ने में धान की सहायक गैस।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -967,10 +1195,22 @@
       "Gibberellin",
       "Cytokinin",
       "Abscisic acid"
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: spraying sugarcane with <b>gibberellins</b> increases stem length and yield.</p>",
+     "hint": "Same as NEET 2020 Q112."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "गन्ने की फसल पर निम्नलिखित में से किस पादप वृद्धि नियामक के छिड़काव से तने की लंबाई बढ़ती है और इस प्रकार उपज बढ़ती है?",
+     "o": [
+      "ऑक्सिन",
+      "जिबरेलिन",
+      "साइटोकाइनिन",
+      "एबसीसिक एसिड"
+     ],
+     "sol": "<p>NCERT 13.4.3: गन्ने पर <b>जिबरेलिन</b> छिड़कने से तने की लंबाई तथा उपज बढ़ती है।</p>",
+     "hint": "NEET 2020 Q112 जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1013,10 +1253,22 @@
       "promotes abscission of mature leaves only.",
       "does not affect mature monocotyledonous plants.",
       "can help in cell division in grasses, to produce growth."
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: 2,4-D (a synthetic auxin) kills dicot weeds but <b>does not affect mature monocotyledonous plants</b> such as grass — so gardeners use it for weed-free lawns.</p>",
+     "hint": "Grass is a monocot."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "बागवान खरपतवार रहित लॉन बनाने के लिए ऑक्सिन का उपयोग करते हैं। परंतु घास को कोई हानि नहीं होती क्योंकि ऑक्सिन",
+     "o": [
+      "शीर्षस्थ प्रभाविता को बढ़ाता है।",
+      "केवल परिपक्व पत्तियों के विलगन को बढ़ाता है।",
+      "परिपक्व एकबीजपत्री पादपों को प्रभावित नहीं करता।",
+      "घासों में कोशिका विभाजन में सहायता कर वृद्धि उत्पन्न कर सकता है।"
+     ],
+     "sol": "<p>NCERT 13.4.3: 2,4-D (संश्लेषित ऑक्सिन) द्विबीजपत्री खरपतवारों को नष्ट करता है परंतु घास जैसे <b>परिपक्व एकबीजपत्री पादपों को प्रभावित नहीं करता</b> — इसलिए बागवान इसे खरपतवार रहित लॉन के लिए प्रयुक्त करते हैं।</p>",
+     "hint": "घास एकबीजपत्री है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1058,11 +1310,23 @@
       "Differentiation",
       "Redifferentiation",
       "Dedifferentiation",
-      "Maturation 10/25 12/10/2026, 12:31"
-     ]
+      "Maturation"
+     ],
+     "sol": "<p>NCERT 13.2: fully differentiated parenchyma cells regaining the ability to divide — as in forming interfascicular cambium or cork cambium — is <b>dedifferentiation</b>.</p>",
+     "hint": "NCERT's own example."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पूर्ण विकसित पैरेंकाइमा कोशिकाओं से अंतरापूलीय कैंबियम का बनना किसका उदाहरण है?",
+     "o": [
+      "विभेदन",
+      "पुनर्विभेदन",
+      "निर्विभेदन",
+      "परिपक्वन"
+     ],
+     "sol": "<p>NCERT 13.2: पूर्ण विभेदित पैरेंकाइमा कोशिकाओं का विभाजन क्षमता पुनः प्राप्त करना — जैसे अंतरापूलीय कैंबियम या कॉर्क कैंबियम बनना — <b>निर्विभेदन</b> है।</p>",
+     "hint": "NCERT का ही उदाहरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1105,10 +1369,22 @@
       "Abscisic acid",
       "Gibberellin",
       "Cytokinin"
-     ]
+     ],
+     "sol": "<p>NCERT 13.4.3: <b>cytokinins</b> promote nutrient mobilisation, which helps delay leaf senescence.</p>",
+     "hint": "Anti-ageing hormone."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा पादप हार्मोन पोषक संचरण को बढ़ाता है जिससे पादपों में पत्ती की जरावस्था विलंबित होती है?",
+     "o": [
+      "एथीलिन",
+      "एबसीसिक एसिड",
+      "जिबरेलिन",
+      "साइटोकाइनिन"
+     ],
+     "sol": "<p>NCERT 13.4.3: <b>साइटोकाइनिन</b> पोषक संचरण को बढ़ाते हैं, जिससे पत्ती की जरावस्था विलंबित होती है।</p>",
+     "hint": "जरा-विरोधी हार्मोन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1151,10 +1427,22 @@
       "A, C, E only",
       "A, D, E only",
       "B, D, E only"
-     ]
+     ],
+     "sol": "<ul><li>A. Auxins induce parthenocarpy (e.g. tomato) — correct.</li><li>B. PGRs can promote or inhibit growth — correct.</li><li>C. Dedifferentiation comes before redifferentiation — correct.</li><li>D. ABA is a growth <b>inhibitor</b> — wrong.</li><li>E. Apical dominance <b>suppresses</b> lateral buds — wrong.</li></ul><p>A, B, C only.</p>",
+     "hint": "ABA inhibits; apical dominance suppresses."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पादप वृद्धि तथा परिवर्धन पर निम्नलिखित कथन पढ़िए :<br>A. अनिषेकफलन ऑक्सिन द्वारा प्रेरित किया जा सकता है।<br>B. पादप वृद्धि नियामक वृद्धि के संवर्धन तथा संदमन दोनों में भाग ले सकते हैं।<br>C. निर्विभेदन पुनर्विभेदन की पूर्व आवश्यकता है।<br>D. एबसीसिक एसिड एक पादप वृद्धि प्रोत्साहक है।<br>E. शीर्षस्थ प्रभाविता पार्श्व कलिकाओं की वृद्धि को बढ़ाती है।<br>सभी सही कथनों वाला विकल्प चुनिए।",
+     "o": [
+      "केवल A, B, C",
+      "केवल A, C, E",
+      "केवल A, D, E",
+      "केवल B, D, E"
+     ],
+     "sol": "<ul><li>A. ऑक्सिन अनिषेकफलन प्रेरित करते हैं (जैसे टमाटर) — सही।</li><li>B. PGR वृद्धि बढ़ा भी सकते हैं और रोक भी — सही।</li><li>C. निर्विभेदन पुनर्विभेदन से पहले होता है — सही।</li><li>D. ABA वृद्धि <b>निरोधक</b> है — गलत।</li><li>E. शीर्षस्थ प्रभाविता पार्श्व कलिकाओं को <b>दबाती</b> है — गलत।</li></ul><p>केवल A, B, C।</p>",
+     "hint": "ABA रोकता है; शीर्षस्थ प्रभाविता दबाती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1198,10 +1486,22 @@
       "Dedifferentiation",
       "Elasticity",
       "Plasticity"
-     ]
+     ],
+     "sol": "<p>NCERT 13.3: heterophylly in response to the environment (e.g. buttercup's aerial vs submerged leaves) is an example of <b>plasticity</b>.</p>",
+     "hint": "Buttercup leaves."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पर्यावरण के प्रति अनुक्रिया में विषमपर्णी परिवर्धन निम्नलिखित में से किस परिघटना का उदाहरण है?",
+     "o": [
+      "पुनर्विभेदन",
+      "निर्विभेदन",
+      "प्रत्यास्थता",
+      "प्लास्टिसिटी"
+     ],
+     "sol": "<p>NCERT 13.3: पर्यावरण के प्रति अनुक्रिया में विषमपर्णता (जैसे बटरकप की वायवीय बनाम जलमग्न पत्तियाँ) <b>प्लास्टिसिटी</b> का उदाहरण है।</p>",
+     "hint": "बटरकप की पत्तियाँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1245,10 +1545,22 @@
       "Cell enlargement",
       "Large conspicuous nuclei",
       "Increased vacuolation"
-     ]
+     ],
+     "sol": "<p>NCERT 13.1.3: cells in the phase of elongation show increased vacuolation, cell enlargement and new cell wall deposition. <b>Large conspicuous nuclei</b> are a feature of the meristematic phase.</p>",
+     "hint": "Big nuclei belong to dividing cells."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दीर्घीकरण प्रावस्था में पादप कोशिकाओं का निम्नलिखित में से कौन-सा अभिलक्षण नहीं है?",
+     "o": [
+      "नई कोशिका भित्ति का निक्षेपण",
+      "कोशिका विशालीकरण",
+      "बड़े स्पष्ट केंद्रक",
+      "बढ़ा हुआ रसधानी भवन"
+     ],
+     "sol": "<p>NCERT 13.1.3: दीर्घीकरण प्रावस्था की कोशिकाओं में बढ़ा हुआ रसधानी भवन, कोशिका विशालीकरण तथा नई कोशिका भित्ति का निक्षेपण होता है। <b>बड़े स्पष्ट केंद्रक</b> विभज्योतकीय प्रावस्था का लक्षण हैं।</p>",
+     "hint": "बड़े केंद्रक विभाजित कोशिकाओं के।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1292,10 +1604,22 @@
       "A-I, B-IV, C-III, D-II",
       "A-IV, B-III, C-II, D-I",
       "A-III, B-I, C-IV, D-II"
-     ]
+     ],
+     "sol": "<ul><li>A. 2,4-D — herbicide (III).</li><li>B. GA<sub>3</sub> — brewing industry (speeds malting) (I).</li><li>C. Kinetin — nutrient mobilisation (IV).</li><li>D. ABA — stimulates stomatal closure (II).</li></ul><p>A-III, B-I, C-IV, D-II (NCERT 13.4.3).</p>",
+     "hint": "ABA = stress hormone."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>सूची I (वृद्धि नियामक) — सूची II (कार्य/प्रभाव)<br>A. 2,4-D — I. आसव (शराब) उद्योग<br>B. GA<sub>3</sub> — II. रंध्रों के बंद होने का उद्दीपन<br>C. काइनेटिन — III. शाकनाशी<br>D. ABA — IV. पोषक संचरण",
+     "o": [
+      "A-I, B-II, C-IV, D-III",
+      "A-I, B-IV, C-III, D-II",
+      "A-IV, B-III, C-II, D-I",
+      "A-III, B-I, C-IV, D-II"
+     ],
+     "sol": "<ul><li>A. 2,4-D — शाकनाशी (III)।</li><li>B. GA<sub>3</sub> — आसव उद्योग (माल्टिंग तेज करना) (I)।</li><li>C. काइनेटिन — पोषक संचरण (IV)।</li><li>D. ABA — रंध्रों के बंद होने को प्रोत्साहन (II)।</li></ul><p>A-III, B-I, C-IV, D-II (NCERT 13.4.3)।</p>",
+     "hint": "ABA = तनाव हार्मोन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1326,6 +1650,474 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Options in the Code 13 booklet's order (the eSaral copy reorders them; read from the booklet scan). The copy prints (1). Code 13 booklet Q94."
    }
+  },
+  {
+   "id": "bio11-13-ncertex-13-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Growth is an irreversible, permanent increase in size and is accompanied by metabolic processes that use energy. Which of the following is an example of growth?",
+     "o": [
+      "Expansion of a leaf",
+      "Swelling of a piece of dry wood kept in water",
+      "Swelling of a raisin soaked in water",
+      "Increase in the size of a balloon as it is inflated"
+     ],
+     "sol": "<p>NCERT 13.1: growth is an <b>irreversible permanent increase</b> in size of an organ, its parts or a cell, and is accompanied by anabolic and catabolic processes that use energy. <b>Expansion of a leaf</b> meets both conditions. Wood and raisins swell only by taking up water (reversible, no metabolism), and an inflated balloon is a purely physical change.</p>",
+     "hint": "Irreversible + metabolic."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "वृद्धि आकार में अनिवर्त्य (अनपलट) स्थाई बढ़त है तथा ऊर्जा व्यय करने वाली उपापचयी प्रक्रियाओं से जुड़ी होती है। निम्नलिखित में से कौन-सा वृद्धि का उदाहरण है?",
+     "o": [
+      "एक पत्ती का विस्तार",
+      "पानी में रखे सूखी लकड़ी के टुकड़े का फैलाव",
+      "पानी में भिगोई किशमिश का फूलना",
+      "हवा भरने पर गुब्बारे के आकार में बढ़त"
+     ],
+     "sol": "<p>NCERT 13.1: वृद्धि एक अंग, उसके भाग या एक कोशिका के आकार में <b>अनिवर्त्य (अनपलट) स्थाई बढ़त</b> है, जो ऊर्जा व्यय करने वाली उपचय तथा अपचय प्रक्रियाओं से जुड़ी होती है। <b>एक पत्ती का विस्तार</b> दोनों शर्तें पूरी करता है। लकड़ी तथा किशमिश केवल पानी सोखकर फूलते हैं (उत्क्रमणीय, कोई उपापचय नहीं), और गुब्बारे का फूलना केवल भौतिक परिवर्तन है।</p>",
+     "hint": "अनिवर्त्य + उपापचयी।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 13.1 (define growth), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ncertex-13-1-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Plants retain the capacity for unlimited growth throughout their life. This 'open form of growth' is due to:",
+     "o": [
+      "enlargement of all mature cells throughout life",
+      "meristems whose cells keep dividing and self-perpetuating, adding new cells to the plant body",
+      "the absence of senescence in plant cells",
+      "secondary growth occurring only in monocotyledons"
+     ],
+     "sol": "<p>NCERT 13.1.1: plants grow indefinitely because of <b>meristems</b> at certain locations, whose cells can divide and self-perpetuate. Their products soon lose the capacity to divide and make up the plant body, while the meristem keeps adding new cells — the open form of growth. Mature cells do not keep enlarging, plant cells do senesce, and secondary growth (vascular and cork cambium) occurs in dicots and gymnosperms, not monocots.</p>",
+     "hint": "Which cells never stop dividing?"
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पौधे जीवन भर असीमित वृद्धि की क्षमता रखते हैं। 'वृद्धि का यह खुला स्वरूप' किसके कारण है?",
+     "o": [
+      "जीवन भर सभी परिपक्व कोशिकाओं के विशालीकरण के कारण",
+      "विभज्योतकों के कारण, जिनकी कोशिकाएँ विभाजन एवं स्वशाश्वतता द्वारा पादप शरीर में नई कोशिकाएँ जोड़ती रहती हैं",
+      "पादप कोशिकाओं में जरावस्था के अभाव के कारण",
+      "केवल एकबीजपत्री पादपों में होने वाली द्वितीयक वृद्धि के कारण"
+     ],
+     "sol": "<p>NCERT 13.1.1: पौधे कुछ खास जगहों पर स्थित <b>विभज्योतकों</b> के कारण असीमित वृद्धि करते हैं, जिनकी कोशिकाओं में विभाजन एवं स्वशाश्वतता की क्षमता होती है। इनके उत्पाद जल्द ही विभाजन की क्षमता खोकर पादप शरीर बनाते हैं, जबकि विभज्योतक नई कोशिकाएँ जोड़ता रहता है — वृद्धि का खुला स्वरूप। परिपक्व कोशिकाएँ बढ़ती नहीं रहतीं, पादप कोशिकाओं में जरावस्था होती है, और द्वितीयक वृद्धि (संवहनी तथा कार्क कैंबियम) द्विबीजपत्री तथा नग्नबीजी (जिम्नोस्पर्म) पादपों में होती है, एकबीजपत्री पादपों में नहीं।</p>",
+     "hint": "कौन-सी कोशिकाएँ विभाजन बंद नहीं करतीं?"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1.1"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 13.6 ('growth in higher plants is open'), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ncertex-13-1-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Growth is measured by different parameters in different systems. Growth of a pollen tube and growth of a dorsiventral leaf are best measured, respectively, as increase in:",
+     "o": [
+      "cell number; fresh weight",
+      "length; surface area",
+      "surface area; length",
+      "dry weight; cell number"
+     ],
+     "sol": "<p>NCERT 13.1.2: growth (increase in protoplasm) cannot be measured directly, so a proportional parameter is used — fresh weight, dry weight, length, area, volume or cell number, depending on the system. A pollen tube is measured by its <b>length</b>; a dorsiventral leaf by its <b>surface area</b>. (Maize root apex: cell number; watermelon: cell size.)</p>",
+     "hint": "A tube grows long; a leaf grows wide.",
+     "trap": "No single parameter suits every organ — that is the point of NCERT Exercise 13.2."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "विभिन्न तंत्रों में वृद्धि विभिन्न मापदंडों से मापी जाती है। पराग नलिका की वृद्धि तथा पृष्ठाधार पत्ती की वृद्धि को क्रमशः किसकी बढ़त के रूप में मापना सबसे उपयुक्त है?",
+     "o": [
+      "कोशिकाओं की संख्या; ताजा भार",
+      "लंबाई; पृष्ठीय क्षेत्रफल",
+      "पृष्ठीय क्षेत्रफल; लंबाई",
+      "शुष्क भार; कोशिकाओं की संख्या"
+     ],
+     "sol": "<p>NCERT 13.1.2: वृद्धि (जीवद्रव्य की मात्रा में बढ़त) को सीधे मापना कठिन है, अतः तंत्र के अनुसार उसके अनुपात में बढ़ने वाला कोई मापदंड लिया जाता है — ताजा भार, शुष्क भार, लंबाई, क्षेत्रफल, आयतन या कोशिकाओं की संख्या। पराग नलिका की वृद्धि <b>लंबाई</b> से तथा पृष्ठाधार पत्ती की वृद्धि <b>पृष्ठीय क्षेत्रफल</b> से मापी जाती है। (मक्के का मूल शिखाग्र: कोशिकाओं की संख्या; तरबूज: कोशिका का आकार।)</p>",
+     "hint": "नलिका लंबी होती है; पत्ती फैलती है।",
+     "trap": "कोई एक मापदंड हर अंग के लिए उपयुक्त नहीं — NCERT अभ्यास 13.2 का यही आशय है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1.2"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 13.2 (no single parameter measures growth), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ncertex-13-1-4-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A root 5 cm long elongates at a constant rate of 0.5 cm per day (arithmetic growth). What will its length be after 6 days?",
+     "o": [
+      "8 cm",
+      "5.5 cm",
+      "11 cm",
+      "30 cm"
+     ],
+     "sol": "<p>NCERT 13.1.4: arithmetic growth follows L<sub>t</sub> = L<sub>0</sub> + rt (after each division only one daughter cell keeps dividing, so length rises linearly).</p><p>L<sub>t</sub> = 5 + 0.5 × 6 = 5 + 3 = <b>8 cm</b>.</p>",
+     "hint": "L<sub>t</sub> = L<sub>0</sub> + rt.",
+     "trap": "Multiplying (5 × 6 = 30) treats it as geometric growth; arithmetic growth adds a fixed amount each day."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "5 cm लंबी एक मूल 0.5 cm प्रति दिन की नियत दर से दीर्घीकृत होती है (अंकगणितीय वृद्धि)। 6 दिन बाद उसकी लंबाई कितनी होगी?",
+     "o": [
+      "8 cm",
+      "5.5 cm",
+      "11 cm",
+      "30 cm"
+     ],
+     "sol": "<p>NCERT 13.1.4: अंकगणितीय वृद्धि L<sub>t</sub> = L<sub>0</sub> + rt के अनुसार होती है (प्रत्येक विभाजन के बाद केवल एक पुत्री कोशिका विभाजित होती रहती है, अतः लंबाई रेखीय रूप से बढ़ती है)।</p><p>L<sub>t</sub> = 5 + 0.5 × 6 = 5 + 3 = <b>8 cm</b>।</p>",
+     "hint": "L<sub>t</sub> = L<sub>0</sub> + rt।",
+     "trap": "गुणा करना (5 × 6 = 30) इसे ज्यामितीय वृद्धि मान लेना है; अंकगणितीय वृद्धि में हर दिन एक निश्चित मात्रा जुड़ती है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1.4"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 13.3(a) (arithmetic growth), reworded as a numerical MCQ"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ncertex-13-1-4-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Leaf A grows from 5 cm<sup>2</sup> to 10 cm<sup>2</sup> and leaf B from 50 cm<sup>2</sup> to 55 cm<sup>2</sup> in the same time. Which statement is correct?",
+     "o": [
+      "B has the higher absolute and the higher relative growth rate",
+      "A has the higher absolute growth rate; relative growth rates are equal",
+      "Absolute growth rates are equal, but A has the higher relative growth rate",
+      "Absolute growth rates are equal, but B has the higher relative growth rate"
+     ],
+     "sol": "<p>NCERT 13.1.4: absolute growth rate = total growth per unit time; relative growth rate = growth per unit time per unit initial size.</p><ul><li>Absolute: both leaves gain 5 cm<sup>2</sup> — equal.</li><li>Relative: A gains 5/5 = 100% of its initial area; B gains 5/50 = 10%.</li></ul><p>So <b>absolute rates are equal, but A has the higher relative growth rate</b>.</p>",
+     "hint": "Divide the gain by the starting size.",
+     "trap": "The bigger leaf is not the faster-growing one in relative terms."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "समान समय में पत्ती A का क्षेत्रफल 5 cm<sup>2</sup> से 10 cm<sup>2</sup> तथा पत्ती B का 50 cm<sup>2</sup> से 55 cm<sup>2</sup> हो जाता है। कौन-सा कथन सही है?",
+     "o": [
+      "B की परम तथा सापेक्षिक दोनों वृद्धि दरें अधिक हैं",
+      "A की परम वृद्धि दर अधिक है; सापेक्षिक वृद्धि दरें बराबर हैं",
+      "परम वृद्धि दरें बराबर हैं, परंतु A की सापेक्षिक वृद्धि दर अधिक है",
+      "परम वृद्धि दरें बराबर हैं, परंतु B की सापेक्षिक वृद्धि दर अधिक है"
+     ],
+     "sol": "<p>NCERT 13.1.4: परम वृद्धि दर = प्रति इकाई समय कुल वृद्धि; सापेक्षिक वृद्धि दर = प्रति इकाई प्रारंभिक मापदंड पर प्रति इकाई समय वृद्धि।</p><ul><li>परम: दोनों पत्तियाँ 5 cm<sup>2</sup> बढ़ीं — बराबर।</li><li>सापेक्षिक: A अपने प्रारंभिक क्षेत्रफल का 5/5 = 100% बढ़ी; B केवल 5/50 = 10%।</li></ul><p>अतः <b>परम दरें बराबर हैं, परंतु A की सापेक्षिक वृद्धि दर अधिक है</b>।</p>",
+     "hint": "बढ़त को प्रारंभिक आकार से भाग दीजिए।",
+     "trap": "बड़ी पत्ती सापेक्षिक रूप से तेज़ बढ़ने वाली नहीं है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1.4"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 13.3(d) (absolute and relative growth rates) and Figure 13.7, reworded as an MCQ with our own values"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ai-13-1-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements about the conditions for plant growth is <b>incorrect</b>?",
+     "o": [
+      "Water provides the medium for enzymatic activities needed for growth.",
+      "Oxygen helps in releasing metabolic energy essential for growth activities.",
+      "Nutrients are required for the synthesis of protoplasm and act as a source of energy.",
+      "Environmental signals such as light and gravity do not affect any phase of growth."
+     ],
+     "sol": "<p>NCERT 13.1.5: water (cell enlargement, turgidity for extension growth, medium for enzymes), oxygen (release of metabolic energy) and nutrients (protoplasm synthesis, energy source) are essential, along with an optimum temperature range. NCERT also states that <b>environmental signals such as light and gravity affect certain phases of growth</b> — so statement 4 is incorrect.</p>",
+     "hint": "Think of phototropism and gravitropism."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पादप वृद्धि की दशाओं के संबंध में निम्नलिखित में से कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "वृद्धि के लिए आवश्यक एंजाइमों की क्रियाशीलता के लिए जल माध्यम उपलब्ध कराता है।",
+      "ऑक्सीजन वृद्धि के लिए आवश्यक उपापचयी ऊर्जा को मुक्त करने में मदद करती है।",
+      "पोषक तत्व जीवद्रव्य के संश्लेषण के लिए आवश्यक हैं तथा ऊर्जा के स्रोत का काम करते हैं।",
+      "प्रकाश तथा गुरुत्व जैसे पर्यावरणीय संकेत वृद्धि की किसी भी अवस्था को प्रभावित नहीं करते।"
+     ],
+     "sol": "<p>NCERT 13.1.5: जल (कोशिका विशालीकरण, एंजाइमों के लिए माध्यम), ऑक्सीजन (उपापचयी ऊर्जा का मुक्त होना) तथा पोषक तत्व (जीवद्रव्य संश्लेषण, ऊर्जा स्रोत) इष्टतम ताप परिसर के साथ वृद्धि के लिए अनिवार्य हैं। NCERT यह भी बताती है कि <b>प्रकाश तथा गुरुत्व जैसे पर्यावरणीय संकेत वृद्धि की कुछ अवस्थाओं को प्रभावित करते हैं</b> — अतः कथन 4 गलत है।</p>",
+     "hint": "प्रकाशानुवर्तन तथा गुरुत्वानुवर्तन के बारे में सोचिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.1.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §13.1.5",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-13-ai-13-4-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Plant growth regulators are small molecules of diverse chemical nature. Which PGR is <b>incorrectly</b> matched with its chemical nature?",
+     "o": [
+      "Indole-3-acetic acid — indole compound",
+      "Abscisic acid — derivative of carotenoids",
+      "Kinetin — terpene",
+      "Ethylene — gas"
+     ],
+     "sol": "<p>NCERT 13.4.1: IAA is an indole compound; kinetin (N<sup>6</sup>-furfurylamino purine) is an <b>adenine derivative</b>; ABA is a carotenoid derivative; gibberellic acid (GA<sub>3</sub>) is the terpene; ethylene (C<sub>2</sub>H<sub>4</sub>) is a gas. So <b>kinetin — terpene</b> is the wrong pair.</p>",
+     "hint": "Kinetin is a modified purine.",
+     "trap": "The terpene in NCERT's list is gibberellic acid."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पादप वृद्धि नियामक विविध रासायनिक संघटन वाले लघु अणु होते हैं। कौन-सा पादप वृद्धि नियामक (PGR) अपनी रासायनिक प्रकृति के साथ <b>गलत</b> सुमेलित है?",
+     "o": [
+      "इंडोल-3 एसिटिक अम्ल — इंडोल सम्मिश्रण",
+      "एबसीसिक एसिड — कैरोटिनॉइड व्युत्पन्न",
+      "काइनेटिन — टर्पीन",
+      "एथीलिन — गैस"
+     ],
+     "sol": "<p>NCERT 13.4.1: IAA इंडोल सम्मिश्रण है; काइनेटिन (N<sup>6</sup>-फरफ्यूराइल ऐमिनो प्यूरीन) <b>ऐडनीन व्युत्पन्न</b> है; ABA कैरोटिनॉइड व्युत्पन्न है; जिब्बेरेलिक अम्ल (GA<sub>3</sub>) टर्पीन है; एथीलिन (C<sub>2</sub>H<sub>4</sub>) गैस है। अतः <b>काइनेटिन — टर्पीन</b> गलत युग्म है।</p>",
+     "hint": "काइनेटिन एक रूपांतरित प्यूरीन है।",
+     "trap": "NCERT की सूची में टर्पीन जिब्बेरेलिक अम्ल है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-13",
+    "paras": [
+     "13.4.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §13.4.1",
+    "label": "Practice"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
- ]
+ ],
+ "paraTrends": {
+  "13.4.2": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2016,
+    2015
+   ],
+   "last": 2016,
+   "recent": false
+  },
+  "13.4.3": {
+   "neet": 13,
+   "jee": 0,
+   "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2017,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "13.1.3": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2026,
+    2020
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "13.3": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2026,
+    2022,
+    2021
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "13.2": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2025,
+    2024,
+    2023
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "13.4": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2025
+   ],
+   "last": 2025,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3
 }

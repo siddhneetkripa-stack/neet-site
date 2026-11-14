@@ -103,10 +103,22 @@
       "(a), (b), (c), (d)",
       "(b), (c), (d), (a)",
       "(b), (a), (d), (c)"
-     ]
+     ],
+     "sol": "<p>NCERT 10.4.1: synapsis in zygotene → crossing over in pachytene → terminalisation of chiasmata in diakinesis → the nucleolus disappears by the end of diakinesis. Order (b), (a), (c), (d).</p>",
+     "hint": "Zygotene → pachytene → diakinesis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अर्धसूत्री विभाजन की निम्नलिखित घटनाओं को सही क्रम में व्यवस्थित कीजिए :<br>(a) जीन विनिमय<br>(b) युगलन (synapsis)<br>(c) काएज्मेटा का उपांतीभवन<br>(d) केंद्रिका का लुप्त होना",
+     "o": [
+      "(b), (a), (c), (d)",
+      "(a), (b), (c), (d)",
+      "(b), (c), (d), (a)",
+      "(b), (a), (d), (c)"
+     ],
+     "sol": "<p>NCERT 10.4.1: युग्मपट्ट में युगलन → स्थूलपट्ट में जीन विनिमय → पारगतिक्रम में काएज्मेटा का उपांतीभवन → पारगतिक्रम के अंत तक केंद्रिका लुप्त। क्रम (b), (a), (c), (d)।</p>",
+     "hint": "युग्मपट्ट → स्थूलपट्ट → पारगतिक्रम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -149,10 +161,22 @@
       "Kinetochore of the chromosome",
       "Centromere of the chromosome",
       "Kinetosome of the chromosome"
-     ]
+     ],
+     "sol": "<p>NCERT 10.2.2: small disc-shaped structures at the surface of the centromere, the <b>kinetochores</b>, are the sites of attachment of spindle fibres.</p>",
+     "hint": "Discs on the centromere."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "तर्कु तंतु किससे जुड़ते हैं?",
+     "o": [
+      "गुणसूत्र के टीलोमियर",
+      "गुणसूत्र के काइनेटोकोर",
+      "गुणसूत्र के गुणसूत्रबिंदु",
+      "गुणसूत्र के काइनेटोसोम"
+     ],
+     "sol": "<p>NCERT 10.2.2: गुणसूत्रबिंदु की सतह पर छोटी डिस्क जैसी संरचनाएँ — <b>काइनेटोकोर</b> — तर्कुतंतुओं के जुड़ने के स्थल हैं।</p>",
+     "hint": "गुणसूत्रबिंदु पर डिस्क।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -195,10 +219,22 @@
       "Leptotene",
       "Zygotene",
       "Diplotene"
-     ]
+     ],
+     "sol": "<p>NCERT 10.4.1: crossing over (exchange between non-sister chromatids of homologous chromosomes) occurs in <b>pachytene</b>, at the recombination nodules.</p>",
+     "hint": "Thick-thread stage."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अर्धसूत्री विभाजन में जीन विनिमय कब आरंभ होता है?",
+     "o": [
+      "स्थूलपट्ट (पैकीटीन)",
+      "तनुपट्ट (लेप्टोटीन)",
+      "युग्मपट्ट (जाइगोटीन)",
+      "द्विपट्ट (डिप्लोटीन)"
+     ],
+     "sol": "<p>NCERT 10.4.1: जीन विनिमय (समजात गुणसूत्रों के असहोदर अर्धगुणसूत्रों के बीच विनिमय) <b>स्थूलपट्ट</b> में पुनर्योजन ग्रंथिकाओं पर होता है।</p>",
+     "hint": "मोटे धागे की अवस्था।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -241,10 +277,22 @@
       "Disappearance of nucleolus",
       "Chromosome movement",
       "Synapsis"
-     ]
+     ],
+     "sol": "<p>Spindle fibres, disappearance of the nucleolus and chromosome movement all occur in mitosis. <b>Synapsis</b> (pairing of homologous chromosomes) occurs only in meiosis I (zygotene).</p>",
+     "hint": "Homologues pair only in meiosis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कायिक कोशिकाओं में समसूत्री विभाजन के दौरान निम्नलिखित में से कौन-सा अभिलक्षण नहीं होता?",
+     "o": [
+      "तर्कु तंतु",
+      "केंद्रिका का लुप्त होना",
+      "गुणसूत्रों की गति",
+      "युगलन (synapsis)"
+     ],
+     "sol": "<p>तर्कु तंतु, केंद्रिका का लुप्त होना तथा गुणसूत्रों की गति समसूत्री विभाजन में होते हैं। <b>युगलन</b> (समजात गुणसूत्रों का जोड़ा बनना) केवल अर्धसूत्री I (युग्मपट्ट) में होता है।</p>",
+     "hint": "समजात केवल अर्धसूत्री में जोड़ी बनाते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -288,10 +336,22 @@
       "Polyploidy",
       "Somaclonal variation",
       "Polyteny"
-     ]
+     ],
+     "sol": "<p>If karyokinesis is completed but no cell plate forms (no cytokinesis), the duplicated chromosome sets stay in one cell, doubling the whole chromosome number — <b>polyploidy</b>. Aneuploidy is gain or loss of single chromosomes.</p>",
+     "hint": "Whole sets doubled."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक छात्र खेत से लाए गए पादप में अंत्यावस्था पर एक कोशिका देखता है। वह अपने शिक्षक को बताता है कि यह कोशिका अंत्यावस्था पर अन्य कोशिकाओं जैसी नहीं है। इसमें कोशिका पट्टिका नहीं बनी और इसलिए इसमें अन्य विभाजित कोशिकाओं की तुलना में अधिक गुणसूत्र हैं। इसका परिणाम होगा :",
+     "o": [
+      "असुगुणिता (aneuploidy)",
+      "बहुगुणिता (polyploidy)",
+      "कायक्लोनी विभिन्नता (somaclonal variation)",
+      "बहुपट्टता (polyteny)"
+     ],
+     "sol": "<p>यदि केंद्रक विभाजन पूरा हो जाए परंतु कोशिका पट्टिका न बने (कोशिकाद्रव्य विभाजन न हो), तो दोनों गुणसूत्र समुच्चय एक ही कोशिका में रह जाते हैं और पूरी गुणसूत्र संख्या दोगुनी हो जाती है — <b>बहुगुणिता</b>। असुगुणिता एकल गुणसूत्रों का जुड़ना या घटना है।</p>",
+     "hint": "पूरे समुच्चय दोगुने।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -334,10 +394,22 @@
       "G<sub>1</sub> phase",
       "G<sub>2</sub> phase",
       "M phase"
-     ]
+     ],
+     "sol": "<p>NCERT 10.1.1: DNA synthesis (replication) occurs in the <b>S phase</b> of interphase; the amount of DNA per cell doubles.</p>",
+     "hint": "S = synthesis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कोशिका वृद्धि के दौरान DNA संश्लेषण किसमें होता है?",
+     "o": [
+      "S प्रावस्था",
+      "G<sub>1</sub> प्रावस्था",
+      "G<sub>2</sub> प्रावस्था",
+      "M प्रावस्था"
+     ],
+     "sol": "<p>NCERT 10.1.1: DNA संश्लेषण (प्रतिकृति) अंतरावस्था की <b>संश्लेषण प्रावस्था (S)</b> में होता है; प्रति कोशिका DNA की मात्रा दोगुनी हो जाती है।</p>",
+     "hint": "S = संश्लेषण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -381,10 +453,22 @@
       "G<sub>2</sub>/M",
       "M",
       "Both G<sub>2</sub>/M and M"
-     ]
+     ],
+     "sol": "<p>A stalled replication fork means DNA replication is incomplete; the checkpoint that stops cells entering mitosis with unreplicated or damaged DNA is the <b>G<sub>2</sub>/M</b> checkpoint (S-phase checkpoint signalling acts through it). The key is 2. (Checkpoints: beyond NCERT.)</p>",
+     "hint": "Don't enter M with half-copied DNA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जब कोशिका में DNA प्रतिकृति द्विशाख (replication fork) रुक जाए, तो मुख्यतः कौन-सा जाँच बिंदु (checkpoint) सक्रिय होना चाहिए?",
+     "o": [
+      "G<sub>1</sub>/S",
+      "G<sub>2</sub>/M",
+      "M",
+      "G<sub>2</sub>/M तथा M दोनों"
+     ],
+     "sol": "<p>रुकी हुई प्रतिकृति द्विशाख का अर्थ है DNA प्रतिकृति अधूरी है; अप्रतिकृत या क्षतिग्रस्त DNA के साथ कोशिका को सूत्री विभाजन में जाने से रोकने वाला जाँच बिंदु <b>G<sub>2</sub>/M</b> है (S-प्रावस्था जाँच संकेत इसी के माध्यम से कार्य करते हैं)। कुंजी 2 है। (जाँच बिंदु: NCERT से बाहर।)</p>",
+     "hint": "अधूरे DNA के साथ M में प्रवेश नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -428,10 +512,22 @@
       "(a) i, (b) iv, (c) ii, (d) iii",
       "(a) ii, (b) iv, (c) iii, (d) i",
       "(a) iv, (b) iii, (c) ii, (d) i"
-     ]
+     ],
+     "sol": "<ul><li>(a) Pachytene — crossing over (iii).</li><li>(b) Metaphase I — bivalents align at the equatorial plate (iv).</li><li>(c) Diakinesis — terminalisation of chiasmata (ii).</li><li>(d) Zygotene — pairing of homologous chromosomes (i).</li></ul><p>(a) iii, (b) iv, (c) ii, (d) i.</p>",
+     "hint": "Zygo = pairing."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I में अर्धसूत्री विभाजन की अवस्थाओं का स्तंभ II में उनके अभिलक्षणों से मिलान कीजिए और नीचे दिए गए कूटों से सही विकल्प चुनिए :<br>(a) स्थूलपट्ट — (i) समजात गुणसूत्रों का युगलन<br>(b) मध्यावस्था I — (ii) काएज्मेटा का उपांतीभवन<br>(c) पारगतिक्रम — (iii) जीन विनिमय होता है<br>(d) युग्मपट्ट — (iv) गुणसूत्र मध्यरेखीय पट्टिका पर पंक्तिबद्ध होते हैं",
+     "o": [
+      "(a) iii, (b) iv, (c) ii, (d) i",
+      "(a) i, (b) iv, (c) ii, (d) iii",
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iv, (b) iii, (c) ii, (d) i"
+     ],
+     "sol": "<ul><li>(a) स्थूलपट्ट — जीन विनिमय (iii)।</li><li>(b) मध्यावस्था I — युगली मध्यरेखीय पट्टिका पर पंक्तिबद्ध (iv)।</li><li>(c) पारगतिक्रम — काएज्मेटा का उपांतीभवन (ii)।</li><li>(d) युग्मपट्ट — समजात गुणसूत्रों का युगलन (i)।</li></ul><p>(a) iii, (b) iv, (c) ii, (d) i।</p>",
+     "hint": "युग्म = जोड़ी बनना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -474,10 +570,22 @@
       "Condensation → nuclear membrane disassembly → arrangement at equator → centromere division → segregation → telophase",
       "Condensation → crossing over → nuclear membrane disassembly → segregation → telophase",
       "Condensation → arrangement at equator → centromere division → segregation → telophase"
-     ]
+     ],
+     "sol": "<p>NCERT 10.2: prophase — chromosomes condense and the nuclear envelope disassembles; metaphase — chromosomes arrange at the equator; anaphase — centromeres divide and chromatids segregate; then telophase. Crossing over never occurs in mitosis. Option 2.</p>",
+     "hint": "No crossing over in mitosis; don't skip envelope breakdown."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा विकल्प समसूत्री विभाजन के दौरान घटनाओं का सही क्रम देता है?",
+     "o": [
+      "संघनन → केंद्रक झिल्ली का विघटन → जीन विनिमय → पृथक्करण → अंत्यावस्था",
+      "संघनन → केंद्रक झिल्ली का विघटन → मध्यरेखा पर व्यवस्था → गुणसूत्रबिंदु विभाजन → पृथक्करण → अंत्यावस्था",
+      "संघनन → जीन विनिमय → केंद्रक झिल्ली का विघटन → पृथक्करण → अंत्यावस्था",
+      "संघनन → मध्यरेखा पर व्यवस्था → गुणसूत्रबिंदु विभाजन → पृथक्करण → अंत्यावस्था"
+     ],
+     "sol": "<p>NCERT 10.2: पूर्वावस्था — गुणसूत्रों का संघनन तथा केंद्रक आवरण का विघटन; मध्यावस्था — गुणसूत्र मध्यरेखा पर; पश्चावस्था — गुणसूत्रबिंदु विभाजित और अर्धगुणसूत्र पृथक; फिर अंत्यावस्था। समसूत्री विभाजन में जीन विनिमय कभी नहीं होता। विकल्प 2।</p>",
+     "hint": "समसूत्री में जीन विनिमय नहीं; आवरण विघटन न छोड़ें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -520,10 +628,22 @@
       "Chromosomes will be fragmented",
       "Chromosomes will not segregate",
       "Recombination of chromosome arms will occur"
-     ]
+     ],
+     "sol": "<p>The anaphase-promoting complex triggers anaphase by degrading securin, which releases separase to cleave the cohesin holding sister chromatids. If APC is defective, sister chromatids stay joined and <b>chromosomes will not segregate</b>. (Beyond NCERT.)</p>",
+     "hint": "APC starts anaphase."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पश्चावस्था प्रोत्साहक सम्मिश्र (APC) प्रोटीन अवक्रमण तंत्र है जो जंतु कोशिकाओं के उचित समसूत्री विभाजन के लिए आवश्यक है। यदि मानव कोशिका में APC दोषपूर्ण हो, तो निम्नलिखित में से क्या होने की संभावना है?",
+     "o": [
+      "गुणसूत्र संघनित नहीं होंगे",
+      "गुणसूत्र खंडित हो जाएँगे",
+      "गुणसूत्र पृथक नहीं होंगे",
+      "गुणसूत्र भुजाओं का पुनर्योजन होगा"
+     ],
+     "sol": "<p>पश्चावस्था प्रोत्साहक सम्मिश्र सिक्योरिन का अवक्रमण कर पश्चावस्था आरंभ करता है, जिससे सेपरेज़ मुक्त होकर सहोदर अर्धगुणसूत्रों को जोड़ने वाले कोहेसिन को काटता है। APC दोषपूर्ण हो तो सहोदर अर्धगुणसूत्र जुड़े रहते हैं और <b>गुणसूत्र पृथक नहीं होंगे</b>। (NCERT से बाहर।)</p>",
+     "hint": "APC पश्चावस्था आरंभ करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -567,10 +687,22 @@
       "Diplotene",
       "Pachytene",
       "Zygotene"
-     ]
+     ],
+     "sol": "<p>NCERT 10.4.1: diplotene begins with dissolution of the synaptonemal complex, and the homologous chromosomes of the bivalent begin to separate from each other except at the chiasmata.</p>",
+     "hint": "Chiasmata become visible as homologues pull apart."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वह अवस्था जिसमें युग्मित समजात गुणसूत्रों का पृथक होना आरंभ होता है :",
+     "o": [
+      "पारगतिक्रम",
+      "द्विपट्ट (डिप्लोटीन)",
+      "स्थूलपट्ट",
+      "युग्मपट्ट"
+     ],
+     "sol": "<p>NCERT 10.4.1: द्विपट्ट के प्रारंभ में सिनेप्टोनीमल सम्मिश्र का विघटन हो जाता है और युगली के समजात गुणसूत्र काएज्मेटा स्थलों को छोड़कर एक दूसरे से अलग होने लगते हैं।</p>",
+     "hint": "समजात अलग होते समय काएज्मेटा दिखते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -613,10 +745,22 @@
       "terminate the cell cycle",
       "exit the cell cycle",
       "enter the cell cycle"
-     ]
+     ],
+     "sol": "<p>NCERT 10.1.1: cells in G<sub>0</sub> (quiescent stage) remain metabolically active but no longer proliferate unless called on to do so — they have exited G<sub>1</sub> and <b>suspend</b> the cell cycle (they can re-enter later). The key is 1.</p>",
+     "hint": "Quiescent, not dead."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "G<sub>0</sub> प्रावस्था में कोशिकाएँ :",
+     "o": [
+      "कोशिका चक्र को स्थगित करती हैं",
+      "कोशिका चक्र को समाप्त करती हैं",
+      "कोशिका चक्र से बाहर निकल जाती हैं",
+      "कोशिका चक्र में प्रवेश करती हैं"
+     ],
+     "sol": "<p>NCERT 10.1.1: G<sub>0</sub> (शांत अवस्था) की कोशिकाएँ उपापचयी रूप से सक्रिय रहती हैं परंतु आवश्यकता न होने पर विभाजित नहीं होतीं — ये G<sub>1</sub> से निकलकर कोशिका चक्र को <b>स्थगित</b> करती हैं (बाद में पुनः प्रवेश कर सकती हैं)। कुंजी 1 है।</p>",
+     "hint": "शांत, मृत नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -660,10 +804,22 @@
       "G<sub>1</sub> → S → G<sub>2</sub> → M",
       "M → G<sub>1</sub> → G<sub>2</sub> → S",
       "G<sub>1</sub> → G<sub>2</sub> → S → M"
-     ]
+     ],
+     "sol": "<p>NCERT 10.1.1: interphase = G<sub>1</sub> → S → G<sub>2</sub>, followed by the M phase: <b>G<sub>1</sub> → S → G<sub>2</sub> → M</b>.</p>",
+     "hint": "Gap, Synthesis, Gap, Mitosis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कोशिका चक्र की प्रावस्थाओं का सही क्रम है :",
+     "o": [
+      "S → G<sub>1</sub> → G<sub>2</sub> → M",
+      "G<sub>1</sub> → S → G<sub>2</sub> → M",
+      "M → G<sub>1</sub> → G<sub>2</sub> → S",
+      "G<sub>1</sub> → G<sub>2</sub> → S → M"
+     ],
+     "sol": "<p>NCERT 10.1.1: अंतरावस्था = G<sub>1</sub> → S → G<sub>2</sub>, उसके बाद M प्रावस्था: <b>G<sub>1</sub> → S → G<sub>2</sub> → M</b>।</p>",
+     "hint": "अंतराल, संश्लेषण, अंतराल, सूत्री विभाजन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -706,10 +862,22 @@
       "Nuclear division takes place",
       "DNA synthesis or replication takes place",
       "Reorganisation of all cell components takes place"
-     ]
+     ],
+     "sol": "<p>NCERT 10.1.1: in G<sub>1</sub> the cell is <b>metabolically active and grows continuously but does not replicate its DNA</b>. Replication is in S; nuclear division in M.</p>",
+     "hint": "Growth without replication."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अंतरावस्था की G<sub>1</sub> प्रावस्था (अंतराल 1) के संबंध में सही कथन पहचानिए :",
+     "o": [
+      "कोशिका उपापचयी रूप से सक्रिय होती है, वृद्धि करती है परंतु अपने DNA की प्रतिकृति नहीं करती",
+      "केंद्रक विभाजन होता है",
+      "DNA संश्लेषण या प्रतिकृति होती है",
+      "सभी कोशिका घटकों का पुनर्गठन होता है"
+     ],
+     "sol": "<p>NCERT 10.1.1: G<sub>1</sub> प्रावस्था में कोशिका <b>उपापचयी रूप से सक्रिय होती है और लगातार वृद्धि करती है परंतु DNA की प्रतिकृति नहीं करती</b>। प्रतिकृति S में तथा केंद्रक विभाजन M में होता है।</p>",
+     "hint": "प्रतिकृति रहित वृद्धि।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -752,10 +920,22 @@
       "Leptotene",
       "Pachytene",
       "Zygotene"
-     ]
+     ],
+     "sol": "<p>NCERT 10.4.1: the beginning of <b>diplotene</b> is recognised by the dissolution of the synaptonemal complex.</p>",
+     "hint": "Two threads seen again."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सिनेप्टोनीमल सम्मिश्र का विघटन किसमें होता है?",
+     "o": [
+      "द्विपट्ट (डिप्लोटीन)",
+      "तनुपट्ट (लेप्टोटीन)",
+      "स्थूलपट्ट (पैकीटीन)",
+      "युग्मपट्ट (जाइगोटीन)"
+     ],
+     "sol": "<p>NCERT 10.4.1: <b>द्विपट्ट</b> का प्रारंभ सिनेप्टोनीमल सम्मिश्र के विघटन से पहचाना जाता है।</p>",
+     "hint": "फिर से दो धागे दिखते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -798,10 +978,22 @@
       "(a) ii, (b) iv, (c) iii, (d) i",
       "(a) iii, (b) iv, (c) i, (d) ii",
       "(a) iv, (b) iii, (c) ii, (d) i"
-     ]
+     ],
+     "sol": "<ul><li>(a) Zygotene — synapsis (iv).</li><li>(b) Pachytene — crossing over (iii).</li><li>(c) Diplotene — chiasmata (ii).</li><li>(d) Diakinesis — terminalisation (i).</li></ul><p>(a) iv, (b) iii, (c) ii, (d) i.</p>",
+     "hint": "Same order as prophase I."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अर्धसूत्री विभाजन के संदर्भ में निम्नलिखित का मिलान कीजिए :<br>(a) युग्मपट्ट — (i) उपांतीभवन<br>(b) स्थूलपट्ट — (ii) काएज्मेटा<br>(c) द्विपट्ट — (iii) जीन विनिमय<br>(d) पारगतिक्रम — (iv) युगलन",
+     "o": [
+      "(a) i, (b) ii, (c) iv, (d) iii",
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) iv, (b) iii, (c) ii, (d) i"
+     ],
+     "sol": "<ul><li>(a) युग्मपट्ट — युगलन (iv)।</li><li>(b) स्थूलपट्ट — जीन विनिमय (iii)।</li><li>(c) द्विपट्ट — काएज्मेटा (ii)।</li><li>(d) पारगतिक्रम — उपांतीभवन (i)।</li></ul><p>(a) iv, (b) iii, (c) ii, (d) i।</p>",
+     "hint": "पूर्वावस्था I का ही क्रम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -844,10 +1036,22 @@
       "G<sub>2</sub> phase",
       "M phase",
       "G<sub>1</sub> phase"
-     ]
+     ],
+     "sol": "<p>NCERT 10.1.1: cells that do not divide further exit the <b>G<sub>1</sub></b> phase to enter the inactive stage G<sub>0</sub> (quiescent stage). The key is 4.</p>",
+     "hint": "G0 branches off G1."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कुछ विभाजित होती कोशिकाएँ कोशिका चक्र से बाहर निकलकर कायिक निष्क्रिय अवस्था में चली जाती हैं। इसे शांत अवस्था (G<sub>0</sub>) कहते हैं। यह प्रक्रिया किसके अंत में होती है?",
+     "o": [
+      "S प्रावस्था",
+      "G<sub>2</sub> प्रावस्था",
+      "M प्रावस्था",
+      "G<sub>1</sub> प्रावस्था"
+     ],
+     "sol": "<p>NCERT 10.1.1: जो कोशिकाएँ आगे विभाजित नहीं होतीं वे <b>G<sub>1</sub></b> अवस्था से निकलकर निष्क्रिय अवस्था G<sub>0</sub> (शांत अवस्था) में पहुँचती हैं। कुंजी 4 है।</p>",
+     "hint": "G0, G1 से निकलती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -891,10 +1095,22 @@
       "Metaphase I",
       "Metaphase II",
       "Anaphase II"
-     ]
+     ],
+     "sol": "<p>NCERT 10.4.2: in meiosis II the centromere of each chromosome splits at the onset of <b>anaphase II</b>, letting sister chromatids move to opposite poles. (In meiosis I centromeres do not divide.)</p>",
+     "hint": "Meiosis II is mitosis-like."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अर्धसूत्री विभाजन की निम्नलिखित में से किस अवस्था में गुणसूत्रबिंदु का विभाजन होता है?",
+     "o": [
+      "अंत्यावस्था II",
+      "मध्यावस्था I",
+      "मध्यावस्था II",
+      "पश्चावस्था II"
+     ],
+     "sol": "<p>NCERT 10.4.2: अर्धसूत्री II में प्रत्येक गुणसूत्र का गुणसूत्रबिंदु <b>पश्चावस्था II</b> के आरंभ में विभाजित होता है, जिससे सहोदर अर्धगुणसूत्र विपरीत ध्रुवों की ओर जाते हैं। (अर्धसूत्री I में गुणसूत्रबिंदु विभाजित नहीं होते।)</p>",
+     "hint": "अर्धसूत्री II समसूत्री जैसा है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -937,10 +1153,22 @@
       "(a) iii, (b) ii, (c) i, (d) iv",
       "(a) iv, (b) ii, (c) iii, (d) i",
       "(a) iv, (b) i, (c) ii, (d) iii"
-     ]
+     ],
+     "sol": "<ul><li>(a) S phase — DNA replication (iv).</li><li>(b) G<sub>2</sub> phase — proteins are synthesised (i).</li><li>(c) Quiescent stage — inactive phase (ii).</li><li>(d) G<sub>1</sub> phase — interval between mitosis and initiation of DNA replication (iii).</li></ul><p>(a) iv, (b) i, (c) ii, (d) iii.</p>",
+     "hint": "G1 is the gap after M."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(a) S प्रावस्था — (i) प्रोटीन संश्लेषित होते हैं<br>(b) G<sub>2</sub> प्रावस्था — (ii) निष्क्रिय प्रावस्था<br>(c) शांत अवस्था — (iii) समसूत्री विभाजन तथा DNA प्रतिकृति के आरंभ के बीच का अंतराल<br>(d) G<sub>1</sub> प्रावस्था — (iv) DNA प्रतिकृति",
+     "o": [
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iii, (b) ii, (c) i, (d) iv",
+      "(a) iv, (b) ii, (c) iii, (d) i",
+      "(a) iv, (b) i, (c) ii, (d) iii"
+     ],
+     "sol": "<ul><li>(a) S प्रावस्था — DNA प्रतिकृति (iv)।</li><li>(b) G<sub>2</sub> प्रावस्था — प्रोटीन संश्लेषण (i)।</li><li>(c) शांत अवस्था — निष्क्रिय प्रावस्था (ii)।</li><li>(d) G<sub>1</sub> प्रावस्था — समसूत्री विभाजन तथा DNA प्रतिकृति आरंभ के बीच का अंतराल (iii)।</li></ul><p>(a) iv, (b) i, (c) ii, (d) iii।</p>",
+     "hint": "G1, M के बाद का अंतराल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -984,10 +1212,22 @@
       "Leptotene",
       "Zygotene",
       "Diakinesis"
-     ]
+     ],
+     "sol": "<p>NCERT 10.4.1: <b>diakinesis</b> is marked by terminalisation of chiasmata; chromosomes condense fully and the spindle starts to form.</p>",
+     "hint": "Last stage of prophase I."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अर्धसूत्री पूर्वावस्था की किस अवस्था का विशिष्ट लक्षण काएज्मेटा का उपांतीभवन है?",
+     "o": [
+      "स्थूलपट्ट",
+      "तनुपट्ट",
+      "युग्मपट्ट",
+      "पारगतिक्रम"
+     ],
+     "sol": "<p>NCERT 10.4.1: <b>पारगतिक्रम</b> काएज्मेटा के उपांतीभवन से पहचाना जाता है; गुणसूत्र पूरी तरह संघनित होते हैं और तर्कु बनना आरंभ होता है।</p>",
+     "hint": "पूर्वावस्था I की अंतिम अवस्था।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1030,10 +1270,22 @@
       "8",
       "16",
       "4"
-     ]
+     ],
+     "sol": "<p>NCERT 10.1.1: in S phase the DNA doubles, but the <b>chromosome number does not change</b> — each chromosome now has two sister chromatids joined at the centromere. So 8 chromosomes in G<sub>1</sub> remain <b>8</b> after S (with 16 chromatids).</p>",
+     "hint": "Count centromeres, not chromatids."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "फल मक्खी की प्रत्येक कोशिका में 8 गुणसूत्र (2n) होते हैं। समसूत्री विभाजन की अंतरावस्था के दौरान यदि G<sub>1</sub> प्रावस्था में गुणसूत्रों की संख्या 8 है, तो S प्रावस्था के बाद गुणसूत्रों की संख्या क्या होगी?",
+     "o": [
+      "32",
+      "8",
+      "16",
+      "4"
+     ],
+     "sol": "<p>NCERT 10.1.1: S प्रावस्था में DNA दोगुना होता है, परंतु <b>गुणसूत्र संख्या नहीं बदलती</b> — अब प्रत्येक गुणसूत्र में गुणसूत्रबिंदु से जुड़े दो सहोदर अर्धगुणसूत्र होते हैं। अतः G<sub>1</sub> के 8 गुणसूत्र S के बाद भी <b>8</b> रहते हैं (16 अर्धगुणसूत्र)।</p>",
+     "hint": "अर्धगुणसूत्र नहीं, गुणसूत्रबिंदु गिनिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1076,10 +1328,22 @@
       "S-phase",
       "Prophase",
       "Metaphase"
-     ]
+     ],
+     "sol": "<p>NCERT 10.1.1: in animal cells, during the <b>S phase</b>, as DNA replication begins in the nucleus, the centriole duplicates in the cytoplasm.</p>",
+     "hint": "Duplicates alongside DNA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "तारककेंद्र का द्विगुणन किसके दौरान होता है?",
+     "o": [
+      "G2 प्रावस्था",
+      "S-प्रावस्था",
+      "पूर्वावस्था",
+      "मध्यावस्था"
+     ],
+     "sol": "<p>NCERT 10.1.1: जंतु कोशिकाओं में <b>S प्रावस्था</b> में, जैसे ही केंद्रक में DNA प्रतिकृति आरंभ होती है, तारककेंद्र का कोशिकाद्रव्य में द्विगुणन होता है।</p>",
+     "hint": "DNA के साथ द्विगुणन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1122,10 +1386,22 @@
       "Sites at which crossing over occurs",
       "Terminalization",
       "Synaptonemal complex"
-     ]
+     ],
+     "sol": "<p>NCERT 10.4.1: in pachytene, recombination nodules appear on the bivalents; they are the <b>sites at which crossing over occurs</b> between non-sister chromatids.</p>",
+     "hint": "Nodules = crossover sites."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अर्धसूत्री विभाजन के दौरान समजात गुणसूत्रों पर पुनर्योजन ग्रंथिकाओं का प्रकट होना किसे दर्शाता है?",
+     "o": [
+      "युगली",
+      "वे स्थल जहाँ जीन विनिमय होता है",
+      "उपांतीभवन",
+      "सिनेप्टोनीमल सम्मिश्र"
+     ],
+     "sol": "<p>NCERT 10.4.1: स्थूलपट्ट में युगलियों पर पुनर्योजन ग्रंथिकाएं दिखती हैं; ये असहोदर अर्धगुणसूत्रों के बीच <b>जीन विनिमय के स्थल</b> हैं।</p>",
+     "hint": "ग्रंथिकाएँ = विनिमय स्थल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1168,10 +1444,22 @@
       "Pairing of homologous chromosomes",
       "Coiling and condensation of the chromatids",
       "Spindle fibres attach to kinetochores of chromosomes"
-     ]
+     ],
+     "sol": "<p>In mitosis centrioles move to opposite poles, chromatids coil and condense, and spindle fibres attach to kinetochores. <b>Pairing of homologous chromosomes</b> (synapsis) happens only in meiosis I.</p>",
+     "hint": "Same idea as NEET 2016 Q172."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समसूत्री कोशिका विभाजन के दौरान निम्नलिखित में से क्या कभी नहीं होता?",
+     "o": [
+      "तारककेंद्रों का विपरीत ध्रुवों की ओर जाना",
+      "समजात गुणसूत्रों का युगलन",
+      "अर्धगुणसूत्रों का कुंडलन तथा संघनन",
+      "तर्कु तंतुओं का गुणसूत्रों के काइनेटोकोर से जुड़ना"
+     ],
+     "sol": "<p>समसूत्री विभाजन में तारककेंद्र विपरीत ध्रुवों पर जाते हैं, अर्धगुणसूत्र कुंडलित तथा संघनित होते हैं, और तर्कु तंतु काइनेटोकोर से जुड़ते हैं। <b>समजात गुणसूत्रों का युगलन</b> केवल अर्धसूत्री I में होता है।</p>",
+     "hint": "NEET 2016 Q172 जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1214,10 +1502,22 @@
       "Chromosomes decondense at telophase.",
       "Splitting of centromere occurs at anaphase.",
       "All the chromosomes lie at the equator at metaphase."
-     ]
+     ],
+     "sol": "<p>NCERT 10.2.2: spindle fibres attach to the <b>kinetochores</b>, small discs on the centromere — not to the centromere itself. Statement 1 is the incorrect one; the others (decondensation in telophase, centromere splitting in anaphase, all chromosomes at the equator in metaphase) are correct.</p>",
+     "hint": "Kinetochore, not centromere."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समसूत्री विभाजन के संदर्भ में गलत कथन चुनिए :",
+     "o": [
+      "तर्कु तंतु गुणसूत्रों के गुणसूत्रबिंदु से जुड़ते हैं।",
+      "अंत्यावस्था में गुणसूत्र विसंघनित होते हैं।",
+      "पश्चावस्था में गुणसूत्रबिंदु का विभाजन होता है।",
+      "मध्यावस्था में सभी गुणसूत्र मध्यरेखा पर स्थित होते हैं।"
+     ],
+     "sol": "<p>NCERT 10.2.2: तर्कु तंतु गुणसूत्रबिंदु पर स्थित छोटी डिस्क — <b>काइनेटोकोर</b> — से जुड़ते हैं, स्वयं गुणसूत्रबिंदु से नहीं। कथन 1 गलत है; अन्य (अंत्यावस्था में विसंघनन, पश्चावस्था में गुणसूत्रबिंदु विभाजन, मध्यावस्था में सभी गुणसूत्र मध्यरेखा पर) सही हैं।</p>",
+     "hint": "काइनेटोकोर, गुणसूत्रबिंदु नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1260,10 +1560,22 @@
       "Pairing of homologous chromosomes and recombination occurs in Meiosis-I",
       "Four haploid cells are formed at the end of Meiosis-II",
       "There are two stages in Meiosis, Meiosis-I and II"
-     ]
+     ],
+     "sol": "<p>DNA replication occurs once, in the S phase of interphase <b>before meiosis I</b>; there is no S phase before meiosis II (interkinesis is short and has no DNA replication). Statement 1 is incorrect.</p>",
+     "hint": "No replication in interkinesis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अर्धसूत्री विभाजन के संबंध में कौन-सा कथन गलत है?",
+     "o": [
+      "अर्धसूत्री-II की S प्रावस्था में DNA प्रतिकृति होती है",
+      "समजात गुणसूत्रों का युगलन तथा पुनर्योजन अर्धसूत्री-I में होता है",
+      "अर्धसूत्री-II के अंत में चार अगुणित कोशिकाएँ बनती हैं",
+      "अर्धसूत्री विभाजन की दो अवस्थाएँ हैं, अर्धसूत्री-I तथा II"
+     ],
+     "sol": "<p>DNA प्रतिकृति केवल एक बार, <b>अर्धसूत्री I से पहले</b> अंतरावस्था की S प्रावस्था में होती है; अर्धसूत्री II से पहले कोई S प्रावस्था नहीं होती (अंतरालावस्था छोटी होती है और इसमें DNA प्रतिकृति नहीं होती)। कथन 1 गलत है।</p>",
+     "hint": "अंतरालावस्था में प्रतिकृति नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1306,10 +1618,22 @@
       "M phase",
       "S phase",
       "G<sub>1</sub> phase"
-     ]
+     ],
+     "sol": "<p>NCERT 10.1.1: in eukaryotes DNA replication takes place in the <b>S phase</b> of interphase.</p>",
+     "hint": "S = synthesis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यूकैरियोट में DNA की प्रतिकृति किसमें होती है?",
+     "o": [
+      "G<sub>2</sub> प्रावस्था",
+      "M प्रावस्था",
+      "S प्रावस्था",
+      "G<sub>1</sub> प्रावस्था"
+     ],
+     "sol": "<p>NCERT 10.1.1: यूकैरियोट में DNA प्रतिकृति अंतरावस्था की <b>S प्रावस्था</b> में होती है।</p>",
+     "hint": "S = संश्लेषण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1352,10 +1676,22 @@
       "Metaphase I",
       "Metaphase II",
       "Anaphase II"
-     ]
+     ],
+     "sol": "<p>NCERT 10.4.2: the centromere splits at the onset of <b>anaphase II</b>.</p>",
+     "hint": "Same as NEET 2021 Q114."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अर्धसूत्री विभाजन की निम्नलिखित में से किस अवस्था में गुणसूत्रबिंदु का विभाजन होता है?",
+     "o": [
+      "अंत्यावस्था",
+      "मध्यावस्था I",
+      "मध्यावस्था II",
+      "पश्चावस्था II"
+     ],
+     "sol": "<p>NCERT 10.4.2: गुणसूत्रबिंदु <b>पश्चावस्था II</b> के आरंभ में विभाजित होता है।</p>",
+     "hint": "NEET 2021 Q114 जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1398,10 +1734,22 @@
       "Pachytene",
       "Zygotene",
       "Diplotene"
-     ]
+     ],
+     "sol": "<p>NCERT 10.4.1: recombination nodules appear in <b>pachytene</b>.</p>",
+     "hint": "Crossing-over stage."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पुनर्योजन ग्रंथिकाओं के प्रकट होने की प्रक्रिया अर्धसूत्री विभाजन की पूर्वावस्था I की किस उप-अवस्था में होती है?",
+     "o": [
+      "पारगतिक्रम",
+      "स्थूलपट्ट",
+      "युग्मपट्ट",
+      "द्विपट्ट"
+     ],
+     "sol": "<p>NCERT 10.4.1: पुनर्योजन ग्रंथिकाएं <b>स्थूलपट्ट</b> में दिखाई देती हैं।</p>",
+     "hint": "जीन विनिमय की अवस्था।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1444,10 +1792,22 @@
       "A-III, B-II, C-IV, D-I",
       "A-IV, B-II, C-I, D-III",
       "A-IV, B-I, C-II, D-III"
-     ]
+     ],
+     "sol": "<ul><li>(A) M phase — equational division (IV).</li><li>(B) G<sub>2</sub> phase — proteins are synthesised (I).</li><li>(C) Quiescent stage — inactive phase (II).</li><li>(D) G<sub>1</sub> phase — interval between mitosis and initiation of DNA replication (III).</li></ul><p>A-IV, B-I, C-II, D-III.</p>",
+     "hint": "Mitosis is equational."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(A) M प्रावस्था — (I) प्रोटीन संश्लेषित होते हैं<br>(B) G<sub>2</sub> प्रावस्था — (II) निष्क्रिय प्रावस्था<br>(C) शांत अवस्था — (III) समसूत्री विभाजन तथा DNA प्रतिकृति के आरंभ के बीच का अंतराल<br>(D) G<sub>1</sub> प्रावस्था — (IV) सम विभाजन",
+     "o": [
+      "A-II, B-IV, C-I, D-III",
+      "A-III, B-II, C-IV, D-I",
+      "A-IV, B-II, C-I, D-III",
+      "A-IV, B-I, C-II, D-III"
+     ],
+     "sol": "<ul><li>(A) M प्रावस्था — सम विभाजन (IV)।</li><li>(B) G<sub>2</sub> प्रावस्था — प्रोटीन संश्लेषण (I)।</li><li>(C) शांत अवस्था — निष्क्रिय प्रावस्था (II)।</li><li>(D) G<sub>1</sub> प्रावस्था — समसूत्री विभाजन तथा DNA प्रतिकृति आरंभ के बीच का अंतराल (III)।</li></ul><p>A-IV, B-I, C-II, D-III।</p>",
+     "hint": "समसूत्री विभाजन सम विभाजन है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1492,10 +1852,22 @@
       "Both Statement I and Statement II are correct",
       "Both Statement I and Statement II are incorrect.",
       "Statement I is correct but Statement II is incorrect."
-     ]
+     ],
+     "sol": "<p>Statement I: NCERT 10.1.1 says cells in G<sub>0</sub> remain <b>metabolically active</b> but no longer proliferate — so I is incorrect. Statement II: the centriole (centrosome) duplicates during S phase — correct.</p>",
+     "hint": "G0 cells are active, just not dividing."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : कोशिका चक्र की G<sub>0</sub> प्रावस्था के दौरान कोशिका उपापचयी रूप से निष्क्रिय होती है।<br>कथन II : अंतरावस्था की S प्रावस्था के दौरान तारककाय का द्विगुणन होता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I गलत है परंतु कथन II सही है",
+      "कथन I तथा कथन II दोनों सही हैं",
+      "कथन I तथा कथन II दोनों गलत हैं।",
+      "कथन I सही है परंतु कथन II गलत है।"
+     ],
+     "sol": "<p>कथन I : NCERT 10.1.1 के अनुसार G<sub>0</sub> की कोशिकाएँ <b>उपापचयी रूप से सक्रिय</b> रहती हैं परंतु विभाजित नहीं होतीं — अतः I गलत है। कथन II : S प्रावस्था में तारककेंद्र (तारककाय) का द्विगुणन होता है — सही।</p>",
+     "hint": "G0 कोशिकाएँ सक्रिय हैं, केवल विभाजित नहीं होतीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1539,10 +1911,22 @@
       "A and C only",
       "B and D only",
       "A, C and E only"
-     ]
+     ],
+     "sol": "<ul><li>A. Tetrads (bivalents) form in <b>zygotene</b>, not leptotene — wrong.</li><li>B. In anaphase centromeres split and chromatids separate — correct.</li><li>C. Terminalisation occurs in <b>diakinesis</b> — wrong.</li><li>D. Nucleolus, Golgi complex and ER reform in telophase — correct.</li><li>E. Crossing over is between <b>non-sister</b> chromatids — wrong.</li></ul><p>B and D only.</p>",
+     "hint": "Crossing over: non-sister chromatids."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही कथन चुनिए :<br>A. चतुष्क का बनना तनुपट्ट में दिखता है।<br>B. पश्चावस्था में गुणसूत्रबिंदु विभाजित होते हैं और अर्धगुणसूत्र अलग होते हैं।<br>C. उपांतीभवन स्थूलपट्ट में होता है।<br>D. अंत्यावस्था में केंद्रिका, गॉल्जी सम्मिश्र तथा ER पुनः बनते हैं।<br>E. जीन विनिमय समजात गुणसूत्रों के सहोदर अर्धगुणसूत्रों के बीच होता है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल B तथा E",
+      "केवल A तथा C",
+      "केवल B तथा D",
+      "केवल A, C तथा E"
+     ],
+     "sol": "<ul><li>A. चतुष्क (युगली) <b>युग्मपट्ट</b> में बनते हैं, तनुपट्ट में नहीं — गलत।</li><li>B. पश्चावस्था में गुणसूत्रबिंदु विभाजित और अर्धगुणसूत्र पृथक — सही।</li><li>C. उपांतीभवन <b>पारगतिक्रम</b> में होता है — गलत।</li><li>D. अंत्यावस्था में केंद्रिका, गॉल्जीकाय तथा ER पुनः बनते हैं — सही।</li><li>E. जीन विनिमय <b>असहोदर</b> अर्धगुणसूत्रों के बीच होता है — गलत।</li></ul><p>केवल B तथा D।</p>",
+     "hint": "जीन विनिमय: असहोदर अर्धगुणसूत्र।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1587,10 +1971,22 @@
       "A-IV, B-II, C-III, D-I",
       "A-I, B-II, C-IV, D-III",
       "A-IV, B-III, C-II, D-I"
-     ]
+     ],
+     "sol": "<ul><li>A. Diakinesis — completion of terminalisation of chiasmata (II).</li><li>B. Pachytene — appearance of recombination nodules (IV).</li><li>C. Zygotene — synaptonemal complex formation (I).</li><li>D. Leptotene — chromosomes look like thin threads (III).</li></ul><p>A-II, B-IV, C-I, D-III (NCERT 10.4.1).</p>",
+     "hint": "Lepto = thin."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>सूची-I (पूर्वावस्था I की उप-अवस्थाएँ) — सूची-II (विशिष्ट लक्षण)<br>A. पारगतिक्रम — I. सिनेप्टोनीमल सम्मिश्र का बनना<br>B. स्थूलपट्ट — II. काएज्मेटा के उपांतीभवन का पूर्ण होना<br>C. युग्मपट्ट — III. गुणसूत्र पतले धागों जैसे दिखते हैं<br>D. तनुपट्ट — IV. पुनर्योजन ग्रंथिकाओं का प्रकट होना",
+     "o": [
+      "A-II, B-IV, C-I, D-III",
+      "A-IV, B-II, C-III, D-I",
+      "A-I, B-II, C-IV, D-III",
+      "A-IV, B-III, C-II, D-I"
+     ],
+     "sol": "<ul><li>A. पारगतिक्रम — काएज्मेटा के उपांतीभवन का पूर्ण होना (II)।</li><li>B. स्थूलपट्ट — पुनर्योजन ग्रंथिकाओं का प्रकट होना (IV)।</li><li>C. युग्मपट्ट — सिनेप्टोनीमल सम्मिश्र का बनना (I)।</li><li>D. तनुपट्ट — गुणसूत्र पतले धागों जैसे (III)।</li></ul><p>A-II, B-IV, C-I, D-III (NCERT 10.4.1)।</p>",
+     "hint": "तनु = पतला।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1634,10 +2030,22 @@
       "Both Statement I and Statement II are false",
       "Statement I is true but Statement II is false",
       "Statement I is false but Statement II is true"
-     ]
+     ],
+     "sol": "<p>NCERT 10.4.1: during leptotene the chromosomes become gradually visible under the light microscope — I true. The beginning of diplotene is recognised by dissolution of the synaptonemal complex — II true.</p>",
+     "hint": "Both are NCERT lines."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : तनुपट्ट अवस्था में गुणसूत्र प्रकाश सूक्ष्मदर्शी में धीरे-धीरे दिखाई देने लगते हैं।<br>कथन II : द्विपट्ट अवस्था का प्रारंभ सिनेप्टोनीमल सम्मिश्र के विघटन से पहचाना जाता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों सत्य हैं",
+      "कथन I तथा कथन II दोनों असत्य हैं",
+      "कथन I सत्य है परंतु कथन II असत्य है",
+      "कथन I असत्य है परंतु कथन II सत्य है"
+     ],
+     "sol": "<p>NCERT 10.4.1: तनुपट्ट में गुणसूत्र प्रकाश सूक्ष्मदर्शी में धीरे-धीरे दिखाई देने लगते हैं — I सत्य। द्विपट्ट का प्रारंभ सिनेप्टोनीमल सम्मिश्र के विघटन से पहचाना जाता है — II सत्य।</p>",
+     "hint": "दोनों NCERT की पंक्तियाँ हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1680,10 +2088,22 @@
       "Metaphase",
       "Anaphase",
       "Telophase"
-     ]
+     ],
+     "sol": "<p>NCERT 10.2.2: in <b>metaphase</b> spindle fibres attach to the kinetochores of the chromosomes and the chromosomes come to lie at the equator.</p>",
+     "hint": "Metaphase plate."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "तर्कु तंतु गुणसूत्रों के काइनेटोकोर से किसके दौरान जुड़ते हैं?",
+     "o": [
+      "पूर्वावस्था",
+      "मध्यावस्था",
+      "पश्चावस्था",
+      "अंत्यावस्था"
+     ],
+     "sol": "<p>NCERT 10.2.2: <b>मध्यावस्था</b> में तर्कु तंतु गुणसूत्रों के काइनेटोकोर से जुड़ते हैं और गुणसूत्र मध्यरेखा पर आ जाते हैं।</p>",
+     "hint": "मध्यावस्था पट्टिका।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1726,10 +2146,22 @@
       "B − D − E − A − C",
       "E − C − A − D − B",
       "C − D − E − A − B"
-     ]
+     ],
+     "sol": "<p>Cell cycle: G<sub>1</sub> (E) → S (C) → G<sub>2</sub> (A) → karyokinesis (D) → cytokinesis (B). E − C − A − D − B.</p>",
+     "hint": "Interphase first, then nucleus, then cytoplasm."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कोशिका विभाजन की अवस्थाएँ निम्नलिखित हैं :<br>A. अंतराल 2 प्रावस्था<br>B. कोशिकाद्रव्य विभाजन<br>C. संश्लेषण प्रावस्था<br>D. केंद्रक विभाजन<br>E. अंतराल 1 प्रावस्था<br>नीचे दिए गए विकल्पों में से अवस्थाओं का सही क्रम चुनिए :",
+     "o": [
+      "E − B − D − A − C",
+      "B − D − E − A − C",
+      "E − C − A − D − B",
+      "C − D − E − A − B"
+     ],
+     "sol": "<p>कोशिका चक्र: G<sub>1</sub> (E) → S (C) → G<sub>2</sub> (A) → केंद्रक विभाजन (D) → कोशिकाद्रव्य विभाजन (B)। E − C − A − D − B।</p>",
+     "hint": "पहले अंतरावस्था, फिर केंद्रक, फिर कोशिकाद्रव्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1772,10 +2204,22 @@
       "To synthesize new DNA",
       "To repair damaged DNA",
       "To regulate cell growth"
-     ]
+     ],
+     "sol": "<p>NCERT 10.2: spindle fibres attach to the kinetochores and pull the chromatids (chromosomes) apart to opposite poles in anaphase — their main role is <b>to separate the chromosomes</b>.</p>",
+     "hint": "They pull chromatids apart."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "समसूत्री विभाजन के दौरान तर्कु तंतुओं का मुख्य कार्य क्या है?",
+     "o": [
+      "गुणसूत्रों को अलग करना",
+      "नया DNA संश्लेषित करना",
+      "क्षतिग्रस्त DNA की मरम्मत करना",
+      "कोशिका वृद्धि का नियमन करना"
+     ],
+     "sol": "<p>NCERT 10.2: तर्कु तंतु काइनेटोकोर से जुड़कर पश्चावस्था में अर्धगुणसूत्रों (गुणसूत्रों) को विपरीत ध्रुवों की ओर खींचते हैं — इनका मुख्य कार्य <b>गुणसूत्रों को अलग करना</b> है।</p>",
+     "hint": "ये अर्धगुणसूत्रों को अलग खींचते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1818,10 +2262,22 @@
       "A-IV, B-I, C-II, D-III",
       "A-I, B-II, C-III, D-IV",
       "A-II, B-III, C-IV, D-I"
-     ]
+     ],
+     "sol": "<ul><li>A. G<sub>1</sub> — metabolically active, grows, no DNA replication (II).</li><li>B. S — DNA synthesis; DNA per cell doubles (III).</li><li>C. G<sub>2</sub> — proteins synthesised while growth continues (IV).</li><li>D. M — actual cell division (I).</li></ul><p>A-II, B-III, C-IV, D-I (NCERT 10.1.1).</p>",
+     "hint": "Follow the cycle order."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>सूची I (कोशिका चक्र की प्रावस्था) — सूची II (क्रिया)<br>A. G<sub>1</sub> प्रावस्था — I. वास्तविक कोशिका विभाजन होता है<br>B. S प्रावस्था — II. कोशिका उपापचयी रूप से सक्रिय है और लगातार वृद्धि करती है परंतु DNA की प्रतिकृति नहीं करती<br>C. G<sub>2</sub> प्रावस्था — III. DNA का संश्लेषण होता है और प्रति कोशिका DNA की मात्रा दोगुनी हो जाती है<br>D. M प्रावस्था — IV. कोशिका वृद्धि जारी रहते हुए प्रोटीन संश्लेषित होते हैं",
+     "o": [
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-I, C-II, D-III",
+      "A-I, B-II, C-III, D-IV",
+      "A-II, B-III, C-IV, D-I"
+     ],
+     "sol": "<ul><li>A. G<sub>1</sub> — उपापचयी रूप से सक्रिय, वृद्धि, DNA प्रतिकृति नहीं (II)।</li><li>B. S — DNA संश्लेषण; प्रति कोशिका DNA दोगुना (III)।</li><li>C. G<sub>2</sub> — वृद्धि जारी रहते प्रोटीन संश्लेषण (IV)।</li><li>D. M — वास्तविक कोशिका विभाजन (I)।</li></ul><p>A-II, B-III, C-IV, D-I (NCERT 10.1.1)।</p>",
+     "hint": "चक्र का क्रम अपनाइए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1854,5 +2310,111 @@
     "note": "Options in the Code 13 booklet's order (the eSaral copy reorders them; read from the booklet scan). The copy prints (1). Code 13 booklet Q102."
    }
   }
- ]
+ ],
+ "paraTrends": {
+  "10.4.1": {
+   "neet": 13,
+   "jee": 0,
+   "years": [
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2018,
+    2016,
+    2015
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "10.2.2": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2024,
+    2022,
+    2016
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "10.2": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2026,
+    2025,
+    2023,
+    2022,
+    2017,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "10.2.5": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2016
+   ],
+   "last": 2016,
+   "recent": false
+  },
+  "10.1.1": {
+   "neet": 14,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2023,
+    2021,
+    2020,
+    2019,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "10.2.3": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2017
+   ],
+   "last": 2017,
+   "recent": false
+  },
+  "10.4.2": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2023,
+    2021
+   ],
+   "last": 2023,
+   "recent": false
+  },
+  "10.4": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2022
+   ],
+   "last": 2022,
+   "recent": false
+  },
+  "10.3": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2023
+   ],
+   "last": 2023,
+   "recent": false
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3
 }

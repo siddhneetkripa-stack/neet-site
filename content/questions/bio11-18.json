@@ -80,10 +80,22 @@
       "Only rods are present",
       "More rods than cones are found",
       "High density of cones occur, but has no rods"
-     ]
+     ],
+     "sol": "<p>The fovea is a thinned-out region of the retina lateral to the blind spot where <b>only cones are densely packed and rods are absent</b>; it is the point of greatest visual acuity. The optic nerve leaves at the blind spot. (Eye: old NCERT 21.6.1; dropped from NEET 2024.)</p>",
+     "hint": "Sharpest vision = cones only."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तनधारी नेत्र में 'फोविया' दृष्टि क्षेत्र का केंद्र है, जहाँ :",
+     "o": [
+      "दृष्टि तंत्रिका नेत्र से बाहर निकलती है",
+      "केवल शलाकाएँ (rods) उपस्थित होती हैं",
+      "शंकुओं की अपेक्षा शलाकाएँ अधिक पाई जाती हैं",
+      "शंकुओं का घनत्व अधिक होता है, परंतु शलाकाएँ नहीं होतीं"
+     ],
+     "sol": "<p>फोविया दृष्टि पटल (रेटिना) का पतला क्षेत्र है जो अंध बिंदु के पार्श्व में होता है, जहाँ <b>केवल शंकु सघन रूप से होते हैं और शलाकाएँ नहीं होतीं</b>; यह सर्वाधिक दृष्टि तीक्ष्णता का बिंदु है। दृष्टि तंत्रिका अंध बिंदु पर निकलती है। (नेत्र: पुरानी NCERT 21.6.1; NEET 2024 से हटाया गया।)</p>",
+     "hint": "सबसे तीक्ष्ण दृष्टि = केवल शंकु।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -125,10 +137,22 @@
       "Commissural impulses",
       "Integrating impulses",
       "Sensory impulses"
-     ]
+     ],
+     "sol": "<p>The anterior (ventral) horns of the spinal cord grey matter contain the cell bodies of motor neurons, whose axons leave by the ventral roots to skeletal muscles. Destroying them abolishes <b>voluntary motor impulses</b> (as in polio). Sensory impulses enter through the dorsal horns. (Spinal cord structure is not detailed in NCERT 18.2.)</p>",
+     "hint": "Ventral = motor."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मेरुरज्जु की अग्र श्रृंग कोशिकाओं के नष्ट होने से किसकी हानि होगी?",
+     "o": [
+      "ऐच्छिक प्रेरक आवेग",
+      "संयोजी (commissural) आवेग",
+      "समाकलन आवेग",
+      "संवेदी आवेग"
+     ],
+     "sol": "<p>मेरुरज्जु के धूसर द्रव्य के अग्र (अधर) श्रृंगों में प्रेरक न्यूरॉनों के कोशिका काय होते हैं, जिनके तंत्रिकाक्ष अधर मूलों से कंकाल पेशियों तक जाते हैं। इनके नष्ट होने से <b>ऐच्छिक प्रेरक आवेग</b> समाप्त हो जाते हैं (जैसे पोलियो में)। संवेदी आवेग पृष्ठ श्रृंगों से प्रवेश करते हैं। (मेरुरज्जु की संरचना NCERT 18.2 में विस्तार से नहीं है।)</p>",
+     "hint": "अधर = प्रेरक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -172,10 +196,22 @@
       "Opsin and Retinal",
       "Opsin and Retinol",
       "Guanosine and Retinol"
-     ]
+     ],
+     "sol": "<p>The photopigments of rods and cones (rhodopsin and the cone pigments) are made of a protein, <b>opsin</b>, and an aldehyde of vitamin A, <b>retinal</b>. Light changes retinal's shape and dissociates it from opsin. (Old NCERT 21.6.1; dropped from NEET 2024.)</p>",
+     "hint": "Retinal, not retinol."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव नेत्र का प्रकाश-संवेदी यौगिक किससे बना होता है?",
+     "o": [
+      "ग्वानोसिन तथा रेटिनॉल",
+      "ऑप्सिन तथा रेटिनल",
+      "ऑप्सिन तथा रेटिनॉल",
+      "ग्वानोसिन तथा रेटिनॉल"
+     ],
+     "sol": "<p>शलाकाओं तथा शंकुओं के प्रकाश वर्णक (रोडॉप्सिन तथा शंकु वर्णक) एक प्रोटीन, <b>ऑप्सिन</b>, तथा विटामिन A के ऐल्डिहाइड, <b>रेटिनल</b>, से बने होते हैं। प्रकाश रेटिनल की आकृति बदलकर उसे ऑप्सिन से अलग कर देता है। (पुरानी NCERT 21.6.1; NEET 2024 से हटाया गया।)</p>",
+     "hint": "रेटिनल, रेटिनॉल नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -217,10 +253,22 @@
       "Meissner's corpuscles are thermoreceptors",
       "Photoreceptors in the human eye are depolarised during darkness and become hyperpolarised in response to the light stimulus",
       "Receptors do not produce graded potentials"
-     ]
+     ],
+     "sol": "<p>Vertebrate photoreceptors are unusual: in darkness they are <b>depolarised</b> (Na<sup>+</sup> channels open), and light <b>hyperpolarises</b> them — option 3 is correct. Nociceptors respond to painful stimuli, not pressure; Meissner's corpuscles are touch receptors; receptors do produce graded (receptor) potentials. (Old NCERT; dropped from NEET 2024.)</p>",
+     "hint": "Light hyperpolarises rods."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सही कथन चुनिए।",
+     "o": [
+      "पीड़ाग्राही (nociceptors) दाब में परिवर्तन के प्रति अनुक्रिया करते हैं",
+      "माइस्नर कणिकाएँ तापग्राही हैं",
+      "मानव नेत्र के प्रकाशग्राही अंधकार में विध्रुवित रहते हैं तथा प्रकाश उद्दीपन के प्रति अतिध्रुवित हो जाते हैं",
+      "ग्राही क्रमिक विभव (graded potentials) उत्पन्न नहीं करते"
+     ],
+     "sol": "<p>कशेरुकी प्रकाशग्राही असामान्य हैं: अंधकार में ये <b>विध्रुवित</b> रहते हैं (Na<sup>+</sup> चैनल खुले), और प्रकाश इन्हें <b>अतिध्रुवित</b> करता है — विकल्प 3 सही है। पीड़ाग्राही पीड़ादायक उद्दीपनों पर अनुक्रिया करते हैं, दाब पर नहीं; माइस्नर कणिकाएँ स्पर्शग्राही हैं; ग्राही क्रमिक (ग्राही) विभव उत्पन्न करते हैं। (पुरानी NCERT; NEET 2024 से हटाया गया।)</p>",
+     "hint": "प्रकाश शलाकाओं को अतिध्रुवित करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -262,10 +310,22 @@
       "(a), (c) & (d)",
       "(a) & (c)",
       "(b), (c) & (d)"
-     ]
+     ],
+     "sol": "<p>(a) Correct — carotene is converted to vitamin A. (c) Correct — retinal is an aldehyde derivative of vitamin A. (d) Correct — retinal is the light-absorbing part of every visual photopigment. (b) Wrong — the photopigment discs are in the <i>outer</i> segment of rods and cones. Answer: (a), (c) & (d). (Old NCERT; dropped from NEET 2024.)</p>",
+     "hint": "Discs are in the outer segment."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "अच्छी दृष्टि कैरोटीन-युक्त भोजन के पर्याप्त सेवन पर निर्भर करती है। निम्नलिखित कथनों में से सर्वोत्तम विकल्प चुनिए :<br>(a) विटामिन A के व्युत्पन्न कैरोटीन से बनते हैं<br>(b) प्रकाश वर्णक आंतरिक खंड की झिल्ली चक्रिकाओं में धँसे रहते हैं<br>(c) रेटिनल विटामिन A का व्युत्पन्न है<br>(d) रेटिनल सभी दृष्टि प्रकाश वर्णकों का प्रकाश-अवशोषी भाग है",
+     "o": [
+      "(a) तथा (b)",
+      "(a), (c) तथा (d)",
+      "(a) तथा (c)",
+      "(b), (c) तथा (d)"
+     ],
+     "sol": "<p>(a) सही — कैरोटीन विटामिन A में बदलता है। (c) सही — रेटिनल विटामिन A का ऐल्डिहाइड व्युत्पन्न है। (d) सही — रेटिनल प्रत्येक दृष्टि प्रकाश वर्णक का प्रकाश-अवशोषी भाग है। (b) गलत — प्रकाश वर्णक चक्रिकाएँ शलाकाओं तथा शंकुओं के <i>बाह्य</i> खंड में होती हैं। उत्तर: (a), (c) तथा (d)। (पुरानी NCERT; NEET 2024 से हटाया गया।)</p>",
+     "hint": "चक्रिकाएँ बाह्य खंड में।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -307,10 +367,22 @@
       "Pre-synaptic membrane",
       "Tips of axons",
       "Post-synaptic membrane"
-     ]
+     ],
+     "sol": "<p>NCERT 18.3.2: neurotransmitters released into the synaptic cleft bind to specific receptors present on the <b>post-synaptic membrane</b>, opening ion channels and generating a new potential.</p>",
+     "hint": "Receiving side."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "तंत्रिका संचारियों के ग्राही स्थल कहाँ उपस्थित होते हैं?",
+     "o": [
+      "सिनैप्टिक पुटिकाओं की झिल्लियों पर",
+      "पूर्व सिनेप्टिक झिल्ली पर",
+      "तंत्रिकाक्षों के सिरों पर",
+      "पश्च सिनेप्टिक झिल्ली पर"
+     ],
+     "sol": "<p>NCERT 18.3.2: सिनेप्टिक दरार में मुक्त तंत्रिका संचारी अणु <b>पश्च सिनेप्टिक झिल्ली</b> पर स्थित विशिष्ट ग्राहियों से जुड़ जाते हैं, जिससे आयन चैनल खुलते हैं और नया विभव उत्पन्न होता है।</p>",
+     "hint": "ग्रहण करने वाला पक्ष।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -353,10 +425,22 @@
       "Astrocytes and Schwann Cells",
       "Oligodendrocytes and Osteoclasts",
       "Osteoclasts and Astrocytes"
-     ]
+     ],
+     "sol": "<p>NCERT 18.3: myelinated fibres are enveloped by <b>Schwann cells</b>, which form the myelin sheath around the axon (in peripheral nerves). In the brain and spinal cord the myelin is formed by <b>oligodendrocytes</b>. Astrocytes do not form myelin; osteoclasts are bone cells.</p>",
+     "hint": "PNS: Schwann; CNS: oligodendrocytes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "माइलिन आच्छद किसके द्वारा बनता है?",
+     "o": [
+      "श्वान कोशिकाएँ तथा ऑलिगोडेंड्रोसाइट",
+      "एस्ट्रोसाइट तथा श्वान कोशिकाएँ",
+      "ऑलिगोडेंड्रोसाइट तथा ऑस्टियोक्लास्ट",
+      "ऑस्टियोक्लास्ट तथा एस्ट्रोसाइट"
+     ],
+     "sol": "<p>NCERT 18.3: आच्छदी तंत्रिका तंतु <b>श्वान कोशिकाओं</b> से ढके रहते हैं, जो तंत्रिकाक्ष के चारों ओर माइलिन आवरण बनाती हैं (परिधीय तंत्रिकाओं में)। मस्तिष्क तथा मेरुरज्जु में माइलिन <b>ऑलिगोडेंड्रोसाइट</b> बनाते हैं। एस्ट्रोसाइट माइलिन नहीं बनाते; ऑस्टियोक्लास्ट अस्थि कोशिकाएँ हैं।</p>",
+     "hint": "परिधीय (PNS): श्वान; केंद्रीय (CNS): ऑलिगोडेंड्रोसाइट।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -400,10 +484,22 @@
       "ligaments attached to the iris",
       "ligaments attached to the ciliary body",
       "smooth muscles attached to the ciliary body"
-     ]
+     ],
+     "sol": "<p>The lens is held in place by <b>ligaments (suspensory ligaments) attached to the ciliary body</b>. The ciliary muscles change lens curvature during accommodation. (Old NCERT 21.6.1; dropped from NEET 2024.)</p>",
+     "hint": "Suspensory ligaments."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव नेत्र में पारदर्शी लेंस अपने स्थान पर किसके द्वारा टिका रहता है?",
+     "o": [
+      "परितारिका से जुड़ी चिकनी पेशियाँ",
+      "परितारिका से जुड़े स्नायु",
+      "पक्ष्माभी काय से जुड़े स्नायु",
+      "पक्ष्माभी काय से जुड़ी चिकनी पेशियाँ"
+     ],
+     "sol": "<p>लेंस <b>पक्ष्माभी काय से जुड़े स्नायुओं (निलंबन स्नायु)</b> द्वारा अपने स्थान पर टिका रहता है। समंजन के दौरान पक्ष्माभी पेशियाँ लेंस की वक्रता बदलती हैं। (पुरानी NCERT 21.6.1; NEET 2024 से हटाया गया।)</p>",
+     "hint": "निलंबन स्नायु।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -445,10 +541,22 @@
       "Limbic system : consists of fibre tracts that interconnect different regions of brain; controls movement.",
       "Medulla oblongata : controls respiration and cardiovascular reflexes.",
       "Corpus callosum : band of fibers connecting left and right cerebral hemispheres."
-     ]
+     ],
+     "sol": "<p>NCERT 18.4.1, 18.4.3: hypothalamus — temperature, eating and drinking centres, neurosecretory cells (releasing hormones) — correct. Medulla — respiration and cardiovascular reflexes — correct. Corpus callosum — band of fibres joining the two cerebral hemispheres — correct. The <b>limbic system</b> with the hypothalamus regulates sexual behaviour and emotions; it is the <i>pons</i> that consists of fibre tracts interconnecting regions of the brain, and the cerebellum that coordinates movement. Option 2 is incorrectly paired.</p>",
+     "hint": "Limbic = emotions."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सी संरचना या क्षेत्र अपने कार्य के साथ गलत युग्मित है?",
+     "o": [
+      "हाइपोथेलेमस : मोचक हार्मोनों का उत्पादन तथा ताप, भूख और प्यास का नियमन।",
+      "लिंबिक तंत्र : मस्तिष्क के विभिन्न क्षेत्रों को जोड़ने वाले रेशेनुमा पथों से बना; गति का नियंत्रण।",
+      "मेड्यूला ओबलांगाटा : श्वसन तथा हृदय परिसंचारी प्रतिवर्तनों का नियंत्रण।",
+      "कार्पस कैलोसम : बाएँ तथा दाएँ प्रमस्तिष्क गोलार्द्धों को जोड़ने वाली तंतुओं की पट्टी।"
+     ],
+     "sol": "<p>NCERT 18.4.1, 18.4.3: हाइपोथेलेमस — ताप, खाने और पीने के केंद्र, तंत्रिका स्रावी कोशिकाएँ (मोचक हार्मोन) — सही। मध्यांश (मेड्यूला ओबलांगाटा) — श्वसन तथा हृदय परिसंचारी प्रतिवर्तन — सही। कार्पस कैलोसम — दोनों प्रमस्तिष्क गोलार्द्धों को जोड़ने वाली तंतुओं की पट्टी — सही। <b>लिंबिक तंत्र</b> हाइपोथेलेमस के साथ लैंगिक व्यवहार तथा मनोभावनाओं का नियंत्रण करता है; मस्तिष्क के विभिन्न भागों को जोड़ने वाले रेशेनुमा पथ <i>पोंस</i> के हैं, और गति का समन्वय अनुमस्तिष्क करता है। विकल्प 2 गलत युग्मित है।</p>",
+     "hint": "लिंबिक = मनोभाव।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -495,10 +603,22 @@
       "DNA and RNA",
       "Proteins and lipids",
       "Free ribosomes and RER"
-     ]
+     ],
+     "sol": "<p>NCERT 18.3: the cell body of a neuron contains granular bodies called Nissl's granules. These are clusters of <b>rough endoplasmic reticulum (RER) and free ribosomes</b> — sites of protein synthesis (composition beyond NCERT).</p>",
+     "hint": "Protein factories of the neuron."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निसल कण मुख्यतः किससे बने होते हैं?",
+     "o": [
+      "न्यूक्लिक अम्ल तथा SER",
+      "DNA तथा RNA",
+      "प्रोटीन तथा लिपिड",
+      "मुक्त राइबोसोम तथा RER"
+     ],
+     "sol": "<p>NCERT 18.3: न्यूरॉन के कोशिका काय में निसल कण नामक कणिकामय संरचनाएँ होती हैं। ये <b>खुरदरी अंतर्द्रव्यी जालिका (RER) तथा मुक्त राइबोसोम</b> के समूह हैं — प्रोटीन संश्लेषण के स्थल (संघटन NCERT से आगे)।</p>",
+     "hint": "न्यूरॉन के प्रोटीन कारखाने।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -541,10 +661,22 @@
       "Medulla oblongata",
       "Cerebrum",
       "Hypothalamus"
-     ]
+     ],
+     "sol": "<p>NCERT 18.4.1: the <b>hypothalamus</b> contains centres that control body temperature, eating and drinking.</p>",
+     "hint": "Body thermostat."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मस्तिष्क का कौन-सा भाग ताप नियमन के लिए उत्तरदायी है?",
+     "o": [
+      "कार्पस कैलोसम",
+      "मेड्यूला ओबलांगाटा",
+      "प्रमस्तिष्क",
+      "हाइपोथेलेमस"
+     ],
+     "sol": "<p>NCERT 18.4.1: <b>हाइपोथेलेमस</b> में कई केंद्र होते हैं जो शरीर के तापमान, खाने और पीने का नियंत्रण करते हैं।</p>",
+     "hint": "शरीर का तापस्थापी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -587,10 +719,22 @@
       "Cornea consists of dense matrix of collagen and is the most sensitive portion of the eye.",
       "Cornea is an external, transparent and protective proteinaceous covering of the eye-ball.",
       "Cornea consists of dense connective tissue of elastin and can repair itself."
-     ]
+     ],
+     "sol": "<p>The cornea is the transparent anterior part of the sclera, made of a dense matrix of collagen; it is avascular (so option 1 is wrong) and richly supplied with nerve endings — <b>the most sensitive part of the eye</b>. It is not a separate proteinaceous covering of the whole eyeball, and is collagen-based, not elastin. (Old NCERT; dropped from NEET 2024.)</p>",
+     "hint": "Cornea has no blood vessels."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन सही है?",
+     "o": [
+      "कॉर्निया उत्तल, पारदर्शी स्तर है जिसमें अत्यधिक रुधिर वाहिकाएँ होती हैं।",
+      "कॉर्निया कोलेजन के सघन आधात्री से बना है तथा नेत्र का सबसे संवेदनशील भाग है।",
+      "कॉर्निया नेत्र गोलक का बाहरी, पारदर्शी तथा सुरक्षात्मक प्रोटीनयुक्त आवरण है।",
+      "कॉर्निया इलास्टिन के सघन संयोजी ऊतक से बना है तथा स्वयं की मरम्मत कर सकता है।"
+     ],
+     "sol": "<p>कॉर्निया दृढ़ पटल का पारदर्शी अग्र भाग है, जो कोलेजन के सघन आधात्री से बना है; इसमें रुधिर वाहिकाएँ नहीं होतीं (अतः विकल्प 1 गलत) और तंत्रिका अंत बहुत होते हैं — <b>नेत्र का सबसे संवेदनशील भाग</b>। यह पूरे नेत्र गोलक का अलग प्रोटीनयुक्त आवरण नहीं है, और कोलेजन से बना है, इलास्टिन से नहीं। (पुरानी NCERT; NEET 2024 से हटाया गया।)</p>",
+     "hint": "कॉर्निया में रुधिर वाहिकाएँ नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -633,10 +777,22 @@
       "(a) i, (b) ii, (c) iv, (d) iii",
       "(a) ii, (b) iii, (c) i, (d) iv",
       "(a) iii, (b) i, (c) iv, (d) ii"
-     ]
+     ],
+     "sol": "<ul><li>(a) Organ of Corti — located on the basilar membrane (iv).</li><li>(b) Cochlea — coiled part of the labyrinth (ii).</li><li>(c) Eustachian tube — connects the middle ear with the pharynx (i).</li><li>(d) Stapes — attached to the oval window of the cochlea (iii).</li></ul><p>(a) iv, (b) ii, (c) i, (d) iii. (Ear: old NCERT 21.6.2; dropped from NEET 2024.)</p>",
+     "hint": "Stapes → oval window."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित स्तंभों का मिलान कीजिए तथा सही विकल्प चुनिए :<br>(a) कोर्टी का अंग — (i) मध्य कर्ण तथा ग्रसनी को जोड़ती है<br>(b) कर्णावर्त — (ii) लेबिरिंथ का कुंडलित भाग<br>(c) यूस्टेकियन नलिका — (iii) अंडाकार खिड़की से जुड़ी<br>(d) स्टेपीज — (iv) आधारस्थ झिल्ली पर स्थित",
+     "o": [
+      "(a) iv, (b) ii, (c) i, (d) iii",
+      "(a) i, (b) ii, (c) iv, (d) iii",
+      "(a) ii, (b) iii, (c) i, (d) iv",
+      "(a) iii, (b) i, (c) iv, (d) ii"
+     ],
+     "sol": "<ul><li>(a) कोर्टी का अंग — आधारस्थ झिल्ली पर स्थित (iv)।</li><li>(b) कर्णावर्त — लेबिरिंथ का कुंडलित भाग (ii)।</li><li>(c) यूस्टेकियन नलिका — मध्य कर्ण को ग्रसनी से जोड़ती है (i)।</li><li>(d) स्टेपीज — कर्णावर्त की अंडाकार खिड़की से जुड़ी (iii)।</li></ul><p>(a) iv, (b) ii, (c) i, (d) iii। (कर्ण: पुरानी NCERT 21.6.2; NEET 2024 से हटाया गया।)</p>",
+     "hint": "स्टेपीज → अंडाकार खिड़की।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -678,10 +834,22 @@
       "Chemical synapses use neurotransmitters",
       "Impulse transmission across a chemical synapse is always faster than that across an electrical synapse.",
       "The membranes of presynaptic and postsynaptic neurons are in close proximity in an electrical synapse."
-     ]
+     ],
+     "sol": "<p>NCERT 18.3.2: at an electrical synapse the pre- and post-synaptic membranes are very close and current flows directly across; impulse transmission across an <b>electrical synapse is faster</b> than across a chemical synapse. So option 3 (\"chemical is always faster\") is the incorrect statement.</p>",
+     "hint": "Electrical is faster."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सिनेप्सिस के संबंध में गलत कथन चुनिए :",
+     "o": [
+      "विद्युत सिनेप्स के पार एक न्यूरॉन से दूसरे न्यूरॉन में विद्युत धारा सीधे प्रवाहित हो सकती है।",
+      "रासायनिक सिनेप्स तंत्रिका संचारियों का उपयोग करते हैं।",
+      "रासायनिक सिनेप्स के पार आवेग का संचरण विद्युत सिनेप्स की अपेक्षा सदा अधिक तीव्र होता है।",
+      "विद्युत सिनेप्स में पूर्व तथा पश्च सिनेप्टिक न्यूरॉनों की झिल्लियाँ एक-दूसरे के बहुत समीप होती हैं।"
+     ],
+     "sol": "<p>NCERT 18.3.2: विद्युत सिनेप्स पर पूर्व तथा पश्च सिनेप्टिक झिल्लियाँ बहुत समीप होती हैं और धारा सीधे प्रवाहित होती है; <b>विद्युतीय सिनेप्सिस से आवेग का संचरण</b> रासायनिक सिनेप्सिस की तुलना में <b>अधिक तीव्र</b> होता है। अतः विकल्प 3 (\"रासायनिक सदा अधिक तीव्र\") गलत कथन है।</p>",
+     "hint": "विद्युत अधिक तीव्र।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -725,10 +893,22 @@
       "A-III, B-I, C-IV, D-II",
       "A-IV, B-III, C-II, D-I",
       "A-I, B-IV, C-III, D-II"
-     ]
+     ],
+     "sol": "<ul><li>(A) Fovea — point of greatest visual acuity (III).</li><li>(B) Iris — visible coloured portion that regulates the diameter of the pupil (I).</li><li>(C) Blind spot — where the optic nerve leaves the eyeball; no photoreceptors (IV).</li><li>(D) Sclera — external layer of dense connective tissue (II).</li></ul><p>A-III, B-I, C-IV, D-II. (Eye: old NCERT; dropped from NEET 2024.)</p>",
+     "hint": "Blind spot has no receptors."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव नेत्र के संदर्भ में सूची-I का सूची-II से मिलान कीजिए :<br>(A) फोविया — (I) नेत्र का दृश्य रंगीन भाग जो पुतली के व्यास का नियमन करता है<br>(B) परितारिका — (II) सघन संयोजी ऊतक से बना नेत्र का बाहरी स्तर<br>(C) अंध बिंदु — (III) सर्वाधिक दृष्टि तीक्ष्णता या विभेदन का बिंदु<br>(D) दृढ़ पटल — (IV) वह बिंदु जहाँ दृष्टि तंत्रिका नेत्र गोलक से निकलती है तथा प्रकाशग्राही कोशिकाएँ अनुपस्थित होती हैं",
+     "o": [
+      "A-II, B-I, C-III, D-IV",
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-III, C-II, D-I",
+      "A-I, B-IV, C-III, D-II"
+     ],
+     "sol": "<ul><li>(A) फोविया — सर्वाधिक दृष्टि तीक्ष्णता का बिंदु (III)।</li><li>(B) परितारिका — दृश्य रंगीन भाग जो पुतली के व्यास का नियमन करता है (I)।</li><li>(C) अंध बिंदु — जहाँ दृष्टि तंत्रिका नेत्र गोलक से निकलती है; प्रकाशग्राही नहीं (IV)।</li><li>(D) दृढ़ पटल — सघन संयोजी ऊतक का बाहरी स्तर (II)।</li></ul><p>A-III, B-I, C-IV, D-II। (नेत्र: पुरानी NCERT; NEET 2024 से हटाया गया।)</p>",
+     "hint": "अंध बिंदु पर ग्राही नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -770,10 +950,22 @@
       "Limbic system & hypothalamus",
       "Corpora quadrigemina & hippocampus",
       "Brain stem & epithalamus"
-     ]
+     ],
+     "sol": "<p>NCERT 18.4.1: the <b>limbic system</b>, along with the <b>hypothalamus</b>, is involved in regulating sexual behaviour and the expression of emotional reactions (excitement, pleasure, rage, fear).</p>",
+     "hint": "Emotional brain."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव मस्तिष्क के वे भाग जो लैंगिक व्यवहार, उत्तेजना, खुशी, गुस्सा, भय आदि की अभिव्यक्ति के नियमन में सहायता करते हैं :",
+     "o": [
+      "कार्पस कैलोसम तथा थेलेमस",
+      "लिंबिक तंत्र तथा हाइपोथेलेमस",
+      "कॉर्पोरा क्वाड्रीजेमीन तथा हिप्पोकैंपस",
+      "मस्तिष्क स्तंभ तथा अधिचेतक (epithalamus)"
+     ],
+     "sol": "<p>NCERT 18.4.1: <b>लिंबिक तंत्र</b>, <b>हाइपोथेलेमस</b> के साथ मिलकर लैंगिक व्यवहार तथा मनोभावनाओं की अभिव्यक्ति (उत्तेजना, खुशी, गुस्सा और भय) का नियंत्रण करता है।</p>",
+     "hint": "भावनात्मक मस्तिष्क।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -817,10 +1009,22 @@
       "Both Statement I and Statement II are incorrect.",
       "Statement I is correct but Statement II is incorrect.",
       "Statement I is incorrect but Statement II is correct."
-     ]
+     ],
+     "sol": "<p>Statement I is correct: NCERT 18.4.1 — the cerebral hemispheres are connected by a tract of nerve fibres, the corpus callosum. Statement II is incorrect: NCERT 18.4.3 — the brain stem consists of the <b>mid-brain</b>, pons and medulla oblongata, not the cerebrum.</p>",
+     "hint": "Cerebrum is forebrain."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I: प्रमस्तिष्क गोलार्द्ध कार्पस कैलोसम नामक तंत्रिका पथ द्वारा जुड़े होते हैं।<br>कथन II: मस्तिष्क स्तंभ मेड्यूला ओबलांगाटा, पोंस तथा प्रमस्तिष्क से बना होता है।<br>उपरोक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों सही हैं।",
+      "कथन I तथा कथन II दोनों गलत हैं।",
+      "कथन I सही है परंतु कथन II गलत है।",
+      "कथन I गलत है परंतु कथन II सही है।"
+     ],
+     "sol": "<p>कथन I सही है: NCERT 18.4.1 — प्रमस्तिष्क गोलार्द्ध तंत्रिका तंतुओं की पट्टी कार्पस कैलोसम द्वारा जुड़े होते हैं। कथन II गलत है: NCERT 18.4.3 — मस्तिष्क स्तंभ <b>मध्य मस्तिष्क</b>, पोंस तथा मेड्यूला ओबलांगाटा से बना होता है, प्रमस्तिष्क से नहीं।</p>",
+     "hint": "प्रमस्तिष्क अग्र मस्तिष्क है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -863,10 +1067,22 @@
       "A-II, B-III, C-I, D-IV",
       "A-I, B-III, C-II, D-IV",
       "A-III, B-I, C-II, D-IV"
-     ]
+     ],
+     "sol": "<ul><li>A. Pons — fibre tracts that connect different regions of the brain (III).</li><li>B. Hypothalamus — neurosecretory cells (IV).</li><li>C. Medulla — centres for respiration, cardiovascular reflexes and gastric secretions (II).</li><li>D. Cerebellum — convoluted surface gives additional space for neurons; posture and balance (I).</li></ul><p>A-III, B-IV, C-II, D-I (NCERT 18.4.1, 18.4.3).</p>",
+     "hint": "Pons = bridge."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. पोंस — I. न्यूरॉनों को अतिरिक्त स्थान प्रदान करता है, मुद्रा तथा संतुलन का नियमन करता है<br>B. हाइपोथेलेमस — II. श्वसन तथा जठर स्रावों का नियंत्रण करता है<br>C. मेड्यूला — III. मस्तिष्क के विभिन्न भागों को जोड़ता है<br>D. अनुमस्तिष्क — IV. तंत्रिका स्रावी कोशिकाएँ",
+     "o": [
+      "A-III, B-IV, C-II, D-I",
+      "A-II, B-III, C-I, D-IV",
+      "A-I, B-III, C-II, D-IV",
+      "A-III, B-I, C-II, D-IV"
+     ],
+     "sol": "<ul><li>A. पोंस — रेशेनुमा पथ जो मस्तिष्क के विभिन्न भागों को जोड़ते हैं (III)।</li><li>B. हाइपोथेलेमस — तंत्रिका स्रावी कोशिकाएँ (IV)।</li><li>C. मेड्यूला — श्वसन, हृदय परिसंचारी प्रतिवर्तन तथा पाचक रसों के स्राव के केंद्र (II)।</li><li>D. अनुमस्तिष्क — विलगित सतह न्यूरॉनों को अतिरिक्त स्थान देती है; मुद्रा तथा संतुलन (I)।</li></ul><p>A-III, B-IV, C-II, D-I (NCERT 18.4.1, 18.4.3)।</p>",
+     "hint": "पोंस = सेतु।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -910,10 +1126,22 @@
       "Post-synaptic membrane",
       "Myelin sheath",
       "Schwann cell"
-     ]
+     ],
+     "sol": "<p>NCERT 18.3.2: neurotransmitters bind to specific receptors present on the <b>post-synaptic membrane</b>.</p>",
+     "hint": "Same as NEET 2017 Q168."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सिनेप्स में तंत्रिका संचारियों के विशिष्ट ग्राही ___ पर उपस्थित होते हैं।",
+     "o": [
+      "पूर्व सिनेप्टिक झिल्ली",
+      "पश्च सिनेप्टिक झिल्ली",
+      "माइलिन आच्छद",
+      "श्वान कोशिका"
+     ],
+     "sol": "<p>NCERT 18.3.2: तंत्रिका संचारी <b>पश्च सिनेप्टिक झिल्ली</b> पर स्थित विशिष्ट ग्राहियों से जुड़ते हैं।</p>",
+     "hint": "NEET 2017 Q168 जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {

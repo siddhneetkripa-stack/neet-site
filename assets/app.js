@@ -384,9 +384,13 @@
       const excerpts = q => `<div class="excerpts">${(q.ncert || []).map(x => `<figure class="excerpt"><img src="assets/ncert/${chId}/${x.img}.webp" alt="NCERT excerpt, ${esc(x.label)}" loading="lazy"><figcaption><span>NCERT · ${esc(x.label)}</span><a href="${pdf(x.page)}" target="_blank" rel="noopener">${t('पृष्ठ', 'Open page')} ${x.page} ↗</a></figcaption></figure>`).join('')}</div>`;
 
       // Recent-trend markers per paragraph section, from PYQs only (NEET / JEE Main with a year).
+      // tools/build.py writes per-paragraph counts (P.trends) using the latest NEET year across all content;
+      // the in-browser count below is the fallback for data built without them.
       const neetYears = all.filter(q => q.exam === 'NEET' && q.year).map(q => +q.year);
-      const latest = neetYears.length ? Math.max(...neetYears) : 0;
+      const latest = P.latestNeet || (neetYears.length ? Math.max(...neetYears) : 0);
       const trend = sec => {
+        const T = (P.trends || {})[sec.sec];
+        if (P.trends) return T ? { neet: T.neet, last: T.last || 0, jee: T.jee, recent: !!T.recent } : { neet: 0, last: 0, jee: 0, recent: false };
         const qs = sec.questions, ny = qs.filter(q => q.exam === 'NEET' && q.year).map(q => +q.year), jee = qs.filter(q => q.exam === 'JEE Main').length;
         const last = ny.length ? Math.max(...ny) : 0;
         return { neet: ny.length, last, jee, recent: !!last && last >= latest - 2 };

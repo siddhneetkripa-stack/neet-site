@@ -26,10 +26,22 @@
       "Binary fission — Sargassum",
       "Conidia — Penicillium",
       "Offset — Water hyacinth"
-     ]
+     ],
+     "sol": "<p><i>Sargassum</i> is a brown alga; it does not reproduce by binary fission (seen in <i>Amoeba</i>, bacteria). The other pairs are correct: rhizome — banana, conidia — <i>Penicillium</i>, offset — water hyacinth. (Old NCERT chapter 'Reproduction in Organisms'.)</p>",
+     "hint": "Binary fission is for unicellular organisms."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा युग्म सही सुमेलित नहीं है?<br>जनन की विधि — उदाहरण",
+     "o": [
+      "प्रकंद (rhizome) — केला",
+      "द्विविखंडन — <i>Sargassum</i>",
+      "कोनिडिया — <i>Penicillium</i>",
+      "भूस्तारिका (offset) — वाटर हायसिंथ"
+     ],
+     "sol": "<p><i>Sargassum</i> एक भूरा शैवाल है; यह द्विविखंडन से जनन नहीं करता (यह <i>Amoeba</i>, जीवाणुओं में होता है)। अन्य युग्म सही हैं: प्रकंद — केला, कोनिडिया — <i>Penicillium</i>, भूस्तारिका — वाटर हायसिंथ। (पुरानी NCERT का अध्याय 'जीवों में जनन'।)</p>",
+     "hint": "द्विविखंडन एककोशिकीय जीवों में होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -71,10 +83,22 @@
       "Microscopic, motile asexual reproductive structures are called zoospores",
       "In potato, banana and ginger, the plantlets arise from the internodes present in the modified stem",
       "Water hyacinth, growing in the standing water, drains oxygen from water that leads to the death of fishes"
-     ]
+     ],
+     "sol": "<p>In potato, banana and ginger the plantlets arise from the <b>nodes</b> (buds/eyes) of the modified stem, not from internodes — statement 3 is not correct. Asexual offspring are clones; zoospores are microscopic motile asexual structures; water hyacinth drains oxygen from standing water and kills fish — all correct.</p>",
+     "hint": "Buds are at nodes."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन सही नहीं है?",
+     "o": [
+      "अलैंगिक जनन से उत्पन्न संतति क्लोन कहलाती है",
+      "सूक्ष्मदर्शीय, चलनशील अलैंगिक जनन संरचनाएँ चलबीजाणु कहलाती हैं",
+      "आलू, केला तथा अदरक में पादपक रूपांतरित तने के पर्वों से निकलते हैं",
+      "स्थिर जल में उगने वाली वाटर हायसिंथ जल से ऑक्सीजन खींच लेती है जिससे मछलियाँ मर जाती हैं"
+     ],
+     "sol": "<p>आलू, केला और अदरक में पादपक रूपांतरित तने की <b>पर्वसंधियों</b> (कलिकाओं/आँखों) से निकलते हैं, पर्वों से नहीं — कथन 3 सही नहीं है। अलैंगिक संतति क्लोन होती है; चलबीजाणु सूक्ष्म चलनशील अलैंगिक संरचनाएँ हैं; वाटर हायसिंथ स्थिर जल से ऑक्सीजन लेकर मछलियों को मार देती है — सब सही।</p>",
+     "hint": "कलिकाएँ पर्वसंधियों पर होती हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -116,10 +140,22 @@
       "Parthenogenesis",
       "Sexual reproduction",
       "Nucellar polyembryony"
-     ]
+     ],
+     "sol": "<p><b>Sexual reproduction</b> involves meiosis (crossing over, independent assortment) and fusion of gametes from two parents, so it produces new genetic combinations. Vegetative reproduction, parthenogenesis and nucellar polyembryony give offspring genetically like one parent.</p>",
+     "hint": "Two parents → new combinations."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा नए आनुवंशिक संयोजन उत्पन्न कर विविधता लाता है?",
+     "o": [
+      "कायिक जनन",
+      "अनिषेकजनन",
+      "लैंगिक जनन",
+      "बीजांडकायी बहुभ्रूणता"
+     ],
+     "sol": "<p><b>लैंगिक जनन</b> में अर्धसूत्री विभाजन (जीन विनिमय, स्वतंत्र अपव्यूहन) और दो जनकों के युग्मकों का संलयन होता है, अतः इससे नए आनुवंशिक संयोजन बनते हैं। कायिक जनन, अनिषेकजनन और बीजांडकायी बहुभ्रूणता से एक ही जनक जैसी संतति बनती है।</p>",
+     "hint": "दो जनक → नए संयोजन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -161,10 +197,22 @@
       "(a) ii, (b) i, (c) iv, (d) iii",
       "(a) i, (b) ii, (c) iv, (d) iii",
       "(a) iii, (b) i, (c) iv, (d) ii"
-     ]
+     ],
+     "sol": "<ul><li>(a) Pistils fused together — syncarpous (iii).</li><li>(b) Formation of gametes — gametogenesis (i).</li><li>(c) Hyphae of higher Ascomycetes — dikaryotic (iv).</li><li>(d) Unisexual female flower — pistillate (ii).</li></ul><p>(a) iii, (b) i, (c) iv, (d) ii.</p>",
+     "hint": "Syn = together."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I का स्तंभ II से मिलान कीजिए तथा नीचे दिए गए कोड से सही विकल्प चुनिए :<br>(a) आपस में जुड़े स्त्रीकेसर — (i) युग्मकजनन<br>(b) युग्मकों का निर्माण — (ii) स्त्रीकेसरी (pistillate)<br>(c) उच्च ऐस्कोमाइसिटीज के कवक तंतु (hyphae) — (iii) युक्तांडपी<br>(d) एकलिंगी मादा पुष्प — (iv) द्विकेंद्रकी",
+     "o": [
+      "(a) iv, (b) iii, (c) i, (d) ii",
+      "(a) ii, (b) i, (c) iv, (d) iii",
+      "(a) i, (b) ii, (c) iv, (d) iii",
+      "(a) iii, (b) i, (c) iv, (d) ii"
+     ],
+     "sol": "<ul><li>(a) आपस में जुड़े स्त्रीकेसर — युक्तांडपी (iii)।</li><li>(b) युग्मकों का निर्माण — युग्मकजनन (i)।</li><li>(c) उच्च ऐस्कोमाइसिटीज के कवक तंतु (hyphae) — द्विकेंद्रकी (iv)।</li><li>(d) एकलिंगी मादा पुष्प — स्त्रीकेसरी (ii)।</li></ul><p>(a) iii, (b) i, (c) iv, (d) ii।</p>",
+     "hint": "युक्त = जुड़े हुए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -209,10 +257,22 @@
       "Jackfruit",
       "Bamboo species",
       "Papaya"
-     ]
+     ],
+     "sol": "<p>Some <b>bamboo species</b> flower only once in their lifetime (generally after 50–100 years), produce large numbers of fruits and then die. Mango, jackfruit and papaya flower every year.</p>",
+     "hint": "Monocarpic perennial in NCERT."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन अपने जीवनकाल में केवल एक बार पुष्पन करता है?",
+     "o": [
+      "आम",
+      "कटहल",
+      "बाँस की जातियाँ",
+      "पपीता"
+     ],
+     "sol": "<p><b>बाँस की कुछ जातियाँ</b> अपने जीवनकाल में केवल एक बार (सामान्यतः 50–100 वर्ष बाद) पुष्पन करती हैं, बहुत अधिक फल बनाती हैं और फिर मर जाती हैं। आम, कटहल और पपीता हर वर्ष पुष्पन करते हैं।</p>",
+     "hint": "NCERT का एक बार पुष्पन वाला बहुवर्षी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -254,10 +314,22 @@
       "Mitotic divisions",
       "Meiotic divisions",
       "Parthenogenesis"
-     ]
+     ],
+     "sol": "<p>Offsets (e.g. in water hyacinth) are vegetative propagules; vegetative reproduction is asexual and involves only <b>mitotic divisions</b>, so offspring are clones of the parent.</p>",
+     "hint": "Vegetative = mitosis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "भूस्तारिकाएँ (offsets) किसके द्वारा बनती हैं?",
+     "o": [
+      "अनिषेकफलन",
+      "समसूत्री विभाजन",
+      "अर्धसूत्री विभाजन",
+      "अनिषेकजनन"
+     ],
+     "sol": "<p>भूस्तारिकाएँ (जैसे वाटर हायसिंथ में) कायिक प्रवर्ध्य हैं; कायिक जनन अलैंगिक है और इसमें केवल <b>समसूत्री विभाजन</b> होते हैं, अतः संतति जनक का क्लोन होती है।</p>",
+     "hint": "कायिक = समसूत्री।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -299,10 +371,22 @@
       "Parthenogenesis",
       "Autogamy",
       "Parthenocarpy"
-     ]
+     ],
+     "sol": "<p>Development of the female gamete into an embryo without fertilisation is <b>parthenogenesis</b> (e.g. in some plants, honeybees, rotifers). Parthenocarpy is formation of fruit without fertilisation.</p>",
+     "hint": "Partheno means virgin: an embryo without fertilisation."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "कुछ पादपों में मादा युग्मक बिना निषेचन के भ्रूण में विकसित हो जाता है। यह परिघटना कहलाती है :",
+     "o": [
+      "युग्मकसंलयन",
+      "अनिषेकजनन",
+      "स्वयुग्मन",
+      "अनिषेकफलन"
+     ],
+     "sol": "<p>बिना निषेचन के मादा युग्मक का भ्रूण में विकसित होना <b>अनिषेकजनन</b> है (जैसे कुछ पादपों, मधुमक्खियों, रोटिफर में)। अनिषेकफलन बिना निषेचन के फल का बनना है।</p>",
+     "hint": "अनिषेकजनन: बिना निषेचन के भ्रूण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -344,10 +428,22 @@
       "Carica papaya",
       "Chara",
       "Marchantia polymorpha"
-     ]
+     ],
+     "sol": "<p>A monoecious plant bears both male and female sex organs on the same plant. <b><i>Chara</i></b> has both the oogonium and the antheridium on the same plant. <i>Cycas</i>, <i>Carica papaya</i> and <i>Marchantia polymorpha</i> are dioecious.</p>",
+     "hint": "Chara's nucule and globule sit together."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा पादप उभयलिंगाश्रयी है?",
+     "o": [
+      "<i>Cycas circinalis</i>",
+      "<i>Carica papaya</i>",
+      "<i>Chara</i>",
+      "<i>Marchantia polymorpha</i>"
+     ],
+     "sol": "<p>उभयलिंगाश्रयी पादप एक ही पादप पर नर तथा मादा दोनों लिंग अंग धारण करता है। <b><i>Chara</i></b> में अंडधानी और पुंधानी एक ही पादप पर होती हैं। <i>Cycas</i>, <i>Carica papaya</i> और <i>Marchantia polymorpha</i> एकलिंगाश्रयी हैं।</p>",
+     "hint": "<i>Chara</i> में नूक्यूल और ग्लोब्यूल साथ होते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -377,5 +473,8 @@
     "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
    }
   }
- ]
+ ],
+ "paraTrends": {},
+ "latestNeet": 2026,
+ "recentYears": 3
 }

@@ -104,10 +104,22 @@
       "Semilunar valves close down after the blood flows into vessels from ventricles",
       "AV node receives signal from SA node",
       "AV valves open up"
-     ]
+     ],
+     "sol": "<p>NCERT 15.3.2: the first heart sound (lub) comes from closure of the tricuspid and bicuspid valves; the <b>second sound (dub) comes from closure of the semilunar valves</b> after blood has left the ventricles for the pulmonary artery and aorta.</p>",
+     "hint": "Dub = semilunar valves shut."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "चिकित्सक प्रत्येक हृद चक्र के दौरान उत्पन्न ध्वनियाँ सुनने के लिए स्टेथेस्कोप का उपयोग करते हैं। दूसरी ध्वनि तब सुनाई देती है जब :",
+     "o": [
+      "अलिंदों से रक्त के तेज़ी से आने से निलय भित्तियाँ कंपन करती हैं",
+      "निलयों से रक्त के वाहिकाओं में जाने के बाद अर्धचंद्र कपाट बंद होते हैं",
+      "AV पर्व को SA पर्व से संकेत मिलता है",
+      "AV कपाट खुलते हैं"
+     ],
+     "sol": "<p>NCERT 15.3.2: पहली हृदय ध्वनि (लब) त्रिवलनी तथा द्विवलनी कपाट के बंद होने से होती है; <b>दूसरी ध्वनि (डब) अर्धचंद्र कपाट के बंद होने से</b> होती है, जब रक्त निलयों से फुप्फुसीय धमनी तथा महाधमनी में जा चुका होता है।</p>",
+     "hint": "डब = अर्धचंद्र कपाट बंद।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -150,10 +162,22 @@
       "Haemocytes",
       "Serum globulins",
       "Fibrinogen in plasma"
-     ]
+     ],
+     "sol": "<p>NCERT 15.1.1: plasma proteins are fibrinogen (clotting), <b>globulins (defence mechanisms — antibodies)</b> and albumins (osmotic balance). Antibodies are immunoglobulins, so check the <b>serum globulins</b>.</p>",
+     "hint": "Antibodies are immunoglobulins."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि आपको किसी व्यक्ति में प्रतिरक्षियों की बड़ी कमी का संदेह हो, तो पुष्टि के प्रमाण के लिए आप निम्नलिखित में से किसकी जाँच करेंगे?",
+     "o": [
+      "सीरम एल्बूमिन",
+      "हीमोसाइट",
+      "सीरम ग्लोबुलिन",
+      "प्लाज्मा में फाइब्रिनोजन"
+     ],
+     "sol": "<p>NCERT 15.1.1: प्लाज्मा प्रोटीन फाइब्रिनोजन (स्कंदन), <b>ग्लोबुलिन (शरीर की रक्षा क्रिया — प्रतिरक्षी)</b> तथा एल्बूमिन (परासरणी संतुलन) हैं। प्रतिरक्षी इम्यूनोग्लोबुलिन होते हैं, अतः <b>सीरम ग्लोबुलिन</b> की जाँच कीजिए।</p>",
+     "hint": "प्रतिरक्षी इम्यूनोग्लोबुलिन हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -196,10 +220,22 @@
       "Whale",
       "Shark",
       "Frog"
-     ]
+     ],
+     "sol": "<p>NCERT 15.3: fishes have single circulation; amphibians (frog) and reptiles (lizard) have incomplete double circulation; birds and mammals have two separate pathways — double circulation. The <b>whale</b> is a mammal. The shark is a fish.</p>",
+     "hint": "Whale is a mammal."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से किस प्राणी में दो अलग-अलग परिसंचरण पथ होते हैं?",
+     "o": [
+      "छिपकली",
+      "व्हेल",
+      "शार्क",
+      "मेंढक"
+     ],
+     "sol": "<p>NCERT 15.3: मछलियों में एकल परिसंचरण; उभयचरों (मेंढक) तथा सरीसृपों (छिपकली) में अपूर्ण दोहरा परिसंचरण; पक्षियों तथा स्तनधारियों में दो अलग पथ — दोहरा परिसंचरण होता है। <b>व्हेल</b> स्तनधारी है। शार्क मछली है।</p>",
+     "hint": "व्हेल स्तनधारी है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -242,10 +278,22 @@
       "More than that in the carotid",
       "More than that in the pulmonary vein",
       "Less than that in the venae cavae"
-     ]
+     ],
+     "sol": "<p>The right ventricle pumps blood into the pulmonary artery at about 25/8 mm Hg — far below the aorta (about 120/80) and carotid, but <b>above the pulmonary vein</b>, which returns blood to the left atrium at only a few mm Hg. Blood flows from higher to lower pressure. (Pulmonary pressures are not given in NCERT.)</p>",
+     "hint": "Artery side is higher than vein side."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "फुप्फुसीय धमनी में रक्त दाब :",
+     "o": [
+      "महाधमनी के बराबर होता है",
+      "कैरोटिड से अधिक होता है",
+      "फुप्फुस शिरा से अधिक होता है",
+      "महाशिरा से कम होता है"
+     ],
+     "sol": "<p>दायाँ निलय रक्त को फुप्फुसीय धमनी में लगभग 25/8 mm Hg पर पंप करता है — महाधमनी (लगभग 120/80) तथा कैरोटिड से बहुत कम, परंतु <b>फुप्फुस शिरा से अधिक</b>, जो केवल कुछ mm Hg पर रक्त को बाएँ अलिंद में लौटाती है। रक्त अधिक दाब से कम दाब की ओर बहता है। (फुप्फुसीय दाब NCERT में नहीं दिए गए हैं।)</p>",
+     "hint": "धमनी पक्ष का दाब शिरा पक्ष से अधिक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -289,10 +337,22 @@
       "Leucocytes",
       "Neutrophils",
       "Thrombocytes"
-     ]
+     ],
+     "sol": "<p>NCERT 15.1.2: platelets (<b>thrombocytes</b>) release factors needed for clotting; a reduction in their number causes clotting disorders and excessive loss of blood.</p>",
+     "hint": "Platelets."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "उन रुधिर कोशिकाओं का नाम बताइए जिनकी संख्या में कमी से स्कंदन विकार होता है, जिससे शरीर से अधिक रक्त बह जाता है।",
+     "o": [
+      "इरिथ्रोसाइट",
+      "ल्युकोसाइट",
+      "न्यूट्रोफिल",
+      "थ्रोम्बोसाइट"
+     ],
+     "sol": "<p>NCERT 15.1.2: पट्टिकाणु (<b>थ्रोम्बोसाइट</b>) स्कंदन के लिए आवश्यक कारक स्रवित करते हैं; इनकी संख्या में कमी से स्कंदन में विकृति होती है तथा शरीर से अधिक रक्त बह जाता है।</p>",
+     "hint": "पट्टिकाणु (प्लेटलेट्स)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -335,10 +395,22 @@
       "Lacking albumins",
       "Lacking clotting factors",
       "Lacking antibodies"
-     ]
+     ],
+     "sol": "<p>NCERT 15.1.1: plasma without the clotting factors is called serum. So serum differs in <b>lacking clotting factors</b>; it still has albumins, globulins and antibodies. (Blood also has formed elements, but that is not an option.)</p>",
+     "hint": "Serum = plasma − clotting factors."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सीरम रक्त से किसमें भिन्न होता है?",
+     "o": [
+      "ग्लोबुलिन के अभाव में",
+      "एल्बूमिन के अभाव में",
+      "स्कंदन कारकों के अभाव में",
+      "प्रतिरक्षियों के अभाव में"
+     ],
+     "sol": "<p>NCERT 15.1.1: बिना स्कंदन कारकों के प्लाज्मा को सीरम कहते हैं। अतः सीरम <b>स्कंदन कारकों के अभाव</b> में भिन्न है; इसमें एल्बूमिन, ग्लोबुलिन तथा प्रतिरक्षी फिर भी रहते हैं। (रक्त में संगठित पदार्थ भी होते हैं, पर वह विकल्प में नहीं है।)</p>",
+     "hint": "सीरम = प्लाज्मा − स्कंदन कारक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -381,10 +453,22 @@
       "Only (a)",
       "(a), (c) and (d)",
       "(b) and (c)"
-     ]
+     ],
+     "sol": "<p>Losing the nucleus leaves more room for haemoglobin, so <b>all internal space is available for O<sub>2</sub> transport</b> — (d). RBCs do metabolise (glycolysis), so (c) is wrong; (a) and (b) are true of many cells but do not explain enucleation. Official answer: only (d).</p>",
+     "hint": "More space for haemoglobin."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वयस्क मनुष्य की RBC केंद्रकविहीन होती हैं। इस लक्षण की सबसे उपयुक्त व्याख्या निम्नलिखित में से कौन-सा/से कथन है/हैं?<br>(a) इन्हें प्रजनन की आवश्यकता नहीं होती<br>(b) ये कायिक कोशिकाएँ हैं<br>(c) इनमें उपापचय नहीं होता<br>(d) इनका सारा आंतरिक स्थान ऑक्सीजन परिवहन के लिए उपलब्ध रहता है",
+     "o": [
+      "केवल (d)",
+      "केवल (a)",
+      "(a), (c) तथा (d)",
+      "(b) तथा (c)"
+     ],
+     "sol": "<p>केंद्रक न होने से हीमोग्लोबिन के लिए अधिक स्थान मिलता है, अतः <b>सारा आंतरिक स्थान O<sub>2</sub> परिवहन के लिए उपलब्ध</b> रहता है — (d)। RBC में उपापचय (ग्लाइकोलिसिस) होता है, अतः (c) गलत है; (a) तथा (b) बहुत-सी कोशिकाओं पर लागू हैं पर केंद्रकविहीनता की व्याख्या नहीं करते। आधिकारिक उत्तर: केवल (d)।</p>",
+     "hint": "हीमोग्लोबिन के लिए अधिक स्थान।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -427,10 +511,22 @@
       "Stomach",
       "Kidneys",
       "Intestine"
-     ]
+     ],
+     "sol": "<p>NCERT 15.4: the hepatic portal vein carries blood from the <b>intestine</b> to the liver before it enters the systemic circulation.</p>",
+     "hint": "Absorbed food goes to liver first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यकृत निवाहिका शिरा यकृत में रक्त कहाँ से लाती है?",
+     "o": [
+      "हृदय",
+      "आमाशय",
+      "वृक्क",
+      "आंत्र"
+     ],
+     "sol": "<p>NCERT 15.4: यकृत निवाहिका शिरा रक्त को क्रमबद्ध परिसंचरण में पहुँचने से पहले <b>आंत्र</b> से यकृत तक पहुँचाती है।</p>",
+     "hint": "अवशोषित भोजन पहले यकृत में।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -473,10 +569,22 @@
       "Only (d)",
       "(a) & (b)",
       "(c) & (d)"
-     ]
+     ],
+     "sol": "<p>The heart keeps beating outside the body because its beat starts in its own nodal tissue: the heart is <b>myogenic</b> (c) and the nodal tissue is <b>autoexcitable</b> (d) (NCERT 15.3.1, 15.5). Being a poikilotherm or lacking coronary circulation does not explain this.</p>",
+     "hint": "Beat originates in the heart itself."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मेंढक का हृदय शरीर से बाहर निकालने पर भी कुछ समय तक धड़कता रहता है। निम्नलिखित कथनों में से सर्वोत्तम विकल्प चुनिए :<br>(a) मेंढक असमतापी है<br>(b) मेंढक में कोई हृद परिसंचरण नहीं होता<br>(c) हृदय \"पेशीजनक\" प्रकृति का है<br>(d) हृदय स्वउत्तेजनशील है",
+     "o": [
+      "केवल (c)",
+      "केवल (d)",
+      "(a) तथा (b)",
+      "(c) तथा (d)"
+     ],
+     "sol": "<p>हृदय शरीर के बाहर भी धड़कता है क्योंकि स्पंदन उसके अपने नोडल ऊतक से आरंभ होता है: हृदय <b>पेशीजनक</b> (c) है तथा नोडल ऊतक <b>स्वउत्तेजनशील</b> (d) है (NCERT 15.3.1, 15.5)। असमतापी होना या हृद परिसंचरण न होना इसकी व्याख्या नहीं करता।</p>",
+     "hint": "स्पंदन हृदय में ही उत्पन्न होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -522,10 +630,22 @@
       "(a) i, (b) iii, (c) ii",
       "(a) iii, (b) i, (c) ii",
       "(a) ii, (b) i, (c) iii"
-     ]
+     ],
+     "sol": "<p>NCERT 15.3.1: tricuspid valve — between right atrium and right ventricle (iii); bicuspid (mitral) valve — between left atrium and left ventricle (i); semilunar valve — at the opening of the right ventricle into the pulmonary artery (ii). (a) iii, (b) i, (c) ii.</p>",
+     "hint": "Tricuspid is on the right."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I के मदों का स्तंभ II के मदों से मिलान कीजिए तथा नीचे दिया गया सही विकल्प चुनिए :<br>(a) त्रिवलनी कपाट — (i) बाएँ अलिंद तथा बाएँ निलय के बीच<br>(b) द्विवलनी कपाट — (ii) दाएँ निलय तथा फुप्फुसीय धमनी के बीच<br>(c) अर्धचंद्र कपाट — (iii) दाएँ अलिंद तथा दाएँ निलय के बीच",
+     "o": [
+      "(a) i, (b) ii, (c) iii",
+      "(a) i, (b) iii, (c) ii",
+      "(a) iii, (b) i, (c) ii",
+      "(a) ii, (b) i, (c) iii"
+     ],
+     "sol": "<p>NCERT 15.3.1: त्रिवलनी कपाट — दाएँ अलिंद तथा दाएँ निलय के बीच (iii); द्विवलनी (मिट्रल) कपाट — बाएँ अलिंद तथा बाएँ निलय के बीच (i); अर्धचंद्र कपाट — दाएँ निलय के फुप्फुसीय धमनी में निकास द्वार पर (ii)। (a) iii, (b) i, (c) ii।</p>",
+     "hint": "त्रिवलनी दाईं ओर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -568,10 +688,22 @@
       "(a) i, (b) ii, (c) iii",
       "(a) iii, (b) ii, (c) i",
       "(a) ii, (b) iii, (c) i"
-     ]
+     ],
+     "sol": "<p>NCERT 15.1.1: fibrinogen — blood clotting (ii); globulins — defence mechanisms (iii); albumins — osmotic balance (i). (a) ii, (b) iii, (c) i.</p>",
+     "hint": "Albumin holds water in plasma."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I के मदों का स्तंभ II के मदों से मिलान कीजिए तथा नीचे दिया गया सही विकल्प चुनिए :<br>(a) फाइब्रिनोजन — (i) परासरणी संतुलन<br>(b) ग्लोबुलिन — (ii) रक्त स्कंदन<br>(c) एल्बूमिन — (iii) रक्षा क्रियाविधि",
+     "o": [
+      "(a) i, (b) iii, (c) ii",
+      "(a) i, (b) ii, (c) iii",
+      "(a) iii, (b) ii, (c) i",
+      "(a) ii, (b) iii, (c) i"
+     ],
+     "sol": "<p>NCERT 15.1.1: फाइब्रिनोजन — रक्त स्कंदन (ii); ग्लोबुलिन — शरीर की रक्षा क्रिया (iii); एल्बूमिन — परासरणी संतुलन (i)। (a) ii, (b) iii, (c) i।</p>",
+     "hint": "एल्बूमिन प्लाज्मा में जल रोकता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -614,10 +746,22 @@
       "125 beats per minute",
       "50 beats per minute",
       "75 beats per minute"
-     ]
+     ],
+     "sol": "<p>Stroke volume = end-diastolic volume − end-systolic volume = 100 − 50 = 50 mL. NCERT 15.3.2: cardiac output = stroke volume × heart rate, so heart rate = 5000 mL ÷ 50 mL = <b>100 beats per minute</b>.</p>",
+     "hint": "CO = SV × HR."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "यदि किसी व्यक्ति का हृद निकास 5 L हो, अनुशिथिलन के अंत में निलयों में रक्त का आयतन 100 mL तथा निलय प्रकुंचन के अंत में 50 mL हो, तो उसकी हृदय दर क्या होगी?",
+     "o": [
+      "100 स्पंदन प्रति मिनट",
+      "125 स्पंदन प्रति मिनट",
+      "50 स्पंदन प्रति मिनट",
+      "75 स्पंदन प्रति मिनट"
+     ],
+     "sol": "<p>प्रवाह आयतन = अनुशिथिलन के अंत का आयतन − प्रकुंचन के अंत का आयतन = 100 − 50 = 50 mL। NCERT 15.3.2: हृद निकास = प्रवाह आयतन × हृदय दर, अतः हृदय दर = 5000 mL ÷ 50 mL = <b>100 स्पंदन प्रति मिनट</b>।</p>",
+     "hint": "CO = SV × HR।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -661,10 +805,22 @@
       "(a) ii, (b) iii, (c) v, (d) iv",
       "(a) iv, (b) i, (c) ii, (d) iii",
       "(a) iv, (b) i, (c) ii, (d) v"
-     ]
+     ],
+     "sol": "<p>NCERT 15.3.3: P-wave — depolarisation of atria (iv); QRS complex — depolarisation of ventricles (i); T-wave — repolarisation of ventricles (ii). A reduced (flattened) T-wave indicates insufficient blood supply to the heart muscle — coronary ischaemia (iii). (a) iv, (b) i, (c) ii, (d) iii.</p>",
+     "hint": "Atrial repolarisation (v) is hidden in QRS — not used."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I का स्तंभ II से मिलान कीजिए :<br>(a) P-तरंग — (i) निलयों का विध्रुवण<br>(b) QRS सम्मिश्र — (ii) निलयों का पुनर्ध्रुवण<br>(c) T-तरंग — (iii) हृद-अरक्तता (coronary ischaemia)<br>(d) T-तरंग के आकार में कमी — (iv) अलिंदों का विध्रुवण<br>(v) अलिंदों का पुनर्ध्रुवण<br>सही विकल्प चुनिए।",
+     "o": [
+      "(a) ii, (b) i, (c) v, (d) iii",
+      "(a) ii, (b) iii, (c) v, (d) iv",
+      "(a) iv, (b) i, (c) ii, (d) iii",
+      "(a) iv, (b) i, (c) ii, (d) v"
+     ],
+     "sol": "<p>NCERT 15.3.3: P-तरंग — अलिंदों का विध्रुवण (iv); QRS सम्मिश्र — निलयों का विध्रुवण (i); T-तरंग — निलयों का पुनर्ध्रुवण (सामान्य अवस्था में वापसी) (ii)। T-तरंग का छोटा (चपटा) होना हृद पेशी को अपर्याप्त रक्त आपूर्ति — हृद-अरक्तता — दर्शाता है (iii)। (a) iv, (b) i, (c) ii, (d) iii।</p>",
+     "hint": "अलिंद पुनर्ध्रुवण (v) QRS में छिपा रहता है — उपयोग नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -707,10 +863,22 @@
       "Repolarisation of ventricles",
       "Repolarisation of auricles",
       "Depolarisation of auricles"
-     ]
+     ],
+     "sol": "<p>NCERT 15.3.3: the QRS complex represents <b>depolarisation of the ventricles</b>, which starts ventricular contraction.</p>",
+     "hint": "QRS → ventricular systole."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानक ECG में QRS सम्मिश्र क्या दर्शाता है?",
+     "o": [
+      "निलयों का विध्रुवण",
+      "निलयों का पुनर्ध्रुवण",
+      "अलिंदों का पुनर्ध्रुवण",
+      "अलिंदों का विध्रुवण"
+     ],
+     "sol": "<p>NCERT 15.3.3: QRS सम्मिश्र <b>निलयों के विध्रुवण</b> को दर्शाता है, जो निलय के संकुचन को शुरू करता है।</p>",
+     "hint": "QRS → निलय प्रकुंचन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -753,10 +921,22 @@
       "(a) ii, (b) i, (c) iii, (d) iv",
       "(a) iii, (b) iv, (c) ii, (d) i",
       "(a) iv, (b) i, (c) ii, (d) iii"
-     ]
+     ],
+     "sol": "<p>NCERT 15.1.2:</p><ul><li>(a) Eosinophils resist infections and are involved in allergic reactions — release histaminase and destructive enzymes (iii).</li><li>(b) Basophils secrete histamine, serotonin, heparin (iv).</li><li>(c) Neutrophils are phagocytic (ii).</li><li>(d) Lymphocytes (B and T) — immune response (i).</li></ul><p>(a) iii, (b) iv, (c) ii, (d) i.</p>",
+     "hint": "Histamine = basophils; histaminase = eosinophils."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित स्तंभों का मिलान कीजिए तथा सही विकल्प चुनिए :<br>(a) इओसिनोफिल — (i) प्रतिरक्षा अनुक्रिया<br>(b) बेसोफिल — (ii) भक्षकाणुक्रिया<br>(c) न्यूट्रोफिल — (iii) हिस्टामिनेज, विनाशक एंजाइम मुक्त करना<br>(d) लिंफोसाइट — (iv) हिस्टामिन युक्त कणिकाएँ मुक्त करना",
+     "o": [
+      "(a) i, (b) ii, (c) iv, (d) iii",
+      "(a) ii, (b) i, (c) iii, (d) iv",
+      "(a) iii, (b) iv, (c) ii, (d) i",
+      "(a) iv, (b) i, (c) ii, (d) iii"
+     ],
+     "sol": "<p>NCERT 15.1.2:</p><ul><li>(a) इओसिनोफिल संक्रमण से बचाव करती हैं तथा एलर्जी प्रतिक्रिया में सम्मिलित रहती हैं — हिस्टामिनेज तथा विनाशक एंजाइम मुक्त करती हैं (iii)।</li><li>(b) बेसोफिल हिस्टामिन, सिरोटोनिन, हिपैरिन का स्राव करती हैं (iv)।</li><li>(c) न्यूट्रोफिल भक्षण कोशिकाएँ हैं (ii)।</li><li>(d) लिंफोसाइट (B तथा T) — प्रतिरक्षा अनुक्रिया (i)।</li></ul><p>(a) iii, (b) iv, (c) ii, (d) i।</p>",
+     "hint": "हिस्टामिन = बेसोफिल; हिस्टामिनेज = इओसिनोफिल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -799,10 +979,22 @@
       "Absence of antigens A and B on the surface of RBCs",
       "Absence of antigens A and B in plasma",
       "Presence of antibodies, anti-A and anti-B, on RBCs"
-     ]
+     ],
+     "sol": "<p>NCERT Table 15.1: group AB has antigens A and B on RBCs but <b>no anti-A or anti-B antibodies in plasma</b>, so it does not agglutinate donor RBCs of any group — universal recipient.</p>",
+     "hint": "Recipient's plasma antibodies matter."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "'AB' रक्त समूह वाले व्यक्तियों को \"सर्व आदाता\" कहते हैं। इसका कारण है :",
+     "o": [
+      "प्लाज्मा में प्रतिरक्षी anti-A तथा anti-B का अभाव",
+      "RBC की सतह पर प्रतिजन A तथा B का अभाव",
+      "प्लाज्मा में प्रतिजन A तथा B का अभाव",
+      "RBC पर प्रतिरक्षी anti-A तथा anti-B की उपस्थिति"
+     ],
+     "sol": "<p>NCERT तालिका 15.1: AB समूह में RBC पर प्रतिजन A तथा B होते हैं, परंतु <b>प्लाज्मा में anti-A या anti-B प्रतिरक्षी नहीं</b> होते, अतः यह किसी भी समूह की दाता RBC का समूहन नहीं करता — सर्व आदाता।</p>",
+     "hint": "ग्राही के प्लाज्मा के प्रतिरक्षी महत्वपूर्ण हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -845,10 +1037,22 @@
       "Thrombin",
       "Renin",
       "Epinephrine"
-     ]
+     ],
+     "sol": "<p>NCERT 15.1.4: fibrins are formed from fibrinogen by the enzyme <b>thrombin</b>; thrombin itself is formed from inactive prothrombin by thrombokinase.</p>",
+     "hint": "Thrombokinase → thrombin → fibrin."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निष्क्रिय फाइब्रिनोजन को फाइब्रिन में बदलने के लिए कौन-सा एंजाइम उत्तरदायी है?",
+     "o": [
+      "थ्रोंबोकाइनेज",
+      "थ्रोम्बिन",
+      "रेनिन",
+      "एपिनेफ्रीन"
+     ],
+     "sol": "<p>NCERT 15.1.4: फाइब्रिन, एंजाइम <b>थ्रोम्बिन</b> की सहायता से फाइब्रिनोजन से बनती है; थ्रोम्बिन स्वयं निष्क्रिय प्रोथ्रोम्बिन से थ्रोंबोकाइनेज द्वारा बनता है।</p>",
+     "hint": "थ्रोंबोकाइनेज → थ्रोम्बिन → फाइब्रिन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -891,10 +1095,22 @@
       "Statement I is correct but Statement II is incorrect",
       "Statement I is incorrect but Statement II is correct",
       "Both Statement I and Statement II are correct"
-     ]
+     ],
+     "sol": "<p>Statement I is incorrect: NCERT 15.1.4 — the clot (coagulum) is a network of threads called <b>fibrins</b>, not thrombins. Statement II is correct: NCERT 15.1.2 — RBCs are destroyed in the spleen, the graveyard of RBCs.</p>",
+     "hint": "Threads = fibrin."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I: स्कंद (थक्का) थ्रोम्बिन नामक धागों के जाल से बनता है।<br>कथन II: प्लीहा इरिथ्रोसाइट का कब्रिस्तान है।<br>उपरोक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है",
+      "कथन I तथा कथन II दोनों सही हैं"
+     ],
+     "sol": "<p>कथन I गलत है: NCERT 15.1.4 — थक्का मुख्यतः <b>फाइब्रिन</b> धागों के जाल से बनता है, थ्रोम्बिन से नहीं। कथन II सही है: NCERT 15.1.2 — लाल रुधिर कणिकाओं (RBC) का विनाश प्लीहा (RBC का कब्रिस्तान) में होता है।</p>",
+     "hint": "धागे = फाइब्रिन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -938,10 +1154,22 @@
       "Blood moves freely from atrium to the ventricle during joint diastole.",
       "Increased ventricular pressure causes closing of the semilunar valves.",
       "The atrio-ventricular node (AVN) generates an action potential to stimulate atrial contraction"
-     ]
+     ],
+     "sol": "<p>NCERT 15.3.2:</p><ul><li>1 — wrong: the AV valves open when ventricular pressure falls below atrial pressure; atrial systole only adds about 30% more blood.</li><li>2 — <b>correct</b>: when all four chambers are relaxed (joint diastole), blood flows freely from the atria into the ventricles.</li><li>3 — wrong: rising ventricular pressure <i>opens</i> the semilunar valves; they close when it falls.</li><li>4 — wrong: the SAN generates the action potential that stimulates atrial contraction.</li></ul>",
+     "hint": "Joint diastole = filling."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन सही है?",
+     "o": [
+      "त्रिवलनी तथा द्विवलनी कपाट अलिंदों के एक साथ संकुचन से उत्पन्न दाब के कारण खुलते हैं",
+      "संयुक्त अनुशिथिलन के दौरान रक्त अलिंद से निलय में मुक्त रूप से जाता है।",
+      "निलय दाब बढ़ने से अर्धचंद्र कपाट बंद हो जाते हैं।",
+      "अलिंद निलय पर्व (AVN) अलिंद संकुचन को प्रेरित करने के लिए क्रियाविभव उत्पन्न करता है"
+     ],
+     "sol": "<p>NCERT 15.3.2:</p><ul><li>1 — गलत: AV कपाट तब खुलते हैं जब निलय दाब अलिंद दाब से कम हो जाता है; अलिंद प्रकुंचन से केवल लगभग 30% रक्त बढ़ता है।</li><li>2 — <b>सही</b>: जब चारों कक्ष शिथिल होते हैं (संयुक्त अनुशिथिलन), रक्त अलिंदों से निलयों में मुक्त रूप से जाता है।</li><li>3 — गलत: निलय दाब बढ़ने से अर्धचंद्र कपाट <i>खुलते</i> हैं; दाब कम होने पर बंद होते हैं।</li><li>4 — गलत: अलिंद संकुचन को प्रेरित करने वाला क्रियाविभव SAN (शिराअलिंदपर्व) उत्पन्न करता है।</li></ul>",
+     "hint": "संयुक्त अनुशिथिलन = भराव।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -985,10 +1213,22 @@
       "A-III, B-I, C-IV, D-II",
       "A-IV, B-III, C-II, D-I",
       "A-II, B-IV, C-I, D-III"
-     ]
+     ],
+     "sol": "<p>NCERT 15.3.3: P-wave — depolarisation of atria (III); the Q-wave marks the beginning of systole (I); QRS — depolarisation of ventricles (IV); T-wave — repolarisation of ventricles (II). A-III, B-I, C-IV, D-II.</p>",
+     "hint": "Contraction starts right after Q."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(A) P-तरंग — (I) प्रकुंचन की शुरुआत<br>(B) Q-तरंग — (II) निलयों का पुनर्ध्रुवण<br>(C) QRS सम्मिश्र — (III) अलिंदों का विध्रुवण<br>(D) T-तरंग — (IV) निलयों का विध्रुवण",
+     "o": [
+      "A-I, B-II, C-III, D-IV",
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-III, C-II, D-I",
+      "A-II, B-IV, C-I, D-III"
+     ],
+     "sol": "<p>NCERT 15.3.3: P-तरंग — अलिंदों का विध्रुवण (III); Q-तरंग प्रकुंचन की शुरुआत का द्योतक है (I); QRS — निलयों का विध्रुवण (IV); T-तरंग — निलयों का पुनर्ध्रुवण (II)। A-III, B-I, C-IV, D-II।</p>",
+     "hint": "संकुचन Q के तुरंत बाद शुरू।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1031,10 +1271,22 @@
       "D and E only",
       "C and E only",
       "B and C only"
-     ]
+     ],
+     "sol": "<p>NCERT 15.1.2:</p><ul><li>A — wrong: basophils are the <i>least</i> abundant WBCs (0.5–1%); neutrophils are the most.</li><li>B — correct: they secrete histamine, serotonin, heparin.</li><li>C — correct: they are involved in inflammatory reactions.</li><li>D — wrong: the kidney-shaped nucleus is a feature of monocytes.</li><li>E — wrong: basophils are granulocytes.</li></ul><p>B and C only.</p>",
+     "hint": "Basophils: fewest, granular, inflammatory."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से कथन सही हैं?<br>A. बेसोफिल कुल WBC में सबसे अधिक संख्या वाली कोशिकाएँ हैं।<br>B. बेसोफिल हिस्टामिन, सिरोटोनिन तथा हिपैरिन का स्राव करती हैं।<br>C. बेसोफिल शोथकारी क्रियाओं में सम्मिलित होती हैं।<br>D. बेसोफिल में वृक्काकार केंद्रक होता है।<br>E. बेसोफिल अकण कोशिकाएँ हैं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A तथा B",
+      "केवल D तथा E",
+      "केवल C तथा E",
+      "केवल B तथा C"
+     ],
+     "sol": "<p>NCERT 15.1.2:</p><ul><li>A — गलत: बेसोफिल WBC में संख्या में <i>सबसे कम</i> (0.5–1%) होती हैं; न्यूट्रोफिल सबसे अधिक।</li><li>B — सही: ये हिस्टामिन, सिरोटोनिन, हिपैरिन का स्राव करती हैं।</li><li>C — सही: ये शोथकारी क्रियाओं में सम्मिलित होती हैं।</li><li>D — गलत: वृक्काकार केंद्रक मोनोसाइट का लक्षण है।</li><li>E — गलत: बेसोफिल कणिकाणु हैं।</li></ul><p>केवल B तथा C।</p>",
+     "hint": "बेसोफिल: सबसे कम, कणिकामय, शोथकारी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1078,10 +1330,22 @@
       "A-II, B-III, C-I, D-IV",
       "A-IV, B-II, C-I, D-III",
       "A-I, B-III, C-IV, D-II"
-     ]
+     ],
+     "sol": "<p>NCERT 15.3.3: P-wave — atrial depolarisation (III); QRS — ventricular depolarisation (II); T-wave — ventricular repolarisation (IV); the T–P gap is the interval when the heart muscle is electrically silent (I). A-III, B-II, C-IV, D-I.</p>",
+     "hint": "Flat line between beats."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. P-तरंग — I. हृद पेशियाँ विद्युत रूप से निष्क्रिय रहती हैं<br>B. QRS सम्मिश्र — II. निलयों का विध्रुवण<br>C. T-तरंग — III. अलिंदों का विध्रुवण<br>D. T-P अंतराल — IV. निलयों का पुनर्ध्रुवण",
+     "o": [
+      "A-III, B-II, C-IV, D-I",
+      "A-II, B-III, C-I, D-IV",
+      "A-IV, B-II, C-I, D-III",
+      "A-I, B-III, C-IV, D-II"
+     ],
+     "sol": "<p>NCERT 15.3.3: P-तरंग — अलिंद विध्रुवण (III); QRS — निलय विध्रुवण (II); T-तरंग — निलय पुनर्ध्रुवण (IV); T–P अंतराल वह समय है जब हृद पेशी विद्युत रूप से निष्क्रिय रहती है (I)। A-III, B-II, C-IV, D-I।</p>",
+     "hint": "दो स्पंदनों के बीच सीधी रेखा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1125,10 +1389,22 @@
       "B − D − E − C − A",
       "E − A − D − B − C",
       "E − C − A − D − B"
-     ]
+     ],
+     "sol": "<p>NCERT 15.3.1: SA node (E) → AV node (C) → AV bundle (A) → right and left bundle branches (D) → Purkinje fibres (B). E − C − A − D − B.</p>",
+     "hint": "Pacemaker first, Purkinje last."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हृदय में क्रियाविभव के संचालन पथ के चरण निम्नलिखित हैं :<br>A. AV बंडल<br>B. पुरकिंजे तंतु<br>C. AV पर्व<br>D. बंडल शाखाएँ<br>E. SA पर्व<br>नीचे दिए गए विकल्पों में से पथ का सही क्रम चुनिए :",
+     "o": [
+      "A − E − C − B − D",
+      "B − D − E − C − A",
+      "E − A − D − B − C",
+      "E − C − A − D − B"
+     ],
+     "sol": "<p>NCERT 15.3.1: SA पर्व (E) → AV पर्व (C) → AV बंडल (A) → दाईं तथा बाईं बंडल शाखाएँ (D) → पुरकिंजे तंतु (B)। E − C − A − D − B।</p>",
+     "hint": "पहले गतिप्रेरक, अंत में पुरकिंजे।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1171,10 +1447,22 @@
       "A, B, C and D",
       "A, C and D Only",
       "A, B and D Only"
-     ]
+     ],
+     "sol": "<p>NCERT 15.5: the heart is auto-regulated by nodal tissue (A); a special neural centre in the medulla oblongata moderates it through autonomic nerves (B); and adrenal medullary hormones increase cardiac output (C). Adrenal cortical hormones are not named as regulators. A, B and C only.</p>",
+     "hint": "Medulla, not cortex."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हृदय की हृद क्रियाओं का नियमन किसके द्वारा होता है :<br>A. नोडल ऊतक<br>B. मेड्यूला ओबलांगाटा का एक विशेष तंत्रिका केंद्र<br>C. अधिवृक्क अंतस्था के हार्मोन<br>D. अधिवृक्क वल्कुट के हार्मोन<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A, B तथा C",
+      "A, B, C तथा D",
+      "केवल A, C तथा D",
+      "केवल A, B तथा D"
+     ],
+     "sol": "<p>NCERT 15.5: हृदय नोडल ऊतक द्वारा स्वनियमित होता है (A); मेड्यूला ओबलांगाटा का विशेष तंत्रिका केंद्र स्वायत्त तंत्रिका द्वारा इसकी क्रियाओं को संयमित करता है (B); तथा अधिवृक्क अंतस्था के हार्मोन हृद निकास बढ़ाते हैं (C)। अधिवृक्क वल्कुट के हार्मोन नियामक के रूप में नहीं बताए गए। केवल A, B तथा C।</p>",
+     "hint": "अंतस्था, वल्कुट नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1217,10 +1505,22 @@
       "300 – 500/cu.mm and 1200 – 1500/cu.mm, respectively",
       "100 – 120/cu.mm and 160 – 200/cu.mm, respectively",
       "160 – 240/cu.mm and 1600 – 2000/cu.mm, respectively"
-     ]
+     ],
+     "sol": "<p>NCERT 15.1.2: eosinophils are 2–3% and lymphocytes 20–25% of WBCs.</p><ul><li>Eosinophils: 2% × 8000 = 160; 3% × 8000 = 240 → 160–240/cu.mm.</li><li>Lymphocytes: 20% × 8000 = 1600; 25% × 8000 = 2000 → 1600–2000/cu.mm.</li></ul>",
+     "hint": "Use NCERT percentages."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "किसी व्यक्ति के रक्त नमूने में WBC की संख्या 8000/cu.mm है। उसी रक्त नमूने में लगभग कितनी इओसिनोफिल तथा लिंफोसाइट होंगी?",
+     "o": [
+      "क्रमशः 300 – 500/cu.mm तथा 500 – 700/cu.mm",
+      "क्रमशः 300 – 500/cu.mm तथा 1200 – 1500/cu.mm",
+      "क्रमशः 100 – 120/cu.mm तथा 160 – 200/cu.mm",
+      "क्रमशः 160 – 240/cu.mm तथा 1600 – 2000/cu.mm"
+     ],
+     "sol": "<p>NCERT 15.1.2: इओसिनोफिल WBC की 2–3% तथा लिंफोसाइट 20–25% होती हैं।</p><ul><li>इओसिनोफिल: 2% × 8000 = 160; 3% × 8000 = 240 → 160–240/cu.mm।</li><li>लिंफोसाइट: 20% × 8000 = 1600; 25% × 8000 = 2000 → 1600–2000/cu.mm।</li></ul>",
+     "hint": "NCERT के प्रतिशत लगाइए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1264,10 +1564,22 @@
       "C and D",
       "A and E",
       "B and C"
-     ]
+     ],
+     "sol": "<p>NCERT 15.1.3:</p><ul><li>A — incorrect: erythroblastosis foetalis occurs when the <i>mother is Rh −ve and the foetus Rh +ve</i>, not the reverse.</li><li>B — correct: Rh antigen is found in nearly 80% of humans.</li><li>C — correct: Rh group should also be matched before transfusion.</li><li>D — correct.</li><li>E — incorrect: anti-Rh antibodies are given to the mother immediately after the delivery of the <i>first</i> child.</li></ul><p>Incorrect: A and E.</p>",
+     "hint": "First child, Rh −ve mother."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "Rh समूहीकरण के संदर्भ में गलत कथन चुनिए :<br>A. इरिथ्रोब्लास्टोसिस फिटैलिस वह स्थिति है जिसमें भ्रूण Rh −ve तथा माता Rh +ve रक्त वाली होती है।<br>B. अधिकांश मनुष्यों की RBC पर Rh प्रतिजन पाया जाता है।<br>C. रक्ताधान से पहले Rh समूह का भी मिलान करना चाहिए।<br>D. Rh असंगतता तब देखी जाती है जब गर्भवती माता Rh −ve तथा भ्रूण Rh +ve हो।<br>E. दूसरे शिशु के प्रसव के तुरंत बाद माता को anti-Rh प्रतिरक्षी देकर इरिथ्रोब्लास्टोसिस फिटैलिस से बचा जा सकता है।<br>नीचे दिए गए विकल्पों में से उत्तर चुनिए :",
+     "o": [
+      "A तथा B",
+      "C तथा D",
+      "A तथा E",
+      "B तथा C"
+     ],
+     "sol": "<p>NCERT 15.1.3:</p><ul><li>A — गलत: इरिथ्रोब्लास्टोसिस फिटैलिस (गर्भ रक्ताणु कोरकता) तब होती है जब <i>माता Rh −ve तथा भ्रूण Rh +ve</i> हो, उलटा नहीं।</li><li>B — सही: Rh प्रतिजन लगभग 80% मनुष्यों में पाया जाता है।</li><li>C — सही: रक्ताधान से पहले Rh समूह का भी मिलान करना चाहिए।</li><li>D — सही।</li><li>E — गलत: anti-Rh प्रतिरक्षी <i>पहले</i> शिशु के प्रसव के तुरंत बाद माता को दिए जाते हैं।</li></ul><p>गलत: A तथा E।</p>",
+     "hint": "पहला शिशु, Rh −ve माता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1299,5 +1611,116 @@
     "note": "Code 13 booklet Q175."
    }
   }
- ]
+ ],
+ "paraTrends": {
+  "15.3.2": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2022,
+    2019,
+    2015
+   ],
+   "last": 2022,
+   "recent": false
+  },
+  "15.1.1": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2018,
+    2016,
+    2015
+   ],
+   "last": 2018,
+   "recent": false
+  },
+  "15.3": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2015
+   ],
+   "last": 2015,
+   "recent": false
+  },
+  "15.3.1": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2024,
+    2018,
+    2016
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "15.1.2": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2026,
+    2023,
+    2022,
+    2020,
+    2017,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "15.4": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2017
+   ],
+   "last": 2017,
+   "recent": false
+  },
+  "15.5": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2025,
+    2017
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "15.3.3": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2024,
+    2023,
+    2020,
+    2019
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "15.1.3": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2026,
+    2021
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "15.1.4": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2022,
+    2021
+   ],
+   "last": 2022,
+   "recent": false
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3
 }

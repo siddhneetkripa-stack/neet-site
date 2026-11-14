@@ -95,10 +95,22 @@
       "Selectable markers",
       "Ligases",
       "Restriction enzymes"
-     ]
+     ],
+     "sol": "<p>Cutting DNA at specific locations became possible with the discovery of <b>restriction enzymes</b> ('molecular scissors'), which recognise specific sequences. Ligases join DNA; probes and markers are used for detection and selection.</p>",
+     "hint": "Molecular scissors."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA को विशिष्ट स्थानों पर काटना किसकी खोज से संभव हुआ?",
+     "o": [
+      "प्रोब (probes)",
+      "वरणयोग्य चिह्नक",
+      "लाइगेज",
+      "प्रतिबंधन एंजाइम"
+     ],
+     "sol": "<p>DNA को विशिष्ट स्थानों पर काटना <b>प्रतिबंधन एंजाइमों</b> ('आणविक कैंची') की खोज से संभव हुआ, जो विशिष्ट अनुक्रम पहचानते हैं। लाइगेज DNA जोड़ते हैं; प्रोब और चिह्नक पहचान तथा वरण में काम आते हैं।</p>",
+     "hint": "आणविक कैंची।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -141,10 +153,22 @@
       "Template",
       "Carrier",
       "Transformer"
-     ]
+     ],
+     "sol": "<p>The DNA molecule (e.g. a plasmid or phage) into which the gene of interest is inserted and which carries it into the host for cloning is the <b>vector</b>.</p>",
+     "hint": "The carrier used for cloning has a specific name."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "क्लोनिंग के लिए जिस DNA अणु में उपयोगी जीन को जोड़ा जाता है, उसे क्या कहते हैं?",
+     "o": [
+      "संवाहक",
+      "टेम्पलेट",
+      "वाहक (carrier)",
+      "रूपांतरक (transformer)"
+     ],
+     "sol": "<p>वह DNA अणु (जैसे प्लाज्मिड या जीवाणुभोजी) जिसमें उपयोगी जीन जोड़ा जाता है और जो उसे क्लोनिंग के लिए परपोषी में ले जाता है, <b>संवाहक</b> कहलाता है।</p>",
+     "hint": "क्लोनिंग में प्रयुक्त ले जाने वाले अणु का विशेष नाम है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -187,10 +211,22 @@
       "Exposing the plants to cold for a brief period",
       "Allowing the plant roots to stand in water",
       "Infection of the plant by Agrobacterium tumefaciens"
-     ]
+     ],
+     "sol": "<p><i>Agrobacterium tumefaciens</i> naturally transfers a piece of DNA (T-DNA) from its Ti plasmid into dicot plant cells. So T-DNA is introduced by <b>infecting the plant with <i>Agrobacterium tumefaciens</i></b>; the Ti plasmid has been modified into a non-pathogenic cloning vector.</p>",
+     "hint": "Nature's genetic engineer of plants."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पादपों में T-DNA के प्रवेश में क्या होता है?",
+     "o": [
+      "मृदा का pH बदलना, फिर पादपों को ऊष्मा-आघात देना",
+      "पादपों को थोड़े समय के लिए ठंड में रखना",
+      "पादप की जड़ों को जल में रखना",
+      "<i>Agrobacterium tumefaciens</i> द्वारा पादप का संक्रमण"
+     ],
+     "sol": "<p><i>Agrobacterium tumefaciens</i> प्राकृतिक रूप से अपने Ti प्लाज्मिड से DNA का एक खंड (T-DNA) द्विबीजपत्री पादप कोशिकाओं में स्थानांतरित करता है। अतः T-DNA का प्रवेश <b>पादप के <i>Agrobacterium tumefaciens</i> द्वारा संक्रमण</b> से होता है; Ti प्लाज्मिड को अब अरोगजनक क्लोनिंग संवाहक में रूपांतरित कर दिया गया है।</p>",
+     "hint": "पादपों का प्राकृतिक आनुवंशिक इंजीनियर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -234,10 +270,22 @@
       "Circular structure",
       "Transferable",
       "Single – stranded"
-     ]
+     ],
+     "sol": "<p>Plasmids are extrachromosomal, <b>circular, double-stranded</b> DNA molecules that replicate independently of the chromosome and can be transferred between bacteria. They are not single-stranded.</p>",
+     "hint": "Plasmid DNA is ds and circular."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा प्लाज्मिडों का लक्षण नहीं है?",
+     "o": [
+      "स्वतंत्र प्रतिकृतियन",
+      "वृत्ताकार संरचना",
+      "स्थानांतरणीय",
+      "एकल – रज्जुकी"
+     ],
+     "sol": "<p>प्लाज्मिड गुणसूत्र-बाह्य, <b>वृत्ताकार, द्विरज्जुकी</b> DNA अणु हैं जो गुणसूत्र से स्वतंत्र रूप से प्रतिकृति करते हैं और जीवाणुओं के बीच स्थानांतरित हो सकते हैं। ये एकल-रज्जुकी नहीं होते।</p>",
+     "hint": "प्लाज्मिड DNA द्विरज्जुकी तथा वृत्ताकार है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -280,10 +328,22 @@
       "Thiobacillus ferroxidans",
       "Bacillus subtilis",
       "Pseudomonas putida"
-     ]
+     ],
+     "sol": "<p>Taq polymerase is a thermostable DNA polymerase isolated from the bacterium <b><i>Thermus aquaticus</i></b>; it stays active during the high-temperature denaturation step of PCR.</p>",
+     "hint": "Taq = T. aq."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "Taq पॉलिमरेज एंजाइम किससे प्राप्त होता है?",
+     "o": [
+      "<i>Thermus aquaticus</i>",
+      "<i>Thiobacillus ferroxidans</i>",
+      "<i>Bacillus subtilis</i>",
+      "<i>Pseudomonas putida</i>"
+     ],
+     "sol": "<p>Taq पॉलिमरेज जीवाणु <b><i>Thermus aquaticus</i></b> से पृथक किया गया तापस्थायी DNA पॉलिमरेज है; यह PCR के उच्च ताप वाले विकृतीकरण चरण में भी सक्रिय रहता है।</p>",
+     "hint": "Taq = <i>T. aq</i>uaticus।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -326,10 +386,22 @@
       "Protease",
       "DNase I",
       "RNase"
-     ]
+     ],
+     "sol": "<p><b>Hind II</b> was the first restriction endonuclease isolated; it cuts DNA at a specific 6 bp recognition sequence. Protease digests proteins, and DNase I and RNase are non-specific nucleases.</p>",
+     "hint": "Named after Haemophilus influenzae."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा प्रतिबंधन एंडोन्यूक्लिएज है?",
+     "o": [
+      "Hind II",
+      "प्रोटिएज",
+      "DNase I",
+      "RNase"
+     ],
+     "sol": "<p><b>Hind II</b> पृथक किया गया पहला प्रतिबंधन एंडोन्यूक्लिएज है; यह DNA को 6 bp के विशिष्ट पहचान अनुक्रम पर काटता है। प्रोटिएज प्रोटीन पचाता है, तथा DNase I और RNase अविशिष्ट न्यूक्लिएज हैं।</p>",
+     "hint": "<i>Haemophilus influenzae</i> के नाम पर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -372,10 +444,22 @@
       "Addition of preservatives to the product",
       "Availability of oxygen throughout the process",
       "Ensuring anaerobic conditions in the culture vessel"
-     ]
+     ],
+     "sol": "<p>In a stirred-tank bioreactor the stirrer mixes the contents evenly and ensures <b>oxygen availability throughout</b> the reactor. Purification is downstream processing; these reactors are aerobic, not anaerobic.</p>",
+     "hint": "The stirrer spreads oxygen."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "विलोडक-टंकी बायोरिएक्टर किसके लिए बनाए गए हैं?",
+     "o": [
+      "उत्पाद का शोधन",
+      "उत्पाद में परिरक्षक मिलाना",
+      "पूरे प्रक्रम में ऑक्सीजन की उपलब्धता",
+      "संवर्धन पात्र में अवायवीय दशाएँ सुनिश्चित करना"
+     ],
+     "sol": "<p>विलोडक-टंकी बायोरिएक्टर में विलोडक अंतर्वस्तु को समान रूप से मिलाता है और पूरे रिएक्टर में <b>ऑक्सीजन की उपलब्धता</b> सुनिश्चित करता है। शोधन अनुप्रवाह संसाधन है; ये रिएक्टर वायवीय हैं, अवायवीय नहीं।</p>",
+     "hint": "विलोडक ऑक्सीजन फैलाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -418,10 +502,22 @@
       "Taq polymerase",
       "Polymerase III",
       "Ligase"
-     ]
+     ],
+     "sol": "<p>When the same restriction enzyme cuts both the foreign DNA and the plasmid, both get the same sticky ends; <b>DNA ligase</b> then joins them into a recombinant plasmid. EcoRI cuts, Taq polymerase and polymerase III synthesise DNA.</p>",
+     "hint": "Molecular glue."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एक ही प्रतिबंधन एंडोन्यूक्लिएज द्वारा काटे गए विजातीय DNA तथा प्लाज्मिड को पुनर्योगज प्लाज्मिड बनाने के लिए किसके द्वारा जोड़ा जा सकता है?",
+     "o": [
+      "EcoRI",
+      "Taq पॉलिमरेज",
+      "पॉलिमरेज III",
+      "लाइगेज"
+     ],
+     "sol": "<p>जब एक ही प्रतिबंधन एंजाइम विजातीय DNA और प्लाज्मिड दोनों को काटता है, तो दोनों में एक जैसे चिपचिपे छोर बनते हैं; फिर <b>DNA लाइगेज</b> उन्हें जोड़कर पुनर्योगज प्लाज्मिड बनाता है। EcoRI काटता है, Taq पॉलिमरेज तथा पॉलिमरेज III DNA संश्लेषित करते हैं।</p>",
+     "hint": "आणविक गोंद।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -464,10 +560,22 @@
       "Purification",
       "Preservation",
       "Expression"
-     ]
+     ],
+     "sol": "<p>Downstream processing comes after the product is made: <b>separation, purification</b> and formulation with suitable <b>preservatives</b>, plus quality testing. Expression of the gene happens in the bioreactor (upstream), so it is not part of downstream processing.</p>",
+     "hint": "Downstream = after biosynthesis."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा अनुप्रवाह संसाधन का घटक नहीं है?",
+     "o": [
+      "पृथक्करण",
+      "शोधन",
+      "परिरक्षण",
+      "अभिव्यक्ति"
+     ],
+     "sol": "<p>अनुप्रवाह संसाधन उत्पाद बनने के बाद होता है: <b>पृथक्करण, शोधन</b> तथा उपयुक्त <b>परिरक्षकों</b> के साथ संरूपण, और गुणवत्ता परीक्षण। जीन की अभिव्यक्ति बायोरिएक्टर में (पहले) होती है, अतः यह अनुप्रवाह संसाधन का भाग नहीं है।</p>",
+     "hint": "अनुप्रवाह = जैव संश्लेषण के बाद।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -510,10 +618,22 @@
       "EcoRV",
       "Xho I",
       "Hind III"
-     ]
+     ],
+     "sol": "<p><b>EcoRV</b> cuts both strands at the same point in the middle of its site (GAT↓ATC), giving blunt ends. Sal I, Xho I and Hind III cut off-centre and give sticky ends. (Blunt-end cutters are beyond NCERT.)</p>",
+     "hint": "Cut in the exact centre = blunt."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा प्रतिबंधन एंजाइम कुंद (blunt) छोर बनाता है?",
+     "o": [
+      "Sal I",
+      "EcoRV",
+      "Xho I",
+      "Hind III"
+     ],
+     "sol": "<p><b>EcoRV</b> अपने स्थल के ठीक मध्य में दोनों रज्जुकों को एक ही बिंदु पर काटता है (GAT↓ATC), जिससे कुंद छोर बनते हैं। Sal I, Xho I तथा Hind III मध्य से हटकर काटते हैं और चिपचिपे छोर बनाते हैं। (कुंद छोर काटने वाले एंजाइम NCERT से बाहर हैं।)</p>",
+     "hint": "ठीक मध्य में कटाव = कुंद।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -557,10 +677,22 @@
       "The smaller the fragment size, the farther it moves",
       "Positively charged fragments move to farther end",
       "Negatively charged fragments do not move"
-     ]
+     ],
+     "sol": "<p>In agarose gel electrophoresis DNA moves towards the anode through the sieving gel; fragments separate by size, and <b>the smaller the fragment, the farther it moves</b>. All DNA fragments are negatively charged.</p>",
+     "hint": "Small pieces slip through the gel faster."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जेल वैद्युत कण संचलन के दौरान ऐगारोज जेल पर DNA खंडों की गति का आधार क्या है?",
+     "o": [
+      "खंड जितना बड़ा, वह उतना दूर जाता है",
+      "खंड जितना छोटा, वह उतना दूर जाता है",
+      "धनावेशित खंड अधिक दूर जाते हैं",
+      "ऋणावेशित खंड गति नहीं करते"
+     ],
+     "sol": "<p>ऐगारोज जेल वैद्युत कण संचलन में DNA छलनी जैसी जेल से होकर एनोड की ओर जाता है; खंड आकार के अनुसार अलग होते हैं, और <b>खंड जितना छोटा, वह उतना दूर जाता है</b>। सभी DNA खंड ऋणात्मक आवेशित होते हैं।</p>",
+     "hint": "छोटे टुकड़े जेल से जल्दी निकलते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -603,10 +735,22 @@
       "Downstream processing",
       "Bioprocessing",
       "Postproduction processing"
-     ]
+     ],
+     "sol": "<p>After biosynthesis, the product undergoes separation and purification (and formulation, quality testing) before marketing — together called <b>downstream processing</b>.</p>",
+     "hint": "The step after the bioreactor."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "विपणन से पहले अभिव्यक्त प्रोटीन के पृथक्करण तथा शोधन की प्रक्रिया क्या कहलाती है?",
+     "o": [
+      "उपरिप्रवाह संसाधन",
+      "अनुप्रवाह संसाधन",
+      "जैव संसाधन",
+      "उत्पादन-पश्च संसाधन"
+     ],
+     "sol": "<p>जैव संश्लेषण के बाद उत्पाद का विपणन से पहले पृथक्करण और शोधन (तथा संरूपण, गुणवत्ता परीक्षण) होता है — इन्हें मिलाकर <b>अनुप्रवाह संसाधन</b> कहते हैं।</p>",
+     "hint": "बायोरिएक्टर के बाद का चरण।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -649,10 +793,22 @@
       "Negatively charged",
       "Neutral",
       "Either positively or negatively charged depending on their size"
-     ]
+     ],
+     "sol": "<p>DNA has a phosphate in every nucleotide, so DNA fragments are <b>negatively charged</b>, whatever their size; that is why they move towards the anode in electrophoresis.</p>",
+     "hint": "Phosphate backbone."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA खंड होते हैं",
+     "o": [
+      "धनावेशित",
+      "ऋणावेशित",
+      "उदासीन",
+      "आकार के अनुसार धनावेशित या ऋणावेशित"
+     ],
+     "sol": "<p>DNA के प्रत्येक न्यूक्लियोटाइड में फॉस्फेट होता है, अतः DNA खंड आकार चाहे जो हो, <b>ऋणात्मक आवेशित</b> होते हैं; इसीलिए वैद्युत कण संचलन में वे एनोड की ओर जाते हैं।</p>",
+     "hint": "फॉस्फेट आधारित ढाँचा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -695,10 +851,22 @@
       "Vector",
       "Plasmid",
       "Structural gene"
-     ]
+     ],
+     "sol": "<p>A <b>selectable marker</b> is a gene (e.g. antibiotic resistance) whose expression helps identify and select transformed cells and eliminate non-transformants.</p>",
+     "hint": "It lets you select the transformants."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वह जीन जिसकी अभिव्यक्ति रूपांतरित कोशिका की पहचान में सहायता करती है, क्या कहलाता है?",
+     "o": [
+      "वरणयोग्य चिह्नक",
+      "संवाहक",
+      "प्लाज्मिड",
+      "संरचनात्मक जीन"
+     ],
+     "sol": "<p><b>वरणयोग्य चिह्नक</b> वह जीन है (जैसे प्रतिजैविक प्रतिरोध) जिसकी अभिव्यक्ति से रूपांतरित कोशिकाओं की पहचान और वरण होता है तथा अरूपांतरित हट जाते हैं।</p>",
+     "hint": "इससे रूपांतरित कोशिकाओं का वरण होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -741,10 +909,22 @@
       "Acetocarmine",
       "Aniline blue",
       "Ethidium bromide"
-     ]
+     ],
+     "sol": "<p>DNA cannot be seen in the gel without staining. It is stained with <b>ethidium bromide</b> and viewed under UV light, when it appears as bright orange bands.</p>",
+     "hint": "Orange bands under UV."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ऐगारोज जेल पर पृथक DNA खंड किससे अभिरंजित करने के बाद देखे जा सकते हैं?",
+     "o": [
+      "ब्रोमोफीनॉल ब्लू",
+      "ऐसीटोकार्मिन",
+      "ऐनिलीन ब्लू",
+      "इथीडियम ब्रोमाइड"
+     ],
+     "sol": "<p>अभिरंजन के बिना जेल में DNA दिखाई नहीं देता। इसे <b>इथीडियम ब्रोमाइड</b> से अभिरंजित कर पराबैंगनी (UV) प्रकाश में देखा जाता है, जब यह चमकीली नारंगी पट्टियों के रूप में दिखता है।</p>",
+     "hint": "पराबैंगनी (UV) में नारंगी पट्टियाँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -787,10 +967,22 @@
       "Ti plasmid",
       "Retrovirus",
       "pBR 322"
-     ]
+     ],
+     "sol": "<p>Retroviruses (disarmed) are used as vectors to deliver genes into animal cells such as human lymphocytes (e.g. in ADA gene therapy). λ phage and pBR322 are bacterial vectors; the Ti plasmid is for plants.</p>",
+     "hint": "Gene therapy for ADA deficiency."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "मानव लसीकाणुओं में DNA खंड प्रवेश कराने के लिए संवाहक के रूप में सामान्यतः किसका उपयोग होता है?",
+     "o": [
+      "λ जीवाणुभोजी",
+      "Ti प्लाज्मिड",
+      "पश्चविषाणु (रिट्रोवायरस)",
+      "pBR 322"
+     ],
+     "sol": "<p>(अहानिकारक बनाए गए) पश्चविषाणु जंतु कोशिकाओं, जैसे मानव लसीकाणुओं, में जीन पहुँचाने हेतु संवाहक के रूप में प्रयुक्त होते हैं (जैसे ADA जीन चिकित्सा में)। λ जीवाणुभोजी और pBR322 जीवाणु संवाहक हैं; Ti प्लाज्मिड पादपों के लिए है।</p>",
+     "hint": "ADA की कमी की जीन चिकित्सा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -833,10 +1025,22 @@
       "Annealing, Extension, Denaturation",
       "Extension, Denaturation, Annealing",
       "Denaturation, Annealing, Extension"
-     ]
+     ],
+     "sol": "<p>Each PCR cycle: <b>denaturation</b> (high temperature separates the DNA strands) → <b>annealing</b> (primers bind) → <b>extension</b> (Taq polymerase extends the primers).</p>",
+     "hint": "Separate, bind primers, extend."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पॉलिमरेज शृंखला अभिक्रिया (PCR) में चरणों का सही क्रम है :",
+     "o": [
+      "विकृतीकरण, विस्तार, तापानुशीतन",
+      "तापानुशीतन, विस्तार, विकृतीकरण",
+      "विस्तार, विकृतीकरण, तापानुशीतन",
+      "विकृतीकरण, तापानुशीतन, विस्तार"
+     ],
+     "sol": "<p>प्रत्येक PCR चक्र: <b>विकृतीकरण</b> (उच्च ताप DNA रज्जुकों को अलग करता है) → <b>तापानुशीतन</b> (उपक्रमक जुड़ते हैं) → <b>विस्तार</b> (Taq पॉलिमरेज उपक्रमकों को बढ़ाता है)।</p>",
+     "hint": "अलग करना, उपक्रमक जोड़ना, बढ़ाना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -879,10 +1083,22 @@
       "Chilled chloroform",
       "Isopropanol",
       "Chilled ethanol"
-     ]
+     ],
+     "sol": "<p>After removing RNA, proteins and other molecules, addition of <b>chilled ethanol</b> precipitates the purified DNA, which can be spooled out as fine threads.</p>",
+     "hint": "Spooling of DNA in NCERT."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जैव अणुओं के मिश्रण से DNA का अवक्षेपण किसके उपचार से प्राप्त किया जा सकता है?",
+     "o": [
+      "कमरे के ताप पर मेथेनॉल",
+      "द्रुतशीतित क्लोरोफॉर्म",
+      "आइसोप्रोपेनॉल",
+      "द्रुतशीतित एथेनॉल"
+     ],
+     "sol": "<p>RNA, प्रोटीन और अन्य अणु हटाने के बाद <b>द्रुतशीतित एथेनॉल</b> मिलाने से शोधित DNA अवक्षेपित होता है, जिसे महीन धागों के रूप में लपेटकर (स्पूलिंग) निकाला जा सकता है।</p>",
+     "hint": "NCERT में DNA की स्पूलिंग।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -925,10 +1141,22 @@
       "Bioreactor",
       "BOD incubator",
       "Sludge digester"
-     ]
+     ],
+     "sol": "<p>Large-scale culture of microbes for industrial products needs a <b>bioreactor</b> (100–1000 litres), which provides optimal temperature, pH, substrate, oxygen and mixing. Ovens, BOD incubators and sludge digesters do not do this.</p>",
+     "hint": "Large volume + controlled conditions."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "एंजाइमों के औद्योगिक उत्पादन हेतु सूक्ष्मजीवों को बड़े पैमाने पर उगाने के लिए निम्नलिखित में से कौन-सा उपकरण अनिवार्य रूप से आवश्यक है?",
+     "o": [
+      "औद्योगिक ओवन",
+      "बायोरिएक्टर",
+      "BOD इनक्यूबेटर",
+      "आपंक संपाचित्र"
+     ],
+     "sol": "<p>औद्योगिक उत्पादों के लिए सूक्ष्मजीवों के बड़े पैमाने पर संवर्धन हेतु <b>बायोरिएक्टर</b> (100–1000 लीटर) चाहिए, जो अनुकूलतम ताप, pH, क्रियाधार, ऑक्सीजन तथा मिश्रण देता है। ओवन, BOD इनक्यूबेटर और आपंक संपाचित्र यह नहीं करते।</p>",
+     "hint": "बड़ा आयतन + नियंत्रित दशाएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -971,10 +1199,22 @@
       "The enzyme recognizes a specific palindromic nucleotide sequence in the DNA.",
       "The enzyme cuts DNA molecule at identified position within the DNA.",
       "The enzyme binds DNA at specific sites and cuts only one of the two strands."
-     ]
+     ],
+     "sol": "<p>A restriction endonuclease recognises a specific palindromic sequence, binds the DNA there and cuts <b>each of the two strands</b> of the sugar-phosphate backbone. Statement 4 ('cuts only one strand') is incorrect.</p>",
+     "hint": "Both strands are cut (often off-centre)."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित कथन प्रतिबंधन एंडोन्यूक्लिएज एंजाइम के लक्षण बताते हैं। गलत कथन पहचानिए।",
+     "o": [
+      "एंजाइम प्रत्येक रज्जुक पर विशिष्ट स्थलों पर शर्करा-फॉस्फेट ढाँचे को काटता है।",
+      "एंजाइम DNA में एक विशिष्ट पैलिंड्रोमिक न्यूक्लियोटाइड अनुक्रम पहचानता है।",
+      "एंजाइम DNA अणु को DNA के भीतर पहचानी गई स्थिति पर काटता है।",
+      "एंजाइम DNA से विशिष्ट स्थलों पर जुड़ता है और दोनों में से केवल एक रज्जुक को काटता है।"
+     ],
+     "sol": "<p>प्रतिबंधन एंडोन्यूक्लिएज एक विशिष्ट पैलिंड्रोमिक अनुक्रम पहचानकर वहाँ DNA से जुड़ता है और शर्करा-फॉस्फेट ढाँचे के <b>दोनों रज्जुकों में से प्रत्येक</b> को काटता है। कथन 4 ('केवल एक रज्जुक काटता है') गलत है।</p>",
+     "hint": "दोनों रज्जुक कटते हैं (प्रायः मध्य से हटकर)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1017,10 +1257,22 @@
       "Recognition site",
       "Selectable marker",
       "Ori site"
-     ]
+     ],
+     "sol": "<p>The <b>origin of replication (ori)</b> is where replication starts, and it also controls the copy number of the linked DNA. To get many copies of the target DNA it should be cloned in a vector whose ori supports high copy number.</p>",
+     "hint": "Copy number is set by ori."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "संवाहक में जुड़े DNA की प्रतिरूप संख्या को नियंत्रित करने वाला अनुक्रम कहलाता है :",
+     "o": [
+      "पैलिंड्रोमिक अनुक्रम",
+      "पहचान स्थल",
+      "वरणयोग्य चिह्नक",
+      "ori स्थल"
+     ],
+     "sol": "<p><b>प्रतिकृतीयन का उद्भव (ori)</b> वह स्थल है जहाँ प्रतिकृतियन आरंभ होता है, और यही जुड़े DNA की प्रतिरूप संख्या भी नियंत्रित करता है। लक्ष्य DNA की अनेक प्रतियाँ पाने के लिए उसे ऐसे संवाहक में क्लोन करना चाहिए जिसका ori अधिक प्रतिरूप संख्या दे।</p>",
+     "hint": "प्रतिरूप संख्या ori से तय होती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1063,10 +1315,22 @@
       "Sticky ends can be joined by using DNA ligases.",
       "Each restriction enzyme functions by inspecting the length of a DNA sequence.",
       "They cut the strand of DNA at palindromic sites."
-     ]
+     ],
+     "sol": "<p>Statements 1, 3 and 4 describe restriction enzymes correctly: they are tools of genetic engineering; NCERT says each restriction endonuclease functions by 'inspecting the length of a DNA sequence' and then binding at its palindromic recognition site. Statement 2 is about <b>DNA ligase</b>, not restriction enzymes — sticky ends are joined by ligase — so the official key treats it as the wrong statement 'with regard to restriction enzymes'.</p>",
+     "hint": "Which statement is not about restriction enzymes at all?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रतिबंधन एंजाइमों के संबंध में गलत कथन पहचानिए।",
+     "o": [
+      "ये आनुवंशिक इंजीनियरिंग में उपयोगी हैं।",
+      "चिपचिपे छोरों को DNA लाइगेज द्वारा जोड़ा जा सकता है।",
+      "प्रत्येक प्रतिबंधन एंजाइम DNA अनुक्रम की लंबाई का निरीक्षण कर कार्य करता है।",
+      "ये DNA रज्जुक को पैलिंड्रोमिक स्थलों पर काटते हैं।"
+     ],
+     "sol": "<p>कथन 1, 3 तथा 4 प्रतिबंधन एंजाइमों का सही वर्णन करते हैं: ये आनुवंशिक इंजीनियरिंग के उपकरण हैं; NCERT के अनुसार प्रत्येक प्रतिबंधन एंडोन्यूक्लिएज 'DNA अनुक्रम की लंबाई का निरीक्षण' कर अपने पैलिंड्रोमिक पहचान स्थल पर जुड़ता है। कथन 2 <b>DNA लाइगेज</b> के बारे में है, प्रतिबंधन एंजाइमों के नहीं — चिपचिपे छोर लाइगेज जोड़ता है — अतः आधिकारिक कुंजी इसे 'प्रतिबंधन एंजाइमों के संबंध में' गलत कथन मानती है।</p>",
+     "hint": "कौन-सा कथन प्रतिबंधन एंजाइमों के बारे में है ही नहीं?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1110,10 +1374,22 @@
       "(a) iii, (b) iv, (c) i, (d) ii",
       "(a) ii, (b) iv, (c) iii, (d) i",
       "(a) iv, (b) iii, (c) i, (d) ii"
-     ]
+     ],
+     "sol": "<ul><li>(a) <i>Bacillus thuringiensis</i> — Cry proteins (Bt toxin) (iv).</li><li>(b) <i>Thermus aquaticus</i> — thermostable DNA polymerase (iii).</li><li>(c) <i>Agrobacterium tumefaciens</i> — Ti plasmid as cloning vector (i).</li><li>(d) <i>Salmonella typhimurium</i> — its plasmid was used to construct the first rDNA molecule (ii).</li></ul><p>(a) iv, (b) iii, (c) i, (d) ii.</p>",
+     "hint": "Cohen and Boyer used a Salmonella plasmid."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जैव प्रौद्योगिकी में जीव का उसके उपयोग से मिलान कीजिए :<br>(a) <i>Bacillus thuringiensis</i> — (i) क्लोनिंग संवाहक<br>(b) <i>Thermus aquaticus</i> — (ii) पहले rDNA अणु का निर्माण<br>(c) <i>Agrobacterium tumefaciens</i> — (iii) DNA पॉलिमरेज<br>(d) <i>Salmonella typhimurium</i> — (iv) Cry प्रोटीन",
+     "o": [
+      "(a) iii, (b) ii, (c) iv, (d) i",
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iv, (b) iii, (c) i, (d) ii"
+     ],
+     "sol": "<ul><li>(a) <i>Bacillus thuringiensis</i> — Cry प्रोटीन (Bt जीवविष) (iv)।</li><li>(b) <i>Thermus aquaticus</i> — तापस्थायी DNA पॉलिमरेज (iii)।</li><li>(c) <i>Agrobacterium tumefaciens</i> — क्लोनिंग संवाहक के रूप में Ti प्लाज्मिड (i)।</li><li>(d) <i>Salmonella typhimurium</i> — इसके प्लाज्मिड से पहला rDNA अणु बनाया गया (ii)।</li></ul><p>(a) iv, (b) iii, (c) i, (d) ii।</p>",
+     "hint": "कोहेन और बोयर ने <i>Salmonella</i> का प्लाज्मिड प्रयोग किया।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1161,10 +1437,22 @@
       "Exonucleases – Make cuts at specific positions within DNA",
       "Ligases – Join the two DNA molecules",
       "Polymerases – Break the DNA into fragments"
-     ]
+     ],
+     "sol": "<p><b>Ligases join two DNA molecules</b> — correct. Nucleases do not separate strands (heat or helicase does); exonucleases remove nucleotides from the ends (endonucleases cut within DNA); polymerases synthesise DNA, they do not break it.</p>",
+     "hint": "Exo = ends, endo = inside."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से सही युग्म चुनिए",
+     "o": [
+      "न्यूक्लिएज – DNA के दोनों रज्जुकों को अलग करते हैं",
+      "एक्सोन्यूक्लिएज – DNA के भीतर विशिष्ट स्थितियों पर काटते हैं",
+      "लाइगेज – दो DNA अणुओं को जोड़ते हैं",
+      "पॉलिमरेज – DNA को खंडों में तोड़ते हैं"
+     ],
+     "sol": "<p><b>लाइगेज दो DNA अणुओं को जोड़ते हैं</b> — सही। न्यूक्लिएज रज्जुकों को अलग नहीं करते (ताप या हेलिकेज करता है); एक्सोन्यूक्लिएज छोरों से न्यूक्लियोटाइड हटाते हैं (एंडोन्यूक्लिएज DNA के भीतर काटते हैं); पॉलिमरेज DNA बनाते हैं, तोड़ते नहीं।</p>",
+     "hint": "एक्सो = छोर, एंडो = भीतर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1207,10 +1495,22 @@
       "5′–GGATCC–3′, 3′–CCTAGG–5′",
       "5′–GAATTC–3′, 3′–CTTAAG–5′",
       "5′–GGAACC–3′, 3′–CCTTGG–5′"
-     ]
+     ],
+     "sol": "<p>EcoRI recognises 5′–GAATTC–3′ / 3′–CTTAAG–5′. It is palindromic: each strand read 5′→3′ is GAATTC.</p>",
+     "hint": "Top strand GAATTC."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "EcoRI द्वारा पहचाना जाने वाला विशिष्ट पैलिंड्रोमिक अनुक्रम है :",
+     "o": [
+      "5′–CTTAAG–3′, 3′–GAATTC–5′",
+      "5′–GGATCC–3′, 3′–CCTAGG–5′",
+      "5′–GAATTC–3′, 3′–CTTAAG–5′",
+      "5′–GGAACC–3′, 3′–CCTTGG–5′"
+     ],
+     "sol": "<p>EcoRI पहचानता है 5′–GAATTC–3′ / 3′–CTTAAG–5′। यह पैलिंड्रोमिक है: प्रत्येक रज्जुक को 5′→3′ पढ़ने पर GAATTC मिलता है।</p>",
+     "hint": "ऊपरी रज्जुक GAATTC।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1253,10 +1553,22 @@
       "ethidium bromide in infrared radiation",
       "acetocarmine in bright blue light",
       "ethidium bromide in UV radiation"
-     ]
+     ],
+     "sol": "<p>Separated DNA is stained with <b>ethidium bromide</b> and seen as bright orange bands on exposure to <b>UV radiation</b>.</p>",
+     "hint": "Ethidium bromide + UV."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जेल वैद्युत कण संचलन में पृथक DNA खंडों को किसकी सहायता से देखा जा सकता है?",
+     "o": [
+      "पराबैंगनी (UV) विकिरण में ऐसीटोकार्मिन",
+      "अवरक्त विकिरण में इथीडियम ब्रोमाइड",
+      "चमकीले नीले प्रकाश में ऐसीटोकार्मिन",
+      "पराबैंगनी (UV) विकिरण में इथीडियम ब्रोमाइड"
+     ],
+     "sol": "<p>पृथक DNA को <b>इथीडियम ब्रोमाइड</b> से अभिरंजित कर <b>पराबैंगनी (UV) विकिरण</b> में चमकीली नारंगी पट्टियों के रूप में देखा जाता है।</p>",
+     "hint": "इथीडियम ब्रोमाइड + पराबैंगनी (UV)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1299,10 +1611,22 @@
       "Yellow bands",
       "Bright orange bands",
       "Dark red bands"
-     ]
+     ],
+     "sol": "<p>Ethidium-bromide-stained DNA, viewed under UV light, appears as <b>bright orange bands</b> (NCERT).</p>",
+     "hint": "NCERT's colour."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "इथीडियम ब्रोमाइड से अभिरंजित जेल पर DNA रज्जुक पराबैंगनी (UV) विकिरण में देखने पर किस रूप में दिखते हैं?",
+     "o": [
+      "चमकीली नीली पट्टियाँ",
+      "पीली पट्टियाँ",
+      "चमकीली नारंगी पट्टियाँ",
+      "गहरी लाल पट्टियाँ"
+     ],
+     "sol": "<p>इथीडियम ब्रोमाइड से अभिरंजित DNA पराबैंगनी (UV) प्रकाश में <b>चमकीली नारंगी पट्टियों</b> के रूप में दिखता है (NCERT)।</p>",
+     "hint": "NCERT का रंग।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1345,10 +1669,22 @@
       "Denaturation, Annealing, Extension",
       "Denaturation, Extension, Annealing",
       "Extension, Denaturation, Annealing"
-     ]
+     ],
+     "sol": "<p>PCR cycle: <b>denaturation → annealing → extension</b>.</p>",
+     "hint": "Separate, bind primers, extend."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "PCR (पॉलिमरेज शृंखला अभिक्रिया) में चरणों का सही क्रम निम्नलिखित में से कौन-सा है?",
+     "o": [
+      "तापानुशीतन, विकृतीकरण, विस्तार",
+      "विकृतीकरण, तापानुशीतन, विस्तार",
+      "विकृतीकरण, विस्तार, तापानुशीतन",
+      "विस्तार, विकृतीकरण, तापानुशीतन"
+     ],
+     "sol": "<p>PCR चक्र: <b>विकृतीकरण → तापानुशीतन → विस्तार</b>।</p>",
+     "hint": "अलग करना, उपक्रमक जोड़ना, बढ़ाना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1391,10 +1727,22 @@
       "RNA",
       "DNA",
       "Histones"
-     ]
+     ],
+     "sol": "<p>After cell lysis and enzyme treatments (RNase, protease), addition of chilled ethanol precipitates the purified <b>DNA</b>.</p>",
+     "hint": "Same as 2019."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पुनर्योगज DNA तकनीक की शोधन प्रक्रिया के दौरान द्रुतशीतित एथेनॉल मिलाने से क्या अवक्षेपित होता है?",
+     "o": [
+      "पॉलीसैकेराइड",
+      "RNA",
+      "DNA",
+      "हिस्टोन"
+     ],
+     "sol": "<p>कोशिका लयन और एंजाइम उपचार (RNase, प्रोटिएज) के बाद द्रुतशीतित एथेनॉल मिलाने से शोधित <b>DNA</b> अवक्षेपित होता है।</p>",
+     "hint": "2019 वाले जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1437,10 +1785,22 @@
       "Molecular diagnosis",
       "Gene amplification",
       "Purification of isolated protein"
-     ]
+     ],
+     "sol": "<p>PCR amplifies DNA: it is used for gene amplification, molecular diagnosis and detecting mutations. It acts on DNA only, so it cannot <b>purify a protein</b>.</p>",
+     "hint": "PCR works on nucleic acids."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा PCR (पॉलिमरेज शृंखला अभिक्रिया) का अनुप्रयोग नहीं है?",
+     "o": [
+      "जीन उत्परिवर्तन का पता लगाना",
+      "आण्विक निदान",
+      "जीन प्रवर्धन",
+      "पृथक की गई प्रोटीन का शोधन"
+     ],
+     "sol": "<p>PCR DNA का प्रवर्धन करता है: यह जीन प्रवर्धन, आण्विक निदान और उत्परिवर्तन की पहचान में प्रयुक्त होता है। यह केवल DNA पर कार्य करता है, अतः <b>प्रोटीन का शोधन</b> नहीं कर सकता।</p>",
+     "hint": "PCR न्यूक्लिक अम्लों पर कार्य करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1486,10 +1846,22 @@
       "It will not be able to confer ampicillin resistance to the host cell",
       "The transformed cells will have the ability to resist ampicillin as well as produce β-galactoside",
       "It will lead to lysis of host cell"
-     ]
+     ],
+     "sol": "<p>Inserting the gene at the PstI site inside amp<sup>R</sup> disrupts that gene (insertional inactivation). The recombinant plasmid therefore <b>cannot confer ampicillin resistance</b> on the host (tetracycline resistance remains).</p>",
+     "hint": "Insertion inactivates the gene it lands in."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्लाज्मिड pBR322 में ऐम्पिसिलिन प्रतिरोध देने वाले जीन amp<sup>R</sup> के भीतर PstI प्रतिबंधन एंजाइम स्थल है। यदि β-गैलेक्टोसाइड उत्पादन वाले जीन को जोड़ने के लिए यह एंजाइम प्रयुक्त हो और पुनर्योगज प्लाज्मिड को E. coli स्ट्रेन में डाला जाए :",
+     "o": [
+      "यह दोहरी क्षमता वाली एक नई प्रोटीन बना सकेगा",
+      "यह परपोषी कोशिका को ऐम्पिसिलिन प्रतिरोध नहीं दे सकेगा",
+      "रूपांतरित कोशिकाएँ ऐम्पिसिलिन का प्रतिरोध करने के साथ β-गैलेक्टोसाइड भी बना सकेंगी",
+      "इससे परपोषी कोशिका का लयन होगा"
+     ],
+     "sol": "<p>amp<sup>R</sup> के भीतर PstI स्थल पर जीन जोड़ने से वह जीन बाधित हो जाता है (निवेशी निष्क्रियता)। अतः पुनर्योगज प्लाज्मिड परपोषी को <b>ऐम्पिसिलिन प्रतिरोध नहीं दे सकता</b> (टेट्रासाइक्लिन प्रतिरोध बना रहता है)।</p>",
+     "hint": "जोड़ा गया खंड जिस जीन में बैठता है उसे निष्क्रिय कर देता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1533,10 +1905,22 @@
       "Annealing",
       "Extension",
       "Denaturation"
-     ]
+     ],
+     "sol": "<p>The first step of each PCR cycle is <b>denaturation</b>, which needs a very high temperature (about 94 °C) to separate the two DNA strands. Without it, the strands stay together and the later steps cannot follow.</p>",
+     "hint": "Heat is needed first to separate strands."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "PCR द्वारा जीन प्रवर्धन के दौरान यदि आरंभ में बहुत उच्च ताप न रखा जाए, तो PCR का कौन-सा चरण सबसे पहले प्रभावित होगा?",
+     "o": [
+      "जोड़न (ligation)",
+      "तापानुशीतन",
+      "विस्तार",
+      "विकृतीकरण"
+     ],
+     "sol": "<p>प्रत्येक PCR चक्र का पहला चरण <b>विकृतीकरण</b> है, जिसमें DNA के दोनों रज्जुकों को अलग करने के लिए बहुत उच्च ताप (लगभग 94 °C) चाहिए। इसके बिना रज्जुक जुड़े रहते हैं और आगे के चरण नहीं हो सकते।</p>",
+     "hint": "रज्जुक अलग करने के लिए पहले ताप चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1579,10 +1963,22 @@
       "Degenerate primer sequence",
       "Okazaki sequences",
       "Palindromic Nucleotide sequences"
-     ]
+     ],
+     "sol": "<p>Restriction endonucleases recognise <b>palindromic nucleotide sequences</b> — sequences that read the same on both strands in the 5′→3′ direction — and cut at specific positions within them.</p>",
+     "hint": "Reads the same both ways."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA के भीतर विशिष्ट स्थितियों पर काटने के लिए एंडोन्यूक्लिएज द्वारा पहचाना जाने वाला विशिष्ट पहचान अनुक्रम है :",
+     "o": [
+      "पॉली(A) पुच्छ अनुक्रम",
+      "अपह्रासित उपक्रमक अनुक्रम",
+      "ओकाजाकी अनुक्रम",
+      "पैलिंड्रोमिक न्यूक्लियोटाइड अनुक्रम"
+     ],
+     "sol": "<p>प्रतिबंधन एंडोन्यूक्लिएज <b>पैलिंड्रोमिक न्यूक्लियोटाइड अनुक्रम</b> पहचानते हैं — ऐसे अनुक्रम जो दोनों रज्जुकों पर 5′→3′ दिशा में एक जैसे पढ़े जाते हैं — और उनके भीतर विशिष्ट स्थितियों पर काटते हैं।</p>",
+     "hint": "दोनों ओर से एक जैसा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1625,10 +2021,22 @@
       "The presence of chromogenic substrate gives blue coloured DNA bands on the gel.",
       "Bright orange coloured bands of DNA can be observed in the gel when exposed to UV light.",
       "The process of extraction of separated DNA strands from gel is called elution."
-     ]
+     ],
+     "sol": "<p>In gel electrophoresis, DNA is stained with ethidium bromide and seen as bright orange bands under UV; separated bands are cut out and extracted (elution). A chromogenic substrate giving blue colour is used in blue–white selection of bacterial colonies, not to colour DNA bands on a gel — statement 2 is not true.</p>",
+     "hint": "Blue colour belongs to colony screening."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "जेल वैद्युत कण संचलन तकनीक के संबंध में निम्नलिखित में से कौन-सा कथन सत्य नहीं है?",
+     "o": [
+      "पृथक DNA खंडों को इथीडियम ब्रोमाइड से अभिरंजित किया जाता है।",
+      "वर्णोत्पादक क्रियाधार की उपस्थिति जेल पर नीली रंग की DNA पट्टियाँ देती है।",
+      "पराबैंगनी (UV) प्रकाश में रखने पर जेल में DNA की चमकीली नारंगी पट्टियाँ दिखती हैं।",
+      "जेल से पृथक DNA रज्जुकों के निष्कर्षण की प्रक्रिया क्षालन कहलाती है।"
+     ],
+     "sol": "<p>जेल वैद्युत कण संचलन में DNA इथीडियम ब्रोमाइड से अभिरंजित होकर पराबैंगनी (UV) में चमकीली नारंगी पट्टियों के रूप में दिखता है; पृथक पट्टियाँ काटकर निकाली जाती हैं (क्षालन)। नीला रंग देने वाला वर्णोत्पादक क्रियाधार जीवाणु निवहों के नीले–सफेद वरण में प्रयुक्त होता है, जेल पर DNA पट्टियों को रंगने में नहीं — कथन 2 सत्य नहीं है।</p>",
+     "hint": "नीला रंग निवह चयन से संबंधित है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1671,10 +2079,22 @@
       "(A) is correct but (R) is not correct",
       "(A) is not correct but (R) is correct",
       "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
-     ]
+     ],
+     "sol": "<p>A is correct: PCR amplifies DNA. R is correct: the ampicillin-resistance gene is a selectable marker for transformants. But R has nothing to do with PCR, so it does not explain A.</p>",
+     "hint": "Two true but unrelated facts."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं : एक को अभिकथन (A) तथा दूसरे को कारण (R) कहा गया है :<br>अभिकथन (A) : पॉलिमरेज शृंखला अभिक्रिया DNA प्रवर्धन में प्रयुक्त होती है।<br>कारण (R) : रूपांतरण की जाँच के लिए ऐम्पिसिलिन प्रतिरोधी जीन वरणयोग्य चिह्नक के रूप में प्रयुक्त होता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "(A) और (R) दोनों सही हैं परंतु (R), (A) की सही व्याख्या नहीं है",
+      "(A) सही है परंतु (R) सही नहीं है",
+      "(A) सही नहीं है परंतु (R) सही है",
+      "(A) और (R) दोनों सही हैं तथा (R), (A) की सही व्याख्या है"
+     ],
+     "sol": "<p>A सही है: PCR DNA का प्रवर्धन करता है। R सही है: ऐम्पिसिलिन प्रतिरोधी जीन रूपांतरितों के लिए वरणयोग्य चिह्नक है। परंतु R का PCR से कोई संबंध नहीं, अतः यह A की व्याख्या नहीं करता।</p>",
+     "hint": "दो सही पर असंबंधित तथ्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1718,10 +2138,22 @@
       "5′ CTCAGT 3′; 3′ GAGTCA 5′",
       "5′ GTATTC 3′; 3′ CATAAG 5′",
       "5′ GATACT 3′; 3′ CTATGA 5′"
-     ]
+     ],
+     "sol": "<p>A palindrome reads the same on both strands 5′→3′. Only 5′ GAATTC 3′ / 3′ CTTAAG 5′ does so (both strands read GAATTC); it is the EcoRI site. The other pairs are not palindromic.</p>",
+     "hint": "Read the lower strand from its 5′ end."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA के निम्नलिखित पैलिंड्रोमिक क्षार अनुक्रमों में से किसे विशेष प्रतिबंधन एंजाइम द्वारा आसानी से काटा जा सकता है?",
+     "o": [
+      "5′ GAATTC 3′; 3′ CTTAAG 5′",
+      "5′ CTCAGT 3′; 3′ GAGTCA 5′",
+      "5′ GTATTC 3′; 3′ CATAAG 5′",
+      "5′ GATACT 3′; 3′ CTATGA 5′"
+     ],
+     "sol": "<p>पैलिंड्रोम दोनों रज्जुकों पर 5′→3′ एक जैसा पढ़ा जाता है। केवल 5′ GAATTC 3′ / 3′ CTTAAG 5′ ऐसा है (दोनों रज्जुक GAATTC पढ़ते हैं); यह EcoRI स्थल है। अन्य युग्म पैलिंड्रोमिक नहीं हैं।</p>",
+     "hint": "निचले रज्जुक को उसके 5′ सिरे से पढ़ें।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1765,10 +2197,22 @@
       "Statement I is correct but Statement II is incorrect",
       "Statement I is incorrect but Statement II is correct",
       "Both Statement I and Statement II are correct"
-     ]
+     ],
+     "sol": "<p>Statement I is correct: restriction endonucleases recognise specific palindromic sequences. Statement II is correct: they cut a little away from the centre of the palindrome, between the same two bases on both strands, leaving single-stranded sticky ends. Both correct.</p>",
+     "hint": "Off-centre cut makes sticky ends."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : प्रतिबंधन एंडोन्यूक्लिएज DNA काटने के लिए विशिष्ट अनुक्रम पहचानते हैं जिसे पैलिंड्रोमिक न्यूक्लियोटाइड अनुक्रम कहते हैं।<br>कथन II : प्रतिबंधन एंडोन्यूक्लिएज DNA रज्जुक को पैलिंड्रोमिक स्थल के केंद्र से थोड़ा हटकर काटते हैं।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है",
+      "कथन I तथा कथन II दोनों सही हैं"
+     ],
+     "sol": "<p>कथन I सही है: प्रतिबंधन एंडोन्यूक्लिएज विशिष्ट पैलिंड्रोमिक अनुक्रम पहचानते हैं। कथन II सही है: वे पैलिंड्रोम के केंद्र से थोड़ा हटकर, दोनों रज्जुकों पर उन्हीं दो क्षारों के बीच काटते हैं, जिससे एकलरज्जुकी चिपचिपे छोर बचते हैं। दोनों सही।</p>",
+     "hint": "केंद्र से हटकर कटाव चिपचिपे छोर बनाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1811,10 +2255,22 @@
       "Presence of single restriction enzyme site",
       "Presence of two or more recognition sites",
       "Presence of origin of replication"
-     ]
+     ],
+     "sol": "<p>A cloning vector should have an ori, a selectable marker and preferably a <b>single</b> recognition site for the restriction enzyme used. Two or more recognition sites would cut the vector into several fragments and complicate cloning — not desirable.</p>",
+     "hint": "Many sites = vector falls apart."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा क्लोनिंग संवाहक का वांछनीय लक्षण नहीं है?",
+     "o": [
+      "चिह्नक जीन की उपस्थिति",
+      "एकल प्रतिबंधन एंजाइम स्थल की उपस्थिति",
+      "दो या अधिक पहचान स्थलों की उपस्थिति",
+      "प्रतिकृतीयन के उद्भव की उपस्थिति"
+     ],
+     "sol": "<p>क्लोनिंग संवाहक में ori, वरणयोग्य चिह्नक और प्रयुक्त प्रतिबंधन एंजाइम के लिए अधिमानतः <b>एक</b> पहचान स्थल होना चाहिए। दो या अधिक पहचान स्थल संवाहक को कई खंडों में काट देंगे और क्लोनिंग जटिल हो जाएगी — यह वांछनीय नहीं।</p>",
+     "hint": "अधिक स्थल = संवाहक टुकड़ों में।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1858,10 +2314,22 @@
       "Bright red colour",
       "Bright blue colour",
       "Bright yellow colour"
-     ]
+     ],
+     "sol": "<p>Ethidium-bromide-stained DNA appears as <b>bright orange</b> bands under UV light.</p>",
+     "hint": "NCERT's colour."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पराबैंगनी (UV) विकिरण में रखने पर इथीडियम ब्रोमाइड से अभिरंजित DNA दिखाएगा",
+     "o": [
+      "चमकीला नारंगी रंग",
+      "चमकीला लाल रंग",
+      "चमकीला नीला रंग",
+      "चमकीला पीला रंग"
+     ],
+     "sol": "<p>इथीडियम ब्रोमाइड से अभिरंजित DNA पराबैंगनी (UV) प्रकाश में <b>चमकीली नारंगी</b> पट्टियों के रूप में दिखता है।</p>",
+     "hint": "NCERT का रंग।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1904,10 +2372,22 @@
       "Copper",
       "Zinc",
       "Tungsten or gold"
-     ]
+     ],
+     "sol": "<p>In the biolistic (gene gun) method, cells are bombarded with high-velocity micro-particles of <b>gold or tungsten</b> coated with DNA (mainly for plant cells).</p>",
+     "hint": "Heavy, inert metals."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "परपोषी कोशिकाओं में विजातीय DNA प्रवेश कराने हेतु प्रयुक्त जीन गन विधि में ___ धातु के सूक्ष्म कण प्रयुक्त होते हैं।",
+     "o": [
+      "सिल्वर",
+      "कॉपर",
+      "ज़िंक",
+      "टंगस्टन या स्वर्ण"
+     ],
+     "sol": "<p>बायोलिस्टिक (जीन गन) विधि में कोशिकाओं पर DNA से विलेपित <b>स्वर्ण या टंगस्टन</b> के उच्च वेग सूक्ष्म कणों की बमबारी की जाती है (मुख्यतः पादप कोशिकाओं के लिए)।</p>",
+     "hint": "भारी, निष्क्रिय धातुएँ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1950,10 +2430,22 @@
       "RNA",
       "DNA",
       "Histones"
-     ]
+     ],
+     "sol": "<p>Chilled ethanol precipitates the purified <b>DNA</b> out of the solution.</p>",
+     "hint": "Same as NEET 2021 Q121."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पुनर्योगज DNA तकनीक की शोधन प्रक्रिया के दौरान द्रुतशीतित एथेनॉल मिलाने से क्या अवक्षेपित होता है",
+     "o": [
+      "पॉलीसैकेराइड",
+      "RNA",
+      "DNA",
+      "हिस्टोन"
+     ],
+     "sol": "<p>द्रुतशीतित एथेनॉल शोधित <b>DNA</b> को घोल से अवक्षेपित कर देता है।</p>",
+     "hint": "NEET 2021 Q121 जैसा ही।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -1996,10 +2488,22 @@
       "B, C, D, A",
       "C, A, B, D",
       "C, B, D, A"
-     ]
+     ],
+     "sol": "<p>Steps: cut the DNA at specific locations with a restriction enzyme (B) → isolate the desired DNA fragment (C) → amplify the gene of interest by PCR (D) → insert the recombinant DNA into the host cell (A). Order: B, C, D, A.</p>",
+     "hint": "Insertion into the host is last."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पुनर्योगज DNA निर्माण के मुख्य चरण नीचे दिए गए हैं। इन चरणों को सही क्रम में व्यवस्थित कीजिए :<br>A. पुनर्योगज DNA का परपोषी कोशिका में प्रवेश।<br>B. प्रतिबंधन एंजाइम द्वारा DNA को विशिष्ट स्थान पर काटना।<br>C. वांछित DNA खंड का पृथक्करण।<br>D. PCR द्वारा उपयोगी जीन का प्रवर्धन।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "B, D, A, C",
+      "B, C, D, A",
+      "C, A, B, D",
+      "C, B, D, A"
+     ],
+     "sol": "<p>चरण: प्रतिबंधन एंजाइम से DNA को विशिष्ट स्थानों पर काटना (B) → वांछित DNA खंड का पृथक्करण (C) → PCR द्वारा उपयोगी जीन का प्रवर्धन (D) → पुनर्योगज DNA का परपोषी कोशिका में प्रवेश (A)। क्रम: B, C, D, A।</p>",
+     "hint": "परपोषी में प्रवेश अंतिम है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2043,10 +2547,22 @@
       "BAC",
       "YAC",
       "pBR322"
-     ]
+     ],
+     "sol": "<p>pBR322, BAC (bacterial artificial chromosome) and YAC (yeast artificial chromosome) are cloning vectors. A <b>probe</b> is a labelled nucleic acid used to detect a complementary sequence, not a vector.</p>",
+     "hint": "Which one only detects DNA?"
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा क्लोनिंग संवाहक नहीं है?",
+     "o": [
+      "प्रोब (probe)",
+      "BAC",
+      "YAC",
+      "pBR322"
+     ],
+     "sol": "<p>pBR322, BAC (जीवाणु कृत्रिम गुणसूत्र) तथा YAC (यीस्ट कृत्रिम गुणसूत्र) क्लोनिंग संवाहक हैं। <b>प्रोब</b> एक चिह्नित न्यूक्लिक अम्ल है जो पूरक अनुक्रम का पता लगाने में प्रयुक्त होता है, संवाहक नहीं।</p>",
+     "hint": "कौन-सा केवल DNA का पता लगाता है?",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2089,10 +2605,22 @@
       "Most commonly used bio-reactors are of stirring type",
       "Bio-reactors are used to produce small scale bacterial cultures",
       "Bio-reactors have an agitator system, an oxygen delivery system and foam control system"
-     ]
+     ],
+     "sol": "<p>Bioreactors are vessels of 100–1000 litres used to produce products on a <b>large scale</b>; small-volume cultures are grown in flasks in the lab. So statement 3 is incorrect. Optimal conditions, stirred-tank type being most common, and agitator, oxygen-delivery and foam-control systems are all correct.</p>",
+     "hint": "Bioreactor = large scale."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन गलत है?",
+     "o": [
+      "बायोरिएक्टर वांछित उत्पाद प्राप्त करने के लिए अनुकूलतम वृद्धि दशाएँ प्रदान करता है",
+      "सबसे अधिक प्रयुक्त बायोरिएक्टर विलोडक प्रकार के होते हैं",
+      "बायोरिएक्टर छोटे पैमाने पर जीवाणु संवर्धन बनाने के लिए प्रयुक्त होते हैं",
+      "बायोरिएक्टर में प्रक्षोभक तंत्र, ऑक्सीजन प्रदाय तंत्र तथा झाग नियंत्रण तंत्र होते हैं"
+     ],
+     "sol": "<p>बायोरिएक्टर 100–1000 लीटर के पात्र हैं जो <b>बड़े पैमाने</b> पर उत्पादन के लिए प्रयुक्त होते हैं; छोटे आयतन के संवर्धन प्रयोगशाला में फ्लास्क में उगाए जाते हैं। अतः कथन 3 गलत है। अनुकूलतम दशाएँ, विलोडक प्रकार का सबसे सामान्य होना, तथा प्रक्षोभक, ऑक्सीजन प्रदाय और झाग नियंत्रण तंत्र — सब सही हैं।</p>",
+     "hint": "बायोरिएक्टर = बड़ा पैमाना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2135,10 +2663,22 @@
       "6 bp",
       "4 bp",
       "10 bp"
-     ]
+     ],
+     "sol": "<p>NCERT: Hind II always cuts DNA at a particular point by recognising a specific sequence of <b>six base pairs</b> (6 bp), its recognition sequence.</p>",
+     "hint": "NCERT gives the number."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "Hind II DNA अणुओं को सदैव एक विशेष बिंदु पर काटता है जिसे पहचान अनुक्रम कहते हैं, और यह होता है :",
+     "o": [
+      "8 bp",
+      "6 bp",
+      "4 bp",
+      "10 bp"
+     ],
+     "sol": "<p>NCERT: Hind II <b>छह क्षार युग्मों</b> (6 bp) के विशिष्ट अनुक्रम — अपने पहचान अनुक्रम — को पहचानकर DNA को सदैव एक विशेष बिंदु पर काटता है।</p>",
+     "hint": "NCERT संख्या देता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2181,10 +2721,22 @@
       "The gene 'X' is responsible for controlling the copy number of the linked DNA and 'Y' for protein involved in the replication of plasmid.",
       "The gene 'X' is for protein involved in replication of plasmid and 'Y' for resistance to antibiotics.",
       "Gene 'X' is responsible for recognition sites and 'Y' is responsible for antibiotic resistance."
-     ]
+     ],
+     "sol": "<p>In the pBR322 map (read from the paper), X marks <b>ori</b> and Y marks <b>rop</b>. ori controls the copy number of the linked DNA, and rop codes for proteins involved in replication of the plasmid. So option 2.</p>",
+     "hint": "NCERT figure: ori and rop sit near PvuII."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित आरेख E. coli क्लोनिंग संवाहक pBR322 में प्रतिबंधन स्थल दर्शाता है। 'X' तथा 'Y' जीनों की भूमिका ज्ञात कीजिए :",
+     "o": [
+      "जीन 'X' प्रतिजैविकों के प्रतिरोध के लिए उत्तरदायी है और 'Y' प्लाज्मिड के प्रतिकृतियन में भाग लेने वाली प्रोटीन के लिए।",
+      "जीन 'X' जुड़े DNA की प्रतिरूप संख्या नियंत्रित करने के लिए उत्तरदायी है और 'Y' प्लाज्मिड के प्रतिकृतियन में भाग लेने वाली प्रोटीन के लिए।",
+      "जीन 'X' प्लाज्मिड के प्रतिकृतियन में भाग लेने वाली प्रोटीन के लिए है और 'Y' प्रतिजैविकों के प्रतिरोध के लिए।",
+      "जीन 'X' पहचान स्थलों के लिए उत्तरदायी है और 'Y' प्रतिजैविक प्रतिरोध के लिए।"
+     ],
+     "sol": "<p>pBR322 के मानचित्र (प्रश्नपत्र से पढ़ा गया) में X <b>ori</b> और Y <b>rop</b> को दर्शाता है। ori जुड़े DNA की प्रतिरूप संख्या नियंत्रित करता है, और rop प्लाज्मिड के प्रतिकृतियन में भाग लेने वाली प्रोटीनों का कूटलेखन करता है। अतः विकल्प 2।</p>",
+     "hint": "NCERT चित्र: ori और rop, PvuII के पास।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2226,12 +2778,24 @@
      "o": [
       "Tumour inhibiting plasmid",
       "Tumor independent plasmid",
-      "Tumor inducing plasmid https://admin.esaral.com/quiz-pdf/6104 eSaral",
+      "Tumor inducing plasmid",
       "Temperature independent plasmid"
-     ]
+     ],
+     "sol": "<p>Ti = <b>tumour-inducing</b>: the Ti plasmid of <i>Agrobacterium tumefaciens</i> transforms normal plant cells into tumour cells. It has been modified into a non-pathogenic cloning vector.</p>",
+     "hint": "Crown gall tumours."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "<i>Agrobacterium tumefaciens</i> का \"Ti प्लाज्मिड\" किसका संक्षिप्त रूप है?",
+     "o": [
+      "अर्बुद निरोधी प्लाज्मिड",
+      "अर्बुद स्वतंत्र प्लाज्मिड",
+      "अर्बुद प्रेरक प्लाज्मिड",
+      "ताप स्वतंत्र प्लाज्मिड"
+     ],
+     "sol": "<p>Ti = <b>अर्बुद प्रेरक</b>: <i>Agrobacterium tumefaciens</i> का Ti प्लाज्मिड सामान्य पादप कोशिकाओं को अर्बुद कोशिकाओं में रूपांतरित करता है। इसे अब अरोगजनक क्लोनिंग संवाहक में बदल दिया गया है।</p>",
+     "hint": "पादपों में गाँठ जैसे अर्बुद।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2274,10 +2838,22 @@
       "B and C only",
       "A and E only",
       "A and B only"
-     ]
+     ],
+     "sol": "<p>NCERT: a piece of DNA carrying only the gene of interest, without an origin of replication, cannot multiply on its own in the progeny cells (A and E are wrong). It may get integrated into the recipient's genome (B) and then multiply and be inherited along with the host DNA (C). B and C only.</p>",
+     "hint": "Without ori it can only ride along with the host DNA."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "केवल उपयोगी जीन वाले DNA खंड को किसी विजातीय जीव में स्थानांतरित करने पर उसका क्या होता है?<br>A. DNA खंड जीव की संतति कोशिकाओं में स्वतंत्र रूप से गुणित हो सकेगा।<br>B. यह प्राप्तकर्ता के जीनोम में समाकलित हो सकता है।<br>C. यह गुणित होकर परपोषी DNA के साथ वंशागत हो सकता है।<br>D. विजातीय DNA खंड गुणसूत्र का अभिन्न भाग नहीं होता।<br>E. यह प्रतिकृति करने की क्षमता दर्शाता है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल D तथा E",
+      "केवल B तथा C",
+      "केवल A तथा E",
+      "केवल A तथा B"
+     ],
+     "sol": "<p>NCERT: केवल उपयोगी जीन वाला DNA खंड, जिसमें प्रतिकृतीयन का उद्भव नहीं है, संतति कोशिकाओं में स्वयं गुणित नहीं हो सकता (A तथा E गलत)। यह प्राप्तकर्ता के जीनोम में समाकलित हो सकता है (B) और फिर परपोषी DNA के साथ गुणित होकर वंशागत हो सकता है (C)। केवल B तथा C।</p>",
+     "hint": "ori के बिना यह केवल परपोषी DNA के साथ ही बढ़ सकता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2320,10 +2896,22 @@
       "2<sup>n</sup>",
       "2n + 1",
       "2N<sup>2</sup>"
-     ]
+     ],
+     "sol": "<p>Each PCR cycle doubles the DNA, so after n cycles one template gives <b>2<sup>n</sup></b> copies (about a billion after 30 cycles).</p>",
+     "hint": "Doubling each cycle."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पॉलिमरेज शृंखला अभिक्रिया (PCR) किस समीकरण के अनुसार DNA का प्रवर्धन करती है?",
+     "o": [
+      "N<sup>2</sup>",
+      "2<sup>n</sup>",
+      "2n + 1",
+      "2N<sup>2</sup>"
+     ],
+     "sol": "<p>प्रत्येक PCR चक्र DNA को दोगुना करता है, अतः n चक्रों के बाद एक टेम्पलेट से <b>2<sup>n</sup></b> प्रतियाँ बनती हैं (30 चक्रों में लगभग एक अरब)।</p>",
+     "hint": "प्रत्येक चक्र में दोगुना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2366,10 +2954,22 @@
       "Blue colour colonies will be selected",
       "White colour colonies will be selected",
       "Blue colour colonies grown on ampicillin plates can be selected"
-     ]
+     ],
+     "sol": "<p>The plasmid in the figure (read from the paper) has ori, amp, tet<sup>R</sup> and the β-galactosidase gene with an EcoRI site inside it. An insert at EcoRI inactivates β-galactosidase (insertional inactivation). On a chromogenic substrate, colonies with this enzyme turn blue; recombinant colonies, lacking it, stay <b>white</b> — so white colonies are selected.</p>",
+     "hint": "Insert breaks the colour-making gene."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "ऊपर दर्शाए गए प्लाज्मिड में विजातीय DNA का एक खंड EcoRI स्थल पर जोड़ा गया है। पुनर्योगज निवहों के वरण के लिए निम्नलिखित में से कौन-सी रणनीति चुनी जाएगी?",
+     "o": [
+      "ऐम्पिसिलिन तथा टेट्रासाइक्लिन युक्त माध्यम प्लेट का उपयोग",
+      "नीले रंग के निवह चुने जाएँगे",
+      "सफेद रंग के निवह चुने जाएँगे",
+      "ऐम्पिसिलिन प्लेटों पर उगे नीले रंग के निवह चुने जा सकते हैं"
+     ],
+     "sol": "<p>चित्र के प्लाज्मिड (प्रश्नपत्र से पढ़ा गया) में ori, amp, tet<sup>R</sup> तथा β-गैलेक्टोसाइडेज जीन है जिसके भीतर EcoRI स्थल है। EcoRI पर जोड़ा गया खंड β-गैलेक्टोसाइडेज को निष्क्रिय करता है (निवेशी निष्क्रियता)। वर्णोत्पादक क्रियाधार पर यह एंजाइम रखने वाले निवह नीले हो जाते हैं; इसके बिना पुनर्योगज निवह <b>सफेद</b> रहते हैं — अतः सफेद निवह चुने जाते हैं।</p>",
+     "hint": "जोड़ा गया खंड रंग बनाने वाले जीन को तोड़ता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2413,10 +3013,22 @@
       "B",
       "D",
       "C"
-     ]
+     ],
+     "sol": "<p>In the stirred-tank bioreactor figure (read from the paper): B is the motor at the top, <b>C</b> is the foam breaker just below it, A is the flat-bladed impeller and D is the sterile air inlet. The foam breaker is C (option 4).</p>",
+     "hint": "Foam forms at the top of the liquid."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "दिए गए चित्र से बायोरिएक्टर का वह भाग पहचानिए जो झाग तोड़क (foam breaker) के रूप में प्रयुक्त होता है।",
+     "o": [
+      "A",
+      "B",
+      "D",
+      "C"
+     ],
+     "sol": "<p>विलोडक-टंकी बायोरिएक्टर के चित्र (प्रश्नपत्र से पढ़ा गया) में: B ऊपर की मोटर है, उसके ठीक नीचे <b>C</b> झाग तोड़क है, A सपाट पंखुड़ी वाला प्रणोदक है और D निर्जीवाणु वायु का प्रवेश है। झाग तोड़क C है (विकल्प 4)।</p>",
+     "hint": "झाग द्रव के ऊपरी भाग में बनता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2460,10 +3072,22 @@
       "Both statement I and statement II are incorrect",
       "Statement I is correct but statement II is incorrect",
       "Statement I is incorrect but statement II is correct"
-     ]
+     ],
+     "sol": "<p>Statement I is correct: bands cut out of the gel (elution) are purified and used to construct recombinant DNA. Statement II is correct: DNA moves towards the anode; smaller fragments travel farther (towards the anode) while larger ones stay near the wells. Both correct.</p>",
+     "hint": "Small = far from the wells."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : जेल वैद्युत कण संचलन से निष्कर्षित DNA खंडों का उपयोग पुनर्योगज DNA के निर्माण में हो सकता है।<br>कथन II : ऐगारोज जेल में छोटे आकार के DNA खंड एनोड के पास तथा बड़े खंड कुओं (wells) के पास पाए जाते हैं।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों सही हैं",
+      "कथन I तथा कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है"
+     ],
+     "sol": "<p>कथन I सही है: जेल से काटकर निकाली गई पट्टियाँ (क्षालन) शोधित कर पुनर्योगज DNA बनाने में प्रयुक्त होती हैं। कथन II सही है: DNA एनोड की ओर जाता है; छोटे खंड अधिक दूर (एनोड की ओर) जाते हैं जबकि बड़े कुओं के पास रहते हैं। दोनों सही।</p>",
+     "hint": "छोटे = कुओं से दूर।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2506,10 +3130,22 @@
       "A and B only",
       "D and E only",
       "B and C only"
-     ]
+     ],
+     "sol": "<p>Gene cloning needs restriction enzymes (to cut), DNA ligase (to join) and DNA polymerase (e.g. in PCR amplification). 'DNA mutase' (C) and 'DNA recombinase' (D) are not tools of recombinant DNA technology in NCERT, so they are not essential. C and D only.</p>",
+     "hint": "Cut, join, copy."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से एंजाइम जीन क्लोनिंग के लिए आवश्यक नहीं हैं?<br>A. प्रतिबंधन एंजाइम<br>B. DNA लाइगेज<br>C. DNA म्यूटेज़ (mutase)<br>D. DNA रिकॉम्बिनेज़ (recombinase)<br>E. DNA पॉलिमरेज<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल C तथा D",
+      "केवल A तथा B",
+      "केवल D तथा E",
+      "केवल B तथा C"
+     ],
+     "sol": "<p>जीन क्लोनिंग में प्रतिबंधन एंजाइम (काटने), DNA लाइगेज (जोड़ने) तथा DNA पॉलिमरेज (जैसे PCR प्रवर्धन में) आवश्यक हैं। 'DNA म्यूटेज़' (C) तथा 'DNA रिकॉम्बिनेज़' (D) NCERT में पुनर्योगज DNA तकनीक के उपकरण नहीं हैं, अतः आवश्यक नहीं। केवल C तथा D।</p>",
+     "hint": "काटना, जोड़ना, प्रतिलिपि बनाना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2552,10 +3188,22 @@
       "Both Statement I and Statement II are incorrect",
       "Statement I is correct but Statement II is incorrect",
       "Statement I is incorrect but Statement II is correct"
-     ]
+     ],
+     "sol": "<p>The insert sits inside the β-galactosidase gene and inactivates it. Recombinant colonies therefore cannot act on the chromogenic substrate and stay <b>colourless (white)</b>; blue colonies have no insert. Statement I is incorrect, Statement II is correct.</p>",
+     "hint": "Blue = enzyme intact = no insert."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीले तथा सफेद वरणयोग्य चिह्नक विकसित किए गए हैं जो वर्णोत्पादक क्रियाधार की उपस्थिति में रंग उत्पन्न करने की क्षमता के आधार पर पुनर्योगज निवहों को अपुनर्योगज निवहों से अलग करते हैं। इस विधि के बारे में दो कथन नीचे दिए गए हैं :<br>कथन I : नीले रंग के निवहों के प्लाज्मिड में DNA संसर्गिका होती है और उन्हें पुनर्योगज निवहों के रूप में पहचाना जाता है।<br>कथन II : नीले रंग रहित निवहों के प्लाज्मिड में DNA संसर्गिका होती है और उन्हें पुनर्योगज निवहों के रूप में पहचाना जाता है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I तथा कथन II दोनों सही हैं",
+      "कथन I तथा कथन II दोनों गलत हैं",
+      "कथन I सही है परंतु कथन II गलत है",
+      "कथन I गलत है परंतु कथन II सही है"
+     ],
+     "sol": "<p>संसर्गिका β-गैलेक्टोसाइडेज जीन के भीतर बैठकर उसे निष्क्रिय कर देती है। अतः पुनर्योगज निवह वर्णोत्पादक क्रियाधार पर क्रिया नहीं कर पाते और <b>रंगहीन (सफेद)</b> रहते हैं; नीले निवहों में संसर्गिका नहीं होती। कथन I गलत, कथन II सही।</p>",
+     "hint": "नीला = एंजाइम अक्षत = संसर्गिका नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2598,10 +3246,22 @@
       "Ampicillin",
       "Tetracycline",
       "Gentamycin"
-     ]
+     ],
+     "sol": "<p>In pBR322 the BamHI site lies inside the tetracycline-resistance gene (tet<sup>R</sup>). Inserting foreign DNA there inactivates tet<sup>R</sup>, so the recombinant loses resistance to <b>tetracycline</b> but keeps ampicillin resistance.</p>",
+     "hint": "BamHI and SalI are in tet<sup>R</sup>; PstI and PvuI in amp<sup>R</sup>."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "E. coli क्लोनिंग संवाहक pBR322 में BamHI स्थल पर विजातीय DNA जोड़ने से किसके प्रति प्रतिजैविक प्रतिरोध समाप्त हो जाता है?",
+     "o": [
+      "ऐम्पिसिलिन तथा टेट्रासाइक्लिन",
+      "ऐम्पिसिलिन",
+      "टेट्रासाइक्लिन",
+      "जेंटामाइसिन"
+     ],
+     "sol": "<p>pBR322 में BamHI स्थल टेट्रासाइक्लिन प्रतिरोध जीन (tet<sup>R</sup>) के भीतर है। वहाँ विजातीय DNA जोड़ने से tet<sup>R</sup> निष्क्रिय हो जाता है, अतः पुनर्योगज <b>टेट्रासाइक्लिन</b> के प्रति प्रतिरोध खो देता है पर ऐम्पिसिलिन प्रतिरोध बना रहता है।</p>",
+     "hint": "BamHI तथा SalI tet<sup>R</sup> में; PstI तथा PvuI amp<sup>R</sup> में।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2644,11 +3304,23 @@
       "A and B only",
       "B and D only",
       "A and D only",
-      "B and C only w: NEET 2"
-     ]
+      "B and C only"
+     ],
+     "sol": "<ul><li>A — true: DNA is cut by restriction enzymes, the 'molecular scissors'.</li><li>B — true: fragments separate by size in agarose gel electrophoresis.</li><li>C — false: DNA cannot be seen without staining.</li><li>D — false: ethidium-bromide-stained DNA is seen under UV light, not visible light.</li></ul><p>A and B only.</p>",
+     "hint": "Staining and UV are both needed."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "DNA के पृथक्करण, निष्कर्षण तथा दृश्यीकरण के संबंध में निम्नलिखित में से कौन-से कथन सही हैं?<br>A. DNA की कटाई आणविक कैंची द्वारा की जाती है।<br>B. वैद्युत कण संचलन पर ऐगारोज जेल में DNA खंड अपने आकार के अनुसार पृथक होते हैं।<br>C. पृथक DNA खंड पराबैंगनी (UV) प्रकाश में बिना अभिरंजन के देखे जा सकते हैं।<br>D. इथीडियम ब्रोमाइड से अभिरंजित पृथक DNA खंड दृश्य प्रकाश में देखे जा सकते हैं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A तथा B",
+      "केवल B तथा D",
+      "केवल A तथा D",
+      "केवल B तथा C"
+     ],
+     "sol": "<ul><li>A — सही: DNA प्रतिबंधन एंजाइमों, अर्थात् 'आणविक कैंची', से काटा जाता है।</li><li>B — सही: ऐगारोज जेल वैद्युत कण संचलन में खंड आकार के अनुसार अलग होते हैं।</li><li>C — गलत: बिना अभिरंजन के DNA नहीं दिखता।</li><li>D — गलत: इथीडियम ब्रोमाइड से अभिरंजित DNA पराबैंगनी (UV) प्रकाश में दिखता है, दृश्य प्रकाश में नहीं।</li></ul><p>केवल A तथा B।</p>",
+     "hint": "अभिरंजन और पराबैंगनी (UV) दोनों आवश्यक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2692,10 +3364,22 @@
       "Denaturation → Annealing → Extension",
       "Annealing → Denaturation → Extension",
       "Extension → Annealing → Denaturation"
-     ]
+     ],
+     "sol": "<p>Each PCR cycle: <b>denaturation → annealing → extension</b>.</p>",
+     "hint": "Separate, bind primers, extend."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "पॉलिमरेज शृंखला अभिक्रिया के प्रत्येक चक्र में चरणों का सही क्रम पहचानिए :",
+     "o": [
+      "विकृतीकरण → विस्तार → तापानुशीतन",
+      "विकृतीकरण → तापानुशीतन → विस्तार",
+      "तापानुशीतन → विकृतीकरण → विस्तार",
+      "विस्तार → तापानुशीतन → विकृतीकरण"
+     ],
+     "sol": "<p>प्रत्येक PCR चक्र: <b>विकृतीकरण → तापानुशीतन → विस्तार</b>।</p>",
+     "hint": "अलग करना, उपक्रमक जोड़ना, बढ़ाना।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2739,10 +3423,22 @@
       "A and E only",
       "D and E only",
       "A and B only"
-     ]
+     ],
+     "sol": "<ul><li>A — true: they are called molecular scissors.</li><li>B — true: they restrict the growth of bacteriophages in <i>E. coli</i> (hence the name).</li><li>C — not true: they cut a little away from the centre of the palindrome.</li><li>D — not true: removing nucleotides from the ends is done by exonucleases; restriction endonucleases cut within the DNA.</li><li>E — true: they recognise specific palindromic sequences.</li></ul><p>Not true: C and D only.</p>",
+     "hint": "Two statements describe something else."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "प्रतिबंधन एंडोन्यूक्लिएज के संबंध में निम्नलिखित में से कौन-से कथन सत्य नहीं हैं?<br>A. इन्हें आणविक कैंची कहते हैं।<br>B. ये E. coli में जीवाणुभोजियों की वृद्धि को प्रतिबंधित करने वाले एंजाइम हैं।<br>C. ये DNA को केवल पैलिंड्रोमिक स्थलों के केंद्र पर काटते हैं।<br>D. ये DNA खंडों के केवल छोरों से न्यूक्लियोटाइड हटाते हैं।<br>E. ये विशिष्ट पैलिंड्रोमिक क्षार-युग्म अनुक्रम पहचानते हैं।<br>नीचे दिए गए विकल्पों में से उत्तर चुनिए :",
+     "o": [
+      "केवल C तथा D",
+      "केवल A तथा E",
+      "केवल D तथा E",
+      "केवल A तथा B"
+     ],
+     "sol": "<ul><li>A — सत्य: इन्हें आणविक कैंची कहते हैं।</li><li>B — सत्य: ये <i>E. coli</i> में जीवाणुभोजियों की वृद्धि प्रतिबंधित करते हैं (इसी से नाम)।</li><li>C — सत्य नहीं: ये पैलिंड्रोम के केंद्र से थोड़ा हटकर काटते हैं।</li><li>D — सत्य नहीं: छोरों से न्यूक्लियोटाइड हटाना एक्सोन्यूक्लिएज का कार्य है; प्रतिबंधन एंडोन्यूक्लिएज DNA के भीतर काटते हैं।</li><li>E — सत्य: ये विशिष्ट पैलिंड्रोमिक अनुक्रम पहचानते हैं।</li></ul><p>सत्य नहीं: केवल C तथा D।</p>",
+     "hint": "दो कथन किसी और का वर्णन करते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2786,10 +3482,22 @@
       "A-II, B-III, C-I, D-IV",
       "A-I, B-IV, C-III, D-II",
       "A-I, B-II, C-IV, D-III"
-     ]
+     ],
+     "sol": "<ul><li>A Genetically modified organism — Bt cotton (II).</li><li>B Thermostable DNA polymerase — <i>Thermus aquaticus</i> (III).</li><li>C Ti plasmid — <i>Agrobacterium tumefaciens</i> (I).</li><li>D pBR322 — <i>Escherichia coli</i> vector (IV).</li></ul><p>A-II, B-III, C-I, D-IV.</p>",
+     "hint": "Taq from Thermus; Ti from Agrobacterium."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. आनुवंशिकतः रूपांतरित जीव — I. <i>Agrobacterium tumefaciens</i><br>B. तापस्थायी DNA पॉलिमरेज — II. Bt कपास<br>C. Ti प्लाज्मिड — III. <i>Thermus aquaticus</i><br>D. pBR322 — IV. <i>Escherichia coli</i>",
+     "o": [
+      "A-II, B-I, C-IV, D-III",
+      "A-II, B-III, C-I, D-IV",
+      "A-I, B-IV, C-III, D-II",
+      "A-I, B-II, C-IV, D-III"
+     ],
+     "sol": "<ul><li>A आनुवंशिकतः रूपांतरित जीव — Bt कपास (II)।</li><li>B तापस्थायी DNA पॉलिमरेज — <i>Thermus aquaticus</i> (III)।</li><li>C Ti प्लाज्मिड — <i>Agrobacterium tumefaciens</i> (I)।</li><li>D pBR322 — <i>Escherichia coli</i> संवाहक (IV)।</li></ul><p>A-II, B-III, C-I, D-IV।</p>",
+     "hint": "Taq <i>Thermus</i> से; Ti <i>Agrobacterium</i> से।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -2825,5 +3533,145 @@
     "note": "Code 13 booklet Q91."
    }
   }
- ]
+ ],
+ "paraTrends": {
+  "9.2.1": {
+   "neet": 13,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2022,
+    2021,
+    2020,
+    2019,
+    2016,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "9.2.2": {
+   "neet": 17,
+   "jee": 0,
+   "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2018,
+    2017,
+    2016,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "9.3.4": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2023,
+    2015
+   ],
+   "last": 2023,
+   "recent": false
+  },
+  "9.3.3": {
+   "neet": 10,
+   "jee": 0,
+   "years": [
+    2026,
+    2025,
+    2022,
+    2021,
+    2020,
+    2018,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "9.3.5": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2025,
+    2024,
+    2019,
+    2016
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "9.3.6": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2017,
+    2016
+   ],
+   "last": 2017,
+   "recent": false
+  },
+  "9.3.2": {
+   "neet": 9,
+   "jee": 0,
+   "years": [
+    2026,
+    2025,
+    2023,
+    2022,
+    2021,
+    2020,
+    2017
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "9.3.1": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2023,
+    2021,
+    2019
+   ],
+   "last": 2023,
+   "recent": false
+  },
+  "9.1": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2024,
+    2020
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "9.3": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2023
+   ],
+   "last": 2023,
+   "recent": false
+  },
+  "9.2": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2025
+   ],
+   "last": 2025,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3
 }

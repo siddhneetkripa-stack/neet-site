@@ -80,10 +80,22 @@
       "The first word in a biological name represents the genus name, and the second is a specific epithet",
       "The names are written in Latin and are italicised",
       "When written by hand, the names are to be underlined"
-     ]
+     ],
+     "sol": "<p>NCERT 1.1 lists the rules: biological names are generally in <b>Latin</b> (or Latinised) and italicised; the first word is the genus, the second the specific epithet; handwritten names are underlined separately. So 'biological names can be written in <b>any language</b>' is contrary to the rules.</p>",
+     "hint": "One language for all."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नाम-पद्धति कुछ सार्वत्रिक नियमों द्वारा नियंत्रित होती है। निम्नलिखित में से कौन-सा नाम-पद्धति के नियमों के विपरीत है?",
+     "o": [
+      "जैविक नाम किसी भी भाषा में लिखे जा सकते हैं",
+      "जैविक नाम का पहला शब्द वंशनाम तथा दूसरा जाति संकेत पद होता है",
+      "नाम लैटिन में तथा तिरछे अक्षरों में लिखे जाते हैं",
+      "हाथ से लिखते समय नामों को रेखांकित किया जाता है"
+     ],
+     "sol": "<p>NCERT 1.1 में नियम दिए गए हैं: जैविक नाम प्रायः <b>लैटिन</b> (या लैटिनीकृत) में तथा तिरछे अक्षरों में होते हैं; पहला शब्द वंशनाम और दूसरा जाति संकेत पद होता है; हाथ से लिखते समय दोनों शब्दों को अलग-अलग रेखांकित किया जाता है। अतः 'जैविक नाम <b>किसी भी भाषा</b> में लिखे जा सकते हैं' नियमों के विपरीत है।</p>",
+     "hint": "सबके लिए एक भाषा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -126,10 +138,22 @@
       "Name of collector",
       "Local names",
       "Height of the plant"
-     ]
+     ],
+     "sol": "<p>A herbarium label records the date and place of collection, the collector's name, the botanical and local (English/vernacular) names and the family. The <b>height of the plant</b> is not a standard label entry. (Taxonomic aids were in the old NCERT chapter; removed in the rationalised book.)</p>",
+     "hint": "A pressed sheet cannot show height — and the label doesn't either."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "हर्बेरियम (herbarium) शीट के लेबल पर किसकी जानकारी नहीं होती?",
+     "o": [
+      "संग्रह की तिथि",
+      "संग्रहकर्ता का नाम",
+      "स्थानीय नाम",
+      "पौधे की ऊँचाई"
+     ],
+     "sol": "<p>हर्बेरियम लेबल पर संग्रह की तिथि और स्थान, संग्रहकर्ता का नाम, वानस्पतिक तथा स्थानीय नाम और कुल लिखे जाते हैं। <b>पौधे की ऊँचाई</b> लेबल की मानक प्रविष्टि नहीं है। (वर्गिकी सहायक साधन पुरानी NCERT के अध्याय में थे; युक्तिसंगत पुस्तक से हटाए गए।)</p>",
+     "hint": "दबाई गई शीट ऊँचाई नहीं दिखाती — लेबल भी नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -172,10 +196,22 @@
       "(a) iii, (b) ii, (c) iv, (d) i",
       "(a) iv, (b) iii, (c) ii, (d) i",
       "(a) iv, (b) ii, (c) i, (d) iii"
-     ]
+     ],
+     "sol": "<p>NCERT Table 1.1, housefly (<i>Musca domestica</i>): genus <i>Musca</i>, family <b>Muscidae</b>, order <b>Diptera</b>, class <b>Insecta</b>, phylum <b>Arthropoda</b>. So (a) iii, (b) i, (c) iv, (d) ii.</p>",
+     "hint": "Muscidae → Diptera → Insecta → Arthropoda."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "घरेलू मक्खी के वर्गीकरण के लिए स्तंभ I का स्तंभ II से मिलान कीजिए और नीचे दिए गए कूटों से सही विकल्प चुनिए :<br>(a) कुल — (i) डिप्टेरा<br>(b) गण — (ii) आर्थ्रोपोडा<br>(c) वर्ग — (iii) म्यूसीडी<br>(d) संघ — (iv) इंसेक्टा (Insecta)",
+     "o": [
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) iii, (b) ii, (c) iv, (d) i",
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) iv, (b) ii, (c) i, (d) iii"
+     ],
+     "sol": "<p>NCERT तालिका 1.1, घरेलू मक्खी (<i>Musca domestica</i>): वंश <i>Musca</i>, कुल <b>म्यूसीडी</b>, गण <b>डिप्टेरा</b>, वर्ग <b>इंसेक्टा</b>, संघ <b>आर्थ्रोपोडा</b>। अतः (a) iii, (b) i, (c) iv, (d) ii।</p>",
+     "hint": "म्यूसीडी → डिप्टेरा → इंसेक्टा → आर्थ्रोपोडा।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -218,10 +254,22 @@
       "C and D",
       "A and D",
       "A and B"
-     ]
+     ],
+     "sol": "<ul><li>A. Ernst Mayr gave the biological species concept — correct (NCERT box on Mayr).</li><li>B. Photoperiod does affect reproduction (flowering) in plants — wrong.</li><li>C. Binomial nomenclature was given by Carolus Linnaeus, not Whittaker (five-kingdom classification) — wrong.</li><li>D. In unicellular organisms, growth (cell division) and reproduction are the same event — correct.</li></ul><p>A and D.</p>",
+     "hint": "Linnaeus, not Whittaker."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "नीचे दिए गए चार कथनों (A–D) का अध्ययन कीजिए और उनमें से दो सही कथन चुनिए :<br>A. जैविक जाति की परिभाषा एर्नस्ट मेयर ने दी थी।<br>B. दीप्तिकाल पौधों में जनन को प्रभावित नहीं करता।<br>C. द्विपदनाम पद्धति R.H. व्हिटेकर ने दी थी।<br>D. एककोशिकीय जीवों में जनन वृद्धि का पर्याय है।",
+     "o": [
+      "B तथा C",
+      "C तथा D",
+      "A तथा D",
+      "A तथा B"
+     ],
+     "sol": "<ul><li>A. जैविक जाति की संकल्पना एर्नस्ट मेयर ने दी — सही (NCERT में मेयर पर बॉक्स)।</li><li>B. दीप्तिकाल पौधों में जनन (पुष्पन) को प्रभावित करता है — गलत।</li><li>C. द्विपदनाम पद्धति कैरोलस लीनियस ने दी, व्हिटेकर ने नहीं (उन्होंने पाँच जगत वर्गीकरण दिया) — गलत।</li><li>D. एककोशिकीय जीवों में वृद्धि (कोशिका विभाजन) और जनन एक ही घटना है — सही।</li></ul><p>A तथा D।</p>",
+     "hint": "लीनियस, व्हिटेकर नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -267,10 +315,22 @@
       "Perissodactyla",
       "Caballus",
       "Ferus"
-     ]
+     ],
+     "sol": "<p>Horse, <i>Equus caballus</i> (subspecies of <i>Equus ferus</i>): genus <i>Equus</i>, family Equidae, order <b>Perissodactyla</b> (odd-toed hoofed mammals). <i>caballus</i>/<i>ferus</i> are species-level names. (Beyond the NCERT table.)</p>",
+     "hint": "Odd-toed ungulates."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन 'घोड़े' के गण को दर्शाता है?",
+     "o": [
+      "Equidae",
+      "Perissodactyla",
+      "Caballus",
+      "Ferus"
+     ],
+     "sol": "<p>घोड़ा, <i>Equus caballus</i> (<i>Equus ferus</i> की उपजाति): वंश <i>Equus</i>, कुल Equidae, गण <b>Perissodactyla</b> (विषम अंगुल खुर वाले स्तनधारी)। <i>caballus</i>/<i>ferus</i> जाति स्तर के नाम हैं। (NCERT तालिका से बाहर।)</p>",
+     "hint": "विषम अंगुल खुर वाले।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -314,10 +374,22 @@
       "(a) iii, (b) ii, (c) i, (d) iv",
       "(a) i, (b) iv, (c) iii, (d) ii",
       "(a) iii, (b) iv, (c) i, (d) ii"
-     ]
+     ],
+     "sol": "<ul><li>(a) Herbarium — store of dried, pressed plant specimens mounted on sheets (iii).</li><li>(b) Key — booklet of characters and their alternates (couplets) used for identification (iv).</li><li>(c) Museum — collection of preserved plants and animals (i).</li><li>(d) Catalogue — methodical list of all species in an area with brief descriptions (ii).</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii. (Taxonomic aids: old NCERT; removed in the rationalised book.)</p>",
+     "hint": "Herbarium = plants only; museum = plants and animals."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "स्तंभ I में दी गई मदों का स्तंभ II की मदों से मिलान कीजिए और नीचे दिया गया सही विकल्प चुनिए :<br>(a) हर्बेरियम — (i) यह परिरक्षित पौधों और जंतुओं के संग्रह वाला स्थान है।<br>(b) कुंजी (key) — (ii) वह सूची जो किसी क्षेत्र में पाई जाने वाली सभी जातियों को पहचान में सहायक संक्षिप्त विवरण के साथ क्रमबद्ध रूप से गिनाती है।<br>(c) संग्रहालय (museum) — (iii) वह स्थान जहाँ शीटों पर लगाए गए सूखे और दबाए गए पादप नमूने रखे जाते हैं।<br>(d) सूचीपत्र (catalogue) — (iv) लक्षणों और उनके विकल्पों की सूची वाली पुस्तिका जो विभिन्न वर्गकों की पहचान में सहायक है।",
+     "o": [
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iii, (b) ii, (c) i, (d) iv",
+      "(a) i, (b) iv, (c) iii, (d) ii",
+      "(a) iii, (b) iv, (c) i, (d) ii"
+     ],
+     "sol": "<ul><li>(a) हर्बेरियम — शीटों पर लगाए गए सूखे, दबाए गए पादप नमूनों का भंडार (iii)।</li><li>(b) कुंजी — पहचान के लिए लक्षणों और उनके विकल्पों (युग्मों) की पुस्तिका (iv)।</li><li>(c) संग्रहालय — परिरक्षित पौधों और जंतुओं का संग्रह (i)।</li><li>(d) सूचीपत्र — किसी क्षेत्र की सभी जातियों की संक्षिप्त विवरण सहित क्रमबद्ध सूची (ii)।</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii। (वर्गिकी सहायक साधन: पुरानी NCERT; युक्तिसंगत पुस्तक से हटाए गए।)</p>",
+     "hint": "हर्बेरियम = केवल पौधे; संग्रहालय = पौधे और जंतु।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -360,10 +432,22 @@
       "Mangifera Indica",
       "Mangifera indica Car. Linn.",
       "Mangifera indica Linn."
-     ]
+     ],
+     "sol": "<p>NCERT 1.1: the genus starts with a capital letter, the specific epithet with a small letter, and the name of the author who first described the species appears after the epithet in abbreviated form: <i>Mangifera indica</i> <b>Linn.</b> 'Indica' with a capital is wrong, and 'Car. Linn.' is not the accepted abbreviation.</p>",
+     "hint": "Author's name abbreviated as Linn."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "आम का सही लिखा गया वैज्ञानिक नाम चुनिए जिसका वर्णन सबसे पहले कैरोलस लीनियस ने किया था :",
+     "o": [
+      "<i>Mangifera indica</i>",
+      "<i>Mangifera Indica</i>",
+      "<i>Mangifera indica</i> Car. Linn.",
+      "<i>Mangifera indica</i> Linn."
+     ],
+     "sol": "<p>NCERT 1.1: वंशनाम बड़े अक्षर से और जाति संकेत पद छोटे अक्षर से आरंभ होता है, और जाति का सबसे पहले वर्णन करने वाले लेखक का नाम जाति संकेत पद के बाद संक्षिप्त रूप में लिखा जाता है: <i>Mangifera indica</i> <b>Linn.</b> बड़े अक्षर वाला 'Indica' गलत है, और 'Car. Linn.' मान्य संक्षेप नहीं है।</p>",
+     "hint": "लेखक का नाम संक्षेप में Linn.।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -407,10 +491,22 @@
       "Fire fly",
       "Grasshopper",
       "Cockroach"
-     ]
+     ],
+     "sol": "<p>NCERT 1.2.3: houseflies (genus <i>Musca</i>) belong to the family <b>Muscidae</b>. Fireflies are Lampyridae (beetles), grasshoppers Acrididae, cockroaches Blattidae.</p>",
+     "hint": "<i>Musca</i> → Muscidae."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन कुल म्यूसीडी से संबंधित है?",
+     "o": [
+      "घरेलू मक्खी",
+      "जुगनू (firefly)",
+      "टिड्डा",
+      "तिलचट्टा"
+     ],
+     "sol": "<p>NCERT 1.2.3: घरेलू मक्खियाँ (वंश <i>Musca</i>) कुल <b>म्यूसीडी</b> में आती हैं। जुगनू Lampyridae (भृंग), टिड्डा Acrididae और तिलचट्टा Blattidae कुल के हैं।</p>",
+     "hint": "<i>Musca</i> → म्यूसीडी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -453,10 +549,22 @@
       "Kingdom, Order, Class, Phylum, Family, Genus, Species",
       "Kingdom, Order, Phylum, Class, Family, Genus, Species",
       "Kingdom, Phylum, Class, Order, Family, Genus, Species"
-     ]
+     ],
+     "sol": "<p>The correct hierarchy is Kingdom → Phylum → Class → Order → Family → Genus → Species (option 4). Strictly, this list runs from the highest to the lowest category (descending); NCERT shows the ascending order as Species → … → Kingdom. Only option 4 has the right sequence, and the key is 4.</p>",
+     "hint": "Kingdom–Phylum–Class–Order–Family–Genus–Species."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "वर्गिकी संवर्गों में जंतुओं के संबंध में आरोही क्रम में कौन-सी पदानुक्रम व्यवस्था सही है?",
+     "o": [
+      "जगत, वर्ग, संघ, कुल, गण, वंश, जाति",
+      "जगत, गण, वर्ग, संघ, कुल, वंश, जाति",
+      "जगत, गण, संघ, वर्ग, कुल, वंश, जाति",
+      "जगत, संघ, वर्ग, गण, कुल, वंश, जाति"
+     ],
+     "sol": "<p>सही पदानुक्रम है जगत → संघ → वर्ग → गण → कुल → वंश → जाति (विकल्प 4)। वस्तुतः यह सूची उच्चतम से निम्नतम संवर्ग (अवरोही) की ओर है; NCERT आरोही क्रम को जाति → … → जगत दिखाती है। केवल विकल्प 4 का क्रम सही है, और कुंजी 4 है।</p>",
+     "hint": "जगत–संघ–वर्ग–गण–कुल–वंश–जाति।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -499,10 +607,22 @@
       "The specific epithet in the biological name starts with a small letter.",
       "Both the words in a biological name, when handwritten, are separately underlined or printed in italics.",
       "Biological names are generally in Latin."
-     ]
+     ],
+     "sol": "<p>NCERT 1.1: the <b>first</b> word is the genus and the <b>second</b> is the specific epithet. Statement 1 reverses them, so it is not true. Statements 2, 3 and 4 are rules from NCERT.</p>",
+     "hint": "Genus first."
     },
     "hi": {
-     "status": "missing"
+     "status": "draft",
+     "q": "द्विपदनाम पद्धति के सार्वत्रिक नियमों के बारे में निम्नलिखित में से कौन-सा कथन सत्य नहीं है?",
+     "o": [
+      "जैविक नाम का पहला शब्द जाति संकेत पद को दर्शाता है, जबकि दूसरा घटक वंश को बताता है।",
+      "जैविक नाम में जाति संकेत पद छोटे अक्षर से आरंभ होता है।",
+      "जैविक नाम के दोनों शब्द, हाथ से लिखते समय, अलग-अलग रेखांकित किए जाते हैं या तिरछे अक्षरों में छापे जाते हैं।",
+      "जैविक नाम प्रायः लैटिन में होते हैं।"
+     ],
+     "sol": "<p>NCERT 1.1: <b>पहला</b> शब्द वंशनाम और <b>दूसरा</b> जाति संकेत पद होता है। कथन 1 इन्हें उलट देता है, अतः सत्य नहीं है। कथन 2, 3 और 4 NCERT के नियम हैं।</p>",
+     "hint": "पहले वंशनाम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
    "answer": {
@@ -533,6 +653,332 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q126."
    }
+  },
+  {
+   "id": "bio11-01-ai-1-2-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the names <i>Mangifera indica</i>, <i>Solanum tuberosum</i> and <i>Panthera leo</i>, the words <i>indica</i>, <i>tuberosum</i> and <i>leo</i> represent the:",
+     "o": [
+      "genera",
+      "families",
+      "specific epithets",
+      "orders"
+     ],
+     "sol": "<p>NCERT 1.2.1: in a binomial name the first word is the genus and the second is the <b>specific epithet</b>. So <i>indica</i>, <i>tuberosum</i> and <i>leo</i> are specific epithets, while <i>Mangifera</i>, <i>Solanum</i> and <i>Panthera</i> are genera — a higher taxon. A genus may have one or more specific epithets, e.g. <i>Panthera tigris</i>, <i>Solanum nigrum</i>, <i>Solanum melongena</i>.</p>",
+     "hint": "Second word of a binomial."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "नामों <i>Mangifera indica</i>, <i>Solanum tuberosum</i> तथा <i>Panthera leo</i> में शब्द <i>indica</i>, <i>tuberosum</i> तथा <i>leo</i> किसे दर्शाते हैं?",
+     "o": [
+      "वंश",
+      "कुल",
+      "जाति संकेत पद",
+      "गण"
+     ],
+     "sol": "<p>NCERT 1.2.1: द्विपद नाम में पहला शब्द वंश तथा दूसरा <b>जाति संकेत पद</b> होता है। अतः <i>indica</i>, <i>tuberosum</i> तथा <i>leo</i> जाति संकेत पद हैं, जबकि <i>Mangifera</i>, <i>Solanum</i> तथा <i>Panthera</i> वंश हैं — एक उच्चतर टैक्सॉन। एक वंश में एक अथवा एक से अधिक जाति संकेत पद हो सकते हैं, जैसे <i>Panthera tigris</i>, <i>Solanum nigrum</i>, <i>Solanum melongena</i>।</p>",
+     "hint": "द्विपद नाम का दूसरा शब्द।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §1.2.1",
+    "label": "Practice"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-01-ai-1-2-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about potato (<i>Solanum tuberosum</i>) and brinjal (<i>Solanum melongena</i>) is correct?",
+     "o": [
+      "They belong to the same species but different genera",
+      "They are different species of the same genus",
+      "They belong to different genera of the same family",
+      "They belong to the same species and the same genus"
+     ],
+     "sol": "<p>NCERT 1.2.2: a genus is an aggregate of closely related species that share more characters with each other than with species of other genera. Potato and brinjal are <b>two different species but both belong to the genus <i>Solanum</i></b> — the same first word, different specific epithets.</p>",
+     "hint": "Same first word, different second word.",
+     "trap": "Same genus never means same species."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "आलू (<i>Solanum tuberosum</i>) तथा बैंगन (<i>Solanum melongena</i>) के संबंध में कौन-सा कथन सही है?",
+     "o": [
+      "ये एक ही स्पीशीज के परंतु अलग-अलग वंश के हैं",
+      "ये एक ही वंश की अलग-अलग स्पीशीज हैं",
+      "ये एक ही कुल के अलग-अलग वंश के हैं",
+      "ये एक ही स्पीशीज तथा एक ही वंश के हैं"
+     ],
+     "sol": "<p>NCERT 1.2.2: वंश समीपस्थ संबंधित स्पीशीज का समूह है, जिनमें अन्य वंशों की स्पीशीज की तुलना में अधिक गुण समान होते हैं। आलू तथा बैंगन <b>अलग-अलग स्पीशीज हैं, लेकिन दोनों <i>Solanum</i> वंश में आती हैं</b> — पहला शब्द समान, जाति संकेत पद अलग।</p>",
+     "hint": "पहला शब्द समान, दूसरा अलग।",
+     "trap": "एक ही वंश का अर्थ एक ही स्पीशीज कभी नहीं होता।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §1.2.2",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-01-ai-1-2-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Order Primata (monkey, gorilla, gibbon) and order Carnivora (tiger, cat, dog) are placed together in the same:",
+     "o": [
+      "family",
+      "class",
+      "genus",
+      "phylum, but different classes"
+     ],
+     "sol": "<p>NCERT 1.2.5: the category <b>class</b> includes related orders. Order Primata and order Carnivora are both placed in <b>class Mammalia</b>, which has other orders as well.</p>",
+     "hint": "Class groups related orders."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "प्राइमेटा गण (बंदर, गोरिला, गिब्बॉन) तथा कारनीवोरा गण (बाघ, बिल्ली, कुत्ता) एक ही ___ में रखे गए हैं।",
+     "o": [
+      "कुल",
+      "वर्ग",
+      "वंश",
+      "संघ, परंतु अलग-अलग वर्ग"
+     ],
+     "sol": "<p>NCERT 1.2.5: <b>वर्ग</b> संवर्ग में संबंधित गण आते हैं। प्राइमेटा गण तथा कारनीवोरा गण दोनों <b>मैमेलिया (स्तनधारी) वर्ग</b> में रखे गए हैं, जिसमें अन्य गण भी आते हैं।</p>",
+     "hint": "वर्ग संबंधित गणों का समूह है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §1.2.5",
+    "label": "Practice"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-01-ncertex-1-2-6-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Fishes, amphibians, reptiles, birds and mammals are placed in phylum Chordata on the basis of ___; in plants, classes with a few similar characters are placed in a higher category called ___.",
+     "o": [
+      "presence of a backbone; Order",
+      "warm blood; Kingdom",
+      "paired limbs; Family",
+      "presence of a notochord and a dorsal hollow neural system; Division"
+     ],
+     "sol": "<p>NCERT 1.2.6: classes of animals like fishes, amphibians, reptiles, birds and mammals form phylum <b>Chordata</b> on the basis of common features — <b>presence of a notochord and a dorsal hollow neural system</b>. In plants, classes with a few similar characters are assigned to the higher category <b>Division</b>.</p>",
+     "hint": "Plants use 'Division' instead of 'Phylum'.",
+     "trap": "Not all chordates have a backbone or warm blood; the notochord is the common feature."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "मछली, उभयचर, सरीसृप, पक्षी तथा स्तनधारी को ___ के आधार पर कॉर्डेटा संघ में रखा गया है; पौधों में कुछ ही समान लक्षण वाले वर्गों को ___ नामक उच्चतर संवर्ग में रखा गया है।",
+     "o": [
+      "मेरुदंड की उपस्थिति; गण",
+      "समतापी (उष्ण रक्त); जगत",
+      "युग्मित पादों; कुल",
+      "पृष्ठरज्जु (नोटोकॉर्ड) तथा पृष्ठीय खोखला तंत्रिका तंत्र की उपस्थिति; भाग (डिविजन)"
+     ],
+     "sol": "<p>NCERT 1.2.6: मछली, उभयचर, सरीसृप, पक्षी तथा स्तनधारी जैसे जंतुओं के वर्ग समान गुणों — <b>पृष्ठरज्जु (नोटोकॉर्ड) तथा पृष्ठीय खोखला तंत्रिका तंत्र</b> — के आधार पर <b>कॉर्डेटा</b> संघ बनाते हैं। पौधों में कुछ ही समान लक्षण वाले वर्गों को उच्चतर संवर्ग <b>भाग (डिविजन)</b> में रखा गया है।</p>",
+     "hint": "पौधों में 'संघ' के स्थान पर 'भाग (डिविजन)'।",
+     "trap": "सभी कॉर्डेटों में मेरुदंड या समतापिता नहीं होता; पृष्ठरज्जु (नोटोकॉर्ड) समान लक्षण है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.6"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 1.9(i) (define phylum), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-01-ai-1-2-7-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the taxonomic hierarchy, as we go up from species to kingdom:",
+     "o": [
+      "the number of common characteristics shared by members decreases, and determining relationships to other taxa at the same level becomes more difficult",
+      "the number of common characteristics shared by members increases",
+      "the number of organisms in each taxon decreases",
+      "classification becomes simpler because fewer taxa are involved"
+     ],
+     "sol": "<p>NCERT 1.2.7: going higher from species to kingdom (the highest category), the <b>number of common characteristics goes on decreasing</b>. The lower the taxon, the more characteristics its members share; the higher the category, the greater the difficulty of determining its relationship to other taxa at the same level — so classification becomes more complex. Higher taxa contain more organisms, not fewer.</p>",
+     "hint": "Kingdom members share the fewest features."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "वर्गिकी पदानुक्रम में स्पीशीज से जगत की ओर ऊपर जाने पर :",
+     "o": [
+      "सदस्यों में समान लक्षणों की संख्या घटती जाती है, तथा उसी स्तर के अन्य टैक्सा से संबंध निर्धारित करना अधिक कठिन होता जाता है",
+      "सदस्यों में समान लक्षणों की संख्या बढ़ती जाती है",
+      "प्रत्येक टैक्सॉन में जीवों की संख्या घटती जाती है",
+      "वर्गीकरण सरल हो जाता है क्योंकि कम टैक्सा होते हैं"
+     ],
+     "sol": "<p>NCERT 1.2.7: स्पीशीज से जगत (उच्चतम संवर्ग) की ओर ऊपर जाने पर <b>समान लक्षणों की संख्या घटती जाती है</b>। जितना निम्न टैक्सॉन, उसके सदस्यों में उतने अधिक लक्षण समान; जितना उच्च संवर्ग, उसी स्तर के अन्य टैक्सा से संबंध निर्धारित करना उतना कठिन — अतः वर्गीकरण अधिक जटिल हो जाता है। उच्चतर टैक्सा में जीव अधिक होते हैं, कम नहीं।</p>",
+     "hint": "जगत के सदस्यों में सबसे कम लक्षण समान।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.7"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §1.2.7 and Figure 1.1",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
- ]
+ ],
+ "paraTrends": {
+  "1.1": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2026,
+    2019,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "1.2": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2022,
+    2016
+   ],
+   "last": 2022,
+   "recent": false
+  },
+  "1.2.4": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2017
+   ],
+   "last": 2017,
+   "recent": false
+  },
+  "1.2.3": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2021
+   ],
+   "last": 2021,
+   "recent": false
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3
 }

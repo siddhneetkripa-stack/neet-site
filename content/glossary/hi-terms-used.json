@@ -426,7 +426,10 @@
   {
    "en": "Carbon dioxide",
    "hi": "कार्बन डाइऑक्साइड",
-   "source": "ncert-hi-text"
+   "source": "ncert-hi-text",
+   "variants": [
+    "कार्बनडाइऑक्साइड"
+   ]
   },
   {
    "en": "Carbon monoxide",
@@ -441,7 +444,10 @@
   {
    "en": "Glucose",
    "hi": "ग्लूकोस",
-   "source": "ncert-hi-text"
+   "source": "ncert-hi-text",
+   "variants": [
+    "ग्लूकोज"
+   ]
   },
   {
    "en": "Urea",
@@ -456,7 +462,11 @@
   {
    "en": "Methane",
    "hi": "मेथेन",
-   "source": "ncert-hi-text"
+   "source": "ncert-hi-text",
+   "variants": [
+    "मीथेन",
+    "मिथेन"
+   ]
   },
   {
    "en": "Ethane",
@@ -771,8 +781,12 @@
   {
    "en": "vector",
    "hi": "सदिश",
-   "source": "ncert-hi-text (physics)",
-   "check": false
+   "source": "ncert-hi-text (physics); ncert-hi-text class 12 biology",
+   "check": false,
+   "variants": [
+    "संवाहक"
+   ],
+   "note": "Two meanings: Physics vector = सदिश; Biology cloning vector = संवाहक (both NCERT Hindi)."
   },
   {
    "en": "position vector",
@@ -1119,7 +1133,7 @@
   {
    "en": "surface tension",
    "hi": "पृष्ठ तनाव",
-   "source": "ncert-hi-text (physics)",
+   "source": "ncert-hi-text (physics); bio11-old-transport-in-plants",
    "check": false
   },
   {
@@ -2837,6 +2851,6788 @@
    "hi": "चूड़ी अंतराल",
    "source": "ncert-hi-text (physics)",
    "check": false
+  },
+  {
+   "en": "incomplete dominance",
+   "hi": "अपूर्ण प्रभाविता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "co-dominance",
+   "hi": "सह-प्रभाविता",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "codominance",
+   "hi": "सह-प्रभाविता",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "pleiotropy",
+   "hi": "बहुप्रभाविता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "polygenic",
+   "hi": "बहुजीनी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "linkage",
+   "hi": "सहलग्नता",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "recombination",
+   "hi": "पुनर्योजन",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "पुनर्योग"
+   ]
+  },
+  {
+   "en": "allele",
+   "hi": "अलील",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "genotype",
+   "hi": "जीनोटाइप",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "phenotype",
+   "hi": "फीनोटाइप",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "test cross",
+   "hi": "परीक्षार्थ संकरण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "homozygous",
+   "hi": "समयुग्मजी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "heterozygous",
+   "hi": "विषमयुग्मजी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "pedigree",
+   "hi": "वंशावली",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sex determination",
+   "hi": "लिंग निर्धारण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "colour blind",
+   "hi": "वर्णांध",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "haemophilia",
+   "hi": "हीमोफीलिया",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sickle cell",
+   "hi": "दात्र कोशिका",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "thalassemia",
+   "hi": "थैलेसीमिया",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Punnett square",
+   "hi": "पनेट वर्ग",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "aneuploidy",
+   "hi": "असुगुणिता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "transcription",
+   "hi": "अनुलेखन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "translation",
+   "hi": "स्थानांतरण",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "replication",
+   "hi": "प्रतिकृति",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "प्रतिकृतीयन"
+   ]
+  },
+  {
+   "en": "codon",
+   "hi": "प्रकूट",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "coding strand",
+   "hi": "कूटलेखन रज्जुक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "template strand",
+   "hi": "टेम्पलेट रज्जुक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "promoter",
+   "hi": "उन्नायक",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "प्रोत्साहक"
+   ]
+  },
+  {
+   "en": "terminator",
+   "hi": "समापक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "operator",
+   "hi": "प्रचालक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "repressor",
+   "hi": "दमनकारी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "inducer",
+   "hi": "प्रेरक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "operon",
+   "hi": "प्रचालेक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "polymorphism",
+   "hi": "बहुरूपता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "histone",
+   "hi": "हिस्टोन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "nucleosome",
+   "hi": "न्यूक्लियोसोम",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "semi-conservative",
+   "hi": "अर्धसंरक्षी",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "bacteriophage",
+   "hi": "जीवाणुभोजी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sequence annotation",
+   "hi": "अनुक्रम टिप्पण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "euchromatin",
+   "hi": "यूक्रोमेटीन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "genetic code",
+   "hi": "आनुवंशिक कूट",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "genetic material",
+   "hi": "आनुवंशिक पदार्थ",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "DNA fingerprinting",
+   "hi": "अंगुलिछापी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "mutation",
+   "hi": "उत्परिवर्तन",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "carrier",
+   "hi": "वाहक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "monohybrid",
+   "hi": "एकसंकर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "dihybrid",
+   "hi": "द्विसंकर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "independent assortment",
+   "hi": "स्वतंत्र अपव्यूहन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "segregation",
+   "hi": "विसंयोजन",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "पृथक्करण"
+   ]
+  },
+  {
+   "en": "endosperm",
+   "hi": "भ्रूणपोष",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "embryo sac",
+   "hi": "भ्रूणकोष",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "synergid",
+   "hi": "सहाय कोशिका",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "apomixis",
+   "hi": "असंगजनन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "perisperm",
+   "hi": "परिभ्रूणपोष",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "scutellum",
+   "hi": "स्कुटेलम",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sporopollenin",
+   "hi": "स्पोरोपोलेनिन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "tapetum",
+   "hi": "टेपीटम",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "geitonogamy",
+   "hi": "सजातपुष्पी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "xenogamy",
+   "hi": "परनिषेचन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "autogamy",
+   "hi": "स्वयुग्मन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "nucellus",
+   "hi": "बीजांडकाय",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "hilum",
+   "hi": "नाभिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "chalaza",
+   "hi": "निभाग",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "funicle",
+   "hi": "बीजांडवृंत",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "megaspore",
+   "hi": "गुरूबीजाणु",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "megasporangium",
+   "hi": "गुरूबीजाणुधानी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "megaspore mother cell",
+   "hi": "गुरूबीजाणुमातृकोशिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "pollen mother cell",
+   "hi": "पराग मातृकोशिका",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "microspore",
+   "hi": "लघुबीजाणु",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "microsporangium",
+   "hi": "लघुबीजाणुधानी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "pollen grain",
+   "hi": "परागकण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "pollination",
+   "hi": "परागण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "triple fusion",
+   "hi": "त्रिसंलयन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "syngamy",
+   "hi": "युग्मकसंलयन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "double fertilization",
+   "hi": "दोहरा निषेचन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "double fertilisation",
+   "hi": "दोहरा निषेचन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "parthenocarpic",
+   "hi": "अनिषेकजनितफल",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "coleoptile",
+   "hi": "प्रांकुरचोल",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "प्रांकुर चोल"
+   ]
+  },
+  {
+   "en": "coleorhiza",
+   "hi": "मूलांकुरचोल",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "thalamus",
+   "hi": "पुष्पासन",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "थेलेमस"
+   ],
+   "note": "botany (flower) = पुष्पासन; brain part = थेलेमस (NCERT 18.4.1)"
+  },
+  {
+   "en": "pericarp",
+   "hi": "फलभित्ति",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "polar nuclei",
+   "hi": "ध्रुवीय केंद्रक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "central cell",
+   "hi": "केंद्रीय कोशिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "filiform apparatus",
+   "hi": "तंतुरूप समुच्चय",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "egg apparatus",
+   "hi": "अंड उपकरण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "antipodal",
+   "hi": "प्रतिव्यासांत",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "zygote",
+   "hi": "युग्मनज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "cotyledon",
+   "hi": "बीजपत्र",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "seed coat",
+   "hi": "बीजावरण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "liquid nitrogen",
+   "hi": "द्रव नाइट्रोजन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "stigma",
+   "hi": "वर्तिकाग्र",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "anther",
+   "hi": "परागकोश",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "nectar",
+   "hi": "मकरंद",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "pollen tube",
+   "hi": "पराग नलिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "generative cell",
+   "hi": "जनन कोशिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "vegetative cell",
+   "hi": "कायिक कोशिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sporogenous tissue",
+   "hi": "बीजाणुजन",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "male gametophyte",
+   "hi": "युग्मकोद्भिद्",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "female gametophyte",
+   "hi": "युग्मकोद्भिद्",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "cleistogamous",
+   "hi": "अनुन्मील्य",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "chasmogamous",
+   "hi": "उन्मील",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "dioecious",
+   "hi": "एकलिंगाश्रयी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "monoecious",
+   "hi": "उभयलिंगाश्रयी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "free-nuclear endosperm",
+   "hi": "मुक्त केंद्रकी भ्रूणपोष",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "false fruit",
+   "hi": "आभासी फल",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "primary endosperm nucleus",
+   "hi": "प्राथमिक भ्रूणपोष केंद्रक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "meiosis",
+   "hi": "अर्धसूत्री",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "mitosis",
+   "hi": "समसूत्री",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "non-albuminous",
+   "hi": "गैर-एल्बुमिनस",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "proembryo",
+   "hi": "प्राक्भ्रूण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "water lily",
+   "hi": "वाटरलिली",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "haploid",
+   "hi": "अगुणित",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "diploid",
+   "hi": "द्विगुणित",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "triploid",
+   "hi": "त्रिगुणित",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sporophyte",
+   "hi": "बीजाणु-उद्भिद्",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "gametophyte",
+   "hi": "युग्मकोद्भिद्",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "Graafian follicle",
+   "hi": "ग्राफी पुटक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "secondary oocyte",
+   "hi": "द्वितीयक अंडक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "primary oocyte",
+   "hi": "प्राथमिक अंडक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "ovulation",
+   "hi": "अंडोत्सर्ग",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "zona pellucida",
+   "hi": "पारदर्शी अंडावरण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "antrum",
+   "hi": "गह्वर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "fertilisation",
+   "hi": "निषेचन",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "fertilization",
+   "hi": "निषेचन",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "implantation",
+   "hi": "अंतर्रोपण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ampulla",
+   "hi": "तुंबिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "isthmus",
+   "hi": "संकीर्णपथ",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "infundibulum",
+   "hi": "कीपक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "fallopian tube",
+   "hi": "अंडवाहिनी",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "oviduct",
+   "hi": "अंडवाहिनी",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "rete testis",
+   "hi": "वृषण जालिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "epididymis",
+   "hi": "अधिवृषण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "vas deferens",
+   "hi": "शुक्रवाहक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ejaculatory duct",
+   "hi": "स्खलनीय वाहिनी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "seminal vesicle",
+   "hi": "शुक्राशय",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "urethra",
+   "hi": "मूत्रमार्ग",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "Sertoli cells",
+   "hi": "सर्टोली",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Leydig cells",
+   "hi": "लीडिग",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "लेइडिग"
+   ]
+  },
+  {
+   "en": "spermatogenesis",
+   "hi": "शुक्रजनन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "spermiogenesis",
+   "hi": "शुक्राणुजनन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "spermiation",
+   "hi": "स्पर्मिएशन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "spermatid",
+   "hi": "शुक्राणुप्रसू",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "spermatogonia",
+   "hi": "शुक्राणुजन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "seminiferous tubules",
+   "hi": "शुक्रजनक नलिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "oogenesis",
+   "hi": "अंडजनन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "polar body",
+   "hi": "ध्रुवीय पिंड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "placenta",
+   "hi": "अपरा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "relaxin",
+   "hi": "रिलैक्सिन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "corpus luteum",
+   "hi": "पीत पिंड",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "कॉर्पस ल्यूटियम"
+   ]
+  },
+  {
+   "en": "oxytocin",
+   "hi": "ऑक्सीटोसिन",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "ऑक्सीटॉसिन"
+   ]
+  },
+  {
+   "en": "parturition",
+   "hi": "प्रसव",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "menarche",
+   "hi": "रजोदर्शन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "menopause",
+   "hi": "रजोनिवृत्ति",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "menstruation",
+   "hi": "ऋतुस्राव",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "menstrual cycle",
+   "hi": "आर्तव चक्र",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "follicular phase",
+   "hi": "पुटकीय प्रावस्था",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "proliferative phase",
+   "hi": "प्रचुरोद्भवन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "secretory phase",
+   "hi": "स्रावी प्रावस्था",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "endometrium",
+   "hi": "गर्भाशय अंतःस्तर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "blastocyst",
+   "hi": "कोरकपुटी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "trophoblast",
+   "hi": "पोषकोरक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "inner cell mass",
+   "hi": "अंतर कोशिका समूह",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "acrosome",
+   "hi": "अग्रपिंडक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "middle piece",
+   "hi": "मध्य खंड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "hymen",
+   "hi": "योनिच्छद",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "mons pubis",
+   "hi": "जघन शैल",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "cervix",
+   "hi": "गर्भाशय ग्रीवा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "bulbo-urethral",
+   "hi": "बल्बोयूरेथ्रल",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "gestation",
+   "hi": "गर्भावधि",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "pregnancy",
+   "hi": "सगर्भता",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "गर्भावस्था"
+   ]
+  },
+  {
+   "en": "corona radiata",
+   "hi": "अरीय किरीट",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "perivitelline space",
+   "hi": "परिपीतक अवकाश",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "in vitro fertilization",
+   "hi": "पात्रे निषेचन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "monozygotic",
+   "hi": "एकयुग्मज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "mesoderm",
+   "hi": "मध्यजनस्तर",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "मीजोडर्म",
+    "मीसोडर्म",
+    "मध्यत्वचा"
+   ]
+  },
+  {
+   "en": "ectoderm",
+   "hi": "बाह्य त्वचा",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "endoderm",
+   "hi": "अंतः त्वचा",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "androgens",
+   "hi": "एंड्रोजेन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "progesterone",
+   "hi": "प्रोजेस्टेरॉन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "estrogen",
+   "hi": "ऐस्ट्रोजन",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "एस्ट्रोजन",
+    "एस्ट्रोजेन"
+   ]
+  },
+  {
+   "en": "estradiol",
+   "hi": "एस्ट्राडाइऑल",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "एस्ट्राडायोल"
+   ]
+  },
+  {
+   "en": "prolactin",
+   "hi": "प्रोलैक्टिन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "glucocorticoid",
+   "hi": "ग्लूकोकॉर्टिकॉइड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "primates",
+   "hi": "प्राइमेट",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "lubrication",
+   "hi": "स्नेहन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "pituitary",
+   "hi": "पीयूष",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "spermatocyte",
+   "hi": "शुक्राणु कोशिका",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "vasa efferentia",
+   "hi": "शुक्र वाहिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "efferent ductules",
+   "hi": "शुक्र वाहिका",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ectopic pregnancy",
+   "hi": "अस्थानिक सगर्भता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "amniocentesis",
+   "hi": "उल्बवेधन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "vasectomy",
+   "hi": "शुक्रवाहक-उच्छेदन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "tubectomy",
+   "hi": "नलिका उच्छेदन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "intra uterine device",
+   "hi": "अंतः गर्भाशयी युक्ति",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Lippes loop",
+   "hi": "लिप्पेस लूप",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Multiload",
+   "hi": "मल्टीलोड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Progestasert",
+   "hi": "प्रोजेस्टासर्ट",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Saheli",
+   "hi": "सहेली",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "lactational amenorrhea",
+   "hi": "स्तनपान अनार्तव",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "coitus interruptus",
+   "hi": "बाह्य स्खलन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "periodic abstinence",
+   "hi": "आवधिक संयम",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "vaults",
+   "hi": "वॉल्ट",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "diaphragm",
+   "hi": "डायाफ्रॉम",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "डायाफ्राम"
+   ]
+  },
+  {
+   "en": "barrier",
+   "hi": "रोधक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "implants",
+   "hi": "अंतर्रोप",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "phagocytosis",
+   "hi": "भक्षकाणुक्रिया",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "gonorrhoea",
+   "hi": "सुजाक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "syphilis",
+   "hi": "सिफिलिस",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "सिफ़लिस"
+   ]
+  },
+  {
+   "en": "genital herpes",
+   "hi": "जननिक परिसर्प",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "chlamydiasis",
+   "hi": "क्लेमिडियता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "genital warts",
+   "hi": "लैंगिक मस्से",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "hepatitis-B",
+   "hi": "यकृतशोथ",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "infertility",
+   "hi": "बंध्यता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "artificial insemination",
+   "hi": "कृत्रिम वीर्यसेचन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "female foeticide",
+   "hi": "मादा भ्रूण हत्या",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "blood transfusion",
+   "hi": "रक्ताधान",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Reproductive and Child Health",
+   "hi": "जनन एवं बाल स्वास्थ्य",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "progestogen",
+   "hi": "प्रोजेस्टोजन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sterilisation",
+   "hi": "बंध्यकरण",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "natural selection",
+   "hi": "प्राकृतिक वरण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "analogous",
+   "hi": "तुल्यरूप",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "analogy",
+   "hi": "तुल्यरूपता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "homologous",
+   "hi": "समजातीय",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "also \"homologous chromosomes\" (समजात); not enforced"
+  },
+  {
+   "en": "homology",
+   "hi": "समजातता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "convergent evolution",
+   "hi": "अभिसारी विकास",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "divergent evolution",
+   "hi": "अपसारी विकास",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "adaptive radiation",
+   "hi": "अनुकूली विकिरण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "genetic drift",
+   "hi": "आनुवंशिक विचलन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "founder effect",
+   "hi": "संस्थापक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "gene migration",
+   "hi": "जीन पलायन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "gene flow",
+   "hi": "जीन प्रवाह",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "gene pool",
+   "hi": "जीन कोश",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Hardy-Weinberg",
+   "hi": "हार्डी-वेनवर्ग",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "directional selection",
+   "hi": "दिशात्मक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "disruptive",
+   "hi": "विदारक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "stabilizing selection",
+   "hi": "स्थायीकारक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "stabilising selection",
+   "hi": "स्थायीकारक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "saltation",
+   "hi": "साल्टेशन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "anthropogenic",
+   "hi": "मानवोद्भवी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "marsupial",
+   "hi": "शिशुधानी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "forelimb",
+   "hi": "अग्रपाद",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Ramapithecus",
+   "hi": "रामापिथिकस",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Homo habilis",
+   "hi": "होमो हैबिलिस",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Homo erectus",
+   "hi": "होमो इरैक्टस",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Neanderthal",
+   "hi": "नियंडरटाल",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "dinosaurs",
+   "hi": "डायनासौर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "jawless fish",
+   "hi": "जबड़े रहित मछली",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "invertebrates",
+   "hi": "अकशेरुकी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Mesozoic",
+   "hi": "मीसोजोइक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Cenozoic",
+   "hi": "सीनोजोइक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Paleozoic",
+   "hi": "पैलियोजोइक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sweet potato",
+   "hi": "शकरकंदी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Darwin's finches",
+   "hi": "फिंच",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "industrial",
+   "hi": "औद्योगिक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "Homo sapiens",
+   "hi": "होमो सेपियन्स",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "innate immunity",
+   "hi": "सहज प्रतिरक्षा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "acquired immunity",
+   "hi": "उपार्जित प्रतिरक्षा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "active immunity",
+   "hi": "सक्रिय",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "passive immunity",
+   "hi": "निष्क्रिय",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "cell-mediated",
+   "hi": "कोशिका-माध्यित",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "humoral",
+   "hi": "तरल",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "autoimmune",
+   "hi": "स्व-प्रतिरक्षा",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "स्वप्रतिरक्षा"
+   ]
+  },
+  {
+   "en": "antibodies",
+   "hi": "प्रतिरक्षी",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "antigen",
+   "hi": "प्रतिजन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "colostrum",
+   "hi": "पीयूष",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "graft",
+   "hi": "निरोप",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "attenuated",
+   "hi": "दुर्बलीकृत",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "retrovirus",
+   "hi": "पश्चविषाणु",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "reverse transcriptase",
+   "hi": "विलोम ट्रांसक्रिप्टेज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "helper T",
+   "hi": "सहायक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "MALT",
+   "hi": "श्लेष्म संबद्ध लसीकाभ",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "lymphoid",
+   "hi": "लसीकाभ",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "bone marrow",
+   "hi": "अस्थि मज्जा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "thymus",
+   "hi": "थाइमस",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "spleen",
+   "hi": "प्लीहा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Peyer's patches",
+   "hi": "पेयर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "lymphocytes",
+   "hi": "लसीकाणु",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "लिंफोसाइट"
+   ]
+  },
+  {
+   "en": "latex",
+   "hi": "लेटेक्स",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "smack",
+   "hi": "स्मैक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "heroin",
+   "hi": "हिरोइन",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "हेरोइन",
+    "हेरॉइन"
+   ]
+  },
+  {
+   "en": "morphine",
+   "hi": "मॉर्फीन",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "मॉर्फ़ीन",
+    "मार्फीन"
+   ]
+  },
+  {
+   "en": "cocaine",
+   "hi": "कोकेन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "marijuana",
+   "hi": "मैरिजुआना",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "nicotine",
+   "hi": "निकोटीन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "dopamine",
+   "hi": "डोपेमीन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sedative",
+   "hi": "शामक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "depressant",
+   "hi": "अवसादक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "elephantiasis",
+   "hi": "श्लीपद",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "filariasis",
+   "hi": "फाइलेरिया",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ringworm",
+   "hi": "दाद",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "amoebiasis",
+   "hi": "अमीबता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "typhoid",
+   "hi": "टाइफॉइड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Widal test",
+   "hi": "विडाल",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "haemozoin",
+   "hi": "हीमोजोइन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "rhinoviruses",
+   "hi": "नासाविषाणु",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sporozoites",
+   "hi": "जीवाणुज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "gametocytes",
+   "hi": "युग्मकजनक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "tumour",
+   "hi": "अर्बुद",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "benign",
+   "hi": "सुदम",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "malignant",
+   "hi": "दुर्दम",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "interferon",
+   "hi": "इंटरफेरॉन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "biological response modifier",
+   "hi": "जैविक अनुक्रिया",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "leukaemia",
+   "hi": "अधिश्वेतरक्तता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "anamnestic",
+   "hi": "पूर्ववृत्तीय",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "primary response",
+   "hi": "प्राथमिक अनुक्रिया",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "cholera",
+   "hi": "हैजा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "tetanus",
+   "hi": "टिटेनस",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "smallpox",
+   "hi": "चेचक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "macrophages",
+   "hi": "भक्षकाणु",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "contact inhibition",
+   "hi": "संस्पर्श संदमन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Computed tomography",
+   "hi": "अभिकलित टॉमोग्राफी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "butyric acid",
+   "hi": "ब्युट्रिक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "biology spelling; chemistry questions use the chemistry book form"
+  },
+  {
+   "en": "citric acid",
+   "hi": "सिट्रिक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "biology spelling; chemistry questions use the chemistry book form"
+  },
+  {
+   "en": "acetic acid",
+   "hi": "एसिटिक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "biology spelling; chemistry questions use the chemistry book form"
+  },
+  {
+   "en": "lactic acid",
+   "hi": "लैक्टिक",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "biology spelling; chemistry questions use the chemistry book form"
+  },
+  {
+   "en": "cyclosporin A",
+   "hi": "साइक्लोस्पोरिन-ए",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "statins",
+   "hi": "स्टैटिन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "lipase",
+   "hi": "लाइपेज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Swiss cheese",
+   "hi": "स्विस चीज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "activated sludge",
+   "hi": "आपंक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "anaerobic sludge digester",
+   "hi": "अवायवीय आपंक संपाचित्र",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "primary treatment",
+   "hi": "प्राथमिक उपचार",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "secondary treatment",
+   "hi": "द्वितीयक उपचार",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "effluent",
+   "hi": "बहिःस्राव",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sewage",
+   "hi": "वाहित मल",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "biocontrol",
+   "hi": "जैव नियंत्रण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "biofertiliser",
+   "hi": "जैव उर्वरक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "mycorrhiza",
+   "hi": "माइकोराइजा",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "कवक मूल"
+   ]
+  },
+  {
+   "en": "immunosuppressive",
+   "hi": "प्रतिरक्षा निरोधक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "antibiotic",
+   "hi": "प्रतिजैविक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "distillation",
+   "hi": "आसवन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "brandy",
+   "hi": "ब्रांडी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "beer",
+   "hi": "बियर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "curd",
+   "hi": "दही",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ethanol",
+   "hi": "ऐथानॉल",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false,
+   "note": "biology spelling; chemistry questions use the chemistry book form"
+  },
+  {
+   "en": "restriction enzyme",
+   "hi": "प्रतिबंधन एंजाइम",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "restriction endonuclease",
+   "hi": "प्रतिबंधन एंडोन्यूक्लिएज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "exonuclease",
+   "hi": "एक्सोन्यूक्लिएज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ligase",
+   "hi": "लाइगेज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "plasmid",
+   "hi": "प्लाज्मिड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "palindromic",
+   "hi": "पैलिंड्रोमिक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sticky ends",
+   "hi": "चिपचिपे",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "selectable marker",
+   "hi": "वरणयोग्य चिह्नक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "origin of replication",
+   "hi": "प्रतिकृतीयन का उद्भव",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "recombinant DNA",
+   "hi": "पुनर्योगज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "cloning",
+   "hi": "क्लोनिंग",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "transformed",
+   "hi": "रूपांतरित",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "agarose",
+   "hi": "ऐगारोज",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ethidium bromide",
+   "hi": "इथीडियम ब्रोमाइड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "elution",
+   "hi": "क्षालन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "electrophoresis",
+   "hi": "वैद्युत",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "denaturation",
+   "hi": "विकृतीकरण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "primers",
+   "hi": "उपक्रमक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "thermostable",
+   "hi": "तापस्थायी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "bioreactor",
+   "hi": "बायोरिएक्टर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "downstream processing",
+   "hi": "अनुप्रवाह संसाधन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "gene gun",
+   "hi": "जीन गन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "insertional inactivation",
+   "hi": "निवेशी निष्क्रियता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "microinjection",
+   "hi": "सूक्ष्म अंतःक्षेपण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "molecular scissors",
+   "hi": "आणविक कैंची",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "amplification",
+   "hi": "प्रवर्धन",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "colonies",
+   "hi": "निवह",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "foam",
+   "hi": "झाग",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "agitator",
+   "hi": "प्रक्षोभक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "insert",
+   "hi": "संसर्गिका",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "gene therapy",
+   "hi": "जीन चिकित्सा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "adenosine deaminase",
+   "hi": "एडीनोसीन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "biopiracy",
+   "hi": "बायोपाइरेसी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Basmati",
+   "hi": "बासमती",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "protoxin",
+   "hi": "प्राक्जीव",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "RNA interference",
+   "hi": "आरएनए अंतरक्षेप",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "RNA अंतरक्षेप"
+   ]
+  },
+  {
+   "en": "probe",
+   "hi": "संपरीक्षित्र",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "प्रोब"
+   ]
+  },
+  {
+   "en": "autoradiography",
+   "hi": "स्वविकिरणी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "C-peptide",
+   "hi": "पेप्टाइड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "proinsulin",
+   "hi": "प्राक्इंसुलिन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "insulin",
+   "hi": "इंसुलिन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Eli Lilly",
+   "hi": "एली लिली",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "emphysema",
+   "hi": "इंफासीमा",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "एम्फाइसिमा",
+    "वातस्फीति"
+   ]
+  },
+  {
+   "en": "antitrypsin",
+   "hi": "एंटीट्रिप्सीन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "nematode",
+   "hi": "सूत्रकृमि",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "transgenic",
+   "hi": "पारजीवी",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "Genetic Engineering Appraisal Committee",
+   "hi": "आनुवंशिक अभियांत्रिकी संस्तुति समिति",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "golden rice",
+   "hi": "गोल्डन राइस",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "predation",
+   "hi": "परभक्षण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "parasitism",
+   "hi": "परजीविता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "mutualism",
+   "hi": "सहोपकारिता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "commensalism",
+   "hi": "सहभोजिता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "competition",
+   "hi": "स्पर्धा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "competitive exclusion",
+   "hi": "स्पर्धी अपवर्जन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "resource partitioning",
+   "hi": "संसाधन विभाजन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "brood parasitism",
+   "hi": "अंड परजीविता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sexual deceit",
+   "hi": "लैंगिक कपट",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "carrying capacity",
+   "hi": "पोषण क्षमता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "logistic",
+   "hi": "लॉजिस्टिक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "exponential",
+   "hi": "चरघातांकी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "natality",
+   "hi": "जन्मदर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "mortality",
+   "hi": "मृत्युदर",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "immigration",
+   "hi": "आप्रवासन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "emigration",
+   "hi": "उत्प्रवासन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "age pyramid",
+   "hi": "आयु पिरामिड",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sex ratio",
+   "hi": "लिंग अनुपात",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "epiphyte",
+   "hi": "अधिपादप",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "asymptote",
+   "hi": "अनंतस्पर्शी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Verhulst-Pearl",
+   "hi": "विर्हुस्ट-पर्ल",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "fig",
+   "hi": "अंजीर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "wasp",
+   "hi": "बर्र",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "clown fish",
+   "hi": "क्लाउन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "cattle egret",
+   "hi": "बगुला",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Ramdeo Misra",
+   "hi": "रामदेव मिश्रा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "population",
+   "hi": "समष्टि",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "amensalism",
+   "hi": "एमेन्सेलिज्म",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "pyramid",
+   "hi": "पिरैमिड",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "पिरामिड"
+   ],
+   "note": "NCERT Hindi ch12 spells पिरैमिड, ch11 (age pyramid) पिरामिड"
+  },
+  {
+   "en": "biomass",
+   "hi": "जैव मात्रा",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "gross primary productivity",
+   "hi": "सकल प्राथमिक उत्पादकता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "net primary productivity",
+   "hi": "नेट प्राथमिक उत्पादकता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "secondary productivity",
+   "hi": "द्वितीयक उत्पादकता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "productivity",
+   "hi": "उत्पादकता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "trophic level",
+   "hi": "पोषण स्तर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "detritus",
+   "hi": "अपरद",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "detritivores",
+   "hi": "अपरदाहारी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "fragmentation",
+   "hi": "खंडन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "leaching",
+   "hi": "निक्षालन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "catabolism",
+   "hi": "अपचयन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "humification",
+   "hi": "ह्यूमस भवन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "mineralisation",
+   "hi": "खनिजीकरण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "humus",
+   "hi": "ह्यूमस",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "lignin",
+   "hi": "लिग्निन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "chitin",
+   "hi": "काइटिन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "standing crop",
+   "hi": "खड़ी फसल",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "stratification",
+   "hi": "स्तरविन्यास",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "nutrient cycle",
+   "hi": "पोषक चक्र",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "decomposition",
+   "hi": "अपघटन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ecosystem",
+   "hi": "पारितंत्र",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "unidirectional",
+   "hi": "एकदिशीय",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "lichens",
+   "hi": "लाइकेन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "standing state",
+   "hi": "स्थायी अवस्था",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "pioneer",
+   "hi": "पुरोगामी",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "endemic",
+   "hi": "स्थानिक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "alien species",
+   "hi": "विदेशी जाति",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "habitat loss",
+   "hi": "आवासीय क्षति",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "over-exploitation",
+   "hi": "अतिदोहन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "co-extinction",
+   "hi": "सहविलुप्तता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "hotspots",
+   "hi": "हॉट-स्पॉट",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Red List",
+   "hi": "लाल सूची",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "threatened",
+   "hi": "संकटग्रस्त",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "in-situ",
+   "hi": "स्वस्थाने",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "ex-situ",
+   "hi": "बाह्यस्थाने",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "sacred groves",
+   "hi": "पवित्र उपवन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "seed bank",
+   "hi": "बीज बैंक",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "biosphere reserve",
+   "hi": "जीवमंडल आरक्षिति",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "national park",
+   "hi": "राष्ट्रीय उद्यान",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "cryopreservation",
+   "hi": "निम्नताप",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "species richness",
+   "hi": "जाति समृद्धि",
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "जातीय समृद्धि"
+   ]
+  },
+  {
+   "en": "rivet popper",
+   "hi": "रिवेट पोपर",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Humboldt",
+   "hi": "हम्बोल्ट",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Tilman",
+   "hi": "टिलमैन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Amazon",
+   "hi": "अमेजन",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "biodiversity",
+   "hi": "जैव विविधता",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "extinction",
+   "hi": "विलोपन",
+   "source": "ncert-hi-text class 12 biology",
+   "check": false
+  },
+  {
+   "en": "niche specialisation",
+   "hi": "निकेत विशिष्टीकरण",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Lantana",
+   "hi": "लैंटाना",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "dodo",
+   "hi": "डोडो",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Steller's sea cow",
+   "hi": "स्टेलर समुद्री गाय",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "Nile perch",
+   "hi": "नाइल पर्च",
+   "source": "ncert-hi-text class 12 biology"
+  },
+  {
+   "en": "phloem",
+   "hi": "फलोएम",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "xylem",
+   "hi": "जाइलम",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "transpiration",
+   "hi": "वाष्पोत्सर्जन",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "stomata",
+   "hi": "रंध्र",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "guard cells",
+   "hi": "द्वार कोशिका",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "adhesion",
+   "hi": "आसंजन",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "active transport",
+   "hi": "सक्रिय परिवहन",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "osmosis",
+   "hi": "परासरण",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "microfibrils",
+   "hi": "सूक्ष्मतंतु",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "turgidity",
+   "hi": "स्फीति",
+   "source": "bio11-old-transport-in-plants",
+   "check": false
+  },
+  {
+   "en": "tensile strength",
+   "hi": "तनन सामर्थ्य",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "diffusion",
+   "hi": "विसरण",
+   "source": "bio11-old-transport-in-plants"
+  },
+  {
+   "en": "nitrogen fixation",
+   "hi": "नाइट्रोजन स्थिरिकरण",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "legume",
+   "hi": "लेग्युम",
+   "source": "bio11-old-mineral-nutrition",
+   "variants": [
+    "लेग्यूम",
+    "लेग्युमी",
+    "लेग्यूमी"
+   ]
+  },
+  {
+   "en": "auxin",
+   "hi": "ऑक्सिन",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "chlorophyll",
+   "hi": "क्लोरोफिल",
+   "source": "bio11-old-mineral-nutrition",
+   "variants": [
+    "पर्णहरित"
+   ]
+  },
+  {
+   "en": "photosynthesis",
+   "hi": "प्रकाश संश्लेषण",
+   "source": "bio11-old-mineral-nutrition",
+   "variants": [
+    "प्रकाश-संश्लेषण"
+   ]
+  },
+  {
+   "en": "respiration",
+   "hi": "श्वसन",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "enzyme",
+   "hi": "एंजाइम",
+   "source": "bio11-old-mineral-nutrition",
+   "variants": [
+    "एंज़ाइम",
+    "एन्जाइम",
+    "एंजाइमों"
+   ]
+  },
+  {
+   "en": "pollen",
+   "hi": "पराग",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "germination",
+   "hi": "अंकुरण",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "potassium",
+   "hi": "पोटैशियम",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "magnesium",
+   "hi": "मैग्नीशियम",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "boron",
+   "hi": "बोरॉन",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "manganese",
+   "hi": "मैंगनीज",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "molybdenum",
+   "hi": "मॉलिब्डेनम",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "nickel",
+   "hi": "निकैल",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "phosphorus",
+   "hi": "फॉस्फोरस",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "copper",
+   "hi": "कॉपर",
+   "source": "bio11-old-mineral-nutrition",
+   "variants": [
+    "ताँबा",
+    "ताँबे",
+    "तांबा"
+   ]
+  },
+  {
+   "en": "sodium",
+   "hi": "सोडियम",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "nitrification",
+   "hi": "नाइट्रीकरण",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "nitrate",
+   "hi": "नाइट्रेट",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "nitrite",
+   "hi": "नाइट्राइट",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "reductase",
+   "hi": "रिडक्टेस",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "xanthophyll",
+   "hi": "जैंथोफिल",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "cytochrome",
+   "hi": "साइटोक्रोम",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "ferric",
+   "hi": "फेरिक",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "ferrous",
+   "hi": "फेरस",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "differentiation",
+   "hi": "विभेदन",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "elongation",
+   "hi": "दीर्घीकरण",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "splitting of water",
+   "hi": "जल का विघटन",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "turgor",
+   "hi": "स्फीति",
+   "source": "bio11-old-mineral-nutrition",
+   "check": false
+  },
+  {
+   "en": "carotene",
+   "hi": "कैरोटीन",
+   "source": "bio11-old-mineral-nutrition"
+  },
+  {
+   "en": "duodenum",
+   "hi": "ग्रहणी",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "stomach",
+   "hi": "आमाशय",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "liver",
+   "hi": "यकृत",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "bile",
+   "hi": "पित्त",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "gall bladder",
+   "hi": "पित्ताशय",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "pancreatic juice",
+   "hi": "अग्नाशयी रस",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "pancreas",
+   "hi": "अग्नाशय",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "pepsinogen",
+   "hi": "पेप्सिनोजेन",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "chyme",
+   "hi": "काइम",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "gastric glands",
+   "hi": "जठर ग्रंथि",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "erythropoiesis",
+   "hi": "रक्ताणु उत्पत्ति",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "Islets of Langerhans",
+   "hi": "लैंगरहैंस द्वीप",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "lacteals",
+   "hi": "लैक्टियल",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "lymph",
+   "hi": "लसीका",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "fatty acids",
+   "hi": "वसा अम्ल",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "glycerol",
+   "hi": "ग्लिसरॉल",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "lysozyme",
+   "hi": "लाइसोजाइम",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "nuclease",
+   "hi": "न्यूक्लिएज",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "rennin",
+   "hi": "रेनिन",
+   "source": "bio11-old-digestion-and-absorption",
+   "check": false
+  },
+  {
+   "en": "incisors",
+   "hi": "कृंतक",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "appendix",
+   "hi": "परिशेषिका",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "small intestine",
+   "hi": "क्षुद्रांत्र",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "salivary glands",
+   "hi": "लार ग्रंथि",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "oral cavity",
+   "hi": "मुख गुहा",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "mucus",
+   "hi": "श्लेष्मा",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "carbohydrates",
+   "hi": "कार्बोहाइड्रेट",
+   "source": "bio11-old-digestion-and-absorption"
+  },
+  {
+   "en": "nomenclature",
+   "hi": "नाम-पद्धति",
+   "source": "bio11-01",
+   "variants": [
+    "नाम पद्धति",
+    "द्विपदनाम पद्धति",
+    "नामपद्धति"
+   ]
+  },
+  {
+   "en": "binomial nomenclature",
+   "hi": "द्विपदनाम पद्धति",
+   "source": "bio11-01"
+  },
+  {
+   "en": "specific epithet",
+   "hi": "जाति संकेत पद",
+   "source": "bio11-01"
+  },
+  {
+   "en": "genus",
+   "hi": "वंश",
+   "source": "bio11-01"
+  },
+  {
+   "en": "family",
+   "hi": "कुल",
+   "source": "bio11-01",
+   "check": false
+  },
+  {
+   "en": "order",
+   "hi": "गण",
+   "source": "bio11-01",
+   "check": false
+  },
+  {
+   "en": "class",
+   "hi": "वर्ग",
+   "source": "bio11-01",
+   "check": false
+  },
+  {
+   "en": "phylum",
+   "hi": "संघ",
+   "source": "bio11-01"
+  },
+  {
+   "en": "kingdom",
+   "hi": "जगत",
+   "source": "bio11-01"
+  },
+  {
+   "en": "species",
+   "hi": "जाति",
+   "source": "bio11-01",
+   "check": false
+  },
+  {
+   "en": "taxonomic categories",
+   "hi": "वर्गिकी संवर्ग",
+   "source": "bio11-01"
+  },
+  {
+   "en": "ascending",
+   "hi": "आरोही",
+   "source": "bio11-01"
+  },
+  {
+   "en": "hierarchy",
+   "hi": "पदानुक्रम",
+   "source": "bio11-01"
+  },
+  {
+   "en": "Latin",
+   "hi": "लैटिन",
+   "source": "bio11-01"
+  },
+  {
+   "en": "underlined",
+   "hi": "रेखांकित",
+   "source": "bio11-01"
+  },
+  {
+   "en": "housefly",
+   "hi": "घरेलू मक्खी",
+   "source": "bio11-01"
+  },
+  {
+   "en": "Linnaeus",
+   "hi": "लीनियस",
+   "source": "bio11-01"
+  },
+  {
+   "en": "Ernst Mayr",
+   "hi": "एर्नस्ट मेयर",
+   "source": "bio11-01"
+  },
+  {
+   "en": "photoperiod",
+   "hi": "दीप्तिकाल",
+   "source": "bio11-01"
+  },
+  {
+   "en": "unicellular",
+   "hi": "एककोशिकीय",
+   "source": "bio11-01",
+   "variants": [
+    "एककोशिक"
+   ]
+  },
+  {
+   "en": "Muscidae",
+   "hi": "म्यूसीडी",
+   "source": "bio11-01"
+  },
+  {
+   "en": "Diptera",
+   "hi": "डिप्टेरा",
+   "source": "bio11-01"
+  },
+  {
+   "en": "Arthropoda",
+   "hi": "आर्थ्रोपोडा",
+   "source": "bio11-01"
+  },
+  {
+   "en": "grasshopper",
+   "hi": "टिड्डा",
+   "source": "bio11-01"
+  },
+  {
+   "en": "Monera",
+   "hi": "मॉनेरा",
+   "source": "bio11-02"
+  },
+  {
+   "en": "Protista",
+   "hi": "प्रोटिस्टा",
+   "source": "bio11-02"
+  },
+  {
+   "en": "Fungi",
+   "hi": "फंजाई",
+   "source": "bio11-02",
+   "check": false
+  },
+  {
+   "en": "Plantae",
+   "hi": "प्लांटी",
+   "source": "bio11-02"
+  },
+  {
+   "en": "Animalia",
+   "hi": "एनिमैलिया",
+   "source": "bio11-02"
+  },
+  {
+   "en": "Deuteromycetes",
+   "hi": "डयूटिरोमाइसिटीज",
+   "source": "bio11-02"
+  },
+  {
+   "en": "imperfect fungi",
+   "hi": "अपूर्ण कवक",
+   "source": "bio11-02"
+  },
+  {
+   "en": "Ascomycetes",
+   "hi": "ऐस्कोमाइसिटीज",
+   "source": "bio11-02"
+  },
+  {
+   "en": "Basidiomycetes",
+   "hi": "बेसिडियोमाइसिटीज",
+   "source": "bio11-02"
+  },
+  {
+   "en": "Phycomycetes",
+   "hi": "फाइकोमाइसिटीज",
+   "source": "bio11-02"
+  },
+  {
+   "en": "decomposers",
+   "hi": "अपघटक",
+   "source": "bio11-02"
+  },
+  {
+   "en": "nuclear membrane",
+   "hi": "केंद्रक झिल्ली",
+   "source": "bio11-02"
+  },
+  {
+   "en": "cell wall",
+   "hi": "कोशिका भित्ति",
+   "source": "bio11-02",
+   "variants": [
+    "कोशिकाओं की भित्ति"
+   ]
+  },
+  {
+   "en": "Mycoplasma",
+   "hi": "माइकोप्लाज्मा",
+   "source": "bio11-02",
+   "check": false
+  },
+  {
+   "en": "chrysophytes",
+   "hi": "क्राइसोफाइट",
+   "source": "bio11-02"
+  },
+  {
+   "en": "dinoflagellates",
+   "hi": "डायनोफलैजिलेट",
+   "source": "bio11-02"
+  },
+  {
+   "en": "euglenoids",
+   "hi": "युग्लीनॉइड",
+   "source": "bio11-02"
+  },
+  {
+   "en": "slime moulds",
+   "hi": "अवपंक कवक",
+   "source": "bio11-02"
+  },
+  {
+   "en": "diatoms",
+   "hi": "डाइएटम",
+   "source": "bio11-02"
+  },
+  {
+   "en": "diatomaceous earth",
+   "hi": "डाइएटमी मृदा",
+   "source": "bio11-02"
+  },
+  {
+   "en": "desmids",
+   "hi": "डेस्मिड",
+   "source": "bio11-02"
+  },
+  {
+   "en": "viroids",
+   "hi": "वाइराइड",
+   "source": "bio11-02"
+  },
+  {
+   "en": "prions",
+   "hi": "प्रिओन",
+   "source": "bio11-02"
+  },
+  {
+   "en": "cyanobacteria",
+   "hi": "सायनो बैक्टीरिया",
+   "source": "bio11-02",
+   "variants": [
+    "सायनोबैक्टीरिया"
+   ]
+  },
+  {
+   "en": "blue-green algae",
+   "hi": "नील-हरित शैवाल",
+   "source": "bio11-02"
+  },
+  {
+   "en": "eubacteria",
+   "hi": "यूबैक्टीरिया",
+   "source": "bio11-02"
+  },
+  {
+   "en": "archaebacteria",
+   "hi": "आद्य बैक्टीरिया",
+   "source": "bio11-02"
+  },
+  {
+   "en": "methanogens",
+   "hi": "मैथेनोजेन",
+   "source": "bio11-02"
+  },
+  {
+   "en": "biogas",
+   "hi": "जैव गैस",
+   "source": "bio11-02"
+  },
+  {
+   "en": "algal fungi",
+   "hi": "शैवाल कवक",
+   "source": "bio11-02"
+  },
+  {
+   "en": "conidia",
+   "hi": "कोनिडिया",
+   "source": "bio11-02"
+  },
+  {
+   "en": "exogenously",
+   "hi": "बहिर्जात",
+   "source": "bio11-02"
+  },
+  {
+   "en": "karyogamy",
+   "hi": "केंद्रक संलयन",
+   "source": "bio11-02"
+  },
+  {
+   "en": "plasmogamy",
+   "hi": "प्लाज्मोगैमी",
+   "source": "bio11-02"
+  },
+  {
+   "en": "heterocysts",
+   "hi": "हेटेरोसिस्ट",
+   "source": "bio11-02"
+  },
+  {
+   "en": "saprophyte",
+   "hi": "मृतपोषी",
+   "source": "bio11-02"
+  },
+  {
+   "en": "parasite",
+   "hi": "परजीवी",
+   "source": "bio11-02"
+  },
+  {
+   "en": "pseudopodia",
+   "hi": "कूटपाद",
+   "source": "bio11-02"
+  },
+  {
+   "en": "sporozoans",
+   "hi": "स्पोरोजोआ",
+   "source": "bio11-02"
+  },
+  {
+   "en": "ciliated protozoans",
+   "hi": "पक्ष्माभी प्रोटोजोआ",
+   "source": "bio11-02"
+  },
+  {
+   "en": "flagella",
+   "hi": "कशाभ",
+   "source": "bio11-02"
+  },
+  {
+   "en": "zoospores",
+   "hi": "चल बीजाणु",
+   "source": "bio11-02",
+   "variants": [
+    "चलबीजाणु"
+   ]
+  },
+  {
+   "en": "rust",
+   "hi": "किट्ट",
+   "source": "bio11-02"
+  },
+  {
+   "en": "smut",
+   "hi": "कंड",
+   "source": "bio11-02"
+  },
+  {
+   "en": "mushroom",
+   "hi": "मशरूम",
+   "source": "bio11-02"
+  },
+  {
+   "en": "fruiting body",
+   "hi": "फलनकाय",
+   "source": "bio11-02"
+  },
+  {
+   "en": "mycelium",
+   "hi": "कवकजाल",
+   "source": "bio11-02"
+  },
+  {
+   "en": "phylogenetic",
+   "hi": "जातिवृत्तीय",
+   "source": "bio11-02"
+  },
+  {
+   "en": "five kingdom classification",
+   "hi": "पाँच जगत",
+   "source": "bio11-02"
+  },
+  {
+   "en": "morels",
+   "hi": "मॉरिल",
+   "source": "bio11-02"
+  },
+  {
+   "en": "truffles",
+   "hi": "ट्रफल",
+   "source": "bio11-02"
+  },
+  {
+   "en": "antibiotics",
+   "hi": "प्रतिजैविक",
+   "source": "bio11-02"
+  },
+  {
+   "en": "obligate parasites",
+   "hi": "अविकल्पी परजीवी",
+   "source": "bio11-02"
+  },
+  {
+   "en": "capsid",
+   "hi": "कैप्सिड",
+   "source": "bio11-02"
+  },
+  {
+   "en": "pellicle",
+   "hi": "पेलिकिल",
+   "source": "bio11-02"
+  },
+  {
+   "en": "budding",
+   "hi": "मुकुलन",
+   "source": "bio11-02"
+  },
+  {
+   "en": "homosporous",
+   "hi": "समबीजाणुक",
+   "source": "bio11-03"
+  },
+  {
+   "en": "gymnosperms",
+   "hi": "जिम्नोस्पर्म",
+   "source": "bio11-03",
+   "variants": [
+    "अनावृतबीजी"
+   ]
+  },
+  {
+   "en": "bryophytes",
+   "hi": "ब्रायोफाइट",
+   "source": "bio11-03"
+  },
+  {
+   "en": "pteridophytes",
+   "hi": "टैरिडोफाइट",
+   "source": "bio11-03"
+  },
+  {
+   "en": "algin",
+   "hi": "एल्जिन",
+   "source": "bio11-03"
+  },
+  {
+   "en": "carrageen",
+   "hi": "कैरागीन",
+   "source": "bio11-03"
+  },
+  {
+   "en": "dissolved oxygen",
+   "hi": "घुलित ऑक्सीजन",
+   "source": "bio11-03",
+   "variants": [
+    "घुली ऑक्सीजन"
+   ]
+  },
+  {
+   "en": "cuticle",
+   "hi": "क्यूटिकल",
+   "source": "bio11-03"
+  },
+  {
+   "en": "colonial",
+   "hi": "कॉलोनी",
+   "source": "bio11-03",
+   "check": false
+  },
+  {
+   "en": "ovules",
+   "hi": "बीजांड",
+   "source": "bio11-03"
+  },
+  {
+   "en": "ovary wall",
+   "hi": "अंडाशय भित्ति",
+   "source": "bio11-03"
+  },
+  {
+   "en": "gemma cups",
+   "hi": "जेमा कप",
+   "source": "bio11-03"
+  },
+  {
+   "en": "gemmae",
+   "hi": "जेमा",
+   "source": "bio11-03"
+  },
+  {
+   "en": "liverworts",
+   "hi": "लिवरवर्ट",
+   "source": "bio11-03"
+  },
+  {
+   "en": "mosses",
+   "hi": "मॉस",
+   "source": "bio11-03"
+  },
+  {
+   "en": "horsetails",
+   "hi": "हॉर्सटेल",
+   "source": "bio11-03"
+  },
+  {
+   "en": "cones",
+   "hi": "शंकु",
+   "source": "bio11-03"
+  },
+  {
+   "en": "mannitol",
+   "hi": "मैनीटोल",
+   "source": "bio11-03"
+  },
+  {
+   "en": "laminarin",
+   "hi": "लैमिनेरिन",
+   "source": "bio11-03"
+  },
+  {
+   "en": "protonema",
+   "hi": "प्रथम तंतु",
+   "source": "bio11-03"
+  },
+  {
+   "en": "prothallus",
+   "hi": "प्रोथैलस",
+   "source": "bio11-03"
+  },
+  {
+   "en": "archegonia",
+   "hi": "स्त्रीधानी",
+   "source": "bio11-03"
+  },
+  {
+   "en": "antheridia",
+   "hi": "पुंधानी",
+   "source": "bio11-03"
+  },
+  {
+   "en": "antherozoids",
+   "hi": "पुमणु",
+   "source": "bio11-03"
+  },
+  {
+   "en": "Chlorophyceae",
+   "hi": "क्लोरोफाइसी",
+   "source": "bio11-03"
+  },
+  {
+   "en": "Phaeophyceae",
+   "hi": "फीयोफाइसी",
+   "source": "bio11-03"
+  },
+  {
+   "en": "Rhodophyceae",
+   "hi": "रोडोफाइसी",
+   "source": "bio11-03"
+  },
+  {
+   "en": "red algae",
+   "hi": "लाल शैवाल",
+   "source": "bio11-03"
+  },
+  {
+   "en": "brown algae",
+   "hi": "भूरे शैवाल",
+   "source": "bio11-03"
+  },
+  {
+   "en": "green algae",
+   "hi": "हरे शैवाल",
+   "source": "bio11-03"
+  },
+  {
+   "en": "fucoxanthin",
+   "hi": "फयूकोजैंथिन",
+   "source": "bio11-03"
+  },
+  {
+   "en": "carotenoids",
+   "hi": "कैरोटिनॉइड",
+   "source": "bio11-03",
+   "variants": [
+    "कारटीनोएड"
+   ]
+  },
+  {
+   "en": "biflagellate",
+   "hi": "द्विकशाभिक",
+   "source": "bio11-03"
+  },
+  {
+   "en": "pollen grains",
+   "hi": "परागकण",
+   "source": "bio11-03"
+  },
+  {
+   "en": "substratum",
+   "hi": "अधःस्तर",
+   "source": "bio11-03"
+  },
+  {
+   "en": "anisogamous",
+   "hi": "विषमयुग्मकी",
+   "source": "bio11-03",
+   "variants": [
+    "असमयुग्मकी"
+   ]
+  },
+  {
+   "en": "diplontic",
+   "hi": "द्विगुणितक",
+   "source": "bio11-03"
+  },
+  {
+   "en": "metagenesis",
+   "hi": "मेटाजनेसिस",
+   "source": "bio11-04"
+  },
+  {
+   "en": "alternation of generation",
+   "hi": "पीढ़ी एकांतरण",
+   "source": "bio11-04"
+  },
+  {
+   "en": "metamorphosis",
+   "hi": "कायांतरण",
+   "source": "bio11-04"
+  },
+  {
+   "en": "indirect development",
+   "hi": "अप्रत्यक्ष परिवर्धन",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Porifera",
+   "hi": "पोरीफेरा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Mollusca",
+   "hi": "मोलस्का",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Coelenterata",
+   "hi": "सीलेंटरेटा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Cyclostomata",
+   "hi": "साइक्लोस्टोमेटा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "parapodia",
+   "hi": "पार्श्वपाद",
+   "source": "bio11-04"
+  },
+  {
+   "en": "metameric segmentation",
+   "hi": "विखंडी खंडीभवन",
+   "source": "bio11-04"
+  },
+  {
+   "en": "jointed appendages",
+   "hi": "संधियुक्त",
+   "source": "bio11-04"
+  },
+  {
+   "en": "viviparous",
+   "hi": "जरायुज",
+   "source": "bio11-04"
+  },
+  {
+   "en": "oviparous",
+   "hi": "अंडप्रजक",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Mammalia",
+   "hi": "स्तनधारी",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Reptilia",
+   "hi": "सरीसृप",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Aves",
+   "hi": "एवीज",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Amphibia",
+   "hi": "उभयचर",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Osteichthyes",
+   "hi": "ओस्टिक्थीज",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Chondrichthyes",
+   "hi": "कांड्रीक्थीज",
+   "source": "bio11-04"
+  },
+  {
+   "en": "homeotherm",
+   "hi": "समतापी",
+   "source": "bio11-04"
+  },
+  {
+   "en": "poikilotherm",
+   "hi": "असमतापी",
+   "source": "bio11-04"
+  },
+  {
+   "en": "spongocoel",
+   "hi": "स्पंजगुहा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "choanocytes",
+   "hi": "कीपकोशिका",
+   "source": "bio11-04"
+  },
+  {
+   "en": "osculum",
+   "hi": "ऑस्कुलम",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Hemichordata",
+   "hi": "हेमीकॉर्डेटा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "notochord",
+   "hi": "पृष्ठरज्जु",
+   "source": "bio11-04"
+  },
+  {
+   "en": "gill slits",
+   "hi": "क्लोम छिद्र",
+   "source": "bio11-04",
+   "variants": [
+    "गलफड़"
+   ]
+  },
+  {
+   "en": "pharynx",
+   "hi": "ग्रसनी",
+   "source": "bio11-04"
+  },
+  {
+   "en": "nerve cord",
+   "hi": "तंत्रिका रज्जु",
+   "source": "bio11-04"
+  },
+  {
+   "en": "crop",
+   "hi": "क्रॉप",
+   "source": "bio11-04",
+   "check": false
+  },
+  {
+   "en": "gizzard",
+   "hi": "पेषणी",
+   "source": "bio11-04"
+  },
+  {
+   "en": "bilateral symmetry",
+   "hi": "द्विपार्श्व सममिति",
+   "source": "bio11-04",
+   "variants": [
+    "द्विपार्श्व सममित"
+   ]
+  },
+  {
+   "en": "radial symmetry",
+   "hi": "अरीय सममिति",
+   "source": "bio11-04",
+   "variants": [
+    "अरीय सममित",
+    "त्रिज्यसममित"
+   ]
+  },
+  {
+   "en": "coelom",
+   "hi": "प्रगुहा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "pseudocoelomate",
+   "hi": "कूटगुहिक",
+   "source": "bio11-04"
+  },
+  {
+   "en": "acoelomate",
+   "hi": "अगुहीय",
+   "source": "bio11-04"
+  },
+  {
+   "en": "triploblastic",
+   "hi": "त्रिकोरकी",
+   "source": "bio11-04"
+  },
+  {
+   "en": "flame cells",
+   "hi": "ज्वाला कोशिका",
+   "source": "bio11-04"
+  },
+  {
+   "en": "comb plates",
+   "hi": "कंकत पट्टिका",
+   "source": "bio11-04"
+  },
+  {
+   "en": "radula",
+   "hi": "रेतीजिह्वा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "poison sting",
+   "hi": "विष दंश",
+   "source": "bio11-04"
+  },
+  {
+   "en": "book lungs",
+   "hi": "पुस्त फुप्फुस",
+   "source": "bio11-04"
+  },
+  {
+   "en": "bioluminescence",
+   "hi": "जीवसंदीप्ति",
+   "source": "bio11-04"
+  },
+  {
+   "en": "living fossil",
+   "hi": "जीवित जीवाश्म",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Urochordata",
+   "hi": "यूरोकॉर्डेटा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Cephalochordata",
+   "hi": "सेफैलोकॉर्डेटा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "water vascular system",
+   "hi": "जल संवहन",
+   "source": "bio11-04"
+  },
+  {
+   "en": "nephridia",
+   "hi": "वृक्कक",
+   "source": "bio11-04"
+  },
+  {
+   "en": "cnidoblasts",
+   "hi": "नाइडोब्लास्ट",
+   "source": "bio11-04"
+  },
+  {
+   "en": "mammary glands",
+   "hi": "स्तन ग्रंथि",
+   "source": "bio11-04"
+  },
+  {
+   "en": "operculum",
+   "hi": "प्रच्छद",
+   "source": "bio11-04"
+  },
+  {
+   "en": "endoskeleton",
+   "hi": "अंतःकंकाल",
+   "source": "bio11-04"
+  },
+  {
+   "en": "vertebral column",
+   "hi": "मेरुदंड",
+   "source": "bio11-04",
+   "variants": [
+    "कशेरुक दंड"
+   ]
+  },
+  {
+   "en": "scales",
+   "hi": "शल्क",
+   "source": "bio11-04"
+  },
+  {
+   "en": "roundworms",
+   "hi": "गोलकृमि",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Echinodermata",
+   "hi": "एकाइनोडर्मेटा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Annelida",
+   "hi": "ऐनेलिडा",
+   "source": "bio11-04"
+  },
+  {
+   "en": "Platyhelminthes",
+   "hi": "प्लेटीहैल्मिंथीज",
+   "source": "bio11-04",
+   "variants": [
+    "प्लेटीहेल्मिंथीज"
+   ]
+  },
+  {
+   "en": "Aschelminthes",
+   "hi": "ऐस्केलमिंथीज",
+   "source": "bio11-04"
+  },
+  {
+   "en": "hag fish",
+   "hi": "हैग",
+   "source": "bio11-04"
+  },
+  {
+   "en": "saw fish",
+   "hi": "आरामछली",
+   "source": "bio11-04",
+   "variants": [
+    "आरा मछली"
+   ]
+  },
+  {
+   "en": "flying fish",
+   "hi": "उड़न मछली",
+   "source": "bio11-04"
+  },
+  {
+   "en": "lungs",
+   "hi": "फुप्फुस",
+   "source": "bio11-04",
+   "variants": [
+    "फेफड़ा",
+    "फेफड़े",
+    "फेफड़ों"
+   ]
+  },
+  {
+   "en": "superior ovary",
+   "hi": "ऊर्ध्ववर्ती",
+   "source": "bio11-05"
+  },
+  {
+   "en": "inferior ovary",
+   "hi": "अधोवर्ती",
+   "source": "bio11-05"
+  },
+  {
+   "en": "hypogynous",
+   "hi": "अधोजायांगता",
+   "source": "bio11-05",
+   "variants": [
+    "अधोजायांगी"
+   ]
+  },
+  {
+   "en": "perigynous",
+   "hi": "परिजायांगी",
+   "source": "bio11-05",
+   "variants": [
+    "परिजायांगता"
+   ]
+  },
+  {
+   "en": "epigynous",
+   "hi": "अधिजायांगता",
+   "source": "bio11-05",
+   "variants": [
+    "अधिजायांगी"
+   ]
+  },
+  {
+   "en": "unisexual",
+   "hi": "एकलिंगी",
+   "source": "bio11-05"
+  },
+  {
+   "en": "placentation",
+   "hi": "बीजांडन्यास",
+   "source": "bio11-05"
+  },
+  {
+   "en": "axile",
+   "hi": "स्तंभीय",
+   "source": "bio11-05"
+  },
+  {
+   "en": "marginal",
+   "hi": "सीमांत",
+   "source": "bio11-05",
+   "check": false
+  },
+  {
+   "en": "parietal",
+   "hi": "भित्तीय",
+   "source": "bio11-05",
+   "check": false
+  },
+  {
+   "en": "free central",
+   "hi": "मुक्त स्तंभीय",
+   "source": "bio11-05"
+  },
+  {
+   "en": "basal",
+   "hi": "आधारी",
+   "source": "bio11-05",
+   "check": false
+  },
+  {
+   "en": "vexillary",
+   "hi": "वैक्जीलरी",
+   "source": "bio11-05"
+  },
+  {
+   "en": "papilionaceous",
+   "hi": "पैपिलिओनेसियस",
+   "source": "bio11-05"
+  },
+  {
+   "en": "plumule",
+   "hi": "प्रांकुर",
+   "source": "bio11-05"
+  },
+  {
+   "en": "radicle",
+   "hi": "मूलांकुर",
+   "source": "bio11-05"
+  },
+  {
+   "en": "monoadelphous",
+   "hi": "एकसंघी",
+   "source": "bio11-05"
+  },
+  {
+   "en": "diadelphous",
+   "hi": "द्विसंघी",
+   "source": "bio11-05"
+  },
+  {
+   "en": "polyadelphous",
+   "hi": "बहुसंघी",
+   "source": "bio11-05"
+  },
+  {
+   "en": "androecium",
+   "hi": "पुमंग",
+   "source": "bio11-05"
+  },
+  {
+   "en": "gynoecium",
+   "hi": "जायांग",
+   "source": "bio11-05"
+  },
+  {
+   "en": "epipetalous",
+   "hi": "दललग्न",
+   "source": "bio11-05"
+  },
+  {
+   "en": "epiphyllous",
+   "hi": "परिदल लग्न",
+   "source": "bio11-05"
+  },
+  {
+   "en": "zygomorphic",
+   "hi": "एकव्याससममित",
+   "source": "bio11-05"
+  },
+  {
+   "en": "actinomorphic",
+   "hi": "त्रिज्यसममिति",
+   "source": "bio11-05",
+   "variants": [
+    "त्रिज्यसममित"
+   ]
+  },
+  {
+   "en": "root hairs",
+   "hi": "मूल रोम",
+   "source": "bio11-05"
+  },
+  {
+   "en": "maturation",
+   "hi": "परिपक्व",
+   "source": "bio11-05"
+  },
+  {
+   "en": "root cap",
+   "hi": "मूल गोप",
+   "source": "bio11-05"
+  },
+  {
+   "en": "drupe",
+   "hi": "अष्ठिल",
+   "source": "bio11-05"
+  },
+  {
+   "en": "adventitious root",
+   "hi": "अपस्थानिक मूल",
+   "source": "bio11-05"
+  },
+  {
+   "en": "tap root",
+   "hi": "मूसला मूल",
+   "source": "bio11-05"
+  },
+  {
+   "en": "fibrous roots",
+   "hi": "तंतुक मूल",
+   "source": "bio11-05"
+  },
+  {
+   "en": "floral formula",
+   "hi": "पुष्पी सूत्र",
+   "source": "bio11-05"
+  },
+  {
+   "en": "racemose",
+   "hi": "असीमाक्षी",
+   "source": "bio11-05"
+  },
+  {
+   "en": "cymose",
+   "hi": "ससीमाक्षी",
+   "source": "bio11-05"
+  },
+  {
+   "en": "acropetal",
+   "hi": "अग्राभिसारी",
+   "source": "bio11-05"
+  },
+  {
+   "en": "twisted",
+   "hi": "व्यावर्तित",
+   "source": "bio11-05",
+   "check": false
+  },
+  {
+   "en": "perianth",
+   "hi": "परिदलपुंज",
+   "source": "bio11-05"
+  },
+  {
+   "en": "dithecous",
+   "hi": "द्विकोष्ठी",
+   "source": "bio11-05"
+  },
+  {
+   "en": "Solanaceae",
+   "hi": "सोलैनेसी",
+   "source": "bio11-05"
+  },
+  {
+   "en": "monocots",
+   "hi": "एकबीजपत्री",
+   "source": "bio11-05"
+  },
+  {
+   "en": "dicots",
+   "hi": "द्विबीजपत्री",
+   "source": "bio11-05"
+  },
+  {
+   "en": "subsidiary cells",
+   "hi": "सहायक कोशिकाएं",
+   "source": "bio11-06",
+   "variants": [
+    "सहायक कोशिकाएँ"
+   ]
+  },
+  {
+   "en": "bulliform cells",
+   "hi": "आवर्ध त्वक्कोशिका",
+   "source": "bio11-06"
+  },
+  {
+   "en": "cortex",
+   "hi": "वल्कुट",
+   "source": "bio11-06"
+  },
+  {
+   "en": "stele",
+   "hi": "रंभ",
+   "source": "bio11-06"
+  },
+  {
+   "en": "endodermis",
+   "hi": "अंतस्त्वचा",
+   "source": "bio11-06"
+  },
+  {
+   "en": "pericycle",
+   "hi": "परिरंभ",
+   "source": "bio11-06"
+  },
+  {
+   "en": "pith",
+   "hi": "मज्जा",
+   "source": "bio11-06",
+   "check": false
+  },
+  {
+   "en": "epidermis",
+   "hi": "बाह्यत्वचा",
+   "source": "bio11-06"
+  },
+  {
+   "en": "hypodermis",
+   "hi": "अधस्त्वचा",
+   "source": "bio11-06"
+  },
+  {
+   "en": "Casparian strips",
+   "hi": "कैस्पेरियन पट्टियों",
+   "source": "bio11-06",
+   "variants": [
+    "कैस्पेरियन पट्टियाँ"
+   ]
+  },
+  {
+   "en": "conjoint",
+   "hi": "संयुक्त",
+   "source": "bio11-06",
+   "check": false
+  },
+  {
+   "en": "vascular bundles",
+   "hi": "संवहन बंडल",
+   "source": "bio11-06"
+  },
+  {
+   "en": "ground tissue",
+   "hi": "भरण ऊतक",
+   "source": "bio11-06"
+  },
+  {
+   "en": "simple tissue",
+   "hi": "सरल ऊतक",
+   "source": "bio11-06"
+  },
+  {
+   "en": "complex tissue",
+   "hi": "जटिल ऊतक",
+   "source": "bio11-06"
+  },
+  {
+   "en": "dumb-bell",
+   "hi": "डंबलाकार",
+   "source": "bio11-06"
+  },
+  {
+   "en": "starch sheath",
+   "hi": "स्टार्च आच्छद",
+   "source": "bio11-06"
+  },
+  {
+   "en": "cambium",
+   "hi": "कैंबियम",
+   "source": "bio11-06"
+  },
+  {
+   "en": "medullary rays",
+   "hi": "मज्जाकिरण",
+   "source": "bio11-06"
+  },
+  {
+   "en": "exarch / polyarch",
+   "hi": "बहु-आदिदारुक",
+   "source": "bio11-06"
+  },
+  {
+   "en": "copulatory pad",
+   "hi": "मैथुनांग",
+   "source": "bio11-07"
+  },
+  {
+   "en": "vocal sacs",
+   "hi": "वाक् कोष",
+   "source": "bio11-07"
+  },
+  {
+   "en": "fore limb",
+   "hi": "अग्रपाद",
+   "source": "bio11-07",
+   "variants": [
+    "अग्र पाद"
+   ]
+  },
+  {
+   "en": "hind limb",
+   "hi": "पश्चपाद",
+   "source": "bio11-07",
+   "variants": [
+    "पश्च पाद"
+   ]
+  },
+  {
+   "en": "hepatic portal system",
+   "hi": "यकृत निवाहिका",
+   "source": "bio11-07"
+  },
+  {
+   "en": "renal portal system",
+   "hi": "वृक्कीय निवाहिका",
+   "source": "bio11-07"
+  },
+  {
+   "en": "vena cava",
+   "hi": "महाशिरा",
+   "source": "bio11-07"
+  },
+  {
+   "en": "sinus venosus",
+   "hi": "शिराकोटर",
+   "source": "bio11-07"
+  },
+  {
+   "en": "cranial nerves",
+   "hi": "कपाल तंत्रिकाएं",
+   "source": "bio11-07"
+  },
+  {
+   "en": "cerebellum",
+   "hi": "अनुमस्तिष्क",
+   "source": "bio11-07"
+  },
+  {
+   "en": "cloaca",
+   "hi": "अवस्कर",
+   "source": "bio11-07"
+  },
+  {
+   "en": "ureter",
+   "hi": "मूत्रवाहिनी",
+   "source": "bio11-07"
+  },
+  {
+   "en": "testes",
+   "hi": "वृषण",
+   "source": "bio11-07"
+  },
+  {
+   "en": "cutaneous respiration",
+   "hi": "त्वचीय श्वसन",
+   "source": "bio11-07"
+  },
+  {
+   "en": "mitochondria",
+   "hi": "सूत्र कणिका",
+   "source": "bio11-08",
+   "variants": [
+    "माइटोकॉन्ड्रिया",
+    "सूत्रकणिका",
+    "माइटोकोंड्रिया"
+   ]
+  },
+  {
+   "en": "chloroplast",
+   "hi": "हरित लवक",
+   "source": "bio11-08"
+  },
+  {
+   "en": "lysosomes",
+   "hi": "लयनकाय",
+   "source": "bio11-08"
+  },
+  {
+   "en": "vacuole",
+   "hi": "रसधानी",
+   "source": "bio11-08",
+   "variants": [
+    "रिक्तिका"
+   ]
+  },
+  {
+   "en": "Golgi apparatus",
+   "hi": "गॉल्जीकाय",
+   "source": "bio11-08",
+   "variants": [
+    "गॉल्जी उपकरण",
+    "गॉल्जी सम्मिश्र",
+    "गॉल्जी"
+   ]
+  },
+  {
+   "en": "endoplasmic reticulum",
+   "hi": "अंतर्द्रव्यी जालिका",
+   "source": "bio11-08"
+  },
+  {
+   "en": "ribosomes",
+   "hi": "राइबोसोम",
+   "source": "bio11-08"
+  },
+  {
+   "en": "mesosome",
+   "hi": "मीसोसोम",
+   "source": "bio11-08"
+  },
+  {
+   "en": "nuclear envelope",
+   "hi": "केंद्रक आवरण",
+   "source": "bio11-08"
+  },
+  {
+   "en": "nucleolus",
+   "hi": "केंद्रिका",
+   "source": "bio11-08"
+  },
+  {
+   "en": "centromere",
+   "hi": "गुणसूत्रबिंदु",
+   "source": "bio11-08"
+  },
+  {
+   "en": "metacentric",
+   "hi": "मध्यकेंद्री",
+   "source": "bio11-08"
+  },
+  {
+   "en": "sub-metacentric",
+   "hi": "उपमध्यकेंद्री",
+   "source": "bio11-08"
+  },
+  {
+   "en": "acrocentric",
+   "hi": "अग्रबिंदु",
+   "source": "bio11-08"
+  },
+  {
+   "en": "telocentric",
+   "hi": "अंतकेंद्री",
+   "source": "bio11-08"
+  },
+  {
+   "en": "centriole",
+   "hi": "तारककेंद्र",
+   "source": "bio11-08"
+  },
+  {
+   "en": "centrosome",
+   "hi": "तारककाय",
+   "source": "bio11-08"
+  },
+  {
+   "en": "cilia",
+   "hi": "पक्ष्माभ",
+   "source": "bio11-08"
+  },
+  {
+   "en": "axoneme",
+   "hi": "अक्षसूत्र",
+   "source": "bio11-08"
+  },
+  {
+   "en": "polysome",
+   "hi": "बहुसूत्र",
+   "source": "bio11-08"
+  },
+  {
+   "en": "microbodies",
+   "hi": "सूक्ष्मकाय",
+   "source": "bio11-08"
+  },
+  {
+   "en": "cytoskeleton",
+   "hi": "साइटोपंजर",
+   "source": "bio11-08"
+  },
+  {
+   "en": "endomembrane system",
+   "hi": "अंतःझिल्लिका",
+   "source": "bio11-08"
+  },
+  {
+   "en": "inclusion bodies",
+   "hi": "अंतर्विष्ट",
+   "source": "bio11-08"
+  },
+  {
+   "en": "glycocalyx",
+   "hi": "ग्लाइकोकेलिक्स",
+   "source": "bio11-08"
+  },
+  {
+   "en": "slime layer",
+   "hi": "अवपंक पर्त",
+   "source": "bio11-08"
+  },
+  {
+   "en": "matrix",
+   "hi": "आधात्री",
+   "source": "bio11-08"
+  },
+  {
+   "en": "cristae",
+   "hi": "क्रिस्टी",
+   "source": "bio11-08"
+  },
+  {
+   "en": "leucoplasts",
+   "hi": "अवर्णीलवक",
+   "source": "bio11-08"
+  },
+  {
+   "en": "perinuclear space",
+   "hi": "परिकेंद्रकी अवकाश",
+   "source": "bio11-08"
+  },
+  {
+   "en": "chromosome",
+   "hi": "गुणसूत्र",
+   "source": "bio11-08",
+   "variants": [
+    "क्रोमोसोम",
+    "गुणसूत्रों"
+   ]
+  },
+  {
+   "en": "substituted methanes",
+   "hi": "प्रतिस्थापित मेथेन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "secondary metabolites",
+   "hi": "द्वितीयक उपापचयज",
+   "source": "bio11-09"
+  },
+  {
+   "en": "ribozymes",
+   "hi": "राइबोजाइम",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "activation energy",
+   "hi": "सक्रियण ऊर्जा",
+   "source": "bio11-09"
+  },
+  {
+   "en": "apoenzyme",
+   "hi": "एपोएंजाइम",
+   "source": "bio11-09"
+  },
+  {
+   "en": "coenzyme",
+   "hi": "सह-एंजाइम",
+   "source": "bio11-09"
+  },
+  {
+   "en": "cofactor",
+   "hi": "सहकारक",
+   "source": "bio11-09"
+  },
+  {
+   "en": "prosthetic group",
+   "hi": "प्रोस्थेटिक",
+   "source": "bio11-09"
+  },
+  {
+   "en": "substrate",
+   "hi": "क्रियाधार",
+   "source": "bio11-09"
+  },
+  {
+   "en": "active site",
+   "hi": "सक्रिय स्थल",
+   "source": "bio11-09"
+  },
+  {
+   "en": "competitive inhibitor",
+   "hi": "प्रतिस्पर्धी संदमक",
+   "source": "bio11-09"
+  },
+  {
+   "en": "inhibitor",
+   "hi": "संदमक",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "lectins",
+   "hi": "लेक्टिन्स",
+   "source": "bio11-09"
+  },
+  {
+   "en": "alkaloids",
+   "hi": "एल्केलायड्",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "toxin",
+   "hi": "टॉक्सीन",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "phospholipids",
+   "hi": "फॉस्फोलिपिड्स",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "unsaturated",
+   "hi": "असंतृप्त",
+   "source": "bio11-09"
+  },
+  {
+   "en": "melting point",
+   "hi": "गलनांक",
+   "source": "bio11-09"
+  },
+  {
+   "en": "collagen",
+   "hi": "कोलेजन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "trypsin",
+   "hi": "ट्रिपसिन",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "secondary structure",
+   "hi": "द्वितीयक संरचना",
+   "source": "bio11-09"
+  },
+  {
+   "en": "primary structure",
+   "hi": "प्राथमिक संरचना",
+   "source": "bio11-09"
+  },
+  {
+   "en": "alpha helix",
+   "hi": "अल्फा हैलिक्स",
+   "source": "bio11-09"
+  },
+  {
+   "en": "transferases",
+   "hi": "ट्रांसफरेज",
+   "source": "bio11-09"
+  },
+  {
+   "en": "lyases",
+   "hi": "लायेजेज",
+   "source": "bio11-09"
+  },
+  {
+   "en": "hydrolases",
+   "hi": "हाइड्रोलेज",
+   "source": "bio11-09"
+  },
+  {
+   "en": "ligases",
+   "hi": "लाइगेज",
+   "source": "bio11-09"
+  },
+  {
+   "en": "isomerases",
+   "hi": "आइसोमरेज",
+   "source": "bio11-09"
+  },
+  {
+   "en": "nucleoside",
+   "hi": "न्यूक्लियोसाइड",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "purine",
+   "hi": "प्यूरीन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "pyrimidine",
+   "hi": "पीरिमिडीन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "peptide bonds",
+   "hi": "पेप्टाइड बंध",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "glycosidic",
+   "hi": "ग्लाइकोसाइडिक",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "malonate",
+   "hi": "मेलोनेट",
+   "source": "bio11-09"
+  },
+  {
+   "en": "iodine",
+   "hi": "आयोडीन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "lysine",
+   "hi": "लाइसिन",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "valine",
+   "hi": "वेलीन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "glutamic acid",
+   "hi": "ग्लुटामिक",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "aromatic",
+   "hi": "एरोमेटिक",
+   "source": "bio11-09",
+   "check": false
+  },
+  {
+   "en": "concanavalin A",
+   "hi": "कोनकेनेवेलीन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "ricin",
+   "hi": "रिसीन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "abrin",
+   "hi": "एब्रिन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "vinblastine",
+   "hi": "वीनब्लेस्टीन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "curcumin",
+   "hi": "करकुमीन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "codeine",
+   "hi": "कोडीन",
+   "source": "bio11-09"
+  },
+  {
+   "en": "polymer",
+   "hi": "बहुलक",
+   "source": "bio11-09"
+  },
+  {
+   "en": "kinetochore",
+   "hi": "काइनेटोकोर",
+   "source": "bio11-10"
+  },
+  {
+   "en": "chiasmata",
+   "hi": "काएज्मेटा",
+   "source": "bio11-10"
+  },
+  {
+   "en": "terminalisation",
+   "hi": "उपांतीभवन",
+   "source": "bio11-10"
+  },
+  {
+   "en": "crossing over",
+   "hi": "जीन विनिमय",
+   "source": "bio11-10"
+  },
+  {
+   "en": "synaptonemal complex",
+   "hi": "सिनेप्टोनीमल सम्मिश्र",
+   "source": "bio11-10"
+  },
+  {
+   "en": "recombination nodules",
+   "hi": "पुनर्योजन ग्रंथिकाएं",
+   "source": "bio11-10",
+   "variants": [
+    "पुनर्योजन ग्रंथिकाओं"
+   ]
+  },
+  {
+   "en": "leptotene",
+   "hi": "तनुपट्ट",
+   "source": "bio11-10"
+  },
+  {
+   "en": "zygotene",
+   "hi": "युग्मपट्ट",
+   "source": "bio11-10"
+  },
+  {
+   "en": "pachytene",
+   "hi": "स्थूलपट्ट",
+   "source": "bio11-10"
+  },
+  {
+   "en": "diplotene",
+   "hi": "द्विपट्ट",
+   "source": "bio11-10",
+   "variants": [
+    "डिप्लोटीन"
+   ]
+  },
+  {
+   "en": "diakinesis",
+   "hi": "पारगतिक्रम",
+   "source": "bio11-10"
+  },
+  {
+   "en": "bivalent",
+   "hi": "युगली",
+   "source": "bio11-10"
+  },
+  {
+   "en": "tetrad",
+   "hi": "चतुष्क",
+   "source": "bio11-10",
+   "variants": [
+    "चतुष्टय"
+   ]
+  },
+  {
+   "en": "chromatids",
+   "hi": "अर्धगुणसूत्र",
+   "source": "bio11-10"
+  },
+  {
+   "en": "homologous chromosomes",
+   "hi": "समजात गुणसूत्र",
+   "source": "bio11-10"
+  },
+  {
+   "en": "interphase",
+   "hi": "अंतरावस्था",
+   "source": "bio11-10"
+  },
+  {
+   "en": "interkinesis",
+   "hi": "अंतरालावस्था",
+   "source": "bio11-10"
+  },
+  {
+   "en": "prophase",
+   "hi": "पूर्वावस्था",
+   "source": "bio11-10"
+  },
+  {
+   "en": "metaphase",
+   "hi": "मध्यावस्था",
+   "source": "bio11-10"
+  },
+  {
+   "en": "anaphase",
+   "hi": "पश्चावस्था",
+   "source": "bio11-10"
+  },
+  {
+   "en": "telophase",
+   "hi": "अंत्यावस्था",
+   "source": "bio11-10"
+  },
+  {
+   "en": "quiescent stage",
+   "hi": "शांत अवस्था",
+   "source": "bio11-10"
+  },
+  {
+   "en": "karyokinesis",
+   "hi": "केंद्रक विभाजन",
+   "source": "bio11-10"
+  },
+  {
+   "en": "cytokinesis",
+   "hi": "कोशिकाद्रव्य विभाजन",
+   "source": "bio11-10"
+  },
+  {
+   "en": "cell plate",
+   "hi": "कोशिका पट्टिका",
+   "source": "bio11-10"
+  },
+  {
+   "en": "equational division",
+   "hi": "सम विभाजन",
+   "source": "bio11-10"
+  },
+  {
+   "en": "metaphase plate",
+   "hi": "मध्यावस्था पट्टिका",
+   "source": "bio11-10"
+  },
+  {
+   "en": "stroma",
+   "hi": "स्ट्रोमा",
+   "source": "bio11-11",
+   "variants": [
+    "पीठिका"
+   ]
+  },
+  {
+   "en": "thylakoid",
+   "hi": "थाइलेकोइड",
+   "source": "bio11-11"
+  },
+  {
+   "en": "lumen",
+   "hi": "अवकाशिका",
+   "source": "bio11-11",
+   "variants": [
+    "ल्यूमेन",
+    "गुहा",
+    "गुहिका"
+   ]
+  },
+  {
+   "en": "photorespiration",
+   "hi": "प्रकाश श्वसन",
+   "source": "bio11-11"
+  },
+  {
+   "en": "Calvin cycle",
+   "hi": "केल्विन",
+   "source": "bio11-11"
+  },
+  {
+   "en": "bundle sheath",
+   "hi": "पूलाच्छद",
+   "source": "bio11-11",
+   "variants": [
+    "पूलीय आच्छद"
+   ]
+  },
+  {
+   "en": "Kranz anatomy",
+   "hi": "क्रांज़",
+   "source": "bio11-11"
+  },
+  {
+   "en": "RuBisCO",
+   "hi": "रुबिस्को",
+   "source": "bio11-11",
+   "variants": [
+    "RuBisCO",
+    "RuBisCo"
+   ]
+  },
+  {
+   "en": "carboxylation",
+   "hi": "कार्बोक्सिलीकरण",
+   "source": "bio11-11"
+  },
+  {
+   "en": "chemiosmosis",
+   "hi": "रसोपरासरण",
+   "source": "bio11-11"
+  },
+  {
+   "en": "proton gradient",
+   "hi": "प्रोटोन प्रवणता",
+   "source": "bio11-11"
+  },
+  {
+   "en": "proton pump",
+   "hi": "प्रोटोन पंप",
+   "source": "bio11-11"
+  },
+  {
+   "en": "cyclic photophosphorylation",
+   "hi": "चक्रीय",
+   "source": "bio11-11"
+  },
+  {
+   "en": "non-cyclic",
+   "hi": "अचक्रीय",
+   "source": "bio11-11"
+  },
+  {
+   "en": "mesophyll",
+   "hi": "पर्णमध्योतक",
+   "source": "bio11-11"
+  },
+  {
+   "en": "phosphoenol pyruvate",
+   "hi": "फोस्फोइनोल पाइरुवेट",
+   "source": "bio11-11"
+  },
+  {
+   "en": "oxaloacetic acid",
+   "hi": "ओक्सैलोएसिटिक",
+   "source": "bio11-11"
+  },
+  {
+   "en": "plastoquinone",
+   "hi": "प्लास्टोक्विनीन",
+   "source": "bio11-11"
+  },
+  {
+   "en": "light saturation",
+   "hi": "प्रकाश संतृप्ति",
+   "source": "bio11-11"
+  },
+  {
+   "en": "sorghum",
+   "hi": "ज्वार",
+   "source": "bio11-11"
+  },
+  {
+   "en": "glycolysis",
+   "hi": "ग्लाइकोलिसिस",
+   "source": "bio11-12"
+  },
+  {
+   "en": "pyruvic acid",
+   "hi": "पायरुविक",
+   "source": "bio11-12",
+   "variants": [
+    "पाइरुविक"
+   ]
+  },
+  {
+   "en": "Krebs cycle",
+   "hi": "क्रेब्स",
+   "source": "bio11-12"
+  },
+  {
+   "en": "electron transport system",
+   "hi": "इलेक्ट्रॉन परिवहन",
+   "source": "bio11-12"
+  },
+  {
+   "en": "oxidative phosphorylation",
+   "hi": "ऑक्सीकारी-फॉस्फोरिलिकरण",
+   "source": "bio11-12",
+   "variants": [
+    "ऑक्सीकरणी फॉस्फोरिलीकरण"
+   ]
+  },
+  {
+   "en": "respiratory quotient",
+   "hi": "साँस गुणांक",
+   "source": "bio11-12",
+   "variants": [
+    "श्वसन गुणांक",
+    "श्वसनी गुणांक"
+   ]
+  },
+  {
+   "en": "fermentation",
+   "hi": "किण्वन",
+   "source": "bio11-12"
+  },
+  {
+   "en": "acetyl CoA",
+   "hi": "एसीटाइल",
+   "source": "bio11-12"
+  },
+  {
+   "en": "ubiquinone",
+   "hi": "यूबीक्विनोन",
+   "source": "bio11-12"
+  },
+  {
+   "en": "final electron acceptor",
+   "hi": "अंतिम इलेक्ट्रॉन ग्राही",
+   "source": "bio11-12"
+  },
+  {
+   "en": "tripalmitin",
+   "hi": "ट्राइपामिटिन",
+   "source": "bio11-12"
+  },
+  {
+   "en": "gibberellin",
+   "hi": "जिबरेलिन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "cytokinin",
+   "hi": "साइटोकाइनिन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "ethylene",
+   "hi": "एथीलिन",
+   "source": "bio11-13",
+   "check": false,
+   "note": "Chemistry book spells it differently (एथिलीन); Biology NCERT uses एथीलिन"
+  },
+  {
+   "en": "abscisic acid",
+   "hi": "एबसीसिक एसिड",
+   "source": "bio11-13"
+  },
+  {
+   "en": "abscission",
+   "hi": "विलगन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "dedifferentiation",
+   "hi": "निर्विभेदन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "redifferentiation",
+   "hi": "पुनर्विभेदन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "plasticity",
+   "hi": "प्लास्टिसिटी",
+   "source": "bio11-13"
+  },
+  {
+   "en": "heterophylly",
+   "hi": "विषमपर्णता",
+   "source": "bio11-13"
+  },
+  {
+   "en": "apical dominance",
+   "hi": "शीर्षस्थ प्रभाविता",
+   "source": "bio11-13"
+  },
+  {
+   "en": "parthenocarpy",
+   "hi": "अनिषेकफलन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "herbicide",
+   "hi": "शाकनाशी",
+   "source": "bio11-13"
+  },
+  {
+   "en": "stress hormone",
+   "hi": "तनाव हार्मोन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "malting",
+   "hi": "माल्टिंग",
+   "source": "bio11-13"
+  },
+  {
+   "en": "senescence",
+   "hi": "जरावस्था",
+   "source": "bio11-13"
+  },
+  {
+   "en": "lag phase",
+   "hi": "पश्चता अवस्था",
+   "source": "bio11-13"
+  },
+  {
+   "en": "log phase",
+   "hi": "चरघातांकी",
+   "source": "bio11-13"
+  },
+  {
+   "en": "vacuolation",
+   "hi": "रसधानी भवन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "cell enlargement",
+   "hi": "कोशिका विशालीकरण",
+   "source": "bio11-13"
+  },
+  {
+   "en": "kinetin",
+   "hi": "काइनेटिन",
+   "source": "bio11-13"
+  },
+  {
+   "en": "plant growth regulator",
+   "hi": "पादप वृद्धि नियामक",
+   "source": "bio11-13"
+  },
+  {
+   "en": "root hair",
+   "hi": "मूल रोम",
+   "source": "bio11-13"
+  },
+  {
+   "en": "pineapple",
+   "hi": "अनानास",
+   "source": "bio11-13"
+  },
+  {
+   "en": "petiole",
+   "hi": "पर्णवृंत",
+   "source": "bio11-13"
+  },
+  {
+   "en": "gibberellic acid",
+   "hi": "जिब्बेरेलिक अम्ल",
+   "source": "bio11-13"
+  },
+  {
+   "en": "brewing industry",
+   "hi": "आसव (शराब) उद्योग",
+   "source": "bio11-13"
+  },
+  {
+   "en": "buttercup",
+   "hi": "बटरकप",
+   "source": "bio11-13"
+  },
+  {
+   "en": "larkspur",
+   "hi": "लार्कस्पर",
+   "source": "bio11-13"
+  },
+  {
+   "en": "coriander",
+   "hi": "धनिया",
+   "source": "bio11-13"
+  },
+  {
+   "en": "dormancy",
+   "hi": "प्रसुप्ति",
+   "source": "bio11-13"
+  },
+  {
+   "en": "conifers",
+   "hi": "शंकुवृक्षों",
+   "source": "bio11-13",
+   "check": false
+  },
+  {
+   "en": "deep water rice",
+   "hi": "गहरे पानी के धान",
+   "source": "bio11-13"
+  },
+  {
+   "en": "alveoli",
+   "hi": "कूपिका",
+   "source": "bio11-14"
+  },
+  {
+   "en": "asthma",
+   "hi": "दमा",
+   "source": "bio11-14"
+  },
+  {
+   "en": "bronchi",
+   "hi": "श्वसनी",
+   "source": "bio11-14"
+  },
+  {
+   "en": "bronchioles",
+   "hi": "श्वसनिका",
+   "source": "bio11-14"
+  },
+  {
+   "en": "tidal volume",
+   "hi": "ज्वारीय आयतन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "inspiratory reserve volume",
+   "hi": "अंतःश्वसन सुरक्षित आयतन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "expiratory reserve volume",
+   "hi": "निःश्वसन सुरक्षित आयतन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "residual volume",
+   "hi": "अवशिष्ट आयतन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "inspiratory capacity",
+   "hi": "अंतःश्वसन क्षमता",
+   "source": "bio11-14"
+  },
+  {
+   "en": "expiratory capacity",
+   "hi": "निःश्वसन क्षमता",
+   "source": "bio11-14"
+  },
+  {
+   "en": "functional residual capacity",
+   "hi": "क्रियाशील अवशिष्ट क्षमता",
+   "source": "bio11-14"
+  },
+  {
+   "en": "vital capacity",
+   "hi": "जैव क्षमता",
+   "source": "bio11-14"
+  },
+  {
+   "en": "total lung capacity",
+   "hi": "फेफड़ों की कुल क्षमता",
+   "source": "bio11-14"
+  },
+  {
+   "en": "partial pressure",
+   "hi": "आंशिक दाब",
+   "source": "bio11-14"
+  },
+  {
+   "en": "oxyhaemoglobin",
+   "hi": "ऑक्सीहीमोग्लोबिन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "external intercostal muscles",
+   "hi": "बाह्य अंतरापर्शुक",
+   "source": "bio11-14"
+  },
+  {
+   "en": "pleura",
+   "hi": "फुप्फुसावरण",
+   "source": "bio11-14"
+  },
+  {
+   "en": "conducting part",
+   "hi": "चालन भाग",
+   "source": "bio11-14"
+  },
+  {
+   "en": "exchange part",
+   "hi": "विनिमय भाग",
+   "source": "bio11-14"
+  },
+  {
+   "en": "occupational respiratory disorder",
+   "hi": "व्यावसायिक श्वसन रोग",
+   "source": "bio11-14"
+  },
+  {
+   "en": "inflammation",
+   "hi": "शोथ",
+   "source": "bio11-14"
+  },
+  {
+   "en": "pulmonary ventilation",
+   "hi": "फुप्फुसी संवातन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "inspiration",
+   "hi": "अंतःश्वसन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "expiration",
+   "hi": "निःश्वसन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "intra-pulmonary pressure",
+   "hi": "आंतर फुप्फुसी दाब",
+   "source": "bio11-14"
+  },
+  {
+   "en": "tetany",
+   "hi": "अपतानिका",
+   "source": "bio11-14"
+  },
+  {
+   "en": "angina",
+   "hi": "हृदशूल",
+   "source": "bio11-14"
+  },
+  {
+   "en": "dissociation",
+   "hi": "वियोजन",
+   "source": "bio11-14",
+   "check": false
+  },
+  {
+   "en": "fibrosis",
+   "hi": "रेशामयता",
+   "source": "bio11-14",
+   "check": false,
+   "note": "cystic fibrosis (disease name) is transliterated"
+  },
+  {
+   "en": "smoking",
+   "hi": "धूम्रपान",
+   "source": "bio11-14"
+  },
+  {
+   "en": "cellular respiration",
+   "hi": "कोशिकीय श्वसन",
+   "source": "bio11-14"
+  },
+  {
+   "en": "mast cells",
+   "hi": "मास्ट कोशिका",
+   "source": "bio11-14"
+  },
+  {
+   "en": "wheezing",
+   "hi": "घरघराहट",
+   "source": "bio11-14"
+  },
+  {
+   "en": "serum",
+   "hi": "सीरम",
+   "source": "bio11-15"
+  },
+  {
+   "en": "albumin",
+   "hi": "एल्बूमिन",
+   "source": "bio11-15"
+  },
+  {
+   "en": "globulin",
+   "hi": "ग्लोबुलिन",
+   "source": "bio11-15",
+   "variants": [
+    "ग्लोब्युलिन"
+   ]
+  },
+  {
+   "en": "fibrinogen",
+   "hi": "फाइब्रिनोजन",
+   "source": "bio11-15"
+  },
+  {
+   "en": "fibrin",
+   "hi": "फाइब्रिन",
+   "source": "bio11-15"
+  },
+  {
+   "en": "thrombin",
+   "hi": "थ्रोम्बिन",
+   "source": "bio11-15",
+   "variants": [
+    "थ्रोंबिन"
+   ]
+  },
+  {
+   "en": "thrombokinase",
+   "hi": "थ्रोंबोकाइनेज",
+   "source": "bio11-15"
+  },
+  {
+   "en": "thrombocytes",
+   "hi": "थ्रोम्बोसाइट",
+   "source": "bio11-15"
+  },
+  {
+   "en": "platelets",
+   "hi": "पट्टिकाणु",
+   "source": "bio11-15"
+  },
+  {
+   "en": "erythrocytes",
+   "hi": "इरिथ्रोसाइट",
+   "source": "bio11-15"
+  },
+  {
+   "en": "leucocytes",
+   "hi": "ल्युकोसाइट",
+   "source": "bio11-15"
+  },
+  {
+   "en": "neutrophils",
+   "hi": "न्यूट्रोफिल",
+   "source": "bio11-15"
+  },
+  {
+   "en": "eosinophils",
+   "hi": "इओसिनोफिल",
+   "source": "bio11-15"
+  },
+  {
+   "en": "basophils",
+   "hi": "बेसोफिल",
+   "source": "bio11-15"
+  },
+  {
+   "en": "monocytes",
+   "hi": "मोनोसाइट",
+   "source": "bio11-15",
+   "variants": [
+    "एककेंद्रकाणु"
+   ]
+  },
+  {
+   "en": "granulocytes",
+   "hi": "कणिकाणु",
+   "source": "bio11-15"
+  },
+  {
+   "en": "histamine",
+   "hi": "हिस्टामिन",
+   "source": "bio11-15",
+   "check": false
+  },
+  {
+   "en": "serotonin",
+   "hi": "सिरोटोनिन",
+   "source": "bio11-15"
+  },
+  {
+   "en": "heparin",
+   "hi": "हिपैरिन",
+   "source": "bio11-15"
+  },
+  {
+   "en": "clotting",
+   "hi": "स्कंदन",
+   "source": "bio11-15",
+   "check": false,
+   "note": "Chemistry questions use थक्का"
+  },
+  {
+   "en": "osmotic balance",
+   "hi": "परासरणी संतुलन",
+   "source": "bio11-15"
+  },
+  {
+   "en": "double circulation",
+   "hi": "दोहरा परिसंचरण",
+   "source": "bio11-15"
+  },
+  {
+   "en": "tricuspid valve",
+   "hi": "त्रिवलनी कपाट",
+   "source": "bio11-15"
+  },
+  {
+   "en": "bicuspid valve",
+   "hi": "द्विवलनी कपाट",
+   "source": "bio11-15"
+  },
+  {
+   "en": "semilunar valve",
+   "hi": "अर्धचंद्र",
+   "source": "bio11-15"
+  },
+  {
+   "en": "atrium",
+   "hi": "अलिंद",
+   "source": "bio11-15"
+  },
+  {
+   "en": "ventricle",
+   "hi": "निलय",
+   "source": "bio11-15"
+  },
+  {
+   "en": "Purkinje fibres",
+   "hi": "पुरकिंजे तंतु",
+   "source": "bio11-15"
+  },
+  {
+   "en": "myogenic",
+   "hi": "पेशीजनक",
+   "source": "bio11-15"
+  },
+  {
+   "en": "autoexcitable",
+   "hi": "स्वउत्तेजनशील",
+   "source": "bio11-15"
+  },
+  {
+   "en": "cardiac cycle",
+   "hi": "हृद चक्र",
+   "source": "bio11-15"
+  },
+  {
+   "en": "cardiac output",
+   "hi": "हृद निकास",
+   "source": "bio11-15"
+  },
+  {
+   "en": "stroke volume",
+   "hi": "प्रवाह आयतन",
+   "source": "bio11-15"
+  },
+  {
+   "en": "depolarisation",
+   "hi": "विध्रुवण",
+   "source": "bio11-15"
+  },
+  {
+   "en": "systole",
+   "hi": "प्रकुंचन",
+   "source": "bio11-15"
+  },
+  {
+   "en": "diastole",
+   "hi": "अनुशिथिलन",
+   "source": "bio11-15"
+  },
+  {
+   "en": "aorta",
+   "hi": "महाधमनी",
+   "source": "bio11-15"
+  },
+  {
+   "en": "pulmonary artery",
+   "hi": "फुप्फुसीय धमनी",
+   "source": "bio11-15",
+   "variants": [
+    "फुप्फुस धमनी"
+   ]
+  },
+  {
+   "en": "pulmonary vein",
+   "hi": "फुप्फुस शिरा",
+   "source": "bio11-15"
+  },
+  {
+   "en": "hepatic portal vein",
+   "hi": "यकृत निवाहिका शिरा",
+   "source": "bio11-15"
+  },
+  {
+   "en": "medulla oblongata",
+   "hi": "मेड्यूला ओबलांगाटा",
+   "source": "bio11-15",
+   "variants": [
+    "मेडूला ऑब्लांगेटा"
+   ]
+  },
+  {
+   "en": "adrenal medulla",
+   "hi": "अधिवृक्क अंतस्था",
+   "source": "bio11-15",
+   "variants": [
+    "अधिवृक्क मध्यांश"
+   ]
+  },
+  {
+   "en": "adrenal cortex",
+   "hi": "अधिवृक्क वल्कुट",
+   "source": "bio11-15"
+  },
+  {
+   "en": "erythroblastosis foetalis",
+   "hi": "इरिथ्रोब्लास्टोसिस फिटैलिस",
+   "source": "bio11-15"
+  },
+  {
+   "en": "universal recipient",
+   "hi": "सर्व आदाता",
+   "source": "bio11-15"
+  },
+  {
+   "en": "nodal tissue",
+   "hi": "नोडल ऊतक",
+   "source": "bio11-15"
+  },
+  {
+   "en": "action potential",
+   "hi": "क्रियाविभव",
+   "source": "bio11-15"
+  },
+  {
+   "en": "coronary circulation",
+   "hi": "हृद परिसंचरण",
+   "source": "bio11-15"
+  },
+  {
+   "en": "SA node",
+   "hi": "शिराअलिंदपर्व",
+   "source": "bio11-15",
+   "variants": [
+    "SA पर्व"
+   ]
+  },
+  {
+   "en": "AV node",
+   "hi": "अलिंद निलय पर्व",
+   "source": "bio11-15",
+   "variants": [
+    "AV पर्व"
+   ]
+  },
+  {
+   "en": "proximal convoluted tubule",
+   "hi": "समीपस्थ संवलित नलिका",
+   "source": "bio11-16"
+  },
+  {
+   "en": "distal convoluted tubule",
+   "hi": "दूरस्थ संवलित नलिका",
+   "source": "bio11-16"
+  },
+  {
+   "en": "loop of Henle",
+   "hi": "हेनले-लूप",
+   "source": "bio11-16"
+  },
+  {
+   "en": "ascending limb",
+   "hi": "आरोही भुजा",
+   "source": "bio11-16"
+  },
+  {
+   "en": "descending limb",
+   "hi": "अवरोही भुजा",
+   "source": "bio11-16"
+  },
+  {
+   "en": "Bowman's capsule",
+   "hi": "बोमेन संपुट",
+   "source": "bio11-16"
+  },
+  {
+   "en": "glomerulus",
+   "hi": "गुच्छ",
+   "source": "bio11-16"
+  },
+  {
+   "en": "afferent arteriole",
+   "hi": "अभिवाही धमनिका",
+   "source": "bio11-16"
+  },
+  {
+   "en": "efferent arteriole",
+   "hi": "अपवाही धमनिका",
+   "source": "bio11-16"
+  },
+  {
+   "en": "columns of Bertini",
+   "hi": "बरतीनी-स्तंभ",
+   "source": "bio11-16"
+  },
+  {
+   "en": "cortical nephrons",
+   "hi": "वल्कुटीय",
+   "source": "bio11-16"
+  },
+  {
+   "en": "juxtamedullary",
+   "hi": "सान्निध्य मध्यांश",
+   "source": "bio11-16"
+  },
+  {
+   "en": "juxtaglomerular apparatus",
+   "hi": "सान्निध्य गुच्छ उपकरण",
+   "source": "bio11-16"
+  },
+  {
+   "en": "renin",
+   "hi": "रेनिन",
+   "source": "bio11-16"
+  },
+  {
+   "en": "angiotensinogen",
+   "hi": "ऐंजिओटेंसिनोजन",
+   "source": "bio11-16"
+  },
+  {
+   "en": "angiotensin",
+   "hi": "एंजियोटेंसिन",
+   "source": "bio11-16"
+  },
+  {
+   "en": "aldosterone",
+   "hi": "एल्डोस्टीरोन",
+   "source": "bio11-16",
+   "variants": [
+    "एल्डोस्टीरॉन"
+   ]
+  },
+  {
+   "en": "antidiuretic hormone",
+   "hi": "प्रतिमूत्रल",
+   "source": "bio11-16"
+  },
+  {
+   "en": "diuresis",
+   "hi": "मूत्रलता",
+   "source": "bio11-16"
+  },
+  {
+   "en": "atrial natriuretic factor",
+   "hi": "अलिंदीय नेट्रियेरेटिक कारक",
+   "source": "bio11-16",
+   "variants": [
+    "एट्रियल नेट्रियुरेटिक कारक"
+   ]
+  },
+  {
+   "en": "osmoreceptors",
+   "hi": "परासरण ग्राहि",
+   "source": "bio11-16"
+  },
+  {
+   "en": "vasodilation",
+   "hi": "वाहिकाविस्फारण",
+   "source": "bio11-16"
+  },
+  {
+   "en": "ultrafiltration",
+   "hi": "परा-निस्यंदन",
+   "source": "bio11-16"
+  },
+  {
+   "en": "reabsorption",
+   "hi": "पुनरावशोषण",
+   "source": "bio11-16",
+   "variants": [
+    "पुनरवशोषण",
+    "पुनःअवशोषण"
+   ]
+  },
+  {
+   "en": "filtrate",
+   "hi": "निस्यंद",
+   "source": "bio11-16"
+  },
+  {
+   "en": "counter-current",
+   "hi": "प्रतिधारा",
+   "source": "bio11-16"
+  },
+  {
+   "en": "collecting duct",
+   "hi": "संग्रह नलिका",
+   "source": "bio11-16"
+  },
+  {
+   "en": "medulla",
+   "hi": "मध्यांश",
+   "source": "bio11-16",
+   "check": false
+  },
+  {
+   "en": "urinary bladder",
+   "hi": "मूत्राशय",
+   "source": "bio11-16"
+  },
+  {
+   "en": "glycosuria",
+   "hi": "ग्लाइकोसूरिया",
+   "source": "bio11-16"
+  },
+  {
+   "en": "gout",
+   "hi": "गाउट",
+   "source": "bio11-16"
+  },
+  {
+   "en": "renal calculi",
+   "hi": "रीनल केलकलाई",
+   "source": "bio11-16"
+  },
+  {
+   "en": "glomerular nephritis",
+   "hi": "ग्लोमेलोनेफ्राइटिस",
+   "source": "bio11-16"
+  },
+  {
+   "en": "haemodialysis",
+   "hi": "हीमोडायलिसिस",
+   "source": "bio11-16"
+  },
+  {
+   "en": "artificial kidney",
+   "hi": "कृत्रिम वृक्क",
+   "source": "bio11-16"
+  },
+  {
+   "en": "uric acid",
+   "hi": "यूरिक अम्ल",
+   "source": "bio11-16"
+  },
+  {
+   "en": "uricotelic",
+   "hi": "यूरिकअम्लउत्सर्जी",
+   "source": "bio11-16",
+   "variants": [
+    "यूरिक अम्ल उत्सर्जी"
+   ]
+  },
+  {
+   "en": "ureotelic",
+   "hi": "यूरियाउत्सर्जी",
+   "source": "bio11-16"
+  },
+  {
+   "en": "electrolytes",
+   "hi": "वैद्युत अपघट्य",
+   "source": "bio11-16",
+   "check": false,
+   "note": "Chemistry books use विद्युत्-अपघट्य"
+  },
+  {
+   "en": "impermeable",
+   "hi": "अपारगम्य",
+   "source": "bio11-16",
+   "check": false
+  },
+  {
+   "en": "erythropoietin",
+   "hi": "एरीथ्रोपोइटिन",
+   "source": "bio11-16",
+   "variants": [
+    "इरिथ्रोपोईटिन"
+   ]
+  },
+  {
+   "en": "brush border",
+   "hi": "ब्रुश बार्डर",
+   "source": "bio11-16",
+   "variants": []
+  },
+  {
+   "en": "cuboidal",
+   "hi": "घनाकार",
+   "source": "bio11-16"
+  },
+  {
+   "en": "nephron",
+   "hi": "वृक्काणु",
+   "source": "bio11-16",
+   "variants": [
+    "नेफ्रॉन",
+    "नेफ्रोन"
+   ]
+  },
+  {
+   "en": "fibrous joints",
+   "hi": "रेशीय जोड़",
+   "source": "bio11-17"
+  },
+  {
+   "en": "synovial joints",
+   "hi": "साइनोवियल जोड़",
+   "source": "bio11-17"
+  },
+  {
+   "en": "ball and socket joint",
+   "hi": "कंदुक खल्लिका संधि",
+   "source": "bio11-17"
+  },
+  {
+   "en": "hinge joint",
+   "hi": "कब्जा संधि",
+   "source": "bio11-17"
+  },
+  {
+   "en": "pivot joint",
+   "hi": "धुराग्र संधि",
+   "source": "bio11-17"
+  },
+  {
+   "en": "saddle joint",
+   "hi": "सैडल जोड़",
+   "source": "bio11-17"
+  },
+  {
+   "en": "true ribs",
+   "hi": "वास्तविक पसलियाँ",
+   "source": "bio11-17"
+  },
+  {
+   "en": "floating ribs",
+   "hi": "प्लावी पसलियाँ",
+   "source": "bio11-17"
+  },
+  {
+   "en": "vertebrochondral",
+   "hi": "वर्टिब्रोकांड्रल",
+   "source": "bio11-17"
+  },
+  {
+   "en": "hyaline cartilage",
+   "hi": "काचाभ उपास्थि",
+   "source": "bio11-17"
+  },
+  {
+   "en": "sternum",
+   "hi": "उरोस्थि",
+   "source": "bio11-17",
+   "variants": [
+    "स्टर्नम"
+   ]
+  },
+  {
+   "en": "cervical vertebrae",
+   "hi": "ग्रीवा",
+   "source": "bio11-17"
+  },
+  {
+   "en": "occipital condyles",
+   "hi": "अनुकपाल अस्थिकंद",
+   "source": "bio11-17"
+  },
+  {
+   "en": "dicondylic",
+   "hi": "द्विकंदीय",
+   "source": "bio11-17"
+  },
+  {
+   "en": "bicephalic",
+   "hi": "द्विशिरस्थ",
+   "source": "bio11-17"
+  },
+  {
+   "en": "scapula",
+   "hi": "स्कैपुला",
+   "source": "bio11-17"
+  },
+  {
+   "en": "acromion",
+   "hi": "एक्रोमिन",
+   "source": "bio11-17"
+  },
+  {
+   "en": "glenoid cavity",
+   "hi": "ग्लीनॉयड गुहा",
+   "source": "bio11-17"
+  },
+  {
+   "en": "clavicle",
+   "hi": "क्लैविकल",
+   "source": "bio11-17"
+  },
+  {
+   "en": "humerus",
+   "hi": "ह्युमूरस",
+   "source": "bio11-17",
+   "variants": [
+    "ह्यूमरस"
+   ]
+  },
+  {
+   "en": "pectoral girdle",
+   "hi": "अंस मेखला",
+   "source": "bio11-17"
+  },
+  {
+   "en": "troponin",
+   "hi": "ट्रोपोनिन",
+   "source": "bio11-17"
+  },
+  {
+   "en": "sarcoplasmic reticulum",
+   "hi": "पेशीद्रव्य जालिका",
+   "source": "bio11-17"
+  },
+  {
+   "en": "sarcomere",
+   "hi": "सार्कोमियर",
+   "source": "bio11-17"
+  },
+  {
+   "en": "sarcolemma",
+   "hi": "सार्कोलेमा",
+   "source": "bio11-17"
+  },
+  {
+   "en": "fascicles",
+   "hi": "पूलिका",
+   "source": "bio11-17"
+  },
+  {
+   "en": "fascia",
+   "hi": "संपट्ट",
+   "source": "bio11-17"
+  },
+  {
+   "en": "cross bridge",
+   "hi": "क्रास सेतु",
+   "source": "bio11-17"
+  },
+  {
+   "en": "myasthenia gravis",
+   "hi": "माइस्थेनिया ग्रेविस",
+   "source": "bio11-17"
+  },
+  {
+   "en": "muscular dystrophy",
+   "hi": "पेशीय दुष्पोषण",
+   "source": "bio11-17"
+  },
+  {
+   "en": "arthritis",
+   "hi": "संधि शोथ",
+   "source": "bio11-17",
+   "variants": [
+    "संधिशोथ"
+   ]
+  },
+  {
+   "en": "osteoporosis",
+   "hi": "अस्थि सुषिरता",
+   "source": "bio11-17"
+  },
+  {
+   "en": "rheumatoid arthritis",
+   "hi": "आमवाती",
+   "source": "bio11-17"
+  },
+  {
+   "en": "smooth muscles",
+   "hi": "चिकनी पेशियाँ",
+   "source": "bio11-17"
+  },
+  {
+   "en": "skeletal muscle",
+   "hi": "कंकाल पेशी",
+   "source": "bio11-17"
+  },
+  {
+   "en": "involuntary",
+   "hi": "अनैच्छिक",
+   "source": "bio11-17"
+  },
+  {
+   "en": "voluntary",
+   "hi": "ऐच्छिक",
+   "source": "bio11-17"
+  },
+  {
+   "en": "striated",
+   "hi": "रेखित",
+   "source": "bio11-17",
+   "check": false
+  },
+  {
+   "en": "non-striated",
+   "hi": "अरेखित",
+   "source": "bio11-17"
+  },
+  {
+   "en": "motor neuron",
+   "hi": "प्रेरक न्यूरो",
+   "source": "bio11-17",
+   "variants": [
+    "प्रेरक न्यूरॉन"
+   ]
+  },
+  {
+   "en": "neuromuscular junction",
+   "hi": "तंत्रिका-पेशी",
+   "source": "bio11-17"
+  },
+  {
+   "en": "sliding filament theory",
+   "hi": "सर्पी तंतु सिद्धांत",
+   "source": "bio11-17"
+  },
+  {
+   "en": "atlas",
+   "hi": "एटलस",
+   "source": "bio11-17"
+  },
+  {
+   "en": "cranium",
+   "hi": "कपाल",
+   "source": "bio11-17"
+  },
+  {
+   "en": "cartilaginous joints",
+   "hi": "उपास्थि युक्त जोड़",
+   "source": "bio11-17"
+  },
+  {
+   "en": "Schwann cells",
+   "hi": "श्वान कोशिका",
+   "source": "bio11-18"
+  },
+  {
+   "en": "myelin sheath",
+   "hi": "माइलिन",
+   "source": "bio11-18"
+  },
+  {
+   "en": "myelinated",
+   "hi": "आच्छदी",
+   "source": "bio11-18"
+  },
+  {
+   "en": "synapse",
+   "hi": "सिनेप्स",
+   "source": "bio11-18"
+  },
+  {
+   "en": "synaptic cleft",
+   "hi": "सिनेप्टिक दरार",
+   "source": "bio11-18"
+  },
+  {
+   "en": "post-synaptic",
+   "hi": "पश्च सिनेप्टिक",
+   "source": "bio11-18"
+  },
+  {
+   "en": "pre-synaptic",
+   "hi": "पूर्व सिनेप्टिक",
+   "source": "bio11-18"
+  },
+  {
+   "en": "neurotransmitter",
+   "hi": "तंत्रिका संचारी",
+   "source": "bio11-18"
+  },
+  {
+   "en": "electrical synapse",
+   "hi": "विद्युत सिनेप्स",
+   "source": "bio11-18"
+  },
+  {
+   "en": "chemical synapse",
+   "hi": "रासायनिक सिनेप्स",
+   "source": "bio11-18"
+  },
+  {
+   "en": "hypothalamus",
+   "hi": "हाइपोथेलेमस",
+   "source": "bio11-18",
+   "variants": [
+    "हाइपोथैलेमस"
+   ]
+  },
+  {
+   "en": "limbic system",
+   "hi": "लिंबिक",
+   "source": "bio11-18"
+  },
+  {
+   "en": "corpus callosum",
+   "hi": "कार्पस कैलोसम",
+   "source": "bio11-18"
+  },
+  {
+   "en": "pons",
+   "hi": "पोंस",
+   "source": "bio11-18"
+  },
+  {
+   "en": "cerebrum",
+   "hi": "प्रमस्तिष्क",
+   "source": "bio11-18"
+  },
+  {
+   "en": "cerebral hemispheres",
+   "hi": "प्रमस्तिष्क गोलार्द्ध",
+   "source": "bio11-18"
+  },
+  {
+   "en": "brain stem",
+   "hi": "मस्तिष्क स्तंभ",
+   "source": "bio11-18"
+  },
+  {
+   "en": "mid-brain",
+   "hi": "मध्य मस्तिष्क",
+   "source": "bio11-18"
+  },
+  {
+   "en": "fore-brain",
+   "hi": "अग्र मस्तिष्क",
+   "source": "bio11-18"
+  },
+  {
+   "en": "hind-brain",
+   "hi": "पश्च मस्तिष्क",
+   "source": "bio11-18"
+  },
+  {
+   "en": "axon",
+   "hi": "तंत्रिकाक्ष",
+   "source": "bio11-18"
+  },
+  {
+   "en": "cell body",
+   "hi": "कोशिका काय",
+   "source": "bio11-18"
+  },
+  {
+   "en": "retina",
+   "hi": "दृष्टि पटल",
+   "source": "bio11-18",
+   "variants": [
+    "दृष्टिपटल",
+    "रेटिना"
+   ]
+  },
+  {
+   "en": "organ of Corti",
+   "hi": "कोर्टी का अंग",
+   "source": "bio11-18"
+  },
+  {
+   "en": "cochlea",
+   "hi": "कर्णावर्त",
+   "source": "bio11-18"
+  },
+  {
+   "en": "basilar membrane",
+   "hi": "आधारस्थ झिल्ली",
+   "source": "bio11-18"
+  },
+  {
+   "en": "stapes",
+   "hi": "स्टेपीज",
+   "source": "bio11-18"
+  },
+  {
+   "en": "sensory",
+   "hi": "संवेदी",
+   "source": "bio11-18",
+   "check": false
+  },
+  {
+   "en": "motor area",
+   "hi": "प्रेरक क्षेत्र",
+   "source": "bio11-18"
+  },
+  {
+   "en": "pituitary gland",
+   "hi": "पीयूष ग्रंथि",
+   "source": "bio11-19"
+  },
+  {
+   "en": "posterior pituitary",
+   "hi": "पश्च पीयूष ग्रंथि",
+   "source": "bio11-19"
+  },
+  {
+   "en": "anterior pituitary",
+   "hi": "अग्र पीयूष",
+   "source": "bio11-19"
+  },
+  {
+   "en": "neurohypophysis",
+   "hi": "न्यूरोहाइपोफाइसिस",
+   "source": "bio11-19"
+  },
+  {
+   "en": "adenohypophysis",
+   "hi": "एडिनोहाइपोफाइसिस",
+   "source": "bio11-19"
+  },
+  {
+   "en": "pars intermedia",
+   "hi": "पार्स इंटरमीडिया",
+   "source": "bio11-19"
+  },
+  {
+   "en": "vasopressin",
+   "hi": "वेसोप्रेसिन",
+   "source": "bio11-19"
+  },
+  {
+   "en": "melatonin",
+   "hi": "मेलेटोनिन",
+   "source": "bio11-19"
+  },
+  {
+   "en": "thyroxine",
+   "hi": "थायरोक्सीन",
+   "source": "bio11-19"
+  },
+  {
+   "en": "goitre",
+   "hi": "गलगंड",
+   "source": "bio11-19",
+   "variants": [
+    "गलगण्ड"
+   ]
+  },
+  {
+   "en": "exophthalmic goitre",
+   "hi": "नेत्रोत्सेधी गलगण्ड",
+   "source": "bio11-19"
+  },
+  {
+   "en": "Graves' disease",
+   "hi": "ग्रेवस् रोग",
+   "source": "bio11-19"
+  },
+  {
+   "en": "cretinism",
+   "hi": "क्रिटेनिज्म",
+   "source": "bio11-19"
+  },
+  {
+   "en": "acromegaly",
+   "hi": "अतिकायता",
+   "source": "bio11-19"
+  },
+  {
+   "en": "diabetes insipidus",
+   "hi": "उदकमेह",
+   "source": "bio11-19"
+  },
+  {
+   "en": "Addison's disease",
+   "hi": "एडीसन रोग",
+   "source": "bio11-19"
+  },
+  {
+   "en": "parathyroid hormone",
+   "hi": "पैराथाइरॉइड हार्मोन",
+   "source": "bio11-19"
+  },
+  {
+   "en": "thyrocalcitonin",
+   "hi": "थाइरोकैल्सिटोनिन",
+   "source": "bio11-19"
+  },
+  {
+   "en": "glucocorticoids",
+   "hi": "ग्लूकोकॉर्टिकॉइड",
+   "source": "bio11-19"
+  },
+  {
+   "en": "mineralocorticoids",
+   "hi": "मिनरलोकॉर्टिकॉइड",
+   "source": "bio11-19"
+  },
+  {
+   "en": "cortisol",
+   "hi": "कॉर्टिसॉल",
+   "source": "bio11-19",
+   "variants": [
+    "कोर्टिसोल"
+   ]
+  },
+  {
+   "en": "gluconeogenesis",
+   "hi": "ग्लूकोनियोजिनेसिस",
+   "source": "bio11-19"
+  },
+  {
+   "en": "glucagon",
+   "hi": "ग्लूकागॉन",
+   "source": "bio11-19"
+  },
+  {
+   "en": "hepatocytes",
+   "hi": "हिपेटोसाइट",
+   "source": "bio11-19"
+  },
+  {
+   "en": "adipocytes",
+   "hi": "एडीपोसाइट",
+   "source": "bio11-19"
+  },
+  {
+   "en": "hyperglycaemia",
+   "hi": "हाइपरग्लाइसिमिया",
+   "source": "bio11-19"
+  },
+  {
+   "en": "catecholamines",
+   "hi": "कैटेकॉलमीन",
+   "source": "bio11-19",
+   "variants": [
+    "कैटेकोलामीन"
+   ]
+  },
+  {
+   "en": "epinephrine",
+   "hi": "एपिनेफ्रीन",
+   "source": "bio11-19"
+  },
+  {
+   "en": "secretin",
+   "hi": "सेक्रेटिन",
+   "source": "bio11-19"
+  },
+  {
+   "en": "cholecystokinin",
+   "hi": "कोलिसिस्टोकाइनिन",
+   "source": "bio11-19"
+  },
+  {
+   "en": "gastrin",
+   "hi": "गैस्ट्रिन",
+   "source": "bio11-19"
+  },
+  {
+   "en": "juxtaglomerular cells",
+   "hi": "जक्स्टाग्लोमेरूलर",
+   "source": "bio11-19"
+  },
+  {
+   "en": "steroid",
+   "hi": "स्टीरॉइड",
+   "source": "bio11-19",
+   "variants": [
+    "स्टेरॉइड",
+    "स्टेराइड"
+   ]
+  },
+  {
+   "en": "second messenger",
+   "hi": "द्वितीयक संदेशवाहक",
+   "source": "bio11-19"
+  },
+  {
+   "en": "granulosa cells",
+   "hi": "कणिकामय कोशिकाओं",
+   "source": "bio11-19"
+  },
+  {
+   "en": "ketonuria",
+   "hi": "कीटोनयूरिया",
+   "source": "bio11-19"
+  },
+  {
+   "en": "anti-inflammatory",
+   "hi": "प्रतिशोथ",
+   "source": "bio11-19"
+  },
+  {
+   "en": "pupil dilation",
+   "hi": "पुतलियों के फैलाव",
+   "source": "bio11-19"
+  },
+  {
+   "en": "meristem",
+   "hi": "विभज्योतक",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "dorsiventral leaf",
+   "hi": "पृष्ठाधार पत्ती",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "arithmetic growth",
+   "hi": "अंकगणितीय",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "geometric growth",
+   "hi": "ज्यामितीय",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "absolute growth rate",
+   "hi": "परम वृद्धि दर",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "relative growth rate",
+   "hi": "सापेक्षिक वृद्धि दर",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "irreversible",
+   "hi": "अनिवर्त्य",
+   "source": "bio11-13 coverage",
+   "check": false,
+   "note": "Chemistry uses अनुत्क्रमणीय; bio12 uses other wording"
+  },
+  {
+   "en": "protoplasm",
+   "hi": "जीवद्रव्य",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "optimum temperature",
+   "hi": "इष्टतम ताप",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "terpene",
+   "hi": "टर्पीन",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "adenine derivative",
+   "hi": "ऐडनीन व्युत्पन्न",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "indole compound",
+   "hi": "इंडोल सम्मिश्रण",
+   "source": "bio11-13 coverage"
+  },
+  {
+   "en": "venation",
+   "hi": "शिराविन्यास",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "reticulate venation",
+   "hi": "जालिका शिराविन्यास",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "parallel venation",
+   "hi": "समानांतर शिराविन्यास",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "veinlets",
+   "hi": "शिरिका",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "lamina",
+   "hi": "स्तरिका",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "simple leaf",
+   "hi": "सरल पत्ती",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "compound leaf",
+   "hi": "संयुक्त पत्ती",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "leaflets",
+   "hi": "पत्रक",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "pinnately compound",
+   "hi": "पिच्छाकार संयुक्त",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "palmately compound",
+   "hi": "हस्ताकार संयुक्त",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "phyllotaxy",
+   "hi": "पर्णविन्यास",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "alternate phyllotaxy",
+   "hi": "एकांतर",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "opposite phyllotaxy",
+   "hi": "सम्मुख",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "whorled phyllotaxy",
+   "hi": "चक्करदार",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "sepals",
+   "hi": "बाह्य दल",
+   "source": "bio11-05 coverage",
+   "variants": [
+    "बाह्यदल"
+   ]
+  },
+  {
+   "en": "gamosepalous",
+   "hi": "संयुक्त बाह्य दली",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "polysepalous",
+   "hi": "पृथक बाह्य दली",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "calyx",
+   "hi": "केलिक्स",
+   "source": "bio11-05 coverage",
+   "check": false
+  },
+  {
+   "en": "corolla",
+   "hi": "कोरोला",
+   "source": "bio11-05 coverage",
+   "variants": [
+    "दलपुंज"
+   ]
+  },
+  {
+   "en": "accessory organs",
+   "hi": "सहायक अंग",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "embryonal axis",
+   "hi": "भ्रूणीय अक्ष",
+   "source": "bio11-05 coverage"
+  },
+  {
+   "en": "division (plants)",
+   "hi": "भाग (डिविजन)",
+   "source": "bio11-01 coverage"
+  },
+  {
+   "en": "dorsal hollow neural system",
+   "hi": "पृष्ठीय खोखला तंत्रिका तंत्र",
+   "source": "bio11-01 coverage"
+  },
+  {
+   "en": "taxonomic hierarchy",
+   "hi": "पदानुक्रम",
+   "source": "bio11-01 coverage"
+  },
+  {
+   "en": "Primata",
+   "hi": "प्राइमेटा",
+   "source": "bio11-01 coverage"
+  },
+  {
+   "en": "Carnivora",
+   "hi": "कारनीवोरा",
+   "source": "bio11-01 coverage"
+  },
+  {
+   "en": "Chordata",
+   "hi": "कॉर्डेटा",
+   "source": "bio11-01 coverage"
+  },
+  {
+   "en": "cellular level",
+   "hi": "कोशिकीय स्तर",
+   "source": "bio11-04 coverage"
+  },
+  {
+   "en": "tissue level",
+   "hi": "ऊतक स्तर",
+   "source": "bio11-04 coverage"
+  },
+  {
+   "en": "diploblastic",
+   "hi": "द्विकोरिक",
+   "source": "bio11-04 coverage"
+  },
+  {
+   "en": "metamerism",
+   "hi": "विखंडावस्था",
+   "source": "bio11-04 coverage",
+   "check": false,
+   "note": "chemistry metamerism (isomerism) uses मध्यावयवता"
+  },
+  {
+   "en": "chordates",
+   "hi": "रज्जुकी",
+   "source": "bio11-04 coverage",
+   "variants": [
+    "कॉर्डेट",
+    "कॉर्डेटा"
+   ]
+  },
+  {
+   "en": "non-chordates",
+   "hi": "अरज्जुकी",
+   "source": "bio11-04 coverage",
+   "variants": [
+    "नॉन-कॉर्डेट",
+    "नोनकॉर्डेट",
+    "अकॉर्डेट"
+   ]
+  },
+  {
+   "en": "tympanum",
+   "hi": "कर्णपटल",
+   "source": "bio11-04 coverage"
+  },
+  {
+   "en": "base pairs",
+   "hi": "क्षार युग्म",
+   "source": "bio12-05 coverage",
+   "variants": [
+    "क्षारयुग्म"
+   ],
+   "check": false
+  },
+  {
+   "en": "transforming principle",
+   "hi": "रूपांतरित कारक",
+   "source": "bio12-05 coverage"
+  },
+  {
+   "en": "transformation",
+   "hi": "रूपांतरण",
+   "source": "bio12-05 coverage",
+   "check": false
+  },
+  {
+   "en": "virulent",
+   "hi": "उग्र",
+   "source": "bio12-05 coverage"
+  },
+  {
+   "en": "complementarity",
+   "hi": "पूरकता",
+   "source": "bio12-05 coverage",
+   "variants": [
+    "पूरक"
+   ]
+  },
+  {
+   "en": "double-stranded RNA",
+   "hi": "द्विरज्जुक",
+   "source": "bio12-05 coverage"
+  },
+  {
+   "en": "regulation of gene expression",
+   "hi": "जीन अभिव्यक्ति का नियमन",
+   "source": "bio12-05 coverage"
+  },
+  {
+   "en": "processing level",
+   "hi": "संसाधन स्तर",
+   "source": "bio12-05 coverage"
+  },
+  {
+   "en": "splicing",
+   "hi": "संबंधन",
+   "source": "bio12-05 coverage",
+   "variants": [
+    "स्प्लाइसिंग"
+   ],
+   "check": false
+  },
+  {
+   "en": "translational level",
+   "hi": "स्थानांतरीय स्तर",
+   "source": "bio12-05 coverage"
+  },
+  {
+   "en": "eukaryotes",
+   "hi": "सुकेंद्रकी",
+   "source": "bio12-05 coverage",
+   "variants": [
+    "यूकैरियोट"
+   ],
+   "note": "Class 11 Cell chapter uses यूकैरियोट/प्रोकैरियोट; Class 12 uses सुकेंद्रकी/असीमकेंद्रकी",
+   "check": false
+  },
+  {
+   "en": "prokaryotes",
+   "hi": "असीमकेंद्रकी",
+   "source": "bio12-05 coverage",
+   "variants": [
+    "प्रोकैरियोट",
+    "प्राक्केंद्रकि"
+   ],
+   "note": "Class 11 Cell chapter uses यूकैरियोट/प्रोकैरियोट; Class 12 uses सुकेंद्रकी/असीमकेंद्रकी",
+   "check": false
+  },
+  {
+   "en": "primary transcript",
+   "hi": "प्रारंभिक अनुलेख",
+   "source": "bio12-05 coverage"
+  },
+  {
+   "en": "immunity",
+   "hi": "प्रतिरक्षा",
+   "source": "bio12-07 coverage",
+   "check": false
+  },
+  {
+   "en": "adolescence",
+   "hi": "किशोरावस्था",
+   "source": "bio12-07 coverage"
+  },
+  {
+   "en": "drug abuse",
+   "hi": "कुप्रयोग",
+   "source": "bio12-07 coverage"
+  },
+  {
+   "en": "addiction",
+   "hi": "व्यसन",
+   "source": "bio12-07 coverage"
+  },
+  {
+   "en": "dependence",
+   "hi": "निर्भरता",
+   "source": "bio12-07 coverage"
+  },
+  {
+   "en": "withdrawal syndrome",
+   "hi": "विनिवर्तन संलक्षण",
+   "source": "bio12-07 coverage"
+  },
+  {
+   "en": "euphoria",
+   "hi": "सुखाभास",
+   "source": "bio12-07 coverage"
+  },
+  {
+   "en": "anabolic steroids",
+   "hi": "उपचयी स्टेराइड",
+   "source": "bio12-07 coverage"
+  },
+  {
+   "en": "masculinisation",
+   "hi": "पुंस्त्वन",
+   "source": "bio12-07 coverage"
+  },
+  {
+   "en": "tolerance level",
+   "hi": "सह्य स्तर",
+   "source": "bio12-07 coverage"
   }
  ],
  "noNcertTerm": [
@@ -3089,6 +9885,1096 @@
    "en": "end correction",
    "hi_used": "सिरा संशोधन",
    "note": "lab-manual term; not found in NCERT Hindi textbook text (built from वृत्तीय पैमाना, अल्पतमांक style)"
+  },
+  {
+   "en": "epiblast",
+   "hi_used": "एपिब्लास्ट (epiblast)",
+   "note": "not in NCERT Hindi text; transliterated, English kept in brackets (bio12-01)"
+  },
+  {
+   "en": "pollenkitt",
+   "hi_used": "पोलनकिट (pollenkitt)",
+   "note": "not in NCERT Hindi text; transliterated, English kept in brackets (bio12-01)"
+  },
+  {
+   "en": "tegmen",
+   "hi_used": "अंतःकवच (tegmen)",
+   "note": "not in NCERT Hindi text; English kept in brackets (bio12-01)"
+  },
+  {
+   "en": "water hyacinth",
+   "hi_used": "वाटर हायसिंथ",
+   "note": "NCERT Hindi ch01 has it, but split by a line break in the extracted text, so the exact-match check cannot verify it"
+  },
+  {
+   "en": "capacitation",
+   "hi_used": "धारितायन (capacitation)",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "amnion",
+   "hi_used": "उल्व (amnion)",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "diapause",
+   "hi_used": "उपरति (diapause)",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "inhibin",
+   "hi_used": "इनहिबिन (inhibin)",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "prostaglandin",
+   "hi_used": "प्रोस्टाग्लैंडिन (prostaglandin)",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "oestrus cycle",
+   "hi_used": "मद चक्र (oestrus cycle)",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "fraternal / dizygotic twins",
+   "hi_used": "भ्रातृ (द्वियुग्मज) जुड़वाँ",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "fundus of uterus",
+   "hi_used": "गर्भाशय बुध्न (fundus)",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "Nebenkern",
+   "hi_used": "नेबेनकर्न (Nebenkern)",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "trophectoderm",
+   "hi_used": "पोषकोरक (ट्रोफेक्टोडर्म)",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "inguinal canal",
+   "hi_used": "वंक्षण नाल",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "urethral meatus",
+   "hi_used": "मूत्रमार्ग छिद्र",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "vitelline membrane",
+   "hi_used": "पीतक झिल्ली",
+   "note": "not in NCERT Hindi text (bio12-02); English kept in brackets where useful"
+  },
+  {
+   "en": "cervical cap",
+   "hi_used": "गर्भाशय ग्रीवा टोपी",
+   "note": "NCERT Hindi ch03 has it, split by a line break in the extracted text"
+  },
+  {
+   "en": "industrial melanism",
+   "hi_used": "औद्योगिक मेलेनिज़्म (industrial melanism)",
+   "note": "not in NCERT Hindi text (bio12-06)"
+  },
+  {
+   "en": "protobionts",
+   "hi_used": "प्रोटोबायोंट (protobionts)",
+   "note": "not in NCERT Hindi text (bio12-06)"
+  },
+  {
+   "en": "Australopithecus",
+   "hi_used": "ऑस्ट्रेलोपिथेकस",
+   "note": "not in NCERT Hindi text (bio12-06)"
+  },
+  {
+   "en": "Proterozoic",
+   "hi_used": "प्रोटेरोजोइक",
+   "note": "not in NCERT Hindi text (bio12-06)"
+  },
+  {
+   "en": "Homo neanderthalensis",
+   "hi_used": "होमो नियंडरथेलेंसिस (NCERT: नियंडरटाल मानव)",
+   "note": "not in NCERT Hindi text (bio12-06)"
+  },
+  {
+   "en": "flipper",
+   "hi_used": "फ्लिपर (NCERT Hindi: फिलपर्स, an OCR form)",
+   "note": "not in NCERT Hindi text (bio12-06)"
+  },
+  {
+   "en": "streptokinase",
+   "hi_used": "स्ट्रेप्टोकाइनेज",
+   "note": "NCERT Hindi ch08 prints it with a garbled conjunct (स्टै्रप्टोकाइनेज) in the extracted text; normal spelling used"
+  },
+  {
+   "en": "annealing (PCR)",
+   "hi_used": "तापानुशीतन",
+   "note": "NCERT Hindi ch09 does not name the step; not in NCERT Hindi text (bio12-09)"
+  },
+  {
+   "en": "extension (PCR)",
+   "hi_used": "विस्तार",
+   "note": "NCERT Hindi ch09 says उपक्रमकों को विस्तृत कर देता है"
+  },
+  {
+   "en": "chromogenic substrate",
+   "hi_used": "वर्णोत्पादक क्रियाधार",
+   "note": "NCERT Hindi ch09 text is garbled here (वर्णोकात्पादकी पदार्थ)"
+  },
+  {
+   "en": "corn borer",
+   "hi_used": "मक्का छेदक",
+   "note": "NCERT Hindi ch10 has it, split by a line break in the extracted text"
+  },
+  {
+   "en": "The Evil Quartet",
+   "hi_used": "दुष्ट चौकड़ी (The Evil Quartet)",
+   "note": "NCERT Hindi ch13 lists the four causes but gives no name for the group (bio12-13)"
+  },
+  {
+   "en": "Earth Summit, Rio de Janeiro 1992",
+   "hi_used": "पृथ्वी सम्मेलन, रियो डी जेनेरियो",
+   "note": "not in the rationalised NCERT Hindi text (bio12-13)"
+  },
+  {
+   "en": "bioprospecting",
+   "hi_used": "जैव पूर्वेक्षण (bioprospecting)",
+   "note": "not in NCERT Hindi text (bio12-13)"
+  },
+  {
+   "en": "water potential",
+   "hi_used": "जल विभव (water potential)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "root pressure",
+   "hi_used": "मूल दाब (root pressure)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "cohesion",
+   "hi_used": "संसंजन (cohesion)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "guttation",
+   "hi_used": "बिंदुस्राव (guttation)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "apoplast",
+   "hi_used": "अपोप्लास्ट (apoplast)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "symplast",
+   "hi_used": "सिमप्लास्ट (symplast)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "plasmodesmata",
+   "hi_used": "प्लाज़्मोडेस्मेटा (plasmodesmata)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "imbibition",
+   "hi_used": "अंतःशोषण (imbibition)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "plasmolysis",
+   "hi_used": "जीवद्रव्यकुंचन (plasmolysis)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "hydathodes",
+   "hi_used": "जलरंध्र (hydathodes)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "lignification",
+   "hi_used": "लिग्निनीकरण (lignification)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "girdling experiment",
+   "hi_used": "वलयन प्रयोग (girdling experiment)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "bi-directional",
+   "hi_used": "द्विदिशीय (bi-directional)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "facilitated diffusion",
+   "hi_used": "सुगम विसरण",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "passive transport",
+   "hi_used": "निष्क्रिय परिवहन",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "diffusion coefficient",
+   "hi_used": "विसरण गुणांक",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "solute potential",
+   "hi_used": "विलेय विभव",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-transport-in-plants)"
+  },
+  {
+   "en": "leghaemoglobin",
+   "hi_used": "लेगहीमोग्लोबिन (leghaemoglobin)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-mineral-nutrition)"
+  },
+  {
+   "en": "nitrogenase",
+   "hi_used": "नाइट्रोजिनेस (nitrogenase)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-mineral-nutrition)"
+  },
+  {
+   "en": "denitrification",
+   "hi_used": "विनाइट्रीकरण (denitrification)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-mineral-nutrition)"
+  },
+  {
+   "en": "root nodules",
+   "hi_used": "मूल ग्रंथिकाएँ (root nodules)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-mineral-nutrition)"
+  },
+  {
+   "en": "macronutrients",
+   "hi_used": "वृहत् पोषक (macronutrients)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-mineral-nutrition)"
+  },
+  {
+   "en": "micronutrients",
+   "hi_used": "सूक्ष्म पोषक (micronutrients)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-mineral-nutrition)"
+  },
+  {
+   "en": "catalase",
+   "hi_used": "कैटालेस (catalase)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-mineral-nutrition)"
+  },
+  {
+   "en": "actinomycete",
+   "hi_used": "ऐक्टिनोमाइसीट (actinomycete)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-mineral-nutrition)"
+  },
+  {
+   "en": "photolysis of water",
+   "hi_used": "जल का प्रकाश-अपघटन (photolysis)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-mineral-nutrition)"
+  },
+  {
+   "en": "chemoautotrophic fixation",
+   "hi_used": "रसायन स्वपोषी स्थिरीकरण",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-mineral-nutrition)"
+  },
+  {
+   "en": "dentition",
+   "hi_used": "दंतविन्यास (dentition)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "premolars",
+   "hi_used": "अग्रचर्वणक (premolars)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "molars",
+   "hi_used": "चर्वणक (molars)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "canine",
+   "hi_used": "रदनक (canine)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "thecodont, diphyodont, heterodont",
+   "hi_used": "गर्तदंती, द्विबारदंती, विषमदंती",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "succus entericus / intestinal juice",
+   "hi_used": "आंत्र रस",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "parietal / oxyntic cells",
+   "hi_used": "भित्तीय / अम्लजनक कोशिकाएँ",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "chief / peptic cells",
+   "hi_used": "मुख्य / पेप्टिक कोशिकाएँ",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "goblet cells",
+   "hi_used": "चषक कोशिकाएँ (goblet cells)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "intrinsic factor",
+   "hi_used": "नैज कारक (intrinsic factor)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "sphincter of Oddi",
+   "hi_used": "ओडी की अवरोधिनी",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "pyloric sphincter",
+   "hi_used": "जठरनिर्गमी अवरोधिनी",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "ileum",
+   "hi_used": "क्षेपांत्र (ileum)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "caecum",
+   "hi_used": "अंधांत्र (caecum)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "ileo-caecal valve",
+   "hi_used": "क्षेपांत्र-अंधांत्र कपाट",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "jejunum",
+   "hi_used": "मध्यांत्र (jejunum)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "serosa",
+   "hi_used": "लस्य स्तर (serosa)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "hepato-pancreatic duct",
+   "hi_used": "यकृत-अग्नाशयी वाहिनी",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "crypts of Lieberkuhn",
+   "hi_used": "लीबरकुहन की दरारें",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "chylomicrons",
+   "hi_used": "काइलोमाइक्रॉन (chylomicrons)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "enterokinase, trypsinogen, amylase, maltase",
+   "hi_used": "एंटेरोकाइनेज, ट्रिप्सिनोजन, एमाइलेज, माल्टेज (transliterated)",
+   "note": "not in the rationalised NCERT Hindi text; chapter dropped (bio11-old-digestion-and-absorption)"
+  },
+  {
+   "en": "herbarium",
+   "hi_used": "हर्बेरियम (herbarium)",
+   "note": "taxonomic aids not in the rationalised NCERT Hindi text (bio11-01)"
+  },
+  {
+   "en": "museum",
+   "hi_used": "संग्रहालय (museum)",
+   "note": "not in NCERT Hindi text (bio11-01)"
+  },
+  {
+   "en": "key (taxonomic)",
+   "hi_used": "कुंजी (key)",
+   "note": "not in NCERT Hindi text (bio11-01)"
+  },
+  {
+   "en": "catalogue",
+   "hi_used": "सूचीपत्र (catalogue)",
+   "note": "not in NCERT Hindi text (bio11-01)"
+  },
+  {
+   "en": "firefly",
+   "hi_used": "जुगनू (firefly)",
+   "note": "not in NCERT Hindi text (bio11-01)"
+  },
+  {
+   "en": "Insecta",
+   "hi_used": "इंसेक्टा (Insecta)",
+   "note": "NCERT Hindi Table 1.1 prints इंसेंक्टा (misprint); bio11-01"
+  },
+  {
+   "en": "halophiles",
+   "hi_used": "हैलोफाइल (NCERT Hindi prints हैलोफी)",
+   "note": "not in NCERT Hindi text (bio11-02)"
+  },
+  {
+   "en": "thermoacidophiles",
+   "hi_used": "थर्मोएसिडोफिल (NCERT Hindi prints थर्मोएसिडोफिलस)",
+   "note": "not in NCERT Hindi text (bio11-02)"
+  },
+  {
+   "en": "peptidoglycan",
+   "hi_used": "पेप्टिडोग्लाइकन",
+   "note": "not in NCERT Hindi text (bio11-02)"
+  },
+  {
+   "en": "fucoxanthin",
+   "hi_used": "फ्यूकोज़ैंथिन",
+   "note": "not in NCERT Hindi text (bio11-02)"
+  },
+  {
+   "en": "sheath cells",
+   "hi_used": "आच्छद कोशिकाएँ (sheath cells)",
+   "note": "not in NCERT Hindi text (bio11-02)"
+  },
+  {
+   "en": "macronucleus / micronucleus",
+   "hi_used": "गुरु केंद्रक / लघु केंद्रक (with English)",
+   "note": "not in NCERT Hindi text (bio11-02)"
+  },
+  {
+   "en": "gemmules",
+   "hi_used": "जेम्यूल (gemmules)",
+   "note": "not in NCERT Hindi text (bio11-02)"
+  },
+  {
+   "en": "contractile vacuole",
+   "hi_used": "संकुचनशील रिक्तिका",
+   "note": "not in NCERT Hindi text (bio11-02)"
+  },
+  {
+   "en": "heterosporous",
+   "hi_used": "विषमबीजाणुक (NCERT Hindi has विषमबीजाणु, समबीजाणुक)",
+   "note": "not in NCERT Hindi text (bio11-03)"
+  },
+  {
+   "en": "floridean starch",
+   "hi_used": "फ्लोरिडियन स्टार्च",
+   "note": "not in NCERT Hindi text (bio11-03)"
+  },
+  {
+   "en": "amylopectin",
+   "hi_used": "ऐमाइलोपेक्टिन",
+   "note": "not in NCERT Hindi text (bio11-03)"
+  },
+  {
+   "en": "hydrocolloid",
+   "hi_used": "जलकोलॉइड (hydrocolloid)",
+   "note": "not in NCERT Hindi text (bio11-03)"
+  },
+  {
+   "en": "haplontic / haplo-diplontic",
+   "hi_used": "अगुणितक / अगुणितक-द्विगुणितक (old NCERT 3.6)",
+   "note": "not in NCERT Hindi text (bio11-03)"
+  },
+  {
+   "en": "zygotic meiosis",
+   "hi_used": "युग्मनजी अर्धसूत्रण",
+   "note": "not in NCERT Hindi text (bio11-03)"
+  },
+  {
+   "en": "oogamous",
+   "hi_used": "अंडयुग्मकी",
+   "note": "not in NCERT Hindi text (bio11-03)"
+  },
+  {
+   "en": "uniflagellate",
+   "hi_used": "एककशाभिक",
+   "note": "not in NCERT Hindi text (bio11-03)"
+  },
+  {
+   "en": "conifers",
+   "hi_used": "शंकुधारी",
+   "note": "not in NCERT Hindi text (bio11-03)"
+  },
+  {
+   "en": "ammocoetes",
+   "hi_used": "ऐमोसीटीस (ammocoetes)",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "heterocercal",
+   "hi_used": "विषमपालि (heterocercal)",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "air bladder",
+   "hi_used": "वायु आशय (air bladder)",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "pinna",
+   "hi_used": "कर्ण पल्लव (pinna)",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "stomochord",
+   "hi_used": "मुखरज्जु (stomochord)",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "Malpighian tubules",
+   "hi_used": "मैलपीगी नलिकाएँ",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "urecose glands",
+   "hi_used": "यूरिकोज ग्रंथि (urecose gland)",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "gregarious polyphagous pest",
+   "hi_used": "यूथचारी बहुभोजी पीड़क (NCERT Hindi: यूथपीड़क)",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "pearl oyster",
+   "hi_used": "मोती सीप",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "hookworm",
+   "hi_used": "अंकुश कृमि",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "penguin",
+   "hi_used": "पेंगुइन",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "angel fish",
+   "hi_used": "एंजल मछली",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "schizocoelomate",
+   "hi_used": "दीर्णगुहिक (schizocoelomate)",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "non-chordates",
+   "hi_used": "अकॉर्डेट",
+   "note": "not in NCERT Hindi text (bio11-04)"
+  },
+  {
+   "en": "Portuguese Man of War",
+   "hi_used": "पुर्तगाली युद्ध मानव",
+   "note": "NCERT Hindi 4.2.2 prints it, split across a line in the text file (bio11-04)"
+  },
+  {
+   "en": "Fabaceae / Liliaceae / Brassicaceae",
+   "hi_used": "फैबेसी / लिलिएसी / ब्रैसीकेसी",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "phylloclade",
+   "hi_used": "पर्णाभ स्तंभ (phylloclades)",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "phyllode",
+   "hi_used": "पर्णाभवृंत (phyllodes)",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "cladode",
+   "hi_used": "क्लैडोड",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "thorns",
+   "hi_used": "कंटक",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "tendrils",
+   "hi_used": "प्रतान",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "pneumatophores",
+   "hi_used": "श्वसन मूल (pneumatophores)",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "halophytes",
+   "hi_used": "लवणोद्भिद् (halophytes)",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "vexillum / carina",
+   "hi_used": "वैक्जीलम / कैराइना",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "tetradynamous",
+   "hi_used": "चतुर्दीर्घी",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "ray florets",
+   "hi_used": "रश्मि पुष्पक",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "tricarpellary",
+   "hi_used": "त्रिअंडपी",
+   "note": "not in the rationalised NCERT Hindi text (bio11-05; stem/root modifications and families other than Solanaceae were removed)"
+  },
+  {
+   "en": "aleurone layer",
+   "hi_used": "एल्यूरोन सतह",
+   "note": "NCERT Hindi 5.7.2 prints 'एल्यूरोन सतह' (figure label 'ऐल्यूरोन सतह'); bio11-05"
+  },
+  {
+   "en": "heartwood",
+   "hi_used": "अंतःकाष्ठ",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "sapwood",
+   "hi_used": "रसदारु",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "spring wood / autumn wood",
+   "hi_used": "वसंत दारु / शरद दारु",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "phellem / phellogen / phelloderm",
+   "hi_used": "फेलम (कॉर्क) / फेलोजन (कॉर्क कैंबियम) / फेलोडर्म (द्वितीयक वल्कुट)",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "periderm",
+   "hi_used": "परित्वक",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "lenticels",
+   "hi_used": "वातरंध्र",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "tyloses",
+   "hi_used": "टाइलोसिस",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "endarch / exarch",
+   "hi_used": "अंतरादिदारुक / बाह्यादिदारुक",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "protoxylem",
+   "hi_used": "आदिदारु",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "sieve tube / companion cell / albuminous cell",
+   "hi_used": "चालनी नलिका / सहचर कोशिका / एल्बुमिनी कोशिका",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "interfascicular cambium",
+   "hi_used": "अंतरापूलीय कैंबियम",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "bundle sheath",
+   "hi_used": "पूलीय आच्छद",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "sclereids",
+   "hi_used": "स्क्लेरीड",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "conjunctive tissue",
+   "hi_used": "संयोजी ऊतक",
+   "note": "not in the rationalised NCERT Hindi text (bio11-06; secondary growth and the tissue details were removed)"
+  },
+  {
+   "en": "gap / tight / adhering junctions",
+   "hi_used": "अंतराली / दृढ़ / आसंजी संधियाँ",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "ciliated epithelium",
+   "hi_used": "पक्ष्माभी उपकला",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "dense regular connective tissue",
+   "hi_used": "सघन नियमित संयोजी ऊतक",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "areolar tissue",
+   "hi_used": "गर्तिकामय ऊतक",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "intercalated discs",
+   "hi_used": "अंतर्विष्ट डिस्क",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "neuroglia",
+   "hi_used": "न्यूरोग्लिया",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "anal cerci / anal styles",
+   "hi_used": "गुदा लूम / गुदा शूकिकाएँ",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "tegmina",
+   "hi_used": "टेग्मिना",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "crop (cockroach)",
+   "hi_used": "अन्नपुट (crop)",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "gastric caeca",
+   "hi_used": "जठर अंधनाल",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "prostomium / peristomium",
+   "hi_used": "पुरोमुख / परितुंड",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "Bidder's canal",
+   "hi_used": "बिडर नाल",
+   "note": "not in the rationalised NCERT Hindi text (bio11-07; animal tissues, earthworm and cockroach were removed)"
+  },
+  {
+   "en": "fimbriae / pili",
+   "hi_used": "झालर / रोम (NCERT Hindi: रोम व झालर)",
+   "note": "not in NCERT Hindi text (bio11-08)"
+  },
+  {
+   "en": "chromatophores",
+   "hi_used": "क्रोमैटोफोर (chromatophores)",
+   "note": "not in NCERT Hindi text (bio11-08)"
+  },
+  {
+   "en": "thylakoids",
+   "hi_used": "थाइलेकॉइड",
+   "note": "not in NCERT Hindi text (bio11-08)"
+  },
+  {
+   "en": "cisternae",
+   "hi_used": "सिस्टर्नी (cisternae)",
+   "note": "not in NCERT Hindi text (bio11-08)"
+  },
+  {
+   "en": "chromatin",
+   "hi_used": "क्रोमैटिन",
+   "note": "not in NCERT Hindi text (bio11-08)"
+  },
+  {
+   "en": "semi-autonomous",
+   "hi_used": "अर्धस्वायत्त",
+   "note": "not in NCERT Hindi text (bio11-08)"
+  },
+  {
+   "en": "satellite (chromosome)",
+   "hi_used": "अनुषंगी (satellite)",
+   "note": "not in NCERT Hindi text (bio11-08)"
+  },
+  {
+   "en": "Balbiani rings",
+   "hi_used": "बालबियानी वलय",
+   "note": "not in NCERT Hindi text (bio11-08)"
+  },
+  {
+   "en": "lampbrush / polytene chromosomes",
+   "hi_used": "लैंपब्रश / पॉलीटीन गुणसूत्र",
+   "note": "not in NCERT Hindi text (bio11-08)"
+  },
+  {
+   "en": "Rudolf Virchow",
+   "hi_used": "रुडोल्फ विर्चो",
+   "note": "not in NCERT Hindi text (bio11-08)"
+  },
+  {
+   "en": "succinic dehydrogenase",
+   "hi_used": "सक्सीनिक डिहाइड्रोजिनेज",
+   "note": "NCERT Hindi 9.8.4 prints it (split across a line in the text file); bio11-09"
+  },
+  {
+   "en": "bioassay",
+   "hi_used": "जैव आमापन",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "Avena coleoptile curvature test",
+   "hi_used": "Avena प्रांकुर चोल वक्रण परीक्षण",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "phytochrome / chromoprotein",
+   "hi_used": "फाइटोक्रोम / वर्णकी प्रोटीन",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "photoperiodism / florigen",
+   "hi_used": "दीप्तिकालिता / फ्लोरिजन",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "seed dormancy inhibitors (phenolic acid, para-ascorbic acid)",
+   "hi_used": "फीनोलिक अम्ल, पैरा-एस्कॉर्बिक अम्ल",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "zeatin",
+   "hi_used": "ज़िएटिन",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "callus",
+   "hi_used": "कैलस",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "lettuce hypocotyl",
+   "hi_used": "लेट्यूस बीजपत्राधार",
+   "note": "not in the rationalised NCERT Hindi text (bio11-13; photoperiodism, phytochrome and dormancy were removed)"
+  },
+  {
+   "en": "intrapleural pressure",
+   "hi_used": "अंतराफुप्फुसावरणी दाब",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "glomerulonephritis",
+   "hi_used": "ग्लोमेरुलस शोथ (glomerulonephritis)",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "silicosis / botulism / anthrax",
+   "hi_used": "सिलिकोसिस / बोटुलिज्म / एंथ्रेक्स",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "respiratory acidosis / alkalosis",
+   "hi_used": "श्वसन अम्लरक्तता / क्षाररक्तता",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "pneumonia / pleurisy",
+   "hi_used": "न्यूमोनिया / प्लूरिसी",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "surfactant / pneumocytes",
+   "hi_used": "पृष्ठसक्रियक / न्यूमोसाइट",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "Bohr effect",
+   "hi_used": "बोर प्रभाव",
+   "note": "not in the rationalised NCERT Hindi text (bio11-14)"
+  },
+  {
+   "en": "repolarisation",
+   "hi_used": "पुनर्ध्रुवण",
+   "note": "NCERT Hindi has no term in ch15 (describes T-wave in words); ch18 prints पुनध्रुवीकरण. Used पुनर्ध्रुवण to match ch15 विध्रुवण"
+  },
+  {
+   "en": "histaminase",
+   "hi_used": "हिस्टामिनेज",
+   "note": "not in NCERT Hindi text (bio11-15)"
+  },
+  {
+   "en": "carotid artery",
+   "hi_used": "कैरोटिड",
+   "note": "not in NCERT Hindi text (bio11-15)"
+  },
+  {
+   "en": "coronary ischaemia",
+   "hi_used": "हृद-अरक्तता",
+   "note": "not in NCERT Hindi text (bio11-15)"
+  },
+  {
+   "en": "joint diastole",
+   "hi_used": "संयुक्त अनुशिथिलन",
+   "note": "NCERT Hindi describes it without a name (bio11-15)"
+  },
+  {
+   "en": "kidney-shaped nucleus",
+   "hi_used": "वृक्काकार केंद्रक",
+   "note": "not in NCERT Hindi text (bio11-15)"
+  },
+  {
+   "en": "haemocytes",
+   "hi_used": "हीमोसाइट",
+   "note": "not in NCERT Hindi text (bio11-15)"
+  },
+  {
+   "en": "descending limb permeability",
+   "hi_used": "पारगम्य",
+   "note": "NCERT Hindi 16.3 prints the descending limb as अपारगम्य (impermeable) to water; English NCERT says permeable. Errata added in bio11-16 2017 Q157 and 2024 Q132"
+  },
+  {
+   "en": "hyperosmolarity",
+   "hi_used": "अतिपरासरणता",
+   "note": "not in NCERT Hindi text (bio11-16)"
+  },
+  {
+   "en": "vasoconstriction",
+   "hi_used": "वाहिका संकीर्णन",
+   "note": "NCERT Hindi 16.5 has वाहिका संकीर्णक (vasoconstrictor); bio11-16"
+  },
+  {
+   "en": "fusiform / spindle-shaped",
+   "hi_used": "तर्कुरूप (फ्यूसीफॉर्म)",
+   "note": "not in rationalised NCERT Hindi; built from तर्कु (bio11-17)"
+  },
+  {
+   "en": "paralysis",
+   "hi_used": "पक्षाघात",
+   "note": "NCERT Hindi 17.5 prints पक्षघात; bio11-17 uses the standard spelling"
+  },
+  {
+   "en": "tetanus (muscle) / tonus / fatigue",
+   "hi_used": "टिटेनस / तान / श्रांति",
+   "note": "not in NCERT Hindi text (bio11-17)"
+  },
+  {
+   "en": "systemic lupus erythematosus",
+   "hi_used": "सिस्टेमिक ल्यूपस एरिथेमेटोसस",
+   "note": "not in NCERT Hindi text (bio11-17)"
+  },
+  {
+   "en": "vertebrosternal / vertebral ribs",
+   "hi_used": "वर्टिब्रोस्टर्नल / वर्टिब्रल",
+   "note": "NCERT Hindi names only वर्टिब्रोकांड्रल; bio11-17"
+  },
+  {
+   "en": "eye terms: fovea, rods, cones, iris, ciliary body, blind spot, sclera, cornea",
+   "hi_used": "फोविया, शलाकाएँ, शंकु, परितारिका, पक्ष्माभी काय, अंध बिंदु, दृढ़ पटल, कॉर्निया",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "opsin / retinal / retinol / rhodopsin",
+   "hi_used": "ऑप्सिन / रेटिनल / रेटिनॉल / रोडॉप्सिन",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "ear: Eustachian tube, oval window, labyrinth",
+   "hi_used": "यूस्टेकियन नलिका, अंडाकार खिड़की, लेबिरिंथ",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "oligodendrocytes / astrocytes / osteoclasts",
+   "hi_used": "ऑलिगोडेंड्रोसाइट / एस्ट्रोसाइट / ऑस्टियोक्लास्ट",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "nociceptors / Meissner corpuscles / graded potential / hyperpolarised",
+   "hi_used": "पीड़ाग्राही / माइस्नर कणिकाएँ / क्रमिक विभव / अतिध्रुवित",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "Nissl granules",
+   "hi_used": "निसल कण",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "anterior horn of spinal cord",
+   "hi_used": "अग्र श्रृंग",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "epithalamus",
+   "hi_used": "अधिचेतक",
+   "note": "not in the rationalised NCERT Hindi text (bio11-18; eye and ear were removed, dropped from NEET 2024)"
+  },
+  {
+   "en": "corpora quadrigemina",
+   "hi_used": "कॉर्पोरा क्वाड्रीजेमीन",
+   "note": "NCERT Hindi 18.4.2 prints it (split across a line in the text file); bio11-18"
+  },
+  {
+   "en": "neurosecretory cells",
+   "hi_used": "तंत्रिका स्रावी कोशिकाएँ",
+   "note": "NCERT Hindi 18.4.1 prints तंत्रिका स्त्रावी कोशिकाएं (split across a line in the text file); bio11-18"
+  },
+  {
+   "en": "inhibin (granulosa cells, FSH)",
+   "hi_used": "इनहिबिन",
+   "note": "not in NCERT Hindi text (bio11-19)"
+  },
+  {
+   "en": "tryptophan",
+   "hi_used": "ट्रिप्टोफैन",
+   "note": "not in NCERT Hindi text (bio11-19)"
+  },
+  {
+   "en": "epiphyseal plates",
+   "hi_used": "एपिफाइसियल प्लेटें",
+   "note": "not in NCERT Hindi text (bio11-19)"
+  },
+  {
+   "en": "GLUT IV",
+   "hi_used": "GLUT IV",
+   "note": "not in NCERT Hindi text (bio11-19)"
+  },
+  {
+   "en": "Cushing's syndrome",
+   "hi_used": "कुशिंग सिंड्रोम",
+   "note": "not in NCERT Hindi text (bio11-19)"
+  },
+  {
+   "en": "corpus cardiacum / corpus allatum / ecdysone",
+   "hi_used": "कॉर्पस कार्डिएकम / कॉर्पस एलेटम / एक्डाइसोन",
+   "note": "not in NCERT Hindi text (bio11-19)"
+  },
+  {
+   "en": "estriol",
+   "hi_used": "एस्ट्रियॉल",
+   "note": "not in NCERT Hindi text (bio11-19)"
+  },
+  {
+   "en": "aquaporin",
+   "hi_used": "जलवाही चैनल (aquaporin)",
+   "note": "not in NCERT Hindi text (bio11-19)"
+  },
+  {
+   "en": "mesoglea",
+   "hi_used": "मीसोग्लिया (mesoglea)",
+   "note": "NCERT Hindi 4.1.3 omits the mesoglea sentence of the English book; bio11-04 coverage"
+  },
+  {
+   "en": "amphibian development (errata)",
+   "hi_used": "अप्रत्यक्ष परिवर्धन",
+   "note": "NCERT Hindi 4.2.11.4 prints \"प्रत्यक्ष अथवा लार्वा के द्वारा\"; English NCERT says indirect. Flagged in the bio11-04 4.2.11.4 coverage question trap"
   }
  ]
 }

@@ -59,6 +59,30 @@ def build_chapter(folder):
     print(f"{meta['id']}: {stats['nodes']} nodes, {stats['questions']} questions -> {os.path.relpath(out, ROOT)}")
     return meta, stats
 
+LATEST_NEET = 0  # latest NEET year found in the content; set in main()
+RECENT_YEARS = 3  # "recent" flag = asked in the last 3 NEET papers
+
+
+def para_trends(items):
+    """items: (exam, year, paras) for previous-year questions only (NCERT Exercise/Exemplar/Practice are left out).
+    Returns {paragraph id: {neet, jee, last, years, recent}} for the recent-trend markers on paragraph pages."""
+    out = {}
+    for exam, year, paras in items:
+        if exam not in ("NEET", "JEE Main") or not year:
+            continue
+        for pid in dict.fromkeys(paras):
+            t = out.setdefault(pid, {"neet": 0, "jee": 0, "years": set()})
+            t["neet" if exam == "NEET" else "jee"] += 1
+            if exam == "NEET":
+                t["years"].add(int(year))
+    for t in out.values():
+        ys = sorted(t["years"], reverse=True)
+        t["years"] = ys
+        t["last"] = ys[0] if ys else None
+        t["recent"] = bool(ys) and ys[0] > LATEST_NEET - RECENT_YEARS
+    return out
+
+
 def build_pyq(path):
     """content/pyq/<ch>.json has an ordered `paragraphs` list (NCERT order) and `questions`, each with
     `paras` (paragraph ids it tests). One paragraph -> that paragraph's section; two or more -> the
@@ -109,6 +133,8 @@ def build_pyq(path):
     out["sections"] = sections
     out["counts"] = {e: sum(1 for q in doc["questions"] if q["exam"] == e) for e in exam_rank}
     out["empty"] = [p for p in doc["paragraphs"] if not groups[p["id"]] and not any(p["id"] in q["paras"] for q in multi)]
+    out["trends"] = para_trends((q["exam"], q.get("year"), q["paras"]) for q in doc["questions"])
+    out["latestNeet"], out["recentYears"] = LATEST_NEET, RECENT_YEARS
     os.makedirs(os.path.join(DATA, "pyq"), exist_ok=True)
     json.dump(out, open(os.path.join(DATA, "pyq", ch + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"{ch}: {n} PYQs {out['counts']} in {len(sections)} sections ({len(multi)} multi-concept) -> data/pyq/{ch}.json")
@@ -149,6 +175,10 @@ def check_bank(path):
             if x.get("img") and not os.path.exists(os.path.join(ROOT, "assets", "ncert", q["ncert"]["chapter"], x["img"] + ".webp")):
                 sys.exit(f"{tag}: missing excerpt image {x['img']}.webp")
     os.makedirs(os.path.join(DATA, "questions"), exist_ok=True)
+    bank = dict(bank)
+    bank["paraTrends"] = para_trends((q["source"].get("exam"), q["source"].get("year"), q["ncert"]["paras"])
+                                     for q in bank["questions"] if q["source"]["kind"] == "PYQ" and q["ncert"]["chapter"] == ch)
+    bank["latestNeet"], bank["recentYears"] = LATEST_NEET, RECENT_YEARS
     json.dump(bank, open(os.path.join(DATA, "questions", ch + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     hi = sum(1 for q in bank["questions"] if q["text"]["hi"]["status"] not in ("missing", "placeholder"))
     print(f"{ch}: bank OK, {len(bank['questions'])} questions ({hi} with Hindi) -> data/questions/{ch}.json")
@@ -198,8 +228,20 @@ def build_test(path, banks):
     return {"id": t["id"], "title": t["title"], "subtitle": t.get("subtitle"), "durationMin": t["durationMin"], "count": total}
 
 
+def latest_neet_year():
+    years = []
+    for f in glob.glob(os.path.join(CONTENT, "questions", "*.json")):
+        years += [q["source"].get("year") for q in json.load(open(f, encoding="utf-8"))["questions"] if q["source"].get("exam") == "NEET"]
+    for f in glob.glob(os.path.join(CONTENT, "pyq", "*.json")):
+        years += [q.get("year") for q in json.load(open(f, encoding="utf-8"))["questions"] if q.get("exam") == "NEET"]
+    return max(int(y) for y in years if y)
+
+
 def main():
+    global LATEST_NEET
     os.makedirs(DATA, exist_ok=True)
+    LATEST_NEET = latest_neet_year()
+    print(f"trend markers: latest NEET paper {LATEST_NEET}; 'recent' = asked in {LATEST_NEET - RECENT_YEARS + 1}-{LATEST_NEET}")
     catalog = json.load(open(os.path.join(CONTENT, "catalog.json"), encoding="utf-8"))
     built = {}
     for folder in sorted(glob.glob(os.path.join(CONTENT, "*/"))):
