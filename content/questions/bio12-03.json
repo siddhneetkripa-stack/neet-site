@@ -1730,6 +1730,61 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Options clipped in the copy; completed from the other options (each is a permutation). Code 13 booklet Q165."
    }
+  },
+  {
+   "id": "bio12-03-ai-3-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about medical termination of pregnancy (MTP) in India is correct?",
+     "o": [
+      "MTP was legalised in India in 1991 without any conditions",
+      "MTP is considered relatively safe during the first trimester (up to 12 weeks); second-trimester abortions are much riskier",
+      "Under the MTP (Amendment) Act 2017, a pregnancy of 12 to 24 weeks can be ended on the opinion of one registered medical practitioner",
+      "Using amniocentesis to find the sex of the foetus and then doing an MTP is legal"
+     ],
+     "sol": "<p>NCERT 3.3: MTP (induced abortion) is the intentional termination of pregnancy before full term; about 45–50 million are performed worldwide each year (about 1/5 of all conceived pregnancies). India legalised MTP in <b>1971</b> with strict conditions, partly to check female foeticide. MTPs are <b>relatively safe in the first trimester, i.e. up to 12 weeks</b>; second-trimester abortions are much riskier. Under the MTP (Amendment) Act 2017, a pregnancy up to 12 weeks may be ended on the opinion of one registered medical practitioner, but 12–24 weeks needs <b>two</b>. Sex determination by amniocentesis followed by MTP of a female foetus is illegal.</p>",
+     "hint": "First trimester = up to 12 weeks."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "भारत में चिकित्सीय सगर्भता समापन (MTP) के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "भारत में MTP को 1991 में बिना किसी शर्त के कानूनी बनाया गया",
+      "सगर्भता की पहली तिमाही (12 सप्ताह तक) में MTP अपेक्षाकृत सुरक्षित माना जाता है; द्वितीय तिमाही में गर्भपात बहुत अधिक संकटपूर्ण है",
+      "MTP अधिनियम (संशोधन) 2017 के अनुसार 12 से 24 सप्ताह की सगर्भता एक पंजीकृत चिकित्सक की राय पर समाप्त की जा सकती है",
+      "उल्बवेधन द्वारा भ्रूण का लिंग जानकर MTP कराना कानूनी है"
+     ],
+     "sol": "<p>NCERT 3.3: गर्भावस्था पूर्ण होने से पहले जानबूझ कर गर्भ का समापन प्रेरित गर्भपात या चिकित्सीय सगर्भता समापन (MTP) कहलाता है; पूरी दुनिया में हर साल लगभग 45–50 मिलियन (कुल सगर्भताओं का लगभग 1/5 भाग) MTP होते हैं। भारत सरकार ने <b>1971</b> में कड़ी शर्तों के साथ MTP को कानूनी स्वीकृति दी, जिससे मादा भ्रूण हत्या पर भी रोक लगे। सगर्भता की <b>पहली तिमाही अर्थात 12 सप्ताह तक</b> MTP अपेक्षाकृत सुरक्षित है; द्वितीय तिमाही में गर्भपात बहुत संकटपूर्ण है। अधिनियम (संशोधन) 2017 के अनुसार 12 सप्ताह तक की सगर्भता एक पंजीकृत चिकित्सक की राय पर, पर 12–24 सप्ताह की सगर्भता के लिए <b>दो</b> पंजीकृत चिकित्सकों की एकराय आवश्यक है। उल्बवेधन से लिंग निर्धारण कर मादा भ्रूण का MTP गैरकानूनी है।</p>",
+     "hint": "पहली तिमाही = 12 सप्ताह तक।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-03",
+    "paras": [
+     "3.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 3.3 (cf. NCERT Exercise 3.8)"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
