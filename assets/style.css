@@ -486,3 +486,7 @@ footer { font-size: .9rem; }
 .pyq { overflow-wrap: anywhere; }
 .pyq .sol table { display: block; max-width: 100%; overflow-x: auto; }
 .pyq .topic { margin: 0 0 6px; font-size: .85rem; color: var(--muted); }
+
+/* Redrawn figures of diagram questions (assets/figures/<chapter>/<id>.svg; white background in both themes) */
+.qfig { margin: 10px 0 12px; }
+.qfig img { display: block; max-width: 100%; height: auto; max-height: 440px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }

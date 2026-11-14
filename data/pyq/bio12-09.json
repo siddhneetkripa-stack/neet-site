@@ -940,7 +940,7 @@
      "id": "bio12-09-neet-2024-q148-esaral-copy",
      "exam": "NEET",
      "q": "The following diagram shows restriction sites in E. coli cloning vector pBR322. Find the role of 'X' and 'Y' genes :",
-     "sol": "<p>In the pBR322 map (read from the paper), X marks <b>ori</b> and Y marks <b>rop</b>. ori controls the copy number of the linked DNA, and rop codes for proteins involved in replication of the plasmid. So option 2.</p>",
+     "sol": "<p>In the pBR322 map, X marks <b>ori</b> and Y marks <b>rop</b>. ori controls the copy number of the linked DNA, and rop codes for proteins involved in replication of the plasmid. So option 2.</p>",
      "hint": "NCERT figure: ori and rop sit near PvuII.",
      "paras": [
       "9.2.2"
@@ -963,10 +963,20 @@
        "जीन 'X' प्लाज्मिड के प्रतिकृतियन में भाग लेने वाली प्रोटीन के लिए है और 'Y' प्रतिजैविकों के प्रतिरोध के लिए।",
        "जीन 'X' पहचान स्थलों के लिए उत्तरदायी है और 'Y' प्रतिजैविक प्रतिरोध के लिए।"
       ],
-      "sol": "<p>pBR322 के मानचित्र (प्रश्नपत्र से पढ़ा गया) में X <b>ori</b> और Y <b>rop</b> को दर्शाता है। ori जुड़े DNA की प्रतिरूप संख्या नियंत्रित करता है, और rop प्लाज्मिड के प्रतिकृतियन में भाग लेने वाली प्रोटीनों का कूटलेखन करता है। अतः विकल्प 2।</p>",
+      "sol": "<p>pBR322 के मानचित्र में X <b>ori</b> और Y <b>rop</b> को दर्शाता है। ori जुड़े DNA की प्रतिरूप संख्या नियंत्रित करता है, और rop प्लाज्मिड के प्रतिकृतियन में भाग लेने वाली प्रोटीनों का कूटलेखन करता है। अतः विकल्प 2।</p>",
       "hint": "NCERT चित्र: ori और rop, PvuII के पास।"
      },
-     "hiStatus": "draft"
+     "hiStatus": "draft",
+     "media": [
+      {
+       "src": "assets/figures/bio12-09/bio12-09-neet-2024-q148-esaral-copy.svg",
+       "alt": {
+        "en": "Map of the cloning vector pBR322 with its restriction sites, the ampR and tetR genes and two regions marked X and Y",
+        "hi": "क्लोनिंग संवाहक pBR322 का मानचित्र, जिसमें प्रतिबंधन स्थल, ampR तथा tetR जीन और X तथा Y से अंकित दो क्षेत्र हैं"
+       },
+       "where": "question"
+      }
+     ]
     },
     {
      "id": "bio12-09-neet-2024-q149-esaral-copy",
@@ -1004,7 +1014,7 @@
      "id": "bio12-09-neet-2025-code-45-q115",
      "exam": "NEET",
      "q": "In the above represented plasmid an alien piece of DNA is inserted at EcoRI site. Which of the following strategies will be chosen to select the recombinant colonies?",
-     "sol": "<p>The plasmid in the figure (read from the paper) has ori, amp, tet<sup>R</sup> and the β-galactosidase gene with an EcoRI site inside it. An insert at EcoRI inactivates β-galactosidase (insertional inactivation). On a chromogenic substrate, colonies with this enzyme turn blue; recombinant colonies, lacking it, stay <b>white</b> — so white colonies are selected.</p>",
+     "sol": "<p>The plasmid in the figure has ori, amp, tet<sup>R</sup> and the β-galactosidase gene with an EcoRI site inside it. An insert at EcoRI inactivates β-galactosidase (insertional inactivation). On a chromogenic substrate, colonies with this enzyme turn blue; recombinant colonies, lacking it, stay <b>white</b> — so white colonies are selected.</p>",
      "hint": "Insert breaks the colour-making gene.",
      "paras": [
       "9.2.2"
@@ -1027,11 +1037,21 @@
        "सफेद रंग के निवह चुने जाएँगे",
        "ऐम्पिसिलिन प्लेटों पर उगे नीले रंग के निवह चुने जा सकते हैं"
       ],
-      "sol": "<p>चित्र के प्लाज्मिड (प्रश्नपत्र से पढ़ा गया) में ori, amp, tet<sup>R</sup> तथा β-गैलेक्टोसाइडेज जीन है जिसके भीतर EcoRI स्थल है। EcoRI पर जोड़ा गया खंड β-गैलेक्टोसाइडेज को निष्क्रिय करता है (निवेशी निष्क्रियता)। वर्णोत्पादक क्रियाधार पर यह एंजाइम रखने वाले निवह नीले हो जाते हैं; इसके बिना पुनर्योगज निवह <b>सफेद</b> रहते हैं — अतः सफेद निवह चुने जाते हैं।</p>",
+      "sol": "<p>चित्र के प्लाज्मिड में ori, amp, tet<sup>R</sup> तथा β-गैलेक्टोसाइडेज जीन है जिसके भीतर EcoRI स्थल है। EcoRI पर जोड़ा गया खंड β-गैलेक्टोसाइडेज को निष्क्रिय करता है (निवेशी निष्क्रियता)। वर्णोत्पादक क्रियाधार पर यह एंजाइम रखने वाले निवह नीले हो जाते हैं; इसके बिना पुनर्योगज निवह <b>सफेद</b> रहते हैं — अतः सफेद निवह चुने जाते हैं।</p>",
       "hint": "जोड़ा गया खंड रंग बनाने वाले जीन को तोड़ता है।"
      },
      "hiStatus": "draft",
-     "check": "Matches the official key (NTA NEET 2025 final key, Code 45: 3)"
+     "check": "Matches the official key (NTA NEET 2025 final key, Code 45: 3)",
+     "media": [
+      {
+       "src": "assets/figures/bio12-09/bio12-09-neet-2025-code-45-q115.svg",
+       "alt": {
+        "en": "A plasmid with ori, ampR and tetR genes and the β-galactosidase gene (lacZ) containing an EcoRI site",
+        "hi": "ori, ampR तथा tetR जीन वाला प्लाज्मिड, जिसके β-गैलेक्टोसिडेज जीन (lacZ) में EcoRI स्थल है"
+       },
+       "where": "question"
+      }
+     ]
     },
     {
      "id": "bio12-09-neet-2025-code-45-q179",
@@ -1999,7 +2019,7 @@
      "id": "bio12-09-neet-2025-code-45-q126",
      "exam": "NEET",
      "q": "Identify the part of a bio-reactor which is used as a foam breaker from the given figure.",
-     "sol": "<p>In the stirred-tank bioreactor figure (read from the paper): B is the motor at the top, <b>C</b> is the foam breaker just below it, A is the flat-bladed impeller and D is the sterile air inlet. The foam breaker is C (option 4).</p>",
+     "sol": "<p>In the stirred-tank bioreactor figure: B is the motor at the top, <b>C</b> is the foam breaker just below it, A is the flat-bladed impeller and D is the sterile air inlet. The foam breaker is C (option 4).</p>",
      "hint": "Foam forms at the top of the liquid.",
      "paras": [
       "9.3.5"
@@ -2022,11 +2042,21 @@
        "D",
        "C"
       ],
-      "sol": "<p>विलोडक-टंकी बायोरिएक्टर के चित्र (प्रश्नपत्र से पढ़ा गया) में: B ऊपर की मोटर है, उसके ठीक नीचे <b>C</b> झाग तोड़क है, A सपाट पंखुड़ी वाला प्रणोदक है और D निर्जीवाणु वायु का प्रवेश है। झाग तोड़क C है (विकल्प 4)।</p>",
+      "sol": "<p>विलोडक-टंकी बायोरिएक्टर के चित्र में: B ऊपर की मोटर है, उसके ठीक नीचे <b>C</b> झाग तोड़क है, A सपाट पंखुड़ी वाला प्रणोदक है और D निर्जीवाणु वायु का प्रवेश है। झाग तोड़क C है (विकल्प 4)।</p>",
       "hint": "झाग द्रव के ऊपरी भाग में बनता है।"
      },
      "hiStatus": "draft",
-     "check": "Matches the official key (NTA NEET 2025 final key, Code 45: 4)"
+     "check": "Matches the official key (NTA NEET 2025 final key, Code 45: 4)",
+     "media": [
+      {
+       "src": "assets/figures/bio12-09/bio12-09-neet-2025-code-45-q126.svg",
+       "alt": {
+        "en": "Stirred-tank bioreactor with four parts labelled A, B, C and D",
+        "hi": "विलोडन टंकी बायोरिएक्टर, जिसमें चार भाग A, B, C तथा D नामांकित हैं"
+       },
+       "where": "question"
+      }
+     ]
     }
    ]
   },

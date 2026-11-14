@@ -229,6 +229,8 @@ def page_question(q):
     kc = (q.get("review") or {}).get("keyCheck", "")
     if kc.startswith("Matches the official key"):
         p["check"] = kc
+    if q.get("media"):   # redrawn figures (assets/figures/...), shown with the question or the solution
+        p["media"] = [dict(src=m["src"], alt=m["alt"], where=m.get("where", "question")) for m in q["media"]]
     if q.get("syllabus_status") == "dropped_2024":
         p["dropped"] = True
     return p

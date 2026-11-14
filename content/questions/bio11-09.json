@@ -575,7 +575,7 @@
       "Endothermic reaction with energy A in absence of enzyme and B in presence of enzyme",
       "Exothermic reaction with energy A in absence of enzyme and B in presence of enzyme"
      ],
-     "sol": "<p>In the graph (read from the paper) the products end at a <b>lower</b> potential energy than the substrate — an <b>exothermic</b> reaction. The two humps show the activation energy: the smaller one (A) with the enzyme and the larger one (B) without it (NCERT 9.8.2). Option 2.</p>",
+     "sol": "<p>In the graph the products end at a <b>lower</b> potential energy than the substrate — an <b>exothermic</b> reaction. The two humps show the activation energy: the smaller one (A) with the enzyme and the larger one (B) without it (NCERT 9.8.2). Option 2.</p>",
      "hint": "Enzymes lower the activation-energy hump."
     },
     "hi": {
@@ -587,7 +587,7 @@
       "एंजाइम की अनुपस्थिति में ऊर्जा A तथा उपस्थिति में B वाली ऊष्माशोषी अभिक्रिया",
       "एंजाइम की अनुपस्थिति में ऊर्जा A तथा उपस्थिति में B वाली ऊष्माक्षेपी अभिक्रिया"
      ],
-     "sol": "<p>ग्राफ में (प्रश्नपत्र से देखा गया) उत्पाद क्रियाधार से <b>कम</b> स्थितिज ऊर्जा पर हैं — <b>ऊष्माक्षेपी</b> अभिक्रिया। दो उभार सक्रियण ऊर्जा दिखाते हैं: छोटा (A) एंजाइम सहित और बड़ा (B) एंजाइम रहित (NCERT 9.8.2)। विकल्प 2।</p>",
+     "sol": "<p>ग्राफ में उत्पाद क्रियाधार से <b>कम</b> स्थितिज ऊर्जा पर हैं — <b>ऊष्माक्षेपी</b> अभिक्रिया। दो उभार सक्रियण ऊर्जा दिखाते हैं: छोटा (A) एंजाइम सहित और बड़ा (B) एंजाइम रहित (NCERT 9.8.2)। विकल्प 2।</p>",
      "hint": "एंजाइम सक्रियण ऊर्जा का उभार घटाते हैं।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
@@ -596,6 +596,16 @@
     "kind": "single",
     "index": 1
    },
+   "media": [
+    {
+     "src": "assets/figures/bio11-09/bio11-09-neet-2016-phase-2-code-aa-q144.svg",
+     "alt": {
+      "en": "Potential energy curve from substrate to product with two humps of different height, marked A and B",
+      "hi": "क्रियाधार से उत्पाद तक विभव ऊर्जा वक्र, जिसमें अलग-अलग ऊँचाई के दो उभार A तथा B अंकित हैं"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio11-09",
     "paras": [
@@ -618,7 +628,7 @@
    "review": {
     "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 2)",
     "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)",
-    "note": "Energy-profile graph in the paper: needs a redrawn figure."
+    "note": "Energy-profile graph in the paper: needs a redrawn figure. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {
@@ -2751,7 +2761,7 @@
       "Transferases",
       "Lyases"
      ],
-     "sol": "<p>The reaction (read from the paper) removes groups X and Y from adjacent carbons of the substrate as X–Y and leaves a <b>double bond</b> C=C. NCERT 9.8.5: <b>lyases</b> remove groups from substrates by mechanisms other than hydrolysis, leaving double bonds.</p>",
+     "sol": "<p>The reaction removes groups X and Y from adjacent carbons of the substrate as X–Y and leaves a <b>double bond</b> C=C. NCERT 9.8.5: <b>lyases</b> remove groups from substrates by mechanisms other than hydrolysis, leaving double bonds.</p>",
      "hint": "Group removed, double bond left."
     },
     "hi": {
@@ -2763,7 +2773,7 @@
       "ट्रांसफरेजेज",
       "लायेजेज"
      ],
-     "sol": "<p>अभिक्रिया (प्रश्नपत्र से देखी गई) क्रियाधार के आसन्न कार्बनों से समूह X तथा Y को X–Y के रूप में हटाती है और <b>द्विबंध</b> C=C छोड़ती है। NCERT 9.8.5: <b>लायेजेज</b> जल अपघटन के अतिरिक्त विधि द्वारा क्रियाधारकों से समूह हटाकर द्विबंध छोड़ते हैं।</p>",
+     "sol": "<p>अभिक्रिया क्रियाधार के आसन्न कार्बनों से समूह X तथा Y को X–Y के रूप में हटाती है और <b>द्विबंध</b> C=C छोड़ती है। NCERT 9.8.5: <b>लायेजेज</b> जल अपघटन के अतिरिक्त विधि द्वारा क्रियाधारकों से समूह हटाकर द्विबंध छोड़ते हैं।</p>",
      "hint": "समूह हटे, द्विबंध बचा।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
@@ -2772,6 +2782,16 @@
     "kind": "single",
     "index": 3
    },
+   "media": [
+    {
+     "src": "assets/figures/bio11-09/bio11-09-neet-2026-q167-esaral-copy.svg",
+     "alt": {
+      "en": "Reaction scheme: groups X and Y on neighbouring carbon atoms are removed by enzyme E as X–Y, leaving C=C",
+      "hi": "अभिक्रिया योजना: एंजाइम E आसन्न कार्बन परमाणुओं से समूह X तथा Y को X–Y के रूप में हटाता है और C=C बचता है"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio11-09",
     "paras": [
@@ -2794,7 +2814,7 @@
    "review": {
     "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
-    "note": "Reaction scheme in the paper; needs a redrawn figure. Code 13 booklet Q147."
+    "note": "Reaction scheme in the paper; needs a redrawn figure. Code 13 booklet Q147. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {
