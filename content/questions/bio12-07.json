@@ -2283,15 +2283,15 @@
     },
     "hi": {
      "status": "draft",
-     "q": "सूची I का सूची II से मिलान कीजिए :<br>सूची-I (औषध) — सूची-II (प्रभाव)<br>A. निकोटीन — I. उल्लास का भाव तथा ऊर्जा में वृद्धि उत्पन्न करती है<br>B. मॉर्फीन — II. अधिवृक्क ग्रंथि को रुधिर परिसंचरण में कैटेकोलामीन मुक्त करने के लिए उद्दीपित करती है<br>C. हिरोइन — III. प्रभावी शामक तथा पीड़ाहर<br>D. कोकेन — IV. एक अवसादक; शरीर के प्रकार्य धीमे करती है",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>सूची-I (औषध) — सूची-II (प्रभाव)<br>A. निकोटीन — I. सुखाभास का भाव तथा ऊर्जा में वृद्धि उत्पन्न करती है<br>B. मॉर्फीन — II. अधिवृक्क ग्रंथि को रुधिर परिसंचरण में कैटेकोलामीन मुक्त करने के लिए उद्दीपित करती है<br>C. हिरोइन — III. प्रभावी शामक तथा पीड़ाहर<br>D. कोकेन — IV. एक अवसादक; शरीर के प्रकार्य धीमे करती है",
      "o": [
       "A-II, B-III, C-I, D-IV",
       "A-III, B-II, C-IV, D-I",
       "A-III, B-II, C-I, D-IV",
       "A-II, B-III, C-IV, D-I"
      ],
-     "sol": "<ul><li>A निकोटीन — अधिवृक्क ग्रंथि को उद्दीपित कर एड्रिनलीन और नॉरएड्रिनलीन (कैटेकोलामीन) रुधिर में मुक्त कराती है (II)।</li><li>B मॉर्फीन — अत्यंत प्रभावी शामक तथा पीड़ाहर (III)।</li><li>C हिरोइन — अवसादक, शरीर के प्रकार्य धीमे करती है (IV)।</li><li>D कोकेन — डोपेमीन परिवहन में बाधा; उल्लास का भाव और ऊर्जा में वृद्धि (I)।</li></ul><p>A-II, B-III, C-IV, D-I।</p>",
-     "hint": "निकोटीन ↔ अधिवृक्क; कोकेन ↔ उल्लास।",
+     "sol": "<ul><li>A निकोटीन — अधिवृक्क ग्रंथि को उद्दीपित कर एड्रिनलीन और नॉरएड्रिनलीन (कैटेकोलामीन) रुधिर में मुक्त कराती है (II)।</li><li>B मॉर्फीन — अत्यंत प्रभावी शामक तथा पीड़ाहर (III)।</li><li>C हिरोइन — अवसादक, शरीर के प्रकार्य धीमे करती है (IV)।</li><li>D कोकेन — डोपेमीन परिवहन में बाधा; सुखाभास का भाव और ऊर्जा में वृद्धि (I)।</li></ul><p>A-II, B-III, C-IV, D-I।</p>",
+     "hint": "निकोटीन ↔ अधिवृक्क; कोकेन ↔ सुखाभास।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
    },
@@ -2322,6 +2322,285 @@
     "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q162."
+   }
+  },
+  {
+   "id": "bio12-07-ncertex-7-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The overall ability of the host to fight disease-causing organisms, conferred by the immune system, is called immunity. Its two types, as classified in NCERT, are:",
+     "o": [
+      "innate immunity and acquired immunity",
+      "active immunity and passive immunity",
+      "humoral immunity and cell-mediated immunity",
+      "primary response and secondary response"
+     ],
+     "sol": "<p>NCERT 7.2: we meet many infectious agents daily but only a few cause disease, because the body defends itself. This ability, conferred by the immune system, is <b>immunity</b>, of two types: <b>innate</b> (non-specific, present at birth) and <b>acquired</b> (pathogen-specific, with memory). Active/passive, humoral/cell-mediated and primary/secondary responses are subdivisions or features of acquired immunity.</p>",
+     "hint": "Born with it vs gained later.",
+     "trap": "Active and passive are kinds of acquired immunity, not the two main types."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "परपोषी की रोगकारक जीवों से लड़ने की क्षमता, जो उसे प्रतिरक्षी-तंत्र के कारण मिली है, प्रतिरक्षा कहलाती है। NCERT के वर्गीकरण के अनुसार इसके दो प्रकार हैं :",
+     "o": [
+      "सहज प्रतिरक्षा तथा उपार्जित प्रतिरक्षा",
+      "सक्रिय प्रतिरक्षा तथा निष्क्रिय प्रतिरक्षा",
+      "तरल प्रतिरक्षा तथा कोशिका-माध्यित प्रतिरक्षा",
+      "प्राथमिक अनुक्रिया तथा द्वितीयक अनुक्रिया"
+     ],
+     "sol": "<p>NCERT 7.2: हमें हर रोज बड़ी संख्या में संक्रामक कारकों का सामना करना पड़ता है, परंतु कुछ ही रोग उत्पन्न करते हैं, क्योंकि शरीर अपनी रक्षा कर लेता है। प्रतिरक्षी-तंत्र से मिली यह क्षमता <b>प्रतिरक्षा</b> है, जो दो प्रकार की होती है: <b>सहज</b> (अविशिष्ट, जन्म के समय मौजूद) तथा <b>उपार्जित</b> (रोगजनक-विशिष्ट, स्मृति युक्त)। सक्रिय/निष्क्रिय, तरल/कोशिका-माध्यित तथा प्राथमिक/द्वितीयक अनुक्रियाएँ उपार्जित प्रतिरक्षा के उपभाग या लक्षण हैं।</p>",
+     "hint": "जन्मजात बनाम बाद में प्राप्त।",
+     "trap": "सक्रिय तथा निष्क्रिय उपार्जित प्रतिरक्षा के प्रकार हैं, मुख्य दो प्रकार नहीं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-07",
+    "paras": [
+     "7.2"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 7.8(a) (innate and acquired immunity), reworded as an MCQ"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-07-ncertex-7-5-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is <b>not</b> listed in NCERT as a factor that motivates adolescents towards drug and alcohol use?",
+     "o": [
+      "Curiosity, need for adventure and excitement, and experimentation",
+      "Stress from pressure to excel in academics or examinations",
+      "The perception that smoking or using drugs is 'cool' or progressive",
+      "Parenting that combines high levels of nurturance with consistent discipline"
+     ],
+     "sol": "<p>NCERT 7.5.1: adolescence (about 12–18 years) is a vulnerable phase. Causes listed are curiosity, adventure, excitement and experimentation; academic and examination stress; the perception that it is 'cool' or progressive (promoted by television, movies, newspapers, internet); unstable or unsupportive family structures; and peer pressure. <b>Parenting with high nurturance and consistent discipline</b> is, by contrast, associated with a <i>lowered</i> risk of substance abuse (NCERT 7.5.4).</p>",
+     "hint": "One option protects rather than pushes."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "निम्नलिखित में से कौन-सा NCERT में किशोरों को ड्रग और ऐल्कोहल की ओर अभिप्रेरित करने वाले कारकों में <b>नहीं</b> है?",
+     "o": [
+      "जिज्ञासा, जोखिम उठाने और उत्तेजना के प्रति आकर्षण तथा प्रयोग करने की इच्छा",
+      "शैक्षिक क्षेत्र या परीक्षा में सबसे आगे रहने के दबाव से उत्पन्न तनाव",
+      "यह बोध कि धूम्रपान या ड्रग का उपयोग 'ठंडा' (कूल) या प्रगतिशील होने का प्रतीक है",
+      "ऐसा लालन-पालन जिसमें पालन-पोषण का स्तर ऊँचा हो और सुसंगत अनुशासन हो"
+     ],
+     "sol": "<p>NCERT 7.5.1: किशोरावस्था (लगभग 12–18 वर्ष) बहुत नाजुक समय है। बताए गए कारण हैं — जिज्ञासा, जोखिम, उत्तेजना और प्रयोग करने की इच्छा; शैक्षिक तथा परीक्षा का तनाव; यह बोध कि यह 'कूल' या प्रगतिशील है (टेलीविजन, सिनेमा, समाचार पत्र, इंटरनेट से बढ़ावा); परिवार के ढाँचे में अस्थिरता; तथा मित्रों का दबाव। इसके विपरीत, <b>ऊँचे पालन-पोषण और सुसंगत अनुशासन वाला लालन-पालन</b> कुप्रयोग का खतरा <i>कम</i> करता है (NCERT 7.5.4)।</p>",
+     "hint": "एक विकल्प धकेलता नहीं, बचाता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-07",
+    "paras": [
+     "7.5.1"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 7.17 (what motivates youngsters to take alcohol or drugs), reworded as an MCQ"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-07-ncertex-7-5-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The tendency of the body to show a characteristic and unpleasant withdrawal syndrome (anxiety, shakiness, nausea, sweating) when a regular dose of drugs or alcohol is abruptly stopped is called:",
+     "o": [
+      "addiction",
+      "dependence",
+      "tolerance",
+      "overdosing"
+     ],
+     "sol": "<p>NCERT 7.5.2: <b>dependence</b> is the body's tendency to manifest a withdrawal syndrome when the regular dose is abruptly discontinued; it is relieved when use is resumed. <b>Addiction</b> is a <i>psychological</i> attachment to effects such as euphoria. With repeated use, the <b>tolerance</b> level of receptors rises, so only higher doses work — leading to greater intake.</p>",
+     "hint": "Withdrawal shows dependence.",
+     "trap": "Addiction is the psychological pull; dependence is the body's withdrawal reaction."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "ड्रग/ऐल्कोहल की नियमित मात्रा अचानक बंद कर दिए जाने पर शरीर द्वारा अभिलक्षणिक और अप्रिय विनिवर्तन संलक्षण (चिंता, कंपन, मिचली और पसीना आना) व्यक्त करने की वृत्ति कहलाती है :",
+     "o": [
+      "व्यसन",
+      "निर्भरता",
+      "सह्यता",
+      "अतिमात्रा"
+     ],
+     "sol": "<p>NCERT 7.5.2: <b>निर्भरता</b> शरीर की वह वृत्ति है जो नियमित मात्रा अचानक बंद करने पर विनिवर्तन संलक्षण (विद्ड्रावल सिंड्रोम) के रूप में व्यक्त होती है; सेवन फिर से चालू करने पर इनसे छुटकारा मिल जाता है। <b>व्यसन</b> सुखाभास जैसे प्रभावों के प्रति एक <i>मनोवैज्ञानिक</i> आसक्ति है। बार-बार उपयोग से ग्राहियों का <b>सह्य स्तर</b> बढ़ जाता है, अतः केवल उच्चतर मात्रा असर करती है — जिससे अधिक मात्रा लेने की लत पड़ती है।</p>",
+     "hint": "विनिवर्तन निर्भरता दर्शाता है।",
+     "trap": "व्यसन मनोवैज्ञानिक खिंचाव है; निर्भरता शरीर की विनिवर्तन प्रतिक्रिया है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-07",
+    "paras": [
+     "7.5.2"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 7.16 (why the habit is hard to give up), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-07-ncertex-7-5-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is <b>not</b> listed in NCERT as a side-effect of anabolic steroid misuse in <b>males</b>?",
+     "o": [
+      "Reduction in the size of the testicles and decreased sperm production",
+      "Breast enlargement",
+      "Premature baldness and enlargement of the prostate gland",
+      "Deepening of voice"
+     ],
+     "sol": "<p>NCERT 7.5.3: in males, anabolic steroids cause acne, increased aggressiveness, mood swings, depression, <b>reduction of testis size</b>, decreased sperm production, possible kidney and liver dysfunction, <b>breast enlargement</b>, <b>premature baldness</b> and <b>enlargement of the prostate</b>. <b>Deepening of voice</b> is listed for <i>females</i>, along with masculinisation, excess facial and body hair, abnormal menstrual cycles and enlargement of the clitoris.</p>",
+     "hint": "Which effect makes a female more male-like?"
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "निम्नलिखित में से कौन-सा NCERT में <b>पुरुषों</b> में उपचयी स्टेराइडों के कुप्रयोग के अनुषंगी प्रभावों में <b>नहीं</b> है?",
+     "o": [
+      "वृषणों के आकार का घटना तथा शुक्राणु उत्पादन में कमी",
+      "वक्ष (स्तन) का बढ़ना",
+      "समयपूर्व गंजापन तथा प्रोस्टेट ग्रंथि का बढ़ना",
+      "आवाज का गहरा होना"
+     ],
+     "sol": "<p>NCERT 7.5.3: पुरुषों में उपचयी स्टेराइडों से मुँहासे, बढ़ी अक्रामकता, भावदशा में उतार-चढ़ाव, अवसाद, <b>वृषणों के आकार का घटना</b>, शुक्राणु उत्पादन में कमी, यकृत और वृक्क की संभावित दुष्क्रियता, <b>वक्ष (स्तन) का बढ़ना</b>, <b>समयपूर्व गंजापन</b> तथा <b>प्रोस्टेट ग्रंथि का बढ़ना</b> होते हैं। <b>आवाज का गहरा होना</b> <i>महिलाओं</i> के लिए बताया गया है, साथ में पुंस्त्वन, मुँह और शरीर पर बालों की अत्यधिक वृद्धि, असामान्य आर्तव चक्र तथा भगशेफ का बढ़ना।</p>",
+     "hint": "कौन-सा प्रभाव महिला को पुरुष जैसा बनाता है?"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-07",
+    "paras": [
+     "7.5.3"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 7.14 (harmful effects of alcohol/drug abuse), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-07-ncertex-7-5-4-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "According to NCERT, which approach helps in the prevention and control of drug and alcohol abuse among adolescents?",
+     "o": [
+      "Pushing the child to perform beyond his/her threshold limits in studies and sports",
+      "Waiting until the habit is established before seeking professional help",
+      "Identifying situations that may push an adolescent towards drugs early, avoiding undue peer pressure, and parenting with high nurturance and consistent discipline",
+      "Strict discipline with little nurturance"
+     ],
+     "sol": "<p>NCERT 7.5.4: 'prevention is better than cure'. Habits are most often taken up during adolescence, so situations that push an adolescent towards drugs or alcohol should be identified and remedied in time; parents and teachers have a special responsibility. Parenting combining <b>high nurturance and consistent discipline</b> lowers the risk of substance abuse, and undue peer pressure should be avoided — a child should <b>not</b> be pushed beyond his/her threshold limits.</p>",
+     "hint": "Warmth plus consistent rules, early."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "NCERT के अनुसार कौन-सा उपाय किशोरों में ड्रग और ऐल्कोहल कुप्रयोग की रोकथाम और नियंत्रण में सहायक है?",
+     "o": [
+      "बच्चे को पढ़ाई और खेल में उसकी क्षमता की सीमा से अधिक प्रदर्शन के लिए धकेलना",
+      "आदत पक्की हो जाने तक प्रतीक्षा करना, फिर पेशेवर सहायता लेना",
+      "किशोर को ड्रग की ओर धकेलने वाली परिस्थितियों की समय रहते पहचान करना, मित्रों के अनुचित दबाव से बचना, तथा ऊँचे पालन-पोषण और सुसंगत अनुशासन वाला लालन-पालन",
+      "कम पालन-पोषण के साथ कठोर अनुशासन"
+     ],
+     "sol": "<p>NCERT 7.5.4: 'चिकित्सा से रोकथाम (बचाव) अच्छी है'। ये आदतें ज्यादातर किशोरावस्था में पड़ती हैं, अतः किशोर को ऐल्कोहल या ड्रग की ओर धकेलने वाली परिस्थितियों की पहचान कर समय रहते उपाय किए जाने चाहिए; इसमें माता-पिता और अध्यापकों का विशेष उत्तरदायित्व है। <b>ऊँचे पालन-पोषण और सुसंगत अनुशासन</b> वाला लालन-पालन कुप्रयोग का खतरा कम करता है, और मित्रों के अनुचित दबाव से बचना चाहिए — बच्चे को उसकी क्षमता की सीमा से अधिक के लिए <b>नहीं</b> धकेलना चाहिए।</p>",
+     "hint": "स्नेह और सुसंगत नियम, समय रहते।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-07",
+    "paras": [
+     "7.5.4"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 7.15 (protecting oneself from peer influence), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
    }
   }
  ]
