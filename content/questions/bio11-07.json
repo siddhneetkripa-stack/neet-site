@@ -1884,6 +1884,116 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q160."
    }
+  },
+  {
+   "id": "bio11-07-ai-7-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "NCERT gives the human heart as an example of an organ. Which tissues make up the heart?",
+     "o": [
+      "Only muscular tissue",
+      "Muscular and connective tissue only",
+      "All four basic tissue types: epithelial, connective, muscular and neural",
+      "Epithelial and neural tissue only"
+     ],
+     "sol": "<p>NCERT 7.1: tissues organise into organs and organs into organ systems, which makes the work of millions of cells more efficient and better coordinated. Each organ is made of one or more types of tissue; for example, the <b>heart consists of all four types of tissue</b> — epithelial, connective, muscular and neural.</p>",
+     "hint": "NCERT's example uses every basic tissue type."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "NCERT हृदय को एक अंग के उदाहरण के रूप में देती है। हृदय किन ऊतकों से बना होता है?",
+     "o": [
+      "केवल पेशीय ऊतक",
+      "केवल पेशीय तथा संयोजी ऊतक",
+      "चारों मूल ऊतक: उपकला, संयोजी, पेशीय तथा तंत्रकीय",
+      "केवल उपकला तथा तंत्रकीय ऊतक"
+     ],
+     "sol": "<p>NCERT 7.1: ऊतक संगठित होकर अंग और अंगतंत्र की रचना करते हैं, जिससे लाखों कोशिकाओं की क्रियाएँ अधिक दक्षतापूर्वक एवं समन्वित रूप से चलती हैं। प्रत्येक अंग एक या एक से अधिक प्रकार के ऊतकों से बना होता है; उदाहरणार्थ, <b>हृदय में चारों तरह के ऊतक होते हैं</b> — उपकला, संयोजी, पेशीय तथा तंत्रकीय।</p>",
+     "hint": "NCERT के उदाहरण में हर मूल ऊतक है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-07",
+    "paras": [
+     "7.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 7.1"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-07-ai-7-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Frogs are not seen during peak summer and peak winter. Which statement explains this correctly?",
+     "o": [
+      "They migrate to the sea; this is called camouflage",
+      "They shelter in deep burrows: summer sleep is aestivation and winter sleep is hibernation",
+      "They shelter in deep burrows: summer sleep is hibernation and winter sleep is aestivation",
+      "They keep a constant body temperature and so stay active, but change colour to hide"
+     ],
+     "sol": "<p>NCERT 7.2: frogs (class Amphibia, phylum Chordata; common Indian species <i>Rana tigrina</i>) are <b>poikilotherms</b> — their body temperature follows the surroundings. During peak summer and winter they take shelter in deep burrows: summer sleep is <b>aestivation</b> and winter sleep is <b>hibernation</b>. Their colour change to hide from enemies is camouflage (protective coloration, called mimicry in NCERT).</p>",
+     "hint": "Aestivation: (a)estival = summer."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "मेंढक भीषण गर्मी तथा भीषण सर्दी में दिखाई नहीं देते। कौन-सा कथन इसकी सही व्याख्या करता है?",
+     "o": [
+      "वे समुद्र में चले जाते हैं; इसे छद्मावरण कहते हैं",
+      "वे गहरे गड्ढों में चले जाते हैं: गर्मी की निष्क्रियता ग्रीष्म निष्क्रियता (aestivation) तथा सर्दी की निष्क्रियता शीत निष्क्रियता (hibernation) है",
+      "वे गहरे गड्ढों में चले जाते हैं: गर्मी की निष्क्रियता शीत निष्क्रियता (hibernation) तथा सर्दी की निष्क्रियता ग्रीष्म निष्क्रियता (aestivation) है",
+      "उनके शरीर का ताप स्थिर रहता है, इसलिए वे सक्रिय रहते हैं पर छिपने के लिए रंग बदलते हैं"
+     ],
+     "sol": "<p>NCERT 7.2: मेंढक (उभयचर (एंफीबिया) वर्ग, कॉर्डेटा (कशेरुकी) संघ; भारत की सामान्य जाति <i>Rana tigrina</i>) <b>असमतापी</b> होते हैं — उनके शरीर का ताप वातावरण के ताप के अनुसार बदलता है। भीषण गर्मी तथा सर्दी में वे गहरे गड्ढों में चले जाते हैं: <b>गर्मी में ग्रीष्म निष्क्रियता (aestivation)</b>, <b>सर्दी में शीत निष्क्रियता (hibernation)</b>। शत्रुओं से छिपने के लिए रंग परिवर्तन छद्मावरण है (इस रक्षात्मक रंग परिवर्तन को NCERT अनुहरण कहती है)।</p>",
+     "hint": "ग्रीष्म = गर्मी।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-07",
+    "paras": [
+     "7.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 7.2"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }

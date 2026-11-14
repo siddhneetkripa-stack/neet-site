@@ -2237,6 +2237,116 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q111."
    }
+  },
+  {
+   "id": "bio11-02-ncertex-2-2-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Sometimes the sea turns red over a large area (a 'red tide'). Which statement about the organisms that cause it is correct?",
+     "o": [
+      "They are red dinoflagellates such as <i>Gonyaulax</i>, which multiply very rapidly and release toxins that can kill fishes",
+      "They are diatoms whose silica walls reflect red light",
+      "They are euglenoids that lose their chlorophyll in the absence of sunlight",
+      "They are red algae of the kingdom Plantae that grow attached to rocks"
+     ],
+     "sol": "<p>NCERT 2.2.2: red dinoflagellates (e.g. <i>Gonyaulax</i>) sometimes multiply so fast that the sea looks red — the <b>red tide</b>. Toxins released by such huge numbers can kill fishes and other marine animals. Dinoflagellates are mostly marine, photosynthetic, with stiff cellulose plates on the cell wall and two flagella (one longitudinal, one transverse in a furrow).</p>",
+     "hint": "Think of the protist with cellulose plates and two flagella."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कभी-कभी समुद्र का जल बड़े क्षेत्र में लाल दिखने लगता है (लाल तरंगें)। इसका कारण बनने वाले जीवों के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "ये <i>Gonyaulax</i> जैसे लाल डायनोफलैजिलेट हैं, जिनकी संख्या बहुत तेज़ी से बढ़ती है और जिनके जीव-विष से मछलियाँ मर सकती हैं",
+      "ये डाइएटम हैं, जिनकी सिलिका की भित्ति लाल प्रकाश परावर्तित करती है",
+      "ये युग्लीनॉइड हैं, जो सूर्य के प्रकाश के न होने पर अपना क्लोरोफिल खो देते हैं",
+      "ये प्लांटी जगत के लाल शैवाल हैं, जो चट्टानों से चिपक कर उगते हैं"
+     ],
+     "sol": "<p>NCERT 2.2.2: लाल डायनोफलैजिलेट (जैसे <i>Gonyaulax</i>) की संख्या में कभी-कभी इतना विस्फोट होता है कि समुद्र का जल लाल दिखने लगता है — <b>लाल तरंगें</b>। इतनी बड़ी संख्या के जीवों से निकले जीव-विष से मछली एवं अन्य समुद्री जीव मर जाते हैं। डायनोफलैजिलेट मुख्यतः समुद्री एवं प्रकाशसंश्लेषी होते हैं; इनकी कोशिका भित्ति पर सेल्युलोस की कड़ी पट्टिकाएं तथा दो कशाभ (एक लंबवत्, एक अनुप्रस्थ खांच में) होते हैं।</p>",
+     "hint": "सेल्युलोस की पट्टिकाओं तथा दो कशाभ वाले प्रोटिस्ट को सोचिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.2.2"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 2.4 (what 'red tides' signify), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-02-ncertex-2-2-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which set of features correctly describes euglenoids (e.g. <i>Euglena</i>)?",
+     "o": [
+      "Mostly marine; cell wall of stiff cellulose plates; one flagellum",
+      "Mostly fresh water; a protein-rich pellicle instead of a cell wall; two flagella (one short, one long); photosynthetic in light but heterotrophic in the dark",
+      "Mostly fresh water; silica cell wall; no flagella; always photosynthetic",
+      "Parasitic; no pigments; move by pseudopodia"
+     ],
+     "sol": "<p>NCERT 2.2.3: euglenoids mostly live in stagnant fresh water. Instead of a cell wall they have a protein-rich <b>pellicle</b> that keeps the body flexible. They have <b>two flagella, one short and one long</b>. In sunlight they photosynthesise; deprived of light they behave like heterotrophs by preying on smaller organisms. Their pigments are identical to those of higher plants. Option 1 describes dinoflagellates; option 3 is closer to diatoms (which have no flagella); option 4 fits no euglenoid.</p>",
+     "hint": "Pellicle, two unequal flagella, mixed nutrition."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कौन-सा समूह युग्लीनॉइड (जैसे <i>Euglena</i>) के लक्षणों का सही वर्णन करता है?",
+     "o": [
+      "मुख्यतः समुद्री; कोशिका भित्ति पर सेल्युलोस की कड़ी पट्टिकाएं; एक कशाभ",
+      "मुख्यतः स्वच्छ जल में; कोशिका भित्ति की जगह प्रोटीनयुक्त पेलिकिल; दो कशाभ (एक छोटा, एक लंबा); प्रकाश में प्रकाशसंश्लेषी पर अँधेरे में परपोषी",
+      "मुख्यतः स्वच्छ जल में; सिलिका की कोशिका भित्ति; कशाभ नहीं; सदैव प्रकाशसंश्लेषी",
+      "परजीवी; वर्णक नहीं; कूटपाद से गमन"
+     ],
+     "sol": "<p>NCERT 2.2.3: युग्लीनॉइड अधिकांशतः स्थिर स्वच्छ जल में पाए जाते हैं। इनमें कोशिका भित्ति की जगह प्रोटीनयुक्त <b>पेलिकिल</b> होती है, जो शरीर को लचीला बनाती है। इनमें <b>दो कशाभ, एक छोटा तथा दूसरा लंबा</b>, होते हैं। सूर्य के प्रकाश में ये प्रकाशसंश्लेषी होते हैं; प्रकाश न होने पर छोटे जीवों का शिकार कर परपोषी की तरह व्यवहार करते हैं। इनके वर्णक उच्च पादपों के वर्णकों के समान होते हैं। विकल्प 1 डायनोफलैजिलेट का वर्णन है; विकल्प 3 डाइएटम के अधिक निकट है (उनमें कशाभ नहीं होते); विकल्प 4 किसी युग्लीनॉइड पर लागू नहीं होता।</p>",
+     "hint": "पेलिकिल, दो असमान कशाभ, मिश्रित पोषण।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.2.3"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 2.10 (characteristic features of euglenoids), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {

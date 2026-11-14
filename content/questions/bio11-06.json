@@ -1938,6 +1938,118 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Options clipped in the copy; completed from the other options (each is a permutation). Code 13 booklet Q106."
    }
+  },
+  {
+   "id": "bio11-06-ncertex-6-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A transverse section of a plant part shows conjoint, closed vascular bundles scattered in the ground tissue, each surrounded by a sclerenchymatous bundle sheath, and no phloem parenchyma. The section is most likely of a:",
+     "o": [
+      "Dicot root",
+      "Dicot stem",
+      "Monocot stem",
+      "Monocot root"
+     ],
+     "sol": "<p>NCERT 6.2 / 6.2.4: monocots and dicots differ anatomically. Scattered vascular bundles, each with a <b>sclerenchymatous bundle sheath</b>, that are conjoint and closed and lack <b>phloem parenchyma</b> (with water-containing cavities) are the marks of a <b>monocot stem</b>. A dicot stem has its bundles in a ring (open, with cambium); roots have radial bundles, not conjoint ones.</p>",
+     "hint": "Scattered bundles = monocot; conjoint bundles = stem.",
+     "trap": "Roots have radial (not conjoint) vascular bundles, so 'monocot' alone is not enough: it must be the stem."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "किसी पादप भाग की अनुप्रस्थ काट में संयुक्त तथा बंद संवहन बंडल भरण ऊतक में बिखरे हुए दिखते हैं, प्रत्येक के चारों ओर स्क्लेरेंकाइमी पूलाच्छद (बंडल आच्छद) है, और फलोएम पैरेंकाइमा नहीं है। यह काट संभवतः किसकी है?",
+     "o": [
+      "द्विबीजपत्री मूल",
+      "द्विबीजपत्री तना",
+      "एकबीजपत्री तना",
+      "एकबीजपत्री मूल"
+     ],
+     "sol": "<p>NCERT 6.2 / 6.2.4: एकबीजपत्री तथा द्विबीजपत्री पादपों की शारीरिक रचना भिन्न होती है। बिखरे हुए संवहन बंडल, जिनके चारों ओर <b>स्क्लेरेंकाइमी पूलाच्छद (बंडल आच्छद)</b> हो, जो संयुक्त तथा बंद हों और जिनमें <b>फलोएम पैरेंकाइमा</b> न हो (जल रखने वाली गुहिकाएँ हों) — ये <b>एकबीजपत्री तने</b> के लक्षण हैं। द्विबीजपत्री तने में बंडल एक वलय में (खुले, कैंबियम (एधा) सहित) होते हैं; मूल में बंडल अरीय होते हैं, संयुक्त नहीं।</p>",
+     "hint": "बिखरे बंडल = एकबीजपत्री; संयुक्त बंडल = तना।",
+     "trap": "मूल में संवहन बंडल अरीय होते हैं (संयुक्त नहीं), इसलिए केवल 'एकबीजपत्री' पर्याप्त नहीं: उत्तर तना है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-06",
+    "paras": [
+     "6.2"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 6.3 (identify the section from its features), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-06-ncertex-6-2-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the vertical section of a dorsiventral (dicot) leaf, which statement is correct?",
+     "o": [
+      "Palisade parenchyma lies next to the lower (abaxial) epidermis and spongy parenchyma next to the upper epidermis",
+      "The abaxial (lower) epidermis usually bears more stomata than the adaxial (upper) epidermis, which may even lack them",
+      "Mesophyll is made of sclerenchyma and has no chloroplasts",
+      "Spongy parenchyma cells are elongated and packed vertically with no air spaces"
+     ],
+     "sol": "<p>NCERT 6.2.5: a dorsiventral leaf has epidermis, mesophyll and vascular system. The <b>abaxial (lower) epidermis generally bears more stomata</b>; the adaxial (upper) epidermis may even lack them. The mesophyll is parenchyma with chloroplasts: <b>palisade</b> cells (elongated, vertical, parallel) lie on the <b>adaxial</b> side, and loosely arranged oval or round <b>spongy</b> cells with large air spaces lie below them, down to the lower epidermis. The vascular bundles are surrounded by thick-walled bundle sheath cells.</p>",
+     "hint": "More stomata on the underside."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पृष्ठाधार (द्विबीजपत्री) पत्ती की लंबवत् काट में कौन-सा कथन सही है?",
+     "o": [
+      "खंभ पैरेंकाइमा निचली (अपाक्ष) बाह्यत्वचा के पास तथा स्पंजी पैरेंकाइमा ऊपरी बाह्यत्वचा के पास होता है",
+      "अपाक्ष (निचली) बाह्यत्वचा पर प्रायः अभ्यक्ष (ऊपरी) बाह्यत्वचा की अपेक्षा अधिक रंध्र होते हैं; ऊपरी सतह पर रंध्र नहीं भी हो सकते",
+      "पर्णमध्योतक स्क्लेरेंकाइमा का बना होता है तथा उसमें क्लोरोप्लास्ट नहीं होते",
+      "स्पंजी पैरेंकाइमा की कोशिकाएँ लंबी, लंबवत् सटी हुई तथा वायु स्थान रहित होती हैं"
+     ],
+     "sol": "<p>NCERT 6.2.5: पृष्ठाधार पत्ती में बाह्यत्वचा, पर्णमध्योतक तथा संवहन तंत्र होते हैं। <b>अपाक्ष (निचली) बाह्यत्वचा पर प्रायः अधिक रंध्र</b> होते हैं; अभ्यक्ष (ऊपरी) बाह्यत्वचा पर रंध्र नहीं भी हो सकते। पर्णमध्योतक क्लोरोप्लास्ट युक्त पैरेंकाइमा है: <b>खंभ पैरेंकाइमा</b> (लंबी, लंबवत्, समानांतर कोशिकाएँ) <b>ऊपरी</b> ओर होता है, और उसके नीचे निचली बाह्यत्वचा तक ढीली व्यवस्थित, अंडाकार या गोल <b>स्पंजी</b> कोशिकाएँ बड़े वायु स्थानों सहित होती हैं। संवहन बंडल मोटी भित्ति वाली पूलाच्छद (बंडल आच्छद) कोशिकाओं से घिरे होते हैं।</p>",
+     "hint": "नीचे की सतह पर अधिक रंध्र।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-06",
+    "paras": [
+     "6.2.5"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 6.7 (internal structure of a dorsiventral leaf), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
