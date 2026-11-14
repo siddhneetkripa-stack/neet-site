@@ -2309,6 +2309,226 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Options in the Code 13 booklet's order (the eSaral copy reorders them; read from the booklet scan). The copy prints (1). Code 13 booklet Q102."
    }
+  },
+  {
+   "id": "bio11-10-ai-10-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the cell cycle is correct?",
+     "o": [
+      "DNA synthesis goes on throughout the cell cycle, while cell growth occurs only in one stage",
+      "Cell growth (cytoplasmic increase) is continuous, but DNA synthesis occurs only during one specific stage",
+      "Both cell growth and DNA synthesis occur only during cell division",
+      "The cell cycle is not under genetic control"
+     ],
+     "sol": "<p>NCERT 10.1: the cell cycle is the sequence of events by which a cell duplicates its genome, synthesises its other constituents and then divides into two daughter cells. <b>Cell growth</b> (in terms of cytoplasmic increase) is a <b>continuous</b> process, but <b>DNA synthesis occurs only during one specific stage</b>. The replicated chromosomes are then shared between daughter nuclei by events that are themselves under genetic control.</p>",
+     "hint": "One process is continuous, the other happens once."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कोशिका चक्र के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "DNA संश्लेषण पूरे कोशिका चक्र में चलता है, जबकि कोशिका वृद्धि केवल एक अवस्था में होती है",
+      "कोशिका वृद्धि (कोशिकाद्रव्यीय वृद्धि) सतत प्रक्रिया है, पर DNA संश्लेषण केवल एक विशिष्ट अवस्था में होता है",
+      "कोशिका वृद्धि तथा DNA संश्लेषण दोनों केवल कोशिका विभाजन के समय होते हैं",
+      "कोशिका चक्र आनुवंशिक नियंत्रण में नहीं होता"
+     ],
+     "sol": "<p>NCERT 10.1: घटनाओं का वह अनुक्रम जिसमें कोशिका अपने जीनोम का द्विगुणन व अन्य संघटकों का संश्लेषण करती है और फिर विभाजित होकर दो संतति कोशिकाएं बनाती है, कोशिका चक्र कहलाता है। <b>कोशिका वृद्धि</b> (कोशिकाद्रव्यीय वृद्धि के संदर्भ में) एक <b>सतत</b> प्रक्रिया है, पर <b>DNA का संश्लेषण कोशिका चक्र की केवल एक विशिष्ट अवस्था में</b> होता है। प्रतिकृत गुणसूत्र फिर संतति केंद्रकों में बँटते हैं; ये घटनाएँ स्वयं आनुवंशिक नियंत्रण में होती हैं।</p>",
+     "hint": "एक प्रक्रिया सतत है, दूसरी एक बार होती है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-10-ai-10-2-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A dividing cell is viewed under the microscope at the end of prophase of mitosis. Which of these would you <b>not</b> see?",
+     "o": [
+      "Condensed chromosomes, each of two chromatids joined at the centromere",
+      "Asters radiating from the centrosomes",
+      "Nucleolus and nuclear envelope",
+      "Centrosomes moving towards opposite poles"
+     ],
+     "sol": "<p>NCERT 10.2.1: prophase begins with condensation of chromosomal material into compact chromosomes, each of two chromatids attached at the centromere. The centrosome (duplicated in S phase) moves towards opposite poles, and each radiates microtubules called asters; asters and spindle fibres form the mitotic apparatus. Cells at the end of prophase <b>do not show</b> the Golgi complex, ER, <b>nucleolus and nuclear envelope</b>.</p>",
+     "hint": "Which structures disappear by the end of prophase?"
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "सूत्री विभाजन की पूर्वावस्था के अंत में किसी विभाजित होती कोशिका को सूक्ष्मदर्शी से देखा जाता है। इनमें से क्या दिखाई <b>नहीं</b> देगा?",
+     "o": [
+      "संघनित गुणसूत्र, जिनमें प्रत्येक गुणसूत्रबिंदु (सेंट्रोमियर) पर जुड़े दो अर्धगुणसूत्रों से बना है",
+      "तारककाय से विकरित होते तारक (एस्टर)",
+      "केंद्रिका तथा केंद्रक आवरण",
+      "विपरीत ध्रुवों की ओर जाते तारककाय"
+     ],
+     "sol": "<p>NCERT 10.2.1: पूर्वावस्था में गुणसूत्रीय द्रव्य संघनित होकर ठोस गुणसूत्र बनाता है, जिनमें प्रत्येक गुणसूत्रबिंदु (सेंट्रोमियर) पर जुड़े दो अर्धगुणसूत्रों से बना होता है। तारककाय (S प्रावस्था में द्विगुणित) विपरीत ध्रुवों की ओर जाने लगता है, और प्रत्येक सूक्ष्म नलिकाएं विकरित करता है जिन्हें तारक (एस्टर) कहते हैं; तारक व तन्तु मिलकर समसूत्री विभाजन यंत्र बनाते हैं। पूर्वावस्था के अंत में कोशिका में गॉल्जीकाय, अंतर्द्रव्यी जालिका (ER), <b>केंद्रिका व केंद्रक आवरण दिखाई नहीं देते</b>।</p>",
+     "hint": "पूर्वावस्था के अंत तक कौन-सी संरचनाएं लुप्त हो जाती हैं?"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.2.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-10-ai-10-2-4-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which group of events marks telophase of mitosis?",
+     "o": [
+      "Chromosomes line up at the spindle equator",
+      "Centromeres split and chromatids move to opposite poles",
+      "Chromosomes decondense at the poles, a nuclear envelope forms around each cluster, and the nucleolus, Golgi complex and ER reform",
+      "Chromatin begins to condense and centrosomes start moving apart"
+     ],
+     "sol": "<p>NCERT 10.2.4: in <b>telophase</b>, the final stage of karyokinesis, chromosomes that have reached the poles decondense and lose their individuality; a <b>nuclear envelope develops around each cluster</b>, giving two daughter nuclei; the <b>nucleolus, Golgi complex and ER reform</b>. Option 1 is metaphase, option 2 anaphase, option 4 prophase.</p>",
+     "hint": "Everything lost in prophase comes back."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "सूत्री विभाजन की अंत्यावस्था को कौन-सा घटना-समूह दर्शाता है?",
+     "o": [
+      "गुणसूत्र तर्कु की मध्यरेखा पर पंक्तिबद्ध होते हैं",
+      "गुणसूत्रबिंदु विभाजित होते हैं तथा अर्धगुणसूत्र विपरीत ध्रुवों की ओर जाते हैं",
+      "ध्रुवों पर गुणसूत्र असंघनित होते हैं, प्रत्येक समूह के चारों ओर केंद्रक आवरण बनता है, तथा केंद्रिका, गॉल्जीकाय व अंतर्द्रव्यी जालिका (ER) का पुनर्निर्माण होता है",
+      "गुणसूत्रीय द्रव्य का संघनन आरंभ होता है तथा तारककाय अलग होने लगते हैं"
+     ],
+     "sol": "<p>NCERT 10.2.4: केंद्रक विभाजन की अंतिम अवस्था <b>अंत्यावस्था</b> में ध्रुवों पर पहुँचे गुणसूत्र असंघनित होकर अपनी पृथक पहचान खो देते हैं; <b>प्रत्येक गुणसूत्र समूह के चारों ओर केंद्रक आवरण बनता है</b>, जिससे दो संतति केंद्रक बनते हैं; <b>केंद्रिका, गॉल्जीकाय व अंतर्द्रव्यी जालिका (ER) का पुनर्निर्माण</b> हो जाता है। विकल्प 1 मध्यावस्था, विकल्प 2 पश्चावस्था तथा विकल्प 4 पूर्वावस्था है।</p>",
+     "hint": "पूर्वावस्था में जो लुप्त हुआ, वह लौट आता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2.4"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.2.4 (cf. NCERT Exercise 10.6)"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-10-ncertex-10-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement best gives the significance of meiosis?",
+     "o": [
+      "It doubles the chromosome number in every generation",
+      "It keeps the chromosome number of a sexually reproducing species constant across generations, although it halves the number, and it increases genetic variability",
+      "It produces genetically identical cells for growth and repair",
+      "It occurs only in haploid organisms"
+     ],
+     "sol": "<p>NCERT 10.5: meiosis conserves the specific chromosome number of each species across generations in sexually reproducing organisms, even though the process itself paradoxically <b>halves</b> the chromosome number (fertilisation restores it). It also <b>increases genetic variability</b> from one generation to the next, and variation is important for evolution. Identical cells for growth and repair come from mitosis.</p>",
+     "hint": "Reduction now, restoration at fertilisation; plus variation."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कौन-सा कथन अर्धसूत्री विभाजन का महत्व सबसे सही बताता है?",
+     "o": [
+      "यह प्रत्येक पीढ़ी में गुणसूत्रों की संख्या दोगुनी करता है",
+      "यह लैंगिक जनन करने वाली जाति की गुणसूत्र संख्या पीढ़ी दर पीढ़ी स्थिर रखता है, यद्यपि यह संख्या आधी करता है, तथा आनुवंशिक विभिन्नताएं बढ़ाता है",
+      "यह वृद्धि तथा मरम्मत के लिए आनुवंशिक रूप से समान कोशिकाएं बनाता है",
+      "यह केवल अगुणित जीवों में होता है"
+     ],
+     "sol": "<p>NCERT 10.5: अर्धसूत्री विभाजन द्वारा लैंगिक जनन करने वाले जीवों की प्रत्येक जाति में विशिष्ट गुणसूत्र संख्या पीढ़ी दर पीढ़ी संरक्षित रहती है, यद्यपि यह विरोधाभासी प्रक्रिया स्वयं गुणसूत्रों की संख्या <b>आधी</b> कर देती है (निषेचन इसे पुनः पूरा करता है)। इसके द्वारा एक पीढ़ी से दूसरी पीढ़ी तक <b>आनुवंशिक विभिन्नताएं बढ़ती</b> हैं, जो विकास प्रक्रिया के लिए अत्यंत महत्वपूर्ण हैं। वृद्धि व मरम्मत के लिए समान कोशिकाएं सूत्री विभाजन से बनती हैं।</p>",
+     "hint": "अभी आधी, निषेचन पर पूरी; साथ में विभिन्नताएं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 10.12 (significance of meiosis), reworded as an MCQ"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
