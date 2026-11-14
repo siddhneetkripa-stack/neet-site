@@ -1467,6 +1467,116 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Options clipped in the copy; completed from the other options (each is a permutation). Code 13 booklet Q148."
    }
+  },
+  {
+   "id": "bio12-08-ai-8-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Production of microbial products such as beverages and antibiotics on an industrial scale requires growing microbes in very large vessels called:",
+     "o": [
+      "Fermentors",
+      "Sludge digesters",
+      "Flocs",
+      "Biogas plants"
+     ],
+     "sol": "<p>NCERT 8.2: microbes are used in industry to make many valuable products, e.g. beverages and antibiotics. Production on an industrial scale requires growing the microbes in very large vessels called <b>fermentors</b> (Figure 8.4). Flocs and anaerobic sludge digesters belong to sewage treatment, and biogas plants to energy production.</p>",
+     "hint": "Big vessels for fermentation."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "मादक पेय तथा प्रतिजैविक जैसे सूक्ष्मजीवी उत्पादों के व्यावसायिक पैमाने पर उत्पादन के लिए सूक्ष्मजीवियों को बहुत बड़े बर्तनों में पैदा करना होता है, जिन्हें कहते हैं:",
+     "o": [
+      "किण्वक (फरमैंटर)",
+      "आपंक संपाचित्र",
+      "ऊर्णक",
+      "जैव गैस (बायोगैस) संयंत्र"
+     ],
+     "sol": "<p>NCERT 8.2: उद्योगों में सूक्ष्मजीवियों का प्रयोग बहुत से मूल्यवान उत्पादों, जैसे मादक पेय तथा प्रतिजैविक, के संश्लेषण में होता है। व्यावसायिक पैमाने पर उत्पादन के लिए सूक्ष्मजीवियों को बड़े बर्तनों में पैदा करना होता है, जिन्हें <b>फरमैंटर या किण्वक</b> कहते हैं (चित्र 8.4)। ऊर्णक तथा अवायवीय आपंक संपाचित्र वाहित मल उपचार से, और जैव गैस संयंत्र ऊर्जा उत्पादन से जुड़े हैं।</p>",
+     "hint": "किण्वन के लिए बड़े बर्तन।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-08",
+    "paras": [
+     "8.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.2"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-08-ai-8-2-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the discovery of penicillin is correct?",
+     "o": [
+      "Fleming found it while working on <i>Streptococcus</i>; it is made by the bacterium <i>Penicillium chrysogenum</i>",
+      "Fleming, working on <i>Staphylococci</i>, saw that they could not grow around a mould in an unwashed culture plate; the chemical was named penicillin after the mould <i>Penicillium notatum</i>, and Chain and Florey later established its full potential",
+      "Penicillin was the third antibiotic to be discovered, after streptomycin and tetracycline",
+      "Fleming alone received the Nobel Prize in 1965 for penicillin"
+     ],
+     "sol": "<p>NCERT 8.2.2: antibiotics are chemicals produced by some microbes that kill or retard the growth of other (disease-causing) microbes. <b>Penicillin was the first antibiotic</b>, discovered by chance: <b>Alexander Fleming</b>, working on <b><i>Staphylococci</i></b>, saw a mould in an unwashed culture plate around which <i>Staphylococci</i> could not grow, and named the chemical after the mould <b><i>Penicillium notatum</i></b>. <b>Ernest Chain and Howard Florey</b> later established its full potential; it was used widely for soldiers wounded in World War II. Fleming, Chain and Florey shared the <b>Nobel Prize in 1945</b>.</p>",
+     "hint": "A mould, a staph plate and three Nobel laureates in 1945."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पैनीसिलीन की खोज के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "फलैमिंग ने इसे <i>Streptococcus</i> पर कार्य करते हुए पाया; इसे बैक्टीरिया <i>Penicillium chrysogenum</i> बनाता है",
+      "<i>Staphylococci</i> पर कार्य करते हुए फलैमिंग ने देखा कि एक बिना धुली प्लेट में उगे मोल्ड के चारों ओर वे वृद्धि न कर सके; मोल्ड <i>Penicillium notatum</i> के नाम पर रसायन का नाम पैनीसिलीन रखा गया, और बाद में चैन तथा फलौरे ने इसकी पूरी क्षमता स्थापित की",
+      "पैनीसिलीन स्ट्रेप्टोमाइसिन तथा टेट्रासाइक्लिन के बाद खोजा गया तीसरा प्रतिजैविक था",
+      "पैनीसिलीन के लिए केवल फलैमिंग को 1965 में नोबल पुरस्कार मिला"
+     ],
+     "sol": "<p>NCERT 8.2.2: प्रतिजैविक (ऐंटीबॉयोटिक) कुछ सूक्ष्मजीवियों द्वारा बने रसायन हैं, जो अन्य (रोग उत्पन्न करने वाले) सूक्ष्मजीवियों की वृद्धि को मंद करते या उन्हें मार देते हैं। <b>पैनीसिलीन सबसे पहला प्रतिजैविक</b> था, जिसकी खोज संयोग से हुई: <b>एलैग्जैंडर फलैमिंग</b> <b><i>Staphylococci</i></b> पर कार्य कर रहे थे, तब उन्होंने एक बिना धुली प्लेट में मोल्ड देखा जिसके चारों ओर <i>Staphylococci</i> वृद्धि न कर सके, और मोल्ड <b><i>Penicillium notatum</i></b> के नाम पर रसायन का नाम रखा। बाद में <b>अरनैस्ट चैन तथा हावर्ड फलौरे</b> ने इसकी पूरी क्षमता स्थापित की; दूसरे विश्व युद्ध में घायल सिपाहियों के उपचार में इसका व्यापक प्रयोग हुआ। फलैमिंग, चैन तथा फलौरे को <b>1945 में नोबल पुरस्कार</b> मिला।</p>",
+     "hint": "एक मोल्ड, स्टैफिलोकोकस की प्लेट तथा 1945 के तीन नोबल विजेता।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-08",
+    "paras": [
+     "8.2.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.2.2"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
