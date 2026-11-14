@@ -16,12 +16,12 @@ binding = "ASSETS"
 binding = "DB"
 database_name = "neet-cbt"
 # Fill in after `npx wrangler d1 create neet-cbt` (see worker/README.md).
-database_id = "00000000-0000-0000-0000-000000000000"
+database_id = "d56a9b3d-0e3f-40f3-ab84-e71b9d4ff997"
 migrations_dir = "migrations"
 
 [vars]
 SITE_NAME = "NEET Practice"            # placeholder until the brand is chosen
-GOOGLE_CLIENT_ID = "SET-ME"            # Google sign-in Client ID (public, not a secret); see worker/README.md
+GOOGLE_CLIENT_ID = "466910599230-fiqst7il9s43kkdp98ghvg7jvjgooch2.apps.googleusercontent.com"   # Google Cloud project neet-site (siddhneetkripa@gmail.com)
 ADMIN_EMAILS = "vimalswarnkar1@gmail.com,siddhneetkripa@gmail.com"
 
 [observability]

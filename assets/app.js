@@ -548,7 +548,7 @@
   }
 
   function footer() {
-    return `<footer>${t('सार, हल, प्रश्न और चित्र NCERT पाठ्यक्रम पर आधारित हमारी अपनी अध्ययन सामग्री हैं। NCERT पुस्तकें © NCERT: हम केवल छोटे अंश पेज नंबर के श्रेय के साथ दिखाते हैं और पूरी पुस्तक का लिंक देते हैं। मुफ़्त पढ़ें:', 'Synopses, solutions, questions and diagrams are original study material based on the NCERT syllabus. NCERT textbooks are © NCERT: we show only short excerpts for reference, each credited with its page, and link to the full book. Read it free at')} <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener">ncert.nic.in</a>.</footer>`;
+    return `<footer>${t('सार, हल, प्रश्न और चित्र NCERT पाठ्यक्रम पर आधारित हमारी अपनी अध्ययन सामग्री हैं। NCERT पुस्तकें © NCERT: हम केवल छोटे अंश पेज नंबर के श्रेय के साथ दिखाते हैं और पूरी पुस्तक का लिंक देते हैं। मुफ़्त पढ़ें:', 'Synopses, solutions, questions and diagrams are original study material based on the NCERT syllabus. NCERT textbooks are © NCERT: we show only short excerpts for reference, each credited with its page, and link to the full book. Read it free at')} <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener">ncert.nic.in</a>.<br><a href="privacy.html">${t('गोपनीयता नीति', 'Privacy policy')}</a> · <a href="terms.html">${t('उपयोग की शर्तें', 'Terms of use')}</a></footer>`;
   }
   function err(e) { console.error(e); app.innerHTML = topbar(null) + `<main><p class="empty">Could not load this page. ${esc(e.message || '')}</p></main>`; }
 

@@ -24,6 +24,12 @@ status (live|draft|archived), duration_min, marking{correct,wrong,blank}, reveal
 questions[{id, type, topic{en,hi}, paras, text{en,hi}{status,q,o,sol}, answer{kind:"single",index} | {kind:"numeric",value,tol}}]`.
 Paid tests stay `draft` (hidden) until passes are on sale; prices are not decided — no price is stored here.
 
+## Live setup (14 Nov 2026)
+- Cloudflare account siddhneetkripa@gmail.com (separate from VKC), account ID `cd3637f0b88c815989fc2b3d6696fa51`; workers.dev subdomain `neetpractice` → the site and tests run at **https://neet-cbt.neetpractice.workers.dev**.
+- D1 database `neet-cbt` (`d56a9b3d-0e3f-40f3-ab84-e71b9d4ff997`, in `wrangler.toml`). API token "neet-site GitHub deploy" (this account only; Workers + D1 edit) goes in the GitHub secrets of neet-site and neet-sources.
+- Google Cloud project `neet-site` (siddhneetkripa@gmail.com): Google Auth Platform branding "NEET Practice", External; Web client "neet-site CBT", authorised origin `https://neet-cbt.neetpractice.workers.dev`; Client ID in `wrangler.toml`. Home / privacy / terms links: `/`, `/privacy.html`, `/terms.html`.
+- When a domain is bought: add it to Google (authorised domain + JavaScript origin), add a `routes` block here, and a zone permission to the API token.
+
 ## One-time setup (owner)
 1. Cloudflare account (a new one for the NEET brand, or the VKC one for now). Create the database:
    `npx wrangler d1 create neet-cbt` → put the `database_id` in `wrangler.toml`.
