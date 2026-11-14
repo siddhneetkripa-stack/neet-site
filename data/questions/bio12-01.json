@@ -2932,6 +2932,116 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q99."
    }
+  },
+  {
+   "id": "bio12-01-ai-1-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "To a biologist, a flower is the site of sexual reproduction. In which two parts of a typical flower do the two most important units of sexual reproduction — the pollen grain and the embryo sac — develop?",
+     "o": [
+      "Sepal and petal",
+      "Anther (of the stamen) and ovule (in the ovary of the pistil)",
+      "Filament and style",
+      "Thalamus and stigma"
+     ],
+     "sol": "<p>NCERT 1.1: besides their aesthetic, social and cultural value, flowers are, to a biologist, morphological and embryological marvels and the <b>sites of sexual reproduction</b>. Of the parts of a typical flower (Figure 1.1), the male unit — the <b>pollen grain</b> — develops in the <b>anther</b>, and the female unit — the <b>embryo sac</b> — develops in the <b>ovule</b> inside the ovary. Sepals and petals are accessory whorls; filament, style, stigma and thalamus do not produce these units.</p>",
+     "hint": "One male, one female site."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "एक जीव वैज्ञानिक के लिए पुष्प लैंगिक जनन स्थल है। एक प्ररूपी पुष्प के किन दो अंगों में लैंगिक जनन की दो सर्वाधिक महत्त्वपूर्ण इकाइयाँ — परागकण तथा भ्रूणकोष — विकसित होती हैं?",
+     "o": [
+      "बाह्य दल तथा पंखुड़ी",
+      "परागकोश (पुंकेसर का) तथा बीजांड (स्त्रीकेसर के अंडाशय में)",
+      "तंतु तथा वर्तिका",
+      "पुष्पासन तथा वर्तिकाग्र"
+     ],
+     "sol": "<p>NCERT 1.1: सौंदर्य, सामाजिक तथा सांस्कृतिक महत्त्व के अतिरिक्त, एक जीव वैज्ञानिक के लिए पुष्प आकारिकीय एवं भ्रौणिकीय आश्चर्य तथा <b>लैंगिक जनन स्थल</b> है। प्ररूपी पुष्प के अंगों (चित्र 1.1) में नर इकाई — <b>परागकण</b> — <b>परागकोश</b> में, तथा मादा इकाई — <b>भ्रूणकोष</b> — अंडाशय के भीतर <b>बीजांड</b> में विकसित होती है। बाह्य दल तथा पंखुड़ी सहायक चक्र हैं; तंतु, वर्तिका, वर्तिकाग्र तथा पुष्पासन ये इकाइयाँ नहीं बनाते।</p>",
+     "hint": "एक नर, एक मादा स्थल।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 1.1"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-01-ai-1-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which sequence correctly shows the pre-fertilisation events that lead to the formation of male and female reproductive structures in a flowering plant?",
+     "o": [
+      "Flower opens → decision to flower → floral primordium forms",
+      "Decision to flower → hormonal and structural changes → differentiation of the floral primordium → inflorescence with floral buds → flowers in which androecium and gynoecium differentiate",
+      "Androecium forms → inflorescence forms → decision to flower",
+      "Gynoecium forms first, then the plant decides to flower"
+     ],
+     "sol": "<p>NCERT 1.2: much before a flower is seen, the decision that the plant will flower has been taken. Hormonal and structural changes then start the differentiation and development of the <b>floral primordium</b>. Inflorescences form and bear floral buds and then flowers, in which the male and female reproductive structures — the <b>androecium</b> (a whorl of stamens) and the <b>gynoecium</b> — differentiate and develop.</p>",
+     "hint": "The decision comes long before the flower."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पुष्पी पादप में नर तथा मादा जनन संरचनाओं के निर्माण तक की निषेचन-पूर्व घटनाओं का सही अनुक्रम कौन-सा है?",
+     "o": [
+      "पुष्प खिलता है → पुष्प आने का निर्णय → पुष्पीय आद्यक बनता है",
+      "पुष्प आने का निर्णय → हार्मोनल तथा संरचनात्मक परिवर्तन → पुष्पीय आद्यक का विभेदन → पुष्पी कलिकाओं वाला पुष्पक्रम → पुष्प, जिनमें पुमंग तथा जायांग विभेदित होते हैं",
+      "पुमंग बनता है → पुष्पक्रम बनता है → पुष्प आने का निर्णय",
+      "पहले जायांग बनता है, फिर पादप पुष्प आने का निर्णय लेता है"
+     ],
+     "sol": "<p>NCERT 1.2: पादप में वास्तविक रूप से पुष्प विकसित होने से बहुत पहले यह तय हो जाता है कि पुष्प आने वाले हैं। फिर हार्मोनल तथा संरचनात्मक परिवर्तनों से <b>पुष्पीय आद्यक</b> का विभेदन एवं विकास आरंभ होता है। पुष्पक्रम बनता है, जो पुष्पी कलिकाएँ और बाद में पुष्प धारण करता है, जिनमें नर एवं मादा जनन संरचनाएँ — <b>पुमंग</b> (पुंकेसरों का एक चक्र) तथा <b>जायांग</b> — विभेदित एवं विकसित होती हैं।</p>",
+     "hint": "निर्णय पुष्प से बहुत पहले होता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 1.2"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {
