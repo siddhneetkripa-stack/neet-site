@@ -630,8 +630,8 @@
     {
      "id": "phy11-06-neet-2023-topic-wise-copy-q8",
      "exam": "NEET",
-     "q": "The ratio of radius of gyration of a solid sphere of mass M and radius R about its own axis to the radius of gyration of the thin hollow sphere of same mass and radius about its axis is :",
-     "sol": "<p>Solid sphere about a diameter: I = (2/5)MR<sup>2</sup> ⇒ k<sub>1</sub> = R√(2/5). Thin hollow sphere: I = (2/3)MR<sup>2</sup> ⇒ k<sub>2</sub> = R√(2/3).</p><p>k<sub>1</sub>/k<sub>2</sub> = √(3/5), i.e. √3 : √5. None of the printed options matches; 3 : 5 is the ratio of the squares (of the moments of inertia). The copy gives no answer, so option (2) is only a placeholder.</p>",
+     "q": "The ratio of the squares of the radii of gyration (k<sub>1</sub><sup>2</sup> : k<sub>2</sub><sup>2</sup>) of a solid sphere of mass M and radius R about its own axis (k<sub>1</sub>) and of a thin hollow sphere of the same mass and radius about its axis (k<sub>2</sub>) is :",
+     "sol": "<p>Solid sphere about a diameter: I = (2/5)MR<sup>2</sup> ⇒ k<sub>1</sub><sup>2</sup> = (2/5)R<sup>2</sup>. Thin hollow sphere: I = (2/3)MR<sup>2</sup> ⇒ k<sub>2</sub><sup>2</sup> = (2/3)R<sup>2</sup>.</p><p>k<sub>1</sub><sup>2</sup> : k<sub>2</sub><sup>2</sup> = (2/5) : (2/3) = <b>3 : 5</b>.</p>",
      "hint": "k = √(I/M); compare √(2/5) with √(2/3).",
      "paras": [
       "6.9"
@@ -648,14 +648,14 @@
      ],
      "a": 1,
      "hi": {
-      "q": "M द्रव्यमान और R त्रिज्या के एक ठोस गोले की उसकी अपनी अक्ष के परितः परिभ्रमण त्रिज्या का, समान द्रव्यमान और त्रिज्या के पतले खोखले गोले की उसकी अक्ष के परितः परिभ्रमण त्रिज्या से अनुपात है :",
+      "q": "M द्रव्यमान और R त्रिज्या के एक ठोस गोले की उसकी अपनी अक्ष के परितः परिभ्रमण त्रिज्या (k<sub>1</sub>) तथा समान द्रव्यमान और त्रिज्या के पतले खोखले गोले की उसकी अक्ष के परितः परिभ्रमण त्रिज्या (k<sub>2</sub>) के वर्गों का अनुपात (k<sub>1</sub><sup>2</sup> : k<sub>2</sub><sup>2</sup>) है :",
       "o": [
        "5 : 2",
        "3 : 5",
        "5 : 3",
        "2 : 5"
       ],
-      "sol": "<p>व्यास के परितः ठोस गोला : I = (2/5)MR<sup>2</sup> ⇒ k<sub>1</sub> = R√(2/5)। पतला खोखला गोला : I = (2/3)MR<sup>2</sup> ⇒ k<sub>2</sub> = R√(2/3)।</p><p>k<sub>1</sub>/k<sub>2</sub> = √(3/5), अर्थात √3 : √5। मुद्रित विकल्पों में से कोई भी मेल नहीं खाता; 3 : 5 वर्गों (जड़त्व आघूर्णों) का अनुपात है। प्रति में कोई उत्तर नहीं दिया गया, अतः विकल्प (2) केवल स्थान-पूरक है।</p>",
+      "sol": "<p>व्यास के परितः ठोस गोला : I = (2/5)MR<sup>2</sup> ⇒ k<sub>1</sub><sup>2</sup> = (2/5)R<sup>2</sup>। पतला खोखला गोला : I = (2/3)MR<sup>2</sup> ⇒ k<sub>2</sub><sup>2</sup> = (2/3)R<sup>2</sup>।</p><p>k<sub>1</sub><sup>2</sup> : k<sub>2</sub><sup>2</sup> = (2/5) : (2/3) = <b>3 : 5</b>।</p>",
       "hint": "k = √(I/M); √(2/5) की तुलना √(2/3) से कीजिए।",
       "trap": "3 : 5, I<sub>1</sub> : I<sub>2</sub> है, k<sub>1</sub> : k<sub>2</sub> नहीं।"
      },
