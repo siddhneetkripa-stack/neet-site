@@ -1942,6 +1942,173 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q158."
    }
+  },
+  {
+   "id": "bio11-19-ai-19-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "According to the current scientific definition given in NCERT, hormones are:",
+     "o": [
+      "Chemicals made only by ductless glands and carried by blood to a distant target organ",
+      "Non-nutrient chemicals that act as intercellular messengers and are produced in trace amounts",
+      "Nutrient molecules stored in endocrine glands",
+      "Enzymes released into ducts that open on body surfaces"
+     ],
+     "sol": "<p>NCERT 19.1: endocrine glands lack ducts (ductless glands) and their secretions are hormones. The <i>classical</i> definition — a chemical made by endocrine glands, released into blood and carried to a distant target organ — has been replaced by the current one: <b>hormones are non-nutrient chemicals which act as intercellular messengers and are produced in trace amounts</b>. The new definition also covers many molecules not made by organised endocrine glands. Invertebrates have simple endocrine systems with few hormones; vertebrates use many.</p>",
+     "hint": "The newer definition is wider than 'made by a gland, carried by blood'.",
+     "trap": "Option 1 is the classical definition, not the current one."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "NCERT में दी गई वर्तमान वैज्ञानिक परिभाषा के अनुसार हार्मोन हैं:",
+     "o": [
+      "केवल नलिकाविहीन ग्रंथियों द्वारा बने रसायन, जो रक्त द्वारा दूरस्थ लक्ष्य अंग तक पहुँचाए जाते हैं",
+      "सूक्ष्म मात्रा में उत्पन्न होने वाले अपोषक रसायन, जो अंतरकोशिकीय संदेशवाहक के रूप में कार्य करते हैं",
+      "अंतःस्त्रावी ग्रंथियों में संचित पोषक अणु",
+      "शरीर की सतह पर खुलने वाली नलिकाओं में मुक्त एंजाइम"
+     ],
+     "sol": "<p>NCERT 19.1: अंतःस्त्रावी ग्रंथियों में नलिकाएं नहीं होतीं (नलिकाविहीन ग्रंथियां) और इनके स्त्राव हार्मोन कहलाते हैं। <i>चिरसम्मत</i> परिभाषा — अंतःस्त्रावी ग्रंथियों द्वारा स्त्रवित, रक्त में मुक्त होकर दूरस्थ लक्ष्य अंग तक पहुँचने वाला रसायन — अब इस वर्तमान परिभाषा से बदल गई है: <b>हार्मोन सूक्ष्म मात्रा में उत्पन्न होने वाले अपोषक रसायन हैं जो अंतरकोशिकीय संदेशवाहक के रूप में कार्य करते हैं</b>। नई परिभाषा में सुनियोजित अंतःस्त्रावी ग्रंथियों के अतिरिक्त कई नये अणु भी आते हैं। अकशेरुकी प्राणियों में कम हार्मोन वाला सरल अंतःस्त्रावी तंत्र होता है; कशेरुकियों में अनेक रसायन हार्मोन का कार्य करते हैं।</p>",
+     "hint": "नई परिभाषा 'ग्रंथि से बना, रक्त से पहुँचा' से व्यापक है।",
+     "trap": "विकल्प 1 चिरसम्मत परिभाषा है, वर्तमान नहीं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 19.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-19-ai-19-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is <b>not</b> one of the organised endocrine bodies of the human body listed by NCERT, although it does produce hormones?",
+     "o": [
+      "Thymus",
+      "Pineal",
+      "Liver",
+      "Parathyroid"
+     ],
+     "sol": "<p>NCERT 19.2: the endocrine system is made of endocrine glands and hormone-producing diffused tissues/cells. The <b>organised endocrine bodies</b> are pituitary, pineal, thyroid, adrenal, pancreas, parathyroid, thymus and gonads (testis, ovary). In addition, some other organs — gastrointestinal tract, <b>liver</b>, kidney, heart — also produce hormones, but they are not organised endocrine glands.</p>",
+     "hint": "Which one is mainly a digestive organ?"
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "निम्नलिखित में से कौन NCERT द्वारा बताए गए मानव शरीर के सुनियोजित अंतःस्त्रावी अंगों में <b>नहीं</b> है, यद्यपि यह हार्मोन का उत्पादन करता है?",
+     "o": [
+      "थाइमस",
+      "पिनियल ग्रंथि",
+      "यकृत",
+      "पैराथायरॉइड"
+     ],
+     "sol": "<p>NCERT 19.2: अंतःस्त्रावी ग्रंथियां तथा शरीर के विभिन्न भागों में स्थित हार्मोन स्त्रवित करने वाले ऊतक/कोशिकाएं मिलकर अंतःस्त्रावी तंत्र बनाते हैं। <b>सुनियोजित अंतःस्त्रावी अंग</b> हैं: पीयूष ग्रंथि, पिनियल ग्रंथि, थाइरॉयड, एड्रीनल, अग्नाशय, पैराथायरॉइड, थाइमस और जनन ग्रंथियां (वृषण, अंडाशय)। इनके अतिरिक्त कुछ अन्य अंग — जठर-आंत्रीय मार्ग, <b>यकृत</b>, वृक्क, हृदय — भी हार्मोन बनाते हैं, पर वे सुनियोजित अंतःस्त्रावी ग्रंथियां नहीं हैं।</p>",
+     "hint": "इनमें से मुख्यतः पाचन अंग कौन-सा है?"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 19.2"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-19-ai-19-2-6-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the thymus is correct?",
+     "o": [
+      "It secretes steroid hormones that raise blood glucose",
+      "It secretes thymosins, which help T-lymphocytes differentiate (cell-mediated immunity) and also promote antibody production (humoral immunity)",
+      "It grows larger with age, so old people have stronger immunity",
+      "It lies in the neck, in front of the larynx"
+     ],
+     "sol": "<p>NCERT 19.2.6: the thymus is a lobular gland between the lungs, behind the sternum, on the ventral side of the aorta. It secretes peptide hormones, <b>thymosins</b>, which play a major role in the <b>differentiation of T-lymphocytes</b> (cell-mediated immunity) and also <b>promote production of antibodies</b> (humoral immunity). The thymus <b>degenerates in old individuals</b>, so thymosin production falls and immune responses weaken.</p><p class='errata'>The Hindi edition (p. 244) says thymosins promote the production of “प्रतिजैविक” (antibiotics); it should be प्रतिरक्षी (antibodies), as in the English book.</p>",
+     "hint": "Peptide hormone for T cells; shrinks with age."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "थाइमस के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "यह रक्त ग्लूकोज बढ़ाने वाले स्टीरॉइड हार्मोन स्त्रवित करता है",
+      "यह थाइमोसिन स्त्रवित करता है, जो T-लिंफोसाइट्स के विभेदीकरण (विभेदन) (कोशिका-माध्यित प्रतिरक्षा) में सहायक हैं तथा प्रतिरक्षी के उत्पादन (तरल प्रतिरक्षा) को भी प्रेरित करते हैं",
+      "आयु के साथ यह बड़ा होता जाता है, इसलिए वृद्धों में प्रतिरक्षा अधिक होती है",
+      "यह गले में स्वरयंत्र के सामने स्थित होता है"
+     ],
+     "sol": "<p>NCERT 19.2.6: थाइमस ग्रंथि महाधमनी के उदर पक्ष पर उरोस्थि के पीछे फेफड़ों के बीच स्थित एक पालीयुक्त संरचना है। यह पेप्टाइड हार्मोन <b>थाइमोसिन</b> स्त्रवित करती है, जो <b>T-लिंफोसाइट्स के विभेदीकरण (विभेदन)</b> (कोशिका-माध्यित प्रतिरक्षा) में मुख्य भूमिका निभाते हैं तथा <b>प्रतिरक्षी के उत्पादन</b> (तरल प्रतिरक्षा) को भी प्रेरित करते हैं। <b>बढ़ती उम्र के साथ थाइमस का अपघटन</b> होता है, थाइमोसिन का उत्पादन घटता है और वृद्धों में प्रतिरक्षा प्रतिक्रिया कमजोर पड़ जाती है।</p><p class='errata'>हिंदी संस्करण (पृ. 244) में लिखा है कि थाइमोसिन “प्रतिजैविक” के उत्पादन को प्रेरित करते हैं; अंग्रेज़ी पुस्तक के अनुसार यह प्रतिरक्षी (antibodies) होना चाहिए।</p>",
+     "hint": "T कोशिकाओं के लिए पेप्टाइड हार्मोन; आयु के साथ घटता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-19",
+    "paras": [
+     "19.2.6"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 19.2.6"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
