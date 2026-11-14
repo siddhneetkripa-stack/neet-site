@@ -3532,6 +3532,116 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q91."
    }
+  },
+  {
+   "id": "bio12-09-ai-9-2-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Bacterial cells are made 'competent' to take up recombinant DNA by:",
+     "o": [
+      "Treating them with a specific concentration of a divalent cation such as calcium, then incubating with the DNA on ice, a brief heat shock at 42 °C, and back on ice",
+      "Treating them with lysozyme to remove the cell wall completely, then boiling",
+      "Coating them with gold particles and firing them from a gene gun",
+      "Treating them with a monovalent cation such as sodium at 95 °C"
+     ],
+     "sol": "<p>NCERT 9.2.3: DNA is hydrophilic and cannot pass through cell membranes. Bacteria are made <b>competent</b> by treating them with a specific concentration of a <b>divalent cation such as calcium</b>, which helps DNA enter through pores in the cell wall. The cells are incubated with recombinant DNA <b>on ice</b>, placed briefly at <b>42 °C (heat shock)</b>, and put back on ice; this lets them take up the recombinant DNA.</p>",
+     "hint": "Calcium, ice, 42 °C, ice."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "जीवाणु कोशिकाओं को पुनर्योगज DNA लेने के लिए 'सक्षम' बनाया जाता है:",
+     "o": [
+      "उन्हें कैल्सियम जैसे द्विसंयोजन धनायन की विशिष्ट सांद्रता से संसाधित करके, फिर DNA के साथ बर्फ पर रखकर, थोड़े समय 42 °C पर तापप्रघात देकर और पुनः बर्फ पर रखकर",
+      "लाइसोजाइम से कोशिका भित्ति पूरी तरह हटाकर, फिर उबालकर",
+      "उन पर स्वर्ण कण चढ़ाकर जीन गन से दागकर",
+      "उन्हें 95 °C पर सोडियम जैसे एकसंयोजी धनायन से संसाधित करके"
+     ],
+     "sol": "<p>NCERT 9.2.3: DNA जलरागी अणु है, इसलिए कोशिका झिल्ली से होकर नहीं गुजर सकता। जीवाणुओं को <b>सक्षम</b> बनाने के लिए उन्हें <b>कैल्सियम जैसे द्विसंयोजन धनायन</b> की विशिष्ट सांद्रता से संसाधित किया जाता है, जिससे DNA कोशिका भित्ति के छिद्रों से प्रवेश कर सके। कोशिकाओं को पुनर्योगज DNA के साथ <b>बर्फ पर</b> रखा जाता है, फिर थोड़े समय के लिए <b>42 °C (तापप्रघात)</b> पर, और पुनः बर्फ पर; इससे वे पुनर्योगज DNA ग्रहण कर लेते हैं।</p>",
+     "hint": "कैल्सियम, बर्फ, 42 °C, बर्फ।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.2.3"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-09-ai-9-2-3-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match each method of introducing alien DNA into host cells with its description: (a) micro-injection, (b) biolistics, (c) disarmed pathogen vectors.<br>(i) Cells bombarded with high-velocity micro-particles of gold or tungsten coated with DNA; suitable for plants<br>(ii) Vectors that infect the cell and transfer the recombinant DNA into the host<br>(iii) Recombinant DNA injected directly into the nucleus of an animal cell",
+     "o": [
+      "(a)-(i), (b)-(ii), (c)-(iii)",
+      "(a)-(iii), (b)-(i), (c)-(ii)",
+      "(a)-(ii), (b)-(iii), (c)-(i)",
+      "(a)-(iii), (b)-(ii), (c)-(i)"
+     ],
+     "sol": "<p>NCERT 9.2.3: besides making bacteria competent, alien DNA can be introduced by <b>micro-injection</b> — recombinant DNA injected directly into the <b>nucleus of an animal cell</b> (iii); <b>biolistics (gene gun)</b> — plant cells bombarded with high-velocity micro-particles of <b>gold or tungsten coated with DNA</b> (i); and <b>disarmed pathogen vectors</b>, which infect the cell and transfer the recombinant DNA (ii). So (a)-(iii), (b)-(i), (c)-(ii).</p>",
+     "hint": "Gene gun = gold or tungsten particles."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "परपोषी कोशिकाओं में विजातीय DNA प्रवेश कराने की प्रत्येक विधि को उसके वर्णन से मिलाइए: (a) सूक्ष्म अंतःक्षेपण, (b) बायोलिस्टीक, (c) अहानिकारक रोगजनक संवाहक।<br>(i) कोशिकाओं पर DNA से विलेपित स्वर्ण या टंगस्टन के उच्च वेग सूक्ष्म कणों से बमबारी; पौधों के लिए उपयोगी<br>(ii) संवाहक जो कोशिका को संक्रमित कर पुनर्योगज DNA को परपोषी में स्थानांतरित करते हैं<br>(iii) पुनर्योगज DNA को सीधे जंतु कोशिका के केंद्रक में अंतःक्षेपित करना",
+     "o": [
+      "(a)-(i), (b)-(ii), (c)-(iii)",
+      "(a)-(iii), (b)-(i), (c)-(ii)",
+      "(a)-(ii), (b)-(iii), (c)-(i)",
+      "(a)-(iii), (b)-(ii), (c)-(i)"
+     ],
+     "sol": "<p>NCERT 9.2.3: जीवाणुओं को सक्षम बनाने के अतिरिक्त विजातीय DNA को <b>सूक्ष्म अंतःक्षेपण</b> से — पुनर्योगज DNA सीधे <b>जंतु कोशिका के केंद्रक</b> में अंतःक्षेपित (iii); <b>बायोलिस्टीक (जीन गन)</b> से — पादप कोशिकाओं पर <b>DNA से विलेपित स्वर्ण या टंगस्टन</b> के उच्च वेग सूक्ष्म कणों की बमबारी (i); तथा <b>अहानिकारक रोगजनक संवाहक</b> से, जो कोशिका को संक्रमित कर पुनर्योगज DNA स्थानांतरित करते हैं (ii), प्रवेश कराया जा सकता है। अतः (a)-(iii), (b)-(i), (c)-(ii)।</p>",
+     "hint": "जीन गन = स्वर्ण या टंगस्टन कण।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-09",
+    "paras": [
+     "9.2.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.2.3"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
