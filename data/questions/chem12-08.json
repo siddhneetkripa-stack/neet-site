@@ -3983,6 +3983,611 @@
     "keySource": "eSaral full-paper recall copy without answers (neet-sources/jee-main/2024/2024-09-01-shift-1-maths.pdf, chemistry part)",
     "note": "Products are drawn as structures in the copy; named here."
    }
+  },
+  {
+   "id": "chem12-08-ai-8-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In aldehydes, the carbonyl group is bonded to:",
+     "o": [
+      "two alkyl or aryl groups",
+      "an –OH group and an alkyl group",
+      "a carbon and a hydrogen (or two hydrogens, in methanal)",
+      "a halogen and an alkyl group"
+     ],
+     "sol": "<p>NCERT 8.1: compounds containing the carbonyl group C=O are among the most important in organic chemistry. In aldehydes the carbonyl carbon is bonded to a carbon and a hydrogen (methanal, HCHO, has two hydrogens); in ketones it is bonded to two carbons. Carbonyl carbon bonded to –OH gives carboxylic acids; to a halogen, acyl halides. They occur widely in nature: vanillin, salicylaldehyde and cinnamaldehyde give pleasant flavours.</p>",
+     "hint": "\"Ald\" = at least one H on the carbonyl carbon."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "ऐल्डिहाइडों में कार्बोनिल समूह किससे आबंधित होता है?",
+     "o": [
+      "दो ऐल्किल या ऐरिल समूहों से",
+      "एक –OH समूह तथा एक ऐल्किल समूह से",
+      "एक कार्बन तथा एक हाइड्रोजन से (मेथेनैल में दो हाइड्रोजनों से)",
+      "एक हैलोजन तथा एक ऐल्किल समूह से"
+     ],
+     "sol": "<p>NCERT 8.1: कार्बोनिल समूह C=O वाले यौगिक कार्बनिक रसायन में अत्यधिक महत्त्वपूर्ण हैं। ऐल्डिहाइडों में कार्बोनिल कार्बन एक कार्बन तथा एक हाइड्रोजन से आबंधित होता है (मेथेनैल, HCHO, में दो हाइड्रोजन); कीटोनों में यह दो कार्बनों से आबंधित होता है। कार्बोनिल कार्बन –OH से आबंधित हो तो कार्बोक्सिलिक अम्ल, हैलोजन से हो तो ऐसिल हैलाइड बनते हैं। ये प्रकृति में व्यापक रूप से पाए जाते हैं: वेनेलिन, सैलिसिल ऐल्डिहाइड तथा सिनेमैल्डिहाइड रुचिकर सुगंध देते हैं।</p>",
+     "hint": "\"ऐल्डि\" = कार्बोनिल कार्बन पर कम से कम एक H।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-08-ai-8-1-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The IUPAC name of CH<sub>3</sub>–CO–CH<sub>2</sub>–CH(CH<sub>3</sub>)–CH<sub>3</sub> is:",
+     "o": [
+      "4-methylpentan-2-one",
+      "2-methylpentan-4-one",
+      "isobutyl methyl ketone (IUPAC)",
+      "4-methylpentan-2-al"
+     ],
+     "sol": "<p>NCERT 8.1.1: the IUPAC names of open-chain ketones are derived by replacing the ending \"-e\" of the alkane by \"-one\"; the longest chain containing the carbonyl group is numbered from the end nearer the carbonyl carbon. Chain C1H<sub>3</sub>–C2O–C3H<sub>2</sub>–C4H(CH<sub>3</sub>)–C5H<sub>3</sub>: pentan-2-one with methyl on C4: 4-methylpentan-2-one. \"Isobutyl methyl ketone\" is the common name; \"-al\" is used for aldehydes.</p>",
+     "hint": "Lowest locant for C=O."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "CH<sub>3</sub>–CO–CH<sub>2</sub>–CH(CH<sub>3</sub>)–CH<sub>3</sub> का IUPAC नाम है:",
+     "o": [
+      "4-मेथिलपेन्टेन-2-ओन",
+      "2-मेथिलपेन्टेन-4-ओन",
+      "आइसोब्यूटिल मेथिल कीटोन (IUPAC)",
+      "4-मेथिलपेन्टेन-2-ऐल"
+     ],
+     "sol": "<p>NCERT 8.1.1: विवृत शृंखला कीटोनों के IUPAC नाम ऐल्केन के अंत के \"-e\" को \"-one\" से बदलकर बनते हैं; कार्बोनिल समूह वाली सबसे लंबी शृंखला का संख्यांकन कार्बोनिल कार्बन के निकट वाले सिरे से होता है। शृंखला C1H<sub>3</sub>–C2O–C3H<sub>2</sub>–C4H(CH<sub>3</sub>)–C5H<sub>3</sub>: पेन्टेन-2-ओन, C4 पर मेथिल: 4-मेथिलपेन्टेन-2-ओन। \"आइसोब्यूटिल मेथिल कीटोन\" सामान्य नाम है; \"-al\" ऐल्डिहाइडों के लिए प्रयुक्त होता है।</p>",
+     "hint": "C=O को सबसे छोटी संख्या।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.1.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.1.1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-08-ai-8-1-2-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the carbonyl group is <b>incorrect</b>?",
+     "o": [
+      "The carbonyl carbon is sp<sup>2</sup> hybridised and the bond angles are about 120°, as in a trigonal planar structure.",
+      "The C=O bond is non-polar because carbon and oxygen share the electrons equally.",
+      "The carbonyl carbon is an electrophilic (Lewis acid) centre and the oxygen a nucleophilic (Lewis base) centre.",
+      "Carbonyl compounds have substantial dipole moments and are more polar than ethers."
+     ],
+     "sol": "<p>NCERT 8.1.2: the carbonyl carbon is sp<sup>2</sup> hybridised and forms three σ bonds; its fourth electron in a p orbital overlaps with a p orbital of oxygen to form the π bond. The carbon and the three atoms bonded to it lie in one plane, angles about 120°. Oxygen is more electronegative than carbon, so the C=O bond is <b>polarised</b> (δ+ on C, δ− on O): carbon is the electrophilic centre, oxygen the nucleophilic centre. The high polarity is explained by resonance between a neutral and a dipolar structure; carbonyl compounds are more polar than ethers.</p>",
+     "hint": "Oxygen pulls electrons."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कार्बोनिल समूह के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "कार्बोनिल कार्बन sp<sup>2</sup> संकरित है और बंधक कोण लगभग 120° होते हैं, जैसा समतलीय त्रिकोणीय संरचना में।",
+      "C=O आबंध अध्रुवीय है क्योंकि कार्बन और ऑक्सीजन इलेक्ट्रॉनों को समान रूप से साझा करते हैं।",
+      "कार्बोनिल कार्बन इलेक्ट्रॉनरागी (लूइस अम्ल) केंद्र तथा ऑक्सीजन नाभिकरागी (लूइस क्षारक) केंद्र है।",
+      "कार्बोनिल यौगिकों में पर्याप्त द्विध्रुव आघूर्ण होता है और ये ईथर से अधिक ध्रुवीय होते हैं।"
+     ],
+     "sol": "<p>NCERT 8.1.2: कार्बोनिल कार्बन sp<sup>2</sup> संकरित है और तीन σ आबंध बनाता है; p कक्षक का उसका चौथा इलेक्ट्रॉन ऑक्सीजन के p कक्षक से अतिव्यापन करके π आबंध बनाता है। कार्बन तथा उससे आबंधित तीन परमाणु एक ही तल में होते हैं, कोण लगभग 120°। कार्बन की अपेक्षा ऑक्सीजन की विद्युतऋणात्मकता उच्च होने के कारण C=O आबंध <b>ध्रुवित</b> हो जाता है (C पर δ+, O पर δ−): कार्बन इलेक्ट्रॉनरागी केंद्र, ऑक्सीजन नाभिकरागी केंद्र। उच्च ध्रुवता एक उदासीन तथा एक द्विध्रुव संरचना के बीच अनुनाद से समझाई जाती है; कार्बोनिल यौगिक ईथर से अधिक ध्रुवीय हैं।</p>",
+     "hint": "ऑक्सीजन इलेक्ट्रॉन खींचता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.1.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.1.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-08-ai-8-2-q1",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the reaction with its product: (a) Rosenmund reduction of benzoyl chloride (H<sub>2</sub>, Pd–BaSO<sub>4</sub>); (b) ozonolysis of but-2-ene followed by Zn/H<sub>2</sub>O; (c) hydration of ethyne (Hg<sup>2+</sup>, H<sub>2</sub>SO<sub>4</sub>); (d) hydration of propyne (Hg<sup>2+</sup>, H<sub>2</sub>SO<sub>4</sub>). (i) acetone; (ii) ethanal (two molecules); (iii) ethanal; (iv) benzaldehyde.",
+     "o": [
+      "(a)–(iv), (b)–(iii), (c)–(ii), (d)–(i)",
+      "(a)–(i), (b)–(ii), (c)–(iii), (d)–(iv)",
+      "(a)–(iv), (b)–(ii), (c)–(i), (d)–(iii)",
+      "(a)–(iv), (b)–(ii), (c)–(iii), (d)–(i)"
+     ],
+     "sol": "<p>NCERT 8.2: (a) acyl chloride + H<sub>2</sub> over Pd on BaSO<sub>4</sub> (Rosenmund) stops at the aldehyde: C<sub>6</sub>H<sub>5</sub>COCl → C<sub>6</sub>H<sub>5</sub>CHO. (b) ozonolysis of CH<sub>3</sub>CH=CHCH<sub>3</sub> and Zn/water work-up cleaves the C=C, giving two molecules of CH<sub>3</sub>CHO. (c) ethyne + water (HgSO<sub>4</sub>, H<sub>2</sub>SO<sub>4</sub>) gives acetaldehyde via the enol. (d) other alkynes give ketones: propyne gives acetone (propanone), following Markovnikov addition.</p>",
+     "hint": "Only ethyne gives an aldehyde on hydration."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "अभिक्रिया का उसके उत्पाद से मिलान कीजिए: (a) बेन्ज़ॉयल क्लोराइड का रोज़ेनमुंड अपचयन (H<sub>2</sub>, Pd–BaSO<sub>4</sub>); (b) ब्यूट-2-ईन का ओज़ोनी अपघटन, फिर Zn/H<sub>2</sub>O; (c) एथाइन का जलयोजन (Hg<sup>2+</sup>, H<sub>2</sub>SO<sub>4</sub>); (d) प्रोपाइन का जलयोजन (Hg<sup>2+</sup>, H<sub>2</sub>SO<sub>4</sub>)। (i) ऐसीटोन; (ii) एथेनैल (दो अणु); (iii) एथेनैल; (iv) बेन्जैल्डिहाइड।",
+     "o": [
+      "(a)–(iv), (b)–(iii), (c)–(ii), (d)–(i)",
+      "(a)–(i), (b)–(ii), (c)–(iii), (d)–(iv)",
+      "(a)–(iv), (b)–(ii), (c)–(i), (d)–(iii)",
+      "(a)–(iv), (b)–(ii), (c)–(iii), (d)–(i)"
+     ],
+     "sol": "<p>NCERT 8.2: (a) BaSO<sub>4</sub> पर Pd की उपस्थिति में ऐसिल क्लोराइड + H<sub>2</sub> (रोज़ेनमुंड) ऐल्डिहाइड पर रुक जाता है: C<sub>6</sub>H<sub>5</sub>COCl → C<sub>6</sub>H<sub>5</sub>CHO। (b) CH<sub>3</sub>CH=CHCH<sub>3</sub> का ओज़ोनी अपघटन और Zn/जल से उपचार C=C को तोड़कर CH<sub>3</sub>CHO के दो अणु देता है। (c) एथाइन + जल (HgSO<sub>4</sub>, H<sub>2</sub>SO<sub>4</sub>) ईनॉल द्वारा ऐसीटैल्डिहाइड देता है। (d) अन्य ऐल्काइन कीटोन देते हैं: प्रोपाइन मार्कोनीकॉफ योग के अनुसार ऐसीटोन (प्रोपेनोन) देती है।</p>",
+     "hint": "जलयोजन पर केवल एथाइन ऐल्डिहाइड देती है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-08-ai-8-5-q1",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the compound with its use: (a) 40% aqueous formaldehyde (formalin); (b) acetaldehyde; (c) benzaldehyde; (d) acetone. (i) perfumery and dye industries; (ii) preserving biological specimens, and making bakelite and urea–formaldehyde glues; (iii) starting material for acetic acid, ethyl acetate and vinyl acetate polymers; (iv) common industrial solvent.",
+     "o": [
+      "(a)–(iii), (b)–(ii), (c)–(i), (d)–(iv)",
+      "(a)–(ii), (b)–(iii), (c)–(i), (d)–(iv)",
+      "(a)–(ii), (b)–(i), (c)–(iii), (d)–(iv)",
+      "(a)–(iv), (b)–(iii), (c)–(i), (d)–(ii)"
+     ],
+     "sol": "<p>NCERT 8.5: aldehydes and ketones are used as solvents, starting materials and reagents in the chemical industry. Formalin (40% aqueous formaldehyde) preserves biological specimens and is used for bakelite (phenol–formaldehyde resin), urea–formaldehyde glues and other polymers. Acetaldehyde is a starting material for acetic acid, ethyl acetate, vinyl acetate polymers and drugs. Benzaldehyde is used in perfumery and dye industries. Acetone and ethyl methyl ketone are common industrial solvents. Many aldehydes and ketones (butyraldehyde, vanillin, camphor) are known for their odours and flavours.</p>",
+     "hint": "Formalin and specimens in jars."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "यौगिक का उसके उपयोग से मिलान कीजिए: (a) फार्मेल्डिहाइड का 40% जलीय विलयन (फार्मोलिन); (b) ऐसीटैल्डिहाइड; (c) बेन्जैल्डिहाइड; (d) ऐसीटोन। (i) सुगंध तथा रंजक उद्योग; (ii) जैविक प्रतिदर्शों का परिरक्षण, तथा बैकालाइट और यूरिया–फार्मेल्डिहाइड सरेस बनाना; (iii) ऐसीटिक अम्ल, एथिल ऐसीटेट तथा वाइनिल ऐसीटेट बहुलकों के लिए प्रारंभिक पदार्थ; (iv) सामान्य औद्योगिक विलायक।",
+     "o": [
+      "(a)–(iii), (b)–(ii), (c)–(i), (d)–(iv)",
+      "(a)–(ii), (b)–(iii), (c)–(i), (d)–(iv)",
+      "(a)–(ii), (b)–(i), (c)–(iii), (d)–(iv)",
+      "(a)–(iv), (b)–(iii), (c)–(i), (d)–(ii)"
+     ],
+     "sol": "<p>NCERT 8.5: रासायनिक उद्योग में ऐल्डिहाइड एवं कीटोन विलायक, प्रारंभिक पदार्थ और अभिकर्मकों के रूप में प्रयुक्त होते हैं। फार्मोलिन (फार्मेल्डिहाइड का 40% जलीय विलयन) जैविक प्रतिदर्शों के परिरक्षण में तथा बैकालाइट (फ़ीनॉल–फार्मेल्डिहाइड रेज़िन), यूरिया–फार्मेल्डिहाइड सरेस और अन्य बहुलकों में प्रयुक्त होता है। ऐसीटैल्डिहाइड ऐसीटिक अम्ल, एथिल ऐसीटेट, वाइनिल ऐसीटेट बहुलकों तथा औषधों के लिए प्रारंभिक पदार्थ है। बेन्जैल्डिहाइड सुगंध तथा रंजक उद्योग में प्रयुक्त होता है। ऐसीटोन तथा एथिल मेथिल कीटोन सामान्य औद्योगिक विलायक हैं। अनेक ऐल्डिहाइड और कीटोन (ब्यूटिरैल्डिहाइड, वेनेलिन, कपूर) अपनी गंध और स्वाद के लिए जाने जाते हैं।</p>",
+     "hint": "फार्मोलिन और जार में रखे प्रतिदर्श।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.5"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-08-ai-8-6-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Higher members of aliphatic carboxylic acids (C<sub>12</sub>–C<sub>18</sub>), known as fatty acids, occur in natural fats as:",
+     "o": [
+      "free acids only",
+      "ethers of glycerol",
+      "esters of glycerol",
+      "amides"
+     ],
+     "sol": "<p>NCERT 8.6: carbon compounds containing the carboxyl group –COOH are carboxylic acids. Some higher members of aliphatic carboxylic acids (C<sub>12</sub>–C<sub>18</sub>), known as fatty acids, occur in natural fats as esters of glycerol. Carboxylic acids are starting materials for important derivatives such as anhydrides, esters, acid chlorides and amides.</p>",
+     "hint": "Fats = triglycerides."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "ऐलिफैटिक कार्बोक्सिलिक अम्लों के उच्चतर सदस्य (C<sub>12</sub>–C<sub>18</sub>), जिन्हें वसा अम्ल कहते हैं, प्राकृतिक वसाओं में किस रूप में पाए जाते हैं?",
+     "o": [
+      "केवल मुक्त अम्लों के रूप में",
+      "ग्लिसरॉल के ईथरों के रूप में",
+      "ग्लिसरॉल के एस्टरों के रूप में",
+      "ऐमाइडों के रूप में"
+     ],
+     "sol": "<p>NCERT 8.6: कार्बोक्सिल समूह –COOH वाले कार्बन यौगिक कार्बोक्सिलिक अम्ल हैं। ऐलिफैटिक कार्बोक्सिलिक अम्लों के कुछ उच्चतर सदस्य (C<sub>12</sub>–C<sub>18</sub>), जिन्हें वसा अम्ल कहते हैं, प्राकृतिक वसाओं में ग्लिसरॉल के एस्टरों के रूप में पाए जाते हैं। कार्बोक्सिलिक अम्ल ऐनहाइड्राइड, एस्टर, ऐसिल क्लोराइड तथा ऐमाइड जैसे महत्त्वपूर्ण व्युत्पन्नों के लिए प्रारंभिक पदार्थ हैं।</p>",
+     "hint": "वसा = ट्राइग्लिसराइड।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.6"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.6"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-08-ai-8-6-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The common names formic acid and acetic acid come from:",
+     "o": [
+      "the names of the scientists who discovered them",
+      "Latin words for their first sources: \"formica\" (ants) and \"acetum\" (vinegar)",
+      "the number of carbon atoms in them",
+      "their IUPAC names"
+     ],
+     "sol": "<p>NCERT 8.6.1: common names of carboxylic acids end with \"-ic acid\" and come from Latin or Greek names of their natural sources: formic acid (HCOOH) was first obtained from red ants (Latin formica = ant), acetic acid from vinegar (acetum), butyric acid from rancid butter (butyrum). IUPAC names replace the \"-e\" of the alkane by \"-oic acid\": HCOOH is methanoic acid, CH<sub>3</sub>COOH ethanoic acid; the carboxyl carbon is numbered 1.</p>",
+     "hint": "Ant bites sting with it."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "फार्मिक अम्ल तथा ऐसीटिक अम्ल के सामान्य नाम कहाँ से आए हैं?",
+     "o": [
+      "उनकी खोज करने वाले वैज्ञानिकों के नामों से",
+      "उनके पहले स्रोतों के लैटिन शब्दों से: \"formica\" (चींटियाँ) तथा \"acetum\" (सिरका)",
+      "उनमें कार्बन परमाणुओं की संख्या से",
+      "उनके IUPAC नामों से"
+     ],
+     "sol": "<p>NCERT 8.6.1: कार्बोक्सिलिक अम्लों के सामान्य नाम \"-ic acid\" (इक ऐसिड) पर समाप्त होते हैं और उनके प्राकृतिक स्रोतों के लैटिन अथवा ग्रीक नामों से व्युत्पन्न हैं: फार्मिक अम्ल (HCOOH) सर्वप्रथम लाल चींटियों से (लैटिन formica = चींटी), ऐसीटिक अम्ल सिरके से (acetum), ब्यूटेरिक अम्ल विकृतगंधी मक्खन से (butyrum)। IUPAC नामों में ऐल्केन के \"-e\" के स्थान पर \"-oic acid\" (ओइक अम्ल) लगता है: HCOOH मेथेनॉइक अम्ल, CH<sub>3</sub>COOH एथेनॉइक अम्ल; कार्बोक्सिल कार्बन को संख्या 1 दी जाती है।</p>",
+     "hint": "चींटी के डंक में यही होता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.6.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.6.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-08-ai-8-6-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The carboxyl carbon is less electrophilic than the carbonyl carbon of aldehydes and ketones because:",
+     "o": [
+      "it is sp<sup>3</sup> hybridised",
+      "it carries a full negative charge",
+      "the C=O of the carboxyl group is not polar",
+      "resonance with the lone pair of the –OH oxygen reduces the positive character of the carboxyl carbon"
+     ],
+     "sol": "<p>NCERT 8.6.2: in carboxylic acids the bonds to the carboxyl carbon lie in one plane, about 120° apart (sp<sup>2</sup>). The carboxyl carbon is less electrophilic than the carbonyl carbon because of resonance: a lone pair on the –OH oxygen is delocalised onto the carbonyl group (R–C(=O)–OH ↔ R–C(–O<sup>−</sup>)=O<sup>+</sup>H), which lowers the positive charge on the carbon. This is why carboxylic acids do not give the usual nucleophilic addition reactions of aldehydes and ketones.</p>",
+     "hint": "The –OH oxygen donates electrons by resonance."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कार्बोक्सिल कार्बन ऐल्डिहाइडों और कीटोनों के कार्बोनिल कार्बन से कम इलेक्ट्रॉनरागी होता है क्योंकि:",
+     "o": [
+      "यह sp<sup>3</sup> संकरित है",
+      "इस पर पूर्ण ऋणावेश होता है",
+      "कार्बोक्सिल समूह का C=O ध्रुवीय नहीं है",
+      "–OH ऑक्सीजन के एकाकी युगल के साथ अनुनाद कार्बोक्सिल कार्बन के धनात्मक गुण को घटाता है"
+     ],
+     "sol": "<p>NCERT 8.6.2: कार्बोक्सिलिक अम्लों में कार्बोक्सिल कार्बन से संयुक्त सभी आबंध एक ही तल में होते हैं, एक-दूसरे से लगभग 120° पर (sp<sup>2</sup>)। अनुनादी संरचनाओं के कारण कार्बोक्सिल कार्बन कार्बोनिल कार्बन से कम इलेक्ट्रॉनरागी होता है: –OH ऑक्सीजन का एक एकाकी युगल कार्बोनिल समूह पर विस्थानीकृत होता है (R–C(=O)–OH ↔ R–C(–O<sup>−</sup>)=O<sup>+</sup>H), जिससे कार्बन पर धनावेश घटता है। इसीलिए कार्बोक्सिलिक अम्ल ऐल्डिहाइडों और कीटोनों की सामान्य नाभिकरागी योगज अभिक्रियाएँ नहीं देते।</p>",
+     "hint": "–OH का ऑक्सीजन अनुनाद द्वारा इलेक्ट्रॉन देता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.6.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.6.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-08-ai-8-9-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which order of acid strength is correct?",
+     "o": [
+      "CF<sub>3</sub>COOH > CCl<sub>3</sub>COOH > CHCl<sub>2</sub>COOH > ClCH<sub>2</sub>COOH > CH<sub>3</sub>COOH",
+      "CH<sub>3</sub>COOH > ClCH<sub>2</sub>COOH > CHCl<sub>2</sub>COOH > CCl<sub>3</sub>COOH",
+      "CCl<sub>3</sub>COOH > CF<sub>3</sub>COOH > CH<sub>3</sub>COOH > ClCH<sub>2</sub>COOH",
+      "All are equally strong"
+     ],
+     "sol": "<p>NCERT 8.9: electron-withdrawing groups increase the acidity of carboxylic acids by stabilising the conjugate base (carboxylate ion) through delocalisation of the negative charge by inductive and/or resonance effects; electron-donating groups decrease acidity. The effect grows with the number of halogens and with their electronegativity (F > Cl). So CF<sub>3</sub>COOH > CCl<sub>3</sub>COOH > CHCl<sub>2</sub>COOH > ClCH<sub>2</sub>COOH > CH<sub>3</sub>COOH.</p>",
+     "hint": "More, and more electronegative, halogens → stronger acid."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "अम्ल प्रबलता का कौन-सा क्रम सही है?",
+     "o": [
+      "CF<sub>3</sub>COOH > CCl<sub>3</sub>COOH > CHCl<sub>2</sub>COOH > ClCH<sub>2</sub>COOH > CH<sub>3</sub>COOH",
+      "CH<sub>3</sub>COOH > ClCH<sub>2</sub>COOH > CHCl<sub>2</sub>COOH > CCl<sub>3</sub>COOH",
+      "CCl<sub>3</sub>COOH > CF<sub>3</sub>COOH > CH<sub>3</sub>COOH > ClCH<sub>2</sub>COOH",
+      "सभी समान रूप से प्रबल हैं"
+     ],
+     "sol": "<p>NCERT 8.9: इलेक्ट्रॉन अपनयन करने वाले समूह प्रेरणिक और/या अनुनादी प्रभाव से ऋणावेश के विस्थानीकरण द्वारा संयुग्मी क्षारक (कार्बोक्सिलेट आयन) को स्थायी करके कार्बोक्सिलिक अम्लों की अम्लता बढ़ाते हैं; इलेक्ट्रॉन दाता समूह अम्लता घटाते हैं। हैलोजनों की संख्या और उनकी विद्युतऋणात्मकता (F > Cl) बढ़ने पर प्रभाव बढ़ता है। अतः CF<sub>3</sub>COOH > CCl<sub>3</sub>COOH > CHCl<sub>2</sub>COOH > ClCH<sub>2</sub>COOH > CH<sub>3</sub>COOH।</p>",
+     "hint": "अधिक, और अधिक विद्युतऋणात्मक, हैलोजन → प्रबल अम्ल।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.9"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.9"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-08-ai-8-9-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Thionyl chloride is preferred over PCl<sub>5</sub> for converting a carboxylic acid into its acid chloride because:",
+     "o": [
+      "it is a stronger oxidising agent",
+      "it gives the anhydride instead of the chloride",
+      "its other two products (SO<sub>2</sub> and HCl) are gases that escape, leaving a pure acid chloride",
+      "it does not react with carboxylic acids at all"
+     ],
+     "sol": "<p>NCERT 8.9.2: in reactions involving cleavage of the C–OH bond, the –OH of carboxylic acids behaves like that of alcohols and is replaced by chlorine with PCl<sub>5</sub>, PCl<sub>3</sub> or SOCl<sub>2</sub>: RCOOH + SOCl<sub>2</sub> → RCOCl + SO<sub>2</sub> + HCl. Thionyl chloride is preferred because the other two products are gaseous and escape from the reaction mixture, making purification easy. Other C–OH cleavage reactions: anhydride formation (heating with H<sub>2</sub>SO<sub>4</sub> or P<sub>2</sub>O<sub>5</sub>), esterification (alcohol + mineral acid catalyst), and amide formation with NH<sub>3</sub>.</p>",
+     "hint": "Gaseous by-products leave by themselves."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कार्बोक्सिलिक अम्ल को ऐसिल क्लोराइड में बदलने के लिए PCl<sub>5</sub> की अपेक्षा थायोनिल क्लोराइड को वरीयता दी जाती है क्योंकि:",
+     "o": [
+      "यह प्रबल ऑक्सीकारक है",
+      "यह क्लोराइड के स्थान पर ऐनहाइड्राइड देता है",
+      "इसके अन्य दो उत्पाद (SO<sub>2</sub> तथा HCl) गैसें हैं जो निकल जाती हैं, जिससे शुद्ध ऐसिल क्लोराइड बचता है",
+      "यह कार्बोक्सिलिक अम्लों से बिल्कुल अभिक्रिया नहीं करता"
+     ],
+     "sol": "<p>NCERT 8.9.2: C–OH आबंध विदलन संबंधी अभिक्रियाओं में कार्बोक्सिलिक अम्लों का –OH ऐल्कोहॉलों की भाँति व्यवहार करता है और PCl<sub>5</sub>, PCl<sub>3</sub> या SOCl<sub>2</sub> से क्लोरीन द्वारा प्रतिस्थापित हो जाता है: RCOOH + SOCl<sub>2</sub> → RCOCl + SO<sub>2</sub> + HCl। थायोनिल क्लोराइड को वरीयता दी जाती है, क्योंकि अभिक्रिया के दो अन्य उत्पाद गैसीय होते हैं, जो अभिक्रिया मिश्रण से बाहर निकल जाते हैं, जिससे शोधन आसान हो जाता है। अन्य C–OH विदलन अभिक्रियाएँ: ऐनहाइड्राइड का विरचन (H<sub>2</sub>SO<sub>4</sub> या P<sub>2</sub>O<sub>5</sub> के साथ गर्म करके), एस्टरीकरण (ऐल्कोहॉल + खनिज अम्ल उत्प्रेरक), तथा NH<sub>3</sub> से ऐमाइड बनना।</p>",
+     "hint": "गैसीय उप-उत्पाद स्वयं निकल जाते हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.9.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.9.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-08-ai-8-10-q1",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the acid (or its derivative) with its use: (a) methanoic acid; (b) ethanoic acid; (c) hexanedioic acid; (d) sodium benzoate. (i) food preservative; (ii) rubber, textile, dyeing, leather and electroplating industries; (iii) solvent and vinegar in the food industry; (iv) manufacture of nylon-6,6.",
+     "o": [
+      "(a)–(ii), (b)–(iii), (c)–(iv), (d)–(i)",
+      "(a)–(iii), (b)–(ii), (c)–(iv), (d)–(i)",
+      "(a)–(ii), (b)–(iii), (c)–(i), (d)–(iv)",
+      "(a)–(i), (b)–(iii), (c)–(iv), (d)–(ii)"
+     ],
+     "sol": "<p>NCERT 8.10: methanoic acid is used in rubber, textile, dyeing, leather and electroplating industries. Ethanoic acid is used as a solvent and as vinegar in the food industry. Hexanedioic acid (adipic acid) is used to make nylon-6,6. Esters of benzoic acid are used in perfumery, and sodium benzoate is a food preservative. Higher fatty acids are used to make soaps and detergents.</p>",
+     "hint": "Adipic acid + hexamethylenediamine → nylon."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "अम्ल (या उसके व्युत्पन्न) का उसके उपयोग से मिलान कीजिए: (a) मेथेनॉइक अम्ल; (b) एथेनॉइक अम्ल; (c) हेक्सेनडाइओइक अम्ल; (d) सोडियम बेन्ज़ोएट। (i) खाद्य परिरक्षक; (ii) रबर, वस्त्र, रँगाई, चमड़ा तथा इलेक्ट्रोप्लेटिंग उद्योग; (iii) खाद्य उद्योग में विलायक तथा सिरका; (iv) नाइलॉन-6,6 का निर्माण।",
+     "o": [
+      "(a)–(ii), (b)–(iii), (c)–(iv), (d)–(i)",
+      "(a)–(iii), (b)–(ii), (c)–(iv), (d)–(i)",
+      "(a)–(ii), (b)–(iii), (c)–(i), (d)–(iv)",
+      "(a)–(i), (b)–(iii), (c)–(iv), (d)–(ii)"
+     ],
+     "sol": "<p>NCERT 8.10: मेथेनॉइक अम्ल रबर, वस्त्र, रँगाई, चमड़ा एवं इलेक्ट्रोप्लेटिंग उद्योगों में उपयोग में आता है। एथेनॉइक अम्ल विलायक के रूप में तथा खाद्य उद्योग में सिरके के रूप में प्रयुक्त होता है। हेक्सेनडाइओइक अम्ल (ऐडिपिक अम्ल) नाइलॉन-6,6 बनाने में प्रयुक्त होता है। बेन्ज़ोइक अम्ल के एस्टर सुगंध उद्योग में, और सोडियम बेन्ज़ोएट खाद्य परिरक्षक के रूप में प्रयुक्त होता है। उच्चतर वसा अम्ल साबुन और अपमार्जक बनाने में प्रयुक्त होते हैं।</p>",
+     "hint": "ऐडिपिक अम्ल + हेक्सामेथिलीनडाइऐमीन → नाइलॉन।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-08",
+    "paras": [
+     "8.10"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.10"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {

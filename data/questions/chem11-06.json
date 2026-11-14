@@ -4027,6 +4027,1106 @@
     "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
     "keySource": "eSaral copy with answers (neet-sources/jee-main/2024/)"
    }
+  },
+  {
+   "id": "chem11-06-ai-6-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is an example of equilibrium in a <b>physical</b> process?",
+     "o": [
+      "N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g)",
+      "H<sub>2</sub>O(s) ⇌ H<sub>2</sub>O(l) at 273 K and 1 atm",
+      "CaCO<sub>3</sub>(s) ⇌ CaO(s) + CO<sub>2</sub>(g)",
+      "H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2HI(g)"
+     ],
+     "sol": "<p>NCERT 6.1: phase transformation processes such as solid ⇌ liquid, liquid ⇌ gas and solid ⇌ gas are physical equilibria: no new substance is formed. Ice and water at 273 K and 1 atm is the best-known example. The other three involve chemical change (new substances form) and are chemical equilibria.</p>",
+     "hint": "No new substance forms."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "निम्नलिखित में से कौन <b>भौतिक</b> प्रक्रम में साम्यावस्था का उदाहरण है?",
+     "o": [
+      "N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g)",
+      "273 K तथा 1 atm पर H<sub>2</sub>O(s) ⇌ H<sub>2</sub>O(l)",
+      "CaCO<sub>3</sub>(s) ⇌ CaO(s) + CO<sub>2</sub>(g)",
+      "H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2HI(g)"
+     ],
+     "sol": "<p>NCERT 6.1: ठोस ⇌ द्रव, द्रव ⇌ गैस तथा ठोस ⇌ गैस जैसे प्रावस्था परिवर्तन के प्रक्रम भौतिक साम्य हैं: कोई नया पदार्थ नहीं बनता। 273 K तथा 1 atm पर बर्फ़ और जल इसका सबसे परिचित उदाहरण है। अन्य तीनों में रासायनिक परिवर्तन होता है (नए पदार्थ बनते हैं), अतः वे रासायनिक साम्य हैं।</p>",
+     "hint": "कोई नया पदार्थ नहीं बनता।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-1-1-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Ice and water are kept together in a perfectly insulated thermos flask at 273 K and 1 atm. Which statement is correct?",
+     "o": [
+      "All the ice melts after some time.",
+      "All the water freezes after some time.",
+      "The masses of ice and water stay constant because the rate of melting equals the rate of freezing (dynamic equilibrium).",
+      "Both melting and freezing stop completely."
+     ],
+     "sol": "<p>NCERT 6.1.1: at 273 K and 1 atm in an insulated flask there is no change in the masses of ice and water; the temperature stays constant. The system is in dynamic equilibrium: water molecules leave the ice and join the liquid at the same rate as molecules from the liquid stick to the ice. For any pure substance at 1 atm the temperature at which solid and liquid are in equilibrium is its normal melting point (or normal freezing point); it changes only slightly with pressure.</p>",
+     "hint": "Equal and opposite rates."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "273 K तथा 1 atm पर पूर्णतः ऊष्मारोधी थर्मस फ्लास्क में बर्फ़ और जल साथ रखे गए। कौन-सा कथन सही है?",
+     "o": [
+      "कुछ समय बाद सारी बर्फ़ पिघल जाती है।",
+      "कुछ समय बाद सारा जल जम जाता है।",
+      "बर्फ़ और जल के द्रव्यमान स्थिर रहते हैं क्योंकि पिघलने की दर जमने की दर के बराबर होती है (गतिक साम्य)।",
+      "पिघलना और जमना दोनों पूरी तरह रुक जाते हैं।"
+     ],
+     "sol": "<p>NCERT 6.1.1: 273 K तथा 1 atm पर ऊष्मारोधी फ्लास्क में बर्फ़ और जल के द्रव्यमान में कोई परिवर्तन नहीं होता; ताप स्थिर रहता है। निकाय गतिक साम्य में है: जल के अणु बर्फ़ से निकलकर द्रव में उसी दर से जाते हैं जिस दर से द्रव के अणु बर्फ़ से जुड़ते हैं। 1 atm पर किसी शुद्ध पदार्थ का वह ताप जिस पर ठोस और द्रव साम्य में हों, उसका सामान्य गलनांक (या सामान्य हिमांक) है; यह दाब के साथ बहुत कम बदलता है।</p>",
+     "hint": "समान और विपरीत दरें।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.1.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.1.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-1-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Water and its vapour are in equilibrium in a closed vessel at a fixed temperature. The pressure exerted by the vapour at equilibrium is called:",
+     "o": [
+      "the equilibrium vapour pressure of water at that temperature",
+      "the osmotic pressure",
+      "the atmospheric pressure in every case",
+      "the critical pressure"
+     ],
+     "sol": "<p>NCERT 6.1.2: in a closed box at constant temperature, water evaporates and the pressure rises until it becomes constant; then the rate of evaporation equals the rate of condensation: H<sub>2</sub>O(l) ⇌ H<sub>2</sub>O(vap). The constant pressure is the equilibrium vapour pressure of water at that temperature; it increases with temperature. The temperature at which the vapour pressure equals 1.013 bar (1 atm) is the normal boiling point (373 K for water). The boiling point falls at higher altitudes.</p>",
+     "hint": "Evaporation = condensation."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "निश्चित ताप पर एक बंद पात्र में जल और उसका वाष्प साम्य में हैं। साम्य पर वाष्प द्वारा लगाया गया दाब कहलाता है:",
+     "o": [
+      "उस ताप पर जल का साम्य वाष्प दाब",
+      "परासरण दाब",
+      "हर स्थिति में वायुमंडलीय दाब",
+      "क्रांतिक दाब"
+     ],
+     "sol": "<p>NCERT 6.1.2: स्थिर ताप पर बंद बॉक्स में जल वाष्पित होता है और दाब तब तक बढ़ता है जब तक स्थिर न हो जाए; तब वाष्पन की दर संघनन की दर के बराबर होती है: H<sub>2</sub>O(l) ⇌ H<sub>2</sub>O(vap)। यह स्थिर दाब उस ताप पर जल का साम्य वाष्प दाब है; ताप के साथ यह बढ़ता है। जिस ताप पर वाष्प दाब 1.013 bar (1 atm) हो, वह सामान्य क्वथनांक है (जल के लिए 373 K)। अधिक उन्नतांश पर क्वथनांक घटता है।</p>",
+     "hint": "वाष्पन = संघनन।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.1.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.1.2"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-1-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which substance sets up a solid–vapour equilibrium (sublimation) in a closed vessel?",
+     "o": [
+      "Common salt",
+      "Sugar",
+      "Ice at 273 K and 1 atm",
+      "Iodine (also camphor and NH<sub>4</sub>Cl)"
+     ],
+     "sol": "<p>NCERT 6.1.3: when solid iodine is placed in a closed vessel, the vessel slowly fills with violet vapour; the colour intensity increases and then becomes constant, showing that equilibrium I<sub>2</sub> (solid) ⇌ I<sub>2</sub> (vapour) has been reached. Other examples: camphor (solid) ⇌ camphor (vapour), NH<sub>4</sub>Cl (solid) ⇌ NH<sub>4</sub>Cl (vapour). Salt and sugar do not sublime; ice at 273 K and 1 atm is in solid–liquid equilibrium.</p>",
+     "hint": "Violet vapour."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कौन-सा पदार्थ बंद पात्र में ठोस–वाष्प साम्य (ऊर्ध्वपातन) स्थापित करता है?",
+     "o": [
+      "साधारण नमक",
+      "चीनी",
+      "273 K तथा 1 atm पर बर्फ़",
+      "आयोडीन (कपूर तथा NH<sub>4</sub>Cl भी)"
+     ],
+     "sol": "<p>NCERT 6.1.3: ठोस आयोडीन को बंद पात्र में रखने पर पात्र धीरे-धीरे बैंगनी वाष्प से भर जाता है; रंग की तीव्रता बढ़ती है और फिर स्थिर हो जाती है, जो दर्शाता है कि साम्य I<sub>2</sub> (ठोस) ⇌ I<sub>2</sub> (वाष्प) स्थापित हो गया है। अन्य उदाहरण: कपूर(ठोस) ⇌ कपूर(वाष्प), NH<sub>4</sub>Cl (ठोस) ⇌ NH<sub>4</sub>Cl (वाष्प)। नमक और चीनी ऊर्ध्वपातित नहीं होते; 273 K तथा 1 atm पर बर्फ़ ठोस–द्रव साम्य में है।</p>",
+     "hint": "बैंगनी वाष्प।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.1.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.1.3"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-1-4-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the dissolution of solids and gases in liquids is <b>incorrect</b>?",
+     "o": [
+      "In a saturated sugar solution, the rate of dissolution of sugar equals the rate of crystallisation.",
+      "The solubility of a gas in a liquid decreases when the pressure of the gas above the liquid increases.",
+      "A soda water bottle fizzes on opening because the pressure of CO<sub>2</sub> above the liquid falls, so dissolved CO<sub>2</sub> escapes.",
+      "Henry's law: the mass of a gas dissolved in a given mass of solvent at any temperature is proportional to the pressure of the gas above the solvent."
+     ],
+     "sol": "<p>NCERT 6.1.4: in a saturated solution there is a dynamic equilibrium between solute in the solid state and solute in solution: sugar(solution) ⇌ sugar(solid); this was shown using radioactive sugar. For gases, CO<sub>2</sub>(g) ⇌ CO<sub>2</sub> (in solution); Henry's law says the solubility of a gas is proportional to its pressure above the liquid, so solubility <b>increases</b> with pressure, and (2) is incorrect. Soda water is sealed under high CO<sub>2</sub> pressure; on opening, some gas escapes to reach a new equilibrium at the lower (atmospheric) partial pressure of CO<sub>2</sub>, and the drink goes flat. Gas solubility decreases with rise in temperature.</p>",
+     "hint": "Soda bottles are filled under pressure."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "द्रवों में ठोसों और गैसों के घुलने के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "चीनी के संतृप्त विलयन में चीनी के घुलने की दर क्रिस्टलन की दर के बराबर होती है।",
+      "द्रव के ऊपर गैस का दाब बढ़ने पर द्रव में गैस की विलेयता घटती है।",
+      "सोडा जल की बोतल खोलने पर बुदबुदाहट होती है क्योंकि द्रव के ऊपर CO<sub>2</sub> का दाब घट जाता है, इसलिए घुली CO<sub>2</sub> निकलती है।",
+      "हेनरी का नियम: किसी ताप पर विलायक के दिए गए द्रव्यमान में घुली गैस का द्रव्यमान विलायक के ऊपर गैस के दाब के समानुपाती होता है।"
+     ],
+     "sol": "<p>NCERT 6.1.4: संतृप्त विलयन में ठोस अवस्था के विलेय तथा विलयन के विलेय के बीच गतिक साम्यावस्था रहती है: चीनी(विलयन) ⇌ चीनी(ठोस); इसे रेडियोऐक्टिवतायुक्त चीनी से सिद्ध किया गया। गैसों के लिए CO<sub>2</sub>(g) ⇌ CO<sub>2</sub> (विलयन में); हेनरी के नियम के अनुसार गैस की विलेयता द्रव के ऊपर उसके दाब के समानुपाती है, अतः दाब बढ़ने पर विलेयता <b>बढ़ती</b> है, और (2) गलत है। सोडा जल को CO<sub>2</sub> के उच्च दाब पर बंद किया जाता है; खोलने पर कुछ गैस निकलकर CO<sub>2</sub> के कम (वायुमंडलीय) आंशिक दाब पर नया साम्य बनाती है, और पेय फीका हो जाता है। ताप बढ़ने पर गैस की विलेयता घटती है।</p>",
+     "hint": "सोडा बोतलें दाब पर भरी जाती हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.1.4"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.1.4"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-1-5-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which is <b>not</b> a general characteristic of equilibria in physical processes?",
+     "o": [
+      "Equilibrium is possible only in a closed system at a given temperature.",
+      "Both opposing processes occur at the same rate, giving a dynamic but stable condition.",
+      "All measurable properties of the system remain constant.",
+      "At equilibrium, both the forward and the backward processes stop."
+     ],
+     "sol": "<p>NCERT 6.1.5: (i) equilibrium is possible only in a closed system at a given temperature; (ii) both opposing processes occur at the same rate: there is a dynamic but stable condition; (iii) all measurable properties of the system remain constant; (iv) when equilibrium is attained, a quantity such as vapour pressure or solubility has a constant value at the given temperature; (v) the magnitude of such quantities at any stage shows the extent to which the process has proceeded before reaching equilibrium. The processes do not stop, so (4) is not a characteristic.</p>",
+     "hint": "Dynamic, not static."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "भौतिक प्रक्रमों में साम्यावस्था का कौन-सा सामान्य अभिलक्षण <b>नहीं</b> है?",
+     "o": [
+      "निश्चित ताप पर केवल बंद निकाय में ही साम्यावस्था संभव है।",
+      "दोनों विरोधी प्रक्रम बराबर वेग से होते हैं, जिससे गतिक किंतु स्थायी अवस्था बनती है।",
+      "निकाय के सभी मापने योग्य गुण-धर्म स्थिर रहते हैं।",
+      "साम्यावस्था पर अग्र तथा पश्च दोनों प्रक्रम रुक जाते हैं।"
+     ],
+     "sol": "<p>NCERT 6.1.5: (i) निश्चित ताप पर केवल बंद निकाय में ही साम्यावस्था संभव है; (ii) दोनों विरोधी प्रक्रम बराबर वेग से होते हैं: गतिक, किंतु स्थायी अवस्था; (iii) निकाय के सभी मापने योग्य गुण-धर्म स्थिर रहते हैं; (iv) साम्यावस्था स्थापित होने पर वाष्प दाब या विलेयता जैसी किसी राशि का मान निश्चित ताप पर स्थिर होता है; (v) किसी भी समय इन राशियों का मान बताता है कि साम्यावस्था तक पहुँचने से पहले प्रक्रम किस सीमा तक आगे बढ़ चुका है। प्रक्रम रुकते नहीं, अतः (4) अभिलक्षण नहीं है।</p>",
+     "hint": "गतिक, स्थिर नहीं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.1.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.1.5"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the Haber process, an experiment starting with D<sub>2</sub> instead of H<sub>2</sub> (with the same amounts of N<sub>2</sub>) is mixed with an equilibrium mixture made from H<sub>2</sub>. After some time, ND<sub>3</sub>, NH<sub>2</sub>D and NHD<sub>2</sub> are found in the mixture. This shows that:",
+     "o": [
+      "the reaction has stopped at equilibrium",
+      "deuterium does not react with nitrogen",
+      "chemical equilibrium is dynamic: forward and backward reactions continue at equal rates",
+      "the equilibrium constant changes when D<sub>2</sub> is used"
+     ],
+     "sol": "<p>NCERT 6.2: chemical equilibrium is dynamic. Haber started with known amounts of N<sub>2</sub> and H<sub>2</sub> and reached equilibrium; repeating it with D<sub>2</sub> gives the same composition with ND<sub>3</sub> in place of NH<sub>3</sub>. When the two equilibrium mixtures are mixed, scrambling of H and D atoms into NH<sub>2</sub>D, NHD<sub>2</sub> and ND<sub>3</sub>, and of H<sub>2</sub>, HD and D<sub>2</sub>, occurs. This is possible only if forward and reverse reactions continue at equilibrium. The total concentrations do not change; isotopes do not change the equilibrium composition.</p>",
+     "hint": "Labels move around only if reactions still go on."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "हाबर प्रक्रम में H<sub>2</sub> के स्थान पर D<sub>2</sub> (तथा N<sub>2</sub> की समान मात्रा) से किए गए प्रयोग का साम्य मिश्रण, H<sub>2</sub> से बने साम्य मिश्रण से मिलाया जाता है। कुछ समय बाद मिश्रण में ND<sub>3</sub>, NH<sub>2</sub>D तथा NHD<sub>2</sub> पाए जाते हैं। इससे पता चलता है कि:",
+     "o": [
+      "साम्यावस्था पर अभिक्रिया रुक गई है",
+      "ड्यूटीरियम नाइट्रोजन से अभिक्रिया नहीं करता",
+      "रासायनिक साम्य गतिक है: अग्र तथा पश्च अभिक्रियाएँ बराबर दरों से चलती रहती हैं",
+      "D<sub>2</sub> उपयोग करने पर साम्य स्थिरांक बदल जाता है"
+     ],
+     "sol": "<p>NCERT 6.2: रासायनिक साम्य गतिक होता है। हाबर ने N<sub>2</sub> तथा H<sub>2</sub> की ज्ञात मात्राओं से प्रारंभ करके साम्य प्राप्त किया; D<sub>2</sub> के साथ दोहराने पर NH<sub>3</sub> के स्थान पर ND<sub>3</sub> वाला वही संघटन मिलता है। दोनों साम्य मिश्रणों को मिलाने पर H तथा D परमाणुओं का NH<sub>2</sub>D, NHD<sub>2</sub> तथा ND<sub>3</sub> में, और H<sub>2</sub>, HD तथा D<sub>2</sub> में फैलाव होता है। यह तभी संभव है जब साम्यावस्था पर अग्र तथा पश्च अभिक्रियाएँ चलती रहें। कुल सांद्रताएँ नहीं बदलतीं; समस्थानिक साम्य संघटन नहीं बदलते।</p>",
+     "hint": "चिह्नित परमाणु तभी फैलते हैं जब अभिक्रियाएँ चलती रहें।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-4-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is a homogeneous equilibrium?",
+     "o": [
+      "N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g)",
+      "CaCO<sub>3</sub>(s) ⇌ CaO(s) + CO<sub>2</sub>(g)",
+      "H<sub>2</sub>O(l) ⇌ H<sub>2</sub>O(g)",
+      "Ni(s) + 4CO(g) ⇌ Ni(CO)<sub>4</sub>(g)"
+     ],
+     "sol": "<p>NCERT 6.4: in a homogeneous system all reactants and products are in the same phase. N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g) is homogeneous (all gases); reactions in solution such as CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub>(aq) + H<sub>2</sub>O(l) ⇌ CH<sub>3</sub>COOH(aq) + C<sub>2</sub>H<sub>5</sub>OH(aq) are also homogeneous. The other three involve more than one phase (solid + gas, liquid + gas): heterogeneous equilibria. For homogeneous gaseous equilibria K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup>.</p>",
+     "hint": "One phase only."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "निम्नलिखित में से कौन समांग साम्यावस्था है?",
+     "o": [
+      "N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g)",
+      "CaCO<sub>3</sub>(s) ⇌ CaO(s) + CO<sub>2</sub>(g)",
+      "H<sub>2</sub>O(l) ⇌ H<sub>2</sub>O(g)",
+      "Ni(s) + 4CO(g) ⇌ Ni(CO)<sub>4</sub>(g)"
+     ],
+     "sol": "<p>NCERT 6.4: समांग निकाय में सभी अभिकारक तथा उत्पाद एक ही प्रावस्था में होते हैं। N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g) समांग है (सभी गैसें); विलयन में CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub>(aq) + H<sub>2</sub>O(l) ⇌ CH<sub>3</sub>COOH(aq) + C<sub>2</sub>H<sub>5</sub>OH(aq) जैसी अभिक्रियाएँ भी समांग हैं। अन्य तीन में एक से अधिक प्रावस्थाएँ हैं (ठोस + गैस, द्रव + गैस): विषमांग साम्यावस्था। समांग गैसीय साम्य के लिए K<sub>p</sub> = K<sub>c</sub>(RT)<sup>Δn</sup>।</p>",
+     "hint": "केवल एक प्रावस्था।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.4"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.4"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-6-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a reaction at a given temperature, the reaction quotient Q<sub>c</sub> is found to be less than K<sub>c</sub>. Then:",
+     "o": [
+      "the reaction is at equilibrium",
+      "the reaction will proceed in the forward direction (towards products) until Q<sub>c</sub> = K<sub>c</sub>",
+      "the reaction will proceed in the reverse direction",
+      "K<sub>c</sub> will decrease to equal Q<sub>c</sub>"
+     ],
+     "sol": "<p>NCERT 6.6: the equilibrium constant is used to (i) predict the extent of a reaction from its magnitude, (ii) predict the direction of a reaction, and (iii) calculate equilibrium concentrations. Q<sub>c</sub> has the same form as K<sub>c</sub> but uses concentrations at any moment. If Q<sub>c</sub> < K<sub>c</sub>, the net reaction goes from left to right (products form); if Q<sub>c</sub> > K<sub>c</sub>, from right to left; if Q<sub>c</sub> = K<sub>c</sub>, the mixture is at equilibrium. K<sub>c</sub> itself depends only on temperature.</p>",
+     "hint": "Too few products so far."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "किसी ताप पर किसी अभिक्रिया के लिए अभिक्रिया भागफल Q<sub>c</sub>, K<sub>c</sub> से कम पाया गया। तब:",
+     "o": [
+      "अभिक्रिया साम्यावस्था में है",
+      "Q<sub>c</sub> = K<sub>c</sub> होने तक अभिक्रिया अग्र दिशा में (उत्पादों की ओर) होगी",
+      "अभिक्रिया विपरीत दिशा में होगी",
+      "K<sub>c</sub> घटकर Q<sub>c</sub> के बराबर हो जाएगा"
+     ],
+     "sol": "<p>NCERT 6.6: साम्यावस्था स्थिरांक का उपयोग (i) उसके परिमाण से अभिक्रिया की सीमा बताने, (ii) अभिक्रिया की दिशा बताने, तथा (iii) साम्य सांद्रताएँ ज्ञात करने में होता है। Q<sub>c</sub> का रूप K<sub>c</sub> जैसा ही है पर उसमें किसी भी क्षण की सांद्रताएँ ली जाती हैं। यदि Q<sub>c</sub> < K<sub>c</sub>, तो नेट अभिक्रिया बाएँ से दाएँ (उत्पाद बनते हैं); यदि Q<sub>c</sub> > K<sub>c</sub>, तो दाएँ से बाएँ; यदि Q<sub>c</sub> = K<sub>c</sub>, तो मिश्रण साम्य में है। K<sub>c</sub> स्वयं केवल ताप पर निर्भर करता है।</p>",
+     "hint": "अभी तक उत्पाद बहुत कम हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.6"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.6"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-6-1-q1",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the magnitude of K<sub>c</sub> with what it predicts: (a) K<sub>c</sub> > 10<sup>3</sup>; (b) K<sub>c</sub> < 10<sup>−3</sup>; (c) K<sub>c</sub> between 10<sup>−3</sup> and 10<sup>3</sup>. (i) appreciable concentrations of both reactants and products; (ii) reaction proceeds nearly to completion, products predominate; (iii) reaction proceeds rarely, reactants predominate.",
+     "o": [
+      "(a)–(i), (b)–(iii), (c)–(ii)",
+      "(a)–(iii), (b)–(ii), (c)–(i)",
+      "(a)–(ii), (b)–(iii), (c)–(i)",
+      "(a)–(ii), (b)–(i), (c)–(iii)"
+     ],
+     "sol": "<p>NCERT 6.6.1: a large K<sub>c</sub> means a large product-to-reactant ratio. If K<sub>c</sub> > 10<sup>3</sup>, products predominate and the reaction goes nearly to completion (H<sub>2</sub> + Cl<sub>2</sub> → 2HCl, K<sub>c</sub> = 4.0 × 10<sup>31</sup> at 300 K). If K<sub>c</sub> < 10<sup>−3</sup>, reactants predominate and the reaction proceeds rarely (N<sub>2</sub> + O<sub>2</sub> ⇌ 2NO at 298 K, K<sub>c</sub> = 4.8 × 10<sup>−31</sup>). In between, appreciable amounts of both are present (H<sub>2</sub> + I<sub>2</sub> ⇌ 2HI, K<sub>c</sub> = 57.0 at 700 K).</p>",
+     "hint": "Big K, mostly products."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "K<sub>c</sub> के परिमाण का उसके द्वारा बताए गए परिणाम से मिलान कीजिए: (a) K<sub>c</sub> > 10<sup>3</sup>; (b) K<sub>c</sub> < 10<sup>−3</sup>; (c) K<sub>c</sub> 10<sup>−3</sup> तथा 10<sup>3</sup> के बीच। (i) अभिकारकों तथा उत्पादों दोनों की पर्याप्त सांद्रता; (ii) अभिक्रिया लगभग पूर्ण होती है, उत्पाद प्रमुख; (iii) अभिक्रिया बहुत कम होती है, अभिकारक प्रमुख।",
+     "o": [
+      "(a)–(i), (b)–(iii), (c)–(ii)",
+      "(a)–(iii), (b)–(ii), (c)–(i)",
+      "(a)–(ii), (b)–(iii), (c)–(i)",
+      "(a)–(ii), (b)–(i), (c)–(iii)"
+     ],
+     "sol": "<p>NCERT 6.6.1: बड़े K<sub>c</sub> का अर्थ है उत्पाद-अभिकारक का बड़ा अनुपात। यदि K<sub>c</sub> > 10<sup>3</sup>, तो उत्पाद प्रमुख हैं और अभिक्रिया लगभग पूर्ण होती है (H<sub>2</sub> + Cl<sub>2</sub> → 2HCl, 300 K पर K<sub>c</sub> = 4.0 × 10<sup>31</sup>)। यदि K<sub>c</sub> < 10<sup>−3</sup>, तो अभिकारक प्रमुख हैं और अभिक्रिया बहुत कम होती है (298 K पर N<sub>2</sub> + O<sub>2</sub> ⇌ 2NO, K<sub>c</sub> = 4.8 × 10<sup>−31</sup>)। बीच में, दोनों की पर्याप्त मात्रा होती है (700 K पर H<sub>2</sub> + I<sub>2</sub> ⇌ 2HI, K<sub>c</sub> = 57.0)।</p>",
+     "hint": "बड़ा K, अधिकतर उत्पाद।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.6.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.6.1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-8-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g), ΔH = −92.4 kJ mol<sup>−1</sup>, which change shifts the equilibrium towards NH<sub>3</sub>?",
+     "o": [
+      "Increasing the temperature",
+      "Decreasing the pressure",
+      "Removing N<sub>2</sub>",
+      "Increasing the pressure (decreasing the volume)"
+     ],
+     "sol": "<p>NCERT 6.8: Le Chatelier's principle: a change in any of the factors that determine the equilibrium conditions makes the system change so as to reduce or counteract the effect of the change. Increasing pressure favours the side with fewer gaseous moles: 4 mol → 2 mol, so more NH<sub>3</sub>. The forward reaction is exothermic, so raising temperature favours the reverse reaction (and lowers K). Removing a reactant shifts equilibrium backwards. A catalyst does not change the position of equilibrium, only how quickly it is reached.</p>",
+     "hint": "Fewer gas molecules on the right."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g), ΔH = −92.4 kJ mol<sup>−1</sup>, के लिए कौन-सा परिवर्तन साम्य को NH<sub>3</sub> की ओर ले जाता है?",
+     "o": [
+      "ताप बढ़ाना",
+      "दाब घटाना",
+      "N<sub>2</sub> हटाना",
+      "दाब बढ़ाना (आयतन घटाना)"
+     ],
+     "sol": "<p>NCERT 6.8: ला-शातेलिए सिद्धांत: साम्य की परिस्थितियाँ निर्धारित करने वाले किसी कारक में परिवर्तन होने पर निकाय इस प्रकार बदलता है कि परिवर्तन का प्रभाव कम या निष्फल हो जाए। दाब बढ़ाने से वह पक्ष अनुकूल होता है जिसमें गैस के मोल कम हों: 4 mol → 2 mol, अतः अधिक NH<sub>3</sub>। अग्र अभिक्रिया ऊष्माक्षेपी है, इसलिए ताप बढ़ाने से पश्च अभिक्रिया अनुकूल होती है (और K घटता है)। अभिकारक हटाने से साम्य पीछे खिसकता है। उत्प्रेरक साम्य की स्थिति नहीं बदलता, केवल साम्य तक पहुँचने की गति बदलता है।</p>",
+     "hint": "दाईं ओर गैस के अणु कम हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.8"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.8"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-8-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An inert gas such as argon is added to an equilibrium mixture of N<sub>2</sub>, H<sub>2</sub> and NH<sub>3</sub> at constant volume. The equilibrium:",
+     "o": [
+      "remains unchanged, because the molar concentrations and partial pressures of the reacting substances do not change",
+      "shifts towards NH<sub>3</sub>",
+      "shifts towards N<sub>2</sub> and H<sub>2</sub>",
+      "is destroyed and all NH<sub>3</sub> decomposes"
+     ],
+     "sol": "<p>NCERT 6.8.3: if the volume is kept constant and an inert gas such as argon, which does not take part in the reaction, is added, the equilibrium remains undisturbed. Adding an inert gas at constant volume does not change the molar concentrations or partial pressures of the substances involved in the reaction. The reaction quotient changes only if the added gas is a reactant or product of the reaction.</p>",
+     "hint": "Q does not change."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "स्थिर आयतन पर N<sub>2</sub>, H<sub>2</sub> तथा NH<sub>3</sub> के साम्य मिश्रण में ऑर्गन जैसी अक्रिय गैस मिलाई जाती है। साम्य:",
+     "o": [
+      "अपरिवर्तित रहता है, क्योंकि अभिक्रिया में भाग लेने वाले पदार्थों की मोलर सांद्रताएँ तथा आंशिक दाब नहीं बदलते",
+      "NH<sub>3</sub> की ओर खिसकता है",
+      "N<sub>2</sub> तथा H<sub>2</sub> की ओर खिसकता है",
+      "नष्ट हो जाता है और सारा NH<sub>3</sub> विघटित हो जाता है"
+     ],
+     "sol": "<p>NCERT 6.8.3: यदि आयतन स्थिर रखते हैं और एक अक्रिय गैस (जैसे ऑर्गन) जो अभिक्रिया में भाग नहीं लेती, मिलाते हैं तो साम्य अपरिवर्तित रहता है, क्योंकि स्थिर आयतन पर अक्रिय गैस मिलाने पर अभिक्रिया में भाग लेने वाले पदार्थ की मोलर सांद्रताओं अथवा दाबों में कोई परिवर्तन नहीं होता। अभिक्रिया भागफल में परिवर्तन केवल तभी होता है जब मिलाई गई गैस अभिक्रिया में भाग लेने वाला अभिकारक या उत्पाद हो।</p>",
+     "hint": "Q नहीं बदलता।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.8.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.8.3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-9-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Michael Faraday classified substances into electrolytes and non-electrolytes. Which pair correctly gives a strong and a weak electrolyte?",
+     "o": [
+      "Sugar (strong) and urea (weak)",
+      "Acetic acid (strong) and sodium chloride (weak)",
+      "Sodium chloride (strong, nearly 100% ionised) and acetic acid (weak, only about 5% ionised)",
+      "Glucose (strong) and water (weak)"
+     ],
+     "sol": "<p>NCERT 6.9: substances whose aqueous solutions conduct electricity are electrolytes; those that do not are non-electrolytes (sugar, urea, glucose). Faraday further classified electrolytes into strong and weak. Strong electrolytes ionise almost completely when dissolved in water (NaCl about 100%); weak electrolytes ionise only partially (acetic acid about 5%). In weak electrolytes an equilibrium is set up between ions and unionised molecules: ionic equilibrium.</p>",
+     "hint": "Salt solutions conduct well; vinegar poorly."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "माइकल फैराडे ने पदार्थों को विद्युत् अपघट्य तथा वैद्युत अन अपघट्य में वर्गीकृत किया। कौन-सा युग्म एक प्रबल तथा एक दुर्बल विद्युत् अपघट्य सही बताता है?",
+     "o": [
+      "चीनी (प्रबल) तथा यूरिया (दुर्बल)",
+      "ऐसीटिक अम्ल (प्रबल) तथा सोडियम क्लोराइड (दुर्बल)",
+      "सोडियम क्लोराइड (प्रबल, लगभग 100% आयनित) तथा ऐसीटिक अम्ल (दुर्बल, केवल लगभग 5% आयनित)",
+      "ग्लूकोस (प्रबल) तथा जल (दुर्बल)"
+     ],
+     "sol": "<p>NCERT 6.9: जिन पदार्थों के जलीय विलयन विद्युत् धारा प्रवाहित करते हैं वे विद्युत् अपघट्य, तथा जो ऐसा नहीं करते वे वैद्युत अन अपघट्य कहलाते हैं (चीनी, यूरिया, ग्लूकोस)। फैराडे ने विद्युत् अपघट्यों को पुनः प्रबल एवं दुर्बल में वर्गीकृत किया। प्रबल वैद्युत अपघट्य जल में विलेय होकर लगभग पूर्ण रूप से आयनित होते हैं (NaCl लगभग 100%); दुर्बल अपघट्य आंशिक रूप से आयनित होते हैं (ऐसीटिक अम्ल लगभग 5%)। दुर्बल विद्युत् अपघट्यों में आयनों तथा अनायनित अणुओं के बीच साम्य स्थापित होता है: आयनिक साम्य।</p>",
+     "hint": "लवण विलयन अच्छा चालन करते हैं; सिरका कम।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.9"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.9"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-10-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which observation is characteristic of bases rather than acids?",
+     "o": [
+      "They turn blue litmus red and taste sour.",
+      "They turn red litmus blue, taste bitter and feel soapy.",
+      "They react with some metals to give hydrogen gas.",
+      "They are present in lemon and orange juice (citric acid)."
+     ],
+     "sol": "<p>NCERT 6.10: acids (e.g. hydrochloric acid in gastric juice, acetic acid in vinegar, citric and ascorbic acids in lemon and orange juice, tartaric acid in tamarind) taste sour, turn blue litmus red and liberate dihydrogen with some metals. Bases turn red litmus blue, taste bitter and feel soapy; common washing soda is an example. When acids and bases are mixed in the right proportions they react to give salts.</p>",
+     "hint": "Soap is slippery and bitter."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कौन-सा प्रेक्षण अम्लों का नहीं, क्षारकों का अभिलक्षण है?",
+     "o": [
+      "ये नीले लिटमस को लाल करते हैं और स्वाद में खट्टे होते हैं।",
+      "ये लाल लिटमस को नीला करते हैं, स्वाद में कड़वे होते हैं और साबुन जैसे चिकने लगते हैं।",
+      "ये कुछ धातुओं से अभिक्रिया करके हाइड्रोजन गैस देते हैं।",
+      "ये नींबू तथा संतरे के रस में होते हैं (सिट्रिक अम्ल)।"
+     ],
+     "sol": "<p>NCERT 6.10: अम्ल (जैसे जठर रस में हाइड्रोक्लोरिक अम्ल, सिरके में ऐसीटिक अम्ल, नींबू और संतरे के रस में सिट्रिक तथा ऐस्कॉर्बिक अम्ल, इमली में टार्टरिक अम्ल) स्वाद में खट्टे होते हैं, नीले लिटमस को लाल करते हैं और कुछ धातुओं से डाइहाइड्रोजन मुक्त करते हैं। क्षारक लाल लिटमस को नीला करते हैं, स्वाद में कड़वे तथा साबुन जैसे चिकने होते हैं; धोने का सोडा इसका उदाहरण है। अम्ल और क्षारक उचित अनुपात में मिलाने पर अभिक्रिया करके लवण देते हैं।</p>",
+     "hint": "साबुन चिकना और कड़वा होता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.10"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.10"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-10-1-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the Arrhenius concept is <b>incorrect</b>?",
+     "o": [
+      "An acid is a substance that dissociates in water to give hydrogen ions, H<sup>+</sup>(aq).",
+      "A base is a substance that produces hydroxyl ions, OH<sup>−</sup>(aq), in water.",
+      "A bare proton is very reactive and exists in water bonded to a water molecule as H<sub>3</sub>O<sup>+</sup> (hydronium ion).",
+      "The Arrhenius concept applies equally well to reactions in any solvent and in the gas phase."
+     ],
+     "sol": "<p>NCERT 6.10.1: according to Arrhenius, acids are substances that dissociate in water to give H<sup>+</sup>(aq), and bases produce OH<sup>−</sup>(aq). Ionisation of an acid HX: HX(aq) → H<sup>+</sup>(aq) + X<sup>−</sup>(aq); of a base MOH: MOH(aq) → M<sup>+</sup>(aq) + OH<sup>−</sup>(aq). A bare proton cannot exist alone in water; it bonds to water as H<sub>3</sub>O<sup>+</sup>. The concept is limited to aqueous solutions and does not explain the basicity of substances like ammonia that have no hydroxyl group, so (4) is incorrect; the Brönsted–Lowry and Lewis concepts are more general.</p>",
+     "hint": "Arrhenius needs water."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "आरेनियस धारणा के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "अम्ल वह पदार्थ है जो जल में वियोजित होकर हाइड्रोजन आयन, H<sup>+</sup>(aq), देता है।",
+      "क्षारक वह पदार्थ है जो जल में हाइड्रॉक्सिल आयन, OH<sup>−</sup>(aq), देता है।",
+      "मुक्त प्रोटॉन बहुत क्रियाशील है और जल में जल अणु से जुड़कर H<sub>3</sub>O<sup>+</sup> (हाइड्रोनियम आयन) के रूप में रहता है।",
+      "आरेनियस धारणा किसी भी विलायक में तथा गैस प्रावस्था की अभिक्रियाओं पर समान रूप से लागू होती है।"
+     ],
+     "sol": "<p>NCERT 6.10.1: आरेनियस के अनुसार अम्ल वे पदार्थ हैं जो जल में वियोजित होकर H<sup>+</sup>(aq) देते हैं, और क्षारक OH<sup>−</sup>(aq) देते हैं। अम्ल HX का आयनन: HX(aq) → H<sup>+</sup>(aq) + X<sup>−</sup>(aq); क्षारक MOH का: MOH(aq) → M<sup>+</sup>(aq) + OH<sup>−</sup>(aq)। मुक्त प्रोटॉन जल में अकेला नहीं रह सकता; यह जल से जुड़कर H<sub>3</sub>O<sup>+</sup> बनाता है। यह धारणा केवल जलीय विलयनों तक सीमित है और अमोनिया जैसे पदार्थों की, जिनमें हाइड्रॉक्सिल समूह नहीं है, क्षारकता नहीं समझाती, अतः (4) गलत है; ब्रान्सटेड-लोरी तथा लूइस धारणाएँ अधिक व्यापक हैं।</p>",
+     "hint": "आरेनियस को जल चाहिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.10.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.10.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-11-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Perchloric acid (HClO<sub>4</sub>), hydrochloric acid and nitric acid are strong acids in water because:",
+     "o": [
+      "they have very small molar masses",
+      "they do not dissociate in water",
+      "they are nearly completely dissociated into their constituent ions in aqueous solution, so they act as strong proton donors",
+      "their conjugate bases are very strong"
+     ],
+     "sol": "<p>NCERT 6.11: the strength of an acid or base is judged by the extent of its dissociation in water. HClO<sub>4</sub>, HCl, HBr, HI, HNO<sub>3</sub> and H<sub>2</sub>SO<sub>4</sub> are strong acids: in aqueous solution they are nearly completely dissociated into their constituent ions, so they are strong proton (H<sup>+</sup>) donors. Similarly LiOH, NaOH, KOH, CsOH and Ba(OH)<sub>2</sub> are strong bases. A strong acid has a very weak conjugate base, and a weak acid a strong conjugate base.</p>",
+     "hint": "Almost no HA molecules remain."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "परक्लोरिक अम्ल (HClO<sub>4</sub>), हाइड्रोक्लोरिक अम्ल तथा नाइट्रिक अम्ल जल में प्रबल अम्ल हैं क्योंकि:",
+     "o": [
+      "इनके मोलर द्रव्यमान बहुत कम हैं",
+      "ये जल में वियोजित नहीं होते",
+      "जलीय विलयन में ये अपने घटक आयनों में लगभग पूर्णतः वियोजित हो जाते हैं, इसलिए प्रबल प्रोटॉनदाता का कार्य करते हैं",
+      "इनके संयुग्मी क्षारक बहुत प्रबल हैं"
+     ],
+     "sol": "<p>NCERT 6.11: किसी अम्ल या क्षारक की प्रबलता जल में उसके वियोजन की सीमा से आँकी जाती है। HClO<sub>4</sub>, HCl, HBr, HI, HNO<sub>3</sub> तथा H<sub>2</sub>SO<sub>4</sub> प्रबल अम्ल हैं: जलीय विलयन में ये अपने घटक आयनों में लगभग पूर्णतः वियोजित हो जाते हैं, इसलिए प्रबल प्रोटॉन (H<sup>+</sup>) दाता हैं। इसी प्रकार LiOH, NaOH, KOH, CsOH तथा Ba(OH)<sub>2</sub> प्रबल क्षारक हैं। प्रबल अम्ल का संयुग्मी क्षारक बहुत दुर्बल, और दुर्बल अम्ल का संयुग्मी क्षारक प्रबल होता है।</p>",
+     "hint": "लगभग कोई HA अणु नहीं बचता।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.11"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.11"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-11-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At 298 K the ionic product of water, K<sub>w</sub>, is 1.0 × 10<sup>−14</sup>. In pure water at 298 K, [H<sub>3</sub>O<sup>+</sup>] is:",
+     "o": [
+      "1.0 × 10<sup>−14</sup> M",
+      "1.0 × 10<sup>−7</sup> M",
+      "1.0 × 10<sup>−1</sup> M",
+      "55.55 M"
+     ],
+     "sol": "<p>NCERT 6.11.1: water self-ionises: H<sub>2</sub>O(l) + H<sub>2</sub>O(l) ⇌ H<sub>3</sub>O<sup>+</sup>(aq) + OH<sup>−</sup>(aq). The concentration of water is omitted (it is very large and nearly constant, 55.55 M), giving K<sub>w</sub> = [H<sub>3</sub>O<sup>+</sup>][OH<sup>−</sup>] = 1.0 × 10<sup>−14</sup> at 298 K. In pure water [H<sub>3</sub>O<sup>+</sup>] = [OH<sup>−</sup>], so each = √(1.0 × 10<sup>−14</sup>) = 1.0 × 10<sup>−7</sup> M (pH 7). K<sub>w</sub> depends on temperature, since ionisation is endothermic.</p>",
+     "hint": "Square root of K<sub>w</sub>."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "298 K पर जल का आयनिक गुणनफल, K<sub>w</sub>, 1.0 × 10<sup>−14</sup> है। 298 K पर शुद्ध जल में [H<sub>3</sub>O<sup>+</sup>] है:",
+     "o": [
+      "1.0 × 10<sup>−14</sup> M",
+      "1.0 × 10<sup>−7</sup> M",
+      "1.0 × 10<sup>−1</sup> M",
+      "55.55 M"
+     ],
+     "sol": "<p>NCERT 6.11.1: जल का स्वआयनन होता है: H<sub>2</sub>O(l) + H<sub>2</sub>O(l) ⇌ H<sub>3</sub>O<sup>+</sup>(aq) + OH<sup>−</sup>(aq)। जल की सांद्रता छोड़ दी जाती है (यह बहुत अधिक और लगभग स्थिर है, 55.55 M), जिससे 298 K पर K<sub>w</sub> = [H<sub>3</sub>O<sup>+</sup>][OH<sup>−</sup>] = 1.0 × 10<sup>−14</sup>। शुद्ध जल में [H<sub>3</sub>O<sup>+</sup>] = [OH<sup>−</sup>], अतः प्रत्येक = √(1.0 × 10<sup>−14</sup>) = 1.0 × 10<sup>−7</sup> M (pH 7)। आयनन ऊष्माशोषी होने के कारण K<sub>w</sub> ताप पर निर्भर करता है।</p>",
+     "hint": "K<sub>w</sub> का वर्गमूल।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.11.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.11.1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-11-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 0.10 M solution of a weak monobasic acid HX has pH 3.0. Its ionization constant K<sub>a</sub> is about:",
+     "o": [
+      "1.0 × 10<sup>−5</sup>",
+      "1.0 × 10<sup>−3</sup>",
+      "1.0 × 10<sup>−6</sup>",
+      "1.0 × 10<sup>−2</sup>"
+     ],
+     "sol": "<p>NCERT 6.11.3: for HX(aq) + H<sub>2</sub>O ⇌ H<sub>3</sub>O<sup>+</sup> + X<sup>−</sup>, K<sub>a</sub> = [H<sub>3</sub>O<sup>+</sup>][X<sup>−</sup>]/[HX] = cα<sup>2</sup>/(1 − α). pH 3.0 → [H<sub>3</sub>O<sup>+</sup>] = 1.0 × 10<sup>−3</sup> M = [X<sup>−</sup>]. [HX] = 0.10 − 0.001 ≈ 0.099 M. K<sub>a</sub> = (1.0 × 10<sup>−3</sup>)<sup>2</sup>/0.099 ≈ 1.0 × 10<sup>−5</sup>. Degree of ionisation α = 0.001/0.10 = 0.01 (1%). A smaller K<sub>a</sub> means a weaker acid; pK<sub>a</sub> = −log K<sub>a</sub> = 5.</p>",
+     "hint": "[H<sup>+</sup>] = 10<sup>−pH</sup>; K<sub>a</sub> ≈ [H<sup>+</sup>]<sup>2</sup> / c."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "एक दुर्बल एकक्षारकी अम्ल HX के 0.10 M विलयन का pH 3.0 है। इसका आयनन स्थिरांक K<sub>a</sub> लगभग है:",
+     "o": [
+      "1.0 × 10<sup>−5</sup>",
+      "1.0 × 10<sup>−3</sup>",
+      "1.0 × 10<sup>−6</sup>",
+      "1.0 × 10<sup>−2</sup>"
+     ],
+     "sol": "<p>NCERT 6.11.3: HX(aq) + H<sub>2</sub>O ⇌ H<sub>3</sub>O<sup>+</sup> + X<sup>−</sup> के लिए K<sub>a</sub> = [H<sub>3</sub>O<sup>+</sup>][X<sup>−</sup>]/[HX] = cα<sup>2</sup>/(1 − α)। pH 3.0 → [H<sub>3</sub>O<sup>+</sup>] = 1.0 × 10<sup>−3</sup> M = [X<sup>−</sup>]। [HX] = 0.10 − 0.001 ≈ 0.099 M। K<sub>a</sub> = (1.0 × 10<sup>−3</sup>)<sup>2</sup>/0.099 ≈ 1.0 × 10<sup>−5</sup>। आयनन की मात्रा α = 0.001/0.10 = 0.01 (1%)। कम K<sub>a</sub> का अर्थ दुर्बल अम्ल; pK<sub>a</sub> = −log K<sub>a</sub> = 5।</p>",
+     "hint": "[H<sup>+</sup>] = 10<sup>−pH</sup>; K<sub>a</sub> ≈ [H<sup>+</sup>]<sup>2</sup> / c।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.11.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.11.3"
+   },
+   "difficulty": 4,
+   "difficultyBasis": "author",
+   "timeSec": 90,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-11-8-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Adding sodium acetate to a solution of acetic acid:",
+     "o": [
+      "increases the degree of ionisation of acetic acid",
+      "has no effect on the ionisation of acetic acid",
+      "suppresses the ionisation of acetic acid and raises the pH (common ion effect)",
+      "lowers the pH sharply"
+     ],
+     "sol": "<p>NCERT 6.11.8: for CH<sub>3</sub>COOH ⇌ H<sup>+</sup> + CH<sub>3</sub>COO<sup>−</sup>, adding acetate ion (from strongly ionised sodium acetate) increases [CH<sub>3</sub>COO<sup>−</sup>]. By Le Chatelier's principle the equilibrium shifts left, so [H<sup>+</sup>] falls and the pH rises. This shift caused by adding a substance that provides more of an ionic species already present in the dissociation equilibrium is the common ion effect. K<sub>a</sub> stays the same; only the degree of ionisation decreases.</p>",
+     "hint": "Acetate is the common ion."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "ऐसीटिक अम्ल के विलयन में सोडियम ऐसीटेट मिलाने पर:",
+     "o": [
+      "ऐसीटिक अम्ल के आयनन की मात्रा बढ़ जाती है",
+      "ऐसीटिक अम्ल के आयनन पर कोई प्रभाव नहीं पड़ता",
+      "ऐसीटिक अम्ल का आयनन दब जाता है और pH बढ़ता है (सम आयन प्रभाव)",
+      "pH तेज़ी से घटता है"
+     ],
+     "sol": "<p>NCERT 6.11.8: CH<sub>3</sub>COOH ⇌ H<sup>+</sup> + CH<sub>3</sub>COO<sup>−</sup> में ऐसीटेट आयन (प्रबलता से आयनित सोडियम ऐसीटेट से) मिलाने पर [CH<sub>3</sub>COO<sup>−</sup>] बढ़ता है। ला-शातेलिए सिद्धांत से साम्य बाईं ओर खिसकता है, इसलिए [H<sup>+</sup>] घटता है और pH बढ़ता है। वियोजन साम्य में पहले से उपस्थित किसी आयनिक स्पीशीज़ को और अधिक देने वाला पदार्थ मिलाने से होने वाला यह विस्थापन सम आयन प्रभाव है। K<sub>a</sub> वही रहता है; केवल आयनन की मात्रा घटती है।</p>",
+     "hint": "ऐसीटेट सम आयन है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.11.8"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.11.8"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-06-ai-6-13-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The solubility product of AgCl at 298 K is 1.8 × 10<sup>−10</sup>. Its molar solubility in pure water is about:",
+     "o": [
+      "1.8 × 10<sup>−10</sup> mol L<sup>−1</sup>",
+      "1.34 × 10<sup>−5</sup> mol L<sup>−1</sup>",
+      "9.0 × 10<sup>−11</sup> mol L<sup>−1</sup>",
+      "3.6 × 10<sup>−10</sup> mol L<sup>−1</sup>"
+     ],
+     "sol": "<p>NCERT 6.13: for a sparingly soluble salt in equilibrium with its saturated solution, AgCl(s) ⇌ Ag<sup>+</sup>(aq) + Cl<sup>−</sup>(aq), K<sub>sp</sub> = [Ag<sup>+</sup>][Cl<sup>−</sup>]. If the molar solubility is S, [Ag<sup>+</sup>] = [Cl<sup>−</sup>] = S, so K<sub>sp</sub> = S<sup>2</sup> and S = √(1.8 × 10<sup>−10</sup>) = 1.34 × 10<sup>−5</sup> mol L<sup>−1</sup>. The concentration of the solid is constant and is not written in K<sub>sp</sub>. A precipitate forms when the ionic product exceeds K<sub>sp</sub>.</p>",
+     "hint": "K<sub>sp</sub> = S<sup>2</sup> for a 1:1 salt."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "298 K पर AgCl का विलेयता गुणनफल 1.8 × 10<sup>−10</sup> है। शुद्ध जल में इसकी मोलर विलेयता लगभग है:",
+     "o": [
+      "1.8 × 10<sup>−10</sup> mol L<sup>−1</sup>",
+      "1.34 × 10<sup>−5</sup> mol L<sup>−1</sup>",
+      "9.0 × 10<sup>−11</sup> mol L<sup>−1</sup>",
+      "3.6 × 10<sup>−10</sup> mol L<sup>−1</sup>"
+     ],
+     "sol": "<p>NCERT 6.13: अपने संतृप्त विलयन के साथ साम्य में किसी अल्पविलेय लवण, AgCl(s) ⇌ Ag<sup>+</sup>(aq) + Cl<sup>−</sup>(aq), के लिए K<sub>sp</sub> = [Ag<sup>+</sup>][Cl<sup>−</sup>]। यदि मोलर विलेयता S है, तो [Ag<sup>+</sup>] = [Cl<sup>−</sup>] = S, अतः K<sub>sp</sub> = S<sup>2</sup> तथा S = √(1.8 × 10<sup>−10</sup>) = 1.34 × 10<sup>−5</sup> mol L<sup>−1</sup>। ठोस की सांद्रता स्थिर है और K<sub>sp</sub> में नहीं लिखी जाती। आयनिक गुणनफल K<sub>sp</sub> से अधिक होने पर अवक्षेप बनता है।</p>",
+     "hint": "1:1 लवण के लिए K<sub>sp</sub> = S<sup>2</sup>।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-06",
+    "paras": [
+     "6.13"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.13"
+   },
+   "difficulty": 4,
+   "difficultyBasis": "author",
+   "timeSec": 90,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {
