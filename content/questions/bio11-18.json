@@ -1172,6 +1172,173 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q179."
    }
+  },
+  {
+   "id": "bio11-18-ai-18-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the neural system in different animals is correct?",
+     "o": [
+      "<i>Hydra</i> has a brain with several ganglia",
+      "In <i>Hydra</i> the neural system is a network of neurons, while insects have a brain along with a number of ganglia and neural tissues",
+      "Insects have only a simple network of neurons with no brain",
+      "The neural system is equally developed in all animals"
+     ],
+     "sol": "<p>NCERT 18.1: the neural system of all animals is made of neurons, which detect, receive and transmit stimuli. It is very simple in lower invertebrates — in <b><i>Hydra</i>, a network of neurons</b>. It is better organised in <b>insects, with a brain and a number of ganglia</b> and neural tissues. Vertebrates have a more developed neural system.</p>",
+     "hint": "Simple net → brain + ganglia → vertebrate system."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "विभिन्न प्राणियों के तंत्रिका तंत्र के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "<i>Hydra</i> में अनेक गुच्छिकाओं सहित मस्तिष्क होता है",
+      "<i>Hydra</i> में तंत्रिका तंत्र तंत्रिकोशिकाओं का एक जाल है, जबकि कीटों में मस्तिष्क के साथ अनेक गुच्छिकाएं तथा तंत्रिका ऊतक होते हैं",
+      "कीटों में मस्तिष्क नहीं होता, केवल तंत्रिकोशिकाओं का सरल जाल होता है",
+      "सभी प्राणियों में तंत्रिका तंत्र समान रूप से विकसित होता है"
+     ],
+     "sol": "<p>NCERT 18.1: सभी प्राणियों का तंत्रिका तंत्र तंत्रिकोशिकाओं से बनता है, जो उद्दीपनों को पहचानती, ग्रहण करती तथा उनका संचरण करती हैं। निम्न अकशेरुकी प्राणियों में यह बहुत सरल होता है — <b><i>Hydra</i> में तंत्रिकोशिकाओं का जाल</b>। <b>कीटों में यह बेहतर संगठित है: मस्तिष्क तथा अनेक गुच्छिकाएं</b> और तंत्रिका ऊतक। कशेरुकियों में तंत्रिका तंत्र अधिक विकसित होता है।</p>",
+     "hint": "सरल जाल → मस्तिष्क + गुच्छिकाएं → कशेरुकी तंत्र।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 18.1"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-18-ai-18-3-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which sequence correctly describes events at one point of an axon when a nerve impulse is generated and the resting state is restored?",
+     "o": [
+      "K<sup>+</sup> rushes in → inner surface becomes negative → Na<sup>+</sup> diffuses out",
+      "Membrane becomes freely permeable to Na<sup>+</sup> → rapid Na<sup>+</sup> influx → polarity reverses (depolarisation, action potential) → permeability to K<sup>+</sup> rises and K<sup>+</sup> diffuses out, restoring the resting potential",
+      "Sodium-potassium pump moves 2 Na<sup>+</sup> out and 3 K<sup>+</sup> in → action potential",
+      "Cl<sup>−</sup> rushes in → outer surface becomes positive → impulse"
+     ],
+     "sol": "<p>NCERT 18.3.1: at rest the axonal membrane is more permeable to K<sup>+</sup> and nearly impermeable to Na<sup>+</sup>; the sodium-potassium pump moves <b>3 Na<sup>+</sup> out for 2 K<sup>+</sup> in</b>, so the outside is positive and the inside negative (resting potential). A stimulus makes the membrane at that site <b>freely permeable to Na<sup>+</sup></b>; rapid Na<sup>+</sup> influx reverses the polarity (outside negative, inside positive) — depolarisation; this potential difference is the <b>action potential</b> (nerve impulse). The rise in Na<sup>+</sup> permeability is very short-lived; it is followed by a rise in <b>K<sup>+</sup> permeability</b>, and K<sup>+</sup> diffuses out, restoring the resting potential.</p>",
+     "hint": "Na<sup>+</sup> in first, then K<sup>+</sup> out.",
+     "trap": "The pump ratio is 3 Na<sup>+</sup> out : 2 K<sup>+</sup> in, not the reverse."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "जब तंत्रिका आवेग उत्पन्न होता है और विराम अवस्था पुनः स्थापित होती है, तब तंत्रिकाक्ष के एक स्थल पर घटनाओं का सही अनुक्रम कौन-सा है?",
+     "o": [
+      "K<sup>+</sup> तेज़ी से अंदर जाते हैं → आंतरिक सतह ऋणात्मक होती है → Na<sup>+</sup> बाहर विसरित होते हैं",
+      "झिल्ली Na<sup>+</sup> के लिए मुक्त पारगमी होती है → Na<sup>+</sup> तीव्र गति से अंदर जाते हैं → ध्रुवता उलट जाती है (विध्रुवण, क्रियात्मक विभव) → K<sup>+</sup> की पारगम्यता बढ़ती है और K<sup>+</sup> बाहर विसरित होकर विराम विभव पुनः स्थापित करते हैं",
+      "सोडियम पोटैसियम पंप 2 Na<sup>+</sup> बाहर तथा 3 K<sup>+</sup> अंदर भेजता है → क्रियात्मक विभव",
+      "Cl<sup>−</sup> तेज़ी से अंदर जाते हैं → बाहरी सतह धनात्मक होती है → आवेग"
+     ],
+     "sol": "<p>NCERT 18.3.1: विराम अवस्था में तंत्रिकाक्ष झिल्ली K<sup>+</sup> के लिए अधिक पारगम्य तथा Na<sup>+</sup> के लिए लगभग अपारगम्य होती है; सोडियम पोटैसियम पंप (सोडियम-पोटैशियम पंप) प्रतिचक्र <b>3 Na<sup>+</sup> बाहर तथा 2 K<sup>+</sup> अंदर</b> भेजता है, जिससे बाहरी सतह धन तथा आंतरिक सतह ऋण आवेशित रहती है (विरामकला विभव)। उद्दीपन से उस स्थल की झिल्ली <b>Na<sup>+</sup> के लिए मुक्त पारगमी</b> हो जाती है; Na<sup>+</sup> के तीव्र प्रवेश से ध्रुवता उलट जाती है (बाहर ऋणात्मक, अंदर धनात्मक) — विध्रुवण; यह विभवांतर <b>क्रियात्मक विभव (क्रियाविभव)</b> अर्थात तंत्रिका आवेग है। Na<sup>+</sup> की बढ़ी पारगम्यता क्षणिक होती है; इसके तुरंत बाद <b>K<sup>+</sup> की पारगम्यता</b> बढ़ती है और K<sup>+</sup> बाहर विसरित होकर विराम विभव पुनः स्थापित करते हैं।</p>",
+     "hint": "पहले Na<sup>+</sup> अंदर, फिर K<sup>+</sup> बाहर।",
+     "trap": "पंप का अनुपात 3 Na<sup>+</sup> बाहर : 2 K<sup>+</sup> अंदर है, उलटा नहीं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.3.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 18.3.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-18-ai-18-4-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the human midbrain is correct?",
+     "o": [
+      "It lies between the cerebrum and the thalamus, and the fourth ventricle passes through it",
+      "It lies between the thalamus/hypothalamus of the forebrain and the pons of the hindbrain; the cerebral aqueduct passes through it, and its dorsal part bears the corpora quadrigemina",
+      "It consists of the pons, cerebellum and medulla",
+      "Its dorsal part has two lobes called the corpora callosa"
+     ],
+     "sol": "<p>NCERT 18.4.2: the <b>midbrain</b> lies between the <b>thalamus/hypothalamus</b> of the forebrain and the <b>pons</b> of the hindbrain. A canal, the <b>cerebral aqueduct</b>, passes through it. Its dorsal portion consists mainly of four round swellings (lobes), the <b>corpora quadrigemina</b>. Pons, cerebellum and medulla make up the hindbrain (18.4.3).</p>",
+     "hint": "Four lobes on the dorsal side."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "मानव मध्य मस्तिष्क के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "यह प्रमस्तिष्क तथा थेलेमस के बीच स्थित है, और चौथा निलय इससे गुजरता है",
+      "यह अग्र मस्तिष्क के थेलेमस/हाइपोथेलेमस तथा पश्च मस्तिष्क के पोंस के बीच स्थित है; प्रमस्तिष्क तरल नलिका इससे गुजरती है, और इसके ऊपरी भाग में कॉर्पोरा क्वाड्रीजेमीन होते हैं",
+      "यह पोंस, अनुमस्तिष्क तथा मेड्यूला से बना है",
+      "इसके ऊपरी भाग में दो लोब होते हैं जिन्हें कॉर्पोरा कैलोसा कहते हैं"
+     ],
+     "sol": "<p>NCERT 18.4.2: <b>मध्य मस्तिष्क</b> अग्र मस्तिष्क के <b>थेलेमस/हाइपोथेलेमस</b> तथा पश्च मस्तिष्क के <b>पोंस</b> के बीच स्थित होता है। एक नाल, <b>प्रमस्तिष्क तरल नलिका</b> (सेरेब्रल एक्वाडक्ट), इससे गुजरती है। इसका ऊपरी भाग मुख्यतः चार लोबनुमा उभारों का बना होता है, जिन्हें <b>कॉर्पोरा क्वाड्रीजेमीन</b> कहते हैं। पोंस, अनुमस्तिष्क तथा मेड्यूला पश्च मस्तिष्क बनाते हैं (18.4.3)।</p>",
+     "hint": "ऊपरी भाग पर चार लोब।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-18",
+    "paras": [
+     "18.4.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 18.4.2"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
