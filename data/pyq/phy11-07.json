@@ -1,0 +1,1066 @@
+{
+ "chapter": "phy11-07",
+ "source": "bank",
+ "subject": "physics",
+ "class": 11,
+ "unit": 7,
+ "title": "Gravitation",
+ "titleHi": "गुरुत्वाकर्षण",
+ "ref": "NCERT Physics Class 11 · Unit 7",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph107.pdf",
+ "pdfPageOffset": 0,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "7.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "7.2",
+   "title": "Kepler's Laws",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "7.3",
+   "title": "Universal Law of Gravitation",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "7.4",
+   "title": "The Gravitational Constant",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 5
+  },
+  {
+   "id": "7.5",
+   "title": "Acceleration due to Gravity of the Earth",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 6
+  },
+  {
+   "id": "7.6",
+   "title": "Acceleration due to Gravity below and above the Surface of Earth",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 7
+  },
+  {
+   "id": "7.7",
+   "title": "Gravitational Potential Energy",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 7
+  },
+  {
+   "id": "7.8",
+   "title": "Escape Speed",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 9
+  },
+  {
+   "id": "7.9",
+   "title": "Earth Satellites",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "7.10",
+   "title": "Energy of an Orbiting Satellite",
+   "hi": "कक्षा में गतिशील उपग्रह की",
+   "pages": [],
+   "pdfPage": 12
+  }
+ ],
+ "sections": [
+  {
+   "sec": "7.2",
+   "title": "Kepler's Laws",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2,
+   "questions": [
+    {
+     "id": "phy11-07-neet-2018-code-aa-q39",
+     "exam": "NEET",
+     "q": "The kinetic energies of a planet in an elliptical orbit about the Sun, at positions A, B and C are K<sub>A</sub>, K<sub>B</sub> and K<sub>C</sub>, respectively. AC is the major axis and SB is perpendicular to AC at the position of the Sun S as shown in the figure. Then :",
+     "sol": "<p>Angular momentum about the Sun is conserved (Kepler's second law), so the planet moves fastest where it is nearest the Sun. In the figure A is the nearest point (perihelion) and C the farthest (aphelion), with B in between. Hence <b>K<sub>A</sub> > K<sub>B</sub> > K<sub>C</sub></b>.</p>",
+     "hint": "Closer to the Sun ⇒ faster ⇒ more kinetic energy.",
+     "paras": [
+      "7.2"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q39",
+     "o": [
+      "K<sub>B</sub> < K<sub>A</sub> < K<sub>C</sub>",
+      "K<sub>A</sub> > K<sub>B</sub> > K<sub>C</sub>",
+      "K<sub>A</sub> < K<sub>B</sub> < K<sub>C</sub>",
+      "K<sub>B</sub> > K<sub>A</sub> > K<sub>C</sub>"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "सूर्य के चारों ओर दीर्घवृत्तीय कक्षा में एक ग्रह की स्थितियों A, B और C पर गतिज ऊर्जाएँ क्रमशः K<sub>A</sub>, K<sub>B</sub> और K<sub>C</sub> हैं। AC दीर्घ अक्ष है और SB, सूर्य S की स्थिति पर AC के लंबवत है, जैसा कि चित्र में दिखाया गया है। तब :",
+      "o": [
+       "K<sub>B</sub> < K<sub>A</sub> < K<sub>C</sub>",
+       "K<sub>A</sub> > K<sub>B</sub> > K<sub>C</sub>",
+       "K<sub>A</sub> < K<sub>B</sub> < K<sub>C</sub>",
+       "K<sub>B</sub> > K<sub>A</sub> > K<sub>C</sub>"
+      ],
+      "sol": "<p>सूर्य के परितः कोणीय संवेग संरक्षित है (केप्लर का द्वितीय नियम), अतः ग्रह सूर्य के सबसे निकट होने पर सबसे तेज चलता है। चित्र में A निकटतम बिंदु और C सबसे दूर का बिंदु है, B इनके बीच। अतः <b>K<sub>A</sub> > K<sub>B</sub> > K<sub>C</sub></b>।</p>",
+      "hint": "सूर्य के अधिक निकट ⇒ अधिक तेज ⇒ अधिक गतिज ऊर्जा।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2025-code-45-q31",
+     "exam": "NEET",
+     "q": "The radius of Martian orbit around the Sun is about 4 times the radius of the orbit of Mercury. The Martian year is 687 Earth days. Then which of the following is the length of 1 year on Mercury?",
+     "sol": "<p>Kepler's third law: T<sup>2</sup> ∝ R<sup>3</sup> ⇒ T<sub>Mars</sub>/T<sub>Mercury</sub> = 4<sup>3/2</sup> = 8.</p><p>T<sub>Mercury</sub> = 687/8 ≈ 86 days, closest to <b>88 earth days</b>.</p>",
+     "hint": "T ∝ R<sup>3/2</sup>.",
+     "paras": [
+      "7.2"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q31",
+     "o": [
+      "88 earth days",
+      "225 earth days",
+      "172 earth days",
+      "124 earth days"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "सूर्य के चारों ओर मंगल की कक्षा की त्रिज्या बुध की कक्षा की त्रिज्या की लगभग 4 गुनी है। मंगल का वर्ष 687 पृथ्वी दिनों का है। तब बुध पर 1 वर्ष की अवधि निम्नलिखित में से कौन-सी है?",
+      "o": [
+       "88 पृथ्वी दिन",
+       "225 पृथ्वी दिन",
+       "172 पृथ्वी दिन",
+       "124 पृथ्वी दिन"
+      ],
+      "sol": "<p>केप्लर का तृतीय नियम : T<sup>2</sup> ∝ R<sup>3</sup> ⇒ T<sub>Mars</sub>/T<sub>Mercury</sub> = 4<sup>3/2</sup> = 8।</p><p>T<sub>Mercury</sub> = 687/8 ≈ 86 दिन, जो <b>88 पृथ्वी दिन</b> के निकटतम है।</p>",
+      "hint": "T ∝ R<sup>3/2</sup>।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "7.3",
+   "title": "Universal Law of Gravitation",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2,
+   "questions": [
+    {
+     "id": "phy11-07-neet-2017-code-a-q30",
+     "exam": "NEET",
+     "q": "Two astronauts are floating in gravitational free space after having lost contact with their spaceship. The two will:",
+     "sol": "<p>Far from other bodies, the only force between the astronauts is their mutual gravitational attraction, so they slowly <b>move towards each other</b>.</p>",
+     "hint": "Every two masses attract each other.",
+     "paras": [
+      "7.3"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q30",
+     "o": [
+      "Keep floating at the same distance between them",
+      "Move towards each other",
+      "Move away from each other",
+      "Will become stationary"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "दो अंतरिक्ष यात्री अपने अंतरिक्ष यान से संपर्क टूटने के बाद गुरुत्व-मुक्त आकाश में तैर रहे हैं। वे दोनों :",
+      "o": [
+       "उनके बीच समान दूरी बनाए रखते हुए तैरते रहेंगे",
+       "एक-दूसरे की ओर चलेंगे",
+       "एक-दूसरे से दूर चलेंगे",
+       "स्थिर हो जाएँगे"
+      ],
+      "sol": "<p>अन्य पिंडों से दूर, अंतरिक्ष यात्रियों के बीच एकमात्र बल उनका पारस्परिक गुरुत्वाकर्षण है, अतः वे धीरे-धीरे <b>एक-दूसरे की ओर चलेंगे</b>।</p>",
+      "hint": "कोई भी दो द्रव्यमान एक-दूसरे को आकर्षित करते हैं।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2022-code-t2-q30",
+     "exam": "NEET",
+     "q": "A body of mass 60 g experiences a gravitational force of 3.0 N, when placed at a particular point. The magnitude of the gravitational field intensity at that point is :",
+     "sol": "<p>Gravitational field intensity = force per unit mass = F/m = 3.0/(60 × 10<sup>−3</sup>) = <b>50 N/kg</b>.</p>",
+     "hint": "Convert 60 g to kg.",
+     "paras": [
+      "7.3"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q30",
+     "o": [
+      "50 N/kg",
+      "20 N/kg",
+      "180 N/kg",
+      "0.05 N/kg"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "60 g द्रव्यमान का एक पिंड किसी विशेष बिंदु पर रखे जाने पर 3.0 N का गुरुत्वाकर्षण बल अनुभव करता है। उस बिंदु पर गुरुत्वीय क्षेत्र की तीव्रता का परिमाण है :",
+      "o": [
+       "50 N/kg",
+       "20 N/kg",
+       "180 N/kg",
+       "0.05 N/kg"
+      ],
+      "sol": "<p>गुरुत्वीय क्षेत्र की तीव्रता = प्रति एकांक द्रव्यमान बल = F/m = 3.0/(60 × 10<sup>−3</sup>) = <b>50 N/kg</b>।</p>",
+      "hint": "60 g को kg में बदलिए।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "7.5",
+   "title": "Acceleration due to Gravity of the Earth",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 6,
+   "questions": [
+    {
+     "id": "phy11-07-neet-2024-q36-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "The mass of a planet is 1/10<sup>th</sup> that of the earth and its diameter is half that of the earth. The acceleration due to gravity on that planet is :",
+     "sol": "<p>g = GM/R<sup>2</sup>. Planet: M/10 and R/2 ⇒ g′ = (1/10)/(1/2)<sup>2</sup> × g = 0.4g = 0.4 × 9.8 = <b>3.92 m s<sup>−2</sup></b>.</p>",
+     "hint": "Half the diameter means half the radius.",
+     "paras": [
+      "7.5"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q36 (eSaral physics copy)",
+     "o": [
+      "19.6 m s<sup>−2</sup>",
+      "9.8 m s<sup>−2</sup>",
+      "4.9 m s<sup>−2</sup>",
+      "3.92 m s<sup>−2</sup>"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक ग्रह का द्रव्यमान पृथ्वी के द्रव्यमान का 1/10<sup>th</sup> है और इसका व्यास पृथ्वी के व्यास का आधा है। उस ग्रह पर गुरुत्वीय त्वरण है :",
+      "o": [
+       "19.6 m s<sup>−2</sup>",
+       "9.8 m s<sup>−2</sup>",
+       "4.9 m s<sup>−2</sup>",
+       "3.92 m s<sup>−2</sup>"
+      ],
+      "sol": "<p>g = GM/R<sup>2</sup>। ग्रह : M/10 और R/2 ⇒ g′ = (1/10)/(1/2)<sup>2</sup> × g = 0.4g = 0.4 × 9.8 = <b>3.92 m s<sup>−2</sup></b>।</p>",
+      "hint": "आधे व्यास का अर्थ आधी त्रिज्या है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "7.6",
+   "title": "Acceleration due to Gravity below and above the Surface of Earth",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 7,
+   "questions": [
+    {
+     "id": "phy11-07-neet-2016-phase-2-code-aa-q11",
+     "exam": "NEET",
+     "q": "Starting from the centre of the earth having radius R, the variation of g (acceleration due to gravity) is shown by :",
+     "sol": "<p>Inside a uniform earth, g = g<sub>0</sub>r/R: it rises linearly from zero at the centre to g<sub>0</sub> at the surface. Outside, g = g<sub>0</sub>R<sup>2</sup>/r<sup>2</sup>: it falls as 1/r<sup>2</sup>. The graph with a straight rise to r = R followed by a 1/r<sup>2</sup> fall is <b>graph B</b>.</p>",
+     "hint": "g ∝ r inside, g ∝ 1/r<sup>2</sup> outside; maximum at the surface.",
+     "paras": [
+      "7.6"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q11",
+     "o": [
+      "[graph A]",
+      "[graph B]",
+      "[graph C]",
+      "[graph D]"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "R त्रिज्या वाली पृथ्वी के केंद्र से प्रारंभ करके g (गुरुत्वीय त्वरण) में परिवर्तन दर्शाया गया है :",
+      "o": [
+       "[ग्राफ A]",
+       "[ग्राफ B]",
+       "[ग्राफ C]",
+       "[ग्राफ D]"
+      ],
+      "sol": "<p>एकसमान पृथ्वी के अंदर g = g<sub>0</sub>r/R : यह केंद्र पर शून्य से पृष्ठ पर g<sub>0</sub> तक रैखिक रूप से बढ़ता है। बाहर g = g<sub>0</sub>R<sup>2</sup>/r<sup>2</sup> : यह 1/r<sup>2</sup> के अनुसार घटता है। r = R तक सरल रेखीय वृद्धि और फिर 1/r<sup>2</sup> के अनुसार कमी वाला ग्राफ <b>ग्राफ B</b> है।</p>",
+      "hint": "अंदर g ∝ r, बाहर g ∝ 1/r<sup>2</sup>; पृष्ठ पर अधिकतम।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2017-code-a-q25",
+     "exam": "NEET",
+     "q": "The acceleration due to gravity at a height 1 km above the earth is the same as at a depth d below the surface of earth. Then :",
+     "sol": "<p>For h << R: at height h, g<sub>h</sub> = g(1 − 2h/R); at depth d, g<sub>d</sub> = g(1 − d/R).</p><p>Equal ⇒ d = 2h = <b>2 km</b>.</p>",
+     "hint": "g falls twice as fast with height as with depth (near the surface).",
+     "paras": [
+      "7.6"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q25",
+     "o": [
+      "d = 1/2 km",
+      "d = 1 km",
+      "d = 3/2 km",
+      "d = 2 km"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "पृथ्वी से 1 km ऊँचाई पर गुरुत्वीय त्वरण वही है जो पृथ्वी के पृष्ठ के नीचे d गहराई पर है। तब :",
+      "o": [
+       "d = 1/2 km",
+       "d = 1 km",
+       "d = 3/2 km",
+       "d = 2 km"
+      ],
+      "sol": "<p>h << R के लिए : h ऊँचाई पर g<sub>h</sub> = g(1 − 2h/R); d गहराई पर g<sub>d</sub> = g(1 − d/R)।</p><p>बराबर ⇒ d = 2h = <b>2 km</b>।</p>",
+      "hint": "पृष्ठ के निकट ऊँचाई के साथ g, गहराई की तुलना में दोगुनी तेजी से घटता है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2019-code-s2-q109",
+     "exam": "NEET",
+     "q": "A body weighs 200 N on the surface of the earth. How much will it weigh half way down to the centre of the earth?",
+     "sol": "<p>At depth d: g<sub>d</sub> = g(1 − d/R). Half way to the centre, d = R/2 ⇒ g<sub>d</sub> = g/2. Weight = 200/2 = <b>100 N</b>.</p>",
+     "hint": "Inside a uniform earth g ∝ distance from the centre.",
+     "paras": [
+      "7.6"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q109",
+     "o": [
+      "250 N",
+      "100 N",
+      "150 N",
+      "200 N"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "किसी पिंड का भार पृथ्वी के पृष्ठ पर 200 N है। पृथ्वी के केंद्र की ओर आधी दूरी पर इसका भार कितना होगा?",
+      "o": [
+       "250 N",
+       "100 N",
+       "150 N",
+       "200 N"
+      ],
+      "sol": "<p>d गहराई पर : g<sub>d</sub> = g(1 − d/R)। केंद्र की ओर आधी दूरी पर d = R/2 ⇒ g<sub>d</sub> = g/2। भार = 200/2 = <b>100 N</b>।</p>",
+      "hint": "एकसमान पृथ्वी के अंदर g ∝ केंद्र से दूरी।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2020-code-f3-q31",
+     "exam": "NEET",
+     "q": "A body weighs 72 N on the surface of the earth. What is the gravitational force on it, at a height equal to half the radius of the earth ?",
+     "sol": "<p>g<sub>h</sub> = g R<sup>2</sup>/(R + h)<sup>2</sup> = g/(1.5)<sup>2</sup> = 4g/9 for h = R/2.</p><p>Force = 72 × 4/9 = <b>32 N</b>.</p>",
+     "hint": "Use the exact inverse-square law, not g(1 − 2h/R).",
+     "paras": [
+      "7.6"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q31",
+     "o": [
+      "30 N",
+      "24 N",
+      "48 N",
+      "32 N"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "किसी पिंड का भार पृथ्वी के पृष्ठ पर 72 N है। पृथ्वी की त्रिज्या के आधे के बराबर ऊँचाई पर इस पर गुरुत्वाकर्षण बल क्या है?",
+      "o": [
+       "30 N",
+       "24 N",
+       "48 N",
+       "32 N"
+      ],
+      "sol": "<p>h = R/2 के लिए g<sub>h</sub> = g R<sup>2</sup>/(R + h)<sup>2</sup> = g/(1.5)<sup>2</sup> = 4g/9।</p><p>बल = 72 × 4/9 = <b>32 N</b>।</p>",
+      "hint": "यथार्थ व्युत्क्रम-वर्ग नियम लीजिए, g(1 − 2h/R) नहीं।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2025-code-45-q32",
+     "exam": "NEET",
+     "q": "A body weighs 48 N on the surface of the earth. The gravitational force experienced by the body due to the earth at a height equal to one-third the radius of the earth from its surface is :",
+     "sol": "<p>g<sub>h</sub>/g = R<sup>2</sup>/(R + R/3)<sup>2</sup> = 1/(4/3)<sup>2</sup> = 9/16.</p><p>Force = 48 × 9/16 = <b>27 N</b>.</p>",
+     "hint": "Use the exact inverse-square relation.",
+     "paras": [
+      "7.6"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q32",
+     "o": [
+      "16 N",
+      "27 N",
+      "32 N",
+      "36 N"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "किसी पिंड का भार पृथ्वी के पृष्ठ पर 48 N है। पृथ्वी के पृष्ठ से पृथ्वी की त्रिज्या के एक-तिहाई के बराबर ऊँचाई पर पृथ्वी के कारण पिंड द्वारा अनुभव किया गया गुरुत्वाकर्षण बल है :",
+      "o": [
+       "16 N",
+       "27 N",
+       "32 N",
+       "36 N"
+      ],
+      "sol": "<p>g<sub>h</sub>/g = R<sup>2</sup>/(R + R/3)<sup>2</sup> = 1/(4/3)<sup>2</sup> = 9/16।</p><p>बल = 48 × 9/16 = <b>27 N</b>।</p>",
+      "hint": "यथार्थ व्युत्क्रम-वर्ग संबंध लीजिए।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "7.7",
+   "title": "Gravitational Potential Energy",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 7,
+   "questions": [
+    {
+     "id": "phy11-07-neet-2019-code-s2-q118",
+     "exam": "NEET",
+     "q": "The work done to raise a mass m from the surface of the earth to a height h, which is equal to the radius of the earth, is :",
+     "sol": "<p>W = ΔU = −GMm/(2R) − (−GMm/R) = GMm/(2R). With GM = gR<sup>2</sup>: W = <b>(1/2) mgR</b>.</p>",
+     "hint": "mgh is valid only for h << R.",
+     "paras": [
+      "7.7"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q118",
+     "trap": "Using mgh gives mgR, twice the correct value.",
+     "o": [
+      "(1/2) mgR",
+      "(3/2) mgR",
+      "mgR",
+      "2mgR"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "किसी द्रव्यमान m को पृथ्वी के पृष्ठ से पृथ्वी की त्रिज्या के बराबर ऊँचाई h तक उठाने में किया गया कार्य है :",
+      "o": [
+       "(1/2) mgR",
+       "(3/2) mgR",
+       "mgR",
+       "2mgR"
+      ],
+      "sol": "<p>W = ΔU = −GMm/(2R) − (−GMm/R) = GMm/(2R)। GM = gR<sup>2</sup> रखने पर : W = <b>(1/2) mgR</b>।</p>",
+      "hint": "mgh केवल h << R के लिए मान्य है।",
+      "trap": "mgh लेने पर mgR मिलता है, जो सही मान का दोगुना है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2026-code-13-q10",
+     "exam": "NEET",
+     "q": "The amount of work done to raise a mass 'm' from the surface of the Earth to a height equal to the radius of the Earth 'R', will be :",
+     "sol": "<p>W = U(2R) − U(R) = −GMm/(2R) + GMm/R = GMm/(2R) = <b>mgR/2</b> (using GM = gR<sup>2</sup>).</p>",
+     "hint": "Use −GMm/r; mgh does not hold for h = R.",
+     "paras": [
+      "7.7"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q10",
+     "o": [
+      "mgR/2",
+      "mgR",
+      "mgR/4",
+      "2mgR"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "किसी द्रव्यमान 'm' को पृथ्वी के पृष्ठ से पृथ्वी की त्रिज्या 'R' के बराबर ऊँचाई तक उठाने में किए गए कार्य की मात्रा होगी :",
+      "o": [
+       "mgR/2",
+       "mgR",
+       "mgR/4",
+       "2mgR"
+      ],
+      "sol": "<p>W = U(2R) − U(R) = −GMm/(2R) + GMm/R = GMm/(2R) = <b>mgR/2</b> (GM = gR<sup>2</sup> लेकर)।</p>",
+      "hint": "−GMm/r लीजिए; h = R के लिए mgh मान्य नहीं है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "7.8",
+   "title": "Escape Speed",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 9,
+   "questions": [
+    {
+     "id": "phy11-07-neet-2016-phase-1-code-a-q36",
+     "exam": "NEET",
+     "q": "The ratio of escape velocity at earth (υe ) to the escape velocity at a planet (υp ) whose radius and mean density are twice as that of earth is:",
+     "sol": "<p>v<sub>e</sub> = √(2GM/R) with M = (4/3)πR<sup>3</sup>ρ ⇒ v<sub>e</sub> = R√(8πGρ/3) ∝ R√ρ.</p><p>Planet: 2R and 2ρ ⇒ v<sub>p</sub> = 2√2 v<sub>e</sub>. Ratio υ<sub>e</sub> : υ<sub>p</sub> = <b>1 : 2√2</b>.</p>",
+     "hint": "For a uniform planet v<sub>e</sub> ∝ R√ρ.",
+     "paras": [
+      "7.8"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q36",
+     "o": [
+      "1 : 2",
+      "1 : 2√2",
+      "1 : 4",
+      "1 : √2"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "पृथ्वी पर पलायन चाल (υe ) का, उस ग्रह पर पलायन चाल (υp ) से अनुपात, जिसकी त्रिज्या और माध्य घनत्व पृथ्वी के दोगुने हैं, है :",
+      "o": [
+       "1 : 2",
+       "1 : 2√2",
+       "1 : 4",
+       "1 : √2"
+      ],
+      "sol": "<p>v<sub>e</sub> = √(2GM/R), जहाँ M = (4/3)πR<sup>3</sup>ρ ⇒ v<sub>e</sub> = R√(8πGρ/3) ∝ R√ρ।</p><p>ग्रह : 2R और 2ρ ⇒ v<sub>p</sub> = 2√2 v<sub>e</sub>। अनुपात υ<sub>e</sub> : υ<sub>p</sub> = <b>1 : 2√2</b>।</p>",
+      "hint": "एकसमान ग्रह के लिए v<sub>e</sub> ∝ R√ρ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2021-code-p3-q13",
+     "exam": "NEET",
+     "q": "The escape velocity from the Earth's surface is v. The escape velocity from the surface of another planet having a radius, four times that of Earth and same mass density is :",
+     "sol": "<p>v<sub>e</sub> = √(2GM/R) = R√(8πGρ/3) ∝ R√ρ. Same density and four times the radius ⇒ v<sub>e</sub> becomes <b>4v</b>.</p>",
+     "hint": "v<sub>e</sub> ∝ R at constant density.",
+     "paras": [
+      "7.8"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q13",
+     "o": [
+      "4v",
+      "v",
+      "2v",
+      "3v"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "पृथ्वी के पृष्ठ से पलायन चाल v है। किसी अन्य ग्रह, जिसकी त्रिज्या पृथ्वी की चार गुनी और द्रव्यमान घनत्व समान है, के पृष्ठ से पलायन चाल है :",
+      "o": [
+       "4v",
+       "v",
+       "2v",
+       "3v"
+      ],
+      "sol": "<p>v<sub>e</sub> = √(2GM/R) = R√(8πGρ/3) ∝ R√ρ। समान घनत्व और चार गुनी त्रिज्या ⇒ v<sub>e</sub> हो जाता है <b>4v</b>।</p>",
+      "hint": "नियत घनत्व पर v<sub>e</sub> ∝ R।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "7.9",
+   "title": "Earth Satellites",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 11,
+   "questions": [
+    {
+     "id": "phy11-07-neet-2015-re-exam-code-d-q167",
+     "exam": "NEET",
+     "q": "A remote-sensing satellite of earth revolves in a circular orbit at a height of 0.25 × 10<sup>6</sup> m above the surface of earth. If earth's radius is 6.38 × 10<sup>6</sup> m and g = 9.8 m s<sup>−2</sup>, then the orbital speed of the satellite is :",
+     "sol": "<p>v = √(GM/r) = √(gR<sup>2</sup>/(R + h)) with R + h = 6.38 × 10<sup>6</sup> + 0.25 × 10<sup>6</sup> = 6.63 × 10<sup>6</sup> m.</p><p>v = 6.38 × 10<sup>6</sup> × √(9.8/6.63 × 10<sup>6</sup>) ≈ 7.76 × 10<sup>3</sup> m/s = <b>7.76 km s<sup>−1</sup></b>.</p>",
+     "hint": "Replace GM by gR<sup>2</sup>.",
+     "paras": [
+      "7.9"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q167",
+     "o": [
+      "8.56 km s<sup>−1</sup>",
+      "9.13 km s<sup>−1</sup>",
+      "6.67 km s<sup>−1</sup>",
+      "7.76 km s<sup>−1</sup>"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "पृथ्वी का एक सुदूर-संवेदी उपग्रह पृथ्वी के पृष्ठ से 0.25 × 10<sup>6</sup> m की ऊँचाई पर एक वृत्तीय कक्षा में परिक्रमा करता है। यदि पृथ्वी की त्रिज्या 6.38 × 10<sup>6</sup> m और g = 9.8 m s<sup>−2</sup> है, तो उपग्रह की कक्षीय चाल है :",
+      "o": [
+       "8.56 km s<sup>−1</sup>",
+       "9.13 km s<sup>−1</sup>",
+       "6.67 km s<sup>−1</sup>",
+       "7.76 km s<sup>−1</sup>"
+      ],
+      "sol": "<p>v = √(GM/r) = √(gR<sup>2</sup>/(R + h)), जहाँ R + h = 6.38 × 10<sup>6</sup> + 0.25 × 10<sup>6</sup> = 6.63 × 10<sup>6</sup> m।</p><p>v = 6.38 × 10<sup>6</sup> × √(9.8/6.63 × 10<sup>6</sup>) ≈ 7.76 × 10<sup>3</sup> m/s = <b>7.76 km s<sup>−1</sup></b>।</p>",
+      "hint": "GM के स्थान पर gR<sup>2</sup> रखिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2023-topic-wise-copy-q39",
+     "exam": "NEET",
+     "q": "A satellite is orbiting just above the surface of the earth with period T. If d is the density of the earth and G is the universal constant of gravitation, the quantity 3π/(Gd) represents :",
+     "sol": "<p>Just above the surface: T = 2π√(R<sup>3</sup>/(GM)) with M = (4/3)πR<sup>3</sup>d.</p><p>T<sup>2</sup> = 4π<sup>2</sup>R<sup>3</sup>/(G × (4/3)πR<sup>3</sup>d) = 3π/(Gd). So 3π/(Gd) represents <b>T<sup>2</sup></b>.</p>",
+     "hint": "Write M in terms of density; R cancels.",
+     "paras": [
+      "7.9"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q39",
+     "o": [
+      "√T",
+      "T",
+      "T<sup>2</sup>",
+      "T<sup>3</sup>"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "एक उपग्रह पृथ्वी के पृष्ठ के ठीक ऊपर T आवर्तकाल से परिक्रमा कर रहा है। यदि d पृथ्वी का घनत्व और G सार्वत्रिक गुरुत्वाकर्षण स्थिरांक है, तो राशि 3π/(Gd) निरूपित करती है :",
+      "o": [
+       "√T",
+       "T",
+       "T<sup>2</sup>",
+       "T<sup>3</sup>"
+      ],
+      "sol": "<p>पृष्ठ के ठीक ऊपर : T = 2π√(R<sup>3</sup>/(GM)), जहाँ M = (4/3)πR<sup>3</sup>d।</p><p>T<sup>2</sup> = 4π<sup>2</sup>R<sup>3</sup>/(G × (4/3)πR<sup>3</sup>d) = 3π/(Gd)। अतः 3π/(Gd) निरूपित करता है <b>T<sup>2</sup></b>।</p>",
+      "hint": "M को घनत्व के पदों में लिखिए; R कट जाता है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "7.10",
+   "title": "Energy of an Orbiting Satellite",
+   "hi": "कक्षा में गतिशील उपग्रह की",
+   "pages": [],
+   "pdfPage": 12,
+   "questions": [
+    {
+     "id": "phy11-07-neet-2016-phase-2-code-aa-q12",
+     "exam": "NEET",
+     "q": "A satellite of mass m is orbiting the earth (of radius R) at a height h from its surface. The total energy of the satellite in terms of g<sub>0</sub>, the value of acceleration due to gravity at the earth's surface, is :",
+     "sol": "<p>For a circular orbit of radius r = R + h: E = −GMm/(2r). With GM = g<sub>0</sub>R<sup>2</sup>:</p><p><b>E = −mg<sub>0</sub>R<sup>2</sup>/(2(R + h))</b> (negative: the satellite is bound).</p>",
+     "hint": "Total energy = −(kinetic energy) = −GMm/2r.",
+     "paras": [
+      "7.10"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q12",
+     "o": [
+      "mg<sub>0</sub>R<sup>2</sup>/(2(R + h))",
+      "−mg<sub>0</sub>R<sup>2</sup>/(2(R + h))",
+      "2mg<sub>0</sub>R<sup>2</sup>/(R + h)",
+      "−2mg<sub>0</sub>R<sup>2</sup>/(R + h)"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "m द्रव्यमान का एक उपग्रह पृथ्वी (त्रिज्या R) के पृष्ठ से h ऊँचाई पर परिक्रमा कर रहा है। पृथ्वी के पृष्ठ पर गुरुत्वीय त्वरण के मान g<sub>0</sub> के पदों में उपग्रह की कुल ऊर्जा है :",
+      "o": [
+       "mg<sub>0</sub>R<sup>2</sup>/(2(R + h))",
+       "−mg<sub>0</sub>R<sup>2</sup>/(2(R + h))",
+       "2mg<sub>0</sub>R<sup>2</sup>/(R + h)",
+       "−2mg<sub>0</sub>R<sup>2</sup>/(R + h)"
+      ],
+      "sol": "<p>r = R + h त्रिज्या की वृत्तीय कक्षा के लिए : E = −GMm/(2r)। GM = g<sub>0</sub>R<sup>2</sup> रखने पर :</p><p><b>E = −mg<sub>0</sub>R<sup>2</sup>/(2(R + h))</b> (ऋणात्मक : उपग्रह बद्ध है)।</p>",
+      "hint": "कुल ऊर्जा = −(गतिज ऊर्जा) = −GMm/2r।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2024-q35-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "The minimum energy required to launch a satellite of mass m from the surface of earth of mass M and radius R in a circular orbit at an altitude of 2R from the surface of the earth is :",
+     "sol": "<p>On the surface (at rest, ignoring rotation): E<sub>i</sub> = −GMm/R. In orbit of radius r = R + 2R = 3R: E<sub>f</sub> = −GMm/(2r) = −GMm/(6R).</p><p>Minimum energy = E<sub>f</sub> − E<sub>i</sub> = GMm/R − GMm/(6R) = <b>5GmM/(6R)</b>.</p>",
+     "hint": "Orbit radius is 3R, not 2R.",
+     "paras": [
+      "7.10"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q35 (eSaral physics copy)",
+     "o": [
+      "5GmM/(6R)",
+      "2GmM/(3R)",
+      "GmM/(2R)",
+      "GmM/(3R)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "M द्रव्यमान और R त्रिज्या वाली पृथ्वी के पृष्ठ से m द्रव्यमान के एक उपग्रह को पृथ्वी के पृष्ठ से 2R ऊँचाई पर वृत्तीय कक्षा में प्रक्षेपित करने के लिए आवश्यक न्यूनतम ऊर्जा है :",
+      "o": [
+       "5GmM/(6R)",
+       "2GmM/(3R)",
+       "GmM/(2R)",
+       "GmM/(3R)"
+      ],
+      "sol": "<p>पृष्ठ पर (विराम में, घूर्णन की उपेक्षा करते हुए) : E<sub>i</sub> = −GMm/R । r = R + 2R = 3R त्रिज्या की कक्षा में : E<sub>f</sub> = −GMm/(2r) = −GMm/(6R)।</p><p>न्यूनतम ऊर्जा = E<sub>f</sub> − E<sub>i</sub> = GMm/R − GMm/(6R) = <b>5GmM/(6R)</b>।</p>",
+      "hint": "कक्षा की त्रिज्या 3R है, 2R नहीं।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy11-07-neet-2015-re-exam-code-d-q162",
+     "exam": "NEET",
+     "q": "A satellite S is moving in an elliptical orbit around the earth. The mass of the satellite is very small compared to the mass of the earth. Then,",
+     "sol": "<p>The only force on S is the earth's gravity, always directed towards the earth's centre, so the acceleration of S is <b>always directed towards the centre of the earth</b>.</p><p>Total mechanical energy is constant (not periodic); the speed (and so |p⃗|) changes along an ellipse; the angular momentum about the centre is constant in both magnitude and direction (central force, zero torque).</p>",
+     "hint": "Gravity is a central force: zero torque about the earth's centre.",
+     "paras": [
+      "7.2",
+      "7.9"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q162",
+     "o": [
+      "The total mechanical energy of S varies periodically with time",
+      "The linear momentum of S remains constant in magnitude",
+      "The acceleration of S is always directed towards the centre of the earth",
+      "The angular momentum of S about the centre of the earth changes in direction, but its magnitude remains constant"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "एक उपग्रह S पृथ्वी के चारों ओर दीर्घवृत्तीय कक्षा में घूम रहा है। उपग्रह का द्रव्यमान पृथ्वी के द्रव्यमान की तुलना में बहुत कम है। तब,",
+      "o": [
+       "S की कुल यांत्रिक ऊर्जा समय के साथ आवर्ती रूप से बदलती है",
+       "S का रैखिक संवेग परिमाण में नियत रहता है",
+       "S का त्वरण सदैव पृथ्वी के केंद्र की ओर निर्दिष्ट होता है",
+       "पृथ्वी के केंद्र के परितः S का कोणीय संवेग दिशा में बदलता है, परंतु इसका परिमाण नियत रहता है"
+      ],
+      "sol": "<p>S पर एकमात्र बल पृथ्वी का गुरुत्व है, जो सदैव पृथ्वी के केंद्र की ओर होता है, अतः S का त्वरण <b>सदैव पृथ्वी के केंद्र की ओर निर्दिष्ट</b> होता है।</p><p>कुल यांत्रिक ऊर्जा नियत रहती है (आवर्ती नहीं); दीर्घवृत्त पर चाल (और |p⃗|) बदलती है; केंद्र के परितः कोणीय संवेग परिमाण और दिशा दोनों में नियत रहता है (केंद्रीय बल, शून्य बल आघूर्ण)।</p>",
+      "hint": "गुरुत्व एक केंद्रीय बल है : पृथ्वी के केंद्र के परितः बल आघूर्ण शून्य।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2018-code-aa-q40",
+     "exam": "NEET",
+     "q": "If the mass of the Sun were ten times smaller and the universal gravitational constant were ten times larger in magnitude, which of the following is not correct?",
+     "sol": "<p>g on the Earth = GM<sub>E</sub>/R<sup>2</sup> depends on the Earth's mass, not the Sun's. With G ten times larger, g becomes ten times larger. Then a pendulum's period decreases, walking is harder and raindrops fall faster: these are correct. The statement that is <b>not correct</b> is “'g' on the Earth will not change”.</p>",
+     "hint": "The Sun's mass does not enter g on the Earth.",
+     "paras": [
+      "7.3",
+      "7.5"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q40",
+     "o": [
+      "Time period of a simple pendulum on the Earth would decrease.",
+      "Walking on the ground would become more difficult.",
+      "Raindrops will fall faster.",
+      "'g' on the Earth will not change."
+     ],
+     "a": 3,
+     "hi": {
+      "q": "यदि सूर्य का द्रव्यमान दस गुना कम होता और सार्वत्रिक गुरुत्वाकर्षण स्थिरांक परिमाण में दस गुना अधिक होता, तो निम्नलिखित में से कौन-सा सही नहीं है?",
+      "o": [
+       "पृथ्वी पर सरल लोलक का आवर्तकाल घट जाएगा।",
+       "धरती पर चलना अधिक कठिन हो जाएगा।",
+       "वर्षा की बूँदें अधिक तेजी से गिरेंगी।",
+       "पृथ्वी पर 'g' नहीं बदलेगा।"
+      ],
+      "sol": "<p>पृथ्वी पर g = GM<sub>E</sub>/R<sup>2</sup> पृथ्वी के द्रव्यमान पर निर्भर है, सूर्य के नहीं। G दस गुना होने पर g दस गुना हो जाता है। तब लोलक का आवर्तकाल घटेगा, चलना कठिन होगा और वर्षा की बूँदें तेज गिरेंगी : ये सही हैं। <b>सही नहीं</b> कथन है “पृथ्वी पर 'g' नहीं बदलेगा”।</p>",
+      "hint": "पृथ्वी पर g में सूर्य का द्रव्यमान नहीं आता।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2022-code-t2-q39",
+     "exam": "NEET",
+     "q": "Match List-I with List-II<br>(a) Gravitational constant (G) — (i) [L<sup>2</sup>T<sup>−2</sup>]<br>(b) Gravitational potential energy — (ii) [M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup>]<br>(c) Gravitational potential — (iii) [LT<sup>−2</sup>]<br>(d) Gravitational intensity — (iv) [ML<sup>2</sup>T<sup>−2</sup>]<br>Choose the correct answer from the options given below :",
+     "sol": "<p>G = Fr<sup>2</sup>/(m<sub>1</sub>m<sub>2</sub>): M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup> (ii). Potential energy is energy: ML<sup>2</sup>T<sup>−2</sup> (iv). Potential = energy/mass: L<sup>2</sup>T<sup>−2</sup> (i). Intensity = force/mass: LT<sup>−2</sup> (iii).</p><p>Answer: <b>(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)</b>.</p>",
+     "hint": "Potential = energy per kg; intensity = force per kg.",
+     "paras": [
+      "7.3",
+      "7.7"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q39",
+     "o": [
+      "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+      "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "सूची-I का सूची-II से मिलान कीजिए<br>(a) गुरुत्वाकर्षण स्थिरांक (G) — (i) [L<sup>2</sup>T<sup>−2</sup>]<br>(b) गुरुत्वीय स्थितिज ऊर्जा — (ii) [M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup>]<br>(c) गुरुत्वीय विभव — (iii) [LT<sup>−2</sup>]<br>(d) गुरुत्वीय तीव्रता — (iv) [ML<sup>2</sup>T<sup>−2</sup>]<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+       "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+       "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+       "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)"
+      ],
+      "sol": "<p>G = Fr<sup>2</sup>/(m<sub>1</sub>m<sub>2</sub>) : M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup> (ii)। स्थितिज ऊर्जा, ऊर्जा है : ML<sup>2</sup>T<sup>−2</sup> (iv)। विभव = ऊर्जा/द्रव्यमान : L<sup>2</sup>T<sup>−2</sup> (i)। तीव्रता = बल/द्रव्यमान : LT<sup>−2</sup> (iii)।</p><p>उत्तर : <b>(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)</b>।</p>",
+      "hint": "विभव = प्रति kg ऊर्जा; तीव्रता = प्रति kg बल।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 11 · Units and Measurement"
+     ]
+    },
+    {
+     "id": "phy11-07-neet-2023-topic-wise-copy-q9",
+     "exam": "NEET",
+     "q": "Two bodies of mass m and 9m are placed at a distance R. The gravitational potential on the line joining the bodies where the gravitational field equals zero, will be (G = gravitational constant) :",
+     "sol": "<p>Field zero at distance x from m: Gm/x<sup>2</sup> = G(9m)/(R − x)<sup>2</sup> ⇒ R − x = 3x ⇒ x = R/4.</p><p>V = −Gm/(R/4) − G(9m)/(3R/4) = −4Gm/R − 12Gm/R = <b>−16Gm/R</b>.</p>",
+     "hint": "Find the null point first; potentials (scalars) then simply add.",
+     "paras": [
+      "7.3",
+      "7.7"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q9",
+     "o": [
+      "−20Gm/R",
+      "−8Gm/R",
+      "−12Gm/R",
+      "−16Gm/R"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "m और 9m द्रव्यमान के दो पिंड R दूरी पर रखे हैं। पिंडों को मिलाने वाली रेखा पर उस बिंदु पर गुरुत्वीय विभव, जहाँ गुरुत्वीय क्षेत्र शून्य है, होगा (G = गुरुत्वाकर्षण स्थिरांक) :",
+      "o": [
+       "−20Gm/R",
+       "−8Gm/R",
+       "−12Gm/R",
+       "−16Gm/R"
+      ],
+      "sol": "<p>m से x दूरी पर क्षेत्र शून्य : Gm/x<sup>2</sup> = G(9m)/(R − x)<sup>2</sup> ⇒ R − x = 3x ⇒ x = R/4।</p><p>V = −Gm/(R/4) − G(9m)/(3R/4) = −4Gm/R − 12Gm/R = <b>−16Gm/R</b>।</p>",
+      "hint": "पहले शून्य क्षेत्र बिंदु ज्ञात कीजिए; विभव (अदिश) फिर सीधे जुड़ते हैं।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2016-phase-1-code-a-q7",
+     "exam": "NEET",
+     "q": "At what height from the surface of earth the gravitation potential and the value of g are −5.4 × 10<sup>7</sup> J kg<sup>−1</sup> and 6.0 m s<sup>−2</sup> respectively? Take the radius of earth as 6400 km :",
+     "sol": "<p>At distance r from the centre: V = −GM/r and g = GM/r<sup>2</sup>, so |V|/g = r.</p><p>r = 5.4 × 10<sup>7</sup>/6.0 = 9.0 × 10<sup>6</sup> m = 9000 km. Height h = 9000 − 6400 = <b>2600 km</b>.</p>",
+     "hint": "Divide the potential by g to get r directly.",
+     "paras": [
+      "7.5",
+      "7.6",
+      "7.7"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q7",
+     "o": [
+      "2600 km",
+      "1600 km",
+      "1400 km",
+      "2000 km"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "पृथ्वी के पृष्ठ से किस ऊँचाई पर गुरुत्वीय विभव और g के मान क्रमशः −5.4 × 10<sup>7</sup> J kg<sup>−1</sup> और 6.0 m s<sup>−2</sup> हैं? पृथ्वी की त्रिज्या 6400 km लीजिए :",
+      "o": [
+       "2600 km",
+       "1600 km",
+       "1400 km",
+       "2000 km"
+      ],
+      "sol": "<p>केंद्र से r दूरी पर : V = −GM/r और g = GM/r<sup>2</sup>, अतः |V|/g = r।</p><p>r = 5.4 × 10<sup>7</sup>/6.0 = 9.0 × 10<sup>6</sup> m = 9000 km। ऊँचाई h = 9000 − 6400 = <b>2600 km</b>।</p>",
+      "hint": "विभव को g से भाग देकर सीधे r प्राप्त कीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-07-neet-2021-code-p3-q38",
+     "exam": "NEET",
+     "q": "A particle of mass 'm' is projected with a velocity v = kV<sub>e</sub> (k < 1) from the surface of the earth. (V<sub>e</sub> = escape velocity) The maximum height above the surface reached by the particle is :",
+     "sol": "<p>Energy conservation with v = kV<sub>e</sub>, V<sub>e</sub><sup>2</sup> = 2GM/R: (1/2)mk<sup>2</sup>(2GM/R) − GMm/R = −GMm/(R + h).</p><p>(1 − k<sup>2</sup>)/R = 1/(R + h) ⇒ R + h = R/(1 − k<sup>2</sup>) ⇒ <b>h = Rk<sup>2</sup>/(1 − k<sup>2</sup>)</b>.</p>",
+     "hint": "Use the exact potential energy −GMm/r, not mgh.",
+     "paras": [
+      "7.7",
+      "7.8"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q38",
+     "o": [
+      "Rk<sup>2</sup>/(1 − k<sup>2</sup>)",
+      "R(k/(1 − k))<sup>2</sup>",
+      "R(k/(1 + k))<sup>2</sup>",
+      "R<sup>2</sup>k/(1 + k)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "'m' द्रव्यमान के एक कण को पृथ्वी के पृष्ठ से वेग v = kV<sub>e</sub> (k < 1) से प्रक्षेपित किया जाता है। (V<sub>e</sub> = पलायन चाल) कण द्वारा पृष्ठ से प्राप्त अधिकतम ऊँचाई है :",
+      "o": [
+       "Rk<sup>2</sup>/(1 − k<sup>2</sup>)",
+       "R(k/(1 − k))<sup>2</sup>",
+       "R(k/(1 + k))<sup>2</sup>",
+       "R<sup>2</sup>k/(1 + k)"
+      ],
+      "sol": "<p>v = kV<sub>e</sub>, V<sub>e</sub><sup>2</sup> = 2GM/R के साथ ऊर्जा संरक्षण : (1/2)mk<sup>2</sup>(2GM/R) − GMm/R = −GMm/(R + h)।</p><p>(1 − k<sup>2</sup>)/R = 1/(R + h) ⇒ R + h = R/(1 − k<sup>2</sup>) ⇒ <b>h = Rk<sup>2</sup>/(1 − k<sup>2</sup>)</b>।</p>",
+      "hint": "यथार्थ स्थितिज ऊर्जा −GMm/r लीजिए, mgh नहीं।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 24
+ },
+ "empty": [
+  {
+   "id": "7.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "7.4",
+   "title": "The Gravitational Constant",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 5
+  }
+ ],
+ "trends": {
+  "7.2": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2025,
+    2018,
+    2015
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "7.9": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2023,
+    2015
+   ],
+   "last": 2023,
+   "recent": false
+  },
+  "7.5": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2024,
+    2018,
+    2016
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "7.6": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2025,
+    2020,
+    2019,
+    2017,
+    2016
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "7.7": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2026,
+    2023,
+    2022,
+    2021,
+    2019,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "7.8": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2021,
+    2016
+   ],
+   "last": 2021,
+   "recent": false
+  },
+  "7.10": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2024,
+    2016
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "7.3": {
+   "neet": 5,
+   "jee": 0,
+   "years": [
+    2023,
+    2022,
+    2018,
+    2017
+   ],
+   "last": 2023,
+   "recent": false
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}

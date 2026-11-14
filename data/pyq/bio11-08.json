@@ -1,0 +1,2267 @@
+{
+ "chapter": "bio11-08",
+ "source": "bank",
+ "subject": "biology",
+ "class": 11,
+ "unit": 8,
+ "title": "Cell: The Unit of Life",
+ "titleHi": "कोशिका : जीवन की इकाई",
+ "ref": "NCERT Biology Class 11 · Unit 8",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo108.pdf",
+ "pdfPageOffset": 84,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "8.1",
+   "title": "What is a Cell?",
+   "hi": "कोशिका क्या है?",
+   "pages": [
+    87
+   ],
+   "pdfPage": 3
+  },
+  {
+   "id": "8.2",
+   "title": "Cell Theory",
+   "hi": "कोशिका सिद्धांत",
+   "pages": [
+    87,
+    88
+   ],
+   "pdfPage": 3
+  },
+  {
+   "id": "8.3",
+   "title": "An Overview of Cell",
+   "hi": "कोशिका का समग्र अवलोकन",
+   "pages": [
+    88,
+    89
+   ],
+   "pdfPage": 4
+  },
+  {
+   "id": "8.4",
+   "title": "Prokaryotic Cells",
+   "hi": "प्रोकैरियोटिक कोशिकाएं",
+   "pages": [
+    89,
+    90
+   ],
+   "pdfPage": 5
+  },
+  {
+   "id": "8.4.1",
+   "title": "Cell Envelope and its Modifications",
+   "hi": "कोशिका आवरण और इसके रूपांतर",
+   "pages": [
+    90,
+    91
+   ],
+   "pdfPage": 6
+  },
+  {
+   "id": "8.4.2",
+   "title": "Ribosomes and Inclusion Bodies",
+   "hi": "राइबोसोम व अंतर्विष्ट पिंड",
+   "pages": [
+    91
+   ],
+   "pdfPage": 7
+  },
+  {
+   "id": "8.5",
+   "title": "Eukaryotic Cells",
+   "hi": "यूकैरियोटिक कोशिकाएं (ससीमकेंद्रकी कोशिकाएं)",
+   "pages": [
+    91,
+    92,
+    93
+   ],
+   "pdfPage": 7
+  },
+  {
+   "id": "8.5.1",
+   "title": "Cell Membrane",
+   "hi": "कोशिका झिल्ली",
+   "pages": [
+    93,
+    94
+   ],
+   "pdfPage": 9
+  },
+  {
+   "id": "8.5.2",
+   "title": "Cell Wall",
+   "hi": "कोशिका भित्ति",
+   "pages": [
+    94
+   ],
+   "pdfPage": 10
+  },
+  {
+   "id": "8.5.3",
+   "title": "Endomembrane System",
+   "hi": "अंतः झिल्लिका तंत्र",
+   "pages": [
+    94,
+    95,
+    96
+   ],
+   "pdfPage": 10
+  },
+  {
+   "id": "8.5.4",
+   "title": "Mitochondria",
+   "hi": "सूत्रकणिका (माइटोकोंड्रिया)",
+   "pages": [
+    96,
+    97
+   ],
+   "pdfPage": 12
+  },
+  {
+   "id": "8.5.5",
+   "title": "Plastids",
+   "hi": "लवक (प्लास्टिड)",
+   "pages": [
+    97,
+    98
+   ],
+   "pdfPage": 13
+  },
+  {
+   "id": "8.5.6",
+   "title": "Ribosomes",
+   "hi": "राइबोसोम",
+   "pages": [
+    98
+   ],
+   "pdfPage": 14
+  },
+  {
+   "id": "8.5.7",
+   "title": "Cytoskeleton",
+   "hi": "साइटोपंजर (साइटोस्केलेटन)",
+   "pages": [
+    98,
+    99
+   ],
+   "pdfPage": 14
+  },
+  {
+   "id": "8.5.8",
+   "title": "Cilia and Flagella",
+   "hi": "पक्ष्माभ व कशाभिका (सीलिया तथा फलैजिला)",
+   "pages": [
+    99
+   ],
+   "pdfPage": 15
+  },
+  {
+   "id": "8.5.9",
+   "title": "Centrosome and Centrioles",
+   "hi": "तारककाय व तारककेंद्र (सैन्ट्रोसोम तथा सैन्ट्रीयोल)",
+   "pages": [
+    99,
+    100
+   ],
+   "pdfPage": 15
+  },
+  {
+   "id": "8.5.10",
+   "title": "Nucleus",
+   "hi": "केंद्रक (न्यूक्लिअस)",
+   "pages": [
+    100,
+    101,
+    102
+   ],
+   "pdfPage": 16
+  },
+  {
+   "id": "8.5.11",
+   "title": "Microbodies",
+   "hi": "सूक्ष्मकाय (माइक्रोबॉडी)",
+   "pages": [
+    102
+   ],
+   "pdfPage": 18
+  }
+ ],
+ "sections": [
+  {
+   "sec": "8.1",
+   "title": "What is a Cell?",
+   "hi": "कोशिका क्या है?",
+   "pages": [
+    87
+   ],
+   "pdfPage": 3,
+   "questions": [
+    {
+     "id": "bio11-08-ncertex-8-1-q1",
+     "exam": "NCERT Exercise",
+     "q": "Which of the following statements is <b>not</b> correct?",
+     "sol": "<p>NCERT 8.1: Antonie von Leeuwenhoek first saw and described a live cell; <b>Robert Brown later discovered the nucleus</b>, not the cell. So statement 1 is wrong. Statements 2 and 3 are correct (NCERT 8.2), and statement 4 is correct: unicellular organisms are capable of independent existence and of all essential functions of life, which is why the cell is the fundamental structural and functional unit of life.</p>",
+     "hint": "Who saw the first live cell, and what did Brown find?",
+     "paras": [
+      "8.1"
+     ],
+     "status": "draft",
+     "srcRef": "NCERT Exercise 8.1, reworded",
+     "o": [
+      "Robert Brown discovered the cell",
+      "Schleiden and Schwann together formulated the cell theory",
+      "Virchow explained that new cells are formed from pre-existing cells",
+      "A unicellular organism carries out all its life activities within a single cell"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "निम्नलिखित में से कौन-सा कथन सही <b>नहीं</b> है?",
+      "o": [
+       "कोशिका की खोज राबर्ट ब्राउन ने की थी",
+       "श्लाइडेन व श्वान ने मिलकर कोशिका सिद्धांत प्रतिपादित किया",
+       "वर्चोव ने बताया कि नई कोशिकाएं पूर्वस्थित कोशिकाओं से बनती हैं",
+       "एककोशिकीय जीव अपने जीवन के सभी कार्य एक ही कोशिका के भीतर करता है"
+      ],
+      "sol": "<p>NCERT 8.1: एंटोनी वैन ल्युवेनहाक ने पहली बार जीवित कोशिका को देखा व इसका वर्णन किया; <b>राबर्ट ब्राउन ने बाद में केंद्रक की खोज की</b>, कोशिका की नहीं। इसलिए कथन 1 गलत है। कथन 2 और 3 सही हैं (NCERT 8.2), और कथन 4 भी सही है: एककोशिकीय जीव स्वतंत्र अस्तित्व यापन व जीवन के सभी आवश्यक कार्य करने में सक्षम होते हैं, इसीलिए कोशिका जीवन की मूलभूत संरचनात्मक व क्रियात्मक इकाई है।</p>",
+      "hint": "पहली जीवित कोशिका किसने देखी, और ब्राउन ने क्या खोजा?"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.2",
+   "title": "Cell Theory",
+   "hi": "कोशिका सिद्धांत",
+   "pages": [
+    87,
+    88
+   ],
+   "pdfPage": 3,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2019-code-s2-q76",
+     "exam": "NEET",
+     "q": "The concept of \"Omnis cellula-e cellula\" regarding cell division was first proposed by :",
+     "sol": "<p>NCERT 8.2: <b>Rudolf Virchow</b> (1855) explained that cells divide and new cells form from pre-existing cells — <i>Omnis cellula-e cellula</i> — and modified the cell theory of Schleiden and Schwann.</p>",
+     "hint": "Virchow completed the cell theory.",
+     "paras": [
+      "8.2"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q76",
+     "o": [
+      "Schleiden",
+      "Aristotle",
+      "Rudolf Virchow",
+      "Theodore Schwann"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "कोशिका विभाजन के संबंध में \"Omnis cellula-e cellula\" की संकल्पना सर्वप्रथम किसने प्रस्तावित की?",
+      "o": [
+       "श्लाइडेन",
+       "अरस्तू",
+       "रुडोल्फ विर्चो",
+       "थियोडोर श्वान"
+      ],
+      "sol": "<p>NCERT 8.2: <b>रुडोल्फ विर्चो</b> (1855) ने बताया कि कोशिकाएँ विभाजित होती हैं और नई कोशिकाएँ पूर्ववर्ती कोशिकाओं से बनती हैं — <i>Omnis cellula-e cellula</i> — और श्लाइडेन तथा श्वान के कोशिका सिद्धांत को संशोधित किया।</p>",
+      "hint": "उन्होंने कोशिका सिद्धांत पूरा किया।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2019 final key, Code S2: 3)"
+    }
+   ]
+  },
+  {
+   "sec": "8.3",
+   "title": "An Overview of Cell",
+   "hi": "कोशिका का समग्र अवलोकन",
+   "pages": [
+    88,
+    89
+   ],
+   "pdfPage": 4,
+   "questions": [
+    {
+     "id": "bio11-08-ai-8-3-q1",
+     "exam": "Practice",
+     "q": "Which of the following correctly matches a cell with its size, as given in NCERT?",
+     "sol": "<p>NCERT 8.3: cells differ greatly in size and shape. <b>Mycoplasmas</b>, the smallest cells, are about <b>0.3 µm</b> long; bacteria are 3 to 5 µm; a human red blood cell is about 7.0 µm across; the largest isolated single cell is the egg of an ostrich. Nerve cells are among the <i>longest</i> cells, not the largest isolated cell.</p><p class='errata'>NCERT English (2026-27 reprint, p. 88) prints the Mycoplasma length as “0.3 mm”; it should be 0.3 µm (the Hindi edition prints 0.3 µm, and Mycoplasma is smaller than bacteria at 3–5 µm).</p>",
+     "hint": "Mycoplasma is smaller than a bacterium.",
+     "paras": [
+      "8.3"
+     ],
+     "status": "draft",
+     "srcRef": "Own question (AI) on NCERT 8.3",
+     "trap": "The English book's '0.3 mm' is a misprint for 0.3 µm.",
+     "o": [
+      "Mycoplasma (smallest cell) — about 0.3 µm long",
+      "Bacteria — about 30 to 50 µm",
+      "Human red blood cell — about 70 µm in diameter",
+      "Largest isolated single cell — a human nerve cell"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "NCERT के अनुसार, निम्नलिखित में से किस कोशिका का माप सही मिलाया गया है?",
+      "o": [
+       "माइकोप्लाज्मा (सबसे छोटी कोशिका) — लगभग 0.3 µm लंबी",
+       "जीवाणु — लगभग 30 से 50 µm",
+       "मनुष्य की लाल रक्त कोशिका — व्यास लगभग 70 µm",
+       "पृथक की गई सबसे बड़ी कोशिका — मनुष्य की तंत्रिका कोशिका"
+      ],
+      "sol": "<p>NCERT 8.3: कोशिकाएं माप व आकार में काफी भिन्न होती हैं। सबसे छोटी कोशिका <b>माइकोप्लाज्मा</b> लगभग <b>0.3 µm</b> लंबी होती है; जीवाणु 3 से 5 µm के; मनुष्य की लाल रक्त कोशिका का व्यास लगभग 7.0 µm; पृथक की गई सबसे बड़ी कोशिका शुतरमुर्ग का अंडा है। तंत्रिका कोशिकाएं सबसे <i>लंबी</i> कोशिकाओं में हैं, सबसे बड़ी पृथक कोशिका नहीं।</p><p class='errata'>NCERT अंग्रेज़ी (2026-27 पुनर्मुद्रण, पृ. 88) में माइकोप्लाज्मा की लंबाई “0.3 mm” छपी है; यह 0.3 µm होनी चाहिए (हिंदी संस्करण में 0.3 µm छपा है, और माइकोप्लाज्मा 3–5 µm के जीवाणु से छोटा है)।</p>",
+      "hint": "माइकोप्लाज्मा जीवाणु से छोटा है।",
+      "trap": "अंग्रेज़ी पुस्तक का '0.3 mm' मुद्रण त्रुटि है; सही 0.3 µm है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.4",
+   "title": "Prokaryotic Cells",
+   "hi": "प्रोकैरियोटिक कोशिकाएं",
+   "pages": [
+    89,
+    90
+   ],
+   "pdfPage": 5,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2015-re-exam-code-d-q13",
+     "exam": "NEET",
+     "q": "Which of the following structure is not found in a prokaryotic cell?",
+     "sol": "<p>NCERT 8.4: prokaryotes have ribosomes, mesosomes and a plasma membrane, but their genetic material is not enclosed by a <b>nuclear envelope</b>.</p>",
+     "hint": "Pro-karyon = before the nucleus.",
+     "paras": [
+      "8.4"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q13",
+     "o": [
+      "Ribosome",
+      "Mesosome",
+      "Plasma membrane",
+      "Nuclear envelope"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "निम्नलिखित में से कौन-सी संरचना प्रोकैरियोटिक कोशिका में नहीं पाई जाती?",
+      "o": [
+       "राइबोसोम",
+       "मीसोसोम",
+       "कोशिका झिल्ली",
+       "केंद्रक आवरण"
+      ],
+      "sol": "<p>NCERT 8.4: प्रोकैरियोटिक कोशिका में राइबोसोम, मीसोसोम तथा कोशिका झिल्ली होती है, परंतु आनुवंशिक पदार्थ <b>केंद्रक आवरण</b> से घिरा नहीं होता।</p>",
+      "hint": "प्रो-कैरियोन = केंद्रक से पहले।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)"
+    }
+   ]
+  },
+  {
+   "sec": "8.4.1",
+   "title": "Cell Envelope and its Modifications",
+   "hi": "कोशिका आवरण और इसके रूपांतर",
+   "pages": [
+    90,
+    91
+   ],
+   "pdfPage": 6,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2015-re-exam-code-d-q17",
+     "exam": "NEET",
+     "q": "The structures that help some bacteria to attach to rocks and/or host tissue are :",
+     "sol": "<p>NCERT 8.4.1: fimbriae are small bristle-like fibres on the bacterial surface; in some bacteria they help attach the cell to rocks in streams and to host tissues.</p>",
+     "hint": "Bristle-like fibres.",
+     "paras": [
+      "8.4.1"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q17",
+     "o": [
+      "Fimbriae",
+      "Mesosomes",
+      "Holdfast",
+      "Rhizoids"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "वे संरचनाएँ जो कुछ बैक्टीरिया को चट्टानों तथा/या पोषी ऊतकों से चिपकने में सहायता करती हैं :",
+      "o": [
+       "झालर (fimbriae)",
+       "मीसोसोम",
+       "स्थापनांग (holdfast)",
+       "मूलाभ"
+      ],
+      "sol": "<p>NCERT 8.4.1: झालर बैक्टीरिया की सतह पर छोटे शूक जैसे तंतु हैं; कुछ बैक्टीरिया में ये कोशिका को जलधाराओं की चट्टानों तथा पोषी ऊतकों से चिपकाने में सहायता करते हैं।</p>",
+      "hint": "शूक जैसे तंतु।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 1)"
+    },
+    {
+     "id": "bio11-08-neet-2015-re-exam-code-d-q26",
+     "exam": "NEET",
+     "q": "Chromatophores take part in :",
+     "sol": "<p>NCERT 8.4.1: in some prokaryotes such as cyanobacteria, membranous extensions into the cytoplasm called <b>chromatophores</b> contain pigments and take part in <b>photosynthesis</b>.</p>",
+     "hint": "Chromo = colour (pigment).",
+     "paras": [
+      "8.4.1"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q26",
+     "o": [
+      "Growth",
+      "Movement",
+      "Respiration",
+      "Photosynthesis"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "क्रोमैटोफोर किसमें भाग लेते हैं?",
+      "o": [
+       "वृद्धि",
+       "गति",
+       "श्वसन",
+       "प्रकाश संश्लेषण"
+      ],
+      "sol": "<p>NCERT 8.4.1: सायनो बैक्टीरिया जैसे कुछ प्रोकैरियोट में कोशिकाद्रव्य में फैली झिल्लीमय संरचनाएँ — <b>क्रोमैटोफोर</b> (chromatophores) — वर्णक रखती हैं और <b>प्रकाश संश्लेषण</b> में भाग लेती हैं।</p>",
+      "hint": "क्रोमो = रंग (वर्णक)।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)"
+    },
+    {
+     "id": "bio11-08-neet-2016-phase-2-code-aa-q105",
+     "exam": "NEET",
+     "q": "Select the wrong statement",
+     "sol": "<p>NCERT 8.4.1: pili and fimbriae do <b>not</b> help in motility — pili are elongated tubular structures and fimbriae help in attachment; flagella give motility. Statement 2 is wrong. The bacterial wall is peptidoglycan, cyanobacteria have no flagellated cells, and <i>Mycoplasma</i> is wall-less.</p>",
+     "hint": "Motility = flagella.",
+     "paras": [
+      "8.4.1"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q105",
+     "o": [
+      "Bacterial cell wall is made up of peptidoglycan",
+      "Pili and fimbriae are mainly involved in motility of bacterial cells",
+      "Cyanobacteria lack flagellated cells",
+      "Mycoplasma is a wall-less microorganism"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "गलत कथन चुनिए",
+      "o": [
+       "बैक्टीरिया की कोशिका भित्ति पेप्टिडोग्लाइकन की बनी होती है",
+       "रोम तथा झालर मुख्यतः बैक्टीरिया कोशिकाओं की गति में भाग लेते हैं",
+       "सायनो बैक्टीरिया में कशाभी कोशिकाएँ नहीं होतीं",
+       "<i>Mycoplasma</i> भित्तिरहित सूक्ष्मजीव है"
+      ],
+      "sol": "<p>NCERT 8.4.1: रोम व झालर गति में सहायक <b>नहीं</b> होते — रोम लंबी नलिकाकार संरचनाएँ हैं और झालर चिपकने में सहायता करते हैं; गति कशाभिका से होती है। कथन 2 गलत है। बैक्टीरिया की भित्ति पेप्टिडोग्लाइकन की होती है, सायनो बैक्टीरिया में कशाभी कोशिकाएँ नहीं होतीं, और <i>Mycoplasma</i> भित्तिरहित है।</p>",
+      "hint": "गति = कशाभिका।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 2)"
+    },
+    {
+     "id": "bio11-08-neet-2017-code-a-q173",
+     "exam": "NEET",
+     "q": "Which of the following components provides sticky character to the bacterial cell?",
+     "sol": "<p>NCERT 8.4.1: the bacterial cell envelope has three layers — outer <b>glycocalyx</b>, cell wall, plasma membrane. The glycocalyx (slime layer or capsule) gives the cell its sticky character.</p>",
+     "hint": "Slime layer or capsule.",
+     "paras": [
+      "8.4.1"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q173",
+     "o": [
+      "Cell wall",
+      "Nuclear membrane",
+      "Plasma membrane",
+      "Glycocalyx"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "बैक्टीरिया कोशिका को चिपचिपा गुण निम्नलिखित में से कौन-सा घटक देता है?",
+      "o": [
+       "कोशिका भित्ति",
+       "केंद्रक झिल्ली",
+       "कोशिका झिल्ली",
+       "ग्लाइकोकेलिक्स"
+      ],
+      "sol": "<p>NCERT 8.4.1: बैक्टीरिया के कोशिका आवरण में तीन परतें होती हैं — बाहरी <b>ग्लाइकोकेलिक्स</b>, कोशिका भित्ति, कोशिका झिल्ली। ग्लाइकोकेलिक्स (अवपंक पर्त या संपुटिका) कोशिका को चिपचिपा बनाता है।</p>",
+      "hint": "अवपंक पर्त या संपुटिका।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2017 key, Code A: 4)"
+    },
+    {
+     "id": "bio11-08-neet-2025-code-45-q128",
+     "exam": "NEET",
+     "q": "A specialised membranous structure in a prokaryotic cell which helps in cell wall formation, DNA replication and respiration is :",
+     "sol": "<p>NCERT 8.4: the <b>mesosome</b> is an infolding of the plasma membrane (vesicles, tubules, lamellae) that helps in cell wall formation, DNA replication and distribution to daughter cells, respiration, secretion and increasing the membrane's surface area.</p>",
+     "hint": "Prokaryotic membrane infolding.",
+     "paras": [
+      "8.4.1"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q128",
+     "o": [
+      "Mesosome",
+      "Chromatophores",
+      "Cristae",
+      "Endoplasmic Reticulum"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "प्रोकैरियोटिक कोशिका में एक विशिष्ट झिल्लीमय संरचना जो कोशिका भित्ति निर्माण, DNA प्रतिकृति तथा श्वसन में सहायता करती है, है :",
+      "o": [
+       "मीसोसोम",
+       "क्रोमैटोफोर",
+       "क्रिस्टी",
+       "अंतर्द्रव्यी जालिका"
+      ],
+      "sol": "<p>NCERT 8.4: <b>मीसोसोम</b> कोशिका झिल्ली का अंतर्वलन (पुटिका, नलिका, पटलिका) है जो कोशिका भित्ति निर्माण, DNA प्रतिकृति व संतति कोशिकाओं में वितरण, श्वसन, स्रावी प्रक्रिया तथा झिल्ली का सतही क्षेत्रफल बढ़ाने में सहायता करता है।</p>",
+      "hint": "प्रोकैरियोटिक झिल्ली का अंतर्वलन।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)"
+    }
+   ]
+  },
+  {
+   "sec": "8.4.2",
+   "title": "Ribosomes and Inclusion Bodies",
+   "hi": "राइबोसोम व अंतर्विष्ट पिंड",
+   "pages": [
+    91
+   ],
+   "pdfPage": 7,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2016-phase-1-code-a-q110",
+     "exam": "NEET",
+     "q": "A complex of ribosomes attached to single strand of RNA is known as:",
+     "sol": "<p>NCERT 8.4.2: several ribosomes attached to a single mRNA form a chain called a <b>polysome</b> (polyribosome); they translate the mRNA into proteins.</p>",
+     "hint": "Poly + ribosome.",
+     "paras": [
+      "8.4.2"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q110",
+     "o": [
+      "Polysome",
+      "Polymer",
+      "Polypeptide",
+      "Okazaki fragment"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "RNA की एकल लड़ी से जुड़े राइबोसोमों का संकुल कहलाता है :",
+      "o": [
+       "बहुसूत्र (polysome)",
+       "बहुलक",
+       "पॉलीपेप्टाइड",
+       "ओकाज़ाकी खंड"
+      ],
+      "sol": "<p>NCERT 8.4.2: एक mRNA से जुड़े अनेक राइबोसोम एक शृंखला बनाते हैं जिसे <b>बहुसूत्र</b> (बहुराइबोसोम) कहते हैं; ये mRNA का प्रोटीन में अनुवादन करते हैं।</p>",
+      "hint": "बहु + राइबोसोम।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 1)"
+    },
+    {
+     "id": "bio11-08-neet-2018-code-aa-q174",
+     "exam": "NEET",
+     "q": "Many ribosomes may associate with a single mRNA to form multiple copies of a polypeptide simultaneously. Such strings of ribosomes are termed as :",
+     "sol": "<p>NCERT 8.4.2: several ribosomes may attach to a single mRNA to form a chain called a <b>polysome</b>; each translates the mRNA, producing several copies of the polypeptide at once.</p>",
+     "hint": "Same as NEET 2016 Q110.",
+     "paras": [
+      "8.4.2"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q174",
+     "o": [
+      "Plastidome",
+      "Polyhedral bodies",
+      "Polysome",
+      "Nucleosome"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "अनेक राइबोसोम एक mRNA से जुड़कर एक साथ पॉलीपेप्टाइड की अनेक प्रतियाँ बना सकते हैं। राइबोसोमों की ऐसी शृंखलाएँ कहलाती हैं :",
+      "o": [
+       "प्लास्टिडोम",
+       "बहुफलकीय काय",
+       "बहुसूत्र (polysome)",
+       "न्यूक्लियोसोम"
+      ],
+      "sol": "<p>NCERT 8.4.2: एक mRNA से अनेक राइबोसोम जुड़कर एक शृंखला बनाते हैं जिसे <b>बहुसूत्र</b> कहते हैं; प्रत्येक राइबोसोम mRNA का अनुवादन करता है, जिससे एक साथ पॉलीपेप्टाइड की अनेक प्रतियाँ बनती हैं।</p>",
+      "hint": "NEET 2016 Q110 जैसा ही।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2018 key, Code AA: 3)"
+    },
+    {
+     "id": "bio11-08-neet-2020-code-f3-q156",
+     "exam": "NEET",
+     "q": "Which of the following statements about inclusion bodies is incorrect ?",
+     "sol": "<p>NCERT 8.4.2: inclusion bodies store reserve material in prokaryotic cytoplasm; they lie free in the cytoplasm and are not bounded by a membrane (e.g. phosphate granules, cyanophycean and glycogen granules). They are <b>not</b> involved in ingestion of food particles.</p>",
+     "hint": "Storage granules, not food vacuoles.",
+     "paras": [
+      "8.4.2"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q156",
+     "o": [
+      "They lie free in the cytoplasm",
+      "These represent reserve material in cytoplasm.",
+      "They are not bound by any membrane.",
+      "These are involved in ingestion of food particles."
+     ],
+     "a": 3,
+     "hi": {
+      "q": "अंतर्विष्ट पिंडों (inclusion bodies) के बारे में निम्नलिखित में से कौन-सा कथन गलत है?",
+      "o": [
+       "ये कोशिकाद्रव्य में मुक्त रहते हैं",
+       "ये कोशिकाद्रव्य में संचित पदार्थ दर्शाते हैं।",
+       "ये किसी झिल्ली से घिरे नहीं होते।",
+       "ये भोजन कणों के अंतर्ग्रहण में भाग लेते हैं।"
+      ],
+      "sol": "<p>NCERT 8.4.2: अंतर्विष्ट पिंड प्रोकैरियोटिक कोशिकाद्रव्य में संचित पदार्थ हैं; ये कोशिकाद्रव्य में मुक्त रहते हैं और झिल्ली से घिरे नहीं होते (जैसे फॉस्फेट कणिकाएँ, साइनोफाइसिन तथा ग्लाइकोजन कणिकाएँ)। ये भोजन कणों के अंतर्ग्रहण में भाग <b>नहीं</b> लेते।</p>",
+      "hint": "संचय कणिकाएँ, खाद्य रसधानी नहीं।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2020 final key, Code F3: 4)"
+    }
+   ]
+  },
+  {
+   "sec": "8.5",
+   "title": "Eukaryotic Cells",
+   "hi": "यूकैरियोटिक कोशिकाएं (ससीमकेंद्रकी कोशिकाएं)",
+   "pages": [
+    91,
+    92,
+    93
+   ],
+   "pdfPage": 7,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2015-re-exam-code-d-q76",
+     "exam": "NEET",
+     "q": "Cellular organelles with membranes are:",
+     "sol": "<p><b>Lysosomes</b> (single membrane), <b>Golgi apparatus</b> (single membrane) and <b>mitochondria</b> (double membrane) are all membrane-bound. Ribosomes and chromosomes have no membrane, which rules out the other options.</p>",
+     "hint": "Remove anything with ribosomes or chromosomes.",
+     "paras": [
+      "8.5"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q76",
+     "o": [
+      "Chromosomes, ribosomes and endoplasmic reticulum",
+      "Endoplasmic reticulum, ribosomes and nuclei",
+      "Lysosomes, Golgi apparatus and mitochondria",
+      "Nuclei, ribosomes and mitochondria"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "झिल्लीयुक्त कोशिकीय अंगक हैं :",
+      "o": [
+       "गुणसूत्र, राइबोसोम तथा अंतर्द्रव्यी जालिका",
+       "अंतर्द्रव्यी जालिका, राइबोसोम तथा केंद्रक",
+       "लयनकाय, गॉल्जी उपकरण तथा सूत्र कणिका",
+       "केंद्रक, राइबोसोम तथा सूत्र कणिका"
+      ],
+      "sol": "<p><b>लयनकाय</b> (एकल झिल्ली), <b>गॉल्जी उपकरण</b> (एकल झिल्ली) तथा <b>सूत्र कणिका</b> (द्विझिल्ली) सभी झिल्ली-परिबद्ध हैं। राइबोसोम तथा गुणसूत्र में झिल्ली नहीं होती, जिससे अन्य विकल्प हट जाते हैं।</p>",
+      "hint": "राइबोसोम या गुणसूत्र वाले विकल्प हटाइए।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)"
+    },
+    {
+     "id": "bio11-08-neet-2024-q159-esaral-copy",
+     "exam": "NEET",
+     "q": "Match List I with List II :<br>A. Nucleolus — I. Site of formation of glycolipid<br>B. Centriole — II. Organization like the cartwheel<br>C. Leucoplasts — III. Site for active ribosomal RNA synthesis<br>D. Golgi apparatus — IV. For storing nutrients",
+     "sol": "<ul><li>A. Nucleolus — site for active rRNA synthesis (III).</li><li>B. Centriole — cartwheel organisation (II).</li><li>C. Leucoplasts — storing nutrients (IV).</li><li>D. Golgi apparatus — site of glycolipid formation (I).</li></ul><p>A-III, B-II, C-IV, D-I.</p>",
+     "hint": "Leucoplasts store starch, oil, protein.",
+     "paras": [
+      "8.5"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q159 (eSaral copy)",
+     "o": [
+      "A-III, B-II, C-IV, D-I",
+      "A-II, B-III, C-I, D-IV",
+      "A-III, B-IV, C-II, D-I",
+      "A-I, B-II, C-III, D-IV"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "सूची I का सूची II से मिलान कीजिए :<br>A. केंद्रिका — I. ग्लाइकोलिपिड निर्माण का स्थल<br>B. तारककेंद्र — II. गाड़ी के पहिये जैसा संगठन<br>C. अवर्णीलवक — III. सक्रिय राइबोसोमल RNA संश्लेषण का स्थल<br>D. गॉल्जी उपकरण — IV. पोषकों का संचय",
+      "o": [
+       "A-III, B-II, C-IV, D-I",
+       "A-II, B-III, C-I, D-IV",
+       "A-III, B-IV, C-II, D-I",
+       "A-I, B-II, C-III, D-IV"
+      ],
+      "sol": "<ul><li>A. केंद्रिका — सक्रिय rRNA संश्लेषण का स्थल (III)।</li><li>B. तारककेंद्र — गाड़ी के पहिये जैसा संगठन (II)।</li><li>C. अवर्णीलवक — पोषकों का संचय (IV)।</li><li>D. गॉल्जी उपकरण — ग्लाइकोलिपिड निर्माण का स्थल (I)।</li></ul><p>A-III, B-II, C-IV, D-I।</p>",
+      "hint": "अवर्णीलवक स्टार्च, तेल, प्रोटीन संचित करते हैं।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.1",
+   "title": "Cell Membrane",
+   "hi": "कोशिका झिल्ली",
+   "pages": [
+    93,
+    94
+   ],
+   "pdfPage": 9,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2026-q173-esaral-copy",
+     "exam": "NEET",
+     "q": "Select the correct statements regarding cell membrane in eukaryotic cell :<br>A. Membrane of human RBCs has approximately 52% protein.<br>B. Major phospholipids are arranged in a bilayer.<br>C. Extensions of the plasma membrane into the cell form mesosomes.<br>D. Tails towards the inner part of lipids are hydrophobic and thus protected from aqueous medium.<br>E. Glycocalyx is present on the outer surface of plasma membrane.<br>Choose the correct answer from the options given below :",
+     "sol": "<ul><li>A. Human RBC membrane has about 52% protein and 40% lipid — correct (NCERT 8.5.1).</li><li>B. Major lipids are phospholipids arranged in a bilayer — correct.</li><li>C. Mesosomes are membrane extensions in <b>prokaryotes</b> — wrong for eukaryotes.</li><li>D. The non-polar tails face inwards and are protected from the aqueous medium — correct.</li><li>E. A glycocalyx is described by NCERT as the outer layer of the bacterial cell envelope, not as part of the eukaryotic membrane model.</li></ul><p>A, B and D.</p>",
+     "hint": "Mesosomes are prokaryotic.",
+     "paras": [
+      "8.5.1"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Q173 (eSaral copy)",
+     "o": [
+      "C, D and E",
+      "B, C and E",
+      "A, B and D",
+      "A, C and D"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "यूकैरियोटिक कोशिका में कोशिका झिल्ली के संबंध में सही कथन चुनिए :<br>A. मानव RBC की झिल्ली में लगभग 52% प्रोटीन होती है।<br>B. मुख्य फॉस्फोलिपिड द्विपरत में व्यवस्थित होते हैं।<br>C. कोशिका झिल्ली का कोशिका के भीतर विस्तार मीसोसोम बनाता है।<br>D. लिपिड की भीतरी ओर की पुच्छ जलविरागी होती है और इस प्रकार जलीय माध्यम से सुरक्षित रहती है।<br>E. ग्लाइकोकेलिक्स कोशिका झिल्ली की बाहरी सतह पर होता है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "C, D तथा E",
+       "B, C तथा E",
+       "A, B तथा D",
+       "A, C तथा D"
+      ],
+      "sol": "<ul><li>A. मानव RBC की झिल्ली में लगभग 52% प्रोटीन तथा 40% लिपिड — सही (NCERT 8.5.1)।</li><li>B. मुख्य लिपिड फॉस्फोलिपिड हैं जो द्विपरत में व्यवस्थित हैं — सही।</li><li>C. मीसोसोम <b>प्रोकैरियोट</b> में झिल्ली के विस्तार हैं — यूकैरियोट के लिए गलत।</li><li>D. अध्रुवीय पुच्छ भीतर की ओर रहती है और जलीय माध्यम से सुरक्षित रहती है — सही।</li><li>E. NCERT ग्लाइकोकेलिक्स को बैक्टीरिया के कोशिका आवरण की बाहरी परत बताती है, यूकैरियोटिक झिल्ली मॉडल का भाग नहीं।</li></ul><p>A, B तथा D।</p>",
+      "hint": "मीसोसोम प्रोकैरियोटिक हैं।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.2",
+   "title": "Cell Wall",
+   "hi": "कोशिका भित्ति",
+   "pages": [
+    94
+   ],
+   "pdfPage": 10,
+   "questions": [
+    {
+     "id": "bio11-08-ai-8-5-2-q1",
+     "exam": "Practice",
+     "q": "Which layer glues neighbouring plant cells together, and what is it mainly made of?",
+     "sol": "<p>NCERT 8.5.2: the <b>middle lamella</b> is a layer mainly of <b>calcium pectate</b> that holds (glues) neighbouring cells together. The primary wall of a young cell can grow; the secondary wall forms later on the inner (membrane) side. Cell wall and middle lamella may be crossed by plasmodesmata, which connect the cytoplasm of neighbouring cells.</p>",
+     "hint": "Calcium salt of pectin.",
+     "paras": [
+      "8.5.2"
+     ],
+     "status": "draft",
+     "srcRef": "Own question (AI) on NCERT 8.5.2",
+     "o": [
+      "Primary wall — cellulose",
+      "Middle lamella — calcium pectate",
+      "Secondary wall — hemicellulose",
+      "Plasma membrane — phospholipids"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "पड़ोसी पादप कोशिकाओं को आपस में कौन-सी परत चिपकाए रखती है, और वह मुख्यतः किसकी बनी होती है?",
+      "o": [
+       "प्राथमिक भित्ति — सेलुलोज",
+       "मध्यपटलिका — कैल्सियम पेक्टेट",
+       "द्वितीय भित्ति — हेमीसेलुलोज",
+       "जीवद्रव्यझिल्ली — फास्फोलिपिड"
+      ],
+      "sol": "<p>NCERT 8.5.2: <b>मध्यपटलिका</b> मुख्यतः <b>कैल्सियम पेक्टेट</b> की बनी परत है, जो आस-पास की कोशिकाओं को आपस में चिपकाए रखती है। नव कोशिका की प्राथमिक भित्ति में वृद्धि की क्षमता होती है; द्वितीय भित्ति बाद में भीतर (झिल्ली) की ओर बनती है। कोशिका भित्ति एवं मध्यपटलिका में जीवद्रव्य तंतु (प्लाज्मोडैस्मेटा) होते हैं, जो पड़ोसी कोशिकाओं के कोशिका द्रव्य को जोड़ते हैं।</p>",
+      "hint": "पेक्टिन का कैल्सियम लवण।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.3",
+   "title": "Endomembrane System",
+   "hi": "अंतः झिल्लिका तंत्र",
+   "pages": [
+    94,
+    95,
+    96
+   ],
+   "pdfPage": 10,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2016-phase-1-code-a-q136",
+     "exam": "NEET",
+     "q": "Which one of the following cell organelles is enclosed by a single membrane?",
+     "sol": "<p>NCERT 8.5.3: <b>lysosomes</b> are single-membrane vesicles. Mitochondria, chloroplasts and the nucleus are each bounded by two membranes.</p>",
+     "hint": "Endomembrane vesicle.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q136",
+     "o": [
+      "Mitochondria",
+      "Chloroplasts",
+      "Lysosomes",
+      "Nuclei"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "निम्नलिखित में से कौन-सा कोशिका अंगक एकल झिल्ली से घिरा होता है?",
+      "o": [
+       "सूत्र कणिका",
+       "हरित लवक",
+       "लयनकाय",
+       "केंद्रक"
+      ],
+      "sol": "<p>NCERT 8.5.3: <b>लयनकाय</b> एकल झिल्ली वाली पुटिकाएँ हैं। सूत्र कणिका, हरित लवक तथा केंद्रक प्रत्येक दो झिल्लियों से घिरे होते हैं।</p>",
+      "hint": "अंतःझिल्लिका तंत्र की पुटिका।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 3)"
+    },
+    {
+     "id": "bio11-08-neet-2016-phase-2-code-aa-q106",
+     "exam": "NEET",
+     "q": "A cell organelle containing hydrolytic enzymes is",
+     "sol": "<p>NCERT 8.5.3: <b>lysosomes</b> are rich in hydrolytic enzymes (lipases, proteases, carbohydrases) that are active at acidic pH.</p>",
+     "hint": "Lysis = breaking down.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q106",
+     "o": [
+      "Lysosome",
+      "Microsome",
+      "Ribosome",
+      "Mesosome"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "जल-अपघटनी एंजाइम युक्त कोशिका अंगक है",
+      "o": [
+       "लयनकाय",
+       "माइक्रोसोम",
+       "राइबोसोम",
+       "मीसोसोम"
+      ],
+      "sol": "<p>NCERT 8.5.3: <b>लयनकाय</b> जल-अपघटनी एंजाइमों (लाइपेज, प्रोटिएज, कार्बोहाइड्रेज) से भरपूर होते हैं, जो अम्लीय pH पर सक्रिय होते हैं।</p>",
+      "hint": "लयन = विघटन।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 1)"
+    },
+    {
+     "id": "bio11-08-neet-2018-code-aa-q119",
+     "exam": "NEET",
+     "q": "The Golgi complex participates in :",
+     "sol": "<p>NCERT 8.5.3: the Golgi apparatus packages materials and delivers them to intracellular targets or outside the cell — it forms <b>secretory vesicles</b>; it is also the site of glycoprotein and glycolipid formation.</p>",
+     "hint": "Packaging centre.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q119",
+     "o": [
+      "Respiration in bacteria",
+      "Formation of secretory vesicles",
+      "Fatty acid breakdown",
+      "Activation of amino acid"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "गॉल्जी सम्मिश्र किसमें भाग लेता है?",
+      "o": [
+       "बैक्टीरिया में श्वसन",
+       "स्रावी पुटिकाओं का निर्माण",
+       "वसा अम्ल का विघटन",
+       "अमीनो अम्ल का सक्रियण"
+      ],
+      "sol": "<p>NCERT 8.5.3: गॉल्जीकाय पदार्थों का संवेष्टन कर उन्हें कोशिका के भीतर लक्ष्यों तक या कोशिका के बाहर भेजता है — यह <b>स्रावी पुटिकाएँ</b> बनाता है; यह ग्लाइको प्रोटीन तथा ग्लाइकोलिपिड निर्माण का स्थल भी है।</p>",
+      "hint": "संवेष्टन केंद्र।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2018 key, Code AA: 2)"
+    },
+    {
+     "id": "bio11-08-neet-2018-code-aa-q173",
+     "exam": "NEET",
+     "q": "Which of the following events does not occur in rough endoplasmic reticulum?",
+     "sol": "<p>In the rough endoplasmic reticulum, the signal peptide is cleaved, proteins are folded and their glycosylation begins. <b>Phospholipid (lipid) synthesis</b> takes place in the smooth endoplasmic reticulum (NCERT 8.5.3: SER is the major site for lipid synthesis).</p>",
+     "hint": "Lipids → SER.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q173",
+     "o": [
+      "Cleavage of signal peptide",
+      "Protein glycosylation",
+      "Protein folding",
+      "Phospholipid synthesis"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "निम्नलिखित में से कौन-सी घटना खुरदरी अंतर्द्रव्यी जालिका में नहीं होती?",
+      "o": [
+       "संकेत पेप्टाइड का विदलन",
+       "प्रोटीन का ग्लाइकोसिलीकरण",
+       "प्रोटीन का वलन",
+       "फॉस्फोलिपिड संश्लेषण"
+      ],
+      "sol": "<p>खुरदरी अंतर्द्रव्यी जालिका में संकेत पेप्टाइड का विदलन, प्रोटीन का वलन तथा ग्लाइकोसिलीकरण का आरंभ होता है। <b>फॉस्फोलिपिड (लिपिड) संश्लेषण</b> चिकनी अंतर्द्रव्यी जालिका में होता है (NCERT 8.5.3: SER लिपिड संश्लेषण का मुख्य स्थल है)।</p>",
+      "hint": "लिपिड → SER।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)"
+    },
+    {
+     "id": "bio11-08-neet-2019-code-s2-q68",
+     "exam": "NEET",
+     "q": "Which of the following statements is not correct?",
+     "sol": "<p>NCERT 8.5.3: lysosomes are membrane-bound vesicles formed by packaging in the <b>Golgi apparatus</b> (not the endoplasmic reticulum); they contain hydrolytic enzymes active at acidic pH. Statement 2 is not correct.</p>",
+     "hint": "Lysosomes bud off the Golgi.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q68",
+     "o": [
+      "Lysosomes are membrane bound structures.",
+      "Lysosomes are formed by the process of packaging in the endoplasmic reticulum.",
+      "Lysosomes have numerous hydrolytic enzymes.",
+      "The hydrolytic enzymes of lysosomes are active under acidic pH."
+     ],
+     "a": 1,
+     "hi": {
+      "q": "निम्नलिखित में से कौन-सा कथन सही नहीं है?",
+      "o": [
+       "लयनकाय झिल्ली-परिबद्ध संरचनाएँ हैं।",
+       "लयनकाय अंतर्द्रव्यी जालिका में संवेष्टन की प्रक्रिया द्वारा बनते हैं।",
+       "लयनकायों में अनेक जल-अपघटनी एंजाइम होते हैं।",
+       "लयनकायों के जल-अपघटनी एंजाइम अम्लीय pH पर सक्रिय होते हैं।"
+      ],
+      "sol": "<p>NCERT 8.5.3: लयनकाय झिल्ली-परिबद्ध पुटिकाएँ हैं जो <b>गॉल्जीकाय</b> में संवेष्टन विधि द्वारा बनते हैं (अंतर्द्रव्यी जालिका में नहीं); इनमें अम्लीय pH पर सक्रिय जल-अपघटनी एंजाइम होते हैं। कथन 2 सही नहीं है।</p>",
+      "hint": "लयनकाय गॉल्जी से बनते हैं।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)"
+    },
+    {
+     "id": "bio11-08-neet-2020-code-f3-q128",
+     "exam": "NEET",
+     "q": "Which is the important site of formation of glycoproteins and glycolipids in eukaryotic cells?",
+     "sol": "<p>NCERT 8.5.3: the <b>Golgi apparatus</b> is the important site of formation of glycoproteins and glycolipids.</p>",
+     "hint": "NCERT's line about the Golgi.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q128",
+     "o": [
+      "Golgi bodies",
+      "Polysomes",
+      "Endoplasmic reticulum",
+      "Peroxisomes"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "यूकैरियोटिक कोशिकाओं में ग्लाइकोप्रोटीन तथा ग्लाइकोलिपिड निर्माण का महत्वपूर्ण स्थल कौन-सा है?",
+      "o": [
+       "गॉल्जीकाय",
+       "बहुसूत्र",
+       "अंतर्द्रव्यी जालिका",
+       "परॉक्सीसोम"
+      ],
+      "sol": "<p>NCERT 8.5.3: <b>गॉल्जीकाय</b> ग्लाइको प्रोटीन तथा ग्लाइकोलिपिड निर्माण का प्रमुख स्थल है।</p>",
+      "hint": "गॉल्जी के बारे में NCERT की पंक्ति।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2020 final key, Code F3: 1)"
+    },
+    {
+     "id": "bio11-08-neet-2021-code-p3-q167",
+     "exam": "NEET",
+     "q": "The organelles that are included in the endomembrane system are",
+     "sol": "<p>NCERT 8.5.3: the endomembrane system includes the <b>endoplasmic reticulum, Golgi complex, lysosomes and vacuoles</b>, whose functions are coordinated. Mitochondria, chloroplasts and peroxisomes are not included; ribosomes are not membranous.</p>",
+     "hint": "No mitochondria, no ribosomes.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q167",
+     "o": [
+      "Golgi complex, Endoplasmic reticulum, Mitochondria and Lysosomes",
+      "Endoplasmic reticulum, Mitochondria, Ribosomes and Lysosomes",
+      "Endoplasmic reticulum, Golgi complex, Lysosomes and Vacuoles",
+      "Golgi complex, Mitochondria, Ribosomes and Lysosomes"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "अंतःझिल्लिका तंत्र में सम्मिलित अंगक हैं",
+      "o": [
+       "गॉल्जी सम्मिश्र, अंतर्द्रव्यी जालिका, सूत्र कणिका तथा लयनकाय",
+       "अंतर्द्रव्यी जालिका, सूत्र कणिका, राइबोसोम तथा लयनकाय",
+       "अंतर्द्रव्यी जालिका, गॉल्जी सम्मिश्र, लयनकाय तथा रसधानी",
+       "गॉल्जी सम्मिश्र, सूत्र कणिका, राइबोसोम तथा लयनकाय"
+      ],
+      "sol": "<p>NCERT 8.5.3: अंतःझिल्लिका तंत्र में <b>अंतर्द्रव्यी जालिका, गॉल्जी सम्मिश्र, लयनकाय तथा रसधानी</b> आते हैं, जिनके कार्य समन्वित हैं। सूत्र कणिका, हरित लवक तथा परॉक्सीसोम इसमें नहीं आते; राइबोसोम झिल्लीमय नहीं हैं।</p>",
+      "hint": "सूत्र कणिका नहीं, राइबोसोम नहीं।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2021 final key, Code P3: 3)"
+    },
+    {
+     "id": "bio11-08-neet-2022-code-t2-q159",
+     "exam": "NEET",
+     "q": "Which of the following statements with respect to Endoplasmic Reticulum is incorrect?",
+     "sol": "<p>The ER is found only in eukaryotic cells; prokaryotes have <b>no ER</b> at all, neither RER nor SER (NCERT 8.4: no membrane-bound organelles). Statement 2 is incorrect. SER lacks ribosomes and makes lipids; RER carries ribosomes.</p>",
+     "hint": "Prokaryotes lack membrane-bound organelles.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q159",
+     "o": [
+      "SER is devoid of ribosomes",
+      "In prokaryotes only RER are present",
+      "SER are the sites for lipid synthesis",
+      "RER has ribosomes attached to ER"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "अंतर्द्रव्यी जालिका के संबंध में निम्नलिखित में से कौन-सा कथन गलत है?",
+      "o": [
+       "SER राइबोसोम रहित होती है",
+       "प्रोकैरियोट में केवल RER होती है",
+       "SER लिपिड संश्लेषण के स्थल हैं",
+       "RER में ER से राइबोसोम जुड़े होते हैं"
+      ],
+      "sol": "<p>ER केवल यूकैरियोटिक कोशिकाओं में होती है; प्रोकैरियोट में कोई <b>ER नहीं</b> होती, न RER न SER (NCERT 8.4: झिल्ली-परिबद्ध अंगक नहीं)। कथन 2 गलत है। SER में राइबोसोम नहीं होते और यह लिपिड बनाती है; RER पर राइबोसोम होते हैं।</p>",
+      "hint": "प्रोकैरियोट में झिल्ली-परिबद्ध अंगक नहीं।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "bio11-08-neet-2023-topic-wise-copy-q54",
+     "exam": "NEET",
+     "q": "Which of the following are NOT considered as the part of endomembrane system?<br>A. Mitochondria<br>B. Endoplasmic Reticulum<br>C. Chloroplasts<br>D. Golgi complex<br>E. Peroxisomes<br>Choose the most appropriate answer from the options given below :",
+     "sol": "<p>NCERT 8.5.3: <b>mitochondria, chloroplasts and peroxisomes</b> are not considered part of the endomembrane system because their functions are not coordinated with the endoplasmic reticulum, Golgi, lysosomes and vacuoles. A, C and E.</p>",
+     "hint": "NCERT names these three.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q54",
+     "o": [
+      "A, D and E only",
+      "B and D only",
+      "A, C and E only",
+      "A and D only"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "निम्नलिखित में से कौन अंतःझिल्लिका तंत्र का भाग नहीं माने जाते?<br>A. सूत्र कणिका<br>B. अंतर्द्रव्यी जालिका<br>C. हरित लवक<br>D. गॉल्जी सम्मिश्र<br>E. परॉक्सीसोम<br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+      "o": [
+       "केवल A, D तथा E",
+       "केवल B तथा D",
+       "केवल A, C तथा E",
+       "केवल A तथा D"
+      ],
+      "sol": "<p>NCERT 8.5.3: <b>सूत्र कणिका, हरित लवक तथा परॉक्सीसोम</b> अंतःझिल्लिका तंत्र के भाग नहीं माने जाते क्योंकि इनके कार्य अंतर्द्रव्यी जालिका, गॉल्जी, लयनकाय तथा रसधानी से समन्वित नहीं हैं। A, C तथा E।</p>",
+      "hint": "NCERT इन्हीं तीनों के नाम देती है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "bio11-08-neet-2025-code-45-q140",
+     "exam": "NEET",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R) :<br>Assertion (A): The primary function of the Golgi apparatus is to package the materials made by the endoplasmic reticulum and deliver it to intracellular targets and outside the cell.<br>Reason (R): Vesicles containing materials made by the endoplasmic reticulum fuse with the cis face of the Golgi apparatus, and they are modified and released from the trans face of the Golgi apparatus.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "sol": "<p>NCERT 8.5.3: the Golgi apparatus packages materials made by the endoplasmic reticulum and delivers them to intracellular targets or outside the cell (A true). Materials arrive in vesicles that fuse with the <b>cis</b> (forming) face and move towards the <b>trans</b> (maturing) face, from which they are released after modification (R true and explains A).</p>",
+     "hint": "Cis = receiving face.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q140",
+     "o": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) तथा दूसरे को कारण (R) कहा गया है :<br>अभिकथन (A) : गॉल्जी उपकरण का प्राथमिक कार्य अंतर्द्रव्यी जालिका द्वारा बनाए गए पदार्थों का संवेष्टन कर उन्हें कोशिका के भीतर लक्ष्यों तक तथा कोशिका के बाहर पहुँचाना है।<br>कारण (R) : अंतर्द्रव्यी जालिका द्वारा बनाए गए पदार्थों वाली पुटिकाएँ गॉल्जी उपकरण के सिस फलक से संलयित होती हैं, और वे रूपांतरित होकर गॉल्जी उपकरण के ट्रांस फलक से मुक्त होती हैं।<br>उपर्युक्त कथनों के आलोक में, सही उत्तर चुनिए :",
+      "o": [
+       "A तथा R दोनों सत्य हैं और R, A की सही व्याख्या है",
+       "A तथा R दोनों सत्य हैं परंतु R, A की सही व्याख्या नहीं है",
+       "A सत्य है परंतु R असत्य है",
+       "A असत्य है परंतु R सत्य है"
+      ],
+      "sol": "<p>NCERT 8.5.3: गॉल्जीकाय अंतर्द्रव्यी जालिका द्वारा बने पदार्थों का संवेष्टन कर उन्हें कोशिका के भीतर लक्ष्यों तक या कोशिका के बाहर पहुँचाता है (A सत्य)। पदार्थ पुटिकाओं में आते हैं जो <b>सिस</b> (निर्माण) सतह से संलयित होती हैं और <b>ट्रांस</b> (परिपक्व) सतह की ओर बढ़ते हैं, जहाँ से रूपांतरण के बाद मुक्त होते हैं (R सत्य और A की व्याख्या करता है)।</p>",
+      "hint": "सिस = ग्राही सतह।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.4",
+   "title": "Mitochondria",
+   "hi": "सूत्रकणिका (माइटोकोंड्रिया)",
+   "pages": [
+    96,
+    97
+   ],
+   "pdfPage": 12,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2017-code-a-q114",
+     "exam": "NEET",
+     "q": "Which of the following cell organelles is responsible for extracting energy from carbohydrates to form ATP?",
+     "sol": "<p>NCERT 8.5.4: <b>mitochondria</b> are the sites of aerobic respiration; they oxidise food (carbohydrates) and produce energy as ATP — the 'powerhouse' of the cell.</p>",
+     "hint": "Powerhouse.",
+     "paras": [
+      "8.5.4"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q114",
+     "o": [
+      "Lysosome",
+      "Ribosome",
+      "Chloroplast",
+      "Mitochondrion"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "कार्बोहाइड्रेटों से ऊर्जा निकालकर ATP बनाने के लिए कौन-सा कोशिका अंगक उत्तरदायी है?",
+      "o": [
+       "लयनकाय",
+       "राइबोसोम",
+       "हरित लवक",
+       "सूत्र कणिका"
+      ],
+      "sol": "<p>NCERT 8.5.4: <b>सूत्र कणिका</b> वायवीय श्वसन के स्थल हैं; ये भोजन (कार्बोहाइड्रेट) का ऑक्सीकरण कर ATP के रूप में ऊर्जा उत्पन्न करती हैं — कोशिका का 'ऊर्जा घर'।</p>",
+      "hint": "ऊर्जा घर।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2017 key, Code A: 4)"
+    },
+    {
+     "id": "bio11-08-neet-2019-code-s2-q54",
+     "exam": "NEET",
+     "q": "Which of the following statements regarding mitochondria is incorrect?",
+     "sol": "<p>NCERT 8.5.4: the inner membrane forms cristae; the matrix has a single circular DNA and 70S ribosomes; the outer membrane is porous. The enzymes of electron transport (respiratory chain) lie in the <b>inner</b> membrane, not the outer — statement 4 is incorrect.</p>",
+     "hint": "ETS sits on the cristae.",
+     "paras": [
+      "8.5.4"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q54",
+     "o": [
+      "Inner membrane is convoluted with infoldings.",
+      "Mitochondrial matrix contains single circular DNA molecule and ribosomes.",
+      "Outer membrane is permeable to monomers of carbohydrates, fats and proteins.",
+      "Enzymes of electron transport are embedded in outer membrane."
+     ],
+     "a": 3,
+     "hi": {
+      "q": "सूत्र कणिका के संबंध में निम्नलिखित में से कौन-सा कथन गलत है?",
+      "o": [
+       "भीतरी झिल्ली अंतर्वलनों सहित कुंडलित होती है।",
+       "सूत्र कणिका की आधात्री में एकल वृत्ताकार DNA अणु तथा राइबोसोम होते हैं।",
+       "बाहरी झिल्ली कार्बोहाइड्रेट, वसा तथा प्रोटीन के एकलकों के लिए पारगम्य होती है।",
+       "इलेक्ट्रॉन परिवहन के एंजाइम बाहरी झिल्ली में धँसे होते हैं।"
+      ],
+      "sol": "<p>NCERT 8.5.4: भीतरी झिल्ली क्रिस्टी बनाती है; आधात्री में एकल वृत्ताकार DNA तथा 70S राइबोसोम होते हैं; बाहरी झिल्ली सरंध्र होती है। इलेक्ट्रॉन परिवहन (श्वसन शृंखला) के एंजाइम <b>भीतरी</b> झिल्ली में होते हैं, बाहरी में नहीं — कथन 4 गलत है।</p>",
+      "hint": "ETS क्रिस्टी पर।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2019 final key, Code S2: 4)"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.5",
+   "title": "Plastids",
+   "hi": "लवक (प्लास्टिड)",
+   "pages": [
+    97,
+    98
+   ],
+   "pdfPage": 13,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2024-q158-esaral-copy",
+     "exam": "NEET",
+     "q": "The DNA present in chloroplast is:",
+     "sol": "<p>NCERT 8.5.5: the chloroplast stroma contains small, <b>double-stranded circular</b> DNA molecules and ribosomes.</p>",
+     "hint": "Like bacterial DNA.",
+     "paras": [
+      "8.5.5"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q158 (eSaral copy)",
+     "o": [
+      "Linear, double stranded",
+      "Circular, double stranded",
+      "Linear, single stranded",
+      "Circular, single stranded"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "हरित लवक में उपस्थित DNA है :",
+      "o": [
+       "रैखिक, द्विरज्जुकी",
+       "वृत्ताकार, द्विरज्जुकी",
+       "रैखिक, एकलरज्जुकी",
+       "वृत्ताकार, एकलरज्जुकी"
+      ],
+      "sol": "<p>NCERT 8.5.5: हरित लवक की पीठिका में छोटे, <b>द्विरज्जुकी वृत्ताकार</b> DNA अणु तथा राइबोसोम होते हैं।</p>",
+      "hint": "बैक्टीरिया के DNA जैसा।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.6",
+   "title": "Ribosomes",
+   "hi": "राइबोसोम",
+   "pages": [
+    98
+   ],
+   "pdfPage": 14,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2025-code-45-q98",
+     "exam": "NEET",
+     "q": "From the statements given below choose the correct option :<br>A. The eukaryotic ribosomes are 80S and prokaryotic ribosomes are 70S.<br>B. Each ribosome has two sub-units.<br>C. The two sub-units of 80S ribosome are 60S and 40S while that of 70S are 50S and 30S.<br>D. The two sub-units of 80S ribosome are 60S and 20S and that of 70S are 50S and 20S.<br>E. The two sub-units of 80S ribosome are 60S and 30S and that of 70S are 50S and 30S.",
+     "sol": "<p>NCERT 8.5.6: eukaryotic ribosomes are 80S (subunits 60S + 40S) and prokaryotic ribosomes 70S (50S + 30S); each ribosome has two subunits. A, B and C are true; D and E give wrong subunits.</p>",
+     "hint": "60 + 40, 50 + 30 (S values don't add).",
+     "paras": [
+      "8.5.6"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q98",
+     "o": [
+      "A, B, C are true",
+      "A, B, D are true",
+      "A, B, E are true",
+      "B, D, E are true"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "नीचे दिए गए कथनों में से सही विकल्प चुनिए :<br>A. यूकैरियोटिक राइबोसोम 80S तथा प्रोकैरियोटिक राइबोसोम 70S होते हैं।<br>B. प्रत्येक राइबोसोम में दो उपइकाइयाँ होती हैं।<br>C. 80S राइबोसोम की दो उपइकाइयाँ 60S तथा 40S हैं जबकि 70S की 50S तथा 30S हैं।<br>D. 80S राइबोसोम की दो उपइकाइयाँ 60S तथा 20S हैं और 70S की 50S तथा 20S हैं।<br>E. 80S राइबोसोम की दो उपइकाइयाँ 60S तथा 30S हैं और 70S की 50S तथा 30S हैं।",
+      "o": [
+       "A, B, C सत्य हैं",
+       "A, B, D सत्य हैं",
+       "A, B, E सत्य हैं",
+       "B, D, E सत्य हैं"
+      ],
+      "sol": "<p>NCERT 8.5.6: यूकैरियोटिक राइबोसोम 80S (उपइकाइयाँ 60S + 40S) तथा प्रोकैरियोटिक 70S (50S + 30S) होते हैं; प्रत्येक राइबोसोम में दो उपइकाइयाँ होती हैं। A, B तथा C सत्य हैं; D तथा E गलत उपइकाइयाँ बताते हैं।</p>",
+      "hint": "60 + 40, 50 + 30 (S मान जुड़ते नहीं)।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.7",
+   "title": "Cytoskeleton",
+   "hi": "साइटोपंजर (साइटोस्केलेटन)",
+   "pages": [
+    98,
+    99
+   ],
+   "pdfPage": 14,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2023-topic-wise-copy-q55",
+     "exam": "NEET",
+     "q": "Which of the following functions is carried out by cytoskeleton in a cell?",
+     "sol": "<p>NCERT 8.5.7: the cytoskeleton (microtubules, microfilaments, intermediate filaments) gives mechanical support, <b>motility</b> and maintains cell shape. Motility is the function named among the options.</p>",
+     "hint": "Support, motility, shape.",
+     "paras": [
+      "8.5.7"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q55",
+     "o": [
+      "Transportation",
+      "Nuclear division",
+      "Protein synthesis",
+      "Motility"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "कोशिका में साइटोपंजर (cytoskeleton) द्वारा निम्नलिखित में से कौन-सा कार्य किया जाता है?",
+      "o": [
+       "परिवहन",
+       "केंद्रक विभाजन",
+       "प्रोटीन संश्लेषण",
+       "गतिशीलता"
+      ],
+      "sol": "<p>NCERT 8.5.7: साइटोपंजर (सूक्ष्मनलिकाएँ, सूक्ष्मतंतु, मध्यवर्ती तंतु) यांत्रिक सहारा, <b>गतिशीलता</b> तथा कोशिका के आकार को बनाए रखने का कार्य करता है। विकल्पों में गतिशीलता ही इसका कार्य है।</p>",
+      "hint": "सहारा, गतिशीलता, आकार।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.10",
+   "title": "Nucleus",
+   "hi": "केंद्रक (न्यूक्लिअस)",
+   "pages": [
+    100,
+    101,
+    102
+   ],
+   "pdfPage": 16,
+   "questions": [
+    {
+     "id": "bio11-08-neet-2015-re-exam-code-d-q74",
+     "exam": "NEET",
+     "q": "Balbiani rings are sites of:",
+     "sol": "<p>Balbiani rings are very large chromosome puffs on the polytene chromosomes of insect salivary glands (e.g. <i>Chironomus</i>); they are sites of active transcription, i.e. <b>RNA</b> synthesis, whose products are used for protein synthesis. (Beyond NCERT.)</p>",
+     "hint": "Puffs = active genes.",
+     "paras": [
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q74",
+     "o": [
+      "Nucleotide synthesis",
+      "Polysaccharide synthesis",
+      "RNA and protein synthesis",
+      "Lipid synthesis"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "बालबियानी वलय (Balbiani rings) किसके स्थल हैं?",
+      "o": [
+       "न्यूक्लियोटाइड संश्लेषण",
+       "पॉलीसैकेराइड संश्लेषण",
+       "RNA तथा प्रोटीन संश्लेषण",
+       "लिपिड संश्लेषण"
+      ],
+      "sol": "<p>बालबियानी वलय कीटों की लार ग्रंथियों (जैसे <i>Chironomus</i>) के पॉलीटीन गुणसूत्रों पर बहुत बड़े फूले हुए भाग (puffs) हैं; ये सक्रिय अनुलेखन अर्थात् <b>RNA</b> संश्लेषण के स्थल हैं, जिनके उत्पाद प्रोटीन संश्लेषण में प्रयुक्त होते हैं। (NCERT से बाहर।)</p>",
+      "hint": "पफ = सक्रिय जीन।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)"
+    },
+    {
+     "id": "bio11-08-neet-2018-code-aa-q121",
+     "exam": "NEET",
+     "q": "Which of the following is true for nucleolus?",
+     "sol": "<p>NCERT 8.5.10: the nucleolus is a non-membrane-bound body in the nucleus; it is the site of active <b>ribosomal RNA synthesis</b>. Larger and more numerous nucleoli occur in cells actively synthesising protein (not specifically dividing cells), and it does not form the spindle.</p>",
+     "hint": "rRNA factory.",
+     "paras": [
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q121",
+     "o": [
+      "It takes part in spindle formation.",
+      "It is a membrane-bound structure.",
+      "Larger nucleoli are present in dividing cells.",
+      "It is a site for active ribosomal RNA synthesis."
+     ],
+     "a": 3,
+     "hi": {
+      "q": "केंद्रिका के लिए निम्नलिखित में से कौन-सा सत्य है?",
+      "o": [
+       "यह तर्कु निर्माण में भाग लेती है।",
+       "यह झिल्ली-परिबद्ध संरचना है।",
+       "विभाजित होती कोशिकाओं में बड़ी केंद्रिकाएँ होती हैं।",
+       "यह सक्रिय राइबोसोमल RNA संश्लेषण का स्थल है।"
+      ],
+      "sol": "<p>NCERT 8.5.10: केंद्रिका केंद्रक में झिल्ली रहित संरचना है; यह सक्रिय <b>राइबोसोमल RNA संश्लेषण</b> का स्थल है। बड़ी तथा अधिक केंद्रिकाएँ सक्रिय प्रोटीन संश्लेषी कोशिकाओं में होती हैं (विशेषतः विभाजित कोशिकाओं में नहीं), और यह तर्कु नहीं बनाती।</p>",
+      "hint": "rRNA का कारखाना।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)"
+    },
+    {
+     "id": "bio11-08-neet-2019-code-s2-q47",
+     "exam": "NEET",
+     "q": "The shorter and longer arms of a submetacentric chromosome are referred to as :",
+     "sol": "<p>By convention the shorter arm of a chromosome is the <b>p-arm</b> (petite) and the longer arm the <b>q-arm</b>. (Beyond NCERT.)</p>",
+     "hint": "p = petite.",
+     "paras": [
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q47",
+     "o": [
+      "q-arm and p-arm respectively",
+      "m-arm and n-arm respectively",
+      "s-arm and l-arm respectively",
+      "p-arm and q-arm respectively"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "उपमध्यकेंद्री गुणसूत्र की छोटी तथा लंबी भुजाएँ क्रमशः कहलाती हैं :",
+      "o": [
+       "क्रमशः q-भुजा तथा p-भुजा",
+       "क्रमशः m-भुजा तथा n-भुजा",
+       "क्रमशः s-भुजा तथा l-भुजा",
+       "क्रमशः p-भुजा तथा q-भुजा"
+      ],
+      "sol": "<p>परंपरा के अनुसार गुणसूत्र की छोटी भुजा <b>p-भुजा</b> (petite) तथा लंबी भुजा <b>q-भुजा</b> कहलाती है। (NCERT से बाहर।)</p>",
+      "hint": "p = petite (छोटी)।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2019 final key, Code S2: 4)"
+    },
+    {
+     "id": "bio11-08-neet-2021-code-p3-q119",
+     "exam": "NEET",
+     "q": "When the centromere is situated in the middle of two equal arms of chromosomes, the chromosome is referred as :",
+     "sol": "<p>NCERT 8.5.10: a chromosome with the centromere in the middle forming two equal arms is <b>metacentric</b>.</p>",
+     "hint": "Meta-centric: centromere in the middle.",
+     "paras": [
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q119",
+     "o": [
+      "Acrocentric",
+      "Metacentric",
+      "Telocentric",
+      "Sub-metacentric"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "जब गुणसूत्रबिंदु गुणसूत्र की दो बराबर भुजाओं के मध्य में स्थित होता है, तो गुणसूत्र कहलाता है :",
+      "o": [
+       "अग्रबिंदु",
+       "मध्यकेंद्री",
+       "अंतकेंद्री",
+       "उपमध्यकेंद्री"
+      ],
+      "sol": "<p>NCERT 8.5.10: जिस गुणसूत्र में गुणसूत्रबिंदु मध्य में हो और दो बराबर भुजाएँ बनें, वह <b>मध्यकेंद्री</b> कहलाता है।</p>",
+      "hint": "मध्य।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2021 final key, Code P3: 2)"
+    },
+    {
+     "id": "bio11-08-neet-2022-code-t2-q136",
+     "exam": "NEET",
+     "q": "Match List-I with List-II :<br>(a) Metacentric chromosome — (i) Centromere situated close to the end forming one extremely short and one very long arms<br>(b) Acrocentric chromosome — (ii) Centromere at the terminal end<br>(c) Sub-metacentric chromosome — (iii) Centromere in the middle forming two equal arms of chromosomes<br>(d) Telocentric chromosome — (iv) Centromere slightly away from the middle forming one shorter arm and one longer arm",
+     "sol": "<ul><li>(a) Metacentric — centromere in the middle, two equal arms (iii).</li><li>(b) Acrocentric — centromere close to the end: one extremely short and one very long arm (i).</li><li>(c) Sub-metacentric — centromere slightly away from the middle: one shorter, one longer arm (iv).</li><li>(d) Telocentric — terminal centromere (ii).</li></ul><p>(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii) (NCERT 8.5.10).</p>",
+     "hint": "Telo = end.",
+     "paras": [
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q136",
+     "o": [
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(a) मध्यकेंद्री गुणसूत्र — (i) गुणसूत्रबिंदु सिरे के पास, जिससे एक अत्यंत छोटी तथा एक बहुत लंबी भुजा बनती है<br>(b) अग्रबिंदु गुणसूत्र — (ii) गुणसूत्रबिंदु अंतिम सिरे पर<br>(c) उपमध्यकेंद्री गुणसूत्र — (iii) गुणसूत्रबिंदु मध्य में, जिससे गुणसूत्र की दो बराबर भुजाएँ बनती हैं<br>(d) अंतकेंद्री गुणसूत्र — (iv) गुणसूत्रबिंदु मध्य से थोड़ा हटकर, जिससे एक छोटी तथा एक लंबी भुजा बनती है",
+      "o": [
+       "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+       "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+       "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
+      ],
+      "sol": "<ul><li>(a) मध्यकेंद्री — गुणसूत्रबिंदु मध्य में, दो बराबर भुजाएँ (iii)।</li><li>(b) अग्रबिंदु — गुणसूत्रबिंदु सिरे के पास: एक अत्यंत छोटी तथा एक बहुत लंबी भुजा (i)।</li><li>(c) उपमध्यकेंद्री — गुणसूत्रबिंदु मध्य से थोड़ा हटकर: एक छोटी, एक लंबी भुजा (iv)।</li><li>(d) अंतकेंद्री — अंतिम सिरे पर गुणसूत्रबिंदु (ii)।</li></ul><p>(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii) (NCERT 8.5.10)।</p>",
+      "hint": "अंत = सिरा।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "bio11-08-neet-2026-q106-esaral-copy",
+     "exam": "NEET",
+     "q": "Which one of the following is the site for active ribosomal RNA synthesis?",
+     "sol": "<p>NCERT 8.5.10: the <b>nucleolus</b> is the site for active ribosomal RNA synthesis.</p>",
+     "hint": "Same as NEET 2018 Q121.",
+     "paras": [
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Q106 (eSaral copy)",
+     "o": [
+      "Nucleolus",
+      "Kinetochore",
+      "Centrosome",
+      "Chromatin"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "निम्नलिखित में से कौन सक्रिय राइबोसोमल RNA संश्लेषण का स्थल है?",
+      "o": [
+       "केंद्रिका",
+       "काइनेटोकोर",
+       "तारककाय",
+       "क्रोमैटिन"
+      ],
+      "sol": "<p>NCERT 8.5.10: <b>केंद्रिका</b> सक्रिय राइबोसोमल RNA संश्लेषण का स्थल है।</p>",
+      "hint": "NEET 2018 Q121 जैसा ही।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 1)"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.11",
+   "title": "Microbodies",
+   "hi": "सूक्ष्मकाय (माइक्रोबॉडी)",
+   "pages": [
+    102
+   ],
+   "pdfPage": 18,
+   "questions": [
+    {
+     "id": "bio11-08-ai-8-5-11-q1",
+     "exam": "Practice",
+     "q": "Microbodies are best described as:",
+     "sol": "<p>NCERT 8.5.11: <b>microbodies</b> are many minute <b>membrane-bound vesicles</b> that contain various enzymes and are found in <b>both plant and animal cells</b>. Option 1 describes ribosomes (which are in all cells, not only prokaryotes), option 3 describes plastids, and option 4 describes mesosomes.</p>",
+     "hint": "Small enzyme sacs in both kingdoms.",
+     "paras": [
+      "8.5.11"
+     ],
+     "status": "draft",
+     "srcRef": "Own question (AI) on NCERT 8.5.11",
+     "o": [
+      "Non-membrane bound particles that make proteins, found only in prokaryotes",
+      "Minute membrane-bound vesicles containing various enzymes, present in both plant and animal cells",
+      "Double-membrane organelles with their own DNA, found only in plant cells",
+      "Infoldings of the plasma membrane found in bacteria"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "सूक्ष्मकाय (माइक्रोबॉडी) का सबसे सही वर्णन है:",
+      "o": [
+       "झिल्ली रहित कण जो प्रोटीन बनाते हैं, केवल प्रोकैरियोटिक कोशिकाओं में",
+       "विभिन्न एंजाइम युक्त झिल्ली आवरित सूक्ष्म थैलियाँ, जो पादप व जंतु दोनों कोशिकाओं में होती हैं",
+       "अपने DNA वाले दोहरी झिल्ली युक्त अंगक, केवल पादप कोशिकाओं में",
+       "जीवाणुओं में पाए जाने वाले जीवद्रव्यझिल्ली के अंतर्वलन"
+      ],
+      "sol": "<p>NCERT 8.5.11: <b>सूक्ष्मकाय</b> बहुत सारी <b>झिल्ली आवरित सूक्ष्म थैलियाँ</b> हैं, जिनमें विभिन्न प्रकार के एंजाइम होते हैं, और ये <b>पौधों व जंतु दोनों कोशिकाओं</b> में पाई जाती हैं। विकल्प 1 राइबोसोम का वर्णन है (जो सभी कोशिकाओं में होते हैं, केवल प्रोकैरियोटिक में नहीं), विकल्प 3 लवक का, और विकल्प 4 मीसोसोम का।</p>",
+      "hint": "दोनों जगत में छोटी एंजाइम थैलियाँ।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "bio11-08-neet-2015-re-exam-code-d-q4",
+     "exam": "NEET",
+     "q": "Which of the following are not membrane – bound?",
+     "sol": "<p>NCERT 8.5.6: ribosomes are <b>non-membrane-bound</b> granules of RNA and protein. Lysosomes and vacuoles are bounded by a single membrane, and mesosomes are infoldings of the plasma membrane itself.</p>",
+     "hint": "RNA–protein particles.",
+     "paras": [
+      "8.4.1",
+      "8.5.6"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q4",
+     "o": [
+      "Ribosomes",
+      "Lysosomes",
+      "Mesosomes",
+      "Vacuoles"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "निम्नलिखित में से कौन झिल्ली-परिबद्ध नहीं हैं?",
+      "o": [
+       "राइबोसोम",
+       "लयनकाय",
+       "मीसोसोम",
+       "रसधानी"
+      ],
+      "sol": "<p>NCERT 8.5.6: राइबोसोम RNA तथा प्रोटीन के <b>झिल्ली रहित</b> कण हैं। लयनकाय तथा रसधानी एकल झिल्ली से घिरे होते हैं, और मीसोसोम स्वयं कोशिका झिल्ली के अंतर्वलन हैं।</p>",
+      "hint": "RNA–प्रोटीन कण।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 1)"
+    },
+    {
+     "id": "bio11-08-neet-2016-phase-2-code-aa-q104",
+     "exam": "NEET",
+     "q": "Select the mismatch.",
+     "sol": "<p>A large central vacuole occupying up to 90% of the cell volume is typical of <b>plant</b> cells; animal cells have small vacuoles (NCERT 8.5.3). That pair is the mismatch. Gas vacuoles occur in green photosynthetic bacteria (NCERT 8.4.2), protists are eukaryotes and methanogens are prokaryotes.</p>",
+     "hint": "Big vacuole = plant cell.",
+     "paras": [
+      "8.4.2",
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q104",
+     "o": [
+      "Gas vacuoles – Green bacteria",
+      "Large central vacuoles – Animal cells",
+      "Protists – Eukaryotes",
+      "Methanogens – Prokaryotes"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "बेमेल युग्म चुनिए।",
+      "o": [
+       "गैस रसधानी – हरित बैक्टीरिया",
+       "बड़ी केंद्रीय रसधानी – जंतु कोशिकाएँ",
+       "प्रोटिस्टा – यूकैरियोट",
+       "मैथेनोजेन – प्रोकैरियोट"
+      ],
+      "sol": "<p>कोशिका आयतन का 90% तक घेरने वाली बड़ी केंद्रीय रसधानी <b>पादप</b> कोशिकाओं की विशेषता है; जंतु कोशिकाओं में छोटी रसधानियाँ होती हैं (NCERT 8.5.3)। यही बेमेल युग्म है। गैस रसधानी हरी प्रकाश-संश्लेषी बैक्टीरिया में होती है (NCERT 8.4.2), प्रोटिस्टा यूकैरियोट हैं और मैथेनोजेन प्रोकैरियोट।</p>",
+      "hint": "बड़ी रसधानी = पादप कोशिका।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 2)"
+    },
+    {
+     "id": "bio11-08-neet-2026-q161-esaral-copy",
+     "exam": "NEET",
+     "q": "Non-membrane bound cell organelles found in both prokaryotic and eukaryotic cells are ___.",
+     "sol": "<p>NCERT 8.4.2, 8.5.6: <b>ribosomes</b> are non-membrane-bound and occur in both prokaryotes (70S) and eukaryotes (80S). Lysosomes and mitochondria are membrane-bound and absent from prokaryotes; centrosomes are absent from prokaryotes.</p>",
+     "hint": "Present in every cell.",
+     "paras": [
+      "8.4.2",
+      "8.5.6"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Q161 (eSaral copy)",
+     "o": [
+      "Lysosomes",
+      "Centrosomes",
+      "Mitochondria",
+      "Ribosomes"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "प्रोकैरियोटिक तथा यूकैरियोटिक दोनों कोशिकाओं में पाए जाने वाले झिल्ली रहित कोशिका अंगक ___ हैं।",
+      "o": [
+       "लयनकाय",
+       "तारककाय",
+       "सूत्र कणिका",
+       "राइबोसोम"
+      ],
+      "sol": "<p>NCERT 8.4.2, 8.5.6: <b>राइबोसोम</b> झिल्ली रहित हैं और प्रोकैरियोट (70S) तथा यूकैरियोट (80S) दोनों में होते हैं। लयनकाय तथा सूत्र कणिका झिल्ली-परिबद्ध हैं और प्रोकैरियोट में नहीं होते; तारककाय भी प्रोकैरियोट में नहीं होता।</p>",
+      "hint": "हर कोशिका में उपस्थित।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)"
+    },
+    {
+     "id": "bio11-08-neet-2026-q174-esaral-copy",
+     "exam": "NEET",
+     "q": "Choose the correct statements regarding cell organelles and their inclusions :<br>A. The endomembrane system includes Golgi complex, endoplasmic reticulum and mitochondria.<br>B. Rough endoplasmic reticulum bears ribosomes on its surface.<br>C. Both mitochondria and plastids have circular DNA.<br>D. A network of microtubules, microfilaments and intermediate filaments present in the cytoplasm is the cytoskeleton.<br>E. Mitochondrion is a single membrane-bound structure.<br>Choose the correct answer from the options given below :",
+     "sol": "<ul><li>A. Mitochondria are <b>not</b> part of the endomembrane system — wrong.</li><li>B. rough endoplasmic reticulum bears ribosomes on its surface — correct.</li><li>C. Mitochondria and plastids have circular DNA — correct.</li><li>D. Microtubules, microfilaments and intermediate filaments form the cytoskeleton — correct.</li><li>E. A mitochondrion is <b>double</b>-membrane-bound — wrong.</li></ul><p>B, C and D.</p>",
+     "hint": "Mitochondria: two membranes, outside the endomembrane system.",
+     "paras": [
+      "8.5",
+      "8.5.3",
+      "8.5.7"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Q174 (eSaral copy)",
+     "o": [
+      "A, B and E",
+      "C, D and E",
+      "A and B",
+      "B, C and D"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "कोशिका अंगकों तथा उनके अंतर्विष्टों के संबंध में सही कथन चुनिए :<br>A. अंतःझिल्लिका तंत्र में गॉल्जी सम्मिश्र, अंतर्द्रव्यी जालिका तथा सूत्र कणिका आते हैं।<br>B. खुरदरी अंतर्द्रव्यी जालिका की सतह पर राइबोसोम होते हैं।<br>C. सूत्र कणिका तथा लवक दोनों में वृत्ताकार DNA होता है।<br>D. कोशिकाद्रव्य में उपस्थित सूक्ष्मनलिकाओं, सूक्ष्मतंतुओं तथा मध्यवर्ती तंतुओं का जाल साइटोपंजर है।<br>E. सूत्र कणिका एकल झिल्ली-परिबद्ध संरचना है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "A, B तथा E",
+       "C, D तथा E",
+       "A तथा B",
+       "B, C तथा D"
+      ],
+      "sol": "<ul><li>A. सूत्र कणिका अंतःझिल्लिका तंत्र का भाग <b>नहीं</b> है — गलत।</li><li>B. खुरदरी अंतर्द्रव्यी जालिका पर राइबोसोम — सही।</li><li>C. सूत्र कणिका तथा लवकों में वृत्ताकार DNA — सही।</li><li>D. सूक्ष्मनलिकाएँ, सूक्ष्मतंतु तथा मध्यवर्ती तंतु साइटोपंजर बनाते हैं — सही।</li><li>E. सूत्र कणिका <b>द्वि</b>झिल्ली-परिबद्ध है — गलत।</li></ul><p>B, C तथा D।</p>",
+      "hint": "सूत्र कणिका: दो झिल्लियाँ, अंतःझिल्लिका तंत्र से बाहर।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)"
+    },
+    {
+     "id": "bio11-08-neet-2025-code-45-q121",
+     "exam": "NEET",
+     "q": "Match List-I with List-II :<br>A. Centromere — I. Mitochondrion<br>B. Cilium — II. Cell division<br>C. Cristae — III. Cell movement<br>D. Cell membrane — IV. Phospholipid bilayer",
+     "sol": "<ul><li>A. Centromere — cell division (II).</li><li>B. Cilium — cell movement (III).</li><li>C. Cristae — mitochondrion (I).</li><li>D. Cell membrane — phospholipid bilayer (IV).</li></ul><p>A-II, B-III, C-I, D-IV = option 1 as the eSaral copy prints the options (the copy also marks A).</p><p class='errata'>NTA's Code 45 key gives 4 (A-II, B-I, C-IV, D-III as printed here, which would put cilium with mitochondrion). The copy has probably reordered this question's options; check against the Code 45 booklet.</p>",
+     "hint": "Cristae are inside mitochondria.",
+     "paras": [
+      "8.5.1",
+      "8.5.4",
+      "8.5.8",
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q121",
+     "o": [
+      "A-II, B-III, C-I, D-IV",
+      "A-I, B-II, C-III, D-IV",
+      "A-IV, B-II, C-III, D-I",
+      "A-II, B-I, C-IV, D-III"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "सूची-I का सूची-II से मिलान कीजिए :<br>A. गुणसूत्रबिंदु — I. सूत्र कणिका<br>B. पक्ष्माभ — II. कोशिका विभाजन<br>C. क्रिस्टी — III. कोशिका गति<br>D. कोशिका झिल्ली — IV. फॉस्फोलिपिड द्विपरत",
+      "o": [
+       "A-II, B-III, C-I, D-IV",
+       "A-I, B-II, C-III, D-IV",
+       "A-IV, B-II, C-III, D-I",
+       "A-II, B-I, C-IV, D-III"
+      ],
+      "sol": "<ul><li>A. गुणसूत्रबिंदु — कोशिका विभाजन (II)।</li><li>B. पक्ष्माभ — कोशिका गति (III)।</li><li>C. क्रिस्टी — सूत्र कणिका (I)।</li><li>D. कोशिका झिल्ली — फॉस्फोलिपिड द्विपरत (IV)।</li></ul><p>A-II, B-III, C-I, D-IV = eSaral प्रति में छपे क्रम के अनुसार विकल्प 1 (प्रति भी A अंकित करती है)।</p><p class='errata'>NTA की Code 45 कुंजी 4 देती है (यहाँ छपे अनुसार A-II, B-I, C-IV, D-III, जो पक्ष्माभ को सूत्र कणिका से जोड़ेगा)। प्रति ने संभवतः इस प्रश्न के विकल्पों का क्रम बदल दिया है; Code 45 पुस्तिका से जाँचें।</p>",
+      "hint": "क्रिस्टी सूत्र कणिका के भीतर।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "bio11-08-neet-2019-code-s2-q11",
+     "exam": "NEET",
+     "q": "Which of the following pair of organelles does not contain DNA?",
+     "sol": "<p>DNA occurs in the nucleus, mitochondria and chloroplasts. <b>Lysosomes and vacuoles</b> contain no DNA.</p>",
+     "hint": "Exclude anything with mitochondria or chloroplasts.",
+     "paras": [
+      "8.5.3",
+      "8.5.4"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q11",
+     "o": [
+      "Lysosomes and Vacuoles",
+      "Nuclear envelope and Mitochondria",
+      "Mitochondria and Lysosomes",
+      "Chloroplast and Vacuoles"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "अंगकों के निम्नलिखित में से किस युग्म में DNA नहीं होता?",
+      "o": [
+       "लयनकाय तथा रसधानी",
+       "केंद्रक आवरण तथा सूत्र कणिका",
+       "सूत्र कणिका तथा लयनकाय",
+       "हरित लवक तथा रसधानी"
+      ],
+      "sol": "<p>DNA केंद्रक, सूत्र कणिका तथा हरित लवक में होता है। <b>लयनकाय तथा रसधानी</b> में DNA नहीं होता।</p>",
+      "hint": "सूत्र कणिका या हरित लवक वाले विकल्प हटाइए।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2019 final key, Code S2: 1)"
+    },
+    {
+     "id": "bio11-08-neet-2015-re-exam-code-d-q75",
+     "exam": "NEET",
+     "q": "Match the columns and identify the correct option.<br>Column I — Column II<br>(a) Thylakoids — (i) Disc-shaped sacs in Golgi apparatus<br>(b) Cristae — (ii) Condensed structure of DNA<br>(c) Cisternae — (iii) Flat membranous sacs in stroma<br>(d) Chromatin — (iv) Infoldings in mitochondria",
+     "sol": "<ul><li>(a) Thylakoids — flat membranous sacs in the stroma (iii).</li><li>(b) Cristae — infoldings of the inner mitochondrial membrane (iv).</li><li>(c) Cisternae — disc-shaped sacs of the Golgi apparatus (i).</li><li>(d) Chromatin — condensed structure of DNA (ii).</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii.</p>",
+     "hint": "Cristae → mitochondria.",
+     "paras": [
+      "8.5.3",
+      "8.5.4",
+      "8.5.5",
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q75",
+     "o": [
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) iii, (b) iv, (c) ii, (d) i",
+      "(a) iv, (b) iii, (c) i, (d) ii"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "स्तंभों का मिलान कीजिए और सही विकल्प पहचानिए।<br>स्तंभ I — स्तंभ II<br>(a) थाइलेकॉइड — (i) गॉल्जी उपकरण में डिस्क के आकार की थैलियाँ<br>(b) क्रिस्टी — (ii) DNA की संघनित संरचना<br>(c) सिस्टर्नी (cisternae) — (iii) पीठिका में चपटी झिल्लीमय थैलियाँ<br>(d) क्रोमैटिन — (iv) सूत्र कणिका में अंतर्वलन",
+      "o": [
+       "(a) iii, (b) iv, (c) i, (d) ii",
+       "(a) iii, (b) i, (c) iv, (d) ii",
+       "(a) iii, (b) iv, (c) ii, (d) i",
+       "(a) iv, (b) iii, (c) i, (d) ii"
+      ],
+      "sol": "<ul><li>(a) थाइलेकॉइड — पीठिका में चपटी झिल्लीमय थैलियाँ (iii)।</li><li>(b) क्रिस्टी — सूत्र कणिका की भीतरी झिल्ली के अंतर्वलन (iv)।</li><li>(c) सिस्टर्नी — गॉल्जी उपकरण की डिस्क आकार की थैलियाँ (i)।</li><li>(d) क्रोमैटिन — DNA की संघनित संरचना (ii)।</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii।</p>",
+      "hint": "क्रिस्टी → सूत्र कणिका।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 1)"
+    },
+    {
+     "id": "bio11-08-neet-2021-code-p3-q117",
+     "exam": "NEET",
+     "q": "Match List-I with List-II :<br>(a) Cristae — (i) Primary constriction in chromosome<br>(b) Thylakoids — (ii) Disc-shaped sacs in Golgi apparatus<br>(c) Centromere — (iii) Infoldings in mitochondria<br>(d) Cisternae — (iv) Flattened membranous sacs in stroma of plastids",
+     "sol": "<ul><li>(a) Cristae — infoldings in mitochondria (iii).</li><li>(b) Thylakoids — flattened membranous sacs in the stroma of plastids (iv).</li><li>(c) Centromere — primary constriction of the chromosome (i).</li><li>(d) Cisternae — disc-shaped sacs of the Golgi (ii).</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii.</p>",
+     "hint": "Centromere = primary constriction.",
+     "paras": [
+      "8.5.3",
+      "8.5.4",
+      "8.5.5",
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q117",
+     "o": [
+      "(a) ii, (b) iii, (c) iv, (d) i",
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) i, (b) iv, (c) iii, (d) ii",
+      "(a) iii, (b) iv, (c) i, (d) ii"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "सूची-I का सूची-II से मिलान कीजिए :<br>(a) क्रिस्टी — (i) गुणसूत्र में प्राथमिक संकीर्णन<br>(b) थाइलेकॉइड — (ii) गॉल्जी उपकरण में डिस्क के आकार की थैलियाँ<br>(c) गुणसूत्रबिंदु — (iii) सूत्र कणिका में अंतर्वलन<br>(d) सिस्टर्नी — (iv) लवकों की पीठिका में चपटी झिल्लीमय थैलियाँ",
+      "o": [
+       "(a) ii, (b) iii, (c) iv, (d) i",
+       "(a) iv, (b) iii, (c) ii, (d) i",
+       "(a) i, (b) iv, (c) iii, (d) ii",
+       "(a) iii, (b) iv, (c) i, (d) ii"
+      ],
+      "sol": "<ul><li>(a) क्रिस्टी — सूत्र कणिका में अंतर्वलन (iii)।</li><li>(b) थाइलेकॉइड — लवकों की पीठिका में चपटी झिल्लीमय थैलियाँ (iv)।</li><li>(c) गुणसूत्रबिंदु — गुणसूत्र का प्राथमिक संकीर्णन (i)।</li><li>(d) सिस्टर्नी — गॉल्जी की डिस्क आकार की थैलियाँ (ii)।</li></ul><p>(a) iii, (b) iv, (c) i, (d) ii।</p>",
+      "hint": "गुणसूत्रबिंदु = प्राथमिक संकीर्णन।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)"
+    },
+    {
+     "id": "bio11-08-neet-2016-phase-1-code-a-q101",
+     "exam": "NEET",
+     "q": "Mitochondria and chloroplast are :<br>(i) semi-autonomous organelles<br>(ii) formed by division of pre-existing organelles and they contain DNA but lack protein synthesizing machinery<br>Which one of the following options is correct?",
+     "sol": "<p>Mitochondria and chloroplasts are semi-autonomous — (i) true. They divide by fission and have their own DNA, and they also have 70S ribosomes, i.e. their own <b>protein-synthesising machinery</b> — so (ii) is false.</p>",
+     "hint": "They have their own ribosomes.",
+     "paras": [
+      "8.5.4",
+      "8.5.5"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q101",
+     "o": [
+      "Both (i) and (ii) are correct",
+      "(ii) is true but (i) is false",
+      "(i) is true but (ii) is false",
+      "Both (i) and (ii) are false"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "सूत्र कणिका तथा हरित लवक हैं :<br>(i) अर्धस्वायत्त अंगक<br>(ii) पहले से उपस्थित अंगकों के विभाजन से बनते हैं और इनमें DNA होता है परंतु प्रोटीन संश्लेषण तंत्र नहीं होता<br>निम्नलिखित में से कौन-सा विकल्प सही है?",
+      "o": [
+       "(i) तथा (ii) दोनों सही हैं",
+       "(ii) सत्य है परंतु (i) असत्य है",
+       "(i) सत्य है परंतु (ii) असत्य है",
+       "(i) तथा (ii) दोनों असत्य हैं"
+      ],
+      "sol": "<p>सूत्र कणिका तथा हरित लवक अर्धस्वायत्त हैं — (i) सत्य। ये विखंडन से विभाजित होते हैं, इनमें अपना DNA होता है, और 70S राइबोसोम अर्थात् अपना <b>प्रोटीन संश्लेषण तंत्र</b> भी होता है — अतः (ii) असत्य है।</p>",
+      "hint": "इनके अपने राइबोसोम होते हैं।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 3)"
+    },
+    {
+     "id": "bio11-08-neet-2024-q156-esaral-copy",
+     "exam": "NEET",
+     "q": "Given below are two statements :<br>Statement I: Mitochondria and chloroplasts are both double membrane bound organelles.<br>Statement II: Inner membrane of mitochondria is relatively less permeable, as compared to chloroplast.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "sol": "<p>Statement I: mitochondria and chloroplasts are both double-membrane-bound — correct. Statement II: NCERT 8.5.5 says the <b>inner chloroplast membrane</b> is relatively less permeable; the statement assigns this to mitochondria compared with chloroplasts — incorrect.</p>",
+     "hint": "NCERT says it of the chloroplast.",
+     "paras": [
+      "8.5.4",
+      "8.5.5"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q156 (eSaral copy)",
+     "o": [
+      "Both Statement I and Statement II are correct.",
+      "Both Statement I and Statement II are incorrect.",
+      "Statement I is correct but Statement II is incorrect.",
+      "Statement I is incorrect but Statement II is correct."
+     ],
+     "a": 2,
+     "hi": {
+      "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : सूत्र कणिका तथा हरित लवक दोनों द्विझिल्ली-परिबद्ध अंगक हैं।<br>कथन II : सूत्र कणिका की भीतरी झिल्ली हरित लवक की तुलना में अपेक्षाकृत कम पारगम्य होती है।<br>उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+      "o": [
+       "कथन I तथा कथन II दोनों सही हैं।",
+       "कथन I तथा कथन II दोनों गलत हैं।",
+       "कथन I सही है परंतु कथन II गलत है।",
+       "कथन I गलत है परंतु कथन II सही है।"
+      ],
+      "sol": "<p>कथन I : सूत्र कणिका तथा हरित लवक दोनों द्विझिल्ली-परिबद्ध हैं — सही। कथन II : NCERT 8.5.5 के अनुसार <b>हरित लवक की भीतरी झिल्ली</b> अपेक्षाकृत कम पारगम्य होती है; कथन इसे हरित लवक की तुलना में सूत्र कणिका पर लागू करता है — गलत।</p>",
+      "hint": "NCERT यह हरित लवक के बारे में कहती है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "bio11-08-neet-2024-q157-esaral-copy",
+     "exam": "NEET",
+     "q": "Match List I with List II :<br>A. Axoneme — I. Centriole<br>B. Cartwheel pattern — II. Cilia and flagella<br>C. Crista — III. Chromosome<br>D. Satellite — IV. Mitochondria<br>Choose the correct answer from the options given below :",
+     "sol": "<ul><li>A. Axoneme — core of cilia and flagella (II).</li><li>B. Cartwheel pattern — centriole (I).</li><li>C. Crista — mitochondria (IV).</li><li>D. Satellite — chromosome (III).</li></ul><p>A-II, B-I, C-IV, D-III (NCERT 8.5.4, 8.5.8–8.5.10).</p>",
+     "hint": "Centriole has the cartwheel.",
+     "paras": [
+      "8.5.4",
+      "8.5.8",
+      "8.5.9",
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q157 (eSaral copy)",
+     "o": [
+      "A-IV, B-III, C-II, D-I",
+      "A-IV, B-II, C-III, D-I",
+      "A-II, B-IV, C-I, D-III",
+      "A-II, B-I, C-IV, D-III"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "सूची I का सूची II से मिलान कीजिए :<br>A. अक्षसूत्र (axoneme) — I. तारककेंद्र<br>B. गाड़ी के पहिये जैसा प्रतिरूप — II. पक्ष्माभ तथा कशाभिका<br>C. क्रिस्टा — III. गुणसूत्र<br>D. अनुषंगी (satellite) — IV. सूत्र कणिका<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "A-IV, B-III, C-II, D-I",
+       "A-IV, B-II, C-III, D-I",
+       "A-II, B-IV, C-I, D-III",
+       "A-II, B-I, C-IV, D-III"
+      ],
+      "sol": "<ul><li>A. अक्षसूत्र — पक्ष्माभ तथा कशाभिका का कोर (II)।</li><li>B. गाड़ी के पहिये जैसा प्रतिरूप — तारककेंद्र (I)।</li><li>C. क्रिस्टा — सूत्र कणिका (IV)।</li><li>D. अनुषंगी — गुणसूत्र (III)।</li></ul><p>A-II, B-I, C-IV, D-III (NCERT 8.5.4, 8.5.8–8.5.10)।</p>",
+      "hint": "तारककेंद्र में गाड़ी का पहिया।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "bio11-08-neet-2016-phase-1-code-a-q109",
+     "exam": "NEET",
+     "q": "Microtubules are the constituents of:",
+     "sol": "<p>Microtubules (tubulin) form the axoneme of <b>cilia</b> and flagella, the triplets of <b>centrioles</b> and the <b>spindle fibres</b>. Peroxisomes, chromatin and nucleosomes are not made of microtubules.</p>",
+     "hint": "9+2 and 9+0 patterns.",
+     "paras": [
+      "8.5.7",
+      "8.5.8",
+      "8.5.9"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q109",
+     "o": [
+      "Cilia, Flagella and Peroxisomes",
+      "Spindle fibres, centrioles and cilia",
+      "Centrioles, spindle fibres and chromatin",
+      "Centrosome, Nucleosome and Centrioles"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "सूक्ष्मनलिकाएँ किसके घटक हैं?",
+      "o": [
+       "पक्ष्माभ, कशाभिका तथा परॉक्सीसोम",
+       "तर्कु तंतु, तारककेंद्र तथा पक्ष्माभ",
+       "तारककेंद्र, तर्कु तंतु तथा क्रोमैटिन",
+       "तारककाय, न्यूक्लियोसोम तथा तारककेंद्र"
+      ],
+      "sol": "<p>सूक्ष्मनलिकाएँ (ट्यूबुलिन) <b>पक्ष्माभ</b> तथा कशाभिका का अक्षसूत्र, <b>तारककेंद्र</b> के त्रिक तथा <b>तर्कु तंतु</b> बनाती हैं। परॉक्सीसोम, क्रोमैटिन तथा न्यूक्लियोसोम सूक्ष्मनलिकाओं से नहीं बने।</p>",
+      "hint": "9+2 तथा 9+0 प्रतिरूप।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)"
+    },
+    {
+     "id": "bio11-08-neet-2018-code-aa-q171",
+     "exam": "NEET",
+     "q": "Select the incorrect match :",
+     "sol": "<p>Polytene chromosomes occur in the salivary glands of insect larvae (e.g. <i>Drosophila</i>); <b>lampbrush</b> chromosomes occur in amphibian oocytes (diplotene bivalents). So pair 4 is incorrect. Submetacentric chromosomes look L-shaped; allosomes are sex chromosomes. (Beyond NCERT.)</p>",
+     "hint": "Amphibian oocytes → lampbrush.",
+     "paras": [
+      "8.5.10"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q171",
+     "o": [
+      "Submetacentric chromosomes – L-shaped chromosomes",
+      "Allosomes – Sex chromosomes",
+      "Lampbrush chromosomes – Diplotene bivalents",
+      "Polytene chromosomes – Oocytes of amphibians"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "गलत मिलान चुनिए :",
+      "o": [
+       "उपमध्यकेंद्री गुणसूत्र – L-आकार के गुणसूत्र",
+       "एलोसोम – लिंग गुणसूत्र",
+       "लैंपब्रश गुणसूत्र – डिप्लोटीन युगली",
+       "पॉलीटीन गुणसूत्र – उभयचरों के अंडक"
+      ],
+      "sol": "<p>पॉलीटीन गुणसूत्र कीट लार्वा (जैसे <i>Drosophila</i>) की लार ग्रंथियों में होते हैं; <b>लैंपब्रश</b> गुणसूत्र उभयचरों के अंडकों (डिप्लोटीन युगली) में होते हैं। अतः युग्म 4 गलत है। उपमध्यकेंद्री गुणसूत्र L-आकार के दिखते हैं; एलोसोम लिंग गुणसूत्र हैं। (NCERT से बाहर।)</p>",
+      "hint": "उभयचर अंडक → लैंपब्रश।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 11 · Cell Cycle and Cell Division"
+     ],
+     "check": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 47,
+  "NCERT Exercise": 1,
+  "Practice": 3
+ },
+ "empty": [],
+ "trends": {
+  "8.4.1": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2025,
+    2017,
+    2016,
+    2015
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "8.5.6": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2026,
+    2025,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "8.4": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2015
+   ],
+   "last": 2015,
+   "recent": false
+  },
+  "8.5.10": {
+   "neet": 11,
+   "jee": 0,
+   "years": [
+    2026,
+    2025,
+    2024,
+    2022,
+    2021,
+    2019,
+    2018,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "8.5.3": {
+   "neet": 15,
+   "jee": 0,
+   "years": [
+    2026,
+    2025,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018,
+    2016,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "8.5.4": {
+   "neet": 9,
+   "jee": 0,
+   "years": [
+    2025,
+    2024,
+    2021,
+    2019,
+    2017,
+    2016,
+    2015
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "8.5.5": {
+   "neet": 5,
+   "jee": 0,
+   "years": [
+    2024,
+    2021,
+    2016,
+    2015
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "8.5": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "8.5.7": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2026,
+    2023,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "8.5.8": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2025,
+    2024,
+    2016
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "8.5.9": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2024,
+    2016
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "8.4.2": {
+   "neet": 5,
+   "jee": 0,
+   "years": [
+    2026,
+    2020,
+    2018,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "8.2": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2019
+   ],
+   "last": 2019,
+   "recent": false
+  },
+  "8.5.1": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2026,
+    2025
+   ],
+   "last": 2026,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}

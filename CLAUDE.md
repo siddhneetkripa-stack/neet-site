@@ -34,12 +34,12 @@ assets/app.js              expanding tree (chapter → section → paragraph →
 assets/style.css           styles; the final B + C design layer is at the end of the file (Mukta, teal/saffron)
 assets/diagrams.js         original SVG diagrams, referenced by node "diagram" key
 assets/ncert/<chapter>/    short NCERT excerpt crops (webp) used by PYQ answers
-content/pyq/<chapter>.json PYQs for a chapter, in NCERT section order
+content/pyq/<chapter>.json legacy PYQ file (chem11-01); built only for chapters without a bank file
 content/catalog.json       full NEET syllabus: all Class 11 & 12 PCB chapters
 content/questions/<ch>.json question bank in the fixed format (docs/question-schema.json): bilingual, NCERT paragraph ids
 content/tests/<id>.json    test definitions (sections, marking, duration, which bank questions)
 exam.html + assets/exam.js exam-screen test engine (NTA-style CBT), reads data/tests/<id>.json; open exam.html?test=<id>
-tools/convert_questions.py legacy content/pyq + mind-map questions → content/questions (keeps Hindi/status on re-run)
+tools/convert_questions.py RETIRED: content/questions is the master copy (refuses to run without --force)
 tools/add_pyqs.py          tagged PYQ batches (content/pyq-batches/*.json) → one bank file per NCERT chapter
 tools/check_hindi.py       Hindi vs English: formulas/numbers identical; Hindi terms must be NCERT's (run by build.py)
 content/ncert/chemistry-paragraphs.json  NCERT section ids per Chemistry chapter (starts new banks)
@@ -47,7 +47,9 @@ content/glossary/hi-terms-used.json      every Hindi term used in questions, ver
 content/questions/chem1x-old-*.json      NEET topics not in the rationalised NCERT (ncert_status old_ncert_only); chem12-lab-* = lab manual
 content/<chapter-id>/      chapter.json (meta) + 01-…json, 02-…json section files (authoring source)
 data/                      BUILT output; do not hand-edit. Run: python3 tools/build.py
-tools/build.py             merges content → data, validates ids/questions, tags NCERT-exercise sources
+tools/build.py             merges content → data, validates ids/questions; builds every chapter page data/pyq/<ch>.json from its bank file
+                           (questions with a worked solution; Hindi included; dropped-2024 topics in their own section).
+                           A subject's pages are linked from home only when content/catalog.json has "pagesLive": true for it.
 ```
 
 ## Node format (content/<chapter>/NN-*.json)
@@ -64,6 +66,8 @@ tools/build.py             merges content → data, validates ids/questions, tag
 - PYQs: add `"pyq": ["NEET 2021"]` **only after verifying against the official paper**. Never guess years.
 
 ## PYQ pages (content/pyq/<chapter>.json → route #/pyq/<chapter>)
+> Since 14 Nov 2026 every chapter page is built from its bank file (content/questions/<ch>.json) by tools/build.py; the rules below
+> on coverage, grouping and solving still apply, with the bank's field names (docs/question-schema.json).
 - File has `paragraphs` (ordered NCERT paragraph list: `id` like "1.4.2" or "1.10.2c", `title`, `pages`) and `questions`.
 - Goal: **every NCERT paragraph has at least one question** (the page is "NCERT in MCQs"). PYQs first; for paragraphs never asked,
   add 1–2 questions (2 only if they test different things) from NCERT exercises → NCERT Exemplar → our own (`exam`: "NCERT Exercise" |

@@ -1,0 +1,583 @@
+{
+ "chapter": "chem12-old-solid-state",
+ "source": "bank",
+ "subject": "chemistry",
+ "class": 12,
+ "unit": 1,
+ "title": "The Solid State",
+ "titleHi": "ठोस अवस्था",
+ "ref": "NCERT Chemistry Class 12 · Old NCERT Class 12 Part I Unit 1 The Solid State",
+ "years": "NEET 2015–2023",
+ "ncertPdf": null,
+ "pdfPageOffset": 0,
+ "oldNcert": "Old NCERT Class 12 Part I Unit 1 The Solid State",
+ "byTopic": true,
+ "paragraphs": [
+  {
+   "id": "all",
+   "title": "All questions, newest paper first",
+   "hi": "सभी प्रश्न, नया पेपर पहले",
+   "pages": [],
+   "pdfPage": null
+  }
+ ],
+ "sections": [
+  {
+   "sec": "dropped",
+   "title": "Topics removed from the NEET syllabus in 2024",
+   "hi": "NEET 2024 पाठ्यक्रम से हटाए गए विषय",
+   "pages": [],
+   "questions": [
+    {
+     "id": "chem12-old-solid-state-neet-2023-topic-wise-copy-q17",
+     "exam": "NEET",
+     "q": "A compound is formed by two elements A and B. The element B forms cubic close packed structure and atoms of A occupy 1/3 of tetrahedral voids. If the formula of the compound is A<sub>x</sub>B<sub>y</sub>, then the value of x + y is in option",
+     "sol": "<p>ccp of B: 4 B per unit cell and 8 tetrahedral voids. A fills 1/3 of them: 8/3 A. A : B = 8/3 : 4 = 2 : 3 → A<sub>2</sub>B<sub>3</sub>, x + y = <b>5</b>.</p>",
+     "hint": "Tetrahedral voids = 2 × number of atoms in the packing.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q17",
+     "o": [
+      "2",
+      "5",
+      "4",
+      "3"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक यौगिक दो तत्वों A और B से बनता है। तत्व B घनीय निविड संकुलित संरचना बनाता है और A के परमाणु 1/3 चतुष्फलकीय रिक्तियों को घेरते हैं। यदि यौगिक का सूत्र A<sub>x</sub>B<sub>y</sub> है, तो x + y का मान विकल्प में है",
+      "o": [
+       "2",
+       "5",
+       "4",
+       "3"
+      ],
+      "sol": "<p>B का ccp: प्रति एकक कोष्ठिका 4 B और 8 चतुष्फलकीय रिक्तियाँ। A इनमें से 1/3 भरता है: 8/3 A। A : B = 8/3 : 4 = 2 : 3 → A<sub>2</sub>B<sub>3</sub>, x + y = <b>5</b>।</p>",
+      "hint": "चतुष्फलकीय रिक्तियाँ = संकुलन में परमाणुओं की संख्या × 2।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Close packing, tetrahedral voids, formula of a compound",
+     "dropped": true,
+     "topic": "Close packing, tetrahedral voids, formula of a compound"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2023-topic-wise-copy-q41",
+     "exam": "NEET",
+     "q": "What fraction of one edge centred octahedral void lies in one unit cell of fcc?",
+     "sol": "<p>In fcc, octahedral voids are at the body centre and at the 12 edge centres. An edge is shared by 4 unit cells, so each cell contains <b>1/4</b> of an edge-centred void (12 × 1/4 + 1 = 4 voids per cell).</p>",
+     "hint": "An edge is shared by four cells.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q41",
+     "o": [
+      "1/12",
+      "1/2",
+      "1/3",
+      "1/4"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "fcc की एक एकक कोष्ठिका में एक कोर-केंद्रित अष्टफलकीय रिक्ति का कितना भाग रहता है?",
+      "o": [
+       "1/12",
+       "1/2",
+       "1/3",
+       "1/4"
+      ],
+      "sol": "<p>fcc में अष्टफलकीय रिक्तियाँ अंतःकेंद्र और 12 कोर-केंद्रों पर होती हैं। एक कोर 4 एकक कोष्ठिकाओं में साझा होता है, अतः प्रत्येक कोष्ठिका में कोर-केंद्रित रिक्ति का <b>1/4</b> भाग होता है (12 × 1/4 + 1 = प्रति कोष्ठिका 4 रिक्तियाँ)।</p>",
+      "hint": "एक कोर चार कोष्ठिकाओं में साझा होता है।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Octahedral voids in ccp/fcc",
+     "dropped": true,
+     "topic": "Octahedral voids in ccp/fcc"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2022-code-t2-q70",
+     "exam": "NEET",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R).<br>Assertion (A) : In a particular point defect, an ionic solid is electrically neutral, even if few of its cations are missing from its unit cells.<br>Reason (R) : In an ionic solid, Frenkel defect arises due to dislocation of cation from its lattice site to interstitial site, maintaining overall electrical neutrality.<br>In the light of the above statements, choose the most appropriate answer from the options given below:",
+     "sol": "<p>A is correct: in the Schottky defect equal numbers of cations and anions are missing, so the solid stays neutral even though some cations are missing. R is also correct (Frenkel defect keeps neutrality by moving a cation to an interstitial site), but it describes a different defect, so it does not explain A (key 1).</p>",
+     "hint": "Missing cations → Schottky; displaced cations → Frenkel.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q70",
+     "o": [
+      "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "(A) is not correct but (R) is correct.",
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "नीचे दो कथन दिए गए हैं: एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया है।<br>अभिकथन (A) : एक विशेष बिंदु दोष में आयनिक ठोस विद्युत् उदासीन रहता है, भले ही उसकी एकक कोष्ठिकाओं से कुछ धनायन अनुपस्थित हों।<br>कारण (R) : आयनिक ठोस में फ्रेंकेल दोष धनायन के अपने जालक स्थल से अंतराकाशी स्थल पर विस्थापन के कारण उत्पन्न होता है, जिससे समग्र विद्युत् उदासीनता बनी रहती है।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए:",
+      "o": [
+       "(A) और (R) दोनों सही हैं परंतु (R), (A) की सही व्याख्या नहीं है",
+       "(A) सही है परंतु (R) सही नहीं है",
+       "(A) सही नहीं है परंतु (R) सही है।",
+       "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है"
+      ],
+      "sol": "<p>A सही है: शॉट्की दोष में समान संख्या में धनायन और ऋणायन अनुपस्थित होते हैं, अतः कुछ धनायन अनुपस्थित होने पर भी ठोस उदासीन रहता है। R भी सही है (फ्रेंकेल दोष धनायन को अंतराकाशी स्थल पर ले जाकर उदासीनता बनाए रखता है), परंतु यह भिन्न दोष का वर्णन है, अतः A की व्याख्या नहीं करता (कुंजी 1)।</p>",
+      "hint": "अनुपस्थित धनायन → शॉट्की; विस्थापित धनायन → फ्रेंकेल।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Point defects",
+     "dropped": true,
+     "topic": "Point defects"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2022-code-t2-q99",
+     "exam": "NEET",
+     "q": "Copper crystallises in fcc unit cell with cell edge length of 3.608 × 10<sup>−8</sup> cm. The density of copper is 8.92 g cm<sup>−3</sup>. Calculate the atomic mass of copper.",
+     "sol": "<p>M = d a<sup>3</sup> N<sub>A</sub>/Z = 8.92 × (3.608 × 10<sup>−8</sup>)<sup>3</sup> × 6.022 × 10<sup>23</sup>/4 = 8.92 × 4.697 × 10<sup>−23</sup> × 6.022 × 10<sup>23</sup>/4 = <b>63.1 u</b>.</p>",
+     "hint": "fcc: Z = 4.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q99",
+     "o": [
+      "31.55 u",
+      "60 u",
+      "65 u",
+      "63.1 u"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "कॉपर 3.608 × 10<sup>−8</sup> cm कोर लंबाई वाली fcc एकक कोष्ठिका में क्रिस्टलित होता है। कॉपर का घनत्व 8.92 g cm<sup>−3</sup> है। कॉपर का परमाणु द्रव्यमान परिकलित कीजिए।",
+      "o": [
+       "31.55 u",
+       "60 u",
+       "65 u",
+       "63.1 u"
+      ],
+      "sol": "<p>M = d a<sup>3</sup> N<sub>A</sub>/Z = 8.92 × (3.608 × 10<sup>−8</sup>)<sup>3</sup> × 6.022 × 10<sup>23</sup>/4 = 8.92 × 4.697 × 10<sup>−23</sup> × 6.022 × 10<sup>23</sup>/4 = <b>63.1 u</b>।</p>",
+      "hint": "fcc: Z = 4।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Density of a unit cell",
+     "dropped": true,
+     "topic": "Density of a unit cell"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2021-code-p3-q51",
+     "exam": "NEET",
+     "q": "Right option for the number of tetrahedral and octahedral voids in hexagonal primitive unit cell are :",
+     "sol": "<p>The hexagonal (hcp) unit cell contains 6 atoms (12 × 1/6 + 2 × 1/2 + 3). Tetrahedral voids = 2 × 6 = 12; octahedral voids = 6.</p>",
+     "hint": "Atoms in hcp cell = 6.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q51",
+     "o": [
+      "12, 6",
+      "8, 4",
+      "6, 12",
+      "2, 1"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "षट्कोणीय आद्य एकक कोष्ठिका में चतुष्फलकीय और अष्टफलकीय रिक्तियों की संख्या के लिए सही विकल्प है :",
+      "o": [
+       "12, 6",
+       "8, 4",
+       "6, 12",
+       "2, 1"
+      ],
+      "sol": "<p>षट्कोणीय (hcp) एकक कोष्ठिका में 6 परमाणु होते हैं (12 × 1/6 + 2 × 1/2 + 3)। चतुष्फलकीय रिक्तियाँ = 2 × 6 = 12; अष्टफलकीय रिक्तियाँ = 6।</p>",
+      "hint": "hcp कोष्ठिका में परमाणु = 6।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Voids in hcp",
+     "check": "Matches the official key (NTA NEET 2021 final key, Code P3: 1)",
+     "dropped": true,
+     "topic": "Voids in hcp"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2021-code-p3-q70",
+     "exam": "NEET",
+     "q": "The correct option for the number of body centred unit cells in all 14 types of Bravais lattice unit cells is :",
+     "sol": "<p>Body-centred Bravais lattices exist for cubic, tetragonal and orthorhombic systems only: <b>3</b>.</p>",
+     "hint": "Cubic, tetragonal, orthorhombic.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q70",
+     "o": [
+      "3",
+      "7",
+      "5",
+      "2"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "सभी 14 प्रकार की ब्रेवे जालक एकक कोष्ठिकाओं में अंतःकेंद्रित एकक कोष्ठिकाओं की संख्या के लिए सही विकल्प है :",
+      "o": [
+       "3",
+       "7",
+       "5",
+       "2"
+      ],
+      "sol": "<p>अंतःकेंद्रित ब्रेवे जालक केवल घनीय, चतुष्कोणीय और विषमलंबाक्ष तंत्रों में होते हैं: <b>3</b>।</p>",
+      "hint": "घनीय, चतुष्कोणीय, विषमलंबाक्ष।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Seven crystal systems and 14 Bravais lattices",
+     "check": "Matches the official key (NTA NEET 2021 final key, Code P3: 1)",
+     "dropped": true,
+     "topic": "Seven crystal systems and 14 Bravais lattices"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2020-code-f3-q73",
+     "exam": "NEET",
+     "q": "An element has a body centered cubic (bcc) structure with a cell edge of 288 pm. The atomic radius is:",
+     "sol": "<p>In bcc, atoms touch along the body diagonal: √3a = 4r → r = (√3/4)a = (√3/4) × 288 pm (≈ 124.7 pm).</p>",
+     "hint": "bcc: body diagonal = 4r.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q73",
+     "o": [
+      "(4/√3) × 288 pm",
+      "(4/√2) × 288 pm",
+      "(√3/4) × 288 pm",
+      "(√2/4) × 288 pm"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "एक तत्व की अंतःकेंद्रित घनीय (bcc) संरचना है जिसकी कोष्ठिका कोर 288 pm है। परमाणु त्रिज्या है:",
+      "o": [
+       "(4/√3) × 288 pm",
+       "(4/√2) × 288 pm",
+       "(√3/4) × 288 pm",
+       "(√2/4) × 288 pm"
+      ],
+      "sol": "<p>bcc में परमाणु अंतःविकर्ण के अनुदिश स्पर्श करते हैं: √3a = 4r → r = (√3/4)a = (√3/4) × 288 pm (≈ 124.7 pm)।</p>",
+      "hint": "bcc: अंतःविकर्ण = 4r।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Packing in bcc (radius and edge)",
+     "check": "Matches the official key (NTA NEET 2020 final key, Code F3: 3)",
+     "dropped": true,
+     "topic": "Packing in bcc (radius and edge)"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2019-code-s2-q164",
+     "exam": "NEET",
+     "q": "A compound is formed by cation C and anion A. The anions form hexagonal close packed (hcp) lattice and the cations occupy 75% of octahedral voids. The formula of the compound is:",
+     "sol": "<p>For N anions in hcp there are N octahedral voids; cations fill 75%: 0.75N. C : A = 3 : 4 → <b>C<sub>3</sub>A<sub>4</sub></b>.</p>",
+     "hint": "Octahedral voids = number of atoms in the packing.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q164",
+     "o": [
+      "C<sub>3</sub>A<sub>4</sub>",
+      "C<sub>4</sub>A<sub>3</sub>",
+      "C<sub>2</sub>A<sub>3</sub>",
+      "C<sub>3</sub>A<sub>2</sub>"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "एक यौगिक धनायन C और ऋणायन A से बनता है। ऋणायन षट्कोणीय निविड संकुलित (hcp) जालक बनाते हैं और धनायन 75% अष्टफलकीय रिक्तियों को घेरते हैं। यौगिक का सूत्र है:",
+      "o": [
+       "C<sub>3</sub>A<sub>4</sub>",
+       "C<sub>4</sub>A<sub>3</sub>",
+       "C<sub>2</sub>A<sub>3</sub>",
+       "C<sub>3</sub>A<sub>2</sub>"
+      ],
+      "sol": "<p>hcp में N ऋणायनों के लिए N अष्टफलकीय रिक्तियाँ; धनायन 75% भरते हैं: 0.75N। C : A = 3 : 4 → <b>C<sub>3</sub>A<sub>4</sub></b>।</p>",
+      "hint": "अष्टफलकीय रिक्तियाँ = संकुलन में परमाणुओं की संख्या।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Octahedral voids in hcp; formula of a compound",
+     "check": "Matches the official key (NTA NEET 2019 final key, Code S2: 1)",
+     "dropped": true,
+     "topic": "Octahedral voids in hcp; formula of a compound"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2018-code-aa-q89",
+     "exam": "NEET",
+     "q": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is",
+     "sol": "<p>d ∝ Z/a<sup>3</sup>. bcc: Z = 2, a = 4r/√3; fcc: Z = 4, a = 2√2r.</p><p>d<sub>bcc</sub>/d<sub>fcc</sub> = (2 × 3√3/64)/(4/(16√2)) = 3√6/8 = <b>3√3/4√2</b> ≈ 0.92.</p>",
+     "hint": "Write a in terms of r for both lattices.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q89",
+     "o": [
+      "3√3 / 4√2",
+      "4√3 / 3√2",
+      "√3 / √2",
+      "1/2"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "कमरे के ताप पर आयरन bcc संरचना दर्शाता है। 900°C से ऊपर यह fcc संरचना में बदल जाता है। कमरे के ताप पर आयरन के घनत्व का 900°C पर घनत्व से अनुपात है (मान लीजिए आयरन का मोलर द्रव्यमान और परमाणु त्रिज्या ताप के साथ स्थिर रहते हैं)",
+      "o": [
+       "3√3 / 4√2",
+       "4√3 / 3√2",
+       "√3 / √2",
+       "1/2"
+      ],
+      "sol": "<p>d ∝ Z/a<sup>3</sup>। bcc: Z = 2, a = 4r/√3; fcc: Z = 4, a = 2√2r।</p><p>d<sub>bcc</sub>/d<sub>fcc</sub> = (2 × 3√3/64)/(4/(16√2)) = 3√6/8 = <b>3√3/4√2</b> ≈ 0.92।</p>",
+      "hint": "दोनों जालकों के लिए a को r के रूप में लिखें।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Density of bcc and fcc unit cells",
+     "check": "Matches the official key (CBSE NEET 2018 key, Code AA: 1)",
+     "dropped": true,
+     "topic": "Density of bcc and fcc unit cells"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2017-code-a-q50",
+     "exam": "NEET",
+     "q": "Which is the <b>incorrect</b> statement ?",
+     "sol": "<p>Frenkel defect is favoured when the cation is much <i>smaller</i> than the anion (e.g. ZnS, AgCl), so it can fit into interstitial sites. Statement (4) is incorrect. (2) Schottky defect lowers density ✓; (3) ✓. The published key also accepts (1).</p>",
+     "hint": "Frenkel: large size difference.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q50",
+     "o": [
+      "FeO<sub>0.98</sub> has non stoichiometric metal deficiency defect.",
+      "Density decreases in case of crystals with Schottky's defect.",
+      "NaCl(s) is insulator, silicon is semiconductor, silver is conductor, quartz is piezo electric crystal.",
+      "Frenkel defect is favoured in those ionic compounds in which sizes of cation and anions are almost equal."
+     ],
+     "a": 3,
+     "alsoA": [
+      0
+     ],
+     "hi": {
+      "q": "<b>गलत</b> कथन कौन-सा है ?",
+      "o": [
+       "FeO<sub>0.98</sub> में अरससमीकरणमितीय धातु न्यूनता दोष है।",
+       "शॉट्की दोष वाले क्रिस्टलों में घनत्व घटता है।",
+       "NaCl(s) विद्युतरोधी है, सिलिकन अर्धचालक है, सिल्वर चालक है, क्वार्ट्ज़ दाबविद्युत् क्रिस्टल है।",
+       "फ्रेंकेल दोष उन आयनिक यौगिकों में अनुकूल होता है जिनमें धनायन और ऋणायन के आकार लगभग समान होते हैं।"
+      ],
+      "sol": "<p>फ्रेंकेल दोष तब अनुकूल होता है जब धनायन ऋणायन से बहुत <i>छोटा</i> हो (जैसे ZnS, AgCl), ताकि वह अंतराकाशी स्थलों में समा सके। कथन (4) गलत है। (2) शॉट्की दोष घनत्व घटाता है ✓; (3) ✓। प्रकाशित कुंजी (1) को भी स्वीकार करती है।</p>",
+      "hint": "फ्रेंकेल: आकार में अधिक अंतर।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Imperfections in solids; electrical properties",
+     "check": "Matches the official key (CBSE NEET 2017 key, Code A: 1,4)",
+     "dropped": true,
+     "topic": "Imperfections in solids; electrical properties"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2016-phase-1-code-a-q65",
+     "exam": "NEET",
+     "q": "Lithium has a bcc structure. Its density is 530 kg m<sup>−3</sup> and its atomic mass is 6.94 g mol<sup>−1</sup>. Calculate the edge length of a unit cell of Lithium metal. (N<sub>A</sub> = 6.02 × 10<sup>23</sup> mol<sup>−1</sup>)",
+     "sol": "<p>d = ZM/(a<sup>3</sup>N<sub>A</sub>) with Z = 2 (bcc), M = 6.94 × 10<sup>−3</sup> kg mol<sup>−1</sup>.</p><p>a<sup>3</sup> = 2 × 6.94 × 10<sup>−3</sup>/(530 × 6.02 × 10<sup>23</sup>) = 4.35 × 10<sup>−29</sup> m<sup>3</sup> → a = 3.52 × 10<sup>−10</sup> m = <b>352 pm</b>.</p>",
+     "hint": "Keep units in SI (kg, m).",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q65",
+     "o": [
+      "154 pm",
+      "352 pm",
+      "527 pm",
+      "264 pm"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "लीथियम की bcc संरचना है। इसका घनत्व 530 kg m<sup>−3</sup> और परमाणु द्रव्यमान 6.94 g mol<sup>−1</sup> है। लीथियम धातु की एकक कोष्ठिका की कोर लंबाई परिकलित कीजिए। (N<sub>A</sub> = 6.02 × 10<sup>23</sup> mol<sup>−1</sup>)",
+      "o": [
+       "154 pm",
+       "352 pm",
+       "527 pm",
+       "264 pm"
+      ],
+      "sol": "<p>d = ZM/(a<sup>3</sup>N<sub>A</sub>), जहाँ Z = 2 (bcc), M = 6.94 × 10<sup>−3</sup> kg mol<sup>−1</sup>।</p><p>a<sup>3</sup> = 2 × 6.94 × 10<sup>−3</sup>/(530 × 6.02 × 10<sup>23</sup>) = 4.35 × 10<sup>−29</sup> m<sup>3</sup> → a = 3.52 × 10<sup>−10</sup> m = <b>352 pm</b>।</p>",
+      "hint": "इकाइयाँ SI (kg, m) में रखें।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Density of a unit cell",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+     "dropped": true,
+     "topic": "Density of a unit cell"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2016-phase-1-code-a-q77",
+     "exam": "NEET",
+     "q": "The ionic radii of A<sup>+</sup> and B<sup>−</sup> ions are 0.98 × 10<sup>−10</sup> m and 1.81 × 10<sup>−10</sup> m. The coordination number of each ion in AB is",
+     "sol": "<p>Radius ratio r<sub>+</sub>/r<sub>−</sub> = 0.98/1.81 = 0.541, which lies in 0.414–0.732 → octahedral holes, coordination number <b>6</b> (NaCl type).</p>",
+     "hint": "Radius ratio 0.414–0.732 → coordination number 6.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q77",
+     "o": [
+      "6",
+      "4",
+      "8",
+      "2"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "A<sup>+</sup> और B<sup>−</sup> आयनों की आयनिक त्रिज्याएँ 0.98 × 10<sup>−10</sup> m और 1.81 × 10<sup>−10</sup> m हैं। AB में प्रत्येक आयन की उपसहसंयोजन संख्या है",
+      "o": [
+       "6",
+       "4",
+       "8",
+       "2"
+      ],
+      "sol": "<p>त्रिज्या अनुपात r<sub>+</sub>/r<sub>−</sub> = 0.98/1.81 = 0.541, जो 0.414–0.732 के बीच है → अष्टफलकीय रिक्तियाँ, उपसहसंयोजन संख्या <b>6</b> (NaCl प्रकार)।</p>",
+      "hint": "0.414–0.732 → उपसहसंयोजन संख्या 6।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Radius ratio and coordination number (old edition)",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 1)",
+     "dropped": true,
+     "topic": "Radius ratio and coordination number (old edition)"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2016-phase-2-code-aa-q55",
+     "exam": "NEET",
+     "q": "In calcium fluoride, having the fluorite structure, the coordination numbers for calcium ion (Ca<sup>2+</sup>) and fluoride ion (F<sup>−</sup>) are",
+     "sol": "<p>Fluorite (CaF<sub>2</sub>): Ca<sup>2+</sup> in ccp, F<sup>−</sup> in all tetrahedral voids. Each F<sup>−</sup> has 4 Ca<sup>2+</sup> neighbours; each Ca<sup>2+</sup> has 8 F<sup>−</sup>. Coordination numbers 8 and 4.</p>",
+     "hint": "Coordination number ratio is the inverse of the formula ratio.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q55",
+     "o": [
+      "4 and 2",
+      "6 and 6",
+      "8 and 4",
+      "4 and 8"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "फ्लुओराइट संरचना वाले कैल्सियम फ्लुओराइड में कैल्सियम आयन (Ca<sup>2+</sup>) और फ्लुओराइड आयन (F<sup>−</sup>) की उपसहसंयोजन संख्याएँ हैं",
+      "o": [
+       "4 और 2",
+       "6 और 6",
+       "8 और 4",
+       "4 और 8"
+      ],
+      "sol": "<p>फ्लुओराइट (CaF<sub>2</sub>): Ca<sup>2+</sup> ccp में, F<sup>−</sup> सभी चतुष्फलकीय रिक्तियों में। प्रत्येक F<sup>−</sup> के 4 Ca<sup>2+</sup> पड़ोसी; प्रत्येक Ca<sup>2+</sup> के 8 F<sup>−</sup>। उपसहसंयोजन संख्या 8 और 4।</p>",
+      "hint": "उपसहसंयोजन संख्याओं का अनुपात सूत्र अनुपात का व्युत्क्रम है।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Fluorite structure (coordination numbers)",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 3)",
+     "dropped": true,
+     "topic": "Fluorite structure (coordination numbers)"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2015-re-exam-code-d-q128",
+     "exam": "NEET",
+     "q": "The vacant space in bcc lattice unit cell is :",
+     "sol": "<p>Packing efficiency of bcc = 2 × (4/3)πr<sup>3</sup>/a<sup>3</sup> with a = 4r/√3 → 68%. Vacant space = <b>32%</b>.</p>",
+     "hint": "bcc packs 68%.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q128",
+     "o": [
+      "26%",
+      "48%",
+      "23%",
+      "32%"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "bcc जालक एकक कोष्ठिका में रिक्त स्थान है :",
+      "o": [
+       "26%",
+       "48%",
+       "23%",
+       "32%"
+      ],
+      "sol": "<p>bcc की संकुलन क्षमता = 2 × (4/3)πr<sup>3</sup>/a<sup>3</sup>, जहाँ a = 4r/√3 → 68%। रिक्त स्थान = <b>32%</b>।</p>",
+      "hint": "bcc में 68% संकुलन।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Packing efficiency (bcc)",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+     "dropped": true,
+     "topic": "Packing efficiency (bcc)"
+    },
+    {
+     "id": "chem12-old-solid-state-neet-2015-re-exam-code-d-q135",
+     "exam": "NEET",
+     "q": "The correct statement regarding defects in crystalline solids is :",
+     "sol": "<p>Frenkel defect: an ion (usually the smaller cation) moves from its site to an interstitial site, so it is called a dislocation defect; density does not change. Schottky defects lower density; alkali halides (similar ion sizes) show Schottky, not Frenkel, defects.</p>",
+     "hint": "Frenkel = ion moves to an interstitial site.",
+     "paras": [
+      "all"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q135",
+     "o": [
+      "Schottky defects have no effect on the density of crystalline solids.",
+      "Frenkel defects decrease the density of crystalline solids.",
+      "Frenkel defect is a dislocation defect.",
+      "Frenkel defect is found in halides of alkaline metals."
+     ],
+     "a": 2,
+     "hi": {
+      "q": "क्रिस्टलीय ठोसों में दोषों के संबंध में सही कथन है :",
+      "o": [
+       "शॉट्की दोषों का क्रिस्टलीय ठोसों के घनत्व पर कोई प्रभाव नहीं पड़ता।",
+       "फ्रेंकेल दोष क्रिस्टलीय ठोसों का घनत्व घटाते हैं।",
+       "फ्रेंकेल दोष एक विस्थापन दोष है।",
+       "फ्रेंकेल दोष क्षार धातुओं के हैलाइडों में पाया जाता है।"
+      ],
+      "sol": "<p>फ्रेंकेल दोष: एक आयन (सामान्यतः छोटा धनायन) अपने स्थल से अंतराकाशी स्थल पर चला जाता है, इसलिए इसे विस्थापन दोष कहते हैं; घनत्व नहीं बदलता। शॉट्की दोष घनत्व घटाते हैं; क्षार हैलाइड (समान आयन आकार) शॉट्की दोष दर्शाते हैं, फ्रेंकेल नहीं।</p>",
+      "hint": "फ्रेंकेल = आयन अंतराकाशी स्थल पर जाता है।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Unit 1 · Point defects",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)",
+     "dropped": true,
+     "topic": "Point defects"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 15
+ },
+ "empty": [],
+ "trends": {},
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "Not in the rationalised NCERT (2023+). Questions trace to the pre-2023 edition only.",
+ "waiting": 0
+}

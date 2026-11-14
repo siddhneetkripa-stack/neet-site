@@ -1,0 +1,901 @@
+{
+ "chapter": "phy11-13",
+ "source": "bank",
+ "subject": "physics",
+ "class": 11,
+ "unit": 13,
+ "title": "Oscillations",
+ "titleHi": "दोलन",
+ "ref": "NCERT Physics Class 11 · Unit 13",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph206.pdf",
+ "pdfPageOffset": 0,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "13.1",
+   "title": "Introduction",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "13.2",
+   "title": "Periodic and Oscillatory Motions",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "13.2.1",
+   "title": "Period and Frequency",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "13.2.2",
+   "title": "Displacement",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "13.3",
+   "title": "Simple Harmonic Motion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 4
+  },
+  {
+   "id": "13.4",
+   "title": "Simple Harmonic Motion and Uniform Circular Motion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 6
+  },
+  {
+   "id": "13.5",
+   "title": "Velocity and Acceleration in Simple Harmonic Motion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 8
+  },
+  {
+   "id": "13.6",
+   "title": "Force Law for Simple Harmonic Motion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 9
+  },
+  {
+   "id": "13.7",
+   "title": "Energy in Simple Harmonic Motion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 10
+  },
+  {
+   "id": "13.8",
+   "title": "The Simple Pendulum",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 12
+  }
+ ],
+ "sections": [
+  {
+   "sec": "13.3",
+   "title": "Simple Harmonic Motion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 4,
+   "questions": [
+    {
+     "id": "phy11-13-neet-2019-code-s2-q101",
+     "exam": "NEET",
+     "q": "The displacement of a particle executing simple harmonic motion is given by y = A<sub>0</sub> + A sin ωt + B cos ωt. Then the amplitude of its oscillation is given by :",
+     "sol": "<p>A<sub>0</sub> only shifts the mean position. A sin ωt + B cos ωt = R sin(ωt + φ) with R = √(A<sup>2</sup> + B<sup>2</sup>).</p><p>Amplitude = <b>√(A<sup>2</sup> + B<sup>2</sup>)</b>.</p>",
+     "hint": "A constant term changes the mean position, not the amplitude.",
+     "paras": [
+      "13.3"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q101",
+     "o": [
+      "√(A<sub>0</sub><sup>2</sup> + (A + B)<sup>2</sup>)",
+      "A + B",
+      "A<sub>0</sub> + √(A<sup>2</sup> + B<sup>2</sup>)",
+      "√(A<sup>2</sup> + B<sup>2</sup>)"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "सरल आवर्त गति करते एक कण का विस्थापन y = A<sub>0</sub> + A sin ωt + B cos ωt द्वारा दिया गया है। तब इसके दोलन का आयाम दिया जाता है :",
+      "o": [
+       "√(A<sub>0</sub><sup>2</sup> + (A + B)<sup>2</sup>)",
+       "A + B",
+       "A<sub>0</sub> + √(A<sup>2</sup> + B<sup>2</sup>)",
+       "√(A<sup>2</sup> + B<sup>2</sup>)"
+      ],
+      "sol": "<p>A<sub>0</sub> केवल माध्य स्थिति को विस्थापित करता है। A sin ωt + B cos ωt = R sin(ωt + φ), जहाँ R = √(A<sup>2</sup> + B<sup>2</sup>)।</p><p>आयाम = <b>√(A<sup>2</sup> + B<sup>2</sup>)</b>।</p>",
+      "hint": "नियत पद माध्य स्थिति बदलता है, आयाम नहीं।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2024-q32-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "If x = 5 sin (πt + π/3) m represents the motion of a particle executing simple harmonic motion, the amplitude and time period of motion, respectively, are :",
+     "sol": "<p>Compare with x = A sin(ωt + φ): A = 5 m and ω = π rad/s ⇒ T = 2π/ω = 2 s. Answer: <b>5 m, 2 s</b>.</p>",
+     "hint": "The unit of x is metres.",
+     "paras": [
+      "13.3"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q32 (eSaral physics copy)",
+     "o": [
+      "5 cm, 2 s",
+      "5 m, 2 s",
+      "5 cm, 1 s",
+      "5 m, 1 s"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "यदि x = 5 sin (πt + π/3) m सरल आवर्त गति करते एक कण की गति को निरूपित करता है, तो गति का आयाम और आवर्तकाल क्रमशः हैं :",
+      "o": [
+       "5 cm, 2 s",
+       "5 m, 2 s",
+       "5 cm, 1 s",
+       "5 m, 1 s"
+      ],
+      "sol": "<p>x = A sin(ωt + φ) से तुलना करने पर : A = 5 m और ω = π rad/s ⇒ T = 2π/ω = 2 s। उत्तर : <b>5 m, 2 s</b>।</p>",
+      "hint": "x का मात्रक मीटर है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "13.4",
+   "title": "Simple Harmonic Motion and Uniform Circular Motion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 6,
+   "questions": [
+    {
+     "id": "phy11-13-neet-2019-code-s2-q122",
+     "exam": "NEET",
+     "q": "The radius of circle, the period of revolution, initial position and sense of revolution are indicated in the figure. The y-projection of the radius vector of rotating particle P is :",
+     "sol": "<p>Radius 3 m, ω = 2π/T = π/2 rad/s. At t = 0, P is on the +y axis, so y(0) = 3 m (maximum); moving clockwise, y then decreases as cos.</p><p><b>y(t) = 3 cos (πt/2)</b>, with y in m.</p>",
+     "hint": "Start at the top of the circle ⇒ cosine; ω = 2π/4.",
+     "paras": [
+      "13.4"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q122",
+     "o": [
+      "y(t) = 3 cos (3πt/2), where y in m",
+      "y(t) = 3 cos (πt/2), where y in m",
+      "y(t) = −3 cos 2πt, where y in m",
+      "y(t) = 4 sin (πt/2), where y in m"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "चित्र में वृत्त की त्रिज्या, परिक्रमण का आवर्तकाल, प्रारंभिक स्थिति और परिक्रमण की दिशा दर्शाई गई है। घूमते कण P के त्रिज्य सदिश का y-प्रक्षेप है :",
+      "o": [
+       "y(t) = 3 cos (3πt/2), जहाँ y, m में",
+       "y(t) = 3 cos (πt/2), जहाँ y, m में",
+       "y(t) = −3 cos 2πt, जहाँ y, m में",
+       "y(t) = 4 sin (πt/2), जहाँ y, m में"
+      ],
+      "sol": "<p>त्रिज्या 3 m, ω = 2π/T = π/2 rad/s । t = 0 पर P, +y अक्ष पर है, अतः y(0) = 3 m (अधिकतम); दक्षिणावर्त चलने पर y, cos की तरह घटता है।</p><p><b>y(t) = 3 cos (πt/2)</b>, जहाँ y, m में।</p>",
+      "hint": "वृत्त के शीर्ष से प्रारंभ ⇒ cosine; ω = 2π/4।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "13.5",
+   "title": "Velocity and Acceleration in Simple Harmonic Motion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 8,
+   "questions": [
+    {
+     "id": "phy11-13-neet-2015-re-exam-code-d-q155",
+     "exam": "NEET",
+     "q": "A particle is executing a simple harmonic motion. Its maximum acceleration is α and maximum velocity is β. Then, its time period of vibration will be :",
+     "sol": "<p>Maximum acceleration Aω<sup>2</sup> = α and maximum velocity Aω = β ⇒ ω = α/β.</p><p>T = 2π/ω = <b>2πβ/α</b>.</p>",
+     "hint": "Divide a<sub>max</sub> by v<sub>max</sub> to get ω.",
+     "paras": [
+      "13.5"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q155",
+     "o": [
+      "α/β",
+      "β<sup>2</sup>/α",
+      "2πβ/α",
+      "β<sup>2</sup>/α<sup>2</sup>"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "एक कण सरल आवर्त गति कर रहा है। इसका अधिकतम त्वरण α और अधिकतम वेग β है। तब इसके कंपन का आवर्तकाल होगा :",
+      "o": [
+       "α/β",
+       "β<sup>2</sup>/α",
+       "2πβ/α",
+       "β<sup>2</sup>/α<sup>2</sup>"
+      ],
+      "sol": "<p>अधिकतम त्वरण Aω<sup>2</sup> = α और अधिकतम वेग Aω = β ⇒ ω = α/β।</p><p>T = 2π/ω = <b>2πβ/α</b>।</p>",
+      "hint": "ω प्राप्त करने के लिए a<sub>max</sub> को v<sub>max</sub> से भाग दीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2017-code-a-q15",
+     "exam": "NEET",
+     "q": "A particle executes linear simple harmonic motion with an amplitude of 3 cm. When the particle is at 2 cm from the mean position, the magnitude of its velocity is equal to that of its acceleration. Then its time period in seconds is :",
+     "sol": "<p>At x = 2 cm (A = 3 cm): |v| = ω√(A<sup>2</sup> − x<sup>2</sup>) = ω√5 and |a| = ω<sup>2</sup>x = 2ω<sup>2</sup>.</p><p>Equal ⇒ ω√5 = 2ω<sup>2</sup> ⇒ ω = √5/2 rad/s ⇒ T = 2π/ω = <b>4π/√5</b> s.</p>",
+     "hint": "Write v and a at the given x and equate their magnitudes.",
+     "paras": [
+      "13.5"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q15",
+     "o": [
+      "√5/π",
+      "√5/(2π)",
+      "4π/√5",
+      "2π/√3"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "एक कण 3 cm आयाम के साथ रैखिक सरल आवर्त गति करता है। जब कण माध्य स्थिति से 2 cm पर होता है, तो इसके वेग का परिमाण इसके त्वरण के परिमाण के बराबर है। तब इसका आवर्तकाल सेकंड में है :",
+      "o": [
+       "√5/π",
+       "√5/(2π)",
+       "4π/√5",
+       "2π/√3"
+      ],
+      "sol": "<p>x = 2 cm (A = 3 cm) पर : |v| = ω√(A<sup>2</sup> − x<sup>2</sup>) = ω√5 और |a| = ω<sup>2</sup>x = 2ω<sup>2</sup>।</p><p>बराबर ⇒ ω√5 = 2ω<sup>2</sup> ⇒ ω = √5/2 rad/s ⇒ T = 2π/ω = <b>4π/√5</b> s।</p>",
+      "hint": "दिए गए x पर v और a लिखकर उनके परिमाण बराबर कीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2019-code-s2-q91",
+     "exam": "NEET",
+     "q": "Average velocity of a particle executing SHM in one complete vibration is :",
+     "sol": "<p>In one complete vibration the particle returns to its starting point, so the displacement is zero and the average velocity is <b>zero</b>. (The average speed is 4A/T = 2Aω/π, not zero.)</p>",
+     "hint": "Average velocity = displacement/time.",
+     "paras": [
+      "13.5"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q91",
+     "o": [
+      "Aω<sup>2</sup>/2",
+      "zero",
+      "Aω/2",
+      "Aω"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "सरल आवर्त गति (SHM) करते कण का एक पूर्ण कंपन में औसत वेग है :",
+      "o": [
+       "Aω<sup>2</sup>/2",
+       "शून्य",
+       "Aω/2",
+       "Aω"
+      ],
+      "sol": "<p>एक पूर्ण कंपन में कण अपने प्रारंभिक बिंदु पर लौट आता है, अतः विस्थापन शून्य है और औसत वेग <b>शून्य</b> है। (औसत चाल 4A/T = 2Aω/π है, शून्य नहीं।)</p>",
+      "hint": "औसत वेग = विस्थापन/समय।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2020-code-f3-q33",
+     "exam": "NEET",
+     "q": "The phase difference between the displacement and acceleration of a particle in a simple harmonic motion is :",
+     "sol": "<p>a = −ω<sup>2</sup>x: the acceleration is always opposite to the displacement, i.e. they differ in phase by <b>π rad</b>.</p>",
+     "hint": "The minus sign in a = −ω<sup>2</sup>x is a phase of π.",
+     "paras": [
+      "13.5"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q33",
+     "o": [
+      "π/2 rad",
+      "zero",
+      "π rad",
+      "3π/2 rad"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "सरल आवर्त गति में किसी कण के विस्थापन और त्वरण के बीच कलांतर है :",
+      "o": [
+       "π/2 rad",
+       "शून्य",
+       "π rad",
+       "3π/2 rad"
+      ],
+      "sol": "<p>a = −ω<sup>2</sup>x : त्वरण सदैव विस्थापन के विपरीत होता है, अर्थात दोनों में <b>π rad</b> का कलांतर है।</p>",
+      "hint": "a = −ω<sup>2</sup>x में ऋण चिह्न π कला के तुल्य है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "13.6",
+   "title": "Force Law for Simple Harmonic Motion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 9,
+   "questions": [
+    {
+     "id": "phy11-13-neet-2016-phase-2-code-aa-q20",
+     "exam": "NEET",
+     "q": "A body of mass m is attached to the lower end of a spring whose upper end is fixed. The spring has negligible mass. When the mass m is slightly pulled down and released, it oscillates with a time period of 3 s. When the mass m is increased by 1 kg, the time period of oscillations becomes 5 s. The value of m in kg is :",
+     "sol": "<p>T = 2π√(m/k) ⇒ T<sup>2</sup> ∝ m. (3/5)<sup>2</sup> = m/(m + 1) ⇒ 25m = 9m + 9 ⇒ m = <b>9/16</b> kg.</p>",
+     "hint": "Same spring: T<sup>2</sup> ∝ m.",
+     "paras": [
+      "13.6"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q20",
+     "o": [
+      "3/4",
+      "4/3",
+      "16/9",
+      "9/16"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "m द्रव्यमान का एक पिंड एक स्प्रिंग के निचले सिरे से जुड़ा है जिसका ऊपरी सिरा स्थिर है। स्प्रिंग का द्रव्यमान नगण्य है। जब द्रव्यमान m को थोड़ा नीचे खींचकर छोड़ा जाता है, तो यह 3 s के आवर्तकाल से दोलन करता है। जब द्रव्यमान m में 1 kg की वृद्धि की जाती है, तो दोलनों का आवर्तकाल 5 s हो जाता है। m का मान kg में है :",
+      "o": [
+       "3/4",
+       "4/3",
+       "16/9",
+       "9/16"
+      ],
+      "sol": "<p>T = 2π√(m/k) ⇒ T<sup>2</sup> ∝ m। (3/5)<sup>2</sup> = m/(m + 1) ⇒ 25m = 9m + 9 ⇒ m = <b>9/16</b> kg।</p>",
+      "hint": "समान स्प्रिंग : T<sup>2</sup> ∝ m।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2017-code-a-q23",
+     "exam": "NEET",
+     "q": "A spring of force constant k is cut into lengths of ratio 1 : 2 : 3. They are connected in series and the new force constant is k′. Then they are connected in parallel and force constant is k″. Then k′ : k″ is",
+     "sol": "<p>For a spring k × length is constant, so pieces of lengths l/6, 2l/6, 3l/6 have constants 6k, 3k and 2k.</p><p>Series: 1/k′ = 1/(6k) + 1/(3k) + 1/(2k) = 1/k ⇒ k′ = k. Parallel: k″ = 6k + 3k + 2k = 11k. k′ : k″ = <b>1 : 11</b>.</p>",
+     "hint": "k ∝ 1/length; series adds 1/k, parallel adds k.",
+     "paras": [
+      "13.6"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q23",
+     "o": [
+      "1 : 6",
+      "1 : 9",
+      "1 : 11",
+      "1 : 14"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "बल नियतांक k की एक स्प्रिंग को 1 : 2 : 3 के अनुपात वाली लंबाइयों में काटा जाता है। उन्हें श्रेणी में जोड़ने पर नया बल नियतांक k′ है। फिर उन्हें समांतर में जोड़ने पर बल नियतांक k″ है। तब k′ : k″ है",
+      "o": [
+       "1 : 6",
+       "1 : 9",
+       "1 : 11",
+       "1 : 14"
+      ],
+      "sol": "<p>स्प्रिंग के लिए k × लंबाई नियत है, अतः l/6, 2l/6, 3l/6 लंबाई के टुकड़ों के नियतांक 6k, 3k और 2k हैं।</p><p>श्रेणी : 1/k′ = 1/(6k) + 1/(3k) + 1/(2k) = 1/k ⇒ k′ = k। समांतर : k″ = 6k + 3k + 2k = 11k। k′ : k″ = <b>1 : 11</b>।</p>",
+      "hint": "k ∝ 1/लंबाई; श्रेणी में 1/k जुड़ते हैं, समांतर में k।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2021-code-p3-q31",
+     "exam": "NEET",
+     "q": "A spring is stretched by 5 cm by a force 10 N. The time period of the oscillations when a mass of 2 kg is suspended by it is :",
+     "sol": "<p>k = F/x = 10/0.05 = 200 N/m. T = 2π√(m/k) = 2π√(2/200) = 2π × 0.1 = <b>0.628 s</b>.</p>",
+     "hint": "Find k from the static stretch first.",
+     "paras": [
+      "13.6"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q31",
+     "o": [
+      "0.628 s",
+      "0.0628 s",
+      "6.28 s",
+      "3.14 s"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "10 N के बल से एक स्प्रिंग 5 cm खिंचती है। जब इससे 2 kg का द्रव्यमान लटकाया जाए, तो दोलनों का आवर्तकाल है :",
+      "o": [
+       "0.628 s",
+       "0.0628 s",
+       "6.28 s",
+       "3.14 s"
+      ],
+      "sol": "<p>k = F/x = 10/0.05 = 200 N/m । T = 2π√(m/k) = 2π√(2/200) = 2π × 0.1 = <b>0.628 s</b>।</p>",
+      "hint": "पहले स्थैतिक खिंचाव से k ज्ञात कीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2025-code-45-q23",
+     "exam": "NEET",
+     "q": "In an oscillating spring mass system, a spring is connected to a box filled with sand. As the box oscillates, sand leaks slowly out of the box vertically so that the average frequency ω(t) and average amplitude A(t) of the system change with time t. Which one of the following options schematically depicts these changes correctly?",
+     "sol": "<p>ω = √(k/m): as sand leaks out, m decreases, so ω increases and levels off when the box is empty. The equilibrium extension mg/k decreases as m falls, so the oscillation about the new (higher) equilibrium has a smaller amplitude: A decreases and then levels off. This is option <b>(2)</b>.</p>",
+     "hint": "Less mass ⇒ higher ω; the equilibrium point moves up, shrinking A.",
+     "paras": [
+      "13.6"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q23",
+     "o": [
+      "[ω rises and levels off; A constant]",
+      "[ω rises and levels off; A falls and levels off]",
+      "[ω rises and levels off; A rises and levels off]",
+      "[ω falls and levels off; A falls and levels off]"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक दोलनशील स्प्रिंग-द्रव्यमान निकाय में एक स्प्रिंग रेत से भरे एक बक्से से जुड़ी है। बक्से के दोलन करते समय रेत बक्से से धीरे-धीरे ऊर्ध्वाधर नीचे गिरती है, जिससे निकाय की औसत आवृत्ति ω(t) और औसत आयाम A(t) समय t के साथ बदलते हैं। निम्नलिखित में से कौन-सा विकल्प इन परिवर्तनों को सही ढंग से दर्शाता है?",
+      "o": [
+       "[ω बढ़कर स्थिर होता है; A नियत]",
+       "[ω बढ़कर स्थिर होता है; A घटकर स्थिर होता है]",
+       "[ω बढ़कर स्थिर होता है; A बढ़कर स्थिर होता है]",
+       "[ω घटकर स्थिर होता है; A घटकर स्थिर होता है]"
+      ],
+      "sol": "<p>ω = √(k/m) : रेत निकलने से m घटता है, अतः ω बढ़ता है और बक्सा खाली होने पर स्थिर हो जाता है। साम्य प्रसार mg/k, m घटने से घटता है, अतः नई (ऊँची) साम्य स्थिति के परितः दोलन का आयाम कम होता है : A घटता है और फिर स्थिर हो जाता है। यह विकल्प <b>(2)</b> है।</p>",
+      "hint": "कम द्रव्यमान ⇒ अधिक ω; साम्य बिंदु ऊपर खिसकता है, A घटता है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "13.7",
+   "title": "Energy in Simple Harmonic Motion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 10,
+   "questions": [
+    {
+     "id": "phy11-13-neet-2021-code-p3-q1",
+     "exam": "NEET",
+     "q": "A body is executing simple harmonic motion with frequency 'n', the frequency of its potential energy is :",
+     "sol": "<p>U = (1/2)kA<sup>2</sup> sin<sup>2</sup>ωt = (1/4)kA<sup>2</sup>(1 − cos 2ωt). It varies with angular frequency 2ω, i.e. frequency <b>2n</b>.</p>",
+     "hint": "sin<sup>2</sup> repeats twice per cycle.",
+     "paras": [
+      "13.7"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q1",
+     "o": [
+      "4n",
+      "n",
+      "2n",
+      "3n"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "एक पिंड 'n' आवृत्ति से सरल आवर्त गति कर रहा है, इसकी स्थितिज ऊर्जा की आवृत्ति है :",
+      "o": [
+       "4n",
+       "n",
+       "2n",
+       "3n"
+      ],
+      "sol": "<p>U = (1/2)kA<sup>2</sup> sin<sup>2</sup>ωt = (1/4)kA<sup>2</sup>(1 − cos 2ωt)। यह 2ω कोणीय आवृत्ति से बदलती है, अर्थात आवृत्ति <b>2n</b>।</p>",
+      "hint": "sin<sup>2</sup> एक चक्र में दो बार दोहराता है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2026-code-13-q1",
+     "exam": "NEET",
+     "q": "For a simple pendulum, having time period T, the variation of kinetic energy (K.E.) with time (t) is represented by :",
+     "sol": "<p>Kinetic energy is never negative. With x = A sin ωt, K = (1/2)mω<sup>2</sup>A<sup>2</sup>cos<sup>2</sup>ωt: it is maximum at the mean position and zero at the extremes, repeating twice per period. Starting from an extreme at t = 0, K is zero at t = 0, T/2 and T with humps in between: <b>graph 4</b>.</p>",
+     "hint": "K ≥ 0 and has period T/2.",
+     "paras": [
+      "13.7"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q1",
+     "o": [
+      "[graph 1: K.E. a full sine wave from 0, negative between T/2 and T]",
+      "[graph 2: K.E. a sine wave about a positive level]",
+      "[graph 3: K.E. constant]",
+      "[graph 4: K.E. non-negative humps, zero at 0, T/2 and T]"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "आवर्तकाल T वाले एक सरल लोलक के लिए समय (t) के साथ गतिज ऊर्जा (K.E.) में परिवर्तन निरूपित होता है :",
+      "o": [
+       "[ग्राफ 1 : K.E. 0 से पूर्ण ज्या तरंग, T/2 और T के बीच ऋणात्मक]",
+       "[ग्राफ 2 : K.E. एक धनात्मक स्तर के परितः ज्या तरंग]",
+       "[ग्राफ 3 : K.E. नियत]",
+       "[ग्राफ 4 : K.E. अऋणात्मक उभार, 0, T/2 और T पर शून्य]"
+      ],
+      "sol": "<p>गतिज ऊर्जा कभी ऋणात्मक नहीं होती। x = A sin ωt के साथ K = (1/2)mω<sup>2</sup>A<sup>2</sup>cos<sup>2</sup>ωt : यह माध्य स्थिति पर अधिकतम और चरम स्थितियों पर शून्य है, तथा एक आवर्तकाल में दो बार दोहराती है। t = 0 पर चरम स्थिति से प्रारंभ करने पर K, t = 0, T/2 और T पर शून्य है और बीच में उभार हैं : <b>ग्राफ 4</b>।</p>",
+      "hint": "K ≥ 0 और इसका आवर्तकाल T/2 है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2026-code-13-q4",
+     "exam": "NEET",
+     "q": "The sum of kinetic energy and potential energy of a simple pendulum bob is 0.02 joule. The speed of the simple pendulum bob at equilibrium position is approximately : (Consider mass of the bob = 20 g)",
+     "sol": "<p>At the equilibrium (lowest) position all the mechanical energy is kinetic: (1/2)mv<sup>2</sup> = 0.02 J with m = 0.020 kg ⇒ v<sup>2</sup> = 2 ⇒ v ≈ <b>1.41 m/s</b>.</p>",
+     "hint": "Total energy = kinetic energy at the mean position.",
+     "paras": [
+      "13.7"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q4",
+     "o": [
+      "2.0 m/s",
+      "0.2 m/s",
+      "14.1 m/s",
+      "1.41 m/s"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक सरल लोलक के गोलक की गतिज ऊर्जा और स्थितिज ऊर्जा का योग 0.02 जूल है। साम्य स्थिति पर सरल लोलक के गोलक की चाल लगभग है : (गोलक का द्रव्यमान = 20 g मानिए)",
+      "o": [
+       "2.0 m/s",
+       "0.2 m/s",
+       "14.1 m/s",
+       "1.41 m/s"
+      ],
+      "sol": "<p>साम्य (निम्नतम) स्थिति पर संपूर्ण यांत्रिक ऊर्जा गतिज होती है : (1/2)mv<sup>2</sup> = 0.02 J, जहाँ m = 0.020 kg ⇒ v<sup>2</sup> = 2 ⇒ v ≈ <b>1.41 m/s</b>।</p>",
+      "hint": "कुल ऊर्जा = माध्य स्थिति पर गतिज ऊर्जा।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "13.8",
+   "title": "The Simple Pendulum",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 12,
+   "questions": [
+    {
+     "id": "phy11-13-neet-2018-code-aa-q25",
+     "exam": "NEET",
+     "q": "A pendulum is hung from the roof of a sufficiently high building and is moving freely to and fro like a simple harmonic oscillator. The acceleration of the bob of the pendulum is 20 m/s<sup>2</sup> at a distance of 5 m from the mean position. The time period of oscillation is :",
+     "sol": "<p>In SHM |a| = ω<sup>2</sup>x ⇒ ω<sup>2</sup> = 20/5 = 4 ⇒ ω = 2 rad/s. T = 2π/ω = <b>π s</b>.</p>",
+     "hint": "a = −ω<sup>2</sup>x.",
+     "paras": [
+      "13.8"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q25",
+     "o": [
+      "2 s",
+      "π s",
+      "2π s",
+      "1 s"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक लोलक एक पर्याप्त ऊँचे भवन की छत से लटका है और सरल आवर्ती दोलित्र की भाँति स्वतंत्र रूप से इधर-उधर दोलन कर रहा है। माध्य स्थिति से 5 m की दूरी पर लोलक के गोलक का त्वरण 20 m/s<sup>2</sup> है। दोलन का आवर्तकाल है :",
+      "o": [
+       "2 s",
+       "π s",
+       "2π s",
+       "1 s"
+      ],
+      "sol": "<p>सरल आवर्त गति (SHM) में |a| = ω<sup>2</sup>x ⇒ ω<sup>2</sup> = 20/5 = 4 ⇒ ω = 2 rad/s । T = 2π/ω = <b>π s</b>।</p>",
+      "hint": "a = −ω<sup>2</sup>x।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2022-code-t2-q40",
+     "exam": "NEET",
+     "q": "Two pendulums of length 121 cm and 100 cm start vibrating in phase. At some instant, the two are at their mean position in the same phase. The minimum number of vibrations of the shorter pendulum after which the two are again in phase at the mean position is :",
+     "sol": "<p>T ∝ √L, so T<sub>long</sub>/T<sub>short</sub> = √(121/100) = 11/10. They are next in phase when the shorter pendulum has made one more vibration: n T<sub>long</sub> = (n + 1)T<sub>short</sub> ⇒ 11n = 10(n + 1) ⇒ n = 10.</p><p>The shorter pendulum makes n + 1 = <b>11</b> vibrations.</p>",
+     "hint": "The faster (shorter) pendulum gains exactly one vibration.",
+     "paras": [
+      "13.8"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q40",
+     "o": [
+      "9",
+      "10",
+      "8",
+      "11"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "121 cm और 100 cm लंबाई के दो लोलक समान कला में कंपन करना प्रारंभ करते हैं। किसी क्षण दोनों समान कला में अपनी माध्य स्थिति पर हैं। छोटे लोलक के कंपनों की वह न्यूनतम संख्या, जिसके बाद दोनों पुनः माध्य स्थिति पर समान कला में होंगे, है :",
+      "o": [
+       "9",
+       "10",
+       "8",
+       "11"
+      ],
+      "sol": "<p>T ∝ √L, अतः T<sub>long</sub>/T<sub>short</sub> = √(121/100) = 11/10। वे पुनः समान कला में तब होंगे जब छोटा लोलक एक कंपन अधिक कर ले : n T<sub>long</sub> = (n + 1)T<sub>short</sub> ⇒ 11n = 10(n + 1) ⇒ n = 10।</p><p>छोटा लोलक n + 1 = <b>11</b> कंपन करता है।</p>",
+      "hint": "तेज (छोटा) लोलक ठीक एक कंपन आगे निकलता है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2024-q31-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "If the mass of the bob in a simple pendulum is increased to thrice its original mass and its length is made half its original length, then the new time period of oscillation is x/2 times its original time period. Then the value of x is :",
+     "sol": "<p>T = 2π√(l/g) does not depend on the bob's mass. Halving l: T′ = T/√2 = (x/2)T ⇒ x = 2/√2 = <b>√2</b>.</p>",
+     "hint": "Mass of the bob does not matter.",
+     "paras": [
+      "13.8"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q31 (eSaral physics copy)",
+     "o": [
+      "√3",
+      "√2",
+      "2√3",
+      "4"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "यदि सरल लोलक के गोलक का द्रव्यमान उसके मूल द्रव्यमान का तीन गुना कर दिया जाए और उसकी लंबाई मूल लंबाई की आधी कर दी जाए, तो दोलन का नया आवर्तकाल मूल आवर्तकाल का x/2 गुना है। तब x का मान है :",
+      "o": [
+       "√3",
+       "√2",
+       "2√3",
+       "4"
+      ],
+      "sol": "<p>T = 2π√(l/g) गोलक के द्रव्यमान पर निर्भर नहीं करता। l आधी करने पर : T′ = T/√2 = (x/2)T ⇒ x = 2/√2 = <b>√2</b>।</p>",
+      "hint": "गोलक के द्रव्यमान का कोई प्रभाव नहीं।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2026-code-13-q23",
+     "exam": "NEET",
+     "q": "Savitha, a XI standard student, while conducting an experiment to determine the effective length of a simple pendulum L, notes down the data of time taken to complete 30 oscillations as 60 s and hence calculates the length of the simple pendulum as : (Take π<sup>2</sup> = 9.8, and g = 9.8 m/s<sup>2</sup>)",
+     "sol": "<p>T = 60 s/30 = 2 s. T = 2π√(L/g) ⇒ L = gT<sup>2</sup>/(4π<sup>2</sup>) = 9.8 × 4/(4 × 9.8) = <b>1 m</b>.</p>",
+     "hint": "Find T from the 30 oscillations first.",
+     "paras": [
+      "13.8"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q23",
+     "o": [
+      "0.75 m",
+      "1 m",
+      "1.5 m",
+      "2 m"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "कक्षा XI की एक छात्रा सविता सरल लोलक की प्रभावी लंबाई L ज्ञात करने का प्रयोग करते हुए 30 दोलन पूरे करने में लगा समय 60 s लिखती है और इससे सरल लोलक की लंबाई की गणना करती है : (π<sup>2</sup> = 9.8 और g = 9.8 m/s<sup>2</sup> लीजिए)",
+      "o": [
+       "0.75 m",
+       "1 m",
+       "1.5 m",
+       "2 m"
+      ],
+      "sol": "<p>T = 60 s/30 = 2 s। T = 2π√(L/g) ⇒ L = gT<sup>2</sup>/(4π<sup>2</sup>) = 9.8 × 4/(4 × 9.8) = <b>1 m</b>।</p>",
+      "hint": "पहले 30 दोलनों से T ज्ञात कीजिए।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy11-13-neet-2023-topic-wise-copy-q40",
+     "exam": "NEET",
+     "q": "The x–t graph of a particle performing simple harmonic motion is shown in the figure. The acceleration of the particle at t = 2 s is :",
+     "sol": "<p>From the graph: A = 1 m, T = 8 s, x = sin(πt/4) (zero at t = 0, maximum at t = 2 s). ω = 2π/8 = π/4 rad/s.</p><p>At t = 2 s, x = 1 m, so a = −ω<sup>2</sup>x = <b>−(π<sup>2</sup>/16) m s<sup>−2</sup></b>.</p>",
+     "hint": "At the extreme position the acceleration is −ω<sup>2</sup>A.",
+     "paras": [
+      "13.3",
+      "13.5"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q40",
+     "o": [
+      "−(π<sup>2</sup>/16) m s<sup>−2</sup>",
+      "(π<sup>2</sup>/8) m s<sup>−2</sup>",
+      "−(π<sup>2</sup>/8) m s<sup>−2</sup>",
+      "(π<sup>2</sup>/16) m s<sup>−2</sup>"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "सरल आवर्त गति करते एक कण का x–t ग्राफ चित्र में दिखाया गया है। t = 2 s पर कण का त्वरण है :",
+      "o": [
+       "−(π<sup>2</sup>/16) m s<sup>−2</sup>",
+       "(π<sup>2</sup>/8) m s<sup>−2</sup>",
+       "−(π<sup>2</sup>/8) m s<sup>−2</sup>",
+       "(π<sup>2</sup>/16) m s<sup>−2</sup>"
+      ],
+      "sol": "<p>ग्राफ से : A = 1 m, T = 8 s, x = sin(πt/4) (t = 0 पर शून्य, t = 2 s पर अधिकतम)। ω = 2π/8 = π/4 rad/s ।</p><p>t = 2 s पर x = 1 m, अतः a = −ω<sup>2</sup>x = <b>−(π<sup>2</sup>/16) m s<sup>−2</sup></b>।</p>",
+      "hint": "चरम स्थिति पर त्वरण −ω<sup>2</sup>A होता है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-13-neet-2025-code-45-q44",
+     "exam": "NEET",
+     "q": "Two identical point masses P and Q, suspended from two separate massless springs of spring constants k<sub>1</sub> and k<sub>2</sub>, respectively, oscillate vertically. If their maximum speeds are the same, the ratio (A<sub>Q</sub>/A<sub>P</sub>) of the amplitude A<sub>Q</sub> of mass Q to the amplitude A<sub>P</sub> of mass P is :",
+     "sol": "<p>v<sub>max</sub> = Aω with ω = √(k/m). Equal masses and equal v<sub>max</sub>: A<sub>P</sub>√k<sub>1</sub> = A<sub>Q</sub>√k<sub>2</sub>.</p><p>A<sub>Q</sub>/A<sub>P</sub> = <b>√(k<sub>1</sub>/k<sub>2</sub>)</b>.</p>",
+     "hint": "Stiffer spring ⇒ larger ω ⇒ smaller amplitude for the same v<sub>max</sub>.",
+     "paras": [
+      "13.5",
+      "13.6"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q44",
+     "o": [
+      "k<sub>2</sub>/k<sub>1</sub>",
+      "k<sub>1</sub>/k<sub>2</sub>",
+      "√(k<sub>2</sub>/k<sub>1</sub>)",
+      "√(k<sub>1</sub>/k<sub>2</sub>)"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "दो सर्वसम बिंदु द्रव्यमान P और Q, क्रमशः k<sub>1</sub> और k<sub>2</sub> स्प्रिंग नियतांक वाली दो अलग-अलग द्रव्यमानरहित स्प्रिंगों से लटके हैं और ऊर्ध्वाधर दोलन करते हैं। यदि उनकी अधिकतम चालें समान हैं, तो द्रव्यमान Q के आयाम A<sub>Q</sub> का द्रव्यमान P के आयाम A<sub>P</sub> से अनुपात (A<sub>Q</sub>/A<sub>P</sub>) है :",
+      "o": [
+       "k<sub>2</sub>/k<sub>1</sub>",
+       "k<sub>1</sub>/k<sub>2</sub>",
+       "√(k<sub>2</sub>/k<sub>1</sub>)",
+       "√(k<sub>1</sub>/k<sub>2</sub>)"
+      ],
+      "sol": "<p>v<sub>max</sub> = Aω, जहाँ ω = √(k/m)। समान द्रव्यमान और समान v<sub>max</sub> : A<sub>P</sub>√k<sub>1</sub> = A<sub>Q</sub>√k<sub>2</sub>।</p><p>A<sub>Q</sub>/A<sub>P</sub> = <b>√(k<sub>1</sub>/k<sub>2</sub>)</b>।</p>",
+      "hint": "कठोर स्प्रिंग ⇒ अधिक ω ⇒ समान v<sub>max</sub> के लिए कम आयाम।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 20
+ },
+ "empty": [
+  {
+   "id": "13.1",
+   "title": "Introduction",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "13.2",
+   "title": "Periodic and Oscillatory Motions",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "13.2.1",
+   "title": "Period and Frequency",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "13.2.2",
+   "title": "Displacement",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 3
+  }
+ ],
+ "trends": {
+  "13.5": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2025,
+    2023,
+    2020,
+    2019,
+    2017,
+    2015
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "13.6": {
+   "neet": 5,
+   "jee": 0,
+   "years": [
+    2025,
+    2021,
+    2017,
+    2016
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "13.8": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2022,
+    2018
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "13.3": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2024,
+    2023,
+    2019
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "13.4": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2019
+   ],
+   "last": 2019,
+   "recent": false
+  },
+  "13.7": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2026,
+    2021
+   ],
+   "last": 2026,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}

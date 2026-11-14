@@ -1,0 +1,1450 @@
+{
+ "chapter": "phy12-09",
+ "source": "bank",
+ "subject": "physics",
+ "class": 12,
+ "unit": 9,
+ "title": "Ray Optics and Optical Instruments",
+ "titleHi": "किरण प्रकाशिकी एवं प्रकाशिक यंत्र",
+ "ref": "NCERT Physics Class 12 · Unit 9",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph201.pdf",
+ "pdfPageOffset": 0,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "9.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "9.2",
+   "title": "Reflection of Light by Spherical Mirrors",
+   "hi": "गोलीय दर्पणों द्वारा प्रकाश का परावर्तन",
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "9.2.1",
+   "title": "Sign Convention",
+   "hi": "चिह्न परिपाटी",
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "9.2.2",
+   "title": "Focal Length of Spherical Mirrors",
+   "hi": "गोलीय दर्पणों की फोकस दूरी",
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "9.2.3",
+   "title": "The Mirror Equation",
+   "hi": "दर्पण समीकरण",
+   "pages": [],
+   "pdfPage": 4
+  },
+  {
+   "id": "9.3",
+   "title": "Refraction",
+   "hi": "अपवर्तन",
+   "pages": [],
+   "pdfPage": 8
+  },
+  {
+   "id": "9.4",
+   "title": "Total Internal Reflection",
+   "hi": "पूर्ण आंतरिक परावर्तन",
+   "pages": [],
+   "pdfPage": 9
+  },
+  {
+   "id": "9.4.1",
+   "title": "Total Internal Reflection in Nature and its Technological Applications",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "9.5",
+   "title": "Refraction at Spherical Surfaces and by Lenses",
+   "hi": "गोलीय पृष्ठों तथा लेंसों द्वारा अपवर्तन",
+   "pages": [],
+   "pdfPage": 12
+  },
+  {
+   "id": "9.5.1",
+   "title": "Refraction at a Spherical Surface",
+   "hi": "किसी गोलीय पृष्ठ पर अपवर्तन",
+   "pages": [],
+   "pdfPage": 12
+  },
+  {
+   "id": "9.5.2",
+   "title": "Refraction by a Lens",
+   "hi": "किसी लेंस द्वारा अपवर्तन",
+   "pages": [],
+   "pdfPage": 14
+  },
+  {
+   "id": "9.5.3",
+   "title": "Power of a Lens",
+   "hi": "लेंस की क्षमता",
+   "pages": [],
+   "pdfPage": 16
+  },
+  {
+   "id": "9.5.4",
+   "title": "Combination of Thin Lenses in Contact",
+   "hi": "संपर्क में रखे पतले लेंसों का संयोजन",
+   "pages": [],
+   "pdfPage": 17
+  },
+  {
+   "id": "9.6",
+   "title": "Refraction through a Prism",
+   "hi": "प्रिज़्म में अपवर्तन",
+   "pages": [],
+   "pdfPage": 19
+  },
+  {
+   "id": "9.7",
+   "title": "Optical Instruments",
+   "hi": "प्रकाशिक यंत्र",
+   "pages": [],
+   "pdfPage": 20
+  },
+  {
+   "id": "9.7.1",
+   "title": "The Microscope",
+   "hi": "सूक्ष्मदर्शी",
+   "pages": [],
+   "pdfPage": 20
+  },
+  {
+   "id": "9.7.2",
+   "title": "Telescope",
+   "hi": "दूरदर्शक",
+   "pages": [],
+   "pdfPage": 24
+  }
+ ],
+ "sections": [
+  {
+   "sec": "9.2",
+   "title": "Reflection of Light by Spherical Mirrors",
+   "hi": "गोलीय दर्पणों द्वारा प्रकाश का परावर्तन",
+   "pages": [],
+   "pdfPage": 2,
+   "questions": [
+    {
+     "id": "phy12-09-neet-2017-code-a-q42",
+     "exam": "NEET",
+     "q": "A beam of light from a source L is incident normally on a plane mirror fixed at a certain distance x from the source. The beam is reflected back as a spot on a scale placed just above the source L. When the mirror is rotated through a small angle θ, the spot of the light is found to move through a distance y on the scale. The angle θ is given by :",
+     "sol": "<p>Rotating a plane mirror by θ turns the reflected ray by 2θ. The spot, at distance x, moves y = x × 2θ for small angles ⇒ <b>θ = y/(2x)</b>.</p>",
+     "hint": "Reflected ray turns through twice the mirror's angle.",
+     "paras": [
+      "9.2"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q42",
+     "o": [
+      "y/(2x)",
+      "y/x",
+      "x/(2y)",
+      "x/y"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "स्रोत L से प्रकाश का एक पुंज, स्रोत से कुछ दूरी x पर लगे एक समतल दर्पण पर अभिलंबवत आपतित होता है। पुंज परावर्तित होकर स्रोत L के ठीक ऊपर रखे एक स्केल पर एक बिंदु के रूप में लौटता है। जब दर्पण को एक छोटे कोण θ से घुमाया जाता है, तो प्रकाश का बिंदु स्केल पर y दूरी तक खिसक जाता है। कोण θ दिया जाता है :",
+      "o": [
+       "y/(2x)",
+       "y/x",
+       "x/(2y)",
+       "x/y"
+      ],
+      "sol": "<p>समतल दर्पण को θ घुमाने पर परावर्तित किरण 2θ घूमती है। x दूरी पर बिंदु छोटे कोणों के लिए y = x × 2θ खिसकता है ⇒ <b>θ = y/(2x)</b>।</p>",
+      "hint": "परावर्तित किरण दर्पण के कोण की दोगुनी घूमती है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "9.2.3",
+   "title": "The Mirror Equation",
+   "hi": "दर्पण समीकरण",
+   "pages": [],
+   "pdfPage": 4,
+   "questions": [
+    {
+     "id": "phy12-09-neet-2016-phase-1-code-a-q44",
+     "exam": "NEET",
+     "q": "Match the corresponding entries of Column 1 with Column 2. [Where m is the magnification produced by the mirror]<br>(A) m = −2 — (a) Convex mirror<br>(B) m = −1/2 — (b) Concave mirror<br>(C) m = +2 — (c) Real image<br>(D) m = +1/2 — (d) Virtual image",
+     "sol": "<p>Negative m means an inverted, real image, which only a concave mirror gives: m = −2 and m = −1/2 → concave, real. Positive m means an upright, virtual image: m = +2 (enlarged) → concave mirror, virtual; m = +1/2 (diminished) → convex mirror, virtual.</p><p>Answer: <b>A → b and c; B → b and c; C → b and d; D → a and d</b>.</p>",
+     "hint": "Convex mirrors give only diminished, virtual images.",
+     "paras": [
+      "9.2.3"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q44",
+     "o": [
+      "A → b and c; B → b and c; C → b and d; D → a and d",
+      "A → a and c; B → a and d; C → a and b; D → c and d",
+      "A → a and d; B → b and c; C → b and d; D → b and c",
+      "A → c and d; B → b and d; C → b and c; D → a and d"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "स्तंभ 1 की संगत प्रविष्टियों का स्तंभ 2 से मिलान कीजिए। [जहाँ m दर्पण द्वारा उत्पन्न आवर्धन है]<br>(A) m = −2 — (a) उत्तल दर्पण<br>(B) m = −1/2 — (b) अवतल दर्पण<br>(C) m = +2 — (c) वास्तविक प्रतिबिंब<br>(D) m = +1/2 — (d) आभासी प्रतिबिंब",
+      "o": [
+       "A → b और c; B → b और c; C → b और d; D → a और d",
+       "A → a और c; B → a और d; C → a और b; D → c और d",
+       "A → a और d; B → b और c; C → b और d; D → b और c",
+       "A → c और d; B → b और d; C → b और c; D → a और d"
+      ],
+      "sol": "<p>ऋणात्मक m का अर्थ उलटा, वास्तविक प्रतिबिंब है, जो केवल अवतल दर्पण देता है : m = −2 और m = −1/2 → अवतल, वास्तविक। धनात्मक m का अर्थ सीधा, आभासी प्रतिबिंब है : m = +2 (बड़ा) → अवतल दर्पण, आभासी; m = +1/2 (छोटा) → उत्तल दर्पण, आभासी।</p><p>उत्तर : <b>A → b और c; B → b और c; C → b और d; D → a और d</b>।</p>",
+      "hint": "उत्तल दर्पण केवल छोटे, आभासी प्रतिबिंब बनाते हैं।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2018-code-aa-q20",
+     "exam": "NEET",
+     "q": "An object is placed at a distance of 40 cm from a concave mirror of focal length 15 cm. If the object is displaced through a distance of 20 cm towards the mirror, the displacement of the image will be :",
+     "sol": "<p>With u = −40 cm, f = −15 cm: 1/v = 1/f − 1/u = −1/15 + 1/40 ⇒ v = −24 cm. Object moved to u = −20 cm: 1/v = −1/15 + 1/20 ⇒ v = −60 cm.</p><p>The image moves from 24 cm to 60 cm in front of the mirror: <b>36 cm away from the mirror</b>.</p>",
+     "hint": "Mirror formula with sign convention, twice.",
+     "paras": [
+      "9.2.3"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q20",
+     "o": [
+      "30 cm towards the mirror",
+      "36 cm away from the mirror",
+      "30 cm away from the mirror",
+      "36 cm towards the mirror"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "15 cm फ़ोकस दूरी वाले एक अवतल दर्पण से 40 cm की दूरी पर एक वस्तु रखी है। यदि वस्तु को दर्पण की ओर 20 cm विस्थापित किया जाए, तो प्रतिबिंब का विस्थापन होगा :",
+      "o": [
+       "दर्पण की ओर 30 cm",
+       "दर्पण से दूर 36 cm",
+       "दर्पण से दूर 30 cm",
+       "दर्पण की ओर 36 cm"
+      ],
+      "sol": "<p>u = −40 cm, f = −15 cm के साथ : 1/v = 1/f − 1/u = −1/15 + 1/40 ⇒ v = −24 cm। वस्तु u = −20 cm पर : 1/v = −1/15 + 1/20 ⇒ v = −60 cm।</p><p>प्रतिबिंब दर्पण के सामने 24 cm से 60 cm पर जाता है : <b>दर्पण से दूर 36 cm</b>।</p>",
+      "hint": "चिह्न परिपाटी के साथ दर्पण सूत्र दो बार।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "9.3",
+   "title": "Refraction",
+   "hi": "अपवर्तन",
+   "pages": [],
+   "pdfPage": 8,
+   "questions": [
+    {
+     "id": "phy12-09-neet-2016-phase-2-code-aa-q35",
+     "exam": "NEET",
+     "q": "An air bubble in a glass slab with refractive index 1.5 (near normal incidence) is 5 cm deep when viewed from one surface and 3 cm deep when viewed from the opposite face. The thickness (in cm) of the slab is :",
+     "sol": "<p>Apparent depth = real depth/μ. From one face: real depth = 5 × 1.5 = 7.5 cm; from the other: 3 × 1.5 = 4.5 cm.</p><p>Thickness = 7.5 + 4.5 = <b>12</b> cm.</p>",
+     "hint": "Convert each apparent depth to a real depth, then add.",
+     "paras": [
+      "9.3"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q35",
+     "o": [
+      "8",
+      "10",
+      "12",
+      "16"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "अपवर्तनांक 1.5 वाले काँच के एक पट्ट में एक वायु बुलबुला (लगभग अभिलंब आपतन पर) एक पृष्ठ से देखने पर 5 cm गहरा और विपरीत पृष्ठ से देखने पर 3 cm गहरा दिखता है। पट्ट की मोटाई (cm में) है :",
+      "o": [
+       "8",
+       "10",
+       "12",
+       "16"
+      ],
+      "sol": "<p>आभासी गहराई = वास्तविक गहराई/μ। एक पृष्ठ से : वास्तविक गहराई = 5 × 1.5 = 7.5 cm; दूसरे से : 3 × 1.5 = 4.5 cm।</p><p>मोटाई = 7.5 + 4.5 = <b>12</b> cm।</p>",
+      "hint": "प्रत्येक आभासी गहराई को वास्तविक गहराई में बदलकर जोड़िए।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "9.4",
+   "title": "Total Internal Reflection",
+   "hi": "पूर्ण आंतरिक परावर्तन",
+   "pages": [],
+   "pdfPage": 9,
+   "questions": [
+    {
+     "id": "phy12-09-neet-2019-code-s2-q129",
+     "exam": "NEET",
+     "q": "In total internal reflection when the angle of incidence is equal to the critical angle for the pair of media in contact, what will be angle of refraction?",
+     "sol": "<p>At the critical angle, μ<sub>1</sub> sin C = μ<sub>2</sub> sin r gives sin r = 1: the refracted ray grazes along the surface, angle of refraction = <b>90°</b>.</p>",
+     "hint": "Definition of the critical angle.",
+     "paras": [
+      "9.4"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q129",
+     "o": [
+      "equal to angle of incidence",
+      "90°",
+      "180°",
+      "0°"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "पूर्ण आंतरिक परावर्तन में जब आपतन कोण संपर्क में स्थित माध्यमों के युग्म के क्रांतिक कोण के बराबर हो, तो अपवर्तन कोण क्या होगा?",
+      "o": [
+       "आपतन कोण के बराबर",
+       "90°",
+       "180°",
+       "0°"
+      ],
+      "sol": "<p>क्रांतिक कोण पर μ<sub>1</sub> sin C = μ<sub>2</sub> sin r से sin r = 1 : अपवर्तित किरण पृष्ठ को छूती हुई चलती है, अपवर्तन कोण = <b>90°</b>।</p>",
+      "hint": "क्रांतिक कोण की परिभाषा।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2022-code-t2-q43",
+     "exam": "NEET",
+     "q": "Two transparent media A and B are separated by a plane boundary. The speed of light in those media are 1.5 × 10<sup>8</sup> m/s and 2.0 × 10<sup>8</sup> m/s, respectively. The critical angle for a ray of light for these two media is :",
+     "sol": "<p>Total internal reflection happens going from the slower (denser) medium A to B. sin C = μ<sub>B</sub>/μ<sub>A</sub> = v<sub>A</sub>/v<sub>B</sub> = 1.5/2.0 = 0.75 ⇒ C = <b>sin<sup>−1</sup>(0.750)</b>.</p>",
+     "hint": "μ ∝ 1/v.",
+     "paras": [
+      "9.4"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q43",
+     "o": [
+      "sin<sup>−1</sup>(0.750)",
+      "tan<sup>−1</sup>(0.500)",
+      "tan<sup>−1</sup>(0.750)",
+      "sin<sup>−1</sup>(0.500)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "दो पारदर्शी माध्यम A और B एक समतल सीमा द्वारा पृथक हैं। उन माध्यमों में प्रकाश की चाल क्रमशः 1.5 × 10<sup>8</sup> m/s और 2.0 × 10<sup>8</sup> m/s है। इन दोनों माध्यमों के लिए प्रकाश की किरण का क्रांतिक कोण है :",
+      "o": [
+       "sin<sup>−1</sup>(0.750)",
+       "tan<sup>−1</sup>(0.500)",
+       "tan<sup>−1</sup>(0.750)",
+       "sin<sup>−1</sup>(0.500)"
+      ],
+      "sol": "<p>पूर्ण आंतरिक परावर्तन धीमे (सघन) माध्यम A से B में जाने पर होता है। sin C = μ<sub>B</sub>/μ<sub>A</sub> = v<sub>A</sub>/v<sub>B</sub> = 1.5/2.0 = 0.75 ⇒ C = <b>sin<sup>−1</sup>(0.750)</b>।</p>",
+      "hint": "μ ∝ 1/v ।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "9.5.2",
+   "title": "Refraction by a Lens",
+   "hi": "किसी लेंस द्वारा अपवर्तन",
+   "pages": [],
+   "pdfPage": 14,
+   "questions": [
+    {
+     "id": "phy12-09-neet-2026-code-13-q26",
+     "exam": "NEET",
+     "q": "In a concave lens, a ray of light emanating from the object parallel to the principal axis of the lens, after refraction :",
+     "sol": "<p>A concave lens is diverging: a ray parallel to the axis bends away from it so that, traced back, it <b>appears to diverge from the first principal focus</b> (on the side the light comes from).</p>",
+     "hint": "Diverging lens: parallel rays appear to come from F<sub>1</sub>.",
+     "paras": [
+      "9.5.2"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q26",
+     "o": [
+      "passes through the second principal focus.",
+      "appears to diverge from the first principal focus.",
+      "passes through 2F, which is the radius of curvature of the lens.",
+      "emerges parallel to the principal axis."
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक अवतल लेंस में वस्तु से मुख्य अक्ष के समांतर निकलने वाली प्रकाश की किरण अपवर्तन के बाद :",
+      "o": [
+       "द्वितीय मुख्य फ़ोकस से गुजरती है।",
+       "प्रथम मुख्य फ़ोकस से अपसरित होती प्रतीत होती है।",
+       "2F से गुजरती है, जो लेंस की वक्रता त्रिज्या है।",
+       "मुख्य अक्ष के समांतर निर्गत होती है।"
+      ],
+      "sol": "<p>अवतल लेंस अपसारी है : अक्ष के समांतर किरण उससे दूर मुड़ती है, जिससे पीछे की ओर बढ़ाने पर वह <b>प्रथम मुख्य फ़ोकस से अपसरित होती प्रतीत होती है</b> (उस ओर जहाँ से प्रकाश आता है)।</p>",
+      "hint": "अपसारी लेंस : समांतर किरणें F<sub>1</sub> से आती प्रतीत होती हैं।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "9.5.4",
+   "title": "Combination of Thin Lenses in Contact",
+   "hi": "संपर्क में रखे पतले लेंसों का संयोजन",
+   "pages": [],
+   "pdfPage": 17,
+   "questions": [
+    {
+     "id": "phy12-09-neet-2016-phase-2-code-aa-q34",
+     "exam": "NEET",
+     "q": "Two identical glass (μ<sub>g</sub> = 3/2) equiconvex lenses of focal length f each are kept in contact. The space between the two lenses is filled with water (μ<sub>w</sub> = 4/3). The focal length of the combination is :",
+     "sol": "<p>Each glass lens: 1/f = (1.5 − 1)(2/R) ⇒ R = f. The water between them forms a biconcave lens: 1/f<sub>w</sub> = (4/3 − 1)(−2/R) = −2/(3f).</p><p>1/F = 2/f − 2/(3f) = 4/(3f) ⇒ F = <b>3f/4</b>.</p>",
+     "hint": "The water layer is a concave lens with the same radii.",
+     "paras": [
+      "9.5.4"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q34",
+     "o": [
+      "f/3",
+      "f",
+      "4f/3",
+      "3f/4"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "f फ़ोकस दूरी वाले काँच (μ<sub>g</sub> = 3/2) के दो सर्वसम समोत्तल लेंस संपर्क में रखे हैं। दोनों लेंसों के बीच का स्थान जल (μ<sub>w</sub> = 4/3) से भरा है। संयोजन की फ़ोकस दूरी है :",
+      "o": [
+       "f/3",
+       "f",
+       "4f/3",
+       "3f/4"
+      ],
+      "sol": "<p>प्रत्येक काँच का लेंस : 1/f = (1.5 − 1)(2/R) ⇒ R = f। उनके बीच का जल एक उभयावतल लेंस बनाता है : 1/f<sub>w</sub> = (4/3 − 1)(−2/R) = −2/(3f)।</p><p>1/F = 2/f − 2/(3f) = 4/(3f) ⇒ F = <b>3f/4</b>।</p>",
+      "hint": "जल की परत समान त्रिज्याओं वाला अवतल लेंस है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2021-code-p3-q12",
+     "exam": "NEET",
+     "q": "A convex lens 'A' of focal length 20 cm and a concave lens 'B' of focal length 5 cm are kept along the same axis with a distance 'd' between them. If a parallel beam of light falling on 'A' leaves 'B' as a parallel beam, then the distance 'd' in cm will be :",
+     "sol": "<p>Parallel light converges towards A's focus, 20 cm beyond A. To leave B parallel, that point must be B's (virtual) focus, 5 cm behind B. So B sits 5 cm before A's focus: d = 20 − 5 = <b>15</b> cm.</p>",
+     "hint": "The two lenses must share a focal point.",
+     "paras": [
+      "9.5.4"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q12",
+     "o": [
+      "30",
+      "25",
+      "15",
+      "50"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "20 cm फ़ोकस दूरी वाला एक उत्तल लेंस 'A' और 5 cm फ़ोकस दूरी वाला एक अवतल लेंस 'B' एक ही अक्ष के अनुदिश उनके बीच 'd' दूरी रखकर रखे गए हैं। यदि 'A' पर पड़ने वाला समांतर प्रकाश पुंज 'B' से समांतर पुंज के रूप में निकलता है, तो cm में दूरी 'd' होगी :",
+      "o": [
+       "30",
+       "25",
+       "15",
+       "50"
+      ],
+      "sol": "<p>समांतर प्रकाश A के फ़ोकस, A से 20 cm आगे, की ओर अभिसरित होता है। B से समांतर निकलने के लिए वह बिंदु B का (आभासी) फ़ोकस, B के 5 cm पीछे, होना चाहिए। अतः B, A के फ़ोकस से 5 cm पहले है : d = 20 − 5 = <b>15</b> cm।</p>",
+      "hint": "दोनों लेंसों का एक फ़ोकस बिंदु उभयनिष्ठ होना चाहिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2023-topic-wise-copy-q48",
+     "exam": "NEET",
+     "q": "Two thin lenses are of same focal lengths (f), but one is convex and the other one is concave. When they are placed in contact with each other, the equivalent focal length of the combination will be :",
+     "sol": "<p>1/F = 1/f + 1/(−f) = 0 ⇒ F is <b>infinite</b> (the combination acts like a plane glass plate).</p>",
+     "hint": "Powers add: +P − P = 0.",
+     "paras": [
+      "9.5.4"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q48",
+     "o": [
+      "Infinite",
+      "Zero",
+      "f/4",
+      "f/2"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "दो पतले लेंसों की फ़ोकस दूरियाँ (f) समान हैं, परंतु एक उत्तल और दूसरा अवतल है। जब उन्हें एक-दूसरे के संपर्क में रखा जाता है, तो संयोजन की तुल्य फ़ोकस दूरी होगी :",
+      "o": [
+       "अनंत",
+       "शून्य",
+       "f/4",
+       "f/2"
+      ],
+      "sol": "<p>1/F = 1/f + 1/(−f) = 0 ⇒ F <b>अनंत</b> है (संयोजन समतल काँच की प्लेट की तरह कार्य करता है)।</p>",
+      "hint": "क्षमताएँ जुड़ती हैं : +P − P = 0।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "9.6",
+   "title": "Refraction through a Prism",
+   "hi": "प्रिज़्म में अपवर्तन",
+   "pages": [],
+   "pdfPage": 19,
+   "questions": [
+    {
+     "id": "phy12-09-neet-2016-phase-1-code-a-q22",
+     "exam": "NEET",
+     "q": "The angle of incidence for a ray of light at a refracting surface of a prism is 45°. The angle of prism is 60°. If the ray suffers minimum deviation through the prism, the angle of minimum deviation and refractive index of the material of the prism respectively, are:",
+     "sol": "<p>At minimum deviation r = A/2 = 30° and i = e = 45°. δ<sub>m</sub> = 2i − A = 90° − 60° = 30°.</p><p>μ = sin i/sin r = sin 45°/sin 30° = (1/√2)/(1/2) = √2. Answer: <b>30°; √2</b>.</p>",
+     "hint": "Minimum deviation: r = A/2, δ = 2i − A.",
+     "paras": [
+      "9.6"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q22",
+     "o": [
+      "45°; 1/√2",
+      "30°; √2",
+      "45°; √2",
+      "30°; 1/√2"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक प्रिज़्म के अपवर्तक पृष्ठ पर प्रकाश की किरण का आपतन कोण 45° है। प्रिज़्म का कोण 60° है। यदि किरण प्रिज़्म से न्यूनतम विचलन से गुजरती है, तो न्यूनतम विचलन कोण और प्रिज़्म के पदार्थ का अपवर्तनांक क्रमशः हैं :",
+      "o": [
+       "45°; 1/√2",
+       "30°; √2",
+       "45°; √2",
+       "30°; 1/√2"
+      ],
+      "sol": "<p>न्यूनतम विचलन पर r = A/2 = 30° और i = e = 45°। δ<sub>m</sub> = 2i − A = 90° − 60° = 30°।</p><p>μ = sin i/sin r = sin 45°/sin 30° = (1/√2)/(1/2) = √2। उत्तर : <b>30°; √2</b>।</p>",
+      "hint": "न्यूनतम विचलन : r = A/2, δ = 2i − A।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2017-code-a-q44",
+     "exam": "NEET",
+     "q": "A thin prism having refracting angle 10° is made of glass of refractive index 1.42. This prism is combined with another thin prism of glass of refractive index 1.7. This combination produces dispersion without deviation. The refracting angle of second prism should be :",
+     "sol": "<p>No deviation: the thin-prism deviations (μ − 1)A must cancel: (1.42 − 1) × 10° = (1.7 − 1)A<sub>2</sub> ⇒ A<sub>2</sub> = 4.2/0.7 = <b>6°</b>.</p>",
+     "hint": "Thin prism: δ = (μ − 1)A.",
+     "paras": [
+      "9.6"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q44",
+     "o": [
+      "4°",
+      "6°",
+      "8°",
+      "10°"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "10° अपवर्तक कोण वाला एक पतला प्रिज़्म 1.42 अपवर्तनांक वाले काँच का बना है। इस प्रिज़्म को 1.7 अपवर्तनांक वाले काँच के एक अन्य पतले प्रिज़्म के साथ संयोजित किया जाता है। यह संयोजन विचलन के बिना परिक्षेपण उत्पन्न करता है। दूसरे प्रिज़्म का अपवर्तक कोण होना चाहिए :",
+      "o": [
+       "4°",
+       "6°",
+       "8°",
+       "10°"
+      ],
+      "sol": "<p>विचलन शून्य : पतले प्रिज़्मों के विचलन (μ − 1)A निरस्त होने चाहिए : (1.42 − 1) × 10° = (1.7 − 1)A<sub>2</sub> ⇒ A<sub>2</sub> = 4.2/0.7 = <b>6°</b>।</p>",
+      "hint": "पतला प्रिज़्म : δ = (μ − 1)A।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2018-code-aa-q19",
+     "exam": "NEET",
+     "q": "The refractive index of the material of a prism is √2 and the angle of the prism is 30°. One of the two refracting surfaces of the prism is made a mirror inwards, by silver coating. A beam of monochromatic light entering the prism from the other face will retrace its path (after reflection from the silvered surface) if its angle of incidence on the prism is :",
+     "sol": "<p>To retrace its path the ray must hit the silvered face normally, so the refraction angle at the first face equals the prism angle: r = A = 30°.</p><p>sin i = μ sin r = √2 × 1/2 = 1/√2 ⇒ i = <b>45°</b>.</p>",
+     "hint": "Normal incidence on the silvered face ⇒ r = A.",
+     "paras": [
+      "9.6"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q19",
+     "o": [
+      "30°",
+      "45°",
+      "60°",
+      "zero"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक प्रिज़्म के पदार्थ का अपवर्तनांक √2 और प्रिज़्म का कोण 30° है। प्रिज़्म के दो अपवर्तक पृष्ठों में से एक को रजत-लेपन द्वारा अंदर की ओर दर्पण बना दिया गया है। दूसरे फलक से प्रिज़्म में प्रवेश करने वाला एकवर्णी प्रकाश पुंज अपना पथ पुनः तय करेगा (रजत-लेपित पृष्ठ से परावर्तन के बाद) यदि प्रिज़्म पर उसका आपतन कोण है :",
+      "o": [
+       "30°",
+       "45°",
+       "60°",
+       "शून्य"
+      ],
+      "sol": "<p>पथ पुनः तय करने के लिए किरण को रजत-लेपित फलक पर अभिलंबवत पड़ना चाहिए, अतः पहले फलक पर अपवर्तन कोण प्रिज़्म कोण के बराबर है : r = A = 30°।</p><p>sin i = μ sin r = √2 × 1/2 = 1/√2 ⇒ i = <b>45°</b>।</p>",
+      "hint": "रजत-लेपित फलक पर अभिलंब आपतन ⇒ r = A।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2020-code-f3-q37",
+     "exam": "NEET",
+     "q": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to :",
+     "sol": "<p>Emerging normally from the second face means r<sub>2</sub> = 0, so r<sub>1</sub> = A. For a small-angle prism, sin i ≈ i and sin r<sub>1</sub> ≈ r<sub>1</sub>: i = μr<sub>1</sub> = <b>μA</b>.</p>",
+     "hint": "r<sub>1</sub> + r<sub>2</sub> = A with r<sub>2</sub> = 0.",
+     "paras": [
+      "9.6"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q37",
+     "o": [
+      "μA",
+      "μA/2",
+      "A/(2μ)",
+      "2A/μ"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "एक किरण एक लघु कोण प्रिज़्म (प्रिज़्म कोण A) के एक पृष्ठ पर आपतन कोण i पर आपतित होती है और विपरीत पृष्ठ से अभिलंबवत निर्गत होती है। यदि प्रिज़्म के पदार्थ का अपवर्तनांक μ है, तो आपतन कोण लगभग बराबर है :",
+      "o": [
+       "μA",
+       "μA/2",
+       "A/(2μ)",
+       "2A/μ"
+      ],
+      "sol": "<p>दूसरे फलक से अभिलंबवत निर्गत होने का अर्थ r<sub>2</sub> = 0, अतः r<sub>1</sub> = A। लघु कोण प्रिज़्म के लिए sin i ≈ i और sin r<sub>1</sub> ≈ r<sub>1</sub> : i = μr<sub>1</sub> = <b>μA</b>।</p>",
+      "hint": "r<sub>1</sub> + r<sub>2</sub> = A, जहाँ r<sub>2</sub> = 0।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2026-code-13-q43",
+     "exam": "NEET",
+     "q": "A ray of monochromatic light is passing through an equilateral prism (ABC) as shown in the figure. The refracted ray (QR) is parallel to its base (BC) and the angle of incidence (i) is 50°. Then the angle of deviation (δ) is :",
+     "sol": "<p>QR parallel to the base BC in an equilateral prism is the minimum-deviation path: r<sub>1</sub> = r<sub>2</sub> = 30° and e = i = 50°.</p><p>δ = i + e − A = 50° + 50° − 60° = <b>40°</b>.</p>",
+     "hint": "Ray parallel to the base ⇒ symmetric passage, e = i.",
+     "paras": [
+      "9.6"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q43",
+     "o": [
+      "45°",
+      "55°",
+      "35°",
+      "40°"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एकवर्णी प्रकाश की एक किरण चित्र में दिखाए अनुसार एक समबाहु प्रिज़्म (ABC) से गुजर रही है। अपवर्तित किरण (QR) इसके आधार (BC) के समांतर है और आपतन कोण (i) 50° है। तब विचलन कोण (δ) है :",
+      "o": [
+       "45°",
+       "55°",
+       "35°",
+       "40°"
+      ],
+      "sol": "<p>समबाहु प्रिज़्म में आधार BC के समांतर QR न्यूनतम विचलन का पथ है : r<sub>1</sub> = r<sub>2</sub> = 30° और e = i = 50°।</p><p>δ = i + e − A = 50° + 50° − 60° = <b>40°</b>।</p>",
+      "hint": "आधार के समांतर किरण ⇒ सममित गमन, e = i।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "9.7.1",
+   "title": "The Microscope",
+   "hi": "सूक्ष्मदर्शी",
+   "pages": [],
+   "pdfPage": 20,
+   "questions": [
+    {
+     "id": "phy12-09-neet-2025-code-45-q2",
+     "exam": "NEET",
+     "q": "A microscope has an objective of focal length 2 cm, eyepiece of focal length 4 cm and the tube length of 40 cm. If the distance of distinct vision of eye is 25 cm, the magnification in the microscope is :",
+     "sol": "<p>Compound microscope with the final image at infinity: M ≈ (L/f<sub>o</sub>)(D/f<sub>e</sub>) = (40/2)(25/4) = 20 × 6.25 = <b>125</b>.</p>",
+     "hint": "Objective magnifies by L/f<sub>o</sub>, eyepiece by D/f<sub>e</sub>.",
+     "paras": [
+      "9.7.1"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q2",
+     "o": [
+      "100",
+      "125",
+      "150",
+      "250"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक सूक्ष्मदर्शी के अभिदृश्यक की फ़ोकस दूरी 2 cm, नेत्रिका की फ़ोकस दूरी 4 cm और नलिका की लंबाई 40 cm है। यदि नेत्र के स्पष्ट दर्शन की दूरी 25 cm है, तो सूक्ष्मदर्शी में आवर्धन है :",
+      "o": [
+       "100",
+       "125",
+       "150",
+       "250"
+      ],
+      "sol": "<p>अंतिम प्रतिबिंब अनंत पर वाले संयुक्त सूक्ष्मदर्शी के लिए : M ≈ (L/f<sub>o</sub>)(D/f<sub>e</sub>) = (40/2)(25/4) = 20 × 6.25 = <b>125</b>।</p>",
+      "hint": "अभिदृश्यक L/f<sub>o</sub> से और नेत्रिका D/f<sub>e</sub> से आवर्धित करती है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "9.7.2",
+   "title": "Telescope",
+   "hi": "दूरदर्शक",
+   "pages": [],
+   "pdfPage": 24,
+   "questions": [
+    {
+     "id": "phy12-09-neet-2015-re-exam-code-d-q174",
+     "exam": "NEET",
+     "q": "In an astronomical telescope in normal adjustment a straight black line of length L is drawn on inside part of objective lens. The eye-piece forms a real image of this line. The length of this image is I. The magnification of the telescope is :",
+     "sol": "<p>In normal adjustment the objective and eyepiece are f<sub>o</sub> + f<sub>e</sub> apart. The eyepiece images the line on the objective: u = f<sub>o</sub> + f<sub>e</sub>, giving v = f<sub>e</sub>(f<sub>o</sub> + f<sub>e</sub>)/f<sub>o</sub>, a magnification |v/u| = f<sub>e</sub>/f<sub>o</sub>.</p><p>So I/L = f<sub>e</sub>/f<sub>o</sub>, and the telescope's magnification f<sub>o</sub>/f<sub>e</sub> = <b>L/I</b>.</p>",
+     "hint": "The image of the objective formed by the eyepiece is the exit pupil.",
+     "paras": [
+      "9.7.2"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q174",
+     "o": [
+      "L/I − 1",
+      "(L + I)/(L − I)",
+      "L/I",
+      "L/I + 1"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "सामान्य समायोजन में एक खगोलीय दूरदर्शक के अभिदृश्यक लेंस के अंदरूनी भाग पर L लंबाई की एक सीधी काली रेखा खींची जाती है। नेत्रिका इस रेखा का वास्तविक प्रतिबिंब बनाती है। इस प्रतिबिंब की लंबाई I है। दूरदर्शक का आवर्धन है :",
+      "o": [
+       "L/I − 1",
+       "(L + I)/(L − I)",
+       "L/I",
+       "L/I + 1"
+      ],
+      "sol": "<p>सामान्य समायोजन में अभिदृश्यक और नेत्रिका के बीच f<sub>o</sub> + f<sub>e</sub> की दूरी है। नेत्रिका अभिदृश्यक पर बनी रेखा का प्रतिबिंब बनाती है : u = f<sub>o</sub> + f<sub>e</sub>, जिससे v = f<sub>e</sub>(f<sub>o</sub> + f<sub>e</sub>)/f<sub>o</sub>, आवर्धन |v/u| = f<sub>e</sub>/f<sub>o</sub>।</p><p>अतः I/L = f<sub>e</sub>/f<sub>o</sub>, और दूरदर्शक का आवर्धन f<sub>o</sub>/f<sub>e</sub> = <b>L/I</b>।</p>",
+      "hint": "नेत्रिका द्वारा बना अभिदृश्यक का प्रतिबिंब निर्गम पुतली है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2018-code-aa-q10",
+     "exam": "NEET",
+     "q": "An astronomical refracting telescope will have large angular magnification and high angular resolution, when it has an objective lens of :",
+     "sol": "<p>Angular magnification f<sub>o</sub>/f<sub>e</sub> is large for a long-focus objective; resolving power ∝ D/λ is high for a large-diameter objective (which also gathers more light). So the objective should have <b>large focal length and large diameter</b>.</p>",
+     "hint": "Magnification needs large f<sub>o</sub>; resolution needs large aperture.",
+     "paras": [
+      "9.7.2"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q10",
+     "o": [
+      "large focal length and large diameter",
+      "large focal length and small diameter",
+      "small focal length and large diameter",
+      "small focal length and small diameter"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "एक खगोलीय अपवर्ती दूरदर्शक का कोणीय आवर्धन अधिक और कोणीय विभेदन उच्च होगा, जब इसका अभिदृश्यक लेंस हो :",
+      "o": [
+       "बड़ी फ़ोकस दूरी और बड़े व्यास का",
+       "बड़ी फ़ोकस दूरी और छोटे व्यास का",
+       "छोटी फ़ोकस दूरी और बड़े व्यास का",
+       "छोटी फ़ोकस दूरी और छोटे व्यास का"
+      ],
+      "sol": "<p>कोणीय आवर्धन f<sub>o</sub>/f<sub>e</sub> बड़ी फ़ोकस दूरी वाले अभिदृश्यक के लिए अधिक है; विभेदन क्षमता ∝ D/λ बड़े व्यास वाले अभिदृश्यक के लिए उच्च है (जो अधिक प्रकाश भी एकत्र करता है)। अतः अभिदृश्यक <b>बड़ी फ़ोकस दूरी और बड़े व्यास का</b> होना चाहिए।</p>",
+      "hint": "आवर्धन के लिए बड़ी f<sub>o</sub>; विभेदन के लिए बड़ा द्वारक।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2021-code-p3-q8",
+     "exam": "NEET",
+     "q": "A lens of large focal length and large aperture is best suited as an objective of an astronomical telescope since :",
+     "sol": "<p>A large aperture improves image brightness and visibility, collects more light, and gives better resolution (resolving power ∝ D), while a long focal length gives large magnification. All three reasons apply: <b>All of the above</b>.</p>",
+     "hint": "Aperture helps brightness, light gathering and resolution.",
+     "paras": [
+      "9.7.2"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q8",
+     "o": [
+      "A large aperture contributes to the quality and visibility of the images.",
+      "A large area of the objective ensures better light gathering power.",
+      "A large aperture provides a better resolution.",
+      "All of the above"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "बड़ी फ़ोकस दूरी और बड़े द्वारक वाला लेंस खगोलीय दूरदर्शक के अभिदृश्यक के रूप में सबसे उपयुक्त है क्योंकि :",
+      "o": [
+       "बड़ा द्वारक प्रतिबिंबों की गुणवत्ता और दृश्यता में योगदान देता है।",
+       "अभिदृश्यक का बड़ा क्षेत्रफल बेहतर प्रकाश संग्रहण क्षमता सुनिश्चित करता है।",
+       "बड़ा द्वारक बेहतर विभेदन प्रदान करता है।",
+       "उपर्युक्त सभी"
+      ],
+      "sol": "<p>बड़ा द्वारक प्रतिबिंब की चमक और दृश्यता बढ़ाता है, अधिक प्रकाश एकत्र करता है, और बेहतर विभेदन देता है (विभेदन क्षमता ∝ D), जबकि बड़ी फ़ोकस दूरी अधिक आवर्धन देती है। तीनों कारण लागू होते हैं : <b>उपर्युक्त सभी</b>।</p>",
+      "hint": "द्वारक चमक, प्रकाश संग्रहण और विभेदन में सहायक है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2024-q17-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "A small telescope has an objective of focal length 140 cm and an eye piece of focal length 5.0 cm. The magnifying power of telescope for viewing a distant object is :",
+     "sol": "<p>For a distant object in normal adjustment M = f<sub>o</sub>/f<sub>e</sub> = 140/5 = <b>28</b>.</p>",
+     "hint": "M = f<sub>o</sub>/f<sub>e</sub>.",
+     "paras": [
+      "9.7.2"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q17 (eSaral physics copy)",
+     "o": [
+      "34",
+      "28",
+      "17",
+      "32"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक छोटे दूरदर्शक के अभिदृश्यक की फ़ोकस दूरी 140 cm और नेत्रिका की फ़ोकस दूरी 5.0 cm है। दूर स्थित वस्तु को देखने के लिए दूरदर्शक की आवर्धन क्षमता है :",
+      "o": [
+       "34",
+       "28",
+       "17",
+       "32"
+      ],
+      "sol": "<p>सामान्य समायोजन में दूर की वस्तु के लिए M = f<sub>o</sub>/f<sub>e</sub> = 140/5 = <b>28</b>।</p>",
+      "hint": "M = f<sub>o</sub>/f<sub>e</sub>।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy12-09-neet-2023-topic-wise-copy-q28",
+     "exam": "NEET",
+     "q": "Light travels a distance x in time t<sub>1</sub> in air and 10x in time t<sub>2</sub> in another denser medium. What is the critical angle for this medium?",
+     "sol": "<p>Speed in air c = x/t<sub>1</sub>; in the medium v = 10x/t<sub>2</sub>. μ = c/v = t<sub>2</sub>/(10t<sub>1</sub>).</p><p>sin C = 1/μ = 10t<sub>1</sub>/t<sub>2</sub> ⇒ C = <b>sin<sup>−1</sup>(10t<sub>1</sub>/t<sub>2</sub>)</b>.</p>",
+     "hint": "μ = c/v; sin C = 1/μ.",
+     "paras": [
+      "9.3",
+      "9.4"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q28",
+     "o": [
+      "sin<sup>−1</sup>(10t<sub>1</sub>/t<sub>2</sub>)",
+      "sin<sup>−1</sup>(t<sub>2</sub>/t<sub>1</sub>)",
+      "sin<sup>−1</sup>(10t<sub>2</sub>/t<sub>1</sub>)",
+      "sin<sup>−1</sup>(t<sub>1</sub>/(10t<sub>2</sub>))"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "प्रकाश वायु में t<sub>1</sub> समय में x दूरी और किसी अन्य सघन माध्यम में t<sub>2</sub> समय में 10x दूरी तय करता है। इस माध्यम के लिए क्रांतिक कोण क्या है?",
+      "o": [
+       "sin<sup>−1</sup>(10t<sub>1</sub>/t<sub>2</sub>)",
+       "sin<sup>−1</sup>(t<sub>2</sub>/t<sub>1</sub>)",
+       "sin<sup>−1</sup>(10t<sub>2</sub>/t<sub>1</sub>)",
+       "sin<sup>−1</sup>(t<sub>1</sub>/(10t<sub>2</sub>))"
+      ],
+      "sol": "<p>वायु में चाल c = x/t<sub>1</sub>; माध्यम में v = 10x/t<sub>2</sub>। μ = c/v = t<sub>2</sub>/(10t<sub>1</sub>)।</p><p>sin C = 1/μ = 10t<sub>1</sub>/t<sub>2</sub> ⇒ C = <b>sin<sup>−1</sup>(10t<sub>1</sub>/t<sub>2</sub>)</b>।</p>",
+      "hint": "μ = c/v; sin C = 1/μ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2021-code-p3-q27",
+     "exam": "NEET",
+     "q": "Find the value of the angle of emergence from the prism. Refractive index of the glass is √3.",
+     "sol": "<p>The ray enters normally through the hypotenuse, undeviated, and meets the vertical face at an angle of incidence of 30° (geometry of the 60° corner). sin e = μ sin 30° = √3 × 1/2 = √3/2 ⇒ e = <b>60°</b>.</p><p>(sin 30° × √3 &lt; 1, so it does emerge.)</p>",
+     "hint": "Find the angle of incidence at the exit face from the triangle.",
+     "paras": [
+      "9.3",
+      "9.6"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q27",
+     "o": [
+      "90°",
+      "60°",
+      "30°",
+      "45°"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "प्रिज़्म से निर्गमन कोण का मान ज्ञात कीजिए। काँच का अपवर्तनांक √3 है।",
+      "o": [
+       "90°",
+       "60°",
+       "30°",
+       "45°"
+      ],
+      "sol": "<p>किरण कर्ण फलक से अभिलंबवत, बिना विचलन के प्रवेश करती है और ऊर्ध्वाधर फलक पर 30° के आपतन कोण पर पहुँचती है (60° कोने की ज्यामिति)। sin e = μ sin 30° = √3 × 1/2 = √3/2 ⇒ e = <b>60°</b>।</p><p>(sin 30° × √3 &lt; 1, अतः यह निर्गत होती है।)</p>",
+      "hint": "त्रिभुज से निर्गम फलक पर आपतन कोण ज्ञात कीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2015-re-exam-code-d-q138",
+     "exam": "NEET",
+     "q": "A beam of light consisting of red, green and blue colours is incident on a right angled prism. The refractive indices of the material of the prism for the above red, green and blue wavelengths are 1.39, 1.44 and 1.47 respectively. The prism will :",
+     "sol": "<p>In a right-angled (45°–45°–90°) prism the light meets the second face at 45°. Critical angles: red sin C = 1/1.39 ≈ 0.719 (C ≈ 46°), green 1/1.44 ≈ 0.694 (C ≈ 44°), blue 1/1.47 ≈ 0.680 (C ≈ 43°).</p><p>Green and blue (C &lt; 45°) are totally internally reflected; red (C > 45°) passes out. The prism will <b>separate the red colour from the green and blue</b>.</p>",
+     "hint": "Compare each colour's critical angle with 45°.",
+     "paras": [
+      "9.4",
+      "9.6"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q138",
+     "o": [
+      "Separate all the three colours from one another",
+      "Not separate the three colours at all",
+      "Separate the red colour part from the green and blue colours",
+      "Separate the blue colour part from the red and green colours"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "लाल, हरे और नीले रंगों वाला एक प्रकाश पुंज एक समकोणिक प्रिज़्म पर आपतित होता है। उपरोक्त लाल, हरी और नीली तरंगदैर्घ्यों के लिए प्रिज़्म के पदार्थ के अपवर्तनांक क्रमशः 1.39, 1.44 और 1.47 हैं। प्रिज़्म :",
+      "o": [
+       "तीनों रंगों को एक-दूसरे से पृथक कर देगा",
+       "तीनों रंगों को बिलकुल पृथक नहीं करेगा",
+       "लाल रंग के भाग को हरे और नीले रंगों से पृथक कर देगा",
+       "नीले रंग के भाग को लाल और हरे रंगों से पृथक कर देगा"
+      ],
+      "sol": "<p>समकोणिक (45°–45°–90°) प्रिज़्म में प्रकाश दूसरे फलक पर 45° पर पहुँचता है। क्रांतिक कोण : लाल sin C = 1/1.39 ≈ 0.719 (C ≈ 46°), हरा 1/1.44 ≈ 0.694 (C ≈ 44°), नीला 1/1.47 ≈ 0.680 (C ≈ 43°)।</p><p>हरा और नीला (C &lt; 45°) पूर्ण आंतरिक परावर्तित होते हैं; लाल (C > 45°) बाहर निकल जाता है। प्रिज़्म <b>लाल रंग को हरे और नीले से पृथक कर देगा</b>।</p>",
+      "hint": "प्रत्येक रंग के क्रांतिक कोण की तुलना 45° से कीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2024-q5-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "A light ray enters through a right angled prism at point P with the angle of incidence 30° as shown in figure. It travels through the prism parallel to its base BC and emerges along the face AC. The refractive index of the prism is :",
+     "sol": "<p>The ray travels parallel to BC and just grazes out along AC, so it meets AC at the critical angle c: sin c = 1/μ. With the right angle at B, the refraction angle at AB is r<sub>1</sub> = 90° − c.</p><p>Snell at AB: sin 30° = μ sin(90° − c) = μ cos c = √(μ<sup>2</sup> − 1) ⇒ 1/4 = μ<sup>2</sup> − 1 ⇒ μ = <b>√5/2</b>.</p>",
+     "hint": "Grazing emergence ⇒ incidence at the critical angle.",
+     "paras": [
+      "9.4",
+      "9.6"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q5 (eSaral physics copy)",
+     "o": [
+      "√5/4",
+      "√5/2",
+      "√3/4",
+      "√3/2"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक प्रकाश किरण चित्र में दिखाए अनुसार 30° आपतन कोण के साथ बिंदु P पर एक समकोण प्रिज़्म में प्रवेश करती है। यह प्रिज़्म में उसके आधार BC के समांतर चलती है और फलक AC के अनुदिश निर्गत होती है। प्रिज़्म का अपवर्तनांक है :",
+      "o": [
+       "√5/4",
+       "√5/2",
+       "√3/4",
+       "√3/2"
+      ],
+      "sol": "<p>किरण BC के समांतर चलकर AC के अनुदिश छूती हुई निकलती है, अतः वह AC पर क्रांतिक कोण c पर पहुँचती है : sin c = 1/μ। B पर समकोण होने से AB पर अपवर्तन कोण r<sub>1</sub> = 90° − c।</p><p>AB पर स्नेल : sin 30° = μ sin(90° − c) = μ cos c = √(μ<sup>2</sup> − 1) ⇒ 1/4 = μ<sup>2</sup> − 1 ⇒ μ = <b>√5/2</b>।</p>",
+      "hint": "पृष्ठ को छूता निर्गमन ⇒ क्रांतिक कोण पर आपतन।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2021-code-p3-q37",
+     "exam": "NEET",
+     "q": "A point object is placed at a distance of 60 cm from a convex lens of focal length 30 cm. If a plane mirror were put perpendicular to the principal axis of the lens and at a distance of 40 cm from it, the final image would be formed at a distance of :",
+     "sol": "<p>Lens: 1/v = 1/30 − 1/60 ⇒ v = 60 cm, i.e. 20 cm behind the mirror (which is 40 cm from the lens). The converging rays strike the mirror first: this point acts as a virtual object 20 cm behind it, and the plane mirror forms its image <b>20 cm in front of the mirror</b>.</p><p>NTA's key is option (1). Strictly, the reflected rays actually meet there, so that image is real; the word “virtual” in option (1) is debatable, but no other option has the right distance from the mirror.</p>",
+     "hint": "A plane mirror images a virtual object at the same distance on the other side.",
+     "paras": [
+      "9.5.2"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q37",
+     "o": [
+      "20 cm from the plane mirror, it would be a virtual image",
+      "20 cm from the lens, it would be a real image",
+      "30 cm from the lens, it would be a real image",
+      "30 cm from the plane mirror, it would be a virtual image"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "30 cm फ़ोकस दूरी वाले एक उत्तल लेंस से 60 cm की दूरी पर एक बिंदु वस्तु रखी है। यदि लेंस की मुख्य अक्ष के लंबवत और उससे 40 cm की दूरी पर एक समतल दर्पण रख दिया जाए, तो अंतिम प्रतिबिंब बनेगा :",
+      "o": [
+       "समतल दर्पण से 20 cm पर, यह आभासी प्रतिबिंब होगा",
+       "लेंस से 20 cm पर, यह वास्तविक प्रतिबिंब होगा",
+       "लेंस से 30 cm पर, यह वास्तविक प्रतिबिंब होगा",
+       "समतल दर्पण से 30 cm पर, यह आभासी प्रतिबिंब होगा"
+      ],
+      "sol": "<p>लेंस : 1/v = 1/30 − 1/60 ⇒ v = 60 cm, अर्थात दर्पण (जो लेंस से 40 cm पर है) के 20 cm पीछे। अभिसारी किरणें पहले दर्पण से टकराती हैं : यह बिंदु उसके 20 cm पीछे आभासी वस्तु का कार्य करता है, और समतल दर्पण इसका प्रतिबिंब <b>दर्पण के 20 cm सामने</b> बनाता है।</p><p>NTA की कुंजी विकल्प (1) है। वस्तुतः परावर्तित किरणें वहाँ वास्तव में मिलती हैं, अतः वह प्रतिबिंब वास्तविक है; विकल्प (1) में “आभासी” शब्द विवादास्पद है, परंतु किसी अन्य विकल्प में दर्पण से सही दूरी नहीं है।</p>",
+      "hint": "समतल दर्पण आभासी वस्तु का प्रतिबिंब दूसरी ओर समान दूरी पर बनाता है।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 12 · Ray Optics (plane mirror)"
+     ]
+    },
+    {
+     "id": "phy12-09-neet-2022-code-t2-q5",
+     "exam": "NEET",
+     "q": "A biconvex lens has radii of curvature, 20 cm each. If the refractive index of the material of the lens is 1.5, the power of the lens is :",
+     "sol": "<p>Lens maker's formula: 1/f = (μ − 1)(1/R<sub>1</sub> − 1/R<sub>2</sub>) = 0.5 × (1/0.2 + 1/0.2) = 5 m<sup>−1</sup>. P = <b>+5 D</b>.</p>",
+     "hint": "R<sub>1</sub> = +20 cm, R<sub>2</sub> = −20 cm; use metres for dioptres.",
+     "paras": [
+      "9.5.2",
+      "9.5.3"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q5",
+     "o": [
+      "+20 D",
+      "+5 D",
+      "infinity",
+      "+2 D"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक उभयोत्तल लेंस की वक्रता त्रिज्याएँ प्रत्येक 20 cm हैं। यदि लेंस के पदार्थ का अपवर्तनांक 1.5 है, तो लेंस की क्षमता है :",
+      "o": [
+       "+20 D",
+       "+5 D",
+       "अनंत",
+       "+2 D"
+      ],
+      "sol": "<p>लेंस निर्माता सूत्र : 1/f = (μ − 1)(1/R<sub>1</sub> − 1/R<sub>2</sub>) = 0.5 × (1/0.2 + 1/0.2) = 5 m<sup>−1</sup>। P = <b>+5 D</b>।</p>",
+      "hint": "R<sub>1</sub> = +20 cm, R<sub>2</sub> = −20 cm; डाइऑप्टर के लिए मीटर लीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2019-code-s2-q92",
+     "exam": "NEET",
+     "q": "Two similar thin equi-convex lenses, of focal length f each, are kept coaxially in contact with each other such that the focal length of the combination is F<sub>1</sub>. When the space between the two lenses is filled with glycerin (which has the same refractive index (= 1.5) as that of glass) then the equivalent focal length is F<sub>2</sub>. The ratio F<sub>1</sub> : F<sub>2</sub> will be :",
+     "sol": "<p>Each lens: 1/f = 0.5 × (2/R) ⇒ R = f. In contact: F<sub>1</sub> = f/2. Glycerin (μ = 1.5) between them forms a biconcave lens: 1/f<sub>g</sub> = 0.5 × (−2/R) = −1/f.</p><p>1/F<sub>2</sub> = 2/f − 1/f = 1/f ⇒ F<sub>2</sub> = f. F<sub>1</sub> : F<sub>2</sub> = <b>1 : 2</b>.</p>",
+     "hint": "Glycerin of the same μ forms a concave lens cancelling one glass lens.",
+     "paras": [
+      "9.5.2",
+      "9.5.4"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q92",
+     "o": [
+      "2 : 3",
+      "3 : 4",
+      "2 : 1",
+      "1 : 2"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "f फ़ोकस दूरी वाले दो समान पतले समोत्तल लेंस एक-दूसरे के संपर्क में समाक्षीय रखे हैं, जिससे संयोजन की फ़ोकस दूरी F<sub>1</sub> है। जब दोनों लेंसों के बीच का स्थान ग्लिसरीन (जिसका अपवर्तनांक (= 1.5) काँच के समान है) से भर दिया जाता है, तो तुल्य फ़ोकस दूरी F<sub>2</sub> है। अनुपात F<sub>1</sub> : F<sub>2</sub> होगा :",
+      "o": [
+       "2 : 3",
+       "3 : 4",
+       "2 : 1",
+       "1 : 2"
+      ],
+      "sol": "<p>प्रत्येक लेंस : 1/f = 0.5 × (2/R) ⇒ R = f। संपर्क में : F<sub>1</sub> = f/2। उनके बीच ग्लिसरीन (μ = 1.5) एक उभयावतल लेंस बनाती है : 1/f<sub>g</sub> = 0.5 × (−2/R) = −1/f ।</p><p>1/F<sub>2</sub> = 2/f − 1/f = 1/f ⇒ F<sub>2</sub> = f। F<sub>1</sub> : F<sub>2</sub> = <b>1 : 2</b>।</p>",
+      "hint": "समान μ की ग्लिसरीन एक अवतल लेंस बनाती है जो एक काँच के लेंस को निरस्त करता है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2023-topic-wise-copy-q47",
+     "exam": "NEET",
+     "q": "In the figure shown here, what is the equivalent focal length of the combination of lenses (Assume that all layers are thin)?",
+     "sol": "<p>Glass lens (in contact with layers, using its own μ − 1): 1/f<sub>1</sub> = (1.5 − 1)(1/20 + 1/20) = 1/20. Each liquid layer is plano-concave: 1/f = (1.6 − 1)(−1/20) = −0.03, two of them −0.06.</p><p>1/F = 0.05 − 0.06 = −0.01 cm<sup>−1</sup> ⇒ F = <b>−100 cm</b>.</p>",
+     "hint": "Treat each thin layer as a separate lens in contact.",
+     "paras": [
+      "9.5.2",
+      "9.5.4"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q47",
+     "o": [
+      "−50 cm",
+      "40 cm",
+      "−40 cm",
+      "−100 cm"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "यहाँ दिखाई गई आकृति में लेंसों के संयोजन की तुल्य फ़ोकस दूरी क्या है (मान लीजिए सभी परतें पतली हैं)?",
+      "o": [
+       "−50 cm",
+       "40 cm",
+       "−40 cm",
+       "−100 cm"
+      ],
+      "sol": "<p>काँच का लेंस (परतों के संपर्क में, अपने μ − 1 के साथ) : 1/f<sub>1</sub> = (1.5 − 1)(1/20 + 1/20) = 1/20। द्रव की प्रत्येक परत समतल-अवतल है : 1/f = (1.6 − 1)(−1/20) = −0.03, दोनों मिलकर −0.06।</p><p>1/F = 0.05 − 0.06 = −0.01 cm<sup>−1</sup> ⇒ F = <b>−100 cm</b>।</p>",
+      "hint": "प्रत्येक पतली परत को संपर्क में रखा अलग लेंस मानिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2016-phase-1-code-a-q32",
+     "exam": "NEET",
+     "q": "A astronomical telescope has objective and eyepiece of focal lengths 40 cm and 4 cm respectively. To view an object 200 cm away from the objective, the lenses must be separated by a distance:",
+     "sol": "<p>Objective: 1/v = 1/40 − 1/200 = 4/200 ⇒ v = 50 cm. For a relaxed eye this image must be at the eyepiece's focus, 4 cm from it.</p><p>Separation = 50 + 4 = <b>54.0 cm</b>.</p>",
+     "hint": "The object is not at infinity: find the objective's image distance first.",
+     "paras": [
+      "9.5.2",
+      "9.7.2"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q32",
+     "o": [
+      "37.3 cm",
+      "46.0 cm",
+      "50.0 cm",
+      "54.0 cm"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक खगोलीय दूरदर्शक के अभिदृश्यक और नेत्रिका की फ़ोकस दूरियाँ क्रमशः 40 cm और 4 cm हैं। अभिदृश्यक से 200 cm दूर स्थित वस्तु को देखने के लिए लेंसों के बीच की दूरी होनी चाहिए :",
+      "o": [
+       "37.3 cm",
+       "46.0 cm",
+       "50.0 cm",
+       "54.0 cm"
+      ],
+      "sol": "<p>अभिदृश्यक : 1/v = 1/40 − 1/200 = 4/200 ⇒ v = 50 cm। विश्रांत नेत्र के लिए यह प्रतिबिंब नेत्रिका के फ़ोकस पर, उससे 4 cm पर होना चाहिए।</p><p>दूरी = 50 + 4 = <b>54.0 cm</b>।</p>",
+      "hint": "वस्तु अनंत पर नहीं है : पहले अभिदृश्यक की प्रतिबिंब दूरी ज्ञात कीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-09-neet-2025-code-45-q13",
+     "exam": "NEET",
+     "q": "In a certain camera, a combination of four similar thin convex lenses are arranged axially in contact. Then the power of the combination and the total magnification in comparison to the power (p) and magnification (m) for each lens will be, respectively :",
+     "sol": "<p>Powers of thin lenses in contact add: P = 4p. Magnifications of successive images multiply: m<sub>total</sub> = m × m × m × m = m<sup>4</sup>. Answer: <b>4p and m<sup>4</sup></b>.</p>",
+     "hint": "Add powers, multiply magnifications.",
+     "paras": [
+      "9.5.3",
+      "9.5.4"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q13",
+     "o": [
+      "4p and 4m",
+      "p<sup>4</sup> and 4m",
+      "4p and m<sup>4</sup>",
+      "p<sup>4</sup> and m<sup>4</sup>"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "एक कैमरे में चार समान पतले उत्तल लेंसों का एक संयोजन अक्ष के अनुदिश संपर्क में व्यवस्थित है। तब प्रत्येक लेंस की क्षमता (p) और आवर्धन (m) की तुलना में संयोजन की क्षमता और कुल आवर्धन क्रमशः होंगे :",
+      "o": [
+       "4p और 4m",
+       "p<sup>4</sup> और 4m",
+       "4p और m<sup>4</sup>",
+       "p<sup>4</sup> और m<sup>4</sup>"
+      ],
+      "sol": "<p>संपर्क में रखे पतले लेंसों की क्षमताएँ जुड़ती हैं : P = 4p। क्रमागत प्रतिबिंबों के आवर्धन गुणा होते हैं : m<sub>total</sub> = m × m × m × m = m<sup>4</sup>। उत्तर : <b>4p और m<sup>4</sup></b>।</p>",
+      "hint": "क्षमताएँ जोड़िए, आवर्धन गुणा कीजिए।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "dropped",
+   "title": "Topics removed from the NEET syllabus in 2024",
+   "hi": "NEET 2024 पाठ्यक्रम से हटाए गए विषय",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy12-09-neet-2016-phase-2-code-aa-q37",
+     "exam": "NEET",
+     "q": "A person can see clearly objects only when they lie between 50 cm and 400 cm from his eyes. In order to increase the maximum distance of distinct vision to infinity, the type and power of the correcting lens, the person has to use, will be :",
+     "sol": "<p>The far point is 400 cm (myopia). A concave lens must form an image of objects at infinity at 400 cm: f = −400 cm = −4 m.</p><p>P = 1/f = <b>−0.25 dioptre, concave</b>.</p>",
+     "hint": "Correcting lens f = −(far point distance).",
+     "paras": [],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q37",
+     "o": [
+      "Convex, +2.25 dioptre",
+      "Concave, −0.25 dioptre",
+      "Concave, −0.2 dioptre",
+      "Convex, +0.15 dioptre"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक व्यक्ति अपनी आँखों से 50 cm और 400 cm के बीच स्थित वस्तुओं को ही स्पष्ट देख सकता है। स्पष्ट दर्शन की अधिकतम दूरी को अनंत तक बढ़ाने के लिए व्यक्ति को जिस संशोधक लेंस का उपयोग करना होगा, उसका प्रकार और क्षमता होगी :",
+      "o": [
+       "उत्तल, +2.25 डाइऑप्टर",
+       "अवतल, −0.25 डाइऑप्टर",
+       "अवतल, −0.2 डाइऑप्टर",
+       "उत्तल, +0.15 डाइऑप्टर"
+      ],
+      "sol": "<p>दूर बिंदु (far point) 400 cm है (निकट दृष्टि)। अवतल लेंस को अनंत की वस्तुओं का प्रतिबिंब 400 cm पर बनाना है : f = −400 cm = −4 m।</p><p>P = 1/f = <b>−0.25 डाइऑप्टर, अवतल</b>।</p>",
+      "hint": "संशोधक लेंस f = −(दूर बिंदु की दूरी)।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Ch 9 · The eye (defects of vision)",
+     "dropped": true
+    },
+    {
+     "id": "phy12-09-neet-2019-code-s2-q134",
+     "exam": "NEET",
+     "q": "Pick the wrong answer in the context with rainbow.",
+     "sol": "<p>A rainbow is seen with the Sun <b>behind</b> the observer (light is scattered back from drops in front). So “an observer can see a rainbow when his front is towards the sun” is the wrong statement. The other three are correct: dispersion + refraction + internal reflection; two internal reflections give the secondary bow, whose colour order is reversed.</p>",
+     "hint": "Face away from the Sun to see a rainbow.",
+     "paras": [],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q134",
+     "o": [
+      "An observer can see a rainbow when his front is towards the sun.",
+      "Rainbow is a combined effect of dispersion, refraction and reflection of sunlight.",
+      "When the light rays undergo two internal reflections in a water drop, a secondary rainbow is formed.",
+      "The order of colours is reversed in the secondary rainbow."
+     ],
+     "a": 0,
+     "hi": {
+      "q": "इंद्रधनुष के संदर्भ में गलत उत्तर चुनिए।",
+      "o": [
+       "प्रेक्षक इंद्रधनुष तब देख सकता है जब उसका मुख सूर्य की ओर हो।",
+       "इंद्रधनुष सूर्य के प्रकाश के परिक्षेपण, अपवर्तन और परावर्तन का संयुक्त प्रभाव है।",
+       "जब प्रकाश किरणें जल की बूँद में दो आंतरिक परावर्तन करती हैं, तो द्वितीयक इंद्रधनुष बनता है।",
+       "द्वितीयक इंद्रधनुष में रंगों का क्रम उलट जाता है।"
+      ],
+      "sol": "<p>इंद्रधनुष तब दिखता है जब सूर्य प्रेक्षक के <b>पीछे</b> हो (सामने की बूँदों से प्रकाश पीछे की ओर लौटता है)। अतः “प्रेक्षक इंद्रधनुष तब देख सकता है जब उसका मुख सूर्य की ओर हो” गलत कथन है। अन्य तीन सही हैं : परिक्षेपण + अपवर्तन + आंतरिक परावर्तन; दो आंतरिक परावर्तनों से द्वितीयक इंद्रधनुष बनता है, जिसमें रंगों का क्रम उलटा होता है।</p>",
+      "hint": "इंद्रधनुष देखने के लिए सूर्य की ओर पीठ कीजिए।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Ch 9 · Some natural phenomena due to sunlight (rainbow)",
+     "dropped": true
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 32
+ },
+ "empty": [
+  {
+   "id": "9.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "9.2.1",
+   "title": "Sign Convention",
+   "hi": "चिह्न परिपाटी",
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "9.2.2",
+   "title": "Focal Length of Spherical Mirrors",
+   "hi": "गोलीय दर्पणों की फोकस दूरी",
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "9.4.1",
+   "title": "Total Internal Reflection in Nature and its Technological Applications",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "9.5",
+   "title": "Refraction at Spherical Surfaces and by Lenses",
+   "hi": "गोलीय पृष्ठों तथा लेंसों द्वारा अपवर्तन",
+   "pages": [],
+   "pdfPage": 12
+  },
+  {
+   "id": "9.5.1",
+   "title": "Refraction at a Spherical Surface",
+   "hi": "किसी गोलीय पृष्ठ पर अपवर्तन",
+   "pages": [],
+   "pdfPage": 12
+  },
+  {
+   "id": "9.7",
+   "title": "Optical Instruments",
+   "hi": "प्रकाशिक यंत्र",
+   "pages": [],
+   "pdfPage": 20
+  }
+ ],
+ "trends": {
+  "9.4": {
+   "neet": 5,
+   "jee": 0,
+   "years": [
+    2024,
+    2023,
+    2022,
+    2019,
+    2015
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "9.6": {
+   "neet": 8,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2021,
+    2020,
+    2018,
+    2017,
+    2016,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "9.7.2": {
+   "neet": 5,
+   "jee": 0,
+   "years": [
+    2024,
+    2021,
+    2018,
+    2016,
+    2015
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "9.5.2": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2026,
+    2023,
+    2022,
+    2021,
+    2019,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "9.2.3": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2018,
+    2016
+   ],
+   "last": 2018,
+   "recent": false
+  },
+  "9.5.4": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2025,
+    2023,
+    2021,
+    2019,
+    2016
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "9.3": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2023,
+    2021,
+    2016
+   ],
+   "last": 2023,
+   "recent": false
+  },
+  "9.2": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2017
+   ],
+   "last": 2017,
+   "recent": false
+  },
+  "9.5.3": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2025,
+    2022
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "9.7.1": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2025
+   ],
+   "last": 2025,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}

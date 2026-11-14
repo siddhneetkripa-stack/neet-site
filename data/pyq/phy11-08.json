@@ -1,0 +1,547 @@
+{
+ "chapter": "phy11-08",
+ "source": "bank",
+ "subject": "physics",
+ "class": 11,
+ "unit": 8,
+ "title": "Mechanical Properties of Solids",
+ "titleHi": "ठोसों के यांत्रिक गुण",
+ "ref": "NCERT Physics Class 11 · Unit 8",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph201.pdf",
+ "pdfPageOffset": 0,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "8.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "8.2",
+   "title": "Stress and Strain",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "8.3",
+   "title": "Hooke's Law",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "8.4",
+   "title": "Stress-Strain Curve",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "8.5",
+   "title": "Elastic Moduli",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 4
+  },
+  {
+   "id": "8.5.1",
+   "title": "Young's Modulus",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 4
+  },
+  {
+   "id": "8.5.2",
+   "title": "Shear Modulus",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 6
+  },
+  {
+   "id": "8.5.3",
+   "title": "Bulk Modulus",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 7
+  },
+  {
+   "id": "8.5.4",
+   "title": "Poisson's Ratio",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 8
+  },
+  {
+   "id": "8.5.5",
+   "title": "Elastic Potential Energy in a Stretched Wire",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 8
+  },
+  {
+   "id": "8.6",
+   "title": "Applications of Elastic Behaviour of Materials",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 8
+  }
+ ],
+ "sections": [
+  {
+   "sec": "8.2",
+   "title": "Stress and Strain",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2,
+   "questions": [
+    {
+     "id": "phy11-08-neet-2023-topic-wise-copy-q10",
+     "exam": "NEET",
+     "q": "Let a wire be suspended from the ceiling (rigid support) and stretched by a weight W attached at its free end. The longitudinal stress at any point of cross-sectional area A of the wire is :",
+     "sol": "<p>The tension at any cross-section of a light wire equals W, so the longitudinal stress = force/area = <b>W/A</b>.</p>",
+     "hint": "Stress = force/area; the wire's own weight is neglected.",
+     "paras": [
+      "8.2"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q10",
+     "o": [
+      "Zero",
+      "2W/A",
+      "W/A",
+      "W/(2A)"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "माना एक तार छत (दृढ़ आधार) से लटका है और इसके मुक्त सिरे पर लगे भार W से खिंचा है। तार के A अनुप्रस्थ काट क्षेत्रफल वाले किसी भी बिंदु पर अनुदैर्घ्य प्रतिबल है :",
+      "o": [
+       "शून्य",
+       "2W/A",
+       "W/A",
+       "W/(2A)"
+      ],
+      "sol": "<p>हलके तार के किसी भी अनुप्रस्थ काट पर तनाव W के बराबर है, अतः अनुदैर्घ्य प्रतिबल = बल/क्षेत्रफल = <b>W/A</b>।</p>",
+      "hint": "प्रतिबल = बल/क्षेत्रफल; तार के अपने भार की उपेक्षा की गई है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.5",
+   "title": "Elastic Moduli",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 4,
+   "questions": [
+    {
+     "id": "phy11-08-neet-2026-code-13-q8",
+     "exam": "NEET",
+     "q": "Match List I with List II :<br>A. Young's Modulus — I. (Δd/ΔL)(L/d)<br>B. Compressibility — II. FL/(A(ΔL))<br>C. Bulk Modulus — III. −(1/ΔP)(ΔV/V)<br>D. Poisson's Ratio — IV. −P(V/ΔV)<br>Choose the correct answer from the options given below :",
+     "sol": "<p>Young's modulus Y = (F/A)/(ΔL/L) = FL/(AΔL) → II. Compressibility = 1/B = −(1/ΔP)(ΔV/V) → III. Bulk modulus B = −P(V/ΔV) → IV. Poisson's ratio = lateral strain/longitudinal strain = (Δd/d)/(ΔL/L) = (Δd/ΔL)(L/d) → I.</p><p>Answer: <b>A-II, B-III, C-IV, D-I</b>.</p>",
+     "hint": "Compressibility is the reciprocal of bulk modulus.",
+     "paras": [
+      "8.5"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q8",
+     "o": [
+      "A-III, B-II, C-I, D-IV",
+      "A-II, B-III, C-IV, D-I",
+      "A-I, B-IV, C-III, D-II",
+      "A-IV, B-I, C-II, D-III"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "सूची I का सूची II से मिलान कीजिए :<br>A. यंग गुणांक — I. (Δd/ΔL)(L/d)<br>B. संपीड्यता — II. FL/(A(ΔL))<br>C. आयतन प्रत्यास्थता गुणांक — III. −(1/ΔP)(ΔV/V)<br>D. प्वासों अनुपात — IV. −P(V/ΔV)<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "A-III, B-II, C-I, D-IV",
+       "A-II, B-III, C-IV, D-I",
+       "A-I, B-IV, C-III, D-II",
+       "A-IV, B-I, C-II, D-III"
+      ],
+      "sol": "<p>यंग गुणांक Y = (F/A)/(ΔL/L) = FL/(AΔL) → II। संपीड्यता = 1/B = −(1/ΔP)(ΔV/V) → III। आयतन प्रत्यास्थता गुणांक B = −P(V/ΔV) → IV। प्वासों अनुपात = पार्श्व विकृति/अनुदैर्घ्य विकृति = (Δd/d)/(ΔL/L) = (Δd/ΔL)(L/d) → I।</p><p>उत्तर : <b>A-II, B-III, C-IV, D-I</b>।</p>",
+      "hint": "संपीड्यता आयतन प्रत्यास्थता गुणांक का व्युत्क्रम है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.1",
+   "title": "Young's Modulus",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 4,
+   "questions": [
+    {
+     "id": "phy11-08-neet-2015-re-exam-code-d-q172",
+     "exam": "NEET",
+     "q": "The Young's modulus of steel is twice that of brass. Two wires of same length and of same area of cross section, one of steel and another of brass are suspended from the same roof. If we want the lower ends of the wires to be at the same level, then the weights added to the steel and brass wires must be in the ratio of :",
+     "sol": "<p>Extension Δl = FL/(AY). Same L, same A and the same extension (ends at the same level) ⇒ F ∝ Y.</p><p>F<sub>steel</sub> : F<sub>brass</sub> = Y<sub>steel</sub> : Y<sub>brass</sub> = <b>2 : 1</b>.</p>",
+     "hint": "Equal extensions with equal L and A need F ∝ Y.",
+     "paras": [
+      "8.5.1"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q172",
+     "o": [
+      "2:1",
+      "4:1",
+      "1:1",
+      "1:2"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "इस्पात का यंग गुणांक पीतल के यंग गुणांक का दोगुना है। समान लंबाई और समान अनुप्रस्थ काट क्षेत्रफल के दो तार, एक इस्पात का और दूसरा पीतल का, एक ही छत से लटकाए गए हैं। यदि हम चाहते हैं कि तारों के निचले सिरे समान स्तर पर रहें, तो इस्पात और पीतल के तारों पर जोड़े गए भारों का अनुपात होना चाहिए :",
+      "o": [
+       "2:1",
+       "4:1",
+       "1:1",
+       "1:2"
+      ],
+      "sol": "<p>प्रसार Δl = FL/(AY)। समान L, समान A और समान प्रसार (सिरे समान स्तर पर) ⇒ F ∝ Y।</p><p>F<sub>steel</sub> : F<sub>brass</sub> = Y<sub>steel</sub> : Y<sub>brass</sub> = <b>2 : 1</b>।</p>",
+      "hint": "समान L और A के साथ समान प्रसार के लिए F ∝ Y।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-08-neet-2018-code-aa-q44",
+     "exam": "NEET",
+     "q": "Two wires are made of the same material and have the same volume. The first wire has cross-sectional area A and the second wire has cross-sectional area 3A. If the length of the first wire is increased by Δl on applying a force F, how much force is needed to stretch the second wire by the same amount?",
+     "sol": "<p>Same volume: L<sub>1</sub>A = L<sub>2</sub>(3A) ⇒ L<sub>2</sub> = L<sub>1</sub>/3. Force for extension Δl: F = YAΔl/L.</p><p>F<sub>2</sub>/F<sub>1</sub> = (3A/A) × (L<sub>1</sub>/L<sub>2</sub>) = 3 × 3 = 9 ⇒ F<sub>2</sub> = <b>9F</b>.</p>",
+     "hint": "Three times the area also means one-third the length.",
+     "paras": [
+      "8.5.1"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q44",
+     "o": [
+      "4F",
+      "6F",
+      "9F",
+      "F"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "दो तार एक ही पदार्थ के बने हैं और उनका आयतन समान है। पहले तार का अनुप्रस्थ काट क्षेत्रफल A और दूसरे का 3A है। यदि बल F लगाने पर पहले तार की लंबाई Δl बढ़ती है, तो दूसरे तार को उतना ही खींचने के लिए कितना बल आवश्यक है?",
+      "o": [
+       "4F",
+       "6F",
+       "9F",
+       "F"
+      ],
+      "sol": "<p>समान आयतन : L<sub>1</sub>A = L<sub>2</sub>(3A) ⇒ L<sub>2</sub> = L<sub>1</sub>/3। प्रसार Δl के लिए बल : F = YAΔl/L ।</p><p>F<sub>2</sub>/F<sub>1</sub> = (3A/A) × (L<sub>1</sub>/L<sub>2</sub>) = 3 × 3 = 9 ⇒ F<sub>2</sub> = <b>9F</b>।</p>",
+      "hint": "तीन गुना क्षेत्रफल का अर्थ एक-तिहाई लंबाई भी है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-08-neet-2020-code-f3-q36",
+     "exam": "NEET",
+     "q": "A wire of length L, area of cross section A is hanging from a fixed support. The length of the wire changes to L<sub>1</sub> when mass M is suspended from its free end. The expression for Young's modulus is :",
+     "sol": "<p>Stress = Mg/A, strain = (L<sub>1</sub> − L)/L.</p><p>Y = stress/strain = <b>MgL/(A(L<sub>1</sub> − L))</b>.</p>",
+     "hint": "Strain uses the change in length, L<sub>1</sub> − L.",
+     "paras": [
+      "8.5.1"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q36",
+     "o": [
+      "MgL/(AL<sub>1</sub>)",
+      "MgL/(A(L<sub>1</sub> − L))",
+      "MgL<sub>1</sub>/(AL)",
+      "Mg(L<sub>1</sub> − L)/(AL)"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "L लंबाई और A अनुप्रस्थ काट क्षेत्रफल का एक तार एक स्थिर आधार से लटका है। इसके मुक्त सिरे से M द्रव्यमान लटकाने पर तार की लंबाई L<sub>1</sub> हो जाती है। यंग गुणांक का व्यंजक है :",
+      "o": [
+       "MgL/(AL<sub>1</sub>)",
+       "MgL/(A(L<sub>1</sub> − L))",
+       "MgL<sub>1</sub>/(AL)",
+       "Mg(L<sub>1</sub> − L)/(AL)"
+      ],
+      "sol": "<p>प्रतिबल = Mg/A, विकृति = (L<sub>1</sub> − L)/L ।</p><p>Y = प्रतिबल/विकृति = <b>MgL/(A(L<sub>1</sub> − L))</b>।</p>",
+      "hint": "विकृति में लंबाई का परिवर्तन L<sub>1</sub> − L आता है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.3",
+   "title": "Bulk Modulus",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 7,
+   "questions": [
+    {
+     "id": "phy11-08-neet-2017-code-a-q32",
+     "exam": "NEET",
+     "q": "The bulk modulus of a spherical object is 'B'. If it is subjected to uniform pressure 'p', the fractional decrease in radius is :",
+     "sol": "<p>Volume strain ΔV/V = p/B. For a sphere V ∝ r<sup>3</sup>, so ΔV/V = 3Δr/r.</p><p>Δr/r = <b>p/(3B)</b>.</p>",
+     "hint": "Fractional change in volume = 3 × fractional change in radius.",
+     "paras": [
+      "8.5.3"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q32",
+     "o": [
+      "p/B",
+      "B/(3p)",
+      "3p/B",
+      "p/(3B)"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक गोलीय वस्तु का आयतन प्रत्यास्थता गुणांक 'B' है। यदि इस पर एकसमान दाब 'p' लगाया जाए, तो त्रिज्या में भिन्नात्मक कमी है :",
+      "o": [
+       "p/B",
+       "B/(3p)",
+       "3p/B",
+       "p/(3B)"
+      ],
+      "sol": "<p>आयतन विकृति ΔV/V = p/B । गोले के लिए V ∝ r<sup>3</sup>, अतः ΔV/V = 3Δr/r ।</p><p>Δr/r = <b>p/(3B)</b>।</p>",
+      "hint": "आयतन में भिन्नात्मक परिवर्तन = 3 × त्रिज्या में भिन्नात्मक परिवर्तन।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.5.5",
+   "title": "Elastic Potential Energy in a Stretched Wire",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 8,
+   "questions": [
+    {
+     "id": "phy11-08-neet-2019-code-s2-q131",
+     "exam": "NEET",
+     "q": "When a block of mass M is suspended by a long wire of length L, the length of the wire becomes (L + l). The elastic potential energy stored in the extended wire is :",
+     "sol": "<p>Elastic potential energy = (1/2) × force × extension = (1/2)(Mg)(l) = <b>(1/2) Mgl</b>.</p><p>(The other half of the work done by gravity, Mgl/2, is lost as the block settles.)</p>",
+     "hint": "U = (1/2) × stress × strain × volume = (1/2)F × extension.",
+     "paras": [
+      "8.5.5"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q131",
+     "o": [
+      "(1/2) Mgl",
+      "MgL",
+      "Mgl",
+      "(1/2) MgL"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "जब M द्रव्यमान का एक गुटका L लंबाई के एक लंबे तार से लटकाया जाता है, तो तार की लंबाई (L + l) हो जाती है। खिंचे हुए तार में संचित प्रत्यास्थ स्थितिज ऊर्जा है :",
+      "o": [
+       "(1/2) Mgl",
+       "MgL",
+       "Mgl",
+       "(1/2) MgL"
+      ],
+      "sol": "<p>प्रत्यास्थ स्थितिज ऊर्जा = (1/2) × बल × प्रसार = (1/2)(Mg)(l) = <b>(1/2) Mgl</b>।</p><p>(गुरुत्व द्वारा किए गए कार्य का शेष आधा भाग, Mgl/2, गुटके के स्थिर होने में व्यय हो जाता है।)</p>",
+      "hint": "U = (1/2) × प्रतिबल × विकृति × आयतन = (1/2)F × प्रसार।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy11-08-neet-2024-q34-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "The maximum elongation of a steel wire of 1 m length if the elastic limit of steel and its Young's modulus, respectively, are 8 × 10<sup>8</sup> N m<sup>−2</sup> and 2 × 10<sup>11</sup> N m<sup>−2</sup>, is :",
+     "sol": "<p>The stress can go up to the elastic limit: strain<sub>max</sub> = 8 × 10<sup>8</sup>/(2 × 10<sup>11</sup>) = 4 × 10<sup>−3</sup>.</p><p>Δl<sub>max</sub> = 4 × 10<sup>−3</sup> × 1 m = 4 × 10<sup>−3</sup> m = <b>4 mm</b>.</p>",
+     "hint": "Maximum strain = elastic limit/Y.",
+     "paras": [
+      "8.4",
+      "8.5.1"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q34 (eSaral physics copy)",
+     "o": [
+      "4 mm",
+      "0.4 mm",
+      "40 mm",
+      "8 mm"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "1 m लंबाई के इस्पात के तार का अधिकतम प्रसार, यदि इस्पात की प्रत्यास्थ सीमा और इसका यंग गुणांक क्रमशः 8 × 10<sup>8</sup> N m<sup>−2</sup> और 2 × 10<sup>11</sup> N m<sup>−2</sup> हैं, है :",
+      "o": [
+       "4 mm",
+       "0.4 mm",
+       "40 mm",
+       "8 mm"
+      ],
+      "sol": "<p>प्रतिबल प्रत्यास्थ सीमा तक जा सकता है : अधिकतम विकृति = 8 × 10<sup>8</sup>/(2 × 10<sup>11</sup>) = 4 × 10<sup>−3</sup>।</p><p>Δl<sub>max</sub> = 4 × 10<sup>−3</sup> × 1 m = 4 × 10<sup>−3</sup> m = <b>4 mm</b>।</p>",
+      "hint": "अधिकतम विकृति = प्रत्यास्थ सीमा/Y ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-08-neet-2022-code-t2-q41",
+     "exam": "NEET",
+     "q": "Given below are two statements : One is labelled as Assertion (A) and the other is labelled as Reason (R).<br>Assertion (A) : The stretching of a spring is determined by the shear modulus of the material of the spring.<br>Reason (R) : A coil spring of copper has more tensile strength than a steel spring of same dimensions.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "sol": "<p>(A) True: when a coil spring is stretched, the wire is twisted rather than lengthened, so its shape changes: the stretching depends on the shear modulus. (R) False: steel has a much higher elastic modulus and strength than copper, which is why springs are made of steel.</p><p>Answer: <b>(A) is true but (R) is false</b>.</p>",
+     "hint": "Springs are made of steel for a reason.",
+     "paras": [
+      "8.5.2",
+      "8.6"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q41",
+     "o": [
+      "Both (A) and (R) are true and (R) is not the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true",
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "नीचे दो कथन दिए गए हैं : एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया है।<br>अभिकथन (A) : स्प्रिंग का खिंचाव स्प्रिंग के पदार्थ के अपरूपण गुणांक द्वारा निर्धारित होता है।<br>कारण (R) : ताँबे की कुंडलित स्प्रिंग की तनन सामर्थ्य समान विमाओं वाली इस्पात की स्प्रिंग से अधिक होती है।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+      "o": [
+       "(A) और (R) दोनों सत्य हैं और (R), (A) की सही व्याख्या नहीं है",
+       "(A) सत्य है परंतु (R) असत्य है",
+       "(A) असत्य है परंतु (R) सत्य है",
+       "(A) और (R) दोनों सत्य हैं और (R), (A) की सही व्याख्या है"
+      ],
+      "sol": "<p>(A) सत्य : कुंडलित स्प्रिंग को खींचने पर तार की लंबाई नहीं बढ़ती बल्कि वह ऐंठता है, अतः आकार बदलता है : खिंचाव अपरूपण गुणांक पर निर्भर करता है। (R) असत्य : इस्पात का प्रत्यास्थता गुणांक और सामर्थ्य ताँबे से बहुत अधिक है, इसीलिए स्प्रिंग इस्पात की बनाई जाती हैं।</p><p>उत्तर : <b>(A) सत्य है परंतु (R) असत्य है</b>।</p>",
+      "hint": "स्प्रिंग इस्पात की ही क्यों बनाई जाती हैं, सोचिए।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 9
+ },
+ "empty": [
+  {
+   "id": "8.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "8.3",
+   "title": "Hooke's Law",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "8.5.4",
+   "title": "Poisson's Ratio",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 8
+  }
+ ],
+ "trends": {
+  "8.5.1": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2024,
+    2020,
+    2018,
+    2015
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "8.5.3": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2017
+   ],
+   "last": 2017,
+   "recent": false
+  },
+  "8.5.5": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2019
+   ],
+   "last": 2019,
+   "recent": false
+  },
+  "8.5.2": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2022
+   ],
+   "last": 2022,
+   "recent": false
+  },
+  "8.6": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2022
+   ],
+   "last": 2022,
+   "recent": false
+  },
+  "8.2": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2023
+   ],
+   "last": 2023,
+   "recent": false
+  },
+  "8.4": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2024
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "8.5": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2026
+   ],
+   "last": 2026,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}

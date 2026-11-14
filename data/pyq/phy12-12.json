@@ -1,0 +1,743 @@
+{
+ "chapter": "phy12-12",
+ "source": "bank",
+ "subject": "physics",
+ "class": 12,
+ "unit": 12,
+ "title": "Atoms",
+ "titleHi": "परमाणु",
+ "ref": "NCERT Physics Class 12 · Unit 12",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph204.pdf",
+ "pdfPageOffset": 0,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "12.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "12.2",
+   "title": "Alpha-particle Scattering and Rutherford's Nuclear Model of Atom",
+   "hi": "ऐल्फ़ा कण प्रकीर्णन तथा परमाणु का रदरफोर्ड नाभिकीय मॉडल",
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "12.2.1",
+   "title": "Alpha-particle Trajectory",
+   "hi": "ऐल्फ़ा-कण प्रक्षेप-पथ",
+   "pages": [],
+   "pdfPage": 5
+  },
+  {
+   "id": "12.2.2",
+   "title": "Electron Orbits",
+   "hi": "इलेक्ट्रॉन-कक्षाएँ",
+   "pages": [],
+   "pdfPage": 6
+  },
+  {
+   "id": "12.3",
+   "title": "Atomic Spectra",
+   "hi": "परमाण्वीय स्पेक्ट्रम",
+   "pages": [],
+   "pdfPage": 7
+  },
+  {
+   "id": "12.4",
+   "title": "Bohr Model of the Hydrogen Atom",
+   "hi": "हाइड्रोजन परमाणु का बोर मॉडल",
+   "pages": [],
+   "pdfPage": 8
+  },
+  {
+   "id": "12.4.1",
+   "title": "Energy Levels",
+   "hi": "ऊर्जा स्तर",
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "12.5",
+   "title": "The Line Spectra of the Hydrogen Atom",
+   "hi": "हाइड्रोजन परमाणु का लाइन स्पेक्ट्रम",
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "12.6",
+   "title": "De Broglie's Explanation of Bohr's Second Postulate of Quantisation",
+   "hi": "बोर के क्वांटमीकरण के द्वितीय अभिगृहीत का",
+   "pages": [],
+   "pdfPage": 12
+  }
+ ],
+ "sections": [
+  {
+   "sec": "12.2",
+   "title": "Alpha-particle Scattering and Rutherford's Nuclear Model of Atom",
+   "hi": "ऐल्फ़ा कण प्रकीर्णन तथा परमाणु का रदरफोर्ड नाभिकीय मॉडल",
+   "pages": [],
+   "pdfPage": 2,
+   "questions": [
+    {
+     "id": "phy12-12-neet-2016-phase-1-code-a-q23",
+     "exam": "NEET",
+     "q": "When an α-particle of mass 'm' moving with velocity 'v' bombards on a heavy nucleus of charge 'Ze', its distance of closest approach from the nucleus depends on m as :",
+     "sol": "<p>At closest approach all kinetic energy becomes potential energy: ½mv<sup>2</sup> = k(Ze)(2e)/r<sub>0</sub> ⇒ r<sub>0</sub> = 4kZe<sup>2</sup>/(mv<sup>2</sup>).</p><p>For a given v, r<sub>0</sub> ∝ <b>1/m</b>.</p>",
+     "hint": "Kinetic energy = Coulomb potential energy at the turning point.",
+     "paras": [
+      "12.2"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q23",
+     "o": [
+      "1/m",
+      "1/√m",
+      "1/m<sup>2</sup>",
+      "m"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "जब वेग 'v' से गतिमान द्रव्यमान 'm' का एक α-कण आवेश 'Ze' वाले भारी नाभिक पर बमबारी करता है, तो नाभिक से इसकी निकटतम उपगमन की दूरी m पर किस प्रकार निर्भर करती है?",
+      "o": [
+       "1/m",
+       "1/√m",
+       "1/m<sup>2</sup>",
+       "m"
+      ],
+      "sol": "<p>निकटतम उपगमन (closest approach) पर पूरी गतिज ऊर्जा स्थितिज ऊर्जा बन जाती है : ½mv<sup>2</sup> = k(Ze)(2e)/r<sub>0</sub> ⇒ r<sub>0</sub> = 4kZe<sup>2</sup>/(mv<sup>2</sup>)।</p><p>दिए गए v के लिए r<sub>0</sub> ∝ <b>1/m</b>।</p>",
+      "hint": "लौटने के बिंदु पर गतिज ऊर्जा = कूलॉम स्थितिज ऊर्जा।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "12.4",
+   "title": "Bohr Model of the Hydrogen Atom",
+   "hi": "हाइड्रोजन परमाणु का बोर मॉडल",
+   "pages": [],
+   "pdfPage": 8,
+   "questions": [
+    {
+     "id": "phy12-12-neet-2020-code-f3-q18",
+     "exam": "NEET",
+     "q": "For which one of the following, Bohr model is not valid?",
+     "sol": "<p>Bohr's model works only for one-electron systems (H, deuterium, He<sup>+</sup>, Li<sup>2+</sup> …). Ne<sup>+</sup> still has 9 electrons, so electron–electron interactions make the model invalid: <b>singly ionised neon (Ne<sup>+</sup>)</b>.</p>",
+     "hint": "Count the electrons left.",
+     "paras": [
+      "12.4"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q18",
+     "o": [
+      "Deuteron atom",
+      "Singly ionised neon atom (Ne<sup>+</sup>)",
+      "Hydrogen atom",
+      "Singly ionised helium atom (He<sup>+</sup>)"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "निम्नलिखित में से किसके लिए बोर मॉडल मान्य नहीं है?",
+      "o": [
+       "ड्यूट्रॉन परमाणु",
+       "एकल आयनित नियॉन परमाणु (Ne<sup>+</sup>)",
+       "हाइड्रोजन परमाणु",
+       "एकल आयनित हीलियम परमाणु (He<sup>+</sup>)"
+      ],
+      "sol": "<p>बोर मॉडल केवल एक-इलेक्ट्रॉन निकायों (H, ड्यूटीरियम, He<sup>+</sup>, Li<sup>2+</sup> …) के लिए मान्य है। Ne<sup>+</sup> में अभी भी 9 इलेक्ट्रॉन हैं, अतः इलेक्ट्रॉन–इलेक्ट्रॉन अन्योन्यक्रियाएँ मॉडल को अमान्य कर देती हैं : <b>एकल आयनित नियॉन (Ne<sup>+</sup>)</b>।</p>",
+      "hint": "बचे हुए इलेक्ट्रॉन गिनिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-12-neet-2023-topic-wise-copy-q49",
+     "exam": "NEET",
+     "q": "The radius of inner most orbit of hydrogen atom is 5.3 × 10<sup>−11</sup> m. What is the radius of third allowed orbit of hydrogen atom?",
+     "sol": "<p>r<sub>n</sub> = n<sup>2</sup>r<sub>1</sub>. r<sub>3</sub> = 9 × 5.3 × 10<sup>−11</sup> m = 4.77 × 10<sup>−10</sup> m = <b>4.77 Å</b>.</p>",
+     "hint": "r ∝ n<sup>2</sup>.",
+     "paras": [
+      "12.4"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q49",
+     "o": [
+      "4.77 Å",
+      "0.53 Å",
+      "1.06 Å",
+      "1.59 Å"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "हाइड्रोजन परमाणु की सबसे भीतरी कक्षा की त्रिज्या 5.3 × 10<sup>−11</sup> m है। हाइड्रोजन परमाणु की तीसरी अनुमत कक्षा की त्रिज्या क्या है?",
+      "o": [
+       "4.77 Å",
+       "0.53 Å",
+       "1.06 Å",
+       "1.59 Å"
+      ],
+      "sol": "<p>r<sub>n</sub> = n<sup>2</sup>r<sub>1</sub>। r<sub>3</sub> = 9 × 5.3 × 10<sup>−11</sup> m = 4.77 × 10<sup>−10</sup> m = <b>4.77 Å</b>।</p>",
+      "hint": "r ∝ n<sup>2</sup>।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "12.4.1",
+   "title": "Energy Levels",
+   "hi": "ऊर्जा स्तर",
+   "pages": [],
+   "pdfPage": 11,
+   "questions": [
+    {
+     "id": "phy12-12-neet-2018-code-aa-q11",
+     "exam": "NEET",
+     "q": "The ratio of kinetic energy to the total energy of an electron in a Bohr orbit of the hydrogen atom, is :",
+     "sol": "<p>In a Bohr orbit K = ke<sup>2</sup>/(2r), U = −ke<sup>2</sup>/r, so E = K + U = −ke<sup>2</sup>/(2r) = −K.</p><p>K : E = <b>1 : −1</b>.</p>",
+     "hint": "E = −K for an inverse-square attraction.",
+     "paras": [
+      "12.4.1"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q11",
+     "o": [
+      "2 : −1",
+      "1 : −1",
+      "1 : 1",
+      "1 : −2"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "हाइड्रोजन परमाणु की बोर कक्षा में एक इलेक्ट्रॉन की गतिज ऊर्जा और कुल ऊर्जा का अनुपात है :",
+      "o": [
+       "2 : −1",
+       "1 : −1",
+       "1 : 1",
+       "1 : −2"
+      ],
+      "sol": "<p>बोर कक्षा में K = ke<sup>2</sup>/(2r), U = −ke<sup>2</sup>/r, अतः E = K + U = −ke<sup>2</sup>/(2r) = −K।</p><p>K : E = <b>1 : −1</b>।</p>",
+      "hint": "व्युत्क्रम वर्ग आकर्षण के लिए E = −K।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-12-neet-2019-code-s2-q127",
+     "exam": "NEET",
+     "q": "The total energy of an electron in an atom in an orbit is −3.4 eV. Its kinetic and potential energies are, respectively :",
+     "sol": "<p>K = −E = +3.4 eV and U = 2E = −6.8 eV. Answer: <b>3.4 eV, −6.8 eV</b>.</p><p>Kinetic energy can never be negative, so options with −3.4 eV kinetic energy are impossible (the copy's printed answer (4) is wrong).</p>",
+     "hint": "K = −E, U = 2E.",
+     "paras": [
+      "12.4.1"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q127",
+     "o": [
+      "3.4 eV, −6.8 eV",
+      "3.4 eV, 3.4 eV",
+      "−3.4 eV, −3.4 eV",
+      "−3.4 eV, −6.8 eV"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "किसी परमाणु में एक कक्षा में इलेक्ट्रॉन की कुल ऊर्जा −3.4 eV है। इसकी गतिज और स्थितिज ऊर्जाएँ क्रमशः हैं :",
+      "o": [
+       "3.4 eV, −6.8 eV",
+       "3.4 eV, 3.4 eV",
+       "−3.4 eV, −3.4 eV",
+       "−3.4 eV, −6.8 eV"
+      ],
+      "sol": "<p>K = −E = +3.4 eV और U = 2E = −6.8 eV। उत्तर : <b>3.4 eV, −6.8 eV</b>।</p><p>गतिज ऊर्जा कभी ऋणात्मक नहीं हो सकती, अतः −3.4 eV गतिज ऊर्जा वाले विकल्प असंभव हैं (प्रति में छपा उत्तर (4) गलत है)।</p>",
+      "hint": "K = −E, U = 2E।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-12-neet-2022-code-t2-q10",
+     "exam": "NEET",
+     "q": "Let T<sub>1</sub> and T<sub>2</sub> be the energy of an electron in the first and second excited states of hydrogen atom, respectively. According to the Bohr's model of an atom, the ratio T<sub>1</sub> : T<sub>2</sub> is :",
+     "sol": "<p>First excited state n = 2, second n = 3. E<sub>n</sub> ∝ 1/n<sup>2</sup>: T<sub>1</sub> : T<sub>2</sub> = (1/4) : (1/9) = <b>9 : 4</b>.</p>",
+     "hint": "First excited state is n = 2, not n = 1.",
+     "paras": [
+      "12.4.1"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q10",
+     "o": [
+      "4 : 1",
+      "4 : 9",
+      "9 : 4",
+      "1 : 4"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "मान लीजिए T<sub>1</sub> और T<sub>2</sub> हाइड्रोजन परमाणु की क्रमशः पहली और दूसरी उत्तेजित अवस्था में एक इलेक्ट्रॉन की ऊर्जा हैं। परमाणु के बोर मॉडल के अनुसार अनुपात T<sub>1</sub> : T<sub>2</sub> है :",
+      "o": [
+       "4 : 1",
+       "4 : 9",
+       "9 : 4",
+       "1 : 4"
+      ],
+      "sol": "<p>पहली उत्तेजित अवस्था n = 2, दूसरी n = 3। E<sub>n</sub> ∝ 1/n<sup>2</sup> : T<sub>1</sub> : T<sub>2</sub> = (1/4) : (1/9) = <b>9 : 4</b>।</p>",
+      "hint": "पहली उत्तेजित अवस्था n = 2 है, n = 1 नहीं।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "12.5",
+   "title": "The Line Spectra of the Hydrogen Atom",
+   "hi": "हाइड्रोजन परमाणु का लाइन स्पेक्ट्रम",
+   "pages": [],
+   "pdfPage": 11,
+   "questions": [
+    {
+     "id": "phy12-12-neet-2015-re-exam-code-d-q160",
+     "exam": "NEET",
+     "q": "In the spectrum of hydrogen, the ratio of the longest wavelength in the Lyman series to the longest wavelength in the Balmer series is:",
+     "sol": "<p>Longest wavelength = smallest energy jump. Lyman (2 → 1): 1/λ<sub>L</sub> = R(1 − 1/4) = 3R/4. Balmer (3 → 2): 1/λ<sub>B</sub> = R(1/4 − 1/9) = 5R/36.</p><p>λ<sub>L</sub>/λ<sub>B</sub> = (5/36)/(3/4) = <b>5/27</b>.</p>",
+     "hint": "Longest wavelength: transition from the next level only.",
+     "paras": [
+      "12.5"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q160",
+     "o": [
+      "9/4",
+      "27/5",
+      "5/27",
+      "4/9"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "हाइड्रोजन के स्पेक्ट्रम में, लाइमैन श्रेणी की सबसे लंबी तरंगदैर्घ्य और बामर श्रेणी की सबसे लंबी तरंगदैर्घ्य का अनुपात है :",
+      "o": [
+       "9/4",
+       "27/5",
+       "5/27",
+       "4/9"
+      ],
+      "sol": "<p>सबसे लंबी तरंगदैर्घ्य = सबसे छोटा ऊर्जा अंतर। लाइमैन (2 → 1) : 1/λ<sub>L</sub> = R(1 − 1/4) = 3R/4। बामर (3 → 2) : 1/λ<sub>B</sub> = R(1/4 − 1/9) = 5R/36।</p><p>λ<sub>L</sub>/λ<sub>B</sub> = (5/36)/(3/4) = <b>5/27</b>।</p>",
+      "hint": "सबसे लंबी तरंगदैर्घ्य : केवल अगले स्तर से संक्रमण।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-12-neet-2016-phase-1-code-a-q38",
+     "exam": "NEET",
+     "q": "Given the value of Rydberg constant is 10<sup>7</sup> m<sup>−1</sup>, the wave number of the last line of the Balmer series in hydrogen spectrum will be :",
+     "sol": "<p>Last line (series limit) of Balmer: n = ∞ → 2. Wave number = R(1/4 − 0) = 10<sup>7</sup>/4 = <b>0.25 × 10<sup>7</sup> m<sup>−1</sup></b>.</p>",
+     "hint": "Series limit: n<sub>i</sub> → ∞.",
+     "paras": [
+      "12.5"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q38",
+     "o": [
+      "0.025 × 10<sup>4</sup> m<sup>−1</sup>",
+      "0.5 × 10<sup>7</sup> m<sup>−1</sup>",
+      "0.25 × 10<sup>7</sup> m<sup>−1</sup>",
+      "2.5 × 10<sup>7</sup> m<sup>−1</sup>"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "रिडबर्ग नियतांक का मान 10<sup>7</sup> m<sup>−1</sup> दिया गया है, तो हाइड्रोजन स्पेक्ट्रम में बामर श्रेणी की अंतिम रेखा की तरंग संख्या होगी :",
+      "o": [
+       "0.025 × 10<sup>4</sup> m<sup>−1</sup>",
+       "0.5 × 10<sup>7</sup> m<sup>−1</sup>",
+       "0.25 × 10<sup>7</sup> m<sup>−1</sup>",
+       "2.5 × 10<sup>7</sup> m<sup>−1</sup>"
+      ],
+      "sol": "<p>बामर की अंतिम रेखा (श्रेणी सीमा) : n = ∞ → 2। तरंग संख्या = R(1/4 − 0) = 10<sup>7</sup>/4 = <b>0.25 × 10<sup>7</sup> m<sup>−1</sup></b>।</p>",
+      "hint": "श्रेणी सीमा : n<sub>i</sub> → ∞।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-12-neet-2016-phase-2-code-aa-q41",
+     "exam": "NEET",
+     "q": "If an electron in a hydrogen atom jumps from the 3rd orbit to the 2nd orbit, it emits a photon of wavelength λ. When it jumps from the 4th orbit to the 3rd orbit, the corresponding wavelength of the photon will be",
+     "sol": "<p>3 → 2: 1/λ = R(1/4 − 1/9) = 5R/36. 4 → 3: 1/λ′ = R(1/9 − 1/16) = 7R/144.</p><p>λ′/λ = (5/36)/(7/144) = 20/7 ⇒ λ′ = <b>(20/7)λ</b>.</p>",
+     "hint": "Wavelength ∝ 1/(1/n<sub>f</sub><sup>2</sup> − 1/n<sub>i</sub><sup>2</sup>).",
+     "paras": [
+      "12.5"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q41",
+     "o": [
+      "(16/25)λ",
+      "(9/16)λ",
+      "(20/7)λ",
+      "(20/13)λ"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "यदि हाइड्रोजन परमाणु में एक इलेक्ट्रॉन तीसरी कक्षा से दूसरी कक्षा में कूदता है, तो वह तरंगदैर्घ्य λ का एक फ़ोटॉन उत्सर्जित करता है। जब यह चौथी कक्षा से तीसरी कक्षा में कूदता है, तो फ़ोटॉन की संगत तरंगदैर्घ्य होगी",
+      "o": [
+       "(16/25)λ",
+       "(9/16)λ",
+       "(20/7)λ",
+       "(20/13)λ"
+      ],
+      "sol": "<p>3 → 2 : 1/λ = R(1/4 − 1/9) = 5R/36। 4 → 3 : 1/λ′ = R(1/9 − 1/16) = 7R/144।</p><p>λ′/λ = (5/36)/(7/144) = 20/7 ⇒ λ′ = <b>(20/7)λ</b>।</p>",
+      "hint": "तरंगदैर्घ्य ∝ 1/(1/n<sub>f</sub><sup>2</sup> − 1/n<sub>i</sub><sup>2</sup>)।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-12-neet-2017-code-a-q13",
+     "exam": "NEET",
+     "q": "The ratio of wavelengths of the last line of Balmer series and the last line of Lyman series is",
+     "sol": "<p>Last line = series limit. Balmer: 1/λ = R/4 ⇒ λ = 4/R. Lyman: 1/λ = R ⇒ λ = 1/R. Ratio = <b>4</b>.</p>",
+     "hint": "Series limit wavelength = n<sub>f</sub><sup>2</sup>/R.",
+     "paras": [
+      "12.5"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q13",
+     "o": [
+      "2",
+      "1",
+      "4",
+      "0.5"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "बामर श्रेणी की अंतिम रेखा और लाइमैन श्रेणी की अंतिम रेखा की तरंगदैर्घ्यों का अनुपात है",
+      "o": [
+       "2",
+       "1",
+       "4",
+       "0.5"
+      ],
+      "sol": "<p>अंतिम रेखा = श्रेणी सीमा। बामर : 1/λ = R/4 ⇒ λ = 4/R । लाइमैन : 1/λ = R ⇒ λ = 1/R । अनुपात = <b>4</b>।</p>",
+      "hint": "श्रेणी सीमा की तरंगदैर्घ्य = n<sub>f</sub><sup>2</sup>/R ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-12-neet-2023-topic-wise-copy-q32",
+     "exam": "NEET",
+     "q": "In hydrogen spectrum, the shortest wavelength in the Balmer series is λ. The shortest wavelength in the Brackett series is :",
+     "sol": "<p>Shortest wavelength = series limit, λ = n<sub>f</sub><sup>2</sup>/R. Balmer (n<sub>f</sub> = 2): λ = 4/R. Brackett (n<sub>f</sub> = 4): 16/R = <b>4λ</b>.</p>",
+     "hint": "Brackett series ends on n = 4.",
+     "paras": [
+      "12.5"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q32",
+     "o": [
+      "16λ",
+      "2λ",
+      "4λ",
+      "9λ"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "हाइड्रोजन स्पेक्ट्रम में बामर श्रेणी की सबसे छोटी तरंगदैर्घ्य λ है। ब्रेकेट श्रेणी की सबसे छोटी तरंगदैर्घ्य है :",
+      "o": [
+       "16λ",
+       "2λ",
+       "4λ",
+       "9λ"
+      ],
+      "sol": "<p>सबसे छोटी तरंगदैर्घ्य = श्रेणी सीमा, λ = n<sub>f</sub><sup>2</sup>/R । बामर (n<sub>f</sub> = 2) : λ = 4/R । ब्रेकेट (n<sub>f</sub> = 4) : 16/R = <b>4λ</b>।</p>",
+      "hint": "ब्रेकेट श्रेणी n = 4 पर समाप्त होती है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-12-neet-2024-q4-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "Match List-I with List-II.<br>List-I (Spectral lines of hydrogen for transitions from) — List-II (Wavelengths (nm))<br>A. n<sub>2</sub> = 3 to n<sub>1</sub> = 2 — I. 410.2<br>B. n<sub>2</sub> = 4 to n<sub>1</sub> = 2 — II. 434.1<br>C. n<sub>2</sub> = 5 to n<sub>1</sub> = 2 — III. 656.3<br>D. n<sub>2</sub> = 6 to n<sub>1</sub> = 2 — IV. 486.1<br>Choose the correct answer from the options given below :",
+     "sol": "<p>In the Balmer series a larger n<sub>2</sub> means a bigger energy jump and a shorter wavelength: 3 → 2 is the longest (656.3 nm, red Hα), then 4 → 2 (486.1), 5 → 2 (434.1), 6 → 2 (410.2).</p><p>Answer: <b>A-III, B-IV, C-II, D-I</b>.</p>",
+     "hint": "Wavelength decreases as n<sub>2</sub> increases.",
+     "paras": [
+      "12.5"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q4 (eSaral physics copy)",
+     "o": [
+      "A-II, B-I, C-IV, D-III",
+      "A-III, B-IV, C-II, D-I",
+      "A-IV, B-III, C-I, D-II",
+      "A-I, B-II, C-III, D-IV"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "सूची-I का सूची-II से मिलान कीजिए।<br>सूची-I (हाइड्रोजन की स्पेक्ट्रमी रेखाएँ, संक्रमण) — सूची-II (तरंगदैर्घ्य (nm))<br>A. n<sub>2</sub> = 3 से n<sub>1</sub> = 2 — I. 410.2<br>B. n<sub>2</sub> = 4 से n<sub>1</sub> = 2 — II. 434.1<br>C. n<sub>2</sub> = 5 से n<sub>1</sub> = 2 — III. 656.3<br>D. n<sub>2</sub> = 6 से n<sub>1</sub> = 2 — IV. 486.1<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "A-II, B-I, C-IV, D-III",
+       "A-III, B-IV, C-II, D-I",
+       "A-IV, B-III, C-I, D-II",
+       "A-I, B-II, C-III, D-IV"
+      ],
+      "sol": "<p>बामर श्रेणी में बड़े n<sub>2</sub> का अर्थ बड़ा ऊर्जा अंतर और छोटी तरंगदैर्घ्य है : 3 → 2 सबसे लंबी (656.3 nm, लाल Hα), फिर 4 → 2 (486.1), 5 → 2 (434.1), 6 → 2 (410.2)।</p><p>उत्तर : <b>A-III, B-IV, C-II, D-I</b>।</p>",
+      "hint": "n<sub>2</sub> बढ़ने पर तरंगदैर्घ्य घटती है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy12-12-neet-2024-q14-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "Given below are two statements :<br>Statement I : Atoms are electrically neutral as they contain equal number of positive and negative charges.<br>Statement II : Atoms of each element are stable and emit their characteristic spectrum.<br>In the light of the above statements, choose the most appropriate answer from the options given below.",
+     "sol": "<p>Statement I is correct: an atom has equal positive (nuclear) and negative (electronic) charge. Statement II is incorrect as worded: NCERT's summary says atoms of <i>most</i> elements are stable and emit a characteristic spectrum; atoms of radioactive elements are not stable.</p><p>Answer: <b>Statement I is correct but Statement II is incorrect</b>.</p>",
+     "hint": "“Each element” is too strong: radioactive elements exist.",
+     "paras": [
+      "12.1",
+      "12.3"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q14 (eSaral physics copy)",
+     "o": [
+      "Both Statement I and Statement II are correct",
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : परमाणु विद्युतीय रूप से उदासीन होते हैं क्योंकि उनमें धनात्मक और ऋणात्मक आवेश समान संख्या में होते हैं।<br>कथन II : प्रत्येक तत्व के परमाणु स्थायी होते हैं और अपना अभिलाक्षणिक स्पेक्ट्रम उत्सर्जित करते हैं।<br>उपरोक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए।",
+      "o": [
+       "कथन I और कथन II दोनों सही हैं",
+       "कथन I और कथन II दोनों गलत हैं",
+       "कथन I सही है परंतु कथन II गलत है",
+       "कथन I गलत है परंतु कथन II सही है"
+      ],
+      "sol": "<p>कथन I सही है : परमाणु में धनात्मक (नाभिकीय) और ऋणात्मक (इलेक्ट्रॉनिक) आवेश बराबर होता है। कथन II इन शब्दों में गलत है : NCERT का सारांश कहता है कि <i>अधिकांश</i> तत्वों के परमाणु स्थायी होते हैं और अभिलाक्षणिक स्पेक्ट्रम उत्सर्जित करते हैं; रेडियोऐक्टिव तत्वों के परमाणु स्थायी नहीं होते।</p><p>उत्तर : <b>कथन I सही है परंतु कथन II गलत है</b>।</p>",
+      "hint": "“प्रत्येक तत्व” बहुत व्यापक है : रेडियोऐक्टिव तत्व भी होते हैं।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-12-neet-2025-code-45-q30",
+     "exam": "NEET",
+     "q": "A particle of mass m is moving around the origin with a constant force F pulling it towards the origin. If Bohr model is used to describe its motion, the radius of the n<sup>th</sup> orbit and the particle's speed v in the orbit depend on n as :",
+     "sol": "<p>Constant central force: mv<sup>2</sup>/r = F ⇒ v<sup>2</sup> = Fr/m. Bohr's rule: mvr = nh/(2π) ⇒ v = nh/(2πmr).</p><p>Squaring: n<sup>2</sup>h<sup>2</sup>/(4π<sup>2</sup>m<sup>2</sup>r<sup>2</sup>) = Fr/m ⇒ r<sup>3</sup> ∝ n<sup>2</sup> ⇒ r ∝ n<sup>2/3</sup>; v ∝ √r ∝ n<sup>1/3</sup>. Answer: <b>r ∝ n<sup>2/3</sup>; v ∝ n<sup>1/3</sup></b>.</p>",
+     "hint": "Combine F = mv<sup>2</sup>/r with mvr = nh/2π.",
+     "paras": [
+      "12.4"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q30",
+     "o": [
+      "r ∝ n<sup>1/3</sup>; v ∝ n<sup>1/3</sup>",
+      "r ∝ n<sup>1/3</sup>; v ∝ n<sup>2/3</sup>",
+      "r ∝ n<sup>2/3</sup>; v ∝ n<sup>1/3</sup>",
+      "r ∝ n<sup>4/3</sup>; v ∝ n<sup>−1/3</sup>"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "द्रव्यमान m का एक कण मूल बिंदु के चारों ओर गति कर रहा है, जिस पर एक नियत बल F उसे मूल बिंदु की ओर खींचता है। यदि इसकी गति का वर्णन करने के लिए बोर मॉडल का उपयोग किया जाए, तो n वीं कक्षा की त्रिज्या और कक्षा में कण की चाल v, n पर किस प्रकार निर्भर करती हैं?",
+      "o": [
+       "r ∝ n<sup>1/3</sup>; v ∝ n<sup>1/3</sup>",
+       "r ∝ n<sup>1/3</sup>; v ∝ n<sup>2/3</sup>",
+       "r ∝ n<sup>2/3</sup>; v ∝ n<sup>1/3</sup>",
+       "r ∝ n<sup>4/3</sup>; v ∝ n<sup>−1/3</sup>"
+      ],
+      "sol": "<p>नियत केंद्रीय बल : mv<sup>2</sup>/r = F ⇒ v<sup>2</sup> = Fr/m । बोर का नियम : mvr = nh/(2π) ⇒ v = nh/(2πmr)।</p><p>वर्ग करने पर : n<sup>2</sup>h<sup>2</sup>/(4π<sup>2</sup>m<sup>2</sup>r<sup>2</sup>) = Fr/m ⇒ r<sup>3</sup> ∝ n<sup>2</sup> ⇒ r ∝ n<sup>2/3</sup>; v ∝ √r ∝ n<sup>1/3</sup>। उत्तर : <b>r ∝ n<sup>2/3</sup>; v ∝ n<sup>1/3</sup></b>।</p>",
+      "hint": "F = mv<sup>2</sup>/r को mvr = nh/2π के साथ मिलाइए।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 11 · Laws of Motion"
+     ]
+    },
+    {
+     "id": "phy12-12-neet-2026-code-13-q44",
+     "exam": "NEET",
+     "q": "In the first excited state of hydrogen atom, the energy of its electron is −3.4 eV. The radial distance of the electron from the hydrogen nucleus in this case is approximately : (Take 1 eV = 1.6 × 10<sup>−19</sup> J, e = 1.6 × 10<sup>−19</sup> C and 1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup>)",
+     "sol": "<p>Total energy E = −ke<sup>2</sup>/(2r) ⇒ r = ke<sup>2</sup>/(2|E|).</p><p>r = 9 × 10<sup>9</sup> × (1.6 × 10<sup>−19</sup>)<sup>2</sup>/(2 × 3.4 × 1.6 × 10<sup>−19</sup>) = 1.44 × 10<sup>−9</sup>/6.8 ≈ <b>2.1 × 10<sup>−10</sup> m</b> (= 4 × 0.53 Å, as r ∝ n<sup>2</sup>).</p>",
+     "hint": "E = −ke<sup>2</sup>/(2r).",
+     "paras": [
+      "12.4",
+      "12.4.1"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q44",
+     "o": [
+      "2.1 × 10<sup>−8</sup> m",
+      "2.1 × 10<sup>−10</sup> m",
+      "2.1 × 10<sup>−11</sup> m",
+      "2.1 × 10<sup>−9</sup> m"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "हाइड्रोजन परमाणु की पहली उत्तेजित अवस्था में इसके इलेक्ट्रॉन की ऊर्जा −3.4 eV है। इस स्थिति में हाइड्रोजन नाभिक से इलेक्ट्रॉन की त्रिज्य दूरी लगभग है : (1 eV = 1.6 × 10<sup>−19</sup> J, e = 1.6 × 10<sup>−19</sup> C और 1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup> लीजिए)",
+      "o": [
+       "2.1 × 10<sup>−8</sup> m",
+       "2.1 × 10<sup>−10</sup> m",
+       "2.1 × 10<sup>−11</sup> m",
+       "2.1 × 10<sup>−9</sup> m"
+      ],
+      "sol": "<p>कुल ऊर्जा E = −ke<sup>2</sup>/(2r) ⇒ r = ke<sup>2</sup>/(2|E|)।</p><p>r = 9 × 10<sup>9</sup> × (1.6 × 10<sup>−19</sup>)<sup>2</sup>/(2 × 3.4 × 1.6 × 10<sup>−19</sup>) = 1.44 × 10<sup>−9</sup>/6.8 ≈ <b>2.1 × 10<sup>−10</sup> m</b> (= 4 × 0.53 Å, क्योंकि r ∝ n<sup>2</sup>)।</p>",
+      "hint": "E = −ke<sup>2</sup>/(2r)।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-12-neet-2025-code-45-q34",
+     "exam": "NEET",
+     "q": "De-Broglie wavelength of an electron orbiting in the n = 2 state of hydrogen atom is close to (Given Bohr radius = 0.052 nm) :",
+     "sol": "<p>r<sub>2</sub> = 2<sup>2</sup> × 0.052 = 0.208 nm. Bohr's condition as a standing wave: 2πr<sub>n</sub> = nλ ⇒ λ = 2π × 0.208/2 = π × 0.208 ≈ 0.65 nm, closest to <b>0.67 nm</b>.</p>",
+     "hint": "n de Broglie wavelengths fit the orbit's circumference.",
+     "paras": [
+      "12.4",
+      "12.6"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q34",
+     "o": [
+      "0.067 nm",
+      "0.67 nm",
+      "1.67 nm",
+      "2.67 nm"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "हाइड्रोजन परमाणु की n = 2 अवस्था में परिक्रमा कर रहे इलेक्ट्रॉन की दे ब्रॉग्ली (De-Broglie) तरंगदैर्घ्य लगभग है (दिया है बोर त्रिज्या = 0.052 nm) :",
+      "o": [
+       "0.067 nm",
+       "0.67 nm",
+       "1.67 nm",
+       "2.67 nm"
+      ],
+      "sol": "<p>r<sub>2</sub> = 2<sup>2</sup> × 0.052 = 0.208 nm। अप्रगामी तरंग के रूप में बोर का प्रतिबंध : 2πr<sub>n</sub> = nλ ⇒ λ = 2π × 0.208/2 = π × 0.208 ≈ 0.65 nm, जो <b>0.67 nm</b> के निकटतम है।</p>",
+      "hint": "कक्षा की परिधि में n दे ब्रॉग्ली तरंगदैर्घ्य समाती हैं।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 16
+ },
+ "empty": [
+  {
+   "id": "12.2.1",
+   "title": "Alpha-particle Trajectory",
+   "hi": "ऐल्फ़ा-कण प्रक्षेप-पथ",
+   "pages": [],
+   "pdfPage": 5
+  },
+  {
+   "id": "12.2.2",
+   "title": "Electron Orbits",
+   "hi": "इलेक्ट्रॉन-कक्षाएँ",
+   "pages": [],
+   "pdfPage": 6
+  }
+ ],
+ "trends": {
+  "12.5": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2024,
+    2023,
+    2017,
+    2016,
+    2015
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "12.2": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2016
+   ],
+   "last": 2016,
+   "recent": false
+  },
+  "12.4.1": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2026,
+    2022,
+    2019,
+    2018
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "12.4": {
+   "neet": 5,
+   "jee": 0,
+   "years": [
+    2026,
+    2025,
+    2023,
+    2020
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "12.1": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2024
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "12.3": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2024
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "12.6": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2025
+   ],
+   "last": 2025,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}

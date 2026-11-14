@@ -1,0 +1,795 @@
+{
+ "chapter": "phy11-10",
+ "source": "bank",
+ "subject": "physics",
+ "class": 11,
+ "unit": 10,
+ "title": "Thermal Properties of Matter",
+ "titleHi": "द्रव्य के तापीय गुण",
+ "ref": "NCERT Physics Class 11 · Unit 10",
+ "years": "NEET 2015–2025",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph203.pdf",
+ "pdfPageOffset": 0,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "10.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "10.2",
+   "title": "Temperature and Heat",
+   "hi": "ताप तथा ऊष्मा",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "10.3",
+   "title": "Measurement of Temperature",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "10.4",
+   "title": "Ideal-Gas Equation and Absolute Temperature",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "10.5",
+   "title": "Thermal Expansion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "10.6",
+   "title": "Specific Heat Capacity",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 7
+  },
+  {
+   "id": "10.7",
+   "title": "Calorimetry",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 8
+  },
+  {
+   "id": "10.8",
+   "title": "Change of State",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 9
+  },
+  {
+   "id": "10.8.1",
+   "title": "Latent Heat",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "10.9",
+   "title": "Heat Transfer",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 13
+  },
+  {
+   "id": "10.9.1",
+   "title": "Conduction",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 13
+  },
+  {
+   "id": "10.9.2",
+   "title": "Convection",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 16
+  },
+  {
+   "id": "10.9.3",
+   "title": "Radiation",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 17
+  },
+  {
+   "id": "10.9.4",
+   "title": "Blackbody Radiation",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 17
+  },
+  {
+   "id": "10.10",
+   "title": "Newton's Law of Cooling",
+   "hi": "न्यूटन का शीतलन नियम",
+   "pages": [],
+   "pdfPage": 18
+  }
+ ],
+ "sections": [
+  {
+   "sec": "10.5",
+   "title": "Thermal Expansion",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 3,
+   "questions": [
+    {
+     "id": "phy11-10-neet-2015-re-exam-code-d-q143",
+     "exam": "NEET",
+     "q": "The value of coefficient of volume expansion of glycerin is 5 × 10<sup>−4</sup> K<sup>−1</sup>. The fractional change in the density of glycerin for a rise of 40 °C in its temperature is :",
+     "sol": "<p>Mass is fixed, so ρ ∝ 1/V and Δρ/ρ = −ΔV/V = −γΔT.</p><p>|Δρ/ρ| = 5 × 10<sup>−4</sup> × 40 = <b>0.020</b> (a decrease).</p>",
+     "hint": "Fractional change in density = − fractional change in volume.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q143",
+     "o": [
+      "0.020",
+      "0.025",
+      "0.010",
+      "0.015"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "ग्लिसरीन के आयतन प्रसार गुणांक का मान 5 × 10<sup>−4</sup> K<sup>−1</sup> है। ग्लिसरीन के ताप में 40 °C की वृद्धि के लिए इसके घनत्व में भिन्नात्मक परिवर्तन है :",
+      "o": [
+       "0.020",
+       "0.025",
+       "0.010",
+       "0.015"
+      ],
+      "sol": "<p>द्रव्यमान नियत है, अतः ρ ∝ 1/V और Δρ/ρ = −ΔV/V = −γΔT।</p><p>|Δρ/ρ| = 5 × 10<sup>−4</sup> × 40 = <b>0.020</b> (कमी)।</p>",
+      "hint": "घनत्व में भिन्नात्मक परिवर्तन = − आयतन में भिन्नात्मक परिवर्तन।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-10-neet-2016-phase-1-code-a-q16",
+     "exam": "NEET",
+     "q": "Coefficients of linear expansion of brass and steel rods are α<sub>1</sub> and α<sub>2</sub>. Lengths of brass and steel rods are l<sub>1</sub> and l<sub>2</sub> respectively. If (l<sub>2</sub> − l<sub>1</sub>) is maintained same at all temperatures, which one of the following relations holds good?",
+     "sol": "<p>(l<sub>2</sub> − l<sub>1</sub>) stays the same only if both rods expand by the same amount: l<sub>1</sub>α<sub>1</sub>ΔT = l<sub>2</sub>α<sub>2</sub>ΔT ⇒ <b>α<sub>1</sub>l<sub>1</sub> = α<sub>2</sub>l<sub>2</sub></b>.</p>",
+     "hint": "Equal expansions: Δl = lαΔT.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q16",
+     "o": [
+      "α<sub>1</sub><sup>2</sup>l<sub>2</sub> = α<sub>2</sub><sup>2</sup>l<sub>1</sub>",
+      "α<sub>1</sub>l<sub>2</sub><sup>2</sup> = α<sub>2</sub>l<sub>1</sub><sup>2</sup>",
+      "α<sub>1</sub>l<sub>2</sub> = α<sub>2</sub>l<sub>1</sub>",
+      "α<sub>1</sub>l<sub>1</sub> = α<sub>2</sub>l<sub>2</sub>"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "पीतल और इस्पात की छड़ों के रेखीय प्रसार गुणांक α<sub>1</sub> और α<sub>2</sub> हैं। पीतल और इस्पात की छड़ों की लंबाइयाँ क्रमशः l<sub>1</sub> और l<sub>2</sub> हैं। यदि (l<sub>2</sub> − l<sub>1</sub>) सभी तापों पर समान बना रहता है, तो निम्नलिखित में से कौन-सा संबंध सही है?",
+      "o": [
+       "α<sub>1</sub><sup>2</sup>l<sub>2</sub> = α<sub>2</sub><sup>2</sup>l<sub>1</sub>",
+       "α<sub>1</sub>l<sub>2</sub><sup>2</sup> = α<sub>2</sub>l<sub>1</sub><sup>2</sup>",
+       "α<sub>1</sub>l<sub>2</sub> = α<sub>2</sub>l<sub>1</sub>",
+       "α<sub>1</sub>l<sub>1</sub> = α<sub>2</sub>l<sub>2</sub>"
+      ],
+      "sol": "<p>(l<sub>2</sub> − l<sub>1</sub>) तभी समान रहता है जब दोनों छड़ें समान मात्रा में फैलें : l<sub>1</sub>α<sub>1</sub>ΔT = l<sub>2</sub>α<sub>2</sub>ΔT ⇒ <b>α<sub>1</sub>l<sub>1</sub> = α<sub>2</sub>l<sub>2</sub></b>।</p>",
+      "hint": "समान प्रसार : Δl = lαΔT।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-10-neet-2019-code-s2-q135",
+     "exam": "NEET",
+     "q": "A copper rod of 88 cm and an aluminium rod of unknown length have their increase in length independent of increase in temperature. The length of aluminium rod is : (α<sub>Cu</sub> = 1.7 × 10<sup>−5</sup> K<sup>−1</sup> and α<sub>Al</sub> = 2.2 × 10<sup>−5</sup> K<sup>−1</sup>)",
+     "sol": "<p>Their difference in length stays fixed only if both expand equally: l<sub>Cu</sub>α<sub>Cu</sub> = l<sub>Al</sub>α<sub>Al</sub>.</p><p>l<sub>Al</sub> = 88 × 1.7/2.2 = <b>68 cm</b>.</p>",
+     "hint": "Equal expansions: l<sub>1</sub>α<sub>1</sub> = l<sub>2</sub>α<sub>2</sub>.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q135",
+     "o": [
+      "88 cm",
+      "68 cm",
+      "6.8 cm",
+      "113.9 cm"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "88 cm की एक ताँबे की छड़ और अज्ञात लंबाई की एक ऐलुमिनियम की छड़ की लंबाइयों में अंतर ताप वृद्धि से स्वतंत्र है। ऐलुमिनियम की छड़ की लंबाई है : (α<sub>Cu</sub> = 1.7 × 10<sup>−5</sup> K<sup>−1</sup> और α<sub>Al</sub> = 2.2 × 10<sup>−5</sup> K<sup>−1</sup>)",
+      "o": [
+       "88 cm",
+       "68 cm",
+       "6.8 cm",
+       "113.9 cm"
+      ],
+      "sol": "<p>लंबाइयों का अंतर तभी नियत रहता है जब दोनों समान रूप से फैलें : l<sub>Cu</sub>α<sub>Cu</sub> = l<sub>Al</sub>α<sub>Al</sub>।</p><p>l<sub>Al</sub> = 88 × 1.7/2.2 = <b>68 cm</b>।</p>",
+      "hint": "समान प्रसार : l<sub>1</sub>α<sub>1</sub> = l<sub>2</sub>α<sub>2</sub>।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "10.6",
+   "title": "Specific Heat Capacity",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 7,
+   "questions": [
+    {
+     "id": "phy11-10-neet-2020-code-f3-q23",
+     "exam": "NEET",
+     "q": "The quantities of heat required to raise the temperature of two solid copper spheres of radii r<sub>1</sub> and r<sub>2</sub> (r<sub>1</sub> = 1.5 r<sub>2</sub>) through 1 K are in the ratio :",
+     "sol": "<p>Q = mcΔT with the same c and ΔT ⇒ Q ∝ m ∝ r<sup>3</sup>.</p><p>Q<sub>1</sub>/Q<sub>2</sub> = (1.5)<sup>3</sup> = 3.375 = <b>27/8</b>.</p>",
+     "hint": "Heat capacity of a sphere ∝ its volume.",
+     "paras": [
+      "10.6"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q23",
+     "o": [
+      "3/2",
+      "5/3",
+      "27/8",
+      "9/4"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "r<sub>1</sub> और r<sub>2</sub> (r<sub>1</sub> = 1.5 r<sub>2</sub>) त्रिज्याओं वाले ताँबे के दो ठोस गोलों का ताप 1 K बढ़ाने के लिए आवश्यक ऊष्मा की मात्राओं का अनुपात है :",
+      "o": [
+       "3/2",
+       "5/3",
+       "27/8",
+       "9/4"
+      ],
+      "sol": "<p>समान c और ΔT के साथ Q = mcΔT ⇒ Q ∝ m ∝ r<sup>3</sup>।</p><p>Q<sub>1</sub>/Q<sub>2</sub> = (1.5)<sup>3</sup> = 3.375 = <b>27/8</b>।</p>",
+      "hint": "गोले की ऊष्मा धारिता ∝ उसका आयतन।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "10.9.1",
+   "title": "Conduction",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 13,
+   "questions": [
+    {
+     "id": "phy11-10-neet-2017-code-a-q11",
+     "exam": "NEET",
+     "q": "Two rods A and B of different materials are welded together as shown in figure. Their thermal conductivities are K<sub>1</sub> and K<sub>2</sub>. The thermal conductivity of the composite rod will be :",
+     "sol": "<p>The rods lie side by side between the same two ends (same length L, same area A each), so they conduct in parallel: total heat current = (K<sub>1</sub> + K<sub>2</sub>)AΔT/L = K<sub>eq</sub>(2A)ΔT/L.</p><p>K<sub>eq</sub> = <b>(K<sub>1</sub> + K<sub>2</sub>)/2</b>.</p>",
+     "hint": "Parallel conductors: heat currents add; the composite area is 2A.",
+     "paras": [
+      "10.9.1"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q11",
+     "o": [
+      "(K<sub>1</sub> + K<sub>2</sub>)/2",
+      "3(K<sub>1</sub> + K<sub>2</sub>)/2",
+      "K<sub>1</sub> + K<sub>2</sub>",
+      "2(K<sub>1</sub> + K<sub>2</sub>)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "भिन्न पदार्थों की दो छड़ें A और B चित्र में दिखाए अनुसार आपस में जोड़ी (वेल्ड की) गई हैं। उनकी ऊष्मा चालकताएँ K<sub>1</sub> और K<sub>2</sub> हैं। संयुक्त छड़ की ऊष्मा चालकता होगी :",
+      "o": [
+       "(K<sub>1</sub> + K<sub>2</sub>)/2",
+       "3(K<sub>1</sub> + K<sub>2</sub>)/2",
+       "K<sub>1</sub> + K<sub>2</sub>",
+       "2(K<sub>1</sub> + K<sub>2</sub>)"
+      ],
+      "sol": "<p>छड़ें समान दो सिरों के बीच साथ-साथ रखी हैं (प्रत्येक की लंबाई L, क्षेत्रफल A), अतः समांतर में ऊष्मा चालन करती हैं : कुल ऊष्मा धारा = (K<sub>1</sub> + K<sub>2</sub>)AΔT/L = K<sub>eq</sub>(2A)ΔT/L ।</p><p>K<sub>eq</sub> = <b>(K<sub>1</sub> + K<sub>2</sub>)/2</b>।</p>",
+      "hint": "समांतर चालक : ऊष्मा धाराएँ जुड़ती हैं; संयुक्त क्षेत्रफल 2A है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-10-neet-2019-code-s2-q108",
+     "exam": "NEET",
+     "q": "The unit of thermal conductivity is :",
+     "sol": "<p>Heat current H = KAΔT/L ⇒ K = HL/(AΔT): units W × m/(m<sup>2</sup> × K) = <b>W m<sup>−1</sup> K<sup>−1</sup></b>.</p>",
+     "hint": "Start from H = KAΔT/L.",
+     "paras": [
+      "10.9.1"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q108",
+     "o": [
+      "W m K<sup>−1</sup>",
+      "W m<sup>−1</sup> K<sup>−1</sup>",
+      "J m K<sup>−1</sup>",
+      "J m<sup>−1</sup> K<sup>−1</sup>"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "ऊष्मा चालकता का मात्रक है :",
+      "o": [
+       "W m K<sup>−1</sup>",
+       "W m<sup>−1</sup> K<sup>−1</sup>",
+       "J m K<sup>−1</sup>",
+       "J m<sup>−1</sup> K<sup>−1</sup>"
+      ],
+      "sol": "<p>ऊष्मा धारा H = KAΔT/L ⇒ K = HL/(AΔT) : मात्रक W × m/(m<sup>2</sup> × K) = <b>W m<sup>−1</sup> K<sup>−1</sup></b>।</p>",
+      "hint": "H = KAΔT/L से प्रारंभ कीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-10-neet-2025-code-45-q19",
+     "exam": "NEET",
+     "q": "Three identical heat conducting rods are connected in series as shown in the figure. The rods on the sides have thermal conductivity 2K while that in the middle has thermal conductivity K. The left end of the combination is maintained at temperature 3T and the right end at T. The rods are thermally insulated from outside. In steady state, temperature at the left junction is T<sub>1</sub> and that at the right junction is T<sub>2</sub>. The ratio T<sub>1</sub>/T<sub>2</sub> is :",
+     "sol": "<p>Thermal resistances (R = l/(KA)): sides l/(2KA) each, middle l/(KA); total 2l/(KA). Heat current H = (3T − T)/(2l/(KA)) = TKA/l.</p><p>T<sub>1</sub> = 3T − H × l/(2KA) = 3T − T/2 = 5T/2; T<sub>2</sub> = T + H × l/(2KA) = 3T/2.</p><p>T<sub>1</sub>/T<sub>2</sub> = <b>5/3</b>.</p>",
+     "hint": "In series the same heat current flows through every rod.",
+     "paras": [
+      "10.9.1"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q19",
+     "o": [
+      "3/2",
+      "4/3",
+      "5/3",
+      "5/4"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "तीन सर्वसम ऊष्मा चालक छड़ें चित्र में दिखाए अनुसार श्रेणी में जुड़ी हैं। किनारों की छड़ों की ऊष्मा चालकता 2K है जबकि मध्य वाली की K है। संयोजन का बायाँ सिरा ताप 3T और दायाँ सिरा T पर रखा गया है। छड़ें बाहर से ऊष्मीय रूप से विलगित हैं। स्थायी अवस्था में बाईं संधि पर ताप T<sub>1</sub> और दाईं संधि पर T<sub>2</sub> है। अनुपात T<sub>1</sub>/T<sub>2</sub> है :",
+      "o": [
+       "3/2",
+       "4/3",
+       "5/3",
+       "5/4"
+      ],
+      "sol": "<p>ऊष्मीय प्रतिरोध (R = l/(KA)) : किनारों की छड़ें प्रत्येक l/(2KA), मध्य वाली l/(KA); कुल 2l/(KA)। ऊष्मा धारा H = (3T − T)/(2l/(KA)) = TKA/l ।</p><p>T<sub>1</sub> = 3T − H × l/(2KA) = 3T − T/2 = 5T/2; T<sub>2</sub> = T + H × l/(2KA) = 3T/2।</p><p>T<sub>1</sub>/T<sub>2</sub> = <b>5/3</b>।</p>",
+      "hint": "श्रेणी में प्रत्येक छड़ से समान ऊष्मा धारा प्रवाहित होती है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy11-10-neet-2024-q48-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "A metallic bar of Young's modulus, 0.5 × 10<sup>11</sup> N m<sup>−2</sup> and coefficient of linear thermal expansion 10<sup>−5</sup> °C<sup>−1</sup>, length 1 m and area of cross-section 10<sup>−3</sup> m<sup>2</sup> is heated from 0 °C to 100 °C without expansion or bending. The compressive force developed in it is :",
+     "sol": "<p>Prevented expansion produces a thermal strain αΔT = 10<sup>−5</sup> × 100 = 10<sup>−3</sup>.</p><p>Stress = Y × strain = 0.5 × 10<sup>11</sup> × 10<sup>−3</sup> = 5 × 10<sup>7</sup> N m<sup>−2</sup>. Force = stress × A = 5 × 10<sup>7</sup> × 10<sup>−3</sup> = 5 × 10<sup>4</sup> N = <b>50 × 10<sup>3</sup> N</b>.</p>",
+     "hint": "F = YAαΔT.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q48 (eSaral physics copy)",
+     "o": [
+      "5 × 10<sup>3</sup> N",
+      "50 × 10<sup>3</sup> N",
+      "100 × 10<sup>3</sup> N",
+      "2 × 10<sup>3</sup> N"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "0.5 × 10<sup>11</sup> N m<sup>−2</sup> यंग गुणांक, 10<sup>−5</sup> °C<sup>−1</sup> रेखीय प्रसार गुणांक, 1 m लंबाई और 10<sup>−3</sup> m<sup>2</sup> अनुप्रस्थ काट क्षेत्रफल वाली एक धात्विक छड़ (bar) को बिना प्रसार या मुड़ने दिए 0 °C से 100 °C तक गर्म किया जाता है। इसमें उत्पन्न संपीडक बल है :",
+      "o": [
+       "5 × 10<sup>3</sup> N",
+       "50 × 10<sup>3</sup> N",
+       "100 × 10<sup>3</sup> N",
+       "2 × 10<sup>3</sup> N"
+      ],
+      "sol": "<p>रोके गए प्रसार से ऊष्मीय विकृति αΔT = 10<sup>−5</sup> × 100 = 10<sup>−3</sup> उत्पन्न होती है।</p><p>प्रतिबल = Y × विकृति = 0.5 × 10<sup>11</sup> × 10<sup>−3</sup> = 5 × 10<sup>7</sup> N m<sup>−2</sup>। बल = प्रतिबल × A = 5 × 10<sup>7</sup> × 10<sup>−3</sup> = 5 × 10<sup>4</sup> N = <b>50 × 10<sup>3</sup> N</b>।</p>",
+      "hint": "F = YAαΔT।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 11 · Mechanical Properties of Solids"
+     ]
+    },
+    {
+     "id": "phy11-10-neet-2016-phase-2-code-aa-q15",
+     "exam": "NEET",
+     "q": "Two identical bodies are made of a material for which the heat capacity increases with temperature. One of these is at 100 °C, while the other one is at 0 °C. If the two bodies are brought into contact, then assuming no heat loss, the final common temperature is :",
+     "sol": "<p>Heat lost by the hot body = heat gained by the cold one. The hot body, at higher temperatures, has the larger heat capacity, so each joule it gives up lowers its temperature less; the cold body, with smaller heat capacity, warms faster. The two meet above the midpoint: final temperature is <b>more than 50 °C</b>.</p>",
+     "hint": "Equal heat, unequal heat capacities: the body with the larger C changes temperature less.",
+     "paras": [
+      "10.6",
+      "10.7"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q15",
+     "o": [
+      "50 °C",
+      "More than 50 °C",
+      "Less than 50 °C but greater than 0 °C",
+      "0 °C"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "दो सर्वसम पिंड ऐसे पदार्थ के बने हैं जिसकी ऊष्मा धारिता ताप के साथ बढ़ती है। इनमें से एक 100 °C पर है, जबकि दूसरा 0 °C पर है। यदि दोनों पिंडों को संपर्क में लाया जाए, तो कोई ऊष्मा हानि न मानते हुए अंतिम उभयनिष्ठ ताप है :",
+      "o": [
+       "50 °C",
+       "50 °C से अधिक",
+       "50 °C से कम परंतु 0 °C से अधिक",
+       "0 °C"
+      ],
+      "sol": "<p>गर्म पिंड द्वारा दी गई ऊष्मा = ठंडे पिंड द्वारा ली गई ऊष्मा। उच्च ताप पर गर्म पिंड की ऊष्मा धारिता अधिक है, अतः प्रत्येक जूल देने पर उसका ताप कम घटता है; ठंडे पिंड की ऊष्मा धारिता कम होने से वह तेजी से गर्म होता है। दोनों मध्य बिंदु से ऊपर मिलते हैं : अंतिम ताप <b>50 °C से अधिक</b> है।</p>",
+      "hint": "समान ऊष्मा, असमान ऊष्मा धारिता : अधिक C वाले पिंड का ताप कम बदलता है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy11-10-neet-2016-phase-1-code-a-q35",
+     "exam": "NEET",
+     "q": "A piece of ice falls from a height h so that it melts completely. Only one-quarter of the heat produced is absorbed by the ice and all energy of ice gets converted into heat during its fall. The value of h is : [Latent heat of ice is 3.4 × 10<sup>5</sup> J/kg and g = 10 N/kg]",
+     "sol": "<p>Energy released in the fall = mgh; one quarter melts the ice: (1/4)mgh = mL.</p><p>h = 4L/g = 4 × 3.4 × 10<sup>5</sup>/10 = 1.36 × 10<sup>5</sup> m = <b>136 km</b>.</p>",
+     "hint": "The mass cancels.",
+     "paras": [
+      "10.8.1"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q35",
+     "o": [
+      "34 km",
+      "544 km",
+      "136 km",
+      "68 km"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "बर्फ का एक टुकड़ा h ऊँचाई से इस प्रकार गिरता है कि यह पूर्णतः पिघल जाता है। उत्पन्न ऊष्मा का केवल एक-चौथाई भाग बर्फ द्वारा अवशोषित होता है और गिरते समय बर्फ की संपूर्ण ऊर्जा ऊष्मा में बदल जाती है। h का मान है : [बर्फ की गुप्त ऊष्मा 3.4 × 10<sup>5</sup> J/kg और g = 10 N/kg]",
+      "o": [
+       "34 km",
+       "544 km",
+       "136 km",
+       "68 km"
+      ],
+      "sol": "<p>गिरने में मुक्त ऊर्जा = mgh; इसका एक-चौथाई बर्फ को पिघलाता है : (1/4)mgh = mL।</p><p>h = 4L/g = 4 × 3.4 × 10<sup>5</sup>/10 = 1.36 × 10<sup>5</sup> m = <b>136 km</b>।</p>",
+      "hint": "द्रव्यमान कट जाता है।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 11 · Work",
+      "Energy and Power"
+     ]
+    }
+   ]
+  },
+  {
+   "sec": "dropped",
+   "title": "Topics removed from the NEET syllabus in 2024",
+   "hi": "NEET 2024 पाठ्यक्रम से हटाए गए विषय",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy11-10-neet-2016-phase-1-code-a-q15",
+     "exam": "NEET",
+     "q": "A black body is at a temperature of 5760 K. The energy of radiation emitted by the body at wavelength 250 nm is U<sub>1</sub>, at wavelength 500 nm is U<sub>2</sub> and that at 1000 nm is U<sub>3</sub>. Wien's constant, b = 2.88 × 10<sup>6</sup> nm K. Which of the following is correct?",
+     "sol": "<p>Wien's displacement law: λ<sub>m</sub> = b/T = 2.88 × 10<sup>6</sup>/5760 = 500 nm. The black-body spectrum peaks at 500 nm, so U<sub>2</sub> is the largest of the three, and none of them is zero.</p><p>Hence <b>U<sub>2</sub> > U<sub>1</sub></b>.</p><p class='errata'>The official key gives (3), U<sub>1</sub> > U<sub>2</sub>, reasoning u ∝ 1/λ<sup>4</sup>; that is not how a black-body spectrum behaves (the energy falls off on both sides of λ<sub>m</sub>).</p>",
+     "hint": "Find λ<sub>m</sub> first; the spectrum peaks there.",
+     "paras": [
+      "10.9.4"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q15",
+     "o": [
+      "U<sub>1</sub> = 0",
+      "U<sub>3</sub> = 0",
+      "U<sub>1</sub> > U<sub>2</sub>",
+      "U<sub>2</sub> > U<sub>1</sub>"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक कृष्णिका 5760 K ताप पर है। पिंड द्वारा 250 nm तरंगदैर्घ्य पर उत्सर्जित विकिरण की ऊर्जा U<sub>1</sub>, 500 nm तरंगदैर्घ्य पर U<sub>2</sub> और 1000 nm पर U<sub>3</sub> है। वीन नियतांक b = 2.88 × 10<sup>6</sup> nm K। निम्नलिखित में से कौन-सा सही है?",
+      "o": [
+       "U<sub>1</sub> = 0",
+       "U<sub>3</sub> = 0",
+       "U<sub>1</sub> > U<sub>2</sub>",
+       "U<sub>2</sub> > U<sub>1</sub>"
+      ],
+      "sol": "<p>वीन का विस्थापन नियम : λ<sub>m</sub> = b/T = 2.88 × 10<sup>6</sup>/5760 = 500 nm। कृष्णिका स्पेक्ट्रम का शिखर 500 nm पर है, अतः तीनों में U<sub>2</sub> सबसे अधिक है, और कोई भी शून्य नहीं है।</p><p>अतः <b>U<sub>2</sub> > U<sub>1</sub></b>।</p><p class='errata'>आधिकारिक कुंजी (3), U<sub>1</sub> > U<sub>2</sub>, देती है, जो u ∝ 1/λ<sup>4</sup> के तर्क पर आधारित है; कृष्णिका स्पेक्ट्रम ऐसा व्यवहार नहीं करता (λ<sub>m</sub> के दोनों ओर ऊर्जा घटती है)।</p>",
+      "hint": "पहले λ<sub>m</sub> ज्ञात कीजिए; स्पेक्ट्रम का शिखर वहीं है।"
+     },
+     "hiStatus": "draft",
+     "dropped": true
+    },
+    {
+     "id": "phy11-10-neet-2016-phase-2-code-aa-q16",
+     "exam": "NEET",
+     "q": "A body cools from a temperature 3T to 2T in 10 minutes. The room temperature is T. Assume that Newton's law of cooling is applicable. The temperature of the body at the end of next 10 minutes will be :",
+     "sol": "<p>Newton's law of cooling: the excess temperature over the surroundings decays exponentially. In 10 min the excess falls from 2T to T (halves), so in the next 10 min it halves again to T/2.</p><p>Temperature = T + T/2 = <b>(3/2)T</b>. (The average-temperature form gives the same answer.)</p>",
+     "hint": "Equal times ⇒ equal ratios of excess temperature.",
+     "paras": [
+      "10.10"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q16",
+     "o": [
+      "(7/4)T",
+      "(3/2)T",
+      "(4/3)T",
+      "T"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक पिंड 10 मिनट में ताप 3T से 2T तक ठंडा होता है। कमरे का ताप T है। मान लीजिए न्यूटन का शीतलन नियम लागू होता है। अगले 10 मिनट के अंत में पिंड का ताप होगा :",
+      "o": [
+       "(7/4)T",
+       "(3/2)T",
+       "(4/3)T",
+       "T"
+      ],
+      "sol": "<p>न्यूटन का शीतलन नियम : परिवेश से ताप-आधिक्य चरघातांकी रूप से घटता है। 10 min में आधिक्य 2T से T होता है (आधा), अतः अगले 10 min में यह पुनः आधा होकर T/2 हो जाता है।</p><p>ताप = T + T/2 = <b>(3/2)T</b>। (औसत ताप वाला रूप भी यही उत्तर देता है।)</p>",
+      "hint": "समान समय ⇒ ताप-आधिक्य के समान अनुपात।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 11 Ch 11 · Newton's law of cooling (average-temperature form)",
+     "dropped": true
+    },
+    {
+     "id": "phy11-10-neet-2017-code-a-q35",
+     "exam": "NEET",
+     "q": "A spherical black body with a radius of 12 cm radiates 450 watt power at 500 K. If the radius were halved and the temperature doubled, the power radiated in watt would be",
+     "sol": "<p>Stefan's law: P = σ(4πR<sup>2</sup>)T<sup>4</sup> ∝ R<sup>2</sup>T<sup>4</sup>. Halving R and doubling T: factor (1/2)<sup>2</sup> × 2<sup>4</sup> = 4.</p><p>P′ = 4 × 450 = <b>1800</b> W.</p>",
+     "hint": "Power ∝ surface area × T<sup>4</sup>.",
+     "paras": [
+      "10.9.4"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q35",
+     "o": [
+      "225",
+      "450",
+      "1000",
+      "1800"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "12 cm त्रिज्या की एक गोलीय कृष्णिका 500 K पर 450 वाट शक्ति विकिरित करती है। यदि त्रिज्या आधी और ताप दोगुना कर दिया जाए, तो विकिरित शक्ति वाट में होगी",
+      "o": [
+       "225",
+       "450",
+       "1000",
+       "1800"
+      ],
+      "sol": "<p>स्टेफॉन का नियम : P = σ(4πR<sup>2</sup>)T<sup>4</sup> ∝ R<sup>2</sup>T<sup>4</sup>। R आधी और T दोगुना करने पर गुणक (1/2)<sup>2</sup> × 2<sup>4</sup> = 4।</p><p>P′ = 4 × 450 = <b>1800</b> W।</p>",
+      "hint": "शक्ति ∝ पृष्ठ क्षेत्रफल × T<sup>4</sup>।"
+     },
+     "hiStatus": "draft",
+     "dropped": true
+    },
+    {
+     "id": "phy11-10-neet-2018-code-aa-q43",
+     "exam": "NEET",
+     "q": "The power radiated by a black body is P and it radiates maximum energy at wavelength, λ<sub>0</sub>. If the temperature of the black body is now changed so that it radiates maximum energy at wavelength (3/4)λ<sub>0</sub>, the power radiated by it becomes nP. The value of n is :",
+     "sol": "<p>Wien: λ<sub>m</sub>T = constant. λ<sub>m</sub> becomes (3/4)λ<sub>0</sub> ⇒ T becomes (4/3)T.</p><p>Stefan: P ∝ T<sup>4</sup> ⇒ n = (4/3)<sup>4</sup> = <b>256/81</b>.</p>",
+     "hint": "Combine Wien's law with Stefan's law.",
+     "paras": [
+      "10.9.4"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q43",
+     "o": [
+      "256/81",
+      "4/3",
+      "3/4",
+      "81/256"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "एक कृष्णिका द्वारा विकिरित शक्ति P है और यह तरंगदैर्घ्य λ<sub>0</sub> पर अधिकतम ऊर्जा विकिरित करती है। यदि अब कृष्णिका का ताप इस प्रकार बदला जाए कि यह तरंगदैर्घ्य (3/4)λ<sub>0</sub> पर अधिकतम ऊर्जा विकिरित करे, तो इसके द्वारा विकिरित शक्ति nP हो जाती है। n का मान है :",
+      "o": [
+       "256/81",
+       "4/3",
+       "3/4",
+       "81/256"
+      ],
+      "sol": "<p>वीन : λ<sub>m</sub>T = नियतांक। λ<sub>m</sub> का (3/4)λ<sub>0</sub> होना ⇒ T का (4/3)T होना।</p><p>स्टेफॉन : P ∝ T<sup>4</sup> ⇒ n = (4/3)<sup>4</sup> = <b>256/81</b>।</p>",
+      "hint": "वीन के नियम को स्टेफॉन के नियम के साथ जोड़िए।"
+     },
+     "hiStatus": "draft",
+     "dropped": true
+    },
+    {
+     "id": "phy11-10-neet-2021-code-p3-q33",
+     "exam": "NEET",
+     "q": "A cup of coffee cools from 90 °C to 80 °C in t minutes, when the room temperature is 20 °C. The time taken by a similar cup of coffee to cool from 80 °C to 60 °C at a room temperature same at 20 °C is :",
+     "sol": "<p>Newton's law of cooling (average form): rate = k(T<sub>avg</sub> − T<sub>0</sub>).</p><p>First: 10/t = k(85 − 20) = 65k. Second: 20/t′ = k(70 − 20) = 50k.</p><p>t′/t = (20/50k)/(10/65k) = (20 × 65)/(50 × 10) = 2.6 ⇒ t′ = <b>(13/5)t</b>.</p>",
+     "hint": "Use the average temperature of each interval.",
+     "paras": [
+      "10.10"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q33",
+     "o": [
+      "(5/13)t",
+      "(13/10)t",
+      "(13/5)t",
+      "(10/13)t"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "कमरे का ताप 20 °C होने पर एक कप कॉफ़ी t मिनट में 90 °C से 80 °C तक ठंडी होती है। उसी 20 °C कमरे के ताप पर एक समान कप कॉफ़ी को 80 °C से 60 °C तक ठंडा होने में लगने वाला समय है :",
+      "o": [
+       "(5/13)t",
+       "(13/10)t",
+       "(13/5)t",
+       "(10/13)t"
+      ],
+      "sol": "<p>न्यूटन का शीतलन नियम (औसत ताप वाला रूप) : दर = k(T<sub>avg</sub> − T<sub>0</sub>)।</p><p>पहला : 10/t = k(85 − 20) = 65k। दूसरा : 20/t′ = k(70 − 20) = 50k।</p><p>t′/t = (20/50k)/(10/65k) = (20 × 65)/(50 × 10) = 2.6 ⇒ t′ = <b>(13/5)t</b>।</p>",
+      "hint": "प्रत्येक अंतराल का औसत ताप लीजिए।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 11 Ch 11 · Newton's law of cooling (average-temperature form)",
+     "dropped": true
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 15
+ },
+ "empty": [
+  {
+   "id": "10.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "10.2",
+   "title": "Temperature and Heat",
+   "hi": "ताप तथा ऊष्मा",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "10.3",
+   "title": "Measurement of Temperature",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "10.4",
+   "title": "Ideal-Gas Equation and Absolute Temperature",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "10.8",
+   "title": "Change of State",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 9
+  },
+  {
+   "id": "10.9",
+   "title": "Heat Transfer",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 13
+  },
+  {
+   "id": "10.9.2",
+   "title": "Convection",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 16
+  },
+  {
+   "id": "10.9.3",
+   "title": "Radiation",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 17
+  },
+  {
+   "id": "10.9.4",
+   "title": "Blackbody Radiation",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 17
+  },
+  {
+   "id": "10.10",
+   "title": "Newton's Law of Cooling",
+   "hi": "न्यूटन का शीतलन नियम",
+   "pages": [],
+   "pdfPage": 18
+  }
+ ],
+ "trends": {
+  "10.5": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2024,
+    2019,
+    2016,
+    2015
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "10.8.1": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2016
+   ],
+   "last": 2016,
+   "recent": false
+  },
+  "10.6": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2020,
+    2016
+   ],
+   "last": 2020,
+   "recent": false
+  },
+  "10.7": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2016
+   ],
+   "last": 2016,
+   "recent": false
+  },
+  "10.9.1": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2025,
+    2019,
+    2017
+   ],
+   "last": 2025,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}

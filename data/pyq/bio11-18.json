@@ -1,0 +1,1009 @@
+{
+ "chapter": "bio11-18",
+ "source": "bank",
+ "subject": "biology",
+ "class": 11,
+ "unit": 18,
+ "title": "Neural Control and Coordination",
+ "titleHi": "तंत्रिकीय नियंत्रण एवं समन्वय",
+ "ref": "NCERT Biology Class 11 · Unit 18",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo118.pdf",
+ "pdfPageOffset": 229,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "18.1",
+   "title": "Neural System",
+   "hi": "तंत्रिकीय तंत्र",
+   "pages": [
+    231
+   ],
+   "pdfPage": 2
+  },
+  {
+   "id": "18.2",
+   "title": "Human Neural System",
+   "hi": "मानव का तंत्रिकीय तंत्र",
+   "pages": [
+    231
+   ],
+   "pdfPage": 2
+  },
+  {
+   "id": "18.3",
+   "title": "Neuron as Structural and Functional Unit of Neural System",
+   "hi": "तंत्रिकोशिका (न्यूरॉन) तंत्रिका तंत्र की संरचनात्मक एवं",
+   "pages": [
+    231,
+    232
+   ],
+   "pdfPage": 2
+  },
+  {
+   "id": "18.3.1",
+   "title": "Generation and Conduction of Nerve Impulse",
+   "hi": "तंत्रिका आवेगों की उत्पत्ति व संचरण",
+   "pages": [
+    232,
+    233,
+    234
+   ],
+   "pdfPage": 3
+  },
+  {
+   "id": "18.3.2",
+   "title": "Transmission of Impulses",
+   "hi": "आवेगों का संचरण",
+   "pages": [
+    234,
+    235
+   ],
+   "pdfPage": 5
+  },
+  {
+   "id": "18.4",
+   "title": "Central Neural System",
+   "hi": "केंद्रीय तंत्रिका तंत्र - मानव मस्तिष्क",
+   "pages": [
+    235,
+    236
+   ],
+   "pdfPage": 6
+  },
+  {
+   "id": "18.4.1",
+   "title": "Forebrain",
+   "hi": "अग्र मस्तिष्क",
+   "pages": [
+    236
+   ],
+   "pdfPage": 7
+  },
+  {
+   "id": "18.4.2",
+   "title": "Midbrain",
+   "hi": "मध्य मस्तिष्क",
+   "pages": [
+    236
+   ],
+   "pdfPage": 7
+  },
+  {
+   "id": "18.4.3",
+   "title": "Hindbrain",
+   "hi": "पश्च मस्तिष्क",
+   "pages": [
+    236
+   ],
+   "pdfPage": 7
+  }
+ ],
+ "sections": [
+  {
+   "sec": "18.1",
+   "title": "Neural System",
+   "hi": "तंत्रिकीय तंत्र",
+   "pages": [
+    231
+   ],
+   "pdfPage": 2,
+   "questions": [
+    {
+     "id": "bio11-18-ai-18-1-q1",
+     "exam": "Practice",
+     "q": "Which statement about the neural system in different animals is correct?",
+     "sol": "<p>NCERT 18.1: the neural system of all animals is made of neurons, which detect, receive and transmit stimuli. It is very simple in lower invertebrates — in <b><i>Hydra</i>, a network of neurons</b>. It is better organised in <b>insects, with a brain and a number of ganglia</b> and neural tissues. Vertebrates have a more developed neural system.</p>",
+     "hint": "Simple net → brain + ganglia → vertebrate system.",
+     "paras": [
+      "18.1"
+     ],
+     "status": "draft",
+     "srcRef": "Own question (AI) on NCERT 18.1",
+     "o": [
+      "<i>Hydra</i> has a brain with several ganglia",
+      "In <i>Hydra</i> the neural system is a network of neurons, while insects have a brain along with a number of ganglia and neural tissues",
+      "Insects have only a simple network of neurons with no brain",
+      "The neural system is equally developed in all animals"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "विभिन्न प्राणियों के तंत्रिका तंत्र के बारे में कौन-सा कथन सही है?",
+      "o": [
+       "<i>Hydra</i> में अनेक गुच्छिकाओं सहित मस्तिष्क होता है",
+       "<i>Hydra</i> में तंत्रिका तंत्र तंत्रिकोशिकाओं का एक जाल है, जबकि कीटों में मस्तिष्क के साथ अनेक गुच्छिकाएं तथा तंत्रिका ऊतक होते हैं",
+       "कीटों में मस्तिष्क नहीं होता, केवल तंत्रिकोशिकाओं का सरल जाल होता है",
+       "सभी प्राणियों में तंत्रिका तंत्र समान रूप से विकसित होता है"
+      ],
+      "sol": "<p>NCERT 18.1: सभी प्राणियों का तंत्रिका तंत्र तंत्रिकोशिकाओं से बनता है, जो उद्दीपनों को पहचानती, ग्रहण करती तथा उनका संचरण करती हैं। निम्न अकशेरुकी प्राणियों में यह बहुत सरल होता है — <b><i>Hydra</i> में तंत्रिकोशिकाओं का जाल</b>। <b>कीटों में यह बेहतर संगठित है: मस्तिष्क तथा अनेक गुच्छिकाएं</b> और तंत्रिका ऊतक। कशेरुकियों में तंत्रिका तंत्र अधिक विकसित होता है।</p>",
+      "hint": "सरल जाल → मस्तिष्क + गुच्छिकाएं → कशेरुकी तंत्र।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "18.2",
+   "title": "Human Neural System",
+   "hi": "मानव का तंत्रिकीय तंत्र",
+   "pages": [
+    231
+   ],
+   "pdfPage": 2,
+   "questions": [
+    {
+     "id": "bio11-18-neet-2015-re-exam-code-d-q70",
+     "exam": "NEET",
+     "q": "Destruction of the anterior horn cells of the spinal cord would result in loss of :",
+     "sol": "<p>The anterior (ventral) horns of the spinal cord grey matter contain the cell bodies of motor neurons, whose axons leave by the ventral roots to skeletal muscles. Destroying them abolishes <b>voluntary motor impulses</b> (as in polio). Sensory impulses enter through the dorsal horns. (Spinal cord structure is not detailed in NCERT 18.2.)</p>",
+     "hint": "Ventral = motor.",
+     "paras": [
+      "18.2"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q70",
+     "o": [
+      "Voluntary motor impulses",
+      "Commissural impulses",
+      "Integrating impulses",
+      "Sensory impulses"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "मेरुरज्जु की अग्र श्रृंग कोशिकाओं के नष्ट होने से किसकी हानि होगी?",
+      "o": [
+       "ऐच्छिक प्रेरक आवेग",
+       "संयोजी (commissural) आवेग",
+       "समाकलन आवेग",
+       "संवेदी आवेग"
+      ],
+      "sol": "<p>मेरुरज्जु के धूसर द्रव्य के अग्र (अधर) श्रृंगों में प्रेरक न्यूरॉनों के कोशिका काय होते हैं, जिनके तंत्रिकाक्ष अधर मूलों से कंकाल पेशियों तक जाते हैं। इनके नष्ट होने से <b>ऐच्छिक प्रेरक आवेग</b> समाप्त हो जाते हैं (जैसे पोलियो में)। संवेदी आवेग पृष्ठ श्रृंगों से प्रवेश करते हैं। (मेरुरज्जु की संरचना NCERT 18.2 में विस्तार से नहीं है।)</p>",
+      "hint": "अधर = प्रेरक।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 1)"
+    }
+   ]
+  },
+  {
+   "sec": "18.3",
+   "title": "Neuron as Structural and Functional Unit of Neural System",
+   "hi": "तंत्रिकोशिका (न्यूरॉन) तंत्रिका तंत्र की संरचनात्मक एवं",
+   "pages": [
+    231,
+    232
+   ],
+   "pdfPage": 2,
+   "questions": [
+    {
+     "id": "bio11-18-neet-2017-code-a-q171",
+     "exam": "NEET",
+     "q": "Myelin sheath is produced by",
+     "sol": "<p>NCERT 18.3: myelinated fibres are enveloped by <b>Schwann cells</b>, which form the myelin sheath around the axon (in peripheral nerves). In the brain and spinal cord the myelin is formed by <b>oligodendrocytes</b>. Astrocytes do not form myelin; osteoclasts are bone cells.</p>",
+     "hint": "PNS: Schwann; CNS: oligodendrocytes.",
+     "paras": [
+      "18.3"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q171",
+     "o": [
+      "Schwann Cells and Oligodendrocytes",
+      "Astrocytes and Schwann Cells",
+      "Oligodendrocytes and Osteoclasts",
+      "Osteoclasts and Astrocytes"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "माइलिन आच्छद किसके द्वारा बनता है?",
+      "o": [
+       "श्वान कोशिकाएँ तथा ऑलिगोडेंड्रोसाइट",
+       "एस्ट्रोसाइट तथा श्वान कोशिकाएँ",
+       "ऑलिगोडेंड्रोसाइट तथा ऑस्टियोक्लास्ट",
+       "ऑस्टियोक्लास्ट तथा एस्ट्रोसाइट"
+      ],
+      "sol": "<p>NCERT 18.3: आच्छदी तंत्रिका तंतु <b>श्वान कोशिकाओं</b> से ढके रहते हैं, जो तंत्रिकाक्ष के चारों ओर माइलिन आवरण बनाती हैं (परिधीय तंत्रिकाओं में)। मस्तिष्क तथा मेरुरज्जु में माइलिन <b>ऑलिगोडेंड्रोसाइट</b> बनाते हैं। एस्ट्रोसाइट माइलिन नहीं बनाते; ऑस्टियोक्लास्ट अस्थि कोशिकाएँ हैं।</p>",
+      "hint": "परिधीय (PNS): श्वान; केंद्रीय (CNS): ऑलिगोडेंड्रोसाइट।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2017 key, Code A: 1)"
+    },
+    {
+     "id": "bio11-18-neet-2018-code-aa-q169",
+     "exam": "NEET",
+     "q": "Nissl bodies are mainly composed of :",
+     "sol": "<p>NCERT 18.3: the cell body of a neuron contains granular bodies called Nissl's granules. These are clusters of <b>rough endoplasmic reticulum (RER) and free ribosomes</b> — sites of protein synthesis (composition beyond NCERT).</p>",
+     "hint": "Protein factories of the neuron.",
+     "paras": [
+      "18.3"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q169",
+     "o": [
+      "Nucleic acids and SER",
+      "DNA and RNA",
+      "Proteins and lipids",
+      "Free ribosomes and RER"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "निसल कण मुख्यतः किससे बने होते हैं?",
+      "o": [
+       "न्यूक्लिक अम्ल तथा SER",
+       "DNA तथा RNA",
+       "प्रोटीन तथा लिपिड",
+       "मुक्त राइबोसोम तथा RER"
+      ],
+      "sol": "<p>NCERT 18.3: न्यूरॉन के कोशिका काय में निसल कण नामक कणिकामय संरचनाएँ होती हैं। ये <b>खुरदरी अंतर्द्रव्यी जालिका (RER) तथा मुक्त राइबोसोम</b> के समूह हैं — प्रोटीन संश्लेषण के स्थल (संघटन NCERT से आगे)।</p>",
+      "hint": "न्यूरॉन के प्रोटीन कारखाने।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)"
+    }
+   ]
+  },
+  {
+   "sec": "18.3.1",
+   "title": "Generation and Conduction of Nerve Impulse",
+   "hi": "तंत्रिका आवेगों की उत्पत्ति व संचरण",
+   "pages": [
+    232,
+    233,
+    234
+   ],
+   "pdfPage": 3,
+   "questions": [
+    {
+     "id": "bio11-18-ai-18-3-1-q1",
+     "exam": "Practice",
+     "q": "Which sequence correctly describes events at one point of an axon when a nerve impulse is generated and the resting state is restored?",
+     "sol": "<p>NCERT 18.3.1: at rest the axonal membrane is more permeable to K<sup>+</sup> and nearly impermeable to Na<sup>+</sup>; the sodium-potassium pump moves <b>3 Na<sup>+</sup> out for 2 K<sup>+</sup> in</b>, so the outside is positive and the inside negative (resting potential). A stimulus makes the membrane at that site <b>freely permeable to Na<sup>+</sup></b>; rapid Na<sup>+</sup> influx reverses the polarity (outside negative, inside positive) — depolarisation; this potential difference is the <b>action potential</b> (nerve impulse). The rise in Na<sup>+</sup> permeability is very short-lived; it is followed by a rise in <b>K<sup>+</sup> permeability</b>, and K<sup>+</sup> diffuses out, restoring the resting potential.</p>",
+     "hint": "Na<sup>+</sup> in first, then K<sup>+</sup> out.",
+     "paras": [
+      "18.3.1"
+     ],
+     "status": "draft",
+     "srcRef": "Own question (AI) on NCERT 18.3.1",
+     "trap": "The pump ratio is 3 Na<sup>+</sup> out : 2 K<sup>+</sup> in, not the reverse.",
+     "o": [
+      "K<sup>+</sup> rushes in → inner surface becomes negative → Na<sup>+</sup> diffuses out",
+      "Membrane becomes freely permeable to Na<sup>+</sup> → rapid Na<sup>+</sup> influx → polarity reverses (depolarisation, action potential) → permeability to K<sup>+</sup> rises and K<sup>+</sup> diffuses out, restoring the resting potential",
+      "Sodium-potassium pump moves 2 Na<sup>+</sup> out and 3 K<sup>+</sup> in → action potential",
+      "Cl<sup>−</sup> rushes in → outer surface becomes positive → impulse"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "जब तंत्रिका आवेग उत्पन्न होता है और विराम अवस्था पुनः स्थापित होती है, तब तंत्रिकाक्ष के एक स्थल पर घटनाओं का सही अनुक्रम कौन-सा है?",
+      "o": [
+       "K<sup>+</sup> तेज़ी से अंदर जाते हैं → आंतरिक सतह ऋणात्मक होती है → Na<sup>+</sup> बाहर विसरित होते हैं",
+       "झिल्ली Na<sup>+</sup> के लिए मुक्त पारगमी होती है → Na<sup>+</sup> तीव्र गति से अंदर जाते हैं → ध्रुवता उलट जाती है (विध्रुवण, क्रियात्मक विभव) → K<sup>+</sup> की पारगम्यता बढ़ती है और K<sup>+</sup> बाहर विसरित होकर विराम विभव पुनः स्थापित करते हैं",
+       "सोडियम पोटैसियम पंप 2 Na<sup>+</sup> बाहर तथा 3 K<sup>+</sup> अंदर भेजता है → क्रियात्मक विभव",
+       "Cl<sup>−</sup> तेज़ी से अंदर जाते हैं → बाहरी सतह धनात्मक होती है → आवेग"
+      ],
+      "sol": "<p>NCERT 18.3.1: विराम अवस्था में तंत्रिकाक्ष झिल्ली K<sup>+</sup> के लिए अधिक पारगम्य तथा Na<sup>+</sup> के लिए लगभग अपारगम्य होती है; सोडियम पोटैसियम पंप (सोडियम-पोटैशियम पंप) प्रतिचक्र <b>3 Na<sup>+</sup> बाहर तथा 2 K<sup>+</sup> अंदर</b> भेजता है, जिससे बाहरी सतह धन तथा आंतरिक सतह ऋण आवेशित रहती है (विरामकला विभव)। उद्दीपन से उस स्थल की झिल्ली <b>Na<sup>+</sup> के लिए मुक्त पारगमी</b> हो जाती है; Na<sup>+</sup> के तीव्र प्रवेश से ध्रुवता उलट जाती है (बाहर ऋणात्मक, अंदर धनात्मक) — विध्रुवण; यह विभवांतर <b>क्रियात्मक विभव (क्रियाविभव)</b> अर्थात तंत्रिका आवेग है। Na<sup>+</sup> की बढ़ी पारगम्यता क्षणिक होती है; इसके तुरंत बाद <b>K<sup>+</sup> की पारगम्यता</b> बढ़ती है और K<sup>+</sup> बाहर विसरित होकर विराम विभव पुनः स्थापित करते हैं।</p>",
+      "hint": "पहले Na<sup>+</sup> अंदर, फिर K<sup>+</sup> बाहर।",
+      "trap": "पंप का अनुपात 3 Na<sup>+</sup> बाहर : 2 K<sup>+</sup> अंदर है, उलटा नहीं।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "18.3.2",
+   "title": "Transmission of Impulses",
+   "hi": "आवेगों का संचरण",
+   "pages": [
+    234,
+    235
+   ],
+   "pdfPage": 5,
+   "questions": [
+    {
+     "id": "bio11-18-neet-2017-code-a-q168",
+     "exam": "NEET",
+     "q": "Receptor sites for neurotransmitters are present on",
+     "sol": "<p>NCERT 18.3.2: neurotransmitters released into the synaptic cleft bind to specific receptors present on the <b>post-synaptic membrane</b>, opening ion channels and generating a new potential.</p>",
+     "hint": "Receiving side.",
+     "paras": [
+      "18.3.2"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q168",
+     "o": [
+      "Membranes of synaptic vesicles",
+      "Pre-synaptic membrane",
+      "Tips of axons",
+      "Post-synaptic membrane"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "तंत्रिका संचारियों के ग्राही स्थल कहाँ उपस्थित होते हैं?",
+      "o": [
+       "सिनैप्टिक पुटिकाओं की झिल्लियों पर",
+       "पूर्व सिनेप्टिक झिल्ली पर",
+       "तंत्रिकाक्षों के सिरों पर",
+       "पश्च सिनेप्टिक झिल्ली पर"
+      ],
+      "sol": "<p>NCERT 18.3.2: सिनेप्टिक दरार में मुक्त तंत्रिका संचारी अणु <b>पश्च सिनेप्टिक झिल्ली</b> पर स्थित विशिष्ट ग्राहियों से जुड़ जाते हैं, जिससे आयन चैनल खुलते हैं और नया विभव उत्पन्न होता है।</p>",
+      "hint": "ग्रहण करने वाला पक्ष।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2017 key, Code A: 4)"
+    },
+    {
+     "id": "bio11-18-neet-2022-code-t2-q187",
+     "exam": "NEET",
+     "q": "Select the incorrect statement regarding synapses:",
+     "sol": "<p>NCERT 18.3.2: at an electrical synapse the pre- and post-synaptic membranes are very close and current flows directly across; impulse transmission across an <b>electrical synapse is faster</b> than across a chemical synapse. So option 3 (\"chemical is always faster\") is the incorrect statement.</p>",
+     "hint": "Electrical is faster.",
+     "paras": [
+      "18.3.2"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q187",
+     "o": [
+      "Electrical current can flow directly from one neuron into the other across the electrical synapse.",
+      "Chemical synapses use neurotransmitters",
+      "Impulse transmission across a chemical synapse is always faster than that across an electrical synapse.",
+      "The membranes of presynaptic and postsynaptic neurons are in close proximity in an electrical synapse."
+     ],
+     "a": 2,
+     "hi": {
+      "q": "सिनेप्सिस के संबंध में गलत कथन चुनिए :",
+      "o": [
+       "विद्युत सिनेप्स के पार एक न्यूरॉन से दूसरे न्यूरॉन में विद्युत धारा सीधे प्रवाहित हो सकती है।",
+       "रासायनिक सिनेप्स तंत्रिका संचारियों का उपयोग करते हैं।",
+       "रासायनिक सिनेप्स के पार आवेग का संचरण विद्युत सिनेप्स की अपेक्षा सदा अधिक तीव्र होता है।",
+       "विद्युत सिनेप्स में पूर्व तथा पश्च सिनेप्टिक न्यूरॉनों की झिल्लियाँ एक-दूसरे के बहुत समीप होती हैं।"
+      ],
+      "sol": "<p>NCERT 18.3.2: विद्युत सिनेप्स पर पूर्व तथा पश्च सिनेप्टिक झिल्लियाँ बहुत समीप होती हैं और धारा सीधे प्रवाहित होती है; <b>विद्युतीय सिनेप्सिस से आवेग का संचरण</b> रासायनिक सिनेप्सिस की तुलना में <b>अधिक तीव्र</b> होता है। अतः विकल्प 3 (\"रासायनिक सदा अधिक तीव्र\") गलत कथन है।</p>",
+      "hint": "विद्युत अधिक तीव्र।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "bio11-18-neet-2026-q142-esaral-copy",
+     "exam": "NEET",
+     "q": "The specific receptors for neurotransmitters in a synapse are present on ___.",
+     "sol": "<p>NCERT 18.3.2: neurotransmitters bind to specific receptors present on the <b>post-synaptic membrane</b>.</p>",
+     "hint": "Same as NEET 2017 Q168.",
+     "paras": [
+      "18.3.2"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Q142 (eSaral copy)",
+     "o": [
+      "Pre-synaptic membrane",
+      "Post-synaptic membrane",
+      "Myelin sheath",
+      "Schwann cell"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "सिनेप्स में तंत्रिका संचारियों के विशिष्ट ग्राही ___ पर उपस्थित होते हैं।",
+      "o": [
+       "पूर्व सिनेप्टिक झिल्ली",
+       "पश्च सिनेप्टिक झिल्ली",
+       "माइलिन आच्छद",
+       "श्वान कोशिका"
+      ],
+      "sol": "<p>NCERT 18.3.2: तंत्रिका संचारी <b>पश्च सिनेप्टिक झिल्ली</b> पर स्थित विशिष्ट ग्राहियों से जुड़ते हैं।</p>",
+      "hint": "NEET 2017 Q168 जैसा ही।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 2)"
+    }
+   ]
+  },
+  {
+   "sec": "18.4",
+   "title": "Central Neural System",
+   "hi": "केंद्रीय तंत्रिका तंत्र - मानव मस्तिष्क",
+   "pages": [
+    235,
+    236
+   ],
+   "pdfPage": 6,
+   "questions": [
+    {
+     "id": "bio11-18-neet-2024-q125-esaral-copy",
+     "exam": "NEET",
+     "q": "Given below are two statements :<br>Statement I: The cerebral hemispheres are connected by nerve tract known as corpus callosum.<br>Statement II: The brain stem consists of the medulla oblongata, pons and cerebrum.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "sol": "<p>Statement I is correct: NCERT 18.4.1 — the cerebral hemispheres are connected by a tract of nerve fibres, the corpus callosum. Statement II is incorrect: NCERT 18.4.3 — the brain stem consists of the <b>mid-brain</b>, pons and medulla oblongata, not the cerebrum.</p>",
+     "hint": "Cerebrum is forebrain.",
+     "paras": [
+      "18.4"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q125 (eSaral copy)",
+     "o": [
+      "Both Statement I and Statement II are correct.",
+      "Both Statement I and Statement II are incorrect.",
+      "Statement I is correct but Statement II is incorrect.",
+      "Statement I is incorrect but Statement II is correct."
+     ],
+     "a": 2,
+     "hi": {
+      "q": "नीचे दो कथन दिए गए हैं :<br>कथन I: प्रमस्तिष्क गोलार्द्ध कार्पस कैलोसम नामक तंत्रिका पथ द्वारा जुड़े होते हैं।<br>कथन II: मस्तिष्क स्तंभ मेड्यूला ओबलांगाटा, पोंस तथा प्रमस्तिष्क से बना होता है।<br>उपरोक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+      "o": [
+       "कथन I तथा कथन II दोनों सही हैं।",
+       "कथन I तथा कथन II दोनों गलत हैं।",
+       "कथन I सही है परंतु कथन II गलत है।",
+       "कथन I गलत है परंतु कथन II सही है।"
+      ],
+      "sol": "<p>कथन I सही है: NCERT 18.4.1 — प्रमस्तिष्क गोलार्द्ध तंत्रिका तंतुओं की पट्टी कार्पस कैलोसम द्वारा जुड़े होते हैं। कथन II गलत है: NCERT 18.4.3 — मस्तिष्क स्तंभ <b>मध्य मस्तिष्क</b>, पोंस तथा मेड्यूला ओबलांगाटा से बना होता है, प्रमस्तिष्क से नहीं।</p>",
+      "hint": "प्रमस्तिष्क अग्र मस्तिष्क है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "18.4.1",
+   "title": "Forebrain",
+   "hi": "अग्र मस्तिष्क",
+   "pages": [
+    236
+   ],
+   "pdfPage": 7,
+   "questions": [
+    {
+     "id": "bio11-18-neet-2019-code-s2-q57",
+     "exam": "NEET",
+     "q": "Which part of the brain is responsible for thermoregulation?",
+     "sol": "<p>NCERT 18.4.1: the <b>hypothalamus</b> contains centres that control body temperature, eating and drinking.</p>",
+     "hint": "Body thermostat.",
+     "paras": [
+      "18.4.1"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q57",
+     "o": [
+      "Corpus callosum",
+      "Medulla oblongata",
+      "Cerebrum",
+      "Hypothalamus"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "मस्तिष्क का कौन-सा भाग ताप नियमन के लिए उत्तरदायी है?",
+      "o": [
+       "कार्पस कैलोसम",
+       "मेड्यूला ओबलांगाटा",
+       "प्रमस्तिष्क",
+       "हाइपोथेलेमस"
+      ],
+      "sol": "<p>NCERT 18.4.1: <b>हाइपोथेलेमस</b> में कई केंद्र होते हैं जो शरीर के तापमान, खाने और पीने का नियंत्रण करते हैं।</p>",
+      "hint": "शरीर का तापस्थापी।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2019 final key, Code S2: 4)"
+    },
+    {
+     "id": "bio11-18-neet-2023-topic-wise-copy-q96",
+     "exam": "NEET",
+     "q": "The parts of human brain that help in regulation of sexual behaviour, expression of excitement, pleasure, rage, fear etc. are :",
+     "sol": "<p>NCERT 18.4.1: the <b>limbic system</b>, along with the <b>hypothalamus</b>, is involved in regulating sexual behaviour and the expression of emotional reactions (excitement, pleasure, rage, fear).</p>",
+     "hint": "Emotional brain.",
+     "paras": [
+      "18.4.1"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q96",
+     "o": [
+      "Corpus callosum and thalamus",
+      "Limbic system & hypothalamus",
+      "Corpora quadrigemina & hippocampus",
+      "Brain stem & epithalamus"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "मानव मस्तिष्क के वे भाग जो लैंगिक व्यवहार, उत्तेजना, खुशी, गुस्सा, भय आदि की अभिव्यक्ति के नियमन में सहायता करते हैं :",
+      "o": [
+       "कार्पस कैलोसम तथा थेलेमस",
+       "लिंबिक तंत्र तथा हाइपोथेलेमस",
+       "कॉर्पोरा क्वाड्रीजेमीन तथा हिप्पोकैंपस",
+       "मस्तिष्क स्तंभ तथा अधिचेतक (epithalamus)"
+      ],
+      "sol": "<p>NCERT 18.4.1: <b>लिंबिक तंत्र</b>, <b>हाइपोथेलेमस</b> के साथ मिलकर लैंगिक व्यवहार तथा मनोभावनाओं की अभिव्यक्ति (उत्तेजना, खुशी, गुस्सा और भय) का नियंत्रण करता है।</p>",
+      "hint": "भावनात्मक मस्तिष्क।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "18.4.2",
+   "title": "Midbrain",
+   "hi": "मध्य मस्तिष्क",
+   "pages": [
+    236
+   ],
+   "pdfPage": 7,
+   "questions": [
+    {
+     "id": "bio11-18-ai-18-4-2-q1",
+     "exam": "Practice",
+     "q": "Which statement about the human midbrain is correct?",
+     "sol": "<p>NCERT 18.4.2: the <b>midbrain</b> lies between the <b>thalamus/hypothalamus</b> of the forebrain and the <b>pons</b> of the hindbrain. A canal, the <b>cerebral aqueduct</b>, passes through it. Its dorsal portion consists mainly of four round swellings (lobes), the <b>corpora quadrigemina</b>. Pons, cerebellum and medulla make up the hindbrain (18.4.3).</p>",
+     "hint": "Four lobes on the dorsal side.",
+     "paras": [
+      "18.4.2"
+     ],
+     "status": "draft",
+     "srcRef": "Own question (AI) on NCERT 18.4.2",
+     "o": [
+      "It lies between the cerebrum and the thalamus, and the fourth ventricle passes through it",
+      "It lies between the thalamus/hypothalamus of the forebrain and the pons of the hindbrain; the cerebral aqueduct passes through it, and its dorsal part bears the corpora quadrigemina",
+      "It consists of the pons, cerebellum and medulla",
+      "Its dorsal part has two lobes called the corpora callosa"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "मानव मध्य मस्तिष्क के बारे में कौन-सा कथन सही है?",
+      "o": [
+       "यह प्रमस्तिष्क तथा थेलेमस के बीच स्थित है, और चौथा निलय इससे गुजरता है",
+       "यह अग्र मस्तिष्क के थेलेमस/हाइपोथेलेमस तथा पश्च मस्तिष्क के पोंस के बीच स्थित है; प्रमस्तिष्क तरल नलिका इससे गुजरती है, और इसके ऊपरी भाग में कॉर्पोरा क्वाड्रीजेमीन होते हैं",
+       "यह पोंस, अनुमस्तिष्क तथा मेड्यूला से बना है",
+       "इसके ऊपरी भाग में दो लोब होते हैं जिन्हें कॉर्पोरा कैलोसा कहते हैं"
+      ],
+      "sol": "<p>NCERT 18.4.2: <b>मध्य मस्तिष्क</b> अग्र मस्तिष्क के <b>थेलेमस/हाइपोथेलेमस</b> तथा पश्च मस्तिष्क के <b>पोंस</b> के बीच स्थित होता है। एक नाल, <b>प्रमस्तिष्क तरल नलिका</b> (सेरेब्रल एक्वाडक्ट), इससे गुजरती है। इसका ऊपरी भाग मुख्यतः चार लोबनुमा उभारों का बना होता है, जिन्हें <b>कॉर्पोरा क्वाड्रीजेमीन</b> कहते हैं। पोंस, अनुमस्तिष्क तथा मेड्यूला पश्च मस्तिष्क बनाते हैं (18.4.3)।</p>",
+      "hint": "ऊपरी भाग पर चार लोब।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "bio11-18-neet-2018-code-aa-q142",
+     "exam": "NEET",
+     "q": "Which of the following structures or regions is incorrectly paired with its function?",
+     "sol": "<p>NCERT 18.4.1, 18.4.3: hypothalamus — temperature, eating and drinking centres, neurosecretory cells (releasing hormones) — correct. Medulla — respiration and cardiovascular reflexes — correct. Corpus callosum — band of fibres joining the two cerebral hemispheres — correct. The <b>limbic system</b> with the hypothalamus regulates sexual behaviour and emotions; it is the <i>pons</i> that consists of fibre tracts interconnecting regions of the brain, and the cerebellum that coordinates movement. Option 2 is incorrectly paired.</p>",
+     "hint": "Limbic = emotions.",
+     "paras": [
+      "18.4.1",
+      "18.4.3"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q142",
+     "o": [
+      "Hypothalamus : production of releasing hormones and regulation of temperature, hunger and thirst.",
+      "Limbic system : consists of fibre tracts that interconnect different regions of brain; controls movement.",
+      "Medulla oblongata : controls respiration and cardiovascular reflexes.",
+      "Corpus callosum : band of fibers connecting left and right cerebral hemispheres."
+     ],
+     "a": 1,
+     "hi": {
+      "q": "निम्नलिखित में से कौन-सी संरचना या क्षेत्र अपने कार्य के साथ गलत युग्मित है?",
+      "o": [
+       "हाइपोथेलेमस : मोचक हार्मोनों का उत्पादन तथा ताप, भूख और प्यास का नियमन।",
+       "लिंबिक तंत्र : मस्तिष्क के विभिन्न क्षेत्रों को जोड़ने वाले रेशेनुमा पथों से बना; गति का नियंत्रण।",
+       "मेड्यूला ओबलांगाटा : श्वसन तथा हृदय परिसंचारी प्रतिवर्तनों का नियंत्रण।",
+       "कार्पस कैलोसम : बाएँ तथा दाएँ प्रमस्तिष्क गोलार्द्धों को जोड़ने वाली तंतुओं की पट्टी।"
+      ],
+      "sol": "<p>NCERT 18.4.1, 18.4.3: हाइपोथेलेमस — ताप, खाने और पीने के केंद्र, तंत्रिका स्रावी कोशिकाएँ (मोचक हार्मोन) — सही। मध्यांश (मेड्यूला ओबलांगाटा) — श्वसन तथा हृदय परिसंचारी प्रतिवर्तन — सही। कार्पस कैलोसम — दोनों प्रमस्तिष्क गोलार्द्धों को जोड़ने वाली तंतुओं की पट्टी — सही। <b>लिंबिक तंत्र</b> हाइपोथेलेमस के साथ लैंगिक व्यवहार तथा मनोभावनाओं का नियंत्रण करता है; मस्तिष्क के विभिन्न भागों को जोड़ने वाले रेशेनुमा पथ <i>पोंस</i> के हैं, और गति का समन्वय अनुमस्तिष्क करता है। विकल्प 2 गलत युग्मित है।</p>",
+      "hint": "लिंबिक = मनोभाव।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 11 · Chemical Coordination and Integration"
+     ],
+     "check": "Matches the official key (CBSE NEET 2018 key, Code AA: 2)"
+    },
+    {
+     "id": "bio11-18-neet-2024-q126-esaral-copy",
+     "exam": "NEET",
+     "q": "Match List I with List II :<br>A. Pons — I. Provides additional space for neurons, regulates posture and balance<br>B. Hypothalamus — II. Controls respiration and gastric secretions<br>C. Medulla — III. Connects different regions of the brain<br>D. Cerebellum — IV. Neurosecretory cells",
+     "sol": "<ul><li>A. Pons — fibre tracts that connect different regions of the brain (III).</li><li>B. Hypothalamus — neurosecretory cells (IV).</li><li>C. Medulla — centres for respiration, cardiovascular reflexes and gastric secretions (II).</li><li>D. Cerebellum — convoluted surface gives additional space for neurons; posture and balance (I).</li></ul><p>A-III, B-IV, C-II, D-I (NCERT 18.4.1, 18.4.3).</p>",
+     "hint": "Pons = bridge.",
+     "paras": [
+      "18.4.1",
+      "18.4.3"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q126 (eSaral copy)",
+     "o": [
+      "A-III, B-IV, C-II, D-I",
+      "A-II, B-III, C-I, D-IV",
+      "A-I, B-III, C-II, D-IV",
+      "A-III, B-I, C-II, D-IV"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "सूची I का सूची II से मिलान कीजिए :<br>A. पोंस — I. न्यूरॉनों को अतिरिक्त स्थान प्रदान करता है, मुद्रा तथा संतुलन का नियमन करता है<br>B. हाइपोथेलेमस — II. श्वसन तथा जठर स्रावों का नियंत्रण करता है<br>C. मेड्यूला — III. मस्तिष्क के विभिन्न भागों को जोड़ता है<br>D. अनुमस्तिष्क — IV. तंत्रिका स्रावी कोशिकाएँ",
+      "o": [
+       "A-III, B-IV, C-II, D-I",
+       "A-II, B-III, C-I, D-IV",
+       "A-I, B-III, C-II, D-IV",
+       "A-III, B-I, C-II, D-IV"
+      ],
+      "sol": "<ul><li>A. पोंस — रेशेनुमा पथ जो मस्तिष्क के विभिन्न भागों को जोड़ते हैं (III)।</li><li>B. हाइपोथेलेमस — तंत्रिका स्रावी कोशिकाएँ (IV)।</li><li>C. मेड्यूला — श्वसन, हृदय परिसंचारी प्रतिवर्तन तथा पाचक रसों के स्राव के केंद्र (II)।</li><li>D. अनुमस्तिष्क — विलगित सतह न्यूरॉनों को अतिरिक्त स्थान देती है; मुद्रा तथा संतुलन (I)।</li></ul><p>A-III, B-IV, C-II, D-I (NCERT 18.4.1, 18.4.3)।</p>",
+      "hint": "पोंस = सेतु।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "dropped",
+   "title": "Topics removed from the NEET syllabus in 2024",
+   "hi": "NEET 2024 पाठ्यक्रम से हटाए गए विषय",
+   "pages": [],
+   "questions": [
+    {
+     "id": "bio11-18-neet-2015-re-exam-code-d-q9",
+     "exam": "NEET",
+     "q": "In mammalian eye, the ‘fovea’ is the center of the visual field, where :",
+     "sol": "<p>The fovea is a thinned-out region of the retina lateral to the blind spot where <b>only cones are densely packed and rods are absent</b>; it is the point of greatest visual acuity. The optic nerve leaves at the blind spot. (Eye: old NCERT 21.6.1; dropped from NEET 2024.)</p>",
+     "hint": "Sharpest vision = cones only.",
+     "paras": [],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q9",
+     "o": [
+      "The optic nerve leaves the eye",
+      "Only rods are present",
+      "More rods than cones are found",
+      "High density of cones occur, but has no rods"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "स्तनधारी नेत्र में 'फोविया' दृष्टि क्षेत्र का केंद्र है, जहाँ :",
+      "o": [
+       "दृष्टि तंत्रिका नेत्र से बाहर निकलती है",
+       "केवल शलाकाएँ (rods) उपस्थित होती हैं",
+       "शंकुओं की अपेक्षा शलाकाएँ अधिक पाई जाती हैं",
+       "शंकुओं का घनत्व अधिक होता है, परंतु शलाकाएँ नहीं होतीं"
+      ],
+      "sol": "<p>फोविया दृष्टि पटल (रेटिना) का पतला क्षेत्र है जो अंध बिंदु के पार्श्व में होता है, जहाँ <b>केवल शंकु सघन रूप से होते हैं और शलाकाएँ नहीं होतीं</b>; यह सर्वाधिक दृष्टि तीक्ष्णता का बिंदु है। दृष्टि तंत्रिका अंध बिंदु पर निकलती है। (नेत्र: पुरानी NCERT 21.6.1; NEET 2024 से हटाया गया।)</p>",
+      "hint": "सबसे तीक्ष्ण दृष्टि = केवल शंकु।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 11 Ch 21 · Sensory reception: the eye",
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+     "dropped": true
+    },
+    {
+     "id": "bio11-18-neet-2016-phase-1-code-a-q104",
+     "exam": "NEET",
+     "q": "Photosensitive compound in human eye is made up of:",
+     "sol": "<p>The photopigments of rods and cones (rhodopsin and the cone pigments) are made of a protein, <b>opsin</b>, and an aldehyde of vitamin A, <b>retinal</b>. Light changes retinal's shape and dissociates it from opsin. (Old NCERT 21.6.1; dropped from NEET 2024.)</p>",
+     "hint": "Retinal, not retinol.",
+     "paras": [],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q104",
+     "o": [
+      "Guanosine and Retinol",
+      "Opsin and Retinal",
+      "Opsin and Retinol",
+      "Transducin and Retinene"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "मानव नेत्र का प्रकाश-संवेदी यौगिक किससे बना होता है?",
+      "o": [
+       "ग्वानोसिन तथा रेटिनॉल",
+       "ऑप्सिन तथा रेटिनल",
+       "ऑप्सिन तथा रेटिनॉल",
+       "ट्रांसड्यूसिन तथा रेटिनीन"
+      ],
+      "sol": "<p>शलाकाओं तथा शंकुओं के प्रकाश वर्णक (रोडॉप्सिन तथा शंकु वर्णक) एक प्रोटीन, <b>ऑप्सिन</b>, तथा विटामिन A के ऐल्डिहाइड, <b>रेटिनल</b>, से बने होते हैं। प्रकाश रेटिनल की आकृति बदलकर उसे ऑप्सिन से अलग कर देता है। (पुरानी NCERT 21.6.1; NEET 2024 से हटाया गया।)</p>",
+      "hint": "रेटिनल, रेटिनॉल नहीं।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 11 Ch 21 · The eye: photopigment (rhodopsin)",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+     "dropped": true
+    },
+    {
+     "id": "bio11-18-neet-2016-phase-2-code-aa-q149",
+     "exam": "NEET",
+     "q": "Choose the correct statements.",
+     "sol": "<p>Vertebrate photoreceptors are unusual: in darkness they are <b>depolarised</b> (Na<sup>+</sup> channels open), and light <b>hyperpolarises</b> them — option 3 is correct. Nociceptors respond to painful stimuli, not pressure; Meissner's corpuscles are touch receptors; receptors do produce graded (receptor) potentials. (Old NCERT; dropped from NEET 2024.)</p>",
+     "hint": "Light hyperpolarises rods.",
+     "paras": [],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q149",
+     "o": [
+      "Nociceptors respond to changes in pressure",
+      "Meissner's corpuscles are thermoreceptors",
+      "Photoreceptors in the human eye are depolarised during darkness and become hyperpolarised in response to the light stimulus",
+      "Receptors do not produce graded potentials"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "सही कथन चुनिए।",
+      "o": [
+       "पीड़ाग्राही (nociceptors) दाब में परिवर्तन के प्रति अनुक्रिया करते हैं",
+       "माइस्नर कणिकाएँ तापग्राही हैं",
+       "मानव नेत्र के प्रकाशग्राही अंधकार में विध्रुवित रहते हैं तथा प्रकाश उद्दीपन के प्रति अतिध्रुवित हो जाते हैं",
+       "ग्राही क्रमिक विभव (graded potentials) उत्पन्न नहीं करते"
+      ],
+      "sol": "<p>कशेरुकी प्रकाशग्राही असामान्य हैं: अंधकार में ये <b>विध्रुवित</b> रहते हैं (Na<sup>+</sup> चैनल खुले), और प्रकाश इन्हें <b>अतिध्रुवित</b> करता है — विकल्प 3 सही है। पीड़ाग्राही पीड़ादायक उद्दीपनों पर अनुक्रिया करते हैं, दाब पर नहीं; माइस्नर कणिकाएँ स्पर्शग्राही हैं; ग्राही क्रमिक (ग्राही) विभव उत्पन्न करते हैं। (पुरानी NCERT; NEET 2024 से हटाया गया।)</p>",
+      "hint": "प्रकाश शलाकाओं को अतिध्रुवित करता है।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 11 Ch 21 · Sensory reception (receptors, the eye)",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 3)",
+     "dropped": true
+    },
+    {
+     "id": "bio11-18-neet-2017-code-a-q152",
+     "exam": "NEET",
+     "q": "Good vision depends on adequate intake of carotene rich food. Select the best option from the following statements :<br>(a) Vitamin A derivatives are formed from carotene<br>(b) The photopigments are embedded in the membrane discs of the inner segment<br>(c) Retinal is a derivative of vitamin A<br>(d) Retinal is a light absorbing part of all the visual photopigments",
+     "sol": "<p>(a) Correct — carotene is converted to vitamin A. (c) Correct — retinal is an aldehyde derivative of vitamin A. (d) Correct — retinal is the light-absorbing part of every visual photopigment. (b) Wrong — the photopigment discs are in the <i>outer</i> segment of rods and cones. Answer: (a), (c) & (d). (Old NCERT; dropped from NEET 2024.)</p>",
+     "hint": "Discs are in the outer segment.",
+     "paras": [],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q152",
+     "o": [
+      "(a) & (b)",
+      "(a), (c) & (d)",
+      "(a) & (c)",
+      "(b), (c) & (d)"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "अच्छी दृष्टि कैरोटीन-युक्त भोजन के पर्याप्त सेवन पर निर्भर करती है। निम्नलिखित कथनों में से सर्वोत्तम विकल्प चुनिए :<br>(a) विटामिन A के व्युत्पन्न कैरोटीन से बनते हैं<br>(b) प्रकाश वर्णक आंतरिक खंड की झिल्ली चक्रिकाओं में धँसे रहते हैं<br>(c) रेटिनल विटामिन A का व्युत्पन्न है<br>(d) रेटिनल सभी दृष्टि प्रकाश वर्णकों का प्रकाश-अवशोषी भाग है",
+      "o": [
+       "(a) तथा (b)",
+       "(a), (c) तथा (d)",
+       "(a) तथा (c)",
+       "(b), (c) तथा (d)"
+      ],
+      "sol": "<p>(a) सही — कैरोटीन विटामिन A में बदलता है। (c) सही — रेटिनल विटामिन A का ऐल्डिहाइड व्युत्पन्न है। (d) सही — रेटिनल प्रत्येक दृष्टि प्रकाश वर्णक का प्रकाश-अवशोषी भाग है। (b) गलत — प्रकाश वर्णक चक्रिकाएँ शलाकाओं तथा शंकुओं के <i>बाह्य</i> खंड में होती हैं। उत्तर: (a), (c) तथा (d)। (पुरानी NCERT; NEET 2024 से हटाया गया।)</p>",
+      "hint": "चक्रिकाएँ बाह्य खंड में।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 11 Ch 21 · The eye: photopigments",
+     "check": "Matches the official key (CBSE NEET 2017 key, Code A: 2)",
+     "dropped": true
+    },
+    {
+     "id": "bio11-18-neet-2018-code-aa-q139",
+     "exam": "NEET",
+     "q": "The transparent lens in the human eye is held in its place by :",
+     "sol": "<p>The lens is held in place by <b>ligaments (suspensory ligaments) attached to the ciliary body</b>. The ciliary muscles change lens curvature during accommodation. (Old NCERT 21.6.1; dropped from NEET 2024.)</p>",
+     "hint": "Suspensory ligaments.",
+     "paras": [],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q139",
+     "o": [
+      "smooth muscles attached to the iris",
+      "ligaments attached to the iris",
+      "ligaments attached to the ciliary body",
+      "smooth muscles attached to the ciliary body"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "मानव नेत्र में पारदर्शी लेंस अपने स्थान पर किसके द्वारा टिका रहता है?",
+      "o": [
+       "परितारिका से जुड़ी चिकनी पेशियाँ",
+       "परितारिका से जुड़े स्नायु",
+       "पक्ष्माभी काय से जुड़े स्नायु",
+       "पक्ष्माभी काय से जुड़ी चिकनी पेशियाँ"
+      ],
+      "sol": "<p>लेंस <b>पक्ष्माभी काय से जुड़े स्नायुओं (निलंबन स्नायु)</b> द्वारा अपने स्थान पर टिका रहता है। समंजन के दौरान पक्ष्माभी पेशियाँ लेंस की वक्रता बदलती हैं। (पुरानी NCERT 21.6.1; NEET 2024 से हटाया गया।)</p>",
+      "hint": "निलंबन स्नायु।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 11 Ch 21 · The eye",
+     "check": "Matches the official key (CBSE NEET 2018 key, Code AA: 3)",
+     "dropped": true
+    },
+    {
+     "id": "bio11-18-neet-2019-code-s2-q88",
+     "exam": "NEET",
+     "q": "Which of the following statements is correct?",
+     "sol": "<p>The cornea is the transparent anterior part of the sclera, made of a dense matrix of collagen; it is avascular (so option 1 is wrong) and richly supplied with nerve endings — <b>the most sensitive part of the eye</b>. It is not a separate proteinaceous covering of the whole eyeball, and is collagen-based, not elastin. (Old NCERT; dropped from NEET 2024.)</p>",
+     "hint": "Cornea has no blood vessels.",
+     "paras": [],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q88",
+     "o": [
+      "Cornea is convex, transparent layer which is highly vascularised.",
+      "Cornea consists of dense matrix of collagen and is the most sensitive portion of the eye.",
+      "Cornea is an external, transparent and protective proteinaceous covering of the eye-ball.",
+      "Cornea consists of dense connective tissue of elastin and can repair itself."
+     ],
+     "a": 1,
+     "hi": {
+      "q": "निम्नलिखित में से कौन-सा कथन सही है?",
+      "o": [
+       "कॉर्निया उत्तल, पारदर्शी स्तर है जिसमें अत्यधिक रुधिर वाहिकाएँ होती हैं।",
+       "कॉर्निया कोलेजन के सघन आधात्री से बना है तथा नेत्र का सबसे संवेदनशील भाग है।",
+       "कॉर्निया नेत्र गोलक का बाहरी, पारदर्शी तथा सुरक्षात्मक प्रोटीनयुक्त आवरण है।",
+       "कॉर्निया इलास्टिन के सघन संयोजी ऊतक से बना है तथा स्वयं की मरम्मत कर सकता है।"
+      ],
+      "sol": "<p>कॉर्निया दृढ़ पटल का पारदर्शी अग्र भाग है, जो कोलेजन के सघन आधात्री से बना है; इसमें रुधिर वाहिकाएँ नहीं होतीं (अतः विकल्प 1 गलत) और तंत्रिका अंत बहुत होते हैं — <b>नेत्र का सबसे संवेदनशील भाग</b>। यह पूरे नेत्र गोलक का अलग प्रोटीनयुक्त आवरण नहीं है, और कोलेजन से बना है, इलास्टिन से नहीं। (पुरानी NCERT; NEET 2024 से हटाया गया।)</p>",
+      "hint": "कॉर्निया में रुधिर वाहिकाएँ नहीं।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 11 Ch 21 · The eye: cornea",
+     "check": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)",
+     "dropped": true
+    },
+    {
+     "id": "bio11-18-neet-2020-code-f3-q111",
+     "exam": "NEET",
+     "q": "Match the following columns and select the correct option :<br>(a) Organ of Corti — (i) Connects middle ear and pharynx<br>(b) Cochlea — (ii) Coiled part of the labyrinth<br>(c) Eustachian tube — (iii) Attached to the oval window<br>(d) Stapes — (iv) Located on the basilar membrane",
+     "sol": "<ul><li>(a) Organ of Corti — located on the basilar membrane (iv).</li><li>(b) Cochlea — coiled part of the labyrinth (ii).</li><li>(c) Eustachian tube — connects the middle ear with the pharynx (i).</li><li>(d) Stapes — attached to the oval window of the cochlea (iii).</li></ul><p>(a) iv, (b) ii, (c) i, (d) iii. (Ear: old NCERT 21.6.2; dropped from NEET 2024.)</p>",
+     "hint": "Stapes → oval window.",
+     "paras": [],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q111",
+     "o": [
+      "(a) iv, (b) ii, (c) i, (d) iii",
+      "(a) i, (b) ii, (c) iv, (d) iii",
+      "(a) ii, (b) iii, (c) i, (d) iv",
+      "(a) iii, (b) i, (c) iv, (d) ii"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "निम्नलिखित स्तंभों का मिलान कीजिए तथा सही विकल्प चुनिए :<br>(a) कोर्टी का अंग — (i) मध्य कर्ण तथा ग्रसनी को जोड़ती है<br>(b) कर्णावर्त — (ii) लेबिरिंथ का कुंडलित भाग<br>(c) यूस्टेकियन नलिका — (iii) अंडाकार खिड़की से जुड़ी<br>(d) स्टेपीज — (iv) आधारस्थ झिल्ली पर स्थित",
+      "o": [
+       "(a) iv, (b) ii, (c) i, (d) iii",
+       "(a) i, (b) ii, (c) iv, (d) iii",
+       "(a) ii, (b) iii, (c) i, (d) iv",
+       "(a) iii, (b) i, (c) iv, (d) ii"
+      ],
+      "sol": "<ul><li>(a) कोर्टी का अंग — आधारस्थ झिल्ली पर स्थित (iv)।</li><li>(b) कर्णावर्त — लेबिरिंथ का कुंडलित भाग (ii)।</li><li>(c) यूस्टेकियन नलिका — मध्य कर्ण को ग्रसनी से जोड़ती है (i)।</li><li>(d) स्टेपीज — कर्णावर्त की अंडाकार खिड़की से जुड़ी (iii)।</li></ul><p>(a) iv, (b) ii, (c) i, (d) iii। (कर्ण: पुरानी NCERT 21.6.2; NEET 2024 से हटाया गया।)</p>",
+      "hint": "स्टेपीज → अंडाकार खिड़की।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 11 Ch 21 · The ear",
+     "check": "Matches the official key (NTA NEET 2020 final key, Code F3: 1)",
+     "dropped": true
+    },
+    {
+     "id": "bio11-18-neet-2023-topic-wise-copy-q64",
+     "exam": "NEET",
+     "q": "Match List-I with List-II with respect to human eye :<br>(A) Fovea — (I) Visible coloured portion of eye that regulates diameter of pupil<br>(B) Iris — (II) External layer of eye formed of dense connective tissue<br>(C) Blind spot — (III) Point of greatest visual acuity or resolution<br>(D) Sclera — (IV) Point where optic nerve leaves the eyeball and photoreceptor cells are absent",
+     "sol": "<ul><li>(A) Fovea — point of greatest visual acuity (III).</li><li>(B) Iris — visible coloured portion that regulates the diameter of the pupil (I).</li><li>(C) Blind spot — where the optic nerve leaves the eyeball; no photoreceptors (IV).</li><li>(D) Sclera — external layer of dense connective tissue (II).</li></ul><p>A-III, B-I, C-IV, D-II. (Eye: old NCERT; dropped from NEET 2024.)</p>",
+     "hint": "Blind spot has no receptors.",
+     "paras": [],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q64",
+     "o": [
+      "A-II, B-I, C-III, D-IV",
+      "A-III, B-I, C-IV, D-II",
+      "A-IV, B-III, C-II, D-I",
+      "A-I, B-IV, C-III, D-II"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "मानव नेत्र के संदर्भ में सूची-I का सूची-II से मिलान कीजिए :<br>(A) फोविया — (I) नेत्र का दृश्य रंगीन भाग जो पुतली के व्यास का नियमन करता है<br>(B) परितारिका — (II) सघन संयोजी ऊतक से बना नेत्र का बाहरी स्तर<br>(C) अंध बिंदु — (III) सर्वाधिक दृष्टि तीक्ष्णता या विभेदन का बिंदु<br>(D) दृढ़ पटल — (IV) वह बिंदु जहाँ दृष्टि तंत्रिका नेत्र गोलक से निकलती है तथा प्रकाशग्राही कोशिकाएँ अनुपस्थित होती हैं",
+      "o": [
+       "A-II, B-I, C-III, D-IV",
+       "A-III, B-I, C-IV, D-II",
+       "A-IV, B-III, C-II, D-I",
+       "A-I, B-IV, C-III, D-II"
+      ],
+      "sol": "<ul><li>(A) फोविया — सर्वाधिक दृष्टि तीक्ष्णता का बिंदु (III)।</li><li>(B) परितारिका — दृश्य रंगीन भाग जो पुतली के व्यास का नियमन करता है (I)।</li><li>(C) अंध बिंदु — जहाँ दृष्टि तंत्रिका नेत्र गोलक से निकलती है; प्रकाशग्राही नहीं (IV)।</li><li>(D) दृढ़ पटल — सघन संयोजी ऊतक का बाहरी स्तर (II)।</li></ul><p>A-III, B-I, C-IV, D-II। (नेत्र: पुरानी NCERT; NEET 2024 से हटाया गया।)</p>",
+      "hint": "अंध बिंदु पर ग्राही नहीं।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 11 Ch 21 · The eye",
+     "dropped": true
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 19,
+  "Practice": 3
+ },
+ "empty": [],
+ "trends": {
+  "18.2": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2015
+   ],
+   "last": 2015,
+   "recent": false
+  },
+  "18.3.2": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2026,
+    2022,
+    2017
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "18.3": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2018,
+    2017
+   ],
+   "last": 2018,
+   "recent": false
+  },
+  "18.4.1": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2024,
+    2023,
+    2019,
+    2018
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "18.4.3": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2024,
+    2018
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "18.4": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2024
+   ],
+   "last": 2024,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Convert the legacy question files into the question-bank format (docs/question-schema.json).
+"""RETIRED (14 Nov 2026): the question bank (content/questions/) is now the master copy and the chapter
+pages are built from it. Re-running this would overwrite later bank edits (fixes, added PYQs) with the
+legacy text, so it refuses to run without --force. Edit content/questions/*.json directly instead.
+
+Convert the legacy question files into the question-bank format (docs/question-schema.json).
 
     python3 tools/convert_questions.py
 
@@ -208,5 +212,8 @@ def convert_mindmap(folder):
 
 
 if __name__ == "__main__":
+    import sys
+    if "--force" not in sys.argv:
+        sys.exit("convert_questions.py is retired: content/questions/ is the master copy. See the docstring.")
     convert_pyq(os.path.join(CONTENT, "pyq", "chem11-01.json"))
     convert_mindmap(os.path.join(CONTENT, "chem11-thermodynamics"))

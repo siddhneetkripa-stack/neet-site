@@ -261,3 +261,19 @@ Work for publishing every Biology chapter as an "NCERT + PYQ" page. The page cod
 - No app.js change is needed for Biology.
 
 Next for Biology: owner merges `claude/pages-from-bank`, then this branch (rebase + rebuild first); Hindi proofreading (all draft); redraw the 19 figures above; second-model check of the 83 coverage questions; open booklet checks (2020 F3 Q174 option order, 2025 Code 45 Q121/Q162, 2022 Q144/Q155, 2024 Q131).
+## 14 Nov 2026 · Chapter pages from the question bank (branch `claude/pages-from-bank`)
+
+- `tools/build.py`: `build_bank_page()` turns every bank file into `data/pyq/<ch>.json` in the PYQ page's format plus Hindi (`hi` = q/o/sol/hint/trap when Hindi is draft or better), `alsoA` (extra accepted options), `oldRef` topic, `dropped` flag. Legacy `content/pyq/*.json` is built only when a chapter has no bank (none now). `tools/convert_questions.py` retired (refuses to run without `--force`; it would overwrite bank fixes).
+- Shown on a page: English text + worked solution. Not yet shown: 845 JEE Main PYQs without solutions, and 42 mind-map practice questions of Thermodynamics that have an explanation (`e`) but no bank solution; each page says how many are waiting.
+- Grouping: one NCERT paragraph → its section; two or more paragraphs or another chapter → "Multiple concepts"; `syllabus_status: dropped_2024` → "Topics removed from the NEET syllabus in 2024" (left out of trend counts). Banks without paragraphs (chem1x-old-*, *-lab-*, bio*-old-*) → one list, newest paper first, topic from `oldRef` on each card (grouping by topic gave one question per section).
+- Links: printed pages + `pdfPageOffset` when a paragraph has `pages`; otherwise the paragraph's `pdfPage` ("NCERT PDF p. N").
+- `assets/app.js`: Hindi/English per question (button on each card), Hindi section and chapter titles, localized reference line, old-NCERT notice, waiting-questions note; home lists chapters with Hindi titles and an "Old NCERT and practical topics" row per class; the long "Ready now" grid was removed. `assets/style.css`: phone grid fix (`minmax(0, 1fr)`; the chip row widened the page), long strings wrap (DNA sequences, JEE header tags).
+- `content/catalog.json`: `hi` titles for all Physics and Chemistry chapters (each checked to occur in the chapter's NCERT Hindi text: NCERT prints तत्त्वों, तरलों के यांत्रिकी गुण, कार्बनिक रसायन : कुछ आधारभूत सिद्धांत तथा तकनीकें; ऊर्जा spelled correctly where the Hindi PDF text reads उर्जा); `extras` per class for old-NCERT/lab banks; `pagesLive` per subject.
+- For the Biology session: add Biology `hi` titles and `extras` (bio11-old-*, bio12-old-*), then `"pagesLive": true` for Biology. No change needed in app.js/build.py for Biology.
+
+## 14 Nov 2026 · Biology merged; mock safety rule
+
+- `claude/bio-pages` merged with `main` (after `claude/pages-from-bank`): only conflict was the end of this log (both kept); content/catalog.json merged cleanly. Rebuilt `data/`. All 98 chapter pages linked.
+- Request from the Biology session done in `tools/build.py` `build_test`: a test including a `syllabus_status: dropped_2024` question stops the build. `old_ncert_only` questions are refused unless the test sets `"allowOldNcert": true`, because that tag also covers topics still in the NEET syllabus (83 Chemistry questions, e.g. p-Block) that Chemistry mocks need. Checked with three throwaway tests (dropped refused, old-NCERT refused, old-NCERT with opt-in built).
+- app.js: the Hindi intro on fully covered pages said "Multiple concepts" in English; now एक से अधिक अवधारणाएँ.
+

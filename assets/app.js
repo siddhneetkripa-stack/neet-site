@@ -91,6 +91,12 @@
       const ready = []; cat.subjects.forEach(s => s.classes.forEach(c => c.chapters.forEach(ch => (ch.ready || ch.pyq) && ready.push({ s, c, ch }))));
       const first = ready.find(r => r.ch.pyq) || ready[0];
       const firstHref = first ? (first.ch.pyq ? `#/pyq/${first.ch.id}` : `#/c/${first.ch.id}`) : '#/';
+      const chTitle = ch => esc(lang === 'hi' && ch.hi ? ch.hi : ch.title);
+      const chapTile = (ch, label) => ch.ready
+        ? `<a class="chap ready" href="#/c/${ch.id}"><small>${label} · ${t('माइंड मैप', 'mind map')}${ch.pyq ? ` · ${ch.pyq} ${t('प्रश्न', 'questions')}` : ''}</small>${chTitle(ch)}</a>`
+        : ch.pyq
+        ? `<a class="chap ready" href="#/pyq/${ch.id}"><small>${label} · ${ch.pyq} ${t('प्रश्न', 'questions')}</small>${chTitle(ch)}</a>`
+        : `<a class="chap soon"><small>${label} · ${t('जल्द', 'coming soon')}</small>${chTitle(ch)}</a>`;
       const tiles = cat.subjects.map(s => {
         const all = [], live = []; s.classes.forEach(c => c.chapters.forEach(ch => { all.push(ch); if (ch.ready || ch.pyq) live.push(ch); }));
         const pct = all.length ? Math.round(100 * live.length / all.length) : 0;
@@ -128,15 +134,10 @@
           <div><small>02 · ${t('अभ्यास', 'Practise')}</small><b>${t('उस अनुच्छेद के सारे PYQ', 'Every PYQ from that paragraph')}</b><span>${t('हल के साथ वह NCERT लाइन जिस पर प्रश्न बना है।', 'With the NCERT lines each question is built on.')}</span></div>
           <div><small>03 · ${t('टेस्ट', 'Test')}</small><b>${t('NTA जैसी स्क्रीन पर', 'On an NTA-style screen')}</b><span>${t('फिर दोबारा पढ़ने वाले अनुच्छेदों की सूची।', 'Then a list of paragraphs to revise.')}</span></div>
         </section>
-        ${ready.length ? `<h2 class="sec">${t('अभी तैयार', 'Ready now')}</h2><div class="chap-grid">${ready.map(({ s, c, ch }) => `<a class="chap ready" style="--sc:${colors[s.id]}" href="${ch.ready ? `#/c/${ch.id}` : `#/pyq/${ch.id}`}"><small>${esc(s.name)} · Class ${c.cls} · Ch ${ch.no}</small>${esc(ch.title)}<small>${[ch.ready ? `${ch.stats.nodes} nodes · ${ch.stats.questions} questions` : '', ch.pyq ? `${ch.pyq} MCQs (PYQs + NCERT)` : ''].filter(Boolean).join(' · ')}</small></a>`).join('')}</div>` : ''}
         ${cat.subjects.map(s => `<section class="subject" id="subj-${s.id}" style="--sc:${colors[s.id]}"><h2><span class="dot"></span>${esc(lang === 'hi' ? (hiName[s.id] || s.name) : s.name)}</h2>
           ${s.classes.map(c => `<div class="cls-label">${t('कक्षा', 'Class')} ${c.cls}</div><div class="chap-grid">
-            ${c.chapters.map(ch => ch.ready
-              ? `<a class="chap ready" href="#/c/${ch.id}"><small>Ch ${ch.no} · ${ch.stats.nodes} nodes · ${ch.stats.questions} Qs${ch.pyq ? ` · ${ch.pyq} MCQs` : ''}</small>${esc(ch.title)}</a>`
-              : ch.pyq
-              ? `<a class="chap ready" href="#/pyq/${ch.id}"><small>Ch ${ch.no} · ${ch.pyq} MCQs</small>${esc(ch.title)}</a>`
-              : `<a class="chap soon"><small>Ch ${ch.no} · ${t('जल्द', 'coming soon')}</small>${esc(ch.title)}</a>`).join('')}
-          </div>`).join('')}</section>`).join('')}
+            ${c.chapters.map(ch => chapTile(ch, `${t('अध्याय', 'Ch')} ${ch.no}`)).join('')}
+          </div>${(c.extras || []).some(ch => ch.pyq) ? `<div class="cls-label sub">${t('पुरानी NCERT और प्रायोगिक भाग (NEET में पूछे गए)', 'Old NCERT and practical topics (asked in NEET)')}</div><div class="chap-grid">${c.extras.filter(ch => ch.pyq).map(ch => chapTile(ch, t('पुरानी NCERT', 'Old NCERT'))).join('')}</div>` : ''}`).join('')}</section>`).join('')}
       </main>${footer()}`;
       app.querySelectorAll('[data-jump-home]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); const el = document.getElementById(a.dataset.jumpHome); if (el) el.scrollIntoView({ behavior: 'smooth' }); }));
     }).catch(err);
@@ -374,14 +375,26 @@
     const load = catalog ? Promise.resolve(catalog) : getJSON('data/catalog.json').then(c => (catalog = c));
     load.then(() => getJSON(`data/pyq/${chId}.json`)).then(P => {
       const all = []; P.sections.forEach(s => s.questions.forEach(q => all.push(q)));
-      const paraTitle = {}; (P.paragraphs || []).forEach(p => { paraTitle[p.id] = p.title; });
-      const years = [...new Set(all.map(q => q.year))].sort((a, b) => b - a);
-      const pdf = page => `${P.ncertPdf}#page=${page - P.pdfPageOffset}`;
+      const paraTitle = {}; (P.paragraphs || []).forEach(p => { paraTitle[p.id] = lang === 'hi' && p.hi ? p.hi : p.title; });
+      const secTitle = s => lang === 'hi' && s.hi ? s.hi : s.title;
+      const subjHi = { physics: 'भौतिकी', chemistry: 'रसायन विज्ञान', biology: 'जीव विज्ञान' };
+      const refLine = () => !P.subject ? P.ref : P.oldNcert ? t(`${subjHi[P.subject]} · पुरानी NCERT कक्षा ${P.class}`, `${P.subject[0].toUpperCase() + P.subject.slice(1)} · old NCERT Class ${P.class}`)
+        : t(`NCERT ${subjHi[P.subject]} कक्षा ${P.class} · इकाई ${P.unit}`, `NCERT ${P.subject[0].toUpperCase() + P.subject.slice(1)} Class ${P.class} · Unit ${P.unit}`);
+      const years = [...new Set(all.map(q => q.year).filter(Boolean))].sort((a, b) => b - a);
+      // NCERT links: printed pages (pages + pdfPageOffset) when known, else the PDF page of the paragraph (pdfPage).
+      const pdf = page => P.ncertPdf ? `${P.ncertPdf}#page=${page - (P.pdfPageOffset || 0)}` : '';
+      const pdfAt = s => !P.ncertPdf ? '' : (s.pages || []).length ? pdf(s.pages[0]) : s.pdfPage ? `${P.ncertPdf}#page=${s.pdfPage}` : P.ncertPdf;
       const pages = pp => pp.length > 1 ? `pp. ${pp[0]}–${pp[pp.length - 1]}` : `p. ${pp[0]}`;
+      const where = s => (s.pages || []).length ? `NCERT ${pages(s.pages)}` : s.pdfPage ? `NCERT PDF ${t('पृष्ठ', 'p.')} ${s.pdfPage}` : 'NCERT';
+      const readLink = s => P.ncertPdf ? ` · <a href="${pdfAt(s)}" target="_blank" rel="noopener">${t('NCERT में पढ़ें', 'read in NCERT')} ↗</a>` : '';
+      // Question text: Hindi when the interface is Hindi and the question has Hindi; each card can switch to English.
+      const enOnly = new Set();
+      const L = q => (lang === 'hi' && q.hi && !enOnly.has(q.id)) ? Object.assign({}, q, q.hi, { isHi: true }) : q;
+      const isRight = (q, k) => k === q.a || (q.alsoA || []).includes(k);
       const stateLabel = v => v === true ? `<span class="state ok">✓ ${t('सही', 'correct')}</span>` : v === false ? `<span class="state no">✗ ${t('गलत', 'wrong')}</span>` : '<span class="state"></span>';
       const stat = () => { const done = all.filter(q => progress[q.id] !== undefined).length, ok = all.filter(q => progress[q.id] === true).length; return t(`${all.length} में से ${done} किए · ${ok} सही`, `${done}/${all.length} attempted · ${ok} correct`); };
-      const ansText = q => q.type === 'num' ? `<b>${t('उत्तर', 'Answer')}: ${q.ans}</b>${q.unit ? ' ' + q.unit : ''}` : `<b>${t('उत्तर', 'Answer')}: (${q.a + 1})</b> ${q.o[q.a]}`;
-      const excerpts = q => `<div class="excerpts">${(q.ncert || []).map(x => `<figure class="excerpt"><img src="assets/ncert/${chId}/${x.img}.webp" alt="NCERT excerpt, ${esc(x.label)}" loading="lazy"><figcaption><span>NCERT · ${esc(x.label)}</span><a href="${pdf(x.page)}" target="_blank" rel="noopener">${t('पृष्ठ', 'Open page')} ${x.page} ↗</a></figcaption></figure>`).join('')}</div>`;
+      const ansText = q => q.type === 'num' ? `<b>${t('उत्तर', 'Answer')}: ${q.ans}</b>${q.unit ? ' ' + q.unit : ''}` : `<b>${t('उत्तर', 'Answer')}: (${q.a + 1})</b> ${q.o[q.a]}${(q.alsoA || []).length ? ` <small>${t('यह भी सही', 'also accepted')}: ${q.alsoA.map(k => `(${k + 1})`).join(', ')}</small>` : ''}`;
+      const excerpts = q => `<div class="excerpts">${(q.ncert || []).map(x => `<figure class="excerpt"><img src="assets/ncert/${q.ncertChapter || chId}/${x.img}.webp" alt="NCERT excerpt, ${esc(x.label)}" loading="lazy"><figcaption><span>NCERT · ${esc(x.label)}</span><a href="${pdf(x.page)}" target="_blank" rel="noopener">${t('पृष्ठ', 'Open page')} ${x.page} ↗</a></figcaption></figure>`).join('')}</div>`;
 
       // Recent-trend markers per paragraph section, from PYQs only (NEET / JEE Main with a year).
       // tools/build.py writes per-paragraph counts (P.trends) using the latest NEET year across all content;
@@ -400,7 +413,7 @@
       // Personal weak-paragraph list: paragraphs with a wrong or unattempted question (from the progress store).
       const weak = () => {
         const wrong = [], untried = [];
-        P.sections.filter(s => s.sec !== 'multi').forEach(s => {
+        P.sections.filter(s => s.sec !== 'multi' && s.sec !== 'dropped').forEach(s => {
           const w = s.questions.filter(q => progress[q.id] === false).length;
           if (w) wrong.push({ s, w }); else if (s.questions.some(q => progress[q.id] === undefined)) untried.push(s);
         });
@@ -411,7 +424,7 @@
         const W = weak();
         if (!W.wrong.length && !W.untried.length) return `<div class="revise"><b>${t('सब अनुच्छेद पूरे!', 'All paragraphs done!')}</b></div>`;
         return `<div class="revise"><b>${t('ये दोबारा पढ़ें', 'Revise these')}</b>
-          ${W.wrong.slice(0, 6).map(x => `<a href="#/pyq/${chId}" data-jump="s-${x.s.sec}">§${esc(x.s.sec.replace(/[a-d]$/, ''))} ${esc(x.s.title)} · ${x.w} ${t('गलत', 'wrong')}</a>`).join('')}
+          ${W.wrong.slice(0, 6).map(x => `<a href="#/pyq/${chId}" data-jump="s-${x.s.sec}">${P.byTopic ? '' : '§' + esc(x.s.sec.replace(/[a-d]$/, '')) + ' '}${esc(secTitle(x.s))} · ${x.w} ${t('गलत', 'wrong')}</a>`).join('')}
           ${W.untried.length ? `<p>${t(`${W.untried.length} अनुच्छेद अभी बाकी`, `${W.untried.length} paragraphs not tried yet`)}</p>` : ''}
           <button class="btn saffron" type="button" data-act="retry">${t('सिर्फ़ ये प्रश्न करें', 'Retry only these')}</button></div>`;
       };
@@ -424,9 +437,10 @@
       })();
       const isWeakQ = q => weakIds.has(q.id);
 
-      const card = (q, n, multi) => `<article class="pyq" id="${q.id}" data-year="${q.year}" data-exam="${esc(q.exam)}">
-          <div class="pyq-head"><span class="qn">Q${n}</span><span class="year ${({ 'NEET': 'neet', 'JEE Main': 'jee', 'NCERT Exercise': 'ncert', 'NCERT Exemplar': 'exemplar', 'Practice': 'practice' })[q.exam] || ''}">${esc(q.exam)}${q.year ? ' ' + q.year : ''}</span>${q.when ? `<span class="when">${esc(q.when)}</span>` : (!q.year && q.srcRef ? `<span class="when">${esc(q.srcRef)}</span>` : '')}${q.type === 'num' ? `<span class="tag num">${t('संख्यात्मक', 'numerical')}</span>` : ''}${(q.otherChapters || []).length ? `<span class="tag" title="${esc(q.otherChapters.join(', '))}">+ ${t('दूसरा अध्याय', 'other chapter')}</span>` : ''}${retryOnly ? '<span class="state"></span>' : stateLabel(progress[q.id])}</div>
-          ${multi ? `<div class="paras">${q.paras.map(id => `<a href="#/pyq/${chId}" data-jump="s-${id}" class="para">§${id.replace(/[a-d]$/, '')} ${esc(paraTitle[id] || '')}</a>`).join('')}${(q.otherChapters || []).map(c => `<span class="para other">${esc(c)}</span>`).join('')}</div>` : ''}
+      const card = (q0, n, multi) => { const q = L(q0); return `<article class="pyq" id="${q.id}" data-n="${n}" data-multi="${multi ? 1 : ''}" data-year="${q.year || ''}" data-exam="${esc(q.exam)}">
+          <div class="pyq-head"><span class="qn">Q${n}</span><span class="year ${({ 'NEET': 'neet', 'JEE Main': 'jee', 'NCERT Exercise': 'ncert', 'NCERT Exemplar': 'exemplar', 'Practice': 'practice' })[q.exam] || ''}">${esc(q.exam)}${q.year ? ' ' + q.year : ''}</span>${q.when ? `<span class="when">${esc(q.when)}</span>` : (!q.year && q.srcRef ? `<span class="when">${esc(q.srcRef)}</span>` : '')}${q.type === 'num' ? `<span class="tag num">${t('संख्यात्मक', 'numerical')}</span>` : ''}${(q.otherChapters || []).length ? `<span class="tag" title="${esc(q.otherChapters.join(', '))}">+ ${t('दूसरा अध्याय', 'other chapter')}</span>` : ''}${q.isHi && q.hiStatus !== 'proofread' ? `<span class="tag hi-draft" title="Hindi draft, proofreading pending">हिंदी प्रारूप</span>` : ''}${q0.hi && lang === 'hi' ? `<button class="tag lang-sw" type="button" data-act="lang">${q.isHi ? 'English' : 'हिंदी'}</button>` : ''}${retryOnly ? '<span class="state"></span>' : stateLabel(progress[q.id])}</div>
+          ${multi && !P.byTopic ? `<div class="paras">${q.paras.map(id => `<a href="#/pyq/${chId}" data-jump="s-${id}" class="para">§${id.replace(/[a-d]$/, '')} ${esc(paraTitle[id] || '')}</a>`).join('')}${(q.otherChapters || []).map(c => `<span class="para other">${esc(c)}</span>`).join('')}</div>` : ''}
+          ${q.topic ? `<p class="topic">${t('विषय (पुरानी NCERT)', 'Topic (old NCERT)')}: ${esc(q.topic)}</p>` : ''}
           <div class="qtext">${q.q}</div>
           ${q.type === 'num'
             ? `<form class="numans"><label>${t('आपका उत्तर', 'Your answer')} <input type="text" inputmode="decimal" autocomplete="off" aria-label="${t('संख्यात्मक उत्तर', 'Numerical answer')}"></label><button class="btn" type="submit">${t('जाँचें', 'Check')}</button></form>`
@@ -441,29 +455,34 @@
             ${q.also ? `<p class="also">${esc(q.also)}</p>` : ''}
           </div>
           ${(q.ncert || []).length ? `<div class="reveal ncert" hidden><h4>${t('NCERT में यह कहाँ है', 'Where NCERT says it')}</h4>${excerpts(q)}</div>` : ''}
-        </article>`;
+        </article>`; };
       let n = 0;
       const exams = Object.entries(P.counts || {}).filter(([, c]) => c);
       const sections = P.sections.map(s => ({ s, qs: retryOnly ? s.questions.filter(isWeakQ) : s.questions })).filter(x => !retryOnly || x.qs.length);
       const side = `<aside class="pyq-side" aria-label="${t('अनुच्छेद', 'Paragraphs')}"><div class="head"><span>${t('अनुच्छेद', 'PARAGRAPH')}</span><span>NEET</span></div>
-          <nav class="plist">${P.sections.map(s => { const tr = trend(s); return `<a class="p${s.sec === 'multi' ? '' : tr.neet ? '' : ' none'}" href="#/pyq/${chId}" data-jump="s-${s.sec}" data-sec="s-${s.sec}"><span class="t"><b>${s.sec === 'multi' ? '✱' : '§' + esc(s.sec.replace(/[a-d]$/, ''))}</b> <span class="tt">${esc(s.title)}</span></span><span class="n${tr.recent ? ' recent' : ''}">${s.sec === 'multi' ? s.questions.length : (tr.neet || '–')}${tr.recent ? ' · ' + t('नया', 'new') : ''}</span></a>`; }).join('')}</nav>
+          <nav class="plist">${P.sections.map(s => { const tr = trend(s), special = s.sec === 'multi' || s.sec === 'dropped' || P.byTopic; return `<a class="p${special || tr.neet ? '' : ' none'}" href="#/pyq/${chId}" data-jump="s-${s.sec}" data-sec="s-${s.sec}"><span class="t"><b>${s.sec === 'multi' ? '✱' : s.sec === 'dropped' ? '⊘' : P.byTopic ? '•' : '§' + esc(s.sec.replace(/[a-d]$/, ''))}</b> <span class="tt">${esc(secTitle(s))}</span></span><span class="n${tr.recent ? ' recent' : ''}">${special ? s.questions.length : (tr.neet || '–')}${tr.recent && !special ? ' · ' + t('नया', 'new') : ''}</span></a>`; }).join('')}</nav>
           <div id="revise-slot">${reviseBox()}</div></aside>`;
       app.innerHTML = topbar({ id: chId }, 'pyq') + `<main class="pyq-page"><div class="pyq-layout">${side}<div class="pyq-main">
-        <section class="pyq-intro"><p class="kicker">${t('NCERT के क्रम में हर अनुच्छेद, उसके प्रश्नों के साथ', 'NCERT in MCQs · every paragraph, in book order')}</p><h1>${esc(P.title)}</h1>
-          <p class="ref">${esc(P.ref)} · ${all.length} ${t('प्रश्न', 'questions')} (${exams.map(([e, c]) => `${c} ${esc(e)}`).join(', ')}) · ${esc(P.years)}</p>
-          ${lang === 'hi' ? '<p class="muted">प्रश्नों का हिंदी पाठ जल्द जुड़ेगा; अभी प्रश्न English में हैं।</p>' : ''}
-          <p class="muted">${t('हर अनुच्छेद पर कम से कम एक प्रश्न है। जहाँ NEET या JEE Main ने पूछा है, वे प्रश्न पहले हैं; बाकी अनुच्छेदों पर NCERT अभ्यास, Exemplar या हमारे अभ्यास प्रश्न। एक से ज़्यादा अनुच्छेद वाले प्रश्न अंत में <b>Multiple concepts</b> में हैं। पहले खुद हल करें: <b>संकेत + NCERT</b> वह NCERT लाइन दिखाता है जिस पर प्रश्न बना है, <b>उत्तर देखें</b> पूरा हल।', 'Every NCERT paragraph of this chapter has at least one question. Where NEET or JEE Main has asked about a paragraph, those previous-year questions come first; paragraphs not asked yet get one or two questions from NCERT exercises, NCERT Exemplar or our own practice set, so no part of the book is skipped. Questions needing more than one paragraph are under <b>Multiple concepts</b> at the end. Try each question first: <b>Hint + NCERT</b> shows the textbook lines it is built on, <b>Show answer</b> gives the worked solution.')}</p>
+        <section class="pyq-intro"><p class="kicker">${t('NCERT के क्रम में हर अनुच्छेद, उसके प्रश्नों के साथ', 'NCERT in MCQs · every paragraph, in book order')}</p><h1>${esc(lang === 'hi' && P.titleHi ? P.titleHi : P.title)}</h1>
+          <p class="ref">${esc(refLine())} · ${all.length} ${t('प्रश्न', 'questions')} (${exams.map(([e, c]) => `${c} ${esc(e)}`).join(', ')}) · ${esc(P.years)}</p>
+          ${lang === 'hi' && !all.some(q => q.hi) ? '<p class="muted">इस अध्याय के प्रश्नों का हिंदी पाठ जल्द जुड़ेगा; अभी प्रश्न English में हैं।</p>' : ''}
+          ${lang === 'hi' && all.some(q => q.hi && q.hiStatus !== 'proofread') ? '<p class="muted">हिंदी पाठ अभी प्रारूप है (प्रूफ़रीडिंग बाकी)। किसी प्रश्न का मूल English पाठ देखने के लिए उस पर <b>English</b> दबाएँ; विवाद होने पर English पाठ मान्य है।</p>' : ''}
+          ${P.oldNcert ? `<p class="muted">${t('यह अध्याय नई (2023 से) NCERT में नहीं है; प्रश्न पुरानी NCERT से जुड़े हैं:', 'Not in the rationalised NCERT (2023 on); questions trace to the old NCERT:')} ${esc(P.oldNcert)}.</p>` : ''}
+          ${(P.empty || []).length || P.byTopic ? `<p class="muted">${t('जिन अनुच्छेदों पर NEET या JEE Main ने पूछा है, उनके प्रश्न NCERT के क्रम में हैं। एक से ज़्यादा अनुच्छेद वाले प्रश्न अंत में <b>एक से अधिक अवधारणाएँ</b> में हैं; जिन अनुच्छेदों पर अभी कोई प्रश्न नहीं है, उनकी सूची सबसे नीचे है। पहले खुद हल करें, फिर <b>संकेत</b> और <b>उत्तर देखें</b>।', 'Questions are in NCERT order under the paragraph they test. Questions needing more than one paragraph are under <b>Multiple concepts</b>; paragraphs without a question yet are listed at the end. Try each question first, then use <b>Hint</b> and <b>Show answer</b>.')}</p>` : `<p class="muted">${t('हर अनुच्छेद पर कम से कम एक प्रश्न है। जहाँ NEET या JEE Main ने पूछा है, वे प्रश्न पहले हैं; बाकी अनुच्छेदों पर NCERT अभ्यास, Exemplar या हमारे अभ्यास प्रश्न। एक से ज़्यादा अनुच्छेद वाले प्रश्न अंत में <b>एक से अधिक अवधारणाएँ</b> में हैं। पहले खुद हल करें: <b>संकेत + NCERT</b> वह NCERT लाइन दिखाता है जिस पर प्रश्न बना है, <b>उत्तर देखें</b> पूरा हल।', 'Every NCERT paragraph of this chapter has at least one question. Where NEET or JEE Main has asked about a paragraph, those previous-year questions come first; paragraphs not asked yet get one or two questions from NCERT exercises, NCERT Exemplar or our own practice set, so no part of the book is skipped. Questions needing more than one paragraph are under <b>Multiple concepts</b> at the end. Try each question first: <b>Hint + NCERT</b> shows the textbook lines it is built on, <b>Show answer</b> gives the worked solution.')}</p>`}
           ${retryOnly ? `<div class="retry-bar"><span>${t('सिर्फ़ गलत और बाकी प्रश्न दिख रहे हैं', 'Showing only wrong and untried questions')}</span><button class="btn ghost" type="button" data-act="showall">${t('सारे प्रश्न दिखाएँ', 'Show all questions')}</button></div>` : ''}
           <div class="pyq-tools"><span class="stat" id="pyqstat">${stat()}</span>
-            <span class="filters"><label>${t('परीक्षा', 'Exam')} <select id="examsel"><option value="">${t('सभी', 'Both')}</option>${exams.map(([e]) => `<option>${esc(e)}</option>`).join('')}</select></label>
+            <span class="filters"><label>${t('परीक्षा', 'Exam')} <select id="examsel"><option value="">${t('सभी', 'All')}</option>${exams.map(([e]) => `<option>${esc(e)}</option>`).join('')}</select></label>
             <label>${t('वर्ष', 'Year')} <select id="yearsel"><option value="">${t('सभी वर्ष', 'All years')}</option>${years.map(y => `<option>${y}</option>`).join('')}</select></label></span></div>
         </section>
-        ${sections.map(({ s, qs }) => `<section class="pyq-sec${s.sec === 'multi' ? ' multi' : ''}" id="s-${s.sec}"><h2>${s.sec === 'multi' ? '<span>✱</span>' : `<span>§${s.sec.replace(/[a-d]$/, '')}</span>`} ${esc(s.title)}</h2>
-          ${s.sec === 'multi' ? `<p class="sec-ref">${esc(P.multiRule || '')}</p>` : `${trendChips(trend(s))}<p class="sec-ref">NCERT ${pages(s.pages)} · <a href="${pdf(s.pages[0])}" target="_blank" rel="noopener">${t('NCERT में पढ़ें', 'read in NCERT')} ↗</a></p>`}
+        ${sections.map(({ s, qs }) => `<section class="pyq-sec${s.sec === 'multi' ? ' multi' : ''}${s.sec === 'dropped' ? ' dropped' : ''}" id="s-${s.sec}"><h2>${s.sec === 'multi' ? '<span>✱</span>' : s.sec === 'dropped' ? '<span>⊘</span>' : P.byTopic ? '' : `<span>§${s.sec.replace(/[a-d]$/, '')}</span>`} ${esc(secTitle(s))}</h2>
+          ${s.sec === 'multi' ? `<p class="sec-ref">${t('जिन प्रश्नों के लिए दो या अधिक NCERT अनुच्छेद, या दूसरा अध्याय भी चाहिए।', esc(P.multiRule || ''))}</p>`
+            : s.sec === 'dropped' ? `<p class="sec-ref">${t('ये प्रश्न उन विषयों पर हैं जो NEET 2024 से पाठ्यक्रम में नहीं हैं। केवल जानकारी के लिए; मॉक टेस्ट में ये नहीं आते।', 'These questions are on topics NEET removed from its syllabus in 2024. For reference only; they never appear in mock tests.')}</p>`
+            : P.byTopic ? '' : `${trendChips(trend(s))}<p class="sec-ref">${where(s)}${readLink(s)}</p>`}
           ${qs.map(q => card(q, ++n, s.sec === 'multi')).join('')}</section>`).join('')}
         ${!retryOnly && (P.empty || []).length ? `<section class="pyq-sec empty-paras"><h2>${t('अभी तक नहीं पूछे गए', 'Not asked yet')}</h2><p class="sec-ref">${t('इन वर्षों में NEET या JEE Main का कोई प्रश्न सिर्फ़ इन अनुच्छेदों पर नहीं आया। इन्हें NCERT में पढ़ें; ये भी पूछे जा सकते हैं।', 'No NEET or JEE Main question in these years tests these paragraphs on its own. Read them in NCERT; they can still be asked.')}</p>
-          <ul>${P.empty.map(p => `<li><a href="${pdf(p.pages[0])}" target="_blank" rel="noopener">§${esc(p.id.replace(/[a-d]$/, ''))} ${esc(p.title)}</a> <small>${pages(p.pages)}</small></li>`).join('')}</ul></section>` : ''}
-        <p class="pyq-note">${esc(P.note)}</p>
+          <ul>${P.empty.map(p => `<li>${P.ncertPdf ? `<a href="${pdfAt(p)}" target="_blank" rel="noopener">` : '<span>'}§${esc(p.id.replace(/[a-d]$/, ''))} ${esc(secTitle(p))}${P.ncertPdf ? '</a>' : '</span>'} <small>${where(p)}</small></li>`).join('')}</ul></section>` : ''}
+        ${P.waiting ? `<p class="pyq-note">${t(`इस अध्याय के ${P.waiting} और प्रश्न (ज़्यादातर JEE Main) हल लिखे जाने के बाद यहाँ जुड़ेंगे।`, `${P.waiting} more questions of this chapter (mostly JEE Main) will appear here once their solutions are written.`)}</p>` : ''}
+        ${P.note ? `<p class="pyq-note">${esc(P.note)}</p>` : ''}
       </div></div></main>${footer()}`;
 
       const bindJumps = root => root.querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); const el = document.getElementById(a.dataset.jump); if (el) el.scrollIntoView({ behavior: 'smooth' }); }));
@@ -478,7 +497,7 @@
       };
       app.querySelector('#yearsel').addEventListener('change', filter);
       app.querySelector('#examsel').addEventListener('change', filter);
-      app.querySelectorAll('.pyq').forEach(c => {
+      const bindCard = c => {
         const q = all.find(x => x.id === c.id);
         const open = sel => { const el = c.querySelector(sel); if (el) el.hidden = false; };
         const record = ok => {
@@ -492,8 +511,8 @@
         };
         c.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => {
           const k = +b.dataset.k;
-          c.querySelectorAll('.opt').forEach(x => { const j = +x.dataset.k; x.disabled = true; if (j === q.a) x.classList.add('right'); else if (j === k) x.classList.add('wrong'); });
-          record(k === q.a);
+          c.querySelectorAll('.opt').forEach(x => { const j = +x.dataset.k; x.disabled = true; if (isRight(q, j)) x.classList.add('right'); else if (j === k) x.classList.add('wrong'); });
+          record(isRight(q, k));
         }));
         const f = c.querySelector('.numans');
         if (f) f.addEventListener('submit', e => {
@@ -504,9 +523,17 @@
           inp.disabled = true; f.querySelector('button').disabled = true; f.classList.add(ok ? 'right' : 'wrong');
           record(ok);
         });
+        bindJumps(c);
         c.querySelector('[data-act="hint"]').addEventListener('click', () => { open('.hint'); open('.ncert'); });
-        c.querySelector('[data-act="ans"]').addEventListener('click', () => { c.querySelectorAll('.opt').forEach(x => { if (+x.dataset.k === q.a) x.classList.add('right'); }); open('.answer'); open('.ncert'); });
-      });
+        c.querySelector('[data-act="ans"]').addEventListener('click', () => { c.querySelectorAll('.opt').forEach(x => { if (isRight(q, +x.dataset.k)) x.classList.add('right'); }); open('.answer'); open('.ncert'); });
+        const sw = c.querySelector('[data-act="lang"]');
+        if (sw) sw.addEventListener('click', () => {
+          enOnly.has(q.id) ? enOnly.delete(q.id) : enOnly.add(q.id);
+          const fresh = document.createElement('div'); fresh.innerHTML = card(q, +c.dataset.n, !!c.dataset.multi);
+          c.replaceWith(fresh.firstElementChild); bindCard(app.querySelector(`[id="${q.id}"]`));
+        });
+      };
+      app.querySelectorAll('.pyq').forEach(bindCard);
       if ('IntersectionObserver' in window) {
         const links = {}; app.querySelectorAll('.plist a.p').forEach(a => { links[a.dataset.sec] = a; });
         const io = new IntersectionObserver(es => es.forEach(e => {

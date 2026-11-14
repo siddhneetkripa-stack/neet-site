@@ -1,0 +1,1421 @@
+{
+ "chapter": "phy12-02",
+ "source": "bank",
+ "subject": "physics",
+ "class": 12,
+ "unit": 2,
+ "title": "Electrostatic Potential and Capacitance",
+ "titleHi": "स्थिरवैद्युत विभव तथा धारिता",
+ "ref": "NCERT Physics Class 12 · Unit 2",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+ "pdfPageOffset": 0,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "2.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "2.2",
+   "title": "Electrostatic Potential",
+   "hi": "स्थिरवैद्युत विभव",
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "2.3",
+   "title": "Potential due to a Point Charge",
+   "hi": "बिंदु आवेश के कारण विभव",
+   "pages": [],
+   "pdfPage": 4
+  },
+  {
+   "id": "2.4",
+   "title": "Potential due to an Electric Dipole",
+   "hi": "वैद्युत द्विध्रुव के कारण विभव",
+   "pages": [],
+   "pdfPage": 5
+  },
+  {
+   "id": "2.5",
+   "title": "Potential due to a System of Charges",
+   "hi": "आवेशों के निकाय के कारण विभव",
+   "pages": [],
+   "pdfPage": 7
+  },
+  {
+   "id": "2.6",
+   "title": "Equipotential Surfaces",
+   "hi": "समविभव पृष्ठ",
+   "pages": [],
+   "pdfPage": 10
+  },
+  {
+   "id": "2.6.1",
+   "title": "Relation between Field and Potential",
+   "hi": "विद्युत क्षेत्र तथा वैद्युत विभव में संबंध",
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "2.7",
+   "title": "Potential Energy of a System of Charges",
+   "hi": "आवेशों के निकाय की स्थितिज ऊर्जा",
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "2.8",
+   "title": "Potential Energy in an External Field",
+   "hi": "बाह्य क्षेत्र में स्थितिज ऊर्जा",
+   "pages": [],
+   "pdfPage": 14
+  },
+  {
+   "id": "2.8.1",
+   "title": "Potential Energy of a Single Charge",
+   "hi": "एकल आवेश की स्थितिज ऊर्जा",
+   "pages": [],
+   "pdfPage": 14
+  },
+  {
+   "id": "2.8.2",
+   "title": "Potential Energy of a System of Two Charges in an External Field",
+   "hi": "किसी बाह्य क्षेत्र में दो आवेशों के निकाय की स्थितिज ऊर्जा",
+   "pages": [],
+   "pdfPage": 15
+  },
+  {
+   "id": "2.8.3",
+   "title": "Potential Energy of a Dipole in an External Field",
+   "hi": "बाह्य क्षेत्र में द्विध्रुव की स्थितिज ऊर्जा",
+   "pages": [],
+   "pdfPage": 16
+  },
+  {
+   "id": "2.9",
+   "title": "Electrostatics of Conductors",
+   "hi": "चालक-स्थिरवैद्युतिकी",
+   "pages": [],
+   "pdfPage": 17
+  },
+  {
+   "id": "2.10",
+   "title": "Dielectrics and Polarisation",
+   "hi": "परावैद्युत तथा ध्रुवण",
+   "pages": [],
+   "pdfPage": 21
+  },
+  {
+   "id": "2.11",
+   "title": "Capacitors and Capacitance",
+   "hi": "संधारित्र तथा धारिता",
+   "pages": [],
+   "pdfPage": 23
+  },
+  {
+   "id": "2.12",
+   "title": "The Parallel Plate Capacitor",
+   "hi": "समांतर पट्टिका संधारित्र",
+   "pages": [],
+   "pdfPage": 24
+  },
+  {
+   "id": "2.13",
+   "title": "Effect of Dielectric on Capacitance",
+   "hi": "धारिता पर परावैद्युत का प्रभाव",
+   "pages": [],
+   "pdfPage": 25
+  },
+  {
+   "id": "2.14",
+   "title": "Combination of Capacitors",
+   "hi": "संधारित्रों का संयोजन",
+   "pages": [],
+   "pdfPage": 27
+  },
+  {
+   "id": "2.14.1",
+   "title": "Capacitors in Series",
+   "hi": "संधारित्रों का श्रेणीक्रम संयोजन",
+   "pages": [],
+   "pdfPage": 27
+  },
+  {
+   "id": "2.14.2",
+   "title": "Capacitors in Parallel",
+   "hi": "संधारित्रों का पार्श्वक्रम संयोजन",
+   "pages": [],
+   "pdfPage": 28
+  },
+  {
+   "id": "2.15",
+   "title": "Energy Stored in a Capacitor",
+   "hi": "संधारित्र में संचित ऊर्जा",
+   "pages": [],
+   "pdfPage": 29
+  }
+ ],
+ "sections": [
+  {
+   "sec": "2.4",
+   "title": "Potential due to an Electric Dipole",
+   "hi": "वैद्युत द्विध्रुव के कारण विभव",
+   "pages": [],
+   "pdfPage": 5,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2020-code-f3-q13",
+     "exam": "NEET",
+     "q": "A short electric dipole has a dipole moment of 16 × 10<sup>−9</sup> C m. The electric potential due to the dipole at a point at a distance of 0.6 m from the centre of the dipole, situated on a line making an angle of 60° with the dipole axis is : (1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup>)",
+     "sol": "<p>Short dipole: V = kp cos θ/r<sup>2</sup> = 9 × 10<sup>9</sup> × 16 × 10<sup>−9</sup> × cos 60°/(0.6)<sup>2</sup> = 144 × 0.5/0.36 = <b>200 V</b>.</p>",
+     "hint": "V = kp cos θ/r<sup>2</sup>.",
+     "paras": [
+      "2.4"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q13",
+     "o": [
+      "400 V",
+      "Zero",
+      "50 V",
+      "200 V"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक लघु विद्युत द्विध्रुव का द्विध्रुव आघूर्ण 16 × 10<sup>−9</sup> C m है। द्विध्रुव के केंद्र से 0.6 m की दूरी पर, द्विध्रुव अक्ष से 60° का कोण बनाने वाली रेखा पर स्थित बिंदु पर द्विध्रुव के कारण विद्युत विभव है : (1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup>)",
+      "o": [
+       "400 V",
+       "शून्य",
+       "50 V",
+       "200 V"
+      ],
+      "sol": "<p>लघु द्विध्रुव : V = kp cos θ/r<sup>2</sup> = 9 × 10<sup>9</sup> × 16 × 10<sup>−9</sup> × cos 60°/(0.6)<sup>2</sup> = 144 × 0.5/0.36 = <b>200 V</b>।</p>",
+      "hint": "V = kp cos θ/r<sup>2</sup>।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2023-topic-wise-copy-q41",
+     "exam": "NEET",
+     "q": "An electric dipole is placed as shown in the figure. The electric potential (in 10<sup>2</sup> V) at point P due to the dipole is : (ε<sub>0</sub> = permittivity of free space and 1/(4πε<sub>0</sub>) = K)",
+     "sol": "<p>P is on the axis, r = 5 cm from the centre; half-length a = 3 cm. Exact axial potential: V = Kq/(r − a) − Kq/(r + a) = Kq(2a)/(r<sup>2</sup> − a<sup>2</sup>).</p><p>V = Kq × 0.06/(0.0025 − 0.0009) = Kq × 0.06/0.0016 = 37.5 Kq = <b>(3/8)qK</b> × 10<sup>2</sup> V.</p>",
+     "hint": "P is close to the dipole: use the exact formula, not kp/r<sup>2</sup>.",
+     "paras": [
+      "2.4"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q41",
+     "o": [
+      "(8/3)qK",
+      "(3/8)qK",
+      "(5/8)qK",
+      "(8/5)qK"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक विद्युत द्विध्रुव चित्र में दिखाए अनुसार रखा है। द्विध्रुव के कारण बिंदु P पर विद्युत विभव (10<sup>2</sup> V में) है : (ε<sub>0</sub> = मुक्त आकाश की विद्युतशीलता और 1/(4πε<sub>0</sub>) = K)",
+      "o": [
+       "(8/3)qK",
+       "(3/8)qK",
+       "(5/8)qK",
+       "(8/5)qK"
+      ],
+      "sol": "<p>P अक्ष पर केंद्र से r = 5 cm पर है; अर्ध-लंबाई a = 3 cm। यथार्थ अक्षीय विभव : V = Kq/(r − a) − Kq/(r + a) = Kq(2a)/(r<sup>2</sup> − a<sup>2</sup>)।</p><p>V = Kq × 0.06/(0.0025 − 0.0009) = Kq × 0.06/0.0016 = 37.5 Kq = <b>(3/8)qK</b> × 10<sup>2</sup> V।</p>",
+      "hint": "P द्विध्रुव के निकट है : kp/r<sup>2</sup> नहीं, यथार्थ सूत्र लीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2024-q29-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "Given below are two statements : one is labelled as Assertion A and the other is labelled as Reason R.<br>Assertion A : The potential (V) at any axial point, at 2 m distance (r) from the centre of the dipole of dipole moment vector p⃗ of magnitude, 4 × 10<sup>−6</sup> C m, is ±9 × 10<sup>3</sup> V. (Take 1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> SI units)<br>Reason R : V = ±2p/(4πε<sub>0</sub>r<sup>2</sup>), where r is the distance of any axial point, situated at 2 m from the centre of the dipole.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "sol": "<p>On the axis of a dipole (r ≫ dipole length): V = ±kp/r<sup>2</sup> = ±9 × 10<sup>9</sup> × 4 × 10<sup>−6</sup>/2<sup>2</sup> = ±9 × 10<sup>3</sup> V, so A is true.</p><p>R writes V = ±2p/(4πε<sub>0</sub>r<sup>2</sup>), which is twice the correct axial potential (2p/r<sup>3</sup> is the axial field form): R is false. Answer: <b>A is true but R is false</b>.</p>",
+     "hint": "Axial potential kp/r<sup>2</sup>; axial field 2kp/r<sup>3</sup>.",
+     "paras": [
+      "2.4"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q29 (eSaral physics copy)",
+     "o": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true and R is NOT the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+     ],
+     "a": 2,
+     "hi": {
+      "q": "नीचे दो कथन दिए गए हैं : एक को अभिकथन A और दूसरे को कारण R कहा गया है।<br>अभिकथन A : 4 × 10<sup>−6</sup> C m परिमाण के द्विध्रुव आघूर्ण सदिश p⃗ वाले द्विध्रुव के केंद्र से 2 m दूरी (r) पर किसी अक्षीय बिंदु पर विभव (V) ±9 × 10<sup>3</sup> V है। (1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> SI मात्रक लीजिए)<br>कारण R : V = ±2p/(4πε<sub>0</sub>r<sup>2</sup>), जहाँ r द्विध्रुव के केंद्र से 2 m पर स्थित किसी अक्षीय बिंदु की दूरी है।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "A और R दोनों सत्य हैं और R, A की सही व्याख्या है।",
+       "A और R दोनों सत्य हैं और R, A की सही व्याख्या नहीं है।",
+       "A सत्य है परंतु R असत्य है।",
+       "A असत्य है परंतु R सत्य है।"
+      ],
+      "sol": "<p>द्विध्रुव की अक्ष पर (r ≫ द्विध्रुव लंबाई) : V = ±kp/r<sup>2</sup> = ±9 × 10<sup>9</sup> × 4 × 10<sup>−6</sup>/2<sup>2</sup> = ±9 × 10<sup>3</sup> V, अतः A सत्य है।</p><p>R में V = ±2p/(4πε<sub>0</sub>r<sup>2</sup>) लिखा है, जो सही अक्षीय विभव का दोगुना है (2p/r<sup>3</sup> अक्षीय क्षेत्र का रूप है) : R असत्य है। उत्तर : <b>A सत्य है परंतु R असत्य है</b>।</p>",
+      "hint": "अक्षीय विभव kp/r<sup>2</sup>; अक्षीय क्षेत्र 2kp/r<sup>3</sup>।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "2.6",
+   "title": "Equipotential Surfaces",
+   "hi": "समविभव पृष्ठ",
+   "pages": [],
+   "pdfPage": 10,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2017-code-a-q12",
+     "exam": "NEET",
+     "q": "The diagrams below show regions of equipotentials. A positive charge is moved from A to B in each diagram.",
+     "sol": "<p>Work to move a charge = q × (potential difference); it depends only on the potentials at A and B, not on the path or the spacing of the equipotentials. In each diagram the potential difference between A and B is the same, so <b>the work done is the same in all four cases</b>.</p>",
+     "hint": "W = qΔV, path independent.",
+     "paras": [
+      "2.6"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q12",
+     "o": [
+      "Maximum work is required to move q in figure (c).",
+      "In all the four cases the work done is the same.",
+      "Minimum work is required to move q in figure (a).",
+      "Maximum work is required to move q in figure (b)."
+     ],
+     "a": 1,
+     "hi": {
+      "q": "नीचे दिए गए आरेख समविभव क्षेत्रों को दर्शाते हैं। प्रत्येक आरेख में एक धनावेश को A से B तक ले जाया जाता है।",
+      "o": [
+       "आकृति (c) में q को ले जाने में अधिकतम कार्य की आवश्यकता होती है।",
+       "चारों स्थितियों में किया गया कार्य समान है।",
+       "आकृति (a) में q को ले जाने में न्यूनतम कार्य की आवश्यकता होती है।",
+       "आकृति (b) में q को ले जाने में अधिकतम कार्य की आवश्यकता होती है।"
+      ],
+      "sol": "<p>किसी आवेश को ले जाने में कार्य = q × (विभवांतर); यह केवल A और B के विभवों पर निर्भर है, पथ या समविभव पृष्ठों के अंतराल पर नहीं। प्रत्येक आरेख में A और B के बीच विभवांतर समान है, अतः <b>चारों स्थितियों में किया गया कार्य समान है</b>।</p>",
+      "hint": "W = qΔV, पथ से स्वतंत्र।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2022-code-t2-q32",
+     "exam": "NEET",
+     "q": "The angle between the electric lines of force and the equipotential surface is :",
+     "sol": "<p>No work is done in moving a charge along an equipotential surface, so the field has no component along it: field lines always cross equipotential surfaces at <b>90°</b>.</p>",
+     "hint": "E⃗ = −∇V is along the steepest change of V.",
+     "paras": [
+      "2.6"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q32",
+     "o": [
+      "45°",
+      "90°",
+      "180°",
+      "0°"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "विद्युत बल रेखाओं और समविभव पृष्ठ के बीच का कोण है :",
+      "o": [
+       "45°",
+       "90°",
+       "180°",
+       "0°"
+      ],
+      "sol": "<p>समविभव पृष्ठ के अनुदिश आवेश ले जाने में कोई कार्य नहीं होता, अतः उसके अनुदिश क्षेत्र का कोई घटक नहीं है : क्षेत्र रेखाएँ समविभव पृष्ठों को सदैव <b>90°</b> पर काटती हैं।</p>",
+      "hint": "E⃗ = −∇V, V के सबसे तीव्र परिवर्तन की दिशा में है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "2.6.1",
+   "title": "Relation between Field and Potential",
+   "hi": "विद्युत क्षेत्र तथा वैद्युत विभव में संबंध",
+   "pages": [],
+   "pdfPage": 11,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2015-re-exam-code-d-q157",
+     "exam": "NEET",
+     "q": "If potential (in volts) in a region is expressed as V(x, y, z) = 6xy − y + 2yz, the electric field (in N/C) at point (1, 1, 0) is :",
+     "sol": "<p>E⃗ = −∇V. ∂V/∂x = 6y, ∂V/∂y = 6x − 1 + 2z, ∂V/∂z = 2y. At (1, 1, 0): 6, 5 and 2.</p><p>E⃗ = <b>−(6î + 5ĵ + 2k̂)</b> N/C.</p>",
+     "hint": "Take each partial derivative, then put in the point.",
+     "paras": [
+      "2.6.1"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q157",
+     "o": [
+      "−(6î + 5ĵ + 2k̂)",
+      "−(2î + 3ĵ + k̂)",
+      "−(6î + 9ĵ + k̂)",
+      "−(3î + 5ĵ + 3k̂)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "यदि किसी क्षेत्र में विभव (वोल्ट में) V(x, y, z) = 6xy − y + 2yz के रूप में व्यक्त है, तो बिंदु (1, 1, 0) पर विद्युत क्षेत्र (N/C में) है :",
+      "o": [
+       "−(6î + 5ĵ + 2k̂)",
+       "−(2î + 3ĵ + k̂)",
+       "−(6î + 9ĵ + k̂)",
+       "−(3î + 5ĵ + 3k̂)"
+      ],
+      "sol": "<p>E⃗ = −∇V। ∂V/∂x = 6y, ∂V/∂y = 6x − 1 + 2z, ∂V/∂z = 2y। (1, 1, 0) पर : 6, 5 और 2।</p><p>E⃗ = <b>−(6î + 5ĵ + 2k̂)</b> N/C ।</p>",
+      "hint": "प्रत्येक आंशिक अवकलज लेकर बिंदु के मान रखिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2020-code-f3-q8",
+     "exam": "NEET",
+     "q": "In a certain region of space with volume 0.2 m<sup>3</sup>, the electric potential is found to be 5 V throughout. The magnitude of electric field in this region is :",
+     "sol": "<p>E = −dV/dr. The potential is the same (5 V) everywhere in the region, so its gradient and the field are <b>zero</b>. (The volume is irrelevant.)</p>",
+     "hint": "Uniform potential ⇒ zero field.",
+     "paras": [
+      "2.6.1"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q8",
+     "o": [
+      "1 N/C",
+      "5 N/C",
+      "Zero",
+      "0.5 N/C"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "आकाश के 0.2 m<sup>3</sup> आयतन वाले एक क्षेत्र में विद्युत विभव पूरे क्षेत्र में 5 V पाया जाता है। इस क्षेत्र में विद्युत क्षेत्र का परिमाण है :",
+      "o": [
+       "1 N/C",
+       "5 N/C",
+       "शून्य",
+       "0.5 N/C"
+      ],
+      "sol": "<p>E = −dV/dr । क्षेत्र में सर्वत्र विभव समान (5 V) है, अतः उसकी प्रवणता और क्षेत्र <b>शून्य</b> हैं। (आयतन अप्रासंगिक है।)</p>",
+      "hint": "एकसमान विभव ⇒ शून्य क्षेत्र।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "2.8.3",
+   "title": "Potential Energy of a Dipole in an External Field",
+   "hi": "बाह्य क्षेत्र में द्विध्रुव की स्थितिज ऊर्जा",
+   "pages": [],
+   "pdfPage": 16,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2025-code-45-q35",
+     "exam": "NEET",
+     "q": "An electric dipole with dipole moment 5 × 10<sup>−6</sup> C m is aligned with the direction of a uniform electric field of magnitude 4 × 10<sup>5</sup> N/C. The dipole is then rotated through an angle of 60° with respect to the electric field. The change in the potential energy of the dipole is :",
+     "sol": "<p>U = −pE cos θ. ΔU = U(60°) − U(0°) = pE(1 − cos 60°) = 5 × 10<sup>−6</sup> × 4 × 10<sup>5</sup> × 0.5 = <b>1.0 J</b>.</p>",
+     "hint": "U = −p⃗ · E⃗.",
+     "paras": [
+      "2.8.3"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q35",
+     "o": [
+      "0.8 J",
+      "1.0 J",
+      "1.2 J",
+      "1.5 J"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "5 × 10<sup>−6</sup> C m द्विध्रुव आघूर्ण वाला एक विद्युत द्विध्रुव 4 × 10<sup>5</sup> N/C परिमाण के एकसमान विद्युत क्षेत्र की दिशा में संरेखित है। फिर द्विध्रुव को विद्युत क्षेत्र के सापेक्ष 60° के कोण से घुमाया जाता है। द्विध्रुव की स्थितिज ऊर्जा में परिवर्तन है :",
+      "o": [
+       "0.8 J",
+       "1.0 J",
+       "1.2 J",
+       "1.5 J"
+      ],
+      "sol": "<p>U = −pE cos θ। ΔU = U(60°) − U(0°) = pE(1 − cos 60°) = 5 × 10<sup>−6</sup> × 4 × 10<sup>5</sup> × 0.5 = <b>1.0 J</b>।</p>",
+      "hint": "U = −p⃗ · E⃗।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "2.9",
+   "title": "Electrostatics of Conductors",
+   "hi": "चालक-स्थिरवैद्युतिकी",
+   "pages": [],
+   "pdfPage": 17,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2021-code-p3-q4",
+     "exam": "NEET",
+     "q": "Two charged spherical conductors of radius R<sub>1</sub> and R<sub>2</sub> are connected by a wire. Then the ratio of surface charge densities of the spheres (σ<sub>1</sub>/σ<sub>2</sub>) is :",
+     "sol": "<p>Connected conductors reach the same potential: kQ<sub>1</sub>/R<sub>1</sub> = kQ<sub>2</sub>/R<sub>2</sub> ⇒ Q ∝ R. Surface charge density σ = Q/(4πR<sup>2</sup>) ∝ 1/R.</p><p>σ<sub>1</sub>/σ<sub>2</sub> = <b>R<sub>2</sub>/R<sub>1</sub></b>.</p>",
+     "hint": "Same potential ⇒ σ ∝ 1/R (why sharp points discharge).",
+     "paras": [
+      "2.9"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q4",
+     "o": [
+      "R<sub>1</sub><sup>2</sup>/R<sub>2</sub><sup>2</sup>",
+      "R<sub>1</sub>/R<sub>2</sub>",
+      "R<sub>2</sub>/R<sub>1</sub>",
+      "√(R<sub>1</sub>/R<sub>2</sub>)"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "R<sub>1</sub> और R<sub>2</sub> त्रिज्याओं वाले दो आवेशित गोलीय चालक एक तार से जुड़े हैं। तब गोलों के पृष्ठीय आवेश घनत्वों का अनुपात (σ<sub>1</sub>/σ<sub>2</sub>) है :",
+      "o": [
+       "R<sub>1</sub><sup>2</sup>/R<sub>2</sub><sup>2</sup>",
+       "R<sub>1</sub>/R<sub>2</sub>",
+       "R<sub>2</sub>/R<sub>1</sub>",
+       "√(R<sub>1</sub>/R<sub>2</sub>)"
+      ],
+      "sol": "<p>जुड़े हुए चालक समान विभव पर आ जाते हैं : kQ<sub>1</sub>/R<sub>1</sub> = kQ<sub>2</sub>/R<sub>2</sub> ⇒ Q ∝ R। पृष्ठीय आवेश घनत्व σ = Q/(4πR<sup>2</sup>) ∝ 1/R ।</p><p>σ<sub>1</sub>/σ<sub>2</sub> = <b>R<sub>2</sub>/R<sub>1</sub></b>।</p>",
+      "hint": "समान विभव ⇒ σ ∝ 1/R (इसीलिए नुकीले सिरों से आवेश क्षरित होता है)।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2026-code-13-q24",
+     "exam": "NEET",
+     "q": "Which of the following statements are correct?<br>A. Inside a conductor, the electrostatic field is zero.<br>B. Electric field at the surface of a charged conductor does not depend on its surface charge density.<br>C. The interior of a charged conductor can have no excess charge in the static situation.<br>D. At the surface of a charged conductor, the electrostatic field must be normal to the surface at every point.<br>E. The electrostatic potential is zero everywhere inside a charged conductor.<br>Choose the correct answer from the options given below :",
+     "sol": "<p>A: true (static field inside a conductor is zero). B: false, E = σ/ε<sub>0</sub> at the surface. C: true (excess charge resides on the surface). D: true (otherwise surface charges would move). E: false, the potential inside is constant but not necessarily zero.</p><p>Answer: <b>A, C and D only</b>.</p>",
+     "hint": "Constant potential inside ≠ zero potential.",
+     "paras": [
+      "2.9"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q24",
+     "o": [
+      "A, C and D only",
+      "A, C and E only",
+      "C, D and E only",
+      "A, B and D only"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "निम्नलिखित में से कौन-से कथन सही हैं?<br>A. चालक के अंदर स्थिरवैद्युत क्षेत्र शून्य है।<br>B. आवेशित चालक के पृष्ठ पर विद्युत क्षेत्र उसके पृष्ठीय आवेश घनत्व पर निर्भर नहीं करता।<br>C. स्थैतिक स्थिति में आवेशित चालक के अभ्यंतर में कोई आधिक्य आवेश नहीं हो सकता।<br>D. आवेशित चालक के पृष्ठ पर स्थिरवैद्युत क्षेत्र प्रत्येक बिंदु पर पृष्ठ के अभिलंबवत होना चाहिए।<br>E. आवेशित चालक के अंदर स्थिरवैद्युत विभव सर्वत्र शून्य होता है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "केवल A, C और D",
+       "केवल A, C और E",
+       "केवल C, D और E",
+       "केवल A, B और D"
+      ],
+      "sol": "<p>A : सत्य (चालक के अंदर स्थैतिक क्षेत्र शून्य है)। B : असत्य, पृष्ठ पर E = σ/ε<sub>0</sub>। C : सत्य (आधिक्य आवेश पृष्ठ पर रहता है)। D : सत्य (अन्यथा पृष्ठ आवेश चलने लगेंगे)। E : असत्य, अंदर विभव नियत है परंतु आवश्यक रूप से शून्य नहीं।</p><p>उत्तर : <b>केवल A, C और D</b>।</p>",
+      "hint": "अंदर नियत विभव ≠ शून्य विभव।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "2.10",
+   "title": "Dielectrics and Polarisation",
+   "hi": "परावैद्युत तथा ध्रुवण",
+   "pages": [],
+   "pdfPage": 21,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2021-code-p3-q2",
+     "exam": "NEET",
+     "q": "Polar molecules are the molecules",
+     "sol": "<p>A polar molecule (e.g. H<sub>2</sub>O, HCl) has its positive and negative charge centres apart even with no field: it has a <b>permanent electric dipole moment</b>. Molecules that get a dipole only in a field are non-polar molecules (induced dipoles).</p>",
+     "hint": "Polar = permanent dipole.",
+     "paras": [
+      "2.10"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q2",
+     "o": [
+      "Having a permanent electric dipole moment",
+      "Having zero dipole moment",
+      "Acquire a dipole moment only in the presence of electric field due to displacement of charges",
+      "Acquire a dipole moment only when magnetic field is absent"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "ध्रुवीय अणु वे अणु हैं",
+      "o": [
+       "जिनका स्थायी विद्युत द्विध्रुव आघूर्ण होता है",
+       "जिनका द्विध्रुव आघूर्ण शून्य होता है",
+       "जो आवेशों के विस्थापन के कारण केवल विद्युत क्षेत्र की उपस्थिति में द्विध्रुव आघूर्ण प्राप्त करते हैं",
+       "जो केवल चुंबकीय क्षेत्र की अनुपस्थिति में द्विध्रुव आघूर्ण प्राप्त करते हैं"
+      ],
+      "sol": "<p>ध्रुवीय अणु (जैसे H<sub>2</sub>O, HCl) में क्षेत्र न होने पर भी धनात्मक और ऋणात्मक आवेश केंद्र अलग रहते हैं : इनका <b>स्थायी विद्युत द्विध्रुव आघूर्ण</b> होता है। जो अणु केवल क्षेत्र में द्विध्रुव प्राप्त करते हैं वे अध्रुवीय अणु हैं (प्रेरित द्विध्रुव)।</p>",
+      "hint": "ध्रुवीय = स्थायी द्विध्रुव।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "2.12",
+   "title": "The Parallel Plate Capacitor",
+   "hi": "समांतर पट्टिका संधारित्र",
+   "pages": [],
+   "pdfPage": 24,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2018-code-aa-q23",
+     "exam": "NEET",
+     "q": "The electrostatic force between the metal plates of an isolated parallel plate capacitor C having a charge Q and area A, is :",
+     "sol": "<p>F = Q<sup>2</sup>/(2ε<sub>0</sub>A) for an isolated capacitor (fixed Q). The field σ/ε<sub>0</sub> does not depend on the separation, so the force is <b>independent of the distance between the plates</b>.</p>",
+     "hint": "Isolated ⇒ Q fixed ⇒ σ fixed.",
+     "paras": [
+      "2.12"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q23",
+     "o": [
+      "proportional to the square root of the distance between the plates",
+      "linearly proportional to the distance between the plates",
+      "independent of the distance between the plates",
+      "inversely proportional to the distance between the plates"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "आवेश Q और क्षेत्रफल A वाले एक विलगित समांतर पट्टिका संधारित्र C की धातु पट्टिकाओं के बीच स्थिरवैद्युत बल है :",
+      "o": [
+       "पट्टिकाओं के बीच की दूरी के वर्गमूल के अनुक्रमानुपाती",
+       "पट्टिकाओं के बीच की दूरी के रैखिकतः अनुक्रमानुपाती",
+       "पट्टिकाओं के बीच की दूरी से स्वतंत्र",
+       "पट्टिकाओं के बीच की दूरी के व्युत्क्रमानुपाती"
+      ],
+      "sol": "<p>विलगित संधारित्र (नियत Q) के लिए F = Q<sup>2</sup>/(2ε<sub>0</sub>A)। क्षेत्र σ/ε<sub>0</sub> दूरी पर निर्भर नहीं है, अतः बल <b>पट्टिकाओं के बीच की दूरी से स्वतंत्र</b> है।</p>",
+      "hint": "विलगित ⇒ Q नियत ⇒ σ नियत।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "2.13",
+   "title": "Effect of Dielectric on Capacitance",
+   "hi": "धारिता पर परावैद्युत का प्रभाव",
+   "pages": [],
+   "pdfPage": 25,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2020-code-f3-q27",
+     "exam": "NEET",
+     "q": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (ε<sub>0</sub> = 8.85 × 10<sup>−12</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>)",
+     "sol": "<p>Dielectric constant K = C/C<sub>0</sub> = 30/6 = 5. Permittivity ε = Kε<sub>0</sub> = 5 × 8.85 × 10<sup>−12</sup> = 4.4 × 10<sup>−11</sup> ≈ <b>0.44 × 10<sup>−10</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup></b>.</p>",
+     "hint": "ε = Kε<sub>0</sub>.",
+     "paras": [
+      "2.13"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q27",
+     "o": [
+      "0.44 × 10<sup>−10</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>",
+      "5.00 C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>",
+      "0.44 × 10<sup>−13</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>",
+      "1.77 × 10<sup>−12</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "वायु माध्यम वाले एक समांतर पट्टिका संधारित्र की धारिता 6 μF है। एक परावैद्युत माध्यम लगाने पर धारिता 30 μF हो जाती है। माध्यम की विद्युतशीलता है : (ε<sub>0</sub> = 8.85 × 10<sup>−12</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>)",
+      "o": [
+       "0.44 × 10<sup>−10</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>",
+       "5.00 C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>",
+       "0.44 × 10<sup>−13</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>",
+       "1.77 × 10<sup>−12</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>"
+      ],
+      "sol": "<p>परावैद्युतांक K = C/C<sub>0</sub> = 30/6 = 5। विद्युतशीलता ε = Kε<sub>0</sub> = 5 × 8.85 × 10<sup>−12</sup> = 4.4 × 10<sup>−11</sup> ≈ <b>0.44 × 10<sup>−10</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup></b>।</p>",
+      "hint": "ε = Kε<sub>0</sub>।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2025-code-45-q20",
+     "exam": "NEET",
+     "q": "The plates of a parallel plate capacitor are separated by d. Two slabs of different dielectric constant K<sub>1</sub> and K<sub>2</sub> with thickness (3/8)d and d/2, respectively are inserted in the capacitor. Due to this, the capacitance becomes two times larger than when there is nothing between the plates. If K<sub>1</sub> = 1.25 K<sub>2</sub>, the value of K<sub>1</sub> is :",
+     "sol": "<p>With slabs of thickness t<sub>1</sub>, t<sub>2</sub> and air t<sub>3</sub> = d − 3d/8 − d/2 = d/8: C = ε<sub>0</sub>A/(t<sub>1</sub>/K<sub>1</sub> + t<sub>2</sub>/K<sub>2</sub> + t<sub>3</sub>). C = 2C<sub>0</sub> needs the denominator to be d/2:</p><p>3d/(8K<sub>1</sub>) + d/(2K<sub>2</sub>) + d/8 = d/2. With K<sub>2</sub> = K<sub>1</sub>/1.25: 3/(8K<sub>1</sub>) + 5/(8K<sub>1</sub>) = 3/8 ⇒ 1/K<sub>1</sub> = 3/8 ⇒ K<sub>1</sub> = 8/3 ≈ <b>2.66</b>.</p>",
+     "hint": "Stacked slabs: effective air gap = Σ t/K.",
+     "paras": [
+      "2.13"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q20",
+     "o": [
+      "2.66",
+      "2.33",
+      "1.60",
+      "1.33"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "एक समांतर पट्टिका संधारित्र की पट्टिकाएँ d दूरी पर हैं। भिन्न परावैद्युतांक K<sub>1</sub> और K<sub>2</sub> तथा क्रमशः (3/8)d और d/2 मोटाई वाले दो पट्ट संधारित्र में रखे जाते हैं। इसके कारण धारिता पट्टिकाओं के बीच कुछ न होने की तुलना में दोगुनी हो जाती है। यदि K<sub>1</sub> = 1.25 K<sub>2</sub> है, तो K<sub>1</sub> का मान है :",
+      "o": [
+       "2.66",
+       "2.33",
+       "1.60",
+       "1.33"
+      ],
+      "sol": "<p>t<sub>1</sub>, t<sub>2</sub> मोटाई के पट्टों और वायु t<sub>3</sub> = d − 3d/8 − d/2 = d/8 के साथ : C = ε<sub>0</sub>A/(t<sub>1</sub>/K<sub>1</sub> + t<sub>2</sub>/K<sub>2</sub> + t<sub>3</sub>)। C = 2C<sub>0</sub> के लिए हर d/2 होना चाहिए :</p><p>3d/(8K<sub>1</sub>) + d/(2K<sub>2</sub>) + d/8 = d/2। K<sub>2</sub> = K<sub>1</sub>/1.25 रखने पर : 3/(8K<sub>1</sub>) + 5/(8K<sub>1</sub>) = 3/8 ⇒ 1/K<sub>1</sub> = 3/8 ⇒ K<sub>1</sub> = 8/3 ≈ <b>2.66</b>।</p>",
+      "hint": "एक के ऊपर एक पट्ट : प्रभावी वायु अंतराल = Σ t/K ।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "2.14",
+   "title": "Combination of Capacitors",
+   "hi": "संधारित्रों का संयोजन",
+   "pages": [],
+   "pdfPage": 27,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2023-topic-wise-copy-q18",
+     "exam": "NEET",
+     "q": "The equivalent capacitance of the system shown in the following circuit is :",
+     "sol": "<p>The two 3 μF capacitors in parallel give 6 μF, in series with 3 μF: C = (3 × 6)/(3 + 6) = <b>2 μF</b>.</p>",
+     "hint": "Parallel first, then series.",
+     "paras": [
+      "2.14"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q18",
+     "o": [
+      "9 μF",
+      "2 μF",
+      "3 μF",
+      "6 μF"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "निम्नलिखित परिपथ में दिखाए गए निकाय की तुल्य धारिता है :",
+      "o": [
+       "9 μF",
+       "2 μF",
+       "3 μF",
+       "6 μF"
+      ],
+      "sol": "<p>पार्श्वक्रम में दो 3 μF संधारित्र 6 μF देते हैं, जो 3 μF के साथ श्रेणीक्रम में हैं : C = (3 × 6)/(3 + 6) = <b>2 μF</b>।</p>",
+      "hint": "पहले पार्श्वक्रम, फिर श्रेणीक्रम।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2024-q27-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "In the following circuit, the equivalent capacitance between terminal A and terminal B is :",
+     "sol": "<p>The five 2 μF capacitors form a bridge whose ratio arms are equal (2/2 = 2/2), so it is balanced and the middle capacitor carries no charge. Remove it: two branches, each two 2 μF in series (1 μF), in parallel: C<sub>AB</sub> = 1 + 1 = <b>2 μF</b>.</p>",
+     "hint": "Balanced bridge: drop the middle element.",
+     "paras": [
+      "2.14"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q27 (eSaral physics copy)",
+     "o": [
+      "2 μF",
+      "1 μF",
+      "0.5 μF",
+      "4 μF"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "निम्नलिखित परिपथ में टर्मिनल A और टर्मिनल B के बीच तुल्य धारिता है :",
+      "o": [
+       "2 μF",
+       "1 μF",
+       "0.5 μF",
+       "4 μF"
+      ],
+      "sol": "<p>पाँच 2 μF संधारित्र एक सेतु बनाते हैं जिसकी अनुपाती भुजाएँ बराबर हैं (2/2 = 2/2), अतः यह संतुलित है और मध्य वाले संधारित्र पर कोई आवेश नहीं। उसे हटाइए : दो शाखाएँ, प्रत्येक में श्रेणीक्रम में दो 2 μF (1 μF), पार्श्वक्रम में : C<sub>AB</sub> = 1 + 1 = <b>2 μF</b>।</p>",
+      "hint": "संतुलित सेतु : मध्य अवयव हटा दीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2026-code-13-q9",
+     "exam": "NEET",
+     "q": "Five capacitors of capacitances C<sub>1</sub> = C<sub>2</sub> = C<sub>3</sub> = C<sub>4</sub> = 10 μF and C<sub>5</sub> = 2.5 μF are connected as shown, along with a battery of 50 V. The equivalent capacitance and the charges on each capacitor respectively are :",
+     "sol": "<p>Branch 1: C<sub>1</sub>–C<sub>4</sub> (10 μF each) in series = 2.5 μF. Branch 2: C<sub>5</sub> = 2.5 μF. Both are across 50 V, in parallel: C<sub>eq</sub> = 5 μF.</p><p>Charge on each branch = 2.5 μF × 50 V = 125 μC; in series every capacitor carries the same charge. So <b>5 μF, 125 μC on all capacitors</b>.</p>",
+     "hint": "Series capacitors carry the same charge.",
+     "paras": [
+      "2.14"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q9",
+     "o": [
+      "4 μF, 250 μC on C<sub>1</sub> to C<sub>4</sub> and 125 μC on C<sub>5</sub>",
+      "5 μF, 250 μC on all capacitors",
+      "5 μF, 125 μC on C<sub>1</sub> to C<sub>4</sub> and 25 μC on C<sub>5</sub>",
+      "5 μF, 125 μC on all capacitors"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "धारिताओं C<sub>1</sub> = C<sub>2</sub> = C<sub>3</sub> = C<sub>4</sub> = 10 μF और C<sub>5</sub> = 2.5 μF वाले पाँच संधारित्र 50 V की बैटरी के साथ दिखाए अनुसार जुड़े हैं। तुल्य धारिता और प्रत्येक संधारित्र पर आवेश क्रमशः हैं :",
+      "o": [
+       "4 μF, C<sub>1</sub> से C<sub>4</sub> पर 250 μC और C<sub>5</sub> पर 125 μC",
+       "5 μF, सभी संधारित्रों पर 250 μC",
+       "5 μF, C<sub>1</sub> से C<sub>4</sub> पर 125 μC और C<sub>5</sub> पर 25 μC",
+       "5 μF, सभी संधारित्रों पर 125 μC"
+      ],
+      "sol": "<p>शाखा 1 : C<sub>1</sub>–C<sub>4</sub> (प्रत्येक 10 μF) श्रेणीक्रम में = 2.5 μF। शाखा 2 : C<sub>5</sub> = 2.5 μF। दोनों 50 V के सिरों पर, पार्श्वक्रम में : C<sub>eq</sub> = 5 μF।</p><p>प्रत्येक शाखा पर आवेश = 2.5 μF × 50 V = 125 μC; श्रेणीक्रम में प्रत्येक संधारित्र पर समान आवेश होता है। अतः <b>5 μF, सभी संधारित्रों पर 125 μC</b>।</p>",
+      "hint": "श्रेणीक्रम संधारित्रों पर समान आवेश होता है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "2.14.2",
+   "title": "Capacitors in Parallel",
+   "hi": "संधारित्रों का पार्श्वक्रम संयोजन",
+   "pages": [],
+   "pdfPage": 28,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2021-code-p3-q20",
+     "exam": "NEET",
+     "q": "The equivalent capacitance of the combination shown in the figure is :",
+     "sol": "<p>The middle capacitor joins two points that are already connected by a plain wire on the same side, so both its plates are at the same potential: it is shorted and carries no charge. The remaining two capacitors C are in parallel between the terminals: C<sub>eq</sub> = <b>2C</b>.</p>",
+     "hint": "A capacitor with both plates on the same node stores nothing.",
+     "paras": [
+      "2.14.2"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q20",
+     "o": [
+      "3C/2",
+      "3C",
+      "2C",
+      "C/2"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "चित्र में दिखाए गए संयोजन की तुल्य धारिता है :",
+      "o": [
+       "3C/2",
+       "3C",
+       "2C",
+       "C/2"
+      ],
+      "sol": "<p>मध्य वाला संधारित्र उन दो बिंदुओं को जोड़ता है जो एक ही ओर पहले से सादे तार से जुड़े हैं, अतः उसकी दोनों पट्टिकाएँ समान विभव पर हैं : वह लघुपथित है और उस पर कोई आवेश नहीं। शेष दो संधारित्र C टर्मिनलों के बीच पार्श्वक्रम में हैं : C<sub>eq</sub> = <b>2C</b>।</p>",
+      "hint": "जिस संधारित्र की दोनों पट्टिकाएँ एक ही संधि पर हों, वह कुछ संचित नहीं करता।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "2.15",
+   "title": "Energy Stored in a Capacitor",
+   "hi": "संधारित्र में संचित ऊर्जा",
+   "pages": [],
+   "pdfPage": 29,
+   "questions": [
+    {
+     "id": "phy12-02-neet-2021-code-p3-q5",
+     "exam": "NEET",
+     "q": "A parallel plate capacitor has a uniform electric field 'E⃗' in the space between the plates. If the distance between the plates is 'd' and the area of each plate is 'A', the energy stored in the capacitor is : (ε<sub>0</sub> = permittivity of free space)",
+     "sol": "<p>Energy density u = (1/2)ε<sub>0</sub>E<sup>2</sup>, filling the volume Ad between the plates: U = <b>(1/2)ε<sub>0</sub>E<sup>2</sup>Ad</b>.</p>",
+     "hint": "Energy = energy density × volume.",
+     "paras": [
+      "2.15"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q5",
+     "o": [
+      "E<sup>2</sup>Ad/ε<sub>0</sub>",
+      "(1/2)ε<sub>0</sub>E<sup>2</sup>",
+      "ε<sub>0</sub>EAd",
+      "(1/2)ε<sub>0</sub>E<sup>2</sup>Ad"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक समांतर पट्टिका संधारित्र की पट्टिकाओं के बीच के स्थान में एकसमान विद्युत क्षेत्र 'E⃗' है। यदि पट्टिकाओं के बीच की दूरी 'd' और प्रत्येक पट्टिका का क्षेत्रफल 'A' है, तो संधारित्र में संचित ऊर्जा है : (ε<sub>0</sub> = मुक्त आकाश की विद्युतशीलता)",
+      "o": [
+       "E<sup>2</sup>Ad/ε<sub>0</sub>",
+       "(1/2)ε<sub>0</sub>E<sup>2</sup>",
+       "ε<sub>0</sub>EAd",
+       "(1/2)ε<sub>0</sub>E<sup>2</sup>Ad"
+      ],
+      "sol": "<p>ऊर्जा घनत्व u = (1/2)ε<sub>0</sub>E<sup>2</sup>, जो पट्टिकाओं के बीच के आयतन Ad में भरा है : U = <b>(1/2)ε<sub>0</sub>E<sup>2</sup>Ad</b>।</p>",
+      "hint": "ऊर्जा = ऊर्जा घनत्व × आयतन।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy12-02-neet-2022-code-t2-q1",
+     "exam": "NEET",
+     "q": "Two hollow conducting spheres of radii R<sub>1</sub> and R<sub>2</sub> (R<sub>1</sub> >> R<sub>2</sub>) have equal charges. The potential would be :",
+     "sol": "<p>Potential of a charged spherical conductor V = Q/(4πε<sub>0</sub>R). Equal Q ⇒ V ∝ 1/R, so the potential is <b>more on the smaller sphere</b>.</p>",
+     "hint": "V ∝ 1/R at equal charge.",
+     "paras": [
+      "2.3",
+      "2.9"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q1",
+     "o": [
+      "more on smaller sphere",
+      "equal on both the spheres",
+      "dependent on the material property of the sphere",
+      "more on bigger sphere"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "R<sub>1</sub> और R<sub>2</sub> (R<sub>1</sub> >> R<sub>2</sub>) त्रिज्याओं वाले दो खोखले चालक गोलों पर बराबर आवेश हैं। विभव होगा :",
+      "o": [
+       "छोटे गोले पर अधिक",
+       "दोनों गोलों पर बराबर",
+       "गोले के पदार्थ के गुणधर्म पर निर्भर",
+       "बड़े गोले पर अधिक"
+      ],
+      "sol": "<p>आवेशित गोलीय चालक का विभव V = Q/(4πε<sub>0</sub>R)। समान Q ⇒ V ∝ 1/R, अतः विभव <b>छोटे गोले पर अधिक</b> है।</p>",
+      "hint": "समान आवेश पर V ∝ 1/R ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2024-q28-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "A thin spherical shell is charged by some source. The potential difference between the two points C and P (in V) shown in the figure is : (Take 1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> SI units)",
+     "sol": "<p>Inside a charged spherical shell the field is zero, so the potential is the same everywhere inside and on the shell: V = kq/R at both C (centre) and P (on the shell). V<sub>C</sub> − V<sub>P</sub> = <b>zero</b>.</p>",
+     "hint": "E = 0 inside ⇒ V constant.",
+     "paras": [
+      "2.3",
+      "2.9"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q28 (eSaral physics copy)",
+     "o": [
+      "3 × 10<sup>5</sup>",
+      "1 × 10<sup>5</sup>",
+      "0.5 × 10<sup>5</sup>",
+      "Zero"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक पतला गोलीय कोश किसी स्रोत द्वारा आवेशित किया गया है। चित्र में दर्शाए गए दो बिंदुओं C और P के बीच विभवांतर (V में) है : (1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> SI मात्रक लीजिए)",
+      "o": [
+       "3 × 10<sup>5</sup>",
+       "1 × 10<sup>5</sup>",
+       "0.5 × 10<sup>5</sup>",
+       "शून्य"
+      ],
+      "sol": "<p>आवेशित गोलीय कोश के अंदर क्षेत्र शून्य है, अतः कोश के अंदर और उस पर विभव सर्वत्र समान है : C (केंद्र) और P (कोश पर) दोनों पर V = kq/R । V<sub>C</sub> − V<sub>P</sub> = <b>शून्य</b>।</p>",
+      "hint": "अंदर E = 0 ⇒ V नियत।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2021-code-p3-q36",
+     "exam": "NEET",
+     "q": "Twenty seven drops of same size are charged at 220 V each. They combine to form a bigger drop. Calculate the potential of the bigger drop.",
+     "sol": "<p>Volume conserved: R = 27<sup>1/3</sup>r = 3r. Charge adds: Q = 27q.</p><p>V = kQ/R = 27kq/(3r) = 9 × (kq/r) = 9 × 220 = <b>1980 V</b>.</p>",
+     "hint": "For n equal drops, V<sub>big</sub> = n<sup>2/3</sup>V<sub>small</sub>.",
+     "paras": [
+      "2.3",
+      "2.11"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q36",
+     "o": [
+      "1980 V",
+      "660 V",
+      "1320 V",
+      "1520 V"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "समान आकार की सत्ताईस बूँदें प्रत्येक 220 V तक आवेशित हैं। वे मिलकर एक बड़ी बूँद बनाती हैं। बड़ी बूँद के विभव की गणना कीजिए।",
+      "o": [
+       "1980 V",
+       "660 V",
+       "1320 V",
+       "1520 V"
+      ],
+      "sol": "<p>आयतन संरक्षित : R = 27<sup>1/3</sup>r = 3r। आवेश जुड़ता है : Q = 27q।</p><p>V = kQ/R = 27kq/(3r) = 9 × (kq/r) = 9 × 220 = <b>1980 V</b>।</p>",
+      "hint": "n समान बूँदों के लिए V<sub>big</sub> = n<sup>2/3</sup>V<sub>small</sub>।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2015-re-exam-code-d-q158",
+     "exam": "NEET",
+     "q": "A parallel plate air capacitor has capacity ‘C’, distance of separation between plates is ‘d’ and potential difference ‘V’ is applied between the plates. Force of attraction between the plates of the parallel plate air capacitor is :",
+     "sol": "<p>Each plate sits in the field of the other, E/2 = σ/(2ε<sub>0</sub>), so F = Q × Q/(2ε<sub>0</sub>A) = Q<sup>2</sup>/(2ε<sub>0</sub>A).</p><p>With Q = CV and ε<sub>0</sub>A = Cd: F = C<sup>2</sup>V<sup>2</sup>/(2Cd) = <b>CV<sup>2</sup>/(2d)</b>.</p>",
+     "hint": "A plate feels only half the field between the plates.",
+     "paras": [
+      "2.12",
+      "2.15"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q158",
+     "o": [
+      "CV<sup>2</sup>/(2d)",
+      "CV<sup>2</sup>/d",
+      "C<sup>2</sup>V<sup>2</sup>/(2d<sup>2</sup>)",
+      "C<sup>2</sup>V<sup>2</sup>/(2d)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "एक समांतर पट्टिका वायु संधारित्र की धारिता ‘C’ है, पट्टिकाओं के बीच की दूरी ‘d’ है और पट्टिकाओं के बीच विभवांतर ‘V’ लगाया गया है। समांतर पट्टिका वायु संधारित्र की पट्टिकाओं के बीच आकर्षण बल है :",
+      "o": [
+       "CV<sup>2</sup>/(2d)",
+       "CV<sup>2</sup>/d",
+       "C<sup>2</sup>V<sup>2</sup>/(2d<sup>2</sup>)",
+       "C<sup>2</sup>V<sup>2</sup>/(2d)"
+      ],
+      "sol": "<p>प्रत्येक पट्टिका दूसरी पट्टिका के क्षेत्र E/2 = σ/(2ε<sub>0</sub>) में है, अतः F = Q × Q/(2ε<sub>0</sub>A) = Q<sup>2</sup>/(2ε<sub>0</sub>A)।</p><p>Q = CV और ε<sub>0</sub>A = Cd रखने पर : F = C<sup>2</sup>V<sup>2</sup>/(2Cd) = <b>CV<sup>2</sup>/(2d)</b>।</p>",
+      "hint": "पट्टिका पट्टिकाओं के बीच के क्षेत्र का केवल आधा अनुभव करती है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2024-q26-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "If the plates of a parallel plate capacitor connected to a battery are moved close to each other, then<br>A. the charge stored in it, increases.<br>B. the energy stored in it, decreases.<br>C. its capacitance increases.<br>D. the ratio of charge to its potential remains the same.<br>E. the product of charge and voltage increases.<br>Choose the most appropriate answer from the options given below :",
+     "sol": "<p>Connected to the battery, V stays fixed. Moving the plates closer increases C = ε<sub>0</sub>A/d (C true). Then Q = CV increases (A true), the energy (1/2)CV<sup>2</sup> increases (B false), Q/V = C changes (D false), and QV = CV<sup>2</sup> increases (E true).</p><p>Answer: <b>A, C and E only</b>.</p>",
+     "hint": "Battery connected ⇒ V constant.",
+     "paras": [
+      "2.12",
+      "2.15"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q26 (eSaral physics copy)",
+     "o": [
+      "A, B and E only",
+      "A, C and E only",
+      "B, D and E only",
+      "A, D and E only"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "यदि बैटरी से जुड़े एक समांतर पट्टिका संधारित्र की पट्टिकाओं को एक-दूसरे के निकट लाया जाए, तो<br>A. इसमें संचित आवेश बढ़ता है।<br>B. इसमें संचित ऊर्जा घटती है।<br>C. इसकी धारिता बढ़ती है।<br>D. आवेश और विभव का अनुपात समान रहता है।<br>E. आवेश और वोल्टता का गुणनफल बढ़ता है।<br>नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+      "o": [
+       "केवल A, B और E",
+       "केवल A, C और E",
+       "केवल B, D और E",
+       "केवल A, D और E"
+      ],
+      "sol": "<p>बैटरी से जुड़े रहने पर V नियत रहता है। पट्टिकाएँ निकट लाने पर C = ε<sub>0</sub>A/d बढ़ती है (C सत्य)। तब Q = CV बढ़ता है (A सत्य), ऊर्जा (1/2)CV<sup>2</sup> बढ़ती है (B असत्य), Q/V = C बदलता है (D असत्य), और QV = CV<sup>2</sup> बढ़ता है (E सत्य)।</p><p>उत्तर : <b>केवल A, C और E</b>।</p>",
+      "hint": "बैटरी जुड़ी ⇒ V नियत।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2016-phase-2-code-aa-q24",
+     "exam": "NEET",
+     "q": "A parallel-plate capacitor of area A, plate separation d and capacitance C is filled with four dielectric materials having dielectric constants k<sub>1</sub>, k<sub>2</sub>, k<sub>3</sub> and k<sub>4</sub> as shown in the figure below. If a single dielectric material is to be used to have the same capacitance C in this capacitor, then its dielectric constant k is given by",
+     "sol": "<p>Top half (thickness d/2): k<sub>1</sub>, k<sub>2</sub>, k<sub>3</sub> side by side, each over area A/3, act in parallel: C<sub>top</sub> = 2ε<sub>0</sub>A(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>)/(3d). Bottom half: C<sub>bottom</sub> = 2ε<sub>0</sub>Ak<sub>4</sub>/d. The two halves are in series.</p><p>With C = kε<sub>0</sub>A/d: 1/k = 3/(2(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>)) + 1/(2k<sub>4</sub>), i.e. <b>2/k = 3/(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>) + 1/k<sub>4</sub></b>.</p>",
+     "hint": "Side-by-side dielectrics are in parallel; stacked ones in series.",
+     "paras": [
+      "2.13",
+      "2.14"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q24",
+     "o": [
+      "k = k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub> + 3k<sub>4</sub>",
+      "k = (2/3)(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>) + 2k<sub>4</sub>",
+      "2/k = 3/(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>) + 1/k<sub>4</sub>",
+      "1/k = 1/k<sub>1</sub> + 1/k<sub>2</sub> + 1/k<sub>3</sub> + 3/(2k<sub>4</sub>)"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "क्षेत्रफल A, पट्टिका दूरी d और धारिता C वाला एक समांतर पट्टिका संधारित्र नीचे चित्र में दिखाए अनुसार परावैद्युतांक k<sub>1</sub>, k<sub>2</sub>, k<sub>3</sub> और k<sub>4</sub> वाले चार परावैद्युत पदार्थों से भरा है। यदि इस संधारित्र में समान धारिता C प्राप्त करने के लिए एक ही परावैद्युत पदार्थ का उपयोग करना हो, तो उसका परावैद्युतांक k दिया जाता है",
+      "o": [
+       "k = k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub> + 3k<sub>4</sub>",
+       "k = (2/3)(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>) + 2k<sub>4</sub>",
+       "2/k = 3/(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>) + 1/k<sub>4</sub>",
+       "1/k = 1/k<sub>1</sub> + 1/k<sub>2</sub> + 1/k<sub>3</sub> + 3/(2k<sub>4</sub>)"
+      ],
+      "sol": "<p>ऊपरी आधा भाग (मोटाई d/2) : k<sub>1</sub>, k<sub>2</sub>, k<sub>3</sub> साथ-साथ, प्रत्येक A/3 क्षेत्रफल पर, पार्श्वक्रम में : C<sub>top</sub> = 2ε<sub>0</sub>A(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>)/(3d)। निचला आधा : C<sub>bottom</sub> = 2ε<sub>0</sub>Ak<sub>4</sub>/d । दोनों आधे श्रेणीक्रम में हैं।</p><p>C = kε<sub>0</sub>A/d लेने पर : 1/k = 3/(2(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>)) + 1/(2k<sub>4</sub>), अर्थात <b>2/k = 3/(k<sub>1</sub> + k<sub>2</sub> + k<sub>3</sub>) + 1/k<sub>4</sub></b>।</p>",
+      "hint": "साथ-साथ रखे परावैद्युत पार्श्वक्रम में; एक के ऊपर एक रखे श्रेणीक्रम में।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2016-phase-1-code-a-q5",
+     "exam": "NEET",
+     "q": "A capacitor of 2 μF is charged as shown in the diagram. When the switch S is turned to position 2, the percentage of its stored energy dissipated is :",
+     "sol": "<p>The 2 μF capacitor, charged to V, is connected across the uncharged 8 μF. Charge is shared: common voltage V′ = 2V/(2 + 8) = V/5.</p><p>Energy before (1/2)(2)V<sup>2</sup> = V<sup>2</sup>; after (1/2)(10)(V/5)<sup>2</sup> = V<sup>2</sup>/5. Lost fraction = 1 − 1/5 = <b>80%</b> (= C<sub>2</sub>/(C<sub>1</sub> + C<sub>2</sub>)).</p>",
+     "hint": "Loss fraction when sharing charge = C<sub>2</sub>/(C<sub>1</sub> + C<sub>2</sub>).",
+     "paras": [
+      "2.14",
+      "2.15"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q5",
+     "o": [
+      "0%",
+      "20%",
+      "75%",
+      "80%"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "2 μF का एक संधारित्र आरेख में दिखाए अनुसार आवेशित किया गया है। जब स्विच S को स्थिति 2 पर किया जाता है, तो इसकी संचित ऊर्जा का कितना प्रतिशत क्षयित होता है?",
+      "o": [
+       "0%",
+       "20%",
+       "75%",
+       "80%"
+      ],
+      "sol": "<p>V तक आवेशित 2 μF संधारित्र को अनावेशित 8 μF से जोड़ा जाता है। आवेश बँट जाता है : उभयनिष्ठ वोल्टता V′ = 2V/(2 + 8) = V/5।</p><p>पहले ऊर्जा (1/2)(2)V<sup>2</sup> = V<sup>2</sup>; बाद में (1/2)(10)(V/5)<sup>2</sup> = V<sup>2</sup>/5। क्षयित अंश = 1 − 1/5 = <b>80%</b> (= C<sub>2</sub>/(C<sub>1</sub> + C<sub>2</sub>))।</p>",
+      "hint": "आवेश बँटने पर हानि का अंश = C<sub>2</sub>/(C<sub>1</sub> + C<sub>2</sub>)।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2017-code-a-q17",
+     "exam": "NEET",
+     "q": "A capacitor is charged by a battery. The battery is removed and another identical uncharged capacitor is connected in parallel. The total electrostatic energy of resulting system",
+     "sol": "<p>With the battery removed the charge Q is fixed. Connecting an identical uncharged capacitor in parallel doubles the capacitance: U = Q<sup>2</sup>/(2C) → Q<sup>2</sup>/(4C).</p><p>The energy <b>decreases by a factor of 2</b> (the rest is lost in the connecting wires).</p>",
+     "hint": "Fixed Q: U ∝ 1/C.",
+     "paras": [
+      "2.14",
+      "2.15"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q17",
+     "o": [
+      "Increases by a factor of 4",
+      "Decreases by a factor of 2",
+      "Remains the same",
+      "Increases by a factor of 2"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक संधारित्र को एक बैटरी द्वारा आवेशित किया जाता है। बैटरी हटा दी जाती है और एक अन्य सर्वसम अनावेशित संधारित्र पार्श्वक्रम में जोड़ दिया जाता है। परिणामी निकाय की कुल स्थिरवैद्युत ऊर्जा",
+      "o": [
+       "4 के गुणक से बढ़ती है",
+       "2 के गुणक से घटती है",
+       "समान रहती है",
+       "2 के गुणक से बढ़ती है"
+      ],
+      "sol": "<p>बैटरी हटाने पर आवेश Q नियत है। पार्श्वक्रम में सर्वसम अनावेशित संधारित्र जोड़ने से धारिता दोगुनी हो जाती है : U = Q<sup>2</sup>/(2C) → Q<sup>2</sup>/(4C)।</p><p>ऊर्जा <b>2 के गुणक से घटती है</b> (शेष संयोजक तारों में व्यय होती है)।</p>",
+      "hint": "नियत Q : U ∝ 1/C ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2022-code-t2-q38",
+     "exam": "NEET",
+     "q": "A capacitor of capacitance C = 900 pF is charged fully by 100 V battery B as shown in figure (a). Then it is disconnected from the battery and connected to another uncharged capacitor of capacitance C = 900 pF as shown in figure (b). The electrostatic energy stored by the system (b) is :",
+     "sol": "<p>Charge Q = CV is shared equally between two identical capacitors in parallel: common voltage = 50 V.</p><p>Energy = 2 × (1/2)CV′<sup>2</sup> = 900 × 10<sup>−12</sup> × 50<sup>2</sup> = <b>2.25 × 10<sup>−6</sup> J</b> (half of the initial 4.5 × 10<sup>−6</sup> J).</p>",
+     "hint": "Common voltage = V/2; energy halves.",
+     "paras": [
+      "2.14.2",
+      "2.15"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q38",
+     "o": [
+      "3.25 × 10<sup>−6</sup> J",
+      "2.25 × 10<sup>−6</sup> J",
+      "1.5 × 10<sup>−6</sup> J",
+      "4.5 × 10<sup>−6</sup> J"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "C = 900 pF धारिता का एक संधारित्र आकृति (a) में दिखाए अनुसार 100 V बैटरी B द्वारा पूर्णतः आवेशित किया जाता है। फिर इसे बैटरी से हटाकर आकृति (b) में दिखाए अनुसार C = 900 pF धारिता के एक अन्य अनावेशित संधारित्र से जोड़ा जाता है। निकाय (b) द्वारा संचित स्थिरवैद्युत ऊर्जा है :",
+      "o": [
+       "3.25 × 10<sup>−6</sup> J",
+       "2.25 × 10<sup>−6</sup> J",
+       "1.5 × 10<sup>−6</sup> J",
+       "4.5 × 10<sup>−6</sup> J"
+      ],
+      "sol": "<p>आवेश Q = CV पार्श्वक्रम में जुड़े दो सर्वसम संधारित्रों में बराबर बँटता है : उभयनिष्ठ वोल्टता = 50 V।</p><p>ऊर्जा = 2 × (1/2)CV′<sup>2</sup> = 900 × 10<sup>−12</sup> × 50<sup>2</sup> = <b>2.25 × 10<sup>−6</sup> J</b> (प्रारंभिक 4.5 × 10<sup>−6</sup> J का आधा)।</p>",
+      "hint": "उभयनिष्ठ वोल्टता = V/2; ऊर्जा आधी।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-02-neet-2026-code-13-q13",
+     "exam": "NEET",
+     "q": "Consider two uncharged capacitors of equal capacitance 200 pF. One of them is charged by a 100 V supply and disconnected. Now this capacitor is connected to the uncharged capacitor. The amount of electrostatic energy lost in the process is :",
+     "sol": "<p>Initial energy U<sub>0</sub> = (1/2)CV<sup>2</sup> = (1/2) × 200 × 10<sup>−12</sup> × 100<sup>2</sup> = 10<sup>−6</sup> J. Sharing charge with an identical capacitor halves the energy, so the loss = U<sub>0</sub>/2 = <b>0.5 × 10<sup>−6</sup> J</b>.</p>",
+     "hint": "Identical capacitors: half the energy is lost.",
+     "paras": [
+      "2.14.2",
+      "2.15"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q13",
+     "o": [
+      "0.5 J",
+      "1.0 × 10<sup>−6</sup> J",
+      "0.5 × 10<sup>−6</sup> J",
+      "1.0 J"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "समान धारिता 200 pF वाले दो अनावेशित संधारित्रों पर विचार कीजिए। उनमें से एक को 100 V आपूर्ति से आवेशित करके हटा लिया जाता है। अब इस संधारित्र को अनावेशित संधारित्र से जोड़ा जाता है। इस प्रक्रम में स्थिरवैद्युत ऊर्जा की हानि की मात्रा है :",
+      "o": [
+       "0.5 J",
+       "1.0 × 10<sup>−6</sup> J",
+       "0.5 × 10<sup>−6</sup> J",
+       "1.0 J"
+      ],
+      "sol": "<p>प्रारंभिक ऊर्जा U<sub>0</sub> = (1/2)CV<sup>2</sup> = (1/2) × 200 × 10<sup>−12</sup> × 100<sup>2</sup> = 10<sup>−6</sup> J। सर्वसम संधारित्र के साथ आवेश बँटने से ऊर्जा आधी हो जाती है, अतः हानि = U<sub>0</sub>/2 = <b>0.5 × 10<sup>−6</sup> J</b>।</p>",
+      "hint": "सर्वसम संधारित्र : आधी ऊर्जा की हानि होती है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 29
+ },
+ "empty": [
+  {
+   "id": "2.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "2.2",
+   "title": "Electrostatic Potential",
+   "hi": "स्थिरवैद्युत विभव",
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "2.5",
+   "title": "Potential due to a System of Charges",
+   "hi": "आवेशों के निकाय के कारण विभव",
+   "pages": [],
+   "pdfPage": 7
+  },
+  {
+   "id": "2.7",
+   "title": "Potential Energy of a System of Charges",
+   "hi": "आवेशों के निकाय की स्थितिज ऊर्जा",
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "2.8",
+   "title": "Potential Energy in an External Field",
+   "hi": "बाह्य क्षेत्र में स्थितिज ऊर्जा",
+   "pages": [],
+   "pdfPage": 14
+  },
+  {
+   "id": "2.8.1",
+   "title": "Potential Energy of a Single Charge",
+   "hi": "एकल आवेश की स्थितिज ऊर्जा",
+   "pages": [],
+   "pdfPage": 14
+  },
+  {
+   "id": "2.8.2",
+   "title": "Potential Energy of a System of Two Charges in an External Field",
+   "hi": "किसी बाह्य क्षेत्र में दो आवेशों के निकाय की स्थितिज ऊर्जा",
+   "pages": [],
+   "pdfPage": 15
+  },
+  {
+   "id": "2.14.1",
+   "title": "Capacitors in Series",
+   "hi": "संधारित्रों का श्रेणीक्रम संयोजन",
+   "pages": [],
+   "pdfPage": 27
+  }
+ ],
+ "trends": {
+  "2.6.1": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2020,
+    2015
+   ],
+   "last": 2020,
+   "recent": false
+  },
+  "2.12": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2024,
+    2018,
+    2015
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "2.15": {
+   "neet": 7,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2022,
+    2021,
+    2017,
+    2016,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "2.14": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2023,
+    2017,
+    2016
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "2.13": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2025,
+    2020,
+    2016
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "2.6": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2022,
+    2017
+   ],
+   "last": 2022,
+   "recent": false
+  },
+  "2.4": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2024,
+    2023,
+    2020
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "2.10": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2021
+   ],
+   "last": 2021,
+   "recent": false
+  },
+  "2.9": {
+   "neet": 4,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2022,
+    2021
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "2.14.2": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2026,
+    2022,
+    2021
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "2.3": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2024,
+    2022,
+    2021
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "2.11": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2021
+   ],
+   "last": 2021,
+   "recent": false
+  },
+  "2.8.3": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2025
+   ],
+   "last": 2025,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}
