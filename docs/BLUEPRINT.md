@@ -5,10 +5,10 @@ Source of truth for building this site. Every Claude / AI session working on nee
 
 ## Build status (update every session)
 
-**State on 14 Nov 2026: every branch is merged into `integration/merge-2026-11-14`** (neet-site and neet-sources, same branch name). This is the one base for all new work; nothing is on `main` until the owner says so. Detailed session notes up to the merge: `docs/build-log.md`.
+**State on 14 Nov 2026: every branch is merged into `main`** (neet-site and neet-sources), approved by the owner; the old branches were deleted. `main` is the one base for all new work and publishes the site (GitHub Pages). Detailed session notes up to the merge: `docs/build-log.md`.
 
 How to work from here:
-- Start every session from `integration/merge-2026-11-14` (or from `main` once the owner merges it). Work on your own branch, commit often, and say in the branch name what the session does.
+- Start every session from `main`. Work on your own branch, commit often, and say in the branch name what the session does. Merges to `main` only when the owner says so.
 - At the end of a session, update the summary below (counts, done, next) in a few lines. Put detailed notes (term choices, copy fixes, key conflicts) in `docs/build-log.md` under a dated heading, not here.
 - Run `python3 tools/build.py` (needs neet-sources next to neet-site for the Hindi term check) and commit the `data/` output.
 

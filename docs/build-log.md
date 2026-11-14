@@ -1,6 +1,6 @@
 # Build log (session notes, 12–14 Nov 2026)
 
-Detailed notes written by each build session, moved here unchanged from docs/BLUEPRINT.md "Build status" when all branches were merged into `integration/merge-2026-11-14` (14 Nov 2026). Branch names below are historical; all their work is now on the integration branch. The current summary is in BLUEPRINT.md.
+Detailed notes written by each build session, moved here unchanged from docs/BLUEPRINT.md "Build status" when all branches were merged into `main` (14 Nov 2026). Branch names below are historical (those branches were deleted); all their work is on `main`. The current summary is in BLUEPRINT.md.
 
 ## Session notes
 
