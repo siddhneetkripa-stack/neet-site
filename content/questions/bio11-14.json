@@ -1535,6 +1535,171 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q146."
    }
+  },
+  {
+   "id": "bio11-14-ai-14-4-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "According to NCERT, in what form is most (about 70 per cent) of the CO<sub>2</sub> carried in the blood?",
+     "o": [
+      "Dissolved in plasma",
+      "As carbamino-haemoglobin in RBCs",
+      "As bicarbonate",
+      "Bound to plasma albumin"
+     ],
+     "sol": "<p>NCERT 14.4: blood carries both gases. O<sub>2</sub>: about 97 per cent by RBCs, the remaining 3 per cent dissolved in plasma. CO<sub>2</sub>: about 20–25 per cent by RBCs (as carbamino-haemoglobin), about <b>70 per cent as bicarbonate</b>, and about 7 per cent dissolved in plasma.</p>",
+     "hint": "Think of the carbonic anhydrase product."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "NCERT के अनुसार रक्त में अधिकांश (लगभग 70 प्रतिशत) CO<sub>2</sub> किस रूप में वहन की जाती है?",
+     "o": [
+      "प्लाज्मा में घुल्य अवस्था में",
+      "लाल रक्त कणिकाओं (RBC) में कार्बामीनो-हीमोग्लोबिन के रूप में",
+      "बाईकार्बोनेट के रूप में",
+      "प्लाज्मा एल्बूमिन से बंधी हुई"
+     ],
+     "sol": "<p>NCERT 14.4: रक्त दोनों गैसों का परिवहन करता है। O<sub>2</sub>: लगभग 97 प्रतिशत लाल रक्त कणिकाओं (RBC) द्वारा, शेष 3 प्रतिशत प्लाज्मा में घुल्य अवस्था में। CO<sub>2</sub>: लगभग 20-25 प्रतिशत लाल रक्त कणिकाओं (RBC) द्वारा (कार्बामीनो-हीमोग्लोबिन के रूप में), लगभग <b>70 प्रतिशत बाईकार्बोनेट के रूप में</b>, तथा लगभग 7 प्रतिशत प्लाज्मा में घुल्य अवस्था में।</p>",
+     "hint": "कार्बोनिक एनहाइड्रेज के उत्पाद को सोचिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-14",
+    "paras": [
+     "14.4"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 14.4"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-14-ai-14-4-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about CO<sub>2</sub> transport is correct?",
+     "o": [
+      "Carbonic anhydrase is found mainly in plasma and only in traces in RBCs",
+      "At the tissues, where pCO<sub>2</sub> is high, CO<sub>2</sub> + H<sub>2</sub>O → H<sub>2</sub>CO<sub>3</sub> → HCO<sub>3</sub><sup>−</sup> + H<sup>+</sup>; at the alveoli the reaction runs in reverse and CO<sub>2</sub> is released",
+      "Carbamino-haemoglobin forms most readily when pCO<sub>2</sub> is low and pO<sub>2</sub> is high",
+      "Every 100 ml of deoxygenated blood delivers about 40 ml of CO<sub>2</sub> to the alveoli"
+     ],
+     "sol": "<p>NCERT 14.4.2: about 20–25 per cent of CO<sub>2</sub> is carried as carbamino-haemoglobin; binding is favoured by high pCO<sub>2</sub> and low pO<sub>2</sub> (tissues) and reversed at the alveoli. RBCs have a <b>very high</b> concentration of carbonic anhydrase (plasma only minute amounts), which speeds CO<sub>2</sub> + H<sub>2</sub>O ⇌ H<sub>2</sub>CO<sub>3</sub> ⇌ HCO<sub>3</sub><sup>−</sup> + H<sup>+</sup> in both directions: towards bicarbonate at the tissues, back to CO<sub>2</sub> and H<sub>2</sub>O at the alveoli. Every 100 ml of deoxygenated blood delivers about <b>4 ml</b> of CO<sub>2</sub> to the alveoli.</p>",
+     "hint": "The same reaction runs both ways."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "CO<sub>2</sub> के परिवहन के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "कार्बोनिक एनहाइड्रेज मुख्यतः प्लाज्मा में तथा लाल रक्त कणिकाओं (RBC) में केवल अल्प मात्रा में होता है",
+      "ऊतकों में, जहाँ pCO<sub>2</sub> अधिक है, CO<sub>2</sub> + H<sub>2</sub>O → H<sub>2</sub>CO<sub>3</sub> → HCO<sub>3</sub><sup>−</sup> + H<sup>+</sup>; कूपिका में प्रतिक्रिया विपरीत दिशा में चलती है और CO<sub>2</sub> मुक्त होती है",
+      "कार्बामीनो-हीमोग्लोबिन सबसे आसानी से तब बनता है जब pCO<sub>2</sub> निम्न तथा pO<sub>2</sub> उच्च हो",
+      "प्रति 100 ml विऑक्सीजनित रक्त कूपिका में लगभग 40 ml CO<sub>2</sub> मुक्त करता है"
+     ],
+     "sol": "<p>NCERT 14.4.2: लगभग 20-25 प्रतिशत CO<sub>2</sub> कार्बामीनो-हीमोग्लोबिन के रूप में वहन होती है; यह बंधन उच्च pCO<sub>2</sub> तथा निम्न pO<sub>2</sub> (ऊतक) में होता है और कूपिका में वियोजित होता है। लाल रक्त कणिकाओं (RBC) में कार्बोनिक एनहाइड्रेज की सांद्रता <b>उच्च</b> (प्लाज्मा में अल्प) होती है, जो CO<sub>2</sub> + H<sub>2</sub>O ⇌ H<sub>2</sub>CO<sub>3</sub> ⇌ HCO<sub>3</sub><sup>−</sup> + H<sup>+</sup> को दोनों दिशाओं में सुगम बनाता है: ऊतकों में बाईकार्बोनेट की ओर, कूपिका में वापस CO<sub>2</sub> व H<sub>2</sub>O की ओर। प्रति 100 ml विऑक्सीजनित रक्त कूपिका में लगभग <b>4 ml</b> CO<sub>2</sub> मुक्त करता है।</p>",
+     "hint": "एक ही प्रतिक्रिया दोनों दिशाओं में चलती है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-14",
+    "paras": [
+     "14.4.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 14.4.2"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-14-ai-14-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the regulation of respiration is correct?",
+     "o": [
+      "The respiratory rhythm centre lies in the pons and the pneumotaxic centre in the medulla",
+      "Neural signals from the pneumotaxic centre can reduce the duration of inspiration and so alter the respiratory rate",
+      "The chemosensitive area is highly sensitive to O<sub>2</sub> and has little response to CO<sub>2</sub>",
+      "Oxygen plays the main role in regulating the respiratory rhythm"
+     ],
+     "sol": "<p>NCERT 14.5: the <b>respiratory rhythm centre</b> in the <b>medulla</b> mainly regulates breathing. The <b>pneumotaxic centre</b> in the <b>pons</b> moderates it: its signals can <b>reduce the duration of inspiration</b> and so change the rate. A chemosensitive area next to the rhythm centre is highly sensitive to <b>CO<sub>2</sub> and H<sup>+</sup></b>; receptors on the aortic arch and carotid artery also sense CO<sub>2</sub> and H<sup>+</sup>. The role of oxygen in regulating the rhythm is quite insignificant.</p>",
+     "hint": "Pons trims inspiration; CO<sub>2</sub> and H<sup>+</sup> drive the chemosensors."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "श्वसन के नियमन के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "श्वसन लयकेंद्र पोंस में तथा श्वासप्रभावी केंद्र मेड्यूला में होता है",
+      "श्वासप्रभावी केंद्र के तंत्रिका संकेत अंतःश्वसन की अवधि कम कर सकते हैं और इस प्रकार श्वसन दर बदल सकते हैं",
+      "रसोसंवेदी केंद्र O<sub>2</sub> के प्रति अति संवेदी है तथा CO<sub>2</sub> के प्रति बहुत कम",
+      "श्वसन लय के नियमन में ऑक्सीजन की मुख्य भूमिका है"
+     ],
+     "sol": "<p>NCERT 14.5: मस्तिष्क के <b>मेड्यूला</b> क्षेत्र में स्थित <b>श्वसन लयकेंद्र</b> मुख्य रूप से श्वसन का नियमन करता है। <b>पोंस</b> क्षेत्र में स्थित <b>श्वासप्रभावी (Pneumotaxic) केंद्र</b> इसे संयत करता है: इसके संकेत <b>अंतःश्वसन की अवधि कम</b> कर श्वसन दर बदल सकते हैं। लयकेंद्र के पास रसोसंवेदी केंद्र <b>CO<sub>2</sub> और H<sup>+</sup></b> के प्रति अति संवेदी होता है; महाधमनी चाप और ग्रीवा धमनी से जुड़ी संवेदी संरचनाएं भी CO<sub>2</sub> और H<sup>+</sup> पहचानती हैं। श्वसन लय के नियमन में ऑक्सीजन की भूमिका बहुत ही महत्वहीन है।</p>",
+     "hint": "पोंस अंतःश्वसन छोटा करता है; रसोसंवेदी केंद्र CO<sub>2</sub> तथा H<sup>+</sup> से चलता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-14",
+    "paras": [
+     "14.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 14.5"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
