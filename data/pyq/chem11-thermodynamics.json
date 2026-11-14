@@ -1,0 +1,4670 @@
+{
+ "chapter": "chem11-thermodynamics",
+ "source": "bank",
+ "subject": "chemistry",
+ "class": 11,
+ "unit": 5,
+ "title": "Thermodynamics",
+ "titleHi": "ऊष्मागतिकी",
+ "ref": "NCERT Chemistry Class 11 · Unit 5",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech105.pdf",
+ "pdfPageOffset": 135,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "intro",
+   "title": "Why Thermodynamics?",
+   "hi": null,
+   "pages": [
+    136
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "terms",
+   "title": "5.1 Thermodynamic Terms",
+   "hi": null,
+   "pages": [
+    137,
+    138,
+    139,
+    140
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "sys-surr",
+   "title": "5.1.1 System & Surroundings",
+   "hi": null,
+   "pages": [
+    137
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "universe",
+   "title": "Universe = System + Surroundings",
+   "hi": null,
+   "pages": [
+    137
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "boundary",
+   "title": "Boundary (Wall)",
+   "hi": null,
+   "pages": [
+    137
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "sys-types",
+   "title": "5.1.2 Types of System",
+   "hi": null,
+   "pages": [
+    137,
+    138
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "open-sys",
+   "title": "Open System",
+   "hi": null,
+   "pages": [
+    137
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "closed-sys",
+   "title": "Closed System",
+   "hi": null,
+   "pages": [
+    137
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "isolated-sys",
+   "title": "Isolated System",
+   "hi": null,
+   "pages": [
+    138
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "state",
+   "title": "5.1.3 State of the System",
+   "hi": null,
+   "pages": [
+    138
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "state-fn",
+   "title": "State Variables / State Functions",
+   "hi": null,
+   "pages": [
+    138
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "min-vars",
+   "title": "Minimum Number of Variables",
+   "hi": null,
+   "pages": [
+    138
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "internal-energy",
+   "title": "5.1.4 Internal Energy as a State Function",
+   "hi": null,
+   "pages": [
+    138,
+    139,
+    140
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "what-is-u",
+   "title": "What is Internal Energy (U)?",
+   "hi": null,
+   "pages": [
+    138
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "work-adiabatic",
+   "title": "(a) Work: Adiabatic Process & Joule's Experiment",
+   "hi": null,
+   "pages": [
+    138,
+    139
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "sign-convention",
+   "title": "Sign Convention (IUPAC)",
+   "hi": null,
+   "pages": [
+    139
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "heat",
+   "title": "(b) Heat",
+   "hi": null,
+   "pages": [
+    139
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "first-law",
+   "title": "(c) First Law of Thermodynamics",
+   "hi": null,
+   "pages": [
+    140
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "absolute-u",
+   "title": "Absolute U Cannot Be Measured",
+   "hi": null,
+   "pages": [
+    140
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "applications",
+   "title": "5.2 Applications: Work & Enthalpy",
+   "hi": null,
+   "pages": [
+    140,
+    141,
+    142,
+    143,
+    144,
+    145
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "work",
+   "title": "5.2.1 Work (Pressure–Volume Work)",
+   "hi": null,
+   "pages": [
+    140,
+    141,
+    142
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "single-step",
+   "title": "Single-step Work: w = −pₑₓΔV",
+   "hi": null,
+   "pages": [
+    140,
+    141
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "reversible",
+   "title": "Multi-step & Reversible Processes",
+   "hi": null,
+   "pages": [
+    141,
+    142
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "iso-rev",
+   "title": "Isothermal Reversible Work",
+   "hi": null,
+   "pages": [
+    142
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "free-exp",
+   "title": "Free Expansion",
+   "hi": null,
+   "pages": [
+    142
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "process-summary",
+   "title": "q and w for Different Processes",
+   "hi": null,
+   "pages": [
+    142,
+    143
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "enthalpy",
+   "title": "5.2.2 Enthalpy (H)",
+   "hi": null,
+   "pages": [
+    143,
+    144,
+    145
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "h-def",
+   "title": "(a) H = U + pV and ΔH = q(p)",
+   "hi": null,
+   "pages": [
+    143
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "dh-du",
+   "title": "ΔH = ΔU + Δn(g)RT",
+   "hi": null,
+   "pages": [
+    143,
+    144
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "ext-int",
+   "title": "(b) Extensive & Intensive Properties",
+   "hi": null,
+   "pages": [
+    144
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "heat-capacity",
+   "title": "(c) Heat Capacity",
+   "hi": null,
+   "pages": [
+    144,
+    145
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "cp-cv",
+   "title": "(d) Cp − Cv = R (Ideal Gas)",
+   "hi": null,
+   "pages": [
+    145
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "calorimetry",
+   "title": "5.3 Measuring ΔU and ΔH: Calorimetry",
+   "hi": null,
+   "pages": [
+    145,
+    146
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "bomb",
+   "title": "(a) ΔU: Bomb Calorimeter",
+   "hi": null,
+   "pages": [
+    145
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "coffee-cup",
+   "title": "(b) ΔH: Constant-pressure Calorimeter",
+   "hi": null,
+   "pages": [
+    146
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "graphite-problem",
+   "title": "Worked: Burning Graphite in a Bomb",
+   "hi": null,
+   "pages": [
+    146
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "reaction-enthalpy",
+   "title": "5.4 Reaction Enthalpy (ΔᵣH)",
+   "hi": null,
+   "pages": [
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "rh-def",
+   "title": "ΔᵣH = ΣH(products) − ΣH(reactants)",
+   "hi": null,
+   "pages": [
+    146,
+    147
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "std-state",
+   "title": "(a) Standard Enthalpy & Standard State",
+   "hi": null,
+   "pages": [
+    147
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "phase",
+   "title": "(b) Enthalpy of Phase Transformations",
+   "hi": null,
+   "pages": [
+    147,
+    148,
+    149
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "formation",
+   "title": "(c) Standard Enthalpy of Formation",
+   "hi": null,
+   "pages": [
+    149,
+    150
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "use-formation",
+   "title": "Using ΔfH° to Find ΔᵣH°",
+   "hi": null,
+   "pages": [
+    150
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "thermo-eq",
+   "title": "(d) Thermochemical Equations",
+   "hi": null,
+   "pages": [
+    150,
+    151
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "hess",
+   "title": "(e) Hess's Law of Constant Heat Summation",
+   "hi": null,
+   "pages": [
+    151,
+    152
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "enthalpy-types",
+   "title": "5.5 Enthalpies for Different Types of Reactions",
+   "hi": null,
+   "pages": [
+    152,
+    153,
+    154,
+    155,
+    156,
+    157
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "combustion",
+   "title": "(a) Enthalpy of Combustion (ΔcH°)",
+   "hi": null,
+   "pages": [
+    152,
+    153
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "atomization",
+   "title": "(b) Enthalpy of Atomization (ΔₐH°)",
+   "hi": null,
+   "pages": [
+    153
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "bond-enthalpy",
+   "title": "(c) Bond Enthalpy (ΔbondH°)",
+   "hi": null,
+   "pages": [
+    153,
+    154,
+    155
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "bde",
+   "title": "Bond Dissociation Enthalpy (Diatomic)",
+   "hi": null,
+   "pages": [
+    153
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "mean-bond",
+   "title": "Mean Bond Enthalpy (Polyatomic)",
+   "hi": null,
+   "pages": [
+    153,
+    154
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "rh-from-bonds",
+   "title": "ΔᵣH from Bond Enthalpies",
+   "hi": null,
+   "pages": [
+    154,
+    155
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "lattice",
+   "title": "(d) Lattice Enthalpy & Born–Haber Cycle",
+   "hi": null,
+   "pages": [
+    155,
+    156
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "ie-ea-box",
+   "title": "Box: Ionization Energy vs Ionization Enthalpy",
+   "hi": null,
+   "pages": [
+    155
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "solution",
+   "title": "(e) Enthalpy of Solution (ΔsolH°)",
+   "hi": null,
+   "pages": [
+    156
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "dilution",
+   "title": "(f) Enthalpy of Dilution",
+   "hi": null,
+   "pages": [
+    156,
+    157
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "spontaneity",
+   "title": "5.6 Spontaneity",
+   "hi": null,
+   "pages": [
+    157,
+    158,
+    159,
+    160,
+    161,
+    162
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "spont-meaning",
+   "title": "What 'Spontaneous' Means",
+   "hi": null,
+   "pages": [
+    157
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "enthalpy-criterion",
+   "title": "(a) Is Decrease in Enthalpy the Criterion?",
+   "hi": null,
+   "pages": [
+    157,
+    158
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "entropy",
+   "title": "(b) Entropy (S)",
+   "hi": null,
+   "pages": [
+    158,
+    159,
+    160
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "entropy-concept",
+   "title": "Entropy as Disorder",
+   "hi": null,
+   "pages": [
+    158,
+    159
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "entropy-quant",
+   "title": "ΔS = q(rev)/T and ΔS(total) > 0",
+   "hi": null,
+   "pages": [
+    159
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "gibbs",
+   "title": "(c) Gibbs Energy & Spontaneity",
+   "hi": null,
+   "pages": [
+    160,
+    161
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "gibbs-eq",
+   "title": "Gibbs Equation: ΔG = ΔH − TΔS",
+   "hi": null,
+   "pages": [
+    160
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "gibbs-criterion",
+   "title": "ΔG < 0 Means Spontaneous (Derivation)",
+   "hi": null,
+   "pages": [
+    161
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "temp-effect",
+   "title": "Effect of Temperature (Table 5.4)",
+   "hi": null,
+   "pages": [
+    161,
+    162
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "second-law",
+   "title": "(d) Second Law of Thermodynamics",
+   "hi": null,
+   "pages": [
+    161
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "third-law",
+   "title": "(e) Third Law & Absolute Entropy",
+   "hi": null,
+   "pages": [
+    161,
+    162
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "gibbs-equilibrium",
+   "title": "5.7 Gibbs Energy Change & Equilibrium",
+   "hi": null,
+   "pages": [
+    162,
+    163
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "eq-criterion",
+   "title": "ΔᵣG = 0 at Equilibrium",
+   "hi": null,
+   "pages": [
+    162
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "g-and-k",
+   "title": "ΔᵣG° = −RT ln K",
+   "hi": null,
+   "pages": [
+    162
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "g-problems",
+   "title": "Worked Problems 5.12–5.14",
+   "hi": null,
+   "pages": [
+    163
+   ],
+   "pdfPage": null
+  }
+ ],
+ "sections": [
+  {
+   "sec": "intro",
+   "title": "Why Thermodynamics?",
+   "hi": null,
+   "pages": [
+    136
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-intro-q1",
+     "exam": "Practice",
+     "q": "Which of the following can thermodynamics NOT tell us about a reaction?",
+     "sol": "Thermodynamics looks only at initial and final states. Rate and mechanism belong to chemical kinetics.",
+     "hint": "",
+     "paras": [
+      "intro"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Whether it is feasible",
+      "The energy change involved",
+      "The rate at which it proceeds",
+      "The extent to which it proceeds"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-intro-q2",
+     "exam": "Practice",
+     "q": "The laws of thermodynamics are applicable to:",
+     "sol": "NCERT stresses that thermodynamics deals with macroscopic (bulk) systems, not microscopic ones.",
+     "hint": "",
+     "paras": [
+      "intro"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Single molecules",
+      "Systems containing a few molecules",
+      "Macroscopic systems with a very large number of molecules",
+      "Only ideal gases"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "universe",
+   "title": "Universe = System + Surroundings",
+   "hi": null,
+   "pages": [
+    137
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-universe-q1",
+     "exam": "Practice",
+     "q": "For practical purposes in thermodynamics, the surroundings are:",
+     "sol": "Formally the surroundings are everything except the system, but in practice only the region that can interact with the system matters.",
+     "hint": "",
+     "paras": [
+      "universe"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "The entire universe except the system",
+      "Only the container walls",
+      "That portion of the rest of the universe which can interact with the system",
+      "The system plus its boundary"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "boundary",
+   "title": "Boundary (Wall)",
+   "hi": null,
+   "pages": [
+    137
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-boundary-q1",
+     "exam": "Practice",
+     "q": "Which statement about the boundary of a thermodynamic system is correct?",
+     "sol": "The boundary can be a real wall (beaker) or an imaginary surface defined by coordinates.",
+     "hint": "",
+     "paras": [
+      "boundary"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "It must always be a physical wall",
+      "It can be real or imaginary",
+      "It never allows energy to pass",
+      "It is part of the surroundings only"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "open-sys",
+   "title": "Open System",
+   "hi": null,
+   "pages": [
+    137
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-open-sys-q1",
+     "exam": "Practice",
+     "q": "A cup of hot tea kept on a table (without lid) is an example of:",
+     "sol": "Vapour (matter) escapes and heat (energy) is lost, so both matter and energy are exchanged: an open system.",
+     "hint": "",
+     "paras": [
+      "open-sys"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Isolated system",
+      "Closed system",
+      "Open system",
+      "Adiabatic system"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "closed-sys",
+   "title": "Closed System",
+   "hi": null,
+   "pages": [
+    137
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-closed-sys-q1",
+     "exam": "Practice",
+     "q": "Reactants sealed in a stoppered steel flask constitute a/an:",
+     "sol": "Matter cannot leave a sealed flask, but steel conducts heat, so energy can be exchanged: a closed system.",
+     "hint": "",
+     "paras": [
+      "closed-sys"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Open system",
+      "Closed system",
+      "Isolated system",
+      "None of these"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "isolated-sys",
+   "title": "Isolated System",
+   "hi": null,
+   "pages": [
+    138
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-isolated-sys-q1",
+     "exam": "Practice",
+     "q": "For an isolated system, which is always true?",
+     "sol": "No heat or work crosses the boundary, so ΔU = q + w = 0. Entropy can still increase in a spontaneous change.",
+     "hint": "",
+     "paras": [
+      "isolated-sys"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔU > 0",
+      "ΔU < 0",
+      "ΔU = 0",
+      "ΔS = 0"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-isolated-sys-q2",
+     "exam": "Practice",
+     "q": "Coffee kept in a perfectly sealed and insulated thermos flask is an example of:",
+     "sol": "Neither matter nor energy can cross the boundary.",
+     "hint": "",
+     "paras": [
+      "isolated-sys"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Open system",
+      "Closed system",
+      "Isolated system",
+      "Open adiabatic system"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "state-fn",
+   "title": "State Variables / State Functions",
+   "hi": null,
+   "pages": [
+    138
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-state-fn-q1",
+     "exam": "NCERT Exercise",
+     "q": "A thermodynamic state function is a quantity:",
+     "sol": "By definition, a state function depends only on the state of the system, not on how that state was reached.",
+     "hint": "",
+     "paras": [
+      "state-fn"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.1",
+     "o": [
+      "Used to determine heat changes",
+      "Whose value is independent of path",
+      "Used to determine pressure–volume work",
+      "Whose value depends on temperature only"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-state-fn-q2",
+     "exam": "Practice",
+     "q": "Which of the following is NOT a state function?",
+     "sol": "Work depends on the path. U, H and S are state functions.",
+     "hint": "",
+     "paras": [
+      "state-fn"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Internal energy",
+      "Enthalpy",
+      "Work",
+      "Entropy"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-state-fn-q3",
+     "exam": "Practice",
+     "q": "Which combination is a state function?",
+     "sol": "q + w = ΔU, which is a state function even though q and w individually are not.",
+     "hint": "",
+     "paras": [
+      "state-fn"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "q alone",
+      "w alone",
+      "q + w",
+      "q − w (IUPAC convention)"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "min-vars",
+   "title": "Minimum Number of Variables",
+   "hi": null,
+   "pages": [
+    138
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-min-vars-q1",
+     "exam": "Practice",
+     "q": "For a fixed amount of an ideal gas, how many of p, V and T must be specified to fix its state?",
+     "sol": "pV = nRT links the three; fixing any two determines the third.",
+     "hint": "",
+     "paras": [
+      "min-vars"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "One",
+      "Two",
+      "Three",
+      "None"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "what-is-u",
+   "title": "What is Internal Energy (U)?",
+   "hi": null,
+   "pages": [
+    138
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-what-is-u-q1",
+     "exam": "Practice",
+     "q": "The internal energy of a closed system can change by:",
+     "sol": "In general U changes by heat, work or matter transfer. A closed system cannot exchange matter, so only heat and work remain.",
+     "hint": "",
+     "paras": [
+      "what-is-u"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Heat and work only",
+      "Matter transfer only",
+      "Heat, work and matter transfer",
+      "Work only"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "sec": "work-adiabatic",
+   "title": "(a) Work: Adiabatic Process & Joule's Experiment",
+   "hi": null,
+   "pages": [
+    138,
+    139
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-work-adiabatic-q1",
+     "exam": "NCERT Exercise",
+     "q": "For a process to occur under adiabatic conditions, the correct condition is:",
+     "sol": "Adiabatic means no heat exchange with the surroundings, so q = 0.",
+     "hint": "",
+     "paras": [
+      "work-adiabatic"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.2",
+     "o": [
+      "ΔT = 0",
+      "Δp = 0",
+      "q = 0",
+      "w = 0"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-work-adiabatic-q2",
+     "exam": "Practice",
+     "q": "Joule's experiments with paddle-churning and electrical heating of water in an insulated vessel showed that:",
+     "sol": "Equal amounts of adiabatic work by different routes gave the same temperature rise, so U is a state function.",
+     "hint": "",
+     "paras": [
+      "work-adiabatic"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Mechanical work produces more heat than electrical work",
+      "A given amount of adiabatic work produces the same change of state regardless of how it is done",
+      "Internal energy depends on the path",
+      "Heat and work are unrelated"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "sign-convention",
+   "title": "Sign Convention (IUPAC)",
+   "hi": null,
+   "pages": [
+    139
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-sign-convention-q2",
+     "exam": "NCERT Exercise",
+     "q": "A system absorbs 701 J of heat and does 394 J of work. ΔU of the system is:",
+     "sol": "q = +701 J and w = −394 J (work done by the system). ΔU = 701 − 394 = +307 J.",
+     "hint": "",
+     "paras": [
+      "sign-convention"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.7",
+     "o": [
+      "+1095 J",
+      "+307 J",
+      "−307 J",
+      "−1095 J"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-sign-convention-q1",
+     "exam": "Practice",
+     "q": "According to the IUPAC convention, work done on the system is:",
+     "sol": "Energy added to the system (work done on it) is positive.",
+     "hint": "",
+     "paras": [
+      "sign-convention"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Positive only for gases"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "sec": "heat",
+   "title": "(b) Heat",
+   "hi": null,
+   "pages": [
+    139
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-heat-q1",
+     "exam": "Practice",
+     "q": "If no work is done on or by a system at constant volume, the change in internal energy equals:",
+     "sol": "With w = 0, ΔU = q.",
+     "hint": "",
+     "paras": [
+      "heat"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Zero",
+      "The heat exchanged, q",
+      "pΔV",
+      "The work, w"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "first-law",
+   "title": "(c) First Law of Thermodynamics",
+   "hi": null,
+   "pages": [
+    140
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-first-law-q3",
+     "exam": "NCERT Exercise",
+     "q": "No work is done on a system but heat q is taken out of it. The system has:",
+     "sol": "Heat can leave only through thermally conducting walls. ΔU = −q (NCERT Problem 5.1 ii).",
+     "hint": "",
+     "paras": [
+      "first-law"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Problem 5.1",
+     "o": [
+      "Adiabatic walls",
+      "Thermally conducting walls",
+      "No walls",
+      "Rigid insulated walls"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-first-law-q1",
+     "exam": "Practice",
+     "q": "The mathematical statement of the first law of thermodynamics (IUPAC convention) is:",
+     "sol": "With the IUPAC sign convention, ΔU = q + w.",
+     "hint": "",
+     "paras": [
+      "first-law"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔU = q − w",
+      "ΔU = q + w",
+      "ΔH = ΔU + pΔV",
+      "ΔG = ΔH − TΔS"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-first-law-q2",
+     "exam": "Practice",
+     "q": "A gas does 200 J of work on the surroundings while 300 J of heat is removed from it. ΔU is:",
+     "sol": "w = −200 J and q = −300 J, so ΔU = −500 J.",
+     "hint": "",
+     "paras": [
+      "first-law"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "+500 J",
+      "+100 J",
+      "−100 J",
+      "−500 J"
+     ],
+     "a": 3
+    }
+   ]
+  },
+  {
+   "sec": "absolute-u",
+   "title": "Absolute U Cannot Be Measured",
+   "hi": null,
+   "pages": [
+    140
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-absolute-u-q1",
+     "exam": "Practice",
+     "q": "Which of the following can be measured absolutely for a system in a given state?",
+     "sol": "Volume has an absolute value. For U, H and G only changes can be measured.",
+     "hint": "",
+     "paras": [
+      "absolute-u"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Internal energy",
+      "Enthalpy",
+      "Volume",
+      "Gibbs energy"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "single-step",
+   "title": "Single-step Work: w = −pₑₓΔV",
+   "hi": null,
+   "pages": [
+    140,
+    141
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2019-code-s2-q140",
+     "exam": "NEET",
+     "q": "Under isothermal condition a gas at 300 K expands from 0.1 L to 0.25 L against a constant external pressure of 2 bar. The work done by the gas is :<br>[Given that 1 L bar = 100 J]",
+     "sol": "<p>Work against constant external pressure: w = −p<sub>ex</sub>ΔV = −2 bar × (0.25 − 0.1) L = −0.3 L bar = −30 J. This is the work done <i>on</i> the gas; the work done <b>by</b> the gas is <b>+30 J</b> (NTA final key).</p>",
+     "hint": "w = −p<sub>ex</sub>ΔV; the question asks for the work done by the gas.",
+     "paras": [
+      "single-step"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q140",
+     "trap": "−30 J is the work done on the gas (NCERT sign convention); the question asks for work done by the gas.",
+     "o": [
+      "25 J",
+      "30 J",
+      "−30 J",
+      "5 kJ"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "समतापीय परिस्थिति में 300 K पर एक गैस 2 bar के स्थिर बाह्य दाब के विरुद्ध 0.1 L से 0.25 L तक प्रसरित होती है। गैस द्वारा किया गया कार्य है :<br>[दिया है 1 L bar = 100 J]",
+      "o": [
+       "25 J",
+       "30 J",
+       "−30 J",
+       "5 kJ"
+      ],
+      "sol": "<p>स्थिर बाह्य दाब के विरुद्ध कार्य: w = −p<sub>ex</sub>ΔV = −2 bar × (0.25 − 0.1) L = −0.3 L bar = −30 J। यह गैस <i>पर</i> किया गया कार्य है; गैस <b>द्वारा</b> किया गया कार्य <b>+30 J</b> है (NTA अंतिम उत्तर कुंजी)।</p>",
+      "hint": "w = −p<sub>ex</sub>ΔV; प्रश्न गैस द्वारा किया गया कार्य पूछता है।",
+      "trap": "−30 J गैस पर किया गया कार्य है (NCERT चिह्न परिपाटी); प्रश्न गैस द्वारा किया गया कार्य पूछता है।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)"
+    },
+    {
+     "id": "chem11-thermodynamics-single-step-q1",
+     "exam": "Practice",
+     "q": "An ideal gas expands from 2 L to 5 L against a constant external pressure of 1 atm. The work done (1 L atm = 101.3 J) is about:",
+     "sol": "w = −p_ex ΔV = −1 × (5 − 2) = −3 L atm ≈ −304 J. It is negative because the gas does work on the surroundings.",
+     "hint": "",
+     "paras": [
+      "single-step"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "+304 J",
+      "−304 J",
+      "−507 J",
+      "Zero"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-single-step-q2",
+     "exam": "Practice",
+     "q": "During compression of a gas, the sign of work (IUPAC) is positive because:",
+     "sol": "In compression V_f < V_i, so ΔV < 0 and w = −p_ex ΔV > 0.",
+     "hint": "",
+     "paras": [
+      "single-step"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "p_ex is negative",
+      "ΔV is negative, and w = −p_ex ΔV",
+      "Heat is released",
+      "Temperature rises"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "reversible",
+   "title": "Multi-step & Reversible Processes",
+   "hi": null,
+   "pages": [
+    141,
+    142
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-reversible-q1",
+     "exam": "Practice",
+     "q": "A reversible process is one which:",
+     "sol": "NCERT: a reversible process proceeds infinitely slowly through equilibrium states and can be reversed by an infinitesimal change.",
+     "hint": "",
+     "paras": [
+      "reversible"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Takes place rapidly",
+      "Proceeds infinitely slowly through a series of equilibrium states",
+      "Can be reversed only by a large change",
+      "Always occurs at constant volume"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-reversible-q2",
+     "exam": "Practice",
+     "q": "For the same initial and final volumes, the magnitude of work done BY a gas on isothermal expansion is maximum when the expansion is:",
+     "sol": "In reversible expansion, p_ex tracks the gas pressure, giving the largest area under the p–V curve.",
+     "hint": "",
+     "paras": [
+      "reversible"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Single-step irreversible",
+      "Two-step irreversible",
+      "Reversible",
+      "Free expansion"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "iso-rev",
+   "title": "Isothermal Reversible Work",
+   "hi": null,
+   "pages": [
+    142
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2024-q80-esaral-copy",
+     "exam": "NEET",
+     "q": "The work done during reversible isothermal expansion of one mole of hydrogen gas at 25°C from pressure of 20 atmosphere to 10 atmosphere is<br>(Given R = 2.0 cal K<sup>−1</sup> mol<sup>−1</sup>)",
+     "sol": "<p>For reversible isothermal expansion: w = −2.303 nRT log(p<sub>1</sub>/p<sub>2</sub>).</p><p>w = −2.303 × 1 × 2.0 × 298 × log(20/10) = −2.303 × 596 × 0.301 = <b>−413.14 cal</b> (negative: work is done by the gas).</p>",
+     "hint": "Use p<sub>1</sub>/p<sub>2</sub> in place of V<sub>2</sub>/V<sub>1</sub> (Boyle's law).",
+     "paras": [
+      "iso-rev"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q80 (eSaral copy)",
+     "o": [
+      "0 calorie",
+      "−413.14 calories",
+      "413.14 calories",
+      "100 calories"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "25°C पर एक मोल हाइड्रोजन गैस के 20 वायुमंडल से 10 वायुमंडल दाब तक उत्क्रमणीय समतापीय प्रसरण में किया गया कार्य है<br>(दिया है R = 2.0 cal K<sup>−1</sup> mol<sup>−1</sup>)",
+      "o": [
+       "0 कैलोरी",
+       "−413.14 कैलोरी",
+       "413.14 कैलोरी",
+       "100 कैलोरी"
+      ],
+      "sol": "<p>उत्क्रमणीय समतापीय प्रसरण के लिए: w = −2.303 nRT log(p<sub>1</sub>/p<sub>2</sub>)।</p><p>w = −2.303 × 1 × 2.0 × 298 × log(20/10) = −2.303 × 596 × 0.301 = <b>−413.14 cal</b> (ऋणात्मक: कार्य गैस द्वारा किया जाता है)।</p>",
+      "hint": "V<sub>2</sub>/V<sub>1</sub> के स्थान पर p<sub>1</sub>/p<sub>2</sub> लें (बॉयल का नियम)।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "chem11-thermodynamics-iso-rev-q1",
+     "exam": "Practice",
+     "q": "2 mol of an ideal gas expand isothermally and reversibly at 300 K from 10 L to 100 L. Work done is about (R = 8.314 J K⁻¹ mol⁻¹):",
+     "sol": "w = −2.303 × 2 × 8.314 × 300 × log 10 = −11 488 J ≈ −11.5 kJ.",
+     "hint": "",
+     "paras": [
+      "iso-rev"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "−5.74 kJ",
+      "−11.5 kJ",
+      "+11.5 kJ",
+      "−26.4 kJ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-iso-rev-q2",
+     "exam": "Practice",
+     "q": "In the expression w_rev = −2.303 nRT log(V_f/V_i), the ratio V_f/V_i can be replaced (isothermal ideal gas) by:",
+     "sol": "Boyle's law: p_i V_i = p_f V_f, so V_f/V_i = p_i/p_f.",
+     "hint": "",
+     "paras": [
+      "iso-rev"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "p_f/p_i",
+      "p_i/p_f",
+      "T_f/T_i",
+      "n_f/n_i"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "free-exp",
+   "title": "Free Expansion",
+   "hi": null,
+   "pages": [
+    142
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2020-code-f3-q77",
+     "exam": "NEET",
+     "q": "The correct option for free expansion of an ideal gas under adiabatic condition is:",
+     "sol": "<p>Adiabatic → q = 0. Free expansion is into vacuum (p<sub>ex</sub> = 0) → w = 0. Then ΔU = 0, and for an ideal gas ΔT = 0 (NCERT §5.2.1, free expansion).</p>",
+     "hint": "Expansion against zero pressure does no work.",
+     "paras": [
+      "free-exp"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q77",
+     "o": [
+      "q &lt; 0, ΔT = 0 and w = 0",
+      "q &gt; 0, ΔT &gt; 0 and w &gt; 0",
+      "q = 0, ΔT = 0 and w = 0",
+      "q = 0, ΔT &lt; 0 and w &gt; 0"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "रुद्धोष्म परिस्थिति में एक आदर्श गैस के मुक्त प्रसरण के लिए सही विकल्प है:",
+      "o": [
+       "q &lt; 0, ΔT = 0 और w = 0",
+       "q &gt; 0, ΔT &gt; 0 और w &gt; 0",
+       "q = 0, ΔT = 0 और w = 0",
+       "q = 0, ΔT &lt; 0 और w &gt; 0"
+      ],
+      "sol": "<p>रुद्धोष्म → q = 0। मुक्त प्रसरण निर्वात में होता है (p<sub>ex</sub> = 0) → w = 0। तब ΔU = 0, और आदर्श गैस के लिए ΔT = 0 (NCERT §5.2.1, मुक्त प्रसरण)।</p>",
+      "hint": "शून्य दाब के विरुद्ध प्रसरण में कोई कार्य नहीं होता।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2020 final key, Code F3: 3)"
+    },
+    {
+     "id": "chem11-thermodynamics-free-exp-q1",
+     "exam": "Practice",
+     "q": "An ideal gas expands isothermally into vacuum. Which is correct?",
+     "sol": "Against zero external pressure, w = 0. For an ideal gas at constant T, ΔU = 0, so q = 0 too.",
+     "hint": "",
+     "paras": [
+      "free-exp"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "q > 0, w < 0",
+      "q = 0, w = 0, ΔU = 0",
+      "q < 0, w > 0",
+      "q = 0, w < 0"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "process-summary",
+   "title": "q and w for Different Processes",
+   "hi": null,
+   "pages": [
+    142,
+    143
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2024-q81-esaral-copy",
+     "exam": "NEET",
+     "q": "Match List I with List II.<br>List-I (Process): (A) Isothermal process (B) Isochoric process (C) Isobaric process (D) Adiabatic process<br>List-II (Conditions): (I) No heat exchange (II) Carried out at constant temperature (III) Carried out at constant volume (IV) Carried out at constant pressure<br>Choose the correct answer from the options given below:",
+     "sol": "<p>Isothermal: constant temperature (II). Isochoric: constant volume (III). Isobaric: constant pressure (IV). Adiabatic: no heat exchange (I).</p><p>Answer: <b>A-II, B-III, C-IV, D-I</b>.</p>",
+     "hint": "iso-thermal = same T, iso-choric = same V, iso-baric = same p.",
+     "paras": [
+      "process-summary"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q81 (eSaral copy)",
+     "o": [
+      "A-IV, B-III, C-II, D-I",
+      "A-IV, B-II, C-III, D-I",
+      "A-I, B-II, C-III, D-IV",
+      "A-II, B-III, C-IV, D-I"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "सूची I का सूची II से मिलान कीजिए।<br>सूची I (प्रक्रम): (A) समतापीय प्रक्रम (B) समआयतनिक प्रक्रम (C) समदाबीय प्रक्रम (D) रुद्धोष्म प्रक्रम<br>सूची II (परिस्थितियाँ): (I) कोई ऊष्मा विनिमय नहीं (II) स्थिर ताप पर किया जाता है (III) स्थिर आयतन पर किया जाता है (IV) स्थिर दाब पर किया जाता है<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+      "o": [
+       "A-IV, B-III, C-II, D-I",
+       "A-IV, B-II, C-III, D-I",
+       "A-I, B-II, C-III, D-IV",
+       "A-II, B-III, C-IV, D-I"
+      ],
+      "sol": "<p>समतापीय: स्थिर ताप (II)। समआयतनिक: स्थिर आयतन (III)। समदाबीय: स्थिर दाब (IV)। रुद्धोष्म: कोई ऊष्मा विनिमय नहीं (I)।</p><p>उत्तर: <b>A-II, B-III, C-IV, D-I</b>।</p>",
+      "hint": "समतापीय = समान T, समआयतनिक = समान V, समदाबीय = समान p।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "chem11-thermodynamics-process-summary-q1",
+     "exam": "Practice",
+     "q": "For an isothermal expansion of an ideal gas, which statement is correct?",
+     "sol": "For an ideal gas, U depends only on T. Isothermal means ΔU = 0, so q = −w.",
+     "hint": "",
+     "paras": [
+      "process-summary"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔU = 0 and q = −w",
+      "q = 0",
+      "w = 0",
+      "ΔU = q"
+     ],
+     "a": 0
+    },
+    {
+     "id": "chem11-thermodynamics-process-summary-q2",
+     "exam": "Practice",
+     "q": "Heat absorbed at constant volume equals:",
+     "sol": "At constant volume no pV work is done, so ΔU = q_V.",
+     "hint": "",
+     "paras": [
+      "process-summary"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔH",
+      "ΔU",
+      "w",
+      "pΔV"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "h-def",
+   "title": "(a) H = U + pV and ΔH = q(p)",
+   "hi": null,
+   "pages": [
+    143
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-h-def-q1",
+     "exam": "Practice",
+     "q": "Heat absorbed by a system at constant pressure is equal to:",
+     "sol": "By definition, ΔH = q_p.",
+     "hint": "",
+     "paras": [
+      "h-def"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔU",
+      "ΔH",
+      "w",
+      "ΔG"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-h-def-q2",
+     "exam": "Practice",
+     "q": "For an exothermic reaction:",
+     "sol": "Exothermic reactions release heat, so ΔH is negative.",
+     "hint": "",
+     "paras": [
+      "h-def"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔH > 0",
+      "ΔH < 0",
+      "ΔH = 0",
+      "ΔH = ΔU always"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-h-def-q3",
+     "exam": "Practice",
+     "q": "Which statement is correct?",
+     "sol": "H is a state function, so ΔH, and hence q_p, does not depend on path.",
+     "hint": "",
+     "paras": [
+      "h-def"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "q is a state function",
+      "q_p is path-dependent",
+      "q_p is path-independent because it equals ΔH",
+      "H is a path function"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "dh-du",
+   "title": "ΔH = ΔU + Δn(g)RT",
+   "hi": null,
+   "pages": [
+    143,
+    144
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2023-topic-wise-copy-q36",
+     "exam": "NEET",
+     "q": "Which amongst the following options is the correct relation between change in enthalpy and change in internal Energy?",
+     "sol": "<p>H = U + pV, so ΔH = ΔU + Δ(pV). For gases at constant T, Δ(pV) = Δn<sub>g</sub>RT, giving <b>ΔH = ΔU + Δn<sub>g</sub>RT</b> (NCERT Eq 5.9/5.10).</p>",
+     "hint": "Start from H = U + pV.",
+     "paras": [
+      "dh-du"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q36",
+     "o": [
+      "ΔH + ΔU = ΔnR",
+      "ΔH = ΔU – Δn<sub>g</sub>RT",
+      "ΔH = ΔU + Δn<sub>g</sub>RT",
+      "ΔH − ΔU = −ΔnRT"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "निम्नलिखित विकल्पों में से एन्थैल्पी परिवर्तन और आंतरिक ऊर्जा परिवर्तन के बीच सही संबंध कौन-सा है?",
+      "o": [
+       "ΔH + ΔU = ΔnR",
+       "ΔH = ΔU – Δn<sub>g</sub>RT",
+       "ΔH = ΔU + Δn<sub>g</sub>RT",
+       "ΔH − ΔU = −ΔnRT"
+      ],
+      "sol": "<p>H = U + pV, अतः ΔH = ΔU + Δ(pV)। स्थिर T पर गैसों के लिए Δ(pV) = Δn<sub>g</sub>RT, जिससे <b>ΔH = ΔU + Δn<sub>g</sub>RT</b> (NCERT Eq 5.9/5.10)।</p>",
+      "hint": "H = U + pV से शुरू करें।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "chem11-thermodynamics-dh-du-q1",
+     "exam": "NCERT Exercise",
+     "q": "For CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔU = −X kJ mol⁻¹. Then ΔH is:",
+     "sol": "Δn_g = 1 − 3 = −2, so ΔH = ΔU − 2RT, which is less than ΔU.",
+     "hint": "",
+     "paras": [
+      "dh-du"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.4",
+     "o": [
+      "= ΔU",
+      "> ΔU",
+      "< ΔU",
+      "= 0"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-dh-du-q2",
+     "exam": "Practice",
+     "q": "For which reaction is ΔH = ΔU?",
+     "sol": "For H₂ + Cl₂ → 2HCl, Δn_g = 2 − 2 = 0, so ΔH = ΔU.",
+     "hint": "",
+     "paras": [
+      "dh-du"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "N₂(g) + 3H₂(g) → 2NH₃(g)",
+      "H₂(g) + Cl₂(g) → 2HCl(g)",
+      "PCl₅(g) → PCl₃(g) + Cl₂(g)",
+      "2SO₂(g) + O₂(g) → 2SO₃(g)"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-dh-du-q3",
+     "exam": "Practice",
+     "q": "ΔvapH of water at 373 K is 40.7 kJ mol⁻¹. ΔvapU (water vapour as ideal gas) is about:",
+     "sol": "ΔU = ΔH − Δn_g RT = 40.7 − (1)(8.314 × 10⁻³)(373) ≈ 40.7 − 3.1 = 37.6 kJ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "dh-du"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "43.8 kJ mol⁻¹",
+      "40.7 kJ mol⁻¹",
+      "37.6 kJ mol⁻¹",
+      "34.5 kJ mol⁻¹"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-dh-du-q4",
+     "exam": "Practice",
+     "q": "For C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l) at 298 K, Δn_g is:",
+     "sol": "Gaseous products 3, gaseous reactants 6, so Δn_g = −3. Liquid water is not counted.",
+     "hint": "",
+     "paras": [
+      "dh-du"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "+2",
+      "−3",
+      "+1",
+      "−6"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "ext-int",
+   "title": "(b) Extensive & Intensive Properties",
+   "hi": null,
+   "pages": [
+    144
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-ext-int-q1",
+     "exam": "Practice",
+     "q": "Which of the following is an intensive property?",
+     "sol": "Molar heat capacity = C/n, the ratio of two extensive quantities, so it is intensive.",
+     "hint": "",
+     "paras": [
+      "ext-int"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Enthalpy",
+      "Heat capacity",
+      "Molar heat capacity",
+      "Volume"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-ext-int-q2",
+     "exam": "Practice",
+     "q": "Which set contains only extensive properties?",
+     "sol": "Mass, volume and enthalpy all scale with the amount of substance.",
+     "hint": "",
+     "paras": [
+      "ext-int"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Mass, volume, enthalpy",
+      "Temperature, pressure, density",
+      "Mass, density, enthalpy",
+      "Volume, temperature, heat capacity"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "sec": "heat-capacity",
+   "title": "(c) Heat Capacity",
+   "hi": null,
+   "pages": [
+    144,
+    145
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-heat-capacity-q1",
+     "exam": "NCERT Exercise",
+     "q": "Heat needed to raise the temperature of 60.0 g of Al from 35 °C to 55 °C (molar heat capacity 24 J mol⁻¹ K⁻¹, M = 27 g mol⁻¹) is about:",
+     "sol": "n = 60/27 = 2.22 mol; q = 2.22 × 24 × 20 ≈ 1067 J ≈ 1.07 kJ.",
+     "hint": "",
+     "paras": [
+      "heat-capacity"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.9",
+     "o": [
+      "0.53 kJ",
+      "1.07 kJ",
+      "2.14 kJ",
+      "28.8 kJ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-heat-capacity-q2",
+     "exam": "Practice",
+     "q": "A substance with a large heat capacity will show:",
+     "sol": "q = CΔT, so for fixed q, a larger C gives a smaller ΔT.",
+     "hint": "",
+     "paras": [
+      "heat-capacity"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "A large temperature rise for a given heat input",
+      "A small temperature rise for a given heat input",
+      "No temperature change",
+      "A temperature fall on heating"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "cp-cv",
+   "title": "(d) Cp − Cv = R (Ideal Gas)",
+   "hi": null,
+   "pages": [
+    145
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2021-code-p3-q55",
+     "exam": "NEET",
+     "q": "Which one among the following is the correct option for right relationship between C<sub>P</sub> and C<sub>V</sub> for one mole of ideal gas?",
+     "sol": "<p>For one mole of an ideal gas, C<sub>p</sub> − C<sub>V</sub> = R (NCERT Eq 5.12): at constant pressure extra heat is needed for the expansion work pΔV = RΔT.</p>",
+     "hint": "C<sub>p</sub> is larger than C<sub>V</sub> by R per mole.",
+     "paras": [
+      "cp-cv"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q55",
+     "o": [
+      "C<sub>V</sub> = RC<sub>P</sub>",
+      "C<sub>P</sub> + C<sub>V</sub> = R",
+      "C<sub>P</sub> − C<sub>V</sub> = R",
+      "C<sub>P</sub> = RC<sub>V</sub>"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "आदर्श गैस के एक मोल के लिए C<sub>P</sub> और C<sub>V</sub> के बीच सही संबंध के लिए निम्नलिखित में से कौन-सा विकल्प सही है?",
+      "o": [
+       "C<sub>V</sub> = RC<sub>P</sub>",
+       "C<sub>P</sub> + C<sub>V</sub> = R",
+       "C<sub>P</sub> − C<sub>V</sub> = R",
+       "C<sub>P</sub> = RC<sub>V</sub>"
+      ],
+      "sol": "<p>आदर्श गैस के एक मोल के लिए C<sub>p</sub> − C<sub>V</sub> = R (NCERT Eq 5.12): स्थिर दाब पर प्रसरण कार्य pΔV = RΔT के लिए अतिरिक्त ऊष्मा चाहिए।</p>",
+      "hint": "प्रति मोल C<sub>p</sub>, C<sub>V</sub> से R अधिक होती है।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2021 final key, Code P3: 3)"
+    },
+    {
+     "id": "chem11-thermodynamics-cp-cv-q1",
+     "exam": "Practice",
+     "q": "For one mole of an ideal gas, Cp − Cv equals:",
+     "sol": "From ΔH = ΔU + RΔT for 1 mol of ideal gas, Cp − Cv = R.",
+     "hint": "",
+     "paras": [
+      "cp-cv"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "0",
+      "R",
+      "R/2",
+      "2R"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-cp-cv-q2",
+     "exam": "Practice",
+     "q": "Why is Cp greater than Cv for a gas?",
+     "sol": "At constant p, the gas expands and does work, so more heat is needed for the same ΔT.",
+     "hint": "",
+     "paras": [
+      "cp-cv"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "At constant pressure, part of the heat is used to do expansion work",
+      "At constant volume, heat is lost",
+      "Pressure increases internal energy",
+      "Cv includes work of expansion"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "sec": "bomb",
+   "title": "(a) ΔU: Bomb Calorimeter",
+   "hi": null,
+   "pages": [
+    145
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-bomb-q1",
+     "exam": "Practice",
+     "q": "A bomb calorimeter measures:",
+     "sol": "The bomb is sealed and rigid (ΔV = 0), so the heat measured is q_V = ΔU.",
+     "hint": "",
+     "paras": [
+      "bomb"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔH directly",
+      "ΔU (heat at constant volume)",
+      "ΔG",
+      "ΔS"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-bomb-q2",
+     "exam": "Practice",
+     "q": "Why is no work done in a bomb calorimeter even when gases are produced?",
+     "sol": "w = −pΔV and ΔV = 0 in the sealed steel bomb.",
+     "hint": "",
+     "paras": [
+      "bomb"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Gases do not expand",
+      "The volume of the sealed bomb is constant",
+      "Temperature is constant",
+      "Pressure is zero"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "coffee-cup",
+   "title": "(b) ΔH: Constant-pressure Calorimeter",
+   "hi": null,
+   "pages": [
+    146
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-coffee-cup-q1",
+     "exam": "Practice",
+     "q": "The heat absorbed or evolved at constant pressure in a calorimeter is called:",
+     "sol": "q_p = Δ_rH, the enthalpy (heat) of reaction.",
+     "hint": "",
+     "paras": [
+      "coffee-cup"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Internal energy change",
+      "Enthalpy of reaction",
+      "Gibbs energy",
+      "Lattice energy"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "graphite-problem",
+   "title": "Worked: Burning Graphite in a Bomb",
+   "hi": null,
+   "pages": [
+    146
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-graphite-problem-q1",
+     "exam": "Practice",
+     "q": "A reaction in a bomb calorimeter (heat capacity 10.0 kJ K⁻¹) raises the temperature by 2.0 K. q for the reaction is:",
+     "sol": "The calorimeter gains CΔT = 20 kJ. The reaction lost it, so q = −20 kJ (exothermic).",
+     "hint": "",
+     "paras": [
+      "graphite-problem"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "+20 kJ",
+      "−20 kJ",
+      "+5 kJ",
+      "−5 kJ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-graphite-problem-q2",
+     "exam": "Practice",
+     "q": "For C(graphite) + O₂(g) → CO₂(g), the relation between ΔH and ΔU is:",
+     "sol": "Δn_g = 1 − 1 = 0, so ΔH = ΔU.",
+     "hint": "",
+     "paras": [
+      "graphite-problem"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔH > ΔU",
+      "ΔH < ΔU",
+      "ΔH = ΔU",
+      "Cannot be predicted"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "rh-def",
+   "title": "ΔᵣH = ΣH(products) − ΣH(reactants)",
+   "hi": null,
+   "pages": [
+    146,
+    147
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2025-code-45-q65",
+     "exam": "NEET",
+     "q": "C(s) + 2H<sub>2</sub>(g) → CH<sub>4</sub>(g); ΔH = −74.8 kJ mol<sup>−1</sup>.<br>Which of the following diagrams gives an accurate representation of the above reaction? [R → reactants; P → products]",
+     "sol": "<p>ΔH = −74.8 kJ mol<sup>−1</sup> is negative, so the reaction is exothermic: the products (P) lie <b>74.8 kJ mol<sup>−1</sup> below</b> the reactants (R) on the energy axis. Only diagram (A) shows P below R by this amount.</p>",
+     "hint": "Negative ΔH → products lower in energy than reactants.",
+     "paras": [
+      "rh-def"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q65",
+     "o": [
+      "Energy profile (A): P lies 74.8 kJ mol<sup>−1</sup> below R",
+      "Energy profile (B) (as drawn in the paper)",
+      "Energy profile (C) (as drawn in the paper)",
+      "Energy profile (D) (as drawn in the paper)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "C(s) + 2H<sub>2</sub>(g) → CH<sub>4</sub>(g); ΔH = −74.8 kJ mol<sup>−1</sup>।<br>निम्नलिखित में से कौन-सा आरेख उपर्युक्त अभिक्रिया को सही रूप से दर्शाता है? [R → अभिकारक; P → उत्पाद]",
+      "o": [
+       "ऊर्जा आरेख (A): P, R से 74.8 kJ mol<sup>−1</sup> नीचे है",
+       "ऊर्जा आरेख (B) (प्रश्नपत्र में दिए अनुसार)",
+       "ऊर्जा आरेख (C) (प्रश्नपत्र में दिए अनुसार)",
+       "ऊर्जा आरेख (D) (प्रश्नपत्र में दिए अनुसार)"
+      ],
+      "sol": "<p>ΔH = −74.8 kJ mol<sup>−1</sup> ऋणात्मक है, अतः अभिक्रिया ऊष्माक्षेपी है: ऊर्जा अक्ष पर उत्पाद (P), अभिकारकों (R) से <b>74.8 kJ mol<sup>−1</sup> नीचे</b> होते हैं। केवल आरेख (A) में P, R से इतना नीचे दिखाया गया है।</p>",
+      "hint": "ऋणात्मक ΔH → उत्पादों की ऊर्जा अभिकारकों से कम।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)"
+    },
+    {
+     "id": "chem11-thermodynamics-rh-def-q1",
+     "exam": "Practice",
+     "q": "Knowledge of Δ_rH is needed for all EXCEPT:",
+     "sol": "Rate constants belong to chemical kinetics. NCERT lists the other uses.",
+     "hint": "",
+     "paras": [
+      "rh-def"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Planning heating/cooling of an industrial reaction",
+      "Temperature dependence of the equilibrium constant",
+      "Predicting the rate constant of a reaction",
+      "Calculating heat released in combustion"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "std-state",
+   "title": "(a) Standard Enthalpy & Standard State",
+   "hi": null,
+   "pages": [
+    147
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-std-state-q1",
+     "exam": "Practice",
+     "q": "The standard state of a substance at a specified temperature is:",
+     "sol": "NCERT: the standard state is the pure form at 1 bar at the specified temperature.",
+     "hint": "",
+     "paras": [
+      "std-state"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Its pure form at 1 atm and 273 K",
+      "Its pure form at 1 bar",
+      "Its gaseous form at 1 bar",
+      "Its most stable form at 298 K only"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "phase",
+   "title": "(b) Enthalpy of Phase Transformations",
+   "hi": null,
+   "pages": [
+    147,
+    148,
+    149
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-phase-q1",
+     "exam": "Practice",
+     "q": "Which is true for all enthalpies of fusion and vaporisation?",
+     "sol": "Melting and vaporising need heat (endothermic), so these enthalpies are positive.",
+     "hint": "",
+     "paras": [
+      "phase"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "They are always negative",
+      "They are always positive",
+      "They are zero at the transition temperature",
+      "They are equal for all substances"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-phase-q2",
+     "exam": "Practice",
+     "q": "Acetone needs less heat per mole than water to vaporise because:",
+     "sol": "Strong H-bonding in water holds the molecules tightly. Acetone has only weaker dipole–dipole forces.",
+     "hint": "",
+     "paras": [
+      "phase"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Acetone has a higher molar mass",
+      "Water has strong intermolecular hydrogen bonds",
+      "Acetone is ionic",
+      "Water has weaker dipole–dipole forces"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-phase-q3",
+     "exam": "Practice",
+     "q": "If ΔfusH = 6.0 kJ mol⁻¹ and ΔvapH = 45.0 kJ mol⁻¹ for a substance at the same temperature, its ΔsubH is:",
+     "sol": "Solid → vapour = solid → liquid → vapour, so ΔsubH = 6.0 + 45.0 = 51.0 kJ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "phase"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "39.0 kJ mol⁻¹",
+      "51.0 kJ mol⁻¹",
+      "45.0 kJ mol⁻¹",
+      "270 kJ mol⁻¹"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-phase-q4",
+     "exam": "Practice",
+     "q": "During melting of ice at 273 K and 1 atm, the temperature:",
+     "sol": "Phase changes take place at constant temperature; the heat absorbed is latent heat.",
+     "hint": "",
+     "paras": [
+      "phase"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Rises steadily",
+      "Remains constant",
+      "Falls",
+      "First rises then falls"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "formation",
+   "title": "(c) Standard Enthalpy of Formation",
+   "hi": null,
+   "pages": [
+    149,
+    150
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-formation-q4",
+     "exam": "NCERT Exercise",
+     "q": "For N₂(g) + 3H₂(g) → 2NH₃(g), ΔrH° = −92.4 kJ mol⁻¹. ΔfH° of NH₃(g) is:",
+     "sol": "The equation makes 2 mol of NH₃, so ΔfH° = −92.4/2 = −46.2 kJ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "formation"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.13",
+     "o": [
+      "−92.4 kJ mol⁻¹",
+      "−46.2 kJ mol⁻¹",
+      "+46.2 kJ mol⁻¹",
+      "−184.8 kJ mol⁻¹"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-formation-q1",
+     "exam": "NCERT Exercise",
+     "q": "The enthalpies of all elements in their standard (reference) states are:",
+     "sol": "By convention ΔfH° = 0 for every element in its most stable state at 1 bar.",
+     "hint": "",
+     "paras": [
+      "formation"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.3",
+     "o": [
+      "Unity",
+      "Zero",
+      "Less than zero",
+      "Different for each element"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-formation-q2",
+     "exam": "Practice",
+     "q": "For which substance is ΔfH° NOT zero?",
+     "sol": "Diamond is not carbon's reference state; graphite is.",
+     "hint": "",
+     "paras": [
+      "formation"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "C(graphite)",
+      "O₂(g)",
+      "C(diamond)",
+      "S(rhombic)"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-formation-q3",
+     "exam": "Practice",
+     "q": "Which equation represents the standard enthalpy of formation?",
+     "sol": "It forms 1 mol of HBr from its elements in their reference states. The others start from compounds, make 2 mol, or use diamond.",
+     "hint": "",
+     "paras": [
+      "formation"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "CaO(s) + CO₂(g) → CaCO₃(s)",
+      "H₂(g) + Br₂(l) → 2HBr(g)",
+      "½H₂(g) + ½Br₂(l) → HBr(g)",
+      "C(diamond) + O₂(g) → CO₂(g)"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "use-formation",
+   "title": "Using ΔfH° to Find ΔᵣH°",
+   "hi": null,
+   "pages": [
+    150
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-use-formation-q1",
+     "exam": "NCERT Exercise",
+     "q": "ΔfH° values (kJ mol⁻¹): CO(g) = −110, CO₂(g) = −393, N₂O(g) = 81, N₂O₄(g) = 9.7. ΔrH for N₂O₄(g) + 3CO(g) → N₂O(g) + 3CO₂(g) is:",
+     "sol": "Products: 81 + 3(−393) = −1098. Reactants: 9.7 + 3(−110) = −320.3. ΔrH = −1098 − (−320.3) = −777.7 kJ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "use-formation"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.12",
+     "o": [
+      "−777.7 kJ mol⁻¹",
+      "+777.7 kJ mol⁻¹",
+      "−1070 kJ mol⁻¹",
+      "−320 kJ mol⁻¹"
+     ],
+     "a": 0
+    },
+    {
+     "id": "chem11-thermodynamics-use-formation-q2",
+     "exam": "Practice",
+     "q": "Given ΔfH°: Fe₂O₃(s) = −824.2, H₂O(l) = −285.83 kJ mol⁻¹. ΔrH° for Fe₂O₃(s) + 3H₂(g) → 2Fe(s) + 3H₂O(l) is about:",
+     "sol": "3(−285.83) − (−824.2) = −857.5 + 824.2 = −33.3 kJ mol⁻¹. Fe and H₂ count as zero.",
+     "hint": "",
+     "paras": [
+      "use-formation"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "−1681.7 kJ mol⁻¹",
+      "+33.3 kJ mol⁻¹",
+      "−33.3 kJ mol⁻¹",
+      "+538.4 kJ mol⁻¹"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "thermo-eq",
+   "title": "(d) Thermochemical Equations",
+   "hi": null,
+   "pages": [
+    150,
+    151
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-thermo-eq-q3",
+     "exam": "NCERT Exercise",
+     "q": "Heat released on forming 35.2 g of CO₂ from carbon (ΔcH of C = −393.5 kJ mol⁻¹) is:",
+     "sol": "35.2/44 = 0.8 mol; 0.8 × 393.5 = 314.8 kJ released.",
+     "hint": "",
+     "paras": [
+      "thermo-eq"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.11",
+     "o": [
+      "393.5 kJ",
+      "314.8 kJ",
+      "196.8 kJ",
+      "157.4 kJ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-thermo-eq-q1",
+     "exam": "Practice",
+     "q": "If ΔH for A → B is −x kJ, then ΔH for 2B → 2A is:",
+     "sol": "Reversing flips the sign (+x) and doubling doubles the value: +2x kJ.",
+     "hint": "",
+     "paras": [
+      "thermo-eq"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "−2x kJ",
+      "+2x kJ",
+      "+x kJ",
+      "−x/2 kJ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-thermo-eq-q2",
+     "exam": "Practice",
+     "q": "In a thermochemical equation, the stoichiometric coefficients represent:",
+     "sol": "NCERT convention 1: coefficients are moles, never molecules.",
+     "hint": "",
+     "paras": [
+      "thermo-eq"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Number of molecules",
+      "Number of moles",
+      "Mass in grams",
+      "Volume in litres"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "hess",
+   "title": "(e) Hess's Law of Constant Heat Summation",
+   "hi": null,
+   "pages": [
+    151,
+    152
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-hess-q1",
+     "exam": "Practice",
+     "q": "Hess's law is a direct consequence of the fact that:",
+     "sol": "ΔH depends only on the initial and final states, so it is the same for any route.",
+     "hint": "",
+     "paras": [
+      "hess"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Enthalpy is an intensive property",
+      "Enthalpy is a state function",
+      "Heat is a path function",
+      "Energy can be created"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-hess-q2",
+     "exam": "Practice",
+     "q": "C(s) + O₂ → CO₂, ΔH = −393.5 kJ; CO + ½O₂ → CO₂, ΔH = −283.0 kJ. ΔH for C(s) + ½O₂ → CO is:",
+     "sol": "(1) − (2): −393.5 − (−283.0) = −110.5 kJ.",
+     "hint": "",
+     "paras": [
+      "hess"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "−676.5 kJ",
+      "−110.5 kJ",
+      "+110.5 kJ",
+      "−283.0 kJ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-hess-q3",
+     "exam": "Practice",
+     "q": "Why can ΔH for C(graphite) + ½O₂ → CO not be measured directly?",
+     "sol": "NCERT: some CO₂ always forms, so direct measurement is impossible; Hess's law is used instead.",
+     "hint": "",
+     "paras": [
+      "hess"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "The reaction is too slow",
+      "Some CO₂ is always formed along with CO",
+      "CO is unstable",
+      "Graphite does not burn"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-hess-q4",
+     "exam": "Practice",
+     "q": "Given A → B, ΔH = +20 kJ; B → C, ΔH = −50 kJ; C → D, ΔH = +10 kJ. ΔH for D → A is:",
+     "sol": "A → D = 20 − 50 + 10 = −20 kJ, so D → A = +20 kJ.",
+     "hint": "",
+     "paras": [
+      "hess"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "−20 kJ",
+      "+20 kJ",
+      "−80 kJ",
+      "+80 kJ"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "combustion",
+   "title": "(a) Enthalpy of Combustion (ΔcH°)",
+   "hi": null,
+   "pages": [
+    152,
+    153
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-combustion-q2",
+     "exam": "NCERT Exercise",
+     "q": "ΔcH of methane, graphite and H₂ are −890.3, −393.5 and −285.8 kJ mol⁻¹. ΔfH of CH₄(g) is:",
+     "sol": "ΔfH = −393.5 + 2(−285.8) + 890.3 = −74.8 kJ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "combustion"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.5",
+     "o": [
+      "−74.8 kJ mol⁻¹",
+      "−52.27 kJ mol⁻¹",
+      "+74.8 kJ mol⁻¹",
+      "+52.26 kJ mol⁻¹"
+     ],
+     "a": 0
+    },
+    {
+     "id": "chem11-thermodynamics-combustion-q1",
+     "exam": "Practice",
+     "q": "ΔcH of ethane, graphite and H₂ are −1560, −393.5 and −285.8 kJ mol⁻¹. ΔfH of C₂H₆(g) is about:",
+     "sol": "ΔfH = 2(−393.5) + 3(−285.8) − (−1560) = −787 − 857.4 + 1560 = −84.4 kJ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "combustion"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "−84.4 kJ mol⁻¹",
+      "+84.4 kJ mol⁻¹",
+      "−880.7 kJ mol⁻¹",
+      "−1644 kJ mol⁻¹"
+     ],
+     "a": 0
+    },
+    {
+     "id": "chem11-thermodynamics-combustion-q3",
+     "exam": "Practice",
+     "q": "Enthalpy of combustion is always:",
+     "sol": "Combustion releases heat, so ΔcH < 0.",
+     "hint": "",
+     "paras": [
+      "combustion"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Positive or negative"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "atomization",
+   "title": "(b) Enthalpy of Atomization (ΔₐH°)",
+   "hi": null,
+   "pages": [
+    153
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-atomization-q1",
+     "exam": "Practice",
+     "q": "For sodium metal, the enthalpy of atomization is the same as its:",
+     "sol": "Na(s) → Na(g) is both atomization and sublimation.",
+     "hint": "",
+     "paras": [
+      "atomization"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Enthalpy of fusion",
+      "Enthalpy of sublimation",
+      "Ionization enthalpy",
+      "Lattice enthalpy"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-atomization-q2",
+     "exam": "Practice",
+     "q": "For which species is the enthalpy of atomization equal to its bond dissociation enthalpy?",
+     "sol": "For diatomic molecules, breaking the one bond gives atoms directly.",
+     "hint": "",
+     "paras": [
+      "atomization"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "CH₄",
+      "H₂O",
+      "Cl₂",
+      "NH₃"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "bde",
+   "title": "Bond Dissociation Enthalpy (Diatomic)",
+   "hi": null,
+   "pages": [
+    153
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-bde-q1",
+     "exam": "Practice",
+     "q": "Bond dissociation enthalpy refers to breaking one mole of bonds of a compound in which state?",
+     "sol": "Both reactant and products must be gaseous.",
+     "hint": "",
+     "paras": [
+      "bde"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Solid",
+      "Liquid",
+      "Gaseous",
+      "Aqueous"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "mean-bond",
+   "title": "Mean Bond Enthalpy (Polyatomic)",
+   "hi": null,
+   "pages": [
+    153,
+    154
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-mean-bond-q1",
+     "exam": "Practice",
+     "q": "ΔaH of NH₃(g) is 1171 kJ mol⁻¹. The mean N–H bond enthalpy is about:",
+     "sol": "There are 3 N–H bonds, so 1171 ÷ 3 ≈ 390 kJ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "mean-bond"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "1171 kJ mol⁻¹",
+      "585 kJ mol⁻¹",
+      "390 kJ mol⁻¹",
+      "293 kJ mol⁻¹"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-mean-bond-q2",
+     "exam": "Practice",
+     "q": "The successive C–H bond dissociation enthalpies in CH₄ are different because:",
+     "sol": "Each fragment (CH₃, CH₂, CH) is a different species, so the energy to remove the next H differs, even though all bonds in CH₄ are identical.",
+     "hint": "",
+     "paras": [
+      "mean-bond"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "The four C–H bonds have different lengths",
+      "The chemical environment changes after each H is removed",
+      "Carbon changes its atomic number",
+      "Measurement errors"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "rh-from-bonds",
+   "title": "ΔᵣH from Bond Enthalpies",
+   "hi": null,
+   "pages": [
+    154,
+    155
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2018-code-aa-q85",
+     "exam": "NEET",
+     "q": "The bond dissociation energies of X<sub>2</sub>, Y<sub>2</sub> and XY are in the ratio of 1 : 0.5 : 1. ΔH for the formation of XY is −200 kJ mol<sup>−1</sup>. The bond dissociation energy of X<sub>2</sub> will be",
+     "sol": "<p>½X<sub>2</sub> + ½Y<sub>2</sub> → XY. Let bond enthalpies be X<sub>2</sub> = a, Y<sub>2</sub> = 0.5a, XY = a.</p><p>Δ<sub>f</sub>H = Σ(bonds broken) − Σ(bonds formed) = ½a + ½(0.5a) − a = −0.25a = −200 → a = <b>800 kJ mol<sup>−1</sup></b>.</p>",
+     "hint": "Formation of one mole of XY needs half a mole each of X<sub>2</sub> and Y<sub>2</sub>.",
+     "paras": [
+      "rh-from-bonds"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q85",
+     "trap": "Using whole moles of X<sub>2</sub> and Y<sub>2</sub> gives 400 kJ mol<sup>−1</sup>.",
+     "o": [
+      "800 kJ mol<sup>−1</sup>",
+      "100 kJ mol<sup>−1</sup>",
+      "200 kJ mol<sup>−1</sup>",
+      "400 kJ mol<sup>−1</sup>"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "X<sub>2</sub>, Y<sub>2</sub> और XY की आबंध वियोजन ऊर्जाएँ 1 : 0.5 : 1 के अनुपात में हैं। XY के विरचन के लिए ΔH का मान −200 kJ mol<sup>−1</sup> है। X<sub>2</sub> की आबंध वियोजन ऊर्जा होगी",
+      "o": [
+       "800 kJ mol<sup>−1</sup>",
+       "100 kJ mol<sup>−1</sup>",
+       "200 kJ mol<sup>−1</sup>",
+       "400 kJ mol<sup>−1</sup>"
+      ],
+      "sol": "<p>½X<sub>2</sub> + ½Y<sub>2</sub> → XY। मान लें आबंध एन्थैल्पी X<sub>2</sub> = a, Y<sub>2</sub> = 0.5a, XY = a।</p><p>Δ<sub>f</sub>H = Σ(टूटे आबंध) − Σ(बने आबंध) = ½a + ½(0.5a) − a = −0.25a = −200 → a = <b>800 kJ mol<sup>−1</sup></b>।</p>",
+      "hint": "XY के एक मोल के विरचन के लिए X<sub>2</sub> और Y<sub>2</sub> प्रत्येक का आधा मोल चाहिए।",
+      "trap": "X<sub>2</sub> और Y<sub>2</sub> के पूरे मोल लेने पर 400 kJ mol<sup>−1</sup> आता है।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2018 key, Code AA: 1)"
+    },
+    {
+     "id": "chem11-thermodynamics-rh-from-bonds-q1",
+     "exam": "Practice",
+     "q": "Using bond enthalpies H–H = 435.8, Cl–Cl = 243, H–Cl = 431 kJ mol⁻¹, ΔrH for H₂(g) + Cl₂(g) → 2HCl(g) is about:",
+     "sol": "ΔrH = (435.8 + 243) − 2(431) = 678.8 − 862 = −183.2 kJ.",
+     "hint": "",
+     "paras": [
+      "rh-from-bonds"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "+183 kJ",
+      "−183 kJ",
+      "−248 kJ",
+      "+248 kJ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-rh-from-bonds-q2",
+     "exam": "Practice",
+     "q": "The relation ΔrH = ΣBE(reactants) − ΣBE(products) is strictly applicable when:",
+     "sol": "Bond enthalpies are defined for gaseous molecules, so the relation holds only for gas-phase reactions.",
+     "hint": "",
+     "paras": [
+      "rh-from-bonds"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "All species are in the solid state",
+      "All species are in the gaseous state",
+      "Reaction is in aqueous solution",
+      "Reaction is at 0 K"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "lattice",
+   "title": "(d) Lattice Enthalpy & Born–Haber Cycle",
+   "hi": null,
+   "pages": [
+    155,
+    156
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-lattice-q1",
+     "exam": "Practice",
+     "q": "Lattice enthalpy of an ionic compound is defined as the enthalpy change when one mole of it:",
+     "sol": "NCERT: solid → gaseous ions; it is positive (endothermic).",
+     "hint": "",
+     "paras": [
+      "lattice"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Is formed from its elements",
+      "Dissociates into its gaseous ions",
+      "Dissolves in water",
+      "Melts"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-lattice-q2",
+     "exam": "Practice",
+     "q": "The Born–Haber cycle is an application of:",
+     "sol": "The enthalpy changes round a closed cycle add to zero because H is a state function (Hess's law).",
+     "hint": "",
+     "paras": [
+      "lattice"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Le Chatelier's principle",
+      "Hess's law",
+      "Third law of thermodynamics",
+      "Raoult's law"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-lattice-q3",
+     "exam": "Practice",
+     "q": "Lattice enthalpy is determined using the Born–Haber cycle because:",
+     "sol": "NCERT: lattice enthalpies cannot be measured directly, so an indirect cycle is used.",
+     "hint": "",
+     "paras": [
+      "lattice"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "It is always negative",
+      "It cannot be determined directly by experiment",
+      "It is zero for all solids",
+      "It depends on path"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "ie-ea-box",
+   "title": "Box: Ionization Energy vs Ionization Enthalpy",
+   "hi": null,
+   "pages": [
+    155
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-ie-ea-box-q1",
+     "exam": "Practice",
+     "q": "Ionization enthalpy (ΔiH) at temperature T is related to ionization energy (E₀) by:",
+     "sol": "From the NCERT box: Δ_rC_p = +5/2 R for ionization, so ΔiH = E₀ + 5/2 RT.",
+     "hint": "",
+     "paras": [
+      "ie-ea-box"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔiH = E₀",
+      "ΔiH = E₀ + 5/2 RT",
+      "ΔiH = E₀ − 5/2 RT",
+      "ΔiH = E₀ + 3/2 RT"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "solution",
+   "title": "(e) Enthalpy of Solution (ΔsolH°)",
+   "hi": null,
+   "pages": [
+    156
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-solution-q1",
+     "exam": "Practice",
+     "q": "For a salt, ΔlatticeH = +700 kJ mol⁻¹ and ΔhydH = −720 kJ mol⁻¹. Its ΔsolH is:",
+     "sol": "ΔsolH = 700 + (−720) = −20 kJ mol⁻¹ (exothermic dissolution).",
+     "hint": "",
+     "paras": [
+      "solution"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "+1420 kJ mol⁻¹",
+      "−20 kJ mol⁻¹",
+      "+20 kJ mol⁻¹",
+      "−1420 kJ mol⁻¹"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-solution-q2",
+     "exam": "Practice",
+     "q": "For most ionic compounds, solubility in water increases with temperature because:",
+     "sol": "NCERT: dissolution is usually endothermic, so higher T favours it.",
+     "hint": "",
+     "paras": [
+      "solution"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔsolH is negative",
+      "ΔsolH is positive (endothermic)",
+      "Lattice enthalpy decreases to zero",
+      "Hydration enthalpy is positive"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "dilution",
+   "title": "(f) Enthalpy of Dilution",
+   "hi": null,
+   "pages": [
+    156,
+    157
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-dilution-q1",
+     "exam": "Practice",
+     "q": "ΔH for HCl(g) + 10 aq is −69.0 kJ mol⁻¹ and for HCl(g) + 20 aq is −71.0 kJ mol⁻¹. Enthalpy of dilution for HCl·10aq + 10aq → HCl·20aq is:",
+     "sol": "Subtract: −71.0 − (−69.0) = −2.0 kJ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "dilution"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "−2.0 kJ mol⁻¹",
+      "+2.0 kJ mol⁻¹",
+      "−140 kJ mol⁻¹",
+      "−71.0 kJ mol⁻¹"
+     ],
+     "a": 0
+    },
+    {
+     "id": "chem11-thermodynamics-dilution-q2",
+     "exam": "Practice",
+     "q": "As more and more solvent is added, the enthalpy of solution:",
+     "sol": "NCERT: it approaches the limiting value at infinite dilution.",
+     "hint": "",
+     "paras": [
+      "dilution"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Keeps increasing without limit",
+      "Approaches a limiting value (infinite dilution)",
+      "Becomes zero",
+      "Changes sign repeatedly"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "spont-meaning",
+   "title": "What 'Spontaneous' Means",
+   "hi": null,
+   "pages": [
+    157
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-spont-meaning-q1",
+     "exam": "Practice",
+     "q": "A mixture of H₂ and O₂ at room temperature shows no perceptible change for years. The reaction is:",
+     "sol": "NCERT uses this exact example: spontaneity concerns the potential to proceed, not the rate.",
+     "hint": "",
+     "paras": [
+      "spont-meaning"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Non-spontaneous",
+      "Spontaneous but extremely slow",
+      "At equilibrium",
+      "Endothermic"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-spont-meaning-q2",
+     "exam": "Practice",
+     "q": "Which statement about a spontaneous process is correct?",
+     "sol": "NCERT summary statement on spontaneous processes.",
+     "hint": "",
+     "paras": [
+      "spont-meaning"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "It is always fast",
+      "It can reverse direction on its own",
+      "It is irreversible and can be reversed only by an external agency",
+      "It always releases heat"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "enthalpy-criterion",
+   "title": "(a) Is Decrease in Enthalpy the Criterion?",
+   "hi": null,
+   "pages": [
+    157,
+    158
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-enthalpy-criterion-q1",
+     "exam": "Practice",
+     "q": "The fact that some endothermic reactions are spontaneous shows that:",
+     "sol": "NCERT: decrease in enthalpy may be a contributory factor but is not true for all cases.",
+     "hint": "",
+     "paras": [
+      "enthalpy-criterion"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Enthalpy decrease is the sole criterion for spontaneity",
+      "Enthalpy decrease may contribute but is not the sole criterion",
+      "Endothermic reactions are always spontaneous",
+      "Spontaneity depends only on rate"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "entropy-concept",
+   "title": "Entropy as Disorder",
+   "hi": null,
+   "pages": [
+    158,
+    159
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2019-code-s2-q136",
+     "exam": "NEET",
+     "q": "In which case change in entropy is negative ?",
+     "sol": "<p>Sublimation, evaporation and isothermal expansion all increase disorder (ΔS &gt; 0). In 2H(g) → H<sub>2</sub>(g) two particles become one: <b>ΔS &lt; 0</b>.</p>",
+     "hint": "Look for the process that reduces the number of gas particles.",
+     "paras": [
+      "entropy-concept"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q136",
+     "o": [
+      "Sublimation of solid to gas",
+      "2H(g) → H<sub>2</sub>(g)",
+      "Evaporation of water",
+      "Expansion of a gas at constant temperature"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "किस स्थिति में एन्ट्रॉपी में परिवर्तन ऋणात्मक है ?",
+      "o": [
+       "ठोस का गैस में ऊर्ध्वपातन",
+       "2H(g) → H<sub>2</sub>(g)",
+       "जल का वाष्पन",
+       "स्थिर ताप पर गैस का प्रसरण"
+      ],
+      "sol": "<p>ऊर्ध्वपातन, वाष्पन और समतापीय प्रसरण, सभी में अव्यवस्था बढ़ती है (ΔS &gt; 0)। 2H(g) → H<sub>2</sub>(g) में दो कण एक बनते हैं: <b>ΔS &lt; 0</b>।</p>",
+      "hint": "वह प्रक्रम ढूँढें जिसमें गैस के कणों की संख्या घटती है।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)"
+    },
+    {
+     "id": "chem11-thermodynamics-neet-2024-q54-esaral-copy",
+     "exam": "NEET",
+     "q": "In which of the following processes entropy increases?<br>A. A liquid evaporates to vapour.<br>B. Temperature of a crystalline solid lowered from 130 K to 0 K.<br>C. 2NaHCO<sub>3</sub>(s) → Na<sub>2</sub>CO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(g)<br>D. Cl<sub>2</sub>(g) → 2Cl(g)<br>Choose the correct answer from the options given below:",
+     "sol": "<ul><li>A ✓ liquid → vapour: disorder increases.</li><li>B ✗ cooling a crystal towards 0 K lowers entropy.</li><li>C ✓ a solid gives two gases: Δn<sub>g</sub> = +2.</li><li>D ✓ one molecule gives two atoms: more particles.</li></ul><p>Answer: <b>A, C and D</b>.</p>",
+     "hint": "Entropy rises with more gas particles, higher temperature, or melting/evaporation.",
+     "paras": [
+      "entropy-concept"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q54 (eSaral copy)",
+     "o": [
+      "A and D",
+      "A, B and D",
+      "A, C and D",
+      "C and D"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "निम्नलिखित में से किन प्रक्रमों में एन्ट्रॉपी बढ़ती है?<br>A. एक द्रव वाष्प में बदलता है।<br>B. एक क्रिस्टलीय ठोस का ताप 130 K से घटाकर 0 K किया जाता है।<br>C. 2NaHCO<sub>3</sub>(s) → Na<sub>2</sub>CO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(g)<br>D. Cl<sub>2</sub>(g) → 2Cl(g)<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए:",
+      "o": [
+       "A और D",
+       "A, B और D",
+       "A, C और D",
+       "C और D"
+      ],
+      "sol": "<ul><li>A ✓ द्रव → वाष्प: अव्यवस्था बढ़ती है।</li><li>B ✗ क्रिस्टल को 0 K की ओर ठंडा करने पर एन्ट्रॉपी घटती है।</li><li>C ✓ एक ठोस से दो गैसें बनती हैं: Δn<sub>g</sub> = +2।</li><li>D ✓ एक अणु से दो परमाणु: कणों की संख्या बढ़ती है।</li></ul><p>उत्तर: <b>A, C और D</b>।</p>",
+      "hint": "गैस के अधिक कण, उच्च ताप या गलन/वाष्पन से एन्ट्रॉपी बढ़ती है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "chem11-thermodynamics-entropy-concept-q3",
+     "exam": "NCERT Exercise",
+     "q": "For 2Cl(g) → Cl₂(g), the signs of ΔH and ΔS are:",
+     "sol": "Bond formation releases energy (ΔH < 0), and 2 particles → 1 lowers disorder (ΔS < 0).",
+     "hint": "",
+     "paras": [
+      "entropy-concept"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.18",
+     "o": [
+      "ΔH +, ΔS +",
+      "ΔH −, ΔS −",
+      "ΔH −, ΔS +",
+      "ΔH +, ΔS −"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-entropy-concept-q1",
+     "exam": "Practice",
+     "q": "In which process does entropy decrease?",
+     "sol": "Liquid → ordered solid means S decreases.",
+     "hint": "",
+     "paras": [
+      "entropy-concept"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Melting of ice",
+      "Evaporation of water",
+      "Crystallisation of a liquid",
+      "Sublimation of iodine"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-entropy-concept-q2",
+     "exam": "Practice",
+     "q": "For which reaction is ΔS positive?",
+     "sol": "A gas forms from a solid (Δn_g = +1), so disorder increases.",
+     "hint": "",
+     "paras": [
+      "entropy-concept"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "N₂(g) + 3H₂(g) → 2NH₃(g)",
+      "2SO₂(g) + O₂(g) → 2SO₃(g)",
+      "CaCO₃(s) → CaO(s) + CO₂(g)",
+      "H₂O(g) → H₂O(l)"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "entropy-quant",
+   "title": "ΔS = q(rev)/T and ΔS(total) > 0",
+   "hi": null,
+   "pages": [
+    159
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2016-phase-2-code-aa-q52",
+     "exam": "NEET",
+     "q": "For a sample of perfect gas when its pressure is changed isothermally from p<sub>i</sub> to p<sub>f</sub>, the entropy change is given by",
+     "sol": "<p>Isothermal, reversible: ΔS = q<sub>rev</sub>/T = nR ln(V<sub>f</sub>/V<sub>i</sub>). By Boyle's law V<sub>f</sub>/V<sub>i</sub> = p<sub>i</sub>/p<sub>f</sub>, so <b>ΔS = nR ln(p<sub>i</sub>/p<sub>f</sub>)</b>.</p>",
+     "hint": "For isothermal expansion, q<sub>rev</sub> = nRT ln(V<sub>f</sub>/V<sub>i</sub>).",
+     "paras": [
+      "entropy-quant"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q52",
+     "o": [
+      "ΔS = nR ln(p<sub>f</sub>/p<sub>i</sub>)",
+      "ΔS = nR ln(p<sub>i</sub>/p<sub>f</sub>)",
+      "ΔS = nRT ln(p<sub>f</sub>/p<sub>i</sub>)",
+      "ΔS = RT ln(p<sub>i</sub>/p<sub>f</sub>)"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक आदर्श गैस के नमूने का दाब समतापीय रूप से p<sub>i</sub> से p<sub>f</sub> तक बदलने पर एन्ट्रॉपी परिवर्तन दिया जाता है",
+      "o": [
+       "ΔS = nR ln(p<sub>f</sub>/p<sub>i</sub>)",
+       "ΔS = nR ln(p<sub>i</sub>/p<sub>f</sub>)",
+       "ΔS = nRT ln(p<sub>f</sub>/p<sub>i</sub>)",
+       "ΔS = RT ln(p<sub>i</sub>/p<sub>f</sub>)"
+      ],
+      "sol": "<p>समतापीय, उत्क्रमणीय: ΔS = q<sub>rev</sub>/T = nR ln(V<sub>f</sub>/V<sub>i</sub>)। बॉयल के नियम से V<sub>f</sub>/V<sub>i</sub> = p<sub>i</sub>/p<sub>f</sub>, अतः <b>ΔS = nR ln(p<sub>i</sub>/p<sub>f</sub>)</b>।</p>",
+      "hint": "समतापीय प्रसरण के लिए q<sub>rev</sub> = nRT ln(V<sub>f</sub>/V<sub>i</sub>)।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 2)"
+    },
+    {
+     "id": "chem11-thermodynamics-entropy-quant-q3",
+     "exam": "NCERT Exercise",
+     "q": "For a spontaneous process in an isolated system:",
+     "sol": "ΔU = 0 for an isolated system and entropy must increase for a spontaneous change.",
+     "hint": "",
+     "paras": [
+      "entropy-quant"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.16",
+     "o": [
+      "ΔS < 0",
+      "ΔS = 0",
+      "ΔS > 0",
+      "ΔU > 0"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-entropy-quant-q1",
+     "exam": "Practice",
+     "q": "ΔfusH of ice is 6.0 kJ mol⁻¹ at 273 K. The entropy of fusion is about:",
+     "sol": "ΔS = q_rev/T = 6000/273 ≈ 22.0 J K⁻¹ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "entropy-quant"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "2.2 J K⁻¹ mol⁻¹",
+      "22 J K⁻¹ mol⁻¹",
+      "220 J K⁻¹ mol⁻¹",
+      "0.022 J K⁻¹ mol⁻¹"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-entropy-quant-q2",
+     "exam": "Practice",
+     "q": "A reaction releases 100 kJ of heat at 300 K. The entropy change of the surroundings is:",
+     "sol": "ΔS_surr = −ΔH/T = +100 000/300 ≈ +333 J K⁻¹.",
+     "hint": "",
+     "paras": [
+      "entropy-quant"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "−333 J K⁻¹",
+      "+333 J K⁻¹",
+      "+0.33 J K⁻¹",
+      "−0.33 J K⁻¹"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-entropy-quant-q4",
+     "exam": "Practice",
+     "q": "The same quantity of heat added to a system at low temperature causes ___ randomness than at high temperature.",
+     "sol": "ΔS = q/T, so a smaller T gives a larger ΔS.",
+     "hint": "",
+     "paras": [
+      "entropy-quant"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Less",
+      "Greater",
+      "The same",
+      "No"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "gibbs-eq",
+   "title": "Gibbs Equation: ΔG = ΔH − TΔS",
+   "hi": null,
+   "pages": [
+    160
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-gibbs-eq-q3",
+     "exam": "NCERT Exercise",
+     "q": "For 2A(g) + B(g) → 2D(g) at 298 K, ΔU = −10.5 kJ and ΔS = −44.1 J K⁻¹. ΔG is about:",
+     "sol": "Δn_g = −1, so ΔH = −10.5 + (−1)(8.314 × 10⁻³)(298) = −12.98 kJ. ΔG = −12.98 − 298(−0.0441) = −12.98 + 13.14 ≈ +0.16 kJ, non-spontaneous.",
+     "hint": "",
+     "paras": [
+      "gibbs-eq"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.19",
+     "o": [
+      "−0.16 kJ, spontaneous",
+      "+0.16 kJ, non-spontaneous",
+      "−2.6 kJ, spontaneous",
+      "+2.6 kJ, non-spontaneous"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-gibbs-eq-q1",
+     "exam": "Practice",
+     "q": "Gibbs energy G is defined as:",
+     "sol": "NCERT Eq. 5.20: G = H − TS.",
+     "hint": "",
+     "paras": [
+      "gibbs-eq"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "G = U − TS",
+      "G = H − TS",
+      "G = H + TS",
+      "G = U + pV"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-gibbs-eq-q2",
+     "exam": "Practice",
+     "q": "Which statement about Gibbs energy is correct?",
+     "sol": "NCERT: G is extensive and a state function; its units are energy.",
+     "hint": "",
+     "paras": [
+      "gibbs-eq"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "It is an intensive property",
+      "It is a path function",
+      "It is an extensive property and a state function",
+      "It has units of J K⁻¹"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "gibbs-criterion",
+   "title": "ΔG < 0 Means Spontaneous (Derivation)",
+   "hi": null,
+   "pages": [
+    161
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-gibbs-criterion-q1",
+     "exam": "Practice",
+     "q": "At constant T and p, a process is spontaneous if:",
+     "sol": "ΔG < 0 corresponds to ΔS_total > 0.",
+     "hint": "",
+     "paras": [
+      "gibbs-criterion"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "ΔG > 0",
+      "ΔG < 0",
+      "ΔG = 0",
+      "ΔH > 0"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-gibbs-criterion-q2",
+     "exam": "Practice",
+     "q": "ΔG is called 'free energy' because it represents:",
+     "sol": "TΔS is unavailable for work; ΔG = ΔH − TΔS is the useful part.",
+     "hint": "",
+     "paras": [
+      "gibbs-criterion"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Energy released as heat",
+      "Net energy available to do useful work",
+      "Energy lost to surroundings",
+      "Energy stored in bonds"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "temp-effect",
+   "title": "Effect of Temperature (Table 5.4)",
+   "hi": null,
+   "pages": [
+    161,
+    162
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2016-phase-1-code-a-q64",
+     "exam": "NEET",
+     "q": "The correct thermodynamic conditions for the spontaneous reaction at all temperatures is :",
+     "sol": "<p>ΔG = ΔH − TΔS is negative at every temperature only when ΔH &lt; 0 and ΔS &gt; 0 (NCERT Table 5.4).</p>",
+     "hint": "Both terms of ΔG must be negative.",
+     "paras": [
+      "temp-effect"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q64",
+     "o": [
+      "ΔH &lt; 0 and ΔS = 0",
+      "ΔH &gt; 0 and ΔS &lt; 0",
+      "ΔH &lt; 0 and ΔS &gt; 0",
+      "ΔH &lt; 0 and ΔS &lt; 0"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "सभी तापों पर स्वतः प्रवर्तित अभिक्रिया के लिए सही ऊष्मागतिक परिस्थितियाँ हैं :",
+      "o": [
+       "ΔH &lt; 0 और ΔS = 0",
+       "ΔH &gt; 0 और ΔS &lt; 0",
+       "ΔH &lt; 0 और ΔS &gt; 0",
+       "ΔH &lt; 0 और ΔS &lt; 0"
+      ],
+      "sol": "<p>ΔG = ΔH − TΔS हर ताप पर तभी ऋणात्मक होता है जब ΔH &lt; 0 और ΔS &gt; 0 (NCERT सारणी 5.4)।</p>",
+      "hint": "ΔG के दोनों पद ऋणात्मक होने चाहिए।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 3)"
+    },
+    {
+     "id": "chem11-thermodynamics-temp-effect-q2",
+     "exam": "NCERT Exercise",
+     "q": "For a reaction, ΔH = +400 kJ mol⁻¹ and ΔS = +0.2 kJ K⁻¹ mol⁻¹. It becomes spontaneous above:",
+     "sol": "T = ΔH/ΔS = 400/0.2 = 2000 K; above this ΔG < 0.",
+     "hint": "",
+     "paras": [
+      "temp-effect"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.17",
+     "o": [
+      "200 K",
+      "2000 K",
+      "80 K",
+      "500 K"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-temp-effect-q1",
+     "exam": "NCERT Exercise",
+     "q": "A + B → C + D + heat has a positive entropy change. The reaction will be:",
+     "sol": "ΔH < 0 and ΔS > 0, so ΔG < 0 at every temperature.",
+     "hint": "",
+     "paras": [
+      "temp-effect"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.6",
+     "o": [
+      "Possible only at high temperature",
+      "Possible only at low temperature",
+      "Not possible at any temperature",
+      "Possible at any temperature"
+     ],
+     "a": 3
+    },
+    {
+     "id": "chem11-thermodynamics-temp-effect-q3",
+     "exam": "Practice",
+     "q": "A reaction with ΔH < 0 and ΔS < 0 is spontaneous:",
+     "sol": "ΔG = ΔH − TΔS. At low T the negative ΔH dominates; at high T the +TΔS term (from ΔS < 0) wins.",
+     "hint": "",
+     "paras": [
+      "temp-effect"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "At all temperatures",
+      "At low temperatures only",
+      "At high temperatures only",
+      "Never"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-temp-effect-q4",
+     "exam": "Practice",
+     "q": "ΔH = +40 kJ mol⁻¹ and ΔS = +100 J K⁻¹ mol⁻¹. The minimum temperature for spontaneity is:",
+     "sol": "T = 40 000/100 = 400 K.",
+     "hint": "",
+     "paras": [
+      "temp-effect"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "40 K",
+      "400 K",
+      "4000 K",
+      "0.4 K"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "second-law",
+   "title": "(d) Second Law of Thermodynamics",
+   "hi": null,
+   "pages": [
+    161
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-second-law-q1",
+     "exam": "Practice",
+     "q": "The second law explains why exothermic reactions are commonly spontaneous because:",
+     "sol": "NCERT: heat released raises the surroundings' disorder, so the total entropy change is positive.",
+     "hint": "",
+     "paras": [
+      "second-law"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "They decrease the entropy of surroundings",
+      "Heat released increases the entropy of the surroundings, making ΔS_total positive",
+      "They have ΔH = 0",
+      "They occur only in isolated systems"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "third-law",
+   "title": "(e) Third Law & Absolute Entropy",
+   "hi": null,
+   "pages": [
+    161,
+    162
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-third-law-q1",
+     "exam": "Practice",
+     "q": "The entropy of a pure crystalline substance approaches zero at 0 K. This is the:",
+     "sol": "Third law of thermodynamics.",
+     "hint": "",
+     "paras": [
+      "third-law"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "First law",
+      "Second law",
+      "Third law",
+      "Zeroth law"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-third-law-q2",
+     "exam": "Practice",
+     "q": "For which of the following is the entropy NOT zero at 0 K?",
+     "sol": "NCERT: solutions and supercooled liquids retain entropy at 0 K.",
+     "hint": "",
+     "paras": [
+      "third-law"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Pure crystalline NaCl",
+      "Pure diamond crystal",
+      "A supercooled liquid (glass)",
+      "Pure crystalline ice"
+     ],
+     "a": 2
+    },
+    {
+     "id": "chem11-thermodynamics-third-law-q3",
+     "exam": "Practice",
+     "q": "Which thermodynamic quantity can be given an absolute value?",
+     "sol": "The third law lets absolute entropy be calculated from thermal data.",
+     "hint": "",
+     "paras": [
+      "third-law"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "U",
+      "H",
+      "S",
+      "G"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "eq-criterion",
+   "title": "ΔᵣG = 0 at Equilibrium",
+   "hi": null,
+   "pages": [
+    162
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-eq-criterion-q1",
+     "exam": "Practice",
+     "q": "At equilibrium, the Gibbs energy of the system is:",
+     "sol": "G is at a minimum at equilibrium, so Δ_rG = 0.",
+     "hint": "",
+     "paras": [
+      "eq-criterion"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Maximum",
+      "Minimum",
+      "Zero always",
+      "Infinite"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "g-and-k",
+   "title": "ΔᵣG° = −RT ln K",
+   "hi": null,
+   "pages": [
+    162
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-g-and-k-q1",
+     "exam": "NCERT Exercise",
+     "q": "The equilibrium constant for a reaction is 10 at 300 K. ΔG° is about (R = 8.314 J K⁻¹ mol⁻¹):",
+     "sol": "ΔG° = −2.303 × 8.314 × 300 × log 10 = −5744 J ≈ −5.74 kJ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "g-and-k"
+     ],
+     "status": "live",
+     "srcRef": "NCERT Ex 5.20",
+     "o": [
+      "−5.74 kJ mol⁻¹",
+      "+5.74 kJ mol⁻¹",
+      "−2.49 kJ mol⁻¹",
+      "−11.5 kJ mol⁻¹"
+     ],
+     "a": 0
+    },
+    {
+     "id": "chem11-thermodynamics-g-and-k-q2",
+     "exam": "Practice",
+     "q": "If ΔG° for a reaction is zero, then K is:",
+     "sol": "ΔG° = −RT ln K = 0, so ln K = 0 and K = 1.",
+     "hint": "",
+     "paras": [
+      "g-and-k"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "0",
+      "1",
+      "10",
+      "Infinite"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-g-and-k-q3",
+     "exam": "Practice",
+     "q": "K = 100 at 300 K. ΔG° is about:",
+     "sol": "ΔG° = −2.303 × 8.314 × 300 × 2 = −11 488 J ≈ −11.5 kJ mol⁻¹.",
+     "hint": "",
+     "paras": [
+      "g-and-k"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "−11.5 kJ mol⁻¹",
+      "+11.5 kJ mol⁻¹",
+      "−5.74 kJ mol⁻¹",
+      "−1.15 kJ mol⁻¹"
+     ],
+     "a": 0
+    },
+    {
+     "id": "chem11-thermodynamics-g-and-k-q4",
+     "exam": "Practice",
+     "q": "A reaction with a large positive ΔrG° will have:",
+     "sol": "ln K = −ΔG°/RT is large and negative, so K ≪ 1.",
+     "hint": "",
+     "paras": [
+      "g-and-k"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "K ≫ 1",
+      "K ≪ 1",
+      "K = 1",
+      "K < 0"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "sec": "g-problems",
+   "title": "Worked Problems 5.12–5.14",
+   "hi": null,
+   "pages": [
+    163
+   ],
+   "pdfPage": null,
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-g-problems-q1",
+     "exam": "Practice",
+     "q": "A reaction has ΔrG° = +163 kJ mol⁻¹ at 298 K. Its equilibrium constant will be:",
+     "sol": "A large positive ΔG° gives a very small K (≈ 10⁻²⁹ for O₂ → O₃).",
+     "hint": "",
+     "paras": [
+      "g-problems"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "Very large (≫ 1)",
+      "Very small (≪ 1)",
+      "Exactly 1",
+      "Negative"
+     ],
+     "a": 1
+    },
+    {
+     "id": "chem11-thermodynamics-g-problems-q2",
+     "exam": "Practice",
+     "q": "N₂O₄ ⇌ 2NO₂ is 50% dissociated at a total pressure of 1 atm. Kp is:",
+     "sol": "Total moles = 1.5; p(NO₂) = 1/1.5 and p(N₂O₄) = 0.5/1.5. Kp = (0.667)² / 0.333 = 1.33 atm.",
+     "hint": "",
+     "paras": [
+      "g-problems"
+     ],
+     "status": "live",
+     "srcRef": "",
+     "o": [
+      "0.5 atm",
+      "1.0 atm",
+      "1.33 atm",
+      "2.0 atm"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "chem11-thermodynamics-neet-2026-q74-esaral-copy",
+     "exam": "NEET",
+     "q": "At a certain temperature, T(K), during a process, 500 J is absorbed by the system and work of 200 J is done by the system. Then change in internal energy of the system is:",
+     "sol": "<p>First law: ΔU = q + w. Heat absorbed: q = +500 J. Work done <i>by</i> the system: w = −200 J.</p><p>ΔU = 500 − 200 = <b>300 J</b>.</p>",
+     "hint": "Sign convention: heat absorbed +, work done by the system −.",
+     "paras": [
+      "sign-convention",
+      "first-law"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Q74 (eSaral copy)",
+     "trap": "Adding both as positive gives 700 J.",
+     "o": [
+      "700 J",
+      "400 J",
+      "300 J",
+      "500 J"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "किसी निश्चित ताप T(K) पर एक प्रक्रम के दौरान निकाय द्वारा 500 J अवशोषित होती है और निकाय द्वारा 200 J कार्य किया जाता है। तब निकाय की आंतरिक ऊर्जा में परिवर्तन है:",
+      "o": [
+       "700 J",
+       "400 J",
+       "300 J",
+       "500 J"
+      ],
+      "sol": "<p>प्रथम नियम: ΔU = q + w। अवशोषित ऊष्मा: q = +500 J। निकाय <i>द्वारा</i> किया गया कार्य: w = −200 J।</p><p>ΔU = 500 − 200 = <b>300 J</b>।</p>",
+      "hint": "चिह्न परिपाटी: अवशोषित ऊष्मा +, निकाय द्वारा किया गया कार्य −।",
+      "trap": "दोनों को धनात्मक जोड़ने पर 700 J आता है।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)"
+    },
+    {
+     "id": "chem11-thermodynamics-neet-2017-code-a-q60",
+     "exam": "NEET",
+     "q": "A gas is allowed to expand in a well insulated container against a constant external pressure of 2.5 atm from an initial volume of 2.50 L to a final volume of 4.50 L. The change in internal energy ΔU of the gas in joules will be :",
+     "sol": "<p>Well insulated → q = 0, so ΔU = w.</p><p>w = −p<sub>ex</sub>ΔV = −2.5 atm × (4.50 − 2.50) L = −5.0 L atm = −5.0 × 101.3 J ≈ <b>−505 J</b>.</p>",
+     "hint": "Insulated means adiabatic: ΔU = w. 1 L atm ≈ 101.3 J.",
+     "paras": [
+      "first-law",
+      "single-step"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q60",
+     "o": [
+      "1136.25 J",
+      "−500 J",
+      "−505 J",
+      "+505 J"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "एक गैस को सुविलगित (well insulated) पात्र में 2.5 atm के स्थिर बाह्य दाब के विरुद्ध 2.50 L के प्रारंभिक आयतन से 4.50 L के अंतिम आयतन तक प्रसरित होने दिया जाता है। गैस की आंतरिक ऊर्जा में परिवर्तन ΔU जूल में होगा :",
+      "o": [
+       "1136.25 J",
+       "−500 J",
+       "−505 J",
+       "+505 J"
+      ],
+      "sol": "<p>सुविलगित → q = 0, अतः ΔU = w।</p><p>w = −p<sub>ex</sub>ΔV = −2.5 atm × (4.50 − 2.50) L = −5.0 L atm = −5.0 × 101.3 J ≈ <b>−505 J</b>।</p>",
+      "hint": "विलगित का अर्थ रुद्धोष्म: ΔU = w। 1 L atm ≈ 101.3 J।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2017 key, Code A: 3)"
+    },
+    {
+     "id": "chem11-thermodynamics-neet-2022-code-t2-q72",
+     "exam": "NEET",
+     "q": "Which of the following p-V curve represents maximum work done ?",
+     "sol": "<p>On a p-V graph, the magnitude of work is the area under the curve. Curve (1) encloses the largest area under it, so it represents the maximum work.</p>",
+     "hint": "Work = area under the p-V curve.",
+     "paras": [
+      "work",
+      "iso-rev"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q72",
+     "o": [
+      "Isothermal curve with large area under it (as drawn)",
+      "Vertical line (as drawn)",
+      "Steep isothermal curve with small area (as drawn)",
+      "Cyclic path (as drawn)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "निम्नलिखित में से कौन-सा p-V वक्र अधिकतम किया गया कार्य दर्शाता है ?",
+      "o": [
+       "समतापीय वक्र जिसके नीचे बड़ा क्षेत्रफल है (आरेख अनुसार)",
+       "ऊर्ध्वाधर रेखा (आरेख अनुसार)",
+       "तीव्र ढाल वाला समतापीय वक्र, कम क्षेत्रफल (आरेख अनुसार)",
+       "चक्रीय पथ (आरेख अनुसार)"
+      ],
+      "sol": "<p>p-V आलेख में कार्य का परिमाण वक्र के नीचे के क्षेत्रफल के बराबर होता है। वक्र (1) के नीचे सबसे बड़ा क्षेत्रफल है, अतः यह अधिकतम कार्य दर्शाता है।</p>",
+      "hint": "कार्य = p-V वक्र के नीचे का क्षेत्रफल।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "chem11-thermodynamics-neet-2026-q85-esaral-copy",
+     "exam": "NEET",
+     "q": "Consider the following reaction :<br>2A(g) + B(g) → 2D(g)<br>ΔU<sup>⊖</sup> = −10 kJ mol<sup>−1</sup> and ΔS<sup>⊖</sup> = −44 J K<sup>−1</sup> at 298 K<br>Identify the correct option with ΔG<sup>⊖</sup> for the reaction and spontaneity of the reaction at 298 K.<br>(Given : R = 8.31 J mol<sup>−1</sup> K<sup>−1</sup>)",
+     "sol": "<p>Δn<sub>g</sub> = 2 − 3 = −1. ΔH° = ΔU° + Δn<sub>g</sub>RT = −10 + (−1)(8.31 × 298)/1000 = −10 − 2.476 = −12.476 kJ mol<sup>−1</sup>.</p><p>ΔG° = ΔH° − TΔS° = −12.476 − 298 × (−0.044) = −12.476 + 13.112 = <b>+0.636 kJ mol<sup>−1</sup></b>: positive, so <b>non-spontaneous</b>.</p>",
+     "hint": "Convert ΔU to ΔH first (Δn<sub>g</sub> = −1), then ΔG = ΔH − TΔS.",
+     "paras": [
+      "dh-du",
+      "gibbs-criterion"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Q85 (eSaral copy)",
+     "trap": "Using ΔU directly in place of ΔH gives +3.11 kJ, which is not an option; forgetting the sign of Δn<sub>g</sub> gives −1.635 kJ.",
+     "o": [
+      "+0.63568 kJ mol<sup>−1</sup>, non-spontaneous",
+      "−0.63568 kJ mol<sup>−1</sup>, spontaneous",
+      "−1.635 kJ mol<sup>−1</sup>, spontaneous",
+      "+1.635 kJ mol<sup>−1</sup>, non-spontaneous"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "निम्नलिखित अभिक्रिया पर विचार कीजिए :<br>2A(g) + B(g) → 2D(g)<br>298 K पर ΔU<sup>⊖</sup> = −10 kJ mol<sup>−1</sup> और ΔS<sup>⊖</sup> = −44 J K<sup>−1</sup><br>298 K पर अभिक्रिया के ΔG<sup>⊖</sup> और अभिक्रिया की स्वतः प्रवर्तिता के लिए सही विकल्प पहचानिए।<br>(दिया है : R = 8.31 J mol<sup>−1</sup> K<sup>−1</sup>)",
+      "o": [
+       "+0.63568 kJ mol<sup>−1</sup>, अस्वतः प्रवर्तित",
+       "−0.63568 kJ mol<sup>−1</sup>, स्वतः प्रवर्तित",
+       "−1.635 kJ mol<sup>−1</sup>, स्वतः प्रवर्तित",
+       "+1.635 kJ mol<sup>−1</sup>, अस्वतः प्रवर्तित"
+      ],
+      "sol": "<p>Δn<sub>g</sub> = 2 − 3 = −1। ΔH° = ΔU° + Δn<sub>g</sub>RT = −10 + (−1)(8.31 × 298)/1000 = −10 − 2.476 = −12.476 kJ mol<sup>−1</sup>।</p><p>ΔG° = ΔH° − TΔS° = −12.476 − 298 × (−0.044) = −12.476 + 13.112 = <b>+0.636 kJ mol<sup>−1</sup></b>: धनात्मक, अतः <b>अस्वतः प्रवर्तित</b>।</p>",
+      "hint": "पहले ΔU को ΔH में बदलें (Δn<sub>g</sub> = −1), फिर ΔG = ΔH − TΔS।",
+      "trap": "ΔH के स्थान पर सीधे ΔU लेने पर +3.11 kJ आता है, जो विकल्प नहीं है; Δn<sub>g</sub> का चिह्न भूलने पर −1.635 kJ आता है।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 1)"
+    },
+    {
+     "id": "chem11-thermodynamics-neet-2025-code-45-q85",
+     "exam": "NEET",
+     "q": "The standard heat of formation, in kcal/mol of Ba<sup>2+</sup> is :<br>[Given : standard heat of formation of SO<sub>4</sub><sup>2−</sup> ion (aq) = −216 kcal/mol, standard heat of crystallisation of BaSO<sub>4</sub>(s) = −4.5 kcal/mol, standard heat of formation of BaSO<sub>4</sub>(s) = −349 kcal/mol]",
+     "sol": "<p>Crystallisation: Ba<sup>2+</sup>(aq) + SO<sub>4</sub><sup>2−</sup>(aq) → BaSO<sub>4</sub>(s); ΔH = −4.5 kcal/mol.</p><p>Δ<sub>f</sub>H(BaSO<sub>4</sub>) = Δ<sub>f</sub>H(Ba<sup>2+</sup>) + Δ<sub>f</sub>H(SO<sub>4</sub><sup>2−</sup>) + (−4.5)</p><p>−349 = x − 216 − 4.5 → x = <b>−128.5 kcal/mol</b>.</p>",
+     "hint": "Write the crystallisation step and apply Hess's law.",
+     "paras": [
+      "formation",
+      "hess"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q85",
+     "o": [
+      "−128.5",
+      "−133.0",
+      "+133.0",
+      "+220.5"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "Ba<sup>2+</sup> की मानक विरचन ऊष्मा, kcal/mol में है :<br>[दिया है : SO<sub>4</sub><sup>2−</sup> आयन (aq) की मानक विरचन ऊष्मा = −216 kcal/mol, BaSO<sub>4</sub>(s) की मानक क्रिस्टलन ऊष्मा = −4.5 kcal/mol, BaSO<sub>4</sub>(s) की मानक विरचन ऊष्मा = −349 kcal/mol]",
+      "o": [
+       "−128.5",
+       "−133.0",
+       "+133.0",
+       "+220.5"
+      ],
+      "sol": "<p>क्रिस्टलन: Ba<sup>2+</sup>(aq) + SO<sub>4</sub><sup>2−</sup>(aq) → BaSO<sub>4</sub>(s); ΔH = −4.5 kcal/mol।</p><p>Δ<sub>f</sub>H(BaSO<sub>4</sub>) = Δ<sub>f</sub>H(Ba<sup>2+</sup>) + Δ<sub>f</sub>H(SO<sub>4</sub><sup>2−</sup>) + (−4.5)</p><p>−349 = x − 216 − 4.5 → x = <b>−128.5 kcal/mol</b>।</p>",
+      "hint": "क्रिस्टलन का पद लिखें और हेस का नियम लगाएँ।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)"
+    },
+    {
+     "id": "chem11-thermodynamics-neet-2015-re-exam-code-d-q129",
+     "exam": "NEET",
+     "q": "The heat of combustion of carbon to CO<sub>2</sub> is −393.5 kJ/mol. The heat released upon formation of 35.2 g of CO<sub>2</sub> from carbon and oxygen gas is :",
+     "sol": "<p>35.2 g CO<sub>2</sub> = 35.2/44 = 0.8 mol.</p><p>Heat = 0.8 × (−393.5) = −314.8 ≈ <b>−315 kJ</b> (released).</p>",
+     "hint": "Moles of CO<sub>2</sub> × enthalpy of combustion per mole.",
+     "paras": [
+      "combustion"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q129",
+     "o": [
+      "−315 kJ",
+      "+315 kJ",
+      "−630 kJ",
+      "−3.15 kJ"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "कार्बन से CO<sub>2</sub> बनने की दहन ऊष्मा −393.5 kJ/mol है। कार्बन और ऑक्सीजन गैस से 35.2 g CO<sub>2</sub> बनने पर निर्मुक्त ऊष्मा है :",
+      "o": [
+       "−315 kJ",
+       "+315 kJ",
+       "−630 kJ",
+       "−3.15 kJ"
+      ],
+      "sol": "<p>35.2 g CO<sub>2</sub> = 35.2/44 = 0.8 mol।</p><p>ऊष्मा = 0.8 × (−393.5) = −314.8 ≈ <b>−315 kJ</b> (निर्मुक्त)।</p>",
+      "hint": "CO<sub>2</sub> के मोल × प्रति मोल दहन एन्थैल्पी।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 11 · Some Basic Concepts (mole)"
+     ],
+     "check": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 1)"
+    },
+    {
+     "id": "chem11-thermodynamics-neet-2021-code-p3-q86",
+     "exam": "NEET",
+     "q": "For irreversible expansion of an ideal gas under isothermal condition, the correct option is:",
+     "sol": "<p>For an ideal gas, U depends only on T; isothermal → <b>ΔU = 0</b>.</p><p>An irreversible (spontaneous) process increases the total entropy of system + surroundings: <b>ΔS<sub>total</sub> &gt; 0</b>, i.e. ≠ 0.</p>",
+     "hint": "Ideal gas: U = f(T). Irreversible: ΔS<sub>total</sub> &gt; 0.",
+     "paras": [
+      "entropy",
+      "second-law"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q86",
+     "o": [
+      "ΔU ≠ 0, ΔS<sub>total</sub> = 0",
+      "ΔU = 0, ΔS<sub>total</sub> = 0",
+      "ΔU ≠ 0, ΔS<sub>total</sub> ≠ 0",
+      "ΔU = 0, ΔS<sub>total</sub> ≠ 0"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "समतापीय परिस्थिति में एक आदर्श गैस के अनुत्क्रमणीय प्रसरण के लिए सही विकल्प है:",
+      "o": [
+       "ΔU ≠ 0, ΔS<sub>total</sub> = 0",
+       "ΔU = 0, ΔS<sub>total</sub> = 0",
+       "ΔU ≠ 0, ΔS<sub>total</sub> ≠ 0",
+       "ΔU = 0, ΔS<sub>total</sub> ≠ 0"
+      ],
+      "sol": "<p>आदर्श गैस के लिए U केवल T पर निर्भर करती है; समतापीय → <b>ΔU = 0</b>।</p><p>अनुत्क्रमणीय (स्वतः प्रवर्तित) प्रक्रम में निकाय + परिवेश की कुल एन्ट्रॉपी बढ़ती है: <b>ΔS<sub>total</sub> &gt; 0</b>, अर्थात् ≠ 0।</p>",
+      "hint": "आदर्श गैस: U = f(T)। अनुत्क्रमणीय: ΔS<sub>total</sub> &gt; 0।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)"
+    },
+    {
+     "id": "chem11-thermodynamics-neet-2020-code-f3-q86",
+     "exam": "NEET",
+     "q": "For the reaction, 2Cl(g) → Cl<sub>2</sub>(g), the correct option is:",
+     "sol": "<p>Bond formation releases energy: Δ<sub>r</sub>H &lt; 0. Two gas atoms become one molecule: fewer particles, so Δ<sub>r</sub>S &lt; 0.</p>",
+     "hint": "Forming a bond: exothermic and more ordered.",
+     "paras": [
+      "entropy-concept",
+      "temp-effect"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q86",
+     "o": [
+      "Δ<sub>r</sub>H &lt; 0 and Δ<sub>r</sub>S &gt; 0",
+      "Δ<sub>r</sub>H &lt; 0 and Δ<sub>r</sub>S &lt; 0",
+      "Δ<sub>r</sub>H &gt; 0 and Δ<sub>r</sub>S &gt; 0",
+      "Δ<sub>r</sub>H &gt; 0 and Δ<sub>r</sub>S &lt; 0"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "अभिक्रिया 2Cl(g) → Cl<sub>2</sub>(g) के लिए सही विकल्प है:",
+      "o": [
+       "Δ<sub>r</sub>H &lt; 0 और Δ<sub>r</sub>S &gt; 0",
+       "Δ<sub>r</sub>H &lt; 0 और Δ<sub>r</sub>S &lt; 0",
+       "Δ<sub>r</sub>H &gt; 0 और Δ<sub>r</sub>S &gt; 0",
+       "Δ<sub>r</sub>H &gt; 0 और Δ<sub>r</sub>S &lt; 0"
+      ],
+      "sol": "<p>आबंध बनने पर ऊर्जा निकलती है: Δ<sub>r</sub>H &lt; 0। गैस के दो परमाणु एक अणु बनते हैं: कण कम, अतः Δ<sub>r</sub>S &lt; 0।</p>",
+      "hint": "आबंध बनना: ऊष्माक्षेपी और अधिक व्यवस्थित।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (NTA NEET 2020 final key, Code F3: 2)"
+    },
+    {
+     "id": "chem11-thermodynamics-neet-2017-code-a-q77",
+     "exam": "NEET",
+     "q": "For a given reaction, ΔH = 35.5 kJ mol<sup>−1</sup> and ΔS = 83.6 J K<sup>−1</sup> mol<sup>−1</sup>. The reaction is spontaneous at : (Assume that ΔH and ΔS do not vary with temperature)",
+     "sol": "<p>Both ΔH and ΔS are positive, so ΔG = ΔH − TΔS becomes negative above T = ΔH/ΔS = 35500/83.6 = 424.6 K ≈ 425 K.</p><p>Spontaneous at <b>T &gt; 425 K</b>.</p>",
+     "hint": "Find the temperature where ΔG = 0; convert kJ to J.",
+     "paras": [
+      "gibbs-criterion",
+      "temp-effect"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q77",
+     "o": [
+      "T &lt; 425 K",
+      "T &gt; 425 K",
+      "all temperatures",
+      "T &gt; 298 K"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "किसी दी गई अभिक्रिया के लिए ΔH = 35.5 kJ mol<sup>−1</sup> और ΔS = 83.6 J K<sup>−1</sup> mol<sup>−1</sup> है। अभिक्रिया स्वतः प्रवर्तित होगी : (मान लीजिए कि ΔH और ΔS ताप के साथ नहीं बदलते)",
+      "o": [
+       "T &lt; 425 K पर",
+       "T &gt; 425 K पर",
+       "सभी तापों पर",
+       "T &gt; 298 K पर"
+      ],
+      "sol": "<p>ΔH और ΔS दोनों धनात्मक हैं, अतः ΔG = ΔH − TΔS, T = ΔH/ΔS = 35500/83.6 = 424.6 K ≈ 425 K से ऊपर ऋणात्मक हो जाता है।</p><p><b>T &gt; 425 K</b> पर स्वतः प्रवर्तित।</p>",
+      "hint": "वह ताप ज्ञात करें जिस पर ΔG = 0; kJ को J में बदलें।"
+     },
+     "hiStatus": "draft",
+     "check": "Matches the official key (CBSE NEET 2017 key, Code A: 2)"
+    },
+    {
+     "id": "chem11-thermodynamics-neet-2020-code-f3-q71",
+     "exam": "NEET",
+     "q": "Hydrolysis of sucrose is given by the following reaction.<br>Sucrose + H<sub>2</sub>O ⇌ Glucose + Fructose<br>If the equilibrium constant (K<sub>c</sub>) is 2 × 10<sup>13</sup> at 300 K, the value of Δ<sub>r</sub>G° at the same temperature will be:",
+     "sol": "<p>Δ<sub>r</sub>G° = −RT ln K (NCERT Eq 5.23).</p><p>= <b>−8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(2 × 10<sup>13</sup>)</b> (large K → strongly negative Δ<sub>r</sub>G°).</p>",
+     "hint": "ΔG° = −RT ln K; note the minus sign and the given K.",
+     "paras": [
+      "g-and-k"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q71",
+     "o": [
+      "8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(3 × 10<sup>13</sup>)",
+      "−8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(4 × 10<sup>13</sup>)",
+      "−8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(2 × 10<sup>13</sup>)",
+      "8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(2 × 10<sup>13</sup>)"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "सुक्रोस का जल-अपघटन निम्नलिखित अभिक्रिया द्वारा दिया जाता है।<br>सुक्रोस + H<sub>2</sub>O ⇌ ग्लूकोस + फ्रक्टोस<br>यदि 300 K पर साम्य स्थिरांक (K<sub>c</sub>) 2 × 10<sup>13</sup> है, तो उसी ताप पर Δ<sub>r</sub>G° का मान होगा:",
+      "o": [
+       "8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(3 × 10<sup>13</sup>)",
+       "−8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(4 × 10<sup>13</sup>)",
+       "−8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(2 × 10<sup>13</sup>)",
+       "8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(2 × 10<sup>13</sup>)"
+      ],
+      "sol": "<p>Δ<sub>r</sub>G° = −RT ln K (NCERT Eq 5.23)।</p><p>= <b>−8.314 J mol<sup>−1</sup> K<sup>−1</sup> × 300 K × ln(2 × 10<sup>13</sup>)</b> (बड़ा K → अत्यधिक ऋणात्मक Δ<sub>r</sub>G°)।</p>",
+      "hint": "ΔG° = −RT ln K; ऋण चिह्न और दिए गए K पर ध्यान दें।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 11 · Equilibrium"
+     ],
+     "check": "Matches the official key (NTA NEET 2020 final key, Code F3: 3)"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 22,
+  "NCERT Exercise": 17,
+  "Practice": 99
+ },
+ "empty": [
+  {
+   "id": "terms",
+   "title": "5.1 Thermodynamic Terms",
+   "hi": null,
+   "pages": [
+    137,
+    138,
+    139,
+    140
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "sys-surr",
+   "title": "5.1.1 System & Surroundings",
+   "hi": null,
+   "pages": [
+    137
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "sys-types",
+   "title": "5.1.2 Types of System",
+   "hi": null,
+   "pages": [
+    137,
+    138
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "state",
+   "title": "5.1.3 State of the System",
+   "hi": null,
+   "pages": [
+    138
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "internal-energy",
+   "title": "5.1.4 Internal Energy as a State Function",
+   "hi": null,
+   "pages": [
+    138,
+    139,
+    140
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "applications",
+   "title": "5.2 Applications: Work & Enthalpy",
+   "hi": null,
+   "pages": [
+    140,
+    141,
+    142,
+    143,
+    144,
+    145
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "enthalpy",
+   "title": "5.2.2 Enthalpy (H)",
+   "hi": null,
+   "pages": [
+    143,
+    144,
+    145
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "calorimetry",
+   "title": "5.3 Measuring ΔU and ΔH: Calorimetry",
+   "hi": null,
+   "pages": [
+    145,
+    146
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "reaction-enthalpy",
+   "title": "5.4 Reaction Enthalpy (ΔᵣH)",
+   "hi": null,
+   "pages": [
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "enthalpy-types",
+   "title": "5.5 Enthalpies for Different Types of Reactions",
+   "hi": null,
+   "pages": [
+    152,
+    153,
+    154,
+    155,
+    156,
+    157
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "bond-enthalpy",
+   "title": "(c) Bond Enthalpy (ΔbondH°)",
+   "hi": null,
+   "pages": [
+    153,
+    154,
+    155
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "spontaneity",
+   "title": "5.6 Spontaneity",
+   "hi": null,
+   "pages": [
+    157,
+    158,
+    159,
+    160,
+    161,
+    162
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "gibbs",
+   "title": "(c) Gibbs Energy & Spontaneity",
+   "hi": null,
+   "pages": [
+    160,
+    161
+   ],
+   "pdfPage": null
+  },
+  {
+   "id": "gibbs-equilibrium",
+   "title": "5.7 Gibbs Energy Change & Equilibrium",
+   "hi": null,
+   "pages": [
+    162,
+    163
+   ],
+   "pdfPage": null
+  }
+ ],
+ "trends": {
+  "rh-def": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2025
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "formation": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2025
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "hess": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2025
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "entropy-concept": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2024,
+    2020,
+    2019
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "iso-rev": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2024,
+    2022
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "process-summary": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2024
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "sign-convention": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2026
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "first-law": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2026,
+    2017
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "dh-du": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2026,
+    2023
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "gibbs-criterion": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2026,
+    2017
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "cp-cv": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2021
+   ],
+   "last": 2021,
+   "recent": false
+  },
+  "entropy": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2021
+   ],
+   "last": 2021,
+   "recent": false
+  },
+  "second-law": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2021
+   ],
+   "last": 2021,
+   "recent": false
+  },
+  "g-and-k": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2020
+   ],
+   "last": 2020,
+   "recent": false
+  },
+  "free-exp": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2020
+   ],
+   "last": 2020,
+   "recent": false
+  },
+  "temp-effect": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2020,
+    2017,
+    2016
+   ],
+   "last": 2020,
+   "recent": false
+  },
+  "single-step": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2019,
+    2017
+   ],
+   "last": 2019,
+   "recent": false
+  },
+  "entropy-quant": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2016
+   ],
+   "last": 2016,
+   "recent": false
+  },
+  "combustion": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2015
+   ],
+   "last": 2015,
+   "recent": false
+  },
+  "rh-from-bonds": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2018
+   ],
+   "last": 2018,
+   "recent": false
+  },
+  "work": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2022
+   ],
+   "last": 2022,
+   "recent": false
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 42
+}

@@ -1,0 +1,1030 @@
+{
+ "chapter": "phy12-10",
+ "source": "bank",
+ "subject": "physics",
+ "class": 12,
+ "unit": 10,
+ "title": "Wave Optics",
+ "titleHi": "तरंग-प्रकाशिकी",
+ "ref": "NCERT Physics Class 12 · Unit 10",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph202.pdf",
+ "pdfPageOffset": 0,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "10.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "10.2",
+   "title": "Huygens Principle",
+   "hi": "हाइगेंस का सिद्धांत",
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "10.3",
+   "title": "Refraction and Reflection of Plane Waves using Huygens Principle",
+   "hi": "हाइगेंस सिद्धांत का उपयोग करते हुए समतल तरंगों का",
+   "pages": [],
+   "pdfPage": 4
+  },
+  {
+   "id": "10.3.1",
+   "title": "Refraction of a Plane Wave",
+   "hi": "समतल तरंगों का अपवर्तन",
+   "pages": [],
+   "pdfPage": 4
+  },
+  {
+   "id": "10.3.2",
+   "title": "Refraction at a Rarer Medium",
+   "hi": "विरल माध्यम पर अपवर्तन",
+   "pages": [],
+   "pdfPage": 6
+  },
+  {
+   "id": "10.3.3",
+   "title": "Reflection of a Plane Wave by a Plane Surface",
+   "hi": "समतल पृष्ठ से एक समतल तरंग का परावर्तन",
+   "pages": [],
+   "pdfPage": 6
+  },
+  {
+   "id": "10.4",
+   "title": "Coherent and Incoherent Addition of Waves",
+   "hi": "तरंगों का कला-संबद्ध तथा कला-असंबद्ध योग",
+   "pages": [],
+   "pdfPage": 8
+  },
+  {
+   "id": "10.5",
+   "title": "Interference of Light Waves and Young's Experiment",
+   "hi": "प्रकाश तरंगों का व्यतिकरण तथा यंग का प्रयोग",
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "10.6",
+   "title": "Diffraction",
+   "hi": "विवर्तन",
+   "pages": [],
+   "pdfPage": 12
+  },
+  {
+   "id": "10.6.1",
+   "title": "The Single Slit",
+   "hi": "एकल झिरी",
+   "pages": [],
+   "pdfPage": 13
+  },
+  {
+   "id": "10.6.2",
+   "title": "Seeing the Single Slit Diffraction Pattern",
+   "hi": "एकल झिरी विवर्तन पैटर्न का अवलोकन",
+   "pages": [],
+   "pdfPage": 14
+  },
+  {
+   "id": "10.7",
+   "title": "Polarisation",
+   "hi": "ध्रुवण",
+   "pages": [],
+   "pdfPage": 15
+  }
+ ],
+ "sections": [
+  {
+   "sec": "10.5",
+   "title": "Interference of Light Waves and Young's Experiment",
+   "hi": "प्रकाश तरंगों का व्यतिकरण तथा यंग का प्रयोग",
+   "pages": [],
+   "pdfPage": 11,
+   "questions": [
+    {
+     "id": "phy12-10-neet-2015-re-exam-code-d-q156",
+     "exam": "NEET",
+     "q": "Two slits in Young's experiment have widths in the ratio 1 : 25. The ratio of intensity at the maxima and minima in the interference pattern, I<sub>max</sub>/I<sub>min</sub>, is :",
+     "sol": "<p>Intensity from a slit ∝ its width: I<sub>1</sub> : I<sub>2</sub> = 1 : 25, so amplitudes are 1 : 5.</p><p>I<sub>max</sub>/I<sub>min</sub> = (5 + 1)<sup>2</sup>/(5 − 1)<sup>2</sup> = 36/16 = <b>9/4</b>.</p>",
+     "hint": "Width ratio → intensity ratio → amplitude ratio (square root).",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q156",
+     "o": [
+      "121/49",
+      "49/121",
+      "4/9",
+      "9/4"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "यंग के प्रयोग में दो झिरियों की चौड़ाइयों का अनुपात 1 : 25 है। व्यतिकरण पैटर्न में उच्चिष्ठ और निम्निष्ठ पर तीव्रताओं का अनुपात, I<sub>max</sub>/I<sub>min</sub>, है :",
+      "o": [
+       "121/49",
+       "49/121",
+       "4/9",
+       "9/4"
+      ],
+      "sol": "<p>झिरी से तीव्रता ∝ उसकी चौड़ाई : I<sub>1</sub> : I<sub>2</sub> = 1 : 25, अतः आयाम 1 : 5 हैं।</p><p>I<sub>max</sub>/I<sub>min</sub> = (5 + 1)<sup>2</sup>/(5 − 1)<sup>2</sup> = 36/16 = <b>9/4</b>।</p>",
+      "hint": "चौड़ाई अनुपात → तीव्रता अनुपात → आयाम अनुपात (वर्गमूल)।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2016-phase-1-code-a-q18",
+     "exam": "NEET",
+     "q": "The intensity at the maximum in a Young's double slit experiment is I<sub>0</sub>. Distance between two slits is d = 5λ, where λ is the wavelength of light used in the experiment. What will be the intensity in front of one of the slits on the screen placed at a distance D = 10d?",
+     "sol": "<p>The point in front of one slit is at y = d/2 from the centre. Path difference = yd/D = (d/2)(d)/(10d) = d/20 = 5λ/20 = λ/4, so the phase difference is π/2.</p><p>I = I<sub>0</sub> cos<sup>2</sup>(φ/2) = I<sub>0</sub> cos<sup>2</sup>(π/4) = <b>I<sub>0</sub>/2</b>.</p>",
+     "hint": "y = d/2; path difference = yd/D.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q18",
+     "o": [
+      "I<sub>0</sub>",
+      "I<sub>0</sub>/4",
+      "(3/4)I<sub>0</sub>",
+      "I<sub>0</sub>/2"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "यंग के द्विझिरी प्रयोग में उच्चिष्ठ पर तीव्रता I<sub>0</sub> है। दोनों झिरियों के बीच की दूरी d = 5λ है, जहाँ λ प्रयोग में प्रयुक्त प्रकाश की तरंगदैर्घ्य है। D = 10d दूरी पर रखे पर्दे पर एक झिरी के ठीक सामने तीव्रता क्या होगी?",
+      "o": [
+       "I<sub>0</sub>",
+       "I<sub>0</sub>/4",
+       "(3/4)I<sub>0</sub>",
+       "I<sub>0</sub>/2"
+      ],
+      "sol": "<p>एक झिरी के सामने का बिंदु केंद्र से y = d/2 पर है। पथांतर = yd/D = (d/2)(d)/(10d) = d/20 = 5λ/20 = λ/4, अतः कलांतर π/2 है।</p><p>I = I<sub>0</sub> cos<sup>2</sup>(φ/2) = I<sub>0</sub> cos<sup>2</sup>(π/4) = <b>I<sub>0</sub>/2</b>।</p>",
+      "hint": "y = d/2; पथांतर = yd/D ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2016-phase-2-code-aa-q36",
+     "exam": "NEET",
+     "q": "The interference pattern is obtained with two coherent light sources of intensity ratio n. In the interference pattern, the ratio (I<sub>max</sub> − I<sub>min</sub>)/(I<sub>max</sub> + I<sub>min</sub>) will be :",
+     "sol": "<p>Let I<sub>1</sub> = nI<sub>2</sub>. I<sub>max</sub> = (√I<sub>1</sub> + √I<sub>2</sub>)<sup>2</sup>, I<sub>min</sub> = (√I<sub>1</sub> − √I<sub>2</sub>)<sup>2</sup>.</p><p>I<sub>max</sub> − I<sub>min</sub> = 4√(I<sub>1</sub>I<sub>2</sub>), I<sub>max</sub> + I<sub>min</sub> = 2(I<sub>1</sub> + I<sub>2</sub>). Ratio = 2√n I<sub>2</sub>/((n + 1)I<sub>2</sub>) = <b>2√n/(n + 1)</b>.</p>",
+     "hint": "Expand the two squares and subtract/add.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q36",
+     "o": [
+      "√n/(n + 1)",
+      "2√n/(n + 1)",
+      "√n/(n + 1)<sup>2</sup>",
+      "2√n/(n + 1)<sup>2</sup>"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "तीव्रता अनुपात n वाले दो कला-संबद्ध प्रकाश स्रोतों से व्यतिकरण पैटर्न प्राप्त किया जाता है। व्यतिकरण पैटर्न में अनुपात (I<sub>max</sub> − I<sub>min</sub>)/(I<sub>max</sub> + I<sub>min</sub>) होगा :",
+      "o": [
+       "√n/(n + 1)",
+       "2√n/(n + 1)",
+       "√n/(n + 1)<sup>2</sup>",
+       "2√n/(n + 1)<sup>2</sup>"
+      ],
+      "sol": "<p>मान लीजिए I<sub>1</sub> = nI<sub>2</sub>। I<sub>max</sub> = (√I<sub>1</sub> + √I<sub>2</sub>)<sup>2</sup>, I<sub>min</sub> = (√I<sub>1</sub> − √I<sub>2</sub>)<sup>2</sup>।</p><p>I<sub>max</sub> − I<sub>min</sub> = 4√(I<sub>1</sub>I<sub>2</sub>), I<sub>max</sub> + I<sub>min</sub> = 2(I<sub>1</sub> + I<sub>2</sub>)। अनुपात = 2√n I<sub>2</sub>/((n + 1)I<sub>2</sub>) = <b>2√n/(n + 1)</b>।</p>",
+      "hint": "दोनों वर्गों का प्रसार करके घटाइए/जोड़िए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2017-code-a-q14",
+     "exam": "NEET",
+     "q": "Young's double slit experiment is first performed in air and then in a medium other than air. It is found that 8th bright fringe in the medium lies where 5th dark fringe lies in air. The refractive index of the medium is nearly :",
+     "sol": "<p>In a medium the wavelength is λ/μ, so fringe positions shrink by μ. 8th bright in medium: y = 8λD/(μd). 5th dark in air: y = (5 − 1/2)λD/d = 4.5λD/d.</p><p>μ = 8/4.5 = <b>1.78</b>.</p>",
+     "hint": "n-th dark fringe is at (n − 1/2)β.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q14",
+     "o": [
+      "1.25",
+      "1.59",
+      "1.69",
+      "1.78"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "यंग का द्विझिरी प्रयोग पहले वायु में और फिर वायु के अतिरिक्त किसी अन्य माध्यम में किया जाता है। यह पाया जाता है कि माध्यम में आठवीं दीप्त फ्रिंज वहाँ है जहाँ वायु में पाँचवीं अदीप्त फ्रिंज है। माध्यम का अपवर्तनांक लगभग है :",
+      "o": [
+       "1.25",
+       "1.59",
+       "1.69",
+       "1.78"
+      ],
+      "sol": "<p>माध्यम में तरंगदैर्घ्य λ/μ होती है, अतः फ्रिंजों की स्थितियाँ μ गुना घट जाती हैं। माध्यम में आठवीं दीप्त : y = 8λD/(μd)। वायु में पाँचवीं अदीप्त : y = (5 − 1/2)λD/d = 4.5λD/d ।</p><p>μ = 8/4.5 = <b>1.78</b>।</p>",
+      "hint": "n वीं अदीप्त फ्रिंज (n − 1/2)β पर है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2018-code-aa-q9",
+     "exam": "NEET",
+     "q": "In Young's double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0.20°. To increase the fringe angular width to 0.21° (with same λ and D) the separation between the slits needs to be changed to :",
+     "sol": "<p>Angular fringe width θ = λ/d ∝ 1/d. d<sub>2</sub> = d<sub>1</sub> × 0.20/0.21 = 2 × 0.952 = 1.905 mm ≈ <b>1.9 mm</b>.</p>",
+     "hint": "θ = λ/d.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q9",
+     "o": [
+      "2.1 mm",
+      "1.9 mm",
+      "1.8 mm",
+      "1.7 mm"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "यंग के द्विझिरी प्रयोग में झिरियों के बीच की दूरी d, 2 mm, प्रयुक्त प्रकाश की तरंगदैर्घ्य λ, 5896 Å और पर्दे तथा झिरियों के बीच की दूरी D, 100 cm है। फ्रिंजों की कोणीय चौड़ाई 0.20° पाई जाती है। फ्रिंज की कोणीय चौड़ाई को 0.21° तक बढ़ाने के लिए (समान λ और D के साथ) झिरियों के बीच की दूरी को बदलकर करना होगा :",
+      "o": [
+       "2.1 mm",
+       "1.9 mm",
+       "1.8 mm",
+       "1.7 mm"
+      ],
+      "sol": "<p>फ्रिंज की कोणीय चौड़ाई (angular width) θ = λ/d ∝ 1/d । d<sub>2</sub> = d<sub>1</sub> × 0.20/0.21 = 2 × 0.952 = 1.905 mm ≈ <b>1.9 mm</b>।</p>",
+      "hint": "θ = λ/d ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2019-code-s2-q126",
+     "exam": "NEET",
+     "q": "In a double slit experiment, when light of wavelength 400 nm was used, the angular width of the first minima formed on a screen placed 1 m away, was found to be 0.2°. What will be the angular width of the first minima, if the entire experimental apparatus is immersed in water? (μ<sub>water</sub> = 4/3)",
+     "sol": "<p>Angular width ∝ λ, and in water λ′ = λ/μ. New width = 0.2°/(4/3) = <b>0.15°</b>.</p>",
+     "hint": "Wavelength in water is λ/μ.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q126",
+     "o": [
+      "0.05°",
+      "0.1°",
+      "0.266°",
+      "0.15°"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक द्विझिरी प्रयोग में, जब 400 nm तरंगदैर्घ्य का प्रकाश प्रयुक्त किया गया, तो 1 m दूर रखे पर्दे पर बने पहले निम्निष्ठ की कोणीय चौड़ाई 0.2° पाई गई। यदि पूरे प्रायोगिक उपकरण को जल में डुबो दिया जाए, तो पहले निम्निष्ठ की कोणीय चौड़ाई क्या होगी? (μ<sub>water</sub> = 4/3)",
+      "o": [
+       "0.05°",
+       "0.1°",
+       "0.266°",
+       "0.15°"
+      ],
+      "sol": "<p>कोणीय चौड़ाई (angular width) ∝ λ, और जल में λ′ = λ/μ। नई चौड़ाई = 0.2°/(4/3) = <b>0.15°</b>।</p>",
+      "hint": "जल में तरंगदैर्घ्य λ/μ है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2020-code-f3-q39",
+     "exam": "NEET",
+     "q": "In Young's double slit experiment, if the separation between coherent sources is halved and the distance of the screen from the coherent sources is doubled, then the fringe width becomes :",
+     "sol": "<p>β = λD/d. D → 2D and d → d/2 give β′ = λ(2D)/(d/2) = 4β: <b>four times</b>.</p>",
+     "hint": "β = λD/d.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q39",
+     "o": [
+      "four times",
+      "one-fourth",
+      "double",
+      "half"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "यंग के द्विझिरी प्रयोग में, यदि कला-संबद्ध स्रोतों के बीच की दूरी आधी कर दी जाए और कला-संबद्ध स्रोतों से पर्दे की दूरी दोगुनी कर दी जाए, तो फ्रिंज चौड़ाई हो जाती है :",
+      "o": [
+       "चार गुनी",
+       "एक-चौथाई",
+       "दोगुनी",
+       "आधी"
+      ],
+      "sol": "<p>β = λD/d । D → 2D और d → d/2 से β′ = λ(2D)/(d/2) = 4β : <b>चार गुनी</b>।</p>",
+      "hint": "β = λD/d ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2022-code-t2-q24",
+     "exam": "NEET",
+     "q": "In a Young's double slit experiment, a student observes 8 fringes in a certain segment of screen when a monochromatic light of 600 nm wavelength is used. If the wavelength of light is changed to 400 nm, then the number of fringes he would observe in the same region of the screen is :",
+     "sol": "<p>The segment length is fixed: Nβ = constant, and β ∝ λ. N<sub>2</sub> = 8 × 600/400 = <b>12</b>.</p>",
+     "hint": "Fringe width ∝ λ, so the count ∝ 1/λ.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q24",
+     "o": [
+      "8",
+      "9",
+      "12",
+      "6"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "यंग के द्विझिरी प्रयोग में, एक छात्र 600 nm तरंगदैर्घ्य का एकवर्णी प्रकाश प्रयुक्त करने पर पर्दे के एक निश्चित भाग में 8 फ्रिंजें देखता है। यदि प्रकाश की तरंगदैर्घ्य बदलकर 400 nm कर दी जाए, तो पर्दे के उसी भाग में वह जितनी फ्रिंजें देखेगा, उनकी संख्या है :",
+      "o": [
+       "8",
+       "9",
+       "12",
+       "6"
+      ],
+      "sol": "<p>भाग की लंबाई नियत है : Nβ = नियत, और β ∝ λ। N<sub>2</sub> = 8 × 600/400 = <b>12</b>।</p>",
+      "hint": "फ्रिंज चौड़ाई ∝ λ, अतः संख्या ∝ 1/λ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2023-topic-wise-copy-q29",
+     "exam": "NEET",
+     "q": "For Young's double slit experiment, two statements are given below :<br>Statement I : If screen is moved away from the plane of slits, angular separation of the fringes remains constant.<br>Statement II : If the monochromatic source is replaced by another monochromatic source of larger wavelength, the angular separation of fringes decreases.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "sol": "<p>Angular separation θ = λ/d does not depend on D, so Statement I is true. A larger λ <b>increases</b> θ, so Statement II is false.</p><p>Answer: <b>Statement I is true but Statement II is false</b>. (The copy printed options (2) and (3) with the same wording; neither is the answer.)</p>",
+     "hint": "θ = λ/d.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q29",
+     "o": [
+      "Statement I is false but Statement II is true",
+      "Both Statement I and Statement II is true",
+      "Both Statement I and Statement II are true",
+      "Statement I is true but Statement II is false"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "यंग के द्विझिरी प्रयोग के लिए दो कथन दिए गए हैं :<br>कथन I : यदि पर्दे को झिरियों के तल से दूर ले जाया जाए, तो फ्रिंजों का कोणीय पृथकन नियत रहता है।<br>कथन II : यदि एकवर्णी स्रोत को अधिक तरंगदैर्घ्य वाले दूसरे एकवर्णी स्रोत से बदल दिया जाए, तो फ्रिंजों का कोणीय पृथकन घट जाता है।<br>उपरोक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "कथन I असत्य है परंतु कथन II सत्य है",
+       "कथन I और कथन II दोनों सत्य हैं",
+       "कथन I और कथन II दोनों सत्य हैं",
+       "कथन I सत्य है परंतु कथन II असत्य है"
+      ],
+      "sol": "<p>कोणीय पृथकन θ = λ/d, D पर निर्भर नहीं करता, अतः कथन I सत्य है। अधिक λ से θ <b>बढ़ता</b> है, अतः कथन II असत्य है।</p><p>उत्तर : <b>कथन I सत्य है परंतु कथन II असत्य है</b>। (प्रति में विकल्प (2) और (3) एक ही शब्दों में छपे थे; दोनों में से कोई उत्तर नहीं है।)</p>",
+      "hint": "θ = λ/d ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2024-q15-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "If the monochromatic source in Young's double slit experiment is replaced by white light, then :",
+     "sol": "<p>At the centre the path difference is zero for every wavelength, so all colours add: a <b>central bright white fringe</b>. Away from it, fringes of different colours (β ∝ λ) separate, giving a few coloured fringes (blue nearest) before they overlap into uniform white.</p>",
+     "hint": "Zero path difference at the centre for all λ.",
+     "paras": [
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q15 (eSaral physics copy)",
+     "o": [
+      "Interference pattern will disappear",
+      "There will be a central dark fringe surrounded by a few coloured fringes",
+      "There will be a central bright white fringe surrounded by a few coloured fringes",
+      "All bright fringes will be of equal width"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "यदि यंग के द्विझिरी प्रयोग में एकवर्णी स्रोत को श्वेत प्रकाश से बदल दिया जाए, तो :",
+      "o": [
+       "व्यतिकरण पैटर्न लुप्त हो जाएगा",
+       "एक केंद्रीय अदीप्त फ्रिंज होगी, जो कुछ रंगीन फ्रिंजों से घिरी होगी",
+       "एक केंद्रीय दीप्त श्वेत फ्रिंज होगी, जो कुछ रंगीन फ्रिंजों से घिरी होगी",
+       "सभी दीप्त फ्रिंजें समान चौड़ाई की होंगी"
+      ],
+      "sol": "<p>केंद्र पर प्रत्येक तरंगदैर्घ्य के लिए पथांतर शून्य है, अतः सभी रंग जुड़ते हैं : <b>एक केंद्रीय दीप्त श्वेत फ्रिंज</b>। उससे दूर विभिन्न रंगों की फ्रिंजें (β ∝ λ) अलग हो जाती हैं, जिससे कुछ रंगीन फ्रिंजें (नीली निकटतम) बनती हैं, फिर वे मिलकर एकसमान श्वेत हो जाती हैं।</p>",
+      "hint": "केंद्र पर सभी λ के लिए पथांतर शून्य।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "10.6.1",
+   "title": "The Single Slit",
+   "hi": "एकल झिरी",
+   "pages": [],
+   "pdfPage": 13,
+   "questions": [
+    {
+     "id": "phy12-10-neet-2015-re-exam-code-d-q140",
+     "exam": "NEET",
+     "q": "At the first minimum adjacent to the central maximum of a single-slit diffraction pattern, the phase difference between the Huygens' wavelet from the edge of the slit and the wavelet from the midpoint of the slit is :",
+     "sol": "<p>First minimum: a sin θ = λ. Split the slit into two halves: the wavelet from the edge and the one from the midpoint (a/2 apart) differ in path by (a/2) sin θ = λ/2.</p><p>Phase difference = (2π/λ)(λ/2) = <b>π radian</b>, so the two halves cancel pair by pair.</p>",
+     "hint": "Path difference across half the slit at the first minimum is λ/2.",
+     "paras": [
+      "10.6.1"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q140",
+     "o": [
+      "π/2 radian",
+      "π radian",
+      "π/8 radian",
+      "π/4 radian"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एकल झिरी विवर्तन पैटर्न में केंद्रीय उच्चिष्ठ से सटे पहले निम्निष्ठ पर, झिरी के किनारे से आने वाली हाइगेंस तरंगिका और झिरी के मध्य बिंदु से आने वाली तरंगिका के बीच कलांतर है :",
+      "o": [
+       "π/2 रेडियन",
+       "π रेडियन",
+       "π/8 रेडियन",
+       "π/4 रेडियन"
+      ],
+      "sol": "<p>पहला निम्निष्ठ : a sin θ = λ। झिरी को दो अर्धभागों में बाँटिए : किनारे की तरंगिका और मध्य बिंदु की तरंगिका (a/2 दूरी पर) में पथांतर (a/2) sin θ = λ/2 है।</p><p>कलांतर = (2π/λ)(λ/2) = <b>π रेडियन</b>, अतः दोनों अर्धभाग जोड़े-जोड़े में निरस्त हो जाते हैं।</p>",
+      "hint": "पहले निम्निष्ठ पर आधी झिरी के आर-पार पथांतर λ/2 है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2016-phase-1-code-a-q6",
+     "exam": "NEET",
+     "q": "In a diffraction pattern due to a single slit of width 'a', the first minimum is observed at an angle 30° when light of wavelength 5000 Å is incident on the slit. The first secondary maximum is observed at an angle of :",
+     "sol": "<p>First minimum: a sin 30° = λ ⇒ a = 2λ. First secondary maximum (approximately): a sin θ = 3λ/2 ⇒ sin θ = 3/4.</p><p>θ = <b>sin<sup>−1</sup>(3/4)</b>.</p>",
+     "hint": "Secondary maxima lie roughly midway: a sin θ = (n + 1/2)λ.",
+     "paras": [
+      "10.6.1"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q6",
+     "o": [
+      "sin<sup>−1</sup>(1/4)",
+      "sin<sup>−1</sup>(2/3)",
+      "sin<sup>−1</sup>(1/2)",
+      "sin<sup>−1</sup>(3/4)"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "चौड़ाई 'a' की एकल झिरी के कारण विवर्तन पैटर्न में, जब 5000 Å तरंगदैर्घ्य का प्रकाश झिरी पर आपतित होता है, तो पहला निम्निष्ठ 30° कोण पर प्रेक्षित होता है। पहला द्वितीयक उच्चिष्ठ किस कोण पर प्रेक्षित होगा?",
+      "o": [
+       "sin<sup>−1</sup>(1/4)",
+       "sin<sup>−1</sup>(2/3)",
+       "sin<sup>−1</sup>(1/2)",
+       "sin<sup>−1</sup>(3/4)"
+      ],
+      "sol": "<p>पहला निम्निष्ठ : a sin 30° = λ ⇒ a = 2λ। पहला द्वितीयक उच्चिष्ठ (लगभग) : a sin θ = 3λ/2 ⇒ sin θ = 3/4।</p><p>θ = <b>sin<sup>−1</sup>(3/4)</b>।</p>",
+      "hint": "द्वितीयक उच्चिष्ठ लगभग बीच में होते हैं : a sin θ = (n + 1/2)λ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2016-phase-2-code-aa-q38",
+     "exam": "NEET",
+     "q": "A linear aperture whose width is 0.02 cm is placed immediately in front of a lens of focal length 60 cm. The aperture is illuminated normally by a parallel beam of wavelength 5 × 10<sup>−5</sup> cm. The distance of the first dark band of the diffraction pattern from the centre of the screen is :",
+     "sol": "<p>First dark band: sin θ ≈ θ = λ/a. On the lens's focal plane, x = fλ/a = 60 × (5 × 10<sup>−5</sup>)/0.02 = <b>0.15 cm</b>.</p>",
+     "hint": "x = fλ/a.",
+     "paras": [
+      "10.6.1"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q38",
+     "o": [
+      "0.10 cm",
+      "0.25 cm",
+      "0.20 cm",
+      "0.15 cm"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "0.02 cm चौड़ाई का एक रैखिक द्वारक 60 cm फ़ोकस दूरी वाले लेंस के ठीक सामने रखा है। द्वारक को 5 × 10<sup>−5</sup> cm तरंगदैर्घ्य के समांतर पुंज से अभिलंबवत प्रदीप्त किया जाता है। पर्दे के केंद्र से विवर्तन पैटर्न की पहली अदीप्त पट्टी की दूरी है :",
+      "o": [
+       "0.10 cm",
+       "0.25 cm",
+       "0.20 cm",
+       "0.15 cm"
+      ],
+      "sol": "<p>पहली अदीप्त पट्टी : sin θ ≈ θ = λ/a । लेंस के फ़ोकस तल पर x = fλ/a = 60 × (5 × 10<sup>−5</sup>)/0.02 = <b>0.15 cm</b>।</p>",
+      "hint": "x = fλ/a ।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "10.7",
+   "title": "Polarisation",
+   "hi": "ध्रुवण",
+   "pages": [],
+   "pdfPage": 15,
+   "questions": [
+    {
+     "id": "phy12-10-neet-2017-code-a-q37",
+     "exam": "NEET",
+     "q": "Two Polaroids P<sub>1</sub> and P<sub>2</sub> are placed with their axis perpendicular to each other. Unpolarised light I<sub>0</sub> is incident on P<sub>1</sub>. A third polaroid P<sub>3</sub> is kept in between P<sub>1</sub> and P<sub>2</sub> such that its axis makes an angle 45° with that of P<sub>1</sub>. The intensity of transmitted light through P<sub>2</sub> is :",
+     "sol": "<p>After P<sub>1</sub>: I<sub>0</sub>/2. After P<sub>3</sub> (45°, Malus): (I<sub>0</sub>/2) cos<sup>2</sup> 45° = I<sub>0</sub>/4. After P<sub>2</sub> (45° from P<sub>3</sub>): (I<sub>0</sub>/4) cos<sup>2</sup> 45° = <b>I<sub>0</sub>/8</b>.</p>",
+     "hint": "Unpolarised → half; then cos<sup>2</sup> of each relative angle.",
+     "paras": [
+      "10.7"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q37",
+     "o": [
+      "I<sub>0</sub>/2",
+      "I<sub>0</sub>/4",
+      "I<sub>0</sub>/8",
+      "I<sub>0</sub>/16"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "दो पोलेरॉइड P<sub>1</sub> और P<sub>2</sub> इस प्रकार रखे हैं कि उनके अक्ष एक-दूसरे के लंबवत हैं। अध्रुवित प्रकाश I<sub>0</sub>, P<sub>1</sub> पर आपतित है। P<sub>1</sub> और P<sub>2</sub> के बीच एक तीसरा पोलेरॉइड P<sub>3</sub> इस प्रकार रखा जाता है कि उसका अक्ष P<sub>1</sub> के अक्ष से 45° का कोण बनाता है। P<sub>2</sub> से पारगमित प्रकाश की तीव्रता है :",
+      "o": [
+       "I<sub>0</sub>/2",
+       "I<sub>0</sub>/4",
+       "I<sub>0</sub>/8",
+       "I<sub>0</sub>/16"
+      ],
+      "sol": "<p>P<sub>1</sub> के बाद : I<sub>0</sub>/2। P<sub>3</sub> के बाद (45°, मैलस) : (I<sub>0</sub>/2) cos<sup>2</sup> 45° = I<sub>0</sub>/4। P<sub>2</sub> के बाद (P<sub>3</sub> से 45°) : (I<sub>0</sub>/4) cos<sup>2</sup> 45° = <b>I<sub>0</sub>/8</b>।</p>",
+      "hint": "अध्रुवित → आधा; फिर प्रत्येक सापेक्ष कोण का cos<sup>2</sup>।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2018-code-aa-q8",
+     "exam": "NEET",
+     "q": "Unpolarised light is incident from air on a plane surface of a material of refractive index 'μ'. At a particular angle of incidence 'i', it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation?",
+     "sol": "<p>Reflected ⊥ refracted is Brewster's condition: tan i = μ (so neither sin<sup>−1</sup>(1/μ) nor tan<sup>−1</sup>(1/μ)). The reflected light is completely polarised with its electric vector <b>perpendicular to the plane of incidence</b>: the parallel component would have to radiate along the reflected direction, which the oscillating dipoles in the medium cannot do.</p>",
+     "hint": "Brewster: tan i = μ; reflected light vibrates perpendicular to the plane of incidence.",
+     "paras": [
+      "10.7"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q8",
+     "o": [
+      "i = sin<sup>−1</sup>(1/μ)",
+      "Reflected light is polarised with its electric vector perpendicular to the plane of incidence",
+      "Reflected light is polarised with its electric vector parallel to the plane of incidence",
+      "i = tan<sup>−1</sup>(1/μ)"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "अध्रुवित प्रकाश वायु से अपवर्तनांक 'μ' वाले पदार्थ के समतल पृष्ठ पर आपतित होता है। आपतन के एक विशेष कोण 'i' पर यह पाया जाता है कि परावर्तित और अपवर्तित किरणें एक-दूसरे के लंबवत हैं। इस स्थिति के लिए निम्नलिखित में से कौन-सा विकल्प सही है?",
+      "o": [
+       "i = sin<sup>−1</sup>(1/μ)",
+       "परावर्तित प्रकाश ध्रुवित है, जिसका विद्युत सदिश आपतन तल के लंबवत है",
+       "परावर्तित प्रकाश ध्रुवित है, जिसका विद्युत सदिश आपतन तल के समांतर है",
+       "i = tan<sup>−1</sup>(1/μ)"
+      ],
+      "sol": "<p>परावर्तित ⊥ अपवर्तित ब्रूस्टर (Brewster) प्रतिबंध है : tan i = μ (अतः न sin<sup>−1</sup>(1/μ), न tan<sup>−1</sup>(1/μ))। परावर्तित प्रकाश पूर्ण रूप से ध्रुवित होता है और उसका विद्युत सदिश <b>आपतन तल (plane of incidence) के लंबवत</b> होता है : समांतर घटक को परावर्तित दिशा में विकिरण करना पड़ता, जो माध्यम के दोलित द्विध्रुव नहीं कर सकते।</p>",
+      "hint": "ब्रूस्टर : tan i = μ; परावर्तित प्रकाश आपतन तल के लंबवत कंपन करता है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2020-code-f3-q24",
+     "exam": "NEET",
+     "q": "The Brewster's angle i<sub>b</sub> for an interface should be :",
+     "sol": "<p>tan i<sub>b</sub> = μ, and for any real interface viewed from the denser side or with μ > 1, tan i<sub>b</sub> > 1 ⇒ i<sub>b</sub> > 45°; it is always less than 90°. So <b>45° &lt; i<sub>b</sub> &lt; 90°</b>.</p>",
+     "hint": "tan i<sub>b</sub> = μ > 1.",
+     "paras": [
+      "10.7"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q24",
+     "o": [
+      "45° < i<sub>b</sub> < 90°",
+      "i<sub>b</sub> = 90°",
+      "0° < i<sub>b</sub> < 30°",
+      "30° < i<sub>b</sub> < 45°"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "किसी अंतरापृष्ठ के लिए ब्रूस्टर कोण i<sub>b</sub> होना चाहिए :",
+      "o": [
+       "45° < i<sub>b</sub> < 90°",
+       "i<sub>b</sub> = 90°",
+       "0° < i<sub>b</sub> < 30°",
+       "30° < i<sub>b</sub> < 45°"
+      ],
+      "sol": "<p>tan i<sub>b</sub> = μ, और वायु से सघन माध्यम के लिए μ > 1, अतः tan i<sub>b</sub> > 1 ⇒ i<sub>b</sub> > 45°; यह सदैव 90° से कम है। अतः <b>45° &lt; i<sub>b</sub> &lt; 90°</b>।</p>",
+      "hint": "tan i<sub>b</sub> = μ > 1।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2024-q16-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "An unpolarised light beam strikes a glass surface at Brewster's angle. Then :",
+     "sol": "<p>At Brewster's angle the reflected light contains only the component perpendicular to the plane of incidence: it is <b>completely polarised</b>. The refracted light carries all the parallel component plus the rest of the perpendicular one, so it is only <b>partially polarised</b>.</p>",
+     "hint": "Only the reflected beam is fully polarised.",
+     "paras": [
+      "10.7"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q16 (eSaral physics copy)",
+     "o": [
+      "The reflected light will be partially polarised.",
+      "The refracted light will be completely polarised.",
+      "Both the reflected and refracted light will be completely polarised.",
+      "The reflected light will be completely polarised but the refracted light will be partially polarised."
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक अध्रुवित प्रकाश पुंज काँच के पृष्ठ पर ब्रूस्टर कोण पर टकराता है। तब :",
+      "o": [
+       "परावर्तित प्रकाश आंशिक रूप से ध्रुवित होगा।",
+       "अपवर्तित प्रकाश पूर्ण रूप से ध्रुवित होगा।",
+       "परावर्तित और अपवर्तित दोनों प्रकाश पूर्ण रूप से ध्रुवित होंगे।",
+       "परावर्तित प्रकाश पूर्ण रूप से ध्रुवित होगा परंतु अपवर्तित प्रकाश आंशिक रूप से ध्रुवित होगा।"
+      ],
+      "sol": "<p>ब्रूस्टर कोण पर परावर्तित प्रकाश में केवल आपतन तल के लंबवत घटक होता है : यह <b>पूर्ण रूप से ध्रुवित</b> है। अपवर्तित प्रकाश में पूरा समांतर घटक और लंबवत घटक का शेष भाग होता है, अतः यह केवल <b>आंशिक रूप से ध्रुवित</b> है।</p>",
+      "hint": "केवल परावर्तित पुंज पूर्ण रूप से ध्रुवित है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2025-code-45-q27",
+     "exam": "NEET",
+     "q": "An unpolarized light beam travelling in air is incident on a medium of refractive index 1.73 at Brewster's angle. Then :",
+     "sol": "<p>tan i<sub>b</sub> = 1.73 ≈ √3 ⇒ i<sub>b</sub> ≈ 60°, so the angle of reflection is about 60° (refraction about 30°). At Brewster's angle the reflected light is completely polarised; the transmitted light is partially polarised.</p><p>Answer: <b>reflected light is completely polarised and the angle of reflection is close to 60°</b>.</p>",
+     "hint": "tan i<sub>b</sub> = μ.",
+     "paras": [
+      "10.7"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q27",
+     "o": [
+      "Reflected light is completely polarized and the angle of reflection is close to 60°",
+      "Reflected light is partially polarized and the angle of reflection is close to 30°",
+      "Both reflected and transmitted light are perfectly polarized with angles of reflection and refraction close to 60° and 30°, respectively",
+      "Transmitted light is completely polarized with angle of refraction close to 30°"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "वायु में चल रहा एक अध्रुवित प्रकाश पुंज अपवर्तनांक 1.73 वाले माध्यम पर ब्रूस्टर कोण पर आपतित होता है। तब :",
+      "o": [
+       "परावर्तित प्रकाश पूर्ण रूप से ध्रुवित है और परावर्तन कोण लगभग 60° है",
+       "परावर्तित प्रकाश आंशिक रूप से ध्रुवित है और परावर्तन कोण लगभग 30° है",
+       "परावर्तित और पारगमित दोनों प्रकाश पूर्णतया ध्रुवित हैं, जिनके परावर्तन और अपवर्तन कोण क्रमशः लगभग 60° और 30° हैं",
+       "पारगमित प्रकाश पूर्ण रूप से ध्रुवित है और अपवर्तन कोण लगभग 30° है"
+      ],
+      "sol": "<p>tan i<sub>b</sub> = 1.73 ≈ √3 ⇒ i<sub>b</sub> ≈ 60°, अतः परावर्तन कोण लगभग 60° है (अपवर्तन लगभग 30°)। ब्रूस्टर कोण पर परावर्तित प्रकाश पूर्ण रूप से ध्रुवित होता है; पारगमित प्रकाश आंशिक रूप से ध्रुवित होता है।</p><p>उत्तर : <b>परावर्तित प्रकाश पूर्ण रूप से ध्रुवित है और परावर्तन कोण लगभग 60° है</b>।</p>",
+      "hint": "tan i<sub>b</sub> = μ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2025-code-45-q43",
+     "exam": "NEET",
+     "q": "The intensity of transmitted light when a polaroid sheet, placed between two crossed polaroids at 22.5° from the polarization axis of one of the polaroids, is (I<sub>0</sub> is the intensity of polarised light after passing through the first polaroid) :",
+     "sol": "<p>Middle sheet at 22.5° to the first, hence at 67.5° to the last. I = I<sub>0</sub> cos<sup>2</sup> 22.5° cos<sup>2</sup> 67.5° = I<sub>0</sub> cos<sup>2</sup> 22.5° sin<sup>2</sup> 22.5° = I<sub>0</sub> sin<sup>2</sup> 45°/4 = <b>I<sub>0</sub>/8</b>.</p>",
+     "hint": "cos<sup>2</sup>θ sin<sup>2</sup>θ = sin<sup>2</sup>2θ/4.",
+     "paras": [
+      "10.7"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q43",
+     "o": [
+      "I<sub>0</sub>/2",
+      "I<sub>0</sub>/4",
+      "I<sub>0</sub>/8",
+      "I<sub>0</sub>/16"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "जब एक पोलेरॉइड शीट को दो क्रॉसित पोलेरॉइडों के बीच, उनमें से एक के ध्रुवण अक्ष से 22.5° पर रखा जाता है, तो पारगमित प्रकाश की तीव्रता है (I<sub>0</sub> पहले पोलेरॉइड से गुजरने के बाद ध्रुवित प्रकाश की तीव्रता है) :",
+      "o": [
+       "I<sub>0</sub>/2",
+       "I<sub>0</sub>/4",
+       "I<sub>0</sub>/8",
+       "I<sub>0</sub>/16"
+      ],
+      "sol": "<p>बीच वाली शीट पहले से 22.5° पर, अतः अंतिम से 67.5° पर है। I = I<sub>0</sub> cos<sup>2</sup> 22.5° cos<sup>2</sup> 67.5° = I<sub>0</sub> cos<sup>2</sup> 22.5° sin<sup>2</sup> 22.5° = I<sub>0</sub> sin<sup>2</sup> 45°/4 = <b>I<sub>0</sub>/8</b>।</p>",
+      "hint": "cos<sup>2</sup>θ sin<sup>2</sup>θ = sin<sup>2</sup>2θ/4।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy12-10-neet-2026-code-13-q18",
+     "exam": "NEET",
+     "q": "In Young's double slit experiment, using monochromatic light of wavelength λ, the intensity of light at a point on the screen where the path difference is λ, is K units. The intensity of light at a point where the path difference is λ/3 will be :",
+     "sol": "<p>Path difference λ ⇒ phase 2π ⇒ a maximum: K = 4I<sub>s</sub> (I<sub>s</sub> = one slit's intensity). Path difference λ/3 ⇒ phase φ = 2π/3.</p><p>I = K cos<sup>2</sup>(φ/2) = K cos<sup>2</sup>(π/3) = K × 1/4 = <b>K/4</b>.</p>",
+     "hint": "I = I<sub>max</sub> cos<sup>2</sup>(φ/2).",
+     "paras": [
+      "10.4",
+      "10.5"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q18",
+     "o": [
+      "K",
+      "2K",
+      "K/2",
+      "K/4"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "यंग के द्विझिरी प्रयोग में तरंगदैर्घ्य λ का एकवर्णी प्रकाश प्रयुक्त करने पर, पर्दे के जिस बिंदु पर पथांतर λ है, वहाँ प्रकाश की तीव्रता K मात्रक है। जिस बिंदु पर पथांतर λ/3 है, वहाँ प्रकाश की तीव्रता होगी :",
+      "o": [
+       "K",
+       "2K",
+       "K/2",
+       "K/4"
+      ],
+      "sol": "<p>पथांतर λ ⇒ कलांतर 2π ⇒ उच्चिष्ठ : K = 4I<sub>s</sub> (I<sub>s</sub> = एक झिरी की तीव्रता)। पथांतर λ/3 ⇒ कलांतर φ = 2π/3।</p><p>I = K cos<sup>2</sup>(φ/2) = K cos<sup>2</sup>(π/3) = K × 1/4 = <b>K/4</b>।</p>",
+      "hint": "I = I<sub>max</sub> cos<sup>2</sup>(φ/2)।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2026-code-13-q20",
+     "exam": "NEET",
+     "q": "In interference and diffraction, the light energy is redistributed. If it reduces in one region, producing a dark fringe, it increases in another region, producing a bright fringe.<br>A. As there is no gain or loss of energy, these phenomena are consistent with the principle of conservation of energy.<br>B. Diffraction and interference are characteristics exhibited only by light waves.<br>Choose the correct answer from the options given below :",
+     "sol": "<p>A is true: energy is only redistributed between bright and dark regions, as NCERT notes. B is false: interference and diffraction are shown by all waves (sound, water waves, matter waves), not only light.</p><p>Answer: <b>A is true, but B is false</b>.</p>",
+     "hint": "Water and sound waves also interfere and diffract.",
+     "paras": [
+      "10.4",
+      "10.6"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q20",
+     "o": [
+      "A is false, but B is true",
+      "A is true, but B is false",
+      "A is true and B is also true",
+      "Both A and B are false"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "व्यतिकरण और विवर्तन में प्रकाश ऊर्जा का पुनर्वितरण होता है। यदि यह एक क्षेत्र में घटती है, जिससे अदीप्त फ्रिंज बनती है, तो यह दूसरे क्षेत्र में बढ़ती है, जिससे दीप्त फ्रिंज बनती है।<br>A. चूँकि ऊर्जा का कोई लाभ या हानि नहीं होती, ये परिघटनाएँ ऊर्जा संरक्षण के सिद्धांत के अनुरूप हैं।<br>B. विवर्तन और व्यतिकरण केवल प्रकाश तरंगों द्वारा प्रदर्शित अभिलक्षण हैं।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "A असत्य है, परंतु B सत्य है",
+       "A सत्य है, परंतु B असत्य है",
+       "A सत्य है और B भी सत्य है",
+       "A और B दोनों असत्य हैं"
+      ],
+      "sol": "<p>A सत्य है : ऊर्जा का केवल दीप्त और अदीप्त क्षेत्रों के बीच पुनर्वितरण होता है, जैसा NCERT बताती है। B असत्य है : व्यतिकरण और विवर्तन सभी तरंगें (ध्वनि, जल तरंगें, द्रव्य तरंगें) दर्शाती हैं, केवल प्रकाश नहीं।</p><p>उत्तर : <b>A सत्य है, परंतु B असत्य है</b>।</p>",
+      "hint": "जल और ध्वनि तरंगें भी व्यतिकरण और विवर्तन दर्शाती हैं।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-10-neet-2022-code-t2-q11",
+     "exam": "NEET",
+     "q": "A light ray falls on a glass surface of refractive index √3, at an angle 60°. The angle between the refracted and reflected rays would be :",
+     "sol": "<p>Snell: sin 60° = √3 sin r ⇒ sin r = 1/2, r = 30°. The angle between the reflected ray (60° from the normal) and the refracted ray (30° on the other side, below) is 180° − 60° − 30° = <b>90°</b>.</p><p>Indeed tan 60° = √3 = μ: this is Brewster's angle.</p>",
+     "hint": "Find r, then use 180° − i − r.",
+     "paras": [
+      "10.7"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q11",
+     "o": [
+      "60°",
+      "90°",
+      "120°",
+      "30°"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "प्रकाश की एक किरण अपवर्तनांक √3 वाले काँच के पृष्ठ पर 60° के कोण पर पड़ती है। अपवर्तित और परावर्तित किरणों के बीच का कोण होगा :",
+      "o": [
+       "60°",
+       "90°",
+       "120°",
+       "30°"
+      ],
+      "sol": "<p>स्नेल : sin 60° = √3 sin r ⇒ sin r = 1/2, r = 30°। परावर्तित किरण (अभिलंब से 60°) और अपवर्तित किरण (दूसरी ओर, नीचे 30°) के बीच का कोण 180° − 60° − 30° = <b>90°</b> है।</p><p>वस्तुतः tan 60° = √3 = μ : यह ब्रूस्टर कोण है।</p>",
+      "hint": "r ज्ञात कीजिए, फिर 180° − i − r लीजिए।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 12 · Ray Optics"
+     ]
+    },
+    {
+     "id": "phy12-10-neet-2017-code-a-q33",
+     "exam": "NEET",
+     "q": "The ratio of resolving powers of an optical microscope for two wavelengths λ<sub>1</sub> = 4000 Å and λ<sub>2</sub> = 6000 Å is :",
+     "sol": "<p>Resolving power of a microscope ∝ 1/λ (it is 2n sin β/(1.22λ)). RP<sub>1</sub>/RP<sub>2</sub> = λ<sub>2</sub>/λ<sub>1</sub> = 6000/4000 = <b>3 : 2</b>.</p><p>(Resolving power is no longer in the rationalised NCERT.)</p>",
+     "hint": "Shorter wavelength resolves better.",
+     "paras": [],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q33",
+     "o": [
+      "8 : 27",
+      "9 : 4",
+      "3 : 2",
+      "16 : 81"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "दो तरंगदैर्घ्यों λ<sub>1</sub> = 4000 Å और λ<sub>2</sub> = 6000 Å के लिए एक प्रकाशीय सूक्ष्मदर्शी की विभेदन क्षमताओं का अनुपात है :",
+      "o": [
+       "8 : 27",
+       "9 : 4",
+       "3 : 2",
+       "16 : 81"
+      ],
+      "sol": "<p>सूक्ष्मदर्शी की विभेदन क्षमता ∝ 1/λ (यह 2n sin β/(1.22λ) है)। RP<sub>1</sub>/RP<sub>2</sub> = λ<sub>2</sub>/λ<sub>1</sub> = 6000/4000 = <b>3 : 2</b>।</p><p>(विभेदन क्षमता अब युक्तिसंगत NCERT में नहीं है।)</p>",
+      "hint": "छोटी तरंगदैर्घ्य बेहतर विभेदन देती है।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Ch 10 · Resolving power of optical instruments"
+    },
+    {
+     "id": "phy12-10-neet-2020-code-f3-q3",
+     "exam": "NEET",
+     "q": "Assume that light of wavelength 600 nm is coming from a star. The limit of resolution of telescope whose objective has a diameter of 2 m is :",
+     "sol": "<p>Limit of resolution of a telescope Δθ = 1.22λ/D = 1.22 × 600 × 10<sup>−9</sup>/2 = <b>3.66 × 10<sup>−7</sup> rad</b>.</p><p>(Resolving power is no longer in the rationalised NCERT.)</p>",
+     "hint": "Δθ = 1.22λ/D.",
+     "paras": [],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q3",
+     "o": [
+      "7.32 × 10<sup>−7</sup> rad",
+      "6.00 × 10<sup>−7</sup> rad",
+      "3.66 × 10<sup>−7</sup> rad",
+      "1.83 × 10<sup>−7</sup> rad"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "मान लीजिए कि किसी तारे से 600 nm तरंगदैर्घ्य का प्रकाश आ रहा है। उस दूरदर्शक की विभेदन सीमा, जिसके अभिदृश्यक का व्यास 2 m है, है :",
+      "o": [
+       "7.32 × 10<sup>−7</sup> rad",
+       "6.00 × 10<sup>−7</sup> rad",
+       "3.66 × 10<sup>−7</sup> rad",
+       "1.83 × 10<sup>−7</sup> rad"
+      ],
+      "sol": "<p>दूरदर्शक की विभेदन सीमा Δθ = 1.22λ/D = 1.22 × 600 × 10<sup>−9</sup>/2 = <b>3.66 × 10<sup>−7</sup> rad</b>।</p><p>(विभेदन क्षमता अब युक्तिसंगत NCERT में नहीं है।)</p>",
+      "hint": "Δθ = 1.22λ/D ।"
+     },
+     "hiStatus": "draft",
+     "oldRef": "Old NCERT 12 Ch 10 · Resolving power of optical instruments"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 24
+ },
+ "empty": [
+  {
+   "id": "10.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "10.2",
+   "title": "Huygens Principle",
+   "hi": "हाइगेंस का सिद्धांत",
+   "pages": [],
+   "pdfPage": 3
+  },
+  {
+   "id": "10.3",
+   "title": "Refraction and Reflection of Plane Waves using Huygens Principle",
+   "hi": "हाइगेंस सिद्धांत का उपयोग करते हुए समतल तरंगों का",
+   "pages": [],
+   "pdfPage": 4
+  },
+  {
+   "id": "10.3.1",
+   "title": "Refraction of a Plane Wave",
+   "hi": "समतल तरंगों का अपवर्तन",
+   "pages": [],
+   "pdfPage": 4
+  },
+  {
+   "id": "10.3.2",
+   "title": "Refraction at a Rarer Medium",
+   "hi": "विरल माध्यम पर अपवर्तन",
+   "pages": [],
+   "pdfPage": 6
+  },
+  {
+   "id": "10.3.3",
+   "title": "Reflection of a Plane Wave by a Plane Surface",
+   "hi": "समतल पृष्ठ से एक समतल तरंग का परावर्तन",
+   "pages": [],
+   "pdfPage": 6
+  },
+  {
+   "id": "10.6.2",
+   "title": "Seeing the Single Slit Diffraction Pattern",
+   "hi": "एकल झिरी विवर्तन पैटर्न का अवलोकन",
+   "pages": [],
+   "pdfPage": 14
+  }
+ ],
+ "trends": {
+  "10.6.1": {
+   "neet": 3,
+   "jee": 0,
+   "years": [
+    2016,
+    2015
+   ],
+   "last": 2016,
+   "recent": false
+  },
+  "10.5": {
+   "neet": 11,
+   "jee": 0,
+   "years": [
+    2026,
+    2024,
+    2023,
+    2022,
+    2020,
+    2019,
+    2018,
+    2017,
+    2016,
+    2015
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "10.7": {
+   "neet": 7,
+   "jee": 0,
+   "years": [
+    2025,
+    2024,
+    2022,
+    2020,
+    2018,
+    2017
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "10.4": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2026
+   ],
+   "last": 2026,
+   "recent": true
+  },
+  "10.6": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2026
+   ],
+   "last": 2026,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}

@@ -3,6 +3,7 @@
   {
    "id": "physics",
    "name": "Physics",
+   "pagesLive": true,
    "classes": [
     {
      "cls": 11,
@@ -10,72 +11,86 @@
       {
        "id": "phy11-01",
        "no": 1,
-       "title": "Units and Measurements"
+       "title": "Units and Measurements",
+       "hi": "मात्रक एवं मापन"
       },
       {
        "id": "phy11-02",
        "no": 2,
-       "title": "Motion in a Straight Line"
+       "title": "Motion in a Straight Line",
+       "hi": "सरल रेखा में गति"
       },
       {
        "id": "phy11-03",
        "no": 3,
-       "title": "Motion in a Plane"
+       "title": "Motion in a Plane",
+       "hi": "समतल में गति"
       },
       {
        "id": "phy11-04",
        "no": 4,
-       "title": "Laws of Motion"
+       "title": "Laws of Motion",
+       "hi": "गति के नियम"
       },
       {
        "id": "phy11-05",
        "no": 5,
-       "title": "Work, Energy and Power"
+       "title": "Work, Energy and Power",
+       "hi": "कार्य, ऊर्जा और शक्ति"
       },
       {
        "id": "phy11-06",
        "no": 6,
-       "title": "System of Particles and Rotational Motion"
+       "title": "System of Particles and Rotational Motion",
+       "hi": "कणों के निकाय तथा घूर्णी गति"
       },
       {
        "id": "phy11-07",
        "no": 7,
-       "title": "Gravitation"
+       "title": "Gravitation",
+       "hi": "गुरुत्वाकर्षण"
       },
       {
        "id": "phy11-08",
        "no": 8,
-       "title": "Mechanical Properties of Solids"
+       "title": "Mechanical Properties of Solids",
+       "hi": "ठोसों के यांत्रिक गुण"
       },
       {
        "id": "phy11-09",
        "no": 9,
-       "title": "Mechanical Properties of Fluids"
+       "title": "Mechanical Properties of Fluids",
+       "hi": "तरलों के यांत्रिकी गुण"
       },
       {
        "id": "phy11-10",
        "no": 10,
-       "title": "Thermal Properties of Matter"
+       "title": "Thermal Properties of Matter",
+       "hi": "द्रव्य के तापीय गुण"
       },
       {
        "id": "phy11-11",
        "no": 11,
-       "title": "Thermodynamics"
+       "title": "Thermodynamics",
+       "hi": "उष्मागतिकी"
       },
       {
        "id": "phy11-12",
        "no": 12,
-       "title": "Kinetic Theory"
+       "title": "Kinetic Theory",
+       "hi": "अणुगति सिद्धांत"
       },
       {
        "id": "phy11-13",
        "no": 13,
-       "title": "Oscillations"
+       "title": "Oscillations",
+       "hi": "दोलन"
       },
       {
        "id": "phy11-14",
        "no": 14,
-       "title": "Waves"
+       "title": "Waves",
+       "hi": "तरंगें"
       }
      ]
     },
@@ -85,72 +100,93 @@
       {
        "id": "phy12-01",
        "no": 1,
-       "title": "Electric Charges and Fields"
+       "title": "Electric Charges and Fields",
+       "hi": "वैद्युत आवेश तथा क्षेत्र"
       },
       {
        "id": "phy12-02",
        "no": 2,
-       "title": "Electrostatic Potential and Capacitance"
+       "title": "Electrostatic Potential and Capacitance",
+       "hi": "स्थिरवैद्युत विभव तथा धारिता"
       },
       {
        "id": "phy12-03",
        "no": 3,
-       "title": "Current Electricity"
+       "title": "Current Electricity",
+       "hi": "विद्युत धारा"
       },
       {
        "id": "phy12-04",
        "no": 4,
-       "title": "Moving Charges and Magnetism"
+       "title": "Moving Charges and Magnetism",
+       "hi": "गतिमान आवेश और चुंबकत्व"
       },
       {
        "id": "phy12-05",
        "no": 5,
-       "title": "Magnetism and Matter"
+       "title": "Magnetism and Matter",
+       "hi": "चुंबकत्व एवं द्रव्य"
       },
       {
        "id": "phy12-06",
        "no": 6,
-       "title": "Electromagnetic Induction"
+       "title": "Electromagnetic Induction",
+       "hi": "वैद्युतचुंबकीय प्रेरण"
       },
       {
        "id": "phy12-07",
        "no": 7,
-       "title": "Alternating Current"
+       "title": "Alternating Current",
+       "hi": "प्रत्यावर्ती धारा"
       },
       {
        "id": "phy12-08",
        "no": 8,
-       "title": "Electromagnetic Waves"
+       "title": "Electromagnetic Waves",
+       "hi": "वैद्युतचुंबकीय तरंगें"
       },
       {
        "id": "phy12-09",
        "no": 9,
-       "title": "Ray Optics and Optical Instruments"
+       "title": "Ray Optics and Optical Instruments",
+       "hi": "किरण प्रकाशिकी एवं प्रकाशिक यंत्र"
       },
       {
        "id": "phy12-10",
        "no": 10,
-       "title": "Wave Optics"
+       "title": "Wave Optics",
+       "hi": "तरंग-प्रकाशिकी"
       },
       {
        "id": "phy12-11",
        "no": 11,
-       "title": "Dual Nature of Radiation and Matter"
+       "title": "Dual Nature of Radiation and Matter",
+       "hi": "विकिरण तथा द्रव्य की द्वैत प्रकृति"
       },
       {
        "id": "phy12-12",
        "no": 12,
-       "title": "Atoms"
+       "title": "Atoms",
+       "hi": "परमाणु"
       },
       {
        "id": "phy12-13",
        "no": 13,
-       "title": "Nuclei"
+       "title": "Nuclei",
+       "hi": "नाभिक"
       },
       {
        "id": "phy12-14",
        "no": 14,
-       "title": "Semiconductor Electronics"
+       "title": "Semiconductor Electronics",
+       "hi": "अर्धचालक इलेक्ट्रॉनिकी"
+      }
+     ],
+     "extras": [
+      {
+       "id": "phy12-lab-experimental-skills",
+       "title": "Experimental Skills",
+       "hi": "प्रायोगिक कौशल"
       }
      ]
     }
@@ -159,6 +195,7 @@
   {
    "id": "chemistry",
    "name": "Chemistry",
+   "pagesLive": true,
    "classes": [
     {
      "cls": 11,
@@ -166,47 +203,83 @@
       {
        "id": "chem11-01",
        "no": 1,
-       "title": "Some Basic Concepts of Chemistry"
+       "title": "Some Basic Concepts of Chemistry",
+       "hi": "रसायन विज्ञान की कुछ मूल अवधारणाएँ"
       },
       {
        "id": "chem11-02",
        "no": 2,
-       "title": "Structure of Atom"
+       "title": "Structure of Atom",
+       "hi": "परमाणु की संरचना"
       },
       {
        "id": "chem11-03",
        "no": 3,
-       "title": "Classification of Elements and Periodicity in Properties"
+       "title": "Classification of Elements and Periodicity in Properties",
+       "hi": "तत्त्वों का वर्गीकरण एवं गुणधर्मों में आवर्तिता"
       },
       {
        "id": "chem11-04",
        "no": 4,
-       "title": "Chemical Bonding and Molecular Structure"
+       "title": "Chemical Bonding and Molecular Structure",
+       "hi": "रासायनिक आबंधन तथा आण्विक संरचना"
       },
       {
        "id": "chem11-thermodynamics",
        "no": 5,
-       "title": "Thermodynamics"
+       "title": "Thermodynamics",
+       "hi": "ऊष्मागतिकी"
       },
       {
        "id": "chem11-06",
        "no": 6,
-       "title": "Equilibrium"
+       "title": "Equilibrium",
+       "hi": "साम्यावस्था"
       },
       {
        "id": "chem11-07",
        "no": 7,
-       "title": "Redox Reactions"
+       "title": "Redox Reactions",
+       "hi": "अपचयोपचय अभिक्रियाएँ"
       },
       {
        "id": "chem11-08",
        "no": 8,
-       "title": "Organic Chemistry – Some Basic Principles and Techniques"
+       "title": "Organic Chemistry – Some Basic Principles and Techniques",
+       "hi": "कार्बनिक रसायन : कुछ आधारभूत सिद्धांत तथा तकनीकें"
       },
       {
        "id": "chem11-09",
        "no": 9,
-       "title": "Hydrocarbons"
+       "title": "Hydrocarbons",
+       "hi": "हाइड्रोकार्बन"
+      }
+     ],
+     "extras": [
+      {
+       "id": "chem11-old-p-block",
+       "title": "The p-Block Elements (Groups 13–14)",
+       "hi": "p-ब्लॉक तत्व (वर्ग 13–14)"
+      },
+      {
+       "id": "chem11-old-s-block",
+       "title": "The s-Block Elements",
+       "hi": "s-ब्लॉक तत्व"
+      },
+      {
+       "id": "chem11-old-hydrogen",
+       "title": "Hydrogen",
+       "hi": "हाइड्रोजन"
+      },
+      {
+       "id": "chem11-old-states-of-matter",
+       "title": "States of Matter",
+       "hi": "द्रव्य की अवस्थाएँ"
+      },
+      {
+       "id": "chem11-old-environmental-chemistry",
+       "title": "Environmental Chemistry",
+       "hi": "पर्यावरणीय रसायन"
       }
      ]
     },
@@ -216,52 +289,99 @@
       {
        "id": "chem12-01",
        "no": 1,
-       "title": "Solutions"
+       "title": "Solutions",
+       "hi": "विलयन"
       },
       {
        "id": "chem12-02",
        "no": 2,
-       "title": "Electrochemistry"
+       "title": "Electrochemistry",
+       "hi": "वैद्युतरसायन"
       },
       {
        "id": "chem12-03",
        "no": 3,
-       "title": "Chemical Kinetics"
+       "title": "Chemical Kinetics",
+       "hi": "रासायनिक बलगतिकी"
       },
       {
        "id": "chem12-04",
        "no": 4,
-       "title": "The d- and f-Block Elements"
+       "title": "The d- and f-Block Elements",
+       "hi": "d- एवं f- ब्लॉक के तत्व"
       },
       {
        "id": "chem12-05",
        "no": 5,
-       "title": "Coordination Compounds"
+       "title": "Coordination Compounds",
+       "hi": "उपसहसंयोजन यौगिक"
       },
       {
        "id": "chem12-06",
        "no": 6,
-       "title": "Haloalkanes and Haloarenes"
+       "title": "Haloalkanes and Haloarenes",
+       "hi": "हैलोऐल्केन तथा हैलोऐरीन"
       },
       {
        "id": "chem12-07",
        "no": 7,
-       "title": "Alcohols, Phenols and Ethers"
+       "title": "Alcohols, Phenols and Ethers",
+       "hi": "ऐल्कोहॉल, फ़ीनॉल एवं ईथर"
       },
       {
        "id": "chem12-08",
        "no": 8,
-       "title": "Aldehydes, Ketones and Carboxylic Acids"
+       "title": "Aldehydes, Ketones and Carboxylic Acids",
+       "hi": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल"
       },
       {
        "id": "chem12-09",
        "no": 9,
-       "title": "Amines"
+       "title": "Amines",
+       "hi": "ऐमीन"
       },
       {
        "id": "chem12-10",
        "no": 10,
-       "title": "Biomolecules"
+       "title": "Biomolecules",
+       "hi": "जैव-अणु"
+      }
+     ],
+     "extras": [
+      {
+       "id": "chem12-old-p-block",
+       "title": "The p-Block Elements (Groups 15–18)",
+       "hi": "p-ब्लॉक तत्व (वर्ग 15–18)"
+      },
+      {
+       "id": "chem12-lab-practical-chemistry",
+       "title": "Principles Related to Practical Chemistry",
+       "hi": "प्रायोगिक रसायन से संबंधित सिद्धांत"
+      },
+      {
+       "id": "chem12-old-solid-state",
+       "title": "The Solid State",
+       "hi": "ठोस अवस्था"
+      },
+      {
+       "id": "chem12-old-surface-chemistry",
+       "title": "Surface Chemistry",
+       "hi": "पृष्ठ रसायन"
+      },
+      {
+       "id": "chem12-old-metallurgy",
+       "title": "General Principles and Processes of Isolation of Elements",
+       "hi": "तत्वों के निष्कर्षण के सिद्धांत एवं प्रक्रम"
+      },
+      {
+       "id": "chem12-old-polymers",
+       "title": "Polymers",
+       "hi": "बहुलक"
+      },
+      {
+       "id": "chem12-old-everyday-life",
+       "title": "Chemistry in Everyday Life",
+       "hi": "दैनिक जीवन में रसायन"
       }
      ]
     }

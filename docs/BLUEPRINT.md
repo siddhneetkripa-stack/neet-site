@@ -29,16 +29,17 @@ Question bank (`content/questions/`, 98 chapter files; `data/questions/` built):
 - Tools: `add_pyqs.py`, `apply_keys.py` (now keeps our own extra accepted options instead of silently dropping them), `add_solutions.py`, `check_hindi.py`, `make_paragraphs.py`, `build.py` (also computes the per-paragraph trend counts).
 
 Site (static, GitHub Pages):
-- Final design B + C (Mukta, teal/saffron, Hindi-first toggle): home, chapter mind map (Chemistry Thermodynamics), PYQ page with paragraph list, trend chips (counts from `build.py`), "Revise these" box and "Retry only these".
-- PYQ pages exist only for Chemistry Unit 1 (it still reads the legacy `content/pyq/` file). No Physics or Biology page yet.
-- Exam screen (`exam.html`, NTA look): local PYQ test (Unit 1, 80 questions) and server mode for CBT tests.
+- Final design B + C (Mukta, teal/saffron, Hindi-first toggle): home, chapter mind map (Chemistry Thermodynamics), exam screen.
+- **Chapter pages ("NCERT + PYQ") are built from the question bank** for all 98 bank files (`tools/build.py` → `data/pyq/<ch>.json`; branch `claude/pages-from-bank`, 14 Nov 2026). Shown: questions with a worked solution (JEE Main PYQs without one wait); Hindi question text when the interface is Hindi, with a per-question English switch and a "हिंदी प्रारूप" tag while draft; trend chips and "Revise these" / "Retry only these"; topics NEET dropped in 2024 in their own section at the end (never in trend counts); old-NCERT and lab chapters as one list, newest paper first, with the topic on each card. Hindi chapter titles in `content/catalog.json` (`hi`), checked against the NCERT Hindi text.
+- Linked from home: Physics and Chemistry (`"pagesLive": true` in content/catalog.json): 28 + 1 lab Physics, 19 + 12 old-NCERT/lab Chemistry = 60 pages. **Biology pages build but are not linked** until the Biology session sets `"pagesLive": true` for Biology after its checks.
+- Checked with headless Chrome: all 98 pages, Hindi and English, 390 px and 1280 px: no console errors, no sideways scrolling.
 
 CBT server (`worker/`, Cloudflare Worker + D1, Google sign-in): 27 physical-chemistry chapter tests whose keys live in neet-sources `cbt/tests/`. Tested locally only. Deploying needs the owner's Cloudflare account, a D1 database, a Google Client ID and two GitHub secrets (`worker/README.md`).
 
 neet-sources: NCERT (English, Hindi Kruti Dev and Unicode text), NEET papers 2013–2026, JEE Main 2020–2026 (incl. the VKC NTA chemistry extracts), glossary, pyq-tools (incl. JEE batch scripts), CBT test files.
 
 ### Next, in order
-1. **Pages from the bank** (Phase 1): move the PYQ/Reader page to read `data/questions/<chapter>.json`, then publish chapter pages for all three subjects (Biology needs trend markers + revise list; both are already in the shared page code). Retire `tools/convert_questions.py` after that.
+1. **Chapter pages**: done for Physics and Chemistry (`claude/pages-from-bank`, waiting for the owner's merge). Biology: the Biology session checks its pages, fills the catalog (`hi` titles, old-NCERT `extras`) and sets `"pagesLive": true`. Physics pages still lack Hindi paragraph titles in many chapters (falls back to English) and printed page numbers (links go to the PDF page).
 2. **Hindi proofreading** of all draft Hindi (Physics, Chemistry, Biology; old-NCERT chapters first, as they have no NCERT Hindi text to check against), status `draft` → `proofread`.
 3. **Redrawn figures** for the 222 diagram questions, then move checked PYQs from `draft` to `checked`.
 4. **JEE Main Chemistry**: tag 2020–2023, then solutions + Hindi for all JEE PYQs.

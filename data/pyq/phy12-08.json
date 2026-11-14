@@ -1,0 +1,948 @@
+{
+ "chapter": "phy12-08",
+ "source": "bank",
+ "subject": "physics",
+ "class": 12,
+ "unit": 8,
+ "title": "Electromagnetic Waves",
+ "titleHi": "वैद्युतचुंबकीय तरंगें",
+ "ref": "NCERT Physics Class 12 · Unit 8",
+ "years": "NEET 2015–2026",
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph108.pdf",
+ "pdfPageOffset": 0,
+ "oldNcert": null,
+ "byTopic": false,
+ "paragraphs": [
+  {
+   "id": "8.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "8.2",
+   "title": "Displacement Current",
+   "hi": "विस्थापन धारा",
+   "pages": [],
+   "pdfPage": 2
+  },
+  {
+   "id": "8.3",
+   "title": "Electromagnetic Waves",
+   "hi": "वैद्युतचुंबकीय तरंगें",
+   "pages": [],
+   "pdfPage": 5
+  },
+  {
+   "id": "8.3.1",
+   "title": "Sources of Electromagnetic Waves",
+   "hi": "तरंगों के स्रोत",
+   "pages": [],
+   "pdfPage": 5
+  },
+  {
+   "id": "8.3.2",
+   "title": "Nature of Electromagnetic Waves",
+   "hi": "वैद्युतचुंबकीय तरंगों की प्रकृति",
+   "pages": [],
+   "pdfPage": 6
+  },
+  {
+   "id": "8.4",
+   "title": "Electromagnetic Spectrum",
+   "hi": "वैद्युतचुंबकीय स्पेक्ट्रम",
+   "pages": [],
+   "pdfPage": 8
+  },
+  {
+   "id": "8.4.1",
+   "title": "Radio Waves",
+   "hi": "रेडियो तरंगें",
+   "pages": [],
+   "pdfPage": 9
+  },
+  {
+   "id": "8.4.2",
+   "title": "Microwaves",
+   "hi": "सूक्ष्म तरंगें",
+   "pages": [],
+   "pdfPage": 9
+  },
+  {
+   "id": "8.4.3",
+   "title": "Infrared Waves",
+   "hi": "अवरक्त तरंगें",
+   "pages": [],
+   "pdfPage": 10
+  },
+  {
+   "id": "8.4.4",
+   "title": "Visible Rays",
+   "hi": "दृश्य प्रकाश तरंगें",
+   "pages": [],
+   "pdfPage": 10
+  },
+  {
+   "id": "8.4.5",
+   "title": "Ultraviolet Rays",
+   "hi": "पराबैंगनी तरंगें",
+   "pages": [],
+   "pdfPage": 10
+  },
+  {
+   "id": "8.4.6",
+   "title": "X-rays",
+   "hi": "X-किरणें",
+   "pages": [],
+   "pdfPage": 11
+  },
+  {
+   "id": "8.4.7",
+   "title": "Gamma Rays",
+   "hi": "गामा किरणें",
+   "pages": [],
+   "pdfPage": 11
+  }
+ ],
+ "sections": [
+  {
+   "sec": "8.2",
+   "title": "Displacement Current",
+   "hi": "विस्थापन धारा",
+   "pages": [],
+   "pdfPage": 2,
+   "questions": [
+    {
+     "id": "phy12-08-neet-2016-phase-2-code-aa-q33",
+     "exam": "NEET",
+     "q": "A 100 Ω resistance and a capacitor of 100 Ω reactance are connected in series across a 220 V source. When the capacitor is 50% charged, the peak value of the displacement current is :",
+     "sol": "<p>The displacement current in the capacitor gap equals the conduction current in the circuit at every instant. Z = √(100<sup>2</sup> + 100<sup>2</sup>) = 100√2 Ω; peak voltage = 220√2 V.</p><p>Peak current = 220√2/(100√2) = <b>2.2 A</b>. (“50% charged” does not change the peak value.)</p>",
+     "hint": "I<sub>d</sub> = I<sub>c</sub>; find the peak circuit current.",
+     "paras": [
+      "8.2"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 2 Code AA Q33",
+     "o": [
+      "2.2 A",
+      "11 A",
+      "4.4 A",
+      "11√2 A"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "100 Ω का एक प्रतिरोध और 100 Ω प्रतिघात का एक संधारित्र 220 V के स्रोत के सिरों पर श्रेणीक्रम में जुड़े हैं। जब संधारित्र 50% आवेशित है, तो विस्थापन धारा का शिखर मान है :",
+      "o": [
+       "2.2 A",
+       "11 A",
+       "4.4 A",
+       "11√2 A"
+      ],
+      "sol": "<p>संधारित्र के अंतराल में विस्थापन धारा प्रत्येक क्षण परिपथ की चालन धारा के बराबर है। Z = √(100<sup>2</sup> + 100<sup>2</sup>) = 100√2 Ω; शिखर वोल्टता = 220√2 V।</p><p>शिखर धारा = 220√2/(100√2) = <b>2.2 A</b>। (“50% आवेशित” शिखर मान नहीं बदलता।)</p>",
+      "hint": "I<sub>d</sub> = I<sub>c</sub>; परिपथ की शिखर धारा ज्ञात कीजिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2019-code-s2-q121",
+     "exam": "NEET",
+     "q": "A parallel plate capacitor of capacitance 20 μF is being charged by a voltage source whose potential is changing at the rate of 3 V/s. The conduction current through the connecting wires, and the displacement current through the plates of the capacitor, would be, respectively :",
+     "sol": "<p>Conduction current I = dQ/dt = C dV/dt = 20 × 10<sup>−6</sup> × 3 = 60 μA. The displacement current between the plates, ε<sub>0</sub>dΦ<sub>E</sub>/dt, equals it. Answer: <b>60 μA, 60 μA</b>.</p>",
+     "hint": "I<sub>d</sub> = I<sub>c</sub> = C dV/dt.",
+     "paras": [
+      "8.2"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q121",
+     "o": [
+      "60 μA, zero",
+      "zero, zero",
+      "zero, 60 μA",
+      "60 μA, 60 μA"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "20 μF धारिता का एक समांतर पट्टिका संधारित्र एक वोल्टता स्रोत द्वारा आवेशित किया जा रहा है जिसका विभव 3 V/s की दर से बदल रहा है। संयोजक तारों से चालन धारा और संधारित्र की पट्टिकाओं के बीच विस्थापन धारा क्रमशः होंगी :",
+      "o": [
+       "60 μA, शून्य",
+       "शून्य, शून्य",
+       "शून्य, 60 μA",
+       "60 μA, 60 μA"
+      ],
+      "sol": "<p>चालन धारा I = dQ/dt = C dV/dt = 20 × 10<sup>−6</sup> × 3 = 60 μA। पट्टिकाओं के बीच विस्थापन धारा ε<sub>0</sub>dΦ<sub>E</sub>/dt इसके बराबर है। उत्तर : <b>60 μA, 60 μA</b>।</p>",
+      "hint": "I<sub>d</sub> = I<sub>c</sub> = C dV/dt ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2021-code-p3-q28",
+     "exam": "NEET",
+     "q": "A capacitor of capacitance 'C' is connected across an ac source of voltage V, given by V = V<sub>0</sub> sin ωt. The displacement current between the plates of the capacitor would then be given by :",
+     "sol": "<p>Displacement current I<sub>d</sub> = C dV/dt = C d(V<sub>0</sub> sin ωt)/dt = <b>V<sub>0</sub>ωC cos ωt</b>, equal to the conduction current in the leads.</p>",
+     "hint": "I<sub>d</sub> = C dV/dt.",
+     "paras": [
+      "8.2"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q28",
+     "o": [
+      "I<sub>d</sub> = V<sub>0</sub>ωC sin ωt",
+      "I<sub>d</sub> = V<sub>0</sub>ωC cos ωt",
+      "I<sub>d</sub> = (V<sub>0</sub>/ωC) cos ωt",
+      "I<sub>d</sub> = (V<sub>0</sub>/ωC) sin ωt"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "धारिता 'C' का एक संधारित्र V = V<sub>0</sub> sin ωt द्वारा दी गई वोल्टता V वाले ac स्रोत के सिरों पर जुड़ा है। तब संधारित्र की पट्टिकाओं के बीच विस्थापन धारा दी जाएगी :",
+      "o": [
+       "I<sub>d</sub> = V<sub>0</sub>ωC sin ωt",
+       "I<sub>d</sub> = V<sub>0</sub>ωC cos ωt",
+       "I<sub>d</sub> = (V<sub>0</sub>/ωC) cos ωt",
+       "I<sub>d</sub> = (V<sub>0</sub>/ωC) sin ωt"
+      ],
+      "sol": "<p>विस्थापन धारा I<sub>d</sub> = C dV/dt = C d(V<sub>0</sub> sin ωt)/dt = <b>V<sub>0</sub>ωC cos ωt</b>, जो संयोजक तारों में चालन धारा के बराबर है।</p>",
+      "hint": "I<sub>d</sub> = C dV/dt ।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2024-q19-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "A parallel plate capacitor is charged by connecting it to a battery through a resistor. If I is the current in the circuit, then in the gap between the plates :",
+     "sol": "<p>While the capacitor charges, the changing electric flux between the plates gives a displacement current ε<sub>0</sub>dΦ<sub>E</sub>/dt that exactly equals the conduction current I and continues it across the gap. So <b>a displacement current equal to I flows in the same direction as I</b>.</p>",
+     "hint": "Current is continuous through the gap.",
+     "paras": [
+      "8.2"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q19 (eSaral physics copy)",
+     "o": [
+      "There is no current",
+      "Displacement current of magnitude equal to I flows in the same direction as I",
+      "Displacement current of magnitude equal to I flows in a direction opposite to that of I",
+      "Displacement current of magnitude greater than I flows but can be in any direction"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक समांतर पट्टिका संधारित्र को एक प्रतिरोधक के माध्यम से बैटरी से जोड़कर आवेशित किया जाता है। यदि परिपथ में धारा I है, तो पट्टिकाओं के बीच के अंतराल में :",
+      "o": [
+       "कोई धारा नहीं है",
+       "I के बराबर परिमाण की विस्थापन धारा I की ही दिशा में बहती है",
+       "I के बराबर परिमाण की विस्थापन धारा I की विपरीत दिशा में बहती है",
+       "I से अधिक परिमाण की विस्थापन धारा बहती है परंतु किसी भी दिशा में हो सकती है"
+      ],
+      "sol": "<p>संधारित्र के आवेशित होते समय पट्टिकाओं के बीच परिवर्ती विद्युत फलक्स विस्थापन धारा ε<sub>0</sub>dΦ<sub>E</sub>/dt देता है, जो ठीक चालन धारा I के बराबर है और उसे अंतराल के पार जारी रखता है। अतः <b>I के बराबर विस्थापन धारा I की ही दिशा में बहती है</b>।</p>",
+      "hint": "अंतराल में धारा संतत रहती है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.3.1",
+   "title": "Sources of Electromagnetic Waves",
+   "hi": "तरंगों के स्रोत",
+   "pages": [],
+   "pdfPage": 5,
+   "questions": [
+    {
+     "id": "phy12-08-neet-2016-phase-1-code-a-q8",
+     "exam": "NEET",
+     "q": "Out of the following options which one can be used to produce a propagating electromagnetic wave?",
+     "sol": "<p>A stationary charge has only a static electric field; a uniformly moving charge has steady fields too. Radiation (a propagating electromagnetic wave) is produced only by an <b>accelerating charge</b>.</p>",
+     "hint": "Changing fields need changing velocity.",
+     "paras": [
+      "8.3.1"
+     ],
+     "status": "draft",
+     "year": 2016,
+     "srcRef": "Phase 1 Code A Q8",
+     "o": [
+      "A charge moving at constant velocity",
+      "A stationary charge",
+      "A chargeless particle",
+      "An accelerating charge"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "निम्नलिखित विकल्पों में से किसका उपयोग संचरित होने वाली विद्युत चुंबकीय तरंग उत्पन्न करने में किया जा सकता है?",
+      "o": [
+       "नियत वेग से गतिमान आवेश",
+       "स्थिर आवेश",
+       "आवेशरहित कण",
+       "त्वरित आवेश"
+      ],
+      "sol": "<p>स्थिर आवेश का केवल स्थैतिक विद्युत क्षेत्र होता है; एकसमान गतिमान आवेश के क्षेत्र भी स्थिर होते हैं। विकिरण (संचरित विद्युत चुंबकीय तरंग) केवल <b>त्वरित आवेश</b> द्वारा उत्पन्न होता है।</p>",
+      "hint": "परिवर्ती क्षेत्रों के लिए परिवर्ती वेग चाहिए।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.3.2",
+   "title": "Nature of Electromagnetic Waves",
+   "hi": "वैद्युतचुंबकीय तरंगों की प्रकृति",
+   "pages": [],
+   "pdfPage": 6,
+   "questions": [
+    {
+     "id": "phy12-08-neet-2017-code-a-q31",
+     "exam": "NEET",
+     "q": "In an electromagnetic wave in free space the root mean square value of the electric field is E<sub>rms</sub> = 6 V/m. The peak value of the magnetic field is :",
+     "sol": "<p>E<sub>0</sub> = √2 E<sub>rms</sub> = 6√2 V/m. B<sub>0</sub> = E<sub>0</sub>/c = 6√2/(3 × 10<sup>8</sup>) = 2√2 × 10<sup>−8</sup> ≈ <b>2.83 × 10<sup>−8</sup> T</b>.</p>",
+     "hint": "Convert rms to peak first.",
+     "paras": [
+      "8.3.2"
+     ],
+     "status": "draft",
+     "year": 2017,
+     "srcRef": "Code A Q31",
+     "o": [
+      "1.41 × 10<sup>−8</sup> T",
+      "2.83 × 10<sup>−8</sup> T",
+      "0.70 × 10<sup>−8</sup> T",
+      "4.23 × 10<sup>−8</sup> T"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "मुक्त आकाश में एक विद्युत चुंबकीय तरंग में विद्युत क्षेत्र का वर्ग माध्य मूल मान E<sub>rms</sub> = 6 V/m है। चुंबकीय क्षेत्र का शिखर मान है :",
+      "o": [
+       "1.41 × 10<sup>−8</sup> T",
+       "2.83 × 10<sup>−8</sup> T",
+       "0.70 × 10<sup>−8</sup> T",
+       "4.23 × 10<sup>−8</sup> T"
+      ],
+      "sol": "<p>E<sub>0</sub> = √2 E<sub>rms</sub> = 6√2 V/m । B<sub>0</sub> = E<sub>0</sub>/c = 6√2/(3 × 10<sup>8</sup>) = 2√2 × 10<sup>−8</sup> ≈ <b>2.83 × 10<sup>−8</sup> T</b>।</p>",
+      "hint": "पहले rms को शिखर मान में बदलिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2018-code-aa-q18",
+     "exam": "NEET",
+     "q": "An em wave is propagating in a medium with a velocity V⃗ = V î. The instantaneous oscillating electric field of this em wave is along +y axis. Then the direction of oscillating magnetic field of the em wave will be along :",
+     "sol": "<p>The wave travels along E⃗ × B⃗. With E⃗ along +ĵ and propagation along +î: ĵ × B̂ = î ⇒ B̂ = +k̂ (since ĵ × k̂ = î). Direction: <b>+z</b>.</p>",
+     "hint": "E⃗ × B⃗ points along the direction of propagation.",
+     "paras": [
+      "8.3.2"
+     ],
+     "status": "draft",
+     "year": 2018,
+     "srcRef": "Code AA Q18",
+     "o": [
+      "−y direction",
+      "+z direction",
+      "−z direction",
+      "−x direction"
+     ],
+     "a": 1,
+     "hi": {
+      "q": "एक विद्युत चुंबकीय तरंग किसी माध्यम में वेग V⃗ = V î से संचरित हो रही है। इस तरंग का तात्क्षणिक दोलनी विद्युत क्षेत्र +y अक्ष के अनुदिश है। तब तरंग के दोलनी चुंबकीय क्षेत्र की दिशा होगी :",
+      "o": [
+       "−y दिशा",
+       "+z दिशा",
+       "−z दिशा",
+       "−x दिशा"
+      ],
+      "sol": "<p>तरंग E⃗ × B⃗ की दिशा में चलती है। E⃗ के +ĵ और संचरण के +î के अनुदिश होने पर : ĵ × B̂ = î ⇒ B̂ = +k̂ (क्योंकि ĵ × k̂ = î)। दिशा : <b>+z</b>।</p>",
+      "hint": "E⃗ × B⃗ संचरण की दिशा में होता है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2020-code-f3-q16",
+     "exam": "NEET",
+     "q": "The ratio of contributions made by the electric field and magnetic field components to the intensity of an electromagnetic wave is : (c = speed of electromagnetic waves)",
+     "sol": "<p>Energy densities: u<sub>E</sub> = (1/2)ε<sub>0</sub>E<sup>2</sup>, u<sub>B</sub> = B<sup>2</sup>/(2μ<sub>0</sub>). With B = E/c and c<sup>2</sup> = 1/(μ<sub>0</sub>ε<sub>0</sub>), u<sub>B</sub> = ε<sub>0</sub>E<sup>2</sup>/2 = u<sub>E</sub>. The electric and magnetic parts contribute equally: <b>1 : 1</b>.</p>",
+     "hint": "u<sub>E</sub> = u<sub>B</sub> in an em wave.",
+     "paras": [
+      "8.3.2"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q16",
+     "o": [
+      "1 : c",
+      "1 : c<sup>2</sup>",
+      "c : 1",
+      "1 : 1"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "किसी विद्युत चुंबकीय तरंग की तीव्रता में विद्युत क्षेत्र और चुंबकीय क्षेत्र घटकों द्वारा किए गए योगदानों का अनुपात है : (c = विद्युत चुंबकीय तरंगों की चाल)",
+      "o": [
+       "1 : c",
+       "1 : c<sup>2</sup>",
+       "c : 1",
+       "1 : 1"
+      ],
+      "sol": "<p>ऊर्जा घनत्व : u<sub>E</sub> = (1/2)ε<sub>0</sub>E<sup>2</sup>, u<sub>B</sub> = B<sup>2</sup>/(2μ<sub>0</sub>)। B = E/c और c<sup>2</sup> = 1/(μ<sub>0</sub>ε<sub>0</sub>) रखने पर u<sub>B</sub> = ε<sub>0</sub>E<sup>2</sup>/2 = u<sub>E</sub>। विद्युत और चुंबकीय भाग बराबर योगदान करते हैं : <b>1 : 1</b>।</p>",
+      "hint": "विद्युत चुंबकीय तरंग में u<sub>E</sub> = u<sub>B</sub>।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2020-code-f3-q43",
+     "exam": "NEET",
+     "q": "Light with an average flux of 20 W/cm<sup>2</sup> falls on a non-reflecting surface at normal incidence having surface area 20 cm<sup>2</sup>. The energy received by the surface during time span of 1 minute is :",
+     "sol": "<p>Energy = intensity × area × time = 20 W/cm<sup>2</sup> × 20 cm<sup>2</sup> × 60 s = 400 W × 60 s = 24000 J = <b>24 × 10<sup>3</sup> J</b>.</p>",
+     "hint": "W/cm<sup>2</sup> × cm<sup>2</sup> gives watts directly.",
+     "paras": [
+      "8.3.2"
+     ],
+     "status": "draft",
+     "year": 2020,
+     "srcRef": "Code F3 Q43",
+     "o": [
+      "24 × 10<sup>3</sup> J",
+      "48 × 10<sup>3</sup> J",
+      "10 × 10<sup>3</sup> J",
+      "12 × 10<sup>3</sup> J"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "20 W/cm<sup>2</sup> के औसत फलक्स वाला प्रकाश 20 cm<sup>2</sup> पृष्ठ क्षेत्रफल वाले एक अपरावर्तक पृष्ठ पर अभिलंबवत आपतित होता है। 1 मिनट के समय में पृष्ठ द्वारा प्राप्त ऊर्जा है :",
+      "o": [
+       "24 × 10<sup>3</sup> J",
+       "48 × 10<sup>3</sup> J",
+       "10 × 10<sup>3</sup> J",
+       "12 × 10<sup>3</sup> J"
+      ],
+      "sol": "<p>ऊर्जा = तीव्रता × क्षेत्रफल × समय = 20 W/cm<sup>2</sup> × 20 cm<sup>2</sup> × 60 s = 400 W × 60 s = 24000 J = <b>24 × 10<sup>3</sup> J</b>।</p>",
+      "hint": "W/cm<sup>2</sup> × cm<sup>2</sup> से सीधे वाट मिलते हैं।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2021-code-p3-q32",
+     "exam": "NEET",
+     "q": "For a plane electromagnetic wave propagating in x-direction, which one of the following combinations gives the correct possible directions for electric field (E) and magnetic field (B) respectively?",
+     "sol": "<p>E⃗ and B⃗ must be perpendicular to each other and to x, with E⃗ × B⃗ along +x. Check option 3: (−ĵ + k̂) × (−ĵ − k̂) = (ĵ × k̂) + (k̂ × (−ĵ)) = î + î = 2î, along +x; and their dot product is 1 − 1 = 0.</p><p>Answer: <b>−ĵ + k̂, −ĵ − k̂</b>.</p>",
+     "hint": "Check E⃗ · B⃗ = 0 and E⃗ × B⃗ ∥ +î.",
+     "paras": [
+      "8.3.2"
+     ],
+     "status": "draft",
+     "year": 2021,
+     "srcRef": "Code P3 Q32",
+     "o": [
+      "−ĵ + k̂, −ĵ + k̂",
+      "ĵ + k̂, ĵ + k̂",
+      "−ĵ + k̂, −ĵ − k̂",
+      "ĵ + k̂, −ĵ − k̂"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "x-दिशा में संचरित एक समतल विद्युत चुंबकीय तरंग के लिए निम्नलिखित में से कौन-सा संयोजन विद्युत क्षेत्र (E) और चुंबकीय क्षेत्र (B) की सही संभावित दिशाएँ क्रमशः देता है?",
+      "o": [
+       "−ĵ + k̂, −ĵ + k̂",
+       "ĵ + k̂, ĵ + k̂",
+       "−ĵ + k̂, −ĵ − k̂",
+       "ĵ + k̂, −ĵ − k̂"
+      ],
+      "sol": "<p>E⃗ और B⃗ परस्पर तथा x के लंबवत होने चाहिए, और E⃗ × B⃗, +x के अनुदिश। विकल्प 3 की जाँच : (−ĵ + k̂) × (−ĵ − k̂) = (ĵ × k̂) + (k̂ × (−ĵ)) = î + î = 2î, +x के अनुदिश; और इनका अदिश गुणनफल 1 − 1 = 0 है।</p><p>उत्तर : <b>−ĵ + k̂, −ĵ − k̂</b>।</p>",
+      "hint": "E⃗ · B⃗ = 0 और E⃗ × B⃗ ∥ +î जाँचिए।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2022-code-t2-q14",
+     "exam": "NEET",
+     "q": "When light propagates through a material medium of relative permittivity ε<sub>r</sub> and relative permeability μ<sub>r</sub>, the velocity of light, v is given by : (c − velocity of light in vacuum)",
+     "sol": "<p>In a medium v = 1/√(με) = 1/√(μ<sub>r</sub>μ<sub>0</sub>ε<sub>r</sub>ε<sub>0</sub>) = <b>c/√(ε<sub>r</sub>μ<sub>r</sub>)</b>.</p>",
+     "hint": "c = 1/√(μ<sub>0</sub>ε<sub>0</sub>).",
+     "paras": [
+      "8.3.2"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q14",
+     "o": [
+      "v = √(μ<sub>r</sub>/ε<sub>r</sub>)",
+      "v = √(ε<sub>r</sub>/μ<sub>r</sub>)",
+      "v = c/√(ε<sub>r</sub>μ<sub>r</sub>)",
+      "v = c"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "जब प्रकाश आपेक्षिक विद्युतशीलता ε<sub>r</sub> और आपेक्षिक चुंबकशीलता μ<sub>r</sub> वाले किसी पदार्थ माध्यम से संचरित होता है, तो प्रकाश का वेग v दिया जाता है : (c − निर्वात में प्रकाश का वेग)",
+      "o": [
+       "v = √(μ<sub>r</sub>/ε<sub>r</sub>)",
+       "v = √(ε<sub>r</sub>/μ<sub>r</sub>)",
+       "v = c/√(ε<sub>r</sub>μ<sub>r</sub>)",
+       "v = c"
+      ],
+      "sol": "<p>माध्यम में v = 1/√(με) = 1/√(μ<sub>r</sub>μ<sub>0</sub>ε<sub>r</sub>ε<sub>0</sub>) = <b>c/√(ε<sub>r</sub>μ<sub>r</sub>)</b>।</p>",
+      "hint": "c = 1/√(μ<sub>0</sub>ε<sub>0</sub>)।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2023-topic-wise-copy-q27",
+     "exam": "NEET",
+     "q": "In a plane electromagnetic wave travelling in free space, the electric field component oscillates sinusoidally at a frequency of 2.0 × 10<sup>10</sup> Hz and amplitude 48 V m<sup>−1</sup>. Then the amplitude of oscillating magnetic field is : (Speed of light in free space = 3 × 10<sup>8</sup> m s<sup>−1</sup>)",
+     "sol": "<p>B<sub>0</sub> = E<sub>0</sub>/c = 48/(3 × 10<sup>8</sup>) = <b>1.6 × 10<sup>−7</sup> T</b>. (The frequency is not needed.)</p>",
+     "hint": "E<sub>0</sub> = cB<sub>0</sub>.",
+     "paras": [
+      "8.3.2"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q27",
+     "o": [
+      "1.6 × 10<sup>−6</sup> T",
+      "1.6 × 10<sup>−9</sup> T",
+      "1.6 × 10<sup>−8</sup> T",
+      "1.6 × 10<sup>−7</sup> T"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "मुक्त आकाश में चलती एक समतल विद्युत चुंबकीय तरंग में विद्युत क्षेत्र घटक 2.0 × 10<sup>10</sup> Hz की आवृत्ति और 48 V m<sup>−1</sup> आयाम के साथ ज्यावक्रीय रूप से दोलन करता है। तब दोलनी चुंबकीय क्षेत्र का आयाम है : (मुक्त आकाश में प्रकाश की चाल = 3 × 10<sup>8</sup> m s<sup>−1</sup>)",
+      "o": [
+       "1.6 × 10<sup>−6</sup> T",
+       "1.6 × 10<sup>−9</sup> T",
+       "1.6 × 10<sup>−8</sup> T",
+       "1.6 × 10<sup>−7</sup> T"
+      ],
+      "sol": "<p>B<sub>0</sub> = E<sub>0</sub>/c = 48/(3 × 10<sup>8</sup>) = <b>1.6 × 10<sup>−7</sup> T</b>। (आवृत्ति की आवश्यकता नहीं।)</p>",
+      "hint": "E<sub>0</sub> = cB<sub>0</sub>।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2025-code-45-q9",
+     "exam": "NEET",
+     "q": "The electric field in a plane electromagnetic wave is given by E<sub>z</sub> = 60 cos (5x + 1.5 × 10<sup>9</sup> t) V/m. Then expression for the corresponding magnetic field is (here subscripts denote the direction of the field) :",
+     "sol": "<p>The phase (5x + ωt) means the wave travels along −x. B<sub>0</sub> = E<sub>0</sub>/c = 60/(3 × 10<sup>8</sup>) = 2 × 10<sup>−7</sup> T, in phase with E. Direction: E⃗ × B⃗ must be along −x; with E⃗ along +ẑ, ẑ × ŷ = −x̂, so B⃗ is along y.</p><p><b>B<sub>y</sub> = 2 × 10<sup>−7</sup> cos (5x + 1.5 × 10<sup>9</sup> t) T</b>.</p>",
+     "hint": "B is in phase with E, perpendicular to both E and the direction of travel.",
+     "paras": [
+      "8.3.2"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q9",
+     "o": [
+      "B<sub>y</sub> = 2 × 10<sup>−7</sup> cos (5x + 1.5 × 10<sup>9</sup> t) T",
+      "B<sub>x</sub> = 2 × 10<sup>−7</sup> cos (5x + 1.5 × 10<sup>9</sup> t) T",
+      "B<sub>z</sub> = 60 cos (5x + 1.5 × 10<sup>9</sup> t) T",
+      "B<sub>y</sub> = 60 sin (5x + 1.5 × 10<sup>9</sup> t) T"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "एक समतल विद्युत चुंबकीय तरंग में विद्युत क्षेत्र E<sub>z</sub> = 60 cos (5x + 1.5 × 10<sup>9</sup> t) V/m द्वारा दिया गया है। तब संगत चुंबकीय क्षेत्र का व्यंजक है (यहाँ पादांक क्षेत्र की दिशा दर्शाते हैं) :",
+      "o": [
+       "B<sub>y</sub> = 2 × 10<sup>−7</sup> cos (5x + 1.5 × 10<sup>9</sup> t) T",
+       "B<sub>x</sub> = 2 × 10<sup>−7</sup> cos (5x + 1.5 × 10<sup>9</sup> t) T",
+       "B<sub>z</sub> = 60 cos (5x + 1.5 × 10<sup>9</sup> t) T",
+       "B<sub>y</sub> = 60 sin (5x + 1.5 × 10<sup>9</sup> t) T"
+      ],
+      "sol": "<p>कला (5x + ωt) का अर्थ है तरंग −x के अनुदिश चलती है। B<sub>0</sub> = E<sub>0</sub>/c = 60/(3 × 10<sup>8</sup>) = 2 × 10<sup>−7</sup> T, E के साथ समान कला में। दिशा : E⃗ × B⃗, −x के अनुदिश होना चाहिए; E⃗ के +ẑ के अनुदिश होने पर ẑ × ŷ = −x̂, अतः B⃗, y के अनुदिश है।</p><p><b>B<sub>y</sub> = 2 × 10<sup>−7</sup> cos (5x + 1.5 × 10<sup>9</sup> t) T</b>।</p>",
+      "hint": "B, E के साथ समान कला में और E तथा गति की दिशा दोनों के लंबवत है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.4",
+   "title": "Electromagnetic Spectrum",
+   "hi": "वैद्युतचुंबकीय स्पेक्ट्रम",
+   "pages": [],
+   "pdfPage": 8,
+   "questions": [
+    {
+     "id": "phy12-08-neet-2022-code-t2-q22",
+     "exam": "NEET",
+     "q": "Match List-I with List-II<br>(a) AM radio waves — (i) 10<sup>−10</sup> m<br>(b) Microwaves — (ii) 10<sup>2</sup> m<br>(c) Infrared radiations — (iii) 10<sup>−2</sup> m<br>(d) X-rays — (iv) 10<sup>−4</sup> m<br>Choose the correct answer from the options given below :",
+     "sol": "<p>AM radio waves: ~10<sup>2</sup> m (ii). Microwaves: ~10<sup>−2</sup> m (iii). Infrared: ~10<sup>−4</sup> m (iv). X-rays: ~10<sup>−10</sup> m (i).</p><p>Answer: <b>(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)</b>.</p>",
+     "hint": "Wavelength falls from radio to X-rays.",
+     "paras": [
+      "8.4"
+     ],
+     "status": "draft",
+     "year": 2022,
+     "srcRef": "Code T2 Q22",
+     "o": [
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "सूची-I का सूची-II से मिलान कीजिए<br>(a) AM रेडियो तरंगें — (i) 10<sup>−10</sup> m<br>(b) सूक्ष्म तरंगें — (ii) 10<sup>2</sup> m<br>(c) अवरक्त विकिरण — (iii) 10<sup>−2</sup> m<br>(d) X-किरणें — (iv) 10<sup>−4</sup> m<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+       "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+       "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+       "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+      ],
+      "sol": "<p>AM रेडियो तरंगें : ~10<sup>2</sup> m (ii)। सूक्ष्म तरंगें : ~10<sup>−2</sup> m (iii)। अवरक्त : ~10<sup>−4</sup> m (iv)। X-किरणें : ~10<sup>−10</sup> m (i)।</p><p>उत्तर : <b>(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)</b>।</p>",
+      "hint": "रेडियो से X-किरणों की ओर तरंगदैर्घ्य घटती है।"
+     },
+     "hiStatus": "draft"
+    },
+    {
+     "id": "phy12-08-neet-2026-code-13-q34",
+     "exam": "NEET",
+     "q": "Match List I with List II :<br>List I (Electromagnetic wave) — List II (Production)<br>A. Microwave — I. Electrons in atoms emit light when they move from a higher energy level to a lower energy level<br>B. Visible light — II. Radioactive decay of nucleus<br>C. Gamma rays — III. Vibration of atoms and molecules<br>D. Infra-red rays — IV. Klystron valve or magnetron valve<br>Choose the correct answer from the options given below :",
+     "sol": "<p>Microwaves: klystron/magnetron valves (IV). Visible light: electrons in atoms dropping to lower energy levels (I). Gamma rays: radioactive decay of nuclei (II). Infrared: vibrations of atoms and molecules (III).</p><p>Answer: <b>A-IV, B-I, C-II, D-III</b>.</p>",
+     "hint": "Infrared = molecular vibrations (heat).",
+     "paras": [
+      "8.4"
+     ],
+     "status": "draft",
+     "year": 2026,
+     "srcRef": "Code 13 Q34",
+     "o": [
+      "A-IV, B-III, C-II, D-I",
+      "A-III, B-IV, C-I, D-II",
+      "A-III, B-I, C-II, D-IV",
+      "A-IV, B-I, C-II, D-III"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "सूची I का सूची II से मिलान कीजिए :<br>सूची I (विद्युत चुंबकीय तरंग) — सूची II (उत्पादन)<br>A. सूक्ष्म तरंग — I. परमाणुओं में इलेक्ट्रॉन उच्च ऊर्जा स्तर से निम्न ऊर्जा स्तर में जाने पर प्रकाश उत्सर्जित करते हैं<br>B. दृश्य प्रकाश — II. नाभिक का रेडियोऐक्टिव क्षय<br>C. गामा किरणें — III. परमाणुओं और अणुओं का कंपन<br>D. अवरक्त किरणें — IV. क्लाइस्ट्रॉन वाल्व या मैग्नेट्रॉन वाल्व<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+      "o": [
+       "A-IV, B-III, C-II, D-I",
+       "A-III, B-IV, C-I, D-II",
+       "A-III, B-I, C-II, D-IV",
+       "A-IV, B-I, C-II, D-III"
+      ],
+      "sol": "<p>सूक्ष्म तरंगें : क्लाइस्ट्रॉन/मैग्नेट्रॉन वाल्व (IV)। दृश्य प्रकाश : परमाणुओं में इलेक्ट्रॉनों का निम्न ऊर्जा स्तरों में आना (I)। गामा किरणें : नाभिकों का रेडियोऐक्टिव क्षय (II)। अवरक्त : परमाणुओं और अणुओं के कंपन (III)।</p><p>उत्तर : <b>A-IV, B-I, C-II, D-III</b>।</p>",
+      "hint": "अवरक्त = आण्विक कंपन (ऊष्मा)।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.4.4",
+   "title": "Visible Rays",
+   "hi": "दृश्य प्रकाश तरंगें",
+   "pages": [],
+   "pdfPage": 10,
+   "questions": [
+    {
+     "id": "phy12-08-neet-2019-code-s2-q128",
+     "exam": "NEET",
+     "q": "Which colour of the light has the longest wavelength?",
+     "sol": "<p>In the visible spectrum the order of wavelength is violet &lt; blue &lt; green &lt; yellow &lt; orange &lt; red. <b>Red</b> has the longest wavelength (about 700 nm).</p>",
+     "hint": "Violet to red: wavelength increases.",
+     "paras": [
+      "8.4.4"
+     ],
+     "status": "draft",
+     "year": 2019,
+     "srcRef": "Code S2 Q128",
+     "o": [
+      "green",
+      "violet",
+      "red",
+      "blue"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "प्रकाश के किस रंग की तरंगदैर्घ्य सबसे अधिक है?",
+      "o": [
+       "हरा",
+       "बैंगनी",
+       "लाल",
+       "नीला"
+      ],
+      "sol": "<p>दृश्य स्पेक्ट्रम में तरंगदैर्घ्य का क्रम बैंगनी &lt; नीला &lt; हरा &lt; पीला &lt; नारंगी &lt; लाल है। <b>लाल</b> की तरंगदैर्घ्य सबसे अधिक (लगभग 700 nm) है।</p>",
+      "hint": "बैंगनी से लाल की ओर तरंगदैर्घ्य बढ़ती है।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "8.4.6",
+   "title": "X-rays",
+   "hi": "X-किरणें",
+   "pages": [],
+   "pdfPage": 11,
+   "questions": [
+    {
+     "id": "phy12-08-neet-2015-re-exam-code-d-q137",
+     "exam": "NEET",
+     "q": "The energy of the em waves is of the order of 15 keV. To which part of the spectrum does it belong?",
+     "sol": "<p>λ = hc/E = 1240 eV nm/15000 eV ≈ 0.083 nm ≈ 0.8 Å. Wavelengths of about 10<sup>−10</sup> m lie in the <b>X-ray</b> region.</p>",
+     "hint": "λ (nm) ≈ 1240/E (eV).",
+     "paras": [
+      "8.4.6"
+     ],
+     "status": "draft",
+     "year": 2015,
+     "srcRef": "Re-exam Code D Q137",
+     "o": [
+      "Infra-red rays",
+      "Ultraviolet rays",
+      "γ-rays",
+      "X-rays"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "विद्युत चुंबकीय तरंगों की ऊर्जा 15 keV की कोटि की है। यह स्पेक्ट्रम के किस भाग से संबंधित है?",
+      "o": [
+       "अवरक्त किरणें",
+       "पराबैंगनी किरणें",
+       "γ-किरणें",
+       "X-किरणें"
+      ],
+      "sol": "<p>λ = hc/E = 1240 eV nm/15000 eV ≈ 0.083 nm ≈ 0.8 Å। लगभग 10<sup>−10</sup> m की तरंगदैर्घ्य <b>X-किरण</b> क्षेत्र में आती है।</p>",
+      "hint": "λ (nm) ≈ 1240/E (eV)।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "multi",
+   "title": "Multiple concepts",
+   "hi": "एक से अधिक अवधारणाएँ",
+   "pages": [],
+   "questions": [
+    {
+     "id": "phy12-08-neet-2023-topic-wise-copy-q26",
+     "exam": "NEET",
+     "q": "An ac source is connected to a capacitor C. Due to decrease in its operating frequency :",
+     "sol": "<p>X<sub>C</sub> = 1/(ωC) increases as the frequency falls, so the current I = V/X<sub>C</sub> = VωC decreases. The displacement current between the plates equals this current, so the <b>displacement current decreases</b>.</p>",
+     "hint": "I<sub>d</sub> = VωC ∝ ω.",
+     "paras": [
+      "8.2"
+     ],
+     "status": "draft",
+     "year": 2023,
+     "srcRef": "Topic-wise copy Q26",
+     "o": [
+      "capacitive reactance remains constant",
+      "capacitive reactance decreases",
+      "displacement current increases",
+      "displacement current decreases"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "एक ac स्रोत एक संधारित्र C से जुड़ा है। इसकी कार्यकारी आवृत्ति में कमी के कारण :",
+      "o": [
+       "संधारित्रीय प्रतिघात नियत रहता है",
+       "संधारित्रीय प्रतिघात घटता है",
+       "विस्थापन धारा बढ़ती है",
+       "विस्थापन धारा घटती है"
+      ],
+      "sol": "<p>आवृत्ति घटने पर X<sub>C</sub> = 1/(ωC) बढ़ता है, अतः धारा I = V/X<sub>C</sub> = VωC घटती है। पट्टिकाओं के बीच विस्थापन धारा इसी धारा के बराबर है, अतः <b>विस्थापन धारा घटती है</b>।</p>",
+      "hint": "I<sub>d</sub> = VωC ∝ ω।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 12 · Alternating Current"
+     ]
+    },
+    {
+     "id": "phy12-08-neet-2025-code-45-q26",
+     "exam": "NEET",
+     "q": "A parallel plate capacitor made of circular plates is being charged such that the surface charge density on its plates is increasing at a constant rate with time. The magnetic field arising due to displacement current is :",
+     "sol": "<p>A constant dσ/dt means a constant displacement current, spread uniformly over the circular plates. Like a thick wire carrying uniform current: B ∝ r inside the cylinder joining the plate edges and B ∝ 1/r outside. So B is non-zero everywhere (except on the axis) and largest at the imaginary cylindrical surface through the plate edges: <b>option 3</b>.</p>",
+     "hint": "Treat the displacement current like a current in a thick wire.",
+     "paras": [
+      "8.2"
+     ],
+     "status": "draft",
+     "year": 2025,
+     "srcRef": "Code 45 Q26",
+     "o": [
+      "Zero at all places",
+      "Constant between the plates and zero outside the plates",
+      "Non-zero everywhere with maximum at the imaginary cylindrical surface connecting peripheries of the plates",
+      "Zero between the plates and non-zero outside"
+     ],
+     "a": 2,
+     "hi": {
+      "q": "वृत्ताकार पट्टिकाओं से बना एक समांतर पट्टिका संधारित्र इस प्रकार आवेशित किया जा रहा है कि उसकी पट्टिकाओं पर पृष्ठीय आवेश घनत्व समय के साथ नियत दर से बढ़ रहा है। विस्थापन धारा के कारण उत्पन्न चुंबकीय क्षेत्र है :",
+      "o": [
+       "सभी स्थानों पर शून्य",
+       "पट्टिकाओं के बीच नियत और पट्टिकाओं के बाहर शून्य",
+       "सर्वत्र अशून्य, पट्टिकाओं की परिधियों को जोड़ने वाले काल्पनिक बेलनाकार पृष्ठ पर अधिकतम",
+       "पट्टिकाओं के बीच शून्य और बाहर अशून्य"
+      ],
+      "sol": "<p>नियत dσ/dt का अर्थ नियत विस्थापन धारा है, जो वृत्ताकार पट्टिकाओं पर एकसमान फैली है। एकसमान धारा वाले मोटे तार की भाँति : पट्टिकाओं के किनारों को जोड़ने वाले बेलन के अंदर B ∝ r और बाहर B ∝ 1/r । अतः B सर्वत्र (अक्ष को छोड़कर) अशून्य है और पट्टिकाओं के किनारों से गुजरने वाले काल्पनिक बेलनाकार पृष्ठ पर अधिकतम है : <b>विकल्प 3</b>।</p>",
+      "hint": "विस्थापन धारा को मोटे तार में धारा की तरह लीजिए।"
+     },
+     "hiStatus": "draft",
+     "otherChapters": [
+      "Class 12 · Moving Charges and Magnetism"
+     ]
+    },
+    {
+     "id": "phy12-08-neet-2024-q18-esaral-physics-copy",
+     "exam": "NEET",
+     "q": "The property which is not of an electromagnetic wave travelling in free space is that :",
+     "sol": "<p>Electromagnetic waves are transverse, share their energy equally between the electric and magnetic fields, and travel at 1/√(μ<sub>0</sub>ε<sub>0</sub>) in free space. They are produced by accelerating charges; a charge moving with uniform speed only carries steady fields. So the property that does <b>not</b> belong is <b>“they originate from charges moving with uniform speed”</b>.</p>",
+     "hint": "Radiation needs acceleration.",
+     "paras": [
+      "8.3.1",
+      "8.3.2"
+     ],
+     "status": "draft",
+     "year": 2024,
+     "srcRef": "Q18 (eSaral physics copy)",
+     "o": [
+      "They are transverse in nature",
+      "The energy density in electric field is equal to energy density in magnetic field",
+      "They travel with a speed equal to 1/√(μ<sub>0</sub>ε<sub>0</sub>)",
+      "They originate from charges moving with uniform speed"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "मुक्त आकाश में चलती विद्युत चुंबकीय तरंग का वह गुण जो उसका नहीं है :",
+      "o": [
+       "ये अनुप्रस्थ प्रकृति की होती हैं",
+       "विद्युत क्षेत्र में ऊर्जा घनत्व चुंबकीय क्षेत्र में ऊर्जा घनत्व के बराबर होता है",
+       "ये 1/√(μ<sub>0</sub>ε<sub>0</sub>) के बराबर चाल से चलती हैं",
+       "ये एकसमान चाल से गतिमान आवेशों से उत्पन्न होती हैं"
+      ],
+      "sol": "<p>विद्युत चुंबकीय तरंगें अनुप्रस्थ होती हैं, उनकी ऊर्जा विद्युत और चुंबकीय क्षेत्रों में बराबर बँटी होती है, और मुक्त आकाश में वे 1/√(μ<sub>0</sub>ε<sub>0</sub>) चाल से चलती हैं। वे त्वरित आवेशों से उत्पन्न होती हैं; एकसमान चाल से गतिमान आवेश के केवल स्थिर क्षेत्र होते हैं। अतः जो गुण <b>नहीं</b> है वह है <b>“ये एकसमान चाल से गतिमान आवेशों से उत्पन्न होती हैं”</b>।</p>",
+      "hint": "विकिरण के लिए त्वरण चाहिए।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "NEET": 20
+ },
+ "empty": [
+  {
+   "id": "8.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pages": [],
+   "pdfPage": 1
+  },
+  {
+   "id": "8.3",
+   "title": "Electromagnetic Waves",
+   "hi": "वैद्युतचुंबकीय तरंगें",
+   "pages": [],
+   "pdfPage": 5
+  },
+  {
+   "id": "8.4.1",
+   "title": "Radio Waves",
+   "hi": "रेडियो तरंगें",
+   "pages": [],
+   "pdfPage": 9
+  },
+  {
+   "id": "8.4.2",
+   "title": "Microwaves",
+   "hi": "सूक्ष्म तरंगें",
+   "pages": [],
+   "pdfPage": 9
+  },
+  {
+   "id": "8.4.3",
+   "title": "Infrared Waves",
+   "hi": "अवरक्त तरंगें",
+   "pages": [],
+   "pdfPage": 10
+  },
+  {
+   "id": "8.4.5",
+   "title": "Ultraviolet Rays",
+   "hi": "पराबैंगनी तरंगें",
+   "pages": [],
+   "pdfPage": 10
+  },
+  {
+   "id": "8.4.7",
+   "title": "Gamma Rays",
+   "hi": "गामा किरणें",
+   "pages": [],
+   "pdfPage": 11
+  }
+ ],
+ "trends": {
+  "8.4.6": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2015
+   ],
+   "last": 2015,
+   "recent": false
+  },
+  "8.3.1": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2024,
+    2016
+   ],
+   "last": 2024,
+   "recent": true
+  },
+  "8.2": {
+   "neet": 6,
+   "jee": 0,
+   "years": [
+    2025,
+    2024,
+    2023,
+    2021,
+    2019,
+    2016
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "8.3.2": {
+   "neet": 9,
+   "jee": 0,
+   "years": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2018,
+    2017
+   ],
+   "last": 2025,
+   "recent": true
+  },
+  "8.4.4": {
+   "neet": 1,
+   "jee": 0,
+   "years": [
+    2019
+   ],
+   "last": 2019,
+   "recent": false
+  },
+  "8.4": {
+   "neet": 2,
+   "jee": 0,
+   "years": [
+    2026,
+    2022
+   ],
+   "last": 2026,
+   "recent": true
+  }
+ },
+ "latestNeet": 2026,
+ "recentYears": 3,
+ "multiRule": "Questions that need two or more NCERT paragraphs, or another chapter too.",
+ "note": "",
+ "waiting": 0
+}

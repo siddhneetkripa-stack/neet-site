@@ -464,8 +464,8 @@ h1, h2, h3 { font-weight: 800; letter-spacing: -0.2px; }
 .pyq-note { font-size: .9rem; }
 footer { font-size: .9rem; }
 @media (max-width: 900px) {
-  .pyq-layout { grid-template-columns: 1fr; gap: 14px; }
-  .pyq-side { position: static; max-height: none; padding: 10px; }
+  .pyq-layout { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .pyq-side { position: static; max-height: none; padding: 10px; min-width: 0; }
   .pyq-side .head { display: none; }
   .pyq-side .plist { flex-direction: row; flex-wrap: nowrap; overflow-x: auto; gap: 6px; padding-bottom: 4px; }
   .pyq-side a.p { flex: 0 0 auto; align-items: center; border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; }
@@ -473,3 +473,16 @@ footer { font-size: .9rem; }
   .revise { margin: 10px 0 0; }
 }
 @media (max-width: 640px) { .topnav { order: 3; width: 100%; } .home-hero h1 { font-size: 2.1rem; } }
+
+/* Chapter pages from the question bank (Nov 2026): Hindi draft tag, per-question language switch, removed topics */
+.cls-label.sub { margin-top: 18px; text-transform: none; letter-spacing: 0; font-weight: 700; }
+.pyq-head .tag.hi-draft { background: var(--saffron-soft); color: var(--saffron-ink); }
+.pyq-head .tag.lang-sw { font: inherit; font-size: .8rem; font-weight: 700; border: 1px solid #C3D3D5; background: #fff; color: var(--brand); cursor: pointer; padding: 1px 10px; border-radius: 999px; }
+.pyq-head .tag.lang-sw:hover { background: var(--brand-soft); }
+.pyq-sec.dropped h2 span { color: var(--muted); }
+.pyq-sec.dropped .pyq { opacity: .92; }
+.ans-line small { color: var(--muted); font-weight: 600; }
+.pyq-head { flex-wrap: wrap; row-gap: 4px; }
+.pyq { overflow-wrap: anywhere; }
+.pyq .sol table { display: block; max-width: 100%; overflow-x: auto; }
+.pyq .topic { margin: 0 0 6px; font-size: .85rem; color: var(--muted); }
