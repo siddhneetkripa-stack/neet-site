@@ -104,7 +104,7 @@
  "questions": [
   {
    "id": "bio12-08-neet-2015-re-exam-code-d-q23",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -151,7 +151,7 @@
     "session": "25 Jul 2015 · AIPMT re-exam, Code D"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -163,7 +163,7 @@
   },
   {
    "id": "bio12-08-neet-2016-phase-1-code-a-q169",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -209,7 +209,7 @@
     "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -221,7 +221,7 @@
   },
   {
    "id": "bio12-08-neet-2016-phase-2-code-aa-q175",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -267,7 +267,7 @@
     "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -325,7 +325,7 @@
     "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -337,7 +337,7 @@
   },
   {
    "id": "bio12-08-neet-2017-code-a-q93",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -386,7 +386,7 @@
     "session": "7 May 2017 · Code A"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -398,7 +398,7 @@
   },
   {
    "id": "bio12-08-neet-2017-code-a-q136",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -445,7 +445,7 @@
     "session": "7 May 2017 · Code A"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -502,8 +502,8 @@
     "paper": "Code A Q176",
     "session": "7 May 2017 · Code A"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -560,8 +560,8 @@
     "paper": "Code AA Q178",
     "session": "6 May 2018 · Code AA"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -618,8 +618,8 @@
     "paper": "Code S2 Q15",
     "session": "5 May 2019 · Code S2"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "outside_ncert",
@@ -632,7 +632,7 @@
   },
   {
    "id": "bio12-08-neet-2019-code-s2-q32",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -679,7 +679,7 @@
     "session": "5 May 2019 · Code S2"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -736,8 +736,8 @@
     "paper": "Code S2 Q48",
     "session": "5 May 2019 · Code S2"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -794,8 +794,8 @@
     "paper": "Code S2 Q71",
     "session": "5 May 2019 · Code S2"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -852,8 +852,8 @@
     "paper": "Code S2 Q77",
     "session": "5 May 2019 · Code S2"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -910,8 +910,8 @@
     "paper": "Code F3 Q102",
     "session": "13 Sep 2020 · Code F3"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -923,7 +923,7 @@
   },
   {
    "id": "bio12-08-neet-2020-code-f3-q119",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -969,7 +969,7 @@
     "session": "13 Sep 2020 · Code F3"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -981,7 +981,7 @@
   },
   {
    "id": "bio12-08-neet-2021-code-p3-q158",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -1027,7 +1027,7 @@
     "session": "12 Sep 2021 · Code P3"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1084,8 +1084,8 @@
     "paper": "Code T2 Q174",
     "session": "17 Jul 2022 · Code T2"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1097,7 +1097,7 @@
   },
   {
    "id": "bio12-08-neet-2024-q169-esaral-copy",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -1143,7 +1143,7 @@
     "session": "5 May 2024"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1200,8 +1200,8 @@
     "paper": "Code 45 Q103",
     "session": "4 May 2025 · Code 45"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1258,8 +1258,8 @@
     "paper": "Code 45 Q105",
     "session": "4 May 2025 · Code 45"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1271,7 +1271,7 @@
   },
   {
    "id": "bio12-08-neet-2025-code-45-q113",
-   "type": "single",
+   "type": "statement",
    "text": {
     "en": {
      "status": "draft",
@@ -1320,7 +1320,7 @@
     "session": "4 May 2025 · Code 45"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1332,7 +1332,7 @@
   },
   {
    "id": "bio12-08-neet-2025-code-45-q177",
-   "type": "single",
+   "type": "statement",
    "text": {
     "en": {
      "status": "draft",
@@ -1378,7 +1378,7 @@
     "session": "4 May 2025 · Code 45"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1435,8 +1435,8 @@
     "paper": "Q139 (eSaral copy)",
     "session": "3 May 2026"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1449,7 +1449,7 @@
   },
   {
    "id": "bio12-08-neet-2026-q168-esaral-copy",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -1495,7 +1495,7 @@
     "session": "3 May 2026"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1550,8 +1550,8 @@
     "kind": "AI",
     "paper": "Own question (AI) on NCERT 8.2"
    },
-   "difficulty": 1,
-   "difficultyBasis": "default",
+   "difficulty": 2,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1563,7 +1563,7 @@
   },
   {
    "id": "bio12-08-ai-8-2-2-q1",
-   "type": "single",
+   "type": "statement",
    "text": {
     "en": {
      "status": "draft",
@@ -1605,8 +1605,8 @@
     "kind": "AI",
     "paper": "Own question (AI) on NCERT 8.2.2"
    },
-   "difficulty": 2,
-   "difficultyBasis": "default",
+   "difficulty": 3,
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
