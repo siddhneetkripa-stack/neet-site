@@ -1117,6 +1117,61 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q156."
    }
+  },
+  {
+   "id": "bio11-16-ai-16-6-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about micturition and normal human urine is correct?",
+     "o": [
+      "Micturition starts when the urethral sphincter contracts and the bladder muscles relax",
+      "An adult passes on average 1-1.5 litres of light yellow, slightly acidic (pH about 6.0) urine a day, with 25-30 g of urea",
+      "Normal urine is alkaline (pH about 8) and contains glucose",
+      "Presence of ketone bodies in urine is a sign of diabetes insipidus"
+     ],
+     "sol": "<p>NCERT 16.6: as the bladder fills, stretch receptors in its wall signal the CNS, which sends motor messages to <b>contract the smooth muscles of the bladder</b> and <b>relax the urethral sphincter</b> — the micturition reflex. An adult excretes on average <b>1-1.5 litres</b> of urine per day: light yellow, watery, <b>slightly acidic (pH 6.0)</b>, with a characteristic odour; about <b>25-30 g of urea</b> leaves per day. Glucose (glycosuria) and ketone bodies (ketonuria) in urine indicate <b>diabetes mellitus</b>.</p>",
+     "hint": "Bladder contracts, sphincter relaxes; urine is slightly acidic."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "मूत्रण तथा मनुष्य के सामान्य मूत्र के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "मूत्रण तब आरंभ होता है जब मूत्रमार्ग की अवरोधिनी संकुचित होती है तथा मूत्राशय की पेशियाँ शिथिल होती हैं",
+      "एक वयस्क प्रतिदिन औसतन 1-1.5 लीटर हल्का पीला, थोड़ा अम्लीय (pH लगभग 6.0) मूत्र उत्सर्जित करता है, जिसमें 25-30 g यूरिया होता है",
+      "सामान्य मूत्र क्षारीय (pH लगभग 8) होता है तथा उसमें ग्लूकोस होता है",
+      "मूत्र में कीटोन काय की उपस्थिति उदकमेह का लक्षण है"
+     ],
+     "sol": "<p>NCERT 16.6: मूत्राशय भरने पर उसकी भित्ति के खिंचाव ग्राही केंद्रीय तंत्रिका तंत्र (CNS) को संकेत भेजते हैं, जो <b>मूत्राशय की चिकनी पेशियाँ संकुचित</b> होने तथा <b>मूत्राशयी-अवरोधिनी के शिथिल</b> होने का प्रेरक संदेश भेजता है — यह मूत्रण-प्रतिवर्त है। एक वयस्क प्रतिदिन औसतन <b>1-1.5 लीटर</b> मूत्र उत्सर्जित करता है: हल्का पीला, जलीय, <b>थोड़ा अम्लीय (pH 6.0)</b>, विशेष गंध युक्त; प्रतिदिन औसतन <b>25-30 g यूरिया</b> निकलता है। मूत्र में ग्लूकोस (ग्लाइकोसूरिया) तथा कीटोन काय (कीटोनयूरिया) <b>मधुमेह (डाइबिटीज मेलीटस)</b> के लक्षण हैं।</p>",
+     "hint": "मूत्राशय संकुचित, अवरोधिनी शिथिल; मूत्र थोड़ा अम्लीय।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-16",
+    "paras": [
+     "16.6"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 16.6"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {
