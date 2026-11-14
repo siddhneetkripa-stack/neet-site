@@ -3703,6 +3703,171 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q159."
    }
+  },
+  {
+   "id": "bio12-04-ncertex-4-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In pea, tall (T) is dominant over dwarf (t) and yellow seed (Y) over green (y), and the two genes assort independently. A TtYy plant is crossed with a Ttyy plant. What fraction of the offspring is expected to be tall with green seeds?",
+     "o": [
+      "1/8",
+      "3/16",
+      "3/8",
+      "1/2"
+     ],
+     "sol": "<p>Treat each gene separately (NCERT 4.3: in a dihybrid cross each character still segregates as in a monohybrid cross). Tt × Tt gives tall (T_) = 3/4, dwarf = 1/4. Yy × yy gives yellow = 1/2, green (yy) = 1/2. Tall and green = 3/4 × 1/2 = <b>3/8</b>. (Dwarf and green would be 1/4 × 1/2 = 1/8.)</p>",
+     "hint": "Multiply the separate probabilities."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "मटर में लंबा (T) बौने (t) पर तथा पीला बीज (Y) हरे (y) पर प्रभावी है, और दोनों जीन स्वतंत्र रूप से अपव्यूहित होते हैं। TtYy पौधे का संकरण Ttyy पौधे से किया जाता है। संतति का कितना भाग लंबा तथा हरे बीज वाला होगा?",
+     "o": [
+      "1/8",
+      "3/16",
+      "3/8",
+      "1/2"
+     ],
+     "sol": "<p>प्रत्येक जीन को अलग-अलग लीजिए (NCERT 4.3: द्विसंकर क्रॉस में भी प्रत्येक लक्षण एकसंकर क्रॉस की तरह पृथक्करण दर्शाता है)। Tt × Tt से लंबा (T_) = 3/4, बौना = 1/4। Yy × yy से पीला = 1/2, हरा (yy) = 1/2। लंबा तथा हरा = 3/4 × 1/2 = <b>3/8</b>। (बौना तथा हरा 1/4 × 1/2 = 1/8 होगा।)</p>",
+     "hint": "अलग-अलग प्रायिकताओं का गुणा कीजिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.3"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 4.7 (TtYy × Ttyy), reworded as an MCQ"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-04-ncertex-4-6-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about sex determination in humans is correct?",
+     "o": [
+      "The mother's ovum decides the sex of the child, since ova carry either X or Y",
+      "Males produce two kinds of sperm in equal numbers (X-bearing and Y-bearing), females produce only X-bearing ova, so the sperm decides the sex and each pregnancy has a 50 per cent chance of a girl",
+      "Of the 23 pairs of chromosomes, 22 pairs differ between males and females",
+      "A zygote with XY chromosomes develops into a female"
+     ],
+     "sol": "<p>NCERT 4.6.1: human sex determination is of the XY type. Of 23 pairs, 22 pairs (autosomes) are the same in both sexes; females have XX, males XY. During spermatogenesis, 50 per cent of sperm carry X and 50 per cent carry Y; all ova carry X. Fertilisation by an X-sperm gives a female (XX), by a Y-sperm a male (XY). So the <b>genetic makeup of the sperm determines the sex</b>, and each pregnancy has a <b>50 per cent</b> probability of either sex. Blaming women for the birth of daughters is a false notion.</p>",
+     "hint": "Which parent makes two kinds of gametes?"
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "मानव में लिंग निर्धारण के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "शिशु का लिंग माता का अंडाणु तय करता है, क्योंकि अंडाणु में X या Y होता है",
+      "नर दो प्रकार के शुक्राणु बराबर संख्या में बनाते हैं (X युक्त तथा Y युक्त), मादा केवल X युक्त अंडाणु बनाती है, इसलिए शुक्राणु लिंग तय करता है और प्रत्येक गर्भावस्था में बालिका की प्रायिकता 50 प्रतिशत होती है",
+      "23 जोड़े क्रोमोसोम में से 22 जोड़े नर और मादा में भिन्न होते हैं",
+      "XY क्रोमोसोम वाला युग्मनज मादा में परिवर्धित होता है"
+     ],
+     "sol": "<p>NCERT 4.6.1: मानव का लिंग निर्धारण XY प्रकार का होता है। 23 जोड़े में से 22 जोड़े (अलिंग क्रोमोसोम) दोनों लिंगों में एक जैसे होते हैं; मादा में XX, नर में XY। शुक्रजनन में 50 प्रतिशत शुक्राणु X युक्त तथा 50 प्रतिशत Y युक्त होते हैं; सभी अंडाणु X युक्त होते हैं। X धारी शुक्राणु से निषेचन पर मादा (XX), Y धारी से नर (XY) बनता है। अतः <b>शुक्राणु की आनुवंशिक संरचना ही शिशु के लिंग का निर्धारण</b> करती है, और प्रत्येक गर्भावस्था में किसी भी लिंग की प्रायिकता <b>50 प्रतिशत</b> रहती है। लड़की पैदा करने के लिए माता को दोष देना गलत धारणा है।</p>",
+     "hint": "कौन-सा जनक दो प्रकार के युग्मक बनाता है?"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.6.1"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 4.11 (how sex is determined in humans), reworded as an MCQ"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-04-ai-4-8-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about genetic disorders in humans is correct?",
+     "o": [
+      "DNA never changes, so disorders cannot be inherited",
+      "An occasional alteration in the genetic material is called mutation; genetic disorders are broadly grouped into Mendelian disorders and chromosomal disorders",
+      "Genetic disorders are studied in humans mainly by controlled crosses, as in pea",
+      "All genetic disorders are caused by the absence of a whole chromosome"
+     ],
+     "sol": "<p>NCERT 4.8: the idea that disorders are inherited is old; after Mendel's work was rediscovered, inheritance in humans began to be analysed, mainly by <b>pedigree analysis</b>, since controlled crosses are not possible in humans. DNA is passed on without change, but changes occasionally occur; such an alteration in the genetic material is a <b>mutation</b>. Disorders linked to altered genes or chromosomes are broadly grouped into <b>Mendelian disorders</b> (mainly a single-gene alteration) and <b>chromosomal disorders</b> (absence, excess or abnormal arrangement of chromosomes).</p>",
+     "hint": "Two broad classes: gene-level and chromosome-level."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "मानव में आनुवंशिक विकारों के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "DNA कभी नहीं बदलता, इसलिए विकार वंशागत नहीं हो सकते",
+      "आनुवंशिक पदार्थ में यदा-कदा होने वाला परिवर्तन उत्परिवर्तन कहलाता है; आनुवंशिक विकारों को मोटे तौर पर दो श्रेणियों में रखा जाता है: मेंडलीय विकार और क्रोमोसोमीय विकार",
+      "मानव में आनुवंशिक विकारों का अध्ययन मुख्यतः मटर की तरह नियंत्रित संकरण से किया जाता है",
+      "सभी आनुवंशिक विकार किसी पूरे क्रोमोसोम की अनुपस्थिति से होते हैं"
+     ],
+     "sol": "<p>NCERT 4.8: विकारों के वंशागत होने की धारणा पुरानी है; मेंडल के कार्य की पुनः खोज के बाद मानव में वंशागति का विश्लेषण आरंभ हुआ, मुख्यतः <b>वंशावली विश्लेषण</b> द्वारा, क्योंकि मानव में नियंत्रित संकरण संभव नहीं है। DNA बिना परिवर्तन के अगली पीढ़ी में जाता है, पर यदा-कदा परिवर्तन होते रहते हैं; आनुवंशिक पदार्थ के ऐसे परिवर्तन को <b>उत्परिवर्तन</b> कहते हैं। परिवर्तित जीन या क्रोमोसोम से जुड़े विकारों को मोटे तौर पर <b>मेंडलीय विकार</b> (मुख्यतः एकल जीन का परिवर्तन) तथा <b>क्रोमोसोमीय विकार</b> (क्रोमोसोम की अनुपस्थिति, अधिकता या असामान्य विन्यास) में रखा जाता है।</p>",
+     "hint": "दो मुख्य श्रेणियाँ: जीन स्तर तथा क्रोमोसोम स्तर।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 4.8"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {
