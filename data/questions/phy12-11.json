@@ -1,0 +1,1632 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-11",
+ "subject": "physics",
+ "class": 12,
+ "unit": 11,
+ "title": {
+  "en": "Dual Nature of Radiation and Matter"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph203.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "11.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "11.2",
+   "title": "Electron Emission",
+   "hi": "इलेक्ट्रॉन उत्सर्जन",
+   "pdfPage": 2
+  },
+  {
+   "id": "11.3",
+   "title": "Photoelectric Effect",
+   "hi": "प्रकाश-विद्युत प्रभाव",
+   "pdfPage": 3
+  },
+  {
+   "id": "11.3.1",
+   "title": "Hertz's Observations",
+   "hi": "हर्ट्ज़ के परीक्षण",
+   "pdfPage": 3
+  },
+  {
+   "id": "11.3.2",
+   "title": "Hallwachs' and Lenard's Observations",
+   "hi": "हालवॉक्स तथा लीनार्ड के प्रेक्षण",
+   "pdfPage": 3
+  },
+  {
+   "id": "11.4",
+   "title": "Experimental Study of Photoelectric Effect",
+   "hi": "प्रकाश-विद्युत प्रभाव का प्रायोगिक अध्ययन",
+   "pdfPage": 4
+  },
+  {
+   "id": "11.4.1",
+   "title": "Effect of Intensity of Light on Photocurrent",
+   "hi": "प्रकाश-विद्युत धारा पर प्रकाश की तीव्रता का प्रभाव",
+   "pdfPage": 5
+  },
+  {
+   "id": "11.4.2",
+   "title": "Effect of Potential on Photoelectric Current",
+   "hi": "प्रकाश-विद्युत धारा पर विभव का प्रभाव",
+   "pdfPage": 5
+  },
+  {
+   "id": "11.4.3",
+   "title": "Effect of Frequency of Incident Radiation on Stopping Potential",
+   "hi": "निरोधी विभव पर आपतित विकिरण की आवृत्ति का प्रभाव",
+   "pdfPage": 6
+  },
+  {
+   "id": "11.5",
+   "title": "Photoelectric Effect and Wave Theory of Light",
+   "hi": "प्रकाश-विद्युत प्रभाव तथा प्रकाश का तरंग सिद्धांत",
+   "pdfPage": 7
+  },
+  {
+   "id": "11.6",
+   "title": "Einstein's Photoelectric Equation: Energy Quantum of Radiation",
+   "hi": "आइंस्टाइन का प्रकाश-विद्युत समीकरण : विकिरण का",
+   "pdfPage": 8
+  },
+  {
+   "id": "11.7",
+   "title": "Particle Nature of Light: The Photon",
+   "hi": "प्रकाश की कणीय प्रकृति : फ़ोटॉन",
+   "pdfPage": 10
+  },
+  {
+   "id": "11.8",
+   "title": "Wave Nature of Matter",
+   "hi": "द्रव्य की तरंग प्रकृति",
+   "pdfPage": 11
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-11-neet-2015-re-exam-code-d-q146",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Light of wavelength 500 nm is incident on a metal with work function 2.28 eV. The de Broglie wavelength of the emitted electron is :",
+     "o": [
+      "< 2.8 × 10<sup>−9</sup> m",
+      "≥ 2.8 × 10<sup>−9</sup> m",
+      "≤ 2.8 × 10<sup>−12</sup> m",
+      "< 2.8 × 10<sup>−10</sup> m"
+     ],
+     "sol": "<p>Photon energy = 1240/500 = 2.48 eV. K<sub>max</sub> = 2.48 − 2.28 = 0.20 eV.</p><p>For an electron λ = 1.227/√V nm (V = K/e in volts): λ<sub>min</sub> = 1.227/√0.20 ≈ 2.74 nm ≈ 2.8 × 10<sup>−9</sup> m. Electrons emitted with less than the maximum energy have longer wavelengths, so λ <b>≥ 2.8 × 10<sup>−9</sup> m</b>.</p>",
+     "hint": "Fastest electron → shortest de Broglie wavelength."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "500 nm तरंगदैर्घ्य का प्रकाश 2.28 eV कार्य-फलन वाली धातु पर आपतित होता है। उत्सर्जित इलेक्ट्रॉन की दे ब्रॉग्ली तरंगदैर्घ्य है :",
+     "o": [
+      "< 2.8 × 10<sup>−9</sup> m",
+      "≥ 2.8 × 10<sup>−9</sup> m",
+      "≤ 2.8 × 10<sup>−12</sup> m",
+      "< 2.8 × 10<sup>−10</sup> m"
+     ],
+     "sol": "<p>फ़ोटॉन ऊर्जा = 1240/500 = 2.48 eV। K<sub>max</sub> = 2.48 − 2.28 = 0.20 eV।</p><p>इलेक्ट्रॉन के लिए λ = 1.227/√V nm (V = K/e वोल्ट में) : λ<sub>min</sub> = 1.227/√0.20 ≈ 2.74 nm ≈ 2.8 × 10<sup>−9</sup> m। अधिकतम से कम ऊर्जा के साथ उत्सर्जित इलेक्ट्रॉनों की तरंगदैर्घ्य अधिक होती है, अतः λ <b>≥ 2.8 × 10<sup>−9</sup> m</b>।</p>",
+     "hint": "सबसे तेज़ इलेक्ट्रॉन → सबसे छोटी दे ब्रॉग्ली तरंगदैर्घ्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.6",
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q146",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 2",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
+    "note": "Errata check: K<sub>max</sub> = 2.48 − 2.28 = 0.20 eV gives λ<sub>min</sub> ≈ 2.8 nm, and slower electrons have longer λ, hence (2). With the copy's 2.258 eV, λ<sub>min</sub> ≈ 2.6 nm; work function as in the official paper to be confirmed."
+   }
+  },
+  {
+   "id": "phy12-11-neet-2015-re-exam-code-d-q177",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A photoelectric surface is illuminated successively by monochromatic light of wavelength λ and λ/2. If the maximum kinetic energy of the emitted photoelectrons in the second case is 3 times that in the first case, the work function of the surface of the material is : (h = Planck's constant, c = speed of light)",
+     "o": [
+      "hc/λ",
+      "2hc/λ",
+      "hc/(3λ)",
+      "hc/(2λ)"
+     ],
+     "sol": "<p>K<sub>1</sub> = hc/λ − φ; K<sub>2</sub> = 2hc/λ − φ = 3K<sub>1</sub> = 3hc/λ − 3φ.</p><p>2φ = hc/λ ⇒ φ = <b>hc/(2λ)</b>.</p>",
+     "hint": "Write Einstein's equation twice."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक प्रकाश-सुग्राही पृष्ठ को क्रमशः λ और λ/2 तरंगदैर्घ्य के एकवर्णी प्रकाश से प्रदीप्त किया जाता है। यदि दूसरी स्थिति में उत्सर्जित प्रकाशिक इलेक्ट्रॉनों की अधिकतम गतिज ऊर्जा पहली स्थिति की 3 गुनी है, तो पृष्ठ के पदार्थ का कार्य-फलन है : (h = प्लांक स्थिरांक, c = प्रकाश की चाल)",
+     "o": [
+      "hc/λ",
+      "2hc/λ",
+      "hc/(3λ)",
+      "hc/(2λ)"
+     ],
+     "sol": "<p>K<sub>1</sub> = hc/λ − φ; K<sub>2</sub> = 2hc/λ − φ = 3K<sub>1</sub> = 3hc/λ − 3φ।</p><p>2φ = hc/λ ⇒ φ = <b>hc/(2λ)</b>।</p>",
+     "hint": "आइंस्टाइन का समीकरण दो बार लिखिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q177",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2016-phase-1-code-a-q20",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron of mass m and a photon have same energy E. The ratio of de-Broglie wavelengths associated with them is : (c being velocity of light)",
+     "o": [
+      "(1/c)(E/2m)<sup>1/2</sup>",
+      "(E/2m)<sup>1/2</sup>",
+      "c(2mE)<sup>1/2</sup>",
+      "(1/c)(2m/E)<sup>1/2</sup>"
+     ],
+     "sol": "<p>Electron: p = √(2mE), λ<sub>e</sub> = h/√(2mE). Photon: p = E/c, λ<sub>ph</sub> = hc/E.</p><p>λ<sub>e</sub>/λ<sub>ph</sub> = E/(c√(2mE)) = <b>(1/c)(E/2m)<sup>1/2</sup></b>.</p>",
+     "hint": "Different energy–momentum relations: p = √(2mE) vs p = E/c."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "द्रव्यमान m के एक इलेक्ट्रॉन और एक फ़ोटॉन की ऊर्जा E समान है। उनसे संबद्ध दे ब्रॉग्ली तरंगदैर्घ्यों का अनुपात है : (c प्रकाश का वेग है)",
+     "o": [
+      "(1/c)(E/2m)<sup>1/2</sup>",
+      "(E/2m)<sup>1/2</sup>",
+      "c(2mE)<sup>1/2</sup>",
+      "(1/c)(2m/E)<sup>1/2</sup>"
+     ],
+     "sol": "<p>इलेक्ट्रॉन : p = √(2mE), λ<sub>e</sub> = h/√(2mE)। फ़ोटॉन : p = E/c, λ<sub>ph</sub> = hc/E ।</p><p>λ<sub>e</sub>/λ<sub>ph</sub> = E/(c√(2mE)) = <b>(1/c)(E/2m)<sup>1/2</sup></b>।</p>",
+     "hint": "भिन्न ऊर्जा–संवेग संबंध : p = √(2mE) और p = E/c ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.8",
+     "11.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q20",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2016-phase-1-code-a-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When a metallic surface is illuminated with radiation of wavelength λ, the stopping potential is V. If the same surface is illuminated with radiation of wavelength 2λ, the stopping potential is V/4. The threshold wavelength for the metallic surface is :",
+     "o": [
+      "4λ",
+      "5λ",
+      "(5/2)λ",
+      "3λ"
+     ],
+     "sol": "<p>eV = hc/λ − φ and eV/4 = hc/(2λ) − φ. Subtracting: 3eV/4 = hc/(2λ) ⇒ eV = 2hc/(3λ).</p><p>φ = hc/λ − 2hc/(3λ) = hc/(3λ) = hc/λ<sub>0</sub> ⇒ λ<sub>0</sub> = <b>3λ</b>.</p>",
+     "hint": "Eliminate eV between the two equations."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "जब एक धात्विक पृष्ठ को तरंगदैर्घ्य λ के विकिरण से प्रदीप्त किया जाता है, तो निरोधी विभव V है। यदि उसी पृष्ठ को तरंगदैर्घ्य 2λ के विकिरण से प्रदीप्त किया जाए, तो निरोधी विभव V/4 है। धात्विक पृष्ठ की देहली तरंगदैर्घ्य है :",
+     "o": [
+      "4λ",
+      "5λ",
+      "(5/2)λ",
+      "3λ"
+     ],
+     "sol": "<p>eV = hc/λ − φ और eV/4 = hc/(2λ) − φ। घटाने पर : 3eV/4 = hc/(2λ) ⇒ eV = 2hc/(3λ)।</p><p>φ = hc/λ − 2hc/(3λ) = hc/(3λ) = hc/λ<sub>0</sub> ⇒ λ<sub>0</sub> = <b>3λ</b>।</p>",
+     "hint": "दोनों समीकरणों से eV का विलोपन कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q29",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2016-phase-2-code-aa-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Electrons of mass m with de-Broglie wavelength λ fall on the target in an X-ray tube. The cutoff wavelength (λ<sub>0</sub>) of the emitted X-ray is :",
+     "o": [
+      "λ<sub>0</sub> = 2mcλ<sup>2</sup>/h",
+      "λ<sub>0</sub> = 2h/(mc)",
+      "λ<sub>0</sub> = 2m<sup>2</sup>c<sup>2</sup>λ<sup>3</sup>/h<sup>2</sup>",
+      "λ<sub>0</sub> = λ"
+     ],
+     "sol": "<p>Electron kinetic energy K = p<sup>2</sup>/(2m) = h<sup>2</sup>/(2mλ<sup>2</sup>). The shortest X-ray wavelength takes all of it in one photon: hc/λ<sub>0</sub> = K.</p><p>λ<sub>0</sub> = hc × 2mλ<sup>2</sup>/h<sup>2</sup> = <b>2mcλ<sup>2</sup>/h</b>.</p>",
+     "hint": "Cut-off: whole electron energy → one photon."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "दे ब्रॉग्ली तरंगदैर्घ्य λ वाले द्रव्यमान m के इलेक्ट्रॉन एक X-किरण नलिका में लक्ष्य पर गिरते हैं। उत्सर्जित X-किरण की अंतक तरंगदैर्घ्य (λ<sub>0</sub>) है :",
+     "o": [
+      "λ<sub>0</sub> = 2mcλ<sup>2</sup>/h",
+      "λ<sub>0</sub> = 2h/(mc)",
+      "λ<sub>0</sub> = 2m<sup>2</sup>c<sup>2</sup>λ<sup>3</sup>/h<sup>2</sup>",
+      "λ<sub>0</sub> = λ"
+     ],
+     "sol": "<p>इलेक्ट्रॉन की गतिज ऊर्जा K = p<sup>2</sup>/(2m) = h<sup>2</sup>/(2mλ<sup>2</sup>)। सबसे छोटी X-किरण तरंगदैर्घ्य में पूरी ऊर्जा एक फ़ोटॉन में जाती है : hc/λ<sub>0</sub> = K।</p><p>λ<sub>0</sub> = hc × 2mλ<sup>2</sup>/h<sup>2</sup> = <b>2mcλ<sup>2</sup>/h</b>।</p>",
+     "hint": "अंतक : इलेक्ट्रॉन की पूरी ऊर्जा → एक फ़ोटॉन।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.8",
+     "11.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q39",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2016-phase-2-code-aa-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Photons with energy 5 eV are incident on a cathode C in a photoelectric cell. The maximum energy of emitted photoelectrons is 2 eV. When photons of energy 6 eV are incident on C, no photoelectrons will reach the anode A, if the stopping potential of A relative to C is",
+     "o": [
+      "+3 V",
+      "+4 V",
+      "−1 V",
+      "−3 V"
+     ],
+     "sol": "<p>Work function φ = 5 − 2 = 3 eV. With 6 eV photons, K<sub>max</sub> = 6 − 3 = 3 eV.</p><p>To stop all electrons the anode must be at <b>−3 V</b> relative to the cathode (or more negative).</p>",
+     "hint": "Find φ first, then K<sub>max</sub> for 6 eV."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "5 eV ऊर्जा के फ़ोटॉन एक प्रकाश-विद्युत सेल में कैथोड C पर आपतित होते हैं। उत्सर्जित प्रकाशिक इलेक्ट्रॉनों की अधिकतम ऊर्जा 2 eV है। जब 6 eV ऊर्जा के फ़ोटॉन C पर आपतित होते हैं, तो कोई प्रकाशिक इलेक्ट्रॉन ऐनोड A तक नहीं पहुँचेगा, यदि C के सापेक्ष A का निरोधी विभव है",
+     "o": [
+      "+3 V",
+      "+4 V",
+      "−1 V",
+      "−3 V"
+     ],
+     "sol": "<p>कार्य-फलन φ = 5 − 2 = 3 eV। 6 eV के फ़ोटॉनों से K<sub>max</sub> = 6 − 3 = 3 eV।</p><p>सभी इलेक्ट्रॉनों को रोकने के लिए ऐनोड, कैथोड के सापेक्ष <b>−3 V</b> (या अधिक ऋणात्मक) पर होना चाहिए।</p>",
+     "hint": "पहले φ, फिर 6 eV के लिए K<sub>max</sub> ज्ञात कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.4.2",
+     "11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q40",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2017-code-a-q6",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The de-Broglie wavelength of a neutron in thermal equilibrium with heavy water at a temperature T (Kelvin) and mass m, is :",
+     "o": [
+      "h/√(mkT)",
+      "h/√(3mkT)",
+      "2h/√(3mkT)",
+      "2h/√(mkT)"
+     ],
+     "sol": "<p>In thermal equilibrium the mean kinetic energy is (3/2)kT, so p = √(2m × 3kT/2) = √(3mkT).</p><p>λ = h/p = <b>h/√(3mkT)</b>.</p>",
+     "hint": "K = (3/2)kT."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "ताप T (केल्विन) पर भारी जल के साथ तापीय साम्य में द्रव्यमान m के एक न्यूट्रॉन की दे ब्रॉग्ली तरंगदैर्घ्य है :",
+     "o": [
+      "h/√(mkT)",
+      "h/√(3mkT)",
+      "2h/√(3mkT)",
+      "2h/√(mkT)"
+     ],
+     "sol": "<p>तापीय साम्य में माध्य गतिज ऊर्जा (3/2)kT है, अतः p = √(2m × 3kT/2) = √(3mkT)।</p><p>λ = h/p = <b>h/√(3mkT)</b>।</p>",
+     "hint": "K = (3/2)kT।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.8"
+    ],
+    "otherChapters": [
+     "Class 11 · Kinetic Theory"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q6",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2017-code-a-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The photoelectric threshold wavelength of silver is 3250 × 10<sup>−10</sup> m. The velocity of the electron ejected from a silver surface by ultraviolet light of wavelength 2536 × 10<sup>−10</sup> m is : (Given h = 4.14 × 10<sup>−15</sup> eV s and c = 3 × 10<sup>8</sup> m s<sup>−1</sup>)",
+     "o": [
+      "≈ 6 × 10<sup>5</sup> m s<sup>−1</sup>",
+      "≈ 0.6 × 10<sup>6</sup> m s<sup>−1</sup>",
+      "≈ 61 × 10<sup>3</sup> m s<sup>−1</sup>",
+      "≈ 0.3 × 10<sup>6</sup> m s<sup>−1</sup>"
+     ],
+     "sol": "<p>hc = 4.14 × 10<sup>−15</sup> × 3 × 10<sup>8</sup> = 1.242 × 10<sup>−6</sup> eV m. Photon: 1.242 × 10<sup>−6</sup>/2.536 × 10<sup>−7</sup> = 4.90 eV; work function: 1.242 × 10<sup>−6</sup>/3.25 × 10<sup>−7</sup> = 3.82 eV. K = 1.07 eV.</p><p>v = √(2K/m) = √(2 × 1.07 × 1.6 × 10<sup>−19</sup>/9.1 × 10<sup>−31</sup>) ≈ <b>6 × 10<sup>5</sup> m s<sup>−1</sup></b>. Options (1) and (2) are the same value; the key accepts both.</p>",
+     "hint": "Convert both wavelengths to eV with hc ≈ 1.24 × 10<sup>−6</sup> eV m."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "सिल्वर की प्रकाश-विद्युत देहली तरंगदैर्घ्य 3250 × 10<sup>−10</sup> m है। 2536 × 10<sup>−10</sup> m तरंगदैर्घ्य के पराबैंगनी प्रकाश द्वारा सिल्वर के पृष्ठ से उत्सर्जित इलेक्ट्रॉन का वेग है : (दिया है h = 4.14 × 10<sup>−15</sup> eV s और c = 3 × 10<sup>8</sup> m s<sup>−1</sup>)",
+     "o": [
+      "≈ 6 × 10<sup>5</sup> m s<sup>−1</sup>",
+      "≈ 0.6 × 10<sup>6</sup> m s<sup>−1</sup>",
+      "≈ 61 × 10<sup>3</sup> m s<sup>−1</sup>",
+      "≈ 0.3 × 10<sup>6</sup> m s<sup>−1</sup>"
+     ],
+     "sol": "<p>hc = 4.14 × 10<sup>−15</sup> × 3 × 10<sup>8</sup> = 1.242 × 10<sup>−6</sup> eV m। फ़ोटॉन : 1.242 × 10<sup>−6</sup>/2.536 × 10<sup>−7</sup> = 4.90 eV; कार्य-फलन : 1.242 × 10<sup>−6</sup>/3.25 × 10<sup>−7</sup> = 3.82 eV। K = 1.07 eV।</p><p>v = √(2K/m) = √(2 × 1.07 × 1.6 × 10<sup>−19</sup>/9.1 × 10<sup>−31</sup>) ≈ <b>6 × 10<sup>5</sup> m s<sup>−1</sup></b>। विकल्प (1) और (2) एक ही मान हैं; कुंजी दोनों को स्वीकार करती है।</p>",
+     "hint": "hc ≈ 1.24 × 10<sup>−6</sup> eV m से दोनों तरंगदैर्घ्यों को eV में बदलिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0,
+    "alsoAccepted": [
+     1
+    ]
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q18",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1,2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "K = 4.90 − 3.82 = 1.07 eV gives v ≈ 6.1 × 10<sup>5</sup> m/s; options 1 and 2 are the same value, and the key accepts both."
+   }
+  },
+  {
+   "id": "phy12-11-neet-2018-code-aa-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron of mass m with an initial velocity V⃗ = V<sub>0</sub> î (V<sub>0</sub> > 0) enters an electric field E⃗ = −E<sub>0</sub> î (E<sub>0</sub> = constant > 0) at t = 0. If λ<sub>0</sub> is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is :",
+     "o": [
+      "λ<sub>0</sub>t",
+      "λ<sub>0</sub>(1 + eE<sub>0</sub>t/(mV<sub>0</sub>))",
+      "λ<sub>0</sub>/(1 + eE<sub>0</sub>t/(mV<sub>0</sub>))",
+      "λ<sub>0</sub>"
+     ],
+     "sol": "<p>Force on the electron F = −eE⃗ = +eE<sub>0</sub> î, along its velocity, so it speeds up: v = V<sub>0</sub> + eE<sub>0</sub>t/m.</p><p>λ = h/(mv) = λ<sub>0</sub> V<sub>0</sub>/v = <b>λ<sub>0</sub>/(1 + eE<sub>0</sub>t/(mV<sub>0</sub>))</b>.</p>",
+     "hint": "Electron is pushed opposite to E⃗, i.e. along +x here."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "प्रारंभिक वेग V⃗ = V<sub>0</sub> î (V<sub>0</sub> > 0) वाला द्रव्यमान m का एक इलेक्ट्रॉन t = 0 पर विद्युत क्षेत्र E⃗ = −E<sub>0</sub> î (E<sub>0</sub> = नियतांक > 0) में प्रवेश करता है। यदि प्रारंभ में इसकी दे ब्रॉग्ली तरंगदैर्घ्य λ<sub>0</sub> है, तो समय t पर इसकी दे ब्रॉग्ली तरंगदैर्घ्य है :",
+     "o": [
+      "λ<sub>0</sub>t",
+      "λ<sub>0</sub>(1 + eE<sub>0</sub>t/(mV<sub>0</sub>))",
+      "λ<sub>0</sub>/(1 + eE<sub>0</sub>t/(mV<sub>0</sub>))",
+      "λ<sub>0</sub>"
+     ],
+     "sol": "<p>इलेक्ट्रॉन पर बल F = −eE⃗ = +eE<sub>0</sub> î, उसके वेग की दिशा में, अतः वह तेज़ होता है : v = V<sub>0</sub> + eE<sub>0</sub>t/m ।</p><p>λ = h/(mv) = λ<sub>0</sub> V<sub>0</sub>/v = <b>λ<sub>0</sub>/(1 + eE<sub>0</sub>t/(mV<sub>0</sub>))</b>।</p>",
+     "hint": "इलेक्ट्रॉन पर बल E⃗ के विपरीत, यहाँ +x दिशा में है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.8"
+    ],
+    "otherChapters": [
+     "Class 12 · Electric Charges and Fields"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q12",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2018-code-aa-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When the light of frequency 2ν<sub>0</sub> (where ν<sub>0</sub> is threshold frequency), is incident on a metal plate, the maximum velocity of electrons emitted is v<sub>1</sub>. When the frequency of the incident radiation is increased to 5ν<sub>0</sub>, the maximum velocity of electrons emitted from the same plate is v<sub>2</sub>. The ratio of v<sub>1</sub> to v<sub>2</sub> is :",
+     "o": [
+      "4 : 1",
+      "1 : 4",
+      "1 : 2",
+      "2 : 1"
+     ],
+     "sol": "<p>½mv<sub>1</sub><sup>2</sup> = h(2ν<sub>0</sub> − ν<sub>0</sub>) = hν<sub>0</sub>; ½mv<sub>2</sub><sup>2</sup> = h(5ν<sub>0</sub> − ν<sub>0</sub>) = 4hν<sub>0</sub>.</p><p>v<sub>1</sub>/v<sub>2</sub> = √(1/4) = <b>1 : 2</b>.</p>",
+     "hint": "Kinetic energy ∝ (ν − ν<sub>0</sub>); speed ∝ its square root."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "जब आवृत्ति 2ν<sub>0</sub> (जहाँ ν<sub>0</sub> देहली आवृत्ति है) का प्रकाश एक धातु की प्लेट पर आपतित होता है, तो उत्सर्जित इलेक्ट्रॉनों का अधिकतम वेग v<sub>1</sub> है। जब आपतित विकिरण की आवृत्ति बढ़ाकर 5ν<sub>0</sub> कर दी जाती है, तो उसी प्लेट से उत्सर्जित इलेक्ट्रॉनों का अधिकतम वेग v<sub>2</sub> है। v<sub>1</sub> और v<sub>2</sub> का अनुपात है :",
+     "o": [
+      "4 : 1",
+      "1 : 4",
+      "1 : 2",
+      "2 : 1"
+     ],
+     "sol": "<p>½mv<sub>1</sub><sup>2</sup> = h(2ν<sub>0</sub> − ν<sub>0</sub>) = hν<sub>0</sub>; ½mv<sub>2</sub><sup>2</sup> = h(5ν<sub>0</sub> − ν<sub>0</sub>) = 4hν<sub>0</sub>।</p><p>v<sub>1</sub>/v<sub>2</sub> = √(1/4) = <b>1 : 2</b>।</p>",
+     "hint": "गतिज ऊर्जा ∝ (ν − ν<sub>0</sub>); चाल ∝ उसका वर्गमूल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q14",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2019-code-s2-q100",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron is accelerated through a potential difference of 10,000 V. Its de Broglie wavelength is (nearly) : (m<sub>e</sub> = 9 × 10<sup>−31</sup> kg)",
+     "o": [
+      "12.2 × 10<sup>−14</sup> m",
+      "12.2 nm",
+      "12.2 × 10<sup>−13</sup> m",
+      "12.2 × 10<sup>−12</sup> m"
+     ],
+     "sol": "<p>λ = h/√(2meV) = 6.63 × 10<sup>−34</sup>/√(2 × 9 × 10<sup>−31</sup> × 1.6 × 10<sup>−19</sup> × 10<sup>4</sup>) = 6.63 × 10<sup>−34</sup>/5.37 × 10<sup>−23</sup> ≈ 1.23 × 10<sup>−11</sup> m.</p><p>(Or λ = 1.227/√V nm = 1.227/100 nm.) Answer: <b>12.2 × 10<sup>−12</sup> m</b>.</p>",
+     "hint": "λ = 1.227/√V nm for an electron."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक इलेक्ट्रॉन को 10,000 V के विभवांतर से त्वरित किया जाता है। इसकी दे ब्रॉग्ली तरंगदैर्घ्य (लगभग) है : (m<sub>e</sub> = 9 × 10<sup>−31</sup> kg)",
+     "o": [
+      "12.2 × 10<sup>−14</sup> m",
+      "12.2 nm",
+      "12.2 × 10<sup>−13</sup> m",
+      "12.2 × 10<sup>−12</sup> m"
+     ],
+     "sol": "<p>λ = h/√(2meV) = 6.63 × 10<sup>−34</sup>/√(2 × 9 × 10<sup>−31</sup> × 1.6 × 10<sup>−19</sup> × 10<sup>4</sup>) = 6.63 × 10<sup>−34</sup>/5.37 × 10<sup>−23</sup> ≈ 1.23 × 10<sup>−11</sup> m।</p><p>(अथवा λ = 1.227/√V nm = 1.227/100 nm।) उत्तर : <b>12.2 × 10<sup>−12</sup> m</b>।</p>",
+     "hint": "इलेक्ट्रॉन के लिए λ = 1.227/√V nm।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q100",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2020-code-f3-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227 × 10<sup>−2</sup> nm, the potential difference is :",
+     "o": [
+      "10<sup>3</sup> V",
+      "10<sup>4</sup> V",
+      "10 V",
+      "10<sup>2</sup> V"
+     ],
+     "sol": "<p>λ = 1.227/√V nm = 1.227 × 10<sup>−2</sup> nm ⇒ √V = 100 ⇒ V = <b>10<sup>4</sup> V</b>.</p>",
+     "hint": "λ = 1.227/√V nm."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक इलेक्ट्रॉन को विराम से V वोल्ट के विभवांतर द्वारा त्वरित किया जाता है। यदि इलेक्ट्रॉन की दे ब्रॉग्ली तरंगदैर्घ्य 1.227 × 10<sup>−2</sup> nm है, तो विभवांतर है :",
+     "o": [
+      "10<sup>3</sup> V",
+      "10<sup>4</sup> V",
+      "10 V",
+      "10<sup>2</sup> V"
+     ],
+     "sol": "<p>λ = 1.227/√V nm = 1.227 × 10<sup>−2</sup> nm ⇒ √V = 100 ⇒ V = <b>10<sup>4</sup> V</b>।</p>",
+     "hint": "λ = 1.227/√V nm।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q7",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2020-code-f3-q35",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Light of frequency 1.5 times the threshold frequency is incident on a photosensitive material. What will be the photoelectric current if the frequency is halved and intensity is doubled ?",
+     "o": [
+      "one-fourth",
+      "zero",
+      "doubled",
+      "four times"
+     ],
+     "sol": "<p>New frequency = 1.5ν<sub>0</sub>/2 = 0.75ν<sub>0</sub>, below the threshold. No electrons are emitted whatever the intensity: current = <b>zero</b>.</p>",
+     "hint": "Below threshold frequency, intensity does not matter."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "देहली आवृत्ति की 1.5 गुनी आवृत्ति का प्रकाश एक प्रकाश-सुग्राही पदार्थ पर आपतित है। यदि आवृत्ति आधी और तीव्रता दोगुनी कर दी जाए, तो प्रकाश-विद्युत धारा क्या होगी?",
+     "o": [
+      "एक-चौथाई",
+      "शून्य",
+      "दोगुनी",
+      "चार गुनी"
+     ],
+     "sol": "<p>नई आवृत्ति = 1.5ν<sub>0</sub>/2 = 0.75ν<sub>0</sub>, जो देहली आवृत्ति से कम है। तीव्रता कुछ भी हो, कोई इलेक्ट्रॉन उत्सर्जित नहीं होता : धारा = <b>शून्य</b>।</p>",
+     "hint": "देहली आवृत्ति से कम पर तीव्रता का कोई महत्व नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.4.3",
+     "11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q35",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2020-code-f3-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The energy required to break one bond in DNA is 10<sup>−20</sup> J. This value in eV is nearly:",
+     "o": [
+      "0.06",
+      "0.006",
+      "6",
+      "0.6"
+     ],
+     "sol": "<p>1 eV = 1.6 × 10<sup>−19</sup> J. 10<sup>−20</sup>/1.6 × 10<sup>−19</sup> = 0.0625 eV ≈ <b>0.06</b> eV.</p>",
+     "hint": "Divide by 1.6 × 10<sup>−19</sup>."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "DNA में एक आबंध को तोड़ने के लिए आवश्यक ऊर्जा 10<sup>−20</sup> J है। eV में यह मान लगभग है :",
+     "o": [
+      "0.06",
+      "0.006",
+      "6",
+      "0.6"
+     ],
+     "sol": "<p>1 eV = 1.6 × 10<sup>−19</sup> J। 10<sup>−20</sup>/1.6 × 10<sup>−19</sup> = 0.0625 eV ≈ <b>0.06</b> eV।</p>",
+     "hint": "1.6 × 10<sup>−19</sup> से भाग दीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q40",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2021-code-p3-q24",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The number of photons per second on an average emitted by the source of monochromatic light of wavelength 600 nm, when it delivers the power of 3.3 × 10<sup>−3</sup> watt will be : (h = 6.6 × 10<sup>−34</sup> J s)",
+     "o": [
+      "10<sup>15</sup>",
+      "10<sup>18</sup>",
+      "10<sup>17</sup>",
+      "10<sup>16</sup>"
+     ],
+     "sol": "<p>Photon energy E = hc/λ = 6.6 × 10<sup>−34</sup> × 3 × 10<sup>8</sup>/(6 × 10<sup>−7</sup>) = 3.3 × 10<sup>−19</sup> J.</p><p>N = P/E = 3.3 × 10<sup>−3</sup>/3.3 × 10<sup>−19</sup> = <b>10<sup>16</sup></b> per second.</p>",
+     "hint": "N = Pλ/(hc)."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "600 nm तरंगदैर्घ्य के एकवर्णी प्रकाश के स्रोत द्वारा, जब वह 3.3 × 10<sup>−3</sup> वाट की शक्ति देता है, प्रति सेकंड औसतन उत्सर्जित फ़ोटॉनों की संख्या होगी : (h = 6.6 × 10<sup>−34</sup> J s)",
+     "o": [
+      "10<sup>15</sup>",
+      "10<sup>18</sup>",
+      "10<sup>17</sup>",
+      "10<sup>16</sup>"
+     ],
+     "sol": "<p>फ़ोटॉन ऊर्जा E = hc/λ = 6.6 × 10<sup>−34</sup> × 3 × 10<sup>8</sup>/(6 × 10<sup>−7</sup>) = 3.3 × 10<sup>−19</sup> J।</p><p>N = P/E = 3.3 × 10<sup>−3</sup>/3.3 × 10<sup>−19</sup> = <b>10<sup>16</sup></b> प्रति सेकंड।</p>",
+     "hint": "N = Pλ/(hc)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q24",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2021-code-p3-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electromagnetic wave of wavelength 'λ' is incident on a photosensitive surface of negligible work function. If 'm' mass is of photoelectron emitted from the surface has de-Broglie wavelength λ<sub>d</sub>, then :",
+     "o": [
+      "λ = (2h/mc) λ<sub>d</sub><sup>2</sup>",
+      "λ = (2m/hc) λ<sub>d</sub><sup>2</sup>",
+      "λ<sub>d</sub> = (2mc/h) λ<sup>2</sup>",
+      "λ = (2mc/h) λ<sub>d</sub><sup>2</sup>"
+     ],
+     "sol": "<p>With φ ≈ 0, all the photon energy becomes kinetic energy: hc/λ = p<sup>2</sup>/(2m) = h<sup>2</sup>/(2mλ<sub>d</sub><sup>2</sup>).</p><p>λ = hc × 2mλ<sub>d</sub><sup>2</sup>/h<sup>2</sup> = <b>(2mc/h) λ<sub>d</sub><sup>2</sup></b>.</p>",
+     "hint": "hc/λ = h<sup>2</sup>/(2mλ<sub>d</sub><sup>2</sup>)."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "तरंगदैर्घ्य 'λ' की एक विद्युत चुंबकीय तरंग नगण्य कार्य-फलन वाले प्रकाश-सुग्राही पृष्ठ पर आपतित होती है। यदि पृष्ठ से उत्सर्जित 'm' द्रव्यमान के प्रकाशिक इलेक्ट्रॉन की दे ब्रॉग्ली तरंगदैर्घ्य λ<sub>d</sub> है, तो :",
+     "o": [
+      "λ = (2h/mc) λ<sub>d</sub><sup>2</sup>",
+      "λ = (2m/hc) λ<sub>d</sub><sup>2</sup>",
+      "λ<sub>d</sub> = (2mc/h) λ<sup>2</sup>",
+      "λ = (2mc/h) λ<sub>d</sub><sup>2</sup>"
+     ],
+     "sol": "<p>φ ≈ 0 होने से फ़ोटॉन की पूरी ऊर्जा गतिज ऊर्जा बन जाती है : hc/λ = p<sup>2</sup>/(2m) = h<sup>2</sup>/(2mλ<sub>d</sub><sup>2</sup>)।</p><p>λ = hc × 2mλ<sub>d</sub><sup>2</sup>/h<sup>2</sup> = <b>(2mc/h) λ<sub>d</sub><sup>2</sup></b>।</p>",
+     "hint": "hc/λ = h<sup>2</sup>/(2mλ<sub>d</sub><sup>2</sup>)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.6",
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q34",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2022-code-t2-q16",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The graph which shows the variation of the de Broglie wavelength (λ) of a particle and its associated momentum (p) is :",
+     "o": [
+      "[graph 1: λ falls linearly with p]",
+      "[graph 2: λ rises ever faster with p]",
+      "[graph 3: λ falls as a rectangular hyperbola]",
+      "[graph 4: λ rises linearly from the origin]"
+     ],
+     "sol": "<p>λ = h/p, so λp = h is constant: the graph of λ against p is a <b>rectangular hyperbola</b>, falling steeply at small p and flattening at large p (graph 3).</p>",
+     "hint": "λ ∝ 1/p."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "किसी कण की दे ब्रॉग्ली तरंगदैर्घ्य (λ) और उससे संबद्ध संवेग (p) के बीच परिवर्तन को दर्शाने वाला ग्राफ़ है :",
+     "o": [
+      "[ग्राफ़ 1 : p के साथ λ रैखिक रूप से घटता है]",
+      "[ग्राफ़ 2 : p के साथ λ तेज़ी से बढ़ता है]",
+      "[ग्राफ़ 3 : λ आयतीय अतिपरवलय के रूप में घटता है]",
+      "[ग्राफ़ 4 : λ मूल बिंदु से रैखिक रूप से बढ़ता है]"
+     ],
+     "sol": "<p>λ = h/p, अतः λp = h नियत है : p के साथ λ का ग्राफ़ <b>आयतीय अतिपरवलय</b> है, जो कम p पर तेज़ी से गिरता है और अधिक p पर सपाट होता जाता है (ग्राफ़ 3)।</p>",
+     "hint": "λ ∝ 1/p ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q16",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-11-neet-2022-code-t2-q19",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When two monochromatic lights of frequency, ν and ν/2 are incident on a photoelectric metal, their stopping potential becomes V<sub>s</sub>/2 and V<sub>s</sub> respectively. The threshold frequency for this metal is :",
+     "o": [
+      "3ν",
+      "(2/3)ν",
+      "(3/2)ν",
+      "2ν"
+     ],
+     "sol": "<p>Formally: eV<sub>s</sub>/2 = hν − hν<sub>0</sub> and eV<sub>s</sub> = hν/2 − hν<sub>0</sub>. Doubling the first and equating: 2hν − 2hν<sub>0</sub> = hν/2 − hν<sub>0</sub> ⇒ ν<sub>0</sub> = 3ν/2.</p><p class='errata'>The data are impossible: the lower frequency cannot give the larger stopping potential, and ν<sub>0</sub> = 3ν/2 is above both frequencies (no emission at all). NTA treated this question as a bonus; (3) is only the formal result.</p>",
+     "hint": "Solve formally, then check whether the answer makes physical sense."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "जब आवृत्ति ν और ν/2 के दो एकवर्णी प्रकाश एक प्रकाश-विद्युत धातु पर आपतित होते हैं, तो उनके निरोधी विभव क्रमशः V<sub>s</sub>/2 और V<sub>s</sub> हो जाते हैं। इस धातु की देहली आवृत्ति है :",
+     "o": [
+      "3ν",
+      "(2/3)ν",
+      "(3/2)ν",
+      "2ν"
+     ],
+     "sol": "<p>औपचारिक रूप से : eV<sub>s</sub>/2 = hν − hν<sub>0</sub> और eV<sub>s</sub> = hν/2 − hν<sub>0</sub>। पहले को दोगुना करके बराबर रखने पर : 2hν − 2hν<sub>0</sub> = hν/2 − hν<sub>0</sub> ⇒ ν<sub>0</sub> = 3ν/2।</p><p class='errata'>आँकड़े असंभव हैं : कम आवृत्ति अधिक निरोधी विभव नहीं दे सकती, और ν<sub>0</sub> = 3ν/2 दोनों आवृत्तियों से अधिक है (कोई उत्सर्जन ही नहीं)। NTA ने इस प्रश्न को बोनस माना; (3) केवल औपचारिक परिणाम है।</p>",
+     "hint": "औपचारिक रूप से हल कीजिए, फिर जाँचिए कि उत्तर भौतिक रूप से सार्थक है या नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q19",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Copy prints: Bonus (no correct option)",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Bonus: the data are impossible (the lower frequency cannot give the larger stopping potential). Solving the two equations formally gives ν<sub>0</sub> = 3ν/2, option (3), which is above both frequencies. The copy prints 'Bonus'. Placeholder answer; never use in tests."
+   }
+  },
+  {
+   "id": "phy12-11-neet-2023-topic-wise-copy-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The minimum wavelength of X-rays produced by an electron accelerated through a potential difference of V volts is proportional to :",
+     "o": [
+      "V<sup>2</sup>",
+      "√V",
+      "1/V",
+      "1/√V"
+     ],
+     "sol": "<p>The shortest X-ray wavelength corresponds to one photon taking the electron's whole energy eV: hc/λ<sub>min</sub> = eV ⇒ λ<sub>min</sub> = hc/(eV) ∝ <b>1/V</b>.</p><p>(X-ray production is not in the rationalised NCERT.)</p>",
+     "hint": "eV = hc/λ<sub>min</sub>."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "V वोल्ट के विभवांतर द्वारा त्वरित एक इलेक्ट्रॉन से उत्पन्न X-किरणों की न्यूनतम तरंगदैर्घ्य किसके अनुक्रमानुपाती है?",
+     "o": [
+      "V<sup>2</sup>",
+      "√V",
+      "1/V",
+      "1/√V"
+     ],
+     "sol": "<p>सबसे छोटी X-किरण तरंगदैर्घ्य उस फ़ोटॉन की है जो इलेक्ट्रॉन की पूरी ऊर्जा eV ले लेता है : hc/λ<sub>min</sub> = eV ⇒ λ<sub>min</sub> = hc/(eV) ∝ <b>1/V</b>।</p><p>(X-किरणों का उत्पादन युक्तिसंगत NCERT में नहीं है।)</p>",
+     "hint": "eV = hc/λ<sub>min</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q30",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "X-ray production (Duane–Hunt limit) is not in the rationalised NCERT; λ<sub>min</sub> = hc/(eV)."
+   }
+  },
+  {
+   "id": "phy12-11-neet-2023-topic-wise-copy-q31",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The work functions of Caesium (Cs), Potassium (K) and Sodium (Na) are 2.14 eV, 2.30 eV and 2.75 eV respectively. If incident electromagnetic radiation has an incident energy of 2.20 eV, which of these photosensitive surfaces may emit photoelectrons?",
+     "o": [
+      "Na only",
+      "Cs only",
+      "Both Na and K",
+      "K only"
+     ],
+     "sol": "<p>Emission needs photon energy ≥ work function. 2.20 eV exceeds only Cs (2.14 eV); it is less than K (2.30 eV) and Na (2.75 eV). Answer: <b>Cs only</b>.</p>",
+     "hint": "Compare 2.20 eV with each work function."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "सीज़ियम (Cs), पोटैशियम (K) और सोडियम (Na) के कार्य-फलन क्रमशः 2.14 eV, 2.30 eV और 2.75 eV हैं। यदि आपतित विद्युत चुंबकीय विकिरण की ऊर्जा 2.20 eV है, तो इनमें से कौन-से प्रकाश-सुग्राही पृष्ठ प्रकाशिक इलेक्ट्रॉन उत्सर्जित कर सकते हैं?",
+     "o": [
+      "केवल Na",
+      "केवल Cs",
+      "Na और K दोनों",
+      "केवल K"
+     ],
+     "sol": "<p>उत्सर्जन के लिए फ़ोटॉन ऊर्जा ≥ कार्य-फलन होनी चाहिए। 2.20 eV केवल Cs (2.14 eV) से अधिक है; यह K (2.30 eV) और Na (2.75 eV) से कम है। उत्तर : <b>केवल Cs</b>।</p>",
+     "hint": "2.20 eV की तुलना प्रत्येक कार्य-फलन से कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q31",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-11-neet-2024-q12-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If c is the velocity of light in free space, the correct statements about photon among the following are :<br>A. The energy of a photon is E = hν.<br>B. The velocity of a photon is c.<br>C. The momentum of a photon, p = hν/c.<br>D. In a photon-electron collision, both total energy and total momentum are conserved.<br>E. Photon possesses positive charge.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A and B only",
+      "A, B, C and D only",
+      "A, C and D only",
+      "A, B, D and E only"
+     ],
+     "sol": "<p>A: E = hν ✓. B: a photon travels at c ✓. C: p = E/c = hν/c ✓. D: in a photon–electron collision total energy and total momentum are conserved ✓. E: a photon is neutral ✗.</p><p>Answer: <b>A, B, C and D only</b>.</p>",
+     "hint": "Photons carry no charge."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "यदि c मुक्त आकाश में प्रकाश का वेग है, तो निम्नलिखित में से फ़ोटॉन के बारे में सही कथन हैं :<br>A. फ़ोटॉन की ऊर्जा E = hν है।<br>B. फ़ोटॉन का वेग c है।<br>C. फ़ोटॉन का संवेग p = hν/c है।<br>D. फ़ोटॉन-इलेक्ट्रॉन संघट्ट में कुल ऊर्जा और कुल संवेग दोनों संरक्षित रहते हैं।<br>E. फ़ोटॉन धनात्मक आवेश रखता है।<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "केवल A और B",
+      "केवल A, B, C और D",
+      "केवल A, C और D",
+      "केवल A, B, D और E"
+     ],
+     "sol": "<p>A : E = hν ✓। B : फ़ोटॉन c चाल से चलता है ✓। C : p = E/c = hν/c ✓। D : फ़ोटॉन–इलेक्ट्रॉन संघट्ट में कुल ऊर्जा और कुल संवेग संरक्षित रहते हैं ✓। E : फ़ोटॉन उदासीन है ✗।</p><p>उत्तर : <b>केवल A, B, C और D</b>।</p>",
+     "hint": "फ़ोटॉन पर कोई आवेश नहीं होता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q12 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-11-neet-2024-q13-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The graph which shows the variation of (1/λ<sup>2</sup>) and its kinetic energy, E is (where λ is de Broglie wavelength of a free particle) :",
+     "o": [
+      "[graph A: rises ever faster]",
+      "[graph B: falls as a hyperbola]",
+      "[graph C: rises and levels off]",
+      "[graph D: straight line through the origin]"
+     ],
+     "sol": "<p>λ = h/√(2mE) ⇒ 1/λ<sup>2</sup> = 2mE/h<sup>2</sup> ∝ E. The graph is a <b>straight line through the origin</b> (graph D).</p>",
+     "hint": "Square λ = h/√(2mE) and invert."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "(1/λ<sup>2</sup>) और गतिज ऊर्जा E के बीच परिवर्तन को दर्शाने वाला ग्राफ़ है (जहाँ λ एक मुक्त कण की दे ब्रॉग्ली तरंगदैर्घ्य है) :",
+     "o": [
+      "[ग्राफ़ A : तेज़ी से बढ़ता है]",
+      "[ग्राफ़ B : अतिपरवलय के रूप में घटता है]",
+      "[ग्राफ़ C : बढ़कर स्थिर हो जाता है]",
+      "[ग्राफ़ D : मूल बिंदु से होकर सरल रेखा]"
+     ],
+     "sol": "<p>λ = h/√(2mE) ⇒ 1/λ<sup>2</sup> = 2mE/h<sup>2</sup> ∝ E। ग्राफ़ <b>मूल बिंदु से होकर सरल रेखा</b> है (ग्राफ़ D)।</p>",
+     "hint": "λ = h/√(2mE) का वर्ग करके व्युत्क्रम लीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q13 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-11-neet-2025-code-45-q37",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A photon and an electron (mass m) have the same energy E. The ratio (λ<sub>photon</sub>/λ<sub>electron</sub>) of their de Broglie wavelengths is : (c is the speed of light)",
+     "o": [
+      "√(E/2m)",
+      "c√(2mE)",
+      "c√(2m/E)",
+      "(1/c)√(E/2m)"
+     ],
+     "sol": "<p>Photon: λ<sub>photon</sub> = hc/E. Electron: λ<sub>electron</sub> = h/√(2mE).</p><p>Ratio = (hc/E) × √(2mE)/h = c√(2mE)/E = <b>c√(2m/E)</b>.</p>",
+     "hint": "Photon p = E/c; electron p = √(2mE)."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक फ़ोटॉन और एक इलेक्ट्रॉन (द्रव्यमान m) की ऊर्जा E समान है। उनकी दे ब्रॉग्ली तरंगदैर्घ्यों का अनुपात (λ<sub>photon</sub>/λ<sub>electron</sub>) है : (c प्रकाश की चाल है)",
+     "o": [
+      "√(E/2m)",
+      "c√(2mE)",
+      "c√(2m/E)",
+      "(1/c)√(E/2m)"
+     ],
+     "sol": "<p>फ़ोटॉन : λ<sub>photon</sub> = hc/E । इलेक्ट्रॉन : λ<sub>electron</sub> = h/√(2mE)।</p><p>अनुपात = (hc/E) × √(2mE)/h = c√(2mE)/E = <b>c√(2m/E)</b>।</p>",
+     "hint": "फ़ोटॉन p = E/c; इलेक्ट्रॉन p = √(2mE)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.7",
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q37",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2025-code-45-q38",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following options represent the variation of photoelectric current with property of light shown on the x-axis?<br>A. current against intensity: straight line through the origin<br>B. current against intensity: horizontal line<br>C. current against frequency: straight line through the origin<br>D. current against frequency: straight line starting at a non-zero frequency",
+     "o": [
+      "A only",
+      "A and C",
+      "A and D",
+      "B and D"
+     ],
+     "sol": "<p>Photocurrent ∝ intensity (number of photons): a straight line through the origin, so A is right and B wrong.</p><p>Above the threshold, the (saturation) photocurrent does not depend on frequency, so neither C nor D is right. Answer: <b>A only</b>.</p>",
+     "hint": "Frequency sets the electrons' energy, intensity sets their number."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-से विकल्प x-अक्ष पर दर्शाए गए प्रकाश के गुण के साथ प्रकाश-विद्युत धारा के परिवर्तन को निरूपित करते हैं?<br>A. धारा बनाम तीव्रता : मूल बिंदु से होकर सरल रेखा<br>B. धारा बनाम तीव्रता : क्षैतिज रेखा<br>C. धारा बनाम आवृत्ति : मूल बिंदु से होकर सरल रेखा<br>D. धारा बनाम आवृत्ति : शून्येतर आवृत्ति से प्रारंभ होने वाली सरल रेखा",
+     "o": [
+      "केवल A",
+      "A और C",
+      "A और D",
+      "B और D"
+     ],
+     "sol": "<p>प्रकाश-विद्युत धारा ∝ तीव्रता (फ़ोटॉनों की संख्या) : मूल बिंदु से होकर सरल रेखा, अतः A सही और B गलत है।</p><p>देहली आवृत्ति से ऊपर (संतृप्त) प्रकाश-विद्युत धारा आवृत्ति पर निर्भर नहीं करती, अतः न C सही है न D। उत्तर : <b>केवल A</b>।</p>",
+     "hint": "आवृत्ति इलेक्ट्रॉनों की ऊर्जा तय करती है, तीव्रता उनकी संख्या।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.4.1",
+     "11.4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q38",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "Graphs A–D are described in the stem; redrawn figures would help."
+   }
+  },
+  {
+   "id": "phy12-11-neet-2026-code-13-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. E = hν — I. de Broglie wavelength<br>B. Diffraction and Interference — II. Particle nature of light<br>C. λ = h/p — III. Wave nature of light<br>D. Compton effect — IV. Energy of photon<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A-IV, B-III, C-II, D-I",
+      "A-IV, B-III, C-I, D-II",
+      "A-I, B-IV, C-III, D-II",
+      "A-IV, B-I, C-II, D-III"
+     ],
+     "sol": "<p>A. E = hν is the energy of a photon (IV). B. Diffraction and interference show the wave nature of light (III). C. λ = h/p is the de Broglie wavelength (I). D. The Compton effect shows the particle nature of light (II).</p><p>Answer: <b>A-IV, B-III, C-I, D-II</b>.</p>",
+     "hint": "Compton effect: photon–electron collision, a particle picture."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "सूची I का सूची II से मिलान कीजिए :<br>A. E = hν — I. दे ब्रॉग्ली तरंगदैर्घ्य<br>B. विवर्तन और व्यतिकरण — II. प्रकाश की कणीय प्रकृति<br>C. λ = h/p — III. प्रकाश की तरंग प्रकृति<br>D. कॉम्पटन प्रभाव — IV. फ़ोटॉन की ऊर्जा<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A-IV, B-III, C-II, D-I",
+      "A-IV, B-III, C-I, D-II",
+      "A-I, B-IV, C-III, D-II",
+      "A-IV, B-I, C-II, D-III"
+     ],
+     "sol": "<p>A. E = hν फ़ोटॉन की ऊर्जा है (IV)। B. विवर्तन और व्यतिकरण प्रकाश की तरंग प्रकृति दर्शाते हैं (III)। C. λ = h/p दे ब्रॉग्ली तरंगदैर्घ्य है (I)। D. कॉम्पटन प्रभाव प्रकाश की कणीय प्रकृति दर्शाता है (II)।</p><p>उत्तर : <b>A-IV, B-III, C-I, D-II</b>।</p>",
+     "hint": "कॉम्पटन प्रभाव : फ़ोटॉन–इलेक्ट्रॉन संघट्ट, एक कणीय चित्र।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.7",
+     "11.8"
+    ],
+    "otherChapters": [
+     "Class 12 · Wave Optics"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q7",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-11-neet-2026-code-13-q37",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a metal of work function 6.6 eV, which of the following wavelengths of incident radiation does not give rise to the photoelectric effect? (Take Planck's constant as 6.6 × 10<sup>−34</sup> J s)",
+     "o": [
+      "200 nm",
+      "100 nm",
+      "50 nm",
+      "150 nm"
+     ],
+     "sol": "<p>Threshold wavelength λ<sub>0</sub> = hc/φ = 1240 eV nm/6.6 eV ≈ 188 nm. Longer wavelengths cannot cause emission: of the options only <b>200 nm</b> is above 188 nm.</p>",
+     "hint": "λ<sub>0</sub> (nm) ≈ 1240/φ (eV)."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "6.6 eV कार्य-फलन वाली एक धातु के लिए, आपतित विकिरण की निम्नलिखित में से कौन-सी तरंगदैर्घ्य प्रकाश-विद्युत प्रभाव उत्पन्न नहीं करती? (प्लांक स्थिरांक 6.6 × 10<sup>−34</sup> J s लीजिए)",
+     "o": [
+      "200 nm",
+      "100 nm",
+      "50 nm",
+      "150 nm"
+     ],
+     "sol": "<p>देहली तरंगदैर्घ्य λ<sub>0</sub> = hc/φ = 1240 eV nm/6.6 eV ≈ 188 nm। इससे अधिक तरंगदैर्घ्य उत्सर्जन नहीं कर सकती : विकल्पों में केवल <b>200 nm</b>, 188 nm से अधिक है।</p>",
+     "hint": "λ<sub>0</sub> (nm) ≈ 1240/φ (eV)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-11",
+    "paras": [
+     "11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q37",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}

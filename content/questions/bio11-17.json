@@ -1,0 +1,1323 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-17",
+ "subject": "biology",
+ "class": 11,
+ "unit": 17,
+ "title": {
+  "en": "Locomotion and Movement"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo117.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "17.1",
+   "title": "Types of Movement",
+   "hi": "गति के प्रकार",
+   "pdfPage": 1
+  },
+  {
+   "id": "17.2",
+   "title": "Muscle",
+   "hi": "पेशी",
+   "pdfPage": 2
+  },
+  {
+   "id": "17.2.1",
+   "title": "Structure of Contractile Proteins",
+   "hi": "संकुचनशील प्रोटीन की संरचना",
+   "pdfPage": 5
+  },
+  {
+   "id": "17.2.2",
+   "title": "Mechanism of Muscle Contraction",
+   "hi": "पेशी संकुचन की क्रियाविधि",
+   "pdfPage": 5
+  },
+  {
+   "id": "17.3",
+   "title": "Skeletal System",
+   "hi": "कंकाल तंत्र",
+   "pdfPage": 8
+  },
+  {
+   "id": "17.4",
+   "title": "Joints",
+   "hi": "संधियाँ या जोड़",
+   "pdfPage": 10
+  },
+  {
+   "id": "17.5",
+   "title": "Disorders of Muscular and Skeletal System",
+   "hi": "पेशीय और कंकाल तंत्र के विकार",
+   "pdfPage": 11
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-17-neet-2015-re-exam-code-d-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following joints would allow no movement?",
+     "o": [
+      "Cartilaginous joint",
+      "Synovial joint",
+      "Ball and socket joint",
+      "Fibrous joint"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q22",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2015-re-exam-code-d-q36",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not a function of the skeletal system?",
+     "o": [
+      "Storage of minerals",
+      "Production of body heat",
+      "Locomotion",
+      "Production of erythrocytes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q36",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 2)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2016-phase-1-code-a-q137",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Lack of relaxation between successive stimuli in sustained muscle contraction is known as:",
+     "o": [
+      "Spasm",
+      "Fatigue",
+      "Tetanus",
+      "Tonus"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q137",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)",
+    "note": "Tetanus (fused contraction) is not in NCERT; NCERT's 'tetany' is a different disorder."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2016-phase-2-code-aa-q141",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Smooth muscles are",
+     "o": [
+      "Involuntary, fusiform, non-striated",
+      "Voluntary, multinucleate, cylindrical",
+      "Involuntary, cylindrical, striated",
+      "Voluntary, spindle-shaped, uninucleate"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q141",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2016-phase-2-code-aa-q151",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Name the ion responsible for unmasking of active sites for myosin for cross-bridge activity during muscle contraction.",
+     "o": [
+      "Calcium",
+      "Magnesium",
+      "Sodium",
+      "Potassium"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q151",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2016-phase-2-code-aa-q154",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Osteoporosis, an age-related disease of skeletal system, may occur due to",
+     "o": [
+      "Immune disorder affecting neuromuscular junction leading to fatigue",
+      "High concentration of Ca<sup>2+</sup> and Na<sup>+</sup>",
+      "Decreased level of estrogen",
+      "Accumulation of uric acid leading to inflammation of joints"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q154",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 3)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)",
+    "note": "Option 2 ions restored (lost in the copy's text layer)."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2017-code-a-q131",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The pivot joint between atlas and axis is a type of",
+     "o": [
+      "Fibrous joint",
+      "Cartilaginous joint",
+      "Synovial joint",
+      "Saddle joint"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q131",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2017-code-a-q144",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Out of 'X' pairs of ribs in humans only 'Y' pairs are true ribs. Select the option that correctly represents values of X and Y and provides their explanation :",
+     "o": [
+      "X = 12, Y = 7: True ribs are attached dorsally to vertebral column and ventrally to the sternum",
+      "X = 12, Y = 5: True ribs are attached dorsally to vertebral column and sternum on the two ends",
+      "X = 24, Y = 7: True ribs are dorsally attached to vertebral column but are free on ventral side",
+      "X = 24, Y = 12: True ribs are dorsally attached to vertebral column but are free on ventral side"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q144",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 1)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2018-code-aa-q141",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following hormones can play a significant role in osteoporosis?",
+     "o": [
+      "Estrogen and Parathyroid hormone",
+      "Progesterone and Aldosterone",
+      "Aldosterone and Prolactin",
+      "Parathyroid hormone and Prolactin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.5"
+    ],
+    "otherChapters": [
+     "Class 11 · Chemical Coordination and Integration"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q141",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2018-code-aa-q168",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Calcium is important in skeletal muscle contraction because it :",
+     "o": [
+      "detaches the myosin head from the actin filament.",
+      "activates the myosin ATPase by binding to it.",
+      "binds to troponin to remove the masking of active sites on actin for myosin.",
+      "prevents the formation of bonds between the myosin cross bridges and the actin filament."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q168",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 3)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2019-code-s2-q52",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the correct option.",
+     "o": [
+      "Each rib is a flat thin bone and all the ribs are connected dorsally to the thoracic vertebrae and ventrally to the sternum.",
+      "There are seven pairs of vertebrosternal, three pairs of vertebrochondral and two pairs of vertebral ribs.",
+      "8th, 9th and 10th pairs of ribs articulate directly with the sternum.",
+      "11th and 12th pairs of ribs are connected to the sternum with the help of hyaline cartilage."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q52",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2019-code-s2-q89",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following muscular disorders is inherited?",
+     "o": [
+      "Myasthenia gravis",
+      "Botulism",
+      "Tetany",
+      "Muscular dystrophy"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q89",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2020-code-f3-q107",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following columns and select the correct option :<br>(a) Floating ribs — (i) Located between second and seventh ribs<br>(b) Acromion — (ii) Head of the Humerus<br>(c) Scapula — (iii) Clavicle<br>(d) Glenoid cavity — (iv) Do not connect with the sternum",
+     "o": [
+      "(a) iii, (b) ii, (c) iv, (d) i",
+      "(a) iv, (b) iii, (c) i, (d) ii",
+      "(a) ii, (b) iv, (c) i, (d) iii",
+      "(a) i, (b) iii, (c) ii, (d) iv"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q107",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2021-code-p3-q160",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Chronic autoimmune disorder affecting neuromuscular junction leading to fatigue, weakening and paralysis of skeletal muscle is called as :",
+     "o": [
+      "Gout",
+      "Arthritis",
+      "Muscular dystrophy",
+      "Myasthenia gravis"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q160",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-17-neet-2021-code-p3-q190",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "During muscular contraction which of the following events occur?<br>(a) 'H' zone disappears<br>(b) 'A' band widens<br>(c) 'I' band reduces in width<br>(d) Myosin hydrolyzes ATP, releasing the ADP and Pi<br>(e) Z-lines attached to actins are pulled inwards<br>Choose the correct answer from the options given below.",
+     "o": [
+      "(b), (d), (e), (a) only",
+      "(a), (c), (d), (e) only",
+      "(a), (b), (c), (d) only",
+      "(b), (c), (d), (e) only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q190",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2021-code-p3-q191",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(a) Scapula — (i) Cartilaginous joints<br>(b) Cranium — (ii) Flat bone<br>(c) Sternum — (iii) Fibrous joints<br>(d) Vertebral column — (iv) Triangular flat bone",
+     "o": [
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) i, (b) iii, (c) ii, (d) iv",
+      "(a) ii, (b) iii, (c) iv, (d) i",
+      "(a) iv, (b) ii, (c) iii, (d) i"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.3",
+     "17.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q191",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2022-code-t2-q153",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R) :<br>Assertion (A): Osteoporosis is characterised by decreased bone mass and increased chances of fractures.<br>Reason (R): Common cause of osteoporosis is increased levels of estrogen.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "(A) is not correct but (R) is correct",
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q153",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2022-code-t2-q160",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is present between the adjacent bones of the vertebral column?",
+     "o": [
+      "Cartilage",
+      "Areolar tissue",
+      "Smooth muscle",
+      "Intercalated discs"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q160",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2022-code-t2-q182",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is a correct match for disease and its symptoms ?",
+     "o": [
+      "Tetany – high Ca<sup>2+</sup> level causing rapid spasms",
+      "Myasthenia gravis – Genetic disorder resulting in weakening and paralysis of skeletal muscle",
+      "Muscular dystrophy – An auto immune disorder causing progressive degeneration of skeletal muscle",
+      "Arthritis – Inflamed joints"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q182",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2023-topic-wise-copy-q63",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>List-I (Type of Joint) — List-II (Found between)<br>(A) Cartilaginous joint — (I) Between flat skull bones<br>(B) Ball and socket joint — (II) Between adjacent vertebrae in vertebral column<br>(C) Fibrous joint — (III) Between carpal and metacarpal of thumb<br>(D) Saddle joint — (IV) Between humerus and pectoral girdle",
+     "o": [
+      "A-II, B-IV, C-III, D-I",
+      "A-III, B-I, C-II, D-IV",
+      "A-II, B-IV, C-I, D-III",
+      "A-I, B-IV, C-III, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q63",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2023-topic-wise-copy-q95",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct regarding skeletal muscle?<br>A. Muscle bundles are held together by collagenous connective tissue layer called fascicle.<br>B. Sarcoplasmic reticulum of muscle fibre is a store house of calcium ions.<br>C. Striated appearance of skeletal muscle fibre is due to distribution pattern of actin and myosin proteins.<br>D. M line is considered as functional unit of contraction called sarcomere.<br>Choose the most appropriate answer from the options given below :",
+     "o": [
+      "C and D only",
+      "A, B and C only",
+      "B and C only",
+      "A, C and D only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.2.1",
+     "17.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q95",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2024-q104-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are autoimmune disorders?<br>A. Myasthenia gravis<br>B. Rheumatoid arthritis<br>C. Gout<br>D. Muscular dystrophy<br>E. Systemic Lupus Erythematosus (SLE)<br>Choose the most appropriate answer from the options given below :",
+     "o": [
+      "A, B & D only",
+      "A, B & E only",
+      "B, C & E only",
+      "C, D & E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.5"
+    ],
+    "otherChapters": [
+     "Class 12 · Human Health and Disease"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q104 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2024-q129-esaral-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Three types of muscles are given as a, b and c. Identify the correct matching pair along with their location in human body :",
+     "o": [
+      "(a) Smooth – Toes; (b) Skeletal – Legs; (c) Cardiac – Heart",
+      "(a) Skeletal – Triceps; (b) Smooth – Stomach; (c) Cardiac – Heart",
+      "(a) Skeletal – Biceps; (b) Involuntary – Intestine; (c) Smooth – Heart",
+      "(a) Involuntary – Nose tip; (b) Skeletal – Bone; (c) Cardiac – Heart"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.2"
+    ],
+    "otherChapters": [
+     "Old NCERT 11 Ch 7 · Animal tissues"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q129 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Figure of three muscle types in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2024-q161-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Fibrous joints — I. Adjacent vertebrae, limited movement<br>B. Cartilaginous joints — II. Humerus and pectoral girdle, rotational movement<br>C. Hinge joints — III. Skull, don't allow any movement<br>D. Ball and socket joints — IV. Knee, help in locomotion",
+     "o": [
+      "Fibrous joints I. Adjacent vertebrae, limited movement",
+      "Cartilaginous II. Humerus joints and pectoral girdle, rotational movement",
+      "Hinge joints III. Skull, don’t allow any movement",
+      "Ball and socket IV. Knee, help joints in locomotion Choose the correct answer from the options given belo : (A) A-II, B-III, C-I, D-IV (B) A-III, B-I, C-IV, D-II (C) A-IV, B-II, C-III, D-I (D) A-I, B-III, C-II, D-IV https://admin.esaral.com/quiz-pdf/6104 eSaral"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q161 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2026-q149-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct with reference to human endoskeleton?<br>A. Human skull is monocondylic.<br>B. The joint between any two adjoining vertebrae is a cartilaginous joint.<br>C. In human beings, the number of cervical vertebrae is seven.<br>D. All ribs except the last 2 pairs are bicephalic.<br>E. The occipital bone of skull is articulated with the first vertebra.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "C, D and E only",
+      "B, C and E only",
+      "A, B and D only",
+      "B and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.3",
+     "17.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q149 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 2)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q173."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2026-q151-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Choose the correct statements regarding muscle contraction :<br>A. A motor neuron carries a signal sent by the Central Nervous System (CNS) to the sarcolemma of the muscle fibre.<br>B. The neural signal generates an action potential which causes the release of Ca<sup>++</sup> into sarcoplasm.<br>C. Increase in Ca<sup>++</sup> inactivates the actin for breaking cross bridges.<br>D. Actin binds to the myosin head to form a cross bridge.<br>E. Shortening of sarcomere takes place, by pulling actin filaments towards the centre of 'A' band.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A and B",
+      "C and E",
+      "C and D",
+      "A, B, D and E"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q151 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q171."
+   }
+  },
+  {
+   "id": "bio11-17-neet-2026-q172-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Tetany — I. Inflammation of joints<br>B. Arthritis — II. Autoimmune disorder affecting neuromuscular junction<br>C. Myasthenia gravis — III. Wild contraction in muscle due to low Ca<sup>2+</sup> in body fluid<br>D. Muscular dystrophy — IV. Progressive degeneration of skeletal muscle",
+     "o": [
+      "A-III, B-I, C-II, D-IV",
+      "A-IV, B-III, C-II, D-I",
+      "A-I, B-II, C-III, D-IV",
+      "A-III, B-II, C-I, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-17",
+    "paras": [
+     "17.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q172 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 2)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q152."
+   }
+  }
+ ]
+}

@@ -1,0 +1,2206 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-09",
+ "subject": "biology",
+ "class": 11,
+ "unit": 9,
+ "title": {
+  "en": "Biomolecules"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo109.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "9.1",
+   "title": "How to Analyse Chemical Composition?",
+   "hi": "रासायनिक संघटन का विश्लेषण कैसे करें ?",
+   "pdfPage": 1
+  },
+  {
+   "id": "9.2",
+   "title": "Primary and Secondary Metabolites",
+   "hi": "प्राथमिक व द्वितियक उपापचयज",
+   "pdfPage": 5
+  },
+  {
+   "id": "9.3",
+   "title": "Biomacromolecules",
+   "hi": "वृहत् जैव अणु",
+   "pdfPage": 5
+  },
+  {
+   "id": "9.4",
+   "title": "Proteins",
+   "hi": "प्रोटीन",
+   "pdfPage": 6
+  },
+  {
+   "id": "9.5",
+   "title": "Polysaccharides",
+   "hi": "पॉलीसैकेराइड",
+   "pdfPage": 7
+  },
+  {
+   "id": "9.6",
+   "title": "Nucleic Acids",
+   "hi": "न्यूक्लीक अम्ल",
+   "pdfPage": 8
+  },
+  {
+   "id": "9.7",
+   "title": "Structure of Proteins",
+   "hi": "प्रोटीन की संरचना",
+   "pdfPage": 8
+  },
+  {
+   "id": "9.8",
+   "title": "Enzymes",
+   "hi": "एंजाइम",
+   "pdfPage": 9
+  },
+  {
+   "id": "9.8.1",
+   "title": "Chemical Reactions",
+   "hi": "रासायनिक अभिक्रियाएं",
+   "pdfPage": 10
+  },
+  {
+   "id": "9.8.2",
+   "title": "How do Enzymes bring about such High Rates of",
+   "hi": "एंजाइम द्वारा उच्च दर से रासायनिक रूपांतरण कैसे होता है?",
+   "pdfPage": 11
+  },
+  {
+   "id": "9.8.3",
+   "title": "Nature of Enzyme Action",
+   "hi": "एंजाइम क्रिया की प्रकृति",
+   "pdfPage": 12
+  },
+  {
+   "id": "9.8.4",
+   "title": "Factors Affecting Enzyme Activity",
+   "hi": "एंजाइम क्रियाविधि को प्रभावित करने वाले कारक",
+   "pdfPage": 13
+  },
+  {
+   "id": "9.8.5",
+   "title": "Classification and Nomenclature of Enzymes",
+   "hi": "एंजाइम का नामकरण व वर्गीकरण",
+   "pdfPage": 14
+  },
+  {
+   "id": "9.8.6",
+   "title": "Co-factors",
+   "hi": "सहकारक (Co-factors)",
+   "pdfPage": 14
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-09-neet-2015-re-exam-code-d-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The chitinous exoskeleton of arthropods is formed by the polymerization of :",
+     "o": [
+      "D- glucosamine",
+      "N-acetyl glucosamine",
+      "Lipoglycans",
+      "Keratin sulphate and chondroitin sulphate"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q5",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 2)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2015-re-exam-code-d-q50",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following biomolecules does have a phosphodiester bond?",
+     "o": [
+      "Monosaccharides in a polysaccharide",
+      "Amino acids in a polypeptide",
+      "Nucleic acids in a nucleotide",
+      "Fatty acids in a diglyceride"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q50",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2016-phase-1-code-a-q139",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Water soluble pigments found in plant cell vacuoles are:",
+     "o": [
+      "Xanthophylls",
+      "Chlorophylls",
+      "Carotenoids",
+      "Anthocyanins"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q139",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2016-phase-1-code-a-q153",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statements is wrong?",
+     "o": [
+      "Sucrose is a disaccharide",
+      "Cellulose is a polysaccharide",
+      "Uracil is a pyrimidine",
+      "Glycine is a sulphur containing amino acid"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q153",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2016-phase-1-code-a-q180",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A typical fat molecule is made up of :",
+     "o": [
+      "Three glycerol molecules and one fatty acid molecule",
+      "One glycerol and three fatty acid molecules",
+      "One glycerol and one fatty acid molecule",
+      "Three glycerol and three fatty acid molecules"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q180",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2016-phase-2-code-aa-q103",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A non-proteinaceous enzyme is :",
+     "o": [
+      "Lysozyme",
+      "Ribozyme",
+      "Ligase",
+      "Deoxyribonuclease"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8"
+    ],
+    "otherChapters": [
+     "Class 12 · Molecular Basis of Inheritance"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q103",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2016-phase-2-code-aa-q143",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is the least likely to be involved in stabilising the three-dimensional folding of most proteins?",
+     "o": [
+      "Hydrogen bonds",
+      "Electrostatic interaction",
+      "Hydrophobic interaction",
+      "Ester bonds"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q143",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2016-phase-2-code-aa-q144",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following describes the given graph correctly?",
+     "o": [
+      "Endothermic reaction with energy A in presence of enzyme and B in absence of enzyme",
+      "Exothermic reaction with energy A in presence of enzyme and B in absence of enzyme",
+      "Endothermic reaction with energy A in absence of enzyme and B in presence of enzyme",
+      "Exothermic reaction with energy A in absence of enzyme and B in presence of enzyme"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q144",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)",
+    "note": "Energy-profile graph in the paper: needs a redrawn figure."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2017-code-a-q103",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statements is correct, with reference to enzymes?",
+     "o": [
+      "Apoenzyme = Holoenzyme + Coenzyme",
+      "Holoenzyme = Apoenzyme + Coenzyme",
+      "Coenzyme = Apoenzyme + Holoenzyme",
+      "Holoenzyme = Coenzyme + Cofactor"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q103",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2017-code-a-q105",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are not polymeric?",
+     "o": [
+      "Nucleic acids",
+      "Proteins",
+      "Polysaccharides",
+      "Lipids"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q105",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2018-code-aa-q117",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The two functional groups characteristic of sugars are :",
+     "o": [
+      "carbonyl and phosphate",
+      "carbonyl and methyl",
+      "hydroxyl and methyl",
+      "carbonyl and hydroxyl"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q117",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2019-code-s2-q19",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following statements :<br>(A) Coenzyme or metal ion that is tightly bound to enzyme protein is called prosthetic group.<br>(B) A complete catalytic active enzyme with its bound prosthetic group is called apoenzyme.<br>Select the correct option.",
+     "o": [
+      "Both (A) and (B) are false.",
+      "(A) is false but (B) is true.",
+      "Both (A) and (B) are true.",
+      "(A) is true but (B) is false."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q19",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)",
+    "note": "The copy prints (1)."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2019-code-s2-q65",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Concanavalin A is :",
+     "o": [
+      "a lectin",
+      "a pigment",
+      "an alkaloid",
+      "an essential oil"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q65",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2020-code-f3-q108",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the basic amino acid from the following :",
+     "o": [
+      "Lysine",
+      "Valine",
+      "Tyrosine",
+      "Glutamic acid"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q108",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2020-code-f3-q135",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following :<br>(a) Inhibitor of catalytic activity — (i) Ricin<br>(b) Possess peptide bonds — (ii) Malonate<br>(c) Cell wall material in fungi — (iii) Chitin<br>(d) Secondary metabolite — (iv) Collagen",
+     "o": [
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) ii, (b) iii, (c) i, (d) iv",
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iii, (b) i, (c) iv, (d) ii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.4",
+     "9.4",
+     "9.5",
+     "9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q135",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2020-code-f3-q166",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the substances having glycosidic bond and peptide bond, respectively in their structure :",
+     "o": [
+      "Cellulose, lecithin",
+      "Inulin, Insulin",
+      "Chitin, cholesterol",
+      "Glycerol, trypsin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.4",
+     "9.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q166",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2020-code-f3-q173",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following is the most abundant protein in the animals ?",
+     "o": [
+      "Lectin",
+      "Insulin",
+      "Haemoglobin",
+      "Collagen"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q173",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2020-code-f3-q177",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Secondary metabolites such as nicotine, strychnine and caffeine are produced by plants for their",
+     "o": [
+      "defence action",
+      "effect on reproduction",
+      "nutritive value",
+      "growth response"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q177",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)",
+    "note": "NCERT lists secondary metabolites but not their role in defence."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2021-code-p3-q127",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are not secondary metabolites in plants?",
+     "o": [
+      "Rubber, gums",
+      "Morphine, codeine",
+      "Amino acids, glucose",
+      "Vinblastin, curcumin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q127",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2021-code-p3-q148",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(a) Protein — (i) C = C double bonds<br>(b) Unsaturated fatty acid — (ii) Phosphodiester bonds<br>(c) Nucleic acid — (iii) Glycosidic bonds<br>(d) Polysaccharide — (iv) Peptide bonds",
+     "o": [
+      "(a) iv, (b) iii, (c) i, (d) ii",
+      "(a) iv, (b) i, (c) ii, (d) iii",
+      "(a) i, (b) iv, (c) iii, (d) ii",
+      "(a) ii, (b) i, (c) iv, (d) iii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.4",
+     "9.5",
+     "9.6",
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q148",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2021-code-p3-q165",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the incorrect pair",
+     "o": [
+      "Drugs – Ricin",
+      "Alkaloids – Codeine",
+      "Toxin – Abrin",
+      "Lectins – Concanavalin A"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q165",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2021-code-p3-q196",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Following are the statements with reference to 'lipids' :<br>(a) Lipids having only single bonds are called unsaturated fatty acids.<br>(b) Lecithin is a phospholipid.<br>(c) Trihydroxy propane is glycerol.<br>(d) Palmitic acid has 20 carbon atoms including carboxyl carbon.<br>Choose the correct answer from the options given below.",
+     "o": [
+      "(b) and (e) only",
+      "(a) and (b) only",
+      "(c) and (d) only",
+      "(b) and (c) only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q196",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2022-code-t2-q138",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Read the following statements on lipids and find out the correct set of statements :<br>(a) Lecithin found in the plasma membrane is a glycolipid.<br>(b) Saturated fatty acids possess one or more C = C bonds.<br>(c) Gingelly oil has lower melting point, hence remains as oil in winter.<br>(d) Lipids are generally insoluble in water but soluble in some organic solvents.<br>(e) When fatty acid is esterified with glycerol, monoglycerides are formed.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "(a), (d) and (e) only",
+      "(c), (d) and (e) only",
+      "(a), (b) and (d) only",
+      "(a), (b) and (c) only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q138",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2022-code-t2-q155",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A dehydration reaction links two glucose molecules to produce maltose. If the formula for glucose is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> then what is the formula for maltose?",
+     "o": [
+      "C<sub>12</sub>H<sub>24</sub>O<sub>12</sub>",
+      "C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>",
+      "C<sub>12</sub>H<sub>24</sub>O<sub>11</sub>",
+      "C<sub>12</sub>H<sub>20</sub>O<sub>10</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q155",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Option formulas read from a garbled OCR line (subscripts lost); check against the copy."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2022-code-t2-q189",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>List-I (Biological molecules) — List-II (Biological functions)<br>(a) Glycogen — (i) Hormone<br>(b) Globulin — (ii) Biocatalyst<br>(c) Steroids — (iii) Antibody<br>(d) Thrombin — (iv) Storage product",
+     "o": [
+      "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.4",
+     "9.5",
+     "9.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q189",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2023-topic-wise-copy-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Cellulose does not form blue colour with iodine because :",
+     "o": [
+      "It breaks down when iodine reacts with it.",
+      "It is a disaccharide.",
+      "It is a helical molecule.",
+      "It does not contain complex helices and hence cannot hold iodine molecules."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q7",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2023-topic-wise-copy-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Malonate inhibits the growth of pathogenic bacteria by inhibiting the activity of :",
+     "o": [
+      "Dinitrogenase",
+      "succinic dehydrogenase",
+      "Amylase",
+      "Lipase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q39",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2023-topic-wise-copy-q56",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Low temperature preserves the enzyme in a temporarily inactive state whereas high temperature destroys enzymatic activity because proteins are denatured by heat.<br>Statement II: When the inhibitor closely resembles the substrate in its molecular structure and inhibits the activity of the enzyme, it is known as competitive inhibitor.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Statement I is false but statement II is true.",
+      "Both Statement I and Statement II are true.",
+      "Both Statement I and Statement II are false.",
+      "Statement I is true but Statement II is false."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q56",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2023-topic-wise-copy-q57",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: A protein is imagined as a line, the left end represented by first amino acid (C-terminal) and the right end represented by last amino acid (N-terminal).<br>Statement II: Adult human haemoglobin consists of 4 subunits (two subunits of α type and two subunits of β type).<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Statement I is false but Statement II is true.",
+      "Both Statement I and Statement II are true.",
+      "Both Statement I and Statement II are false.",
+      "Statement I is true but Statement II is false."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q57",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2024-q150-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Inhibition of succinic dehydrogenase enzyme by malonate is a classical example of :",
+     "o": [
+      "Competitive inhibition",
+      "Enzyme activation",
+      "Cofactor inhibition",
+      "Feedback inhibition"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q150 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2024-q167-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Lecithin, a small molecular weight organic compound found in living tissues, is an example of :",
+     "o": [
+      "Amino acids",
+      "Phospholipids",
+      "Glycerides",
+      "Carbohydrates"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q167 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2024-q172-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The cofactor of the enzyme carboxypeptidase is:",
+     "o": [
+      "Zinc",
+      "Niacin",
+      "Flavin",
+      "Haem"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q172 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2024-q191-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. GLUT-4 — I. Hormone<br>B. Insulin — II. Enzyme<br>C. Trypsin — III. Intercellular ground substance<br>D. Collagen — IV. Enables glucose transport into cells",
+     "o": [
+      "GLUT-4 (I) Hormone",
+      "Insulin (II) Enzyme",
+      "Trypsin (III) Intercellular ground substance",
+      "Collagen (IV) Enables glu‐ cose transport into cells Choose the correct answer from the options give below. (A) A-II, B-III, C-IV, D-I (B) A-III, B-IV, C-I, D-II (C) A-IV, B-I, C-II, D-III (D) A-I, B-II, C-III, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q191 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2024-q192-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Regarding catalytic cycle of an enzyme action, select the correct sequential steps :<br>A. Substrate enzyme complex formation.<br>B. Free enzyme ready to bind with another substrate.<br>C. Release of products.<br>D. Chemical bonds of the substrate broken.<br>E. Substrate binding to active site.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "B, A, C, D, E",
+      "E, D, C, B, A",
+      "E, A, D, C, B",
+      "A, E, B, D, C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q192 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2024-q193-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Lipase — I. Peptide bond<br>B. Nuclease — II. Ester bond<br>C. Protease — III. Glycosidic bond<br>D. Amylase — IV. Phosphodiester bond",
+     "o": [
+      "A-II, B-IV, C-I, D-III",
+      "A-IV, B-I, C-III, D-II",
+      "A-IV, B-II, C-III, D-I",
+      "A-III, B-II, C-I, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q193 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options clipped at the right edge in the eSaral copy; completed from the other options (each is a permutation)."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2025-code-45-q95",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statements refers to Reductionist Biology?",
+     "o": [
+      "Physico-chemical approach to study and understand living organisms.",
+      "Physiological approach to study and understand living organisms.",
+      "Chemical approach to study and understand living organisms.",
+      "Behavioural approach to study and understand living organisms."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q95",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "The term 'reductionist biology' is from the old NCERT unit opener."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2025-code-45-q117",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Name the class of enzyme that usually catalyses the following reaction :<br>S − G + S′ → S + S′ − G<br>where G → a group other than hydrogen, S → a substrate, S′ → another substrate",
+     "o": [
+      "Hydrolase",
+      "Lyase",
+      "Transferase",
+      "Ligase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q117",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 3)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2025-code-45-q131",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following enzymes contains 'Haem' as the prosthetic group?",
+     "o": [
+      "RuBisCo",
+      "Carbonic anhydrase",
+      "Succinate dehydrogenase",
+      "Catalase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q131",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 4)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2025-code-45-q137",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>A. Adenosine — I. Nitrogen base<br>B. Adenylic acid — II. Nucleotide<br>C. Adenine — III. Nucleoside<br>D. Alanine — IV. Amino acid",
+     "o": [
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-II, C-IV, D-I",
+      "A-III, B-II, C-I, D-IV",
+      "A-II, B-III, C-I, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1",
+     "9.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q137",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 3)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "Options overprinted/clipped in the eSaral copy; read from the page image (permutations completed)."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2025-code-45-q149",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The protein portion of an enzyme is called:",
+     "o": [
+      "Cofactor",
+      "Coenzyme",
+      "Apoenzyme",
+      "Prosthetic group"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q149",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 3)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio11-09-neet-2026-q99-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the correct statements about biomolecules :<br>A. Lipids are generally water soluble.<br>B. Proteins are polypeptides.<br>C. Polysaccharides are long chains of sugars.<br>D. Adenine and guanine are substituted pyrimidines.<br>E. Almost all enzymes are proteins.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, B and C only",
+      "B, D and E only",
+      "B, C and E only",
+      "C, D and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1",
+     "9.4",
+     "9.5",
+     "9.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q99 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q130."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2026-q100-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following lists :<br>A. Trypsin — I. Intercellular ground substance<br>B. Morphine — II. Lectin<br>C. Concanavalin A — III. Enzyme<br>D. Collagen — IV. Alkaloid",
+     "o": [
+      "A-III, B-IV, C-II, D-I",
+      "A-IV, B-III, C-II, D-I",
+      "A-I, B-II, C-III, D-IV",
+      "A-III, B-II, C-IV, D-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.2",
+     "9.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q100 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 1)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q129."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2026-q110-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct regarding amino acids?<br>A. They are substituted methanes.<br>B. Serine is an aromatic amino acid.<br>C. Valine is a neutral amino acid.<br>D. Lysine is an acidic amino acid.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A and B only",
+      "C and D only",
+      "B and C only",
+      "A and C only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q110 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q119."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2026-q132-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Alpha-helix is found in which level of protein structure",
+     "o": [
+      "Secondary structure",
+      "Primary structure",
+      "Tertiary structure",
+      "Quaternary structure"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q132 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 1)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q97."
+   }
+  },
+  {
+   "id": "bio11-09-neet-2026-q167-esaral-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The following reaction depicts the activity of a particular class of enzymes. Identify the enzyme class 'E' from the following options :",
+     "o": [
+      "Isomerases",
+      "Ligases",
+      "Transferases",
+      "Lyases en"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-09",
+    "paras": [
+     "9.8.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q167 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Reaction scheme in the paper; needs a redrawn figure. Code 13 booklet Q147."
+   }
+  }
+ ]
+}

@@ -1,0 +1,2975 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio12-04",
+ "subject": "biology",
+ "class": 12,
+ "unit": 4,
+ "title": {
+  "en": "Principles of Inheritance and Variation"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lebo104.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "4.1",
+   "title": "Mendel's Laws of Inheritance",
+   "pdfPage": 4
+  },
+  {
+   "id": "4.2",
+   "title": "Inheritance of One Gene",
+   "hi": "एक जीन की वंशागति",
+   "pdfPage": 5
+  },
+  {
+   "id": "4.2.1",
+   "title": "Law of Dominance",
+   "hi": "प्रभाविता नियम (ला ऑफ डोमिनेंस)",
+   "pdfPage": 9
+  },
+  {
+   "id": "4.2.2",
+   "title": "Law of Segregation",
+   "hi": "विसंयोजन नियम (लॉ ऑफ सेग्रीग्रेशन)",
+   "pdfPage": 9
+  },
+  {
+   "id": "4.2.2.1",
+   "title": "Incomplete Dominance",
+   "hi": "अपूर्ण प्रभाविता (इंकंप्लीट डोमिनेंस)",
+   "pdfPage": 9
+  },
+  {
+   "id": "4.2.2.2",
+   "title": "Co-dominance",
+   "hi": "सह प्रभाविता (को डोमिनेंस)",
+   "pdfPage": 9
+  },
+  {
+   "id": "4.3",
+   "title": "Inheritance of Two Genes",
+   "hi": "दो जीनों की वंशागति",
+   "pdfPage": 12
+  },
+  {
+   "id": "4.3.1",
+   "title": "Law of Independent Assortment",
+   "hi": "स्वतंत्र अपव्यूहन का नियम",
+   "pdfPage": 14
+  },
+  {
+   "id": "4.3.2",
+   "title": "Chromosomal Theory of Inheritance",
+   "hi": "वंशागति का क्रोमोसोम सिद्धांत",
+   "pdfPage": 14
+  },
+  {
+   "id": "4.3.3",
+   "title": "Linkage and Recombination",
+   "hi": "सहलग्नता और पुनर्योजन",
+   "pdfPage": 17
+  },
+  {
+   "id": "4.4",
+   "title": "Polygenic Inheritance",
+   "hi": "बहुजीनी वंशागति",
+   "pdfPage": 19
+  },
+  {
+   "id": "4.5",
+   "title": "Pleiotropy",
+   "hi": "बहुप्रभाविता",
+   "pdfPage": 19
+  },
+  {
+   "id": "4.6",
+   "title": "Sex Determination",
+   "hi": "लिंग निर्धारण",
+   "pdfPage": 19
+  },
+  {
+   "id": "4.6.1",
+   "title": "Sex Determination in Humans",
+   "hi": "मानव में लिंग-निर्धारण",
+   "pdfPage": 21
+  },
+  {
+   "id": "4.6.2",
+   "title": "Sex Determination in Honey Bee",
+   "hi": "मधुप (मधुमक्खी) में लिंग निर्धारण",
+   "pdfPage": 21
+  },
+  {
+   "id": "4.7",
+   "title": "Mutation",
+   "pdfPage": 22
+  },
+  {
+   "id": "4.8",
+   "title": "Genetic Disorders",
+   "pdfPage": 22
+  },
+  {
+   "id": "4.8.1",
+   "title": "Pedigree Analysis",
+   "hi": "वंशावली विश्लेषण (पेडीग्री एनालेसिस)",
+   "pdfPage": 22
+  },
+  {
+   "id": "4.8.2",
+   "title": "Mendelian Disorders",
+   "hi": "मेंडलीय विकार",
+   "pdfPage": 23
+  },
+  {
+   "id": "4.8.3",
+   "title": "Chromosomal Disorders",
+   "pdfPage": 25
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio12-04-neet-2015-re-exam-code-d-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In his classic experiments on pea plants, Mendel did not use :",
+     "o": [
+      "Pod length",
+      "Seed shape",
+      "Flower position",
+      "Seed colour"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q1",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 1)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2015-re-exam-code-d-q31",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the following human pedigree, the filled symbols represent the affected individuals. Identify the type of given pedigree.",
+     "o": [
+      "X-linked recessive",
+      "Autosomal recessive",
+      "X-linked dominant",
+      "Autosomal dominant"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q31",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 2)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)",
+    "note": "Pedigree chart in the paper: needs a redrawn figure."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2015-re-exam-code-d-q35",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A pleiotropic gene",
+     "o": [
+      "Is a gene evolved during Pliocene",
+      "Controls a trait only in combination with another gene",
+      "Controls multiple traits in an individual",
+      "Is expressed only in primitive plants"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q35",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2015-re-exam-code-d-q43",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A gene showing codominance has :",
+     "o": [
+      "Alleles tightly linked on the same chromosome",
+      "Alleles that are recessive to each other",
+      "Both alleles independently expressed in the heterozygote",
+      "One allele dominant on the other"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q43",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2015-re-exam-code-d-q51",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The term ‘’linkage’’ was coined by :",
+     "o": [
+      "T. Boveri",
+      "G. Mendel",
+      "W. Sutton",
+      "T.H. Morgan"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q51",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2015-re-exam-code-d-q58",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A colour blind man marries a woman with normal sight who has no history of colour blindness in her family. What is the probability of their grandson being colour blind?",
+     "o": [
+      "1",
+      "Nil",
+      "0.25",
+      "0.5"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q58",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)",
+    "note": "Grandson through a carrier daughter (married to a normal man): 0.5; the key assumes this route."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2016-phase-1-code-a-q96",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following most appropriately describes hemophilia?",
+     "o": [
+      "Recessive gene disorder",
+      "X – linked recessive gene disorder",
+      "Chromosomal disorder",
+      "Dominant gene disorder"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q96",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2016-phase-1-code-a-q119",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A tall true breeding garden pea plant is crossed with a dwarf true breeding garden pea plant. When the F<sub>1</sub> plants were selfed the resulting genotypes were in the ratio of :",
+     "o": [
+      "1 : 2 : 1 :: Tall homozygous : Tall heterozygous : Dwarf",
+      "1 : 2 : 1 :: Tall heterozygous : Tall homozygous : Dwarf",
+      "3 : 1 :: Tall : Dwarf",
+      "3 : 1 :: Dwarf : Tall"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q119",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2016-phase-1-code-a-q126",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match Column I with Column II and select the correct option.<br>(a) Dominance — (i) Many genes govern a single character<br>(b) Codominance — (ii) In a heterozygous organism only one allele expresses itself<br>(c) Pleiotropy — (iii) In a heterozygous organism both alleles express themselves fully<br>(d) Polygenic inheritance — (iv) A single gene influences many characters",
+     "o": [
+      "(a) ii, (b) i, (c) iv, (d) iii",
+      "(a) ii, (b) iii, (c) iv, (d) i",
+      "(a) iv, (b) i, (c) ii, (d) iii",
+      "(a) iv, (b) iii, (c) i, (d) ii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.1",
+     "4.2.2.2",
+     "4.5",
+     "4.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q126",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2016-phase-1-code-a-q128",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Pick out the correct statements :<br>(i) Haemophilia is a sex-linked recessive disease<br>(ii) Down's syndrome is due to aneuploidy<br>(iii) Phenylketonuria is an autosomal recessive gene disorder<br>(iv) Sickle cell anaemia is an autosomal recessive gene disorder",
+     "o": [
+      "(i) and (iv) are correct",
+      "(ii) and (iv) are correct",
+      "(i), (iii) and (iv) are correct",
+      "(i), (ii) and (iii) are correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2",
+     "4.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q128",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)",
+    "note": "Statement (iv) is also true (NCERT: sickle-cell anaemia is autosomal recessive), so strictly all four are correct; the official key gives option 4."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2016-phase-1-code-a-q170",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a testcross involving F<sub>1</sub> dihybrid flies, more parental-type offspring were produced than the recombinant-type offspring. This indicates :",
+     "o": [
+      "The two genes are located on two different chromosomes",
+      "Chromosomes failed to separate during meiosis",
+      "The two genes are linked and present on the same chromosome",
+      "Both of the characters are controlled by more than one gene"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q170",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2016-phase-2-code-aa-q121",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The mechanism that causes a gene to move from one linkage group to another is called",
+     "o": [
+      "Inversion",
+      "Duplication",
+      "Translocation",
+      "Crossing-over"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q121",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 3)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2016-phase-2-code-aa-q123",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A true breeding plant is",
+     "o": [
+      "One that is able to breed on its own",
+      "Produced due to cross-pollination among unrelated plants",
+      "Near homozygous and produces offspring of its own kind",
+      "Always homozygous recessive in its genetic constitution"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q123",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 3)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2016-phase-2-code-aa-q165",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If a colour-blind man marries a woman who is homozygous for normal colour vision, the probability of their son being colour-blind is :",
+     "o": [
+      "0",
+      "0.5",
+      "0.75",
+      "1"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q165",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2017-code-a-q128",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A disease caused by an autosomal primary non-disjunction is :",
+     "o": [
+      "Down's syndrome",
+      "Klinefelter's syndrome",
+      "Turner's syndrome",
+      "Sickle cell anaemia"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q128",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 1)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2017-code-a-q134",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The genotypes of a husband and wife are I<sup>A</sup>I<sup>B</sup> and I<sup>A</sup>i. Among the blood types of their children, how many different genotypes and phenotypes are possible?",
+     "o": [
+      "3 genotypes ; 3 phenotypes",
+      "3 genotypes ; 4 phenotypes",
+      "4 genotypes ; 3 phenotypes",
+      "4 genotypes ; 4 phenotypes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q134",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2017-code-a-q147",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Among the following characters, which one was not considered by Mendel in his experiments on pea?",
+     "o": [
+      "Stem – Tall or Dwarf",
+      "Trichomes – Glandular or non-glandular",
+      "Seed – Green or Yellow",
+      "Pod – Inflated or Constricted"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q147",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2017-code-a-q151",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one from those given below is the period for Mendel's hybridisation experiments?",
+     "o": [
+      "1856 - 1863",
+      "1840 - 1850",
+      "1857 - 1869",
+      "1870 - 1877"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q151",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 1)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2017-code-a-q179",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Thalassemia and sickle cell anaemia are caused due to a problem in globin molecule synthesis. Select the correct statement.",
+     "o": [
+      "Both are due to a qualitative defect in globin chain synthesis",
+      "Both are due to a quantitative defect in globin chain synthesis",
+      "Thalassemia is due to less synthesis of globin molecules",
+      "Sickle cell anemia is due to a quantitative problem of globin molecules"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q179",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2018-code-aa-q104",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following pairs is wrongly matched?",
+     "o": [
+      "XO type sex determination : Grasshopper",
+      "ABO blood grouping : Co-dominance",
+      "Starch synthesis in pea : Multiple alleles",
+      "T.H. Morgan : Linkage"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.6",
+     "4.2.2.2",
+     "4.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q104",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 3)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2018-code-aa-q105",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the correct statement :",
+     "o": [
+      "Spliceosomes take part in translation.",
+      "Punnett square was developed by a British scientist.",
+      "Franklin Stahl coined the term \"linkage\".",
+      "Transduction was discovered by S. Altman."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2",
+     "4.3.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Molecular Basis of Inheritance"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q105",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2018-code-aa-q159",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A woman has an X-linked condition on one of her X chromosomes. This chromosome can be inherited by :",
+     "o": [
+      "Only grandchildren",
+      "Only sons",
+      "Only daughters",
+      "Both sons and daughters"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q159",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2018-code-aa-q180",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following characteristics represent 'Inheritance of blood groups' in humans?<br>a. Dominance<br>b. Co-dominance<br>c. Multiple allele<br>d. Incomplete dominance<br>e. Polygenic inheritance",
+     "o": [
+      "b, d and e",
+      "a, b and c",
+      "b, c and e",
+      "a, c and e"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q180",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2019-code-s2-q37",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the genetic disorder in which an individual has an overall masculine development, gynaecomastia, and is sterile?",
+     "o": [
+      "Edward syndrome",
+      "Down's syndrome",
+      "Turner's syndrome",
+      "Klinefelter's syndrome"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q37",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2019-code-s2-q63",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In Antirrhinum (Snapdragon), a red flower was crossed with a white flower and in F<sub>1</sub> generation pink flowers were obtained. When pink flowers were selfed, the F<sub>2</sub> generation showed white, red and pink flowers. Choose the incorrect statement from the following :",
+     "o": [
+      "Ratio of F<sub>2</sub> is 1/4 (Red) : 2/4 (Pink) : 1/4 (White)",
+      "Law of Segregation does not apply in this experiment.",
+      "This experiment does not follow the Principle of Dominance.",
+      "Pink colour in F<sub>1</sub> is due to incomplete dominance."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q63",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2019-code-s2-q79",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the incorrect Statement.",
+     "o": [
+      "In domesticated fowls, sex of progeny depends on the type of sperm rather than egg.",
+      "Human males have one of their sex-chromosome much shorter than the other.",
+      "Male fruit fly is heterogametic.",
+      "In male grasshopper, 50% of sperms have no sex-chromosome."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q79",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2019-code-s2-q83",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What map unit (Centimorgan) is adopted in the construction of genetic maps?",
+     "o": [
+      "A unit of distance between genes on chromosomes, representing 1% cross over.",
+      "A unit of distance between genes on chromosomes, representing 50% cross over.",
+      "A unit of distance between two expressed genes, representing 10% cross over.",
+      "A unit of distance between two expressed genes, representing 100% cross over."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q83",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)",
+    "note": "NCERT describes Sturtevant's maps from recombination frequency but not the centimorgan."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2019-code-s2-q87",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes was explained by :",
+     "o": [
+      "Alfred Sturtevant",
+      "Sutton Boveri",
+      "T.H. Morgan",
+      "Gregor J. Mendel"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q87",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2020-code-f3-q148",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the wrong statement with reference to the gene ‘I’ that controls ABO blood groups.",
+     "o": [
+      "When I<sup>A</sup> and I<sup>B</sup> are present together, they express same type of sugar.",
+      "Allele 'i' does not produce any sugar.",
+      "The gene (I) has three alleles.",
+      "A person will have only two of the three alleles."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q148",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2020-code-f3-q162",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Experimental verification of the chromosomal theory of inheritance was done by :",
+     "o": [
+      "Boveri",
+      "Morgan",
+      "Mendel",
+      "Sutton"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q162",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2020-code-f3-q172",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the correct match",
+     "o": [
+      "Sickle cell anaemia – Autosomal recessive trait, chromosome 11",
+      "Thalassemia – X linked",
+      "Haemophilia – Y linked",
+      "Phenylketonuria – Autosomal dominant trait"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q172",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2020-code-f3-q178",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How many true breeding pea plant varieties did Mendel select as pairs, which were similar except in one character with contrasting traits?",
+     "o": [
+      "14",
+      "8",
+      "4",
+      "2"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q178",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2021-code-p3-q109",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The production of gametes by the parents, formation of zygotes, the F<sub>1</sub> and F<sub>2</sub> plants, can be understood from a diagram called :",
+     "o": [
+      "Net square",
+      "Bullet square",
+      "Punch square",
+      "Punnett square"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q109",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2021-code-p3-q184",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a cross between a male and female, both heterozygous for sickle cell anaemia gene, what percentage of the progeny will be diseased?",
+     "o": [
+      "100%",
+      "50%",
+      "75%",
+      "25%"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q184",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2022-code-t2-q124",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Mendel studied seven pairs of contrasting traits in pea plants and proposed the Laws of Inheritance.<br>Statement II: Seven characters examined by Mendel in his experiment on pea plants were seed shape and colour, flower colour, pod shape and colour, flower position and stem height.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct",
+      "Both Statement I and Statement II are correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q124",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2022-code-t2-q134",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "XO type of sex determination can be found in:",
+     "o": [
+      "Birds",
+      "Grasshoppers",
+      "Monkeys",
+      "Drosophila"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q134",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2022-code-t2-q141",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R) :<br>Assertion (A): Mendel's law of Independent assortment does not hold good for the genes that are located closely on the same chromosome.<br>Reason (R): Closely located genes assort independently.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+      "(A) is correct but (R) is not correct",
+      "(A) is not correct but (R) is correct",
+      "Both (A) and (R) are correct and (R) is the correct explanation of (A)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q141",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2022-code-t2-q148",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following occurs due to the presence of autosome linked dominant trait?",
+     "o": [
+      "Myotonic dystrophy",
+      "Haemophilia",
+      "Thalassemia",
+      "Sickle cell anaemia"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q148",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2022-code-t2-q192",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The recombination frequency between the genes a & c is 5%, b & c is 15%, b & d is 9%, a & b is 20%, c & d is 24% and a & d is 29%. What will be the sequence of these genes on a linear chromosome?",
+     "o": [
+      "d, b, a, c",
+      "a, b, c, d",
+      "a, c, b, d",
+      "a, d, b, c"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q192",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2022-code-t2-q200",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If a colour blind female marries a man whose mother was also colour blind, what are the chances of her progeny having colour blindness?",
+     "o": [
+      "50%",
+      "75%",
+      "100%",
+      "25%"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q200",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15). Colour-blind female (X<sup>c</sup>X<sup>c</sup>) × man whose mother was colour blind (so X<sup>c</sup>Y): all progeny colour blind."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2023-topic-wise-copy-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The phenomenon of pleiotropism refers to",
+     "o": [
+      "more than two genes affecting a single character.",
+      "presence of several alleles of a single gene controlling a single crossover.",
+      "presence of two alleles, each of the two genes controlling a single trait.",
+      "a single gene affecting multiple phenotypic expression."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q23",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2023-topic-wise-copy-q24",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Frequency of recombination between gene pairs on same chromosome as a measure of the distance between genes to map their position on chromosome, was used for the first time by",
+     "o": [
+      "Henking",
+      "Thomas Hunt Morgan",
+      "Sutton and Boveri",
+      "Alfred Sturtevant"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q24",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2023-topic-wise-copy-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are correct about Klinefelter's Syndrome?<br>A. This disorder was first described by Langdon Down (1866).<br>B. Such an individual has overall masculine development. However, the feminine development is also expressed.<br>C. The affected individual is short statured.<br>D. Physical, psychomotor and mental development is retarded.<br>E. Such individuals are sterile.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A and E only",
+      "A and B only",
+      "C and D only",
+      "B and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q45",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2023-topic-wise-copy-q72",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following symbols represents mating between relatives in human pedigree analysis?",
+     "o": [
+      "[pedigree symbol 1]",
+      "[pedigree symbol 2]",
+      "[pedigree symbol 3]",
+      "[pedigree symbol 4]"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q72",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Options are pedigree symbols drawn in the paper (the keyed one is the double line joining male and female); needs redrawn figures."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2023-topic-wise-copy-q73",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Broad palm with single palm crease is visible in a person suffering from-",
+     "o": [
+      "Thalassemia",
+      "Down’s syndrome",
+      "Turner’s syndrome",
+      "Klinefelter’s syndrome"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q73",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2024-q111-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following can be explained on the basis of Mendel's Law of Dominance?<br>A. Out of one pair of factors one is dominant and the other is recessive.<br>B. Alleles do not show any expression and both the characters appear as such in F<sub>2</sub> generation.<br>C. Factors occur in pairs in normal diploid plants.<br>D. The discrete unit controlling a particular character is called factor.<br>E. The expression of only one of the parental characters is found in a monohybrid cross.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, B and C only",
+      "A, C, D and E only",
+      "B, C and D only",
+      "A, B, C, D and E"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q111 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2024-q134-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "As per ABO blood grouping system, the blood group of father is B<sup>+</sup>, mother is A<sup>+</sup> and child is O<sup>+</sup>. Their respective genotype can be :<br>A. I<sup>B</sup>i / I<sup>A</sup>i / ii<br>B. I<sup>B</sup>I<sup>B</sup> / I<sup>A</sup>I<sup>A</sup> / ii<br>C. I<sup>A</sup>I<sup>B</sup> / iI<sup>A</sup> / I<sup>B</sup>i<br>D. I<sup>A</sup>i / I<sup>B</sup>i / I<sup>A</sup>i<br>E. iI<sup>B</sup> / iI<sup>A</sup> / I<sup>A</sup>I<sup>B</sup><br>Choose the most appropriate answer from the options given below :",
+     "o": [
+      "A only",
+      "B only",
+      "C & B only",
+      "D & E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q134 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2024-q135-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Two or more alternative forms of a gene — I. Back cross<br>B. Cross of F<sub>1</sub> progeny with homozygous recessive parent — II. Ploidy<br>C. Cross of F<sub>1</sub> progeny with any of the parents — III. Allele<br>D. Number of chromosome sets in plant — IV. Test cross",
+     "o": [
+      "A-I, B-II, C-III, D-IV",
+      "A-II, B-I, C-III, D-IV",
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-III, C-II, D-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2",
+     "4.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q135 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options 2 and 4 clipped in the copy; check against the booklet."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2024-q166-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a plant, black seed colour (BB/Bb) is dominant over white seed colour (bb). In order to find out the genotype of the black seed plant, with which of the following genotype will you cross it?",
+     "o": [
+      "bb",
+      "Bb",
+      "BB/Bb",
+      "BB"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q166 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2024-q197-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A pink flowered Snapdragon plant was crossed with a red flowered Snapdragon plant. What type of phenotype(s) is/are expected in the progeny?",
+     "o": [
+      "Only pink flowered plants",
+      "Red, Pink as well as white flowered plant",
+      "Only red flowered plants",
+      "Red flowered as well as pink flowered plant"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q197 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2024-q198-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>A. Down's syndrome — I. 11th chromosome<br>B. α-Thalassemia — II. 'X' chromosome<br>C. β-Thalassemia — III. 21st chromosome<br>D. Klinefelter's syndrome — IV. 16th chromosome",
+     "o": [
+      "A-IV, B-I, C-II, D-III",
+      "A-I, B-II, C-III, D-IV",
+      "A-III, B-IV, C-I, D-II",
+      "A-II, B-III, C-IV, D-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2",
+     "4.8.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q198 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options clipped at the right edge in the eSaral copy; completed from the other options (each is a permutation)."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2025-code-45-q130",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the pattern of inheritance for polygenic trait?",
+     "o": [
+      "Mendelian inheritance pattern",
+      "Non-mendelian inheritance pattern",
+      "Autosomal dominant pattern",
+      "X-linked recessive inheritance pattern"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q130",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 2)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2025-code-45-q145",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Genes R and Y follow independent assortment. If RRYY produce round yellow seeds and rryy produce wrinkled green seeds, what will be the phenotypic ratio of the F<sub>2</sub> generation?",
+     "o": [
+      "Phenotypic ratio - 1 : 2 : 1 .",
+      "Phenotypic ratio - 3 : 1",
+      "Phenotypic ratio - 9 : 3 : 3 : 1",
+      "Phenotypic ratio - 9 : 7 n"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q145",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 3)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio12-04-neet-2025-code-45-q152",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "With the help of given pedigree, find out the probability for the birth of a child having no disease and being a carrier (has the disease mutation in one allele of the gene) in F<sub>3</sub> generation.",
+     "o": [
+      "1/4",
+      "1/2",
+      "1/8",
+      "Zero"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q152",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "Pedigree chart in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2026-q93-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the probability of having children with 'O' blood group, where both mother and father are heterozygous for 'A' and 'B' blood group, respectively?",
+     "o": [
+      "0%",
+      "50%",
+      "25%",
+      "75% 26 Paper-(PCB)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q93 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q136."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2026-q98-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Incomplete dominance — I. Human skin colour<br>B. Co-dominance — II. Inheritance of flower colour in Antirrhinum sp.<br>C. Pleiotropy — III. Phenylketonuria disease in humans<br>D. Polygenic inheritance — IV. ABO blood group",
+     "o": [
+      "A-I, B-IV, C-III, D-II",
+      "A-I, B-III, C-II, D-IV",
+      "A-II, B-IV, C-III, D-I",
+      "A-II, B-I, C-III, D-IV"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.2.2.1",
+     "4.2.2.2",
+     "4.5",
+     "4.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q98 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q131."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2026-q102-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following disorders is caused by the substitution of Glutamic acid (Glu) by Valine (Val) at the sixth position of the beta globin chain of the haemoglobin molecule?",
+     "o": [
+      "Phenylketonuria",
+      "Haemophilia",
+      "Sickle-cell anaemia",
+      "Thalassemia"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q102 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q127."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2026-q136-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements are true with reference to the sex-determination in honeybees?<br>A. An offspring formed from the union of a sperm and an egg, develops as a female (queen or worker).<br>B. An unfertilized egg develops as a male by parthenogenesis.<br>C. A male has half the number of chromosomes than that of a female.<br>D. Males produce sperms by meiosis.<br>E. Honeybees have a haplodiploid sex determination system.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, B, C and E only",
+      "A, B, C and D only",
+      "B, C, D and E only",
+      "A, B, D and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q136 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 1)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q93."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2026-q145-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a population of a grasshopper species, the chromosome number of some members is 23 and some other members possess 24 chromosomes. The 23 and 24 chromosome-bearing members in this species are ___.",
+     "o": [
+      "females and males, respectively",
+      "males and females, respectively",
+      "all males",
+      "all females"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q145 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 2)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q177."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2026-q165-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In which animal do haploid cells divide mitotically to produce gametes?",
+     "o": [
+      "Male honeybees",
+      "Male grasshoppers",
+      "Male earthworms",
+      "Male frogs"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q165 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 1)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q145."
+   }
+  },
+  {
+   "id": "bio12-04-neet-2026-q179-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The sixth mutant codon of beta globin gene causing polymerization of haemoglobin and change in RBC shape is ___.",
+     "o": [
+      "CAG",
+      "AUG",
+      "GUG",
+      "GAG"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-04",
+    "paras": [
+     "4.8.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q179 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q159."
+   }
+  }
+ ]
+}

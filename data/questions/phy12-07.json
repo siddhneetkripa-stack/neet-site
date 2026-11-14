@@ -1,0 +1,1307 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-07",
+ "subject": "physics",
+ "class": 12,
+ "unit": 7,
+ "title": {
+  "en": "Alternating Current"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph107.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "7.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "7.2",
+   "title": "AC Voltage Applied to a Resistor",
+   "hi": "प्रतिरोधक पर प्रयुक्त ac वोल्टता",
+   "pdfPage": 2
+  },
+  {
+   "id": "7.3",
+   "title": "Representation of AC Current and Voltage by Rotating Vectors — Phasors",
+   "hi": "ac धारा एवं वोल्टता का घूर्णी सदिश द्वारा निरूपण",
+   "pdfPage": 5
+  },
+  {
+   "id": "7.4",
+   "title": "AC Voltage Applied to an Inductor",
+   "hi": "प्रेरक पर प्रयुक्त ac वोल्टता",
+   "pdfPage": 5
+  },
+  {
+   "id": "7.5",
+   "title": "AC Voltage Applied to a Capacitor",
+   "hi": "संधारित्र पर प्रयुक्त ac वोल्टता",
+   "pdfPage": 8
+  },
+  {
+   "id": "7.6",
+   "title": "AC Voltage Applied to a Series LCR Circuit",
+   "hi": "श्रेणीबद्ध LCR परिपथ पर प्रयुक्त ac वोल्टता",
+   "pdfPage": 10
+  },
+  {
+   "id": "7.6.1",
+   "title": "Phasor-diagram Solution",
+   "hi": "फेजर आरेख द्वारा हल",
+   "pdfPage": 11
+  },
+  {
+   "id": "7.6.2",
+   "title": "Resonance",
+   "hi": "अनुनाद",
+   "pdfPage": 12
+  },
+  {
+   "id": "7.7",
+   "title": "Power in AC Circuit: The Power Factor",
+   "hi": "ac परिपथों में शक्ति : शक्ति गुणांक",
+   "pdfPage": 14
+  },
+  {
+   "id": "7.8",
+   "title": "Transformers",
+   "hi": "ट्रांसफॉर्मर",
+   "pdfPage": 18
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-07-neet-2015-re-exam-code-d-q145",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A series R-C circuit is connected to an alternating voltage source. Consider two situations :<br>(a) When capacitor is air filled.<br>(b) When capacitor is mica filled.<br>Current through resistor is i and voltage across capacitor is V, then :",
+     "o": [
+      "V<sub>a</sub> > V<sub>b</sub>",
+      "i<sub>a</sub> > i<sub>b</sub>",
+      "V<sub>a</sub> = V<sub>b</sub>",
+      "V<sub>a</sub> < V<sub>b</sub>"
+     ],
+     "sol": "<p>Mica raises the capacitance, so X<sub>C</sub> = 1/(ωC) falls. The current i = V<sub>0</sub>/√(R<sup>2</sup> + X<sub>C</sub><sup>2</sup>) rises (i<sub>b</sub> > i<sub>a</sub>), while the capacitor's share of the voltage, V = V<sub>0</sub>X<sub>C</sub>/√(R<sup>2</sup> + X<sub>C</sub><sup>2</sup>), falls.</p><p>Hence <b>V<sub>a</sub> > V<sub>b</sub></b>.</p>",
+     "hint": "Larger C ⇒ smaller X<sub>C</sub> ⇒ smaller share of voltage across C."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक श्रेणी R-C परिपथ एक प्रत्यावर्ती वोल्टता स्रोत से जुड़ा है। दो स्थितियों पर विचार कीजिए :<br>(a) जब संधारित्र वायु से भरा है।<br>(b) जब संधारित्र अभ्रक से भरा है।<br>प्रतिरोधक से धारा i और संधारित्र के सिरों पर वोल्टता V है, तब :",
+     "o": [
+      "V<sub>a</sub> > V<sub>b</sub>",
+      "i<sub>a</sub> > i<sub>b</sub>",
+      "V<sub>a</sub> = V<sub>b</sub>",
+      "V<sub>a</sub> < V<sub>b</sub>"
+     ],
+     "sol": "<p>अभ्रक धारिता बढ़ाता है, अतः X<sub>C</sub> = 1/(ωC) घटता है। धारा i = V<sub>0</sub>/√(R<sup>2</sup> + X<sub>C</sub><sup>2</sup>) बढ़ती है (i<sub>b</sub> > i<sub>a</sub>), जबकि संधारित्र का वोल्टता भाग V = V<sub>0</sub>X<sub>C</sub>/√(R<sup>2</sup> + X<sub>C</sub><sup>2</sup>) घटता है।</p><p>अतः <b>V<sub>a</sub> > V<sub>b</sub></b>।</p>",
+     "hint": "अधिक C ⇒ कम X<sub>C</sub> ⇒ C पर वोल्टता का कम भाग।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q145",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2016-phase-1-code-a-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An inductor 20 mH, a capacitor 50 μF and a resistor 40 Ω are connected in series across a source of emf V = 10 sin 340 t. The power loss in A.C. circuit is :",
+     "o": [
+      "0.51 W",
+      "0.67 W",
+      "0.76 W",
+      "0.89 W"
+     ],
+     "sol": "<p>ω = 340 rad/s: X<sub>L</sub> = 340 × 0.02 = 6.8 Ω, X<sub>C</sub> = 1/(340 × 50 × 10<sup>−6</sup>) ≈ 58.8 Ω. Z = √(40<sup>2</sup> + 52<sup>2</sup>) ≈ 65.6 Ω.</p><p>I<sub>rms</sub> = (10/√2)/65.6 ≈ 0.108 A; P = I<sub>rms</sub><sup>2</sup>R ≈ 0.0116 × 40 ≈ 0.46 W. The nearest option, given in the key, is <b>0.51 W</b>.</p>",
+     "hint": "Only the resistor dissipates power: P = I<sub>rms</sub><sup>2</sup>R."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "20 mH का एक प्रेरक, 50 μF का एक संधारित्र और 40 Ω का एक प्रतिरोधक, विद्युत वाहक बल V = 10 sin 340 t वाले स्रोत के सिरों पर श्रेणीक्रम में जुड़े हैं। A.C. परिपथ में शक्ति क्षय है :",
+     "o": [
+      "0.51 W",
+      "0.67 W",
+      "0.76 W",
+      "0.89 W"
+     ],
+     "sol": "<p>ω = 340 rad/s : X<sub>L</sub> = 340 × 0.02 = 6.8 Ω, X<sub>C</sub> = 1/(340 × 50 × 10<sup>−6</sup>) ≈ 58.8 Ω। Z = √(40<sup>2</sup> + 52<sup>2</sup>) ≈ 65.6 Ω।</p><p>I<sub>rms</sub> = (10/√2)/65.6 ≈ 0.108 A; P = I<sub>rms</sub><sup>2</sup>R ≈ 0.0116 × 40 ≈ 0.46 W। कुंजी में दिया निकटतम विकल्प <b>0.51 W</b> है।</p>",
+     "hint": "केवल प्रतिरोधक शक्ति क्षय करता है : P = I<sub>rms</sub><sup>2</sup>R।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q40",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Direct working gives P ≈ 0.46 W (Z ≈ 65.6 Ω); the key's 0.51 W is the nearest option."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2016-phase-1-code-a-q43",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A small signal voltage V(t) = V0 sin ωt is applied across an ideal capacitor C:",
+     "o": [
+      "Current I(t) lags voltage V(t) by 90°",
+      "Over a full cycle the capacitor C does not consume any energy from the voltage source",
+      "Current I(t) is in phase with voltage V(t)",
+      "Current I(t) leads voltage V(t) by 180°"
+     ],
+     "sol": "<p>For an ideal capacitor the current leads the voltage by 90°, so the average power V<sub>rms</sub>I<sub>rms</sub> cos 90° = 0: the energy stored in one quarter-cycle is returned in the next. <b>Over a full cycle the capacitor does not consume any energy</b>.</p>",
+     "hint": "Power factor of a pure capacitor is zero."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक आदर्श संधारित्र C के सिरों पर एक लघु संकेत वोल्टता V(t) = V0 sin ωt लगाई जाती है :",
+     "o": [
+      "धारा I(t), वोल्टता V(t) से 90° पीछे रहती है",
+      "एक पूर्ण चक्र में संधारित्र C वोल्टता स्रोत से कोई ऊर्जा नहीं लेता",
+      "धारा I(t), वोल्टता V(t) के साथ समान कला में है",
+      "धारा I(t), वोल्टता V(t) से 180° आगे रहती है"
+     ],
+     "sol": "<p>आदर्श संधारित्र के लिए धारा वोल्टता से 90° आगे रहती है, अतः औसत शक्ति V<sub>rms</sub>I<sub>rms</sub> cos 90° = 0 : एक चौथाई चक्र में संचित ऊर्जा अगले में लौटा दी जाती है। <b>एक पूर्ण चक्र में संधारित्र कोई ऊर्जा नहीं लेता</b>।</p>",
+     "hint": "शुद्ध संधारित्र का शक्ति गुणांक शून्य है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.5",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q43",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2016-phase-2-code-aa-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following combinations should be selected for better tuning of an L-C-R circuit used for communication?",
+     "o": [
+      "R = 20 Ω, L = 1.5 H, C = 35 μF",
+      "R = 25 Ω, L = 2.5 H, C = 45 μF",
+      "R = 15 Ω, L = 3.5 H, C = 30 μF",
+      "R = 25 Ω, L = 1.5 H, C = 45 μF"
+     ],
+     "sol": "<p>Sharper tuning means a higher quality factor Q = (1/R)√(L/C). Values: (1) √(1.5/35 × 10<sup>−6</sup>)/20 ≈ 10.4; (2) √(2.5/45 × 10<sup>−6</sup>)/25 ≈ 9.4; (3) √(3.5/30 × 10<sup>−6</sup>)/15 ≈ 22.8; (4) √(1.5/45 × 10<sup>−6</sup>)/25 ≈ 7.3.</p><p>Best: <b>R = 15 Ω, L = 3.5 H, C = 30 μF</b>.</p>",
+     "hint": "Small R, large L/C ⇒ large Q."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "संचार के लिए प्रयुक्त L-C-R परिपथ के बेहतर समस्वरण के लिए निम्नलिखित में से कौन-सा संयोजन चुना जाना चाहिए?",
+     "o": [
+      "R = 20 Ω, L = 1.5 H, C = 35 μF",
+      "R = 25 Ω, L = 2.5 H, C = 45 μF",
+      "R = 15 Ω, L = 3.5 H, C = 30 μF",
+      "R = 25 Ω, L = 1.5 H, C = 45 μF"
+     ],
+     "sol": "<p>तीक्ष्ण समस्वरण का अर्थ अधिक गुणता कारक Q = (1/R)√(L/C) है। मान : (1) √(1.5/35 × 10<sup>−6</sup>)/20 ≈ 10.4; (2) √(2.5/45 × 10<sup>−6</sup>)/25 ≈ 9.4; (3) √(3.5/30 × 10<sup>−6</sup>)/15 ≈ 22.8; (4) √(1.5/45 × 10<sup>−6</sup>)/25 ≈ 7.3।</p><p>सर्वोत्तम : <b>R = 15 Ω, L = 3.5 H, C = 30 μF</b>।</p>",
+     "hint": "कम R, अधिक L/C ⇒ अधिक Q।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q30",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2016-phase-2-code-aa-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The potential differences across the resistance, capacitance and inductance are 80 V, 40 V and 100 V respectively in an L-C-R circuit. The power factor of this circuit is :",
+     "o": [
+      "0.4",
+      "0.5",
+      "0.8",
+      "1.0"
+     ],
+     "sol": "<p>V = √(V<sub>R</sub><sup>2</sup> + (V<sub>L</sub> − V<sub>C</sub>)<sup>2</sup>) = √(80<sup>2</sup> + 60<sup>2</sup>) = 100 V. Power factor cos φ = V<sub>R</sub>/V = 80/100 = <b>0.8</b>.</p>",
+     "hint": "Phasor sum: V<sub>L</sub> and V<sub>C</sub> are opposite."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक L-C-R परिपथ में प्रतिरोध, धारिता और प्रेरकत्व के सिरों पर विभवांतर क्रमशः 80 V, 40 V और 100 V हैं। इस परिपथ का शक्ति गुणांक है :",
+     "o": [
+      "0.4",
+      "0.5",
+      "0.8",
+      "1.0"
+     ],
+     "sol": "<p>V = √(V<sub>R</sub><sup>2</sup> + (V<sub>L</sub> − V<sub>C</sub>)<sup>2</sup>) = √(80<sup>2</sup> + 60<sup>2</sup>) = 100 V। शक्ति गुणांक cos φ = V<sub>R</sub>/V = 80/100 = <b>0.8</b>।</p>",
+     "hint": "फेजर योग : V<sub>L</sub> और V<sub>C</sub> विपरीत हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q32",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2018-code-aa-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314t. The power loss in the circuit is :",
+     "o": [
+      "2.74 W",
+      "0.43 W",
+      "0.79 W",
+      "1.13 W"
+     ],
+     "sol": "<p>ω = 314: X<sub>L</sub> = 314 × 0.02 = 6.28 Ω, X<sub>C</sub> = 1/(314 × 10<sup>−4</sup>) ≈ 31.85 Ω. Z = √(50<sup>2</sup> + 25.6<sup>2</sup>) ≈ 56.2 Ω.</p><p>I<sub>rms</sub> = 7.07/56.2 ≈ 0.126 A; P = I<sub>rms</sub><sup>2</sup>R ≈ 0.0158 × 50 ≈ <b>0.79 W</b>.</p>",
+     "hint": "Use rms values; power is dissipated only in R."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "20 mH का एक प्रेरक, 100 μF का एक संधारित्र और 50 Ω का एक प्रतिरोधक विद्युत वाहक बल V = 10 sin 314t वाले स्रोत के सिरों पर श्रेणीक्रम में जुड़े हैं। परिपथ में शक्ति क्षय है :",
+     "o": [
+      "2.74 W",
+      "0.43 W",
+      "0.79 W",
+      "1.13 W"
+     ],
+     "sol": "<p>ω = 314 : X<sub>L</sub> = 314 × 0.02 = 6.28 Ω, X<sub>C</sub> = 1/(314 × 10<sup>−4</sup>) ≈ 31.85 Ω। Z = √(50<sup>2</sup> + 25.6<sup>2</sup>) ≈ 56.2 Ω।</p><p>I<sub>rms</sub> = 7.07/56.2 ≈ 0.126 A; P = I<sub>rms</sub><sup>2</sup>R ≈ 0.0158 × 50 ≈ <b>0.79 W</b>।</p>",
+     "hint": "rms मान लीजिए; शक्ति केवल R में क्षयित होती है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q28",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2020-code-f3-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A series LCR circuit is connected to an AC voltage source. When L is removed from the circuit, the phase difference between current and voltage is π/3. If instead C is removed from the circuit, the phase difference is again π/3 between current and voltage. The power factor of the circuit is :",
+     "o": [
+      "1.0",
+      "−1.0",
+      "zero",
+      "0.5"
+     ],
+     "sol": "<p>Without L: tan(π/3) = X<sub>C</sub>/R. Without C: tan(π/3) = X<sub>L</sub>/R. So X<sub>L</sub> = X<sub>C</sub>: the full circuit is at resonance, Z = R, and the power factor is <b>1.0</b>.</p>",
+     "hint": "Equal phase angles ⇒ X<sub>L</sub> = X<sub>C</sub>."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक श्रेणी LCR परिपथ एक AC वोल्टता स्रोत से जुड़ा है। जब परिपथ से L हटा दिया जाता है, तो धारा और वोल्टता के बीच कलांतर π/3 है। यदि इसके स्थान पर परिपथ से C हटा दिया जाए, तो धारा और वोल्टता के बीच कलांतर पुनः π/3 है। परिपथ का शक्ति गुणांक है :",
+     "o": [
+      "1.0",
+      "−1.0",
+      "शून्य",
+      "0.5"
+     ],
+     "sol": "<p>L के बिना : tan(π/3) = X<sub>C</sub>/R । C के बिना : tan(π/3) = X<sub>L</sub>/R । अतः X<sub>L</sub> = X<sub>C</sub> : पूरा परिपथ अनुनाद में है, Z = R, और शक्ति गुणांक <b>1.0</b> है।</p>",
+     "hint": "समान कला कोण ⇒ X<sub>L</sub> = X<sub>C</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q22",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2020-code-f3-q32",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 40 μF capacitor is connected to a 200 V, 50 Hz ac supply. The rms value of the current in the circuit is, nearly :",
+     "o": [
+      "2.5 A",
+      "25.1 A",
+      "1.7 A",
+      "2.05 A"
+     ],
+     "sol": "<p>X<sub>C</sub> = 1/(2πfC) = 1/(2π × 50 × 40 × 10<sup>−6</sup>) ≈ 79.6 Ω. I<sub>rms</sub> = 200/79.6 ≈ <b>2.5 A</b>.</p>",
+     "hint": "I = V<sub>rms</sub>ωC."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "40 μF का एक संधारित्र 200 V, 50 Hz की ac आपूर्ति से जुड़ा है। परिपथ में धारा का rms मान लगभग है :",
+     "o": [
+      "2.5 A",
+      "25.1 A",
+      "1.7 A",
+      "2.05 A"
+     ],
+     "sol": "<p>X<sub>C</sub> = 1/(2πfC) = 1/(2π × 50 × 40 × 10<sup>−6</sup>) ≈ 79.6 Ω। I<sub>rms</sub> = 200/79.6 ≈ <b>2.5 A</b>।</p>",
+     "hint": "I = V<sub>rms</sub>ωC।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q32",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2021-code-p3-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An inductor of inductance L, a capacitor of capacitance C and a resistor of resistance 'R' are connected in series to an ac source of potential difference 'V' volts as shown in figure. Potential difference across L, C and R is 40 V, 10 V and 40 V, respectively. The amplitude of current flowing through LCR series circuit is 10√2 A. The impedance of the circuit is :",
+     "o": [
+      "5 Ω",
+      "4√2 Ω",
+      "5√2 Ω",
+      "4 Ω"
+     ],
+     "sol": "<p>Source voltage V = √(40<sup>2</sup> + (40 − 10)<sup>2</sup>) = 50 V (rms, like the given voltages). The current amplitude 10√2 A means I<sub>rms</sub> = 10 A.</p><p>Z = V<sub>rms</sub>/I<sub>rms</sub> = 50/10 = <b>5 Ω</b>.</p>",
+     "hint": "Use rms with rms."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "L प्रेरकत्व का एक प्रेरक, C धारिता का एक संधारित्र और 'R' प्रतिरोध का एक प्रतिरोधक चित्र में दिखाए अनुसार 'V' वोल्ट विभवांतर वाले ac स्रोत से श्रेणीक्रम में जुड़े हैं। L, C और R के सिरों पर विभवांतर क्रमशः 40 V, 10 V और 40 V हैं। LCR श्रेणी परिपथ से प्रवाहित धारा का आयाम 10√2 A है। परिपथ की प्रतिबाधा है :",
+     "o": [
+      "5 Ω",
+      "4√2 Ω",
+      "5√2 Ω",
+      "4 Ω"
+     ],
+     "sol": "<p>स्रोत वोल्टता V = √(40<sup>2</sup> + (40 − 10)<sup>2</sup>) = 50 V (दिए गए वोल्टताओं की तरह rms)। धारा आयाम 10√2 A का अर्थ I<sub>rms</sub> = 10 A।</p><p>Z = V<sub>rms</sub>/I<sub>rms</sub> = 50/10 = <b>5 Ω</b>।</p>",
+     "hint": "rms को rms के साथ लीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q16",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "The figure only repeats the data (L, C, R in series across V with 40 V, 10 V, 40 V marked)."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2021-code-p3-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A step down transformer connected to an ac mains supply of 220 V is made to operate at 11 V, 44 W lamp. Ignoring power losses in the transformer, what is the current in the primary circuit?",
+     "o": [
+      "4 A",
+      "0.2 A",
+      "0.4 A",
+      "2 A"
+     ],
+     "sol": "<p>Ideal transformer: input power = output power = 44 W. I<sub>p</sub> = 44/220 = <b>0.2 A</b>.</p>",
+     "hint": "V<sub>p</sub>I<sub>p</sub> = V<sub>s</sub>I<sub>s</sub>."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "220 V की ac मुख्य आपूर्ति से जुड़े एक अपचायी ट्रांसफार्मर को 11 V, 44 W के लैंप पर कार्य कराने के लिए बनाया गया है। ट्रांसफार्मर में शक्ति हानियों की उपेक्षा करते हुए प्राथमिक परिपथ में धारा क्या है?",
+     "o": [
+      "4 A",
+      "0.2 A",
+      "0.4 A",
+      "2 A"
+     ],
+     "sol": "<p>आदर्श ट्रांसफार्मर : निवेश शक्ति = निर्गत शक्ति = 44 W। I<sub>p</sub> = 44/220 = <b>0.2 A</b>।</p>",
+     "hint": "V<sub>p</sub>I<sub>p</sub> = V<sub>s</sub>I<sub>s</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q45",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2021-code-p3-q47",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A series LCR circuit containing 5.0 H inductor, 80 μF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :",
+     "o": [
+      "42 rad/s and 58 rad/s",
+      "25 rad/s and 75 rad/s",
+      "50 rad/s and 25 rad/s",
+      "46 rad/s and 54 rad/s"
+     ],
+     "sol": "<p>Resonance: ω<sub>0</sub> = 1/√(LC) = 1/√(5 × 80 × 10<sup>−6</sup>) = 50 rad/s. Power is half the resonant value where |X<sub>L</sub> − X<sub>C</sub>| = R, i.e. (for a sharp peak) ω = ω<sub>0</sub> ± R/(2L) = 50 ± 40/10 = 50 ± 4.</p><p>Answer: <b>46 rad/s and 54 rad/s</b>.</p>",
+     "hint": "Half-power bandwidth Δω = R/L."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "5.0 H प्रेरक, 80 μF संधारित्र और 40 Ω प्रतिरोधक वाला एक श्रेणी LCR परिपथ 230 V के चर आवृत्ति वाले ac स्रोत से जुड़ा है। स्रोत की वे कोणीय आवृत्तियाँ, जिन पर परिपथ को स्थानांतरित शक्ति अनुनादी कोणीय आवृत्ति पर शक्ति की आधी है, संभवतः हैं :",
+     "o": [
+      "42 rad/s और 58 rad/s",
+      "25 rad/s और 75 rad/s",
+      "50 rad/s और 25 rad/s",
+      "46 rad/s और 54 rad/s"
+     ],
+     "sol": "<p>अनुनाद : ω<sub>0</sub> = 1/√(LC) = 1/√(5 × 80 × 10<sup>−6</sup>) = 50 rad/s । शक्ति अनुनादी मान की आधी वहाँ है जहाँ |X<sub>L</sub> − X<sub>C</sub>| = R, अर्थात (तीक्ष्ण शिखर के लिए) ω = ω<sub>0</sub> ± R/(2L) = 50 ± 40/10 = 50 ± 4।</p><p>उत्तर : <b>46 rad/s और 54 rad/s</b>।</p>",
+     "hint": "अर्ध-शक्ति बैंड चौड़ाई Δω = R/L ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2",
+     "7.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q47",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "Half-power frequencies are not derived in the rationalised chapter: ω = ω<sub>0</sub> ± R/2L = 50 ± 4 rad/s."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2022-code-t2-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The peak voltage of the ac source is equal to :",
+     "o": [
+      "the rms value of the ac source",
+      "√2 times the rms value of the ac source",
+      "1/√2 times the rms value of the ac source",
+      "the value of voltage supplied to the circuit"
+     ],
+     "sol": "<p>For sinusoidal ac, V<sub>rms</sub> = V<sub>0</sub>/√2, so the peak voltage V<sub>0</sub> = <b>√2 times the rms value</b>.</p>",
+     "hint": "V<sub>rms</sub> = V<sub>0</sub>/√2."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "ac स्रोत की शिखर वोल्टता बराबर है :",
+     "o": [
+      "ac स्रोत के rms मान के",
+      "ac स्रोत के rms मान के √2 गुने के",
+      "ac स्रोत के rms मान के 1/√2 गुने के",
+      "परिपथ को दी गई वोल्टता के मान के"
+     ],
+     "sol": "<p>ज्यावक्रीय ac के लिए V<sub>rms</sub> = V<sub>0</sub>/√2, अतः शिखर वोल्टता V<sub>0</sub> = <b>rms मान का √2 गुना</b>।</p>",
+     "hint": "V<sub>rms</sub> = V<sub>0</sub>/√2।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q25",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2022-code-t2-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A series LCR circuit with inductance 10 H, capacitance 10 μF, resistance 50 Ω is connected to an ac source of voltage, V = 200 sin (100t) volt. If the resonant frequency of the LCR circuit is ν<sub>0</sub> and the frequency of the ac source is ν, then :",
+     "o": [
+      "ν<sub>0</sub> = ν = 50/π Hz",
+      "ν<sub>0</sub> = 50/π Hz, ν = 50 Hz",
+      "ν = 100 Hz; ν<sub>0</sub> = 100/π Hz",
+      "ν<sub>0</sub> = ν = 50 Hz"
+     ],
+     "sol": "<p>Source: ω = 100 rad/s ⇒ ν = 100/(2π) = 50/π Hz. Resonance: ω<sub>0</sub> = 1/√(LC) = 1/√(10 × 10 × 10<sup>−6</sup>) = 100 rad/s ⇒ ν<sub>0</sub> = 50/π Hz.</p><p>Answer: <b>ν<sub>0</sub> = ν = 50/π Hz</b> (the circuit is driven at resonance).</p>",
+     "hint": "ν = ω/2π."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "10 H प्रेरकत्व, 10 μF धारिता और 50 Ω प्रतिरोध वाला एक श्रेणी LCR परिपथ V = 200 sin (100t) volt वोल्टता वाले ac स्रोत से जुड़ा है। यदि LCR परिपथ की अनुनादी आवृत्ति ν<sub>0</sub> और ac स्रोत की आवृत्ति ν है, तो :",
+     "o": [
+      "ν<sub>0</sub> = ν = 50/π Hz",
+      "ν<sub>0</sub> = 50/π Hz, ν = 50 Hz",
+      "ν = 100 Hz; ν<sub>0</sub> = 100/π Hz",
+      "ν<sub>0</sub> = ν = 50 Hz"
+     ],
+     "sol": "<p>स्रोत : ω = 100 rad/s ⇒ ν = 100/(2π) = 50/π Hz। अनुनाद : ω<sub>0</sub> = 1/√(LC) = 1/√(10 × 10 × 10<sup>−6</sup>) = 100 rad/s ⇒ ν<sub>0</sub> = 50/π Hz।</p><p>उत्तर : <b>ν<sub>0</sub> = ν = 50/π Hz</b> (परिपथ अनुनाद पर चलाया जा रहा है)।</p>",
+     "hint": "ν = ω/2π।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q45",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2023-topic-wise-copy-q24",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a series LCR circuit, the inductance L is 10 mH, capacitance C is 1 μF and resistance R is 100 Ω. The frequency at which resonance occurs is :",
+     "o": [
+      "1.59 kHz",
+      "15.9 rad/s",
+      "15.9 kHz",
+      "1.59 rad/s"
+     ],
+     "sol": "<p>f<sub>0</sub> = 1/(2π√(LC)) = 1/(2π√(10<sup>−2</sup> × 10<sup>−6</sup>)) = 1/(2π × 10<sup>−4</sup>) ≈ 1592 Hz = <b>1.59 kHz</b>.</p>",
+     "hint": "Resonance does not depend on R."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक श्रेणी LCR परिपथ में प्रेरकत्व L, 10 mH, धारिता C, 1 μF और प्रतिरोध R, 100 Ω है। वह आवृत्ति जिस पर अनुनाद होता है :",
+     "o": [
+      "1.59 kHz",
+      "15.9 rad/s",
+      "15.9 kHz",
+      "1.59 rad/s"
+     ],
+     "sol": "<p>f<sub>0</sub> = 1/(2π√(LC)) = 1/(2π√(10<sup>−2</sup> × 10<sup>−6</sup>)) = 1/(2π × 10<sup>−4</sup>) ≈ 1592 Hz = <b>1.59 kHz</b>।</p>",
+     "hint": "अनुनाद R पर निर्भर नहीं करता।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q24",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2023-topic-wise-copy-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 12 V, 60 W lamp is connected to the secondary of a step down transformer, whose primary is connected to ac mains of 220 V. Assuming the transformer to be ideal, what is the current in the primary winding?",
+     "o": [
+      "0.37 A",
+      "0.27 A",
+      "2.7 A",
+      "3.7 A"
+     ],
+     "sol": "<p>Ideal transformer: V<sub>p</sub>I<sub>p</sub> = 60 W ⇒ I<sub>p</sub> = 60/220 ≈ <b>0.27 A</b>.</p>",
+     "hint": "Power in = power out."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "12 V, 60 W का एक लैंप एक अपचायी ट्रांसफार्मर की द्वितीयक कुंडली से जुड़ा है, जिसकी प्राथमिक कुंडली 220 V की ac मुख्य आपूर्ति से जुड़ी है। ट्रांसफार्मर को आदर्श मानते हुए प्राथमिक कुंडली में धारा क्या है?",
+     "o": [
+      "0.37 A",
+      "0.27 A",
+      "2.7 A",
+      "3.7 A"
+     ],
+     "sol": "<p>आदर्श ट्रांसफार्मर : V<sub>p</sub>I<sub>p</sub> = 60 W ⇒ I<sub>p</sub> = 60/220 ≈ <b>0.27 A</b>।</p>",
+     "hint": "निवेश शक्ति = निर्गत शक्ति।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q25",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2023-topic-wise-copy-q46",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The net impedance of circuit (as shown in figure) will be :",
+     "o": [
+      "25 Ω",
+      "10√2 Ω",
+      "15 Ω",
+      "5√5 Ω"
+     ],
+     "sol": "<p>X<sub>L</sub> = 2πfL = 2π × 50 × (50/π) × 10<sup>−3</sup> = 5 Ω. X<sub>C</sub> = 1/(2πfC) = 1/(2π × 50 × (10<sup>3</sup>/π) × 10<sup>−6</sup>) = 1/0.1 = 10 Ω.</p><p>Z = √(10<sup>2</sup> + (10 − 5)<sup>2</sup>) = √125 = <b>5√5 Ω</b>.</p>",
+     "hint": "The π in L and C cancels against 2πf."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "परिपथ (चित्र में दिखाए अनुसार) की नेट प्रतिबाधा होगी :",
+     "o": [
+      "25 Ω",
+      "10√2 Ω",
+      "15 Ω",
+      "5√5 Ω"
+     ],
+     "sol": "<p>X<sub>L</sub> = 2πfL = 2π × 50 × (50/π) × 10<sup>−3</sup> = 5 Ω। X<sub>C</sub> = 1/(2πfC) = 1/(2π × 50 × (10<sup>3</sup>/π) × 10<sup>−6</sup>) = 1/0.1 = 10 Ω।</p><p>Z = √(10<sup>2</sup> + (10 − 5)<sup>2</sup>) = √125 = <b>5√5 Ω</b>।</p>",
+     "hint": "L और C में π, 2πf के साथ कट जाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q46",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "Series circuit: L = 50/π mH, C = 10<sup>3</sup>/π μF, R = 10 Ω across a 220 V, 50 Hz source. The copy prints options (1) and (3) in W instead of Ω."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2024-q6-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In an ideal transformer, the turns ratio is N<sub>P</sub>/N<sub>S</sub> = 1/2. The ratio V<sub>S</sub> : V<sub>P</sub> is equal to (the symbols carry their usual meaning) :",
+     "o": [
+      "1 : 2",
+      "2 : 1",
+      "1 : 1",
+      "1 : 4"
+     ],
+     "sol": "<p>V<sub>S</sub>/V<sub>P</sub> = N<sub>S</sub>/N<sub>P</sub> = 2/1 ⇒ V<sub>S</sub> : V<sub>P</sub> = <b>2 : 1</b> (a step-up transformer).</p>",
+     "hint": "Voltage ratio = turns ratio."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक आदर्श ट्रांसफार्मर में फेरों का अनुपात N<sub>P</sub>/N<sub>S</sub> = 1/2 है। अनुपात V<sub>S</sub> : V<sub>P</sub> बराबर है (प्रतीकों के अपने सामान्य अर्थ हैं) :",
+     "o": [
+      "1 : 2",
+      "2 : 1",
+      "1 : 1",
+      "1 : 4"
+     ],
+     "sol": "<p>V<sub>S</sub>/V<sub>P</sub> = N<sub>S</sub>/N<sub>P</sub> = 2/1 ⇒ V<sub>S</sub> : V<sub>P</sub> = <b>2 : 1</b> (उच्चायी ट्रांसफार्मर)।</p>",
+     "hint": "वोल्टता अनुपात = फेरों का अनुपात।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q6 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2024-q20-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 10 μF capacitor is connected to a 210 V, 50 Hz source as shown in figure. The peak current in the circuit is nearly (π = 3.14) :",
+     "o": [
+      "0.58 A",
+      "0.93 A",
+      "1.20 A",
+      "0.35 A"
+     ],
+     "sol": "<p>X<sub>C</sub> = 1/(2πfC) = 1/(2 × 3.14 × 50 × 10<sup>−5</sup>) = 1000/3.14 Ω. I<sub>rms</sub> = 210 × 3.14/1000 ≈ 0.66 A.</p><p>Peak current = √2 I<sub>rms</sub> ≈ 1.414 × 0.66 ≈ <b>0.93 A</b>.</p>",
+     "hint": "210 V is the rms value."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "10 μF का एक संधारित्र चित्र में दिखाए अनुसार 210 V, 50 Hz के स्रोत से जुड़ा है। परिपथ में शिखर धारा लगभग है (π = 3.14) :",
+     "o": [
+      "0.58 A",
+      "0.93 A",
+      "1.20 A",
+      "0.35 A"
+     ],
+     "sol": "<p>X<sub>C</sub> = 1/(2πfC) = 1/(2 × 3.14 × 50 × 10<sup>−5</sup>) = 1000/3.14 Ω। I<sub>rms</sub> = 210 × 3.14/1000 ≈ 0.66 A।</p><p>शिखर धारा = √2 I<sub>rms</sub> ≈ 1.414 × 0.66 ≈ <b>0.93 A</b>।</p>",
+     "hint": "210 V, rms मान है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q20 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The figure only shows the capacitor across the source."
+   }
+  },
+  {
+   "id": "phy12-07-neet-2025-code-45-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "To an ac power supply of 220 V at 50 Hz, a resistor of 20 Ω, a capacitor of reactance 25 Ω and an inductor of reactance 45 Ω are connected in series. The corresponding current in the circuit and the phase angle between the current and the voltage is, respectively :",
+     "o": [
+      "7.8 A and 30°",
+      "7.8 A and 45°",
+      "15.6 A and 30°",
+      "15.6 A and 45°"
+     ],
+     "sol": "<p>Z = √(R<sup>2</sup> + (X<sub>L</sub> − X<sub>C</sub>)<sup>2</sup>) = √(20<sup>2</sup> + 20<sup>2</sup>) = 20√2 ≈ 28.3 Ω. I = 220/28.3 ≈ 7.8 A. tan φ = (45 − 25)/20 = 1 ⇒ φ = 45°.</p><p>Answer: <b>7.8 A and 45°</b>.</p>",
+     "hint": "tan φ = (X<sub>L</sub> − X<sub>C</sub>)/R."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "50 Hz पर 220 V की ac शक्ति आपूर्ति से 20 Ω का एक प्रतिरोधक, 25 Ω प्रतिघात का एक संधारित्र और 45 Ω प्रतिघात का एक प्रेरक श्रेणीक्रम में जुड़े हैं। परिपथ में संगत धारा और धारा तथा वोल्टता के बीच कला कोण क्रमशः हैं :",
+     "o": [
+      "7.8 A और 30°",
+      "7.8 A और 45°",
+      "15.6 A और 30°",
+      "15.6 A और 45°"
+     ],
+     "sol": "<p>Z = √(R<sup>2</sup> + (X<sub>L</sub> − X<sub>C</sub>)<sup>2</sup>) = √(20<sup>2</sup> + 20<sup>2</sup>) = 20√2 ≈ 28.3 Ω। I = 220/28.3 ≈ 7.8 A। tan φ = (45 − 25)/20 = 1 ⇒ φ = 45°।</p><p>उत्तर : <b>7.8 A और 45°</b>।</p>",
+     "hint": "tan φ = (X<sub>L</sub> − X<sub>C</sub>)/R ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q16",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2026-code-13-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An ac circuit contains a resistance of 1 kΩ, a capacitor of 0.1 μF and an inductor of 1 mH connected in series. The resonance frequency of the circuit is approximately :",
+     "o": [
+      "15.9 kHz",
+      "20.7 kHz",
+      "10.1 kHz",
+      "13.5 kHz"
+     ],
+     "sol": "<p>f<sub>0</sub> = 1/(2π√(LC)) = 1/(2π√(10<sup>−3</sup> × 10<sup>−7</sup>)) = 1/(2π × 10<sup>−5</sup>) ≈ 15.9 × 10<sup>3</sup> Hz = <b>15.9 kHz</b>.</p>",
+     "hint": "√(10<sup>−10</sup>) = 10<sup>−5</sup>."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक ac परिपथ में 1 kΩ का प्रतिरोध, 0.1 μF का एक संधारित्र और 1 mH का एक प्रेरक श्रेणीक्रम में जुड़े हैं। परिपथ की अनुनादी आवृत्ति लगभग है :",
+     "o": [
+      "15.9 kHz",
+      "20.7 kHz",
+      "10.1 kHz",
+      "13.5 kHz"
+     ],
+     "sol": "<p>f<sub>0</sub> = 1/(2π√(LC)) = 1/(2π√(10<sup>−3</sup> × 10<sup>−7</sup>)) = 1/(2π × 10<sup>−5</sup>) ≈ 15.9 × 10<sup>3</sup> Hz = <b>15.9 kHz</b>।</p>",
+     "hint": "√(10<sup>−10</sup>) = 10<sup>−5</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q14",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-07-neet-2026-code-13-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The peak value of an alternating current is 5 A and frequency is 60 Hz. How long will the current, starting from zero, take to reach the peak value?",
+     "o": [
+      "1/120 s",
+      "1/240 s",
+      "1/30 s",
+      "1/60 s"
+     ],
+     "sol": "<p>i = I<sub>0</sub> sin ωt goes from zero to the peak in a quarter period: t = T/4 = 1/(4 × 60) = <b>1/240 s</b>.</p>",
+     "hint": "Zero to peak takes T/4."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक प्रत्यावर्ती धारा का शिखर मान 5 A और आवृत्ति 60 Hz है। धारा को शून्य से प्रारंभ करके शिखर मान तक पहुँचने में कितना समय लगेगा?",
+     "o": [
+      "1/120 s",
+      "1/240 s",
+      "1/30 s",
+      "1/60 s"
+     ],
+     "sol": "<p>i = I<sub>0</sub> sin ωt शून्य से शिखर तक एक चौथाई आवर्तकाल में पहुँचती है : t = T/4 = 1/(4 × 60) = <b>1/240 s</b>।</p>",
+     "hint": "शून्य से शिखर तक T/4 लगता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-07",
+    "paras": [
+     "7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q17",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}

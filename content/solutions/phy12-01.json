@@ -1,0 +1,197 @@
+{
+ "phy12-01-neet-2016-phase-1-code-a-q9": {
+  "sol": "<p>Each sphere is in equilibrium under tension, weight and Coulomb repulsion: tan θ ≈ (x/2)/l = F/(mg) = kq<sup>2</sup>/(x<sup>2</sup>mg). So q<sup>2</sup> ∝ x<sup>3</sup>, i.e. q ∝ x<sup>3/2</sup>.</p><p>dq/dt = constant ⇒ (3/2)x<sup>1/2</sup>(dx/dt) = constant ⇒ v = dx/dt <b>∝ x<sup>−1/2</sup></b>.</p>",
+  "hint": "Small-angle equilibrium gives q ∝ x<sup>3/2</sup>; then differentiate in time.",
+  "hi": {
+   "q": "l लंबाई की दो द्रव्यमानरहित डोरियों द्वारा एक उभयनिष्ठ बिंदु से लटके दो सर्वसम आवेशित गोले अपने पारस्परिक प्रतिकर्षण के कारण प्रारंभ में d (d ≪ l) दूरी पर हैं। दोनों गोलों से आवेश एक नियत दर से क्षरित होने लगता है। परिणामस्वरूप गोले v वेग से एक-दूसरे के निकट आते हैं। तब गोलों के बीच की दूरी x के फलन के रूप में v बदलता है :",
+   "o": [
+    "v ∝ x<sup>1/2</sup>",
+    "v ∝ x",
+    "v ∝ x<sup>−1/2</sup>",
+    "v ∝ x<sup>−1</sup>"
+   ],
+   "sol": "<p>प्रत्येक गोला तनाव, भार और कूलॉम प्रतिकर्षण के अंतर्गत संतुलन में है : tan θ ≈ (x/2)/l = F/(mg) = kq<sup>2</sup>/(x<sup>2</sup>mg)। अतः q<sup>2</sup> ∝ x<sup>3</sup>, अर्थात q ∝ x<sup>3/2</sup>।</p><p>dq/dt = नियतांक ⇒ (3/2)x<sup>1/2</sup>(dx/dt) = नियतांक ⇒ v = dx/dt <b>∝ x<sup>−1/2</sup></b>।</p>",
+   "hint": "लघु कोण संतुलन से q ∝ x<sup>3/2</sup>; फिर समय के सापेक्ष अवकलन कीजिए।"
+  }
+ },
+ "phy12-01-neet-2016-phase-2-code-aa-q23": {
+  "sol": "<p>τ = pE sin θ = (q × 2a)E sin θ ⇒ q = τ/(2aE sin θ) = 4/(0.02 × 2 × 10<sup>5</sup> × 0.5) = 2 × 10<sup>−3</sup> C = <b>2 mC</b>.</p>",
+  "hint": "Dipole moment p = q × (dipole length).",
+  "hi": {
+   "q": "एक विद्युत द्विध्रुव 2 × 10<sup>5</sup> N/C तीव्रता के विद्युत क्षेत्र से 30° के कोण पर रखा है। यह 4 N m के बराबर बल आघूर्ण अनुभव करता है। यदि द्विध्रुव की लंबाई 2 cm है, तो द्विध्रुव पर आवेश है :",
+   "o": [
+    "8 mC",
+    "2 mC",
+    "5 mC",
+    "7 μC"
+   ],
+   "sol": "<p>τ = pE sin θ = (q × 2a)E sin θ ⇒ q = τ/(2aE sin θ) = 4/(0.02 × 2 × 10<sup>5</sup> × 0.5) = 2 × 10<sup>−3</sup> C = <b>2 mC</b>।</p>",
+   "hint": "द्विध्रुव आघूर्ण p = q × (द्विध्रुव की लंबाई)।"
+  }
+ },
+ "phy12-01-neet-2017-code-a-q10": {
+  "sol": "<p>Each hydrogen atom then carries a net charge Δe. Electrostatic repulsion must balance gravitational attraction: kΔe<sup>2</sup>/d<sup>2</sup> = Gm<sub>h</sub><sup>2</sup>/d<sup>2</sup>.</p><p>Δe = m<sub>h</sub>√(G/k) = 1.67 × 10<sup>−27</sup> × √(6.67 × 10<sup>−11</sup>/9 × 10<sup>9</sup>) ≈ 1.67 × 10<sup>−27</sup> × 8.6 × 10<sup>−11</sup> ≈ 1.4 × 10<sup>−37</sup> C: of the order of <b>10<sup>−37</sup> C</b>.</p>",
+  "hint": "Both forces go as 1/d<sup>2</sup>; d cancels.",
+  "hi": {
+   "q": "मान लीजिए प्रोटॉन और इलेक्ट्रॉन के आवेशों में थोड़ा अंतर है। उनमें से एक −e है, दूसरा (e + Δe)। यदि d दूरी (परमाणु आकार से बहुत अधिक) पर रखे दो हाइड्रोजन परमाणुओं के बीच स्थिरवैद्युत बल और गुरुत्वाकर्षण बल का नेट शून्य है, तो Δe की कोटि है [हाइड्रोजन का द्रव्यमान m<sub>h</sub> = 1.67 × 10<sup>−27</sup> kg दिया है]",
+   "o": [
+    "10<sup>−20</sup> C",
+    "10<sup>−23</sup> C",
+    "10<sup>−37</sup> C",
+    "10<sup>−47</sup> C"
+   ],
+   "sol": "<p>तब प्रत्येक हाइड्रोजन परमाणु पर नेट आवेश Δe है। स्थिरवैद्युत प्रतिकर्षण को गुरुत्वाकर्षण आकर्षण संतुलित करना है : kΔe<sup>2</sup>/d<sup>2</sup> = Gm<sub>h</sub><sup>2</sup>/d<sup>2</sup>।</p><p>Δe = m<sub>h</sub>√(G/k) = 1.67 × 10<sup>−27</sup> × √(6.67 × 10<sup>−11</sup>/9 × 10<sup>9</sup>) ≈ 1.67 × 10<sup>−27</sup> × 8.6 × 10<sup>−11</sup> ≈ 1.4 × 10<sup>−37</sup> C : कोटि <b>10<sup>−37</sup> C</b>।</p>",
+   "hint": "दोनों बल 1/d<sup>2</sup> के अनुसार हैं; d कट जाता है।"
+  }
+ },
+ "phy12-01-neet-2018-code-aa-q22": {
+  "sol": "<p>Field up: the force on the electron (−e) is downward, adding to gravity: a<sub>e</sub> = g + eE/m<sub>e</sub>. Field reversed (down): the force on the proton is downward too: a<sub>p</sub> = g + eE/m<sub>p</sub>.</p><p>Since m<sub>e</sub> ≪ m<sub>p</sub>, a<sub>e</sub> > a<sub>p</sub>, and t = √(2h/a) is <b>smaller</b> for the electron.</p>",
+  "hint": "Same force magnitude eE, much smaller mass ⇒ much larger acceleration.",
+  "hi": {
+   "q": "एक इलेक्ट्रॉन एकसमान और ऊर्ध्वाधर ऊपर की ओर निर्दिष्ट विद्युत क्षेत्र E में विराम से h ऊर्ध्वाधर दूरी तक गिरता है। परिमाण समान रखते हुए विद्युत क्षेत्र की दिशा उलट दी जाती है। एक प्रोटॉन को इसमें विराम से उसी ऊर्ध्वाधर दूरी h तक गिरने दिया जाता है। प्रोटॉन के गिरने के समय की तुलना में इलेक्ट्रॉन के गिरने का समय है :",
+   "o": [
+    "10 गुना अधिक",
+    "5 गुना अधिक",
+    "कम",
+    "बराबर"
+   ],
+   "sol": "<p>क्षेत्र ऊपर : इलेक्ट्रॉन (−e) पर बल नीचे की ओर है, जो गुरुत्व में जुड़ता है : a<sub>e</sub> = g + eE/m<sub>e</sub>। क्षेत्र उलटने पर (नीचे) : प्रोटॉन पर बल भी नीचे की ओर है : a<sub>p</sub> = g + eE/m<sub>p</sub>।</p><p>चूँकि m<sub>e</sub> ≪ m<sub>p</sub>, a<sub>e</sub> > a<sub>p</sub>, और t = √(2h/a) इलेक्ट्रॉन के लिए <b>कम</b> है।</p>",
+   "hint": "समान बल eE, बहुत कम द्रव्यमान ⇒ बहुत अधिक त्वरण।"
+  }
+ },
+ "phy12-01-neet-2019-code-s2-q103": {
+  "sol": "<p>All the charge of a conducting (hollow) sphere sits on its surface. By Gauss's law the enclosed charge is zero inside, so E = 0 for r &lt; R; outside, E = Q/(4πε<sub>0</sub>r<sup>2</sup>), which decreases as r increases.</p><p>Answer: <b>zero for r &lt; R, decreases as r increases for r > R</b>.</p>",
+  "hint": "Gaussian sphere inside encloses no charge.",
+  "hi": {
+   "q": "R त्रिज्या का एक खोखला धातु का गोला एकसमान रूप से आवेशित है। गोले के कारण केंद्र से r दूरी पर विद्युत क्षेत्र :",
+   "o": [
+    "r < R के लिए r बढ़ने पर शून्य, r > R के लिए r बढ़ने पर बढ़ता है",
+    "r < R और r > R के लिए r बढ़ने पर घटता है",
+    "r < R और r > R के लिए r बढ़ने पर बढ़ता है",
+    "r < R के लिए r बढ़ने पर शून्य, r > R के लिए r बढ़ने पर घटता है"
+   ],
+   "sol": "<p>चालक (खोखले) गोले का संपूर्ण आवेश उसके पृष्ठ पर रहता है। गाउस के नियम से अंदर परिबद्ध आवेश शून्य है, अतः r &lt; R के लिए E = 0; बाहर E = Q/(4πε<sub>0</sub>r<sup>2</sup>), जो r बढ़ने पर घटता है।</p><p>उत्तर : <b>r &lt; R के लिए शून्य, r > R के लिए r बढ़ने पर घटता है</b>।</p>",
+   "hint": "अंदर का गाउसीय पृष्ठ कोई आवेश परिबद्ध नहीं करता।"
+  }
+ },
+ "phy12-01-neet-2019-code-s2-q110": {
+  "sol": "<p>Each infinite line charge gives E = λ/(2πε<sub>0</sub>r) at distance r = R. At the midpoint the field of +λ points away from it and the field of −λ points towards −λ: both point the same way, so they add.</p><p>E = 2 × λ/(2πε<sub>0</sub>R) = <b>λ/(πε<sub>0</sub>R) N/C</b>.</p>",
+  "hint": "Between opposite charges the fields add.",
+  "hi": {
+   "q": "+λ C/m और −λ C/m रैखिक आवेश घनत्व वाले दो समांतर अनंत रैखिक आवेश मुक्त आकाश में 2R की दूरी पर रखे हैं। दोनों रैखिक आवेशों के ठीक मध्य में विद्युत क्षेत्र क्या है?",
+   "o": [
+    "λ/(πε<sub>0</sub>R) N/C",
+    "λ/(2πε<sub>0</sub>R) N/C",
+    "शून्य",
+    "2λ/(πε<sub>0</sub>R) N/C"
+   ],
+   "sol": "<p>प्रत्येक अनंत रैखिक आवेश r = R दूरी पर E = λ/(2πε<sub>0</sub>r) देता है। मध्य बिंदु पर +λ का क्षेत्र उससे दूर और −λ का क्षेत्र −λ की ओर है : दोनों एक ही दिशा में हैं, अतः जुड़ते हैं।</p><p>E = 2 × λ/(2πε<sub>0</sub>R) = <b>λ/(πε<sub>0</sub>R) N/C</b>।</p>",
+   "hint": "विपरीत आवेशों के बीच क्षेत्र जुड़ते हैं।"
+  }
+ },
+ "phy12-01-neet-2019-code-s2-q133": {
+  "sol": "<p>After the transfer A has +Q − Q/4 = +3Q/4 and B has −Q + Q/4 = −3Q/4.</p><p>F ∝ product of charges: F′ = F × (3/4)<sup>2</sup> = <b>9F/16</b>.</p>",
+  "hint": "Charge moved from A to B reduces both magnitudes.",
+  "hi": {
+   "q": "+Q और −Q आवेश वाले दो बिंदु आवेश A और B कुछ दूरी पर रखे हैं और उनके बीच कार्यरत बल F है। यदि A का 25% आवेश B को स्थानांतरित कर दिया जाए, तो आवेशों के बीच बल हो जाता है :",
+   "o": [
+    "16F/9",
+    "4F/3",
+    "F",
+    "9F/16"
+   ],
+   "sol": "<p>स्थानांतरण के बाद A पर +Q − Q/4 = +3Q/4 और B पर −Q + Q/4 = −3Q/4।</p><p>F ∝ आवेशों का गुणनफल : F′ = F × (3/4)<sup>2</sup> = <b>9F/16</b>।</p>",
+   "hint": "A से B को गया आवेश दोनों के परिमाण घटाता है।"
+  }
+ },
+ "phy12-01-neet-2020-code-f3-q2": {
+  "sol": "<p>Outside a uniformly charged spherical conductor the field is that of a point charge at the centre:</p><p>E = kQ/r<sup>2</sup> = 9 × 10<sup>9</sup> × 3.2 × 10<sup>−7</sup>/(0.15)<sup>2</sup> = 2880/0.0225 = <b>1.28 × 10<sup>5</sup> N/C</b>.</p>",
+  "hint": "15 cm is outside the 10 cm sphere.",
+  "hi": {
+   "q": "10 cm त्रिज्या के एक गोलीय चालक पर 3.2 × 10<sup>−7</sup> C आवेश एकसमान रूप से वितरित है। गोले के केंद्र से 15 cm पर स्थित बिंदु पर विद्युत क्षेत्र का परिमाण क्या है? (1/(4πε<sub>0</sub>) = 9 × 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup>)",
+   "o": [
+    "1.28 × 10<sup>4</sup> N/C",
+    "1.28 × 10<sup>6</sup> N/C",
+    "1.28 × 10<sup>7</sup> N/C",
+    "1.28 × 10<sup>5</sup> N/C"
+   ],
+   "sol": "<p>एकसमान आवेशित गोलीय चालक के बाहर क्षेत्र केंद्र पर रखे बिंदु आवेश के क्षेत्र के समान है :</p><p>E = kQ/r<sup>2</sup> = 9 × 10<sup>9</sup> × 3.2 × 10<sup>−7</sup>/(0.15)<sup>2</sup> = 2880/0.0225 = <b>1.28 × 10<sup>5</sup> N/C</b>।</p>",
+   "hint": "15 cm, 10 cm त्रिज्या वाले गोले के बाहर है।"
+  }
+ },
+ "phy12-01-neet-2021-code-p3-q11": {
+  "sol": "<p>The field is non-uniform: the lines spread out to the right, so E is weaker on the right. +q (on the left, in the stronger field) is pushed right with qE<sub>left</sub>; −q (on the right) is pulled left with the smaller qE<sub>right</sub>. Net force: <b>to the right</b>.</p><p>The dipole moment (from −q to +q) points left, opposite to E, so U = −p⃗ · E⃗ = +pE; moving right into a weaker field makes U <b>decrease</b>.</p>",
+  "hint": "Compare the forces on the two charges; U = −p⃗ · E⃗.",
+  "hi": {
+   "q": "चित्र में दिखाए अनुसार एक द्विध्रुव एक विद्युत क्षेत्र में रखा है। यह किस दिशा में चलेगा?",
+   "o": [
+    "दाईं ओर, क्योंकि इसकी स्थितिज ऊर्जा बढ़ेगी।",
+    "बाईं ओर, क्योंकि इसकी स्थितिज ऊर्जा बढ़ेगी।",
+    "दाईं ओर, क्योंकि इसकी स्थितिज ऊर्जा घटेगी।",
+    "बाईं ओर, क्योंकि इसकी स्थितिज ऊर्जा घटेगी।"
+   ],
+   "sol": "<p>क्षेत्र असमान है : क्षेत्र रेखाएँ दाईं ओर फैलती हैं, अतः दाईं ओर E दुर्बल है। +q (बाईं ओर, प्रबल क्षेत्र में) qE<sub>left</sub> से दाईं ओर धकेला जाता है; −q (दाईं ओर) कम qE<sub>right</sub> से बाईं ओर खिंचता है। नेट बल : <b>दाईं ओर</b>।</p><p>द्विध्रुव आघूर्ण (−q से +q की ओर) बाईं ओर है, E के विपरीत, अतः U = −p⃗ · E⃗ = +pE; दाईं ओर दुर्बल क्षेत्र में जाने पर U <b>घटती</b> है।</p>",
+   "hint": "दोनों आवेशों पर बलों की तुलना कीजिए; U = −p⃗ · E⃗।"
+  }
+ },
+ "phy12-01-neet-2022-code-t2-q49": {
+  "sol": "<p>The pair is an electric dipole (p = qL). Far away (R >> L) its field has magnitude E = (p/(4πε<sub>0</sub>R<sup>3</sup>))√(1 + 3cos<sup>2</sup>θ), so E ∝ <b>1/R<sup>3</sup></b>.</p>",
+  "hint": "A dipole field falls faster than a point charge's 1/R<sup>2</sup>.",
+  "hi": {
+   "q": "दो बिंदु आवेश −q और +q, L दूरी पर रखे हैं, जैसा कि चित्र में दिखाया गया है। R (R >> L) दूरी पर विद्युत क्षेत्र की तीव्रता का परिमाण किस प्रकार बदलता है?",
+   "o": [
+    "1/R<sup>3</sup>",
+    "1/R<sup>4</sup>",
+    "1/R<sup>6</sup>",
+    "1/R<sup>2</sup>"
+   ],
+   "sol": "<p>यह युग्म एक विद्युत द्विध्रुव है (p = qL)। दूर (R >> L) इसके क्षेत्र का परिमाण E = (p/(4πε<sub>0</sub>R<sup>3</sup>))√(1 + 3cos<sup>2</sup>θ), अतः E ∝ <b>1/R<sup>3</sup></b>।</p>",
+   "hint": "द्विध्रुव का क्षेत्र बिंदु आवेश के 1/R<sup>2</sup> से तेजी से घटता है।"
+  }
+ },
+ "phy12-01-neet-2023-topic-wise-copy-q16": {
+  "sol": "<p>τ = pE sin θ = (q l)E sin θ ⇒ q = 4/(0.02 × 2 × 10<sup>5</sup> × sin 30°) = 4/2000 = 2 × 10<sup>−3</sup> C = <b>2 mC</b>.</p>",
+  "hint": "p = q × l with l = 2 cm.",
+  "hi": {
+   "q": "एक विद्युत द्विध्रुव 2 × 10<sup>5</sup> N C<sup>−1</sup> तीव्रता के विद्युत क्षेत्र से 30° के कोण पर रखा है। यह 4 N m के बराबर बल आघूर्ण अनुभव करता है। यदि द्विध्रुव की लंबाई 2 cm है, तो द्विध्रुव पर आवेश के परिमाण की गणना कीजिए।",
+   "o": [
+    "2 mC",
+    "8 mC",
+    "6 mC",
+    "4 mC"
+   ],
+   "sol": "<p>τ = pE sin θ = (q l)E sin θ ⇒ q = 4/(0.02 × 2 × 10<sup>5</sup> × sin 30°) = 4/2000 = 2 × 10<sup>−3</sup> C = <b>2 mC</b>।</p>",
+   "hint": "p = q × l, जहाँ l = 2 cm।"
+  }
+ },
+ "phy12-01-neet-2023-topic-wise-copy-q17": {
+  "sol": "<p>Zero net flux through a closed surface means (Gauss's law) zero net charge inside: as many field lines leave the surface as enter it. Answer: <b>the number of flux lines entering must equal the number leaving</b>. The field need not be uniform or of constant magnitude, and there may be no charge inside at all.</p>",
+  "hint": "Zero flux ⇔ zero net enclosed charge.",
+  "hi": {
+   "q": "यदि किसी पृष्ठ पर ∮<sub>s</sub> E⃗ · dS⃗ = 0 है, तो :",
+   "o": [
+    "पृष्ठ के अंदर विद्युत क्षेत्र अनिवार्यतः एकसमान है।",
+    "पृष्ठ में प्रवेश करने वाली फलक्स रेखाओं की संख्या उससे निकलने वाली फलक्स रेखाओं की संख्या के बराबर होनी चाहिए।",
+    "पृष्ठ पर विद्युत क्षेत्र का परिमाण नियत है।",
+    "सभी आवेश अनिवार्यतः पृष्ठ के अंदर होने चाहिए।"
+   ],
+   "sol": "<p>बंद पृष्ठ से शून्य नेट फलक्स का अर्थ (गाउस का नियम) अंदर शून्य नेट आवेश है : जितनी क्षेत्र रेखाएँ पृष्ठ में प्रवेश करती हैं, उतनी ही निकलती हैं। उत्तर : <b>प्रवेश करने वाली फलक्स रेखाओं की संख्या निकलने वाली रेखाओं के बराबर होनी चाहिए</b>। क्षेत्र का एकसमान या नियत परिमाण का होना आवश्यक नहीं, और अंदर कोई आवेश न भी हो सकता है।</p>",
+   "hint": "शून्य फलक्स ⇔ शून्य नेट परिबद्ध आवेश।"
+  }
+ },
+ "phy12-01-neet-2025-code-45-q28": {
+  "sol": "<p>Touching identical spheres share charge equally. C touches A: each gets q/2. C (q/2) then touches B (q): each gets (q/2 + q)/2 = 3q/4.</p><p>F′/F = (q/2)(3q/4)/q<sup>2</sup> = 3/8 ⇒ F′ = <b>3F/8</b>.</p>",
+  "hint": "Identical conductors in contact end with equal charges.",
+  "hi": {
+   "q": "दो सर्वसम आवेशित चालक गोलों A और B के केंद्रों के बीच कुछ दूरी है। प्रत्येक गोले पर आवेश q है और उनके बीच प्रतिकर्षण बल F है। एक तीसरा सर्वसम अनावेशित चालक गोला पहले A के और फिर B के संपर्क में लाया जाता है और अंत में दोनों से हटा लिया जाता है। गोलों A और B के बीच नया प्रतिकर्षण बल (A और B की त्रिज्याएँ उनके बीच की दूरी की तुलना में नगण्य हैं, अतः बल की गणना के लिए उन्हें बिंदु आवेश माना जा सकता है) सबसे अच्छे ढंग से दिया जाता है :",
+   "o": [
+    "3F/5",
+    "2F/3",
+    "F/2",
+    "3F/8"
+   ],
+   "sol": "<p>स्पर्श करते सर्वसम गोले आवेश को बराबर बाँट लेते हैं। C, A को स्पर्श करता है : प्रत्येक को q/2। फिर C (q/2), B (q) को स्पर्श करता है : प्रत्येक को (q/2 + q)/2 = 3q/4।</p><p>F′/F = (q/2)(3q/4)/q<sup>2</sup> = 3/8 ⇒ F′ = <b>3F/8</b>।</p>",
+   "hint": "संपर्क में आए सर्वसम चालकों पर अंत में बराबर आवेश होते हैं।"
+  }
+ }
+}

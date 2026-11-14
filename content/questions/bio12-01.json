@@ -1,0 +1,2349 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio12-01",
+ "subject": "biology",
+ "class": 12,
+ "unit": 1,
+ "title": {
+  "en": "Sexual Reproduction in Flowering Plants"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lebo101.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "1.1",
+   "title": "Flower – A Fascinating Organ of Angiosperms",
+   "pdfPage": 3
+  },
+  {
+   "id": "1.2",
+   "title": "Pre-fertilisation: Structures and Events",
+   "pdfPage": 4
+  },
+  {
+   "id": "1.2.1",
+   "title": "Stamen, Microsporangium and Pollen Grain",
+   "hi": "पुंकेसर, लघुबीजाणुधानी तथा परागकण",
+   "pdfPage": 5
+  },
+  {
+   "id": "1.2.2",
+   "title": "The Pistil, Megasporangium (ovule) and Embryo sac",
+   "pdfPage": 8
+  },
+  {
+   "id": "1.2.3",
+   "title": "Pollination",
+   "hi": "परागण",
+   "pdfPage": 11
+  },
+  {
+   "id": "1.3",
+   "title": "Double Fertilisation",
+   "pdfPage": 18
+  },
+  {
+   "id": "1.4",
+   "title": "Post-fertilisation: Structures and Events",
+   "pdfPage": 18
+  },
+  {
+   "id": "1.4.1",
+   "title": "Endosperm",
+   "pdfPage": 18
+  },
+  {
+   "id": "1.4.2",
+   "title": "Embryo",
+   "pdfPage": 19
+  },
+  {
+   "id": "1.4.3",
+   "title": "Seed",
+   "hi": "बीज",
+   "pdfPage": 20
+  },
+  {
+   "id": "1.5",
+   "title": "Apomixis and Polyembryony",
+   "pdfPage": 22
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio12-01-neet-2015-re-exam-code-d-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Male gametophyte in angiosperms produces :",
+     "o": [
+      "Single sperm and a vegetative cell",
+      "Single sperm and two vegetative cells",
+      "Three sperms",
+      "Two sperms and a vegetative cell"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q3",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2015-re-exam-code-d-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Coconut water from a tender coconut is :",
+     "o": [
+      "Free nuclear endosperm",
+      "Innermost layers of the seed coat",
+      "Degenerated nucellus",
+      "Immature embryo"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q11",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 1)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2015-re-exam-code-d-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following fruits is parthenocarpic?",
+     "o": [
+      "Apple",
+      "Jackfruit",
+      "Banana",
+      "Brinjal"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q34",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2015-re-exam-code-d-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Filiform apparatus is characteristic feature of :",
+     "o": [
+      "Nucellar embryo",
+      "Aleurone cell",
+      "Synergids",
+      "Generative cell"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q38",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2015-re-exam-code-d-q48",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The wheat grain has an embryo with one large, shield-shaped cotyledon known as :",
+     "o": [
+      "Coleorhiza",
+      "Scutellum",
+      "Coleoptile",
+      "Epiblast"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.4.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Morphology of Flowering Plants"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q48",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 2)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2015-re-exam-code-d-q81",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In angiosperms, microsporogenesis and megasporogenesis :",
+     "o": [
+      "Form gametes without further divisions",
+      "Involve meiosis",
+      "Occur in ovule",
+      "Occur in anther"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.1",
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q81",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 2)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2016-phase-1-code-a-q93",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The coconut water from tender coconut represents:",
+     "o": [
+      "Endocarp",
+      "Fleshy mesocarp",
+      "Free nuclear proembryo",
+      "Free nuclear endosperm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q93",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2016-phase-1-code-a-q130",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Proximal end of the filament of stamen is attached to the:",
+     "o": [
+      "Anther",
+      "Connective",
+      "Placenta",
+      "Thalamus or petal"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.1"
+    ],
+    "otherChapters": [
+     "Class 11 · Morphology of Flowering Plants"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q130",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2016-phase-1-code-a-q156",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statements is not true?",
+     "o": [
+      "Tapetum helps in the dehiscence of anther",
+      "Exine of pollen grains is made up of sporopollenin",
+      "Pollen grains of many species cause severe allergies",
+      "Stored pollen in liquid nitrogen can be used in the crop breeding programmes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q156",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2016-phase-1-code-a-q168",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Seed formation without fertilization in flowering plants involves the process of:",
+     "o": [
+      "Sporulation",
+      "Budding",
+      "Somatic hybridization",
+      "Apomixis"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q168",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2016-phase-1-code-a-q173",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is not correct?",
+     "o": [
+      "Pollen grains of many species can germinate on the stigma of a flower, but only one pollen tube of the same species grows into the style",
+      "Insects that consume pollen or nectar without bringing about pollination are called pollen/nectar robbers",
+      "Pollen germination and pollen tube growth are regulated by chemical components of pollen interacting with those of the pistil",
+      "Some reptiles have also been reported as pollinators in some plant species"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q173",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2016-phase-2-code-aa-q117",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In majority of angiosperms",
+     "o": [
+      "Egg has a filiform apparatus",
+      "There are numerous antipodal cells",
+      "Reduction division occurs in the megaspore mother cells",
+      "A small central cell is present in the embryo sac"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q117",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 3)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2016-phase-2-code-aa-q118",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Pollination in water hyacinth and water lily is brought about by the agency of :",
+     "o": [
+      "Water",
+      "Insects or wind",
+      "Birds",
+      "Bats"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q118",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2016-phase-2-code-aa-q119",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The ovule of an angiosperm is technically equivalent to",
+     "o": [
+      "Megasporangium",
+      "Megasporophyll",
+      "Megaspore mother cell",
+      "Megaspore"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q119",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2017-code-a-q91",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Double fertilization is exhibited by",
+     "o": [
+      "Gymnosperms",
+      "Algae",
+      "Fungi",
+      "Angiosperms"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q91",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2017-code-a-q95",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Attractants and rewards are required for",
+     "o": [
+      "Anemophily",
+      "Entomophily",
+      "Hydrophily",
+      "Cleistogamy"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q95",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2017-code-a-q107",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A dioecious flowering plant prevents both:",
+     "o": [
+      "Autogamy and xenogamy",
+      "Autogamy and geitonogamy",
+      "Geitonogamy and xenogamy",
+      "Cleistogamy and xenogamy"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q107",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2017-code-a-q146",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Functional megaspore in an angiosperm develops into :",
+     "o": [
+      "Ovule",
+      "Endosperm",
+      "Embryo sac",
+      "Embryo"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q146",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2017-code-a-q165",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The morphological nature of the edible part of coconut is :",
+     "o": [
+      "Perisperm",
+      "Cotyledon",
+      "Endosperm",
+      "Pericarp"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q165",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2017-code-a-q180",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Flowers which have single ovule in the ovary and are packed into inflorescence are usually pollinated by :",
+     "o": [
+      "Water",
+      "Bee",
+      "Wind",
+      "Bat"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q180",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2018-code-aa-q92",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Double fertilization is :",
+     "o": [
+      "Fusion of two male gametes with one egg",
+      "Fusion of one male gamete with two polar nuclei",
+      "Fusion of two male gametes of a pollen tube with two different eggs",
+      "Syngamy and triple fusion"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q92",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2018-code-aa-q93",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following plants shows a very close relationship with a species of moth, where none of the two can complete its life cycle without the other?",
+     "o": [
+      "Banana",
+      "Yucca",
+      "Hydrilla",
+      "Viola"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q93",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2018-code-aa-q94",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Pollen grains can be stored for several years in liquid nitrogen having a temperature of :",
+     "o": [
+      "−196°C",
+      "−80°C",
+      "−120°C",
+      "−160°C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q94",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2018-code-aa-q110",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following has proved helpful in preserving pollen as fossils?",
+     "o": [
+      "Oil content",
+      "Cellulosic intine",
+      "Pollenkitt",
+      "Sporopollenin"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q110",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2019-code-s2-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Persistent nucellus in the seed is known as :",
+     "o": [
+      "Hilum",
+      "Tegmen",
+      "Chalaza",
+      "Perisperm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q14",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2019-code-s2-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements regarding post fertilization development in flowering plants is incorrect?",
+     "o": [
+      "Central cell develops into endosperm",
+      "Ovules develop into embryo sac",
+      "Ovary develops into fruit",
+      "Zygote develops into embryo"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q38",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2019-code-s2-q82",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the fate of the male gametes discharged in the synergid ?",
+     "o": [
+      "One fuses with the egg, other(s) fuse(s) with synergid nucleus.",
+      "One fuses with the egg and other fuses with central cell nuclei.",
+      "One fuses with the egg, other(s) degenerate(s) in the synergid.",
+      "All fuse with the egg."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q82",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2020-code-f3-q109",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The plant parts which consist of two generations one within the other :<br>(a) Pollen grains inside the anther<br>(b) Germinated pollen grain with two male gametes<br>(c) Seed inside the fruit<br>(d) Embryo sac inside the ovule",
+     "o": [
+      "(c) and (d)",
+      "(a) and (d)",
+      "(a) only",
+      "(a), (b) and (c)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.1",
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q109",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)",
+    "note": "Option 4 restored from the official paper; the copy prints '(a) only' twice."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2020-code-f3-q151",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The body of the ovule is fused with the funicle at :",
+     "o": [
+      "Nucellus",
+      "Chalaza",
+      "Hilum",
+      "Micropyle"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q151",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2020-code-f3-q175",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In water hyacinth and water lily, pollination takes place by :",
+     "o": [
+      "wind and water",
+      "insects and water",
+      "insects or wind",
+      "water currents only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q175",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2021-code-p3-q113",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
+     "o": [
+      "Cleistogamy",
+      "Xenogamy",
+      "Geitonogamy",
+      "Chasmogamy"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q113",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2021-code-p3-q131",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A typical angiosperm embryo sac at maturity is:",
+     "o": [
+      "8-nucleate and 8-celled",
+      "8-nucleate and 7-celled",
+      "7-nucleate and 8-celled",
+      "7-nucleate and 7-celled"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q131",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2021-code-p3-q145",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In some members of which of the following pairs of families, pollen grains retain their viability for months after release?",
+     "o": [
+      "Rosaceae ; Leguminosae",
+      "Poaceae ; Rosaceae",
+      "Poaceae ; Leguminosae",
+      "Poaceae ; Solanaceae"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q145",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2022-code-t2-q106",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the incorrect statement related to Pollination:",
+     "o": [
+      "Pollination by wind is more common amongst abiotic pollination",
+      "Flowers produce foul odours to attract flies and beetles to get pollinated",
+      "Moths and butterflies are the most dominant pollinating agents among insects",
+      "Pollination by water is quite rare in flowering plants"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q106",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2022-code-t2-q111",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Cleistogamous flowers are invariably autogamous.<br>Statement II: Cleistogamy is disadvantageous as there is no chance for cross pollination.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct",
+      "Both Statement I and Statement II are correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q111",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2022-code-t2-q147",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which part of the fruit, labelled in the given figure, makes it a false fruit?",
+     "o": [
+      "B → Endocarp",
+      "C → Thalamus",
+      "D → Seed",
+      "A → Mesocarp"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q147",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15). Labelled fruit figure in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2023-topic-wise-copy-q20",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Large, colourful, fragrant flowers with nectar are seen in:",
+     "o": [
+      "wind pollinated plants",
+      "insect pollinated plants",
+      "bird pollinated plants",
+      "bat pollinated plants"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q20",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2023-topic-wise-copy-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In angiosperm, the haploid, diploid and triploid structures of a fertilized embryo sac sequentially are:",
+     "o": [
+      "Synergids, antipodals and Polar nuclei",
+      "Synergids, Primary endosperm nucleus and zygote",
+      "Antipodals, synergids, and primary endosperm nucleus",
+      "Synergids, Zygote and Primary endosperm nucleus"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.3",
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q21",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2023-topic-wise-copy-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the function of tassels in the corn cob?",
+     "o": [
+      "To protect seeds",
+      "To attract insects",
+      "To trap pollen grains",
+      "To disperse pollen grains"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q22",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2024-q136-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the set of correct statements :<br>A. The flowers of Vallisneria are colourful and produce nectar.<br>B. The flowers of water lily are not pollinated by water.<br>C. In most of water-pollinated species, the pollen grains are protected from wetting.<br>D. Pollen grains of some hydrophytes are long and ribbon like.<br>E. In some hydrophytes, the pollen grains are carried passively inside water.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "C, D and E only",
+      "A, B, C and D only",
+      "A, C, D and E only",
+      "B, C, D and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q136 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2024-q196-esaral-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the correct description about the given figure: https://admin.esaral.com/quiz-pdf/6104 eSaral",
+     "o": [
+      "Cleistogamous flowers showing autogamy.",
+      "Compact inflorescence showing complete autogamy.",
+      "Wind pollinated plant inflorescence showing flowers with well exposed stamens.",
+      "Water pollinated flowers showing stamens with mucilaginous covering."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q196 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Figure in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2025-code-45-q102",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R) :<br>Assertion (A): Both wind and water pollinated flowers are not very colourful and do not produce nectar.<br>Reason (R): The flowers produce enormous amount of pollen grains in wind and water pollinated flowers.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q102",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 2)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2025-code-45-q127",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R) :<br>Assertion (A): A typical unfertilised angiosperm embryo sac at maturity is 8-nucleate and 7-celled.<br>Reason (R): The egg apparatus has 2 polar nuclei.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is NOT the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q127",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 3)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2025-code-45-q141",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>A. Scutellum — I. Persistent nucellus<br>B. Non-albuminous seed — II. Cotyledon of monocot seed<br>C. Epiblast — III. Groundnut<br>D. Perisperm — IV. Rudimentary cotyledon",
+     "o": [
+      "A-II, B-III, C-IV, D-I",
+      "A-IV, B-III, C-II, D-I",
+      "A-IV, B-III, C-I, D-II",
+      "A-II, B-IV, C-III, D-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.4.2",
+     "1.4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q141",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "Options overprinted/clipped in the eSaral copy; read from the page image (permutations completed)."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2025-code-45-q153",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements: one is labelled as Assertion (A) and the other is labelled as Reason (R) :<br>Assertion (A): Cells of the tapetum possess dense cytoplasm and generally have more than one nucleus.<br>Reason (R): Presence of more than one nucleus in the tapetum increases the efficiency of nourishing the developing microspore mother cells.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q153",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "NCERT gives the assertion; the reason is an inference. The copy prints (3); the NTA key gives (1). The copy prints (3)."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2025-code-45-q154",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How many meiotic and mitotic divisions need to occur for the development of a mature female gametophyte from the megaspore mother cell in an angiosperm plant?",
+     "o": [
+      "2 Meiosis and 3 Mitosis",
+      "1 Meiosis and 2 Mitosis",
+      "1 Meiosis and 3 Mitosis",
+      "No Meiosis and 3 Mitosis"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q154",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 3)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio12-01-neet-2026-q114-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following types of pollination brings genetically different types of pollen grains to the stigma?",
+     "o": [
+      "Geitonogamy",
+      "Xenogamy",
+      "Cleistogamy",
+      "Autogamy"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q114 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 2)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q115."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2026-q120-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following is a triploid cell?",
+     "o": [
+      "Synergid",
+      "Primary endosperm cell",
+      "Central cell",
+      "Zygote"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q120 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 2)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q109."
+   }
+  },
+  {
+   "id": "bio12-01-neet-2026-q130-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Arrange the following in the correct developmental sequence related to microsporogenesis :<br>A. Microspore tetrads<br>B. Sporogenous tissue<br>C. Pollen grains<br>D. Pollen mother cells<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, D, C, B",
+      "D, A, C, B",
+      "B, D, C, A",
+      "B, D, A, C"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-01",
+    "paras": [
+     "1.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q130 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q99."
+   }
+  }
+ ]
+}

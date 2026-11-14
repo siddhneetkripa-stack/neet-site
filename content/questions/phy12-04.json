@@ -1,0 +1,1810 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-04",
+ "subject": "physics",
+ "class": 12,
+ "unit": 4,
+ "title": {
+  "en": "Moving Charges and Magnetism"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph104.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "4.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "4.2",
+   "title": "Magnetic Force",
+   "hi": "चुंबकीय बल",
+   "pdfPage": 2
+  },
+  {
+   "id": "4.2.1",
+   "title": "Sources and Fields",
+   "hi": "स्रोत और क्षेत्र",
+   "pdfPage": 2
+  },
+  {
+   "id": "4.2.2",
+   "title": "Magnetic Field, Lorentz Force",
+   "hi": "चुंबकीय क्षेत्र, लोरेंज बल",
+   "pdfPage": 3
+  },
+  {
+   "id": "4.2.3",
+   "title": "Magnetic Force on a Current-carrying Conductor",
+   "hi": "विद्युत धारावाही चालक पर चुंबकीय बल",
+   "pdfPage": 4
+  },
+  {
+   "id": "4.3",
+   "title": "Motion in a Magnetic Field",
+   "hi": "चुंबकीय क्षेत्र में गति",
+   "pdfPage": 6
+  },
+  {
+   "id": "4.4",
+   "title": "Magnetic Field due to a Current Element, Biot-Savart Law",
+   "hi": "विद्युत धारा अवयव के कारण चुंबकीय क्षेत्र,",
+   "pdfPage": 7
+  },
+  {
+   "id": "4.5",
+   "title": "Magnetic Field on the Axis of a Circular Current Loop",
+   "hi": "विद्युत धारावाही वृत्ताकार पाश के अक्ष पर",
+   "pdfPage": 9
+  },
+  {
+   "id": "4.6",
+   "title": "Ampere's Circuital Law",
+   "hi": "ऐम्पियर का परिपथीय नियम",
+   "pdfPage": 11
+  },
+  {
+   "id": "4.7",
+   "title": "The Solenoid",
+   "hi": "परिनालिका",
+   "pdfPage": 15
+  },
+  {
+   "id": "4.8",
+   "title": "Force between Two Parallel Currents, the Ampere",
+   "hi": "दो समांतर विद्युत धाराओं के बीच बल–ऐम्पियर",
+   "pdfPage": 16
+  },
+  {
+   "id": "4.9",
+   "title": "Torque on Current Loop, Magnetic Dipole",
+   "hi": "विद्युत धारा पाश पर बल आघूर्ण, चुंबकीय द्विध्रुव",
+   "pdfPage": 18
+  },
+  {
+   "id": "4.9.1",
+   "title": "Torque on a Rectangular Current Loop in a Uniform Magnetic Field",
+   "pdfPage": 18
+  },
+  {
+   "id": "4.9.2",
+   "title": "Circular Current Loop as a Magnetic Dipole",
+   "hi": "वृत्ताकार विद्युत धारा पाश चुंबकीय द्विध्रुव",
+   "pdfPage": 22
+  },
+  {
+   "id": "4.10",
+   "title": "The Moving Coil Galvanometer",
+   "hi": "चल कुंडली गैल्वेनोमीटर",
+   "pdfPage": 23
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-04-neet-2015-re-exam-code-d-q141",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A proton and an alpha particle both enter a region of uniform magnetic field B, moving at right angles to the field B. If the radius of circular orbits for both the particles is equal and the kinetic energy acquired by proton is 1 MeV, the energy acquired by the alpha particle will be :",
+     "o": [
+      "0.5 MeV",
+      "1.5 MeV",
+      "1 MeV",
+      "4 MeV"
+     ],
+     "sol": "<p>r = mv/(qB) = √(2mK)/(qB). Equal r in the same B ⇒ K ∝ q<sup>2</sup>/m.</p><p>Alpha: q = 2e, m = 4m<sub>p</sub> ⇒ q<sup>2</sup>/m is the same as for the proton, so K<sub>α</sub> = <b>1 MeV</b>.</p>",
+     "hint": "Write r in terms of kinetic energy."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक प्रोटॉन और एक ऐल्फ़ा कण दोनों एकसमान चुंबकीय क्षेत्र B के क्षेत्र में क्षेत्र B के लंबवत गति करते हुए प्रवेश करते हैं। यदि दोनों कणों की वृत्तीय कक्षाओं की त्रिज्या समान है और प्रोटॉन द्वारा अर्जित गतिज ऊर्जा 1 MeV है, तो ऐल्फ़ा कण द्वारा अर्जित ऊर्जा होगी :",
+     "o": [
+      "0.5 MeV",
+      "1.5 MeV",
+      "1 MeV",
+      "4 MeV"
+     ],
+     "sol": "<p>r = mv/(qB) = √(2mK)/(qB)। समान B में समान r ⇒ K ∝ q<sup>2</sup>/m ।</p><p>ऐल्फ़ा : q = 2e, m = 4m<sub>p</sub> ⇒ q<sup>2</sup>/m प्रोटॉन के समान है, अतः K<sub>α</sub> = <b>1 MeV</b>।</p>",
+     "hint": "r को गतिज ऊर्जा के पदों में लिखिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q141",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 3",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2015-re-exam-code-d-q180",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A rectangular coil of length 0.12 m and width 0.1 m having 50 turns of wire is suspended vertically in a uniform magnetic field of strength 0.2 Weber/m<sup>2</sup>. The coil carries a current of 2 A. If the plane of the coil is inclined at an angle of 30° with the direction of the field, the torque required to keep coil in stable equilibrium will be :",
+     "o": [
+      "0.20 Nm",
+      "0.24 Nm",
+      "0.12 Nm",
+      "0.15 Nm"
+     ],
+     "sol": "<p>The plane of the coil makes 30° with B, so its normal (magnetic moment) makes 60° with B. τ = NIAB sin 60° = 50 × 2 × (0.12 × 0.1) × 0.2 × 0.866 ≈ 0.208 N m ≈ <b>0.20 Nm</b>.</p>",
+     "hint": "Use the angle between B and the normal to the coil."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "0.12 m लंबी और 0.1 m चौड़ी, तार के 50 फेरों वाली एक आयताकार कुंडली 0.2 Weber/m<sup>2</sup> तीव्रता के एकसमान चुंबकीय क्षेत्र में ऊर्ध्वाधर लटकी है। कुंडली में 2 A धारा प्रवाहित है। यदि कुंडली का तल क्षेत्र की दिशा से 30° के कोण पर झुका है, तो कुंडली को स्थायी संतुलन में रखने के लिए आवश्यक बल आघूर्ण होगा :",
+     "o": [
+      "0.20 Nm",
+      "0.24 Nm",
+      "0.12 Nm",
+      "0.15 Nm"
+     ],
+     "sol": "<p>कुंडली का तल B से 30° बनाता है, अतः उसका अभिलंब (चुंबकीय आघूर्ण) B से 60° बनाता है। τ = NIAB sin 60° = 50 × 2 × (0.12 × 0.1) × 0.2 × 0.866 ≈ 0.208 N m ≈ <b>0.20 Nm</b>।</p>",
+     "hint": "B और कुंडली के अभिलंब के बीच का कोण लीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q180",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2016-phase-1-code-a-q2",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A square loop ABCD carrying a current i, is placed near and coplanar with a long straight conductor XY carrying a current I, the net force on the loop will be :",
+     "o": [
+      "2μ<sub>0</sub>Ii/(3π)",
+      "μ<sub>0</sub>Ii/(2π)",
+      "2μ<sub>0</sub>IiL/(3π)",
+      "μ<sub>0</sub>IiL/(2π)"
+     ],
+     "sol": "<p>The forces on the two sides perpendicular to the wire cancel. Side AB (near, at L/2, current parallel to I) is attracted; side CD (far, at 3L/2, antiparallel) is repelled:</p><p>F = (μ<sub>0</sub>Ii L/2π)[1/(L/2) − 1/(3L/2)] = (μ<sub>0</sub>Ii/2π)(2 − 2/3) = <b>2μ<sub>0</sub>Ii/(3π)</b>, towards the wire. (L cancels.)</p>",
+     "hint": "Only the two sides parallel to the wire give a net force."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "धारा i वाला एक वर्गाकार लूप ABCD, धारा I वाले एक लंबे सीधे चालक XY के निकट और उसी तल में रखा है, लूप पर नेट बल होगा :",
+     "o": [
+      "2μ<sub>0</sub>Ii/(3π)",
+      "μ<sub>0</sub>Ii/(2π)",
+      "2μ<sub>0</sub>IiL/(3π)",
+      "μ<sub>0</sub>IiL/(2π)"
+     ],
+     "sol": "<p>तार के लंबवत दोनों भुजाओं पर बल निरस्त हो जाते हैं। भुजा AB (निकट, L/2 पर, धारा I के समांतर) आकर्षित होती है; भुजा CD (दूर, 3L/2 पर, प्रतिसमांतर) प्रतिकर्षित :</p><p>F = (μ<sub>0</sub>Ii L/2π)[1/(L/2) − 1/(3L/2)] = (μ<sub>0</sub>Ii/2π)(2 − 2/3) = <b>2μ<sub>0</sub>Ii/(3π)</b>, तार की ओर। (L कट जाता है।)</p>",
+     "hint": "केवल तार के समांतर दोनों भुजाएँ नेट बल देती हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q2",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)",
+    "note": "Figure in the paper (loop of side L, near side at L/2 from the wire); needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2016-phase-1-code-a-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long straight wire of radius a carries a steady current I. The current is uniformly distributed over its cross-section. The ratio of the magnetic fields B and B′, at radial distances a/2 and 2a respectively, from the axis of the wire is :",
+     "o": [
+      "1/4",
+      "1/2",
+      "1",
+      "4"
+     ],
+     "sol": "<p>Inside (r &lt; a): B = μ<sub>0</sub>Ir/(2πa<sup>2</sup>); at a/2, B = μ<sub>0</sub>I/(4πa). Outside: B′ = μ<sub>0</sub>I/(2πr); at 2a, B′ = μ<sub>0</sub>I/(4πa).</p><p>B/B′ = <b>1</b>.</p>",
+     "hint": "Both are half the surface value."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "a त्रिज्या का एक लंबा सीधा तार स्थायी धारा I प्रवाहित करता है। धारा इसके अनुप्रस्थ काट पर एकसमान रूप से वितरित है। तार की अक्ष से a/2 और 2a त्रिज्य दूरियों पर चुंबकीय क्षेत्रों B और B′ का अनुपात है :",
+     "o": [
+      "1/4",
+      "1/2",
+      "1",
+      "4"
+     ],
+     "sol": "<p>अंदर (r &lt; a) : B = μ<sub>0</sub>Ir/(2πa<sup>2</sup>); a/2 पर B = μ<sub>0</sub>I/(4πa)। बाहर : B′ = μ<sub>0</sub>I/(2πr); 2a पर B′ = μ<sub>0</sub>I/(4πa)।</p><p>B/B′ = <b>1</b>।</p>",
+     "hint": "दोनों पृष्ठ के मान के आधे हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q26",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2016-phase-2-code-aa-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long wire carrying a steady current is bent into a circular loop of one turn. The magnetic field at the centre of the loop is B. It is then bent into a circular coil of n turns. The magnetic field at the centre of this coil of n turns will be",
+     "o": [
+      "nB",
+      "n<sup>2</sup>B",
+      "2nB",
+      "2n<sup>2</sup>B"
+     ],
+     "sol": "<p>One turn of radius r: B = μ<sub>0</sub>I/(2r). The same wire as n turns has radius r/n: B′ = nμ<sub>0</sub>I/(2r/n) = n<sup>2</sup>μ<sub>0</sub>I/(2r) = <b>n<sup>2</sup>B</b>.</p>",
+     "hint": "More turns and a smaller radius: two factors of n."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "स्थायी धारा प्रवाहित करने वाले एक लंबे तार को एक फेरे के वृत्ताकार लूप में मोड़ा जाता है। लूप के केंद्र पर चुंबकीय क्षेत्र B है। फिर इसे n फेरों की वृत्ताकार कुंडली में मोड़ा जाता है। n फेरों की इस कुंडली के केंद्र पर चुंबकीय क्षेत्र होगा",
+     "o": [
+      "nB",
+      "n<sup>2</sup>B",
+      "2nB",
+      "2n<sup>2</sup>B"
+     ],
+     "sol": "<p>r त्रिज्या का एक फेरा : B = μ<sub>0</sub>I/(2r)। उसी तार से n फेरों की त्रिज्या r/n होगी : B′ = nμ<sub>0</sub>I/(2r/n) = n<sup>2</sup>μ<sub>0</sub>I/(2r) = <b>n<sup>2</sup>B</b>।</p>",
+     "hint": "अधिक फेरे और कम त्रिज्या : n के दो गुणक।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q27",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2016-phase-2-code-aa-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron is moving in a circular path under the influence of a transverse magnetic field of 3.57 × 10<sup>−2</sup> T. If the value of e/m is 1.76 × 10<sup>11</sup> C/kg, the frequency of revolution of the electron is :",
+     "o": [
+      "1 GHz",
+      "100 MHz",
+      "62.8 MHz",
+      "6.28 MHz"
+     ],
+     "sol": "<p>Frequency of revolution f = qB/(2πm) = (e/m)B/(2π) = 1.76 × 10<sup>11</sup> × 3.57 × 10<sup>−2</sup>/(2π) ≈ 6.28 × 10<sup>9</sup>/6.28 = 10<sup>9</sup> Hz = <b>1 GHz</b>.</p>",
+     "hint": "f = qB/(2πm), independent of speed."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक इलेक्ट्रॉन 3.57 × 10<sup>−2</sup> T के अनुप्रस्थ चुंबकीय क्षेत्र के प्रभाव में वृत्तीय पथ पर गति कर रहा है। यदि e/m का मान 1.76 × 10<sup>11</sup> C/kg है, तो इलेक्ट्रॉन की परिक्रमण आवृत्ति है :",
+     "o": [
+      "1 GHz",
+      "100 MHz",
+      "62.8 MHz",
+      "6.28 MHz"
+     ],
+     "sol": "<p>परिक्रमण आवृत्ति f = qB/(2πm) = (e/m)B/(2π) = 1.76 × 10<sup>11</sup> × 3.57 × 10<sup>−2</sup>/(2π) ≈ 6.28 × 10<sup>9</sup>/6.28 = 10<sup>9</sup> Hz = <b>1 GHz</b>।</p>",
+     "hint": "f = qB/(2πm), चाल से स्वतंत्र।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q29",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2017-code-a-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 250-turn rectangular coil of length 2.1 cm and width 1.25 cm carries a current of 85 μA and is subjected to a magnetic field of strength 0.85 T. Work done for rotating the coil by 180° against the torque is :",
+     "o": [
+      "9.1 μJ",
+      "4.55 μJ",
+      "2.3 μJ",
+      "1.15 μJ"
+     ],
+     "sol": "<p>Magnetic moment m = NIA = 250 × 85 × 10<sup>−6</sup> × (2.1 × 10<sup>−2</sup> × 1.25 × 10<sup>−2</sup>) ≈ 5.58 × 10<sup>−6</sup> A m<sup>2</sup>. Turning from θ = 0 to 180° against the torque needs W = 2mB = 2 × 5.58 × 10<sup>−6</sup> × 0.85 ≈ 9.5 × 10<sup>−6</sup> J.</p><p>The nearest option is <b>9.1 μJ</b>.</p>",
+     "hint": "W = mB(cos θ<sub>1</sub> − cos θ<sub>2</sub>) = 2mB for 0 → 180°."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "2.1 cm लंबी और 1.25 cm चौड़ी 250 फेरों वाली एक आयताकार कुंडली में 85 μA धारा प्रवाहित है और यह 0.85 T तीव्रता के चुंबकीय क्षेत्र में है। बल आघूर्ण के विरुद्ध कुंडली को 180° घुमाने में किया गया कार्य है :",
+     "o": [
+      "9.1 μJ",
+      "4.55 μJ",
+      "2.3 μJ",
+      "1.15 μJ"
+     ],
+     "sol": "<p>चुंबकीय आघूर्ण m = NIA = 250 × 85 × 10<sup>−6</sup> × (2.1 × 10<sup>−2</sup> × 1.25 × 10<sup>−2</sup>) ≈ 5.58 × 10<sup>−6</sup> A m<sup>2</sup>। बल आघूर्ण के विरुद्ध θ = 0 से 180° तक घुमाने में W = 2mB = 2 × 5.58 × 10<sup>−6</sup> × 0.85 ≈ 9.5 × 10<sup>−6</sup> J।</p><p>निकटतम विकल्प <b>9.1 μJ</b> है।</p>",
+     "hint": "0 → 180° के लिए W = mB(cos θ<sub>1</sub> − cos θ<sub>2</sub>) = 2mB।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.9.1",
+     "4.9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q5",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2017-code-a-q29",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An arrangement of three parallel straight wires placed perpendicular to plane of paper carrying same current 'I' along the same direction is shown in figure. Magnitude of force per unit length on the middle wire 'B' is given by :",
+     "o": [
+      "μ<sub>0</sub>I<sup>2</sup>/(2πd)",
+      "2μ<sub>0</sub>I<sup>2</sup>/(πd)",
+      "√2 μ<sub>0</sub>I<sup>2</sup>/(πd)",
+      "μ<sub>0</sub>I<sup>2</sup>/(√2 πd)"
+     ],
+     "sol": "<p>Parallel currents attract. B feels μ<sub>0</sub>I<sup>2</sup>/(2πd) per unit length towards A and the same towards C, and these two directions are at right angles.</p><p>Net = √2 × μ<sub>0</sub>I<sup>2</sup>/(2πd) = <b>μ<sub>0</sub>I<sup>2</sup>/(√2 πd)</b>.</p>",
+     "hint": "Add the two equal perpendicular forces vectorially."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "कागज के तल के लंबवत रखे, समान दिशा में समान धारा 'I' प्रवाहित करने वाले तीन समांतर सीधे तारों की एक व्यवस्था चित्र में दिखाई गई है। मध्य तार 'B' पर प्रति एकांक लंबाई बल का परिमाण दिया जाता है :",
+     "o": [
+      "μ<sub>0</sub>I<sup>2</sup>/(2πd)",
+      "2μ<sub>0</sub>I<sup>2</sup>/(πd)",
+      "√2 μ<sub>0</sub>I<sup>2</sup>/(πd)",
+      "μ<sub>0</sub>I<sup>2</sup>/(√2 πd)"
+     ],
+     "sol": "<p>समांतर धाराएँ आकर्षित करती हैं। B प्रति एकांक लंबाई μ<sub>0</sub>I<sup>2</sup>/(2πd) बल A की ओर और उतना ही C की ओर अनुभव करता है, और ये दोनों दिशाएँ परस्पर लंबवत हैं।</p><p>नेट = √2 × μ<sub>0</sub>I<sup>2</sup>/(2πd) = <b>μ<sub>0</sub>I<sup>2</sup>/(√2 πd)</b>।</p>",
+     "hint": "दो समान लंबवत बलों को सदिश रूप से जोड़िए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q29",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "Figure: A and C each at distance d from B, at right angles. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2018-code-aa-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A metallic rod of mass per unit length 0.5 kg m<sup>−1</sup> is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0.25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is :",
+     "o": [
+      "14.76 A",
+      "5.98 A",
+      "7.14 A",
+      "11.32 A"
+     ],
+     "sol": "<p>With B vertical and the rod horizontal, the magnetic force IlB is horizontal. Along the incline it must balance the component of gravity: IlB cos 30° = mg sin 30°.</p><p>I = (m/l)g tan 30°/B = 0.5 × 9.8 × 0.577/0.25 ≈ <b>11.32 A</b>.</p>",
+     "hint": "Resolve the horizontal magnetic force along the incline."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "0.5 kg m<sup>−1</sup> प्रति एकांक लंबाई द्रव्यमान वाली एक धात्विक छड़ क्षैतिज से 30° का कोण बनाने वाले एक चिकने आनत तल पर क्षैतिज रूप से रखी है। जब 0.25 T का चुंबकीय प्रेरण ऊर्ध्वाधर दिशा में कार्य कर रहा है, तब छड़ में धारा प्रवाहित करके उसे नीचे फिसलने से रोका जाता है। छड़ को स्थिर रखने के लिए उसमें प्रवाहित धारा है :",
+     "o": [
+      "14.76 A",
+      "5.98 A",
+      "7.14 A",
+      "11.32 A"
+     ],
+     "sol": "<p>B ऊर्ध्वाधर और छड़ क्षैतिज होने से चुंबकीय बल IlB क्षैतिज है। आनत तल के अनुदिश इसे गुरुत्व के घटक को संतुलित करना है : IlB cos 30° = mg sin 30°।</p><p>I = (m/l)g tan 30°/B = 0.5 × 9.8 × 0.577/0.25 ≈ <b>11.32 A</b>।</p>",
+     "hint": "क्षैतिज चुंबकीय बल को आनत तल के अनुदिश वियोजित कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.2.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Laws of Motion"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q26",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2018-code-aa-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Current sensitivity of a moving coil galvanometer is 5 div/mA and its voltage sensitivity (angular deflection per unit voltage applied) is 20 div/V. The resistance of the galvanometer is :",
+     "o": [
+      "250 Ω",
+      "25 Ω",
+      "40 Ω",
+      "500 Ω"
+     ],
+     "sol": "<p>Current sensitivity θ/I = 5 div/mA = 5000 div/A; voltage sensitivity θ/V = 20 div/V. Since V = IR, (θ/I)/(θ/V) = V/I = R.</p><p>R = 5000/20 = <b>250 Ω</b>.</p>",
+     "hint": "Voltage sensitivity = current sensitivity/R."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक चल कुंडली गैल्वेनोमीटर की धारा सुग्राहिता 5 div/mA है और उसकी वोल्टता सुग्राहिता (प्रति एकांक लगाई गई वोल्टता पर कोणीय विक्षेप) 20 div/V है। गैल्वेनोमीटर का प्रतिरोध है :",
+     "o": [
+      "250 Ω",
+      "25 Ω",
+      "40 Ω",
+      "500 Ω"
+     ],
+     "sol": "<p>धारा सुग्राहिता θ/I = 5 div/mA = 5000 div/A; वोल्टता सुग्राहिता θ/V = 20 div/V । चूँकि V = IR, (θ/I)/(θ/V) = V/I = R।</p><p>R = 5000/20 = <b>250 Ω</b>।</p>",
+     "hint": "वोल्टता सुग्राहिता = धारा सुग्राहिता/R ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q29",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 1",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2019-code-s2-q94",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Ionized hydrogen atoms and α-particles with same momenta enter perpendicular to a constant magnetic field B. The ratio of their radii of their paths r<sub>H</sub> : r<sub>α</sub> will be :",
+     "o": [
+      "4 : 1",
+      "1 : 4",
+      "2 : 1",
+      "1 : 2"
+     ],
+     "sol": "<p>r = p/(qB). Equal momenta in the same field ⇒ r ∝ 1/q. r<sub>H</sub>/r<sub>α</sub> = q<sub>α</sub>/q<sub>H</sub> = 2e/e = <b>2 : 1</b>.</p>",
+     "hint": "Same p and B: r ∝ 1/q."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "समान संवेग वाले आयनित हाइड्रोजन परमाणु और α-कण एक नियत चुंबकीय क्षेत्र B के लंबवत प्रवेश करते हैं। उनके पथों की त्रिज्याओं का अनुपात r<sub>H</sub> : r<sub>α</sub> होगा :",
+     "o": [
+      "4 : 1",
+      "1 : 4",
+      "2 : 1",
+      "1 : 2"
+     ],
+     "sol": "<p>r = p/(qB)। समान क्षेत्र में समान संवेग ⇒ r ∝ 1/q । r<sub>H</sub>/r<sub>α</sub> = q<sub>α</sub>/q<sub>H</sub> = 2e/e = <b>2 : 1</b>।</p>",
+     "hint": "समान p और B : r ∝ 1/q ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q94",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2019-code-s2-q116",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A cylindrical conductor of radius R is carrying a constant current. The plot of the magnitude of the magnetic field, B with the distance, d, from the centre of the conductor, is correctly represented by the figure :",
+     "o": [
+      "[graph 1: B rises linearly to d = R, then falls as 1/d]",
+      "[graph 2: B rises linearly to d = R, then stays constant]",
+      "[graph 3: B constant to d = R, then falls]",
+      "[graph 4: B zero inside, jumps at d = R, then falls]"
+     ],
+     "sol": "<p>Ampere's circuital law: inside (d &lt; R) the enclosed current ∝ d<sup>2</sup>, so B = μ<sub>0</sub>Id/(2πR<sup>2</sup>) rises linearly; outside B = μ<sub>0</sub>I/(2πd) falls as 1/d. Maximum at the surface: <b>graph 1</b>.</p>",
+     "hint": "B ∝ d inside, ∝ 1/d outside."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "R त्रिज्या का एक बेलनाकार चालक नियत धारा प्रवाहित कर रहा है। चालक के केंद्र से दूरी d के साथ चुंबकीय क्षेत्र B के परिमाण का आलेख सही रूप से निरूपित होता है आकृति :",
+     "o": [
+      "[ग्राफ 1 : B, d = R तक रैखिक रूप से बढ़ता है, फिर 1/d के अनुसार घटता है]",
+      "[ग्राफ 2 : B, d = R तक रैखिक रूप से बढ़ता है, फिर नियत रहता है]",
+      "[ग्राफ 3 : B, d = R तक नियत, फिर घटता है]",
+      "[ग्राफ 4 : B अंदर शून्य, d = R पर उछलता है, फिर घटता है]"
+     ],
+     "sol": "<p>ऐम्पियर का परिपथीय नियम : अंदर (d &lt; R) परिबद्ध धारा ∝ d<sup>2</sup>, अतः B = μ<sub>0</sub>Id/(2πR<sup>2</sup>) रैखिक रूप से बढ़ता है; बाहर B = μ<sub>0</sub>I/(2πd), 1/d के अनुसार घटता है। पृष्ठ पर अधिकतम : <b>ग्राफ 1</b>।</p>",
+     "hint": "अंदर B ∝ d, बाहर ∝ 1/d ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q116",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2020-code-f3-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ<sub>0</sub> = 4π × 10<sup>−7</sup> T m A<sup>−1</sup>)",
+     "o": [
+      "6.28 × 10<sup>−5</sup> T",
+      "3.14 × 10<sup>−5</sup> T",
+      "6.28 × 10<sup>−4</sup> T",
+      "3.14 × 10<sup>−4</sup> T"
+     ],
+     "sol": "<p>n = N/L = 100/0.5 = 200 turns/m. B = μ<sub>0</sub>nI = 4π × 10<sup>−7</sup> × 200 × 2.5 ≈ <b>6.28 × 10<sup>−4</sup> T</b>.</p>",
+     "hint": "n is turns per metre."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "50 cm लंबी और 100 फेरों वाली एक लंबी परिनालिका में 2.5 A धारा प्रवाहित है। परिनालिका के केंद्र पर चुंबकीय क्षेत्र है : (μ<sub>0</sub> = 4π × 10<sup>−7</sup> T m A<sup>−1</sup>)",
+     "o": [
+      "6.28 × 10<sup>−5</sup> T",
+      "3.14 × 10<sup>−5</sup> T",
+      "6.28 × 10<sup>−4</sup> T",
+      "3.14 × 10<sup>−4</sup> T"
+     ],
+     "sol": "<p>n = N/L = 100/0.5 = 200 फेरे/m । B = μ<sub>0</sub>nI = 4π × 10<sup>−7</sup> × 200 × 2.5 ≈ <b>6.28 × 10<sup>−4</sup> T</b>।</p>",
+     "hint": "n प्रति मीटर फेरे है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q17",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2021-code-p3-q6",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 10<sup>5</sup> m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant.",
+     "o": [
+      "8 × 10<sup>−20</sup> N",
+      "4 × 10<sup>−20</sup> N",
+      "8π × 10<sup>−20</sup> N",
+      "4π × 10<sup>−20</sup> N"
+     ],
+     "sol": "<p>Field of the wire at 0.2 m: B = μ<sub>0</sub>I/(2πr) = 2 × 10<sup>−7</sup> × 5/0.2 = 5 × 10<sup>−6</sup> T, perpendicular to the electron's velocity (which is parallel to the wire).</p><p>F = evB = 1.6 × 10<sup>−19</sup> × 10<sup>5</sup> × 5 × 10<sup>−6</sup> = <b>8 × 10<sup>−20</sup> N</b>.</p>",
+     "hint": "v ∥ wire ⇒ v ⊥ B."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक अनंत लंबा सीधा चालक दिखाए अनुसार 5 A धारा प्रवाहित करता है। एक इलेक्ट्रॉन चालक के समांतर 10<sup>5</sup> m/s की चाल से चल रहा है। किसी क्षण इलेक्ट्रॉन और चालक के बीच की लंबवत दूरी 20 cm है। उस क्षण इलेक्ट्रॉन द्वारा अनुभव किए गए बल के परिमाण की गणना कीजिए।",
+     "o": [
+      "8 × 10<sup>−20</sup> N",
+      "4 × 10<sup>−20</sup> N",
+      "8π × 10<sup>−20</sup> N",
+      "4π × 10<sup>−20</sup> N"
+     ],
+     "sol": "<p>0.2 m पर तार का क्षेत्र : B = μ<sub>0</sub>I/(2πr) = 2 × 10<sup>−7</sup> × 5/0.2 = 5 × 10<sup>−6</sup> T, इलेक्ट्रॉन के वेग (जो तार के समांतर है) के लंबवत।</p><p>F = evB = 1.6 × 10<sup>−19</sup> × 10<sup>5</sup> × 5 × 10<sup>−6</sup> = <b>8 × 10<sup>−20</sup> N</b>।</p>",
+     "hint": "v ∥ तार ⇒ v ⊥ B।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.2.2",
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q6",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "The figure only shows the wire PQ and the electron 20 cm from it; the text is complete without it."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2021-code-p3-q25",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A thick current carrying cable of radius 'R' carries current 'I' uniformly distributed across its cross-section. The variation of magnetic field B(r) due to the cable with the distance 'r' from the axis of the cable is represented by :",
+     "o": [
+      "[graph 1: B rises and levels off]",
+      "[graph 2: B rises ever faster]",
+      "[graph 3: B rises linearly]",
+      "[graph 4: B rises linearly to r = R, then falls as 1/r]"
+     ],
+     "sol": "<p>Inside the cable B ∝ r (enclosed current ∝ r<sup>2</sup>); outside B ∝ 1/r. The graph that rises linearly to r = R and then falls as 1/r is <b>graph 4</b>.</p>",
+     "hint": "Ampere's law with a uniform current density."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "R त्रिज्या की एक मोटी धारावाही केबल में धारा I उसके अनुप्रस्थ काट पर एकसमान रूप से वितरित है। केबल की अक्ष से दूरी r के साथ केबल के कारण चुंबकीय क्षेत्र B(r) में परिवर्तन निरूपित होता है :",
+     "o": [
+      "[ग्राफ 1 : B बढ़कर स्थिर होता है]",
+      "[ग्राफ 2 : B तेजी से बढ़ता है]",
+      "[ग्राफ 3 : B रैखिक रूप से बढ़ता है]",
+      "[ग्राफ 4 : B, r = R तक रैखिक रूप से बढ़ता है, फिर 1/r के अनुसार घटता है]"
+     ],
+     "sol": "<p>केबल के अंदर B ∝ r (परिबद्ध धारा ∝ r<sup>2</sup>); बाहर B ∝ 1/r । r = R तक रैखिक वृद्धि और फिर 1/r के अनुसार कमी वाला ग्राफ <b>ग्राफ 4</b> है।</p>",
+     "hint": "एकसमान धारा घनत्व के साथ ऐम्पियर का नियम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q25",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2021-code-p3-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the product F⃗ = q(v⃗ × B⃗) = qv⃗ × (Bî + Bĵ + B<sub>0</sub>k̂). For q = 1 and v⃗ = 2î + 4ĵ + 6k̂ and F⃗ = 4î − 20ĵ + 12k̂, what will be the complete expression for B⃗?",
+     "o": [
+      "6î + 6ĵ − 8k̂",
+      "−8î − 8ĵ − 6k̂",
+      "−6î − 6ĵ − 8k̂",
+      "8î + 8ĵ − 6k̂"
+     ],
+     "sol": "<p>v⃗ × B⃗ with B⃗ = (B, B, B<sub>0</sub>): x-component 4B<sub>0</sub> − 6B, y-component 6B − 2B<sub>0</sub>, z-component 2B − 4B = −2B.</p><p>Matching F⃗ = 4î − 20ĵ + 12k̂: −2B = 12 ⇒ B = −6; 4B<sub>0</sub> + 36 = 4 ⇒ B<sub>0</sub> = −8 (check y: −36 + 16 = −20 ✓). B⃗ = <b>−6î − 6ĵ − 8k̂</b>.</p>",
+     "hint": "Expand the cross product and match components."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "गुणनफल F⃗ = q(v⃗ × B⃗) = qv⃗ × (Bî + Bĵ + B<sub>0</sub>k̂) में, q = 1 और v⃗ = 2î + 4ĵ + 6k̂ तथा F⃗ = 4î − 20ĵ + 12k̂ के लिए B⃗ का पूर्ण व्यंजक क्या होगा?",
+     "o": [
+      "6î + 6ĵ − 8k̂",
+      "−8î − 8ĵ − 6k̂",
+      "−6î − 6ĵ − 8k̂",
+      "8î + 8ĵ − 6k̂"
+     ],
+     "sol": "<p>B⃗ = (B, B, B<sub>0</sub>) के साथ v⃗ × B⃗ : x-घटक 4B<sub>0</sub> − 6B, y-घटक 6B − 2B<sub>0</sub>, z-घटक 2B − 4B = −2B।</p><p>F⃗ = 4î − 20ĵ + 12k̂ से मिलाने पर : −2B = 12 ⇒ B = −6; 4B<sub>0</sub> + 36 = 4 ⇒ B<sub>0</sub> = −8 (y की जाँच : −36 + 16 = −20 ✓)। B⃗ = <b>−6î − 6ĵ − 8k̂</b>।</p>",
+     "hint": "सदिश गुणनफल का विस्तार करके घटक मिलाइए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.2.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Motion in a Plane"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q39",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2021-code-p3-q50",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A uniform conducting wire of length 12a and resistance 'R' is wound up as a current carrying coil in the shape of, (i) an equilateral triangle of side 'a'; (ii) a square of side 'a'. The magnetic dipole moments of the coil in each case respectively are :",
+     "o": [
+      "4Ia<sup>2</sup> and 3Ia<sup>2</sup>",
+      "√3Ia<sup>2</sup> and 3Ia<sup>2</sup>",
+      "3Ia<sup>2</sup> and Ia<sup>2</sup>",
+      "3Ia<sup>2</sup> and 4Ia<sup>2</sup>"
+     ],
+     "sol": "<p>Triangle of side a: 12a/(3a) = 4 turns, area (√3/4)a<sup>2</sup> ⇒ m = 4I(√3/4)a<sup>2</sup> = √3 Ia<sup>2</sup>. Square of side a: 12a/(4a) = 3 turns, area a<sup>2</sup> ⇒ m = 3Ia<sup>2</sup>.</p><p>Answer: <b>√3Ia<sup>2</sup> and 3Ia<sup>2</sup></b>.</p>",
+     "hint": "Number of turns = total length/perimeter; m = NIA."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "12a लंबाई और 'R' प्रतिरोध का एक एकसमान चालक तार, धारावाही कुंडली के रूप में (i) a भुजा के एक समबाहु त्रिभुज; (ii) a भुजा के एक वर्ग के आकार में लपेटा जाता है। प्रत्येक स्थिति में कुंडली के चुंबकीय द्विध्रुव आघूर्ण क्रमशः हैं :",
+     "o": [
+      "4Ia<sup>2</sup> और 3Ia<sup>2</sup>",
+      "√3Ia<sup>2</sup> और 3Ia<sup>2</sup>",
+      "3Ia<sup>2</sup> और Ia<sup>2</sup>",
+      "3Ia<sup>2</sup> और 4Ia<sup>2</sup>"
+     ],
+     "sol": "<p>a भुजा का त्रिभुज : 12a/(3a) = 4 फेरे, क्षेत्रफल (√3/4)a<sup>2</sup> ⇒ m = 4I(√3/4)a<sup>2</sup> = √3 Ia<sup>2</sup>। a भुजा का वर्ग : 12a/(4a) = 3 फेरे, क्षेत्रफल a<sup>2</sup> ⇒ m = 3Ia<sup>2</sup>।</p><p>उत्तर : <b>√3Ia<sup>2</sup> और 3Ia<sup>2</sup></b>।</p>",
+     "hint": "फेरों की संख्या = कुल लंबाई/परिमाप; m = NIA।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q50",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2022-code-t2-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long solenoid of radius 1 mm has 100 turns per mm. If 1 A current flows in the solenoid, the magnetic field strength at the centre of the solenoid is :",
+     "o": [
+      "12.56 × 10<sup>−2</sup> T",
+      "12.56 × 10<sup>−4</sup> T",
+      "6.28 × 10<sup>−4</sup> T",
+      "6.28 × 10<sup>−2</sup> T"
+     ],
+     "sol": "<p>n = 100 turns per mm = 10<sup>5</sup> turns/m. B = μ<sub>0</sub>nI = 4π × 10<sup>−7</sup> × 10<sup>5</sup> × 1 = 0.1256 T = <b>12.56 × 10<sup>−2</sup> T</b>. (The radius does not matter for a long solenoid.)</p>",
+     "hint": "Convert turns per mm to turns per metre."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "1 mm त्रिज्या की एक लंबी परिनालिका में प्रति mm 100 फेरे हैं। यदि परिनालिका में 1 A धारा प्रवाहित हो, तो परिनालिका के केंद्र पर चुंबकीय क्षेत्र की तीव्रता है :",
+     "o": [
+      "12.56 × 10<sup>−2</sup> T",
+      "12.56 × 10<sup>−4</sup> T",
+      "6.28 × 10<sup>−4</sup> T",
+      "6.28 × 10<sup>−2</sup> T"
+     ],
+     "sol": "<p>n = प्रति mm 100 फेरे = 10<sup>5</sup> फेरे/m । B = μ<sub>0</sub>nI = 4π × 10<sup>−7</sup> × 10<sup>5</sup> × 1 = 0.1256 T = <b>12.56 × 10<sup>−2</sup> T</b>। (लंबी परिनालिका के लिए त्रिज्या का कोई प्रभाव नहीं।)</p>",
+     "hint": "प्रति mm फेरों को प्रति मीटर फेरों में बदलिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q9",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2022-code-t2-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I : Biot-Savart's law gives us the expression for the magnetic field strength of an infinitesimal current element (Idl) of a current carrying conductor only.<br>Statement II : Biot-Savart's law is analogous to Coulomb's inverse square law of charge q, with the former being related to the field produced by a scalar source, Idl while the latter being produced by a vector source, q.<br>In light of above statements choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct and Statement II is incorrect",
+      "Statement I is incorrect and Statement II is correct",
+      "Both Statement I and Statement II are correct"
+     ],
+     "sol": "<p>Statement I is correct: the Biot–Savart law gives the field dB due to a current element Idl. Statement II is incorrect: the source in Biot–Savart, Idl, is a vector, while the source in Coulomb's law, q, is a scalar (the statement has them the other way round).</p><p>Answer: <b>Statement I is correct and Statement II is incorrect</b>.</p>",
+     "hint": "Idl has a direction; charge q does not."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "नीचे दो कथन दिए गए हैं :<br>कथन I : बायो-सावर्ट नियम किसी धारावाही चालक के केवल अतिसूक्ष्म धारा अवयव (Idl) के चुंबकीय क्षेत्र की तीव्रता का व्यंजक देता है।<br>कथन II : बायो-सावर्ट नियम आवेश q के कूलॉम के व्युत्क्रम वर्ग नियम के अनुरूप है, जिसमें पहला एक अदिश स्रोत Idl द्वारा और दूसरा एक सदिश स्रोत q द्वारा उत्पन्न क्षेत्र से संबंधित है।<br>उपर्युक्त कथनों के आलोक में नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनिए :",
+     "o": [
+      "कथन I और कथन II दोनों गलत हैं",
+      "कथन I सही है और कथन II गलत है",
+      "कथन I गलत है और कथन II सही है",
+      "कथन I और कथन II दोनों सही हैं"
+     ],
+     "sol": "<p>कथन I सही है : बायो-सावर्ट नियम धारा अवयव Idl के कारण क्षेत्र dB देता है। कथन II गलत है : बायो-सावर्ट में स्रोत Idl एक सदिश है, जबकि कूलॉम नियम में स्रोत q एक अदिश है (कथन में ये उलटे लिखे हैं)।</p><p>उत्तर : <b>कथन I सही है और कथन II गलत है</b>।</p>",
+     "hint": "Idl की दिशा होती है; आवेश q की नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q27",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2022-code-t2-q47",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "From Ampere's circuital law for a long straight wire of circular cross-section carrying a steady current, the variation of magnetic field in the inside and outside region of the wire is :",
+     "o": [
+      "a linearly increasing function of distance up to the boundary of the wire and then linearly decreasing for the outside region",
+      "a linearly increasing function of distance r up to the boundary of the wire and then decreasing one with 1/r dependence for the outside region",
+      "a linearly decreasing function of distance up to the boundary of the wire and then a linearly increasing one for the outside region",
+      "uniform and remains constant for both the regions"
+     ],
+     "sol": "<p>Taking circular Ampèrian loops: inside, B(2πr) = μ<sub>0</sub>I r<sup>2</sup>/R<sup>2</sup> ⇒ B ∝ r (linear rise); outside, B(2πr) = μ<sub>0</sub>I ⇒ B ∝ 1/r. Answer: <b>linearly increasing up to the boundary, then decreasing as 1/r outside</b>.</p>",
+     "hint": "Enclosed current ∝ r<sup>2</sup> inside, constant outside."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "वृत्तीय अनुप्रस्थ काट वाले स्थायी धारावाही एक लंबे सीधे तार के लिए ऐम्पियर के परिपथीय नियम से तार के अंदर और बाहर के क्षेत्रों में चुंबकीय क्षेत्र का परिवर्तन है :",
+     "o": [
+      "तार की सीमा तक दूरी का रैखिकतः बढ़ता फलन और फिर बाहरी क्षेत्र के लिए रैखिकतः घटता",
+      "तार की सीमा तक दूरी r का रैखिकतः बढ़ता फलन और फिर बाहरी क्षेत्र के लिए 1/r निर्भरता के साथ घटता",
+      "तार की सीमा तक दूरी का रैखिकतः घटता फलन और फिर बाहरी क्षेत्र के लिए रैखिकतः बढ़ता",
+      "दोनों क्षेत्रों के लिए एकसमान और नियत"
+     ],
+     "sol": "<p>वृत्ताकार ऐम्पियरी पाश लेने पर : अंदर B(2πr) = μ<sub>0</sub>I r<sup>2</sup>/R<sup>2</sup> ⇒ B ∝ r (रैखिक वृद्धि); बाहर B(2πr) = μ<sub>0</sub>I ⇒ B ∝ 1/r । उत्तर : <b>सीमा तक रैखिकतः बढ़ता, फिर बाहर 1/r के अनुसार घटता</b>।</p>",
+     "hint": "अंदर परिबद्ध धारा ∝ r<sup>2</sup>, बाहर नियत।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q47",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2023-topic-wise-copy-q44",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A very long conducting wire is bent in a semi-circular shape from A to B as shown in figure. The magnetic field at point P for steady current configuration is given by :",
+     "o": [
+      "(μ<sub>0</sub>i/4R)[1 − 2/π] pointed into the page",
+      "(μ<sub>0</sub>i/4R) pointed into the page",
+      "(μ<sub>0</sub>i/4R) pointed away from the page",
+      "(μ<sub>0</sub>i/4R)[1 − 2/π] pointed away from the page"
+     ],
+     "sol": "<p>Semicircle of radius R centred at P: B<sub>1</sub> = μ<sub>0</sub>i/(4R). Each semi-infinite straight part, with P level with its end at distance R: B = μ<sub>0</sub>i/(4πR). By the right-hand rule the two straight parts point into the page and the semicircle out of the page.</p><p>Net = μ<sub>0</sub>i/(4R) − 2μ<sub>0</sub>i/(4πR) = <b>(μ<sub>0</sub>i/4R)[1 − 2/π] pointed away from the page</b>.</p>",
+     "hint": "Field of a semi-infinite wire at its end-perpendicular: μ<sub>0</sub>i/4πR."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक बहुत लंबे चालक तार को चित्र में दिखाए अनुसार A से B तक अर्धवृत्ताकार आकार में मोड़ा गया है। स्थायी धारा विन्यास के लिए बिंदु P पर चुंबकीय क्षेत्र दिया जाता है :",
+     "o": [
+      "(μ<sub>0</sub>i/4R)[1 − 2/π] पृष्ठ के अंदर की ओर",
+      "(μ<sub>0</sub>i/4R) पृष्ठ के अंदर की ओर",
+      "(μ<sub>0</sub>i/4R) पृष्ठ से बाहर की ओर",
+      "(μ<sub>0</sub>i/4R)[1 − 2/π] पृष्ठ से बाहर की ओर"
+     ],
+     "sol": "<p>P पर केंद्र वाला R त्रिज्या का अर्धवृत्त : B<sub>1</sub> = μ<sub>0</sub>i/(4R)। प्रत्येक अर्ध-अनंत सीधा भाग, जिसके सिरे के समतल R दूरी पर P है : B = μ<sub>0</sub>i/(4πR)। दक्षिण हस्त नियम से दोनों सीधे भाग पृष्ठ के अंदर की ओर और अर्धवृत्त पृष्ठ से बाहर की ओर क्षेत्र देते हैं।</p><p>नेट = μ<sub>0</sub>i/(4R) − 2μ<sub>0</sub>i/(4πR) = <b>(μ<sub>0</sub>i/4R)[1 − 2/π] पृष्ठ से बाहर की ओर</b>।</p>",
+     "hint": "अर्ध-अनंत तार का उसके सिरे के लंबवत क्षेत्र : μ<sub>0</sub>i/4πR।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q44",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "Two semi-infinite straight parts (current towards A on top, away from B at the bottom) joined by a semicircle of radius R centred at P. Field of a semi-infinite wire at a point level with its end is not derived in the rationalised chapter. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2023-topic-wise-copy-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A wire carrying a current I along the positive x-axis has length L. It is kept in a magnetic field B⃗ = (2î + 3ĵ − 4k̂) T. The magnitude of the magnetic force acting on the wire is :",
+     "o": [
+      "√3 IL",
+      "3 IL",
+      "√5 IL",
+      "5 IL"
+     ],
+     "sol": "<p>F⃗ = IL î × (2î + 3ĵ − 4k̂) = IL(3k̂ + 4ĵ). |F| = IL√(3<sup>2</sup> + 4<sup>2</sup>) = <b>5 IL</b>. (The x-component of B exerts no force.)</p>",
+     "hint": "Only B ⊥ wire matters: √(3<sup>2</sup> + 4<sup>2</sup>)."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "धनात्मक x-अक्ष के अनुदिश धारा I प्रवाहित करने वाले एक तार की लंबाई L है। इसे चुंबकीय क्षेत्र B⃗ = (2î + 3ĵ − 4k̂) T में रखा गया है। तार पर कार्यरत चुंबकीय बल का परिमाण है :",
+     "o": [
+      "√3 IL",
+      "3 IL",
+      "√5 IL",
+      "5 IL"
+     ],
+     "sol": "<p>F⃗ = IL î × (2î + 3ĵ − 4k̂) = IL(3k̂ + 4ĵ)। |F| = IL√(3<sup>2</sup> + 4<sup>2</sup>) = <b>5 IL</b>। (B का x-घटक कोई बल नहीं लगाता।)</p>",
+     "hint": "केवल तार के लंबवत B प्रभावी है : √(3<sup>2</sup> + 4<sup>2</sup>)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q45",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2024-q22-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π × 10<sup>−7</sup> SI units) :",
+     "o": [
+      "44 mT",
+      "4.4 T",
+      "4.4 mT",
+      "44 T"
+     ],
+     "sol": "<p>B = μ<sub>0</sub>NI/(2R) = 4π × 10<sup>−7</sup> × 100 × 7/(2 × 0.1) ≈ 4.4 × 10<sup>−3</sup> T = <b>4.4 mT</b>.</p>",
+     "hint": "Centre of a circular coil: μ<sub>0</sub>NI/2R."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "10 cm त्रिज्या की 100 फेरों वाली एक दृढ़ता से लपेटी गई कुंडली में 7 A धारा प्रवाहित है। कुंडली के केंद्र पर चुंबकीय क्षेत्र का परिमाण है (मुक्त आकाश की चुंबकशीलता 4π × 10<sup>−7</sup> SI मात्रक लीजिए) :",
+     "o": [
+      "44 mT",
+      "4.4 T",
+      "4.4 mT",
+      "44 T"
+     ],
+     "sol": "<p>B = μ<sub>0</sub>NI/(2R) = 4π × 10<sup>−7</sup> × 100 × 7/(2 × 0.1) ≈ 4.4 × 10<sup>−3</sup> T = <b>4.4 mT</b>।</p>",
+     "hint": "वृत्ताकार कुंडली का केंद्र : μ<sub>0</sub>NI/2R।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q22 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2025-code-45-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron (mass 9 × 10<sup>−31</sup> kg and charge 1.6 × 10<sup>−19</sup> C) moving with speed c/100 (c = speed of light) is injected into a magnetic field B⃗ of magnitude 9 × 10<sup>−4</sup> T perpendicular to its direction of motion. We wish to apply an uniform electric field E⃗ together with the magnetic field so that the electron does not deflect from its path. Then (speed of light c = 3 × 10<sup>8</sup> m s<sup>−1</sup>)",
+     "o": [
+      "E⃗ is perpendicular to B⃗ and its magnitude is 27 × 10<sup>4</sup> V m<sup>−1</sup>",
+      "E⃗ is perpendicular to B⃗ and its magnitude is 27 × 10<sup>2</sup> V m<sup>−1</sup>",
+      "E⃗ is parallel to B⃗ and its magnitude is 27 × 10<sup>2</sup> V m<sup>−1</sup>",
+      "E⃗ is parallel to B⃗ and its magnitude is 27 × 10<sup>4</sup> V m<sup>−1</sup>"
+     ],
+     "sol": "<p>No deflection: the electric force must cancel the magnetic force, so E⃗ is perpendicular to both v⃗ and B⃗ (E⃗ ⊥ B⃗) and eE = evB.</p><p>E = vB = (3 × 10<sup>8</sup>/100) × 9 × 10<sup>−4</sup> = 3 × 10<sup>6</sup> × 9 × 10<sup>−4</sup> = <b>27 × 10<sup>2</sup> V m<sup>−1</sup></b>, perpendicular to B⃗.</p>",
+     "hint": "Velocity selector: E = vB with E⃗ ⊥ B⃗."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक इलेक्ट्रॉन (द्रव्यमान 9 × 10<sup>−31</sup> kg और आवेश 1.6 × 10<sup>−19</sup> C) c/100 (c = प्रकाश की चाल) चाल से गति करते हुए 9 × 10<sup>−4</sup> T परिमाण के चुंबकीय क्षेत्र B⃗ में अपनी गति की दिशा के लंबवत प्रवेश कराया जाता है। हम चुंबकीय क्षेत्र के साथ एक एकसमान विद्युत क्षेत्र E⃗ लगाना चाहते हैं ताकि इलेक्ट्रॉन अपने पथ से विचलित न हो। तब (प्रकाश की चाल c = 3 × 10<sup>8</sup> m s<sup>−1</sup>)",
+     "o": [
+      "E⃗, B⃗ के लंबवत है और इसका परिमाण 27 × 10<sup>4</sup> V m<sup>−1</sup> है",
+      "E⃗, B⃗ के लंबवत है और इसका परिमाण 27 × 10<sup>2</sup> V m<sup>−1</sup> है",
+      "E⃗, B⃗ के समांतर है और इसका परिमाण 27 × 10<sup>2</sup> V m<sup>−1</sup> है",
+      "E⃗, B⃗ के समांतर है और इसका परिमाण 27 × 10<sup>4</sup> V m<sup>−1</sup> है"
+     ],
+     "sol": "<p>कोई विक्षेप नहीं : विद्युत बल को चुंबकीय बल निरस्त करना है, अतः E⃗, v⃗ और B⃗ दोनों के लंबवत है (E⃗ ⊥ B⃗) और eE = evB।</p><p>E = vB = (3 × 10<sup>8</sup>/100) × 9 × 10<sup>−4</sup> = 3 × 10<sup>6</sup> × 9 × 10<sup>−4</sup> = <b>27 × 10<sup>2</sup> V m<sup>−1</sup></b>, B⃗ के लंबवत।</p>",
+     "hint": "वेग वरणक : E = vB, जहाँ E⃗ ⊥ B⃗।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.2.2",
+     "4.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q3",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2025-code-45-q12",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 2 amp current is flowing through two different small circular copper coils having radii ratio 1 : 2. The ratio of their respective magnetic moments will be :",
+     "o": [
+      "1 : 4",
+      "1 : 2",
+      "2 : 1",
+      "4 : 1"
+     ],
+     "sol": "<p>m = IA = Iπr<sup>2</sup> ∝ r<sup>2</sup> for the same current. Radii 1 : 2 ⇒ moments <b>1 : 4</b>.</p>",
+     "hint": "m ∝ area."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "1 : 2 त्रिज्या अनुपात वाली दो भिन्न छोटी वृत्ताकार ताँबे की कुंडलियों से 2 amp धारा प्रवाहित हो रही है। उनके चुंबकीय आघूर्णों का अनुपात होगा :",
+     "o": [
+      "1 : 4",
+      "1 : 2",
+      "2 : 1",
+      "4 : 1"
+     ],
+     "sol": "<p>समान धारा के लिए m = IA = Iπr<sup>2</sup> ∝ r<sup>2</sup>। त्रिज्याएँ 1 : 2 ⇒ आघूर्ण <b>1 : 4</b>।</p>",
+     "hint": "m ∝ क्षेत्रफल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q12",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2025-code-45-q18",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A model for quantized motion of an electron in a uniform magnetic field B states that the flux passing through the orbit of the electron is n(h/e) where n is an integer, h is Planck's constant and e is the magnitude of electron's charge. According to the model, the magnetic moment of an electron in its lowest energy state will be (m is the mass of the electron) :",
+     "o": [
+      "he/(πm)",
+      "he/(2πm)",
+      "heB/(πm)",
+      "heB/(2πm)"
+     ],
+     "sol": "<p>Circular orbit: evB = mv<sup>2</sup>/r ⇒ v = eBr/m. Flux condition: Bπr<sup>2</sup> = nh/e. Magnetic moment of the orbit μ = IA = (ev/2πr)πr<sup>2</sup> = evr/2 = e<sup>2</sup>Br<sup>2</sup>/(2m).</p><p>With Br<sup>2</sup> = nh/(eπ): μ = neh/(2πm). Lowest state n = 1: <b>μ = he/(2πm)</b>.</p>",
+     "hint": "μ = evr/2 for a circulating charge."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एकसमान चुंबकीय क्षेत्र B में इलेक्ट्रॉन की क्वांटित गति का एक मॉडल बताता है कि इलेक्ट्रॉन की कक्षा से गुजरने वाला फलक्स n(h/e) है, जहाँ n एक पूर्णांक, h प्लांक स्थिरांक और e इलेक्ट्रॉन के आवेश का परिमाण है। इस मॉडल के अनुसार निम्नतम ऊर्जा अवस्था में इलेक्ट्रॉन का चुंबकीय आघूर्ण होगा (m इलेक्ट्रॉन का द्रव्यमान है) :",
+     "o": [
+      "he/(πm)",
+      "he/(2πm)",
+      "heB/(πm)",
+      "heB/(2πm)"
+     ],
+     "sol": "<p>वृत्तीय कक्षा : evB = mv<sup>2</sup>/r ⇒ v = eBr/m । फलक्स प्रतिबंध : Bπr<sup>2</sup> = nh/e । कक्षा का चुंबकीय आघूर्ण μ = IA = (ev/2πr)πr<sup>2</sup> = evr/2 = e<sup>2</sup>Br<sup>2</sup>/(2m)।</p><p>Br<sup>2</sup> = nh/(eπ) रखने पर : μ = neh/(2πm)। निम्नतम अवस्था n = 1 : <b>μ = he/(2πm)</b>।</p>",
+     "hint": "परिक्रमा करते आवेश के लिए μ = evr/2।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.9.2",
+     "4.3"
+    ],
+    "otherChapters": [
+     "Class 12 · Atoms"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q18",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2026-code-13-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 100-turn closely wound circular coil of radius 5 cm has a magnetic field of 3.14 × 10<sup>−3</sup> T at its centre. The current flowing through the coil, and the magnitude of the magnetic moment of this coil are, respectively : (Take μ<sub>0</sub> = 4π × 10<sup>−7</sup> T m/A)",
+     "o": [
+      "2.5 A, 20 A m<sup>2</sup>",
+      "2 A, 4 A m<sup>2</sup>",
+      "2.5 A, 2 A m<sup>2</sup>",
+      "2 A, 10 A m<sup>2</sup>"
+     ],
+     "sol": "<p>B = μ<sub>0</sub>NI/(2R) ⇒ I = 2RB/(μ<sub>0</sub>N) = 2 × 0.05 × 3.14 × 10<sup>−3</sup>/(4π × 10<sup>−7</sup> × 100) = 2.5 A.</p><p>m = NIπR<sup>2</sup> = 100 × 2.5 × π × (0.05)<sup>2</sup> ≈ 1.96 ≈ 2 A m<sup>2</sup>. Answer: <b>2.5 A, 2 A m<sup>2</sup></b>.</p>",
+     "hint": "First I from the centre field, then m = NIA."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "5 cm त्रिज्या की 100 फेरों वाली एक सघन रूप से लपेटी गई वृत्ताकार कुंडली के केंद्र पर चुंबकीय क्षेत्र 3.14 × 10<sup>−3</sup> T है। कुंडली से प्रवाहित धारा, और इस कुंडली के चुंबकीय आघूर्ण का परिमाण क्रमशः हैं : (μ<sub>0</sub> = 4π × 10<sup>−7</sup> T m/A लीजिए)",
+     "o": [
+      "2.5 A, 20 A m<sup>2</sup>",
+      "2 A, 4 A m<sup>2</sup>",
+      "2.5 A, 2 A m<sup>2</sup>",
+      "2 A, 10 A m<sup>2</sup>"
+     ],
+     "sol": "<p>B = μ<sub>0</sub>NI/(2R) ⇒ I = 2RB/(μ<sub>0</sub>N) = 2 × 0.05 × 3.14 × 10<sup>−3</sup>/(4π × 10<sup>−7</sup> × 100) = 2.5 A।</p><p>m = NIπR<sup>2</sup> = 100 × 2.5 × π × (0.05)<sup>2</sup> ≈ 1.96 ≈ 2 A m<sup>2</sup>। उत्तर : <b>2.5 A, 2 A m<sup>2</sup></b>।</p>",
+     "hint": "पहले केंद्र के क्षेत्र से I, फिर m = NIA।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.5",
+     "4.9.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q5",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-04-neet-2026-code-13-q15",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The figure given below shows a long straight solid wire of circular cross-section of radius 'a' carrying steady current I. The current I is uniformly distributed across its cross-section. The plot which correctly represents the variation of magnetic field (B) with distance (r) from the axis of the conductor in the region is :",
+     "o": [
+      "[graph 1: B rises ever faster to r = a, then falls]",
+      "[graph 2: B dips slightly then rises to r = a, then falls]",
+      "[graph 3: B rises linearly to r = a, then falls as 1/r]",
+      "[graph 4: B zero inside, jumps at r = a, then falls]"
+     ],
+     "sol": "<p>Uniform current density: inside, B = μ<sub>0</sub>Ir/(2πa<sup>2</sup>) rises linearly from zero on the axis; outside, B = μ<sub>0</sub>I/(2πr) falls as 1/r. The plot with a straight rise to r = a and a 1/r fall is <b>graph 3</b>.</p>",
+     "hint": "B = 0 on the axis and largest at the surface."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "नीचे दिया गया चित्र 'a' त्रिज्या के वृत्तीय अनुप्रस्थ काट वाले एक लंबे सीधे ठोस तार को दर्शाता है जो स्थायी धारा I प्रवाहित करता है। धारा I उसके अनुप्रस्थ काट पर एकसमान रूप से वितरित है। क्षेत्र में चालक की अक्ष से दूरी (r) के साथ चुंबकीय क्षेत्र (B) के परिवर्तन को सही रूप से निरूपित करने वाला आलेख है :",
+     "o": [
+      "[ग्राफ 1 : B, r = a तक तेजी से बढ़ता है, फिर घटता है]",
+      "[ग्राफ 2 : B थोड़ा घटकर r = a तक बढ़ता है, फिर घटता है]",
+      "[ग्राफ 3 : B, r = a तक रैखिक रूप से बढ़ता है, फिर 1/r के अनुसार घटता है]",
+      "[ग्राफ 4 : B अंदर शून्य, r = a पर उछलता है, फिर घटता है]"
+     ],
+     "sol": "<p>एकसमान धारा घनत्व : अंदर B = μ<sub>0</sub>Ir/(2πa<sup>2</sup>) अक्ष पर शून्य से रैखिक रूप से बढ़ता है; बाहर B = μ<sub>0</sub>I/(2πr), 1/r के अनुसार घटता है। r = a तक सरल रेखीय वृद्धि और 1/r कमी वाला आलेख <b>ग्राफ 3</b> है।</p>",
+     "hint": "अक्ष पर B = 0 और पृष्ठ पर अधिकतम।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q15",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)",
+    "note": "Options are graphs; needs redrawn figures."
+   }
+  },
+  {
+   "id": "phy12-04-neet-2026-code-13-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A galvanometer of resistance 100 Ω gives full scale deflection for a current of 1 mA. It is converted into an ammeter of range 0 – 10 A. The shunt required is :",
+     "o": [
+      "0.001 Ω",
+      "0.10 Ω",
+      "1.0 Ω",
+      "0.01 Ω"
+     ],
+     "sol": "<p>Shunt S carries I − I<sub>g</sub> at the galvanometer's voltage: I<sub>g</sub>G = (I − I<sub>g</sub>)S ⇒ S = 10<sup>−3</sup> × 100/(10 − 0.001) ≈ <b>0.01 Ω</b>.</p>",
+     "hint": "Shunt and galvanometer are in parallel."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "100 Ω प्रतिरोध वाला एक गैल्वेनोमीटर 1 mA धारा पर पूर्ण स्केल विक्षेप देता है। इसे 0 – 10 A परास वाले ऐमीटर में बदला जाता है। आवश्यक शंट है :",
+     "o": [
+      "0.001 Ω",
+      "0.10 Ω",
+      "1.0 Ω",
+      "0.01 Ω"
+     ],
+     "sol": "<p>शंट S, गैल्वेनोमीटर की वोल्टता पर I − I<sub>g</sub> धारा ले जाता है : I<sub>g</sub>G = (I − I<sub>g</sub>)S ⇒ S = 10<sup>−3</sup> × 100/(10 − 0.001) ≈ <b>0.01 Ω</b>।</p>",
+     "hint": "शंट और गैल्वेनोमीटर पार्श्वक्रम में हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-04",
+    "paras": [
+     "4.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q28",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 4",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}

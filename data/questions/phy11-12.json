@@ -1,0 +1,1087 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-12",
+ "subject": "physics",
+ "class": 11,
+ "unit": 12,
+ "title": {
+  "en": "Kinetic Theory"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph205.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "12.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "12.2",
+   "title": "Molecular Nature of Matter",
+   "hi": "द्रव्य की आण्विक प्रकृति",
+   "pdfPage": 1
+  },
+  {
+   "id": "12.3",
+   "title": "Behaviour of Gases",
+   "pdfPage": 3
+  },
+  {
+   "id": "12.4",
+   "title": "Kinetic Theory of an Ideal Gas",
+   "pdfPage": 5
+  },
+  {
+   "id": "12.4.1",
+   "title": "Pressure of an Ideal Gas",
+   "pdfPage": 6
+  },
+  {
+   "id": "12.4.2",
+   "title": "Kinetic Interpretation of Temperature",
+   "pdfPage": 7
+  },
+  {
+   "id": "12.5",
+   "title": "Law of Equipartition of Energy",
+   "pdfPage": 9
+  },
+  {
+   "id": "12.6",
+   "title": "Specific Heat Capacity",
+   "pdfPage": 10
+  },
+  {
+   "id": "12.6.1",
+   "title": "Monatomic Gases",
+   "pdfPage": 10
+  },
+  {
+   "id": "12.6.2",
+   "title": "Diatomic Gases",
+   "pdfPage": 10
+  },
+  {
+   "id": "12.6.3",
+   "title": "Polyatomic Gases",
+   "pdfPage": 10
+  },
+  {
+   "id": "12.6.4",
+   "title": "Specific Heat Capacity of Solids",
+   "pdfPage": 11
+  },
+  {
+   "id": "12.7",
+   "title": "Mean Free Path",
+   "pdfPage": 11
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-12-neet-2015-re-exam-code-d-q165",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "4.0 g of a gas occupies 22.4 litres at NTP. The specific heat capacity of the gas at constant volume is 5.0 J K<sup>−1</sup> mol<sup>−1</sup>. If the speed of sound in this gas at NTP is 952 m s<sup>−1</sup>, then the heat capacity at constant pressure is : (Take gas constant R = 8.3 J K<sup>−1</sup> mol<sup>−1</sup>)",
+     "o": [
+      "7.5 J K<sup>−1</sup> mol<sup>−1</sup>",
+      "7.0 J K<sup>−1</sup> mol<sup>−1</sup>",
+      "8.5 J K<sup>−1</sup> mol<sup>−1</sup>",
+      "8.0 J K<sup>−1</sup> mol<sup>−1</sup>"
+     ],
+     "sol": "<p>Molar mass M = 4.0 g/mol = 0.004 kg/mol (one mole occupies 22.4 L at NTP). Speed of sound v = √(γRT/M) ⇒ γ = v<sup>2</sup>M/(RT) = (952)<sup>2</sup> × 0.004/(8.3 × 273) ≈ 3625/2266 ≈ 1.6.</p><p>C<sub>p</sub> = γC<sub>v</sub> = 1.6 × 5.0 = <b>8.0 J K<sup>−1</sup> mol<sup>−1</sup></b>.</p>",
+     "hint": "Find γ from the speed of sound, then C<sub>p</sub> = γC<sub>v</sub>."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "किसी गैस के 4.0 g, NTP पर 22.4 लीटर आयतन घेरते हैं। नियत आयतन पर गैस की विशिष्ट ऊष्मा धारिता 5.0 J K<sup>−1</sup> mol<sup>−1</sup> है। यदि NTP पर इस गैस में ध्वनि की चाल 952 m s<sup>−1</sup> है, तो नियत दाब पर ऊष्मा धारिता है : (गैस नियतांक R = 8.3 J K<sup>−1</sup> mol<sup>−1</sup> लीजिए)",
+     "o": [
+      "7.5 J K<sup>−1</sup> mol<sup>−1</sup>",
+      "7.0 J K<sup>−1</sup> mol<sup>−1</sup>",
+      "8.5 J K<sup>−1</sup> mol<sup>−1</sup>",
+      "8.0 J K<sup>−1</sup> mol<sup>−1</sup>"
+     ],
+     "sol": "<p>मोलर द्रव्यमान M = 4.0 g/mol = 0.004 kg/mol (NTP पर एक मोल 22.4 L घेरता है)। ध्वनि की चाल v = √(γRT/M) ⇒ γ = v<sup>2</sup>M/(RT) = (952)<sup>2</sup> × 0.004/(8.3 × 273) ≈ 3625/2266 ≈ 1.6।</p><p>C<sub>p</sub> = γC<sub>v</sub> = 1.6 × 5.0 = <b>8.0 J K<sup>−1</sup> mol<sup>−1</sup></b>।</p>",
+     "hint": "ध्वनि की चाल से γ ज्ञात कीजिए, फिर C<sub>p</sub> = γC<sub>v</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.6"
+    ],
+    "otherChapters": [
+     "Class 11 · Waves"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q165",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
+    "note": "γ = v<sup>2</sup>M/(RT) = 952<sup>2</sup> × 0.004/(8.3 × 273) ≈ 1.6, so C<sub>p</sub> = γC<sub>v</sub> = 8.0."
+   }
+  },
+  {
+   "id": "phy11-12-neet-2015-re-exam-code-d-q171",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two vessels separately contain two ideal gases A and B at the same temperature, the pressure of A being twice that of B. Under such conditions, the density of A is found to be 1.5 times the density of B. The ratio of molecular weight of A and B is :",
+     "o": [
+      "3/4",
+      "2",
+      "1/2",
+      "2/3"
+     ],
+     "sol": "<p>Ideal gas: ρ = PM/(RT) ⇒ M = ρRT/P. At the same T: M<sub>A</sub>/M<sub>B</sub> = (ρ<sub>A</sub>/ρ<sub>B</sub>)(P<sub>B</sub>/P<sub>A</sub>) = 1.5 × (1/2) = <b>3/4</b>.</p>",
+     "hint": "ρ = PM/RT."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "दो पात्रों में अलग-अलग दो आदर्श गैसें A और B समान ताप पर हैं, A का दाब B के दाब का दोगुना है। इन परिस्थितियों में A का घनत्व B के घनत्व का 1.5 गुना पाया जाता है। A और B के आण्विक भारों का अनुपात है :",
+     "o": [
+      "3/4",
+      "2",
+      "1/2",
+      "2/3"
+     ],
+     "sol": "<p>आदर्श गैस : ρ = PM/(RT) ⇒ M = ρRT/P । समान T पर : M<sub>A</sub>/M<sub>B</sub> = (ρ<sub>A</sub>/ρ<sub>B</sub>)(P<sub>B</sub>/P<sub>A</sub>) = 1.5 × (1/2) = <b>3/4</b>।</p>",
+     "hint": "ρ = PM/RT ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q171",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2016-phase-1-code-a-q25",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The molecules of a given mass of a gas have r.m.s. velocity of 200 m s<sup>−1</sup> at 27 °C and 1.0 × 10<sup>5</sup> N m<sup>−2</sup> pressure. When the temperature and pressure of the gas are respectively, 127 °C and 0.05 × 10<sup>5</sup> N m<sup>−2</sup>, the r.m.s. velocity of its molecules in m s<sup>−1</sup> is :",
+     "o": [
+      "100√2",
+      "400/√3",
+      "100√2/3",
+      "100/3"
+     ],
+     "sol": "<p>v<sub>rms</sub> = √(3RT/M) depends only on T (the pressure change does not matter). From 300 K to 400 K:</p><p>v′ = 200 × √(400/300) = 200 × 2/√3 = <b>400/√3</b> m s<sup>−1</sup>.</p>",
+     "hint": "v<sub>rms</sub> ∝ √T; pressure is a distractor."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "किसी गैस के दिए गए द्रव्यमान के अणुओं का 27 °C और 1.0 × 10<sup>5</sup> N m<sup>−2</sup> दाब पर वर्ग माध्य मूल वेग 200 m s<sup>−1</sup> है। जब गैस का ताप और दाब क्रमशः 127 °C और 0.05 × 10<sup>5</sup> N m<sup>−2</sup> हों, तो इसके अणुओं का वर्ग माध्य मूल वेग m s<sup>−1</sup> में है :",
+     "o": [
+      "100√2",
+      "400/√3",
+      "100√2/3",
+      "100/3"
+     ],
+     "sol": "<p>v<sub>rms</sub> = √(3RT/M) केवल T पर निर्भर है (दाब परिवर्तन का कोई प्रभाव नहीं)। 300 K से 400 K :</p><p>v′ = 200 × √(400/300) = 200 × 2/√3 = <b>400/√3</b> m s<sup>−1</sup>।</p>",
+     "hint": "v<sub>rms</sub> ∝ √T; दाब केवल भ्रामक है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q25",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2016-phase-2-code-aa-q19",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A given sample of an ideal gas occupies a volume V at a pressure P and absolute temperature T. The mass of each molecule of the gas is m. Which of the following gives the density of the gas?",
+     "o": [
+      "P/(kT)",
+      "Pm/(kT)",
+      "P/(kTV)",
+      "mkT"
+     ],
+     "sol": "<p>PV = NkT ⇒ number density N/V = P/(kT). Density = (mass per molecule) × (number per volume) = <b>Pm/(kT)</b>.</p>",
+     "hint": "Density = m × N/V."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक आदर्श गैस का दिया गया नमूना दाब P और परम ताप T पर आयतन V घेरता है। गैस के प्रत्येक अणु का द्रव्यमान m है। निम्नलिखित में से कौन गैस का घनत्व देता है?",
+     "o": [
+      "P/(kT)",
+      "Pm/(kT)",
+      "P/(kTV)",
+      "mkT"
+     ],
+     "sol": "<p>PV = NkT ⇒ संख्या घनत्व N/V = P/(kT)। घनत्व = (प्रति अणु द्रव्यमान) × (प्रति आयतन संख्या) = <b>Pm/(kT)</b>।</p>",
+     "hint": "घनत्व = m × N/V ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q19",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Options 2–3 cut at a page break in the copy; entered as in the official paper to be confirmed."
+   }
+  },
+  {
+   "id": "phy11-12-neet-2017-code-a-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A gas mixture consists of 2 moles of O<sub>2</sub> and 4 moles of Ar at temperature T. Neglecting all vibrational modes, the total internal energy of the system is :",
+     "o": [
+      "4RT",
+      "15RT",
+      "9RT",
+      "11RT"
+     ],
+     "sol": "<p>Ignoring vibration, a diatomic O<sub>2</sub> molecule has 5 degrees of freedom (U = (5/2)RT per mole) and monatomic Ar has 3 (U = (3/2)RT per mole).</p><p>U = 2 × (5/2)RT + 4 × (3/2)RT = 5RT + 6RT = <b>11RT</b>.</p>",
+     "hint": "Equipartition: (f/2)RT per mole."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक गैस मिश्रण में ताप T पर O<sub>2</sub> के 2 मोल और Ar के 4 मोल हैं। सभी कंपन विधियों की उपेक्षा करते हुए निकाय की कुल आंतरिक ऊर्जा है :",
+     "o": [
+      "4RT",
+      "15RT",
+      "9RT",
+      "11RT"
+     ],
+     "sol": "<p>कंपन की उपेक्षा करने पर द्विपरमाणुक O<sub>2</sub> अणु की 5 स्वातंत्र्य कोटियाँ हैं (प्रति मोल U = (5/2)RT) और एकपरमाणुक Ar की 3 (प्रति मोल U = (3/2)RT)।</p><p>U = 2 × (5/2)RT + 4 × (3/2)RT = 5RT + 6RT = <b>11RT</b>।</p>",
+     "hint": "ऊर्जा का समविभाजन : प्रति मोल (f/2)RT।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q2",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 4",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2018-code-aa-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At what temperature will the rms speed of oxygen molecules become just sufficient for escaping from the Earth's atmosphere? (Given : Mass of oxygen molecule (m) = 2.76 × 10<sup>−26</sup> kg, Boltzmann's constant k<sub>B</sub> = 1.38 × 10<sup>−23</sup> J K<sup>−1</sup>)",
+     "o": [
+      "5.016 × 10<sup>4</sup> K",
+      "8.360 × 10<sup>4</sup> K",
+      "2.508 × 10<sup>4</sup> K",
+      "1.254 × 10<sup>4</sup> K"
+     ],
+     "sol": "<p>The escape speed from the Earth is about 11.2 km/s. Set v<sub>rms</sub> = √(3k<sub>B</sub>T/m) = 1.12 × 10<sup>4</sup> m/s:</p><p>T = mv<sup>2</sup>/(3k<sub>B</sub>) = 2.76 × 10<sup>−26</sup> × (1.12 × 10<sup>4</sup>)<sup>2</sup>/(3 × 1.38 × 10<sup>−23</sup>) ≈ <b>8.360 × 10<sup>4</sup> K</b>.</p>",
+     "hint": "Use v<sub>e</sub> = 11.2 km/s."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "किस ताप पर ऑक्सीजन अणुओं की वर्ग माध्य मूल चाल पृथ्वी के वायुमंडल से पलायन के लिए ठीक पर्याप्त होगी? (दिया है : ऑक्सीजन अणु का द्रव्यमान (m) = 2.76 × 10<sup>−26</sup> kg, बोल्ट्ज़मान नियतांक k<sub>B</sub> = 1.38 × 10<sup>−23</sup> J K<sup>−1</sup>)",
+     "o": [
+      "5.016 × 10<sup>4</sup> K",
+      "8.360 × 10<sup>4</sup> K",
+      "2.508 × 10<sup>4</sup> K",
+      "1.254 × 10<sup>4</sup> K"
+     ],
+     "sol": "<p>पृथ्वी से पलायन चाल लगभग 11.2 km/s है। v<sub>rms</sub> = √(3k<sub>B</sub>T/m) = 1.12 × 10<sup>4</sup> m/s रखिए :</p><p>T = mv<sup>2</sup>/(3k<sub>B</sub>) = 2.76 × 10<sup>−26</sup> × (1.12 × 10<sup>4</sup>)<sup>2</sup>/(3 × 1.38 × 10<sup>−23</sup>) ≈ <b>8.360 × 10<sup>4</sup> K</b>।</p>",
+     "hint": "v<sub>e</sub> = 11.2 km/s लीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Gravitation"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q3",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 2",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2019-code-s2-q125",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Increase in temperature of a gas filled in a container would lead to :",
+     "o": [
+      "decrease in its pressure",
+      "decrease in intermolecular distance",
+      "increase in its mass",
+      "increase in its kinetic energy"
+     ],
+     "sol": "<p>The average kinetic energy of the molecules is (3/2)k<sub>B</sub>T, so raising the temperature <b>increases the kinetic energy</b>. In a closed container the pressure rises (not falls), the mass and the average intermolecular distance stay the same.</p>",
+     "hint": "Temperature measures the mean kinetic energy of the molecules."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक पात्र में भरी गैस के ताप में वृद्धि से :",
+     "o": [
+      "इसके दाब में कमी होगी",
+      "अंतराआण्विक दूरी में कमी होगी",
+      "इसके द्रव्यमान में वृद्धि होगी",
+      "इसकी गतिज ऊर्जा में वृद्धि होगी"
+     ],
+     "sol": "<p>अणुओं की औसत गतिज ऊर्जा (3/2)k<sub>B</sub>T है, अतः ताप बढ़ाने से <b>गतिज ऊर्जा बढ़ती है</b>। बंद पात्र में दाब बढ़ता है (घटता नहीं), द्रव्यमान और औसत अंतराआण्विक दूरी वही रहते हैं।</p>",
+     "hint": "ताप अणुओं की माध्य गतिज ऊर्जा का माप है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q125",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2020-code-f3-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A cylinder contains hydrogen gas at pressure of 249 kPa and temperature 27 °C. Its density is : (R = 8.3 J mol<sup>−1</sup> K<sup>−1</sup>)",
+     "o": [
+      "0.1 kg/m<sup>3</sup>",
+      "0.02 kg/m<sup>3</sup>",
+      "0.5 kg/m<sup>3</sup>",
+      "0.2 kg/m<sup>3</sup>"
+     ],
+     "sol": "<p>ρ = PM/(RT) with M = 2 × 10<sup>−3</sup> kg/mol, T = 300 K:</p><p>ρ = 249 × 10<sup>3</sup> × 2 × 10<sup>−3</sup>/(8.3 × 300) = 498/2490 = <b>0.2 kg/m<sup>3</sup></b>.</p>",
+     "hint": "Hydrogen gas is H<sub>2</sub>: M = 2 g/mol."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक बेलन में 249 kPa दाब और 27 °C ताप पर हाइड्रोजन गैस है। इसका घनत्व है : (R = 8.3 J mol<sup>−1</sup> K<sup>−1</sup>)",
+     "o": [
+      "0.1 kg/m<sup>3</sup>",
+      "0.02 kg/m<sup>3</sup>",
+      "0.5 kg/m<sup>3</sup>",
+      "0.2 kg/m<sup>3</sup>"
+     ],
+     "sol": "<p>ρ = PM/(RT), जहाँ M = 2 × 10<sup>−3</sup> kg/mol, T = 300 K :</p><p>ρ = 249 × 10<sup>3</sup> × 2 × 10<sup>−3</sup>/(8.3 × 300) = 498/2490 = <b>0.2 kg/m<sup>3</sup></b>।</p>",
+     "hint": "हाइड्रोजन गैस H<sub>2</sub> है : M = 2 g/mol ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q9",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2020-code-f3-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The mean free path for a gas, with molecular diameter d and number density n can be expressed as :",
+     "o": [
+      "1/(√2 n<sup>2</sup>πd<sup>2</sup>)",
+      "1/(√2 n<sup>2</sup>π<sup>2</sup>d<sup>2</sup>)",
+      "1/(√2 nπd)",
+      "1/(√2 nπd<sup>2</sup>)"
+     ],
+     "sol": "<p>Mean free path l = 1/(√2 nπd<sup>2</sup>): inversely proportional to the number density n and to the collision cross-section πd<sup>2</sup>. Answer: <b>1/(√2 nπd<sup>2</sup>)</b>.</p>",
+     "hint": "Check dimensions: n is per m<sup>3</sup>, d<sup>2</sup> is m<sup>2</sup>."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "अणु व्यास d और संख्या घनत्व n वाली किसी गैस के लिए माध्य मुक्त पथ को व्यक्त किया जा सकता है :",
+     "o": [
+      "1/(√2 n<sup>2</sup>πd<sup>2</sup>)",
+      "1/(√2 n<sup>2</sup>π<sup>2</sup>d<sup>2</sup>)",
+      "1/(√2 nπd)",
+      "1/(√2 nπd<sup>2</sup>)"
+     ],
+     "sol": "<p>माध्य मुक्त पथ l = 1/(√2 nπd<sup>2</sup>) : संख्या घनत्व n और संघट्ट अनुप्रस्थ काट πd<sup>2</sup> के व्युत्क्रमानुपाती। उत्तर : <b>1/(√2 nπd<sup>2</sup>)</b>।</p>",
+     "hint": "विमाएँ जाँचिए : n प्रति m<sup>3</sup> है, d<sup>2</sup> m<sup>2</sup> है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q10",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2020-code-f3-q34",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The average thermal energy for a mono-atomic gas is : (k<sub>B</sub> is Boltzmann constant and T, absolute temperature)",
+     "o": [
+      "(5/2) k<sub>B</sub>T",
+      "(7/2) k<sub>B</sub>T",
+      "(1/2) k<sub>B</sub>T",
+      "(3/2) k<sub>B</sub>T"
+     ],
+     "sol": "<p>A monatomic molecule has only 3 translational degrees of freedom, each with (1/2)k<sub>B</sub>T: average thermal energy = <b>(3/2) k<sub>B</sub>T</b>.</p>",
+     "hint": "Equipartition: (1/2)k<sub>B</sub>T per degree of freedom."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एकपरमाणुक गैस के लिए औसत ऊष्मीय ऊर्जा है : (k<sub>B</sub> बोल्ट्ज़मान नियतांक और T परम ताप है)",
+     "o": [
+      "(5/2) k<sub>B</sub>T",
+      "(7/2) k<sub>B</sub>T",
+      "(1/2) k<sub>B</sub>T",
+      "(3/2) k<sub>B</sub>T"
+     ],
+     "sol": "<p>एकपरमाणुक अणु की केवल 3 स्थानांतरीय स्वातंत्र्य कोटियाँ हैं, प्रत्येक के लिए (1/2)k<sub>B</sub>T : औसत ऊष्मीय ऊर्जा = <b>(3/2) k<sub>B</sub>T</b>।</p>",
+     "hint": "ऊर्जा का समविभाजन : प्रति स्वातंत्र्य कोटि (1/2)k<sub>B</sub>T।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2",
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q34",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2021-code-p3-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match Column-I and Column-II and choose the correct match from the given choices.<br>(A) Root mean square speed of gas molecules — (P) (1/3)nmv̄<sup>2</sup><br>(B) Pressure exerted by ideal gas — (Q) √(3RT/M)<br>(C) Average kinetic energy of a molecule — (R) (5/2)RT<br>(D) Total internal energy of 1 mole of a diatomic gas — (S) (3/2)k<sub>B</sub>T",
+     "o": [
+      "(A)-(R), (B)-(Q), (C)-(P), (D)-(S)",
+      "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
+      "(A)-(Q), (B)-(R), (C)-(S), (D)-(P)",
+      "(A)-(Q), (B)-(P), (C)-(S), (D)-(R)"
+     ],
+     "sol": "<p>v<sub>rms</sub> = √(3RT/M) → Q. Pressure P = (1/3)nmv̄<sup>2</sup> → P. Average kinetic energy of a molecule (3/2)k<sub>B</sub>T → S. Internal energy of one mole of a diatomic gas (5 degrees of freedom) (5/2)RT → R.</p><p>Answer: <b>(A)-(Q), (B)-(P), (C)-(S), (D)-(R)</b>.</p>",
+     "hint": "Per molecule use k<sub>B</sub>; per mole use R."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "स्तंभ-I का स्तंभ-II से मिलान कीजिए और दिए गए विकल्पों में से सही मिलान चुनिए।<br>(A) गैस अणुओं की वर्ग माध्य मूल चाल — (P) (1/3)nmv̄<sup>2</sup><br>(B) आदर्श गैस द्वारा डाला गया दाब — (Q) √(3RT/M)<br>(C) एक अणु की औसत गतिज ऊर्जा — (R) (5/2)RT<br>(D) द्विपरमाणुक गैस के 1 मोल की कुल आंतरिक ऊर्जा — (S) (3/2)k<sub>B</sub>T",
+     "o": [
+      "(A)-(R), (B)-(Q), (C)-(P), (D)-(S)",
+      "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
+      "(A)-(Q), (B)-(R), (C)-(S), (D)-(P)",
+      "(A)-(Q), (B)-(P), (C)-(S), (D)-(R)"
+     ],
+     "sol": "<p>v<sub>rms</sub> = √(3RT/M) → Q। दाब P = (1/3)nmv̄<sup>2</sup> → P। एक अणु की औसत गतिज ऊर्जा (3/2)k<sub>B</sub>T → S। द्विपरमाणुक गैस (5 स्वातंत्र्य कोटियाँ) के एक मोल की आंतरिक ऊर्जा (5/2)RT → R।</p><p>उत्तर : <b>(A)-(Q), (B)-(P), (C)-(S), (D)-(R)</b>।</p>",
+     "hint": "प्रति अणु k<sub>B</sub>; प्रति मोल R।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.1",
+     "12.4.2",
+     "12.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q9",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 4",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2022-code-t2-q36",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The volume occupied by the molecules contained in 4.5 kg water at STP, if the intermolecular forces vanish away is :",
+     "o": [
+      "5.6 × 10<sup>3</sup> m<sup>3</sup>",
+      "5.6 × 10<sup>−3</sup> m<sup>3</sup>",
+      "5.6 m<sup>3</sup>",
+      "5.6 × 10<sup>6</sup> m<sup>3</sup>"
+     ],
+     "sol": "<p>Without intermolecular forces the water vapour behaves as an ideal gas: one mole occupies 22.4 L at STP. Moles = 4500 g/18 g mol<sup>−1</sup> = 250.</p><p>V = 250 × 22.4 × 10<sup>−3</sup> m<sup>3</sup> = <b>5.6 m<sup>3</sup></b>.</p>",
+     "hint": "Ideal gas at STP: 22.4 L per mole."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "STP पर 4.5 kg जल में उपस्थित अणुओं द्वारा घेरा गया आयतन, यदि अंतराआण्विक बल लुप्त हो जाएँ, है :",
+     "o": [
+      "5.6 × 10<sup>3</sup> m<sup>3</sup>",
+      "5.6 × 10<sup>−3</sup> m<sup>3</sup>",
+      "5.6 m<sup>3</sup>",
+      "5.6 × 10<sup>6</sup> m<sup>3</sup>"
+     ],
+     "sol": "<p>अंतराआण्विक बलों के बिना जलवाष्प आदर्श गैस की तरह व्यवहार करती है : STP पर एक मोल 22.4 L घेरता है। मोल = 4500 g/18 g mol<sup>−1</sup> = 250।</p><p>V = 250 × 22.4 × 10<sup>−3</sup> m<sup>3</sup> = <b>5.6 m<sup>3</sup></b>।</p>",
+     "hint": "STP पर आदर्श गैस : प्रति मोल 22.4 L।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q36",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-12-neet-2023-topic-wise-copy-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The temperature of a gas is −50 °C. To what temperature the gas should be heated so that the rms speed is increased by 3 times?",
+     "o": [
+      "223 K",
+      "669 °C",
+      "3295 °C",
+      "3097 K"
+     ],
+     "sol": "<p>v<sub>rms</sub> ∝ √T. “Increased by 3 times” means the speed becomes 4 times (an increase of 3v), so T becomes 16 times: T = 16 × 223 K = 3568 K = <b>3295 °C</b>.</p><p>(If the speed only tripled, T = 9 × 223 = 2007 K, which is not an option.)</p>",
+     "hint": "Convert −50 °C to 223 K; T ∝ v<sub>rms</sub><sup>2</sup>."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "किसी गैस का ताप −50 °C है। गैस को किस ताप तक गर्म किया जाए कि उसकी वर्ग माध्य मूल चाल 3 गुना बढ़ जाए?",
+     "o": [
+      "223 K",
+      "669 °C",
+      "3295 °C",
+      "3097 K"
+     ],
+     "sol": "<p>v<sub>rms</sub> ∝ √T। “3 गुना बढ़ जाए” का अर्थ है चाल 4 गुनी हो जाए (3v की वृद्धि), अतः T, 16 गुना होगा : T = 16 × 223 K = 3568 K = <b>3295 °C</b>।</p><p>(यदि चाल केवल तीन गुनी हो, तो T = 9 × 223 = 2007 K, जो विकल्प नहीं है।)</p>",
+     "hint": "−50 °C को 223 K में बदलिए; T ∝ v<sub>rms</sub><sup>2</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q14",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources.",
+    "note": "\"Increased by 3 times\" is read as the rms speed becoming 4 times: T = 16 × 223 K = 3568 K = 3295 °C. (If it meant 3 times, T = 2007 K, not an option.)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2024-q30-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The following graph represents the T–V curves of an ideal gas (where T is the temperature and V the volume) at three pressures P<sub>1</sub>, P<sub>2</sub> and P<sub>3</sub> compared with those of Charles's law represented as dotted lines. Then the correct relation is :",
+     "o": [
+      "P<sub>3</sub> > P<sub>2</sub> > P<sub>1</sub>",
+      "P<sub>1</sub> > P<sub>3</sub> > P<sub>2</sub>",
+      "P<sub>2</sub> > P<sub>1</sub> > P<sub>3</sub>",
+      "P<sub>1</sub> > P<sub>2</sub> > P<sub>3</sub>"
+     ],
+     "sol": "<p>For an ideal gas at constant pressure, T = PV/(nR): each isobar is a straight line through the origin with slope P/(nR) on a T–V graph. At a given T, the curve with the smaller V has the larger pressure; the steepest curve, P<sub>1</sub>, has the highest pressure.</p><p>So <b>P<sub>1</sub> > P<sub>2</sub> > P<sub>3</sub></b>. (The copy's key prints the reverse order, contradicting its own solution.)</p>",
+     "hint": "Slope of T against V = P/(nR)."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "निम्नलिखित ग्राफ एक आदर्श गैस के तीन दाबों P<sub>1</sub>, P<sub>2</sub> और P<sub>3</sub> पर T–V वक्रों (जहाँ T ताप और V आयतन है) को चार्ल्स के नियम के वक्रों (बिंदुकित रेखाएँ) के साथ दर्शाता है। तब सही संबंध है :",
+     "o": [
+      "P<sub>3</sub> > P<sub>2</sub> > P<sub>1</sub>",
+      "P<sub>1</sub> > P<sub>3</sub> > P<sub>2</sub>",
+      "P<sub>2</sub> > P<sub>1</sub> > P<sub>3</sub>",
+      "P<sub>1</sub> > P<sub>2</sub> > P<sub>3</sub>"
+     ],
+     "sol": "<p>नियत दाब पर आदर्श गैस के लिए T = PV/(nR) : T–V ग्राफ पर प्रत्येक समदाबी रेखा मूल बिंदु से गुजरती है और उसकी ढलान P/(nR) है। किसी दिए गए T पर कम V वाले वक्र का दाब अधिक है; सबसे ढालू वक्र P<sub>1</sub> का दाब सबसे अधिक है।</p><p>अतः <b>P<sub>1</sub> > P<sub>2</sub> > P<sub>3</sub></b>। (प्रति की कुंजी उलटा क्रम देती है, जो उसके अपने हल के विपरीत है।)</p>",
+     "hint": "T का V के सापेक्ष ढलान = P/(nR)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Thermodynamics"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q30 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; ours: 4",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The copy's key prints (A), but its own solution concludes P<sub>1</sub> > P<sub>2</sub> > P<sub>3</sub> (option D): at a given T the curve at larger V has the lower pressure, and P<sub>1</sub> is the steepest curve. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-12-neet-2025-code-45-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An oxygen cylinder of volume 30 litre has 18.20 moles of oxygen. After some oxygen is withdrawn from the cylinder, its gauge pressure drops to 11 atmospheric pressure at temperature 27 °C. The mass of the oxygen withdrawn from the cylinder is nearly equal to : [Given, R = (100/12) J mol<sup>−1</sup> K<sup>−1</sup>, and molecular mass of O<sub>2</sub> = 32, 1 atm pressure = 1.01 × 10<sup>5</sup> N/m<sup>2</sup>]",
+     "o": [
+      "0.125 kg",
+      "0.144 kg",
+      "0.116 kg",
+      "0.156 kg"
+     ],
+     "sol": "<p>Absolute pressure = gauge + 1 atm = 12 atm. Moles left n = PV/(RT) = 12 × 1.01 × 10<sup>5</sup> × 30 × 10<sup>−3</sup>/((100/12) × 300) ≈ 14.54 mol.</p><p>Withdrawn = 18.20 − 14.54 = 3.66 mol ⇒ mass = 3.66 × 32 g ≈ 117 g ≈ <b>0.116 kg</b>.</p>",
+     "hint": "Gauge pressure + 1 atm = absolute pressure."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "30 लीटर आयतन के एक ऑक्सीजन सिलिंडर में ऑक्सीजन के 18.20 मोल हैं। सिलिंडर से कुछ ऑक्सीजन निकालने के बाद 27 °C ताप पर इसका प्रमापी दाब घटकर 11 वायुमंडलीय दाब रह जाता है। सिलिंडर से निकाली गई ऑक्सीजन का द्रव्यमान लगभग बराबर है : [दिया है, R = (100/12) J mol<sup>−1</sup> K<sup>−1</sup>, O<sub>2</sub> का आण्विक द्रव्यमान = 32, 1 atm दाब = 1.01 × 10<sup>5</sup> N/m<sup>2</sup>]",
+     "o": [
+      "0.125 kg",
+      "0.144 kg",
+      "0.116 kg",
+      "0.156 kg"
+     ],
+     "sol": "<p>निरपेक्ष दाब = प्रमापी + 1 atm = 12 atm। शेष मोल n = PV/(RT) = 12 × 1.01 × 10<sup>5</sup> × 30 × 10<sup>−3</sup>/((100/12) × 300) ≈ 14.54 mol।</p><p>निकाले गए = 18.20 − 14.54 = 3.66 mol ⇒ द्रव्यमान = 3.66 × 32 g ≈ 117 g ≈ <b>0.116 kg</b>।</p>",
+     "hint": "प्रमापी दाब + 1 atm = निरपेक्ष दाब।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q14",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 3",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2025-code-45-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A container has two chambers of volumes V<sub>1</sub> = 2 litres and V<sub>2</sub> = 3 litres separated by a partition made of a thermal insulator. The chambers contain n<sub>1</sub> = 5 and n<sub>2</sub> = 4 moles of ideal gas at pressures p<sub>1</sub> = 1 atm and p<sub>2</sub> = 2 atm, respectively. When the partition is removed, the mixture attains an equilibrium pressure of :",
+     "o": [
+      "1.3 atm",
+      "1.6 atm",
+      "1.4 atm",
+      "1.8 atm"
+     ],
+     "sol": "<p>The container is insulated and does no work, so the total internal energy is conserved. For an ideal gas (same kind in both chambers) U = (f/2)PV, so PV adds up: P(V<sub>1</sub> + V<sub>2</sub>) = p<sub>1</sub>V<sub>1</sub> + p<sub>2</sub>V<sub>2</sub>.</p><p>P = (1 × 2 + 2 × 3)/5 = 8/5 = <b>1.6 atm</b>.</p>",
+     "hint": "Conserve U ∝ PV."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक पात्र में V<sub>1</sub> = 2 लीटर और V<sub>2</sub> = 3 लीटर आयतन के दो कक्ष हैं, जो ऊष्मारोधी पदार्थ के बने एक विभाजक द्वारा अलग हैं। कक्षों में क्रमशः p<sub>1</sub> = 1 atm और p<sub>2</sub> = 2 atm दाबों पर आदर्श गैस के n<sub>1</sub> = 5 और n<sub>2</sub> = 4 मोल हैं। विभाजक हटाने पर मिश्रण का साम्य दाब होता है :",
+     "o": [
+      "1.3 atm",
+      "1.6 atm",
+      "1.4 atm",
+      "1.8 atm"
+     ],
+     "sol": "<p>पात्र विलगित है और कोई कार्य नहीं करता, अतः कुल आंतरिक ऊर्जा संरक्षित है। आदर्श गैस (दोनों कक्षों में एक ही प्रकार) के लिए U = (f/2)PV, अतः PV जुड़ते हैं : P(V<sub>1</sub> + V<sub>2</sub>) = p<sub>1</sub>V<sub>1</sub> + p<sub>2</sub>V<sub>2</sub>।</p><p>P = (1 × 2 + 2 × 3)/5 = 8/5 = <b>1.6 atm</b>।</p>",
+     "hint": "U ∝ PV संरक्षित कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q29",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 2",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-12-neet-2026-code-13-q33",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A flask contains argon and chlorine in the ratio of 2 : 1 by mass. The temperature of the mixture is 27 °C. The ratio of root mean square speed of the molecules of the two gases (v<sub>rms</sub><sup>Ar</sup>/v<sub>rms</sub><sup>Cl</sup>) is : (Atomic mass of argon = 40.0 u and molecular mass of chlorine = 70.0 u)",
+     "o": [
+      "7/4",
+      "2/√7",
+      "√7/2",
+      "7/2"
+     ],
+     "sol": "<p>v<sub>rms</sub> = √(3RT/M) depends only on T and M (the mass ratio in the flask is irrelevant). At the same T:</p><p>v<sub>Ar</sub>/v<sub>Cl</sub> = √(M<sub>Cl</sub>/M<sub>Ar</sub>) = √(70/40) = <b>√7/2</b>.</p>",
+     "hint": "Chlorine gas is Cl<sub>2</sub> (70 u); argon is monatomic (40 u)."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक फ्लास्क में आर्गन और क्लोरीन द्रव्यमान के अनुसार 2 : 1 के अनुपात में हैं। मिश्रण का ताप 27 °C है। दोनों गैसों के अणुओं की वर्ग माध्य मूल चालों का अनुपात (v<sub>rms</sub><sup>Ar</sup>/v<sub>rms</sub><sup>Cl</sup>) है : (आर्गन का परमाणु द्रव्यमान = 40.0 u और क्लोरीन का आण्विक द्रव्यमान = 70.0 u)",
+     "o": [
+      "7/4",
+      "2/√7",
+      "√7/2",
+      "7/2"
+     ],
+     "sol": "<p>v<sub>rms</sub> = √(3RT/M) केवल T और M पर निर्भर है (फ्लास्क में द्रव्यमान अनुपात अप्रासंगिक है)। समान T पर :</p><p>v<sub>Ar</sub>/v<sub>Cl</sub> = √(M<sub>Cl</sub>/M<sub>Ar</sub>) = √(70/40) = <b>√7/2</b>।</p>",
+     "hint": "क्लोरीन गैस Cl<sub>2</sub> (70 u) है; आर्गन एकपरमाणुक (40 u) है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-12",
+    "paras": [
+     "12.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q33",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 3",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1810 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-02",
+ "subject": "biology",
+ "class": 11,
+ "unit": 2,
+ "title": {
+  "en": "Biological Classification"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo102.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "2.1",
+   "title": "Kingdom Monera",
+   "hi": "मॉनेरा जगत",
+   "pdfPage": 3
+  },
+  {
+   "id": "2.1.1",
+   "title": "Archaebacteria",
+   "hi": "आद्य बैक्टीरिया",
+   "pdfPage": 4
+  },
+  {
+   "id": "2.1.2",
+   "title": "Eubacteria",
+   "hi": "यूबैक्टीरिया",
+   "pdfPage": 4
+  },
+  {
+   "id": "2.2",
+   "title": "Kingdom Protista",
+   "hi": "प्रोटिस्टा किंगडम",
+   "pdfPage": 5
+  },
+  {
+   "id": "2.2.1",
+   "title": "Chrysophytes",
+   "hi": "क्राइसोफाइट",
+   "pdfPage": 5
+  },
+  {
+   "id": "2.2.2",
+   "title": "Dinoflagellates",
+   "hi": "डायनोफलैजिलेट",
+   "pdfPage": 6
+  },
+  {
+   "id": "2.2.3",
+   "title": "Euglenoids",
+   "hi": "यूग्लीनॉइड",
+   "pdfPage": 6
+  },
+  {
+   "id": "2.2.4",
+   "title": "Slime Moulds",
+   "hi": "अवपंक कवक",
+   "pdfPage": 6
+  },
+  {
+   "id": "2.2.5",
+   "title": "Protozoans",
+   "hi": "प्रोटोजोआ",
+   "pdfPage": 6
+  },
+  {
+   "id": "2.3",
+   "title": "Kingdom Fungi",
+   "hi": "फंजाई किंगडम",
+   "pdfPage": 7
+  },
+  {
+   "id": "2.3.1",
+   "title": "Phycomycetes",
+   "hi": "फाइकोमाइसिटीज",
+   "pdfPage": 8
+  },
+  {
+   "id": "2.3.2",
+   "title": "Ascomycetes",
+   "hi": "ऐस्कोमाइसिटीज",
+   "pdfPage": 8
+  },
+  {
+   "id": "2.3.3",
+   "title": "Basidiomycetes",
+   "hi": "बेसिडियोमाइसिटीज",
+   "pdfPage": 9
+  },
+  {
+   "id": "2.3.4",
+   "title": "Deuteromycetes",
+   "hi": "डयूटिरोमाइसिटीज",
+   "pdfPage": 9
+  },
+  {
+   "id": "2.4",
+   "title": "Kingdom Plantae",
+   "hi": "प्लांटी किंगडम",
+   "pdfPage": 10
+  },
+  {
+   "id": "2.5",
+   "title": "Kingdom Animalia",
+   "hi": "ऐनिमेलिया किंगडम",
+   "pdfPage": 10
+  },
+  {
+   "id": "2.6",
+   "title": "Viruses, Viroids, Prions and Lichens",
+   "hi": "वायरस, विरोइड तथा",
+   "pdfPage": 10
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-02-neet-2015-re-exam-code-d-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The imperfect fungi which are decomposers of litter and help in mineral cycling belong to :",
+     "o": [
+      "Basidiomycetes",
+      "Phycomycetes",
+      "Ascomycetes",
+      "Deuteromycetes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q16",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2015-re-exam-code-d-q19",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Pick up the wrong statement :",
+     "o": [
+      "Protista have photosynthetic and heterotrophic modes of nutrition",
+      "Some fungi are edible",
+      "Nuclear membrane is present in Monera",
+      "Cell wall is absent in Animalia"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q19",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2015-re-exam-code-d-q52",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one is a wrong statement?",
+     "o": [
+      "Mucor has biflagellate zoospores",
+      "Haploid endosperm is typical feature of gymnosperms",
+      "Brown algae have chlorophyll a and c, and fucoxanthin",
+      "Archegonia are found in Bryophyta, Pteridophyta and Gymnosperms"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3.1"
+    ],
+    "otherChapters": [
+     "Class 11 · Plant Kingdom"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q52",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 1)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2015-re-exam-code-d-q67",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the wrong statement :",
+     "o": [
+      "W.M. Stanley showed that viruses could be crystallized",
+      "The term 'contagium vivum fluidum' was coined by M.W. Beijerinck",
+      "Mosaic disease in tobacco and AIDS in human being are caused by viruses",
+      "The viroids were discovered by D.J. Ivanowsky"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q67",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2015-re-exam-code-d-q80",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Cell wall is absent in:",
+     "o": [
+      "Funaria",
+      "Mycoplasma",
+      "Nostoc",
+      "Aspergillus"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q80",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 2)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2015-re-exam-code-d-q83",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are most suitable indicators of SO<sub>2</sub> pollution in the environment?",
+     "o": [
+      "Conifers",
+      "Algae",
+      "Fungi",
+      "Lichens"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q83",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2015-re-exam-code-d-q86",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In which group of organisms the cell walls form two thin overlapping shells which fit together?",
+     "o": [
+      "Euglenoids",
+      "Dinoflagellates",
+      "Slime moulds",
+      "Chrysophytes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q86",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2015-re-exam-code-d-q87",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Choose the wrong statement:",
+     "o": [
+      "Neurospora is used in the study of biochemical genetics",
+      "Morels and truffles are poisonous mushrooms",
+      "Yeast is unicellular and useful in fermentation",
+      "Penicillium is multicellular and produces antibiotics"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q87",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 2)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2016-phase-1-code-a-q94",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is wrong for viroids?",
+     "o": [
+      "They lack a protein coat",
+      "They are smaller than viruses",
+      "They cause infections",
+      "Their RNA is of high molecular weight"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q94",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2016-phase-1-code-a-q116",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "One of the major components of cell wall of most fungi is:",
+     "o": [
+      "Chitin",
+      "Peptidoglycan",
+      "Cellulose",
+      "Hemicellulose"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q116",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2016-phase-1-code-a-q129",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statements is wrong?",
+     "o": [
+      "Cyanobacteria are also called blue-green algae",
+      "Golden algae are also called desmids",
+      "Eubacteria are also called false bacteria",
+      "Phycomycetes are also called algal fungi"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1",
+     "2.2.1",
+     "2.3.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q129",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2016-phase-1-code-a-q165",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Chrysophytes, Euglenoids, Dinoflagellates and Slime moulds are included in the kingdom:",
+     "o": [
+      "Monera",
+      "Protista",
+      "Fungi",
+      "Animalia"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q165",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2016-phase-1-code-a-q177",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The primitive prokaryotes responsible for the production of biogas from the dung of ruminant animals, include the :",
+     "o": [
+      "Halophiles",
+      "Thermoacidophiles",
+      "Methanogens",
+      "Eubacteria"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1.1"
+    ],
+    "otherChapters": [
+     "Class 12 · Microbes in Human Welfare"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q177",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2016-phase-2-code-aa-q91",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following is wrong for fungi?",
+     "o": [
+      "They are eukaryotic",
+      "All fungi possess a purely cellulosic cell wall",
+      "They are heterotrophic",
+      "They are both unicellular and multicellular"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q91",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2016-phase-2-code-aa-q92",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Methanogens belong to",
+     "o": [
+      "Eubacteria",
+      "Archaebacteria",
+      "Dinoflagellates",
+      "Slime moulds"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q92",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2016-phase-2-code-aa-q93",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the wrong statement.",
+     "o": [
+      "The walls of diatoms are easily destructible",
+      "‘Diatomaceous earth’ is formed by the cell walls of diatoms",
+      "Diatoms are chief producers in the oceans",
+      "Diatoms are microscopic and float passively in water"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q93",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2017-code-a-q92",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are found in extreme saline conditions?",
+     "o": [
+      "Archaebacteria",
+      "Eubacteria",
+      "Cyanobacteria",
+      "Mycobacteria"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q92",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 1)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2017-code-a-q101",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which among the following are the smallest living cells, known without a definite cell wall, pathogenic to plants as well as animals and can survive without oxygen?",
+     "o": [
+      "Bacillus",
+      "Pseudomonas",
+      "Mycoplasma",
+      "Nostoc"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q101",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2017-code-a-q117",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Viroids differ from viruses in having :",
+     "o": [
+      "DNA molecules with protein coat",
+      "DNA molecules without protein coat",
+      "RNA molecules with protein coat",
+      "RNA molecules without protein coat"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q117",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2018-code-aa-q118",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which among the following is not a prokaryote?",
+     "o": [
+      "Nostoc",
+      "Mycobacterium",
+      "Saccharomyces",
+      "Oscillatoria"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1",
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q118",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 3)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2018-code-aa-q131",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the wrong statement :",
+     "o": [
+      "Pseudopodia are locomotory and feeding structures in Sporozoans.",
+      "Mushrooms belong to Basidiomycetes.",
+      "Cell wall is present in members of Fungi and Plantae.",
+      "Mitochondria are the powerhouse of the cell in all kingdoms except Monera."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.2.5",
+     "2.3",
+     "2.4"
+    ],
+    "otherChapters": [
+     "Class 11 · Cell: The Unit of Life"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q131",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2018-code-aa-q132",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "After karyogamy followed by meiosis, spores are produced exogenously in :",
+     "o": [
+      "Agaricus",
+      "Alternaria",
+      "Neurospora",
+      "Saccharomyces"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q132",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2018-code-aa-q147",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Ciliates differ from all other protozoans in :",
+     "o": [
+      "using pseudopodia for capturing prey",
+      "having a contractile vacuole for removing excess water",
+      "using flagella for locomotion",
+      "having two types of nuclei"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q147",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)",
+    "note": "NCERT describes ciliates (Paramoecium) by cilia and gullet; macro- and micronucleus are beyond NCERT."
+   }
+  },
+  {
+   "id": "bio11-02-neet-2018-code-aa-q152",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following organisms are known as chief producers in the oceans?",
+     "o": [
+      "Cyanobacteria",
+      "Diatoms",
+      "Dinoflagellates",
+      "Euglenoids"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q152",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2019-code-s2-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is incorrect ?",
+     "o": [
+      "Infective constituent in viruses is the protein coat.",
+      "Prions consist of abnormally folded proteins.",
+      "Viroids lack a protein coat.",
+      "Viruses are obligate parasites."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q21",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2019-code-s2-q30",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is incorrect ?",
+     "o": [
+      "Conidia are produced exogenously and ascospores endogenously",
+      "Yeasts have filamentous bodies with long thread like hyphae",
+      "Morels and truffles are edible delicacies",
+      "Claviceps is a source of many alkaloids and LSD."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q30",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2019-code-s2-q70",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the Column I with Column II :<br>(a) Saprophyte — (i) Symbiotic association of fungi with plant roots<br>(b) Parasite — (ii) Decomposition of dead organic materials<br>(c) Lichens — (iii) Living on living plants or animals<br>(d) Mycorrhiza — (iv) Symbiotic association of algae and fungi<br>Choose the correct answer from the options given below :",
+     "o": [
+      "(a) ii, (b) i, (c) iii, (d) iv",
+      "(a) ii, (b) iii, (c) iv, (d) i",
+      "(a) i, (b) ii, (c) iii, (d) iv",
+      "(a) iii, (b) ii, (c) i, (d) iv"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3",
+     "2.6"
+    ],
+    "otherChapters": [
+     "Class 12 · Microbes in Human Welfare"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q70",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2020-code-f3-q138",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is correct about viroids ?",
+     "o": [
+      "They have DNA with protein coat.",
+      "They have free DNA without protein coat.",
+      "They have RNA with protein coat.",
+      "They have free RNA without protein coat."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q138",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2021-code-p3-q142",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is correct ?",
+     "o": [
+      "Some of the organisms can fix atmospheric nitrogen in specialized cells called sheath cells",
+      "Fusion of two cells is called Karyogamy",
+      "Fusion of protoplasms between two motile or non-motile gametes is called plasmogamy",
+      "Organisms that depend on living plants are called saprophytes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3",
+     "2.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q142",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-02-neet-2022-code-t2-q163",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the asexual reproductive structure associated with Penicillium :",
+     "o": [
+      "Conidia",
+      "Gemmules",
+      "Buds",
+      "Zoospores"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q163",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-02-neet-2022-code-t2-q178",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Mycoplasma can pass through less than 1 micron filter size.<br>Statement II: Mycoplasma are bacteria with cell wall.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct",
+      "Both Statement I and Statement II are correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q178",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-02-neet-2022-code-t2-q198",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is a correct statement ?",
+     "o": [
+      "Bacteria are exclusively heterotrophic organisms.",
+      "Slime moulds are saprophytic organisms classified under Kingdom Monera.",
+      "Mycoplasma have DNA, ribosome and cell wall.",
+      "Cyanobacteria are a group of autotrophic organisms classified under Kingdom Monera."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1",
+     "2.1.2",
+     "2.2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q198",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-02-neet-2024-q152-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II List-I                               List-II",
+     "o": [
+      "Rhizopus I. Mushroom",
+      "Ustilago II. Smut fungus",
+      "Puccinia III. Bread mould",
+      "Agaricus IV. Rust fungus Choose the correct answer from the options give below: (A) A-III, B-II, C-IV, D-I (B) A-I, B-III, C-II, D-IV (C) A-III, B-II, C-I, D-IV (D) A-IV, B-III, C-II, D-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3.1",
+     "2.3.2",
+     "2.3.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q152 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-02-neet-2024-q194-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following is not a criterion for classification of fungi?",
+     "o": [
+      "Mode of spore formation",
+      "Type of fruiting body",
+      "Morphology of mycelium",
+      "Mode of nutrition"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q194 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-02-neet-2025-code-45-q132",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Each of the following characteristics represents a Kingdom proposed by Whittaker. Arrange the following in increasing order of complexity of body organization :<br>A. Multicellular heterotrophs with cell wall made of chitin.<br>B. Heterotrophs with tissue/organ/organ system level of body organization.<br>C. Prokaryotes with cell wall made of polysaccharides and amino acids.<br>D. Eukaryotic autotrophs with tissue/organ level of body organization.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, C, B, D",
+      "C, A, D, B",
+      "A, C, D, B",
+      "C, A, B, D"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1",
+     "2.3",
+     "2.4",
+     "2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q132",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 2)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio11-02-neet-2026-q118-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The main criteria used for Five Kingdom Classification proposed by R.H. Whittaker (1969) included :<br>A. Cell structure<br>B. Body organization<br>C. Presence of flagellum<br>D. Reproduction<br>E. Phylogenetic relationships<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A, B and E only",
+      "A, B, C, D and E",
+      "B, C and D only",
+      "A, B, D and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-02",
+    "paras": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q118 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q111."
+   }
+  }
+ ]
+}

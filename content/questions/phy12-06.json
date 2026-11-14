@@ -1,0 +1,1024 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-06",
+ "subject": "physics",
+ "class": 12,
+ "unit": 6,
+ "title": {
+  "en": "Electromagnetic Induction"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph106.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "6.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "6.2",
+   "title": "The Experiments of Faraday and Henry",
+   "hi": "फैराडे एवं हेनरी के प्रयोग",
+   "pdfPage": 2
+  },
+  {
+   "id": "6.3",
+   "title": "Magnetic Flux",
+   "hi": "चुंबकीय फलक्स",
+   "pdfPage": 3
+  },
+  {
+   "id": "6.4",
+   "title": "Faraday's Law of Induction",
+   "hi": "फैराडे का प्रेरण का नियम",
+   "pdfPage": 4
+  },
+  {
+   "id": "6.5",
+   "title": "Lenz's Law and Conservation of Energy",
+   "hi": "लेंज का नियम तथा ऊर्जा संरक्षण",
+   "pdfPage": 7
+  },
+  {
+   "id": "6.6",
+   "title": "Motional Electromotive Force",
+   "hi": "गतिक विद्युत वाहक बल",
+   "pdfPage": 9
+  },
+  {
+   "id": "6.7",
+   "title": "Inductance",
+   "hi": "प्रेरकत्व",
+   "pdfPage": 12
+  },
+  {
+   "id": "6.7.1",
+   "title": "Mutual Inductance",
+   "hi": "अन्योन्य प्रेरकत्व",
+   "pdfPage": 12
+  },
+  {
+   "id": "6.7.2",
+   "title": "Self-inductance",
+   "hi": "स्व-प्रेरकत्व",
+   "pdfPage": 15
+  },
+  {
+   "id": "6.8",
+   "title": "AC Generator",
+   "hi": "प्रत्यावर्ती धारा जनित्र",
+   "pdfPage": 17
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-06-neet-2015-re-exam-code-d-q154",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electron moves on a straight line path XY as shown. The abcd is a coil adjacent to the path of electron. What will be the direction of current, if any, induced in the coil?",
+     "o": [
+      "adcb",
+      "The current will reverse its direction as the electron goes past the coil",
+      "No current induced",
+      "abcd"
+     ],
+     "sol": "<p>The moving electron is a current; its magnetic field through the coil grows as it approaches and falls as it moves away. By Lenz's law the induced current opposes each change, so it flows one way while the flux increases and the opposite way while it decreases: <b>the current reverses its direction as the electron goes past the coil</b>.</p>",
+     "hint": "Flux first increases, then decreases."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक इलेक्ट्रॉन दिखाए अनुसार एक सरल रेखीय पथ XY पर चलता है। abcd इलेक्ट्रॉन के पथ के निकट एक कुंडली है। कुंडली में प्रेरित धारा, यदि कोई है, की दिशा क्या होगी?",
+     "o": [
+      "adcb",
+      "जैसे ही इलेक्ट्रॉन कुंडली के पास से गुजरता है, धारा अपनी दिशा उलट देगी",
+      "कोई धारा प्रेरित नहीं होगी",
+      "abcd"
+     ],
+     "sol": "<p>गतिमान इलेक्ट्रॉन एक धारा है; कुंडली से गुजरने वाला उसका चुंबकीय क्षेत्र उसके पास आने पर बढ़ता है और दूर जाने पर घटता है। लेंज के नियम से प्रेरित धारा प्रत्येक परिवर्तन का विरोध करती है, अतः फलक्स बढ़ते समय एक दिशा में और घटते समय विपरीत दिशा में बहती है : <b>इलेक्ट्रॉन के कुंडली के पास से गुजरते ही धारा अपनी दिशा उलट देती है</b>।</p>",
+     "hint": "फलक्स पहले बढ़ता है, फिर घटता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.4",
+     "6.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q154",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 2",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
+    "note": "Figure in the paper; needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2016-phase-1-code-a-q42",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long solenoid has 1000 turns. When a current of 4 A flows through it the magnetic flux linked with each turn of the solenoid is 4 × 10<sup>−3</sup> Wb. The self-inductance of the solenoid is:",
+     "o": [
+      "4 H",
+      "3 H",
+      "2 H",
+      "1 H"
+     ],
+     "sol": "<p>NΦ = LI ⇒ L = NΦ/I = 1000 × 4 × 10<sup>−3</sup>/4 = <b>1 H</b>.</p>",
+     "hint": "Flux linkage = total flux through all turns."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक लंबी परिनालिका में 1000 फेरे हैं। जब इसमें 4 A धारा प्रवाहित होती है, तो परिनालिका के प्रत्येक फेरे से संबद्ध चुंबकीय फलक्स 4 × 10<sup>−3</sup> Wb है। परिनालिका का स्वप्रेरकत्व है :",
+     "o": [
+      "4 H",
+      "3 H",
+      "2 H",
+      "1 H"
+     ],
+     "sol": "<p>NΦ = LI ⇒ L = NΦ/I = 1000 × 4 × 10<sup>−3</sup>/4 = <b>1 H</b>।</p>",
+     "hint": "फलक्स-बंधता = सभी फेरों से कुल फलक्स।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q42",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-06-neet-2016-phase-2-code-aa-q31",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A uniform magnetic field is restricted within a region of radius r. The magnetic field changes with time at a rate dB/dt. Loop 1 of radius R > r encloses the region r and loop 2 of radius R is outside the region of magnetic field as shown in the figure below. Then the e.m.f. generated is :",
+     "o": [
+      "Zero in loop 1 and zero in loop 2",
+      "−(dB/dt)πr<sup>2</sup> in loop 1 and −(dB/dt)πr<sup>2</sup> in loop 2",
+      "−(dB/dt)πR<sup>2</sup> in loop 1 and zero in loop 2",
+      "−(dB/dt)πr<sup>2</sup> in loop 1 and zero in loop 2"
+     ],
+     "sol": "<p>Only the region of radius r has a field, so the flux through loop 1 (which encloses it) is Bπr<sup>2</sup> and its emf is −(dB/dt)πr<sup>2</sup>. Loop 2 encloses no field at all, so its flux and emf are zero.</p><p>Answer: <b>−(dB/dt)πr<sup>2</sup> in loop 1 and zero in loop 2</b>.</p>",
+     "hint": "Flux uses only the area where B exists."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक एकसमान चुंबकीय क्षेत्र r त्रिज्या के क्षेत्र तक सीमित है। चुंबकीय क्षेत्र समय के साथ dB/dt की दर से बदलता है। R > r त्रिज्या का लूप 1 क्षेत्र r को घेरता है और R त्रिज्या का लूप 2 चुंबकीय क्षेत्र के क्षेत्र से बाहर है, जैसा कि नीचे चित्र में दिखाया गया है। तब उत्पन्न विद्युत वाहक बल है :",
+     "o": [
+      "लूप 1 में शून्य और लूप 2 में शून्य",
+      "लूप 1 में −(dB/dt)πr<sup>2</sup> और लूप 2 में −(dB/dt)πr<sup>2</sup>",
+      "लूप 1 में −(dB/dt)πR<sup>2</sup> और लूप 2 में शून्य",
+      "लूप 1 में −(dB/dt)πr<sup>2</sup> और लूप 2 में शून्य"
+     ],
+     "sol": "<p>केवल r त्रिज्या के क्षेत्र में क्षेत्र है, अतः लूप 1 (जो उसे घेरता है) से फलक्स Bπr<sup>2</sup> है और उसका विद्युत वाहक बल −(dB/dt)πr<sup>2</sup> है। लूप 2 कोई क्षेत्र नहीं घेरता, अतः उसका फलक्स और विद्युत वाहक बल शून्य हैं।</p><p>उत्तर : <b>लूप 1 में −(dB/dt)πr<sup>2</sup> और लूप 2 में शून्य</b>।</p>",
+     "hint": "फलक्स में केवल वह क्षेत्रफल आता है जहाँ B है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q31",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 4",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Option 3 radius read as R from the scan (it prints like r); needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2017-code-a-q8",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Figure shows a circuit that contains three identical resistors with resistance R = 9.0 Ω each, two identical inductors with inductance L = 2.0 mH each, and an ideal battery with emf ε = 18 V. The current 'i' through the battery just after the switch closed is :",
+     "o": [
+      "2 mA",
+      "0.2 A",
+      "2 A",
+      "0 ampere"
+     ],
+     "sol": "<p>Just after the switch is closed an inductor opposes any sudden change of current, so it carries none and behaves as an open circuit. Only the branch without an inductor conducts: with one 9 Ω resistor across the 18 V battery, i = 18/9 = <b>2 A</b>.</p><p>(The official key marks this answer, though the copy notes the question is loosely framed.)</p>",
+     "hint": "At t = 0<sup>+</sup> an inductor carrying no current acts as an open switch."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "चित्र एक परिपथ दर्शाता है जिसमें प्रत्येक R = 9.0 Ω प्रतिरोध वाले तीन सर्वसम प्रतिरोधक, प्रत्येक L = 2.0 mH प्रेरकत्व वाले दो सर्वसम प्रेरक और विद्युत वाहक बल ε = 18 V वाली एक आदर्श बैटरी है। स्विच बंद करने के ठीक बाद बैटरी से धारा 'i' है :",
+     "o": [
+      "2 mA",
+      "0.2 A",
+      "2 A",
+      "0 ऐम्पियर"
+     ],
+     "sol": "<p>स्विच बंद करने के ठीक बाद प्रेरक धारा में किसी अचानक परिवर्तन का विरोध करता है, अतः उसमें कोई धारा नहीं होती और वह खुले परिपथ की तरह व्यवहार करता है। केवल बिना प्रेरक वाली शाखा चालन करती है : 18 V बैटरी के सिरों पर एक 9 Ω प्रतिरोधक के साथ i = 18/9 = <b>2 A</b>।</p><p>(आधिकारिक कुंजी यही उत्तर देती है, यद्यपि प्रति में टिप्पणी है कि प्रश्न ठीक से नहीं बना है।)</p>",
+     "hint": "t = 0<sup>+</sup> पर धारारहित प्रेरक खुले स्विच की तरह कार्य करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q8",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)",
+    "note": "Key marks (3) with an asterisk; the copy notes the question is not correctly framed. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2017-code-a-q38",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A long solenoid of diameter 0.1 m has 2 × 10<sup>4</sup> turns per metre. At the centre of the solenoid, a coil of 100 turns and radius 0.01 m is placed with its axis coinciding with the solenoid axis. The current in the solenoid reduces at a constant rate to 0 A from 4 A in 0.05 s. If the resistance of the coil is 10π<sup>2</sup> Ω, the total charge flowing through the coil during this time is :",
+     "o": [
+      "32π μC",
+      "16 μC",
+      "32 μC",
+      "16π μC"
+     ],
+     "sol": "<p>Field inside the solenoid B = μ<sub>0</sub>nI. Flux linkage of the small coil NΦ = Nμ<sub>0</sub>nIπr<sup>2</sup>. Charge Q = ΔΦ<sub>total</sub>/R (independent of the time taken).</p><p>Q = 100 × 4π × 10<sup>−7</sup> × 2 × 10<sup>4</sup> × 4 × π × (0.01)<sup>2</sup>/(10π<sup>2</sup>) = 32π<sup>2</sup> × 10<sup>−5</sup>/(10π<sup>2</sup>) = 3.2 × 10<sup>−5</sup> C = <b>32 μC</b>.</p>",
+     "hint": "Q = Δ(NΦ)/R."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "0.1 m व्यास की एक लंबी परिनालिका में प्रति मीटर 2 × 10<sup>4</sup> फेरे हैं। परिनालिका के केंद्र पर 100 फेरों और 0.01 m त्रिज्या की एक कुंडली इस प्रकार रखी है कि उसकी अक्ष परिनालिका की अक्ष से संपाती है। परिनालिका में धारा 0.05 s में 4 A से 0 A तक नियत दर से घटती है। यदि कुंडली का प्रतिरोध 10π<sup>2</sup> Ω है, तो इस समय में कुंडली से प्रवाहित कुल आवेश है :",
+     "o": [
+      "32π μC",
+      "16 μC",
+      "32 μC",
+      "16π μC"
+     ],
+     "sol": "<p>परिनालिका के अंदर क्षेत्र B = μ<sub>0</sub>nI। छोटी कुंडली की फलक्स-बंधता NΦ = Nμ<sub>0</sub>nIπr<sup>2</sup>। आवेश Q = ΔΦ<sub>total</sub>/R (लगे समय से स्वतंत्र)।</p><p>Q = 100 × 4π × 10<sup>−7</sup> × 2 × 10<sup>4</sup> × 4 × π × (0.01)<sup>2</sup>/(10π<sup>2</sup>) = 32π<sup>2</sup> × 10<sup>−5</sup>/(10π<sup>2</sup>) = 3.2 × 10<sup>−5</sup> C = <b>32 μC</b>।</p>",
+     "hint": "Q = Δ(NΦ)/R ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q38",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 3",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-06-neet-2018-code-aa-q21",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The magnetic potential energy stored in a certain inductor is 25 mJ, when the current in the inductor is 60 mA. This inductor is of inductance :",
+     "o": [
+      "1.389 H",
+      "138.88 H",
+      "0.138 H",
+      "13.89 H"
+     ],
+     "sol": "<p>U = (1/2)LI<sup>2</sup> ⇒ L = 2U/I<sup>2</sup> = 2 × 25 × 10<sup>−3</sup>/(60 × 10<sup>−3</sup>)<sup>2</sup> = 0.05/(3.6 × 10<sup>−3</sup>) ≈ <b>13.89 H</b>.</p>",
+     "hint": "Convert mJ and mA to SI first."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "किसी प्रेरक में 60 mA धारा होने पर उसमें संचित चुंबकीय स्थितिज ऊर्जा 25 mJ है। इस प्रेरक का प्रेरकत्व है :",
+     "o": [
+      "1.389 H",
+      "138.88 H",
+      "0.138 H",
+      "13.89 H"
+     ],
+     "sol": "<p>U = (1/2)LI<sup>2</sup> ⇒ L = 2U/I<sup>2</sup> = 2 × 25 × 10<sup>−3</sup>/(60 × 10<sup>−3</sup>)<sup>2</sup> = 0.05/(3.6 × 10<sup>−3</sup>) ≈ <b>13.89 H</b>।</p>",
+     "hint": "पहले mJ और mA को SI में बदलिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q21",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-06-neet-2019-code-s2-q98",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 800 turn coil of effective area 0.05 m<sup>2</sup> is kept perpendicular to a magnetic field 5 × 10<sup>−5</sup> T. When the plane of the coil is rotated by 90° around any of its coplanar axis in 0.1 s, the emf induced in the coil will be :",
+     "o": [
+      "2 × 10<sup>−3</sup> V",
+      "0.02 V",
+      "2 V",
+      "0.2 V"
+     ],
+     "sol": "<p>Initially the plane is perpendicular to B, so Φ = NBA; after turning 90° the flux is zero. Average emf = NBA/t = 800 × 5 × 10<sup>−5</sup> × 0.05/0.1 = <b>0.02 V</b>.</p>",
+     "hint": "ε = ΔΦ/Δt with ΔΦ = NBA."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "0.05 m<sup>2</sup> प्रभावी क्षेत्रफल वाली 800 फेरों की एक कुंडली 5 × 10<sup>−5</sup> T के चुंबकीय क्षेत्र के लंबवत रखी है। जब कुंडली के तल को उसकी किसी समतलीय अक्ष के परितः 0.1 s में 90° घुमाया जाता है, तो कुंडली में प्रेरित विद्युत वाहक बल होगा :",
+     "o": [
+      "2 × 10<sup>−3</sup> V",
+      "0.02 V",
+      "2 V",
+      "0.2 V"
+     ],
+     "sol": "<p>प्रारंभ में तल B के लंबवत है, अतः Φ = NBA; 90° घुमाने के बाद फलक्स शून्य है। औसत विद्युत वाहक बल = NBA/t = 800 × 5 × 10<sup>−5</sup> × 0.05/0.1 = <b>0.02 V</b>।</p>",
+     "hint": "ε = ΔΦ/Δt, जहाँ ΔΦ = NBA।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q98",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 2",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-06-neet-2019-code-s2-q107",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In which of the following devices the eddy current effect is not used?",
+     "o": [
+      "electromagnet",
+      "electric heater",
+      "induction furnace",
+      "magnetic braking in train"
+     ],
+     "sol": "<p>Induction furnaces and magnetic braking in trains work by eddy currents. An <b>electric heater</b> works by Joule heating of a resistance wire carrying the supply current, not by eddy currents — the intended answer.</p><p>An electromagnet does not rely on eddy currents either (they are a loss in its core), so the question has more than one defensible answer; NTA's final key awarded marks for every option.</p>",
+     "hint": "Eddy currents need a changing magnetic flux through a conductor."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "निम्नलिखित में से किस युक्ति में भँवर धारा प्रभाव का उपयोग नहीं किया जाता?",
+     "o": [
+      "विद्युत चुंबक",
+      "विद्युत तापक",
+      "प्रेरण भट्टी",
+      "रेलगाड़ी में चुंबकीय ब्रेक"
+     ],
+     "sol": "<p>प्रेरण भट्टी और रेलगाड़ी के चुंबकीय ब्रेक भँवर धाराओं से कार्य करते हैं। <b>विद्युत तापक</b> आपूर्ति धारा प्रवाहित करने वाले प्रतिरोध तार के जूल तापन से कार्य करता है, भँवर धाराओं से नहीं — यही अभीष्ट उत्तर है।</p><p>विद्युत चुंबक भी भँवर धाराओं पर निर्भर नहीं करता (उसके क्रोड में वे हानि हैं), अतः प्रश्न के एक से अधिक तर्कसंगत उत्तर हैं; NTA की अंतिम कुंजी ने सभी विकल्पों के लिए अंक दिए।</p>",
+     "hint": "भँवर धाराओं के लिए चालक से परिवर्ती चुंबकीय फलक्स चाहिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1,
+    "alsoAccepted": [
+     0,
+     2,
+     3
+    ]
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 6 · Eddy currents"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q107",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: A (all options)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "NTA's final key gives \"A\" for this question: every option was awarded marks. Our answer: (2) electric heater."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2021-code-p3-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two conducting circular loops of radii R<sub>1</sub> and R<sub>2</sub> are placed in the same plane with their centres coinciding. If R<sub>1</sub> >> R<sub>2</sub>, the mutual inductance M between them will be directly proportional to :",
+     "o": [
+      "R<sub>2</sub><sup>2</sup>/R<sub>1</sub>",
+      "R<sub>1</sub>/R<sub>2</sub>",
+      "R<sub>2</sub>/R<sub>1</sub>",
+      "R<sub>1</sub><sup>2</sup>/R<sub>2</sub>"
+     ],
+     "sol": "<p>Let current I flow in the large loop. Its field at the centre, B = μ<sub>0</sub>I/(2R<sub>1</sub>), is nearly uniform over the small loop (R<sub>1</sub> >> R<sub>2</sub>). Flux through the small loop Φ = (μ<sub>0</sub>I/2R<sub>1</sub>)πR<sub>2</sub><sup>2</sup> ⇒ M = Φ/I = μ<sub>0</sub>πR<sub>2</sub><sup>2</sup>/(2R<sub>1</sub>) ∝ <b>R<sub>2</sub><sup>2</sup>/R<sub>1</sub></b>.</p>",
+     "hint": "Put the current in the big loop; its field is uniform over the small one."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "R<sub>1</sub> और R<sub>2</sub> त्रिज्याओं वाले दो चालक वृत्ताकार लूप एक ही तल में इस प्रकार रखे हैं कि उनके केंद्र संपाती हैं। यदि R<sub>1</sub> >> R<sub>2</sub> है, तो उनके बीच अन्योन्य प्रेरकत्व M अनुक्रमानुपाती होगा :",
+     "o": [
+      "R<sub>2</sub><sup>2</sup>/R<sub>1</sub>",
+      "R<sub>1</sub>/R<sub>2</sub>",
+      "R<sub>2</sub>/R<sub>1</sub>",
+      "R<sub>1</sub><sup>2</sup>/R<sub>2</sub>"
+     ],
+     "sol": "<p>माना बड़े लूप में धारा I है। केंद्र पर उसका क्षेत्र B = μ<sub>0</sub>I/(2R<sub>1</sub>) छोटे लूप पर लगभग एकसमान है (R<sub>1</sub> >> R<sub>2</sub>)। छोटे लूप से फलक्स Φ = (μ<sub>0</sub>I/2R<sub>1</sub>)πR<sub>2</sub><sup>2</sup> ⇒ M = Φ/I = μ<sub>0</sub>πR<sub>2</sub><sup>2</sup>/(2R<sub>1</sub>) ∝ <b>R<sub>2</sub><sup>2</sup>/R<sub>1</sub></b>।</p>",
+     "hint": "धारा बड़े लूप में रखिए; उसका क्षेत्र छोटे लूप पर एकसमान है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q40",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-06-neet-2022-code-t2-q17",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A square loop of side 1 m and resistance 1 Ω is placed in a magnetic field of 0.5 T. If the plane of loop is perpendicular to the direction of magnetic field, the magnetic flux through the loop is :",
+     "o": [
+      "0.5 weber",
+      "1 weber",
+      "zero weber",
+      "2 weber"
+     ],
+     "sol": "<p>The field is along the normal to the loop, so Φ = BA cos 0° = 0.5 × 1 × 1 = <b>0.5 weber</b>. (The resistance is irrelevant.)</p>",
+     "hint": "Φ = BA cos θ, θ between B and the normal."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "1 m भुजा और 1 Ω प्रतिरोध वाला एक वर्गाकार लूप 0.5 T के चुंबकीय क्षेत्र में रखा है। यदि लूप का तल चुंबकीय क्षेत्र की दिशा के लंबवत है, तो लूप से चुंबकीय फलक्स है :",
+     "o": [
+      "0.5 weber",
+      "1 weber",
+      "शून्य weber",
+      "2 weber"
+     ],
+     "sol": "<p>क्षेत्र लूप के अभिलंब के अनुदिश है, अतः Φ = BA cos 0° = 0.5 × 1 × 1 = <b>0.5 weber</b>। (प्रतिरोध अप्रासंगिक है।)</p>",
+     "hint": "Φ = BA cos θ, θ, B और अभिलंब के बीच।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q17",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2022-code-t2-q48",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A big circular coil of 1000 turns and average radius 10 m is rotating about its horizontal diameter at 2 rad s<sup>−1</sup>. If the vertical component of earth's magnetic field at that place is 2 × 10<sup>−5</sup> T and electrical resistance of the coil is 12.56 Ω, then the maximum induced current in the coil will be :",
+     "o": [
+      "1.5 A",
+      "1 A",
+      "2 A",
+      "0.25 A"
+     ],
+     "sol": "<p>A coil rotating about a horizontal diameter cuts the vertical component of the earth's field. Peak emf ε<sub>0</sub> = NBAω = 1000 × 2 × 10<sup>−5</sup> × π(10)<sup>2</sup> × 2 = 12.56 V.</p><p>I<sub>max</sub> = ε<sub>0</sub>/R = 12.56/12.56 = <b>1 A</b>.</p>",
+     "hint": "AC generator: ε<sub>0</sub> = NBAω."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "1000 फेरों और 10 m औसत त्रिज्या वाली एक बड़ी वृत्ताकार कुंडली अपने क्षैतिज व्यास के परितः 2 rad s<sup>−1</sup> से घूम रही है। यदि उस स्थान पर पृथ्वी के चुंबकीय क्षेत्र का ऊर्ध्वाधर घटक 2 × 10<sup>−5</sup> T और कुंडली का विद्युत प्रतिरोध 12.56 Ω है, तो कुंडली में अधिकतम प्रेरित धारा होगी :",
+     "o": [
+      "1.5 A",
+      "1 A",
+      "2 A",
+      "0.25 A"
+     ],
+     "sol": "<p>क्षैतिज व्यास के परितः घूमती कुंडली पृथ्वी के क्षेत्र के ऊर्ध्वाधर घटक को काटती है। शिखर विद्युत वाहक बल ε<sub>0</sub> = NBAω = 1000 × 2 × 10<sup>−5</sup> × π(10)<sup>2</sup> × 2 = 12.56 V।</p><p>I<sub>max</sub> = ε<sub>0</sub>/R = 12.56/12.56 = <b>1 A</b>।</p>",
+     "hint": "AC जनित्र : ε<sub>0</sub> = NBAω।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q48",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2023-topic-wise-copy-q23",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The magnetic energy stored in an inductor of inductance 4 μH carrying a current of 2 A is :",
+     "o": [
+      "8 μJ",
+      "4 μJ",
+      "4 mJ",
+      "8 mJ"
+     ],
+     "sol": "<p>U = (1/2)LI<sup>2</sup> = (1/2) × 4 × 10<sup>−6</sup> × 2<sup>2</sup> = 8 × 10<sup>−6</sup> J = <b>8 μJ</b>.</p>",
+     "hint": "U = LI<sup>2</sup>/2."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "2 A धारा प्रवाहित करने वाले 4 μH प्रेरकत्व के एक प्रेरक में संचित चुंबकीय ऊर्जा है :",
+     "o": [
+      "8 μJ",
+      "4 μJ",
+      "4 mJ",
+      "8 mJ"
+     ],
+     "sol": "<p>U = (1/2)LI<sup>2</sup> = (1/2) × 4 × 10<sup>−6</sup> × 2<sup>2</sup> = 8 × 10<sup>−6</sup> J = <b>8 μJ</b>।</p>",
+     "hint": "U = LI<sup>2</sup>/2।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q23",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2024-q7-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A sheet is placed on a horizontal surface in front of a strong magnetic pole. A force is needed to :<br>A. hold the sheet there if it is magnetic.<br>B. hold the sheet there if it is non-magnetic.<br>C. move the sheet away from the pole with uniform velocity if it is conducting.<br>D. move the sheet away from the pole with uniform velocity if it is both, non-conducting and non-polar.<br>Choose the correct statement(s) from the options given below :",
+     "o": [
+      "B and D only",
+      "A and C only",
+      "A, C and D only",
+      "C only"
+     ],
+     "sol": "<p>A: a magnetic sheet is attracted (or repelled) by the pole, so a force is needed to hold it. B: a non-magnetic sheet feels no force at rest. C: moving a conducting sheet through the non-uniform field induces eddy currents that oppose the motion (Lenz's law), so a force is needed even at uniform velocity. D: a non-conducting, non-polar sheet feels nothing. Answer: <b>A and C only</b>.</p>",
+     "hint": "Motion of a conductor in a field ⇒ induced currents ⇒ opposing force."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक प्रबल चुंबकीय ध्रुव के सामने एक क्षैतिज पृष्ठ पर एक चादर रखी है। बल की आवश्यकता होती है :<br>A. चादर को वहाँ थामे रखने के लिए यदि वह चुंबकीय है।<br>B. चादर को वहाँ थामे रखने के लिए यदि वह अचुंबकीय है।<br>C. चादर को एकसमान वेग से ध्रुव से दूर ले जाने के लिए यदि वह चालक है।<br>D. चादर को एकसमान वेग से ध्रुव से दूर ले जाने के लिए यदि वह अचालक और अध्रुवीय दोनों है।<br>नीचे दिए गए विकल्पों में से सही कथन चुनिए :",
+     "o": [
+      "केवल B और D",
+      "केवल A और C",
+      "केवल A, C और D",
+      "केवल C"
+     ],
+     "sol": "<p>A : चुंबकीय चादर ध्रुव द्वारा आकर्षित (या प्रतिकर्षित) होती है, अतः उसे थामने के लिए बल चाहिए। B : अचुंबकीय चादर विराम में कोई बल अनुभव नहीं करती। C : चालक चादर को असमान क्षेत्र में चलाने पर भँवर धाराएँ प्रेरित होती हैं जो गति का विरोध करती हैं (लेंज का नियम), अतः एकसमान वेग पर भी बल चाहिए। D : अचालक, अध्रुवीय चादर कुछ अनुभव नहीं करती। उत्तर : <b>केवल A और C</b>।</p>",
+     "hint": "क्षेत्र में चालक की गति ⇒ प्रेरित धाराएँ ⇒ विरोधी बल।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.5"
+    ],
+    "otherChapters": [
+     "Class 12 · Magnetism and Matter"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q7 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Statement C rests on eddy currents, which the rationalised chapter no longer treats."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2024-q8-esaral-physics-copy",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the above diagram, a strong bar magnet is moving towards solenoid-2 from solenoid-1. The direction of induced current in solenoid-1 and that in solenoid-2, respectively, are through the directions :",
+     "o": [
+      "AB and DC",
+      "BA and CD",
+      "AB and CD",
+      "BA and DC"
+     ],
+     "sol": "<p>Lenz's law: each solenoid opposes the change of flux through it. The magnet's N end recedes from solenoid-1, so the end of solenoid-1 nearest the magnet becomes an S pole (attracting it back); the magnet's S end approaches solenoid-2, so the near end of solenoid-2 also becomes an S pole (repelling it). Working out the winding sense in the figure, these poles need currents <b>AB in solenoid-1 and DC in solenoid-2</b>.</p>",
+     "hint": "Receding pole: attract; approaching pole: repel."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "ऊपर दिए गए आरेख में एक प्रबल छड़ चुंबक (bar magnet) परिनालिका-1 से परिनालिका-2 की ओर चल रहा है। परिनालिका-1 और परिनालिका-2 में प्रेरित धारा की दिशाएँ क्रमशः हैं :",
+     "o": [
+      "AB और DC",
+      "BA और CD",
+      "AB और CD",
+      "BA और DC"
+     ],
+     "sol": "<p>लेंज का नियम : प्रत्येक परिनालिका अपने से गुजरने वाले फलक्स के परिवर्तन का विरोध करती है। चुंबक का N सिरा परिनालिका-1 से दूर जाता है, अतः परिनालिका-1 का चुंबक के निकट वाला सिरा S ध्रुव बनता है (उसे वापस आकर्षित करने के लिए); चुंबक का S सिरा परिनालिका-2 की ओर आता है, अतः परिनालिका-2 का निकट वाला सिरा भी S ध्रुव बनता है (उसे प्रतिकर्षित करने के लिए)। चित्र में लपेटने की दिशा के अनुसार इन ध्रुवों के लिए <b>परिनालिका-1 में AB और परिनालिका-2 में DC</b> धाराएँ चाहिए।</p>",
+     "hint": "दूर जाता ध्रुव : आकर्षित; पास आता ध्रुव : प्रतिकर्षित।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q8 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Solenoid-1 (ends A, B) on the left, the magnet (N on the left, S on the right) moving right, solenoid-2 (ends C, D) on the right. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2025-code-45-q11",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "AB is a part of an electrical circuit (see figure). The potential difference \"V<sub>A</sub> − V<sub>B</sub>\", at the instant when current i = 2 A and is increasing at a rate of 1 amp/second is :",
+     "o": [
+      "5 volt",
+      "6 volt",
+      "9 volt",
+      "10 volt"
+     ],
+     "sol": "<p>Going from A to B along the current: the inductor drops L di/dt = 1 × 1 = 1 V, the cell (positive towards A) drops 5 V, and the resistor drops iR = 2 × 2 = 4 V.</p><p>V<sub>A</sub> − V<sub>B</sub> = 1 + 5 + 4 = <b>10 volt</b>.</p>",
+     "hint": "With current increasing, the inductor's emf opposes the current (a drop from A to B)."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "AB एक विद्युत परिपथ का भाग है (चित्र देखिए)। उस क्षण, जब धारा i = 2 A है और 1 ऐम्पियर/सेकंड की दर से बढ़ रही है, विभवांतर \"V<sub>A</sub> − V<sub>B</sub>\" है :",
+     "o": [
+      "5 volt",
+      "6 volt",
+      "9 volt",
+      "10 volt"
+     ],
+     "sol": "<p>धारा की दिशा में A से B जाने पर : प्रेरक पर L di/dt = 1 × 1 = 1 V का विभवपात, सेल (धन सिरा A की ओर) पर 5 V, और प्रतिरोधक पर iR = 2 × 2 = 4 V।</p><p>V<sub>A</sub> − V<sub>B</sub> = 1 + 5 + 4 = <b>10 volt</b>।</p>",
+     "hint": "बढ़ती धारा में प्रेरक का विद्युत वाहक बल धारा का विरोध करता है (A से B की ओर विभवपात)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.7.2"
+    ],
+    "otherChapters": [
+     "Class 12 · Current Electricity"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q11",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)",
+    "note": "From A to B in series: a 1 H inductor, a 5 V cell (positive terminal towards A) and 2 Ω, current i from A to B."
+   }
+  },
+  {
+   "id": "phy12-06-neet-2026-code-13-q39",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A rectangular wire loop of sides 8 cm and 3 cm with a small cut, is moving out of a region of uniform magnetic field of magnitude 0.3 T directed normal to the plane of the loop. The emf developed across the cut, if the velocity of the loop is 2 cm s<sup>−1</sup>, in a direction normal to the shorter side of the loop, will be :",
+     "o": [
+      "1.8 × 10<sup>−4</sup> volt",
+      "1.3 × 10<sup>−4</sup> volt",
+      "1.2 × 10<sup>−4</sup> volt",
+      "4.8 × 10<sup>−4</sup> volt"
+     ],
+     "sol": "<p>Moving normal to the shorter (3 cm) side, that side cuts the field lines as the loop leaves; the motional emf across the cut is ε = Blv = 0.3 × 0.03 × 0.02 = <b>1.8 × 10<sup>−4</sup> volt</b>.</p>",
+     "hint": "Use the length of the side perpendicular to the velocity."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "8 cm और 3 cm भुजाओं वाला एक आयताकार तार लूप, जिसमें एक छोटा कटाव है, 0.3 T परिमाण के एकसमान चुंबकीय क्षेत्र के क्षेत्र से बाहर निकल रहा है, जो लूप के तल के अभिलंबवत है। यदि लूप का वेग लूप की छोटी भुजा के अभिलंबवत दिशा में 2 cm s<sup>−1</sup> है, तो कटाव के सिरों पर उत्पन्न विद्युत वाहक बल होगा :",
+     "o": [
+      "1.8 × 10<sup>−4</sup> volt",
+      "1.3 × 10<sup>−4</sup> volt",
+      "1.2 × 10<sup>−4</sup> volt",
+      "4.8 × 10<sup>−4</sup> volt"
+     ],
+     "sol": "<p>छोटी (3 cm) भुजा के अभिलंबवत चलने पर लूप के निकलते समय वही भुजा क्षेत्र रेखाओं को काटती है; कटाव के सिरों पर गतिक विद्युत वाहक बल ε = Blv = 0.3 × 0.03 × 0.02 = <b>1.8 × 10<sup>−4</sup> volt</b>।</p>",
+     "hint": "वेग के लंबवत भुजा की लंबाई लीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-06",
+    "paras": [
+     "6.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q39",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}

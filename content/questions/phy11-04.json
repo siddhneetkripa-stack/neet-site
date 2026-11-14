@@ -1,0 +1,1441 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy11-04",
+ "subject": "physics",
+ "class": 11,
+ "unit": 4,
+ "title": {
+  "en": "Laws of Motion"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "4.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "4.2",
+   "title": "Aristotle's Fallacy",
+   "hi": "अरस्तू की भ्रामकता",
+   "pdfPage": 2
+  },
+  {
+   "id": "4.3",
+   "title": "The Law of Inertia",
+   "hi": "जड़त्व का नियम",
+   "pdfPage": 2
+  },
+  {
+   "id": "4.4",
+   "title": "Newton's First Law of Motion",
+   "hi": "न्यूटन का गति का प्रथम नियम",
+   "pdfPage": 3
+  },
+  {
+   "id": "4.5",
+   "title": "Newton's Second Law of Motion",
+   "hi": "न्यूटन का गति का द्वितीय नियम",
+   "pdfPage": 5
+  },
+  {
+   "id": "4.6",
+   "title": "Newton's Third Law of Motion",
+   "hi": "न्यूटन का गति का तृतीय नियम",
+   "pdfPage": 8
+  },
+  {
+   "id": "4.7",
+   "title": "Conservation of Momentum",
+   "hi": "संवेग-संरक्षण",
+   "pdfPage": 9
+  },
+  {
+   "id": "4.8",
+   "title": "Equilibrium of a Particle",
+   "hi": "किसी कण की साम्यावस्था",
+   "pdfPage": 10
+  },
+  {
+   "id": "4.9",
+   "title": "Common Forces in Mechanics",
+   "hi": "यांत्रिकी में सामान्य बल",
+   "pdfPage": 11
+  },
+  {
+   "id": "4.9.1",
+   "title": "Friction",
+   "pdfPage": 12
+  },
+  {
+   "id": "4.10",
+   "title": "Circular Motion",
+   "pdfPage": 15
+  },
+  {
+   "id": "4.11",
+   "title": "Solving Problems in Mechanics",
+   "pdfPage": 16
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy11-04-neet-2015-re-exam-code-d-q153",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A nucleus of uranium decays at rest into nuclei of thorium and helium. Then:",
+     "o": [
+      "The helium nucleus has less momentum than the thorium nucleus",
+      "The helium nucleus has more momentum than the thorium nucleus",
+      "The helium nucleus has less kinetic energy than the thorium nucleus",
+      "The helium nucleus has more kinetic energy than the thorium nucleus"
+     ],
+     "sol": "<p>The uranium nucleus is at rest, so by conservation of momentum the two products have equal and opposite momenta: p<sub>He</sub> = p<sub>Th</sub> = p.</p><p>K = p<sup>2</sup>/(2m): with the same p, the lighter helium nucleus has the larger kinetic energy. Answer: <b>helium has more kinetic energy than thorium</b>.</p>",
+     "hint": "Equal momenta; K = p<sup>2</sup>/2m favours the lighter particle."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "विराम में स्थित यूरेनियम का एक नाभिक थोरियम और हीलियम के नाभिकों में क्षयित होता है। तब :",
+     "o": [
+      "हीलियम नाभिक का संवेग थोरियम नाभिक से कम है",
+      "हीलियम नाभिक का संवेग थोरियम नाभिक से अधिक है",
+      "हीलियम नाभिक की गतिज ऊर्जा थोरियम नाभिक से कम है",
+      "हीलियम नाभिक की गतिज ऊर्जा थोरियम नाभिक से अधिक है"
+     ],
+     "sol": "<p>यूरेनियम नाभिक विराम में है, अतः संवेग संरक्षण से दोनों उत्पादों के संवेग बराबर और विपरीत हैं : p<sub>He</sub> = p<sub>Th</sub> = p।</p><p>K = p<sup>2</sup>/(2m) : समान p के लिए हलके हीलियम नाभिक की गतिज ऊर्जा अधिक है। उत्तर : <b>हीलियम की गतिज ऊर्जा थोरियम से अधिक है</b>।</p>",
+     "hint": "संवेग बराबर; K = p<sup>2</sup>/2m हलके कण के लिए अधिक है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.7"
+    ],
+    "otherChapters": [
+     "Class 12 · Nuclei"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q153",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2015-re-exam-code-d-q159",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A plank with a box on it at one end is gradually raised about the other end. As the angle of inclination with the horizontal reaches 30°, the box starts to slip and slides 4.0 m down the plank in 4.0 s. The coefficients of static and kinetic friction between the box and the plank will be, respectively:",
+     "o": [
+      "0.6 and 0.5",
+      "0.5 and 0.6",
+      "0.4 and 0.3",
+      "0.6 and 0.6"
+     ],
+     "sol": "<p>Slipping just starts at 30°: μ<sub>s</sub> = tan 30° = 0.577 ≈ 0.6.</p><p>Sliding from rest: 4.0 = (1/2)a(4.0)<sup>2</sup> ⇒ a = 0.5 m/s<sup>2</sup>. Also a = g(sin 30° − μ<sub>k</sub> cos 30°) ⇒ 0.5 = 10(0.5 − 0.866 μ<sub>k</sub>) ⇒ μ<sub>k</sub> = 0.45/0.866 ≈ 0.52 ≈ 0.5.</p><p>Answer: <b>0.6 and 0.5</b>.</p>",
+     "hint": "Angle of repose gives μ<sub>s</sub>; the sliding acceleration gives μ<sub>k</sub>."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक तख्ते के एक सिरे पर एक बक्सा रखा है और तख्ते को दूसरे सिरे के परितः धीरे-धीरे उठाया जाता है। जैसे ही क्षैतिज से झुकाव कोण 30° होता है, बक्सा फिसलना प्रारंभ करता है और 4.0 s में तख्ते पर 4.0 m नीचे फिसल जाता है। बक्से और तख्ते के बीच स्थैतिक और गतिज घर्षण गुणांक क्रमशः होंगे :",
+     "o": [
+      "0.6 और 0.5",
+      "0.5 और 0.6",
+      "0.4 और 0.3",
+      "0.6 और 0.6"
+     ],
+     "sol": "<p>30° पर फिसलन ठीक प्रारंभ होती है : μ<sub>s</sub> = tan 30° = 0.577 ≈ 0.6।</p><p>विराम से फिसलना : 4.0 = (1/2)a(4.0)<sup>2</sup> ⇒ a = 0.5 m/s<sup>2</sup>। साथ ही a = g(sin 30° − μ<sub>k</sub> cos 30°) ⇒ 0.5 = 10(0.5 − 0.866 μ<sub>k</sub>) ⇒ μ<sub>k</sub> = 0.45/0.866 ≈ 0.52 ≈ 0.5।</p><p>उत्तर : <b>0.6 और 0.5</b>।</p>",
+     "hint": "विश्राम कोण से μ<sub>s</sub>; फिसलने के त्वरण से μ<sub>k</sub>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q159",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 1",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2015-re-exam-code-d-q166",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two stones of masses m and 2m are whirled in horizontal circles, the heavier one in a radius r/2 and the lighter one in radius r. The tangential speed of lighter stone is n times that of the value of heavier stone when they experience same centripetal forces. The value of n is :",
+     "o": [
+      "3",
+      "4",
+      "1",
+      "2"
+     ],
+     "sol": "<p>Equal centripetal forces: m v<sub>l</sub><sup>2</sup>/r = 2m v<sub>h</sub><sup>2</sup>/(r/2) = 4m v<sub>h</sub><sup>2</sup>/r.</p><p>So v<sub>l</sub><sup>2</sup> = 4v<sub>h</sub><sup>2</sup> ⇒ v<sub>l</sub> = 2v<sub>h</sub>, n = <b>2</b>.</p>",
+     "hint": "Set mv<sup>2</sup>/r equal for both stones."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "m और 2m द्रव्यमान के दो पत्थरों को क्षैतिज वृत्तों में घुमाया जाता है, भारी पत्थर को r/2 त्रिज्या में और हलके पत्थर को r त्रिज्या में। जब दोनों पर समान अभिकेंद्र बल लगता है, तब हलके पत्थर की स्पर्शरेखीय चाल भारी पत्थर की चाल की n गुनी है। n का मान है :",
+     "o": [
+      "3",
+      "4",
+      "1",
+      "2"
+     ],
+     "sol": "<p>अभिकेंद्र बल बराबर : m v<sub>l</sub><sup>2</sup>/r = 2m v<sub>h</sub><sup>2</sup>/(r/2) = 4m v<sub>h</sub><sup>2</sup>/r ।</p><p>अतः v<sub>l</sub><sup>2</sup> = 4v<sub>h</sub><sup>2</sup> ⇒ v<sub>l</sub> = 2v<sub>h</sub>, n = <b>2</b>।</p>",
+     "hint": "दोनों पत्थरों के लिए mv<sup>2</sup>/r बराबर रखिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q166",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, Code D: 4",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
+    "note": "Radius r/2 restored (the copy's text drops the fraction): mv<sub>l</sub><sup>2</sup>/r = 2mv<sub>h</sub><sup>2</sup>/(r/2) gives n = 2."
+   }
+  },
+  {
+   "id": "phy11-04-neet-2016-phase-1-code-a-q24",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle of mass 10 g moves along a circle of radius 6.4 cm with a constant tangential acceleration. What is the magnitude of this acceleration if the kinetic energy of the particle becomes equal to 8 × 10<sup>−4</sup> J by the end of the second revolution after the beginning of the motion?",
+     "o": [
+      "0.1 m/s<sup>2</sup>",
+      "0.15 m/s<sup>2</sup>",
+      "0.18 m/s<sup>2</sup>",
+      "0.2 m/s<sup>2</sup>"
+     ],
+     "sol": "<p>K = (1/2)mv<sup>2</sup> ⇒ v<sup>2</sup> = 2 × 8 × 10<sup>−4</sup>/0.01 = 0.16 m<sup>2</sup>/s<sup>2</sup>.</p><p>Distance in two revolutions s = 2 × 2πr = 4π × 0.064 = 0.804 m. With constant tangential acceleration from rest, v<sup>2</sup> = 2a<sub>t</sub>s ⇒ a<sub>t</sub> = 0.16/(2 × 0.804) ≈ <b>0.1 m/s<sup>2</sup></b>.</p>",
+     "hint": "Use v<sup>2</sup> = 2a<sub>t</sub>s along the circle, with s = 2 × 2πr."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "10 g द्रव्यमान का एक कण 6.4 cm त्रिज्या के वृत्त के अनुदिश नियत स्पर्शरेखीय त्वरण से चलता है। यदि गति प्रारंभ होने के बाद दूसरी परिक्रमा के अंत तक कण की गतिज ऊर्जा 8 × 10<sup>−4</sup> J हो जाती है, तो इस त्वरण का परिमाण क्या है?",
+     "o": [
+      "0.1 m/s<sup>2</sup>",
+      "0.15 m/s<sup>2</sup>",
+      "0.18 m/s<sup>2</sup>",
+      "0.2 m/s<sup>2</sup>"
+     ],
+     "sol": "<p>K = (1/2)mv<sup>2</sup> ⇒ v<sup>2</sup> = 2 × 8 × 10<sup>−4</sup>/0.01 = 0.16 m<sup>2</sup>/s<sup>2</sup>।</p><p>दो परिक्रमाओं में दूरी s = 2 × 2πr = 4π × 0.064 = 0.804 m। विराम से नियत स्पर्शरेखीय त्वरण के लिए v<sup>2</sup> = 2a<sub>t</sub>s ⇒ a<sub>t</sub> = 0.16/(2 × 0.804) ≈ <b>0.1 m/s<sup>2</sup></b>।</p>",
+     "hint": "वृत्त के अनुदिश v<sup>2</sup> = 2a<sub>t</sub>s, जहाँ s = 2 × 2πr।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.10"
+    ],
+    "otherChapters": [
+     "Class 11 · Work",
+     "Energy and Power"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q24",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2016-phase-1-code-a-q45",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A car is negotiating a curved road of radius R. The road is banked at an angle θ. The coefficient of friction between the tyres of the car and the road is μ<sub>s</sub>. The maximum safe velocity on this road is :",
+     "o": [
+      "√(gR<sup>2</sup>(μ<sub>s</sub> + tan θ)/(1 − μ<sub>s</sub> tan θ))",
+      "√(gR(μ<sub>s</sub> + tan θ)/(1 − μ<sub>s</sub> tan θ))",
+      "√((g/R)(μ<sub>s</sub> + tan θ)/(1 − μ<sub>s</sub> tan θ))",
+      "√((g/R<sup>2</sup>)(μ<sub>s</sub> + tan θ)/(1 − μ<sub>s</sub> tan θ))"
+     ],
+     "sol": "<p>At maximum speed friction acts down the slope. Vertical: N cos θ = mg + f sin θ; horizontal: N sin θ + f cos θ = mv<sup>2</sup>/R, with f = μ<sub>s</sub>N.</p><p>Dividing: v<sup>2</sup>/(Rg) = (sin θ + μ<sub>s</sub> cos θ)/(cos θ − μ<sub>s</sub> sin θ) ⇒ <b>v<sub>max</sub> = √(gR(μ<sub>s</sub> + tan θ)/(1 − μ<sub>s</sub> tan θ))</b>.</p>",
+     "hint": "Check dimensions: only gR has the dimensions of v<sup>2</sup>."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक कार R त्रिज्या की वक्र सड़क पर मुड़ रही है। सड़क θ कोण पर झुकी (बैंक की गई) है। कार के टायरों और सड़क के बीच घर्षण गुणांक μ<sub>s</sub> है। इस सड़क पर अधिकतम सुरक्षित वेग है :",
+     "o": [
+      "√(gR<sup>2</sup>(μ<sub>s</sub> + tan θ)/(1 − μ<sub>s</sub> tan θ))",
+      "√(gR(μ<sub>s</sub> + tan θ)/(1 − μ<sub>s</sub> tan θ))",
+      "√((g/R)(μ<sub>s</sub> + tan θ)/(1 − μ<sub>s</sub> tan θ))",
+      "√((g/R<sup>2</sup>)(μ<sub>s</sub> + tan θ)/(1 − μ<sub>s</sub> tan θ))"
+     ],
+     "sol": "<p>अधिकतम चाल पर घर्षण ढलान के नीचे की ओर कार्य करता है। ऊर्ध्वाधर : N cos θ = mg + f sin θ; क्षैतिज : N sin θ + f cos θ = mv<sup>2</sup>/R, जहाँ f = μ<sub>s</sub>N।</p><p>भाग देने पर : v<sup>2</sup>/(Rg) = (sin θ + μ<sub>s</sub> cos θ)/(cos θ − μ<sub>s</sub> sin θ) ⇒ <b>v<sub>max</sub> = √(gR(μ<sub>s</sub> + tan θ)/(1 − μ<sub>s</sub> tan θ))</b>।</p>",
+     "hint": "विमाएँ जाँचिए : केवल gR की विमाएँ v<sup>2</sup> के समान हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q45",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2016-phase-2-code-aa-q3",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the given figure, a = 15 m/s<sup>2</sup> represents the total acceleration of a particle moving in the clockwise direction in a circle of radius R = 2.5 m at a given instant of time. The speed of the particle is :",
+     "o": [
+      "4.5 m/s",
+      "5.0 m/s",
+      "5.7 m/s",
+      "6.2 m/s"
+     ],
+     "sol": "<p>Only the radial (centripetal) component of the total acceleration fixes the speed: a<sub>c</sub> = a cos 30° = 15 × 0.866 = 13 m/s<sup>2</sup>.</p><p>v<sup>2</sup> = a<sub>c</sub>R = 13 × 2.5 = 32.5 ⇒ v ≈ <b>5.7 m/s</b>.</p>",
+     "hint": "Resolve a into radial and tangential parts; v<sup>2</sup>/R is the radial part."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "दिए गए चित्र में a = 15 m/s<sup>2</sup>, R = 2.5 m त्रिज्या के वृत्त में दक्षिणावर्त दिशा में चल रहे एक कण का किसी दिए गए क्षण पर कुल त्वरण दर्शाता है। कण की चाल है :",
+     "o": [
+      "4.5 m/s",
+      "5.0 m/s",
+      "5.7 m/s",
+      "6.2 m/s"
+     ],
+     "sol": "<p>कुल त्वरण का केवल त्रिज्य (अभिकेंद्र) घटक चाल निर्धारित करता है : a<sub>c</sub> = a cos 30° = 15 × 0.866 = 13 m/s<sup>2</sup>।</p><p>v<sup>2</sup> = a<sub>c</sub>R = 13 × 2.5 = 32.5 ⇒ v ≈ <b>5.7 m/s</b>।</p>",
+     "hint": "a को त्रिज्य और स्पर्शरेखीय घटकों में वियोजित कीजिए; v<sup>2</sup>/R त्रिज्य घटक है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q3",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 3",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Figure: a at 30° to the radius. a cos 30° = v<sup>2</sup>/R gives v ≈ 5.7 m/s. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-04-neet-2016-phase-2-code-aa-q4",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A rigid ball of mass m strikes a rigid wall at 60° and gets reflected without loss of speed as shown in the figure below. The value of impulse imparted by the wall on the ball will be :",
+     "o": [
+      "mV",
+      "2mV",
+      "mV/2",
+      "mV/3"
+     ],
+     "sol": "<p>Only the momentum component normal to the wall reverses; the component along the wall is unchanged. With the ball's path at 60° to the normal, the normal component is V cos 60° = V/2.</p><p>Impulse = change of momentum = 2m(V cos 60°) = 2m(V/2) = <b>mV</b>.</p>",
+     "hint": "Impulse = 2mV × (component along the normal)."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "m द्रव्यमान की एक दृढ़ गेंद एक दृढ़ दीवार से 60° पर टकराती है और चाल में बिना किसी हानि के परावर्तित हो जाती है, जैसा कि नीचे चित्र में दिखाया गया है। दीवार द्वारा गेंद को दिए गए आवेग का मान होगा :",
+     "o": [
+      "mV",
+      "2mV",
+      "mV/2",
+      "mV/3"
+     ],
+     "sol": "<p>केवल दीवार के अभिलंब संवेग घटक की दिशा उलटती है; दीवार के अनुदिश घटक नहीं बदलता। गेंद का पथ अभिलंब से 60° पर होने से अभिलंब घटक V cos 60° = V/2 है।</p><p>आवेग = संवेग में परिवर्तन = 2m(V cos 60°) = 2m(V/2) = <b>mV</b>।</p>",
+     "hint": "आवेग = 2mV × (अभिलंब के अनुदिश घटक)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q4",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)",
+    "note": "Options 3 and 4 not legible in the copy (cut at a page break); entered as in the official paper to be confirmed. Impulse = 2mV cos 60° = mV."
+   }
+  },
+  {
+   "id": "phy11-04-neet-2017-code-a-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "One end of string of length l is connected to a particle of mass 'm' and the other end is connected to a small peg on a smooth horizontal table. If the particle moves in circle with speed 'v', the net force on the particle (directed towards center) will be (T represents the tension in the string) :",
+     "o": [
+      "T",
+      "T + mv<sup>2</sup>/l",
+      "T − mv<sup>2</sup>/l",
+      "Zero"
+     ],
+     "sol": "<p>On a smooth horizontal table, gravity and the normal reaction cancel. The only horizontal force is the tension, which points to the centre and provides the centripetal force (T = mv<sup>2</sup>/l). Net force = <b>T</b>.</p>",
+     "hint": "Centripetal force is not an extra force; it is supplied by T."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "l लंबाई की डोरी का एक सिरा 'm' द्रव्यमान के एक कण से और दूसरा सिरा एक चिकनी क्षैतिज मेज पर लगी एक छोटी खूँटी से जुड़ा है। यदि कण 'v' चाल से वृत्त में चलता है, तो कण पर (केंद्र की ओर निर्दिष्ट) नेट बल होगा (T डोरी में तनाव दर्शाता है) :",
+     "o": [
+      "T",
+      "T + mv<sup>2</sup>/l",
+      "T − mv<sup>2</sup>/l",
+      "शून्य"
+     ],
+     "sol": "<p>चिकनी क्षैतिज मेज पर गुरुत्व और अभिलंब प्रतिक्रिया संतुलित रहते हैं। एकमात्र क्षैतिज बल तनाव है, जो केंद्र की ओर है और अभिकेंद्र बल प्रदान करता है (T = mv<sup>2</sup>/l)। नेट बल = <b>T</b>।</p>",
+     "hint": "अभिकेंद्र बल कोई अतिरिक्त बल नहीं है; यह T द्वारा प्रदान किया जाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q7",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2017-code-a-q36",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two blocks A and B of masses 3m and m respectively are connected by a massless and inextensible string. The whole system is suspended by a massless spring as shown in figure. The magnitudes of acceleration of A and B immediately after the string is cut, are respectively :",
+     "o": [
+      "g, g/3",
+      "g/3, g",
+      "g, g",
+      "g/3, g/3"
+     ],
+     "sol": "<p>Before cutting, the spring holds both blocks: spring force = 4mg. A spring cannot change its extension instantly, so just after the cut it still pulls A up with 4mg.</p><p>A: 4mg − 3mg = 3m a<sub>A</sub> ⇒ a<sub>A</sub> = g/3. B hangs only from the cut string, so it falls freely: a<sub>B</sub> = g. Answer: <b>g/3, g</b>.</p>",
+     "hint": "Spring force stays the same at the instant of cutting; string tension drops to zero."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "3m और m द्रव्यमान के दो गुटके A और B एक द्रव्यमानरहित और अवितान्य डोरी से जुड़े हैं। पूरा निकाय एक द्रव्यमानरहित स्प्रिंग से लटका है, जैसा कि चित्र में दिखाया गया है। डोरी काटने के तुरंत बाद A और B के त्वरणों के परिमाण क्रमशः हैं :",
+     "o": [
+      "g, g/3",
+      "g/3, g",
+      "g, g",
+      "g/3, g/3"
+     ],
+     "sol": "<p>काटने से पहले स्प्रिंग दोनों गुटकों को थामे रहती है : स्प्रिंग बल = 4mg। स्प्रिंग का प्रसार तुरंत नहीं बदल सकता, अतः काटने के ठीक बाद भी यह A को 4mg से ऊपर खींचती है।</p><p>A : 4mg − 3mg = 3m a<sub>A</sub> ⇒ a<sub>A</sub> = g/3। B केवल कटी हुई डोरी से लटका था, अतः यह मुक्त रूप से गिरता है : a<sub>B</sub> = g। उत्तर : <b>g/3, g</b>।</p>",
+     "hint": "काटने के क्षण स्प्रिंग बल वही रहता है; डोरी का तनाव शून्य हो जाता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q36",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 2",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2018-code-aa-q33",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statements is incorrect?",
+     "o": [
+      "Frictional force opposes the relative motion.",
+      "Limiting value of static friction is directly proportional to normal reaction.",
+      "Rolling friction is smaller than sliding friction.",
+      "Coefficient of sliding friction has dimensions of length."
+     ],
+     "sol": "<p>Friction opposes relative motion; limiting static friction f = μ<sub>s</sub>N is proportional to N; rolling friction is much smaller than sliding friction. The coefficient of friction is a ratio of two forces, so it is dimensionless. The incorrect statement is <b>“coefficient of sliding friction has dimensions of length”</b>.</p>",
+     "hint": "μ = f/N is a ratio of forces."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "निम्नलिखित में से कौन-सा कथन गलत है?",
+     "o": [
+      "घर्षण बल आपेक्षिक गति का विरोध करता है।",
+      "स्थैतिक घर्षण का सीमांत मान अभिलंब प्रतिक्रिया के अनुक्रमानुपाती है।",
+      "लोटनिक घर्षण सर्पी घर्षण से कम होता है।",
+      "सर्पी घर्षण गुणांक की विमाएँ लंबाई की हैं।"
+     ],
+     "sol": "<p>घर्षण आपेक्षिक गति का विरोध करता है; सीमांत स्थैतिक घर्षण f = μ<sub>s</sub>N, N के अनुक्रमानुपाती है; लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है। घर्षण गुणांक दो बलों का अनुपात है, अतः विमाहीन है। गलत कथन है <b>“सर्पी घर्षण गुणांक की विमाएँ लंबाई की हैं”</b>।</p>",
+     "hint": "μ = f/N बलों का अनुपात है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q33",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2018-code-aa-q35",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A block of mass m is placed on a smooth inclined wedge ABC of inclination θ as shown in the figure. The wedge is given an acceleration 'a' towards the right. The relation between a and θ for the block to remain stationary on the wedge is :",
+     "o": [
+      "a = g cos θ",
+      "a = g/sin θ",
+      "a = g/cosec θ",
+      "a = g tan θ"
+     ],
+     "sol": "<p>In the frame of the wedge, a pseudo force ma acts on the block towards the left (opposite to the wedge's acceleration). Along the smooth incline it balances the component of gravity: ma cos θ = mg sin θ ⇒ <b>a = g tan θ</b>.</p>",
+     "hint": "Balance the incline components of mg and of the pseudo force ma."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "m द्रव्यमान का एक गुटका θ झुकाव वाले एक चिकने आनत वेज ABC पर रखा है, जैसा कि चित्र में दिखाया गया है। वेज को दाईं ओर 'a' त्वरण दिया जाता है। गुटके के वेज पर स्थिर रहने के लिए a और θ के बीच संबंध है :",
+     "o": [
+      "a = g cos θ",
+      "a = g/sin θ",
+      "a = g/cosec θ",
+      "a = g tan θ"
+     ],
+     "sol": "<p>वेज के निर्देश तंत्र में गुटके पर बाईं ओर (वेज के त्वरण के विपरीत) एक छद्म बल ma कार्य करता है। चिकने आनत तल के अनुदिश यह गुरुत्व के घटक को संतुलित करता है : ma cos θ = mg sin θ ⇒ <b>a = g tan θ</b>।</p>",
+     "hint": "mg और छद्म बल ma के आनत तल के अनुदिश घटकों को संतुलित कीजिए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q35",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 4",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2019-code-s2-q93",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A particle moving with velocity V⃗ is acted by three forces shown by the vector triangle PQR. The velocity of the particle will :",
+     "o": [
+      "remain constant",
+      "change according to the smallest force QR⃗",
+      "increase",
+      "decrease"
+     ],
+     "sol": "<p>Forces represented by the sides of a closed triangle taken in order (P→Q, Q→R, R→P) add to zero. With zero net force the acceleration is zero, so the velocity <b>remains constant</b> (Newton's first law).</p>",
+     "hint": "A closed vector polygon means zero resultant."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "वेग V⃗ से चलते हुए एक कण पर सदिश त्रिभुज PQR द्वारा दर्शाए गए तीन बल कार्य करते हैं। कण का वेग :",
+     "o": [
+      "नियत रहेगा",
+      "सबसे छोटे बल QR⃗ के अनुसार बदलेगा",
+      "बढ़ेगा",
+      "घटेगा"
+     ],
+     "sol": "<p>क्रम से लिए गए (P→Q, Q→R, R→P) बंद त्रिभुज की भुजाओं द्वारा दर्शाए गए बलों का योग शून्य होता है। नेट बल शून्य होने पर त्वरण शून्य होता है, अतः वेग <b>नियत रहता है</b> (न्यूटन का प्रथम नियम)।</p>",
+     "hint": "बंद सदिश बहुभुज का अर्थ है परिणामी शून्य।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q93",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)",
+    "note": "The three forces P→Q, Q→R, R→P form a closed triangle. Needs a redrawn figure."
+   }
+  },
+  {
+   "id": "phy11-04-neet-2019-code-s2-q113",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A block of mass 10 kg is in contact against the inner wall of a hollow cylindrical drum of radius 1 m. The coefficient of friction between the block and the inner wall of the cylinder is 0.1. The minimum angular velocity needed for the cylinder to keep the block stationary when the cylinder is vertical and rotating about its axis, will be : (g = 10 m/s<sup>2</sup>)",
+     "o": [
+      "10 rad/s",
+      "10π rad/s",
+      "√10 rad/s",
+      "10/(2π) rad/s"
+     ],
+     "sol": "<p>The wall's normal reaction provides the centripetal force: N = mω<sup>2</sup>r. Friction holds the block up: μN ≥ mg ⇒ μmω<sup>2</sup>r ≥ mg.</p><p>ω<sub>min</sub> = √(g/(μr)) = √(10/(0.1 × 1)) = <b>10 rad/s</b>.</p>",
+     "hint": "Normal force = mω<sup>2</sup>r; friction μN must balance mg."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "10 kg द्रव्यमान का एक गुटका 1 m त्रिज्या के एक खोखले बेलनाकार ड्रम की आंतरिक दीवार के संपर्क में है। गुटके और बेलन की आंतरिक दीवार के बीच घर्षण गुणांक 0.1 है। जब बेलन ऊर्ध्वाधर हो और अपनी अक्ष के परितः घूम रहा हो, तब गुटके को स्थिर रखने के लिए बेलन का आवश्यक न्यूनतम कोणीय वेग होगा : (g = 10 m/s<sup>2</sup>)",
+     "o": [
+      "10 rad/s",
+      "10π rad/s",
+      "√10 rad/s",
+      "10/(2π) rad/s"
+     ],
+     "sol": "<p>दीवार की अभिलंब प्रतिक्रिया अभिकेंद्र बल प्रदान करती है : N = mω<sup>2</sup>r। घर्षण गुटके को ऊपर थामे रखता है : μN ≥ mg ⇒ μmω<sup>2</sup>r ≥ mg।</p><p>ω<sub>min</sub> = √(g/(μr)) = √(10/(0.1 × 1)) = <b>10 rad/s</b>।</p>",
+     "hint": "अभिलंब बल = mω<sup>2</sup>r; घर्षण μN को mg संतुलित करना है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.10",
+     "4.9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q113",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2020-code-f3-q6",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Two bodies of mass 4 kg and 6 kg are tied to the ends of a massless string. The string passes over a pulley which is frictionless (see figure). The acceleration of the system in terms of acceleration due to gravity (g) is :",
+     "o": [
+      "g/5",
+      "g/10",
+      "g",
+      "g/2"
+     ],
+     "sol": "<p>For masses on either side of a frictionless pulley: a = (m<sub>2</sub> − m<sub>1</sub>)g/(m<sub>1</sub> + m<sub>2</sub>) = (6 − 4)g/(6 + 4) = <b>g/5</b>.</p>",
+     "hint": "Net driving force (6 − 4)g acts on the total mass 10 kg."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "4 kg और 6 kg द्रव्यमान के दो पिंड एक द्रव्यमानरहित डोरी के सिरों से बंधे हैं। डोरी एक घर्षणरहित घिरनी पर से गुजरती है (चित्र देखिए)। गुरुत्वीय त्वरण (g) के पदों में निकाय का त्वरण है :",
+     "o": [
+      "g/5",
+      "g/10",
+      "g",
+      "g/2"
+     ],
+     "sol": "<p>घर्षणरहित घिरनी के दोनों ओर लटके द्रव्यमानों के लिए : a = (m<sub>2</sub> − m<sub>1</sub>)g/(m<sub>1</sub> + m<sub>2</sub>) = (6 − 4)g/(6 + 4) = <b>g/5</b>।</p>",
+     "hint": "नेट चालक बल (6 − 4)g कुल द्रव्यमान 10 kg पर कार्य करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q6",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)",
+    "note": "Atwood machine: the two masses hang on either side of a fixed pulley. A redrawn figure helps but is not essential."
+   }
+  },
+  {
+   "id": "phy11-04-neet-2021-code-p3-q46",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A ball of mass 0.15 kg is dropped from a height 10 m, strikes the ground and rebounds to the same height. The magnitude of impulse imparted to the ball is (g = 10 m/s<sup>2</sup>) nearly :",
+     "o": [
+      "1.4 kg m/s",
+      "0 kg m/s",
+      "4.2 kg m/s",
+      "2.1 kg m/s"
+     ],
+     "sol": "<p>Speed just before impact = √(2gh) = √(2 × 10 × 10) = 14.1 m/s; it rebounds to the same height, so it leaves with 14.1 m/s upwards.</p><p>Impulse = m(v + v) = 0.15 × 2 × 14.1 ≈ <b>4.2 kg m/s</b>.</p>",
+     "hint": "Velocity reverses, so Δp = 2mv."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "0.15 kg द्रव्यमान की एक गेंद 10 m की ऊँचाई से गिराई जाती है, धरती से टकराती है और उसी ऊँचाई तक वापस उछलती है। गेंद को दिए गए आवेग का परिमाण लगभग है (g = 10 m/s<sup>2</sup>) :",
+     "o": [
+      "1.4 kg m/s",
+      "0 kg m/s",
+      "4.2 kg m/s",
+      "2.1 kg m/s"
+     ],
+     "sol": "<p>टक्कर से ठीक पहले चाल = √(2gh) = √(2 × 10 × 10) = 14.1 m/s; यह उसी ऊँचाई तक उछलती है, अतः 14.1 m/s से ऊपर की ओर लौटती है।</p><p>आवेग = m(v + v) = 0.15 × 2 × 14.1 ≈ <b>4.2 kg m/s</b>।</p>",
+     "hint": "वेग की दिशा उलट जाती है, अतः Δp = 2mv।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q46",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2021 Code P3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf); text from the Aakash Code P3 copy (neet-sources/neet-papers/2021/question-paper-with-answers-code-P3.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2022-code-t2-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A shell of mass m is at rest initially. It explodes into three fragments having mass in the ratio 2 : 2 : 1. If the fragments having equal mass fly off along mutually perpendicular directions with speed v, the speed of the third (lighter) fragment is :",
+     "o": [
+      "√2 v",
+      "2√2 v",
+      "3√2 v",
+      "v"
+     ],
+     "sol": "<p>Masses: 2m/5, 2m/5 and m/5. The two equal fragments have momenta (2m/5)v at right angles, with resultant (2m/5)v√2.</p><p>Total momentum is zero, so the third fragment carries the same magnitude: (m/5)v′ = (2√2 m/5)v ⇒ v′ = <b>2√2 v</b>.</p>",
+     "hint": "Add the two perpendicular momenta; the third fragment cancels their resultant."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "m द्रव्यमान का एक गोला प्रारंभ में विराम में है। यह 2 : 2 : 1 के द्रव्यमान अनुपात वाले तीन खंडों में फट जाता है। यदि समान द्रव्यमान वाले खंड परस्पर लंबवत दिशाओं में v चाल से उड़ते हैं, तो तीसरे (हलके) खंड की चाल है :",
+     "o": [
+      "√2 v",
+      "2√2 v",
+      "3√2 v",
+      "v"
+     ],
+     "sol": "<p>द्रव्यमान : 2m/5, 2m/5 और m/5। दोनों समान खंडों के संवेग (2m/5)v लंबवत हैं, जिनका परिणामी (2m/5)v√2 है।</p><p>कुल संवेग शून्य है, अतः तीसरे खंड का संवेग उतना ही है : (m/5)v′ = (2√2 m/5)v ⇒ v′ = <b>2√2 v</b>।</p>",
+     "hint": "दोनों लंबवत संवेगों को जोड़िए; तीसरा खंड उनके परिणामी को निरस्त करता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q8",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/physics-with-solutions.pdf; read from page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-04-neet-2023-topic-wise-copy-q37",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Calculate the maximum acceleration of a moving car so that a body lying on the floor of the car remains stationary. The coefficient of static friction between the body and the floor is 0.15 (g = 10 m s<sup>−2</sup>).",
+     "o": [
+      "50 m s<sup>−2</sup>",
+      "1.2 m s<sup>−2</sup>",
+      "150 m s<sup>−2</sup>",
+      "1.5 m s<sup>−2</sup>"
+     ],
+     "sol": "<p>Static friction is the only horizontal force on the body, so it must supply ma ≤ μ<sub>s</sub>mg. Maximum a = μ<sub>s</sub>g = 0.15 × 10 = <b>1.5 m s<sup>−2</sup></b>.</p>",
+     "hint": "a<sub>max</sub> = μ<sub>s</sub>g, independent of mass."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "चलती हुई कार की उस अधिकतम त्वरण की गणना कीजिए जिससे कार के फर्श पर रखा एक पिंड स्थिर बना रहे। पिंड और फर्श के बीच स्थैतिक घर्षण गुणांक 0.15 है (g = 10 m s<sup>−2</sup>)।",
+     "o": [
+      "50 m s<sup>−2</sup>",
+      "1.2 m s<sup>−2</sup>",
+      "150 m s<sup>−2</sup>",
+      "1.5 m s<sup>−2</sup>"
+     ],
+     "sol": "<p>पिंड पर एकमात्र क्षैतिज बल स्थैतिक घर्षण है, अतः इसे ma ≤ μ<sub>s</sub>mg प्रदान करना है। अधिकतम a = μ<sub>s</sub>g = 0.15 × 10 = <b>1.5 m s<sup>−2</sup></b>।</p>",
+     "hint": "a<sub>max</sub> = μ<sub>s</sub>g, द्रव्यमान पर निर्भर नहीं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q37",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy11-04-neet-2024-q41-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A horizontal force 10 N is applied to a block A as shown in figure. The mass of blocks A and B are 2 kg and 3 kg respectively. The blocks slide over a frictionless surface. The force exerted by block A on block B is :",
+     "o": [
+      "Zero",
+      "4 N",
+      "6 N",
+      "10 N"
+     ],
+     "sol": "<p>Both blocks move together: a = F/(m<sub>A</sub> + m<sub>B</sub>) = 10/(2 + 3) = 2 m/s<sup>2</sup>.</p><p>This push from A is the only horizontal force on B: F<sub>AB</sub> = m<sub>B</sub>a = 3 × 2 = <b>6 N</b>.</p>",
+     "hint": "Find a for the pair, then apply F = ma to B alone."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "चित्र में दिखाए अनुसार एक गुटके A पर 10 N का एक क्षैतिज बल लगाया जाता है। गुटकों A और B के द्रव्यमान क्रमशः 2 kg और 3 kg हैं। गुटके एक घर्षणरहित पृष्ठ पर फिसलते हैं। गुटके A द्वारा गुटके B पर लगाया गया बल है :",
+     "o": [
+      "शून्य",
+      "4 N",
+      "6 N",
+      "10 N"
+     ],
+     "sol": "<p>दोनों गुटके साथ चलते हैं : a = F/(m<sub>A</sub> + m<sub>B</sub>) = 10/(2 + 3) = 2 m/s<sup>2</sup>।</p><p>B पर एकमात्र क्षैतिज बल A द्वारा लगाया गया बल है : F<sub>AB</sub> = m<sub>B</sub>a = 3 × 2 = <b>6 N</b>।</p>",
+     "hint": "पहले दोनों का a ज्ञात कीजिए, फिर केवल B पर F = ma लगाइए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.11"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q41 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The figure only shows the 10 N force pushing A (2 kg), which pushes B (3 kg)."
+   }
+  },
+  {
+   "id": "phy11-04-neet-2024-q47-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A bob is whirled in a horizontal plane by means of a string with an initial speed of ω rpm. The tension in the string is T. If speed becomes 2ω while keeping the same radius, the tension in the string becomes :",
+     "o": [
+      "T",
+      "4T",
+      "T/4",
+      "√2 T"
+     ],
+     "sol": "<p>The tension supplies the centripetal force: T = mω<sup>2</sup>r. With the same radius, doubling ω multiplies T by 2<sup>2</sup>: new tension = <b>4T</b>.</p>",
+     "hint": "T ∝ ω<sup>2</sup> at fixed r."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक डोलक को एक डोरी द्वारा ω rpm की प्रारंभिक चाल से क्षैतिज तल में घुमाया जाता है। डोरी में तनाव T है। यदि त्रिज्या समान रखते हुए चाल 2ω हो जाए, तो डोरी में तनाव हो जाता है :",
+     "o": [
+      "T",
+      "4T",
+      "T/4",
+      "√2 T"
+     ],
+     "sol": "<p>तनाव अभिकेंद्र बल प्रदान करता है : T = mω<sup>2</sup>r। समान त्रिज्या पर ω दोगुना करने से T, 2<sup>2</sup> गुना हो जाता है : नया तनाव = <b>4T</b>।</p>",
+     "hint": "नियत r पर T ∝ ω<sup>2</sup>।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.10"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q47 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy11-04-neet-2025-code-45-q4",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "There are two inclined surfaces of equal length (L) and same angle of inclination 45° with the horizontal. One of them is rough and the other is perfectly smooth. A given body takes 2 times as much time to slide down on rough surface than on the smooth surface. The coefficient of kinetic friction (μ<sub>k</sub>) between the object and the rough surface is close to :",
+     "o": [
+      "0.25",
+      "0.40",
+      "0.5",
+      "0.75"
+     ],
+     "sol": "<p>From rest over the same length L: L = (1/2)at<sup>2</sup> ⇒ t ∝ 1/√a. t<sub>rough</sub> = 2t<sub>smooth</sub> ⇒ a<sub>smooth</sub> = 4a<sub>rough</sub>.</p><p>g sin 45° = 4g(sin 45° − μ<sub>k</sub> cos 45°) ⇒ 1 = 4(1 − μ<sub>k</sub>) ⇒ μ<sub>k</sub> = <b>0.75</b>.</p>",
+     "hint": "Twice the time means one quarter of the acceleration."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "समान लंबाई (L) और क्षैतिज से समान झुकाव कोण 45° वाले दो आनत पृष्ठ हैं। इनमें से एक खुरदरा और दूसरा पूर्णतः चिकना है। कोई पिंड खुरदरे पृष्ठ पर नीचे फिसलने में चिकने पृष्ठ की तुलना में 2 गुना समय लेता है। पिंड और खुरदरे पृष्ठ के बीच गतिज घर्षण गुणांक (μ<sub>k</sub>) लगभग है :",
+     "o": [
+      "0.25",
+      "0.40",
+      "0.5",
+      "0.75"
+     ],
+     "sol": "<p>समान लंबाई L पर विराम से : L = (1/2)at<sup>2</sup> ⇒ t ∝ 1/√a। t<sub>rough</sub> = 2t<sub>smooth</sub> ⇒ a<sub>smooth</sub> = 4a<sub>rough</sub>।</p><p>g sin 45° = 4g(sin 45° − μ<sub>k</sub> cos 45°) ⇒ 1 = 4(1 − μ<sub>k</sub>) ⇒ μ<sub>k</sub> = <b>0.75</b>।</p>",
+     "hint": "दोगुने समय का अर्थ एक-चौथाई त्वरण है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.9.1"
+    ],
+    "otherChapters": [
+     "Class 11 · Motion in a Straight Line"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q4",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 4",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2025-code-45-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A ball of mass 0.5 kg is dropped from a height of 40 m. The ball hits the ground and rises to a height of 10 m. The impulse imparted to the ball during its collision with the ground is (Take g = 9.8 m/s<sup>2</sup>) :",
+     "o": [
+      "21 N s",
+      "7 N s",
+      "0",
+      "84 N s"
+     ],
+     "sol": "<p>Just before impact: v<sub>1</sub> = √(2gh<sub>1</sub>) = √(2 × 9.8 × 40) = 28 m/s (down). Just after: v<sub>2</sub> = √(2 × 9.8 × 10) = 14 m/s (up).</p><p>Impulse = m(v<sub>2</sub> + v<sub>1</sub>) = 0.5 × (14 + 28) = <b>21 N s</b>.</p>",
+     "hint": "The velocity reverses: add the two speeds."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "0.5 kg द्रव्यमान की एक गेंद 40 m की ऊँचाई से गिराई जाती है। गेंद धरती से टकराकर 10 m की ऊँचाई तक उठती है। धरती से टक्कर के दौरान गेंद को दिया गया आवेग है (g = 9.8 m/s<sup>2</sup> लीजिए) :",
+     "o": [
+      "21 N s",
+      "7 N s",
+      "0",
+      "84 N s"
+     ],
+     "sol": "<p>टक्कर से ठीक पहले : v<sub>1</sub> = √(2gh<sub>1</sub>) = √(2 × 9.8 × 40) = 28 m/s (नीचे)। ठीक बाद : v<sub>2</sub> = √(2 × 9.8 × 10) = 14 m/s (ऊपर)।</p><p>आवेग = m(v<sub>2</sub> + v<sub>1</sub>) = 0.5 × (14 + 28) = <b>21 N s</b>।</p>",
+     "hint": "वेग की दिशा उलटती है : दोनों चालें जोड़िए।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q10",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2025 Code 45: 1",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf); text from the Aakash Code 45 answers-and-solutions scan (neet-sources/neet-papers/2025/full-paper-with-solutions.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2026-code-13-q31",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A box of mass 15 kg is kept on the floor of a stationary trolley. The coefficient of static friction between the box and the trolley is 0.12. Keeping the box in stationary state over the trolley, the maximum acceleration with which the trolley can be moved horizontally in m s<sup>−2</sup> is : (g = 10 m/s<sup>2</sup>)",
+     "o": [
+      "1.8",
+      "1.2",
+      "1.5",
+      "2.1"
+     ],
+     "sol": "<p>Static friction must give the box the trolley's acceleration: ma ≤ μ<sub>s</sub>mg ⇒ a<sub>max</sub> = μ<sub>s</sub>g = 0.12 × 10 = <b>1.2 m s<sup>−2</sup></b>. (The mass 15 kg cancels.)</p>",
+     "hint": "a<sub>max</sub> = μ<sub>s</sub>g."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "15 kg द्रव्यमान का एक बक्सा एक स्थिर ट्रॉली के फर्श पर रखा है। बक्से और ट्रॉली के बीच स्थैतिक घर्षण गुणांक 0.12 है। बक्से को ट्रॉली पर स्थिर अवस्था में रखते हुए, ट्रॉली को क्षैतिज दिशा में जिस अधिकतम त्वरण से चलाया जा सकता है वह m s<sup>−2</sup> में है : (g = 10 m/s<sup>2</sup>)",
+     "o": [
+      "1.8",
+      "1.2",
+      "1.5",
+      "2.1"
+     ],
+     "sol": "<p>स्थैतिक घर्षण को बक्से को ट्रॉली का त्वरण देना है : ma ≤ μ<sub>s</sub>mg ⇒ a<sub>max</sub> = μ<sub>s</sub>g = 0.12 × 10 = <b>1.2 m s<sup>−2</sup></b>। (द्रव्यमान 15 kg कट जाता है।)</p>",
+     "hint": "a<sub>max</sub> = μ<sub>s</sub>g।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.9.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q31",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 2",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy11-04-neet-2026-code-13-q35",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The magnitude and direction of the acceleration produced in a body of mass 5 kg when two mutually perpendicular forces 8 N and 6 N act on it, are respectively :",
+     "o": [
+      "2 m s<sup>−2</sup>; tan<sup>−1</sup>(3/4) with 8 N force",
+      "2 m s<sup>−2</sup>; tan<sup>−1</sup>(4/3) with 8 N force",
+      "2 m s<sup>−2</sup>; tan<sup>−1</sup>(3/4) with 6 N force",
+      "20 m s<sup>−2</sup>; tan<sup>−1</sup>(4/3) with 8 N force"
+     ],
+     "sol": "<p>Resultant force = √(8<sup>2</sup> + 6<sup>2</sup>) = 10 N, so a = 10/5 = 2 m s<sup>−2</sup>, along the resultant.</p><p>Angle with the 8 N force: tan φ = 6/8 = 3/4. Answer: <b>2 m s<sup>−2</sup>; tan<sup>−1</sup>(3/4) with 8 N force</b>.</p>",
+     "hint": "Acceleration is along the resultant force."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "5 kg द्रव्यमान के एक पिंड पर दो परस्पर लंबवत बल 8 N और 6 N कार्य करते हैं। पिंड में उत्पन्न त्वरण का परिमाण और दिशा क्रमशः हैं :",
+     "o": [
+      "2 m s<sup>−2</sup>; 8 N बल से tan<sup>−1</sup>(3/4)",
+      "2 m s<sup>−2</sup>; 8 N बल से tan<sup>−1</sup>(4/3)",
+      "2 m s<sup>−2</sup>; 6 N बल से tan<sup>−1</sup>(3/4)",
+      "20 m s<sup>−2</sup>; 8 N बल से tan<sup>−1</sup>(4/3)"
+     ],
+     "sol": "<p>परिणामी बल = √(8<sup>2</sup> + 6<sup>2</sup>) = 10 N, अतः a = 10/5 = 2 m s<sup>−2</sup>, परिणामी के अनुदिश।</p><p>8 N बल से कोण : tan φ = 6/8 = 3/4। उत्तर : <b>2 m s<sup>−2</sup>; 8 N बल से tan<sup>−1</sup>(3/4)</b>।</p>",
+     "hint": "त्वरण परिणामी बल के अनुदिश होता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy11-04",
+    "paras": [
+     "4.5"
+    ],
+    "otherChapters": [
+     "Class 11 · Motion in a Plane"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Code 13 Q35",
+    "session": "3 May 2026 · Code 13"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer key Code 13, NEET 2026: 1",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13 (content/keys/neet-official-keys.json); text from the Code 13 question booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf; read from page images)"
+   }
+  }
+ ]
+}

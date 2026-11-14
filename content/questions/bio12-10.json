@@ -1,0 +1,1459 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio12-10",
+ "subject": "biology",
+ "class": 12,
+ "unit": 10,
+ "title": {
+  "en": "Biotechnology and its Applications"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/lebo110.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "10.1",
+   "title": "Biotechnological Applications in Agriculture",
+   "hi": "कृषि में जैव प्रौद्योगिकी का उपयोग",
+   "pdfPage": 1
+  },
+  {
+   "id": "10.2",
+   "title": "Biotechnological Applications in Medicine",
+   "hi": "चिकित्सा में जैव प्रोद्यौगिकी का उपयोग",
+   "pdfPage": 5
+  },
+  {
+   "id": "10.2.1",
+   "title": "Genetically Engineered Insulin",
+   "hi": "आनुवंशिकतः निर्मित इंसुलीन",
+   "pdfPage": 5
+  },
+  {
+   "id": "10.2.2",
+   "title": "Gene Therapy",
+   "hi": "जीन चिकित्सा",
+   "pdfPage": 6
+  },
+  {
+   "id": "10.2.3",
+   "title": "Molecular Diagnosis",
+   "hi": "आणविक निदान",
+   "pdfPage": 6
+  },
+  {
+   "id": "10.3",
+   "title": "Transgenic Animals",
+   "hi": "पारजीवी जंतु (ट्रांसजेनिक एनिमल्स)",
+   "pdfPage": 7
+  },
+  {
+   "id": "10.4",
+   "title": "Ethical Issues",
+   "hi": "नैतिक मुद्दे",
+   "pdfPage": 8
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio12-10-neet-2015-re-exam-code-d-q41",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Golden rice is a genetically modified crop plant where the incorporated gene is meant for biosynthesis of :",
+     "o": [
+      "Vitamin C",
+      "Omega 3",
+      "Vitamin A",
+      "Vitamin B"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q41",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2016-phase-1-code-a-q92",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The two polypeptides of human insulin are linked together by:",
+     "o": [
+      "Hydrogen bonds",
+      "Phosphodiester bond",
+      "Covalent bond",
+      "Disulphide bridges"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q92",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2016-phase-1-code-a-q134",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which part of the tobacco plant is infected by Meloidogyne incognita?",
+     "o": [
+      "Flower",
+      "Leaf",
+      "Stem",
+      "Root"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q134",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2016-phase-2-code-aa-q129",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which kind of therapy was given in 1990 to a four-year-old girl with adenosine deaminase (ADA) deficiency?",
+     "o": [
+      "Gene therapy",
+      "Chemotherapy",
+      "Immunotherapy",
+      "Radiation therapy"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q129",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2018-code-aa-q99",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Use of bioresources by multinational companies and organisations without authorisation from the concerned country and its people is called :",
+     "o": [
+      "Biodegradation",
+      "Biopiracy",
+      "Bio-infringement",
+      "Bioexploitation"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q99",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2018-code-aa-q100",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In India, the organisation responsible for assessing the safety of introducing genetically modified organisms for public use is :",
+     "o": [
+      "Research Committee on Genetic Manipulation (RCGM)",
+      "Council for Scientific and Industrial Research (CSIR)",
+      "Indian Council of Medical Research (ICMR)",
+      "Genetic Engineering Appraisal Committee (GEAC)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q100",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2018-code-aa-q103",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A 'new' variety of rice was patented by a foreign company, though such varieties have been present in India for a long time. This is related to :",
+     "o": [
+      "Lerma Rojo",
+      "Sharbati Sonora",
+      "Co-667",
+      "Basmati"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q103",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2019-code-s2-q36",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is true for golden rice?",
+     "o": [
+      "It is drought tolerant, developed using Agrobacterium vector.",
+      "It has yellow grains, because of a gene introduced from a primitive variety of rice.",
+      "It is vitamin A enriched, with a gene from daffodil.",
+      "It is pest resistant, with a gene from Bacillus thuringiensis."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q36",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)",
+    "note": "NCERT names golden rice as vitamin A enriched; the daffodil gene is beyond NCERT. The copy prints (2). The copy prints (2)."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2019-code-s2-q59",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What triggers activation of protoxin to active Bt toxin of Bacillus thuringiensis in boll worm?",
+     "o": [
+      "Alkaline pH of gut",
+      "Acidic pH of stomach",
+      "Body temperature",
+      "Moist surface of midgut"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q59",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2020-code-f3-q93",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following columns and select the correct option :<br>(a) Bt cotton — (i) Gene therapy<br>(b) Adenosine deaminase deficiency — (ii) Cellular defence<br>(c) RNAi — (iii) Detection of HIV infection<br>(d) PCR — (iv) Bacillus thuringiensis",
+     "o": [
+      "(a) ii, (b) iii, (c) iv, (d) i",
+      "(a) i, (b) ii, (c) iii, (d) iv",
+      "(a) iv, (b) i, (c) ii, (d) iii",
+      "(a) iii, (b) ii, (c) i, (d) iv"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1",
+     "10.2.2",
+     "10.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q93",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2020-code-f3-q129",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is not correct?",
+     "o": [
+      "The functional insulin has A and B chains linked together by hydrogen bonds.",
+      "Genetically engineered insulin is produced in E. coli.",
+      "In man insulin is synthesised as a proinsulin.",
+      "The proinsulin has an extra peptide called C-peptide."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q129",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2020-code-f3-q163",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Bt cotton variety that was developed by the introduction of toxin gene of Bacillus thuringiensis (Bt) is resistant to :",
+     "o": [
+      "Plant nematodes",
+      "Insect predators",
+      "Insect pests",
+      "Fungal diseases"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q163",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2021-code-p3-q116",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When gene targeting involving gene amplification is attempted in an individual's tissue to treat disease, it is known as :",
+     "o": [
+      "Safety testing",
+      "Biopiracy",
+      "Gene therapy",
+      "Molecular diagnosis"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q116",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2021-code-p3-q150",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Nowadays it is possible to detect the mutated gene causing cancer by allowing radioactive probe to hybridise its complementary DNA in a clone of cells, followed by its detection using autoradiography because :",
+     "o": [
+      "mutated gene does not appear on photographic film as the probe has complementarity with it",
+      "mutated gene partially appears on a photographic film",
+      "mutated gene completely and clearly appears on a photographic film",
+      "mutated gene does not appear on a photographic film as the probe has no complementarity with it"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q150",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2021-code-p3-q168",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For effective treatment of the disease, early diagnosis and understanding its pathophysiology is very important. Which of the following molecular diagnostic techniques is very useful for early detection?",
+     "o": [
+      "Hybridization Technique",
+      "Western Blotting Technique",
+      "Southern Blotting Technique",
+      "ELISA Technique"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q168",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "The copy prints '3/4*'; NCERT names ELISA (with rDNA technology and PCR) for early diagnosis."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2021-code-p3-q169",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "With regard to insulin choose correct options :<br>(a) C-peptide is not present in mature insulin.<br>(b) The insulin produced by rDNA technology has C-peptide.<br>(c) The pro-insulin has C-peptide.<br>(d) A-peptide and B-peptide of insulin are interconnected by disulphide bridges.",
+     "o": [
+      "(a) and (d) only",
+      "(b) and (d) only",
+      "(b) and (c) only",
+      "(a), (c) and (d) only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q169",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2021-code-p3-q183",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following RNAs is not required for the synthesis of protein?",
+     "o": [
+      "siRNA",
+      "mRNA",
+      "tRNA",
+      "rRNA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ],
+    "otherChapters": [
+     "Class 12 · Molecular Basis of Inheritance"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q183",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2021-code-p3-q193",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The Adenosine deaminase deficiency results into :",
+     "o": [
+      "Addison's disease",
+      "Dysfunction of Immune system",
+      "Parkinson's disease",
+      "Digestive disorder"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q193",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2022-code-t2-q140",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Transposons can be used during which one of the following ?",
+     "o": [
+      "Gene silencing",
+      "Autoradiography",
+      "Gene sequencing",
+      "Polymerase Chain Reaction"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q140",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2022-code-t2-q184",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In gene therapy of Adenosine Deaminase (ADA) deficiency, the patient requires periodic infusion of genetically engineered lymphocytes because :",
+     "o": [
+      "Gene isolated from marrow cells producing ADA is introduced into cells at embryonic stages",
+      "Lymphocytes from patient's blood are grown in culture, outside the body.",
+      "Genetically engineered lymphocytes are not immortal cells.",
+      "Retroviral vector is introduced into these lymphocytes."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q184",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2022-code-t2-q194",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Statements related to human insulin are given below. Which statement(s) is/are correct about genetically engineered insulin?<br>(a) Pro-hormone insulin contains extra stretch of C-peptide.<br>(b) A-peptide and B-peptide chains of insulin were produced separately in E. coli, extracted and combined by creating disulphide bond between them.<br>(c) Insulin used for treating diabetes was extracted from cattles and pigs.<br>(d) Pro-hormone insulin needs to be processed for converting into a mature and functional hormone.<br>(e) Some patients develop allergic reactions to the foreign insulin.<br>Choose the most appropriate answer from the options given below :",
+     "o": [
+      "(b) only",
+      "(c) and (d) only",
+      "(c), (d) and (e) only",
+      "(a), (b) and (d) only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q194",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2023-topic-wise-copy-q82",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following techniques does not serve the purpose of early diagnosis of a disease for its early treatment?",
+     "o": [
+      "Enzyme Linked Immuno-Sorbent Assay (ELISA) technique",
+      "Recombinant DNA Technology",
+      "Serum and Urine analysis",
+      "Polymerase Chain Reaction (PCR) technique"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q82",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2024-q168-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Bt toxins are insect group specific and coded by a gene cry IAc.<br>Statement II: Bt toxin exists as inactive protoxin in B. thuringiensis. However, after ingestion by the insect the inactive protoxin gets converted into active form due to acidic pH of the insect gut.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are true",
+      "Both Statement I and Statement II are false",
+      "Statement I is true but Statement II is false",
+      "Statement I is false but Statement II is true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q168 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2024-q184-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. α-1 antitrypsin — I. Cotton bollworm<br>B. Cry IAb — II. ADA deficiency<br>C. Cry IAc — III. Emphysema<br>D. Enzyme replacement therapy — IV. Corn borer",
+     "o": [
+      "A-III, B-I, C-II, D-IV",
+      "A-III, B-IV, C-I, D-II",
+      "A-II, B-IV, C-I, D-III",
+      "A-II, B-I, C-IV, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1",
+     "10.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q184 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options clipped at the right edge in the eSaral copy; completed from the other options (each is a permutation). α-1 antitrypsin for emphysema is in NCERT 12 Ch 10 (transgenic animals)."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2025-code-45-q114",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Transfer RNAs and ribosomal RNA do not interact with mRNA.<br>Statement II: RNA interference (RNAi) takes place in all eukaryotic organisms as a method of cellular defence.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Both statement I and statement II are correct",
+      "Both statement I and statement II are incorrect",
+      "Statement I is correct but statement II is incorrect",
+      "Statement I is incorrect but statement II is correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ],
+    "otherChapters": [
+     "Class 12 · Molecular Basis of Inheritance"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q114",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 4)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "The copy prints (3); statement I is false (tRNA and rRNA do interact with mRNA in translation). The copy prints (3)."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2025-code-45-q116",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following genetically engineered organ isms was used by Eli Lilly to prepare human insulin?",
+     "o": [
+      "Bacterium",
+      "Yeast",
+      "Virus",
+      "Phage"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q116",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2025-code-45-q144",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Silencing of specific mRNA is possible via RNAi because of :",
+     "o": [
+      "Complementary dsRNA",
+      "Inhibitory ssRNA",
+      "Complementary tRNA",
+      "Non-complementary ssRNA"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q144",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2025-code-45-q161",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Why can't insulin be given orally to diabetic patients?",
+     "o": [
+      "Human body will elicit strong immune response",
+      "It will be digested in Gastro-Intestinal (GI) tract",
+      "Because of structural variation",
+      "Its bioavailability will be increased"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q161",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 2)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio12-10-neet-2026-q160-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The human protein named α-1-antitrypsin, obtained from transgenic animals, is used for the treatment of ___.",
+     "o": [
+      "Alzheimer's disease",
+      "Rheumatoid arthritis",
+      "Emphysema",
+      "Cystic fibrosis"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q160 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q161."
+   }
+  },
+  {
+   "id": "bio12-10-neet-2026-q175-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The toxin proteins isolated from Bacillus thuringiensis, coded by which of the following genes would control cotton bollworms and corn borer, respectively?",
+     "o": [
+      "cryIAc and cryIIAb",
+      "cryIAc and cryIIIAb",
+      "cryIAc and cryIAb",
+      "cryIIAb and cryIAc"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q175 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 3)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q155."
+   }
+  }
+ ]
+}

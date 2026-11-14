@@ -1,0 +1,672 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "phy12-05",
+ "subject": "physics",
+ "class": 12,
+ "unit": 5,
+ "title": {
+  "en": "Magnetism and Matter"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/leph105.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "5.1",
+   "title": "Introduction",
+   "hi": "भूमिका",
+   "pdfPage": 1
+  },
+  {
+   "id": "5.2",
+   "title": "The Bar Magnet",
+   "hi": "छड़ चुंबक",
+   "pdfPage": 2
+  },
+  {
+   "id": "5.2.1",
+   "title": "The Magnetic Field Lines",
+   "hi": "चुंबकीय क्षेत्र रेखाएँ",
+   "pdfPage": 2
+  },
+  {
+   "id": "5.2.2",
+   "title": "Bar Magnet as an Equivalent Solenoid",
+   "hi": "छड़ चुंबक का एक धारावाही परिनालिका की तरह व्यवहार",
+   "pdfPage": 3
+  },
+  {
+   "id": "5.2.3",
+   "title": "The Dipole in a Uniform Magnetic Field",
+   "hi": "एकसमान चुंबकीय क्षेत्र में द्विध्रुव",
+   "pdfPage": 4
+  },
+  {
+   "id": "5.2.4",
+   "title": "The Electrostatic Analog",
+   "hi": "स्थिरवैद्युत अनुरूप",
+   "pdfPage": 5
+  },
+  {
+   "id": "5.3",
+   "title": "Magnetism and Gauss's Law",
+   "hi": "चुंबकत्व एवं गाउस नियम",
+   "pdfPage": 7
+  },
+  {
+   "id": "5.4",
+   "title": "Magnetisation and Magnetic Intensity",
+   "hi": "चुंबकीकरण एवं चुंबकीय तीव्रता",
+   "pdfPage": 10
+  },
+  {
+   "id": "5.5",
+   "title": "Magnetic Properties of Materials",
+   "hi": "पदार्थों के चुंबकीय गुण",
+   "pdfPage": 12
+  },
+  {
+   "id": "5.5.1",
+   "title": "Diamagnetism",
+   "hi": "प्रतिचुंबकत्व",
+   "pdfPage": 12
+  },
+  {
+   "id": "5.5.2",
+   "title": "Paramagnetism",
+   "hi": "अनुचुंबकत्व",
+   "pdfPage": 13
+  },
+  {
+   "id": "5.5.3",
+   "title": "Ferromagnetism",
+   "hi": "लौह चुंबकत्व",
+   "pdfPage": 14
+  }
+ ],
+ "questions": [
+  {
+   "id": "phy12-05-neet-2016-phase-1-code-a-q3",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The magnetic susceptibility is negative for:",
+     "o": [
+      "diamagnetic material only",
+      "paramagnetic material only",
+      "ferromagnetic material only",
+      "paramagnetic and ferromagnetic materials"
+     ],
+     "sol": "<p>Diamagnetic materials are magnetised opposite to the applied field, so their susceptibility is small and negative (−1 ≤ χ &lt; 0). Paramagnetic (small positive χ) and ferromagnetic (large positive χ) materials are magnetised along the field. Answer: <b>diamagnetic material only</b>.</p>",
+     "hint": "Diamagnets are repelled by a magnet."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "चुंबकीय प्रवृत्ति ऋणात्मक होती है :",
+     "o": [
+      "केवल प्रतिचुंबकीय पदार्थ के लिए",
+      "केवल अनुचुंबकीय पदार्थ के लिए",
+      "केवल लौह चुंबकीय पदार्थ के लिए",
+      "अनुचुंबकीय और लौह चुंबकीय पदार्थों के लिए"
+     ],
+     "sol": "<p>प्रतिचुंबकीय पदार्थ लगाए गए क्षेत्र के विपरीत चुंबकित होते हैं, अतः उनकी चुंबकीय प्रवृत्ति छोटी और ऋणात्मक है (−1 ≤ χ &lt; 0)। अनुचुंबकीय (छोटी धनात्मक χ) और लौह चुंबकीय (बड़ी धनात्मक χ) पदार्थ क्षेत्र की दिशा में चुंबकित होते हैं। उत्तर : <b>केवल प्रतिचुंबकीय पदार्थ</b>।</p>",
+     "hint": "प्रतिचुंबक चुंबक द्वारा प्रतिकर्षित होते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.5.1",
+     "5.5.2",
+     "5.5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q3",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 1 Code A: 1",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Code A (content/keys/neet-official-keys.json); text from the Aakash Phase 1 solutions, Codes A/P/W (neet-sources/neet-papers/2016/phase-1-solutions-code-A-P-W.pdf; formulas checked against page images)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2016-phase-2-code-aa-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A bar magnet is hung by a thin cotton thread in a uniform horizontal magnetic field and is in equilibrium state. The energy required to rotate it by 60° is W. Now the torque required to keep the magnet in this new position is :",
+     "o": [
+      "W/√3",
+      "√3 W",
+      "√3 W/2",
+      "2W/√3"
+     ],
+     "sol": "<p>From equilibrium (θ = 0) to 60°: W = mB(cos 0° − cos 60°) = mB/2 ⇒ mB = 2W.</p><p>Torque at 60°: τ = mB sin 60° = 2W × (√3/2) = <b>√3 W</b>.</p>",
+     "hint": "W = mB(1 − cos θ), τ = mB sin θ."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक छड़ चुंबक (bar magnet) एक पतले सूती धागे द्वारा एकसमान क्षैतिज चुंबकीय क्षेत्र में लटका है और संतुलन अवस्था में है। इसे 60° घुमाने के लिए आवश्यक ऊर्जा W है। अब चुंबक को इस नई स्थिति में रखने के लिए आवश्यक बल आघूर्ण है :",
+     "o": [
+      "W/√3",
+      "√3 W",
+      "√3 W/2",
+      "2W/√3"
+     ],
+     "sol": "<p>संतुलन (θ = 0) से 60° तक : W = mB(cos 0° − cos 60°) = mB/2 ⇒ mB = 2W।</p><p>60° पर बल आघूर्ण : τ = mB sin 60° = 2W × (√3/2) = <b>√3 W</b>।</p>",
+     "hint": "W = mB(1 − cos θ), τ = mB sin θ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q28",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2016 Phase 2 Code AA: 2",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (content/keys/neet-official-keys.json); text from the Phase 2 questions-with-solutions copy, Codes AA/PP/WW (neet-sources/neet-papers/2016/phase-2-solutions-code-AA-PP-WW.pdf; read from page images, the text layer drops symbols)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2017-code-a-q28",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "If θ<sub>1</sub> and θ<sub>2</sub> be the apparent angles of dip observed in two vertical planes at right angles to each other, then the true angle of dip θ is given by :",
+     "o": [
+      "cot<sup>2</sup>θ = cot<sup>2</sup>θ<sub>1</sub> + cot<sup>2</sup>θ<sub>2</sub>",
+      "tan<sup>2</sup>θ = tan<sup>2</sup>θ<sub>1</sub> + tan<sup>2</sup>θ<sub>2</sub>",
+      "cot<sup>2</sup>θ = cot<sup>2</sup>θ<sub>1</sub> − cot<sup>2</sup>θ<sub>2</sub>",
+      "tan<sup>2</sup>θ = tan<sup>2</sup>θ<sub>1</sub> − tan<sup>2</sup>θ<sub>2</sub>"
+     ],
+     "sol": "<p>Let the true dip be θ: tan θ = Z/H. In a vertical plane at angle α to the meridian the horizontal component is H cos α, so tan θ<sub>1</sub> = Z/(H cos α); in the perpendicular plane tan θ<sub>2</sub> = Z/(H sin α).</p><p>cot<sup>2</sup>θ<sub>1</sub> + cot<sup>2</sup>θ<sub>2</sub> = (H<sup>2</sup>/Z<sup>2</sup>)(cos<sup>2</sup>α + sin<sup>2</sup>α) = cot<sup>2</sup>θ ⇒ <b>cot<sup>2</sup>θ = cot<sup>2</sup>θ<sub>1</sub> + cot<sup>2</sup>θ<sub>2</sub></b>.</p>",
+     "hint": "Only the horizontal component changes with the plane."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "यदि परस्पर लंबवत दो ऊर्ध्वाधर तलों में प्रेक्षित आभासी नमन कोण θ<sub>1</sub> और θ<sub>2</sub> हैं, तो वास्तविक नमन कोण θ दिया जाता है :",
+     "o": [
+      "cot<sup>2</sup>θ = cot<sup>2</sup>θ<sub>1</sub> + cot<sup>2</sup>θ<sub>2</sub>",
+      "tan<sup>2</sup>θ = tan<sup>2</sup>θ<sub>1</sub> + tan<sup>2</sup>θ<sub>2</sub>",
+      "cot<sup>2</sup>θ = cot<sup>2</sup>θ<sub>1</sub> − cot<sup>2</sup>θ<sub>2</sub>",
+      "tan<sup>2</sup>θ = tan<sup>2</sup>θ<sub>1</sub> − tan<sup>2</sup>θ<sub>2</sub>"
+     ],
+     "sol": "<p>माना वास्तविक नमन θ है : tan θ = Z/H । चुंबकीय याम्योत्तर (magnetic meridian) से α कोण पर ऊर्ध्वाधर तल में क्षैतिज घटक H cos α है, अतः tan θ<sub>1</sub> = Z/(H cos α); लंबवत तल में tan θ<sub>2</sub> = Z/(H sin α)।</p><p>cot<sup>2</sup>θ<sub>1</sub> + cot<sup>2</sup>θ<sub>2</sub> = (H<sup>2</sup>/Z<sup>2</sup>)(cos<sup>2</sup>α + sin<sup>2</sup>α) = cot<sup>2</sup>θ ⇒ <b>cot<sup>2</sup>θ = cot<sup>2</sup>θ<sub>1</sub> + cot<sup>2</sup>θ<sub>2</sub></b>।</p>",
+     "hint": "तल बदलने पर केवल क्षैतिज घटक बदलता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 5 · Earth's magnetism (apparent dip)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q28",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2017 Code A: 1",
+    "keySource": "Published answer key, NEET 2017 Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf); text from the Aakash Code A solutions (neet-sources/neet-papers/2017/solutions-code-A.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2018-code-aa-q27",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from :",
+     "o": [
+      "the lattice structure of the material of the rod",
+      "the magnetic field",
+      "the current source",
+      "the induced electric field due to the changing magnetic field"
+     ],
+     "sol": "<p>As the rod is pushed out, the magnetic flux through the electromagnet's circuit changes and induces an emf opposing the current. To keep the current constant, the <b>current source</b> must do extra work against this emf; that energy appears as the rod's potential energy. (A static magnetic field does no work by itself.)</p>",
+     "hint": "Energy is supplied by whatever keeps the current steady."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "एक पतली प्रतिचुंबकीय छड़ एक विद्युत चुंबक के ध्रुवों के बीच ऊर्ध्वाधर रखी है। जब विद्युत चुंबक में धारा चालू की जाती है, तो प्रतिचुंबकीय छड़ क्षैतिज चुंबकीय क्षेत्र से बाहर ऊपर की ओर धकेली जाती है। इस प्रकार छड़ गुरुत्वीय स्थितिज ऊर्जा प्राप्त करती है। इसके लिए आवश्यक कार्य कहाँ से आता है?",
+     "o": [
+      "छड़ के पदार्थ की जालक संरचना से",
+      "चुंबकीय क्षेत्र से",
+      "धारा स्रोत से",
+      "परिवर्ती चुंबकीय क्षेत्र के कारण प्रेरित विद्युत क्षेत्र से"
+     ],
+     "sol": "<p>छड़ के बाहर धकेले जाने पर विद्युत चुंबक के परिपथ से चुंबकीय फलक्स बदलता है और धारा का विरोध करने वाला विद्युत वाहक बल प्रेरित होता है। धारा नियत रखने के लिए <b>धारा स्रोत</b> को इस विद्युत वाहक बल के विरुद्ध अतिरिक्त कार्य करना पड़ता है; वही ऊर्जा छड़ की स्थितिज ऊर्जा के रूप में प्रकट होती है। (स्थैतिक चुंबकीय क्षेत्र स्वयं कोई कार्य नहीं करता।)</p>",
+     "hint": "ऊर्जा वही देता है जो धारा को स्थिर रखता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q27",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official CBSE key, NEET 2018 Code AA: 3",
+    "keySource": "Published answer key, NEET 2018 Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf); text from the scanned official bilingual Code AA booklet (neet-sources/neet-papers/2018/question-paper-code-AA.pdf; read from page images)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2019-code-s2-q99",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At a point A on the earth's surface the angle of dip, δ = +25°. At a point B on the earth's surface the angle of dip, δ = −25°. We can interpret that :",
+     "o": [
+      "A is located in the northern hemisphere and B is located in the southern hemisphere",
+      "A and B are both located in the southern hemisphere",
+      "A and B are both located in the northern hemisphere",
+      "A is located in the southern hemisphere and B is located in the northern hemisphere"
+     ],
+     "sol": "<p>In the northern hemisphere the north end of a dip needle points downward (dip taken positive); in the southern hemisphere it points upward (negative dip). So A (+25°) is in the <b>northern</b> and B (−25°) in the <b>southern</b> hemisphere.</p>",
+     "hint": "Positive dip: needle's north end dips below the horizontal."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "पृथ्वी के पृष्ठ पर बिंदु A पर नमन कोण δ = +25° है। पृथ्वी के पृष्ठ पर बिंदु B पर नमन कोण δ = −25° है। हम निष्कर्ष निकाल सकते हैं कि :",
+     "o": [
+      "A उत्तरी गोलार्ध में और B दक्षिणी गोलार्ध में स्थित है",
+      "A और B दोनों दक्षिणी गोलार्ध में स्थित हैं",
+      "A और B दोनों उत्तरी गोलार्ध में स्थित हैं",
+      "A दक्षिणी गोलार्ध में और B उत्तरी गोलार्ध में स्थित है"
+     ],
+     "sol": "<p>उत्तरी गोलार्ध में नमन सुई का उत्तरी सिरा नीचे की ओर झुकता है (नमन धनात्मक लिया जाता है); दक्षिणी गोलार्ध में यह ऊपर की ओर होता है (ऋणात्मक नमन)। अतः A (+25°) <b>उत्तरी</b> और B (−25°) <b>दक्षिणी</b> गोलार्ध में है।</p>",
+     "hint": "धनात्मक नमन : सुई का उत्तरी सिरा क्षैतिज से नीचे झुकता है।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [],
+    "oldRef": "Old NCERT 12 Ch 5 · Earth's magnetism (angle of dip)"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q99",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "dropped_2024",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2019 Code S2: 1",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Code S2 (content/keys/neet-official-keys.json); text from the Motion Code S2 solved copy (neet-sources/neet-papers/2019/question-paper-with-solutions-code-S2.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2020-code-f3-q26",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An iron rod of susceptibility 599 is subjected to a magnetising field of 1200 A m<sup>−1</sup>. The permeability of the material of the rod is : (μ<sub>0</sub> = 4π × 10<sup>−7</sup> T m A<sup>−1</sup>)",
+     "o": [
+      "2.4π × 10<sup>−5</sup> T m A<sup>−1</sup>",
+      "2.4π × 10<sup>−7</sup> T m A<sup>−1</sup>",
+      "2.4π × 10<sup>−4</sup> T m A<sup>−1</sup>",
+      "8.0 × 10<sup>−5</sup> T m A<sup>−1</sup>"
+     ],
+     "sol": "<p>μ = μ<sub>0</sub>(1 + χ) = 4π × 10<sup>−7</sup> × (1 + 599) = 4π × 10<sup>−7</sup> × 600 = <b>2.4π × 10<sup>−4</sup> T m A<sup>−1</sup></b>. (The value of H is not needed.)</p>",
+     "hint": "μ<sub>r</sub> = 1 + χ."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "599 चुंबकीय प्रवृत्ति वाली एक लोहे की छड़ पर 1200 A m<sup>−1</sup> का चुंबकीय तीव्रता क्षेत्र लगाया जाता है। छड़ के पदार्थ की चुंबकशीलता है : (μ<sub>0</sub> = 4π × 10<sup>−7</sup> T m A<sup>−1</sup>)",
+     "o": [
+      "2.4π × 10<sup>−5</sup> T m A<sup>−1</sup>",
+      "2.4π × 10<sup>−7</sup> T m A<sup>−1</sup>",
+      "2.4π × 10<sup>−4</sup> T m A<sup>−1</sup>",
+      "8.0 × 10<sup>−5</sup> T m A<sup>−1</sup>"
+     ],
+     "sol": "<p>μ = μ<sub>0</sub>(1 + χ) = 4π × 10<sup>−7</sup> × (1 + 599) = 4π × 10<sup>−7</sup> × 600 = <b>2.4π × 10<sup>−4</sup> T m A<sup>−1</sup></b>। (H के मान की आवश्यकता नहीं।)</p>",
+     "hint": "μ<sub>r</sub> = 1 + χ।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q26",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "NTA final key, NEET 2020 Code F3: 3",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf); text from the Byju's physics copy in F3 order (neet-sources/neet-papers/2020/physics-with-solutions.pdf; formulas read from page images)"
+   }
+  },
+  {
+   "id": "phy12-05-neet-2023-topic-wise-copy-q22",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The net magnetic flux through any closed surface is :",
+     "o": [
+      "Negative",
+      "Zero",
+      "Positive",
+      "Infinity"
+     ],
+     "sol": "<p>Gauss's law for magnetism: there are no isolated magnetic poles, and magnetic field lines are closed loops, so as many enter any closed surface as leave it. Net flux = <b>zero</b>.</p>",
+     "hint": "No magnetic monopoles."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "किसी भी बंद पृष्ठ से नेट चुंबकीय फलक्स है :",
+     "o": [
+      "ऋणात्मक",
+      "शून्य",
+      "धनात्मक",
+      "अनंत"
+     ],
+     "sol": "<p>चुंबकत्व के लिए गाउस का नियम : पृथक चुंबकीय ध्रुव नहीं होते, और चुंबकीय क्षेत्र रेखाएँ बंद पाश होती हैं, अतः किसी भी बंद पृष्ठ में जितनी रेखाएँ प्रवेश करती हैं उतनी ही निकलती हैं। नेट फलक्स = <b>शून्य</b>।</p>",
+     "hint": "चुंबकीय एकल ध्रुव नहीं होते।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q22",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf; read from page images). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "phy12-05-neet-2024-q2-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II.<br>List-I (Material) — List-II (Susceptibility (χ))<br>A. Diamagnetic — I. χ = 0<br>B. Ferromagnetic — II. 0 > χ ≥ −1<br>C. Paramagnetic — III. χ >> 1<br>D. Non-magnetic — IV. 0 < χ < ε (a small positive number)<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A-II, B-III, C-IV, D-I",
+      "A-II, B-I, C-III, D-IV",
+      "A-III, B-II, C-I, D-IV",
+      "A-IV, B-III, C-II, D-I"
+     ],
+     "sol": "<p>Diamagnetic: small negative, 0 > χ ≥ −1 (II). Ferromagnetic: χ ≫ 1 (III). Paramagnetic: small positive, 0 &lt; χ &lt; ε (IV). Non-magnetic: χ = 0 (I).</p><p>Answer: <b>A-II, B-III, C-IV, D-I</b>.</p>",
+     "hint": "Sign and size of χ classify the material."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "सूची-I का सूची-II से मिलान कीजिए।<br>सूची-I (पदार्थ) — सूची-II (चुंबकीय प्रवृत्ति (χ))<br>A. प्रतिचुंबकीय — I. χ = 0<br>B. लौह चुंबकीय — II. 0 > χ ≥ −1<br>C. अनुचुंबकीय — III. χ >> 1<br>D. अचुंबकीय — IV. 0 < χ < ε (एक छोटी धनात्मक संख्या)<br>नीचे दिए गए विकल्पों में से सही उत्तर चुनिए :",
+     "o": [
+      "A-II, B-III, C-IV, D-I",
+      "A-II, B-I, C-III, D-IV",
+      "A-III, B-II, C-I, D-IV",
+      "A-IV, B-III, C-II, D-I"
+     ],
+     "sol": "<p>प्रतिचुंबकीय : छोटी ऋणात्मक, 0 > χ ≥ −1 (II)। लौह चुंबकीय : χ ≫ 1 (III)। अनुचुंबकीय : छोटी धनात्मक, 0 &lt; χ &lt; ε (IV)। अचुंबकीय : χ = 0 (I)।</p><p>उत्तर : <b>A-II, B-III, C-IV, D-I</b>।</p>",
+     "hint": "χ का चिह्न और परिमाण पदार्थ का वर्गीकरण करते हैं।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q2 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-05-neet-2024-q21-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An iron bar of length L has magnetic moment M. It is bent at the middle of its length such that the two arms make an angle 60° with each other. The magnetic moment of this new magnet is :",
+     "o": [
+      "M",
+      "M/2",
+      "2M",
+      "M/√3"
+     ],
+     "sol": "<p>M = m × L (pole strength × distance between the poles). Bending at the middle with 60° between the arms makes an equilateral triangle: the poles are now L/2 apart.</p><p>New moment = m × L/2 = <b>M/2</b>.</p>",
+     "hint": "Magnetic moment = pole strength × straight-line distance between poles."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "L लंबाई की एक लोहे की छड़ (bar) का चुंबकीय आघूर्ण M है। इसे इसकी लंबाई के मध्य से इस प्रकार मोड़ा जाता है कि दोनों भुजाएँ एक-दूसरे से 60° का कोण बनाती हैं। इस नए चुंबक का चुंबकीय आघूर्ण है :",
+     "o": [
+      "M",
+      "M/2",
+      "2M",
+      "M/√3"
+     ],
+     "sol": "<p>M = m × L (ध्रुव प्रबलता × ध्रुवों के बीच की दूरी)। भुजाओं के बीच 60° रखकर मध्य से मोड़ने पर समबाहु त्रिभुज बनता है : अब ध्रुव L/2 दूरी पर हैं।</p><p>नया आघूर्ण = m × L/2 = <b>M/2</b>।</p>",
+     "hint": "चुंबकीय आघूर्ण = ध्रुव प्रबलता × ध्रुवों के बीच की सरल रेखीय दूरी।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.2",
+     "5.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q21 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "phy12-05-neet-2024-q46-esaral-physics-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a uniform magnetic field of 0.049 T, a magnetic needle performs 20 complete oscillations in 5 seconds as shown. The moment of inertia of the needle is 9.8 × 10<sup>−6</sup> kg m<sup>2</sup>. If the magnitude of magnetic moment of the needle is x × 10<sup>−5</sup> A m<sup>2</sup>, then the value of 'x' is :",
+     "o": [
+      "5π<sup>2</sup>",
+      "128π<sup>2</sup>",
+      "50π<sup>2</sup>",
+      "1280π<sup>2</sup>"
+     ],
+     "sol": "<p>Period T = 5/20 = 0.25 s. For small oscillations T = 2π√(I/(mB)) ⇒ m = 4π<sup>2</sup>I/(T<sup>2</sup>B) = 4π<sup>2</sup> × 9.8 × 10<sup>−6</sup>/(0.0625 × 0.049) = 4π<sup>2</sup> × 3.2 × 10<sup>−3</sup> = 1280π<sup>2</sup> × 10<sup>−5</sup> A m<sup>2</sup>.</p><p>x = <b>1280π<sup>2</sup></b>.</p>",
+     "hint": "T = 2π√(I/mB)."
+    },
+    "hi": {
+     "status": "draft",
+     "q": "0.049 T के एकसमान चुंबकीय क्षेत्र में एक चुंबकीय सुई दिखाए अनुसार 5 सेकंड में 20 पूर्ण दोलन करती है। सुई का जड़त्व आघूर्ण 9.8 × 10<sup>−6</sup> kg m<sup>2</sup> है। यदि सुई के चुंबकीय आघूर्ण का परिमाण x × 10<sup>−5</sup> A m<sup>2</sup> है, तो 'x' का मान है :",
+     "o": [
+      "5π<sup>2</sup>",
+      "128π<sup>2</sup>",
+      "50π<sup>2</sup>",
+      "1280π<sup>2</sup>"
+     ],
+     "sol": "<p>आवर्तकाल T = 5/20 = 0.25 s। लघु दोलनों के लिए T = 2π√(I/(mB)) ⇒ m = 4π<sup>2</sup>I/(T<sup>2</sup>B) = 4π<sup>2</sup> × 9.8 × 10<sup>−6</sup>/(0.0625 × 0.049) = 4π<sup>2</sup> × 3.2 × 10<sup>−3</sup> = 1280π<sup>2</sup> × 10<sup>−5</sup> A m<sup>2</sup>।</p><p>x = <b>1280π<sup>2</sup></b>।</p>",
+     "hint": "T = 2π√(I/mB)।",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "phy12-05",
+    "paras": [
+     "5.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q46 (eSaral physics copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/physics-with-solutions.pdf; right edge clipped, read from page images; clipped option ends completed from the copy's solutions or list logic). No NTA final key for 2024 in neet-sources yet.",
+    "note": "The figure only shows a suspended needle in a horizontal field."
+   }
+  }
+ ]
+}

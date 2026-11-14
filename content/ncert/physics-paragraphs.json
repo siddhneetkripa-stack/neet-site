@@ -1,0 +1,2264 @@
+{
+ "description": "NCERT (rationalised, 2023+) Physics paragraph ids per chapter, from the section headings of the English books in neet-sources (tools/make_paragraphs.py); Hindi titles from the same-numbered headings in neet-sources/ncert-hi-text. Used by tools/add_pyqs.py to start a chapter's question bank. Sub-paragraph ids may be added in a chapter's own bank.",
+ "chapters": {
+  "phy11-01": {
+   "pdf": "class11/physics/ch01-units-and-measurement.pdf",
+   "title": "Units and Measurement",
+   "paragraphs": [
+    {
+     "id": "1.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "1.2",
+     "title": "The International System of Units",
+     "hi": "मात्रकों की अंतर्राष्ट्रीय प्रणाली",
+     "pdfPage": 1
+    },
+    {
+     "id": "1.3",
+     "title": "Significant Figures",
+     "hi": "सार्थक अंक",
+     "pdfPage": 3
+    },
+    {
+     "id": "1.3.1",
+     "title": "Rules for Arithmetic Operations with Significant Figures",
+     "pdfPage": 5
+    },
+    {
+     "id": "1.3.2",
+     "title": "Rounding off the Uncertain Digits",
+     "pdfPage": 5
+    },
+    {
+     "id": "1.3.3",
+     "title": "Rules for Determining the Uncertainty in the Results of Arithmetic Calculations",
+     "pdfPage": 6
+    },
+    {
+     "id": "1.4",
+     "title": "Dimensions of Physical Quantities",
+     "hi": "भौतिक राशियों की विमाएँ",
+     "pdfPage": 7
+    },
+    {
+     "id": "1.5",
+     "title": "Dimensional Formulae and Dimensional Equations",
+     "hi": "विमीय सूत्र एवं विमीय समीकरणें",
+     "pdfPage": 7
+    },
+    {
+     "id": "1.6",
+     "title": "Dimensional Analysis and its Applications",
+     "hi": "विमीय विश्लेषण एवं इसके अनुप्रयोग",
+     "pdfPage": 7
+    },
+    {
+     "id": "1.6.1",
+     "title": "Checking the Dimensional Consistency of Equations",
+     "pdfPage": 8
+    },
+    {
+     "id": "1.6.2",
+     "title": "Deducing Relation among the Physical Quantities",
+     "pdfPage": 9
+    }
+   ]
+  },
+  "phy11-02": {
+   "pdf": "class11/physics/ch02-motion-in-a-straight-line.pdf",
+   "title": "Motion in a Straight Line",
+   "paragraphs": [
+    {
+     "id": "2.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "2.2",
+     "title": "Instantaneous Velocity and Speed",
+     "hi": "तात्क्षणिक वेग एवं चाल",
+     "pdfPage": 2
+    },
+    {
+     "id": "2.3",
+     "title": "Acceleration",
+     "hi": "त्वरण",
+     "pdfPage": 3
+    },
+    {
+     "id": "2.4",
+     "title": "Kinematic Equations for Uniformly Accelerated Motion",
+     "hi": "एकसमान त्वरण से गतिमान वस्तु का",
+     "pdfPage": 5
+    },
+    {
+     "id": "2.5",
+     "title": "Relative Velocity",
+     "pdfPage": 5
+    }
+   ]
+  },
+  "phy11-03": {
+   "pdf": "class11/physics/ch03-motion-in-a-plane.pdf",
+   "title": "Motion in a Plane",
+   "paragraphs": [
+    {
+     "id": "3.1",
+     "title": "Introduction",
+     "pdfPage": 1
+    },
+    {
+     "id": "3.2",
+     "title": "Scalars and Vectors",
+     "pdfPage": 1
+    },
+    {
+     "id": "3.2.1",
+     "title": "Position and Displacement Vectors",
+     "pdfPage": 2
+    },
+    {
+     "id": "3.2.2",
+     "title": "Equality of Vectors",
+     "pdfPage": 2
+    },
+    {
+     "id": "3.3",
+     "title": "Multiplication of Vectors by Real Numbers",
+     "pdfPage": 3
+    },
+    {
+     "id": "3.4",
+     "title": "Addition and Subtraction of Vectors — Graphical Method",
+     "pdfPage": 3
+    },
+    {
+     "id": "3.5",
+     "title": "Resolution of Vectors",
+     "pdfPage": 5
+    },
+    {
+     "id": "3.6",
+     "title": "Vector Addition — Analytical Method",
+     "pdfPage": 7
+    },
+    {
+     "id": "3.7",
+     "title": "Motion in a Plane",
+     "pdfPage": 8
+    },
+    {
+     "id": "3.7.1",
+     "title": "Position Vector and Displacement",
+     "pdfPage": 9
+    },
+    {
+     "id": "3.8",
+     "title": "Motion in a Plane with Constant Acceleration",
+     "pdfPage": 11
+    },
+    {
+     "id": "3.9",
+     "title": "Projectile Motion",
+     "pdfPage": 12
+    },
+    {
+     "id": "3.10",
+     "title": "Uniform Circular Motion",
+     "hi": "एकसमान वृत्तीय गति",
+     "pdfPage": 14
+    }
+   ]
+  },
+  "phy11-04": {
+   "pdf": "class11/physics/ch04-laws-of-motion.pdf",
+   "title": "Laws of Motion",
+   "paragraphs": [
+    {
+     "id": "4.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "4.2",
+     "title": "Aristotle's Fallacy",
+     "hi": "अरस्तू की भ्रामकता",
+     "pdfPage": 2
+    },
+    {
+     "id": "4.3",
+     "title": "The Law of Inertia",
+     "hi": "जड़त्व का नियम",
+     "pdfPage": 2
+    },
+    {
+     "id": "4.4",
+     "title": "Newton's First Law of Motion",
+     "hi": "न्यूटन का गति का प्रथम नियम",
+     "pdfPage": 3
+    },
+    {
+     "id": "4.5",
+     "title": "Newton's Second Law of Motion",
+     "hi": "न्यूटन का गति का द्वितीय नियम",
+     "pdfPage": 5
+    },
+    {
+     "id": "4.6",
+     "title": "Newton's Third Law of Motion",
+     "hi": "न्यूटन का गति का तृतीय नियम",
+     "pdfPage": 8
+    },
+    {
+     "id": "4.7",
+     "title": "Conservation of Momentum",
+     "hi": "संवेग-संरक्षण",
+     "pdfPage": 9
+    },
+    {
+     "id": "4.8",
+     "title": "Equilibrium of a Particle",
+     "hi": "किसी कण की साम्यावस्था",
+     "pdfPage": 10
+    },
+    {
+     "id": "4.9",
+     "title": "Common Forces in Mechanics",
+     "hi": "यांत्रिकी में सामान्य बल",
+     "pdfPage": 11
+    },
+    {
+     "id": "4.9.1",
+     "title": "Friction",
+     "pdfPage": 12
+    },
+    {
+     "id": "4.10",
+     "title": "Circular Motion",
+     "pdfPage": 15
+    },
+    {
+     "id": "4.11",
+     "title": "Solving Problems in Mechanics",
+     "pdfPage": 16
+    }
+   ]
+  },
+  "phy11-05": {
+   "pdf": "class11/physics/ch05-work-energy-and-power.pdf",
+   "title": "Work, Energy and Power",
+   "paragraphs": [
+    {
+     "id": "5.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "5.1.1",
+     "title": "The Scalar Product",
+     "pdfPage": 1
+    },
+    {
+     "id": "5.2",
+     "title": "Notions of Work and Kinetic Energy: The Work-Energy Theorem",
+     "hi": "कार्य और गतिज उर्जा की धारणा",
+     "pdfPage": 3
+    },
+    {
+     "id": "5.3",
+     "title": "Work",
+     "hi": "कार्य",
+     "pdfPage": 3
+    },
+    {
+     "id": "5.4",
+     "title": "Kinetic Energy",
+     "hi": "गतिज उर्जा",
+     "pdfPage": 4
+    },
+    {
+     "id": "5.5",
+     "title": "Work Done by a Variable Force",
+     "hi": "परिवर्ती बल द्वारा किया गया कार्य",
+     "pdfPage": 5
+    },
+    {
+     "id": "5.6",
+     "title": "The Work-Energy Theorem for a Variable Force",
+     "hi": "परिवर्ती बल के लिए कार्य-उर्जा प्रमेय",
+     "pdfPage": 6
+    },
+    {
+     "id": "5.7",
+     "title": "The Concept of Potential Energy",
+     "hi": "स्थितिज उर्जा की अभिधारणा",
+     "pdfPage": 7
+    },
+    {
+     "id": "5.8",
+     "title": "The Conservation of Mechanical Energy",
+     "hi": "यांत्रिक उर्जा का संरक्षण",
+     "pdfPage": 8
+    },
+    {
+     "id": "5.9",
+     "title": "The Potential Energy of a Spring",
+     "hi": "किसी स्प्रिंग की स्थितिज उर्जा",
+     "pdfPage": 10
+    },
+    {
+     "id": "5.10",
+     "title": "Power",
+     "pdfPage": 13
+    },
+    {
+     "id": "5.11",
+     "title": "Collisions",
+     "pdfPage": 13
+    },
+    {
+     "id": "5.11.1",
+     "title": "Elastic and Inelastic Collisions",
+     "pdfPage": 14
+    },
+    {
+     "id": "5.11.2",
+     "title": "Collisions in One Dimension",
+     "pdfPage": 14
+    },
+    {
+     "id": "5.11.3",
+     "title": "Collisions in Two Dimensions",
+     "pdfPage": 15
+    }
+   ]
+  },
+  "phy11-06": {
+   "pdf": "class11/physics/ch06-system-of-particles-and-rotational-motion.pdf",
+   "title": "System of Particles and Rotational Motion",
+   "paragraphs": [
+    {
+     "id": "6.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "6.1.1",
+     "title": "What Kind of Motion can a Rigid Body have?",
+     "pdfPage": 1
+    },
+    {
+     "id": "6.2",
+     "title": "Centre of Mass",
+     "pdfPage": 4
+    },
+    {
+     "id": "6.3",
+     "title": "Motion of Centre of Mass",
+     "pdfPage": 8
+    },
+    {
+     "id": "6.4",
+     "title": "Linear Momentum of a System of Particles",
+     "pdfPage": 9
+    },
+    {
+     "id": "6.5",
+     "title": "Vector Product of Two Vectors",
+     "pdfPage": 10
+    },
+    {
+     "id": "6.6",
+     "title": "Angular Velocity and its Relation with Linear Velocity",
+     "pdfPage": 12
+    },
+    {
+     "id": "6.6.1",
+     "title": "Angular Acceleration",
+     "pdfPage": 14
+    },
+    {
+     "id": "6.7",
+     "title": "Torque and Angular Momentum",
+     "pdfPage": 14
+    },
+    {
+     "id": "6.7.1",
+     "title": "Moment of Force (Torque)",
+     "pdfPage": 14
+    },
+    {
+     "id": "6.7.2",
+     "title": "Angular Momentum of a Particle",
+     "pdfPage": 15
+    },
+    {
+     "id": "6.8",
+     "title": "Equilibrium of a Rigid Body",
+     "pdfPage": 18
+    },
+    {
+     "id": "6.8.1",
+     "title": "Principle of Moments",
+     "pdfPage": 20
+    },
+    {
+     "id": "6.8.2",
+     "title": "Centre of Gravity",
+     "pdfPage": 21
+    },
+    {
+     "id": "6.9",
+     "title": "Moment of Inertia",
+     "pdfPage": 23
+    },
+    {
+     "id": "6.10",
+     "title": "Kinematics of Rotational Motion about a Fixed Axis",
+     "hi": "अचल अक्ष के परितः शुद्ध घूर्णी",
+     "pdfPage": 25
+    },
+    {
+     "id": "6.11",
+     "title": "Dynamics of Rotational Motion about a Fixed Axis",
+     "hi": "अचल अक्ष के परितः घूर्णी गतिकी",
+     "pdfPage": 27
+    },
+    {
+     "id": "6.12",
+     "title": "Angular Momentum in Case of Rotation about a Fixed Axis",
+     "hi": "अचल अक्ष के परितः घूर्णी गति का",
+     "pdfPage": 30
+    },
+    {
+     "id": "6.12.1",
+     "title": "Conservation of Angular Momentum",
+     "pdfPage": 31
+    }
+   ]
+  },
+  "phy11-07": {
+   "pdf": "class11/physics/ch07-gravitation.pdf",
+   "title": "Gravitation",
+   "paragraphs": [
+    {
+     "id": "7.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "7.2",
+     "title": "Kepler's Laws",
+     "pdfPage": 2
+    },
+    {
+     "id": "7.3",
+     "title": "Universal Law of Gravitation",
+     "pdfPage": 2
+    },
+    {
+     "id": "7.4",
+     "title": "The Gravitational Constant",
+     "pdfPage": 5
+    },
+    {
+     "id": "7.5",
+     "title": "Acceleration due to Gravity of the Earth",
+     "pdfPage": 6
+    },
+    {
+     "id": "7.6",
+     "title": "Acceleration due to Gravity below and above the Surface of Earth",
+     "pdfPage": 7
+    },
+    {
+     "id": "7.7",
+     "title": "Gravitational Potential Energy",
+     "pdfPage": 7
+    },
+    {
+     "id": "7.8",
+     "title": "Escape Speed",
+     "pdfPage": 9
+    },
+    {
+     "id": "7.9",
+     "title": "Earth Satellites",
+     "pdfPage": 11
+    },
+    {
+     "id": "7.10",
+     "title": "Energy of an Orbiting Satellite",
+     "hi": "कक्षा में गतिशील उपग्रह की",
+     "pdfPage": 12
+    }
+   ]
+  },
+  "phy11-08": {
+   "pdf": "class11/physics/ch08-mechanical-properties-of-solids.pdf",
+   "title": "Mechanical Properties of Solids",
+   "paragraphs": [
+    {
+     "id": "8.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "8.2",
+     "title": "Stress and Strain",
+     "pdfPage": 2
+    },
+    {
+     "id": "8.3",
+     "title": "Hooke's Law",
+     "pdfPage": 3
+    },
+    {
+     "id": "8.4",
+     "title": "Stress-Strain Curve",
+     "pdfPage": 3
+    },
+    {
+     "id": "8.5",
+     "title": "Elastic Moduli",
+     "pdfPage": 4
+    },
+    {
+     "id": "8.5.1",
+     "title": "Young's Modulus",
+     "pdfPage": 4
+    },
+    {
+     "id": "8.5.2",
+     "title": "Shear Modulus",
+     "pdfPage": 6
+    },
+    {
+     "id": "8.5.3",
+     "title": "Bulk Modulus",
+     "pdfPage": 7
+    },
+    {
+     "id": "8.5.4",
+     "title": "Poisson's Ratio",
+     "pdfPage": 8
+    },
+    {
+     "id": "8.5.5",
+     "title": "Elastic Potential Energy in a Stretched Wire",
+     "pdfPage": 8
+    },
+    {
+     "id": "8.6",
+     "title": "Applications of Elastic Behaviour of Materials",
+     "pdfPage": 8
+    }
+   ]
+  },
+  "phy11-09": {
+   "pdf": "class11/physics/ch09-mechanical-properties-of-fluids.pdf",
+   "title": "Mechanical Properties of Fluids",
+   "paragraphs": [
+    {
+     "id": "9.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "9.2",
+     "title": "Pressure",
+     "hi": "दाब",
+     "pdfPage": 1
+    },
+    {
+     "id": "9.2.1",
+     "title": "Pascal's Law",
+     "pdfPage": 3
+    },
+    {
+     "id": "9.2.2",
+     "title": "Variation of Pressure with Depth",
+     "pdfPage": 3
+    },
+    {
+     "id": "9.2.3",
+     "title": "Atmospheric Pressure and Gauge Pressure",
+     "pdfPage": 4
+    },
+    {
+     "id": "9.2.4",
+     "title": "Hydraulic Machines",
+     "pdfPage": 6
+    },
+    {
+     "id": "9.3",
+     "title": "Streamline Flow",
+     "pdfPage": 7
+    },
+    {
+     "id": "9.4",
+     "title": "Bernoulli's Principle",
+     "pdfPage": 8
+    },
+    {
+     "id": "9.4.1",
+     "title": "Speed of Efflux: Torricelli's Law",
+     "pdfPage": 9
+    },
+    {
+     "id": "9.4.2",
+     "title": "Dynamic Lift",
+     "pdfPage": 10
+    },
+    {
+     "id": "9.5",
+     "title": "Viscosity",
+     "pdfPage": 11
+    },
+    {
+     "id": "9.5.1",
+     "title": "Stokes' Law",
+     "pdfPage": 13
+    },
+    {
+     "id": "9.6",
+     "title": "Surface Tension",
+     "pdfPage": 13
+    },
+    {
+     "id": "9.6.1",
+     "title": "Surface Energy",
+     "pdfPage": 14
+    },
+    {
+     "id": "9.6.2",
+     "title": "Surface Energy and Surface Tension",
+     "pdfPage": 14
+    },
+    {
+     "id": "9.6.3",
+     "title": "Angle of Contact",
+     "pdfPage": 16
+    },
+    {
+     "id": "9.6.4",
+     "title": "Drops and Bubbles",
+     "pdfPage": 17
+    },
+    {
+     "id": "9.6.5",
+     "title": "Capillary Rise",
+     "pdfPage": 17
+    }
+   ]
+  },
+  "phy11-10": {
+   "pdf": "class11/physics/ch10-thermal-properties-of-matter.pdf",
+   "title": "Thermal Properties of Matter",
+   "paragraphs": [
+    {
+     "id": "10.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "10.2",
+     "title": "Temperature and Heat",
+     "hi": "ताप तथा ऊष्मा",
+     "pdfPage": 1
+    },
+    {
+     "id": "10.3",
+     "title": "Measurement of Temperature",
+     "pdfPage": 2
+    },
+    {
+     "id": "10.4",
+     "title": "Ideal-Gas Equation and Absolute Temperature",
+     "pdfPage": 2
+    },
+    {
+     "id": "10.5",
+     "title": "Thermal Expansion",
+     "pdfPage": 3
+    },
+    {
+     "id": "10.6",
+     "title": "Specific Heat Capacity",
+     "pdfPage": 7
+    },
+    {
+     "id": "10.7",
+     "title": "Calorimetry",
+     "pdfPage": 8
+    },
+    {
+     "id": "10.8",
+     "title": "Change of State",
+     "pdfPage": 9
+    },
+    {
+     "id": "10.8.1",
+     "title": "Latent Heat",
+     "pdfPage": 11
+    },
+    {
+     "id": "10.9",
+     "title": "Heat Transfer",
+     "pdfPage": 13
+    },
+    {
+     "id": "10.9.1",
+     "title": "Conduction",
+     "pdfPage": 13
+    },
+    {
+     "id": "10.9.2",
+     "title": "Convection",
+     "pdfPage": 16
+    },
+    {
+     "id": "10.9.3",
+     "title": "Radiation",
+     "pdfPage": 17
+    },
+    {
+     "id": "10.9.4",
+     "title": "Blackbody Radiation",
+     "pdfPage": 17
+    },
+    {
+     "id": "10.10",
+     "title": "Newton's Law of Cooling",
+     "hi": "न्यूटन का शीतलन नियम",
+     "pdfPage": 18
+    }
+   ]
+  },
+  "phy11-11": {
+   "pdf": "class11/physics/ch11-thermodynamics.pdf",
+   "title": "Thermodynamics",
+   "paragraphs": [
+    {
+     "id": "11.1",
+     "title": "Introduction",
+     "pdfPage": 1
+    },
+    {
+     "id": "11.2",
+     "title": "Thermal Equilibrium",
+     "pdfPage": 2
+    },
+    {
+     "id": "11.3",
+     "title": "Zeroth Law of Thermodynamics",
+     "pdfPage": 3
+    },
+    {
+     "id": "11.4",
+     "title": "Heat, Internal Energy and Work",
+     "pdfPage": 4
+    },
+    {
+     "id": "11.5",
+     "title": "First Law of Thermodynamics",
+     "pdfPage": 5
+    },
+    {
+     "id": "11.6",
+     "title": "Specific Heat Capacity",
+     "pdfPage": 6
+    },
+    {
+     "id": "11.7",
+     "title": "Thermodynamic State Variables and Equation of State",
+     "pdfPage": 7
+    },
+    {
+     "id": "11.8",
+     "title": "Thermodynamic Processes",
+     "pdfPage": 8
+    },
+    {
+     "id": "11.8.1",
+     "title": "Quasi-static Process",
+     "pdfPage": 8
+    },
+    {
+     "id": "11.8.2",
+     "title": "Isothermal Process",
+     "pdfPage": 9
+    },
+    {
+     "id": "11.8.3",
+     "title": "Adiabatic Process",
+     "pdfPage": 10
+    },
+    {
+     "id": "11.8.4",
+     "title": "Isochoric Process",
+     "pdfPage": 10
+    },
+    {
+     "id": "11.8.5",
+     "title": "Isobaric Process",
+     "pdfPage": 10
+    },
+    {
+     "id": "11.8.6",
+     "title": "Cyclic Process",
+     "pdfPage": 10
+    },
+    {
+     "id": "11.9",
+     "title": "Second Law of Thermodynamics",
+     "pdfPage": 11
+    },
+    {
+     "id": "11.10",
+     "title": "Reversible and Irreversible Processes",
+     "pdfPage": 11
+    },
+    {
+     "id": "11.11",
+     "title": "Carnot Engine",
+     "pdfPage": 12
+    }
+   ]
+  },
+  "phy11-12": {
+   "pdf": "class11/physics/ch12-kinetic-theory.pdf",
+   "title": "Kinetic Theory",
+   "paragraphs": [
+    {
+     "id": "12.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "12.2",
+     "title": "Molecular Nature of Matter",
+     "hi": "द्रव्य की आण्विक प्रकृति",
+     "pdfPage": 1
+    },
+    {
+     "id": "12.3",
+     "title": "Behaviour of Gases",
+     "pdfPage": 3
+    },
+    {
+     "id": "12.4",
+     "title": "Kinetic Theory of an Ideal Gas",
+     "pdfPage": 5
+    },
+    {
+     "id": "12.4.1",
+     "title": "Pressure of an Ideal Gas",
+     "pdfPage": 6
+    },
+    {
+     "id": "12.4.2",
+     "title": "Kinetic Interpretation of Temperature",
+     "pdfPage": 7
+    },
+    {
+     "id": "12.5",
+     "title": "Law of Equipartition of Energy",
+     "pdfPage": 9
+    },
+    {
+     "id": "12.6",
+     "title": "Specific Heat Capacity",
+     "pdfPage": 10
+    },
+    {
+     "id": "12.6.1",
+     "title": "Monatomic Gases",
+     "pdfPage": 10
+    },
+    {
+     "id": "12.6.2",
+     "title": "Diatomic Gases",
+     "pdfPage": 10
+    },
+    {
+     "id": "12.6.3",
+     "title": "Polyatomic Gases",
+     "pdfPage": 10
+    },
+    {
+     "id": "12.6.4",
+     "title": "Specific Heat Capacity of Solids",
+     "pdfPage": 11
+    },
+    {
+     "id": "12.7",
+     "title": "Mean Free Path",
+     "pdfPage": 11
+    }
+   ]
+  },
+  "phy11-13": {
+   "pdf": "class11/physics/ch13-oscillations.pdf",
+   "title": "Oscillations",
+   "paragraphs": [
+    {
+     "id": "13.1",
+     "title": "Introduction",
+     "pdfPage": 1
+    },
+    {
+     "id": "13.2",
+     "title": "Periodic and Oscillatory Motions",
+     "pdfPage": 2
+    },
+    {
+     "id": "13.2.1",
+     "title": "Period and Frequency",
+     "pdfPage": 2
+    },
+    {
+     "id": "13.2.2",
+     "title": "Displacement",
+     "pdfPage": 3
+    },
+    {
+     "id": "13.3",
+     "title": "Simple Harmonic Motion",
+     "pdfPage": 4
+    },
+    {
+     "id": "13.4",
+     "title": "Simple Harmonic Motion and Uniform Circular Motion",
+     "pdfPage": 6
+    },
+    {
+     "id": "13.5",
+     "title": "Velocity and Acceleration in Simple Harmonic Motion",
+     "pdfPage": 8
+    },
+    {
+     "id": "13.6",
+     "title": "Force Law for Simple Harmonic Motion",
+     "pdfPage": 9
+    },
+    {
+     "id": "13.7",
+     "title": "Energy in Simple Harmonic Motion",
+     "pdfPage": 10
+    },
+    {
+     "id": "13.8",
+     "title": "The Simple Pendulum",
+     "pdfPage": 12
+    }
+   ]
+  },
+  "phy11-14": {
+   "pdf": "class11/physics/ch14-waves.pdf",
+   "title": "Waves",
+   "paragraphs": [
+    {
+     "id": "14.1",
+     "title": "Introduction",
+     "pdfPage": 1
+    },
+    {
+     "id": "14.2",
+     "title": "Transverse and Longitudinal Waves",
+     "pdfPage": 3
+    },
+    {
+     "id": "14.3",
+     "title": "Displacement Relation in a Progressive Wave",
+     "pdfPage": 4
+    },
+    {
+     "id": "14.3.1",
+     "title": "Amplitude and Phase",
+     "pdfPage": 5
+    },
+    {
+     "id": "14.3.2",
+     "title": "Wavelength and Angular Wave Number",
+     "pdfPage": 6
+    },
+    {
+     "id": "14.3.3",
+     "title": "Period, Angular Frequency and Frequency",
+     "pdfPage": 6
+    },
+    {
+     "id": "14.4",
+     "title": "The Speed of a Travelling Wave",
+     "pdfPage": 7
+    },
+    {
+     "id": "14.4.1",
+     "title": "Speed of a Transverse Wave on Stretched String",
+     "pdfPage": 8
+    },
+    {
+     "id": "14.4.2",
+     "title": "Speed of a Longitudinal Wave (Speed of Sound)",
+     "pdfPage": 8
+    },
+    {
+     "id": "14.5",
+     "title": "The Principle of Superposition of Waves",
+     "pdfPage": 10
+    },
+    {
+     "id": "14.6",
+     "title": "Reflection of Waves",
+     "pdfPage": 11
+    },
+    {
+     "id": "14.6.1",
+     "title": "Standing Waves and Normal Modes",
+     "pdfPage": 12
+    },
+    {
+     "id": "14.7",
+     "title": "Beats",
+     "pdfPage": 16
+    }
+   ]
+  },
+  "phy12-01": {
+   "pdf": "class12/physics/ch01-electric-charges-and-fields.pdf",
+   "title": "Electric Charges and Fields",
+   "paragraphs": [
+    {
+     "id": "1.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "1.2",
+     "title": "Electric Charge",
+     "hi": "वैद्युत आवेश",
+     "pdfPage": 1
+    },
+    {
+     "id": "1.3",
+     "title": "Conductors and Insulators",
+     "hi": "चालक तथा विद्युतरोधी",
+     "pdfPage": 3
+    },
+    {
+     "id": "1.4",
+     "title": "Basic Properties of Electric Charge",
+     "hi": "वैद्युत आवेश के मूल गुण",
+     "pdfPage": 4
+    },
+    {
+     "id": "1.4.1",
+     "title": "Additivity of Charges",
+     "hi": "आवेशों की योज्यता",
+     "pdfPage": 4
+    },
+    {
+     "id": "1.4.2",
+     "title": "Charge is Conserved",
+     "hi": "वैद्युत आवेश संरक्षित है",
+     "pdfPage": 4
+    },
+    {
+     "id": "1.4.3",
+     "title": "Quantisation of Charge",
+     "hi": "वैद्युत आवेश का क्वांटमीकरण",
+     "pdfPage": 5
+    },
+    {
+     "id": "1.5",
+     "title": "Coulomb's Law",
+     "hi": "कूलॉम नियम",
+     "pdfPage": 6
+    },
+    {
+     "id": "1.6",
+     "title": "Forces between Multiple Charges",
+     "hi": "बहुल आवेशों के बीच बल",
+     "pdfPage": 11
+    },
+    {
+     "id": "1.7",
+     "title": "Electric Field",
+     "hi": "विद्युत क्षेत्र",
+     "pdfPage": 14
+    },
+    {
+     "id": "1.7.1",
+     "title": "Electric Field due to a System of Charges",
+     "hi": "आवेशों के निकाय के कारण विद्युत क्षेत्र",
+     "pdfPage": 15
+    },
+    {
+     "id": "1.7.2",
+     "title": "Physical Significance of Electric Field",
+     "hi": "विद्युत क्षेत्र का भौतिक अभिप्राय",
+     "pdfPage": 16
+    },
+    {
+     "id": "1.8",
+     "title": "Electric Field Lines",
+     "hi": "विद्युत क्षेत्र रेखाएँ",
+     "pdfPage": 19
+    },
+    {
+     "id": "1.9",
+     "title": "Electric Flux",
+     "hi": "वैद्युत फलक्स",
+     "pdfPage": 21
+    },
+    {
+     "id": "1.10",
+     "title": "Electric Dipole",
+     "hi": "वैद्युत द्विध्रुव",
+     "pdfPage": 23
+    },
+    {
+     "id": "1.10.1",
+     "title": "The Field of an Electric Dipole",
+     "hi": "वैद्युत द्विध्रुव के कारण क्षेत्र",
+     "pdfPage": 23
+    },
+    {
+     "id": "1.10.2",
+     "title": "Physical Significance of Dipoles",
+     "hi": "द्विध्रुवों की भौतिक सार्थकता",
+     "pdfPage": 25
+    },
+    {
+     "id": "1.11",
+     "title": "Dipole in a Uniform External Field",
+     "hi": "एकसमान बाह्य क्षेत्र में द्विध्रुव",
+     "pdfPage": 27
+    },
+    {
+     "id": "1.12",
+     "title": "Continuous Charge Distribution",
+     "hi": "संतत आवेश वितरण",
+     "pdfPage": 28
+    },
+    {
+     "id": "1.13",
+     "title": "Gauss's Law",
+     "hi": "गाउस नियम",
+     "pdfPage": 29
+    },
+    {
+     "id": "1.14",
+     "title": "Applications of Gauss's Law",
+     "hi": "गाउस नियम के अनुप्रयोग",
+     "pdfPage": 33
+    },
+    {
+     "id": "1.14.1",
+     "title": "Field due to an Infinitely Long Straight Uniformly Charged Wire",
+     "hi": "अनंत लंबाई के एकसमान आवेशित",
+     "pdfPage": 33
+    },
+    {
+     "id": "1.14.2",
+     "title": "Field due to a Uniformly Charged Infinite Plane Sheet",
+     "hi": "एकसमान आवेशित अनंत समतल चादर के कारण विद्युत क्षेत्र",
+     "pdfPage": 34
+    },
+    {
+     "id": "1.14.3",
+     "title": "Field due to a Uniformly Charged Thin Spherical Shell",
+     "hi": "एकसमान आवेशित पतले गोलीय खोल के कारण विद्युत क्षेत्र",
+     "pdfPage": 35
+    }
+   ]
+  },
+  "phy12-02": {
+   "pdf": "class12/physics/ch02-electrostatic-potential-and-capacitance.pdf",
+   "title": "Electrostatic Potential and Capacitance",
+   "paragraphs": [
+    {
+     "id": "2.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "2.2",
+     "title": "Electrostatic Potential",
+     "hi": "स्थिरवैद्युत विभव",
+     "pdfPage": 3
+    },
+    {
+     "id": "2.3",
+     "title": "Potential due to a Point Charge",
+     "hi": "बिंदु आवेश के कारण विभव",
+     "pdfPage": 4
+    },
+    {
+     "id": "2.4",
+     "title": "Potential due to an Electric Dipole",
+     "hi": "वैद्युत द्विध्रुव के कारण विभव",
+     "pdfPage": 5
+    },
+    {
+     "id": "2.5",
+     "title": "Potential due to a System of Charges",
+     "hi": "आवेशों के निकाय के कारण विभव",
+     "pdfPage": 7
+    },
+    {
+     "id": "2.6",
+     "title": "Equipotential Surfaces",
+     "hi": "समविभव पृष्ठ",
+     "pdfPage": 10
+    },
+    {
+     "id": "2.6.1",
+     "title": "Relation between Field and Potential",
+     "hi": "विद्युत क्षेत्र तथा वैद्युत विभव में संबंध",
+     "pdfPage": 11
+    },
+    {
+     "id": "2.7",
+     "title": "Potential Energy of a System of Charges",
+     "hi": "आवेशों के निकाय की स्थितिज ऊर्जा",
+     "pdfPage": 11
+    },
+    {
+     "id": "2.8",
+     "title": "Potential Energy in an External Field",
+     "hi": "बाह्य क्षेत्र में स्थितिज ऊर्जा",
+     "pdfPage": 14
+    },
+    {
+     "id": "2.8.1",
+     "title": "Potential Energy of a Single Charge",
+     "hi": "एकल आवेश की स्थितिज ऊर्जा",
+     "pdfPage": 14
+    },
+    {
+     "id": "2.8.2",
+     "title": "Potential Energy of a System of Two Charges in an External Field",
+     "hi": "किसी बाह्य क्षेत्र में दो आवेशों के निकाय की स्थितिज ऊर्जा",
+     "pdfPage": 15
+    },
+    {
+     "id": "2.8.3",
+     "title": "Potential Energy of a Dipole in an External Field",
+     "hi": "बाह्य क्षेत्र में द्विध्रुव की स्थितिज ऊर्जा",
+     "pdfPage": 16
+    },
+    {
+     "id": "2.9",
+     "title": "Electrostatics of Conductors",
+     "hi": "चालक-स्थिरवैद्युतिकी",
+     "pdfPage": 17
+    },
+    {
+     "id": "2.10",
+     "title": "Dielectrics and Polarisation",
+     "hi": "परावैद्युत तथा ध्रुवण",
+     "pdfPage": 21
+    },
+    {
+     "id": "2.11",
+     "title": "Capacitors and Capacitance",
+     "hi": "संधारित्र तथा धारिता",
+     "pdfPage": 23
+    },
+    {
+     "id": "2.12",
+     "title": "The Parallel Plate Capacitor",
+     "hi": "समांतर पट्टिका संधारित्र",
+     "pdfPage": 24
+    },
+    {
+     "id": "2.13",
+     "title": "Effect of Dielectric on Capacitance",
+     "hi": "धारिता पर परावैद्युत का प्रभाव",
+     "pdfPage": 25
+    },
+    {
+     "id": "2.14",
+     "title": "Combination of Capacitors",
+     "hi": "संधारित्रों का संयोजन",
+     "pdfPage": 27
+    },
+    {
+     "id": "2.14.1",
+     "title": "Capacitors in Series",
+     "hi": "संधारित्रों का श्रेणीक्रम संयोजन",
+     "pdfPage": 27
+    },
+    {
+     "id": "2.14.2",
+     "title": "Capacitors in Parallel",
+     "hi": "संधारित्रों का पार्श्वक्रम संयोजन",
+     "pdfPage": 28
+    },
+    {
+     "id": "2.15",
+     "title": "Energy Stored in a Capacitor",
+     "hi": "संधारित्र में संचित ऊर्जा",
+     "pdfPage": 29
+    }
+   ]
+  },
+  "phy12-03": {
+   "pdf": "class12/physics/ch03-current-electricity.pdf",
+   "title": "Current Electricity",
+   "paragraphs": [
+    {
+     "id": "3.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "3.2",
+     "title": "Electric Current",
+     "hi": "विद्युत धारा",
+     "pdfPage": 1
+    },
+    {
+     "id": "3.3",
+     "title": "Electric Currents in Conductors",
+     "hi": "चालक में विद्युत धारा",
+     "pdfPage": 2
+    },
+    {
+     "id": "3.4",
+     "title": "Ohm's Law",
+     "hi": "ओम का नियम",
+     "pdfPage": 3
+    },
+    {
+     "id": "3.5",
+     "title": "Drift of Electrons and the Origin of Resistivity",
+     "hi": "इलेक्ट्रॉन का अपवाह एवं प्रतिरोधकता का उद्गम",
+     "pdfPage": 5
+    },
+    {
+     "id": "3.5.1",
+     "title": "Mobility",
+     "hi": "गतिशीलता",
+     "pdfPage": 8
+    },
+    {
+     "id": "3.6",
+     "title": "Limitations of Ohm's Law",
+     "hi": "ओम के नियम की सीमाएँ",
+     "pdfPage": 9
+    },
+    {
+     "id": "3.7",
+     "title": "Resistivity of Various Materials",
+     "hi": "विभिन्न पदार्थों की प्रतिरोधकता",
+     "pdfPage": 9
+    },
+    {
+     "id": "3.8",
+     "title": "Temperature Dependence of Resistivity",
+     "hi": "प्रतिरोधकता की ताप पर निर्भरता",
+     "pdfPage": 10
+    },
+    {
+     "id": "3.9",
+     "title": "Electrical Energy, Power",
+     "hi": "विद्युत ऊर्जा, शक्ति",
+     "pdfPage": 12
+    },
+    {
+     "id": "3.10",
+     "title": "Cells, EMF, Internal Resistance",
+     "hi": "सेल, विद्युत वाहक बल (emf), आंतरिक प्रतिरोध",
+     "pdfPage": 13
+    },
+    {
+     "id": "3.11",
+     "title": "Cells in Series and in Parallel",
+     "hi": "श्रेणी तथा पार्श्वक्रम में सेल",
+     "pdfPage": 15
+    },
+    {
+     "id": "3.12",
+     "title": "Kirchhoff's Rules",
+     "hi": "किरखोफ के नियम",
+     "pdfPage": 17
+    },
+    {
+     "id": "3.13",
+     "title": "Wheatstone Bridge",
+     "hi": "व्हीटस्टोन सेतु",
+     "pdfPage": 20
+    }
+   ]
+  },
+  "phy12-04": {
+   "pdf": "class12/physics/ch04-moving-charges-and-magnetism.pdf",
+   "title": "Moving Charges and Magnetism",
+   "paragraphs": [
+    {
+     "id": "4.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "4.2",
+     "title": "Magnetic Force",
+     "hi": "चुंबकीय बल",
+     "pdfPage": 2
+    },
+    {
+     "id": "4.2.1",
+     "title": "Sources and Fields",
+     "hi": "स्रोत और क्षेत्र",
+     "pdfPage": 2
+    },
+    {
+     "id": "4.2.2",
+     "title": "Magnetic Field, Lorentz Force",
+     "hi": "चुंबकीय क्षेत्र, लोरेंज बल",
+     "pdfPage": 3
+    },
+    {
+     "id": "4.2.3",
+     "title": "Magnetic Force on a Current-carrying Conductor",
+     "hi": "विद्युत धारावाही चालक पर चुंबकीय बल",
+     "pdfPage": 4
+    },
+    {
+     "id": "4.3",
+     "title": "Motion in a Magnetic Field",
+     "hi": "चुंबकीय क्षेत्र में गति",
+     "pdfPage": 6
+    },
+    {
+     "id": "4.4",
+     "title": "Magnetic Field due to a Current Element, Biot-Savart Law",
+     "hi": "विद्युत धारा अवयव के कारण चुंबकीय क्षेत्र,",
+     "pdfPage": 7
+    },
+    {
+     "id": "4.5",
+     "title": "Magnetic Field on the Axis of a Circular Current Loop",
+     "hi": "विद्युत धारावाही वृत्ताकार पाश के अक्ष पर",
+     "pdfPage": 9
+    },
+    {
+     "id": "4.6",
+     "title": "Ampere's Circuital Law",
+     "hi": "ऐम्पियर का परिपथीय नियम",
+     "pdfPage": 11
+    },
+    {
+     "id": "4.7",
+     "title": "The Solenoid",
+     "hi": "परिनालिका",
+     "pdfPage": 15
+    },
+    {
+     "id": "4.8",
+     "title": "Force between Two Parallel Currents, the Ampere",
+     "hi": "दो समांतर विद्युत धाराओं के बीच बल–ऐम्पियर",
+     "pdfPage": 16
+    },
+    {
+     "id": "4.9",
+     "title": "Torque on Current Loop, Magnetic Dipole",
+     "hi": "विद्युत धारा पाश पर बल आघूर्ण, चुंबकीय द्विध्रुव",
+     "pdfPage": 18
+    },
+    {
+     "id": "4.9.1",
+     "title": "Torque on a Rectangular Current Loop in a Uniform Magnetic Field",
+     "pdfPage": 18
+    },
+    {
+     "id": "4.9.2",
+     "title": "Circular Current Loop as a Magnetic Dipole",
+     "hi": "वृत्ताकार विद्युत धारा पाश चुंबकीय द्विध्रुव",
+     "pdfPage": 22
+    },
+    {
+     "id": "4.10",
+     "title": "The Moving Coil Galvanometer",
+     "hi": "चल कुंडली गैल्वेनोमीटर",
+     "pdfPage": 23
+    }
+   ]
+  },
+  "phy12-05": {
+   "pdf": "class12/physics/ch05-magnetism-and-matter.pdf",
+   "title": "Magnetism and Matter",
+   "paragraphs": [
+    {
+     "id": "5.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "5.2",
+     "title": "The Bar Magnet",
+     "hi": "छड़ चुंबक",
+     "pdfPage": 2
+    },
+    {
+     "id": "5.2.1",
+     "title": "The Magnetic Field Lines",
+     "hi": "चुंबकीय क्षेत्र रेखाएँ",
+     "pdfPage": 2
+    },
+    {
+     "id": "5.2.2",
+     "title": "Bar Magnet as an Equivalent Solenoid",
+     "hi": "छड़ चुंबक का एक धारावाही परिनालिका की तरह व्यवहार",
+     "pdfPage": 3
+    },
+    {
+     "id": "5.2.3",
+     "title": "The Dipole in a Uniform Magnetic Field",
+     "hi": "एकसमान चुंबकीय क्षेत्र में द्विध्रुव",
+     "pdfPage": 4
+    },
+    {
+     "id": "5.2.4",
+     "title": "The Electrostatic Analog",
+     "hi": "स्थिरवैद्युत अनुरूप",
+     "pdfPage": 5
+    },
+    {
+     "id": "5.3",
+     "title": "Magnetism and Gauss's Law",
+     "hi": "चुंबकत्व एवं गाउस नियम",
+     "pdfPage": 7
+    },
+    {
+     "id": "5.4",
+     "title": "Magnetisation and Magnetic Intensity",
+     "hi": "चुंबकीकरण एवं चुंबकीय तीव्रता",
+     "pdfPage": 10
+    },
+    {
+     "id": "5.5",
+     "title": "Magnetic Properties of Materials",
+     "hi": "पदार्थों के चुंबकीय गुण",
+     "pdfPage": 12
+    },
+    {
+     "id": "5.5.1",
+     "title": "Diamagnetism",
+     "hi": "प्रतिचुंबकत्व",
+     "pdfPage": 12
+    },
+    {
+     "id": "5.5.2",
+     "title": "Paramagnetism",
+     "hi": "अनुचुंबकत्व",
+     "pdfPage": 13
+    },
+    {
+     "id": "5.5.3",
+     "title": "Ferromagnetism",
+     "hi": "लौह चुंबकत्व",
+     "pdfPage": 14
+    }
+   ]
+  },
+  "phy12-06": {
+   "pdf": "class12/physics/ch06-electromagnetic-induction.pdf",
+   "title": "Electromagnetic Induction",
+   "paragraphs": [
+    {
+     "id": "6.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "6.2",
+     "title": "The Experiments of Faraday and Henry",
+     "hi": "फैराडे एवं हेनरी के प्रयोग",
+     "pdfPage": 2
+    },
+    {
+     "id": "6.3",
+     "title": "Magnetic Flux",
+     "hi": "चुंबकीय फलक्स",
+     "pdfPage": 3
+    },
+    {
+     "id": "6.4",
+     "title": "Faraday's Law of Induction",
+     "hi": "फैराडे का प्रेरण का नियम",
+     "pdfPage": 4
+    },
+    {
+     "id": "6.5",
+     "title": "Lenz's Law and Conservation of Energy",
+     "hi": "लेंज का नियम तथा ऊर्जा संरक्षण",
+     "pdfPage": 7
+    },
+    {
+     "id": "6.6",
+     "title": "Motional Electromotive Force",
+     "hi": "गतिक विद्युत वाहक बल",
+     "pdfPage": 9
+    },
+    {
+     "id": "6.7",
+     "title": "Inductance",
+     "hi": "प्रेरकत्व",
+     "pdfPage": 12
+    },
+    {
+     "id": "6.7.1",
+     "title": "Mutual Inductance",
+     "hi": "अन्योन्य प्रेरकत्व",
+     "pdfPage": 12
+    },
+    {
+     "id": "6.7.2",
+     "title": "Self-inductance",
+     "hi": "स्व-प्रेरकत्व",
+     "pdfPage": 15
+    },
+    {
+     "id": "6.8",
+     "title": "AC Generator",
+     "hi": "प्रत्यावर्ती धारा जनित्र",
+     "pdfPage": 17
+    }
+   ]
+  },
+  "phy12-07": {
+   "pdf": "class12/physics/ch07-alternating-current.pdf",
+   "title": "Alternating Current",
+   "paragraphs": [
+    {
+     "id": "7.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "7.2",
+     "title": "AC Voltage Applied to a Resistor",
+     "hi": "प्रतिरोधक पर प्रयुक्त ac वोल्टता",
+     "pdfPage": 2
+    },
+    {
+     "id": "7.3",
+     "title": "Representation of AC Current and Voltage by Rotating Vectors — Phasors",
+     "hi": "ac धारा एवं वोल्टता का घूर्णी सदिश द्वारा निरूपण",
+     "pdfPage": 5
+    },
+    {
+     "id": "7.4",
+     "title": "AC Voltage Applied to an Inductor",
+     "hi": "प्रेरक पर प्रयुक्त ac वोल्टता",
+     "pdfPage": 5
+    },
+    {
+     "id": "7.5",
+     "title": "AC Voltage Applied to a Capacitor",
+     "hi": "संधारित्र पर प्रयुक्त ac वोल्टता",
+     "pdfPage": 8
+    },
+    {
+     "id": "7.6",
+     "title": "AC Voltage Applied to a Series LCR Circuit",
+     "hi": "श्रेणीबद्ध LCR परिपथ पर प्रयुक्त ac वोल्टता",
+     "pdfPage": 10
+    },
+    {
+     "id": "7.6.1",
+     "title": "Phasor-diagram Solution",
+     "hi": "फेजर आरेख द्वारा हल",
+     "pdfPage": 11
+    },
+    {
+     "id": "7.6.2",
+     "title": "Resonance",
+     "hi": "अनुनाद",
+     "pdfPage": 12
+    },
+    {
+     "id": "7.7",
+     "title": "Power in AC Circuit: The Power Factor",
+     "hi": "ac परिपथों में शक्ति : शक्ति गुणांक",
+     "pdfPage": 14
+    },
+    {
+     "id": "7.8",
+     "title": "Transformers",
+     "hi": "ट्रांसफॉर्मर",
+     "pdfPage": 18
+    }
+   ]
+  },
+  "phy12-08": {
+   "pdf": "class12/physics/ch08-electromagnetic-waves.pdf",
+   "title": "Electromagnetic Waves",
+   "paragraphs": [
+    {
+     "id": "8.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "8.2",
+     "title": "Displacement Current",
+     "hi": "विस्थापन धारा",
+     "pdfPage": 2
+    },
+    {
+     "id": "8.3",
+     "title": "Electromagnetic Waves",
+     "hi": "वैद्युतचुंबकीय तरंगें",
+     "pdfPage": 5
+    },
+    {
+     "id": "8.3.1",
+     "title": "Sources of Electromagnetic Waves",
+     "hi": "तरंगों के स्रोत",
+     "pdfPage": 5
+    },
+    {
+     "id": "8.3.2",
+     "title": "Nature of Electromagnetic Waves",
+     "hi": "वैद्युतचुंबकीय तरंगों की प्रकृति",
+     "pdfPage": 6
+    },
+    {
+     "id": "8.4",
+     "title": "Electromagnetic Spectrum",
+     "hi": "वैद्युतचुंबकीय स्पेक्ट्रम",
+     "pdfPage": 8
+    },
+    {
+     "id": "8.4.1",
+     "title": "Radio Waves",
+     "hi": "रेडियो तरंगें",
+     "pdfPage": 9
+    },
+    {
+     "id": "8.4.2",
+     "title": "Microwaves",
+     "hi": "सूक्ष्म तरंगें",
+     "pdfPage": 9
+    },
+    {
+     "id": "8.4.3",
+     "title": "Infrared Waves",
+     "hi": "अवरक्त तरंगें",
+     "pdfPage": 10
+    },
+    {
+     "id": "8.4.4",
+     "title": "Visible Rays",
+     "hi": "दृश्य प्रकाश तरंगें",
+     "pdfPage": 10
+    },
+    {
+     "id": "8.4.5",
+     "title": "Ultraviolet Rays",
+     "hi": "पराबैंगनी तरंगें",
+     "pdfPage": 10
+    },
+    {
+     "id": "8.4.6",
+     "title": "X-rays",
+     "hi": "X-किरणें",
+     "pdfPage": 11
+    },
+    {
+     "id": "8.4.7",
+     "title": "Gamma Rays",
+     "hi": "गामा किरणें",
+     "pdfPage": 11
+    }
+   ]
+  },
+  "phy12-09": {
+   "pdf": "class12/physics/ch09-ray-optics-and-optical-instruments.pdf",
+   "title": "Ray Optics and Optical Instruments",
+   "paragraphs": [
+    {
+     "id": "9.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "9.2",
+     "title": "Reflection of Light by Spherical Mirrors",
+     "hi": "गोलीय दर्पणों द्वारा प्रकाश का परावर्तन",
+     "pdfPage": 2
+    },
+    {
+     "id": "9.2.1",
+     "title": "Sign Convention",
+     "hi": "चिह्न परिपाटी",
+     "pdfPage": 2
+    },
+    {
+     "id": "9.2.2",
+     "title": "Focal Length of Spherical Mirrors",
+     "hi": "गोलीय दर्पणों की फोकस दूरी",
+     "pdfPage": 3
+    },
+    {
+     "id": "9.2.3",
+     "title": "The Mirror Equation",
+     "hi": "दर्पण समीकरण",
+     "pdfPage": 4
+    },
+    {
+     "id": "9.3",
+     "title": "Refraction",
+     "hi": "अपवर्तन",
+     "pdfPage": 8
+    },
+    {
+     "id": "9.4",
+     "title": "Total Internal Reflection",
+     "hi": "पूर्ण आंतरिक परावर्तन",
+     "pdfPage": 9
+    },
+    {
+     "id": "9.4.1",
+     "title": "Total Internal Reflection in Nature and its Technological Applications",
+     "pdfPage": 11
+    },
+    {
+     "id": "9.5",
+     "title": "Refraction at Spherical Surfaces and by Lenses",
+     "hi": "गोलीय पृष्ठों तथा लेंसों द्वारा अपवर्तन",
+     "pdfPage": 12
+    },
+    {
+     "id": "9.5.1",
+     "title": "Refraction at a Spherical Surface",
+     "hi": "किसी गोलीय पृष्ठ पर अपवर्तन",
+     "pdfPage": 12
+    },
+    {
+     "id": "9.5.2",
+     "title": "Refraction by a Lens",
+     "hi": "किसी लेंस द्वारा अपवर्तन",
+     "pdfPage": 14
+    },
+    {
+     "id": "9.5.3",
+     "title": "Power of a Lens",
+     "hi": "लेंस की क्षमता",
+     "pdfPage": 16
+    },
+    {
+     "id": "9.5.4",
+     "title": "Combination of Thin Lenses in Contact",
+     "hi": "संपर्क में रखे पतले लेंसों का संयोजन",
+     "pdfPage": 17
+    },
+    {
+     "id": "9.6",
+     "title": "Refraction through a Prism",
+     "hi": "प्रिज़्म में अपवर्तन",
+     "pdfPage": 19
+    },
+    {
+     "id": "9.7",
+     "title": "Optical Instruments",
+     "hi": "प्रकाशिक यंत्र",
+     "pdfPage": 20
+    },
+    {
+     "id": "9.7.1",
+     "title": "The Microscope",
+     "hi": "सूक्ष्मदर्शी",
+     "pdfPage": 20
+    },
+    {
+     "id": "9.7.2",
+     "title": "Telescope",
+     "hi": "दूरदर्शक",
+     "pdfPage": 24
+    }
+   ]
+  },
+  "phy12-10": {
+   "pdf": "class12/physics/ch10-wave-optics.pdf",
+   "title": "Wave Optics",
+   "paragraphs": [
+    {
+     "id": "10.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "10.2",
+     "title": "Huygens Principle",
+     "hi": "हाइगेंस का सिद्धांत",
+     "pdfPage": 3
+    },
+    {
+     "id": "10.3",
+     "title": "Refraction and Reflection of Plane Waves using Huygens Principle",
+     "hi": "हाइगेंस सिद्धांत का उपयोग करते हुए समतल तरंगों का",
+     "pdfPage": 4
+    },
+    {
+     "id": "10.3.1",
+     "title": "Refraction of a Plane Wave",
+     "hi": "समतल तरंगों का अपवर्तन",
+     "pdfPage": 4
+    },
+    {
+     "id": "10.3.2",
+     "title": "Refraction at a Rarer Medium",
+     "hi": "विरल माध्यम पर अपवर्तन",
+     "pdfPage": 6
+    },
+    {
+     "id": "10.3.3",
+     "title": "Reflection of a Plane Wave by a Plane Surface",
+     "hi": "समतल पृष्ठ से एक समतल तरंग का परावर्तन",
+     "pdfPage": 6
+    },
+    {
+     "id": "10.4",
+     "title": "Coherent and Incoherent Addition of Waves",
+     "hi": "तरंगों का कला-संबद्ध तथा कला-असंबद्ध योग",
+     "pdfPage": 8
+    },
+    {
+     "id": "10.5",
+     "title": "Interference of Light Waves and Young's Experiment",
+     "hi": "प्रकाश तरंगों का व्यतिकरण तथा यंग का प्रयोग",
+     "pdfPage": 11
+    },
+    {
+     "id": "10.6",
+     "title": "Diffraction",
+     "hi": "विवर्तन",
+     "pdfPage": 12
+    },
+    {
+     "id": "10.6.1",
+     "title": "The Single Slit",
+     "hi": "एकल झिरी",
+     "pdfPage": 13
+    },
+    {
+     "id": "10.6.2",
+     "title": "Seeing the Single Slit Diffraction Pattern",
+     "hi": "एकल झिरी विवर्तन पैटर्न का अवलोकन",
+     "pdfPage": 14
+    },
+    {
+     "id": "10.7",
+     "title": "Polarisation",
+     "hi": "ध्रुवण",
+     "pdfPage": 15
+    }
+   ]
+  },
+  "phy12-11": {
+   "pdf": "class12/physics/ch11-dual-nature-of-radiation-and-matter.pdf",
+   "title": "Dual Nature of Radiation and Matter",
+   "paragraphs": [
+    {
+     "id": "11.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "11.2",
+     "title": "Electron Emission",
+     "hi": "इलेक्ट्रॉन उत्सर्जन",
+     "pdfPage": 2
+    },
+    {
+     "id": "11.3",
+     "title": "Photoelectric Effect",
+     "hi": "प्रकाश-विद्युत प्रभाव",
+     "pdfPage": 3
+    },
+    {
+     "id": "11.3.1",
+     "title": "Hertz's Observations",
+     "hi": "हर्ट्ज़ के परीक्षण",
+     "pdfPage": 3
+    },
+    {
+     "id": "11.3.2",
+     "title": "Hallwachs' and Lenard's Observations",
+     "hi": "हालवॉक्स तथा लीनार्ड के प्रेक्षण",
+     "pdfPage": 3
+    },
+    {
+     "id": "11.4",
+     "title": "Experimental Study of Photoelectric Effect",
+     "hi": "प्रकाश-विद्युत प्रभाव का प्रायोगिक अध्ययन",
+     "pdfPage": 4
+    },
+    {
+     "id": "11.4.1",
+     "title": "Effect of Intensity of Light on Photocurrent",
+     "hi": "प्रकाश-विद्युत धारा पर प्रकाश की तीव्रता का प्रभाव",
+     "pdfPage": 5
+    },
+    {
+     "id": "11.4.2",
+     "title": "Effect of Potential on Photoelectric Current",
+     "hi": "प्रकाश-विद्युत धारा पर विभव का प्रभाव",
+     "pdfPage": 5
+    },
+    {
+     "id": "11.4.3",
+     "title": "Effect of Frequency of Incident Radiation on Stopping Potential",
+     "hi": "निरोधी विभव पर आपतित विकिरण की आवृत्ति का प्रभाव",
+     "pdfPage": 6
+    },
+    {
+     "id": "11.5",
+     "title": "Photoelectric Effect and Wave Theory of Light",
+     "hi": "प्रकाश-विद्युत प्रभाव तथा प्रकाश का तरंग सिद्धांत",
+     "pdfPage": 7
+    },
+    {
+     "id": "11.6",
+     "title": "Einstein's Photoelectric Equation: Energy Quantum of Radiation",
+     "hi": "आइंस्टाइन का प्रकाश-विद्युत समीकरण : विकिरण का",
+     "pdfPage": 8
+    },
+    {
+     "id": "11.7",
+     "title": "Particle Nature of Light: The Photon",
+     "hi": "प्रकाश की कणीय प्रकृति : फ़ोटॉन",
+     "pdfPage": 10
+    },
+    {
+     "id": "11.8",
+     "title": "Wave Nature of Matter",
+     "hi": "द्रव्य की तरंग प्रकृति",
+     "pdfPage": 11
+    }
+   ]
+  },
+  "phy12-12": {
+   "pdf": "class12/physics/ch12-atoms.pdf",
+   "title": "Atoms",
+   "paragraphs": [
+    {
+     "id": "12.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "12.2",
+     "title": "Alpha-particle Scattering and Rutherford's Nuclear Model of Atom",
+     "hi": "ऐल्फ़ा कण प्रकीर्णन तथा परमाणु का रदरफोर्ड नाभिकीय मॉडल",
+     "pdfPage": 2
+    },
+    {
+     "id": "12.2.1",
+     "title": "Alpha-particle Trajectory",
+     "hi": "ऐल्फ़ा-कण प्रक्षेप-पथ",
+     "pdfPage": 5
+    },
+    {
+     "id": "12.2.2",
+     "title": "Electron Orbits",
+     "hi": "इलेक्ट्रॉन-कक्षाएँ",
+     "pdfPage": 6
+    },
+    {
+     "id": "12.3",
+     "title": "Atomic Spectra",
+     "hi": "परमाण्वीय स्पेक्ट्रम",
+     "pdfPage": 7
+    },
+    {
+     "id": "12.4",
+     "title": "Bohr Model of the Hydrogen Atom",
+     "hi": "हाइड्रोजन परमाणु का बोर मॉडल",
+     "pdfPage": 8
+    },
+    {
+     "id": "12.4.1",
+     "title": "Energy Levels",
+     "hi": "ऊर्जा स्तर",
+     "pdfPage": 11
+    },
+    {
+     "id": "12.5",
+     "title": "The Line Spectra of the Hydrogen Atom",
+     "hi": "हाइड्रोजन परमाणु का लाइन स्पेक्ट्रम",
+     "pdfPage": 11
+    },
+    {
+     "id": "12.6",
+     "title": "De Broglie's Explanation of Bohr's Second Postulate of Quantisation",
+     "hi": "बोर के क्वांटमीकरण के द्वितीय अभिगृहीत का",
+     "pdfPage": 12
+    }
+   ]
+  },
+  "phy12-13": {
+   "pdf": "class12/physics/ch13-nuclei.pdf",
+   "title": "Nuclei",
+   "paragraphs": [
+    {
+     "id": "13.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "13.2",
+     "title": "Atomic Masses and Composition of Nucleus",
+     "hi": "परमाणु द्रव्यमान एवं नाभिक की संरचना",
+     "pdfPage": 1
+    },
+    {
+     "id": "13.3",
+     "title": "Size of the Nucleus",
+     "hi": "नाभिक का साइज़",
+     "pdfPage": 4
+    },
+    {
+     "id": "13.4",
+     "title": "Mass-Energy and Nuclear Binding Energy",
+     "hi": "द्रव्यमान-उर्जा तथा नाभिकीय बंधन-उर्जा",
+     "pdfPage": 5
+    },
+    {
+     "id": "13.4.1",
+     "title": "Mass – Energy",
+     "hi": "द्रव्यमान-ऊर्जा",
+     "pdfPage": 5
+    },
+    {
+     "id": "13.4.2",
+     "title": "Nuclear Binding Energy",
+     "hi": "नाभिकीय बंधन-ऊर्जा",
+     "pdfPage": 5
+    },
+    {
+     "id": "13.5",
+     "title": "Nuclear Force",
+     "hi": "नाभिकीय बल",
+     "pdfPage": 8
+    },
+    {
+     "id": "13.6",
+     "title": "Radioactivity",
+     "hi": "रेडियोऐक्टिवता",
+     "pdfPage": 9
+    },
+    {
+     "id": "13.7",
+     "title": "Nuclear Energy",
+     "hi": "नाभिकीय ऊर्जा",
+     "pdfPage": 9
+    },
+    {
+     "id": "13.7.1",
+     "title": "Fission",
+     "hi": "विखंडन",
+     "pdfPage": 10
+    },
+    {
+     "id": "13.7.2",
+     "title": "Nuclear Fusion – Energy Generation in Stars",
+     "hi": "नाभिकीय संलयन-तारों में ऊर्जा जनन",
+     "pdfPage": 10
+    },
+    {
+     "id": "13.7.3",
+     "title": "Controlled Thermonuclear Fusion",
+     "hi": "नियंत्रित ताप नाभिकीय संलयन",
+     "pdfPage": 12
+    }
+   ]
+  },
+  "phy12-14": {
+   "pdf": "class12/physics/ch14-semiconductor-electronics.pdf",
+   "title": "Semiconductor Electronics",
+   "paragraphs": [
+    {
+     "id": "14.1",
+     "title": "Introduction",
+     "hi": "भूमिका",
+     "pdfPage": 1
+    },
+    {
+     "id": "14.2",
+     "title": "Classification of Metals, Conductors and Semiconductors",
+     "hi": "धातुओं, चालकों तथा अर्धचालकों का वर्गीकरण",
+     "pdfPage": 2
+    },
+    {
+     "id": "14.3",
+     "title": "Intrinsic Semiconductor",
+     "hi": "नैज अर्धचालक",
+     "pdfPage": 5
+    },
+    {
+     "id": "14.4",
+     "title": "Extrinsic Semiconductor",
+     "hi": "अपद्रव्यी अर्धचालक",
+     "pdfPage": 7
+    },
+    {
+     "id": "14.5",
+     "title": "p-n Junction",
+     "hi": "(b) में दिखाए ढंग से दृष्टित किया जा सकता है। नीचे वाले बाईं ओर के सहसंयोजी बंध",
+     "pdfPage": 7
+    },
+    {
+     "id": "14.5.1",
+     "title": "p-n Junction Formation",
+     "hi": "p-n संधि का निर्माण",
+     "pdfPage": 7
+    },
+    {
+     "id": "14.6",
+     "title": "Semiconductor Diode",
+     "hi": "अर्धचालक डायोड",
+     "pdfPage": 12
+    },
+    {
+     "id": "14.7",
+     "title": "Application of Junction Diode as a Rectifier",
+     "hi": "संधि डायोड का दिष्टकारी के रूप में अनुप्रयोग",
+     "pdfPage": 16
+    }
+   ]
+  }
+ }
+}

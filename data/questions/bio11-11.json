@@ -1,0 +1,1488 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-11",
+ "subject": "biology",
+ "class": 11,
+ "unit": 11,
+ "title": {
+  "en": "Photosynthesis in Higher Plants"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo111.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "11.1",
+   "title": "What Do We Know?",
+   "hi": "हम क्या जानते हैं?",
+   "pdfPage": 3
+  },
+  {
+   "id": "11.2",
+   "title": "Early Experiments",
+   "hi": "प्रारंभिक प्रयोग",
+   "pdfPage": 4
+  },
+  {
+   "id": "11.3",
+   "title": "Where Does Photosynthesis Take Place?",
+   "hi": "प्रकाश-संश्लेषण कहाँ संपन्न होता है?",
+   "pdfPage": 6
+  },
+  {
+   "id": "11.4",
+   "title": "How Many Types of Pigments Are Involved in Photosynthesis?",
+   "hi": "प्रकाश-संश्लेषण में कितने प्रकार",
+   "pdfPage": 7
+  },
+  {
+   "id": "11.5",
+   "title": "What Is Light Reaction?",
+   "hi": "प्रकाश अभिक्रिया क्या है?",
+   "pdfPage": 8
+  },
+  {
+   "id": "11.6",
+   "title": "The Electron Transport",
+   "hi": "इलेक्ट्रॉन परिवहन",
+   "pdfPage": 8
+  },
+  {
+   "id": "11.6.1",
+   "title": "Splitting of Water",
+   "hi": "जल का विघटन",
+   "pdfPage": 9
+  },
+  {
+   "id": "11.6.2",
+   "title": "Cyclic and Non-cyclic Photo-phosphorylation",
+   "hi": "चक्रीय एवं अचक्रीय फोटो-फोस्फोरीलेशन",
+   "pdfPage": 9
+  },
+  {
+   "id": "11.6.3",
+   "title": "Chemiosmotic Hypothesis",
+   "hi": "रसोपरासरणी परिकल्पना (केमिओस्मोटिक हाइपोथेसिस)",
+   "pdfPage": 10
+  },
+  {
+   "id": "11.7",
+   "title": "Where are the ATP and NADPH Used?",
+   "hi": "एटीपी तथा एनएडीपीएच कहाँ उपयोग होते हैं?",
+   "pdfPage": 12
+  },
+  {
+   "id": "11.7.1",
+   "title": "The Primary Acceptor of CO2",
+   "hi": "CO2 के प्राथमिकग्राही",
+   "pdfPage": 13
+  },
+  {
+   "id": "11.7.2",
+   "title": "The Calvin Cycle",
+   "hi": "केल्विन चक्र",
+   "pdfPage": 13
+  },
+  {
+   "id": "11.8",
+   "title": "The C4 Pathway",
+   "hi": "पथ C4",
+   "pdfPage": 15
+  },
+  {
+   "id": "11.9",
+   "title": "Photorespiration",
+   "hi": "प्रकाश श्वसन (फोटोरेस्पिरेशन)",
+   "pdfPage": 17
+  },
+  {
+   "id": "11.10",
+   "title": "Factors Affecting Photosynthesis",
+   "hi": "प्रकाश-संश्लेषण को प्रभावित करने वाले कारक",
+   "pdfPage": 19
+  },
+  {
+   "id": "11.10.1",
+   "title": "Light",
+   "hi": "प्रकाश",
+   "pdfPage": 19
+  },
+  {
+   "id": "11.10.2",
+   "title": "Carbon dioxide Concentration",
+   "hi": "कार्बन डाइऑक्साइड की सांद्रता",
+   "pdfPage": 20
+  },
+  {
+   "id": "11.10.3",
+   "title": "Temperature",
+   "hi": "ताप",
+   "pdfPage": 20
+  },
+  {
+   "id": "11.10.4",
+   "title": "Water",
+   "pdfPage": 20
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-11-neet-2015-re-exam-code-d-q29",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The oxygen evolved during photosynthesis comes from water molecules. Which one of the following pairs of elements is involved in this reaction?",
+     "o": [
+      "Manganese and Potassium",
+      "Magnesium and Molybdenum",
+      "Magnesium and Chlorine",
+      "Manganese and chlorine"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.6.1"
+    ],
+    "otherChapters": [
+     "Old NCERT 11 Ch 12 · Mineral Nutrition"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q29",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 4)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-11-neet-2015-re-exam-code-d-q59",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In photosynthesis, the light-independent reactions take place at :",
+     "o": [
+      "Photosystem I",
+      "Photosystem II",
+      "Stromal matrix",
+      "Thylakoid lumen"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q59",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 3)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-11-neet-2016-phase-1-code-a-q97",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Emerson’s enhancement effect and Red drop have been instrumental in the discovery of:",
+     "o": [
+      "Photophosphorylation and non – cyclic electron transport",
+      "Two photosystems operating simultaneously",
+      "Photophosphorylation and cyclic electron transport",
+      "Oxidative phosphorylation"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q97",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)",
+    "note": "Emerson's enhancement effect and red drop are not described in NCERT; NCERT states that two photosystems work together."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2016-phase-1-code-a-q103",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a chloroplast the highest number of protons are found in:",
+     "o": [
+      "Stroma",
+      "Lumen of thylakoids",
+      "Inter membrane space",
+      "Antennae complex"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.6.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q103",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-11-neet-2016-phase-1-code-a-q143",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A plant in your garden avoids photorespiratory losses, has improved water use efficiency, shows high rates of photosynthesis at high temperatures and has improved efficiency of nitrogen utilisation. In which of the following physiological groups would you assign this plant?",
+     "o": [
+      "C<sub>3</sub>",
+      "C<sub>4</sub>",
+      "CAM",
+      "Nitrogen fixer"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q143",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-11-neet-2016-phase-2-code-aa-q113",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The process which makes major difference between C<sub>3</sub> and C<sub>4</sub> plants is :",
+     "o": [
+      "Glycolysis",
+      "Calvin cycle",
+      "Photorespiration",
+      "Respiration"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q113",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 3)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-11-neet-2017-code-a-q142",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "With reference to factors affecting the rate of photosynthesis, which of the following statements is not correct?",
+     "o": [
+      "Light saturation for CO<sub>2</sub> fixation occurs at 10% of full sunlight",
+      "Increasing atmospheric CO<sub>2</sub> concentration up to 0.05% can enhance CO<sub>2</sub> fixation rate",
+      "C<sub>3</sub> plants respond to higher temperatures with enhanced photosynthesis while C<sub>4</sub> plants have much lower temperature optimum",
+      "Tomato is a greenhouse crop which can be grown in CO<sub>2</sub>-enriched atmosphere for higher yield"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.10.1",
+     "11.10.2",
+     "11.10.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q142",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-11-neet-2017-code-a-q164",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Phosphoenol pyruvate (PEP) is the primary CO<sub>2</sub> acceptor in :",
+     "o": [
+      "C<sub>3</sub> plants",
+      "C<sub>4</sub> plants",
+      "C<sub>2</sub> plants",
+      "C<sub>3</sub> and C<sub>4</sub> plants"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q164",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-11-neet-2018-code-aa-q91",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Oxygen is not produced during photosynthesis by :",
+     "o": [
+      "Cycas",
+      "Nostoc",
+      "Green sulphur bacteria",
+      "Chara"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q91",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 3)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)",
+    "note": "Anoxygenic photosynthesis of green sulphur bacteria is not in NCERT."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2018-code-aa-q120",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not a product of light reaction of photosynthesis?",
+     "o": [
+      "NADPH",
+      "NADH",
+      "ATP",
+      "Oxygen"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q120",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio11-11-neet-2020-code-f3-q120",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The oxygenation activity of RuBisCO enzyme in photorespiration leads to the formation of :",
+     "o": [
+      "1 molecule of 6-C compound",
+      "1 molecule of 4-C compound and 1 molecule of 2-C compound",
+      "2 molecules of 3-C compound",
+      "1 molecule of 3-C compound"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q120",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)",
+    "note": "NCERT: RuBP + O<sub>2</sub> gives one PGA (3-C) and one phosphoglycolate (2-C); the 3-C option is keyed."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2020-code-f3-q126",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In light reaction, plastoquinone facilitates the transfer of electrons from:",
+     "o": [
+      "PS-I to NADP<sup>+</sup>",
+      "PS-I to ATP synthase",
+      "PS-II to Cytb<sub>6</sub>f complex",
+      "Cytb<sub>6</sub>f complex to PS-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.6"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q126",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)",
+    "note": "Carriers between PS II and Cyt b6f are beyond NCERT."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2021-code-p3-q103",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The first stable product of CO<sub>2</sub> fixation in sorghum is :",
+     "o": [
+      "Phosphoglyceric acid",
+      "Pyruvic acid",
+      "Oxaloacetic acid",
+      "Succinic acid"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q103",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 3)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-11-neet-2021-code-p3-q141",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is incorrect?",
+     "o": [
+      "Cyclic photophosphorylation involves both PS I and PS II",
+      "Both ATP and NADPH + H<sup>+</sup> are synthesized during non-cyclic photophosphorylation",
+      "Stroma lamellae have PS I only and lack NADP reductase",
+      "Grana lamellae have both PS I and PS II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.6.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q141",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2022-code-t2-q105",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: The primary CO<sub>2</sub> acceptor in C<sub>4</sub> plants is phosphoenolpyruvate and is found in the mesophyll cells.<br>Statement II: Mesophyll cells of C<sub>4</sub> plants lack RuBisCO enzyme.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct",
+      "Both Statement I and Statement II are correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q105",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2022-code-t2-q129",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following is not true regarding the release of energy during ATP synthesis through chemiosmosis? It involves :",
+     "o": [
+      "Breakdown of electron gradient",
+      "Movement of protons across the membrane to the stroma",
+      "Reduction of NADP to NADPH<sub>2</sub> on the stroma side of the membrane",
+      "Breakdown of proton gradient"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.6.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q129",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2022-code-t2-q150",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the role of large bundle sheath cells found around the vascular bundles in C<sub>4</sub> plants?",
+     "o": [
+      "To increase the number of chloroplast for the operation of Calvin cycle",
+      "To enable the plant to tolerate high temperature",
+      "To protect the vascular tissue from high light intensity",
+      "To provide the site for photorespiratory pathway"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q150",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2023-topic-wise-copy-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which micronutrient is required for splitting of water molecule during photosynthesis?",
+     "o": [
+      "Copper",
+      "Manganese",
+      "Molybdenum",
+      "Magnesium"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.6.1"
+    ],
+    "otherChapters": [
+     "Old NCERT 11 Ch 12 · Mineral Nutrition"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q13",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2023-topic-wise-copy-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How many ATP and NADPH<sub>2</sub> are required for the synthesis of one molecule of glucose during Calvin cycle?",
+     "o": [
+      "18 ATP and 16 NADPH<sub>2</sub>",
+      "12 ATP and 12 NADPH<sub>2</sub>",
+      "18 ATP and 12 NADPH<sub>2</sub>",
+      "12 ATP and 16 NADPH<sub>2</sub>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q14",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2023-topic-wise-copy-q15",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The reaction centre in PS II has an absorption maxima at",
+     "o": [
+      "780 nm",
+      "680 nm",
+      "700 nm",
+      "660 nm"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q15",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2023-topic-wise-copy-q43",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following combinations is required for chemiosmosis?",
+     "o": [
+      "Proton pump, electron gradient, NADP synthase",
+      "Membrane, proton pump, proton gradient, ATP synthase",
+      "Membrane, proton pump, proton gradient, NADP synthase",
+      "Proton pump, electron gradient, ATP synthase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.6.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q43",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2024-q139-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How many molecules of ATP and NADPH are required for every molecule of CO<sub>2</sub> fixed in the Calvin cycle?",
+     "o": [
+      "2 molecules of ATP and 3 molecules of NADPH",
+      "2 molecules of ATP and 2 molecules of NADPH",
+      "3 molecules of ATP and 3 molecules of NADPH",
+      "3 molecules of ATP and 2 molecules of NADPH https://admin.esaral.com/quiz-pdf/6104 eSaral"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q139 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2024-q173-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: In C<sub>3</sub> plants, some O<sub>2</sub> binds to RuBisCO, hence CO<sub>2</sub> fixation is decreased.<br>Statement II: In C<sub>4</sub> plants, mesophyll cells show very little photorespiration while bundle sheath cells do not show photorespiration.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are true",
+      "Both Statement I and Statement II are false",
+      "Statement I is true but Statement II is false",
+      "Statement I is false but Statement II is true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.9",
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q173 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2024-q186-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following are required for the dark reaction of photosynthesis?<br>A. Light<br>B. Chlorophyll<br>C. CO<sub>2</sub><br>D. ATP<br>E. NADPH<br>Choose the correct answer from the options given below :",
+     "o": [
+      "B, C and D only",
+      "C, D and E only",
+      "D and E only",
+      "A, B and C only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.7"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q186 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2025-code-45-q122",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>A. Chlorophyll a — I. Yellow-green<br>B. Chlorophyll b — II. Yellow<br>C. Xanthophylls — III. Blue-green<br>D. Carotenoids — IV. Yellow to yellow-orange",
+     "o": [
+      "A-III, B-IV, C-II, D-I",
+      "A-III, B-I, C-II, D-IV",
+      "A-I, B-II, C-IV, D-III",
+      "A-I, B-IV, C-III, D-II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q122",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 2)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
+    "note": "Options overprinted/clipped in the eSaral copy; read from the page image (permutations completed)."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2025-code-45-q171",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements about RuBisCO is true?",
+     "o": [
+      "It is active only in the dark",
+      "It has higher affinity for oxygen than carbon dioxide",
+      "It is an enzyme involved in the photolysis of water",
+      "It catalyzes the carboxylation of RuBP"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.7.1",
+     "11.9"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q171",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 4)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio11-11-neet-2026-q96-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How many ATP and NADPH molecules are required to make one molecule of glucose through the Calvin pathway?",
+     "o": [
+      "12 ATP and 18 NADPH",
+      "18 ATP and 12 NADPH",
+      "6 ATP and 12 NADPH",
+      "24 ATP and 18 NADPH"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q96 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 2)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q133."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2026-q101-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Find the incorrect statement(s) about photosynthesis from the following :<br>A. The water splitting complex is associated with PS-I.<br>B. C<sub>4</sub> plants use the C<sub>3</sub> pathway of CO<sub>2</sub> fixation as their main biosynthetic pathway.<br>C. In C<sub>4</sub> plants, photorespiration does not occur.<br>D. C<sub>3</sub> plants exhibit 'Kranz' anatomy.<br>E. ATP synthesis in chloroplast occurs through chemiosmosis.<br>Choose the answer from the options given below :",
+     "o": [
+      "B and C only",
+      "B and E only",
+      "B only",
+      "A and D only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.6.1",
+     "11.6.3",
+     "11.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q101 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q128."
+   }
+  },
+  {
+   "id": "bio11-11-neet-2026-q131-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The enzyme required for carboxylation in the Calvin cy cle is :",
+     "o": [
+      "PEP carboxylase",
+      "RuBP carboxylase - oxygenase",
+      "Carboxypeptidase",
+      "Hexokinase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.7.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q131 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 2)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q98."
+   }
+  }
+ ]
+}

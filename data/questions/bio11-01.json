@@ -1,0 +1,538 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-01",
+ "subject": "biology",
+ "class": 11,
+ "unit": 1,
+ "title": {
+  "en": "The Living World"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo101.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "1.1",
+   "title": "Diversity in the Living World",
+   "hi": "जीव जगत में",
+   "pdfPage": 3
+  },
+  {
+   "id": "1.2",
+   "title": "Taxonomic Categories",
+   "hi": "वर्गिकी संवर्ग",
+   "pdfPage": 6
+  },
+  {
+   "id": "1.2.1",
+   "title": "Species",
+   "hi": "स्पीशीज (जाति)",
+   "pdfPage": 6
+  },
+  {
+   "id": "1.2.2",
+   "title": "Genus",
+   "hi": "वंश (जीनस)",
+   "pdfPage": 7
+  },
+  {
+   "id": "1.2.3",
+   "title": "Family",
+   "hi": "कुल",
+   "pdfPage": 7
+  },
+  {
+   "id": "1.2.4",
+   "title": "Order",
+   "hi": "गण (आर्डर)",
+   "pdfPage": 7
+  },
+  {
+   "id": "1.2.5",
+   "title": "Class",
+   "hi": "वर्ग (क्लास)",
+   "pdfPage": 7
+  },
+  {
+   "id": "1.2.6",
+   "title": "Phylum",
+   "hi": "संघ (फाइलम)",
+   "pdfPage": 7
+  },
+  {
+   "id": "1.2.7",
+   "title": "Kingdom",
+   "hi": "जगत (किंगडम)",
+   "pdfPage": 8
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-01-neet-2016-phase-1-code-a-q160",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Nomenclature is governed by certain universal rules. Which one of the following is contrary to the rules of nomenclature?",
+     "o": [
+      "Biological names can be written in any language",
+      "The first word in a biological name represents the genus name, and the second is a specific epithet",
+      "The names are written in Latin and are italicised",
+      "When written by hand, the names are to be underlined"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q160",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-01-neet-2016-phase-2-code-aa-q94",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The label of a herbarium sheet does not carry information on",
+     "o": [
+      "Date of collection",
+      "Name of collector",
+      "Local names",
+      "Height of the plant"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 1 · Taxonomical aids: herbarium"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q94",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)",
+    "note": "Taxonomical aids were removed from the rationalised NCERT; check the current NEET syllabus."
+   }
+  },
+  {
+   "id": "bio11-01-neet-2016-phase-2-code-aa-q137",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match Column I with Column II for housefly classification and select the correct option using the codes given below :<br>(a) Family — (i) Diptera<br>(b) Order — (ii) Arthropoda<br>(c) Class — (iii) Muscidae<br>(d) Phylum — (iv) Insecta",
+     "o": [
+      "(a) iii, (b) i, (c) iv, (d) ii",
+      "(a) iii, (b) ii, (c) iv, (d) i",
+      "(a) iv, (b) iii, (c) ii, (d) i",
+      "(a) iv, (b) ii, (c) i, (d) iii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q137",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-01-neet-2016-phase-2-code-aa-q139",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Study the four statements (A–D) given below and select the two correct ones out of them :<br>A. Definition of biological species was given by Ernst Mayr.<br>B. Photoperiod does not affect reproduction in plants.<br>C. Binomial nomenclature system was given by R.H. Whittaker.<br>D. In unicellular organisms, reproduction is synonymous with growth.",
+     "o": [
+      "B and C",
+      "C and D",
+      "A and D",
+      "A and B"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.1"
+    ],
+    "otherChapters": [
+     "Old NCERT 12 Ch 1 · Reproduction in Organisms"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q139",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 3)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-01-neet-2017-code-a-q113",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following represents order of 'Horse'?",
+     "o": [
+      "Equidae",
+      "Perissodactyla",
+      "Caballus",
+      "Ferus"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q113",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)",
+    "note": "NCERT does not classify the horse."
+   }
+  },
+  {
+   "id": "bio11-01-neet-2018-code-aa-q133",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the items given in Column I with those in Column II and select the correct option given below :<br>(a) Herbarium — (i) It is a place having a collection of preserved plants and animals.<br>(b) Key — (ii) A list that enumerates methodically all the species found in an area with brief description aiding identification.<br>(c) Museum — (iii) Is a place where dried and pressed plant specimens mounted on sheets are kept.<br>(d) Catalogue — (iv) A booklet containing a list of characters and their alternates which are helpful in identification of various taxa.",
+     "o": [
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iii, (b) ii, (c) i, (d) iv",
+      "(a) i, (b) iv, (c) iii, (d) ii",
+      "(a) iii, (b) iv, (c) i, (d) ii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [],
+    "oldRef": "Old NCERT 11 Ch 1 · Taxonomical aids"
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q133",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "old_ncert_only",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 4)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)",
+    "note": "Taxonomical aids were removed from the rationalised NCERT; check the current NEET syllabus."
+   }
+  },
+  {
+   "id": "bio11-01-neet-2019-code-s2-q85",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the correctly written scientific name of Mango which was first described by Carolus Linnaeus :",
+     "o": [
+      "Mangifera indica",
+      "Mangifera Indica",
+      "Mangifera indica Car. Linn.",
+      "Mangifera indica Linn."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q85",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)",
+    "note": "Option case as in the official paper (the copy capitalises every 'Indica')."
+   }
+  },
+  {
+   "id": "bio11-01-neet-2021-code-p3-q164",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following belongs to the family Muscidae?",
+     "o": [
+      "House fly",
+      "Fire fly",
+      "Grasshopper",
+      "Cockroach"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q164",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-01-neet-2022-code-t2-q173",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the taxonomic categories which hierarchical arrangement in ascending order is correct in case of animals?",
+     "o": [
+      "Kingdom, Class, Phylum, Family, Order, Genus, Species",
+      "Kingdom, Order, Class, Phylum, Family, Genus, Species",
+      "Kingdom, Order, Phylum, Class, Family, Genus, Species",
+      "Kingdom, Phylum, Class, Order, Family, Genus, Species"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q173",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-01-neet-2026-q103-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following statements is not true about the universal rules of binomial nomenclature?",
+     "o": [
+      "The first word in the biological name represents the specific epithet, while the second component denotes the genus.",
+      "The specific epithet in the biological name starts with a small letter.",
+      "Both the words in a biological name, when handwritten, are separately underlined or printed in italics.",
+      "Biological names are generally in Latin."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q103 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 1)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Code 13 booklet Q126."
+   }
+  }
+ ]
+}

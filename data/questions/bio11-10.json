@@ -1,0 +1,1858 @@
+{
+ "$schema": "../../docs/question-schema.json",
+ "schemaVersion": 1,
+ "chapter": "bio11-10",
+ "subject": "biology",
+ "class": 11,
+ "unit": 10,
+ "title": {
+  "en": "Cell Cycle and Cell Division"
+ },
+ "ncertPdf": "https://ncert.nic.in/textbook/pdf/kebo110.pdf",
+ "ncert_status": "in_ncert",
+ "syllabus_status": "current",
+ "paragraphs": [
+  {
+   "id": "10.1",
+   "title": "Cell Cycle",
+   "hi": "कोशिका चक्र",
+   "pdfPage": 1
+  },
+  {
+   "id": "10.1.1",
+   "title": "Phases of Cell Cycle",
+   "hi": "कोशिका चक्र की प्रावस्थाएं",
+   "pdfPage": 2
+  },
+  {
+   "id": "10.2",
+   "title": "M Phase",
+   "hi": "सूत्री विभाजन अवस्था (M प्रावस्था)",
+   "pdfPage": 3
+  },
+  {
+   "id": "10.2.1",
+   "title": "Prophase",
+   "hi": "पूर्वावस्था",
+   "pdfPage": 3
+  },
+  {
+   "id": "10.2.2",
+   "title": "Metaphase",
+   "hi": "मध्यावस्था",
+   "pdfPage": 4
+  },
+  {
+   "id": "10.2.3",
+   "title": "Anaphase",
+   "hi": "पश्चावस्था",
+   "pdfPage": 4
+  },
+  {
+   "id": "10.2.4",
+   "title": "Telophase",
+   "hi": "अंत्यावस्था",
+   "pdfPage": 5
+  },
+  {
+   "id": "10.2.5",
+   "title": "Cytokinesis",
+   "hi": "कोशिकाद्रव्य विभाजन (Cytokinesis)",
+   "pdfPage": 5
+  },
+  {
+   "id": "10.3",
+   "title": "Significance of Mitosis",
+   "hi": "सूत्री कोशिका विभाजन का महत्व",
+   "pdfPage": 6
+  },
+  {
+   "id": "10.4",
+   "title": "Meiosis",
+   "hi": "अर्धसूत्री विभाजन",
+   "pdfPage": 6
+  },
+  {
+   "id": "10.4.1",
+   "title": "Meiosis I",
+   "hi": "अर्धसूत्री विभाजन I",
+   "pdfPage": 7
+  },
+  {
+   "id": "10.4.2",
+   "title": "Meiosis II",
+   "hi": "अर्धसूत्री विभाजन II",
+   "pdfPage": 8
+  },
+  {
+   "id": "10.5",
+   "title": "Significance of Meiosis",
+   "pdfPage": 9
+  }
+ ],
+ "questions": [
+  {
+   "id": "bio11-10-neet-2015-re-exam-code-d-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Arrange the following events of meiosis in correct sequence :<br>(a) Crossing over<br>(b) Synapsis<br>(c) Terminalisation of chiasmata<br>(d) Disappearance of nucleolus",
+     "o": [
+      "(b), (a), (c), (d)",
+      "(a), (b), (c), (d)",
+      "(b), (c), (d), (a)",
+      "(b), (a), (d), (c)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2015,
+    "paper": "Re-exam Code D Q14",
+    "session": "25 Jul 2015 · AIPMT re-exam, Code D"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 1)",
+    "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2016-phase-1-code-a-q105",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Spindle fibres attach on to:",
+     "o": [
+      "Telomere of the chromosome",
+      "Kinetochore of the chromosome",
+      "Centromere of the chromosome",
+      "Kinetosome of the chromosome"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q105",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2016-phase-1-code-a-q118",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In meiosis crossing over is initiated at:",
+     "o": [
+      "Pachytene",
+      "Leptotene",
+      "Zygotene",
+      "Diplotene"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q118",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2016-phase-1-code-a-q172",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following is not a characteristic feature during mitosis in somatic cells?",
+     "o": [
+      "Spindle fibres",
+      "Disappearance of nucleolus",
+      "Chromosome movement",
+      "Synapsis"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1",
+     "10.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q172",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2016-phase-1-code-a-q179",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A cell at telophase stage is observed by a student in a plant brought from the field. He tells his teacher that this cell is not like other cells at telophase stage. There is no formation of cell plate and thus the cell is containing more number of chromosomes as compared to other dividing cells. This would result in :",
+     "o": [
+      "Aneuploidy",
+      "Polyploidy",
+      "Somaclonal variation",
+      "Polyteny"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 1 Code A Q179",
+    "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2016-phase-2-code-aa-q107",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "During cell growth, DNA synthesis takes place in",
+     "o": [
+      "S phase",
+      "G<sub>1</sub> phase",
+      "G<sub>2</sub> phase",
+      "M phase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q107",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)",
+    "note": "Phase subscripts restored (lost in the copy's text layer)."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2016-phase-2-code-aa-q145",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When cell has stalled DNA replication fork, which checkpoint should be predominantly activated?",
+     "o": [
+      "G<sub>1</sub>/S",
+      "G<sub>2</sub>/M",
+      "M",
+      "Both G<sub>2</sub>/M and M"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q145",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)",
+    "note": "Cell-cycle checkpoints are not in NCERT. The copy prints (1); the official key (2) is right: a stalled fork is caught at the G2/M checkpoint before mitosis. The copy prints (1)."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2016-phase-2-code-aa-q146",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the stages of meiosis of Column I to their characteristic features in Column II and select the correct option using the codes given below :<br>(a) Pachytene — (i) Pairing of homologous chromosomes<br>(b) Metaphase I — (ii) Terminalisation of chiasmata<br>(c) Diakinesis — (iii) Crossing-over takes place<br>(d) Zygotene — (iv) Chromosomes align at equatorial plate",
+     "o": [
+      "(a) iii, (b) iv, (c) ii, (d) i",
+      "(a) i, (b) iv, (c) ii, (d) iii",
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iv, (b) iii, (c) ii, (d) i"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2016,
+    "paper": "Phase 2 Code AA Q146",
+    "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 2 key, Code AA: 1)",
+    "keySource": "Official CBSE answer key, NEET 2016 Phase 2, Codes AA/PP/WW (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10073131/NEET-2016-Answer-keys-Phase-2-Code-AA-PP-WW.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2017-code-a-q102",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following options gives the correct sequence of events during mitosis?",
+     "o": [
+      "Condensation → nuclear membrane disassembly → crossing over → segregation → telophase",
+      "Condensation → nuclear membrane disassembly → arrangement at equator → centromere division → segregation → telophase",
+      "Condensation → crossing over → nuclear membrane disassembly → segregation → telophase",
+      "Condensation → arrangement at equator → centromere division → segregation → telophase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q102",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 2)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2017-code-a-q166",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Anaphase promoting complex (APC) is a protein degradation machinery necessary for proper mitosis of animal cells. If APC is defective in a human cell, which of the following is expected to occur?",
+     "o": [
+      "Chromosomes will not condense",
+      "Chromosomes will be fragmented",
+      "Chromosomes will not segregate",
+      "Recombination of chromosome arms will occur"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2017,
+    "paper": "Code A Q166",
+    "session": "7 May 2017 · Code A"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "outside_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2017 key, Code A: 3)",
+    "keySource": "Official CBSE answer key, NEET 2017, Code A (neet-sources/neet-papers/2017/answer-key-code-A.pdf)",
+    "note": "The anaphase-promoting complex is not in NCERT."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2018-code-aa-q123",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The stage during which separation of the paired homologous chromosomes begins is :",
+     "o": [
+      "Diakinesis",
+      "Diplotene",
+      "Pachytene",
+      "Zygotene"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2018,
+    "paper": "Code AA Q123",
+    "session": "6 May 2018 · Code AA"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (CBSE NEET 2018 key, Code AA: 2)",
+    "keySource": "Official CBSE answer key, NEET 2018, Code AA (neet-sources/neet-papers/2018/answer-key-code-AA.pdf)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2019-code-s2-q16",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Cells in G<sub>0</sub> phase :",
+     "o": [
+      "suspend the cell cycle",
+      "terminate the cell cycle",
+      "exit the cell cycle",
+      "enter the cell cycle"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q16",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)",
+    "note": "NCERT: cells 'exit G1 phase to enter an inactive stage called quiescent stage (G0)'; the copy prints (3) 'exit the cell cycle'. NTA's final key gives (1). The copy prints (3)."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2019-code-s2-q46",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The correct sequence of phases of cell cycle is:",
+     "o": [
+      "S → G<sub>1</sub> → G<sub>2</sub> → M",
+      "G<sub>1</sub> → S → G<sub>2</sub> → M",
+      "M → G<sub>1</sub> → G<sub>2</sub> → S",
+      "G<sub>1</sub> → G<sub>2</sub> → S → M"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2019,
+    "paper": "Code S2 Q46",
+    "session": "5 May 2019 · Code S2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2019 final key, Code S2: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2019, Codes S1–S6 (copy: https://cdn1.byjus.com/wp-content/uploads/2020/01/answer-key-2019-s1-s6.pdf; PDF not yet in neet-sources)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2020-code-f3-q104",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Identify the correct statement with regard to G<sub>1</sub> phase (Gap 1) of interphase :",
+     "o": [
+      "Cell is metabolically active, grows but does not replicate its DNA",
+      "Nuclear division takes place",
+      "DNA synthesis or replication takes place",
+      "Reorganisation of all cell components takes place"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q104",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2020-code-f3-q116",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Dissolution of the synaptonemal complex occurs during:",
+     "o": [
+      "Diplotene",
+      "Leptotene",
+      "Pachytene",
+      "Zygotene"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q116",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 1)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2020-code-f3-q132",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the following with respect to meiosis :<br>(a) Zygotene — (i) Terminalization<br>(b) Pachytene — (ii) Chiasmata<br>(c) Diplotene — (iii) Crossing over<br>(d) Diakinesis — (iv) Synapsis",
+     "o": [
+      "(a) i, (b) ii, (c) iv, (d) iii",
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iii, (b) iv, (c) i, (d) ii",
+      "(a) iv, (b) iii, (c) ii, (d) i"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q132",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2020-code-f3-q136",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Some dividing cells exit the cell cycle and enter vegetative inactive stage. This is called quiescent stage (G<sub>0</sub>). This process occurs at the end of :",
+     "o": [
+      "S phase",
+      "G<sub>2</sub> phase",
+      "M phase",
+      "G<sub>1</sub> phase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2020,
+    "paper": "Code F3 Q136",
+    "session": "13 Sep 2020 · Code F3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2020 final key, Code F3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2020, Book F3 (neet-sources/neet-papers/2020/nta-final-answer-keys.pdf)",
+    "note": "NCERT: cells 'exit G1 phase to enter an inactive stage called quiescent stage (G0)'. The copy prints (3)."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2021-code-p3-q114",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following stages of meiosis involves division of centromere?",
+     "o": [
+      "Telophase II",
+      "Metaphase I",
+      "Metaphase II",
+      "Anaphase II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q114",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2021-code-p3-q149",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(a) S phase — (i) Proteins are synthesized<br>(b) G<sub>2</sub> phase — (ii) Inactive phase<br>(c) Quiescent stage — (iii) Interval between mitosis and initiation of DNA replication<br>(d) G<sub>1</sub> phase — (iv) DNA replication",
+     "o": [
+      "(a) ii, (b) iv, (c) iii, (d) i",
+      "(a) iii, (b) ii, (c) i, (d) iv",
+      "(a) iv, (b) ii, (c) iii, (d) i",
+      "(a) iv, (b) i, (c) ii, (d) iii"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q149",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2021-code-p3-q154",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which stage of meiotic prophase shows terminalisation of chiasmata as its distinctive feature?",
+     "o": [
+      "Pachytene",
+      "Leptotene",
+      "Zygotene",
+      "Diakinesis"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q154",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 4)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2021-code-p3-q162",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The fruit fly has 8 chromosomes (2n) in each cell. During interphase of mitosis if the number of chromosomes at G<sub>1</sub> phase is 8, what would be the number of chromosomes after S phase?",
+     "o": [
+      "32",
+      "8",
+      "16",
+      "4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q162",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2021-code-p3-q182",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The centriole undergoes duplication during:",
+     "o": [
+      "G2 phase",
+      "S-phase",
+      "Prophase",
+      "Metaphase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2021,
+    "paper": "Code P3 Q182",
+    "session": "12 Sep 2021 · Code P3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2021 final key, Code P3: 2)",
+    "keySource": "NTA final answer keys, NEET (UG) 2021, Book P3 (neet-sources/neet-papers/2021/nta-final-answer-keys.pdf)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2022-code-t2-q103",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The appearance of recombination nodules on homologous chromosomes during meiosis characterizes :",
+     "o": [
+      "Bivalent",
+      "Sites at which crossing over occurs",
+      "Terminalization",
+      "Synaptonemal complex"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q103",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2022-code-t2-q122",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which one of the following never occurs during mitotic cell division ?",
+     "o": [
+      "Movement of centrioles towards opposite poles",
+      "Pairing of homologous chromosomes",
+      "Coiling and condensation of the chromatids",
+      "Spindle fibres attach to kinetochores of chromosomes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q122",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2022-code-t2-q152",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the incorrect statement with reference to mitosis:",
+     "o": [
+      "Spindle fibres attach to centromere of chromosomes.",
+      "Chromosomes decondense at telophase.",
+      "Splitting of centromere occurs at anaphase.",
+      "All the chromosomes lie at the equator at metaphase."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q152",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2022-code-t2-q179",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Regarding Meiosis, which of the statements is incorrect ?",
+     "o": [
+      "DNA replication occurs in S phase of Meiosis-II",
+      "Pairing of homologous chromosomes and recombination occurs in Meiosis-I",
+      "Four haploid cells are formed at the end of Meiosis-II",
+      "There are two stages in Meiosis, Meiosis-I and II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2022,
+    "paper": "Code T2 Q179",
+    "session": "17 Jul 2022 · Code T2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2023-topic-wise-copy-q8",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Among eukaryotes, replication of DNA takes place in",
+     "o": [
+      "G<sub>2</sub> phase",
+      "M phase",
+      "S phase",
+      "G<sub>1</sub> phase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q8",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2023-topic-wise-copy-q9",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following stages of meiosis involves division of centromere?",
+     "o": [
+      "Telophase",
+      "Metaphase I",
+      "Metaphase II",
+      "Anaphase II"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q9",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2023-topic-wise-copy-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The process of appearance of recombination nodules occurs at which sub stage of prophase I in meiosis?",
+     "o": [
+      "Diakinesis",
+      "Pachytene",
+      "Zygotene",
+      "Diplotene"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q10",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2023-topic-wise-copy-q40",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List-I with List-II :<br>(A) M Phase — (I) Proteins are synthesized<br>(B) G<sub>2</sub> Phase — (II) Inactive phase<br>(C) Quiescent stage — (III) Interval between mitosis and initiation of DNA replication<br>(D) G<sub>1</sub> Phase — (IV) Equational division",
+     "o": [
+      "A-II, B-IV, C-I, D-III",
+      "A-III, B-II, C-IV, D-I",
+      "A-IV, B-II, C-I, D-III",
+      "A-IV, B-I, C-II, D-III"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1",
+     "10.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q40",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 4; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2023-topic-wise-copy-q91",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: During G<sub>0</sub> phase of cell cycle the cell is metabolically inactive.<br>Statement II: The centrosome undergoes duplication during S phase of interphase.<br>In the light of the above statements, choose the most appropriate answer from the options given below :",
+     "o": [
+      "Statement I is incorrect but Statement II is correct",
+      "Both Statement I and Statement II are correct",
+      "Both Statement I and Statement II are incorrect.",
+      "Statement I is correct but Statement II is incorrect."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q91",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2023-topic-wise-copy-q92",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Select the correct statements :<br>A. Tetrad formation is seen during leptotene.<br>B. During anaphase, the centromeres split and chromatids separate.<br>C. Terminalization takes place during pachytene.<br>D. Nucleolus, Golgi complex and ER are reformed during telophase.<br>E. Crossing over takes place between sister chromatids of homologous chromosomes.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "B and E only",
+      "A and C only",
+      "B and D only",
+      "A, C and E only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2",
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2023,
+    "paper": "Topic-wise copy Q92",
+    "session": "7 May 2023"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
+    "note": "Section B (attempt any 10 of 15)."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2024-q153-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>List-I (Sub-phases of Prophase I) — List-II (Specific characters)<br>A. Diakinesis — I. Synaptonemal complex formation<br>B. Pachytene — II. Completion of terminalisation of chiasmata<br>C. Zygotene — III. Chromosomes look like thin threads<br>D. Leptotene — IV. Appearance of recombination nodules",
+     "o": [
+      "A-II, B-IV, C-I, D-III",
+      "A-IV, B-II, C-III, D-I",
+      "A-I, B-II, C-IV, D-III",
+      "A-IV, B-III, C-II, D-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q153 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet.",
+    "note": "Options overprinted in the copy; read from the page image."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2024-q154-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given below are two statements :<br>Statement I: Chromosomes become gradually visible under light microscope during leptotene stage.<br>Statement II: The beginning of diplotene stage is recognized by dissolution of synaptonemal complex.<br>In the light of the above statements, choose the correct answer from the options given below :",
+     "o": [
+      "Both Statement I and Statement II are true",
+      "Both Statement I and Statement II are false",
+      "Statement I is true but Statement II is false",
+      "Statement I is false but Statement II is true"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q154 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 1; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2024-q155-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Spindle fibres attach to kinetochores of chromosomes during :",
+     "o": [
+      "Prophase",
+      "Metaphase",
+      "Anaphase",
+      "Telophase"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q155 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 2; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2024-q182-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Following are the stages of cell division :<br>A. Gap 2 phase<br>B. Cytokinesis<br>C. Synthesis phase<br>D. Karyokinesis<br>E. Gap 1 phase<br>Choose the correct sequence of stages from the options given below :",
+     "o": [
+      "E − B − D − A − C",
+      "B − D − E − A − C",
+      "E − C − A − D − B",
+      "C − D − E − A − B"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2024,
+    "paper": "Q182 (eSaral copy)",
+    "session": "5 May 2024"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Answer printed in the copy: 3; matches our solving",
+    "keySource": "eSaral copy's printed key (neet-sources/neet-papers/2024/biology-with-solutions.pdf; right edge clipped, checked against page images). No NTA final key for 2024 in neet-sources yet."
+   }
+  },
+  {
+   "id": "bio11-10-neet-2025-code-45-q158",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the main function of the spindle fibres during mitosis?",
+     "o": [
+      "To separate the chromosomes",
+      "To synthesize new DNA",
+      "To repair damaged DNA",
+      "To regulate cell growth"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2025,
+    "paper": "Code 45 Q158",
+    "session": "4 May 2025 · Code 45"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)",
+    "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)"
+   }
+  },
+  {
+   "id": "bio11-10-neet-2026-q127-esaral-copy",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match List I with List II :<br>List I (Phase of cell cycle) — List II (Activity)<br>A. G<sub>1</sub> phase — I. Actual cell division occurs<br>B. S phase — II. Cell is metabolically active and continuously grows but does not replicate its DNA<br>C. G<sub>2</sub> phase — III. Synthesis of DNA occurs and the amount of DNA per cell doubles<br>D. M phase — IV. Proteins are synthesized while cell growth continues",
+     "o": [
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-I, C-II, D-III",
+      "A-I, B-II, C-III, D-IV",
+      "A-II, B-III, C-IV, D-I"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-10",
+    "paras": [
+     "10.1.1",
+     "10.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "NEET",
+    "year": 2026,
+    "paper": "Q127 (eSaral copy)",
+    "session": "3 May 2026"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the official key (NTA NEET 2026 key, Code 13 (mapped to the eSaral copy order): 4)",
+    "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
+    "note": "Options in the Code 13 booklet's order (the eSaral copy reorders them; read from the booklet scan). The copy prints (1). Code 13 booklet Q102."
+   }
+  }
+ ]
+}
