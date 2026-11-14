@@ -1990,6 +1990,61 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q92."
    }
+  },
+  {
+   "id": "bio12-13-ai-13-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match each example with the level of biodiversity it shows: (a) different potency and concentration of reserpine in <i>Rauwolfia vomitoria</i> from different Himalayan ranges; (b) the Western Ghats have more amphibian species than the Eastern Ghats; (c) India, with deserts, rain forests, mangroves, coral reefs and alpine meadows, has more ecosystem variety than Norway.",
+     "o": [
+      "(a) species, (b) genetic, (c) ecological",
+      "(a) genetic, (b) species, (c) ecological",
+      "(a) ecological, (b) species, (c) genetic",
+      "(a) genetic, (b) ecological, (c) species"
+     ],
+     "sol": "<p>NCERT 13.1: biodiversity (a term popularised by the sociobiologist Edward Wilson) is the combined diversity at all levels of biological organisation. The most important levels are: <b>genetic diversity</b> — variation within one species over its range, e.g. reserpine potency in <i>Rauwolfia vomitoria</i>, or India's 50,000 rice strains and 1,000 mango varieties; <b>species diversity</b> — e.g. more amphibian species in the Western Ghats than the Eastern Ghats; <b>ecological diversity</b> — at the ecosystem level, e.g. India versus Norway.</p>",
+     "hint": "Within a species → between species → between ecosystems."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "प्रत्येक उदाहरण को उसके द्वारा दर्शाए गए जैव विविधता के स्तर से मिलाइए: (a) हिमालय की विभिन्न श्रेणियों में उगने वाले <i>Rauwolfia vomitoria</i> में रेसरपिन की भिन्न क्षमता तथा सांद्रता; (b) पश्चिमी घाट में पूर्वी घाट से अधिक उभयचर जातियाँ हैं; (c) रेगिस्तान, वर्षा वन, गरान, प्रवाल भित्ति तथा एल्पाइन शाद्वल वाले भारत में नार्वे से अधिक पारितंत्र विविधता है।",
+     "o": [
+      "(a) जातीय, (b) आनुवंशिक, (c) पारिस्थितिकीय",
+      "(a) आनुवंशिक, (b) जातीय, (c) पारिस्थितिकीय",
+      "(a) पारिस्थितिकीय, (b) जातीय, (c) आनुवंशिक",
+      "(a) आनुवंशिक, (b) पारिस्थितिकीय, (c) जातीय"
+     ],
+     "sol": "<p>NCERT 13.1: जैव विविधता (सामाजिक जीववैज्ञानिक एडवर्ड विलसन द्वारा प्रचलित शब्द) जैविक संगठन के प्रत्येक स्तर पर उपस्थित विविधता है। अति महत्त्वपूर्ण स्तर: <b>आनुवंशिक विविधता</b> — एक ही जाति में उसके वितरण क्षेत्र में भिन्नता, जैसे <i>Rauwolfia vomitoria</i> में रेसरपिन की क्षमता, या भारत में धान की 50,000 तथा आम की 1,000 किस्में; <b>जातीय (स्पीशीज़) विविधता</b> — जैसे पश्चिमी घाट में पूर्वी घाट से अधिक उभयचर जातियाँ; <b>पारिस्थितिकीय विविधता</b> — पारितंत्र स्तर पर, जैसे भारत बनाम नार्वे।</p>",
+     "hint": "जाति के भीतर → जातियों के बीच → पारितंत्रों के बीच।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-13",
+    "paras": [
+     "13.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 13.1"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {
