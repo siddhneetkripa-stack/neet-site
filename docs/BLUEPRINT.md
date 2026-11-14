@@ -20,11 +20,12 @@ Question bank (`content/questions/`, 98 chapter files; `data/questions/` built):
 | --- | --- | --- | --- | --- |
 | Chemistry | 605 | all | draft | 908 JEE Main PYQs (Unit 1's 63 have solutions + Hindi; 845 from JEE Main 2024–2026 have neither yet); 139 NCERT Exercise / Exemplar / Practice (Unit 1, Thermodynamics) |
 | Physics | 605 | all | draft | none yet |
-| Biology | 1,210 | all | draft | 34 NCERT-coverage questions (NCERT Exercise / AI) with solutions + draft Hindi |
+| Biology | 1,210 | all | draft | 83 NCERT-coverage questions (NCERT Exercise / AI) with solutions + draft Hindi; every Biology NCERT paragraph now has a question |
 
-- All 3,501 questions: 219 `live` (Unit 1 and Thermodynamics prototype), 3,282 `draft`. Hindi: 2,517 `draft`, 139 `placeholder`, 845 `missing`, none proofread. `check_hindi.py`: 0 errors, 4 warnings (Physics terms that also have a Biology/Chemistry meaning).
+- All 3,550 questions: 219 `live` (Unit 1 and Thermodynamics prototype), 3,331 `draft`. Hindi: 2,566 `draft`, 139 `placeholder`, 845 `missing`, none proofread. `check_hindi.py`: 0 errors, 4 warnings (Physics terms that also have a Biology/Chemistry meaning).
 - Answers are checked against official CBSE/NTA keys where available (NEET 2015–2021, 2025, 2026 Code 13; JEE Main 2026 Session 2); 2022–2024 rely on the copies' keys plus our own solving. Key conflicts and bonus questions carry notes; bonus questions never go into tests.
-- Diagram questions written as text, needing redrawn figures: Physics 95, Chemistry NEET 47, JEE Main 61, Biology 19.
+- Diagram questions written as text, needing redrawn figures: Physics 95, Chemistry NEET 47, JEE Main 61, Biology 19 (Biology list with what each figure must show: docs/build-log.md, 14 Nov 2026 Biology entry).
+- **Biology pages (branch `claude/bio-pages`, 14 Nov 2026, waiting for the owner's merge):** done: NCERT coverage (0 paragraphs without a question), catalog (Hindi titles, ncertPdf, pdfPageOffset, old-NCERT `extras`, `pagesLive: true`), Hindi titles + printed pages for every paragraph, copy fixes, 19-figure list. Checked in headless Chromium on a local merge with `claude/pages-from-bank`: all 38 Biology pages, Hindi + English, 390 + 1280 px, no console errors; trend chips, "Revise these" and "Retry only these" work (also with storage blocked). Needs `claude/pages-from-bank` merged first (it has the bank-reading page). Next for Biology: Hindi proofreading, redrawn figures, second-model check of the 83 coverage questions.
 - NCERT paragraph ids for all three subjects (`content/ncert/`), Hindi term list (`content/glossary/hi-terms-used.json`, 1,749 terms checked against NCERT Hindi), official keys (`content/keys/neet-official-keys.json`).
 - Tools: `add_pyqs.py`, `apply_keys.py` (now keeps our own extra accepted options instead of silently dropping them), `add_solutions.py`, `check_hindi.py`, `make_paragraphs.py`, `build.py` (also computes the per-paragraph trend counts).
 
@@ -42,7 +43,7 @@ neet-sources: NCERT (English, Hindi Kruti Dev and Unicode text), NEET papers 201
 2. **Hindi proofreading** of all draft Hindi (Physics, Chemistry, Biology; old-NCERT chapters first, as they have no NCERT Hindi text to check against), status `draft` → `proofread`.
 3. **Redrawn figures** for the 222 diagram questions, then move checked PYQs from `draft` to `checked`.
 4. **JEE Main Chemistry**: tag 2020–2023, then solutions + Hindi for all JEE PYQs.
-5. **NCERT coverage questions**: 47 Biology paragraphs left; Physics and Chemistry not started.
+5. **NCERT coverage questions**: Biology done (`claude/bio-pages`); Physics and Chemistry not started.
 6. **CBT**: deploy (owner's accounts), Hindi-first styling of result/list pages, organic and inorganic chapter tests, then Physics/Biology tests and full mocks.
 7. **Open checks needing the printed booklets / official keys**: NEET 2022–2024 official keys; 2025 Code 45 Biology Q121, Q162, Chemistry Q69; 2016 P2 Physics Q4/Q15/Q17/Q19; 2016 P1 Physics Q22; 2022 Biology Q144/Q155; 2024 Biology Q131; 2020 F3 Biology Q174.
 8. Later phases (section 11): Practice Zone, analysis, parent report, partner portal, counselling, SEO pages; brand name, domain and prices are still the owner's decisions.

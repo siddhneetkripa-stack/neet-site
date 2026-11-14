@@ -200,3 +200,64 @@ Detailed notes written by each build session, moved here unchanged from docs/BLU
     - Next: 47 unasked Biology paragraphs left (bio11-08 4, bio11-10 4, bio11-11 4, bio11-14 3, bio11-15 3, bio11-18 3, bio11-19 3, bio12-04 3, bio11-02 2, bio11-06 2, bio11-07 2, bio11-09 2, bio11-12 2, bio12-01 2, bio12-08 2, bio11-16 1, bio11-17 1, bio12-03 1, bio12-09 1, bio12-10 1, bio12-13 1), one commit per chapter.
     - Note: on this branch no page renders Biology banks yet (the PYQ page reads content/pyq/; design/final-b-c has the new page). Wiring the bank to the page is front-end work for whoever merges the design.
   - Biology solutions + draft Hindi now cover every Biology bank (Class 11, Class 12, bio*-old-*); check_hindi 0 errors / 0 warnings. Next: a Hindi proofreader pass (all status "draft"), then owner review and merge of claude/bio-trends-solutions. Note for the proofreader: old-chapter Hindi (अंतःप्रजनन, जीवद्रव्यक, जैव प्रबलीकरण…) could not be matched to an NCERT Hindi book here; check against the old-edition Hindi books if they are added to neet-sources.
+
+## 14 Nov 2026 · Biology pages ready (branch `claude/bio-pages`)
+
+Work for publishing every Biology chapter as an "NCERT + PYQ" page. The page code is the shared one from `claude/pages-from-bank` (not edited here); this branch adds Biology content and data only.
+
+**1. NCERT coverage: done (0 Biology paragraphs without a question).** 49 questions for the 47 paragraphs left, one commit per chapter (two paragraphs got two questions that test different things: 11.2, 9.2.3). Format as before: `source.kind` "NCERT Exercise" (reworded as an MCQ) or "AI" (Practice), English + draft Hindi (NCERT Hindi terms) + worked solution, status draft, `review.note` says the second-model check is pending. Ids `<ch>-ncertex|ai-<para>-qN`.
+- NCERT Exercises used: 11 Bio 2.4, 2.10, 6.3, 6.7, 8.1, 10.12, 12.8, 15.4, 15.5; 12 Bio 4.7 (TtYy × Ttyy, tall green = 3/4 × 1/2 = 3/8), 4.11. The rest are our own questions.
+- Chapters: bio11-02 (2.2.2, 2.2.3), bio11-06 (6.2, 6.2.5), bio11-07 (7.1, 7.2), bio11-08 (8.1, 8.3, 8.5.2, 8.5.11), bio11-09 (9.8.1, 9.8.3), bio11-10 (10.1, 10.2.1, 10.2.4, 10.5), bio11-11 (11.2 ×2, 11.3, 11.10, 11.10.4), bio11-12 (12.1, 12.5), bio11-14 (14.4, 14.4.2, 14.5), bio11-15 (15.1, 15.2, 15.6), bio11-16 (16.6), bio11-17 (17.1), bio11-18 (18.1, 18.3.1, 18.4.2), bio11-19 (19.1, 19.2, 19.2.6), bio12-01 (1.1, 1.2), bio12-03 (3.3), bio12-04 (4.3, 4.6.1, 4.8), bio12-08 (8.2, 8.2.2), bio12-09 (9.2.3 ×2), bio12-10 (10.2), bio12-13 (13.1).
+- Numbers checked by computing: carbonic anhydrase 600000/s × 3600 ÷ 200/h ≈ 1.1 × 10^7 (NCERT: about 10 million times).
+- NCERT misprints found while writing (errata notes on the questions; proofreader please note):
+  - English 11 Bio p. 88 prints Mycoplasma as "0.3 mm"; should be 0.3 µm (the Hindi edition has 0.3 µm). Errata on bio11-08 8.3.
+  - Hindi 11 Bio p. 114 (9.8.1): carbonic anhydrase speeds the reaction "10 लाख गुना" (10^6); English and the arithmetic give about 10^7. Errata on bio11-09 9.8.1. The same paragraph prints "100 सेंटिग्रेड" for 10 °C.
+  - Hindi 11 Bio p. 137 (11.3): carbon reactions happen "सैद्धांतिक रूप में अंधेरे में"; the English book says they do not occur in darkness. Errata on bio11-11 11.3.
+  - Hindi 11 Bio p. 203 (15.6) mixes up heart failure, cardiac arrest and heart attack. Errata on bio11-15 15.6.
+  - Hindi 11 Bio p. 244 (19.2.6): thymosins promote "प्रतिजैविक" (antibiotics) instead of प्रतिरक्षी (antibodies). Errata on bio11-19 19.2.6.
+  - Hindi 11 Bio 17.1 prints "कूकूट पाद" (we use कूटपाद); Hindi 18.1 leaves out the Hydra/insect sentences; Hindi 12 Bio numbers 4.8.3 as "4.6.3"; Hindi 11 Bio has no heading for 10.5.
+- Glossary (`content/glossary/hi-terms-used.json`): new terms from each chapter's NCERT Hindi text (source "<ch> coverage"). `check: false` set on terms whose English word has another meaning or older wording elsewhere: aestivation, hibernation (floral aestivation in bio11-05), middle lamella, plasmodesmata (old-NCERT wording), water stress, bicarbonate, penicillin (Chemistry book spelling). Carbonic anhydrase Hindi aligned to NCERT's एनहाइड्रेज in bio11-09 2025 Q131 (bank + solutions file). noNcertTerm: limiting factor gloss, Emerson effect, Hydra/insects, cardiac arrest vs heart attack, transducin/retinene.
+
+**2. Page-ready data**
+- `content/catalog.json` (Biology): every chapter has `hi` (NCERT Hindi chapter title, each checked to occur in ncert-hi-text), `ncertPdf`, `pdfPageOffset`; per-class `extras` for the six old-NCERT banks (same format as Physics/Chemistry on `claude/pages-from-bank`); `"pagesLive": true` for Biology after the browser check below. Old-chapter Hindi titles (पौधों में परिवहन, खनिज पोषण, पाचन एवं अवशोषण, जीवों में जनन, खाद्य उत्पादन में वृद्धि की कार्यनीति, पर्यावरण के मुद्दे) are the old-edition names, not checkable here (no old Hindi books in neet-sources).
+- `pdfPageOffset` per chapter read from the printed page numbers inside the official chapter PDFs (neet-sources/ncert, same files as ncert.nic.in). Check: each chapter's offset + its PDF page count = the next chapter's offset, for all 19 + 13 chapters. Class 11: 0, 9, 22, 36, 54, 70, 78, 84, 103, 119, 130, 152, 165, 180, 192, 204, 216, 229, 238. Class 12: 0, 25, 40, 50, 78, 109, 126, 148, 160, 176, 187, 204, 215.
+- `content/ncert/biology-paragraphs.json`: every paragraph now has a Hindi title (49 added; mostly Class 12 headings that the Hindi text splits over two lines) and printed `pages` (from its first page to the page where the next paragraph starts, at most 4 pages). Kept in `content/ncert/paragraph-overrides.json` (`hiTitles`, `pdfPageOffset`) so `tools/make_paragraphs.py` reproduces them; the tool was changed to apply both (it reproduced the old file byte for byte before the additions). `tools/add_pyqs.py` copies `pages` and `pdfPageOffset` into new banks.
+- Biology banks: `paragraphs` carry `hi` + `pages`, bank has `pdfPageOffset`. Every bank question's `paras` exists in biology-paragraphs.json (checked).
+- **Old-NCERT banks (decision):** each of the six `bio1x-old-*` banks is its own page under "Old NCERT and practical topics" for its class (catalog `extras`), never in mocks. The shared page shows them as one list, newest paper first, with the old-NCERT topic on each card and the "not in the rationalised NCERT" notice; questions tagged `dropped_2024` (all except bio12-old-reproduction-in-organisms, which NEET still covers) sit under "Topics removed from the NEET syllabus in 2024" with "never in mock tests". Request below asks build.py to enforce the mock rule.
+
+**3. Copy debris.** Scanned every Biology stem/option (English and Hindi) in bank and batch: no eSaral/URL footers, page numbers or run-together options left (the 2024 footers listed earlier were already fixed); batch and bank texts match for all 1,210 PYQs. Two duplicate-option errors fixed (batch + bank + solutions file, review notes added):
+- 2016 Phase 1 Code A Q104 (bio11-18): option 4 restored from the scanned CBSE booklet (neet-sources/neet-papers/2016/phase-1-question-paper-code-A-P-W.pdf, p. 12) as "Transducin and Retinene"; the Aakash copy repeated option 1. Answer unchanged (2).
+- 2020 F3 Q174 (bio12-03): options 3 and 4 were printed the same in our copy; option 4 restored as "Gonorrhoea, Malaria, Genital herpes" as printed in published copies of the question (careers360, examside); its position follows our copy and the NTA key (3). Errata note still asks for a check against the printed F3 booklet.
+
+**4. Biology diagram questions (19) — figures to redraw as original SVGs** (never copy NCERT or paper figures; draw from the description):
+
+| Question | Key | What the figure must show |
+| --- | --- | --- |
+| bio11-05 2024 Q145 | 4 | Two L.S. flowers (a), (b), both perigynous: ovary in a cup-shaped thalamus, sepals/petals/stamens on the rim at ovary level |
+| bio11-05 2024 Q147 | 3 | L.S. maize grain labelled A coleoptile, B plumule, C radicle, D coleorhiza |
+| bio11-05 2025 Code 45 Q104 | 4 | Floral-formula symbols only: ⊕, % and G with a line below/above (can stay as text with an underlined/overlined G) |
+| bio11-05 2026 Q121 | 3 | Four Solanaceae floral formulas; the arc linking C and A (epipetalous) must be drawn; options differ in brackets and the arc |
+| bio11-06 2024 Q141 | 1 | Stomatal apparatus with bean-shaped guard cells: A epidermal cell, B subsidiary cell, C guard cell, D pore |
+| bio11-09 2016 P2 Q144 | 2 | Energy diagram: substrate higher than product (exothermic), small hump A (with enzyme), large hump B (without) |
+| bio11-09 2026 Q167 | 4 | Reaction scheme C(X)–C(Y) → X–Y + C=C (lyase); text scheme is enough |
+| bio11-16 2025 Code 45 Q125 | 2 | Four PCT/DCT diagrams with arrows: correct one = PCT reabsorbs HCO3−, NaCl, H2O and secretes H+, NH3; DCT reabsorbs NaCl, H2O, HCO3− and secretes K+, H+; the three wrong ones as in the solution |
+| bio11-17 2024 Q129 | 2 | Three muscle tissues: (a) skeletal striated cylindrical fibres, (b) smooth spindle cells, (c) cardiac branched striated cells |
+| bio12-01 2022 T2 Q147 | 2 | T.S. apple: A, B inner fruit wall/seed region, C fleshy thalamus, D seed |
+| bio12-01 2024 Q196 | 3 | Compact feathery grass-type inflorescence with long exposed dangling stamens (wind pollination) |
+| bio12-02 2024 Q101 | 1 | Flow chart GnRH → LH → (B) → androgens; GnRH → (A) → (C) → factors → (D) (text chart is enough) |
+| bio12-04 2015 Re-exam D Q31 | 2 | Pedigree: unaffected parents with affected son and daughter (autosomal recessive) |
+| bio12-04 2023 topic-wise Q72 | 3 | Four pedigree symbols; option 3 = male and female joined by a double line (consanguineous mating) |
+| bio12-04 2025 Code 45 Q152 | 1 | Three-generation pedigree, X-linked recessive: F1 carrier mother × normal father → affected son; F2 carrier female × affected cousin (double line); F3 children |
+| bio12-05 2021 P3 Q126 | 4 | Central dogma flow chart with blanks (a) replication loop, (b), (c), (d) (text chart is enough) |
+| bio12-09 2024 Q148 | 2 | pBR322 map with restriction sites; X at ori, Y at rop |
+| bio12-09 2025 Code 45 Q115 | 3 | Plasmid with ori, ampR, tetR and lacZ (β-galactosidase) containing an EcoRI site |
+| bio12-09 2025 Code 45 Q126 | 4 | Stirred-tank bioreactor: A impeller, B motor, C foam breaker, D sterile air inlet |
+
+**5. Browser check** (headless Chromium, on a local, unpushed merge of this branch with `claude/pages-from-bank`, rebuilt with build.py): all 38 Biology pages (32 chapters + 6 old-NCERT) × Hindi/English × 390/1280 px = 152 page loads: no console errors, no sideways scrolling, Hindi chapter and paragraph titles shown, "NCERT p. N · read in NCERT" links open the right PDF page (printed page − offset). Trend chips ("NEET n× · last YYYY", "Asked in the last 3 years", "new" in the paragraph list) present on every chapter page. On bio12-04: one wrong + one right answer → "Revise these §4.1 … · 1 wrong", the jump link scrolls to §4.1, "Retry only these" shows the wrong question (not the right one) plus the untried ones in that paragraph, and progress survives a reload. With localStorage blocked the page still renders and works. Home lists all 38 Biology pages once `pagesLive` is true.
+
+**Requests for files this branch must not edit** (for whoever owns `tools/build.py` / `assets/app.js`):
+- `tools/build.py`: refuse a test (content/tests) that includes questions with `syllabus_status: dropped_2024` or from a bank with `ncert_status: old_ncert_only`, so old-NCERT and dropped topics can never enter a mock.
+- `content/catalog.json` merge: both branches touch the end of the file (this branch: Biology entries; `claude/pages-from-bank`: trailing newline). If git reports a conflict there, keep both (Biology block from here, the rest from pages-from-bank), then run `python3 tools/build.py`.
+- No app.js change is needed for Biology.
+
+Next for Biology: owner merges `claude/pages-from-bank`, then this branch (rebase + rebuild first); Hindi proofreading (all draft); redraw the 19 figures above; second-model check of the 83 coverage questions; open booklet checks (2020 F3 Q174 option order, 2025 Code 45 Q121/Q162, 2022 Q144/Q155, 2024 Q131).
