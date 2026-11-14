@@ -3037,6 +3037,391 @@
     "keySource": "eSaral full-paper recall copy without answers (neet-sources/jee-main/2024/2024-09-01-shift-1-maths.pdf, chemistry part)",
     "note": "Reworded from the original paper to remove an ambiguity: “as classified in NCERT” is added, since NCERT's table marks arginine and histidine as essential."
    }
+  },
+  {
+   "id": "chem12-10-ai-10-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Chemically, carbohydrates are best defined as:",
+     "o": [
+      "compounds of formula C<sub>x</sub>(H<sub>2</sub>O)<sub>y</sub> only, i.e. hydrates of carbon",
+      "polymers of α-amino acids",
+      "optically active polyhydroxy aldehydes or ketones, or compounds that give such units on hydrolysis",
+      "esters of glycerol with long-chain fatty acids"
+     ],
+     "sol": "<p>NCERT 10.1: many carbohydrates fit C<sub>x</sub>(H<sub>2</sub>O)<sub>y</sub> and were once thought to be hydrates of carbon, but the definition fails both ways: rhamnose, C<sub>6</sub>H<sub>12</sub>O<sub>5</sub>, is a carbohydrate that does not fit it, while acetic acid, CH<sub>3</sub>COOH (C<sub>2</sub>(H<sub>2</sub>O)<sub>2</sub>), fits it but is not a carbohydrate. So carbohydrates are defined as optically active polyhydroxy aldehydes or ketones, or compounds which produce such units on hydrolysis. Polymers of α-amino acids are proteins; glycerol esters are fats.</p>",
+     "hint": "Acetic acid fits the formula C<sub>2</sub>(H<sub>2</sub>O)<sub>2</sub>."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "रासायनिक रूप से कार्बोहाइड्रेटों की सबसे उपयुक्त परिभाषा है:",
+     "o": [
+      "केवल C<sub>x</sub>(H<sub>2</sub>O)<sub>y</sub> सूत्र वाले यौगिक, अर्थात् कार्बन के हाइड्रेट",
+      "α-ऐमीनो अम्लों के बहुलक",
+      "ध्रुवण घूर्णक पॉलिहाइड्रॉक्सी ऐल्डिहाइड या कीटोन, अथवा वे यौगिक जो जलअपघटन पर ऐसी इकाइयाँ देते हैं",
+      "दीर्घ श्रृंखला वसा अम्लों के साथ ग्लिसरॉल के एस्टर"
+     ],
+     "sol": "<p>NCERT 10.1: अनेक कार्बोहाइड्रेट C<sub>x</sub>(H<sub>2</sub>O)<sub>y</sub> में आते हैं और पहले इन्हें कार्बन के हाइड्रेट माना गया, पर यह परिभाषा दोनों ओर से विफल है: रैम्नोस, C<sub>6</sub>H<sub>12</sub>O<sub>5</sub>, कार्बोहाइड्रेट है पर इस सूत्र में नहीं आता, जबकि ऐसीटिक अम्ल, CH<sub>3</sub>COOH (C<sub>2</sub>(H<sub>2</sub>O)<sub>2</sub>), सूत्र में आता है पर कार्बोहाइड्रेट नहीं है। अतः कार्बोहाइड्रेटों को ध्रुवण घूर्णक पॉलिहाइड्रॉक्सी ऐल्डिहाइड या कीटोन, अथवा जलअपघटन पर ऐसी इकाइयाँ देने वाले यौगिकों के रूप में परिभाषित किया जाता है। α-ऐमीनो अम्लों के बहुलक प्रोटीन हैं; ग्लिसरॉल के एस्टर वसा हैं।</p>",
+     "hint": "ऐसीटिक अम्ल सूत्र C<sub>2</sub>(H<sub>2</sub>O)<sub>2</sub> में आता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-10",
+    "paras": [
+     "10.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-10-ai-10-1-1-q1",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the carbohydrate with its class: (a) fructose; (b) maltose; (c) glycogen. (i) polysaccharide; (ii) monosaccharide; (iii) oligosaccharide (disaccharide).",
+     "o": [
+      "(a)–(iii), (b)–(ii), (c)–(i)",
+      "(a)–(ii), (b)–(iii), (c)–(i)",
+      "(a)–(ii), (b)–(i), (c)–(iii)",
+      "(a)–(i), (b)–(iii), (c)–(ii)"
+     ],
+     "sol": "<p>NCERT 10.1.1: monosaccharides cannot be hydrolysed further to simpler polyhydroxy aldehydes or ketones (about 20 occur in nature: glucose, fructose, ribose). Oligosaccharides give two to ten monosaccharide units on hydrolysis; disaccharides are the most important: maltose gives two glucose units, sucrose gives glucose + fructose. Polysaccharides give a large number of units: starch, cellulose, glycogen, gums. Sugars (mono- and oligosaccharides) are sweet; polysaccharides are not, and are called non-sugars.</p>",
+     "hint": "Count the units released on hydrolysis."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कार्बोहाइड्रेट का उसके वर्ग से मिलान कीजिए: (a) फ्रक्टोज़; (b) माल्टोस; (c) ग्लाइकोजन। (i) पॉलिसैकैराइड; (ii) मोनोसैकैराइड; (iii) ओलिगोसैकैराइड (डाइसैकैराइड)।",
+     "o": [
+      "(a)–(iii), (b)–(ii), (c)–(i)",
+      "(a)–(ii), (b)–(iii), (c)–(i)",
+      "(a)–(ii), (b)–(i), (c)–(iii)",
+      "(a)–(i), (b)–(iii), (c)–(ii)"
+     ],
+     "sol": "<p>NCERT 10.1.1: मोनोसैकैराइड को और अधिक सरल पॉलिहाइड्रॉक्सी ऐल्डिहाइड या कीटोन में जल अपघटित नहीं किया जा सकता (प्रकृति में लगभग 20 ज्ञात: ग्लूकोस, फ्रक्टोज़, राइबोस)। ओलिगोसैकैराइड जलअपघटन पर मोनोसैकैराइड की दो से दस इकाइयाँ देते हैं; डाइसैकैराइड प्रमुख हैं: माल्टोस दो ग्लूकोस इकाइयाँ देता है, सूक्रोस ग्लूकोस + फ्रक्टोज़। पॉलिसैकैराइड अत्यधिक संख्या में इकाइयाँ देते हैं: स्टार्च, सेलुलोस, ग्लाइकोजन, गोंद। शर्कराएँ (मोनो- तथा ओलिगोसैकैराइड) मीठी होती हैं; पॉलिसैकैराइड मीठे नहीं होते और अशर्करा कहलाते हैं।</p>",
+     "hint": "जलअपघटन पर निकलने वाली इकाइयाँ गिनिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-10",
+    "paras": [
+     "10.1.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.1.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-10-ai-10-1-5-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the importance of carbohydrates is <b>incorrect</b>?",
+     "o": [
+      "Starch is stored in plants and glycogen in animals as reserve food.",
+      "Cellulose in the form of wood is used for furniture, and as cotton fibre for cloth.",
+      "D-ribose and 2-deoxy-D-ribose are present in nucleic acids.",
+      "Cellulose is digested by human beings and is their major energy store."
+     ],
+     "sol": "<p>NCERT 10.1.5: carbohydrates are essential for life in plants and animals: honey has long been used in Ayurveda; starch (plants) and glycogen (animals) are storage molecules; the cell wall of bacteria and plants is made of cellulose; we build furniture from wood (cellulose) and clothe ourselves with cotton fibre (cellulose); they provide raw materials for textiles, paper, lacquers and breweries. Two aldopentoses, D-ribose and 2-deoxy-D-ribose, are present in nucleic acids. Humans cannot digest cellulose (it is a major part of the diet of cows and other herbivores), so (4) is incorrect.</p>",
+     "hint": "Who can eat grass?"
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कार्बोहाइड्रेटों के महत्व के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "आरक्षित भोज्य पदार्थ के रूप में पौधों में स्टार्च और जंतुओं में ग्लाइकोजन संचित होते हैं।",
+      "लकड़ी के रूप में सेलुलोस फ़र्नीचर बनाने में और कपास के रेशे के रूप में कपड़े बनाने में प्रयुक्त होता है।",
+      "D-राइबोस तथा 2-डीऑक्सी-D-राइबोस न्यूक्लिक अम्लों में उपस्थित होते हैं।",
+      "मनुष्य सेलुलोस को पचा लेते हैं और यह उनका मुख्य ऊर्जा भंडार है।"
+     ],
+     "sol": "<p>NCERT 10.1.5: कार्बोहाइड्रेट पौधों और जंतुओं के जीवन के लिए आवश्यक हैं: शहद लंबे समय से आयुर्वेद में प्रयुक्त होता रहा है; स्टार्च (पौधे) तथा ग्लाइकोजन (जंतु) संचित अणु हैं; जीवाणुओं और पौधों की कोशिका भित्ति सेलुलोस की बनी होती है; लकड़ी (सेलुलोस) से फ़र्नीचर और कपास के रेशे (सेलुलोस) से कपड़े बनते हैं; ये वस्त्र, कागज़, लाख तथा मद्य उद्योगों के लिए कच्चा माल देते हैं। दो ऐल्डोपेन्टोस, D-राइबोस तथा 2-डीऑक्सी-D-राइबोस, न्यूक्लिक अम्लों में उपस्थित हैं। मनुष्य सेलुलोस नहीं पचा सकते (यह गाय जैसे शाकाहारी जंतुओं के आहार का मुख्य भाग है), अतः (4) गलत है।</p>",
+     "hint": "घास कौन खा सकता है?"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-10",
+    "paras": [
+     "10.1.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.1.5"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-10-ai-10-2-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the statements about proteins (NCERT 10.2):<br>I. They are polymers of α-amino acids.<br>II. They occur in every part of the body and form the fundamental basis of structure and functions of life.<br>III. Milk, cheese, pulses, peanuts, fish and meat are rich sources.<br>Which are correct?",
+     "o": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I only"
+     ],
+     "sol": "<p>NCERT 10.2: proteins are the most abundant biomolecules of the living system. The chief sources are milk, cheese, pulses, peanuts, fish, meat etc. They occur in every part of the body and form the fundamental basis of structure and functions of life; they are needed for growth and maintenance of the body. The word protein comes from the Greek \"proteios\", meaning primary or of prime importance. All proteins are polymers of α-amino acids. All three statements are correct.</p>",
+     "hint": "Protein = \"of prime importance\"."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "प्रोटीनों के बारे में कथनों पर विचार कीजिए (NCERT 10.2):<br>I. ये α-ऐमीनो अम्लों के बहुलक हैं।<br>II. ये शरीर के प्रत्येक भाग में पाए जाते हैं और जीवन की संरचना तथा कार्यों का मूलभूत आधार हैं।<br>III. दूध, पनीर, दालें, मूँगफली, मछली तथा माँस इनके प्रमुख स्रोत हैं।<br>कौन-से सही हैं?",
+     "o": [
+      "I, II और III",
+      "केवल I और II",
+      "केवल II और III",
+      "केवल I"
+     ],
+     "sol": "<p>NCERT 10.2: प्रोटीन जीवित तंत्र में सबसे अधिक मात्रा में पाए जाने वाले जैव अणु हैं। इनके प्रमुख स्रोत दूध, पनीर, दालें, मूँगफली, मछली, माँस आदि हैं। ये शरीर के प्रत्येक भाग में पाए जाते हैं और जीवन की संरचना तथा कार्यों का मूलभूत आधार हैं; शरीर की वृद्धि और अनुरक्षण के लिए ये आवश्यक हैं। प्रोटीन शब्द ग्रीक शब्द \"proteios\" से बना है, जिसका अर्थ है प्राथमिक या अत्यधिक महत्व का। सभी प्रोटीन α-ऐमीनो अम्लों के बहुलक हैं। तीनों कथन सही हैं।</p>",
+     "hint": "प्रोटीन = \"अत्यधिक महत्व का\"।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-10",
+    "paras": [
+     "10.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.2"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-10-ai-10-4-q1",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the vitamin with the disease caused by its deficiency: (a) vitamin A; (b) vitamin B<sub>1</sub> (thiamine); (c) vitamin C; (d) vitamin D. (i) scurvy (bleeding gums); (ii) rickets and osteomalacia; (iii) xerophthalmia and night blindness; (iv) beri beri.",
+     "o": [
+      "(a)–(iv), (b)–(iii), (c)–(i), (d)–(ii)",
+      "(a)–(iii), (b)–(iv), (c)–(ii), (d)–(i)",
+      "(a)–(iii), (b)–(iv), (c)–(i), (d)–(ii)",
+      "(a)–(ii), (b)–(iv), (c)–(i), (d)–(iii)"
+     ],
+     "sol": "<p>NCERT 10.4 (Table 10.3): vitamin A → xerophthalmia (hardening of the cornea) and night blindness; B<sub>1</sub> (thiamine) → beri beri; C (ascorbic acid) → scurvy (bleeding gums); D → rickets in children and osteomalacia in adults. Vitamins A, D, E and K are fat soluble and stored in liver and adipose tissue; B-group vitamins and C are water soluble and must be supplied regularly in the diet (except B<sub>12</sub>, which is stored).</p>",
+     "hint": "Vitamin C: citrus fruits and gums."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "विटामिन का उसकी कमी से होने वाले रोग से मिलान कीजिए: (a) विटामिन A; (b) विटामिन B<sub>1</sub> (थायेमीन); (c) विटामिन C; (d) विटामिन D। (i) स्कर्वी (मसूड़ों से रक्त आना); (ii) रिकेट्स तथा ऑस्टियोमेलेशिया; (iii) ज़िॲरॉफथैल्मिया तथा रात्रि अंधता; (iv) बेरी-बेरी।",
+     "o": [
+      "(a)–(iv), (b)–(iii), (c)–(i), (d)–(ii)",
+      "(a)–(iii), (b)–(iv), (c)–(ii), (d)–(i)",
+      "(a)–(iii), (b)–(iv), (c)–(i), (d)–(ii)",
+      "(a)–(ii), (b)–(iv), (c)–(i), (d)–(iii)"
+     ],
+     "sol": "<p>NCERT 10.4 (सारणी 10.3): विटामिन A → ज़िॲरॉफथैल्मिया (आँख के कॉर्निया का कठोरीकरण) तथा रात्रि अंधता; B<sub>1</sub> (थायेमीन) → बेरी-बेरी; C (ऐस्कॉर्बिक अम्ल) → स्कर्वी (मसूड़ों से रक्त आना); D → बच्चों में रिकेट्स तथा वयस्कों में ऑस्टियोमेलेशिया। विटामिन A, D, E तथा K वसा में विलेय हैं और यकृत तथा ऐडिपोस ऊतकों में संचित होते हैं; B-समूह के विटामिन तथा C जल में विलेय हैं और आहार में नियमित रूप से मिलने चाहिए (B<sub>12</sub> को छोड़कर, जो संचित होता है)।</p>",
+     "hint": "विटामिन C: खट्टे फल और मसूड़े।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-10",
+    "paras": [
+     "10.4"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.4"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-10-ai-10-5-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about nucleic acids is <b>incorrect</b>?",
+     "o": [
+      "They are long-chain polymers of nucleotides, also called polynucleotides.",
+      "The sugar in DNA is β-D-ribose and the sugar in RNA is β-D-2-deoxyribose.",
+      "DNA contains the bases A, G, C and T; RNA contains A, G, C and U.",
+      "They are responsible for heredity and for the synthesis of proteins in the cell."
+     ],
+     "sol": "<p>NCERT 10.5: the particles in the nucleus responsible for heredity are chromosomes, made of proteins and nucleic acids: DNA and RNA. Nucleic acids are long-chain polymers of nucleotides (polynucleotides). Complete hydrolysis gives a pentose sugar, phosphoric acid and nitrogenous bases. The sugar in DNA is β-D-2-<b>deoxy</b>ribose and in RNA β-D-ribose, so (2) has them swapped. DNA bases: adenine, guanine, cytosine, thymine; RNA: adenine, guanine, cytosine, uracil. Nucleic acids direct protein synthesis and carry the genetic information.</p>",
+     "hint": "D in DNA stands for deoxy."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "न्यूक्लिक अम्लों के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "ये न्यूक्लिओटाइडों के दीर्घ श्रृंखला बहुलक हैं, जिन्हें पॉलिन्यूक्लिओटाइड भी कहते हैं।",
+      "DNA में शर्करा β-D-राइबोस तथा RNA में शर्करा β-D-2-डीऑक्सीराइबोस होती है।",
+      "DNA में क्षारक A, G, C तथा T होते हैं; RNA में A, G, C तथा U।",
+      "ये आनुवंशिकता तथा कोशिका में प्रोटीन संश्लेषण के लिए उत्तरदायी हैं।"
+     ],
+     "sol": "<p>NCERT 10.5: केंद्रक में आनुवंशिकता के लिए उत्तरदायी कण क्रोमोसोम हैं, जो प्रोटीन और न्यूक्लिक अम्लों, DNA तथा RNA, से बने होते हैं। न्यूक्लिक अम्ल न्यूक्लिओटाइडों के दीर्घ श्रृंखला बहुलक (पॉलिन्यूक्लिओटाइड) हैं। पूर्ण जलअपघटन से एक पेन्टोस शर्करा, फ़ॉस्फ़ोरिक अम्ल तथा नाइट्रोजनी क्षारक मिलते हैं। DNA में शर्करा β-D-2-<b>डीऑक्सी</b>राइबोस तथा RNA में β-D-राइबोस है, अतः (2) में ये उलटे हैं। DNA के क्षारक: ऐडेनीन, ग्वानीन, साइटोसीन, थायमीन; RNA के: ऐडेनीन, ग्वानीन, साइटोसीन, यूरेसिल। न्यूक्लिक अम्ल प्रोटीन संश्लेषण का निर्देशन करते हैं और आनुवंशिक सूचना वहन करते हैं।</p>",
+     "hint": "DNA में D का अर्थ डीऑक्सी है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-10",
+    "paras": [
+     "10.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.5"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-10-ai-10-6-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Insulin and glucagon together control blood glucose. Chemically insulin is a:",
+     "o": [
+      "polypeptide hormone that lowers blood glucose when it rises",
+      "steroid hormone that raises blood glucose",
+      "derivative of a single amino acid that raises blood glucose",
+      "vitamin stored in the liver"
+     ],
+     "sol": "<p>NCERT 10.6: hormones are molecules that act as intercellular messengers; they are produced by endocrine glands and released directly into the blood stream. By chemical nature some are steroids (oestrogens, androgens), some are polypeptides (insulin, endorphins), and some are amino acid derivatives (epinephrine, norepinephrine). Insulin is released when blood glucose rises rapidly and keeps it within a narrow range; glucagon tends to increase blood glucose. Together they regulate the glucose level.</p>",
+     "hint": "Insulin has 51 amino acids."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "इन्सुलिन तथा ग्लूकागॉन मिलकर रक्त में ग्लूकोस की मात्रा नियंत्रित करते हैं। रासायनिक रूप से इन्सुलिन है:",
+     "o": [
+      "एक पॉलिपेप्टाइड हॉर्मोन, जो रक्त में ग्लूकोस बढ़ने पर उसे घटाता है",
+      "एक स्टेरॉयड हॉर्मोन, जो रक्त में ग्लूकोस बढ़ाता है",
+      "एक ही ऐमीनो अम्ल का व्युत्पन्न, जो रक्त में ग्लूकोस बढ़ाता है",
+      "यकृत में संचित एक विटामिन"
+     ],
+     "sol": "<p>NCERT 10.6: हॉर्मोन वह अणु होते हैं जो कोशिकाओं के मध्य संदेशवाहक का कार्य करते हैं; ये अंतः-स्रावी ग्रंथियों में बनते हैं और सीधे रक्त धारा में प्रवाहित किए जाते हैं। रासायनिक प्रकृति के अनुसार कुछ स्टेरॉयड हैं (एस्ट्रोजन, ऐन्ड्रोजन), कुछ पॉलिपेप्टाइड (इन्सुलिन, एन्डोर्फिन), और कुछ ऐमीनो अम्लों के व्युत्पन्न (एपिनेफरिन, नॉरएपिनेफरिन)। रक्त में ग्लूकोस की मात्रा तेज़ी से बढ़ने पर इन्सुलिन निकलती है और उसे सीमित रखती है; ग्लूकागॉन की प्रवृत्ति ग्लूकोस की मात्रा बढ़ाने की होती है। दोनों मिलकर ग्लूकोस की मात्रा नियंत्रित करते हैं।</p>",
+     "hint": "इन्सुलिन में 51 ऐमीनो अम्ल होते हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-10",
+    "paras": [
+     "10.6"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 10.6"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
