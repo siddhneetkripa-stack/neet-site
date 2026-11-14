@@ -67,9 +67,11 @@ DELETE FROM questions WHERE test_slug = ${q(t.slug)};`);
     // the result page's weak-area lists; format and difficulty are labels only.
     const pub = { id: x.id, type: x.type || (x.answer.kind === "numeric" ? "numeric" : "single"), topic: x.topic, paras: x.paras || [],
       chapter: x.chapter || t.chapter || null, paraTitles: x.paraTitles || [], section: x.section || null,
-      format: x.format || null, difficulty: x.difficulty || null,
+      format: x.format || null, difficulty: x.difficulty || null, media: (x.media || []).filter((m) => m.where !== "solution"),
       text: Object.fromEntries(["en", "hi"].map((l) => [l, { status: x.text[l].status, q: x.text[l].q, o: x.text[l].o || [] }])) };
     const sol = Object.fromEntries(["en", "hi"].map((l) => [l, { sol: x.text[l].sol || "", hint: x.text[l].hint || "", trap: x.text[l].trap || "" }]));
+    const solMedia = (x.media || []).filter((m) => m.where === "solution");
+    if (solMedia.length) sol.media = solMedia; // a figure under the solution may give the answer away: sent after submitting only
     if (x.source) sol.source = x.source; // e.g. "NEET 2019": shown with the solution, after submitting
     out.push(`INSERT INTO questions (test_slug, qno, qid, public, answer, solution) VALUES (${q(t.slug)}, ${i + 1}, ${q(x.id)}, ${q(JSON.stringify(pub))}, ${q(JSON.stringify(x.answer))}, ${q(JSON.stringify(sol))});`);
   });

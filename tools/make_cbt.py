@@ -130,6 +130,28 @@ def src_label(q):
     return {"en": lab[0], "hi": lab[1]} if lab else None
 
 
+_CAT_HI = None
+
+
+def catalog_hi():
+    """Hindi chapter titles from content/catalog.json (chapters and old-NCERT/lab extras), by chapter id."""
+    global _CAT_HI
+    if _CAT_HI is None:
+        _CAT_HI = {}
+        cat = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "content", "catalog.json"), encoding="utf-8"))
+        def walk(o):
+            if isinstance(o, dict):
+                if "id" in o and o.get("hi"):
+                    _CAT_HI[o["id"]] = o["hi"]
+                for v in o.values():
+                    walk(v)
+            elif isinstance(o, list):
+                for v in o:
+                    walk(v)
+        walk(cat)
+    return _CAT_HI
+
+
 def site_question(b, q):
     pt = {p["id"]: p for p in b["paragraphs"]}
     paras = q["ncert"]["paras"]
@@ -138,7 +160,7 @@ def site_question(b, q):
     topic = titles[0] if titles else None
     if not topic:   # old-NCERT chapters: the chapter (or the old section) is the topic
         t = b["title"]
-        topic = {"en": q["ncert"].get("oldRef") or t["en"], "hi": t.get("hi") or t["en"]}
+        topic = {"en": q["ncert"].get("oldRef") or t["en"], "hi": t.get("hi") or catalog_hi().get(ch) or t["en"]}
     def lang(L):
         t = q["text"][L]
         o = {"status": t["status"], "q": t["q"]}
@@ -156,6 +178,8 @@ def site_question(b, q):
         "text": {"en": lang("en"), "hi": lang("hi")},
         "answer": dict(q["answer"]),
     }
+    if q.get("media"):   # redrawn figures (assets/figures/...), drawn by exam.js under the stem or the solution
+        out["media"] = [dict(m) for m in (q["media"] if isinstance(q["media"], list) else [q["media"]])]
     if q.get("ncert_status") and q["ncert_status"] != "in_ncert":
         out["ncert_status"] = q["ncert_status"]
     s = src_label(q)

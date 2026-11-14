@@ -39,6 +39,9 @@
   const hms = ms => { const s = Math.max(0, Math.round(ms / 1000)); return `${pad(Math.floor(s / 3600))}:${pad(Math.floor(s / 60) % 60)}:${pad(s % 60)}`; };
   const mmss = ms => { const s = Math.round(ms / 1000); return s < 60 ? `${s}s` : `${Math.floor(s / 60)}m ${pad(s % 60)}s`; };
   const L = (obj, lang) => obj ? (obj[lang] || obj.en) : '';
+  // redrawn figures (assets/figures/...): where "question" under the stem, "solution" under the solution (sent after submitting)
+  const figs = (q, where, lang) => (q.media || []).filter(m => (m.where || 'question') === where && /^assets\/figures\/[\w./-]+\.(svg|png|webp)$/.test(m.src || ''))
+    .map(m => `<figure class="qfig"><img src="./${m.src}" alt="${esc(L(m.alt, lang))}" loading="lazy"></figure>`).join('');
 
   // Site language (same setting as the chapter pages; Hindi first). The plain pages (test list, instructions,
   // result) follow it; it is also the default language of the questions. The exam screen's buttons, palette and
@@ -248,6 +251,7 @@
       x.q.answer = k.answer;
       ['en', 'hi'].forEach(l => { if (x.q.text[l]) Object.assign(x.q.text[l], (k.solution || {})[l] || {}); });
       if (k.solution && k.solution.source) x.q.srcLabel = k.solution.source;
+      if (k.solution && k.solution.media) x.q.media = (x.q.media || []).concat(k.solution.media);
     });
     if (!S || !S.q || !Object.keys(S.q).length) S = fromServer({ id: d.attempt.id, started_at: d.attempt.started_at, lang: (S && S.lang) || 'en' }, d.responses);
     S.attemptId = d.attempt.id;
@@ -458,7 +462,7 @@
         <label class="viewin">View in <select id="qlang"><option value="en"${lang === 'en' ? ' selected' : ''}>English</option><option value="hi"${lang === 'hi' ? ' selected' : ''}>हिंदी</option></select></label></div>
       ${lang === 'hi' && !hiReady ? `<p class="hi-note">${esc(HI_PENDING)}</p>` : ''}
       ${shownLang === 'hi' && q.text.hi.status === 'draft' ? '<p class="hi-draft" title="Hindi draft, not yet proofread">हिंदी प्रारूप · प्रूफ़रीडिंग बाकी</p>' : ''}
-      <div lang="${shownLang}"><div class="qtext">${tx.q}</div>${opts}</div>${pad_}`;
+      <div lang="${shownLang}"><div class="qtext">${tx.q}</div>${figs(q, 'question', shownLang)}${opts}</div>${pad_}`;
     $('#qlang').onchange = e => { S.qlang[q.id] = e.target.value; save(); drawQuestion(); };
     $$('input[name=opt]').forEach(r => r.onchange = () => { sel = +r.value; $$('.opts label').forEach((l, i) => l.classList.toggle('picked', i === sel)); });
     $$('.keypad button').forEach(b => b.onclick = () => {
@@ -774,9 +778,9 @@
         <select class="rlang" data-n="${r.x.n}" aria-label="Language"><option value="hi"${lang === 'hi' ? ' selected' : ''}>हिंदी</option><option value="en"${lang === 'en' ? ' selected' : ''}>English</option></select></header>
       ${lang === 'hi' && !hiReady ? `<p class="hi-note">${esc(HI_PENDING)}</p>` : ''}
       ${H && q.text.hi.status === 'draft' ? '<p class="hi-draft">हिंदी प्रारूप · प्रूफ़रीडिंग बाकी</p>' : ''}
-      <div lang="${H ? 'hi' : 'en'}"><div class="qtext">${tx.q}</div>${opts}
+      <div lang="${H ? 'hi' : 'en'}"><div class="qtext">${tx.q}</div>${figs(q, 'question', H ? 'hi' : 'en')}${opts}
       <p class="yours">${H ? 'आपका उत्तर' : 'Your answer'}: <b>${fmtAns(q, r.st.ans)}</b> · ${ansLine}${r.changed ? ` · <span class="chgnote">${H ? 'बदला' : 'changed'}: ${hist}</span>` : ''}</p>
-      <details><summary>${H ? 'हल और NCERT अनुच्छेद' : 'Solution and NCERT paragraph'}</summary><div class="sol">${tx.sol || ''}</div>${tx.trap ? `<p class="trap"><b>${H ? 'सावधानी:' : 'Trap:'}</b> ${tx.trap}</p>` : ''}
+      <details><summary>${H ? 'हल और NCERT अनुच्छेद' : 'Solution and NCERT paragraph'}</summary><div class="sol">${tx.sol || ''}</div>${figs(q, 'solution', H ? 'hi' : 'en')}${tx.trap ? `<p class="trap"><b>${H ? 'सावधानी:' : 'Trap:'}</b> ${tx.trap}</p>` : ''}
         ${q.ncert_status && q.ncert_status !== 'in_ncert' ? `<p class="paras">${H ? ({ old_ncert_only: 'यह विषय NEET में है पर केवल पुरानी (2023 से पहले की) NCERT में', lab_manual: 'स्रोत: NCERT प्रयोगशाला पुस्तिका', outside_ncert: 'NCERT में नहीं' })[q.ncert_status] || '' : ({ old_ncert_only: 'No current NCERT source: this topic is in NEET but only in the pre-2023 NCERT', lab_manual: 'Source: NCERT laboratory manual', outside_ncert: 'Not in NCERT' })[q.ncert_status] || ''}${nc.oldRef ? ' · ' + esc(nc.oldRef) : ''}</p>` : ''}
         <p class="paras" ${ps.length || chId ? '' : 'hidden'}>NCERT: ${paraLinks}${chId ? `${ps.length ? ' · ' : ''}<a href="${chLink(chId)}">${esc(chName(chId, H ? 'hi' : 'en'))} →</a>` : ''}${(nc.otherChapters || []).length ? ' · ' + (H ? 'साथ में ' : 'also ') + esc(nc.otherChapters.join(', ')) : ''}</p>${lines}</details></div>
     </article>`;

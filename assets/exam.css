@@ -316,3 +316,7 @@ summary { color: var(--brand); }
 .ex-secs { background: #E4EEEF; border-bottom-color: var(--sec); }
 .pal-label { background: #E4EEEF; }
 .opts label.picked { border-color: var(--sec); background: #E6F3F4; }
+
+/* redrawn figures under the stem / solution (media from the bank) */
+.qfig { margin: 10px 0 12px; }
+.qfig img { display: block; max-width: 100%; height: auto; max-height: 440px; border: 1px solid #d7dee2; border-radius: 10px; background: #fff; }
