@@ -286,7 +286,7 @@
       "X-linked dominant",
       "Autosomal dominant"
      ],
-     "sol": "<p>In the chart (needs the figure), affected children are born to unaffected parents and both sexes are affected. A trait that skips a generation and appears in sons and daughters of normal parents is <b>autosomal recessive</b>; the parents are carriers.</p>",
+     "sol": "<p>In the chart, affected children are born to unaffected parents and both sexes are affected. A trait that skips a generation and appears in sons and daughters of normal parents is <b>autosomal recessive</b>; the parents are carriers.</p><p>An affected daughter in generation II has an unaffected father, which rules out X-linked recessive inheritance.</p>",
      "hint": "Affected child from two normal parents → recessive; both sexes alike → autosomal."
     },
     "hi": {
@@ -298,7 +298,7 @@
       "X-सहलग्न प्रभावी",
       "अलिंग प्रभावी"
      ],
-     "sol": "<p>चार्ट में (चित्र आवश्यक) अप्रभावित जनकों से प्रभावित संतति उत्पन्न होती है तथा दोनों लिंग प्रभावित हैं। जो लक्षण एक पीढ़ी छोड़कर सामान्य जनकों के पुत्र और पुत्री दोनों में प्रकट हो, वह <b>अलिंग अप्रभावी</b> है; जनक वाहक हैं।</p>",
+     "sol": "<p>चार्ट में अप्रभावित जनकों से प्रभावित संतति उत्पन्न होती है तथा दोनों लिंग प्रभावित हैं। जो लक्षण एक पीढ़ी छोड़कर सामान्य जनकों के पुत्र और पुत्री दोनों में प्रकट हो, वह <b>अलिंग अप्रभावी</b> है; जनक वाहक हैं।</p><p>पीढ़ी II की प्रभावित पुत्री के पिता अप्रभावित हैं, अतः यह X-सहलग्न अप्रभावी वंशागति नहीं है।</p>",
      "hint": "दो सामान्य जनकों से प्रभावित संतान → अप्रभावी; दोनों लिंग समान → अलिंग।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
@@ -307,6 +307,16 @@
     "kind": "single",
     "index": 1
    },
+   "media": [
+    {
+     "src": "assets/figures/bio12-04/bio12-04-neet-2015-re-exam-code-d-q31.svg",
+     "alt": {
+      "en": "Human pedigree over four generations (I to IV); filled symbols are affected individuals",
+      "hi": "चार पीढ़ियों (I से IV) की मानव वंशावली; भरे हुए प्रतीक प्रभावित व्यक्ति हैं"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio12-04",
     "paras": [
@@ -329,7 +339,7 @@
    "review": {
     "keyCheck": "Matches the official key (CBSE NEET 2015 re-exam key, Code D: 2)",
     "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10095350/NEET-2015-Answer-keys-Code-D-Re-Exam.pdf; PDF not yet in neet-sources)",
-    "note": "Pedigree chart in the paper: needs a redrawn figure."
+    "note": "Pedigree chart in the paper: needs a redrawn figure. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {
@@ -2741,7 +2751,7 @@
       "[pedigree symbol 3]",
       "[pedigree symbol 4]"
      ],
-     "sol": "<p>In pedigree symbols a single horizontal line joins a mating pair; a <b>double line</b> joining male and female marks mating between relatives (consanguineous mating). The keyed option shows the double line (figure needed).</p>",
+     "sol": "<p>In pedigree symbols a single horizontal line joins a mating pair; a <b>double line</b> joining male and female marks mating between relatives (consanguineous mating). The keyed option shows the double line.</p>",
      "hint": "Relatives = double line."
     },
     "hi": {
@@ -2753,7 +2763,7 @@
       "[वंशावली प्रतीक 3]",
       "[वंशावली प्रतीक 4]"
      ],
-     "sol": "<p>वंशावली प्रतीकों में एक क्षैतिज रेखा संगम युग्म को जोड़ती है; नर और मादा को जोड़ने वाली <b>दोहरी रेखा</b> संबंधियों के बीच संगम (रक्त-संबंधी संगम) दर्शाती है। कुंजी वाला विकल्प दोहरी रेखा दिखाता है (चित्र आवश्यक)।</p>",
+     "sol": "<p>वंशावली प्रतीकों में एक क्षैतिज रेखा संगम युग्म को जोड़ती है; नर और मादा को जोड़ने वाली <b>दोहरी रेखा</b> संबंधियों के बीच संगम (रक्त-संबंधी संगम) दर्शाती है। कुंजी वाला विकल्प दोहरी रेखा दिखाता है।</p>",
      "hint": "संबंधी = दोहरी रेखा।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
@@ -2762,6 +2772,16 @@
     "kind": "single",
     "index": 2
    },
+   "media": [
+    {
+     "src": "assets/figures/bio12-04/bio12-04-neet-2023-topic-wise-copy-q72.svg",
+     "alt": {
+      "en": "Four pedigree symbols numbered 1 to 4",
+      "hi": "1 से 4 तक क्रमांकित चार वंशावली प्रतीक"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio12-04",
     "paras": [
@@ -2784,7 +2804,7 @@
    "review": {
     "keyCheck": "Answer printed in the copy: 3; matches our solving",
     "keySource": "Answers printed in the topic-wise 2023 copy (neet-sources/neet-papers/2023/full-paper-with-solutions.pdf). No NTA final key for 2023 in neet-sources.",
-    "note": "Options are pedigree symbols drawn in the paper (the keyed one is the double line joining male and female); needs redrawn figures."
+    "note": "Options are pedigree symbols drawn in the paper (the keyed one is the double line joining male and female); needs redrawn figures. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {
@@ -3347,6 +3367,16 @@
     "kind": "single",
     "index": 0
    },
+   "media": [
+    {
+     "src": "assets/figures/bio12-04/bio12-04-neet-2025-code-45-q152.svg",
+     "alt": {
+      "en": "Pedigree over generations F0 to F3 with a key to the symbols; the four F3 children are marked with question marks",
+      "hi": "F0 से F3 पीढ़ियों की वंशावली, प्रतीकों की कुंजी सहित; F3 की चार संतानों पर प्रश्नचिह्न लगे हैं"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio12-04",
     "paras": [
@@ -3370,7 +3400,7 @@
    "review": {
     "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 1)",
     "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
-    "note": "Pedigree chart in the paper; needs a redrawn figure. X-linked recessive (affected son of carrier mother in F1); F2 = carrier female × affected male, consanguineous."
+    "note": "Pedigree chart in the paper; needs a redrawn figure. X-linked recessive (affected son of carrier mother in F1); F2 = carrier female × affected male, consanguineous. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {

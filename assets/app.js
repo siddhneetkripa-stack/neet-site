@@ -438,11 +438,14 @@
       })();
       const isWeakQ = q => weakIds.has(q.id);
 
+      // Redrawn figures of diagram questions (bank `media`): our own SVGs, alt text in the shown language.
+      const figs = (q0, where, isHi) => (q0.media || []).filter(m => m.where === where).map(m => `<figure class="qfig"><img src="${esc(m.src)}" alt="${esc((isHi && m.alt.hi) || m.alt.en)}" loading="lazy"></figure>`).join('');
       const card = (q0, n, multi) => { const q = L(q0); return `<article class="pyq" id="${q.id}" data-n="${n}" data-multi="${multi ? 1 : ''}" data-year="${q.year || ''}" data-exam="${esc(q.exam)}">
           <div class="pyq-head"><span class="qn">Q${n}</span><span class="year ${({ 'NEET': 'neet', 'JEE Main': 'jee', 'NCERT Exercise': 'ncert', 'NCERT Exemplar': 'exemplar', 'Practice': 'practice' })[q.exam] || ''}">${esc(q.exam)}${q.year ? ' ' + q.year : ''}</span>${q.when ? `<span class="when">${esc(q.when)}</span>` : (!q.year && q.srcRef ? `<span class="when">${esc(q.srcRef)}</span>` : '')}${q.type === 'num' ? `<span class="tag num">${t('संख्यात्मक', 'numerical')}</span>` : ''}${(q.otherChapters || []).length ? `<span class="tag" title="${esc(q.otherChapters.join(', '))}">+ ${t('दूसरा अध्याय', 'other chapter')}</span>` : ''}${q.isHi && q.hiStatus !== 'proofread' ? `<span class="tag hi-draft" title="Hindi draft, proofreading pending">हिंदी प्रारूप</span>` : ''}${q0.hi && lang === 'hi' ? `<button class="tag lang-sw" type="button" data-act="lang">${q.isHi ? 'English' : 'हिंदी'}</button>` : ''}${retryOnly ? '<span class="state"></span>' : stateLabel(progress[q.id])}</div>
           ${multi && !P.byTopic ? `<div class="paras">${q.paras.map(id => `<a href="#/pyq/${chId}" data-jump="s-${id}" class="para">§${id.replace(/[a-d]$/, '')} ${esc(paraTitle[id] || '')}</a>`).join('')}${(q.otherChapters || []).map(c => `<span class="para other">${esc(c)}</span>`).join('')}</div>` : ''}
           ${q.topic ? `<p class="topic">${t('विषय (पुरानी NCERT)', 'Topic (old NCERT)')}: ${esc(q.topic)}</p>` : ''}
           <div class="qtext">${q.q}</div>
+          ${figs(q0, 'question', q.isHi)}
           ${q.type === 'num'
             ? `<form class="numans"><label>${t('आपका उत्तर', 'Your answer')} <input type="text" inputmode="decimal" autocomplete="off" aria-label="${t('संख्यात्मक उत्तर', 'Numerical answer')}"></label><button class="btn" type="submit">${t('जाँचें', 'Check')}</button></form>`
             : `<div class="opts">${q.o.map((o, k) => `<button class="opt" data-k="${k}"><b>(${k + 1})</b><span>${o}</span></button>`).join('')}</div>`}
@@ -452,6 +455,7 @@
             <p class="ans-line">${ansText(q)}</p>
             ${q.check ? `<p class="check">✔ ${esc(q.check)}</p>` : ''}
             <div class="sol">${q.sol}</div>
+            ${figs(q0, 'solution', q.isHi)}
             ${q.trap ? `<p class="trap"><b>${t('ट्रैप', 'Trap')}:</b> ${q.trap}</p>` : ''}
             ${q.also ? `<p class="also">${esc(q.also)}</p>` : ''}
           </div>

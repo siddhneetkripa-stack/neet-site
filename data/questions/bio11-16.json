@@ -1007,6 +1007,16 @@
     "kind": "single",
     "index": 1
    },
+   "media": [
+    {
+     "src": "assets/figures/bio11-16/bio11-16-neet-2025-code-45-q125.svg",
+     "alt": {
+      "en": "Four diagrams, numbered 1 to 4, of the proximal (P) and distal (D) tubule; arrows above a tubule show substances leaving it, arrows below show substances entering it",
+      "hi": "समीपस्थ (P) तथा दूरस्थ (D) नलिका के 1 से 4 तक क्रमांकित चार आरेख; नलिका के ऊपर के तीर उससे बाहर जाने वाले तथा नीचे के तीर उसमें आने वाले पदार्थ दर्शाते हैं"
+     },
+     "where": "question"
+    }
+   ],
    "ncert": {
     "chapter": "bio11-16",
     "paras": [
@@ -1029,7 +1039,7 @@
    "review": {
     "keyCheck": "Matches the official key (NTA NEET 2025 final key, Code 45: 2)",
     "keySource": "NTA final answer key, NEET (UG) 2025, Code 45 (neet-sources/neet-papers/2025/nta-final-answer-key-code-45.pdf)",
-    "note": "Options are nephron diagrams in the paper; needs redrawn figures."
+    "note": "Options are nephron diagrams in the paper; needs redrawn figures. Figure redrawn as our own SVG (tools/draw_bio_figures.py, 14 Nov 2026); key re-checked against the drawn figure."
    }
   },
   {

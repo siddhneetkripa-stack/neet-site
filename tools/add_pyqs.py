@@ -173,6 +173,8 @@ def main():
                     q["text"]["en"]["sol"] = old["text"]["en"]["sol"]
                 if old["status"] != "draft":
                     q["status"] = old["status"]
+                if old.get("media") and not q.get("media"):  # redrawn figures (tools/draw_bio_figures.py)
+                    q["media"] = old["media"]
                 # keep results of tools/apply_keys.py (official keys) and answers it accepted
                 if "official key" in old.get("review", {}).get("keyCheck", "").lower():
                     for k in ("keyCheck", "keySource"):
