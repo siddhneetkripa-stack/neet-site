@@ -2575,6 +2575,776 @@
     "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
     "keySource": "eSaral full-paper copy with answers (neet-sources/jee-main/2024/2024-06-01-shift-1-maths.pdf, chemistry part)"
    }
+  },
+  {
+   "id": "chem12-06-ai-6-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Haloalkanes and haloarenes differ in that:",
+     "o": [
+      "haloalkanes contain only fluorine and haloarenes only iodine",
+      "in haloalkanes the halogen is on an sp<sup>3</sup> carbon of an alkyl group, while in haloarenes it is on an sp<sup>2</sup> carbon of an aromatic ring",
+      "haloarenes have no carbon–halogen bond",
+      "haloalkanes are always gases and haloarenes always solids"
+     ],
+     "sol": "<p>NCERT 6.1: replacement of hydrogen atom(s) of an aliphatic hydrocarbon by halogen atom(s) gives an alkyl halide (haloalkane); of an aromatic hydrocarbon, an aryl halide (haloarene). In haloalkanes the halogen is attached to an sp<sup>3</sup> hybridised carbon of an alkyl group; in haloarenes, to an sp<sup>2</sup> hybridised carbon of an aryl group. They are classified as mono-, di- or polyhalogen compounds by the number of halogen atoms.</p>",
+     "hint": "Look at the carbon carrying the halogen."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "हैलोऐल्केन तथा हैलोऐरीन में अंतर यह है कि:",
+     "o": [
+      "हैलोऐल्केनों में केवल फलुओरीन और हैलोऐरीनों में केवल आयोडीन होती है",
+      "हैलोऐल्केनों में हैलोजन ऐल्किल समूह के sp<sup>3</sup> कार्बन पर, जबकि हैलोऐरीनों में ऐरोमैटिक वलय के sp<sup>2</sup> कार्बन पर होता है",
+      "हैलोऐरीनों में कार्बन–हैलोजन आबंध नहीं होता",
+      "हैलोऐल्केन सदैव गैस और हैलोऐरीन सदैव ठोस होते हैं"
+     ],
+     "sol": "<p>NCERT 6.1: ऐलिफैटिक हाइड्रोकार्बन के हाइड्रोजन परमाणु(ओं) का हैलोजन परमाणु(ओं) द्वारा प्रतिस्थापन ऐल्किल हैलाइड (हैलोऐल्केन) देता है; ऐरोमैटिक हाइड्रोकार्बन का, ऐरिल हैलाइड (हैलोऐरीन)। हैलोऐल्केनों में हैलोजन ऐल्किल समूह के sp<sup>3</sup> संकरित कार्बन से, हैलोऐरीनों में ऐरिल समूह के sp<sup>2</sup> संकरित कार्बन से जुड़ा होता है। हैलोजन परमाणुओं की संख्या के आधार पर इन्हें मोनो-, डाइ- या पॉलिहैलोजन यौगिकों में वर्गीकृत किया जाता है।</p>",
+     "hint": "हैलोजन वाले कार्बन को देखिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-1-1-q1",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the compound with its class: (a) CH<sub>3</sub>CHCl<sub>2</sub>; (b) ClCH<sub>2</sub>CH<sub>2</sub>Cl; (c) CH<sub>2</sub>=CH–CH<sub>2</sub>Cl; (d) CH<sub>2</sub>=CHCl. (i) vinylic halide; (ii) vicinal dihalide; (iii) allylic halide; (iv) geminal (gem-) dihalide.",
+     "o": [
+      "(a)–(ii), (b)–(iv), (c)–(iii), (d)–(i)",
+      "(a)–(iv), (b)–(ii), (c)–(i), (d)–(iii)",
+      "(a)–(iv), (b)–(ii), (c)–(iii), (d)–(i)",
+      "(a)–(iii), (b)–(ii), (c)–(iv), (d)–(i)"
+     ],
+     "sol": "<p>NCERT 6.1: if both halogens of a dihaloalkane are on the same carbon it is a geminal (gem-) dihalide, common name alkylidene halide (CH<sub>3</sub>CHCl<sub>2</sub>, ethylidene chloride); if on adjacent carbons, a vicinal (vic-) dihalide, alkylene dihalide (ClCH<sub>2</sub>CH<sub>2</sub>Cl, ethylene dichloride). An allylic halide has X on the sp<sup>3</sup> carbon next to a C=C (allyl chloride); a vinylic halide has X on an sp<sup>2</sup> carbon of the C=C (vinyl chloride).</p>",
+     "hint": "Gem = same carbon (twins)."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "यौगिक का उसके वर्ग से मिलान कीजिए: (a) CH<sub>3</sub>CHCl<sub>2</sub>; (b) ClCH<sub>2</sub>CH<sub>2</sub>Cl; (c) CH<sub>2</sub>=CH–CH<sub>2</sub>Cl; (d) CH<sub>2</sub>=CHCl। (i) वाइनिलिक हैलाइड; (ii) विसिनल डाइहैलाइड; (iii) ऐलिलिक हैलाइड; (iv) जेम (जैमिनल) डाइहैलाइड।",
+     "o": [
+      "(a)–(ii), (b)–(iv), (c)–(iii), (d)–(i)",
+      "(a)–(iv), (b)–(ii), (c)–(i), (d)–(iii)",
+      "(a)–(iv), (b)–(ii), (c)–(iii), (d)–(i)",
+      "(a)–(iii), (b)–(ii), (c)–(iv), (d)–(i)"
+     ],
+     "sol": "<p>NCERT 6.1: यदि डाइहैलोऐल्केन के दोनों हैलोजन एक ही कार्बन पर हों तो यह जेम (जैमिनल) डाइहैलाइड है, सामान्य नाम ऐल्किलिडीन हैलाइड (CH<sub>3</sub>CHCl<sub>2</sub>, एथिलिडीन क्लोराइड); यदि निकटवर्ती कार्बनों पर हों तो विसिनल डाइहैलाइड, ऐल्किलीन डाइहैलाइड (ClCH<sub>2</sub>CH<sub>2</sub>Cl, एथिलीन डाइक्लोराइड)। ऐलिलिक हैलाइड में X, C=C के अगले sp<sup>3</sup> कार्बन पर होता है (ऐलिल क्लोराइड); वाइनिलिक हैलाइड में X, C=C के sp<sup>2</sup> कार्बन पर (वाइनिल क्लोराइड)।</p>",
+     "hint": "जेम = एक ही कार्बन (जुड़वाँ)।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.1.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.1.1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The IUPAC name of (CH<sub>3</sub>)<sub>3</sub>CBr (common name tert-butyl bromide) is:",
+     "o": [
+      "1-bromobutane",
+      "2-bromobutane",
+      "1-bromo-2,2-dimethylpropane",
+      "2-bromo-2-methylpropane"
+     ],
+     "sol": "<p>NCERT 6.2: in the common system alkyl halides are named as alkyl group + halide; in the IUPAC system as halo-substituted hydrocarbons (haloalkanes). (CH<sub>3</sub>)<sub>3</sub>CBr: longest chain = 3 carbons (propane), with Br and a methyl on C2: 2-bromo-2-methylpropane. 1-Bromo-2,2-dimethylpropane is neo-pentyl bromide, (CH<sub>3</sub>)<sub>3</sub>CCH<sub>2</sub>Br; 2-bromobutane is sec-butyl bromide.</p>",
+     "hint": "Three methyls on one carbon: propane chain with a methyl branch."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "(CH<sub>3</sub>)<sub>3</sub>CBr (सामान्य नाम tert-ब्यूटिल ब्रोमाइड) का IUPAC नाम है:",
+     "o": [
+      "1-ब्रोमोब्यूटेन",
+      "2-ब्रोमोब्यूटेन",
+      "1-ब्रोमो-2,2-डाइमेथिलप्रोपेन",
+      "2-ब्रोमो-2-मेथिलप्रोपेन"
+     ],
+     "sol": "<p>NCERT 6.2: सामान्य पद्धति में ऐल्किल हैलाइडों का नाम ऐल्किल समूह + हैलाइड के रूप में; IUPAC पद्धति में हैलो-प्रतिस्थापित हाइड्रोकार्बन (हैलोऐल्केन) के रूप में रखा जाता है। (CH<sub>3</sub>)<sub>3</sub>CBr: सबसे लंबी शृंखला = 3 कार्बन (प्रोपेन), C2 पर Br तथा एक मेथिल: 2-ब्रोमो-2-मेथिलप्रोपेन। 1-ब्रोमो-2,2-डाइमेथिलप्रोपेन neo-पेन्टिल ब्रोमाइड, (CH<sub>3</sub>)<sub>3</sub>CCH<sub>2</sub>Br, है; 2-ब्रोमोब्यूटेन sec-ब्यूटिल ब्रोमाइड है।</p>",
+     "hint": "एक कार्बन पर तीन मेथिल: मेथिल शाखा वाली प्रोपेन शृंखला।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-4-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Thionyl chloride is preferred for converting an alcohol into an alkyl chloride because:",
+     "o": [
+      "the other two products, SO<sub>2</sub> and HCl, are escapable gases, so a pure alkyl halide is obtained",
+      "it gives alkyl iodides directly",
+      "it works only with phenols",
+      "it does not need the –OH group"
+     ],
+     "sol": "<p>NCERT 6.4.1: the –OH of an alcohol is replaced by halogen with concentrated halogen acids, phosphorus halides or thionyl chloride: ROH + SOCl<sub>2</sub> → RCl + SO<sub>2</sub>↑ + HCl↑. Thionyl chloride is preferred because the other two products are escapable gases, so the reaction gives a pure alkyl halide. Reactivity of alcohols with HX: 3° > 2° > 1°. Phenols cannot be converted this way because the C–O bond in phenols has partial double bond character.</p>",
+     "hint": "Same reason as for acid chlorides."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "ऐल्कोहॉल को ऐल्किल क्लोराइड में बदलने के लिए थायोनिल क्लोराइड को वरीयता दी जाती है क्योंकि:",
+     "o": [
+      "अन्य दो उत्पाद, SO<sub>2</sub> तथा HCl, निकल जाने वाली गैसें हैं, इसलिए शुद्ध ऐल्किल हैलाइड प्राप्त होता है",
+      "यह सीधे ऐल्किल आयोडाइड देता है",
+      "यह केवल फ़ीनॉलों के साथ कार्य करता है",
+      "इसे –OH समूह की आवश्यकता नहीं होती"
+     ],
+     "sol": "<p>NCERT 6.4.1: ऐल्कोहॉल का –OH सांद्र हैलोजन अम्लों, फॉस्फोरस हैलाइडों या थायोनिल क्लोराइड से हैलोजन द्वारा प्रतिस्थापित होता है: ROH + SOCl<sub>2</sub> → RCl + SO<sub>2</sub>↑ + HCl↑। थायोनिल क्लोराइड को वरीयता दी जाती है क्योंकि अन्य दो उत्पाद निकल जाने वाली गैसें हैं, अतः अभिक्रिया शुद्ध ऐल्किल हैलाइड देती है। HX के साथ ऐल्कोहॉलों की क्रियाशीलता: 3° > 2° > 1°। फ़ीनॉलों को इस विधि से नहीं बदला जा सकता क्योंकि फ़ीनॉलों में C–O आबंध में आंशिक द्विआबंध गुण होता है।</p>",
+     "hint": "ऐसिल क्लोराइड वाला ही कारण।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.4"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.4"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-4-3-q1",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match: (a) CH<sub>3</sub>CH<sub>2</sub>Br + NaI in dry acetone; (b) CH<sub>3</sub>Br + AgF on heating. (i) Swarts reaction, giving an alkyl fluoride; (ii) Finkelstein reaction, giving an alkyl iodide; NaBr precipitates in dry acetone and drives the reaction forward.",
+     "o": [
+      "(a)–(i), (b)–(ii)",
+      "(a)–(ii), (b)–(i)",
+      "both (i)",
+      "both (ii)"
+     ],
+     "sol": "<p>NCERT 6.4.3: alkyl iodides are often prepared by the reaction of alkyl chlorides/bromides with NaI in dry acetone (Finkelstein reaction); NaCl or NaBr formed is precipitated in dry acetone, which by Le Chatelier's principle drives the forward reaction. Alkyl fluorides are best made by heating an alkyl chloride/bromide with a metallic fluoride such as AgF, Hg<sub>2</sub>F<sub>2</sub>, CoF<sub>2</sub> or SbF<sub>3</sub> (Swarts reaction).</p>",
+     "hint": "F → Swarts; I → Finkelstein."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "मिलान कीजिए: (a) शुष्क ऐसीटोन में CH<sub>3</sub>CH<sub>2</sub>Br + NaI; (b) गरम करने पर CH<sub>3</sub>Br + AgF। (i) स्वार्ट्स अभिक्रिया, जिससे ऐल्किल फलुओराइड बनता है; (ii) फिंकेल्स्टाइन अभिक्रिया, जिससे ऐल्किल आयोडाइड बनता है; NaBr शुष्क ऐसीटोन में अवक्षेपित होकर अभिक्रिया को आगे बढ़ाता है।",
+     "o": [
+      "(a)–(i), (b)–(ii)",
+      "(a)–(ii), (b)–(i)",
+      "दोनों (i)",
+      "दोनों (ii)"
+     ],
+     "sol": "<p>NCERT 6.4.3: ऐल्किल आयोडाइडों का विरचन प्रायः ऐल्किल क्लोराइडों/ब्रोमाइडों की शुष्क ऐसीटोन में NaI के साथ अभिक्रिया से होता है (फिंकेल्स्टाइन अभिक्रिया); बना NaCl या NaBr शुष्क ऐसीटोन में अवक्षेपित हो जाता है, जो ले-शातैलिए के नियमानुसार अग्र अभिक्रिया को सुगम बनाता है। AgF, Hg<sub>2</sub>F<sub>2</sub>, CoF<sub>2</sub> अथवा SbF<sub>3</sub> जैसे धात्विक फलुओराइड की उपस्थिति में ऐल्किल क्लोराइड/ब्रोमाइड को गरम करना ऐल्किल फलुओराइडों के संश्लेषण का सर्वोत्तम तरीका है (स्वार्ट्स अभिक्रिया)।</p>",
+     "hint": "F → स्वार्ट्स; I → फिंकेल्स्टाइन।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.4.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.4.3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-6-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the physical properties of haloalkanes and haloarenes is <b>incorrect</b>?",
+     "o": [
+      "For the same alkyl group, boiling points decrease in the order RI > RBr > RCl > RF.",
+      "Among isomeric haloalkanes, boiling point decreases with increase in branching; 2-bromo-2-methylpropane boils lowest of the three isomeric bromobutanes.",
+      "Haloalkanes are highly soluble in water because the C–X bond is polar.",
+      "p-Dichlorobenzene melts higher than the o- and m-isomers because its symmetry lets it fit better in the crystal lattice."
+     ],
+     "sol": "<p>NCERT 6.6: boiling points rise with the size and mass of the halogen because of stronger van der Waals forces: RI > RBr > RCl > RF; branching lowers the boiling point. Isomeric dihalobenzenes have similar boiling points, but the para isomer has a higher melting point due to symmetry. Haloalkanes are only very slightly soluble in water: less energy is released in forming new attractions between haloalkane and water than is needed to break the hydrogen bonds between water molecules. They dissolve in organic solvents. Bromo, iodo and polychloro derivatives are denser than water.</p>",
+     "hint": "Breaking water's hydrogen bonds costs energy."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "हैलोऐल्केनों तथा हैलोऐरीनों के भौतिक गुणों के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "समान ऐल्किल समूह के लिए क्वथनांक RI > RBr > RCl > RF क्रम में घटते हैं।",
+      "समावयवी हैलोऐल्केनों में शाखन बढ़ने पर क्वथनांक घटता है; तीन समावयवी ब्रोमोब्यूटेनों में 2-ब्रोमो-2-मेथिलप्रोपेन का क्वथनांक न्यूनतम होता है।",
+      "C–X आबंध ध्रुवीय होने के कारण हैलोऐल्केन जल में अत्यधिक विलेय होते हैं।",
+      "p-डाइक्लोरोबेन्जीन का गलनांक o- तथा m-समावयवियों से अधिक होता है क्योंकि उसकी सममिति के कारण वह क्रिस्टल जालक में अधिक समायोजित होता है।"
+     ],
+     "sol": "<p>NCERT 6.6: हैलोजन परमाणु के आकार तथा द्रव्यमान में वृद्धि से वान्डरवाल्स बल बढ़ते हैं, अतः क्वथनांक: RI > RBr > RCl > RF; शाखन से क्वथनांक घटता है। समावयवी डाइहैलोबेन्जीनों के क्वथनांक लगभग समान होते हैं, पर सममिति के कारण पैरा समावयवी का गलनांक अधिक होता है। हैलोऐल्केन जल में बहुत कम विलेय होते हैं: हैलोऐल्केन और जल के बीच नए आकर्षण बनने में उतनी ऊर्जा मुक्त नहीं होती जितनी जल अणुओं के बीच हाइड्रोजन आबंध तोड़ने में लगती है। ये कार्बनिक विलायकों में घुलते हैं। ब्रोमो, आयडो तथा पॉलिक्लोरो व्युत्पन्न जल से भारी होते हैं।</p>",
+     "hint": "जल के हाइड्रोजन आबंध तोड़ने में ऊर्जा लगती है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.6"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.6"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-7-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The reactions of haloalkanes are broadly classified into three categories. They are:",
+     "o": [
+      "oxidation, reduction and polymerisation",
+      "nucleophilic substitution, elimination, and reaction with metals",
+      "electrophilic addition, free radical addition and rearrangement",
+      "esterification, hydrolysis and hydration"
+     ],
+     "sol": "<p>NCERT 6.7: the reactions of haloalkanes are divided into (i) nucleophilic substitution (S<sub>N</sub>1, S<sub>N</sub>2), (ii) elimination reactions (β-elimination to give alkenes, Saytzeff rule), and (iii) reactions with metals (Grignard reagents with Mg in dry ether, Wurtz reaction with Na). The polar C–X bond makes the carbon electron deficient and the target of nucleophiles.</p>",
+     "hint": "Swap the halogen, remove HX, or react with a metal."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "हैलोऐल्केनों की अभिक्रियाओं को मुख्यतः तीन वर्गों में बाँटा जाता है। वे हैं:",
+     "o": [
+      "ऑक्सीकरण, अपचयन तथा बहुलकन",
+      "नाभिकरागी प्रतिस्थापन, विलोपन, तथा धातुओं के साथ अभिक्रिया",
+      "इलेक्ट्रॉनरागी योगज, मुक्त मूलक योगज तथा पुनर्विन्यास",
+      "एस्टरीकरण, जलअपघटन तथा जलयोजन"
+     ],
+     "sol": "<p>NCERT 6.7: हैलोऐल्केनों की अभिक्रियाएँ (i) नाभिकरागी प्रतिस्थापन (S<sub>N</sub>1, S<sub>N</sub>2), (ii) विलोपन अभिक्रियाएँ (β-विलोपन से ऐल्कीन, सेत्जेफ नियम), तथा (iii) धातुओं के साथ अभिक्रियाएँ (शुष्क ईथर में Mg से ग्रीन्यार अभिकर्मक, Na से वुर्ट्ज अभिक्रिया) में बाँटी जाती हैं। ध्रुवीय C–X आबंध कार्बन को इलेक्ट्रॉन-न्यून बना देता है, जिस पर नाभिकरागी आक्रमण करते हैं।</p>",
+     "hint": "हैलोजन बदलिए, HX हटाइए, या धातु से अभिक्रिया।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.7"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.7"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-8-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Carbon compounds containing more than one halogen atom are called polyhalogen compounds. Which group is <b>not</b> among them?",
+     "o": [
+      "Methyl chloride, chloroethane",
+      "Dichloromethane, chloroform",
+      "Carbon tetrachloride, iodoform",
+      "Freons, DDT"
+     ],
+     "sol": "<p>NCERT 6.8: carbon compounds containing more than one halogen atom are polyhalogen compounds. Many are useful in industry and agriculture (solvents, refrigerants, propellants, insecticides): dichloromethane, trichloromethane (chloroform), triiodomethane (iodoform), tetrachloromethane, freons and DDT. Methyl chloride (CH<sub>3</sub>Cl) and chloroethane (C<sub>2</sub>H<sub>5</sub>Cl) have one halogen each: monohalogen compounds.</p>",
+     "hint": "Count the halogen atoms."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "एक से अधिक हैलोजन परमाणु वाले कार्बन यौगिक पॉलिहैलोजन यौगिक कहलाते हैं। कौन-सा समूह इनमें <b>नहीं</b> है?",
+     "o": [
+      "मेथिल क्लोराइड, क्लोरोएथेन",
+      "डाइक्लोरोमेथेन, क्लोरोफार्म",
+      "कार्बन टेट्राक्लोराइड, आयडोफार्म",
+      "फ्रेऑन, DDT"
+     ],
+     "sol": "<p>NCERT 6.8: एक से अधिक हैलोजन परमाणु वाले कार्बन यौगिक पॉलिहैलोजन यौगिक हैं। इनमें से अनेक उद्योग तथा कृषि में उपयोगी हैं (विलायक, प्रशीतक, प्रणोदक, कीटनाशी): डाइक्लोरोमेथेन, ट्राइक्लोरोमेथेन (क्लोरोफार्म), ट्राइआयोडोमेथेन (आयडोफार्म), टेट्राक्लोरोमेथेन, फ्रेऑन तथा DDT। मेथिल क्लोराइड (CH<sub>3</sub>Cl) तथा क्लोरोएथेन (C<sub>2</sub>H<sub>5</sub>Cl) में एक-एक हैलोजन है: मोनोहैलोजन यौगिक।</p>",
+     "hint": "हैलोजन परमाणु गिनिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.8"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.8"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-8-1-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about dichloromethane (methylene chloride) is <b>incorrect</b>?",
+     "o": [
+      "It is widely used as a solvent, paint remover and aerosol propellant.",
+      "It is used as a process solvent in making drugs and as a metal cleaning and finishing solvent.",
+      "It harms the human central nervous system; low levels in air can slightly impair hearing and vision.",
+      "It is completely harmless, and contact with the skin or eyes causes no effect."
+     ],
+     "sol": "<p>NCERT 6.8.1: dichloromethane is widely used as a solvent, as a paint remover, as a propellant in aerosols, as a process solvent in the manufacture of drugs, and as a metal cleaning and finishing solvent. Methylene chloride harms the human central nervous system: exposure to lower levels in air can lead to slightly impaired hearing and vision; higher levels cause dizziness, nausea, tingling and numbness in fingers and toes. Direct skin contact causes intense burning and mild redness; contact with the eyes can burn the cornea. So (4) is incorrect.</p>",
+     "hint": "Solvents are rarely harmless."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "डाइक्लोरोमेथेन (मेथिलीन क्लोराइड) के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "यह विलायक, पेंट हटाने वाले पदार्थ तथा ऐरोसॉल प्रणोदक के रूप में व्यापक रूप से प्रयुक्त होता है।",
+      "यह औषध निर्माण में प्रक्रम विलायक तथा धातु सफ़ाई और परिसज्जा विलायक के रूप में प्रयुक्त होता है।",
+      "यह मनुष्य के केंद्रीय तंत्रिका तंत्र को हानि पहुँचाता है; वायु में इसके निम्न स्तर से सुनने और देखने की क्षमता कुछ कम हो सकती है।",
+      "यह पूर्णतः हानिरहित है, और त्वचा या आँखों के संपर्क से कोई प्रभाव नहीं होता।"
+     ],
+     "sol": "<p>NCERT 6.8.1: डाइक्लोरोमेथेन विलायक, पेंट हटाने वाले पदार्थ, ऐरोसॉल में प्रणोदक, औषध निर्माण में प्रक्रम विलायक तथा धातु सफ़ाई और परिसज्जा विलायक के रूप में व्यापक रूप से प्रयुक्त होता है। मेथिलीन क्लोराइड मनुष्य के केंद्रीय तंत्रिका तंत्र को हानि पहुँचाता है: वायु में इसके निम्न स्तर के संपर्क से सुनने और देखने की क्षमता कुछ कम हो सकती है; उच्च स्तर से चक्कर, मितली तथा हाथ-पैर की उँगलियों में झुनझुनी और सुन्नता होती है। त्वचा के सीधे संपर्क से तीव्र जलन और हल्की लालिमा होती है; आँखों के संपर्क से कॉर्निया जल सकता है। अतः (4) गलत है।</p>",
+     "hint": "विलायक प्रायः हानिरहित नहीं होते।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.8.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.8.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-8-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Chloroform is stored in closed dark coloured bottles completely filled, so that air is kept out, because:",
+     "o": [
+      "it reacts with glass in light",
+      "it evaporates only in dark bottles",
+      "in light it is slowly oxidised by air to the extremely poisonous gas carbonyl chloride (phosgene)",
+      "it polymerises in air"
+     ],
+     "sol": "<p>NCERT 6.8.2: chloroform was once used as a general anaesthetic in surgery but has been replaced by less toxic, safer anaesthetics such as ether. It is used as a solvent for fats, alkaloids, iodine and other substances, and mainly in making the freon refrigerant R-22. Breathing about 900 parts per million for a short time causes dizziness, fatigue and headache; chronic exposure damages the liver (where chloroform is metabolised to phosgene) and kidneys. In light, air slowly oxidises it: 2CHCl<sub>3</sub> + O<sub>2</sub> → 2COCl<sub>2</sub> + 2HCl, so it is stored in closed, completely filled, dark coloured bottles.</p>",
+     "hint": "Light + air → phosgene."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "क्लोरोफार्म को बंद, पूर्णतः भरी, रंगीन बोतलों में रखा जाता है ताकि वायु न रहे, क्योंकि:",
+     "o": [
+      "प्रकाश में यह काँच से अभिक्रिया करता है",
+      "यह केवल रंगीन बोतलों में वाष्पित होता है",
+      "प्रकाश की उपस्थिति में यह वायु द्वारा धीरे-धीरे ऑक्सीकृत होकर अत्यधिक विषैली गैस कार्बोनिल क्लोराइड (फ़ॉस्जीन) बनाता है",
+      "वायु में इसका बहुलकन हो जाता है"
+     ],
+     "sol": "<p>NCERT 6.8.2: क्लोरोफार्म पहले शल्य चिकित्सा में सामान्य निश्चेतक के रूप में प्रयुक्त होता था, पर अब इसके स्थान पर ईथर जैसे कम विषैले, सुरक्षित निश्चेतक प्रयुक्त होते हैं। यह वसा, ऐल्केलॉइड, आयोडीन तथा अन्य पदार्थों के विलायक के रूप में, और मुख्यतः फ्रेऑन प्रशीतक R-22 बनाने में प्रयुक्त होता है। लगभग 900 भाग प्रति दस लाख में थोड़े समय तक साँस लेने से चक्कर, थकान और सिरदर्द होता है; दीर्घकालिक संपर्क से यकृत (जहाँ क्लोरोफार्म फ़ॉस्जीन में उपापचयित होता है) और वृक्क का क्षय होता है। प्रकाश में वायु इसे धीरे-धीरे ऑक्सीकृत करती है: 2CHCl<sub>3</sub> + O<sub>2</sub> → 2COCl<sub>2</sub> + 2HCl, इसलिए इसे बंद, पूर्णतः भरी, रंगीन बोतलों में रखा जाता है।</p>",
+     "hint": "प्रकाश + वायु → फ़ॉस्जीन।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.8.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.8.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-8-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Iodoform was earlier used as an antiseptic. Its antiseptic property is due to:",
+     "o": [
+      "iodoform itself",
+      "the iodine it liberates",
+      "its pleasant smell",
+      "the carbon it contains"
+     ],
+     "sol": "<p>NCERT 6.8.3: iodoform was used earlier as an antiseptic, but the antiseptic property is due to the liberation of free iodine and not to iodoform itself. Because of its objectionable smell it has been replaced by other formulations containing iodine.</p>",
+     "hint": "The active agent is a free element."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "आयडोफार्म पहले पूतिरोधी के रूप में प्रयुक्त होता था। इसका पूतिरोधी गुण किसके कारण है?",
+     "o": [
+      "स्वयं आयडोफार्म के कारण",
+      "इससे मुक्त होने वाली आयोडीन के कारण",
+      "इसकी सुखद गंध के कारण",
+      "इसमें उपस्थित कार्बन के कारण"
+     ],
+     "sol": "<p>NCERT 6.8.3: आयडोफार्म का उपयोग प्रारंभ में पूतिरोधी (ऐंटिसेप्टिक) के रूप में किया जाता था, परंतु यह पूतिरोधी गुण आयडोफार्म के कारण स्वयं नहीं, बल्कि मुक्त हुई आयोडीन के कारण होता है। इसकी अरुचिकर गंध के कारण अब इसके स्थान पर आयोडीन युक्त अन्य दवाओं का उपयोग किया जाता है।</p>",
+     "hint": "सक्रिय पदार्थ एक मुक्त तत्त्व है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.8.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.8.3"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-8-4-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about carbon tetrachloride is <b>incorrect</b>?",
+     "o": [
+      "It is harmless to humans and the environment, which is why it is still widely used in homes as a spot remover.",
+      "It is used in making refrigerants and aerosol propellants and as a feedstock for chlorofluorocarbons.",
+      "Exposure can cause liver cancer, dizziness, nausea and permanent damage to nerve cells.",
+      "Released into air, it rises to the upper atmosphere and depletes the ozone layer."
+     ],
+     "sol": "<p>NCERT 6.8.4: CCl<sub>4</sub> is produced in large quantities for making refrigerants and aerosol propellants, as feedstock for chlorofluorocarbons and other chemicals, in pharmaceuticals and as a general solvent. Until the middle of 1960 it was widely used as a cleaning fluid, spot remover and fire extinguisher. There is evidence that exposure causes liver cancer; effects include dizziness, light-headedness, nausea and vomiting, with possible permanent damage to nerve cells, and in severe cases stupor, coma or death; it can make the heartbeat irregular or stop it. In the upper atmosphere it depletes the ozone layer, increasing exposure to ultraviolet rays (skin cancer, eye diseases, immune system disruption).</p>",
+     "hint": "Its home use stopped decades ago."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कार्बन टेट्राक्लोराइड के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "यह मनुष्य और पर्यावरण के लिए हानिरहित है, इसीलिए घरों में दाग-धब्बे हटाने के लिए आज भी व्यापक रूप से प्रयुक्त होता है।",
+      "यह प्रशीतक तथा ऐरोसॉल प्रणोदक बनाने में तथा क्लोरोफलुओरो कार्बन के फ़ीडस्टॉक के रूप में प्रयुक्त होता है।",
+      "इसके उद्भासन से यकृत का कैंसर, चक्कर, मितली तथा तंत्रिका कोशिकाओं में स्थायी क्षति हो सकती है।",
+      "वायु में निर्मुक्त होने पर यह ऊपरी वायुमंडल में पहुँचकर ओज़ोन परत को विरल बनाता है।"
+     ],
+     "sol": "<p>NCERT 6.8.4: CCl<sub>4</sub> का अत्यधिक मात्रा में उत्पादन प्रशीतक तथा ऐरोसॉल प्रणोदक बनाने, क्लोरोफलुओरो कार्बन तथा अन्य रसायनों के फ़ीडस्टॉक, औषध उत्पादन तथा सामान्य विलायक के लिए होता है। 1960 के मध्य तक यह ग्रीस साफ़ करने वाले द्रव, दाग-धब्बे हटाने वाले द्रव एवं अग्नि शामक के रूप में बहुतायत से प्रयुक्त होता था। इसके उद्भासन से यकृत का कैंसर होने के प्रमाण हैं; प्रभाव: चक्कर, सिर का हल्कापन, मितली तथा उल्टी, तंत्रिका कोशिकाओं में स्थायी क्षति संभव, गंभीर स्थिति में मूर्च्छा, बेहोशी या मृत्यु; हृदयगति अनियमित हो सकती है या रुक सकती है। ऊपरी वायुमंडल में यह ओज़ोन परत को विरल बनाता है, जिससे पराबैंगनी उद्भासन बढ़ता है (त्वचा का कैंसर, आँखों के रोग, प्रतिरक्षा प्रणाली में विदारण)।</p>",
+     "hint": "इसका घरेलू उपयोग दशकों पहले बंद हुआ।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.8.4"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.8.4"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-8-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Freon 12, one of the most common freons in industrial use, is:",
+     "o": [
+      "CHCl<sub>3</sub>",
+      "CCl<sub>4</sub>",
+      "CH<sub>2</sub>Cl<sub>2</sub>",
+      "CCl<sub>2</sub>F<sub>2</sub>, made from tetrachloromethane by the Swarts reaction"
+     ],
+     "sol": "<p>NCERT 6.8.5: the chlorofluorocarbon compounds of methane and ethane are collectively known as freons. They are extremely stable, unreactive, non-toxic, non-corrosive and easily liquefiable gases. Freon 12 (CCl<sub>2</sub>F<sub>2</sub>) is one of the most common; it is made from tetrachloromethane by the Swarts reaction and used in aerosol propellants, refrigeration and air conditioning. Most freons diffuse into the stratosphere, where they start radical chain reactions that upset the natural ozone balance.</p>",
+     "hint": "Freon = chloro + fluoro derivative."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "उद्योगों में सर्वाधिक प्रयुक्त फ्रेऑनों में से एक, फ्रेऑन 12, है:",
+     "o": [
+      "CHCl<sub>3</sub>",
+      "CCl<sub>4</sub>",
+      "CH<sub>2</sub>Cl<sub>2</sub>",
+      "CCl<sub>2</sub>F<sub>2</sub>, जो स्वार्ट्स अभिक्रिया द्वारा टेट्राक्लोरोमेथेन से बनता है"
+     ],
+     "sol": "<p>NCERT 6.8.5: मेथेन व एथेन के क्लोरोफलुओरो व्युत्पन्न संयुक्त रूप से फ्रेऑन कहलाते हैं। ये अत्यधिक स्थायी, निष्क्रिय, निरावेषी (नॉन-टॉक्सिक), असंक्षारक तथा आसानी से द्रवित हो सकने वाली गैसें हैं। फ्रेऑन 12 (CCl<sub>2</sub>F<sub>2</sub>) सबसे सामान्य में से एक है; यह स्वार्ट्स अभिक्रिया द्वारा टेट्राक्लोरोमेथेन से बनता है और ऐरोसॉल प्रणोदक, प्रशीतन तथा वायु शीतलन में प्रयुक्त होता है। अधिकांश फ्रेऑन समतापमंडल में विसरित हो जाते हैं, जहाँ ये मूलक शृंखला अभिक्रिया प्रारंभ करके प्राकृतिक ओज़ोन संतुलन को अनियंत्रित कर देते हैं।</p>",
+     "hint": "फ्रेऑन = क्लोरो + फलुओरो व्युत्पन्न।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.8.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.8.5"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-06-ai-6-8-6-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the statements about DDT:<br>I. Its insecticidal effect was discovered by Paul Müller (Nobel Prize, 1948); it was widely used against mosquitoes that spread malaria and lice that carry typhus.<br>II. It is rapidly metabolised by animals, so it never builds up in fatty tissues.<br>III. Many insect species developed resistance to it, and it was found highly toxic to fish; it was banned in the United States in 1973.<br>Which are correct?",
+     "o": [
+      "I, II and III",
+      "I and III only",
+      "II and III only",
+      "I only"
+     ],
+     "sol": "<p>NCERT 6.8.6: DDT (p,p′-dichlorodiphenyltrichloroethane), the first chlorinated organic insecticide, was prepared in 1873; its insecticidal effect was discovered in 1939 by Paul Müller, who received the 1948 Nobel Prize in Medicine and Physiology. It was effective against malaria-spreading mosquitoes and typhus-carrying lice. Problems: insects developed resistance; it is highly toxic to fish. Its chemical stability and fat solubility mean it is <b>not</b> metabolised rapidly; it is deposited and stored in fatty tissues and builds up over time, so II is wrong. It was banned in the United States in 1973, although it is still used in some other parts of the world.</p>",
+     "hint": "Stable + fat soluble → stored in fat."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "DDT के बारे में कथनों पर विचार कीजिए:<br>I. इसके कीटनाशी प्रभाव की खोज पॉल मूलर (नोबेल पुरस्कार, 1948) ने की; यह मलेरिया फैलाने वाले मच्छरों तथा टाइफस वाहक जुओं के विरुद्ध व्यापक रूप से प्रयुक्त हुआ।<br>II. जंतु इसका शीघ्र उपापचयन कर लेते हैं, इसलिए यह वसीय ऊतकों में कभी एकत्र नहीं होता।<br>III. कीटों की अनेक प्रजातियों ने इसके प्रति प्रतिरोधात्मकता विकसित कर ली, और यह मछलियों के लिए अति विषैला पाया गया; संयुक्त राज्य में 1973 में इस पर प्रतिबंध लगा।<br>कौन-से सही हैं?",
+     "o": [
+      "I, II और III",
+      "केवल I और III",
+      "केवल II और III",
+      "केवल I"
+     ],
+     "sol": "<p>NCERT 6.8.6: DDT (p,p′-डाइक्लोरोडाइफेनिलट्राइक्लोरोएथेन), प्रथम क्लोरीनीकृत कार्बनिक कीटनाशी, 1873 में बनाया गया था; इसके कीटनाशी प्रभाव की खोज 1939 में पॉल मूलर ने की, जिन्हें 1948 में चिकित्सा एवं शरीर क्रिया विज्ञान का नोबेल पुरस्कार मिला। यह मलेरिया फैलाने वाले मच्छरों तथा टाइफस वाहक जुओं के विरुद्ध प्रभावकारी था। समस्याएँ: कीटों ने प्रतिरोधात्मकता विकसित कर ली; यह मछलियों के लिए अति विषैला है। इसके रासायनिक स्थायित्व तथा वसा में विलेयता के कारण इसका शीघ्र उपापचयन <b>नहीं</b> होता; यह वसीय ऊतकों में एकत्र तथा संग्रहित होता है और समय के साथ बढ़ता है, अतः II गलत है। संयुक्त राज्य में 1973 में इस पर प्रतिबंध लगा, यद्यपि विश्व के कुछ अन्य भागों में यह अब भी प्रयुक्त होता है।</p>",
+     "hint": "स्थायी + वसा में विलेय → वसा में संग्रह।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-06",
+    "paras": [
+     "6.8.6"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 6.8.6"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
