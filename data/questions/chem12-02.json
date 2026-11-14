@@ -3112,6 +3112,336 @@
     "keySource": "eSaral full-paper recall copy without answers (neet-sources/jee-main/2024/2024-09-01-shift-1-maths.pdf, chemistry part)",
     "note": "Reworded from the original paper to remove an ambiguity: standard potentials are supplied so the count is unambiguous."
    }
+  },
+  {
+   "id": "chem12-02-ai-2-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a Daniell cell, Zn(s) + Cu<sup>2+</sup>(aq) → Zn<sup>2+</sup>(aq) + Cu(s), when an external opposing potential slightly greater than 1.1 V is applied, then:",
+     "o": [
+      "the cell keeps working in the same direction, only faster",
+      "no current flows and the reaction stops for ever",
+      "current flows in the opposite direction: zinc is deposited at the zinc electrode and copper dissolves at the copper electrode, so the device works as an electrolytic cell",
+      "both electrodes dissolve"
+     ],
+     "sol": "<p>NCERT 2.1: a Daniell cell converts the chemical energy of the spontaneous redox reaction into electrical energy; its potential is 1.1 V when the ion concentrations are unity. If an opposing external potential is applied: below 1.1 V, current still flows from the cell (decreasing); at exactly 1.1 V, no current flows and the reaction stops; above 1.1 V the reaction goes backward, Zn deposits and Cu dissolves, and electrical energy is used to drive a non-spontaneous reaction: an electrolytic cell.</p>",
+     "hint": "Push harder than the cell pushes."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "डेन्यल सेल, Zn(s) + Cu<sup>2+</sup>(aq) → Zn<sup>2+</sup>(aq) + Cu(s), पर जब 1.1 V से थोड़ा अधिक बाह्य विरोधी विभव लगाया जाता है, तब:",
+     "o": [
+      "सेल उसी दिशा में, केवल तेज़ी से, कार्य करती रहती है",
+      "कोई धारा नहीं बहती और अभिक्रिया सदा के लिए रुक जाती है",
+      "धारा विपरीत दिशा में बहती है: ज़िंक इलैक्ट्रोड पर ज़िंक जमा होता है और कॉपर इलैक्ट्रोड पर कॉपर घुलता है, अतः युक्ति वैद्युतअपघटनी सेल की तरह कार्य करती है",
+      "दोनों इलैक्ट्रोड घुल जाते हैं"
+     ],
+     "sol": "<p>NCERT 2.1: डेन्यल सेल स्वतः प्रवर्तित अपचयोपचय अभिक्रिया की रासायनिक ऊर्जा को वैद्युत ऊर्जा में बदलती है; आयनों की सांद्रता इकाई होने पर इसका विभव 1.1 V होता है। विरोधी बाह्य विभव लगाने पर: 1.1 V से कम पर सेल से धारा बहती रहती है (घटती हुई); ठीक 1.1 V पर कोई धारा नहीं बहती और अभिक्रिया रुक जाती है; 1.1 V से अधिक पर अभिक्रिया विपरीत दिशा में होती है, Zn जमा होता है और Cu घुलता है, और वैद्युत ऊर्जा से अस्वतः प्रवर्तित अभिक्रिया कराई जाती है: वैद्युतअपघटनी सेल।</p>",
+     "hint": "सेल से अधिक ज़ोर लगाइए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 2.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-02-ai-2-2-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For the galvanic cell Zn(s) | Zn<sup>2+</sup>(aq) || Cu<sup>2+</sup>(aq) | Cu(s), which statement is <b>incorrect</b>?",
+     "o": [
+      "The zinc electrode is the cathode because electrons enter the external circuit there.",
+      "Oxidation occurs at the zinc electrode and reduction at the copper electrode.",
+      "The salt bridge completes the circuit and keeps the two solutions electrically neutral.",
+      "E<sub>cell</sub> = E<sub>right</sub> − E<sub>left</sub>, both written as reduction potentials."
+     ],
+     "sol": "<p>NCERT 2.2: in a galvanic cell the electrode where oxidation occurs is the <b>anode</b> (here Zn, the negative electrode, from which electrons flow into the external circuit); reduction occurs at the cathode (Cu, positive). Each electrode–electrolyte pair is a half-cell (redox couple). The salt bridge connects the two solutions, completes the circuit and lets ions move to keep each solution neutral. By convention the anode is written on the left, the cathode on the right, and E<sub>cell</sub> = E<sub>right</sub> − E<sub>left</sub> = E<sub>cathode</sub> − E<sub>anode</sub>.</p>",
+     "hint": "Anode: oxidation."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "गैल्वैनी सेल Zn(s) | Zn<sup>2+</sup>(aq) || Cu<sup>2+</sup>(aq) | Cu(s) के लिए कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "ज़िंक इलैक्ट्रोड कैथोड है क्योंकि वहाँ से इलेक्ट्रॉन बाह्य परिपथ में जाते हैं।",
+      "ज़िंक इलैक्ट्रोड पर ऑक्सीकरण तथा कॉपर इलैक्ट्रोड पर अपचयन होता है।",
+      "लवण सेतु परिपथ को पूर्ण करता है और दोनों विलयनों को वैद्युत रूप से उदासीन रखता है।",
+      "E<sub>cell</sub> = E<sub>right</sub> − E<sub>left</sub>, दोनों अपचयन विभव के रूप में लिखे जाते हैं।"
+     ],
+     "sol": "<p>NCERT 2.2: गैल्वैनी सेल में जिस इलैक्ट्रोड पर ऑक्सीकरण होता है वह <b>ऐनोड</b> है (यहाँ Zn, ऋण इलैक्ट्रोड, जहाँ से इलेक्ट्रॉन बाह्य परिपथ में बहते हैं); अपचयन कैथोड पर होता है (Cu, धन)। प्रत्येक इलैक्ट्रोड-वैद्युतअपघट्य युग्म एक अर्ध सेल (रेडॉक्स युग्म) है। लवण सेतु दोनों विलयनों को जोड़ता है, परिपथ पूर्ण करता है और आयनों को गति करने देता है ताकि प्रत्येक विलयन उदासीन रहे। परिपाटी के अनुसार ऐनोड बाईं ओर, कैथोड दाईं ओर लिखा जाता है, और E<sub>cell</sub> = E<sub>right</sub> − E<sub>left</sub> = E<sub>cathode</sub> − E<sub>anode</sub>।</p>",
+     "hint": "ऐनोड: ऑक्सीकरण।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 2.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-02-ai-2-6-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "According to NCERT 2.6, a battery that is to be of practical use should:",
+     "o": [
+      "be heavy and give a voltage that falls steadily during use",
+      "work only when connected to an external power supply",
+      "use only gaseous reactants",
+      "be reasonably light and compact, and its voltage should not vary appreciably during use"
+     ],
+     "sol": "<p>NCERT 2.6: any battery (one cell or several cells in series) is basically a galvanic cell in which the chemical energy of a redox reaction becomes electrical energy. For practical use it should be reasonably light and compact and its voltage should not vary appreciably during use. Batteries are of two types: primary batteries (cannot be recharged) and secondary (storage) batteries (can be recharged).</p>",
+     "hint": "Think of a mobile phone battery."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "NCERT 2.6 के अनुसार व्यावहारिक उपयोग की बैटरी को:",
+     "o": [
+      "भारी होना चाहिए और उपयोग के दौरान उसकी वोल्टता लगातार घटनी चाहिए",
+      "केवल बाह्य विद्युत स्रोत से जुड़े होने पर ही कार्य करना चाहिए",
+      "केवल गैसीय अभिकारकों का उपयोग करना चाहिए",
+      "पर्याप्त हल्का और सुगठित होना चाहिए, तथा उपयोग के दौरान उसकी वोल्टता में अधिक परिवर्तन नहीं होना चाहिए"
+     ],
+     "sol": "<p>NCERT 2.6: कोई भी बैटरी (एक सेल या श्रेणी में जुड़ी कई सेलें) मूल रूप से एक गैल्वैनी सेल है, जिसमें अपचयोपचय अभिक्रिया की रासायनिक ऊर्जा वैद्युत ऊर्जा में बदलती है। व्यावहारिक उपयोग के लिए इसे पर्याप्त हल्का और सुगठित होना चाहिए और उपयोग के दौरान इसकी वोल्टता में अधिक परिवर्तन नहीं होना चाहिए। बैटरियाँ मुख्यतः दो प्रकार की होती हैं: प्राथमिक बैटरियाँ (पुनः आवेशित नहीं की जा सकतीं) तथा संचायक बैटरियाँ (पुनः आवेशित की जा सकती हैं)।</p>",
+     "hint": "मोबाइल फ़ोन की बैटरी के बारे में सोचिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.6"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 2.6"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-02-ai-2-6-1-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the statements about primary batteries:<br>I. In the dry (Leclanché) cell the zinc container is the anode and a carbon (graphite) rod surrounded by MnO<sub>2</sub> and carbon is the cathode, with a moist paste of NH<sub>4</sub>Cl and ZnCl<sub>2</sub> as electrolyte.<br>II. The mercury cell gives a nearly constant potential of about 1.35 V because no ion whose concentration changes appears in its overall reaction.<br>III. A primary battery can be recharged many times by passing current in the opposite direction.<br>Which are correct?",
+     "o": [
+      "I, II and III",
+      "I and II only",
+      "II and III only",
+      "I and III only"
+     ],
+     "sol": "<p>NCERT 2.6.1: in a primary battery the reaction occurs only once; after use over a period the battery becomes dead and cannot be reused, so III is wrong. Dry cell: Zn container anode, carbon rod cathode surrounded by powdered MnO<sub>2</sub> and carbon, NH<sub>4</sub>Cl + ZnCl<sub>2</sub> paste; about 1.5 V. Mercury cell (hearing aids, watches): anode Zn–Hg amalgam, cathode HgO + carbon paste, electrolyte KOH + ZnO paste; overall Zn(Hg) + HgO(s) → ZnO(s) + Hg(l), about 1.35 V, constant over its life because no ion in solution changes concentration.</p>",
+     "hint": "\"Primary\" = use once."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "प्राथमिक बैटरियों के बारे में कथनों पर विचार कीजिए:<br>I. शुष्क सेल (लेक्लांशे सेल) में ज़िंक का पात्र ऐनोड तथा MnO<sub>2</sub> और कार्बन से घिरी कार्बन (ग्रैफाइट) छड़ कैथोड होती है, तथा NH<sub>4</sub>Cl और ZnCl<sub>2</sub> का नम पेस्ट वैद्युतअपघट्य होता है।<br>II. मर्क्यूरी सेल लगभग 1.35 V का लगभग स्थिर विभव देती है क्योंकि इसकी समग्र अभिक्रिया में कोई ऐसा आयन नहीं है जिसकी सांद्रता बदलती हो।<br>III. प्राथमिक बैटरी को विपरीत दिशा में धारा प्रवाहित करके अनेक बार पुनः आवेशित किया जा सकता है।<br>कौन-से सही हैं?",
+     "o": [
+      "I, II और III",
+      "केवल I और II",
+      "केवल II और III",
+      "केवल I और III"
+     ],
+     "sol": "<p>NCERT 2.6.1: प्राथमिक बैटरी में अभिक्रिया केवल एक बार होती है; कुछ समय उपयोग के बाद बैटरी निष्क्रिय हो जाती है और फिर से उपयोग नहीं की जा सकती, अतः III गलत है। शुष्क सेल: Zn पात्र ऐनोड, चूर्णित MnO<sub>2</sub> और कार्बन से घिरी कार्बन छड़ कैथोड, NH<sub>4</sub>Cl + ZnCl<sub>2</sub> पेस्ट; लगभग 1.5 V। मर्क्यूरी सेल (श्रवण यंत्र, घड़ियाँ): ऐनोड Zn–Hg अमलगम, कैथोड HgO + कार्बन का पेस्ट, वैद्युतअपघट्य KOH + ZnO का पेस्ट; समग्र Zn(Hg) + HgO(s) → ZnO(s) + Hg(l), लगभग 1.35 V, पूरी कार्य अवधि में स्थिर क्योंकि विलयन में किसी आयन की सांद्रता नहीं बदलती।</p>",
+     "hint": "\"प्राथमिक\" = एक बार उपयोग।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.6.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 2.6.1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-02-ai-2-6-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The overall reaction when a lead storage battery is in use (discharging) is:",
+     "o": [
+      "Pb(s) + PbO<sub>2</sub>(s) + 2H<sub>2</sub>SO<sub>4</sub>(aq) → 2PbSO<sub>4</sub>(s) + 2H<sub>2</sub>O(l)",
+      "2PbSO<sub>4</sub>(s) + 2H<sub>2</sub>O(l) → Pb(s) + PbO<sub>2</sub>(s) + 2H<sub>2</sub>SO<sub>4</sub>(aq)",
+      "Pb(s) + 2H<sub>2</sub>SO<sub>4</sub>(aq) → PbSO<sub>4</sub>(s) + SO<sub>2</sub>(g) + 2H<sub>2</sub>O(l)",
+      "Cd(s) + 2Ni(OH)<sub>3</sub>(s) → CdO(s) + 2Ni(OH)<sub>2</sub>(s) + H<sub>2</sub>O(l)"
+     ],
+     "sol": "<p>NCERT 2.6.2: anode lead, cathode a grid of lead packed with PbO<sub>2</sub>, electrolyte 38% sulphuric acid. Anode: Pb(s) + SO<sub>4</sub><sup>2−</sup>(aq) → PbSO<sub>4</sub>(s) + 2e<sup>−</sup>; cathode: PbO<sub>2</sub>(s) + SO<sub>4</sub><sup>2−</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>−</sup> → PbSO<sub>4</sub>(s) + 2H<sub>2</sub>O(l). Adding: option (1). On charging, the reaction is reversed (option 2). Option (4) is the discharge reaction of the nickel–cadmium cell, another secondary cell with a longer life but higher cost.</p>",
+     "hint": "Both electrodes end up as PbSO<sub>4</sub>."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "लेड संचायक बैटरी के उपयोग में होने (डिस्चार्ज) पर समग्र अभिक्रिया है:",
+     "o": [
+      "Pb(s) + PbO<sub>2</sub>(s) + 2H<sub>2</sub>SO<sub>4</sub>(aq) → 2PbSO<sub>4</sub>(s) + 2H<sub>2</sub>O(l)",
+      "2PbSO<sub>4</sub>(s) + 2H<sub>2</sub>O(l) → Pb(s) + PbO<sub>2</sub>(s) + 2H<sub>2</sub>SO<sub>4</sub>(aq)",
+      "Pb(s) + 2H<sub>2</sub>SO<sub>4</sub>(aq) → PbSO<sub>4</sub>(s) + SO<sub>2</sub>(g) + 2H<sub>2</sub>O(l)",
+      "Cd(s) + 2Ni(OH)<sub>3</sub>(s) → CdO(s) + 2Ni(OH)<sub>2</sub>(s) + H<sub>2</sub>O(l)"
+     ],
+     "sol": "<p>NCERT 2.6.2: ऐनोड लेड, कैथोड PbO<sub>2</sub> से भरा लेड का ग्रिड, वैद्युतअपघट्य 38% सल्फ्यूरिक अम्ल। ऐनोड: Pb(s) + SO<sub>4</sub><sup>2−</sup>(aq) → PbSO<sub>4</sub>(s) + 2e<sup>−</sup>; कैथोड: PbO<sub>2</sub>(s) + SO<sub>4</sub><sup>2−</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>−</sup> → PbSO<sub>4</sub>(s) + 2H<sub>2</sub>O(l)। जोड़ने पर: विकल्प (1)। चार्ज करने पर अभिक्रिया उलट जाती है (विकल्प 2)। विकल्प (4) निकैल कैडमियम सेल की डिस्चार्ज अभिक्रिया है, जो अधिक कार्य अवधि पर अधिक लागत वाली एक अन्य संचायक सेल है।</p>",
+     "hint": "दोनों इलैक्ट्रोड अंत में PbSO<sub>4</sub> बन जाते हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.6.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 2.6.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-02-ai-2-7-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the H<sub>2</sub>–O<sub>2</sub> fuel cell is <b>incorrect</b>?",
+     "o": [
+      "Hydrogen and oxygen are bubbled through porous carbon electrodes into concentrated aqueous NaOH solution.",
+      "Its overall reaction is 2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l), and it was used in the Apollo space programme, where the water produced was used by the astronauts.",
+      "It must be thrown away when the hydrogen supply in it is used up, like a primary battery.",
+      "It runs continuously as long as reactants are supplied and has an efficiency of about 70%, against about 40% for thermal power plants."
+     ],
+     "sol": "<p>NCERT 2.7: fuel cells convert the energy of combustion of fuels such as hydrogen directly into electrical energy. In the H<sub>2</sub>–O<sub>2</sub> cell, H<sub>2</sub> and O<sub>2</sub> bubble through porous carbon electrodes (with catalysts such as finely divided Pt or Pd) into concentrated aqueous NaOH. Cathode: O<sub>2</sub> + 2H<sub>2</sub>O + 4e<sup>−</sup> → 4OH<sup>−</sup>; anode: 2H<sub>2</sub> + 4OH<sup>−</sup> → 4H<sub>2</sub>O + 4e<sup>−</sup>; overall 2H<sub>2</sub> + O<sub>2</sub> → 2H<sub>2</sub>O. The cell runs continuously as long as the reactants are supplied; it is not discarded like a primary battery. Efficiency about 70% (thermal plants about 40%), and it is pollution free.</p>",
+     "hint": "Fuel is fed in from outside."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "H<sub>2</sub>–O<sub>2</sub> ईंधन सेल के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "हाइड्रोजन तथा ऑक्सीजन को सरंध्र कार्बन इलैक्ट्रोडों से होकर सांद्र जलीय NaOH विलयन में बुलबुलों के रूप में भेजा जाता है।",
+      "इसकी समग्र अभिक्रिया 2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l) है, और इसका उपयोग अपोलो अंतरिक्ष कार्यक्रम में हुआ, जहाँ बने जल का उपयोग अंतरिक्ष यात्रियों ने किया।",
+      "इसमें भरी हाइड्रोजन समाप्त होने पर इसे प्राथमिक बैटरी की तरह फेंक देना पड़ता है।",
+      "जब तक अभिकारक दिए जाते हैं यह लगातार कार्य करती है और इसकी दक्षता लगभग 70% है, जबकि ऊष्मीय संयंत्रों की लगभग 40%।"
+     ],
+     "sol": "<p>NCERT 2.7: ईंधन सेल हाइड्रोजन जैसे ईंधनों की दहन ऊर्जा को सीधे वैद्युत ऊर्जा में बदलती हैं। H<sub>2</sub>–O<sub>2</sub> सेल में H<sub>2</sub> तथा O<sub>2</sub> सरंध्र कार्बन इलैक्ट्रोडों (सूक्ष्म विभाजित Pt या Pd जैसे उत्प्रेरकों के साथ) से होकर सांद्र जलीय NaOH में बुलबुलों के रूप में जाती हैं। कैथोड: O<sub>2</sub> + 2H<sub>2</sub>O + 4e<sup>−</sup> → 4OH<sup>−</sup>; ऐनोड: 2H<sub>2</sub> + 4OH<sup>−</sup> → 4H<sub>2</sub>O + 4e<sup>−</sup>; समग्र 2H<sub>2</sub> + O<sub>2</sub> → 2H<sub>2</sub>O। जब तक अभिकारक दिए जाते हैं, सेल लगातार कार्य करती है; इसे प्राथमिक बैटरी की तरह फेंका नहीं जाता। दक्षता लगभग 70% (ऊष्मीय संयंत्र लगभग 40%), और यह प्रदूषण रहित है।</p>",
+     "hint": "ईंधन बाहर से दिया जाता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.7"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 2.7"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {

@@ -79,6 +79,86 @@
  ],
  "sections": [
   {
+   "sec": "7.2",
+   "title": "Redox reactions in terms of electron transfer reactions",
+   "hi": null,
+   "pages": [],
+   "pdfPage": 3,
+   "questions": [
+    {
+     "id": "chem11-07-ai-7-2-q1",
+     "exam": "Practice",
+     "q": "In the reaction 2Na(s) + Cl<sub>2</sub>(g) → 2NaCl(s), considered as electron transfer, which statement is correct?",
+     "sol": "<p>NCERT 7.2: split into half reactions: 2Na → 2Na<sup>+</sup> + 2e<sup>−</sup> (oxidation half: loss of electrons) and Cl<sub>2</sub> + 2e<sup>−</sup> → 2Cl<sup>−</sup> (reduction half: gain of electrons). Oxidation = loss of electron(s); reduction = gain of electron(s). Sodium is oxidised and acts as the reducing agent (it donates electrons); chlorine is reduced and is the oxidising agent.</p>",
+     "hint": "Oxidation is loss, reduction is gain (of electrons).",
+     "paras": [
+      "7.2"
+     ],
+     "status": "draft",
+     "srcRef": "Own question (AI) on NCERT 7.2",
+     "o": [
+      "Sodium gains electrons and is reduced; chlorine is the reducing agent.",
+      "Sodium loses electrons and is oxidised; chlorine gains electrons and is reduced.",
+      "Both sodium and chlorine are oxidised.",
+      "No electron transfer takes place because both reactants are elements."
+     ],
+     "a": 1,
+     "hi": {
+      "q": "अभिक्रिया 2Na(s) + Cl<sub>2</sub>(g) → 2NaCl(s) को इलेक्ट्रॉन स्थानांतरण के रूप में देखने पर कौन-सा कथन सही है?",
+      "o": [
+       "सोडियम इलेक्ट्रॉन ग्रहण करके अपचयित होता है; क्लोरीन अपचायक है।",
+       "सोडियम इलेक्ट्रॉन त्यागकर ऑक्सीकृत होता है; क्लोरीन इलेक्ट्रॉन ग्रहण करके अपचयित होती है।",
+       "सोडियम और क्लोरीन दोनों ऑक्सीकृत होते हैं।",
+       "कोई इलेक्ट्रॉन स्थानांतरण नहीं होता क्योंकि दोनों अभिकारक तत्त्व हैं।"
+      ],
+      "sol": "<p>NCERT 7.2: अर्द्ध-अभिक्रियाओं में बाँटिए: 2Na → 2Na<sup>+</sup> + 2e<sup>−</sup> (ऑक्सीकरण अर्द्ध-अभिक्रिया: इलेक्ट्रॉन का त्याग) तथा Cl<sub>2</sub> + 2e<sup>−</sup> → 2Cl<sup>−</sup> (अपचयन अर्द्ध-अभिक्रिया: इलेक्ट्रॉन की प्राप्ति)। ऑक्सीकरण = इलेक्ट्रॉन का त्याग; अपचयन = इलेक्ट्रॉन की प्राप्ति। सोडियम ऑक्सीकृत होता है और अपचायक का कार्य करता है (यह इलेक्ट्रॉन देता है); क्लोरीन अपचयित होती है और ऑक्सीकारक है।</p>",
+      "hint": "ऑक्सीकरण में इलेक्ट्रॉनों का त्याग, अपचयन में प्राप्ति।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "7.2.1",
+   "title": "Competitive Electron Transfer Reactions",
+   "hi": "प्रतियोगी इलेक्ट्रॉन स्थानांतरण अभिक्रियाएँ",
+   "pages": [],
+   "pdfPage": 4,
+   "questions": [
+    {
+     "id": "chem11-07-ai-7-2-1-q1",
+     "exam": "Practice",
+     "q": "A zinc rod is placed in aqueous copper nitrate, and separately a copper rod is placed in aqueous zinc nitrate. Which observation is expected?",
+     "sol": "<p>NCERT 7.2.1: Zn(s) + Cu<sup>2+</sup>(aq) → Zn<sup>2+</sup>(aq) + Cu(s): zinc releases electrons to copper ions, copper metal deposits as a red layer, and the blue colour of Cu<sup>2+</sup> disappears. The reverse reaction, Cu with Zn<sup>2+</sup>, does not occur to a visible extent. So zinc releases electrons more readily than copper; this competition for electrons gives a series of metals (Zn > Cu > Ag): copper in turn displaces silver from silver nitrate.</p>",
+     "hint": "Which metal gives up electrons more easily?",
+     "paras": [
+      "7.2.1"
+     ],
+     "status": "draft",
+     "srcRef": "Own question (AI) on NCERT 7.2.1",
+     "o": [
+      "Copper is deposited in both beakers.",
+      "Zinc is deposited on the copper rod; the zinc rod is unchanged.",
+      "A red layer of copper forms on the zinc rod and the blue colour fades; nothing visible happens to the copper rod in zinc nitrate.",
+      "Both rods dissolve and hydrogen gas is evolved."
+     ],
+     "a": 2,
+     "hi": {
+      "q": "एक ज़िंक की छड़ को जलीय कॉपर नाइट्रेट में और अलग से एक कॉपर की छड़ को जलीय ज़िंक नाइट्रेट में रखा गया। कौन-सा प्रेक्षण अपेक्षित है?",
+      "o": [
+       "दोनों बीकरों में कॉपर जमा होता है।",
+       "कॉपर की छड़ पर ज़िंक जमा होता है; ज़िंक की छड़ अपरिवर्तित रहती है।",
+       "ज़िंक की छड़ पर कॉपर की लाल परत जम जाती है और नीला रंग हल्का होता जाता है; ज़िंक नाइट्रेट में कॉपर की छड़ पर कुछ दिखाई नहीं देता।",
+       "दोनों छड़ें घुल जाती हैं और हाइड्रोजन गैस निकलती है।"
+      ],
+      "sol": "<p>NCERT 7.2.1: Zn(s) + Cu<sup>2+</sup>(aq) → Zn<sup>2+</sup>(aq) + Cu(s): ज़िंक कॉपर आयनों को इलेक्ट्रॉन देता है, कॉपर धातु लाल परत के रूप में जमती है, और Cu<sup>2+</sup> का नीला रंग गायब हो जाता है। विपरीत अभिक्रिया, Cu तथा Zn<sup>2+</sup>, दृश्य मात्रा में नहीं होती। अतः ज़िंक कॉपर की अपेक्षा अधिक आसानी से इलेक्ट्रॉन मुक्त करता है; इलेक्ट्रॉनों के लिए इस स्पर्धा से धातुओं की एक श्रेणी बनती है (Zn > Cu > Ag): कॉपर भी सिल्वर नाइट्रेट से सिल्वर को विस्थापित करता है।</p>",
+      "hint": "कौन-सी धातु आसानी से इलेक्ट्रॉन छोड़ती है?"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
    "sec": "7.3",
    "title": "Oxidation number",
    "hi": "ऑक्सीकरण-संख्या",
@@ -336,6 +416,86 @@
    ]
   },
   {
+   "sec": "7.3.3",
+   "title": "Redox Reactions as the Basis for Titrations",
+   "hi": "अपचयोपचय अभिक्रियाओं पर आधारित अनुमापन",
+   "pages": [],
+   "pdfPage": 15,
+   "questions": [
+    {
+     "id": "chem11-07-ai-7-3-3-q1",
+     "exam": "Practice",
+     "q": "Match the redox titration with how its end point is seen: (a) Fe<sup>2+</sup> with KMnO<sub>4</sub>; (b) Fe<sup>2+</sup> with K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>; (c) Cu<sup>2+</sup> with I<sup>−</sup>, then I<sub>2</sub> with thiosulphate. (i) Diphenylamine indicator gives an intense blue colour after the equivalence point; (ii) MnO<sub>4</sub><sup>−</sup> itself is the indicator: first permanent pink tinge; (iii) starch gives a blue colour with iodine, which disappears at the end point.",
+     "sol": "<p>NCERT 7.3.3: (a) permanganate is deeply coloured and acts as a self indicator; a faint pink appears once the last of Fe<sup>2+</sup> is oxidised, even at about 10<sup>−6</sup> mol L<sup>−1</sup> MnO<sub>4</sub><sup>−</sup>. (b) Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> is not a self indicator; after the equivalence point it oxidises diphenylamine to an intense blue colour. (c) 2Cu<sup>2+</sup> + 4I<sup>−</sup> → Cu<sub>2</sub>I<sub>2</sub>(s) + I<sub>2</sub>; the iodine is titrated with thiosulphate, I<sub>2</sub> + 2S<sub>2</sub>O<sub>3</sub><sup>2−</sup> → 2I<sup>−</sup> + S<sub>4</sub>O<sub>6</sub><sup>2−</sup>, using the blue starch–iodine colour, which vanishes when the iodine is used up.</p>",
+     "hint": "Which titrant is purple?",
+     "paras": [
+      "7.3.3"
+     ],
+     "status": "draft",
+     "srcRef": "Own question (AI) on NCERT 7.3.3",
+     "o": [
+      "(a)–(ii), (b)–(i), (c)–(iii)",
+      "(a)–(i), (b)–(ii), (c)–(iii)",
+      "(a)–(iii), (b)–(i), (c)–(ii)",
+      "(a)–(ii), (b)–(iii), (c)–(i)"
+     ],
+     "a": 0,
+     "hi": {
+      "q": "अपचयोपचय अनुमापन का उसके अंत्यबिंदु को देखने के तरीके से मिलान कीजिए: (a) Fe<sup>2+</sup> का KMnO<sub>4</sub> से; (b) Fe<sup>2+</sup> का K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> से; (c) Cu<sup>2+</sup> का I<sup>−</sup> से, फिर I<sub>2</sub> का थायोसल्फेट से। (i) तुल्यबिंदु के बाद डाइफेनिल एमीन सूचक गहरा नीला रंग देता है; (ii) MnO<sub>4</sub><sup>−</sup> स्वयं सूचक है: गुलाबी रंग की प्रथम स्थायी झलक; (iii) स्टार्च आयोडीन के साथ नीला रंग देता है, जो अंत्यबिंदु पर गायब हो जाता है।",
+      "o": [
+       "(a)–(ii), (b)–(i), (c)–(iii)",
+       "(a)–(i), (b)–(ii), (c)–(iii)",
+       "(a)–(iii), (b)–(i), (c)–(ii)",
+       "(a)–(ii), (b)–(iii), (c)–(i)"
+      ],
+      "sol": "<p>NCERT 7.3.3: (a) परमैंगनेट गहरे रंग का है और स्वयंसूचक की भाँति कार्य करता है; Fe<sup>2+</sup> का अंतिम भाग ऑक्सीकृत होते ही हल्का गुलाबी रंग दिखता है, MnO<sub>4</sub><sup>−</sup> लगभग 10<sup>−6</sup> mol L<sup>−1</sup> होने पर भी। (b) Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> स्वयं सूचक नहीं है; तुल्यबिंदु के बाद यह डाइफेनिल एमीन को ऑक्सीकृत करके गहरा नीला रंग देता है। (c) 2Cu<sup>2+</sup> + 4I<sup>−</sup> → Cu<sub>2</sub>I<sub>2</sub>(s) + I<sub>2</sub>; आयोडीन का अनुमापन थायोसल्फेट से किया जाता है, I<sub>2</sub> + 2S<sub>2</sub>O<sub>3</sub><sup>2−</sup> → 2I<sup>−</sup> + S<sub>4</sub>O<sub>6</sub><sup>2−</sup>, स्टार्च-आयोडीन के नीले रंग की सहायता से, जो आयोडीन समाप्त होने पर गायब हो जाता है।</p>",
+      "hint": "कौन-सा अनुमापक बैंगनी है?"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
+   "sec": "7.3.4",
+   "title": "Limitations of Concept of Oxidation Number",
+   "hi": "ऑक्सीकरण अंकधारणा की सीमाएँ",
+   "pages": [],
+   "pdfPage": 15,
+   "questions": [
+    {
+     "id": "chem11-07-ai-7-3-4-q1",
+     "exam": "Practice",
+     "q": "According to NCERT 7.3.4, the most recent way of looking at oxidation and reduction, beyond the simple oxidation-number concept, is in terms of:",
+     "sol": "<p>NCERT 7.3.4: the ideas of oxidation and reduction have kept developing: addition/removal of oxygen or hydrogen, then loss/gain of electrons, then change in oxidation number. The oxidation-number method is a formal bookkeeping device and has limitations, so the process is now viewed as a decrease in electron density (oxidation) or an increase in electron density (reduction) around the atom(s) involved in the reaction. Nuclear changes are never part of redox chemistry.</p>",
+     "hint": "Electron density, not whole electrons.",
+     "paras": [
+      "7.3.4"
+     ],
+     "status": "draft",
+     "srcRef": "Own question (AI) on NCERT 7.3.4",
+     "o": [
+      "addition and removal of oxygen only",
+      "addition and removal of hydrogen only",
+      "change in the number of protons in the nucleus",
+      "decrease (oxidation) or increase (reduction) of electron density around the atom(s) involved"
+     ],
+     "a": 3,
+     "hi": {
+      "q": "NCERT 7.3.4 के अनुसार, सामान्य ऑक्सीकरण-संख्या अंकधारणा से आगे, ऑक्सीकरण तथा अपचयन को देखने का सबसे नया तरीका किसके रूप में है?",
+      "o": [
+       "केवल ऑक्सीजन का योग तथा निष्कासन",
+       "केवल हाइड्रोजन का योग तथा निष्कासन",
+       "नाभिक में प्रोटॉनों की संख्या में परिवर्तन",
+       "अभिक्रिया में संलग्न परमाणु(ओं) के चारों ओर इलेक्ट्रॉन घनत्व में ह्रास (ऑक्सीकरण) या वृद्धि (अपचयन)"
+      ],
+      "sol": "<p>NCERT 7.3.4: ऑक्सीकरण और अपचयन की अवधारणाएँ विकसित होती रही हैं: ऑक्सीजन या हाइड्रोजन का योग/निष्कासन, फिर इलेक्ट्रॉनों का त्याग/प्राप्ति, फिर ऑक्सीकरण-संख्या में परिवर्तन। ऑक्सीकरण-संख्या विधि एक औपचारिक लेखा-पद्धति है और इसकी सीमाएँ हैं, इसलिए अब इस प्रक्रम को अभिक्रिया में संलग्न परमाणु(ओं) के चारों ओर इलेक्ट्रॉन घनत्व में ह्रास (ऑक्सीकरण) या इलेक्ट्रॉन घनत्व-वृद्धि (अपचयन) के रूप में देखा जाता है। नाभिकीय परिवर्तन अपचयोपचय रसायन का भाग नहीं होते।</p>",
+      "hint": "पूरे इलेक्ट्रॉन नहीं, इलेक्ट्रॉन घनत्व।"
+     },
+     "hiStatus": "draft"
+    }
+   ]
+  },
+  {
    "sec": "multi",
    "title": "Multiple concepts",
    "hi": "एक से अधिक अवधारणाएँ",
@@ -483,38 +643,10 @@
   }
  ],
  "counts": {
-  "NEET": 11
+  "NEET": 11,
+  "Practice": 4
  },
- "empty": [
-  {
-   "id": "7.2",
-   "title": "Redox reactions in terms of electron transfer reactions",
-   "hi": null,
-   "pages": [],
-   "pdfPage": 3
-  },
-  {
-   "id": "7.2.1",
-   "title": "Competitive Electron Transfer Reactions",
-   "hi": "प्रतियोगी इलेक्ट्रॉन स्थानांतरण अभिक्रियाएँ",
-   "pages": [],
-   "pdfPage": 4
-  },
-  {
-   "id": "7.3.3",
-   "title": "Redox Reactions as the Basis for Titrations",
-   "hi": "अपचयोपचय अभिक्रियाओं पर आधारित अनुमापन",
-   "pages": [],
-   "pdfPage": 15
-  },
-  {
-   "id": "7.3.4",
-   "title": "Limitations of Concept of Oxidation Number",
-   "hi": "ऑक्सीकरण अंकधारणा की सीमाएँ",
-   "pages": [],
-   "pdfPage": 15
-  }
- ],
+ "empty": [],
  "trends": {
   "7.3": {
    "neet": 4,
