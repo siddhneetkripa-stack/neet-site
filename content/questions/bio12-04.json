@@ -748,26 +748,26 @@
    "text": {
     "en": {
      "status": "draft",
-     "q": "Pick out the correct statements :<br>(i) Haemophilia is a sex-linked recessive disease<br>(ii) Down's syndrome is due to aneuploidy<br>(iii) Phenylketonuria is an autosomal recessive gene disorder<br>(iv) Sickle cell anaemia is an autosomal recessive gene disorder",
+     "q": "Pick out the correct statements :<br>(i) Haemophilia is a sex-linked recessive disease<br>(ii) Down's syndrome is due to aneuploidy<br>(iii) Phenylketonuria is an autosomal recessive gene disorder<br>(iv) Sickle cell anaemia is a sex-linked recessive gene disorder",
      "o": [
       "(i) and (iv) are correct",
       "(ii) and (iv) are correct",
       "(i), (iii) and (iv) are correct",
       "(i), (ii) and (iii) are correct"
      ],
-     "sol": "<ul><li>(i) Haemophilia: sex-linked recessive ✓.</li><li>(ii) Down's syndrome: trisomy 21, an aneuploidy ✓.</li><li>(iii) Phenylketonuria: autosomal recessive ✓.</li></ul><p>The official key gives (i), (ii) and (iii).</p><p class='errata'>Statement (iv) is also true — NCERT calls sickle-cell anaemia an autosomal recessive trait — so strictly all four statements are correct; no option offers that, and the key chose option (4).</p>",
+     "sol": "<ul><li>(i) Haemophilia: sex-linked recessive ✓.</li><li>(ii) Down's syndrome: trisomy 21, an aneuploidy ✓.</li><li>(iii) Phenylketonuria: autosomal recessive ✓.</li></ul><p>The official key gives (i), (ii) and (iii).</p><ul><li>(iv) is false: NCERT gives sickle-cell anaemia as an autosomal recessive trait, not sex-linked.</li></ul>",
      "hint": "Check each disorder's inheritance type in NCERT 4.8."
     },
     "hi": {
      "status": "draft",
-     "q": "सही कथन चुनिए :<br>(i) हीमोफीलिया एक लिंग-सहलग्न अप्रभावी रोग है<br>(ii) डाउन सिंड्रोम असुगुणिता के कारण होता है<br>(iii) फीनाइलकीटोनूरिया एक अलिंग अप्रभावी जीन विकार है<br>(iv) दात्र कोशिका अरक्तता एक अलिंग अप्रभावी जीन विकार है",
+     "q": "सही कथन चुनिए :<br>(i) हीमोफीलिया एक लिंग-सहलग्न अप्रभावी रोग है<br>(ii) डाउन सिंड्रोम असुगुणिता के कारण होता है<br>(iii) फीनाइलकीटोनूरिया एक अलिंग अप्रभावी जीन विकार है<br>(iv) दात्र कोशिका अरक्तता एक लिंग-सहलग्न अप्रभावी जीन विकार है",
      "o": [
       "(i) और (iv) सही हैं",
       "(ii) और (iv) सही हैं",
       "(i), (iii) और (iv) सही हैं",
       "(i), (ii) और (iii) सही हैं"
      ],
-     "sol": "<ul><li>(i) हीमोफीलिया: लिंग-सहलग्न अप्रभावी ✓।</li><li>(ii) डाउन सिंड्रोम: क्रोमोसोम 21 की ट्राइसोमी, एक असुगुणिता ✓।</li><li>(iii) फीनाइलकीटोनूरिया: अलिंग अप्रभावी ✓।</li></ul><p>आधिकारिक कुंजी (i), (ii) और (iii) देती है।</p><p class='errata'>कथन (iv) भी सत्य है — NCERT दात्र कोशिका अरक्तता को अलिंग अप्रभावी लक्षण बताती है — अतः वस्तुतः चारों कथन सही हैं; ऐसा कोई विकल्प नहीं है, और कुंजी ने विकल्प (4) चुना।</p>",
+     "sol": "<ul><li>(i) हीमोफीलिया: लिंग-सहलग्न अप्रभावी ✓।</li><li>(ii) डाउन सिंड्रोम: क्रोमोसोम 21 की ट्राइसोमी, एक असुगुणिता ✓।</li><li>(iii) फीनाइलकीटोनूरिया: अलिंग अप्रभावी ✓।</li></ul><p>आधिकारिक कुंजी (i), (ii) और (iii) देती है।</p><ul><li>(iv) असत्य है: NCERT दात्र कोशिका अरक्तता को अलिंग अप्रभावी लक्षण बताती है, लिंग-सहलग्न नहीं।</li></ul>",
      "hint": "NCERT 4.8 में प्रत्येक विकार की वंशागति का प्रकार देखें।",
      "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread."
     }
@@ -799,7 +799,7 @@
    "review": {
     "keyCheck": "Matches the official key (CBSE NEET 2016 Phase 1 key, Code A: 4)",
     "keySource": "Official CBSE answer key, NEET 2016 Phase 1, Codes A/P/W (copy: https://cdn1.byjus.com/neet/wp-content/uploads/2018/03/10072942/NEET-2016-Answer-keys-Phase-1-Code-A-P-W.pdf; PDF not yet in neet-sources)",
-    "note": "Statement (iv) is also true (NCERT: sickle-cell anaemia is autosomal recessive), so strictly all four are correct; the official key gives option 4."
+    "note": "Reworded from the original paper to remove an ambiguity: statement (iv) read 'Sickle cell anaemia is an autosomal recessive gene disorder', which is true (NCERT), so all four statements were correct and no option fitted; (iv) now says 'sex-linked', so only option 4, the official key, is right."
    }
   },
   {

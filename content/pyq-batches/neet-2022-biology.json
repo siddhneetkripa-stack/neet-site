@@ -213,7 +213,7 @@
   "paras": [
    "12.2"
   ],
-  "q": "What is the net gain of ATP when each molecule of glucose is converted to two molecules of pyruvic acid?",
+  "q": "What is the net gain of ATP, counting only the ATP made and used directly in glycolysis, when each molecule of glucose is converted to two molecules of pyruvic acid?",
   "o": [
    "Six",
    "Two",
@@ -225,12 +225,9 @@
   "exam": "NEET",
   "paper": "Code T2 Q110",
   "session": "17 Jul 2022 · Code T2",
-  "also": [
-   2
-  ],
   "key": "Answer printed in the copy: 2; matches our solving",
   "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/biology-with-answers.pdf; OCR checked against page images). No NTA final key for 2022 in neet-sources.",
-  "note": "The copy prints '(2, 3)': net gain is 2 ATP, or 8 ATP if the 2 NADH are counted (old NCERT). Both accepted in the copy's key.",
+  "note": "Reworded from the original paper to remove an ambiguity: 'counting only the ATP made and used directly in glycolysis' added; the copy's key accepted both 2 and 8 ATP (8 counts the 2 NADH, old NCERT). Original key note: the copy prints '(2, 3)'.",
   "type": "single",
   "difficulty": 2
  },
