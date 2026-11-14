@@ -7,7 +7,8 @@
 English titles and pdfPage come from the English chapter PDFs (pdftotext, page by page); Hindi titles from the
 same-numbered headings in neet-sources/ncert-hi-text (NCERT's own Hindi). Same layout as chemistry-paragraphs.json.
 Ids stay at NCERT's section / sub-section level (e.g. 8.5.3); split finer in a chapter's own bank when needed.
-Existing entries (hand edits, extra ids) are kept when the file is regenerated.
+Hand fixes live in content/ncert/paragraph-overrides.json: English titles per subject, "hiTitles" (Hindi titles the extractor
+misses, e.g. Class 12 headings split over two lines) and "pdfPageOffset" (printed page = pdfPage + offset; adds "pages").
 """
 import html, json, os, re, subprocess, sys
 
@@ -149,7 +150,10 @@ def main():
     chapters = {}
     op = os.path.join(ROOT, "content", "ncert", "paragraph-overrides.json")
     global OVR
-    OVR = json.load(open(op, encoding="utf-8")).get(subj, {}) if os.path.exists(op) else {}
+    ovr_doc = json.load(open(op, encoding="utf-8")) if os.path.exists(op) else {}
+    OVR = ovr_doc.get(subj, {})
+    HI_OVR = ovr_doc.get("hiTitles", {}).get(subj, {})        # hand Hindi titles where the Hindi heading is split or missing
+    OFFSETS = ovr_doc.get("pdfPageOffset", {}).get(subj, {})  # printed page = pdfPage + offset (first printed page - 1)
     for e in sorted((e for e in idx if e.get("subject") == subj and e.get("chapter")), key=lambda e: (e["class"], e["chapter"])):
         cls, no = e["class"], e["chapter"]
         cid = f"{PREFIX[subj]}{cls}-{no:02d}"
@@ -188,7 +192,17 @@ def main():
         have = {p["id"] for p in paras}
 
         paras.sort(key=lambda p: key(re.sub(r"[a-z]$", "", p["id"])))
+        for p in paras:  # hand Hindi titles (checked against ncert-hi-text)
+            if HI_OVR.get(cid, {}).get(p["id"]):
+                p["hi"] = HI_OVR[cid][p["id"]]
         chapters[cid] = {"pdf": rel, "title": e.get("title"), "paragraphs": paras}
+        if cid in OFFSETS:  # printed pages: from a paragraph's first page up to the page where the next one starts
+            off = OFFSETS[cid]
+            chapters[cid]["pdfPageOffset"] = off
+            for i, p in enumerate(paras):
+                start = p["pdfPage"] + off
+                nxt = paras[i + 1]["pdfPage"] + off if i + 1 < len(paras) else start
+                p["pages"] = list(range(start, min(max(nxt, start), start + 3) + 1))
         print(cid, len(paras), e.get("title"))
     doc = {"description": f"NCERT (rationalised, 2023+) {subj.title()} paragraph ids per chapter, from the section headings of the English books in neet-sources (tools/make_paragraphs.py); Hindi titles from the same-numbered headings in neet-sources/ncert-hi-text. Used by tools/add_pyqs.py to start a chapter's question bank. Sub-paragraph ids may be added in a chapter's own bank.",
            "chapters": chapters}

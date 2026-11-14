@@ -102,8 +102,9 @@ def new_bank(ch):
     return {"$schema": "../../docs/question-schema.json", "schemaVersion": 1, "chapter": ch, "subject": subject_of(ch),
             "class": cls, "unit": no, "title": {"en": title},
             "ncertPdf": pdf_url(cls, no, subject_of(ch)),
+            **({"pdfPageOffset": P["pdfPageOffset"]} if "pdfPageOffset" in P else {}),
             "ncert_status": "in_ncert", "syllabus_status": "current",
-            "paragraphs": [{k: v for k, v in {"id": p["id"], "title": p["title"], "hi": p.get("hi"), "pdfPage": p.get("pdfPage")}.items() if v} for p in P["paragraphs"]],
+            "paragraphs": [{k: v for k, v in {"id": p["id"], "title": p["title"], "hi": p.get("hi"), "pages": p.get("pages"), "pdfPage": p.get("pdfPage")}.items() if v} for p in P["paragraphs"]],
             "questions": []}
 
 
