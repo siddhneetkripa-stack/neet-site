@@ -1520,6 +1520,1598 @@
     "keySource": "Answers in the eSaral Code T2 copy (scan; neet-sources/neet-papers/2022/chemistry-with-solutions.pdf). No NTA final key for 2022 in neet-sources.",
     "note": "BONUS in the copy's key: with E°cell = 10.5 V as printed the answer (10.41 V) is not offered. If the intended value is 1.05 V, E = 1.05 − (0.059/2)×3 = 0.9615 V (option 2). Check NTA's final key; keep out of tests until then. Section B (attempt any 10 of 15)."
    }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-02-shift-1-q57",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electrochemical cell is constructed using half cells in the direction of spontaneous change<br>Fe(OH)<sub>2</sub>(s) + 2e<sup>−</sup> → Fe(s) + 2OH<sup>−</sup>(aq) &nbsp; E<sup>θ</sup> = −0.88 V<br>and AgBr(s) + e<sup>−</sup> → Ag(s) + Br<sup>−</sup>(aq) &nbsp; E<sup>θ</sup> = +0.07 V<br>Which of the following option is correct ?",
+     "o": [
+      "Overall reaction Fe(s) + 2OH<sup>−</sup>(aq) + 2AgBr(s) ⇌ Fe(OH)<sub>2</sub>(s) + 2Ag(s) + 2Br<sup>−</sup>(aq)",
+      "E<sup>θ</sup><sub>cell</sub> = −0.95 V",
+      "Fe is reduced in the electrochemical cell",
+      "E<sup>θ</sup><sub>cell</sub> is an extensive property"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-1 Q57",
+    "session": "2 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 69112157, option ID 691121195): option 1 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-02-shift-2-q73",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following two half-cell reactions along with the standard reduction potential given :<br>CO<sub>2</sub> + 6H<sup>+</sup> + 6e<sup>−</sup> → CH<sub>3</sub>OH + H<sub>2</sub>O &nbsp; E°<sub>red</sub> = 0.02 V<br>½O<sub>2</sub> + 2H<sup>+</sup> + 2e<sup>−</sup> → H<sub>2</sub>O &nbsp; E°<sub>red</sub> = 1.23 V<br>A fuel cell was set up using the above two reactions such that the cell operates under the standard condition of 1 bar pressure and 298 K temperature. The fuel cell works with 80% efficiency. If the work derived from the cell using 1 mol of CH<sub>3</sub>OH is used to compress an ideal gas isothermally against a constant pressure of 1 kPa, then the change in the volume of the gas, ΔV = ________ m<sup>3</sup>. (nearest integer)<br>Given : F = 96500 C mol<sup>−1</sup>"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 560,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.7",
+     "2.3.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Thermodynamics"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-02-shift-2 Q73",
+    "session": "2 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121223): 560; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-04-shift-2-q73",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "An electrochemical cell consists of the following two redox couples, M<sup>x+</sup>(aq)/M(s) [E°<sub>red</sub> = +0.15 V] and Fe<sup>3+</sup>(aq)/Fe(s) [E°<sub>red</sub> = −0.036 V]. The cell EMF (E<sub>cell</sub>) is recorded to be 0.2057 V. If the reaction quotient of the electrochemical reaction is found to be 10<sup>−2</sup>, then the value of x is ________. (Nearest integer)<br>[Given : M is a p-block metal and 2.303RT/F = 0.059 V]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 2,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-04-shift-2 Q73",
+    "session": "4 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 695278448): 2; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-05-shift-2-q57",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "One half cell in a voltaic cell is constructed by dipping silver rod in AgNO<sub>3</sub> solution of unknown concentration, other half cell is Zn rod dipped in 1 molar solution of ZnSO<sub>4</sub>. A voltage of 1.60 V is measured at 298 K for this cell. What is the concentration of Ag<sup>+</sup> ions used in terms of log x (x = [Ag<sup>+</sup>]) ?<br>E°<sub>Zn<sup>2+</sup>/Zn</sub> = −0.76 V, E°<sub>Ag<sup>+</sup>/Ag</sub> = +0.80 V, 2.303RT/F = 0.059 V",
+     "o": [
+      "2/3.9",
+      "4/5.9",
+      "2.9/2",
+      "5.9/4"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-05-shift-2 Q57",
+    "session": "5 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121507, option ID 6911211726): option 2 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-05-shift-2-q74",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "At 298 K, the molar conductivity of x% (w/w) MX solution (aqueous) is 123.5 S cm<sup>2</sup> mol<sup>−1</sup>. The conductance of same solution is 1.9 × 10<sup>−3</sup> S. The value of x is ________ × 10<sup>−2</sup>.<br>(Given : cell constant = 1.3 cm<sup>−1</sup>; molar mass of MX is 75 g mol<sup>−1</sup>, density of aqueous solution of MX at 298 K is 1.0 g mL<sup>−1</sup>)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 15,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-05-shift-2 Q74",
+    "session": "5 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121524): 15; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-06-shift-1-q58",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following data: Λ°<sub>m</sub> (S cm<sup>2</sup> mol<sup>−1</sup>) of BaCl<sub>2</sub> = x<sub>1</sub>, H<sub>2</sub>SO<sub>4</sub> = x<sub>2</sub>, HCl = x<sub>3</sub>.<br>BaSO<sub>4</sub> is sparingly soluble in water. If the conductivity of the saturated BaSO<sub>4</sub> solution is x S cm<sup>−1</sup> then the solubility product of BaSO<sub>4</sub> can be given as<br>(Take Λ<sub>m</sub> = αΛ°<sub>m</sub>, where α is the degree of dissociation of the dissolved BaSO<sub>4</sub>)",
+     "o": [
+      "10<sup>6</sup>x<sup>2</sup> / [α<sup>2</sup>(x<sub>1</sub> + x<sub>2</sub> − 2x<sub>3</sub>)<sup>2</sup>]",
+      "x<sup>2</sup> / (x<sub>1</sub> + x<sub>2</sub> − 2x<sub>3</sub>)<sup>2</sup>",
+      "α<sup>2</sup>(x<sub>1</sub> + x<sub>2</sub> − 2x<sub>3</sub>)<sup>2</sup> / (10<sup>6</sup>x<sup>2</sup>)",
+      "x<sup>2</sup> / (x<sub>1</sub> + x<sub>2</sub> + 2x<sub>3</sub>)<sup>2</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Equilibrium (solubility product)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-06-shift-1 Q58",
+    "session": "6 Apr 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 6952782193, option ID 6952787694): option 1 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "Reworded from the original paper to remove an ambiguity: the paper's note on Λ<sub>m</sub> is unclear in the image; stating Λ<sub>m</sub> = αΛ°<sub>m</sub> makes NTA's answer (with α) the only correct option."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-06-shift-2-q57",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a general redox reaction<br>Anode: Red<sub>1</sub> → Ox<sub>1</sub><sup>n<sub>1</sub>+</sup> + n<sub>1</sub>e<sup>−</sup><br>Cathode: Ox<sub>2</sub> + n<sub>2</sub>e<sup>−</sup> → Red<sub>2</sub><sup>n<sub>2</sub>−</sup><br>Which of the following statement is incorrect ?",
+     "o": [
+      "The overall reaction can be written as n<sub>2</sub>Red<sub>1</sub> + n<sub>1</sub>Ox<sub>2</sub> ⇌ n<sub>2</sub>Ox<sub>1</sub><sup>n<sub>1</sub>+</sup> + n<sub>1</sub>Red<sub>2</sub><sup>n<sub>2</sub>−</sup>",
+      "The electrons do not appear in the overall reaction because electrons produced at the anode are consumed at the cathode.",
+      "[Graph of (E − E°)/(RT/F) against log<sub>10</sub>Q with straight lines for n = 1, 2, 3] Here n is the number of electrons transferred in redox reaction.",
+      "If the reaction is carried out reversibly, the electrical work done is equal to the ratio of charge and potential difference through which charge is moved."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3",
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-06-shift-2 Q57",
+    "session": "6 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 6911211257, option ID 6911214278): option 4 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper",
+    "note": "Option (3) contains a graph (Nernst lines for n = 1, 2, 3, slope ∝ 1/n); needs a redrawn figure before it goes live."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-04-08-shift-2-q56",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given at 298 K : E°<sub>Fe<sup>2+</sup>/Fe</sub> = X Volt, E°<sub>Fe<sup>3+</sup>/Fe</sub> = Y Volt. The E°<sub>Fe<sup>3+</sup>/Fe<sup>2+</sup></sub> in Volt at 298 K is given by :",
+     "o": [
+      "2X − 3Y",
+      "3Y − 2X",
+      "3Y + 2X",
+      "Y + X"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-04-08-shift-2 Q56",
+    "session": "8 Apr 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Official NTA final key (Question ID 691121581, option ID 6911211977): option 2 in the official paper's order; matches our solving",
+    "keySource": "NTA final answer key, JEE Main 2026 Session 2 (neet-sources/jee-main/2026/nta-answer-key-session-2.pdf); text and option order from the official NTA question paper"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-21-shift-1-q73",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The pH and conductance of a weak acid (HX) was found to be 5 and 4 × 10<sup>−5</sup> S, respectively. The conductance was measured under standard condition using a cell where the electrode plates having a surface area of 1 cm<sup>2</sup> were at a distance of 15 cm apart. The value of the limiting molar conductivity is ____ S m<sup>2</sup> mol<sup>−1</sup>. (nearest integer) (Given : degree of dissociation of the weak acid (α) ≪ 1)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 6,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.1",
+     "2.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-1 Q73",
+    "session": "21 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (20, 13, 70, 6, 8); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-21-shift-2-q67",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a closed circuit Daniell cell, which of the following plots is the accurate one at a given temperature? [four graphs of E°<sub>cell</sub> against time]",
+     "o": [
+      "E°<sub>cell</sub> constant with time (horizontal line)",
+      "E°<sub>cell</sub> falling linearly with time",
+      "E°<sub>cell</sub> rising with time",
+      "E°<sub>cell</sub> dropping to zero at one instant (vertical line)"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.2",
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-2 Q67",
+    "session": "21 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Diagram question: the options are graphs, described here; needs redrawn figures. E° is a standard value, so it does not change as the cell runs (E<sub>cell</sub> would fall)."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-21-shift-2-q72",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "MX is a sparingly soluble salt that follows the given solubility equilibrium at 298 K. MX(s) ⇌ M<sup>+</sup>(aq) + X<sup>−</sup>(aq); K<sub>sp</sub> = 10<sup>−10</sup><br>If the standard reduction potential for M<sup>+</sup>(aq) + e<sup>−</sup> → M(s) is (E°<sub>M<sup>+</sup>/M</sub>) = 0.79 V, then the value of the standard reduction potential for the metal/metal insoluble salt electrode E°<sub>X<sup>−</sup>/MX(s)/M</sub> is ____ mV. (nearest integer) [Given : 2.303RT/F = 0.059 V]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 200,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Equilibrium (solubility product)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-21-shift-2 Q72",
+    "session": "21 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (3, 15, 100, 200, 7); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-22-shift-1-q73",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following electrochemical cell at 298 K: Pt | HSnO<sub>2</sub><sup>−</sup>(aq) | Sn(OH)<sub>6</sub><sup>2−</sup>(aq) | OH<sup>−</sup>(aq) | Bi<sub>2</sub>O<sub>3</sub>(s) | Bi(s).<br>If the reaction quotient at a given time is 10<sup>6</sup>, then the cell EMF (E<sub>cell</sub>) is ____ × 10<sup>−1</sup> V (Nearest integer).<br>Given the standard half-cell reduction potential as E°<sub>Bi<sub>2</sub>O<sub>3</sub>/Bi, OH<sup>−</sup></sub> = −0.44 V and E°<sub>Sn(OH)<sub>6</sub><sup>2−</sup>/HSnO<sub>2</sub><sup>−</sup>, OH<sup>−</sup></sub> = −0.90 V"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 4,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-1 Q73",
+    "session": "22 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (33, 4, 1303, 66, 43); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-22-shift-2-q56",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following reduction processes :<br>Al<sup>3+</sup> + 3e<sup>−</sup> → Al(s), E° = −1.66 V<br>Fe<sup>3+</sup> + e<sup>−</sup> → Fe<sup>2+</sup>, E° = +0.77 V<br>Co<sup>3+</sup> + e<sup>−</sup> → Co<sup>2+</sup>, E° = +1.81 V<br>Cr<sup>3+</sup> + 3e<sup>−</sup> → Cr(s), E° = −0.74 V<br>The tendency to act as reducing agent decreases in the order :",
+     "o": [
+      "Cr &gt; Fe<sup>2+</sup> &gt; Al &gt; Co<sup>2+</sup>",
+      "Al &gt; Cr &gt; Co<sup>2+</sup> &gt; Fe<sup>2+</sup>",
+      "Al &gt; Cr &gt; Fe<sup>2+</sup> &gt; Co<sup>2+</sup>",
+      "Al &gt; Fe<sup>2+</sup> &gt; Cr &gt; Co<sup>2+</sup>"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-2 Q56",
+    "session": "22 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-22-shift-2-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following electrochemical cell: Pt | O<sub>2</sub>(g)(1 bar) | HCl(aq) || M<sup>2+</sup>(aq, 1.0 M) | M(s). The pH above which, oxygen gas would start to evolve at anode is ____ (nearest integer).<br>[Given: standard reduction potentials E°<sub>M<sup>2+</sup>/M</sub> = 0.994 V, E°<sub>O<sub>2</sub>/H<sub>2</sub>O</sub> = 1.23 V]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 4,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-22-shift-2 Q75",
+    "session": "22 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (1031, 4, 57, 3, 10); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-23-shift-1-q60",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the given electrochemical cell Ag(s)|AgCl(s)|FeCl<sub>2</sub>(aq), FeCl<sub>3</sub>(aq) | Pt(s) at 298 K the cell potential (E<sub>cell</sub>) will increase when :<br>A. Concentration of Fe<sup>2+</sup> is increased.<br>B. Concentration of Fe<sup>3+</sup> is decreased.<br>C. Concentration of Fe<sup>2+</sup> is decreased.<br>D. Concentration of Fe<sup>3+</sup> is increased.<br>E. Concentration of Cl<sup>−</sup> is increased.<br>Choose the correct answer from the options given below :",
+     "o": [
+      "A and B only",
+      "C, D and E only",
+      "A and E Only",
+      "B Only"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-23-shift-1 Q60",
+    "session": "23 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "The copy prints the cell as …FeCl<sub>2</sub>(aq), FeCl<sub>4</sub>(aq) | P(s); the intended cell (Fe<sup>3+</sup>/Fe<sup>2+</sup> on a Pt electrode) is written here."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-23-shift-2-q58",
+   "type": "diagram",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "[Figure: a concentration cell, two M electrodes dipping in M<sup>+</sup>X<sup>−</sup> solutions of concentrations c<sub>2</sub> and c<sub>1</sub>, separated by a semi permeable membrane]. Consider the above electrochemical cell where a metal electrode (M) is undergoing redox reaction by forming M<sup>+</sup> (M → M<sup>+</sup> + e<sup>−</sup>). The cation M<sup>+</sup> is present in two different concentrations c<sub>1</sub> and c<sub>2</sub> as shown above. Which of the following statement is correct for generating a positive cell potential?",
+     "o": [
+      "If c<sub>1</sub> is present at cathode, then c<sub>1</sub> &lt; c<sub>2</sub>.",
+      "If c<sub>1</sub> is present at anode, then c<sub>1</sub> = c<sub>2</sub>.",
+      "If c<sub>1</sub> is present at anode, then c<sub>1</sub> &gt; c<sub>2</sub>.",
+      "If c<sub>1</sub> is present at cathode, then c<sub>1</sub> &gt; c<sub>2</sub>."
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-23-shift-2 Q58",
+    "session": "23 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Worked out independently: NTA's key is by Question ID and NTA shuffles question and option order, so it cannot be matched to this copy",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "Simple cell sketch in the paper; the text above carries all it shows."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-24-shift-1-q71",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Electricity is passed through an acidic solution of Cu<sup>2+</sup> till all the Cu<sup>2+</sup> was exhausted, leading to the deposition of 300 mg of Cu metal. However, a current of 600 mA was continued to pass through the same solution for another 28 minutes by keeping the total volume of the solution fixed at 200 mL. The total volume of oxygen evolved at STP during the entire process is _____ mL. (Nearest integer) [Given: Cu<sup>2+</sup>(aq) + 2e<sup>−</sup> → Cu(s) E°<sub>red</sub> = +0.34 V; O<sub>2</sub>(g) + 4H<sup>+</sup> + 4e<sup>−</sup> → 2H<sub>2</sub>O E°<sub>red</sub> = +1.23 V; Molar mass of Cu = 63.54 g mol<sup>−1</sup>; Molar mass of O<sub>2</sub> = 32 g mol<sup>−1</sup>; Faraday Constant = 96500 C mol<sup>−1</sup>; Molar volume at STP = 22.4 L]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 111,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-1 Q71",
+    "session": "24 Jan 2026 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (12, 15, 54, 4, 111); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-24-shift-2-q74",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Molar conductivity of a weak acid HQ of concentration 0.18 M was found to be 1/30 of the molar conductivity of another weak acid HZ with concentration of 0.02 M. If λ°Q<sup>−</sup> happened to be equal with λ°Z<sup>−</sup>, then the difference of the pK<sub>a</sub> values of the two weak acids (pK<sub>a</sub>(HQ) − pK<sub>a</sub>(HZ)) is ____ (Nearest integer). [Given: degree of dissociation (α) ≪ 1 for both weak acids, λ° : limiting molar conductivity of ions]"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 2,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.2"
+    ],
+    "otherChapters": [
+     "Class 11 · Equilibrium (ionisation constants)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-24-shift-2 Q74",
+    "session": "24 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (3, 6, 73, 2, 102); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-28-shift-2-q72",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A volume of x mL of 5 M NaHCO<sub>3</sub> solution was mixed with 10 mL of 2 M H<sub>2</sub>CO<sub>3</sub> solution to make an electrolytic buffer. If the same buffer was used in the following electrochemical cell to record a cell potential of 235.3 mV, then the value of x = ____ mL (nearest integer). Pt | HSnO<sub>2</sub><sup>−</sup>(0.05 M), Sn(OH)<sub>6</sub><sup>2−</sup>(0.5 M) | OH<sup>−</sup> | Bi<sub>2</sub>O<sub>3</sub>(s) | Bi(s). Consider up to one place of decimal for intermediate calculations. Given : E°<sub>Sn(OH)<sub>6</sub><sup>2−</sup>/HSnO<sub>2</sub><sup>−</sup></sub> = −0.9 V; E°<sub>Bi<sub>2</sub>O<sub>3</sub>/Bi</sub> = −0.44 V; pK<sub>a</sub>(H<sub>2</sub>CO<sub>3</sub>) = 6.11; 2.303RT/F = 0.059 V; Antilog(1.29) = 19.5"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 78,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ],
+    "otherChapters": [
+     "Class 11 · Equilibrium (buffers)"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-28-shift-2 Q72",
+    "session": "28 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (2, 4, 78, 5, 6); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)",
+    "note": "The copy's cell notation and E° labels are garbled; the half-cells are written here as the data intend (anode HSnO<sub>2</sub><sup>−</sup> → Sn(OH)<sub>6</sub><sup>2−</sup>, cathode Bi<sub>2</sub>O<sub>3</sub> → Bi)."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2026-2026-01-28-shift-2-q75",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For strong electrolyte Λ<sub>m</sub> increases slowly with dilution and can be represented by the equation Λ<sub>m</sub> = Λ°<sub>m</sub> − Ac<sup>1/2</sup>. Molar conductivity values of the solutions of strong electrolyte AB at 18°C are given below : c (mol L<sup>−1</sup>): 0.04, 0.09, 0.16, 0.25; Λ<sub>m</sub> (S cm<sup>2</sup> mol<sup>−1</sup>): 96.1, 95.7, 95.3, 94.9. The value of constant A based on the above data in S cm<sup>2</sup> mol<sup>−1</sup>/(mol/L)<sup>1/2</sup> unit is ____."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 4,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2026,
+    "paper": "2026-01-28-shift-2 Q75",
+    "session": "28 Jan 2026 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches one of NTA's numerical answers for this shift (2, 4, 78, 5, 6); worked out by us",
+    "keySource": "eSaral copy of the paper (neet-sources/jee-main/2026/); NTA final answer key Session 1 (numerical answers only)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-22-shift-1-q25",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A current of two ampere is passed through molten AlCl<sub>3</sub> for 30 min. Find the mass (in mg) of aluminium deposited at the cathode. (Nearest integer)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 336,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-1 Q25",
+    "session": "22 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-22-shift-2-q16",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following statements S-1 and S-2 and choose the correct option.<br>S-1 : During corrosion, the metal surface acts only as the cathode, where the metal is reduced.<br>S-2 : Rate of corrosion is more in alkaline medium than in acidic medium.",
+     "o": [
+      "Both S-1 and S-2 are correct",
+      "Both S-1 and S-2 are incorrect",
+      "S-1 is correct but S-2 is incorrect",
+      "S-1 is incorrect but S-2 is correct"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.8"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-22-shift-2 Q16",
+    "session": "22 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the recalled S-1 (“pure metal acts as anode and impure metal acts as cathode”) can be read as true; it is replaced by a statement that is plainly false, keeping the printed answer (both incorrect)."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-23-shift-1-q23",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following Latimer diagram: FeO<sub>4</sub><sup>2−</sup> —2.0 V→ Fe<sup>3+</sup> —0.8 V→ Fe<sup>2+</sup> —(−0.5 V)→ Fe<sup>0</sup>. Find E°<sub>FeO<sub>4</sub><sup>2−</sup>/Fe<sup>2+</sup></sub> (in V, nearest integer)."
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 2,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-1 Q23",
+    "session": "23 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-23-shift-2-q14",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Consider the following E° values: E°<sub>Ag<sup>+</sup>/Ag</sub> = 0.8 V, E°<sub>Zn<sup>2+</sup>/Zn</sub> = −0.76 V, E°<sub>Cu<sup>2+</sup>/Cu</sub> = 0.34 V, E°<sub>Mg<sup>2+</sup>/Mg</sub> = −2.36 V. Which of the following cells will have the most negative value of ΔG° (per mole of the metal oxidised)?",
+     "o": [
+      "Zn|Zn<sup>2+</sup>||Cu<sup>2+</sup>|Cu",
+      "Mg|Mg<sup>2+</sup>||Ag<sup>+</sup>|Ag",
+      "Mg|Mg<sup>2+</sup>||Zn<sup>2+</sup>|Zn",
+      "Cu|Cu<sup>2+</sup>||Ag<sup>+</sup>|Ag"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-23-shift-2 Q14",
+    "session": "23 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: ‘per mole of the metal oxidised’ added so that n = 2 in every cell and ΔG° depends on E°<sub>cell</sub> alone."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-24-shift-1-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Calculate E°<sub>cell</sub> for the cell reaction Fe<sup>2+</sup> + Ag<sup>+</sup> → Fe<sup>3+</sup> + Ag, given: Ag<sup>+</sup> + e<sup>−</sup> → Ag, E° = x V; Fe<sup>2+</sup> + 2e<sup>−</sup> → Fe, E° = y V; Fe<sup>3+</sup> + 3e<sup>−</sup> → Fe, E° = z V",
+     "o": [
+      "x + y − z",
+      "x + 3y − 2z",
+      "y − 2x",
+      "x − 3z + 2y"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-24-shift-1 Q13",
+    "session": "24 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-28-shift-2-q24",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "On passing current through 600 mL of NaCl solution, the pH increases to 12. Find the current (in A) if electrolysis occurs for 10 min (assume 100% efficiency). (Nearest integer)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 1,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.5.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-28-shift-2 Q24",
+    "session": "28 Jan 2025 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-29-shift-1-q10",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "What is the correct Nernst equation for the cell reaction made from Mg → Mg<sup>2+</sup> + 2e<sup>−</sup> and Ag<sup>+</sup> + e<sup>−</sup> → Ag?",
+     "o": [
+      "E<sub>cell</sub> = E°<sub>cell</sub> − (RT/2F) ln([Mg<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup>)",
+      "E<sub>cell</sub> = E°<sub>cell</sub> − (RT/2F) ln([Ag<sup>+</sup>]<sup>2</sup>/[Mg<sup>2+</sup>])",
+      "E<sub>cell</sub> = E°<sub>cell</sub> + (RT/F) ln([Mg<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup>)",
+      "E<sub>cell</sub> = E°<sub>cell</sub> + (RT/2F) ln([Ag<sup>+</sup>]<sup>2</sup>/[Mg<sup>2+</sup>])"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-29-shift-1 Q10",
+    "session": "29 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2025-2025-01-29-shift-1-q13",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For an electrolyte, Λ<sub>m</sub> is linearly dependent on √c. On diluting its solution towards infinite dilution, its molar conductivity shows a",
+     "o": [
+      "Small increase",
+      "Small decrease",
+      "Sharp increase",
+      "Sharp decrease"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2025,
+    "paper": "2025-01-29-shift-1 Q13",
+    "session": "29 Jan 2025 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2025/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the recalled wording (“molar conductance … at infinite dilution shows”) is completed to ask how Λ<sub>m</sub> changes as c → 0."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2024-2024-01-27-shift-1-q15",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The mass of silver (Ag = 108 g mol<sup>−1</sup>) deposited by the quantity of electricity that liberates 5600 mL of O<sub>2</sub> at STP (22.4 L mol<sup>−1</sup>) is (in g)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 108,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2024,
+    "paper": "2024-01-27-shift-1 Q15",
+    "session": "27 Jan 2024 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2024/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2024-2024-01-27-shift-2-q17",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A hydrogen electrode (p<sub>H<sub>2</sub></sub> = 1 bar) is dipped in a solution of pH 3 at 298 K. Its reduction potential is −x × 10<sup>−3</sup> V. The value of x is (nearest integer; 2.303RT/F = 0.0591 V)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 177,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2024,
+    "paper": "2024-01-27-shift-2 Q17",
+    "session": "27 Jan 2024 · Shift 2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2024/)",
+    "note": "Reworded from the original paper to remove an ambiguity: the recalled paper gives no answer format; asked here as an integer in mV."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2024-2024-01-29-shift-1-q27",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A current of 0.015 A is passed through ZnSO<sub>4</sub> solution for 15 minutes. The mass of Zn deposited (in mg) is (nearest integer; Zn = 65.4, F = 96500 C mol<sup>−1</sup>)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 5,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2024,
+    "paper": "2024-01-29-shift-1 Q27",
+    "session": "29 Jan 2024 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2024/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2024-2024-01-31-shift-1-q5",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The conductivity of an electrolytic solution does not depend on",
+     "o": [
+      "concentration of the electrolyte",
+      "amount of electrolyte dissolved",
+      "temperature",
+      "nature of the electrodes"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2024,
+    "paper": "2024-01-31-shift-1 Q5",
+    "session": "31 Jan 2024 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2024/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2024-2024-01-31-shift-1-q7",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The mass of copper deposited when one faraday of electricity is passed through a Cu<sup>2+</sup> solution is (Cu = 63.5)",
+     "o": [
+      "31.75 g",
+      "45.9 g",
+      "65.3 g",
+      "27.5 g"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.5"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2024,
+    "paper": "2024-01-31-shift-1 Q7",
+    "session": "31 Jan 2024 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2024/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2024-2024-02-01-shift-1-q22",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For the electrode reaction 2H<sup>+</sup> + 2e<sup>−</sup> → H<sub>2</sub> with p<sub>H<sub>2</sub></sub> = 2 atm and [H<sup>+</sup>] = 1 M, E = −x × 10<sup>−3</sup> V. The value of x is (2.303RT/F = 0.06 V, log 2 = 0.3)"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 9,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.3"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2024,
+    "paper": "2024-02-01-shift-1 Q22",
+    "session": "1 Feb 2024 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral copy with answers (neet-sources/jee-main/2024/)"
+   }
+  },
+  {
+   "id": "chem12-02-jee-2024-2024-04-06-shift-1-q24",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "When an electrolyte solution is diluted with water, its molar conductivity",
+     "o": [
+      "increases",
+      "remains unchanged",
+      "decreases",
+      "depends on the electrolyte"
+     ]
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.4.2"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2024,
+    "paper": "2024-04-06-shift-1 Q24",
+    "session": "6 Apr 2024 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
+    "keySource": "eSaral full-paper copy with answers (neet-sources/jee-main/2024/2024-06-01-shift-1-maths.pdf, chemistry part)",
+    "note": "Reworded from the original paper to remove an ambiguity: “during electrolysis of dilute solution if we add H<sub>2</sub>O” is read as dilution of the solution."
+   }
+  },
+  {
+   "id": "chem12-02-jee-2024-2024-04-09-shift-1-q17",
+   "type": "numerical",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "E° for Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup>/Cr<sup>3+</sup> is 1.33 V. Using E° (V): Fe<sup>2+</sup>/Fe −0.44, Ni<sup>2+</sup>/Ni −0.25, Cr<sup>3+</sup>/Cr −0.74, Cu<sup>2+</sup>/Cu 0.34, Ag<sup>+</sup>/Ag 0.80, Au<sup>3+</sup>/Au 1.40, how many of Fe, Ni, Cr, Cu, Ag and Au can be oxidised by acidified dichromate under standard conditions?"
+    },
+    "hi": {
+     "status": "missing"
+    }
+   },
+   "answer": {
+    "kind": "numeric",
+    "value": 5,
+    "tol": 0
+   },
+   "ncert": {
+    "chapter": "chem12-02",
+    "paras": [
+     "2.2.1"
+    ]
+   },
+   "source": {
+    "kind": "PYQ",
+    "exam": "JEE Main",
+    "year": 2024,
+    "paper": "2024-04-09-shift-1 Q17",
+    "session": "9 Apr 2024 · Shift 1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 150,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "keyCheck": "No answer is printed in the copy (memory-based recall); answer from our own solving",
+    "keySource": "eSaral full-paper recall copy without answers (neet-sources/jee-main/2024/2024-09-01-shift-1-maths.pdf, chemistry part)",
+    "note": "Reworded from the original paper to remove an ambiguity: standard potentials are supplied so the count is unambiguous."
+   }
   }
  ]
 }
