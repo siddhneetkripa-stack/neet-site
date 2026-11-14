@@ -291,17 +291,17 @@ def pct_dct():
             wt, wb = y + 62, y + 88       # tubule walls (lumen between)
             b.append(R(x0, wt, 200, wb - wt, fill=TEAL, sw=0))
             b.append(L(x0, wt, x0 + 200, wt, 2.4) + L(x0, wb, x0 + 200, wb, 2.4))
-            b.append(T(x0 - 14, y + 81, name, 18, weight="bold"))
+            b.append(T(x0 - 15, y + 82, name, 21, weight="bold"))
             n = len(up)
             for k, s in enumerate(up):            # reabsorbed: out of the lumen, upwards
                 xx = x0 + 20 + 60 * k
                 b.append(L(xx, wb - 6, xx, y + 34, 1.8, arrow=True))
-                b.append(T(xx, y + 30, chem(s), 15, raw=True))
+                b.append(T(xx, y + 30, chem(s), 18, raw=True))
             n = len(down)
             for k, s in enumerate(down):          # secreted: from outside into the lumen, upwards
                 xx = x0 + 50 + 60 * k
                 b.append(L(xx, y + 118, xx, wt + 6, 1.8, arrow=True))
-                b.append(T(xx, y + 138, chem(s), 15, raw=True))
+                b.append(T(xx, y + 140, chem(s), 18, raw=True))
         if i < 3:
             b.append(L(16, y + H - 4, 524, y + H - 4, 1, "#c9d3d6"))
     return svg(550, 20 + 4 * H, "Four diagrams, numbered 1 to 4, of the proximal (P) and distal (D) tubule with arrows for substances moving out of and into each tubule", "".join(b))
