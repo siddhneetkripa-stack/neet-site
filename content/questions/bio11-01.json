@@ -653,6 +653,289 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q126."
    }
+  },
+  {
+   "id": "bio11-01-ai-1-2-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the names <i>Mangifera indica</i>, <i>Solanum tuberosum</i> and <i>Panthera leo</i>, the words <i>indica</i>, <i>tuberosum</i> and <i>leo</i> represent the:",
+     "o": [
+      "genera",
+      "families",
+      "specific epithets",
+      "orders"
+     ],
+     "sol": "<p>NCERT 1.2.1: in a binomial name the first word is the genus and the second is the <b>specific epithet</b>. So <i>indica</i>, <i>tuberosum</i> and <i>leo</i> are specific epithets, while <i>Mangifera</i>, <i>Solanum</i> and <i>Panthera</i> are genera — a higher taxon. A genus may have one or more specific epithets, e.g. <i>Panthera tigris</i>, <i>Solanum nigrum</i>, <i>Solanum melongena</i>.</p>",
+     "hint": "Second word of a binomial."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "नामों <i>Mangifera indica</i>, <i>Solanum tuberosum</i> तथा <i>Panthera leo</i> में शब्द <i>indica</i>, <i>tuberosum</i> तथा <i>leo</i> किसे दर्शाते हैं?",
+     "o": [
+      "वंश",
+      "कुल",
+      "जाति संकेत पद",
+      "गण"
+     ],
+     "sol": "<p>NCERT 1.2.1: द्विपद नाम में पहला शब्द वंश तथा दूसरा <b>जाति संकेत पद</b> होता है। अतः <i>indica</i>, <i>tuberosum</i> तथा <i>leo</i> जाति संकेत पद हैं, जबकि <i>Mangifera</i>, <i>Solanum</i> तथा <i>Panthera</i> वंश हैं — एक उच्चतर टैक्सॉन। एक वंश में एक अथवा एक से अधिक जाति संकेत पद हो सकते हैं, जैसे <i>Panthera tigris</i>, <i>Solanum nigrum</i>, <i>Solanum melongena</i>।</p>",
+     "hint": "द्विपद नाम का दूसरा शब्द।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §1.2.1",
+    "label": "Practice"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-01-ai-1-2-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about potato (<i>Solanum tuberosum</i>) and brinjal (<i>Solanum melongena</i>) is correct?",
+     "o": [
+      "They belong to the same species but different genera",
+      "They are different species of the same genus",
+      "They belong to different genera of the same family",
+      "They belong to the same species and the same genus"
+     ],
+     "sol": "<p>NCERT 1.2.2: a genus is an aggregate of closely related species that share more characters with each other than with species of other genera. Potato and brinjal are <b>two different species but both belong to the genus <i>Solanum</i></b> — the same first word, different specific epithets.</p>",
+     "hint": "Same first word, different second word.",
+     "trap": "Same genus never means same species."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "आलू (<i>Solanum tuberosum</i>) तथा बैंगन (<i>Solanum melongena</i>) के संबंध में कौन-सा कथन सही है?",
+     "o": [
+      "ये एक ही स्पीशीज के परंतु अलग-अलग वंश के हैं",
+      "ये एक ही वंश की अलग-अलग स्पीशीज हैं",
+      "ये एक ही कुल के अलग-अलग वंश के हैं",
+      "ये एक ही स्पीशीज तथा एक ही वंश के हैं"
+     ],
+     "sol": "<p>NCERT 1.2.2: वंश समीपस्थ संबंधित स्पीशीज का समूह है, जिनमें अन्य वंशों की स्पीशीज की तुलना में अधिक गुण समान होते हैं। आलू तथा बैंगन <b>अलग-अलग स्पीशीज हैं, लेकिन दोनों <i>Solanum</i> वंश में आती हैं</b> — पहला शब्द समान, जाति संकेत पद अलग।</p>",
+     "hint": "पहला शब्द समान, दूसरा अलग।",
+     "trap": "एक ही वंश का अर्थ एक ही स्पीशीज कभी नहीं होता।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §1.2.2",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-01-ai-1-2-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Order Primata (monkey, gorilla, gibbon) and order Carnivora (tiger, cat, dog) are placed together in the same:",
+     "o": [
+      "family",
+      "class",
+      "genus",
+      "phylum, but different classes"
+     ],
+     "sol": "<p>NCERT 1.2.5: the category <b>class</b> includes related orders. Order Primata and order Carnivora are both placed in <b>class Mammalia</b>, which has other orders as well.</p>",
+     "hint": "Class groups related orders."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "प्राइमेटा गण (बंदर, गोरिला, गिब्बॉन) तथा कारनीवोरा गण (बाघ, बिल्ली, कुत्ता) एक ही ___ में रखे गए हैं।",
+     "o": [
+      "कुल",
+      "वर्ग",
+      "वंश",
+      "संघ, परंतु अलग-अलग वर्ग"
+     ],
+     "sol": "<p>NCERT 1.2.5: <b>वर्ग</b> संवर्ग में संबंधित गण आते हैं। प्राइमेटा गण तथा कारनीवोरा गण दोनों <b>मैमेलिया (स्तनधारी) वर्ग</b> में रखे गए हैं, जिसमें अन्य गण भी आते हैं।</p>",
+     "hint": "वर्ग संबंधित गणों का समूह है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §1.2.5",
+    "label": "Practice"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-01-ncertex-1-2-6-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Fishes, amphibians, reptiles, birds and mammals are placed in phylum Chordata on the basis of ___; in plants, classes with a few similar characters are placed in a higher category called ___.",
+     "o": [
+      "presence of a backbone; Order",
+      "warm blood; Kingdom",
+      "paired limbs; Family",
+      "presence of a notochord and a dorsal hollow neural system; Division"
+     ],
+     "sol": "<p>NCERT 1.2.6: classes of animals like fishes, amphibians, reptiles, birds and mammals form phylum <b>Chordata</b> on the basis of common features — <b>presence of a notochord and a dorsal hollow neural system</b>. In plants, classes with a few similar characters are assigned to the higher category <b>Division</b>.</p>",
+     "hint": "Plants use 'Division' instead of 'Phylum'.",
+     "trap": "Not all chordates have a backbone or warm blood; the notochord is the common feature."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "मछली, उभयचर, सरीसृप, पक्षी तथा स्तनधारी को ___ के आधार पर कॉर्डेटा संघ में रखा गया है; पौधों में कुछ ही समान लक्षण वाले वर्गों को ___ नामक उच्चतर संवर्ग में रखा गया है।",
+     "o": [
+      "मेरुदंड की उपस्थिति; गण",
+      "समतापी (उष्ण रक्त); जगत",
+      "युग्मित पादों; कुल",
+      "पृष्ठरज्जु (नोटोकॉर्ड) तथा पृष्ठीय खोखला तंत्रिका तंत्र की उपस्थिति; भाग (डिविजन)"
+     ],
+     "sol": "<p>NCERT 1.2.6: मछली, उभयचर, सरीसृप, पक्षी तथा स्तनधारी जैसे जंतुओं के वर्ग समान गुणों — <b>पृष्ठरज्जु (नोटोकॉर्ड) तथा पृष्ठीय खोखला तंत्रिका तंत्र</b> — के आधार पर <b>कॉर्डेटा</b> संघ बनाते हैं। पौधों में कुछ ही समान लक्षण वाले वर्गों को उच्चतर संवर्ग <b>भाग (डिविजन)</b> में रखा गया है।</p>",
+     "hint": "पौधों में 'संघ' के स्थान पर 'भाग (डिविजन)'।",
+     "trap": "सभी कॉर्डेटों में मेरुदंड या समतापिता नहीं होता; पृष्ठरज्जु (नोटोकॉर्ड) समान लक्षण है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.6"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 1.9(i) (define phylum), reworded as an MCQ"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-01-ai-1-2-7-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In the taxonomic hierarchy, as we go up from species to kingdom:",
+     "o": [
+      "the number of common characteristics shared by members decreases, and determining relationships to other taxa at the same level becomes more difficult",
+      "the number of common characteristics shared by members increases",
+      "the number of organisms in each taxon decreases",
+      "classification becomes simpler because fewer taxa are involved"
+     ],
+     "sol": "<p>NCERT 1.2.7: going higher from species to kingdom (the highest category), the <b>number of common characteristics goes on decreasing</b>. The lower the taxon, the more characteristics its members share; the higher the category, the greater the difficulty of determining its relationship to other taxa at the same level — so classification becomes more complex. Higher taxa contain more organisms, not fewer.</p>",
+     "hint": "Kingdom members share the fewest features."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "वर्गिकी पदानुक्रम में स्पीशीज से जगत की ओर ऊपर जाने पर :",
+     "o": [
+      "सदस्यों में समान लक्षणों की संख्या घटती जाती है, तथा उसी स्तर के अन्य टैक्सा से संबंध निर्धारित करना अधिक कठिन होता जाता है",
+      "सदस्यों में समान लक्षणों की संख्या बढ़ती जाती है",
+      "प्रत्येक टैक्सॉन में जीवों की संख्या घटती जाती है",
+      "वर्गीकरण सरल हो जाता है क्योंकि कम टैक्सा होते हैं"
+     ],
+     "sol": "<p>NCERT 1.2.7: स्पीशीज से जगत (उच्चतम संवर्ग) की ओर ऊपर जाने पर <b>समान लक्षणों की संख्या घटती जाती है</b>। जितना निम्न टैक्सॉन, उसके सदस्यों में उतने अधिक लक्षण समान; जितना उच्च संवर्ग, उसी स्तर के अन्य टैक्सा से संबंध निर्धारित करना उतना कठिन — अतः वर्गीकरण अधिक जटिल हो जाता है। उच्चतर टैक्सा में जीव अधिक होते हैं, कम नहीं।</p>",
+     "hint": "जगत के सदस्यों में सबसे कम लक्षण समान।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-01",
+    "paras": [
+     "1.2.7"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §1.2.7 and Figure 1.1",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
