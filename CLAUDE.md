@@ -1,6 +1,6 @@
 # NEET NCERT Mind Map site: working rules
 
-> **Start here: read docs/BLUEPRINT.md first.** It is the agreed plan for the whole platform (bilingual NEET practice site with NCERT reader, PYQs, exam-screen test engine, analysis, counselling, school/coaching tie-ups). Work phase by phase as its section 11 says, keep prices configurable (not decided), and update its "Build status" section at the end of every session. The rules below still apply.
+> **Start here: read docs/BLUEPRINT.md first.** It is the agreed plan for the whole platform (bilingual NEET practice site with NCERT reader, PYQs, exam-screen test engine, analysis, counselling, school/coaching tie-ups). Work phase by phase as its section 11 says, keep prices configurable (not decided), and update its "Build status" section at the end of every session (short summary there; detailed notes in docs/build-log.md). **Start new work from the branch `integration/merge-2026-11-14`** (all earlier branches are merged into it; neet-sources has the same branch), on a branch of your own; nothing goes to `main` unless the owner says so. The rules below still apply.
 
 ## Several Claude accounts work on this repo (owner's setup, Nov 2026)
 The owner uses more than one Claude account on this repo and on neet-sources, so assume another session may be working in parallel.
@@ -31,7 +31,7 @@ A free website for NEET aspirants. Its core is a **layered, clickable mind map o
 ```
 index.html                 single-page app (hash routes: #/, #/c/<chapter>, #/c/<chapter>/n/<node>, #/c/<chapter>/read, #/pyq/<chapter>)
 assets/app.js              expanding tree (chapter → section → paragraph → detail card), inline questions, quiz pop-up, full-synopsis view
-assets/style.css           styles (placeholder look; owner has a final design to apply later)
+assets/style.css           styles; the final B + C design layer is at the end of the file (Mukta, teal/saffron)
 assets/diagrams.js         original SVG diagrams, referenced by node "diagram" key
 assets/ncert/<chapter>/    short NCERT excerpt crops (webp) used by PYQ answers
 content/pyq/<chapter>.json PYQs for a chapter, in NCERT section order

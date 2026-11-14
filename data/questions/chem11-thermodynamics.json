@@ -8973,7 +8973,7 @@
   },
   "hess": {
    "neet": 1,
-   "jee": 0,
+   "jee": 2,
    "years": [
     2025
    ],
@@ -8993,7 +8993,7 @@
   },
   "iso-rev": {
    "neet": 2,
-   "jee": 0,
+   "jee": 4,
    "years": [
     2024,
     2022
@@ -9003,7 +9003,7 @@
   },
   "process-summary": {
    "neet": 1,
-   "jee": 0,
+   "jee": 2,
    "years": [
     2024
    ],
@@ -9012,7 +9012,7 @@
   },
   "first-law": {
    "neet": 2,
-   "jee": 0,
+   "jee": 5,
    "years": [
     2026,
     2017
@@ -9022,7 +9022,7 @@
   },
   "sign-convention": {
    "neet": 1,
-   "jee": 0,
+   "jee": 1,
    "years": [
     2026
    ],
@@ -9031,7 +9031,7 @@
   },
   "gibbs-criterion": {
    "neet": 2,
-   "jee": 0,
+   "jee": 1,
    "years": [
     2026,
     2017
@@ -9051,7 +9051,7 @@
   },
   "cp-cv": {
    "neet": 1,
-   "jee": 0,
+   "jee": 2,
    "years": [
     2021
    ],
@@ -9078,7 +9078,7 @@
   },
   "g-and-k": {
    "neet": 1,
-   "jee": 0,
+   "jee": 8,
    "years": [
     2020
    ],
@@ -9087,7 +9087,7 @@
   },
   "free-exp": {
    "neet": 1,
-   "jee": 0,
+   "jee": 2,
    "years": [
     2020
    ],
@@ -9096,7 +9096,7 @@
   },
   "temp-effect": {
    "neet": 3,
-   "jee": 0,
+   "jee": 2,
    "years": [
     2020,
     2017,
@@ -9107,7 +9107,7 @@
   },
   "single-step": {
    "neet": 2,
-   "jee": 0,
+   "jee": 6,
    "years": [
     2019,
     2017
@@ -9135,7 +9135,7 @@
   },
   "rh-from-bonds": {
    "neet": 1,
-   "jee": 0,
+   "jee": 2,
    "years": [
     2018
    ],
@@ -9144,11 +9144,102 @@
   },
   "work": {
    "neet": 1,
-   "jee": 0,
+   "jee": 2,
    "years": [
     2022
    ],
    "last": 2022,
+   "recent": false
+  },
+  "eq-criterion": {
+   "neet": 0,
+   "jee": 3,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "bomb": {
+   "neet": 0,
+   "jee": 1,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "use-formation": {
+   "neet": 0,
+   "jee": 3,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "gibbs-eq": {
+   "neet": 0,
+   "jee": 6,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "heat-capacity": {
+   "neet": 0,
+   "jee": 3,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "reversible": {
+   "neet": 0,
+   "jee": 1,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "atomization": {
+   "neet": 0,
+   "jee": 2,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "lattice": {
+   "neet": 0,
+   "jee": 1,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "mean-bond": {
+   "neet": 0,
+   "jee": 1,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "work-adiabatic": {
+   "neet": 0,
+   "jee": 2,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "ext-int": {
+   "neet": 0,
+   "jee": 1,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "bond-enthalpy": {
+   "neet": 0,
+   "jee": 1,
+   "years": [],
+   "last": null,
+   "recent": false
+  },
+  "phase": {
+   "neet": 0,
+   "jee": 1,
+   "years": [],
+   "last": null,
    "recent": false
   }
  },

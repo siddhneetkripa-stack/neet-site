@@ -58,7 +58,8 @@ def main():
                         if extra:
                             ans["alsoAccepted"] = sorted(set(extra))
                         elif "alsoAccepted" in ans and not set(ans["alsoAccepted"]) <= set(acc):
-                            ans.pop("alsoAccepted")
+                            # Our own extra accepted option (argued in review.note) is kept: never change answers silently.
+                            print(f"  keeps alsoAccepted beyond the official key: {q['id']} {ans['alsoAccepted']}")
                         changed = True
                 else:
                     st["differ"].append((q["id"], ans["index"] + 1, val))
