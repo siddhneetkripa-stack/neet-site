@@ -4269,6 +4269,556 @@
     "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
     "keySource": "eSaral full-paper copy with answers (neet-sources/jee-main/2024/2024-06-01-shift-1-maths.pdf, chemistry part)"
    }
+  },
+  {
+   "id": "chem11-09-ai-9-1-q1",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the hydrocarbon with its class: (a) propane; (b) ethyne; (c) cyclohexane; (d) toluene. (i) aromatic; (ii) saturated open chain (alkane); (iii) saturated alicyclic; (iv) unsaturated (triple bond).",
+     "o": [
+      "(a)–(ii), (b)–(iii), (c)–(iv), (d)–(i)",
+      "(a)–(ii), (b)–(iv), (c)–(iii), (d)–(i)",
+      "(a)–(iv), (b)–(ii), (c)–(iii), (d)–(i)",
+      "(a)–(ii), (b)–(iv), (c)–(i), (d)–(iii)"
+     ],
+     "sol": "<p>NCERT 9.1: hydrocarbons are classified by the type of carbon–carbon bonds: (1) saturated: only C–C single bonds; open chain ones are alkanes (propane), closed chain ones are cycloalkanes or alicyclic (cyclohexane); (2) unsaturated: at least one C=C (alkenes) or C≡C (alkynes; ethyne); (3) aromatic: special cyclic compounds such as benzene and its derivatives (toluene, methylbenzene).</p>",
+     "hint": "\"yne\" means a triple bond."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "हाइड्रोकार्बन का उसके वर्ग से मिलान कीजिए: (a) प्रोपेन; (b) एथाइन; (c) साइक्लोहेक्सेन; (d) टॉलूईन। (i) ऐरोमैटिक; (ii) संतृप्त विवृत शृंखला (ऐल्केन); (iii) संतृप्त ऐलिसाइक्लिक; (iv) असंतृप्त (त्रिआबंध)।",
+     "o": [
+      "(a)–(ii), (b)–(iii), (c)–(iv), (d)–(i)",
+      "(a)–(ii), (b)–(iv), (c)–(iii), (d)–(i)",
+      "(a)–(iv), (b)–(ii), (c)–(iii), (d)–(i)",
+      "(a)–(ii), (b)–(iv), (c)–(i), (d)–(iii)"
+     ],
+     "sol": "<p>NCERT 9.1: कार्बन–कार्बन आबंधों के प्रकार के आधार पर हाइड्रोकार्बनों का वर्गीकरण: (1) संतृप्त: केवल C–C एकल आबंध; विवृत शृंखला वाले ऐल्केन (प्रोपेन), संवृत शृंखला वाले साइक्लोऐल्केन या ऐलिसाइक्लिक (साइक्लोहेक्सेन); (2) असंतृप्त: कम से कम एक C=C (एल्कीन) या C≡C (एल्काइन; एथाइन); (3) ऐरोमैटिक: बेन्जीन तथा उसके व्युत्पन्न जैसे विशेष चक्रीय यौगिक (टॉलूईन, मेथिलबेन्जीन)।</p>",
+     "hint": "\"आइन\" का अर्थ त्रिआबंध है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-09-ai-9-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Alkanes were earlier called paraffins. This name reflects that alkanes:",
+     "o": [
+      "are relatively unreactive towards acids, bases, oxidising and reducing agents under normal conditions",
+      "are all gases at room temperature",
+      "readily undergo addition reactions",
+      "contain at least one double bond"
+     ],
+     "sol": "<p>NCERT 9.2: alkanes are saturated open-chain hydrocarbons with C–C single bonds, general formula C<sub>n</sub>H<sub>2n+2</sub>. Under normal conditions they are relatively unreactive towards acids, bases and other reagents, hence the old name paraffins (Latin parum = little, affinis = reactive). Only the first four are gases; higher ones are liquids or solids. Being saturated, they undergo substitution, not addition.</p>",
+     "hint": "Paraffin: little reactivity."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "ऐल्केनों को पहले पैराफिन कहा जाता था। यह नाम दर्शाता है कि ऐल्केन:",
+     "o": [
+      "सामान्य परिस्थितियों में अम्लों, क्षारकों, ऑक्सीकारकों तथा अपचायकों के प्रति आपेक्षिक रूप से अक्रियाशील होते हैं",
+      "कक्ष ताप पर सभी गैस होते हैं",
+      "आसानी से योगात्मक अभिक्रियाएँ करते हैं",
+      "इनमें कम से कम एक द्विआबंध होता है"
+     ],
+     "sol": "<p>NCERT 9.2: ऐल्केन C–C एकल आबंध वाले संतृप्त विवृत शृंखला हाइड्रोकार्बन हैं, सामान्य सूत्र C<sub>n</sub>H<sub>2n+2</sub>। सामान्य परिस्थितियों में ये अम्लों, क्षारकों तथा अन्य अभिकर्मकों के प्रति आपेक्षिक रूप से अक्रियाशील होते हैं, इसलिए पुराना नाम पैराफिन (लैटिन parum = कम, affinis = क्रियाशील)। केवल पहले चार गैस हैं; उच्चतर द्रव या ठोस हैं। संतृप्त होने के कारण ये योगात्मक नहीं, प्रतिस्थापन अभिक्रियाएँ देते हैं।</p>",
+     "hint": "पैराफिन: कम क्रियाशीलता।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.2"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-09-ai-9-3-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the carbon–carbon double bond in ethene is correct?",
+     "o": [
+      "It consists of two σ bonds, and its length (134 pm) is greater than the C–C single bond length (154 pm).",
+      "It is weaker than a C–C single bond, so alkenes are less reactive than alkanes.",
+      "It consists of one strong σ bond (sp<sup>2</sup>–sp<sup>2</sup> overlap) and one weaker π bond (sideways overlap of 2p orbitals); C=C length is 134 pm.",
+      "Its π electrons are tightly held between the nuclei, so alkenes do not react with electrophiles."
+     ],
+     "sol": "<p>NCERT 9.3.1: the C=C bond contains one strong σ bond from head-on overlap of sp<sup>2</sup> hybrid orbitals and one weaker π bond from lateral overlap of 2p orbitals; the double bond's enthalpy (681 kJ mol<sup>−1</sup>) is greater than that of the C–C single bond in ethane (348 kJ mol<sup>−1</sup>). Its length, 134 pm, is shorter than C–C (154 pm). The π electron cloud lies above and below the molecular plane, loosely held, so alkenes are easily attacked by electrophiles and are more reactive than alkanes.</p>",
+     "hint": "Double bond: shorter, stronger, more reactive."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "एथीन में कार्बन–कार्बन द्विआबंध के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "इसमें दो σ आबंध होते हैं, और इसकी लंबाई (134 pm) C–C एकल आबंध लंबाई (154 pm) से अधिक है।",
+      "यह C–C एकल आबंध से दुर्बल है, इसलिए एल्कीन ऐल्केनों से कम क्रियाशील हैं।",
+      "इसमें एक प्रबल σ आबंध (sp<sup>2</sup>–sp<sup>2</sup> अतिव्यापन) तथा एक दुर्बल π आबंध (2p कक्षकों का पार्श्व अतिव्यापन) होता है; C=C लंबाई 134 pm है।",
+      "इसके π इलेक्ट्रॉन नाभिकों के बीच दृढ़ता से बँधे होते हैं, इसलिए एल्कीन इलेक्ट्रॉनस्नेही से अभिक्रिया नहीं करते।"
+     ],
+     "sol": "<p>NCERT 9.3.1: C=C आबंध में sp<sup>2</sup> संकर कक्षकों के सीधे अतिव्यापन से बना एक प्रबल σ आबंध तथा 2p कक्षकों के पार्श्व अतिव्यापन से बना एक दुर्बल π आबंध होता है; द्विआबंध की आबंध एन्थैल्पी (681 kJ mol<sup>−1</sup>) एथेन के C–C एकल आबंध (348 kJ mol<sup>−1</sup>) से अधिक है। इसकी लंबाई, 134 pm, C–C (154 pm) से कम है। π इलेक्ट्रॉन अभ्र आण्विक तल के ऊपर और नीचे रहता है, ढीला बँधा होता है, इसलिए इलेक्ट्रॉनस्नेही एल्कीनों पर आसानी से आक्रमण करते हैं और एल्कीन ऐल्केनों से अधिक क्रियाशील हैं।</p>",
+     "hint": "द्विआबंध: छोटा, प्रबल, अधिक क्रियाशील।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.3.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.3.1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-09-ai-9-3-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The IUPAC name of CH<sub>3</sub>–CH=CH–CH(CH<sub>3</sub>)–CH<sub>3</sub> is:",
+     "o": [
+      "2-methylpent-3-ene",
+      "4-methylpent-3-ene",
+      "2-methylpent-2-ene",
+      "4-methylpent-2-ene"
+     ],
+     "sol": "<p>NCERT 9.3.2: for alkenes the longest chain containing the double bond is chosen, and it is numbered from the end nearer the double bond; the suffix \"-ane\" becomes \"-ene\". Chain: C1H<sub>3</sub>–C2H=C3H–C4H(CH<sub>3</sub>)–C5H<sub>3</sub>: five carbons, double bond starting at C2, methyl on C4: 4-methylpent-2-ene. Numbering from the other end would give the double bond the locant 3, which is higher, so it is wrong.</p>",
+     "hint": "The double bond gets the lowest number."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "CH<sub>3</sub>–CH=CH–CH(CH<sub>3</sub>)–CH<sub>3</sub> का IUPAC नाम है:",
+     "o": [
+      "2-मेथिलपेन्ट-3-ईन",
+      "4-मेथिलपेन्ट-3-ईन",
+      "2-मेथिलपेन्ट-2-ईन",
+      "4-मेथिलपेन्ट-2-ईन"
+     ],
+     "sol": "<p>NCERT 9.3.2: एल्कीनों में द्विआबंध वाली सबसे लंबी शृंखला चुनी जाती है, और उसका संख्यांकन द्विआबंध के निकट वाले सिरे से किया जाता है; अनुलग्न \"-ऐन\" के स्थान पर \"-ईन\" लिखा जाता है। शृंखला: C1H<sub>3</sub>–C2H=C3H–C4H(CH<sub>3</sub>)–C5H<sub>3</sub>: पाँच कार्बन, द्विआबंध C2 से, मेथिल C4 पर: 4-मेथिलपेन्ट-2-ईन। दूसरे सिरे से संख्यांकन करने पर द्विआबंध को संख्या 3 मिलती, जो अधिक है, अतः वह गलत है।</p>",
+     "hint": "द्विआबंध को सबसे छोटी संख्या मिलती है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.3.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.3.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-09-ai-9-4-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How many structural isomers are possible for alkynes with formula C<sub>5</sub>H<sub>8</sub>?",
+     "o": [
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "sol": "<p>NCERT 9.4.1: alkynes show position isomerism (position of the triple bond) and chain isomerism. For C<sub>5</sub>H<sub>8</sub>: pent-1-yne, HC≡C–CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>; pent-2-yne, CH<sub>3</sub>–C≡C–CH<sub>2</sub>CH<sub>3</sub>; and 3-methylbut-1-yne, HC≡C–CH(CH<sub>3</sub>)<sub>2</sub>. Total 3. (A triple-bonded carbon cannot carry a branch, since it already uses two bonds for the triple bond and one for the chain.) Pent-1-yne and pent-2-yne are position isomers; either of them and 3-methylbut-1-yne are chain isomers.</p>",
+     "hint": "Two straight chains plus one branched."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "C<sub>5</sub>H<sub>8</sub> सूत्र वाले एल्काइनों के कितने संरचनात्मक समावयव संभव हैं?",
+     "o": [
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "sol": "<p>NCERT 9.4.1: एल्काइन स्थिति समावयवता (त्रिआबंध की स्थिति) तथा शृंखला समावयवता दर्शाते हैं। C<sub>5</sub>H<sub>8</sub> के लिए: पेन्ट-1-आइन, HC≡C–CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>; पेन्ट-2-आइन, CH<sub>3</sub>–C≡C–CH<sub>2</sub>CH<sub>3</sub>; तथा 3-मेथिलब्यूट-1-आइन, HC≡C–CH(CH<sub>3</sub>)<sub>2</sub>। कुल 3। (त्रिआबंधित कार्बन पर शाखा नहीं हो सकती, क्योंकि वह दो आबंध त्रिआबंध के लिए और एक शृंखला के लिए उपयोग कर चुका होता है।) पेन्ट-1-आइन तथा पेन्ट-2-आइन स्थिति समावयव हैं; इनमें से कोई एक तथा 3-मेथिलब्यूट-1-आइन शृंखला समावयव हैं।</p>",
+     "hint": "दो सीधी शृंखलाएँ और एक शाखित।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.4.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.4.1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-09-ai-9-4-2-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the triple bond in ethyne is <b>incorrect</b>?",
+     "o": [
+      "Both carbon atoms are sp<sup>2</sup> hybridised, and the H–C–C angle is 120°.",
+      "It consists of one σ bond and two π bonds.",
+      "Ethyne is a linear molecule, and the C≡C bond length (120 pm) is shorter than C=C (134 pm).",
+      "The electron cloud of the two π bonds is cylindrically symmetrical about the internuclear axis."
+     ],
+     "sol": "<p>NCERT 9.4.2: each carbon in ethyne is sp hybridised: one sp–sp overlap gives the C–C σ bond, the other sp orbital of each carbon overlaps with H 1s; the two unhybridised 2p orbitals on each carbon overlap sideways to give two π bonds. So C≡C = one σ + two π, molecule linear (H–C–C angle 180°), bond length 120 pm, bond enthalpy about 823 kJ mol<sup>−1</sup>. The two π clouds merge into a cylinder of electron density around the axis. Option (1) describes ethene, not ethyne.</p>",
+     "hint": "Two bonds used for π leaves only sp."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "एथाइन में त्रिआबंध के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "दोनों कार्बन परमाणु sp<sup>2</sup> संकरित होते हैं, और H–C–C कोण 120° होता है।",
+      "इसमें एक σ आबंध तथा दो π आबंध होते हैं।",
+      "एथाइन रैखिक अणु है, और C≡C आबंध लंबाई (120 pm) C=C (134 pm) से कम है।",
+      "दोनों π आबंधों का इलेक्ट्रॉन अभ्र अंतर्नाभिकीय अक्ष के परितः बेलनाकार सममित होता है।"
+     ],
+     "sol": "<p>NCERT 9.4.2: एथाइन में प्रत्येक कार्बन sp संकरित होता है: एक sp–sp अतिव्यापन से C–C σ आबंध बनता है, प्रत्येक कार्बन का दूसरा sp कक्षक H के 1s से अतिव्यापन करता है; प्रत्येक कार्बन के दो असंकरित 2p कक्षक पार्श्व अतिव्यापन से दो π आबंध बनाते हैं। अतः C≡C = एक σ + दो π, अणु रैखिक (H–C–C कोण 180°), आबंध लंबाई 120 pm, आबंध एन्थैल्पी लगभग 823 kJ mol<sup>−1</sup>। दोनों π अभ्र मिलकर अक्ष के चारों ओर इलेक्ट्रॉन घनत्व का एक बेलन बनाते हैं। विकल्प (1) एथीन का वर्णन है, एथाइन का नहीं।</p>",
+     "hint": "π के लिए दो कक्षक लगने पर केवल sp बचता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.4.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.4.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-09-ai-9-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Aromatic hydrocarbons are also called arenes. Which pair correctly gives a benzenoid and a non-benzenoid aromatic compound?",
+     "o": [
+      "Benzene (benzenoid) and cyclohexane (non-benzenoid)",
+      "Naphthalene (non-benzenoid) and toluene (benzenoid)",
+      "Naphthalene (benzenoid) and an aromatic compound without a benzene ring, such as tropolone (non-benzenoid)",
+      "Ethyne (benzenoid) and benzene (non-benzenoid)"
+     ],
+     "sol": "<p>NCERT 9.5: since most of them have a pleasant odour (Greek \"aroma\" = fragrance), these compounds are called aromatic. Most contain the benzene ring, which is highly unsaturated, yet in most reactions the ring stays intact. Aromatic compounds containing a benzene ring are benzenoids (benzene, toluene, naphthalene, biphenyl); those that do not contain a benzene ring but are still aromatic are non-benzenoids. Cyclohexane and ethyne are not aromatic.</p>",
+     "hint": "Benzenoid = has a benzene ring."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "ऐरोमैटिक हाइड्रोकार्बनों को ऐरीन भी कहते हैं। कौन-सा युग्म एक बेन्जेनाइड तथा एक अबेन्जेनाइड ऐरोमैटिक यौगिक सही बताता है?",
+     "o": [
+      "बेन्जीन (बेन्जेनाइड) तथा साइक्लोहेक्सेन (अबेन्जेनाइड)",
+      "नैफथलीन (अबेन्जेनाइड) तथा टॉलूईन (बेन्जेनाइड)",
+      "नैफथलीन (बेन्जेनाइड) तथा बिना बेन्जीन वलय वाला ऐरोमैटिक यौगिक, जैसे ट्रोपोलोन (tropolone) जैसी वलय (अबेन्जेनाइड)",
+      "एथाइन (बेन्जेनाइड) तथा बेन्जीन (अबेन्जेनाइड)"
+     ],
+     "sol": "<p>NCERT 9.5: इनमें से अधिकांश की गंध सुखद होती है (ग्रीक शब्द ‘ऐरोमा’ = सुगंध), इसलिए इन्हें ऐरोमैटिक कहा गया। अधिकांश में बेन्जीन वलय होती है, जो अत्यधिक असंतृप्त है, फिर भी अधिकांश अभिक्रियाओं में वलय बनी रहती है। बेन्जीन वलय वाले ऐरोमैटिक यौगिक बेन्जेनाइड (बेन्जीन, टॉलूईन, नैफथलीन, बाइफेनिल) तथा बेन्जीन वलय न होने पर भी ऐरोमैटिक यौगिक अबेन्जेनाइड कहलाते हैं। साइक्लोहेक्सेन तथा एथाइन ऐरोमैटिक नहीं हैं।</p>",
+     "hint": "बेन्जेनाइड = बेन्जीन वलय वाला।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.5"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-09-ai-9-5-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "1,3-Dimethylbenzene is also called:",
+     "o": [
+      "o-xylene",
+      "m-xylene",
+      "p-xylene",
+      "toluene"
+     ],
+     "sol": "<p>NCERT 9.5.1: in disubstituted benzenes the relative positions are written as 1,2 (ortho, o-), 1,3 (meta, m-) and 1,4 (para, p-). 1,2-dimethylbenzene is o-xylene, 1,3-dimethylbenzene is m-xylene and 1,4-dimethylbenzene is p-xylene. Toluene is methylbenzene. All six hydrogens of benzene are equivalent, so it gives only one monosubstituted product.</p>",
+     "hint": "1,3 = meta."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "1,3-डाइमेथिलबेन्जीन को यह भी कहते हैं:",
+     "o": [
+      "o-जाइलीन",
+      "m-जाइलीन",
+      "p-जाइलीन",
+      "टॉलूईन"
+     ],
+     "sol": "<p>NCERT 9.5.1: द्विप्रतिस्थापित बेन्जीनों में आपेक्षिक स्थितियाँ 1,2 (ऑर्थो, o-), 1,3 (मेटा, m-) तथा 1,4 (पैरा, p-) लिखी जाती हैं। 1,2-डाइमेथिलबेन्जीन o-जाइलीन, 1,3-डाइमेथिलबेन्जीन m-जाइलीन तथा 1,4-डाइमेथिलबेन्जीन p-जाइलीन है। टॉलूईन मेथिलबेन्जीन है। बेन्जीन के सभी छह हाइड्रोजन तुल्य हैं, इसलिए यह केवल एक एकल प्रतिस्थापित उत्पाद देती है।</p>",
+     "hint": "1,3 = मेटा।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.5.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.5.1"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-09-ai-9-5-2-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which observation <b>cannot</b> be explained by a single Kekulé structure of benzene, and is explained by resonance?",
+     "o": [
+      "Benzene forms a triozonide, showing three double bonds.",
+      "Benzene gives only one monosubstituted derivative.",
+      "Benzene has the formula C<sub>6</sub>H<sub>6</sub>.",
+      "Benzene forms only one ortho-disubstituted product, and all its C–C bonds have the same length, 139 pm."
+     ],
+     "sol": "<p>NCERT 9.5.2: Kekulé (1865) proposed a cyclic arrangement of six carbons with alternate single and double bonds. One Kekulé structure predicts two 1,2-dibromobenzenes (Br on carbons joined by a double bond, or by a single bond), but only one ortho product exists. Kekulé suggested oscillation between two forms; it is now described as a resonance hybrid of the two Kekulé structures. X-ray diffraction shows all six C–C bonds are equal, 139 pm, between C–C (154 pm) and C=C (133 pm). Formula, triozonide and one monosubstituted product are all consistent with a Kekulé ring.</p>",
+     "hint": "Single and double bonds should have different lengths."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "बेन्जीन की एक अकेली केकुले संरचना से कौन-सा प्रेक्षण <b>नहीं</b> समझाया जा सकता, जिसकी व्याख्या अनुनाद से होती है?",
+     "o": [
+      "बेन्जीन ट्राईओजोनाइड बनाती है, जो तीन द्विआबंध दर्शाता है।",
+      "बेन्जीन केवल एक एकल प्रतिस्थापित व्युत्पन्न देती है।",
+      "बेन्जीन का अणुसूत्र C<sub>6</sub>H<sub>6</sub> है।",
+      "बेन्जीन केवल एक ऑर्थो द्विप्रतिस्थापित उत्पाद बनाती है, और इसके सभी C–C आबंधों की लंबाई समान, 139 pm, है।"
+     ],
+     "sol": "<p>NCERT 9.5.2: केकुले (1865) ने छः कार्बनों की चक्रीय व्यवस्था दी, जिसमें एकांतर क्रम में एकल और द्विआबंध हैं। एक केकुले संरचना दो 1,2-डाइब्रोमोबेन्जीन बताती है (Br द्विआबंध से जुड़े कार्बनों पर, या एकल आबंध से जुड़े कार्बनों पर), पर केवल एक ऑर्थो उत्पाद मिलता है। केकुले ने दोनों रूपों के बीच दोलन का सुझाव दिया; अब इसे दोनों केकुले संरचनाओं के अनुनाद संकर के रूप में बताया जाता है। X-किरण विवर्तन से सभी छः C–C आबंध समान, 139 pm, मिलते हैं, जो C–C (154 pm) और C=C (133 pm) के बीच है। अणुसूत्र, ट्राईओजोनाइड तथा एक एकल प्रतिस्थापित उत्पाद, सभी केकुले वलय से संगत हैं।</p>",
+     "hint": "एकल और द्विआबंध की लंबाई भिन्न होनी चाहिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.5.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.5.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-09-ai-9-6-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "According to NCERT 9.6, polynuclear hydrocarbons that are toxic and carcinogenic are formed mainly by:",
+     "o": [
+      "incomplete combustion of organic materials such as tobacco, coal and petroleum",
+      "complete combustion of methane in excess oxygen",
+      "hydrogenation of alkenes with a nickel catalyst",
+      "fermentation of sugars"
+     ],
+     "sol": "<p>NCERT 9.6: benzene and polynuclear hydrocarbons with more than two fused benzene rings are toxic and carcinogenic. They are formed on incomplete combustion of organic materials like tobacco, coal and petroleum. They enter the human body and undergo various biochemical reactions that finally damage DNA and cause cancer. Complete combustion of methane gives only CO<sub>2</sub> and water.</p>",
+     "hint": "Smoke and soot."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "NCERT 9.6 के अनुसार विषाक्त तथा कैंसरजनी बहुलकेंद्रकीय हाइड्रोकार्बन मुख्यतः किससे बनते हैं?",
+     "o": [
+      "तंबाकू, कोल तथा पेट्रोलियम जैसे कार्बनिक पदार्थों के अपूर्ण दहन से",
+      "आधिक्य ऑक्सीजन में मेथेन के पूर्ण दहन से",
+      "निकैल उत्प्रेरक के साथ एल्कीनों के हाइड्रोजनीकरण से",
+      "शर्कराओं के किण्वन से"
+     ],
+     "sol": "<p>NCERT 9.6: बेन्जीन तथा बहुलकेंद्रकीय हाइड्रोकार्बन, जिनमें दो से अधिक जुड़ी हुई वलय हों, विषाक्त तथा कैंसरजनी गुण दर्शाते हैं। ये तंबाकू, कोल तथा पेट्रोलियम जैसे कार्बनिक पदार्थों के अपूर्ण दहन से बनते हैं। ये मानव शरीर में प्रवेश कर विभिन्न जैव रासायनिक अभिक्रियाओं द्वारा अंततः DNA को नष्ट कर कैंसर उत्पन्न करते हैं। मेथेन का पूर्ण दहन केवल CO<sub>2</sub> तथा जल देता है।</p>",
+     "hint": "धुआँ और कालिख।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-09",
+    "paras": [
+     "9.6"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.6"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {

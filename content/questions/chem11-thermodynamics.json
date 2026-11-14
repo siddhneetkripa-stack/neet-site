@@ -8950,6 +8950,776 @@
     "keyCheck": "Matches the answer printed in the copy (NTA's answer) and our solving",
     "keySource": "eSaral full-paper copy with answers (neet-sources/jee-main/2024/2024-06-01-shift-1-maths.pdf, chemistry part)"
    }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-terms-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Thermodynamics deals with:",
+     "o": [
+      "the rate at which a reaction proceeds and its mechanism",
+      "energy changes in macroscopic systems, without needing to know the molecular or atomic structure or the time taken",
+      "the motion of individual molecules only",
+      "the structure of the atom"
+     ],
+     "sol": "<p>NCERT 5.1: thermodynamics is concerned with energy changes of a system as a whole (macroscopic properties). Its laws deal with energy changes of macroscopic systems involving a large number of molecules, not microscopic ones; they do not depend on the structure of atoms or molecules, and they tell nothing about how fast a change happens (that is chemical kinetics). They tell whether, under given conditions, a change is possible and what energy is involved.</p>",
+     "hint": "\"Whether\" and \"how much\", not \"how fast\"."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "ऊष्मागतिकी का संबंध है:",
+     "o": [
+      "अभिक्रिया की गति तथा उसकी क्रियाविधि से",
+      "स्थूल निकायों में ऊर्जा परिवर्तनों से, बिना आण्विक या परमाण्विक संरचना या लगने वाले समय को जाने",
+      "केवल अलग-अलग अणुओं की गति से",
+      "परमाणु की संरचना से"
+     ],
+     "sol": "<p>NCERT 5.1: ऊष्मागतिकी पूरे निकाय (स्थूल गुणों) के ऊर्जा परिवर्तनों से संबंधित है। इसके नियम बड़ी संख्या में अणुओं वाले स्थूल निकायों के ऊर्जा परिवर्तनों से संबंधित हैं, सूक्ष्म निकायों से नहीं; ये परमाणुओं या अणुओं की संरचना पर निर्भर नहीं करते, और परिवर्तन कितनी तेज़ी से होता है यह नहीं बताते (वह रासायनिक बलगतिकी है)। ये बताते हैं कि दी गई परिस्थितियों में परिवर्तन संभव है या नहीं और उसमें कितनी ऊर्जा लगती है।</p>",
+     "hint": "\"होगा या नहीं\" और \"कितना\", \"कितनी तेज़ी से\" नहीं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "terms"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT terms"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-sys-surr-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A reaction is carried out in a beaker. The system, surroundings and boundary are respectively:",
+     "o": [
+      "the beaker; the reacting mixture; the air",
+      "the whole universe; the beaker; the reacting mixture",
+      "the reaction mixture; everything else (the beaker, the air, the room); the wall that separates them, real or imaginary",
+      "the air in the room; the reacting mixture; the beaker"
+     ],
+     "sol": "<p>NCERT 5.1.1: the system is the part of the universe in which observations are made, here the reaction mixture. The rest of the universe is the surroundings: the beaker, the air, the room. The universe = system + surroundings. The wall that separates the system from the surroundings is the boundary; it may be real or imaginary, and it lets us control and keep track of the matter and energy exchanged.</p>",
+     "hint": "System = what you study."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "एक अभिक्रिया बीकर में की जाती है। निकाय, परिवेश तथा परिसीमा क्रमशः हैं:",
+     "o": [
+      "बीकर; अभिक्रिया मिश्रण; वायु",
+      "पूरा ब्रह्मांड; बीकर; अभिक्रिया मिश्रण",
+      "अभिक्रिया मिश्रण; शेष सब कुछ (बीकर, वायु, कमरा); उन्हें अलग करने वाली दीवार, वास्तविक या काल्पनिक",
+      "कमरे की वायु; अभिक्रिया मिश्रण; बीकर"
+     ],
+     "sol": "<p>NCERT 5.1.1: निकाय ब्रह्मांड का वह भाग है जिसमें प्रेक्षण किए जाते हैं, यहाँ अभिक्रिया मिश्रण। ब्रह्मांड का शेष भाग परिवेश है: बीकर, वायु, कमरा। ब्रह्मांड = निकाय + परिवेश। निकाय को परिवेश से अलग करने वाली दीवार परिसीमा है; यह वास्तविक या काल्पनिक हो सकती है, और इससे हम द्रव्य तथा ऊर्जा के आदान-प्रदान को नियंत्रित तथा दर्ज कर पाते हैं।</p>",
+     "hint": "निकाय = जिसका अध्ययन करें।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "sys-surr"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT sys-surr"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-sys-types-q1",
+   "type": "match",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Match the system with its type: (a) reactants in an open beaker; (b) reactants in a closed vessel of conducting material such as copper; (c) reactants in a thermos flask (insulated closed vessel). (i) isolated; (ii) open; (iii) closed.",
+     "o": [
+      "(a)–(ii), (b)–(iii), (c)–(i)",
+      "(a)–(iii), (b)–(ii), (c)–(i)",
+      "(a)–(ii), (b)–(i), (c)–(iii)",
+      "(a)–(i), (b)–(iii), (c)–(ii)"
+     ],
+     "sol": "<p>NCERT 5.1.2: an open system exchanges both energy and matter with the surroundings (open beaker). A closed system exchanges energy but not matter (closed copper or steel vessel). An isolated system exchanges neither energy nor matter (thermos flask or any closed insulated vessel).</p>",
+     "hint": "Matter + energy → open; energy only → closed; nothing → isolated."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "निकाय का उसके प्रकार से मिलान कीजिए: (a) खुले बीकर में अभिकारक; (b) कॉपर जैसे चालक पदार्थ के बंद पात्र में अभिकारक; (c) थर्मस फ्लास्क (विलगित बंद पात्र) में अभिकारक। (i) विलगित; (ii) खुला; (iii) बंद।",
+     "o": [
+      "(a)–(ii), (b)–(iii), (c)–(i)",
+      "(a)–(iii), (b)–(ii), (c)–(i)",
+      "(a)–(ii), (b)–(i), (c)–(iii)",
+      "(a)–(i), (b)–(iii), (c)–(ii)"
+     ],
+     "sol": "<p>NCERT 5.1.2: खुला निकाय परिवेश के साथ ऊर्जा तथा द्रव्य दोनों का आदान-प्रदान करता है (खुला बीकर)। बंद निकाय ऊर्जा का आदान-प्रदान करता है पर द्रव्य का नहीं (कॉपर या स्टील का बंद पात्र)। विलगित निकाय न ऊर्जा का, न द्रव्य का आदान-प्रदान करता है (थर्मस फ्लास्क या कोई भी बंद ऊष्मारोधी पात्र)।</p>",
+     "hint": "द्रव्य + ऊर्जा → खुला; केवल ऊर्जा → बंद; कुछ नहीं → विलगित।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "sys-types"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT sys-types"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-state-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The state of a fixed amount of an ideal gas is completely described by specifying:",
+     "o": [
+      "only its temperature",
+      "the position and velocity of every molecule",
+      "only the work done on it",
+      "measurable state variables such as pressure, volume and temperature (any two plus the amount, since pV = nRT links them)"
+     ],
+     "sol": "<p>NCERT 5.1.3: in thermodynamics the state of a system is described by its measurable macroscopic properties: pressure (p), volume (V), temperature (T), amount (n) etc. These are state variables (state functions); their values depend only on the state, not on how it was reached. Describing positions and velocities of all molecules is not needed (and is impossible). For an ideal gas, fixing n and any two of p, V, T fixes the third through pV = nRT.</p>",
+     "hint": "Macroscopic and measurable."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "किसी आदर्श गैस की निश्चित मात्रा की अवस्था पूर्णतः बताई जाती है:",
+     "o": [
+      "केवल उसके ताप से",
+      "प्रत्येक अणु की स्थिति तथा वेग से",
+      "केवल उस पर किए गए कार्य से",
+      "दाब, आयतन तथा ताप जैसे मापने योग्य अवस्था चरों से (मात्रा के साथ कोई दो, क्योंकि pV = nRT उन्हें जोड़ता है)"
+     ],
+     "sol": "<p>NCERT 5.1.3: ऊष्मागतिकी में निकाय की अवस्था उसके मापने योग्य स्थूल गुणों से बताई जाती है: दाब (p), आयतन (V), ताप (T), मात्रा (n) आदि। ये अवस्था चर (अवस्था फलन) हैं; इनके मान केवल अवस्था पर निर्भर करते हैं, उस तक पहुँचने के तरीके पर नहीं। सभी अणुओं की स्थिति और वेग बताना आवश्यक नहीं है (और असंभव है)। आदर्श गैस के लिए n तथा p, V, T में से कोई दो निश्चित करने पर तीसरा pV = nRT से निश्चित हो जाता है।</p>",
+     "hint": "स्थूल और मापने योग्य।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "state"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT state"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-internal-energy-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about internal energy U is <b>incorrect</b>?",
+     "o": [
+      "It is the sum of chemical, electrical, mechanical and other energies of the system.",
+      "Like heat and work, it depends on the path by which the change is brought about.",
+      "Its absolute value cannot be measured, only the change ΔU.",
+      "For an adiabatic change, ΔU = w<sub>ad</sub>, the work done on the system."
+     ],
+     "sol": "<p>NCERT 5.1.4: internal energy U represents the total energy of the system (chemical, electrical, mechanical etc.). It changes when heat passes in or out, work is done on or by the system, or matter enters or leaves. U is a <b>state function</b>: ΔU = U<sub>2</sub> − U<sub>1</sub> depends only on the initial and final states, whatever the path; q and w separately are path dependent, but ΔU = q + w is not. In an adiabatic process (no heat exchange) ΔU = w<sub>ad</sub>. Only ΔU can be measured, not the absolute value of U.</p>",
+     "hint": "U is a state function."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "आंतरिक ऊर्जा U के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "यह निकाय की रासायनिक, विद्युत्, यांत्रिक तथा अन्य ऊर्जाओं का योग है।",
+      "ऊष्मा और कार्य की तरह यह भी उस पथ पर निर्भर करती है जिससे परिवर्तन किया गया।",
+      "इसका निरपेक्ष मान नहीं मापा जा सकता, केवल परिवर्तन ΔU।",
+      "रुद्धोष्म परिवर्तन के लिए ΔU = w<sub>ad</sub>, निकाय पर किया गया कार्य।"
+     ],
+     "sol": "<p>NCERT 5.1.4: आंतरिक ऊर्जा U निकाय की कुल ऊर्जा (रासायनिक, विद्युत्, यांत्रिक आदि) दर्शाती है। यह तब बदलती है जब ऊष्मा अंदर या बाहर जाए, निकाय पर या निकाय द्वारा कार्य हो, या द्रव्य प्रवेश करे या निकले। U एक <b>अवस्था फलन</b> है: ΔU = U<sub>2</sub> − U<sub>1</sub> केवल प्रारंभिक तथा अंतिम अवस्थाओं पर निर्भर करता है, पथ कोई भी हो; q और w अलग-अलग पथ पर निर्भर करते हैं, पर ΔU = q + w नहीं। रुद्धोष्म प्रक्रम (ऊष्मा का आदान-प्रदान नहीं) में ΔU = w<sub>ad</sub>। केवल ΔU मापा जा सकता है, U का निरपेक्ष मान नहीं।</p>",
+     "hint": "U अवस्था फलन है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "internal-energy"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT internal-energy"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-applications-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "2 mol of an ideal gas expands isothermally into vacuum (free expansion). The work done and the change in internal energy are:",
+     "o": [
+      "w = 0, ΔU = 0",
+      "w = −pΔV, ΔU = 0",
+      "w = 0, ΔU = q > 0",
+      "w < 0, ΔU < 0"
+     ],
+     "sol": "<p>NCERT 5.2.1: work against an external pressure is w = −p<sub>ex</sub>ΔV. In expansion into vacuum p<sub>ex</sub> = 0, so w = 0 whether the process is reversible or not. For an ideal gas at constant temperature the internal energy does not change, ΔU = 0; with ΔU = q + w this also gives q = 0. So free isothermal expansion of an ideal gas: q = 0, w = 0, ΔU = 0.</p>",
+     "hint": "Nothing to push against."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "2 mol आदर्श गैस का निर्वात में समतापीय प्रसार (मुक्त प्रसार) होता है। किया गया कार्य तथा आंतरिक ऊर्जा में परिवर्तन हैं:",
+     "o": [
+      "w = 0, ΔU = 0",
+      "w = −pΔV, ΔU = 0",
+      "w = 0, ΔU = q > 0",
+      "w < 0, ΔU < 0"
+     ],
+     "sol": "<p>NCERT 5.2.1: बाह्य दाब के विरुद्ध कार्य w = −p<sub>ex</sub>ΔV है। निर्वात में प्रसार में p<sub>ex</sub> = 0, अतः w = 0, प्रक्रम उत्क्रमणीय हो या नहीं। स्थिर ताप पर आदर्श गैस की आंतरिक ऊर्जा नहीं बदलती, ΔU = 0; ΔU = q + w से q = 0 भी मिलता है। अतः आदर्श गैस का मुक्त समतापीय प्रसार: q = 0, w = 0, ΔU = 0।</p>",
+     "hint": "धकेलने के लिए कुछ नहीं है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "applications"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT applications"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-enthalpy-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For the reaction N<sub>2</sub>(g) + 3H<sub>2</sub>(g) → 2NH<sub>3</sub>(g) at 298 K, the relation between ΔH and ΔU is (R = 8.314 J K<sup>−1</sup> mol<sup>−1</sup>):",
+     "o": [
+      "ΔH = ΔU",
+      "ΔH = ΔU + 4.96 kJ",
+      "ΔH = ΔU − 4.96 kJ",
+      "ΔH = ΔU − 2.48 kJ"
+     ],
+     "sol": "<p>NCERT 5.2.2: H = U + pV; for reactions of ideal gases at constant T and p, ΔH = ΔU + Δn<sub>g</sub>RT, where Δn<sub>g</sub> = moles of gaseous products − moles of gaseous reactants. Here Δn<sub>g</sub> = 2 − (1 + 3) = −2. Δn<sub>g</sub>RT = −2 × 8.314 × 298 J = −4955 J ≈ −4.96 kJ. So ΔH = ΔU − 4.96 kJ.</p>",
+     "hint": "Δn<sub>g</sub> = 2 − 4."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "298 K पर अभिक्रिया N<sub>2</sub>(g) + 3H<sub>2</sub>(g) → 2NH<sub>3</sub>(g) के लिए ΔH तथा ΔU में संबंध है (R = 8.314 J K<sup>−1</sup> mol<sup>−1</sup>):",
+     "o": [
+      "ΔH = ΔU",
+      "ΔH = ΔU + 4.96 kJ",
+      "ΔH = ΔU − 4.96 kJ",
+      "ΔH = ΔU − 2.48 kJ"
+     ],
+     "sol": "<p>NCERT 5.2.2: H = U + pV; स्थिर T तथा p पर आदर्श गैसों की अभिक्रियाओं के लिए ΔH = ΔU + Δn<sub>g</sub>RT, जहाँ Δn<sub>g</sub> = गैसीय उत्पादों के मोल − गैसीय अभिकारकों के मोल। यहाँ Δn<sub>g</sub> = 2 − (1 + 3) = −2। Δn<sub>g</sub>RT = −2 × 8.314 × 298 J = −4955 J ≈ −4.96 kJ। अतः ΔH = ΔU − 4.96 kJ।</p>",
+     "hint": "Δn<sub>g</sub> = 2 − 4।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "enthalpy"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT enthalpy"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-calorimetry-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In a bomb calorimeter, the heat measured for a combustion reaction gives:",
+     "o": [
+      "ΔH, because the reaction is at constant pressure",
+      "ΔU, because the reaction occurs at constant volume (no expansion work)",
+      "ΔG directly",
+      "the entropy change ΔS"
+     ],
+     "sol": "<p>NCERT 5.3: in a bomb calorimeter the substance burns in pure O<sub>2</sub> inside a sealed steel vessel (the bomb), immersed in water; the steel vessel is rigid, so the volume is constant and no work is done (w = 0). Then ΔU = q<sub>V</sub>, and q = C<sub>V</sub>ΔT from the temperature rise of the calorimeter. ΔH is measured in a constant-pressure calorimeter (q<sub>p</sub> = ΔH), or found from ΔU using ΔH = ΔU + Δn<sub>g</sub>RT.</p>",
+     "hint": "The bomb's volume cannot change."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "बम कैलोरीमीटर में किसी दहन अभिक्रिया के लिए मापी गई ऊष्मा देती है:",
+     "o": [
+      "ΔH, क्योंकि अभिक्रिया स्थिर दाब पर होती है",
+      "ΔU, क्योंकि अभिक्रिया स्थिर आयतन पर होती है (कोई प्रसरण-कार्य नहीं)",
+      "सीधे ΔG",
+      "एन्ट्रॉपी परिवर्तन ΔS"
+     ],
+     "sol": "<p>NCERT 5.3: बम कैलोरीमीटर में पदार्थ शुद्ध O<sub>2</sub> में एक बंद स्टील पात्र (बम) के भीतर जलाया जाता है, जो जल में डूबा होता है; स्टील पात्र दृढ़ है, अतः आयतन स्थिर रहता है और कोई कार्य नहीं होता (w = 0)। तब ΔU = q<sub>V</sub>, और q = C<sub>V</sub>ΔT कैलोरीमीटर के ताप में वृद्धि से। ΔH स्थिर दाब कैलोरीमीटर में मापा जाता है (q<sub>p</sub> = ΔH), या ΔU से ΔH = ΔU + Δn<sub>g</sub>RT द्वारा ज्ञात किया जाता है।</p>",
+     "hint": "बम का आयतन नहीं बदल सकता।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "calorimetry"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT calorimetry"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-reaction-enthalpy-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Given ΔH for H<sub>2</sub>O(l) → H<sub>2</sub>O(g) is +40.7 kJ mol<sup>−1</sup> at 373 K, the enthalpy change for 2H<sub>2</sub>O(g) → 2H<sub>2</sub>O(l) at 373 K is:",
+     "o": [
+      "+40.7 kJ",
+      "+81.4 kJ",
+      "−40.7 kJ",
+      "−81.4 kJ"
+     ],
+     "sol": "<p>NCERT 5.4: the reaction enthalpy Δ<sub>r</sub>H = Σ a<sub>i</sub>H<sub>products</sub> − Σ b<sub>i</sub>H<sub>reactants</sub> depends on how the equation is written: (i) when a balanced equation is multiplied by a factor, Δ<sub>r</sub>H is multiplied by the same factor; (ii) when the equation is reversed, the sign of Δ<sub>r</sub>H is reversed. Reversing gives −40.7 kJ; doubling gives −81.4 kJ.</p>",
+     "hint": "Reverse → change sign; double → double the value."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "दिया है कि 373 K पर H<sub>2</sub>O(l) → H<sub>2</sub>O(g) के लिए ΔH +40.7 kJ mol<sup>−1</sup> है; 373 K पर 2H<sub>2</sub>O(g) → 2H<sub>2</sub>O(l) के लिए एन्थैल्पी परिवर्तन है:",
+     "o": [
+      "+40.7 kJ",
+      "+81.4 kJ",
+      "−40.7 kJ",
+      "−81.4 kJ"
+     ],
+     "sol": "<p>NCERT 5.4: अभिक्रिया एन्थैल्पी Δ<sub>r</sub>H = Σ a<sub>i</sub>H<sub>products</sub> − Σ b<sub>i</sub>H<sub>reactants</sub> समीकरण लिखने के तरीके पर निर्भर करती है: (i) संतुलित समीकरण को किसी गुणक से गुणा करने पर Δ<sub>r</sub>H भी उसी गुणक से गुणा होती है; (ii) समीकरण उलटने पर Δ<sub>r</sub>H का चिह्न उलट जाता है। उलटने पर −40.7 kJ; दुगुना करने पर −81.4 kJ।</p>",
+     "hint": "उलटना → चिह्न बदलें; दुगुना → मान दुगुना।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "reaction-enthalpy"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT reaction-enthalpy"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-enthalpy-types-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which equation represents the standard enthalpy of formation (Δ<sub>f</sub>H<sup>⊖</sup>) of CO<sub>2</sub>(g)?",
+     "o": [
+      "CO(g) + ½O<sub>2</sub>(g) → CO<sub>2</sub>(g)",
+      "C(diamond) + O<sub>2</sub>(g) → CO<sub>2</sub>(g)",
+      "C(graphite) + O<sub>2</sub>(g) → CO<sub>2</sub>(g)",
+      "2C(graphite) + 2O<sub>2</sub>(g) → 2CO<sub>2</sub>(g)"
+     ],
+     "sol": "<p>NCERT 5.5: the standard enthalpy of formation is the enthalpy change for the formation of <b>one mole</b> of a compound from its elements in their most stable states of aggregation (reference states) at 1 bar. For carbon the reference state is graphite, and for oxygen O<sub>2</sub>(g). Option (1) starts from a compound, CO; option (2) uses diamond, not the reference state; option (4) forms 2 mol. So option (3). Δ<sub>f</sub>H<sup>⊖</sup> of an element in its reference state is zero.</p>",
+     "hint": "One mole, from elements in their most stable forms."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कौन-सा समीकरण CO<sub>2</sub>(g) की मानक विरचन एन्थैल्पी (Δ<sub>f</sub>H<sup>⊖</sup>) दर्शाता है?",
+     "o": [
+      "CO(g) + ½O<sub>2</sub>(g) → CO<sub>2</sub>(g)",
+      "C(diamond) + O<sub>2</sub>(g) → CO<sub>2</sub>(g)",
+      "C(graphite) + O<sub>2</sub>(g) → CO<sub>2</sub>(g)",
+      "2C(graphite) + 2O<sub>2</sub>(g) → 2CO<sub>2</sub>(g)"
+     ],
+     "sol": "<p>NCERT 5.5: मानक विरचन एन्थैल्पी किसी यौगिक के <b>एक मोल</b> के उसके तत्त्वों से, उनकी सबसे स्थायी अवस्था (संदर्भ अवस्था) में, 1 bar पर बनने का एन्थैल्पी परिवर्तन है। कार्बन की संदर्भ अवस्था ग्रैफ़ाइट (graphite) है, और ऑक्सीजन की O<sub>2</sub>(g)। विकल्प (1) एक यौगिक, CO, से प्रारंभ होता है; विकल्प (2) हीरा (diamond) लेता है, संदर्भ अवस्था नहीं; विकल्प (4) 2 mol बनाता है। अतः विकल्प (3)। संदर्भ अवस्था में किसी तत्त्व की Δ<sub>f</sub>H<sup>⊖</sup> शून्य होती है।</p>",
+     "hint": "एक मोल, तत्त्वों की सबसे स्थायी अवस्था से।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "enthalpy-types"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT enthalpy-types"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-bond-enthalpy-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Using mean bond enthalpies (kJ mol<sup>−1</sup>): H–H = 435, Cl–Cl = 242, H–Cl = 431, Δ<sub>r</sub>H for H<sub>2</sub>(g) + Cl<sub>2</sub>(g) → 2HCl(g) is about:",
+     "o": [
+      "−185 kJ",
+      "+185 kJ",
+      "−246 kJ",
+      "+246 kJ"
+     ],
+     "sol": "<p>NCERT 5.5 (c): in the gas phase, Δ<sub>r</sub>H = Σ bond enthalpies of reactants (bonds broken) − Σ bond enthalpies of products (bonds formed). Bonds broken: 435 + 242 = 677 kJ. Bonds formed: 2 × 431 = 862 kJ. Δ<sub>r</sub>H = 677 − 862 = −185 kJ. The reaction is exothermic because the bonds formed are stronger than those broken. The formula applies only to gaseous species.</p>",
+     "hint": "Broken minus formed."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "माध्य आबंध एन्थैल्पियों (kJ mol<sup>−1</sup>) H–H = 435, Cl–Cl = 242, H–Cl = 431 का उपयोग करके H<sub>2</sub>(g) + Cl<sub>2</sub>(g) → 2HCl(g) के लिए Δ<sub>r</sub>H लगभग है:",
+     "o": [
+      "−185 kJ",
+      "+185 kJ",
+      "−246 kJ",
+      "+246 kJ"
+     ],
+     "sol": "<p>NCERT 5.5 (c): गैस प्रावस्था में Δ<sub>r</sub>H = अभिकारकों की आबंध एन्थैल्पियों का योग (टूटे आबंध) − उत्पादों की आबंध एन्थैल्पियों का योग (बने आबंध)। टूटे आबंध: 435 + 242 = 677 kJ। बने आबंध: 2 × 431 = 862 kJ। Δ<sub>r</sub>H = 677 − 862 = −185 kJ। अभिक्रिया ऊष्माक्षेपी है क्योंकि बने आबंध टूटे आबंधों से प्रबल हैं। यह सूत्र केवल गैसीय स्पीशीज़ पर लागू होता है।</p>",
+     "hint": "टूटे घटा बने।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "bond-enthalpy"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT bond-enthalpy"
+   },
+   "difficulty": 4,
+   "difficultyBasis": "author",
+   "timeSec": 90,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-spontaneity-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about spontaneous processes is correct?",
+     "o": [
+      "Every spontaneous process is fast.",
+      "Every exothermic reaction is spontaneous and every endothermic reaction is non-spontaneous.",
+      "A spontaneous process can never be reversed by any means.",
+      "A spontaneous process proceeds by itself without external help, but it may be very slow, and a decrease in enthalpy alone does not decide spontaneity."
+     ],
+     "sol": "<p>NCERT 5.6: a spontaneous process is one that has the potential to proceed without the assistance of an external agency. It need not be fast: H<sub>2</sub> + O<sub>2</sub> at room temperature is spontaneous but extremely slow. It cannot reverse by itself, but it can be reversed with external help. Many exothermic reactions are spontaneous, but some endothermic ones are too (melting of ice above 0 °C, evaporation of water, dissolving NH<sub>4</sub>Cl in water), so enthalpy decrease alone cannot be the criterion; entropy must also be considered.</p>",
+     "hint": "Ice melts above 0 °C although it absorbs heat."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "स्वतः प्रवर्तित प्रक्रमों के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "प्रत्येक स्वतः प्रवर्तित प्रक्रम तेज़ होता है।",
+      "प्रत्येक ऊष्माक्षेपी अभिक्रिया स्वतः प्रवर्तित तथा प्रत्येक ऊष्माशोषी अभिक्रिया अस्वतः प्रवर्तित होती है।",
+      "स्वतः प्रवर्तित प्रक्रम को किसी भी प्रकार उलटा नहीं जा सकता।",
+      "स्वतः प्रवर्तित प्रक्रम बिना बाहरी सहायता के स्वयं चलता है, पर यह बहुत धीमा हो सकता है, और केवल एन्थैल्पी में कमी स्वतः प्रवर्तिता तय नहीं करती।"
+     ],
+     "sol": "<p>NCERT 5.6: स्वतः प्रवर्तित प्रक्रम वह है जिसमें बिना किसी बाहरी साधन की सहायता के होने की क्षमता हो। इसका तेज़ होना आवश्यक नहीं: कक्ष ताप पर H<sub>2</sub> + O<sub>2</sub> स्वतः प्रवर्तित है पर अत्यंत धीमा है। यह स्वयं नहीं उलटता, पर बाहरी सहायता से उलटा जा सकता है। अनेक ऊष्माक्षेपी अभिक्रियाएँ स्वतः प्रवर्तित हैं, पर कुछ ऊष्माशोषी भी हैं (0 °C से ऊपर बर्फ़ का पिघलना, जल का वाष्पन, जल में NH<sub>4</sub>Cl का घुलना), अतः केवल एन्थैल्पी में कमी मापदंड नहीं हो सकती; एन्ट्रॉपी पर भी विचार आवश्यक है।</p>",
+     "hint": "0 °C से ऊपर बर्फ़ ऊष्मा लेकर भी पिघलती है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "spontaneity"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT spontaneity"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-gibbs-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a reaction ΔH = +30 kJ mol<sup>−1</sup> and ΔS = +100 J K<sup>−1</sup> mol<sup>−1</sup>, assumed constant with temperature. The reaction becomes spontaneous:",
+     "o": [
+      "at all temperatures",
+      "above 300 K",
+      "below 300 K",
+      "at no temperature"
+     ],
+     "sol": "<p>NCERT 5.6 (c): ΔG = ΔH − TΔS; the process is spontaneous when ΔG < 0. With ΔH > 0 and ΔS > 0, ΔG becomes negative only when TΔS > ΔH, i.e. T > ΔH/ΔS = 30000 J mol<sup>−1</sup> ÷ 100 J K<sup>−1</sup> mol<sup>−1</sup> = 300 K. So it is spontaneous above 300 K (endothermic, entropy driven). Mind the units: convert kJ to J before dividing.</p>",
+     "hint": "T = ΔH/ΔS, with both in joules."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "किसी अभिक्रिया के लिए ΔH = +30 kJ mol<sup>−1</sup> तथा ΔS = +100 J K<sup>−1</sup> mol<sup>−1</sup> है, जिन्हें ताप के साथ स्थिर माना गया है। अभिक्रिया स्वतः प्रवर्तित होगी:",
+     "o": [
+      "सभी तापों पर",
+      "300 K से ऊपर",
+      "300 K से नीचे",
+      "किसी भी ताप पर नहीं"
+     ],
+     "sol": "<p>NCERT 5.6 (c): ΔG = ΔH − TΔS; ΔG < 0 होने पर प्रक्रम स्वतः प्रवर्तित होता है। ΔH > 0 तथा ΔS > 0 होने पर ΔG तभी ऋणात्मक होता है जब TΔS > ΔH, अर्थात् T > ΔH/ΔS = 30000 J mol<sup>−1</sup> ÷ 100 J K<sup>−1</sup> mol<sup>−1</sup> = 300 K। अतः 300 K से ऊपर यह स्वतः प्रवर्तित है (ऊष्माशोषी, एन्ट्रॉपी-चालित)। इकाइयों का ध्यान रखें: भाग देने से पहले kJ को J में बदलें।</p>",
+     "hint": "T = ΔH/ΔS, दोनों जूल में।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "gibbs"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT gibbs"
+   },
+   "difficulty": 4,
+   "difficultyBasis": "author",
+   "timeSec": 90,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem11-thermodynamics-ai-gibbs-equilibrium-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "For a reaction at 300 K, Δ<sub>r</sub>G<sup>⊖</sup> = −5.744 kJ mol<sup>−1</sup>. Using Δ<sub>r</sub>G<sup>⊖</sup> = −2.303 RT log K (R = 8.314 J K<sup>−1</sup> mol<sup>−1</sup>), the equilibrium constant K is about:",
+     "o": [
+      "1",
+      "0.1",
+      "10",
+      "100"
+     ],
+     "sol": "<p>NCERT 5.7: at equilibrium Δ<sub>r</sub>G = 0, which gives Δ<sub>r</sub>G<sup>⊖</sup> = −RT ln K = −2.303 RT log K. Here 2.303 × 8.314 × 300 = 5744 J mol<sup>−1</sup>. So log K = 5744 ÷ 5744 = 1, K = 10. A negative Δ<sub>r</sub>G<sup>⊖</sup> gives K > 1 (products favoured); a positive one gives K < 1.</p>",
+     "hint": "2.303 RT at 300 K is 5.744 kJ mol<sup>−1</sup>."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "300 K पर किसी अभिक्रिया के लिए Δ<sub>r</sub>G<sup>⊖</sup> = −5.744 kJ mol<sup>−1</sup> है। Δ<sub>r</sub>G<sup>⊖</sup> = −2.303 RT log K (R = 8.314 J K<sup>−1</sup> mol<sup>−1</sup>) से साम्य स्थिरांक K लगभग है:",
+     "o": [
+      "1",
+      "0.1",
+      "10",
+      "100"
+     ],
+     "sol": "<p>NCERT 5.7: साम्य पर Δ<sub>r</sub>G = 0, जिससे Δ<sub>r</sub>G<sup>⊖</sup> = −RT ln K = −2.303 RT log K मिलता है। यहाँ 2.303 × 8.314 × 300 = 5744 J mol<sup>−1</sup>। अतः log K = 5744 ÷ 5744 = 1, K = 10। ऋणात्मक Δ<sub>r</sub>G<sup>⊖</sup> से K > 1 (उत्पाद अनुकूल); धनात्मक से K < 1।</p>",
+     "hint": "300 K पर 2.303 RT का मान 5.744 kJ mol<sup>−1</sup> है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem11-thermodynamics",
+    "paras": [
+     "gibbs-equilibrium"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT gibbs-equilibrium"
+   },
+   "difficulty": 4,
+   "difficultyBasis": "author",
+   "timeSec": 90,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
