@@ -4360,6 +4360,296 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q101."
    }
+  },
+  {
+   "id": "bio12-05-ai-5-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The length of DNA is characteristic of an organism. Which pairing of organism and DNA length is correct?",
+     "o": [
+      "Bacteriophage φ×174 — 48502 bp",
+      "<i>Escherichia coli</i> — 3.3 × 10<sup>9</sup> bp",
+      "Bacteriophage lambda — 48502 bp",
+      "Haploid human DNA — 4.6 × 10<sup>6</sup> bp"
+     ],
+     "sol": "<p>NCERT 5.1: DNA length is given as the number of nucleotides or base pairs (bp):</p><ul><li>bacteriophage φ×174 — 5386 nucleotides;</li><li><b>bacteriophage lambda — 48502 bp</b>;</li><li><i>E. coli</i> — 4.6 × 10<sup>6</sup> bp;</li><li>haploid human DNA — 3.3 × 10<sup>9</sup> bp.</li></ul><p>Options 1, 2 and 4 swap these values.</p>",
+     "hint": "φ×174 is counted in nucleotides, not bp.",
+     "trap": "φ×174 is single-stranded, so its size is given in nucleotides (5386)."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "DNA की लंबाई किसी भी जीव की विशेषता है। जीव तथा DNA की लंबाई का कौन-सा युग्म सही है?",
+     "o": [
+      "जीवाणुभोजी φ×174 — 48502 bp",
+      "<i>Escherichia coli</i> — 3.3 × 10<sup>9</sup> bp",
+      "जीवाणुभोजी लैंब्डा — 48502 bp",
+      "मनुष्य का अगुणित DNA — 4.6 × 10<sup>6</sup> bp"
+     ],
+     "sol": "<p>NCERT 5.1: DNA की लंबाई न्यूक्लियोटाइड्स या क्षार युग्म (bp) की संख्या से बताई जाती है:</p><ul><li>जीवाणुभोजी φ×174 — 5386 न्यूक्लियोटाइड्स;</li><li><b>जीवाणुभोजी लैंब्डा — 48502 क्षार युग्म (bp)</b>;</li><li><i>E. coli</i> — 4.6 × 10<sup>6</sup> bp;</li><li>मनुष्य का अगुणित DNA — 3.3 × 10<sup>9</sup> bp।</li></ul><p>विकल्प 1, 2 तथा 4 में ये मान आपस में बदल दिए गए हैं।</p>",
+     "hint": "φ×174 न्यूक्लियोटाइड्स में गिना जाता है, bp में नहीं।",
+     "trap": "φ×174 एकल रज्जुक है, अतः इसका आकार न्यूक्लियोटाइड्स (5386) में दिया जाता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.1",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-05-ai-5-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In Griffith's experiments with <i>Streptococcus pneumoniae</i>, which of the following, when injected into mice, killed them?",
+     "o": [
+      "Heat-killed S strain alone",
+      "Live R strain alone",
+      "A mixture of heat-killed S strain and live R strain",
+      "A mixture of heat-killed S strain and heat-killed R strain"
+     ],
+     "sol": "<p>NCERT 5.2: S strain bacteria have a mucous (polysaccharide) coat and are virulent; R strain lack it and do not cause pneumonia. Griffith found that live S killed mice; live R and heat-killed S did not. But a <b>mixture of heat-killed S and live R killed the mice</b>, and living S bacteria were recovered from them — the R strain had been <b>transformed</b> by a 'transforming principle' from the dead S strain.</p>",
+     "hint": "Something passed from dead S to live R.",
+     "trap": "Heat-killed S alone is harmless; only live bacteria can multiply and cause disease."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "<i>Streptococcus pneumoniae</i> के साथ ग्रिफिथ के प्रयोगों में निम्नलिखित में से किसे चूहों में अंतःक्षेपित करने पर चूहे मर गए?",
+     "o": [
+      "केवल ताप मृत S प्रभेद",
+      "केवल जीवित R प्रभेद",
+      "ताप मृत S प्रभेद तथा जीवित R प्रभेद का मिश्रण",
+      "ताप मृत S प्रभेद तथा ताप मृत R प्रभेद का मिश्रण"
+     ],
+     "sol": "<p>NCERT 5.2: S प्रभेद के जीवाणु में श्लेष्मा (बहुशर्कराइड) युक्त आवरण होता है और ये उग्र होते हैं; R प्रभेद में यह आवरण नहीं होता और इससे नीमोनिया नहीं होता। ग्रिफिथ ने पाया कि जीवित S से चूहे मरे; जीवित R तथा ताप मृत S से नहीं। परंतु <b>ताप मृत S तथा जीवित R के मिश्रण से चूहे मर गए</b>, और उनसे जीवित S जीवाणु प्राप्त हुए — ताप मृत S प्रभेद के 'रूपांतरित कारक' ने R प्रभेद का <b>रूपांतरण</b> कर दिया था।</p>",
+     "hint": "मृत S से जीवित R में कुछ स्थानांतरित हुआ।",
+     "trap": "केवल ताप मृत S हानिरहित है; केवल जीवित जीवाणु ही गुणन कर रोग उत्पन्न कर सकते हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.2 (Griffith's experiment)",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-05-ai-5-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "During transcription only one strand of a DNA segment is copied into RNA. Which of the following is a reason given in NCERT for not copying both strands?",
+     "o": [
+      "RNA polymerase can bind only to single-stranded DNA",
+      "The two RNA molecules would be complementary and would form double-stranded RNA, which cannot be translated",
+      "Both strands would produce identical RNA molecules, wasting energy",
+      "Uracil cannot pair with adenine on the second strand"
+     ],
+     "sol": "<p>NCERT 5.5 gives two reasons:</p><ol><li>The two strands are complementary, not identical, so they would code for <b>different</b> RNAs and different proteins — one DNA segment coding for two proteins would complicate information transfer.</li><li>The two RNAs, made together, would be <b>complementary to each other and form double-stranded RNA</b>, which would prevent translation into protein.</li></ol><p>Option 3 is wrong because complementary is not identical; in transcription adenine pairs with uracil, so option 4 is wrong too.</p>",
+     "hint": "Complementary RNAs pair up.",
+     "trap": "'Complementary' does not mean 'identical'."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "अनुलेखन के दौरान DNA के एक भाग की केवल एक रज्जुक का RNA में प्रतिलिपीकरण होता है। NCERT के अनुसार दोनों रज्जुकों का प्रतिलिपीकरण न होने का कारण निम्नलिखित में से कौन-सा है?",
+     "o": [
+      "RNA पॉलीमरेज केवल एकल रज्जुक DNA से जुड़ सकता है",
+      "दोनों RNA अणु एक दूसरे के पूरक होंगे तथा द्विरज्जुक RNA बनाएँगे, जिसका प्रोटीन में स्थानांतरण नहीं हो सकता",
+      "दोनों रज्जुक समान RNA अणु बनाएँगी, जिससे ऊर्जा व्यर्थ होगी",
+      "दूसरी रज्जुक पर यूरेसिल एडिनीन के साथ युग्म नहीं बना सकता"
+     ],
+     "sol": "<p>NCERT 5.5 दो कारण बताती है:</p><ol><li>दोनों रज्जुक पूरक हैं, समान नहीं, अतः वे <b>भिन्न</b> अनुक्रमों वाले RNA तथा भिन्न प्रोटीनों का कूटलेखन करेंगी — DNA का एक भाग दो भिन्न प्रोटीनों का कूटलेखन करे तो आनुवंशिक सूचना स्थानांतरण तंत्र में जटिलता उत्पन्न होगी।</li><li>साथ-साथ बने दोनों RNA अणु <b>एक दूसरे के पूरक होकर द्विरज्जुक RNA</b> बनाएँगे, जिससे उसका प्रोटीन में स्थानांतरण नहीं हो पाएगा।</li></ol><p>विकल्प 3 गलत है क्योंकि पूरकता का मतलब समानता नहीं है; अनुलेखन में एडिनीन यूरेसिल के साथ युग्म बनाता है, अतः विकल्प 4 भी गलत है।</p>",
+     "hint": "पूरक RNA आपस में युग्मित हो जाते हैं।",
+     "trap": "'पूरकता' का मतलब 'समानता' नहीं है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.5",
+    "label": "Practice"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-05-ai-5-8-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In eukaryotes, gene expression can be regulated at several levels. Which of the following is <b>not</b> one of the levels listed in NCERT?",
+     "o": [
+      "Transcriptional level (formation of primary transcript)",
+      "Processing level (regulation of splicing)",
+      "Transport of mRNA from the nucleus to the cytoplasm",
+      "Replication level (rate of DNA duplication)"
+     ],
+     "sol": "<p>NCERT 5.8: since gene expression results in a polypeptide, in eukaryotes it can be regulated at (i) the <b>transcriptional</b> level, (ii) the <b>processing</b> level (splicing), (iii) <b>transport of mRNA</b> from nucleus to cytoplasm and (iv) the <b>translational</b> level. DNA replication copies the whole genome and is not a level of regulating a particular gene's expression. (In prokaryotes, control of the rate of transcriptional initiation is the predominant site.)</p>",
+     "hint": "Four levels, all after the gene is read.",
+     "trap": "Replication is not part of gene expression."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "सुकेंद्रकी में जीन अभिव्यक्ति का नियमन कई स्तरों पर हो सकता है। निम्नलिखित में से कौन-सा NCERT में दिए गए स्तरों में <b>नहीं</b> है?",
+     "o": [
+      "अनुलेखन स्तर (प्रारंभिक अनुलेख का निर्माण)",
+      "संसाधन स्तर (संबंधन का नियमन)",
+      "mRNA का केंद्रक से कोशिकाद्रव्य में अभिगमन",
+      "प्रतिकृति स्तर (DNA के द्विगुणन की दर)"
+     ],
+     "sol": "<p>NCERT 5.8: जीन अभिव्यक्ति के परिणामस्वरूप पॉलीपेप्टाइड बनता है, अतः सुकेंद्रकी में इसका नियमन (क) <b>अनुलेखन</b> स्तर, (ख) <b>संसाधन</b> स्तर (संबंधन), (ग) mRNA का केंद्रक से कोशिकाद्रव्य में <b>अभिगमन</b> तथा (घ) <b>स्थानांतरीय</b> स्तर पर हो सकता है। DNA प्रतिकृति पूरे जीनोम की प्रतिलिपि बनाती है और किसी विशेष जीन की अभिव्यक्ति के नियमन का स्तर नहीं है। (असीमकेंद्रकी में अनुलेखन प्रारंभन की दर का नियंत्रण मुख्य स्थल है।)</p>",
+     "hint": "चार स्तर, सभी जीन पढ़े जाने के बाद।",
+     "trap": "प्रतिकृति जीन अभिव्यक्ति का भाग नहीं है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.8"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.8",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio12-05-ai-5-9-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "According to NCERT, one of the greatest impacts of having the human genome sequence is that:",
+     "o": [
+      "researchers can now study all the genes in a genome — for example, all the transcripts in a tissue, organ or tumour — systematically and on a broad scale, instead of one or a few genes at a time",
+      "every human disease can now be cured by replacing the faulty gene",
+      "DNA fingerprinting has become unnecessary",
+      "the number of genes in humans has been found to equal the number of base pairs"
+     ],
+     "sol": "<p>NCERT 5.9.2: the HG sequence enables a radically new approach to biological research. Earlier, researchers studied <b>one or a few genes at a time</b>; with whole-genome sequences and high-throughput technologies they can <b>study all the genes in a genome</b> — e.g. all the transcripts in a particular tissue, organ or tumour, or how tens of thousands of genes and proteins work together in networks. NCERT makes none of the other claims.</p>",
+     "hint": "From one gene at a time to all genes at once.",
+     "trap": "Knowing a sequence is not the same as curing a disease."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "NCERT के अनुसार मानव जीनोम अनुक्रम प्राप्त होने का सबसे महत्त्वपूर्ण प्रभाव यह है कि :",
+     "o": [
+      "शोधकर्त्ता अब एक समय पर एक या कुछ जीन के स्थान पर जीनोम के सभी जीन — उदाहरणार्थ किसी विशेष ऊतक, अंग या अर्बुद के सभी अनुलेख — का व्यापक स्तर पर व्यवस्थित अध्ययन कर सकते हैं",
+      "अब दोषपूर्ण जीन बदलकर मनुष्य के हर रोग का उपचार किया जा सकता है",
+      "DNA अंगुलिछापी अनावश्यक हो गई है",
+      "मनुष्य में जीनों की संख्या क्षार युग्मों की संख्या के बराबर पाई गई है"
+     ],
+     "sol": "<p>NCERT 5.9.2: HG अनुक्रमों से जैविक अनुसंधानों में मूलतः नए आयामों का समावेश हुआ। पहले शोधकर्त्ता <b>एक समय पर एक या कुछ जीन</b> का अध्ययन कर पाते थे; पूर्ण जीनोम अनुक्रमों व नयी तकनीकों से अब <b>जीनोम के सभी जीनों का अध्ययन</b> किया जा सकता है — जैसे विशेष ऊतकों, अंग या अर्बुद में मिलने वाले सभी अनुलेख, या हजारों जीन व प्रोटीन आपस में जुड़कर कैसे कार्य करते हैं। अन्य कोई दावा NCERT में नहीं है।</p>",
+     "hint": "एक-एक जीन से सभी जीनों तक।",
+     "trap": "अनुक्रम जानना रोग का उपचार करने के समान नहीं है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio12-05",
+    "paras": [
+     "5.9.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Based on NCERT §5.9.2",
+    "label": "Practice"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
