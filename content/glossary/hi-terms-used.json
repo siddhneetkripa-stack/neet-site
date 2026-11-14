@@ -1488,7 +1488,12 @@
   {
    "en": "mesoderm",
    "hi": "मध्यजनस्तर",
-   "source": "ncert-hi-text class 12 biology"
+   "source": "ncert-hi-text class 12 biology",
+   "variants": [
+    "मीजोडर्म",
+    "मीसोडर्म",
+    "मध्यत्वचा"
+   ]
   },
   {
    "en": "ectoderm",
@@ -4322,7 +4327,10 @@
   {
    "en": "Platyhelminthes",
    "hi": "प्लेटीहैल्मिंथीज",
-   "source": "bio11-04"
+   "source": "bio11-04",
+   "variants": [
+    "प्लेटीहेल्मिंथीज"
+   ]
   },
   {
    "en": "Aschelminthes",
@@ -7154,6 +7162,52 @@
    "en": "Chordata",
    "hi": "कॉर्डेटा",
    "source": "bio11-01 coverage"
+  },
+  {
+   "en": "cellular level",
+   "hi": "कोशिकीय स्तर",
+   "source": "bio11-04 coverage"
+  },
+  {
+   "en": "tissue level",
+   "hi": "ऊतक स्तर",
+   "source": "bio11-04 coverage"
+  },
+  {
+   "en": "diploblastic",
+   "hi": "द्विकोरिक",
+   "source": "bio11-04 coverage"
+  },
+  {
+   "en": "metamerism",
+   "hi": "विखंडावस्था",
+   "source": "bio11-04 coverage",
+   "check": false,
+   "note": "chemistry metamerism (isomerism) uses मध्यावयवता"
+  },
+  {
+   "en": "chordates",
+   "hi": "रज्जुकी",
+   "source": "bio11-04 coverage",
+   "variants": [
+    "कॉर्डेट",
+    "कॉर्डेटा"
+   ]
+  },
+  {
+   "en": "non-chordates",
+   "hi": "अरज्जुकी",
+   "source": "bio11-04 coverage",
+   "variants": [
+    "नॉन-कॉर्डेट",
+    "नोनकॉर्डेट",
+    "अकॉर्डेट"
+   ]
+  },
+  {
+   "en": "tympanum",
+   "hi": "कर्णपटल",
+   "source": "bio11-04 coverage"
   }
  ],
  "noNcertTerm": [
@@ -8276,6 +8330,16 @@
    "en": "aquaporin",
    "hi_used": "जलवाही चैनल (aquaporin)",
    "note": "not in NCERT Hindi text (bio11-19)"
+  },
+  {
+   "en": "mesoglea",
+   "hi_used": "मीसोग्लिया (mesoglea)",
+   "note": "NCERT Hindi 4.1.3 omits the mesoglea sentence of the English book; bio11-04 coverage"
+  },
+  {
+   "en": "amphibian development (errata)",
+   "hi_used": "अप्रत्यक्ष परिवर्धन",
+   "note": "NCERT Hindi 4.2.11.4 prints \"प्रत्यक्ष अथवा लार्वा के द्वारा\"; English NCERT says indirect. Flagged in the bio11-04 4.2.11.4 coverage question trap"
   }
  ]
 }

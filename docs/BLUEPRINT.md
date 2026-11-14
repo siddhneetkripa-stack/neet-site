@@ -140,7 +140,8 @@ Source of truth for building this site. Every Claude / AI session working on nee
     - bio11-13: 7 questions for 13.1, 13.1.1, 13.1.2, 13.1.4 (2), 13.1.5, 13.4.1 → 0 unasked. Ids `<ch>-ncertex|ai-<para>-qN`.
     - bio11-05: 7 questions for 5.3.1, 5.3.2 (2: palmate vs pinnate; axillary bud test), 5.3.3, 5.5.1, 5.5.1.1, 5.7 → 0 unasked. Glossary variants दलपुंज (corolla), बाह्यदल (sepals) accepted alongside NCERT's कोरोला / बाह्य दल.
     - bio11-01: 5 questions for 1.2.1, 1.2.2, 1.2.5, 1.2.6, 1.2.7 → 0 unasked. NCERT Hindi 1.2.2 calls leopard चीता (cheetah) and lists 'आलू, टमाटर तथा बैंगन; ये दोनों' — kept leopard out of the new questions; proofreader may want an errata note.
-    - Next: the other 62 unasked Biology paragraphs, largest gaps first (bio11-04, bio12-05, bio12-07: 5 each), one commit per chapter.
+    - bio11-04: 5 questions for 4.1.1, 4.1.3, 4.1.5, 4.1.6, 4.2.11.4 → 0 unasked. NCERT Hindi omits the mesoglea sentence (4.1.3) and prints amphibian development as 'प्रत्यक्ष अथवा लार्वा के द्वारा' (English: indirect) — both noted in noNcertTerm; the Amphibia question carries a trap note.
+    - Next: the other 57 unasked Biology paragraphs, largest gaps first (bio12-05, bio12-07: 5 each), one commit per chapter.
     - Note: on this branch no page renders Biology banks yet (the PYQ page reads content/pyq/; design/final-b-c has the new page). Wiring the bank to the page is front-end work for whoever merges the design.
   - Biology solutions + draft Hindi now cover every Biology bank (Class 11, Class 12, bio*-old-*); check_hindi 0 errors / 0 warnings. Next: a Hindi proofreader pass (all status "draft"), then owner review and merge of claude/bio-trends-solutions. Note for the proofreader: old-chapter Hindi (अंतःप्रजनन, जीवद्रव्यक, जैव प्रबलीकरण…) could not be matched to an NCERT Hindi book here; check against the old-edition Hindi books if they are added to neet-sources.
 
