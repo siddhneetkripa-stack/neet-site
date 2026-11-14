@@ -2882,6 +2882,228 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q154."
    }
+  },
+  {
+   "id": "bio11-08-ncertex-8-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following statements is <b>not</b> correct?",
+     "o": [
+      "Robert Brown discovered the cell",
+      "Schleiden and Schwann together formulated the cell theory",
+      "Virchow explained that new cells are formed from pre-existing cells",
+      "A unicellular organism carries out all its life activities within a single cell"
+     ],
+     "sol": "<p>NCERT 8.1: Antonie von Leeuwenhoek first saw and described a live cell; <b>Robert Brown later discovered the nucleus</b>, not the cell. So statement 1 is wrong. Statements 2 and 3 are correct (NCERT 8.2), and statement 4 is correct: unicellular organisms are capable of independent existence and of all essential functions of life, which is why the cell is the fundamental structural and functional unit of life.</p>",
+     "hint": "Who saw the first live cell, and what did Brown find?"
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "निम्नलिखित में से कौन-सा कथन सही <b>नहीं</b> है?",
+     "o": [
+      "कोशिका की खोज राबर्ट ब्राउन ने की थी",
+      "श्लाइडेन व श्वान ने मिलकर कोशिका सिद्धांत प्रतिपादित किया",
+      "वर्चोव ने बताया कि नई कोशिकाएं पूर्वस्थित कोशिकाओं से बनती हैं",
+      "एककोशिकीय जीव अपने जीवन के सभी कार्य एक ही कोशिका के भीतर करता है"
+     ],
+     "sol": "<p>NCERT 8.1: एंटोनी वैन ल्युवेनहाक ने पहली बार जीवित कोशिका को देखा व इसका वर्णन किया; <b>राबर्ट ब्राउन ने बाद में केंद्रक की खोज की</b>, कोशिका की नहीं। इसलिए कथन 1 गलत है। कथन 2 और 3 सही हैं (NCERT 8.2), और कथन 4 भी सही है: एककोशिकीय जीव स्वतंत्र अस्तित्व यापन व जीवन के सभी आवश्यक कार्य करने में सक्षम होते हैं, इसीलिए कोशिका जीवन की मूलभूत संरचनात्मक व क्रियात्मक इकाई है।</p>",
+     "hint": "पहली जीवित कोशिका किसने देखी, और ब्राउन ने क्या खोजा?"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.1"
+    ]
+   },
+   "source": {
+    "kind": "NCERT Exercise",
+    "paper": "NCERT Exercise 8.1, reworded"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-08-ai-8-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which of the following correctly matches a cell with its size, as given in NCERT?",
+     "o": [
+      "Mycoplasma (smallest cell) — about 0.3 µm long",
+      "Bacteria — about 30 to 50 µm",
+      "Human red blood cell — about 70 µm in diameter",
+      "Largest isolated single cell — a human nerve cell"
+     ],
+     "sol": "<p>NCERT 8.3: cells differ greatly in size and shape. <b>Mycoplasmas</b>, the smallest cells, are about <b>0.3 µm</b> long; bacteria are 3 to 5 µm; a human red blood cell is about 7.0 µm across; the largest isolated single cell is the egg of an ostrich. Nerve cells are among the <i>longest</i> cells, not the largest isolated cell.</p><p class='errata'>NCERT English (2026-27 reprint, p. 88) prints the Mycoplasma length as “0.3 mm”; it should be 0.3 µm (the Hindi edition prints 0.3 µm, and Mycoplasma is smaller than bacteria at 3–5 µm).</p>",
+     "hint": "Mycoplasma is smaller than a bacterium.",
+     "trap": "The English book's '0.3 mm' is a misprint for 0.3 µm."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "NCERT के अनुसार, निम्नलिखित में से किस कोशिका का माप सही मिलाया गया है?",
+     "o": [
+      "माइकोप्लाज्मा (सबसे छोटी कोशिका) — लगभग 0.3 µm लंबी",
+      "जीवाणु — लगभग 30 से 50 µm",
+      "मनुष्य की लाल रक्त कोशिका — व्यास लगभग 70 µm",
+      "पृथक की गई सबसे बड़ी कोशिका — मनुष्य की तंत्रिका कोशिका"
+     ],
+     "sol": "<p>NCERT 8.3: कोशिकाएं माप व आकार में काफी भिन्न होती हैं। सबसे छोटी कोशिका <b>माइकोप्लाज्मा</b> लगभग <b>0.3 µm</b> लंबी होती है; जीवाणु 3 से 5 µm के; मनुष्य की लाल रक्त कोशिका का व्यास लगभग 7.0 µm; पृथक की गई सबसे बड़ी कोशिका शुतरमुर्ग का अंडा है। तंत्रिका कोशिकाएं सबसे <i>लंबी</i> कोशिकाओं में हैं, सबसे बड़ी पृथक कोशिका नहीं।</p><p class='errata'>NCERT अंग्रेज़ी (2026-27 पुनर्मुद्रण, पृ. 88) में माइकोप्लाज्मा की लंबाई “0.3 mm” छपी है; यह 0.3 µm होनी चाहिए (हिंदी संस्करण में 0.3 µm छपा है, और माइकोप्लाज्मा 3–5 µm के जीवाणु से छोटा है)।</p>",
+     "hint": "माइकोप्लाज्मा जीवाणु से छोटा है।",
+     "trap": "अंग्रेज़ी पुस्तक का '0.3 mm' मुद्रण त्रुटि है; सही 0.3 µm है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.3"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-08-ai-8-5-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which layer glues neighbouring plant cells together, and what is it mainly made of?",
+     "o": [
+      "Primary wall — cellulose",
+      "Middle lamella — calcium pectate",
+      "Secondary wall — hemicellulose",
+      "Plasma membrane — phospholipids"
+     ],
+     "sol": "<p>NCERT 8.5.2: the <b>middle lamella</b> is a layer mainly of <b>calcium pectate</b> that holds (glues) neighbouring cells together. The primary wall of a young cell can grow; the secondary wall forms later on the inner (membrane) side. Cell wall and middle lamella may be crossed by plasmodesmata, which connect the cytoplasm of neighbouring cells.</p>",
+     "hint": "Calcium salt of pectin."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "पड़ोसी पादप कोशिकाओं को आपस में कौन-सी परत चिपकाए रखती है, और वह मुख्यतः किसकी बनी होती है?",
+     "o": [
+      "प्राथमिक भित्ति — सेलुलोज",
+      "मध्यपटलिका — कैल्सियम पेक्टेट",
+      "द्वितीय भित्ति — हेमीसेलुलोज",
+      "जीवद्रव्यझिल्ली — फास्फोलिपिड"
+     ],
+     "sol": "<p>NCERT 8.5.2: <b>मध्यपटलिका</b> मुख्यतः <b>कैल्सियम पेक्टेट</b> की बनी परत है, जो आस-पास की कोशिकाओं को आपस में चिपकाए रखती है। नव कोशिका की प्राथमिक भित्ति में वृद्धि की क्षमता होती है; द्वितीय भित्ति बाद में भीतर (झिल्ली) की ओर बनती है। कोशिका भित्ति एवं मध्यपटलिका में जीवद्रव्य तंतु (प्लाज्मोडैस्मेटा) होते हैं, जो पड़ोसी कोशिकाओं के कोशिका द्रव्य को जोड़ते हैं।</p>",
+     "hint": "पेक्टिन का कैल्सियम लवण।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.5.2"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-08-ai-8-5-11-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Microbodies are best described as:",
+     "o": [
+      "Non-membrane bound particles that make proteins, found only in prokaryotes",
+      "Minute membrane-bound vesicles containing various enzymes, present in both plant and animal cells",
+      "Double-membrane organelles with their own DNA, found only in plant cells",
+      "Infoldings of the plasma membrane found in bacteria"
+     ],
+     "sol": "<p>NCERT 8.5.11: <b>microbodies</b> are many minute <b>membrane-bound vesicles</b> that contain various enzymes and are found in <b>both plant and animal cells</b>. Option 1 describes ribosomes (which are in all cells, not only prokaryotes), option 3 describes plastids, and option 4 describes mesosomes.</p>",
+     "hint": "Small enzyme sacs in both kingdoms."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "सूक्ष्मकाय (माइक्रोबॉडी) का सबसे सही वर्णन है:",
+     "o": [
+      "झिल्ली रहित कण जो प्रोटीन बनाते हैं, केवल प्रोकैरियोटिक कोशिकाओं में",
+      "विभिन्न एंजाइम युक्त झिल्ली आवरित सूक्ष्म थैलियाँ, जो पादप व जंतु दोनों कोशिकाओं में होती हैं",
+      "अपने DNA वाले दोहरी झिल्ली युक्त अंगक, केवल पादप कोशिकाओं में",
+      "जीवाणुओं में पाए जाने वाले जीवद्रव्यझिल्ली के अंतर्वलन"
+     ],
+     "sol": "<p>NCERT 8.5.11: <b>सूक्ष्मकाय</b> बहुत सारी <b>झिल्ली आवरित सूक्ष्म थैलियाँ</b> हैं, जिनमें विभिन्न प्रकार के एंजाइम होते हैं, और ये <b>पौधों व जंतु दोनों कोशिकाओं</b> में पाई जाती हैं। विकल्प 1 राइबोसोम का वर्णन है (जो सभी कोशिकाओं में होते हैं, केवल प्रोकैरियोटिक में नहीं), विकल्प 3 लवक का, और विकल्प 4 मीसोसोम का।</p>",
+     "hint": "दोनों जगत में छोटी एंजाइम थैलियाँ।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-08",
+    "paras": [
+     "8.5.11"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 8.5.11"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
