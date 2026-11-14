@@ -3574,6 +3574,336 @@
     "keySource": "eSaral full-paper copy with answers (neet-sources/jee-main/2024/2024-06-01-shift-1-maths.pdf, chemistry part)",
     "note": "Reworded from the original paper to remove an ambiguity: the coupling partner (phenol) is stated and the answer 19.8 g is asked as an integer."
    }
+  },
+  {
+   "id": "chem12-09-ai-9-1-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "In aliphatic amines the nitrogen atom is:",
+     "o": [
+      "sp<sup>2</sup> hybridised, and the molecule is planar",
+      "sp<sup>3</sup> hybridised with one lone pair, giving a pyramidal shape with C–N–C angle about 108° in trimethylamine",
+      "sp hybridised, and the molecule is linear",
+      "sp<sup>3</sup> hybridised with no lone pair, giving a tetrahedral shape with 109.5° angles"
+     ],
+     "sol": "<p>NCERT 9.1: nitrogen in amines is trivalent and carries an unshared pair of electrons. Its orbitals are sp<sup>3</sup> hybridised; three hybrid orbitals overlap with H or C orbitals and the fourth holds the lone pair, so the geometry is pyramidal. Lone pair–bond pair repulsion makes the angle less than 109.5°: in trimethylamine the C–N–C angle is 108°. (In aryl amines the lone pair is partly delocalised into the ring.)</p>",
+     "hint": "Like ammonia."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "ऐलिफैटिक ऐमीनों में नाइट्रोजन परमाणु:",
+     "o": [
+      "sp<sup>2</sup> संकरित होता है, और अणु समतलीय होता है",
+      "एक एकाकी इलेक्ट्रॉन युगल के साथ sp<sup>3</sup> संकरित होता है, जिससे पिरैमिडी आकृति बनती है; ट्राइमेथिलऐमीन में C–N–C कोण लगभग 108° होता है",
+      "sp संकरित होता है, और अणु रैखिक होता है",
+      "बिना एकाकी युगल के sp<sup>3</sup> संकरित होता है, जिससे 109.5° कोणों वाली चतुष्फलकीय आकृति बनती है"
+     ],
+     "sol": "<p>NCERT 9.1: ऐमीनों में नाइट्रोजन त्रिसंयोजी होता है और उस पर एक असहभाजित इलेक्ट्रॉन युगल होता है। इसके कक्षक sp<sup>3</sup> संकरित होते हैं; तीन संकर कक्षक H या C के कक्षकों से अतिव्यापन करते हैं और चौथे में एकाकी युगल रहता है, इसलिए ज्यामिति पिरैमिडी होती है। एकाकी युगल–आबंध युगल प्रतिकर्षण के कारण कोण 109.5° से कम होता है: ट्राइमेथिलऐमीन में C–N–C कोण 108° है। (ऐरिल ऐमीनों में एकाकी युगल कुछ सीमा तक वलय में विस्थानीकृत रहता है।)</p>",
+     "hint": "अमोनिया की तरह।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.1"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.1"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-09-ai-9-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "(CH<sub>3</sub>)<sub>2</sub>NH is classified as a:",
+     "o": [
+      "primary (1°) amine",
+      "tertiary (3°) amine",
+      "secondary (2°) amine",
+      "quaternary ammonium salt"
+     ],
+     "sol": "<p>NCERT 9.2: amines are classified by the number of hydrogen atoms of ammonia replaced by alkyl or aryl groups: one replaced → primary (RNH<sub>2</sub>), two → secondary (R<sub>2</sub>NH), three → tertiary (R<sub>3</sub>N). In (CH<sub>3</sub>)<sub>2</sub>NH two H atoms are replaced by methyl groups, so it is a secondary amine (N-methylmethanamine). Amines are simple when all groups are the same and mixed when they differ.</p>",
+     "hint": "Count the groups on nitrogen, not on carbon."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "(CH<sub>3</sub>)<sub>2</sub>NH किस वर्ग में आती है?",
+     "o": [
+      "प्राथमिक (1°) ऐमीन",
+      "तृतीयक (3°) ऐमीन",
+      "द्वितीयक (2°) ऐमीन",
+      "चतुष्क अमोनियम लवण"
+     ],
+     "sol": "<p>NCERT 9.2: अमोनिया के कितने हाइड्रोजन परमाणु ऐल्किल या ऐरिल समूहों द्वारा प्रतिस्थापित हुए हैं, इसके आधार पर ऐमीनों का वर्गीकरण होता है: एक प्रतिस्थापित → प्राथमिक (RNH<sub>2</sub>), दो → द्वितीयक (R<sub>2</sub>NH), तीन → तृतीयक (R<sub>3</sub>N)। (CH<sub>3</sub>)<sub>2</sub>NH में दो H परमाणु मेथिल समूहों से प्रतिस्थापित हैं, अतः यह द्वितीयक ऐमीन (N-मेथिलमेथेनेमीन) है। सभी समूह समान हों तो ऐमीन सरल और भिन्न हों तो मिश्रित कहलाती है।</p>",
+     "hint": "कार्बन पर नहीं, नाइट्रोजन पर समूह गिनिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.2"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-09-ai-9-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The IUPAC name of CH<sub>3</sub>NHCH<sub>2</sub>CH<sub>3</sub> is:",
+     "o": [
+      "N-ethylmethanamine",
+      "methylethylamine",
+      "propan-1-amine",
+      "N-methylethanamine"
+     ],
+     "sol": "<p>NCERT 9.3: in the IUPAC system amines are named as alkanamines, replacing the final \"e\" of the alkane by \"amine\". For secondary and tertiary amines the longest alkyl chain is chosen as the parent, and the other groups are written as N-substituents. Here the longest chain is ethyl, so the parent is ethanamine and the methyl on nitrogen is N-methyl: N-methylethanamine. \"Methylethylamine\" is the common name.</p>",
+     "hint": "Longest chain gives the parent amine."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "CH<sub>3</sub>NHCH<sub>2</sub>CH<sub>3</sub> का IUPAC नाम है:",
+     "o": [
+      "N-एथिलमेथेनेमीन",
+      "मेथिलएथिलऐमीन",
+      "प्रोपेन-1-ऐमीन",
+      "N-मेथिलएथेनेमीन"
+     ],
+     "sol": "<p>NCERT 9.3: IUPAC पद्धति में ऐमीनों का नाम ऐल्केनेमीन के रूप में रखा जाता है, ऐल्केन के अंतिम \"e\" को \"amine\" से बदलकर। द्वितीयक तथा तृतीयक ऐमीनों में सबसे लंबी ऐल्किल श्रृंखला को जनक चुना जाता है और अन्य समूहों को N-प्रतिस्थापी के रूप में लिखा जाता है। यहाँ सबसे लंबी श्रृंखला एथिल है, अतः जनक एथेनेमीन है और नाइट्रोजन पर मेथिल N-मेथिल है: N-मेथिलएथेनेमीन। \"मेथिलएथिलऐमीन\" सामान्य नाम है।</p>",
+     "hint": "सबसे लंबी श्रृंखला जनक ऐमीन देती है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 3
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.3"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-09-ai-9-5-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "The boiling points of isomeric amines follow the order:",
+     "o": [
+      "primary > secondary > tertiary",
+      "tertiary > secondary > primary",
+      "secondary > primary > tertiary",
+      "all three are equal"
+     ],
+     "sol": "<p>NCERT 9.5: primary and secondary amines form intermolecular hydrogen bonds; primary amines have two H atoms on N and so associate more than secondary ones. Tertiary amines have no H on nitrogen and cannot associate through hydrogen bonds. So for isomeric amines: primary > secondary > tertiary (e.g. n-C<sub>4</sub>H<sub>9</sub>NH<sub>2</sub> 350.8 K > (C<sub>2</sub>H<sub>5</sub>)<sub>2</sub>NH > C<sub>2</sub>H<sub>5</sub>N(CH<sub>3</sub>)<sub>2</sub>). Amines boil lower than alcohols of similar mass because N is less electronegative than O, making N–H···N bonds weaker.</p>",
+     "hint": "Count N–H bonds."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "समावयवी ऐमीनों के क्वथनांकों का क्रम है:",
+     "o": [
+      "प्राथमिक > द्वितीयक > तृतीयक",
+      "तृतीयक > द्वितीयक > प्राथमिक",
+      "द्वितीयक > प्राथमिक > तृतीयक",
+      "तीनों समान"
+     ],
+     "sol": "<p>NCERT 9.5: प्राथमिक तथा द्वितीयक ऐमीन अंतराआण्विक हाइड्रोजन आबंध बनाती हैं; प्राथमिक ऐमीनों में N पर दो H परमाणु होते हैं, इसलिए उनका संगुणन द्वितीयक से अधिक होता है। तृतीयक ऐमीनों में नाइट्रोजन पर H नहीं होता, अतः हाइड्रोजन आबंध से संगुणन नहीं होता। इसलिए समावयवी ऐमीनों के लिए: प्राथमिक > द्वितीयक > तृतीयक (जैसे n-C<sub>4</sub>H<sub>9</sub>NH<sub>2</sub> 350.8 K > (C<sub>2</sub>H<sub>5</sub>)<sub>2</sub>NH > C<sub>2</sub>H<sub>5</sub>N(CH<sub>3</sub>)<sub>2</sub>)। समान द्रव्यमान वाले ऐल्कोहॉलों से ऐमीनों के क्वथनांक कम होते हैं क्योंकि N, O से कम विद्युत्-ऋणात्मक है, जिससे N–H···N आबंध दुर्बल होते हैं।</p>",
+     "hint": "N–H आबंध गिनिए।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.5"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.5"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-09-ai-9-8-q1",
+   "type": "statement",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about benzenediazonium chloride is <b>incorrect</b>?",
+     "o": [
+      "It is a colourless crystalline solid.",
+      "It is readily soluble in water and stable in cold, but reacts with water when warmed.",
+      "It is stable in the dry state and is normally stored for long periods before use.",
+      "Benzenediazonium fluoroborate is water insoluble and stable at room temperature."
+     ],
+     "sol": "<p>NCERT 9.8: benzenediazonium chloride is a colourless crystalline solid, readily soluble in water, stable in cold but reacting with water when warmed. It decomposes easily in the dry state, so it is not stored; it is prepared in solution at 273–278 K and used immediately. Benzenediazonium fluoroborate is water insoluble and stable at room temperature.</p>",
+     "hint": "Diazonium salts are made and used at once, in ice-cold solution."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "बेन्जीनडाइऐज़ोनियम क्लोराइड के बारे में कौन-सा कथन <b>गलत</b> है?",
+     "o": [
+      "यह रंगहीन क्रिस्टलीय ठोस है।",
+      "यह जल में आसानी से विलेय है और ठंड में स्थायी है, पर गर्म करने पर जल से अभिक्रिया करता है।",
+      "यह शुष्क अवस्था में स्थायी है और उपयोग से पहले प्रायः लंबे समय तक संग्रहित किया जाता है।",
+      "बेन्जीनडाइऐज़ोनियम फलुओरोबोरेट जल में अविलेय है और कक्ष ताप पर स्थायी है।"
+     ],
+     "sol": "<p>NCERT 9.8: बेन्जीनडाइऐज़ोनियम क्लोराइड रंगहीन क्रिस्टलीय ठोस है, जल में आसानी से विलेय है, ठंड में स्थायी है पर गर्म करने पर जल से अभिक्रिया करता है। यह शुष्क अवस्था में आसानी से विघटित हो जाता है, इसलिए इसे संग्रहित नहीं किया जाता; इसे 273–278 K पर विलयन में बनाकर तुरंत उपयोग में लाया जाता है। बेन्जीनडाइऐज़ोनियम फलुओरोबोरेट जल में अविलेय है और कक्ष ताप पर स्थायी है।</p>",
+     "hint": "डाइऐज़ोनियम लवण बर्फ़ीले ठंडे विलयन में बनाकर तुरंत प्रयुक्त होते हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 2
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.8"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.8"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "chem12-09-ai-9-10-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Fluorobenzene and iodobenzene are best prepared from aniline through a diazonium salt, rather than by direct halogenation of benzene, because:",
+     "o": [
+      "benzene does not react with any halogen",
+      "direct fluorination and iodination of benzene are not practical, but the diazonium group is easily replaced by F (via the fluoroborate) or I (with KI)",
+      "diazonium salts are more stable than benzene",
+      "aniline is cheaper than benzene"
+     ],
+     "sol": "<p>NCERT 9.10: replacement of the diazo group by other groups is useful for making substituted aromatic compounds that cannot be made directly from benzene or substituted benzene. Direct iodination of benzene is reversible and direct fluorination is too violent, but ArN<sub>2</sub><sup>+</sup>Cl<sup>−</sup> + KI → ArI and ArN<sub>2</sub><sup>+</sup>BF<sub>4</sub><sup>−</sup> on heating → ArF work well. Other examples: aryl cyanides (Sandmeyer), phenols, and 1,3,5-tribromobenzene.</p>",
+     "hint": "Some substituents cannot be put on benzene directly."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "फलुओरोबेन्जीन तथा आयडोबेन्जीन को बेन्जीन के सीधे हैलोजनन के स्थान पर ऐनिलीन से डाइऐज़ोनियम लवण द्वारा बनाना अच्छा है, क्योंकि:",
+     "o": [
+      "बेन्जीन किसी भी हैलोजन से अभिक्रिया नहीं करती",
+      "बेन्जीन का सीधा फलुओरीनन तथा आयोडीनन व्यावहारिक नहीं है, पर डाइऐज़ोनियम समूह आसानी से F (फलुओरोबोरेट द्वारा) या I (KI से) द्वारा प्रतिस्थापित हो जाता है",
+      "डाइऐज़ोनियम लवण बेन्जीन से अधिक स्थायी होते हैं",
+      "ऐनिलीन बेन्जीन से सस्ती है"
+     ],
+     "sol": "<p>NCERT 9.10: डाइऐज़ो समूह का अन्य समूहों द्वारा प्रतिस्थापन ऐसे ऐरोमैटिक प्रतिस्थापित यौगिकों को बनाने में सहायक है, जो सीधे बेन्जीन अथवा प्रतिस्थापित बेन्जीन से नहीं बनते। बेन्जीन का सीधा आयोडीनन उत्क्रमणीय है और सीधा फलुओरीनन बहुत तीव्र है, पर ArN<sub>2</sub><sup>+</sup>Cl<sup>−</sup> + KI → ArI तथा ArN<sub>2</sub><sup>+</sup>BF<sub>4</sub><sup>−</sup> गर्म करने पर → ArF अच्छी तरह होते हैं। अन्य उदाहरण: ऐरिल सायनाइड (सैन्डमायर), फ़ीनॉल, तथा 1,3,5-ट्राइब्रोमोबेन्जीन।</p>",
+     "hint": "कुछ प्रतिस्थापी बेन्जीन पर सीधे नहीं लगाए जा सकते।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "chem12-09",
+    "paras": [
+     "9.10"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 9.10"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "author",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ]
 }
