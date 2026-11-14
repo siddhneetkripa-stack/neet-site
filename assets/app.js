@@ -53,7 +53,8 @@
     const h = location.hash.replace(/^#\/?/, '');
     const parts = h.split('/').filter(Boolean);
     window.scrollTo(0, 0);
-    if (parts[0] === 'pyq' && parts[1]) return renderPYQ(parts[1]);
+    // #/pyq/<chapter>/s/<paragraph>: open the chapter page at that paragraph (links from the test result page)
+    if (parts[0] === 'pyq' && parts[1]) return renderPYQ(parts[1], false, parts[2] === 's' ? decodeURIComponent(parts[3] || '') : '');
     if (parts[0] === 'c' && parts[1]) {
       const chId = parts[1];
       if (parts[2] === 'read') return renderRead(chId);
@@ -370,7 +371,7 @@
   // Data: data/pyq/<chapter>.json (built from content/pyq by tools/build.py): `sections` in NCERT order,
   // the last one may be "multi" (questions that need 2+ paragraphs). Questions are MCQ (o, a) or
   // numerical (type "num", ans, tol). Content strings are our own trusted HTML, so they are inserted as HTML.
-  function renderPYQ(chId, retryOnly) {
+  function renderPYQ(chId, retryOnly, jumpTo) {
     document.body.dataset.subject = subjectOf(chId);
     const load = catalog ? Promise.resolve(catalog) : getJSON('data/catalog.json').then(c => (catalog = c));
     load.then(() => getJSON(`data/pyq/${chId}.json`)).then(P => {
@@ -544,6 +545,12 @@
         app.querySelectorAll('.pyq-sec[id]').forEach(sec => io.observe(sec));
       }
       if (retryOnly) window.scrollTo(0, 0);
+      if (jumpTo) {   // the paragraph's own section, else its parent section (4.9.1 -> 4.9 -> 4), else "Not asked yet"
+        let id = jumpTo, el = null;
+        while (id && !(el = document.getElementById('s-' + id))) id = id.includes('.') ? id.replace(/\.[^.]*$/, '') : '';
+        el = el || app.querySelector('.empty-paras');
+        if (el) setTimeout(() => el.scrollIntoView({ block: 'start' }), 0);
+      }
     }).catch(err);
   }
 

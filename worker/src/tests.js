@@ -119,7 +119,8 @@ export async function saveItems(env, attempt, items) {
 export function isRight(answer, ans) {
   if (ans === null || ans === undefined || ans === "") return null;
   if (answer.kind === "numeric") { const v = parseFloat(ans); return !isNaN(v) && Math.abs(v - answer.value) <= (answer.tol || 0) + 1e-9; }
-  return Number(ans) === answer.index;
+  const a = Number(ans);
+  return a === answer.index || (Array.isArray(answer.alsoAccepted) && answer.alsoAccepted.includes(a)); // official key accepts more than one
 }
 
 export async function scoreAttempt(env, attempt, t, markSubmitted = true) {

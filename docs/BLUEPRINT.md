@@ -36,7 +36,7 @@ Site (static, GitHub Pages):
 - Mock safety (tools/build.py `build_test`): a test with a `dropped_2024` question fails the build; `old_ncert_only` questions (still in the NEET syllabus, e.g. p-Block) need `"allowOldNcert": true` in the test file.
 - Checked with headless Chrome: all 98 pages, Hindi and English, 390 px and 1280 px: no console errors, no sideways scrolling.
 
-CBT server (`worker/`, Cloudflare Worker + D1, Google sign-in): 27 physical-chemistry chapter tests whose keys live in neet-sources `cbt/tests/`. Tested locally only. Deploying needs the owner's Cloudflare account, a D1 database, a Google Client ID and two GitHub secrets (`worker/README.md`).
+CBT server (`worker/`, Cloudflare Worker + D1, Google sign-in), branch `claude/cbt-from-bank` (neet-site + neet-sources, 14 Nov 2026, not merged): **106 tests, 4,265 questions** in neet-sources `cbt/tests/`, built by `tools/make_cbt.py` from `content/cbt-plans/` (physics.json 13 NEET PYQ tests; chemistry.json 61 = 27 physical + 14 organic/inorganic chapter tests from chemistry-bank + 20 NEET PYQ chapter tests; mock.json 5 full NEET mocks, 180 Q / 180 min, by NEET weightage; biology.json 27 tests from `claude/bio-cbt-labels`, so merge both branches together). New tests: `tools/plan_cbt.py`. All 605 Physics PYQs labelled (type, difficulty easy/medium/hard = 2/3/4); all 605 Chemistry NEET PYQs labelled for difficulty. Exam, list and result pages Hindi-first in B + C; result shows chapter-wise marks and weak NCERT paragraphs linking to the chapter pages. Tested locally only. Deploying needs the owner's Cloudflare account, D1, API token, Google Client ID and two GitHub secrets: `docs/deploy-checklist.md`.
 
 neet-sources: NCERT (English, Hindi Kruti Dev and Unicode text), NEET papers 2013–2026, JEE Main 2020–2026 (incl. the VKC NTA chemistry extracts), glossary, pyq-tools (incl. JEE batch scripts), CBT test files.
 
@@ -46,7 +46,7 @@ neet-sources: NCERT (English, Hindi Kruti Dev and Unicode text), NEET papers 201
 3. **Redrawn figures** for the 222 diagram questions, then move checked PYQs from `draft` to `checked`.
 4. **JEE Main Chemistry**: tag 2020–2023, then solutions + Hindi for all JEE PYQs.
 5. **NCERT coverage questions**: Biology done; Physics and Chemistry not started.
-6. **CBT**: deploy (owner's accounts), Hindi-first styling of result/list pages, organic and inorganic chapter tests, then Physics/Biology tests and full mocks.
+6. **CBT**: deploy (owner's accounts, `docs/deploy-checklist.md`); merge `claude/bio-cbt-labels` with `claude/cbt-from-bank` (mocks are already planned with its Biology labels); Chemistry NEET PYQs labelled too (14 Nov); more hard Physics questions for later mocks.
 7. **Open checks needing the printed booklets / official keys**: NEET 2022–2024 official keys; 2025 Code 45 Biology Q121, Q162, Chemistry Q69; 2016 P2 Physics Q4/Q15/Q17/Q19; 2016 P1 Physics Q22; 2022 Biology Q144/Q155; 2024 Biology Q131; 2020 F3 Biology Q174.
 8. Later phases (section 11): Practice Zone, analysis, parent report, partner portal, counselling, SEO pages; brand name, domain and prices are still the owner's decisions.
 

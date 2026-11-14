@@ -222,3 +222,97 @@ summary { cursor: pointer; color: var(--sec); font-weight: 600; }
 .test-list li.locked a { opacity: .72; }
 .test-list i.free { color: #0B4F57; font-style: normal; font-weight: 600; }
 .test-list i.lock { color: #9a6200; font-style: normal; }
+
+/* ===================================================================
+   Final design layer (B + C, Nov 2026): Mukta, teal + saffron, Hindi first.
+   Plain pages (test list, instructions, resume, result) use the site's look; the exam screen keeps the NTA
+   layout and the NTA palette colours, with the site's teal for the header strip and section tabs.
+   =================================================================== */
+:root {
+  --brand: #0B4F57; --brand-soft: #DDF0F1; --saffron: #F59E0B; --saffron-soft: #FFF4DB; --saffron-ink: #7A4A00;
+  --paper: #F4F7F7; --line2: #DCE6E7; --good: #0E8A4F; --bad: #B91C1C;
+  --head: #0B4F57; --sec: #0E6B75;
+  --hi: "Mukta", "Noto Sans Devanagari", "Mangal", sans-serif;
+  --sans: "Mukta", "Noto Sans Devanagari", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+body { font-family: var(--sans); background: var(--paper); }
+.cbt-page { font-size: 17px; }
+.cbt-page h1, .cbt-page h2, .cbt-page h3 { font-weight: 800; letter-spacing: -.2px; color: #12262A; }
+.cbt-page .kicker { color: var(--saffron-ink); }
+.cbt-page a { color: var(--brand); }
+.lead { color: #3F5558; max-width: 46em; }
+
+/* site bar */
+.cbt-bar { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; padding: 10px 22px; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line2); position: sticky; top: 0; z-index: 20; }
+.cbt-bar .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 1.15rem; white-space: nowrap; }
+.cbt-bar .brand .word { color: #12262A; }
+.cbt-bar .brand .word span { color: var(--saffron); margin: 0 1px; }
+.cbt-bar .brand .mark { width: 28px; height: 28px; border-radius: 9px; background: var(--brand); display: inline-flex; align-items: center; justify-content: center; }
+.cbt-bar .brand .mark i { width: 10px; height: 10px; border-radius: 3px; background: var(--saffron); display: block; }
+.cbt-bar nav { display: flex; gap: 16px; }
+.cbt-bar nav a { color: #12262A; text-decoration: none; font-weight: 500; }
+.cbt-bar nav a:hover { color: var(--brand); }
+.cbt-bar .grow { flex: 1; }
+.cbt-bar .lang { display: inline-flex; background: #EEF4F4; border-radius: 10px; padding: 3px; }
+.cbt-bar .lang button { border: 0; background: transparent; color: #12262A; border-radius: 8px; padding: 4px 12px; font-size: .9rem; }
+.cbt-bar .lang button.on { background: var(--brand); color: #fff; font-weight: 600; }
+@media (max-width: 520px) { .cbt-bar { gap: 10px; padding: 8px 12px; } .cbt-bar nav { gap: 10px; } }
+
+/* test list */
+.grp-h { margin: 30px 0 6px; font-size: 1.35rem; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; border-bottom: 3px solid var(--brand-soft); padding-bottom: 4px; }
+.grp-h small { font-size: .9rem; font-weight: 500; color: var(--muted); }
+.grp-h.subj-physics { border-color: #E8E7FB; } .grp-h.subj-biology { border-color: #E3F3E8; }
+.chap-tests { margin: 6px 0 14px; }
+.chap-h { margin: 16px 0 2px; font-size: 1.08rem; color: var(--brand); }
+.chap-h small { color: var(--muted); font-weight: 400; margin-left: 6px; font-size: .85rem; }
+.chap-links { margin: 0 0 8px; font-size: .92rem; display: flex; gap: 14px; flex-wrap: wrap; }
+.test-list { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); margin: 6px 0; }
+.test-list a { border-radius: 14px; border-color: var(--line2); padding: 12px 16px; }
+.test-list a:hover { border-color: var(--brand); box-shadow: 0 6px 18px rgba(11,79,87,.10); }
+.test-list b { font-size: 1.05rem; }
+.test-list small { color: var(--muted); font-size: .85rem; }
+.test-list .chips i { font-style: normal; font-weight: 600; font-size: .85rem; padding: 1px 10px; border-radius: 99px; background: #EEF4F4; color: #3F5558; }
+.test-list .chips i.free { background: var(--brand-soft); color: var(--brand); }
+.test-list .chips i.lock { background: var(--saffron-soft); color: var(--saffron-ink); }
+.test-list .chips i.done { background: #E3F3E8; color: var(--good); }
+.test-list.mocks a { background: linear-gradient(135deg, #fff, #F2FAFA); border-color: #B9DADD; }
+.signin-box { border-radius: 14px; border-color: #CFE3E3; background: #fff; }
+
+/* instructions / resume */
+.instr-head { border-bottom-color: var(--brand); }
+.facts div, .instr-list, .agree { border-radius: 12px; }
+.agree { background: var(--saffron-soft); border-color: #F3D38A; }
+.btn-go { background: var(--brand); border-radius: 12px; padding: 11px 24px; }
+.btn-go:hover:not(:disabled) { background: #08424A; }
+.btn-plain { border-radius: 12px; border-color: #C3D3D5; color: var(--brand); }
+
+/* result */
+.score-row .score { background: var(--brand); border-color: var(--brand); border-radius: 16px; }
+.kpi, .score { border-radius: 14px; border-color: var(--line2); }
+.kpi.good b { color: var(--good); } .kpi.bad b { color: var(--bad); }
+.res-block h2 { margin-top: 30px; }
+.revise-first { background: var(--saffron-soft); border-left: 4px solid var(--saffron); padding: 10px 14px; border-radius: 10px; }
+.sumtab { border-radius: 10px; overflow: hidden; }
+.sumtab th { background: #EEF4F4; }
+.chtab td:first-child { min-width: 180px; }
+.chtab tr.weak-row td { background: #FFF8EC; }
+.chtab .meter { display: inline-block; vertical-align: middle; width: 70px; height: 7px; background: #E6EEEF; border-radius: 99px; overflow: hidden; margin-left: 6px; }
+.chtab .meter i { display: block; height: 100%; background: var(--good); }
+.chtab tr.weak-row .meter i { background: var(--saffron); }
+.weak-paras { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 8px; }
+.weak-paras li { background: #fff; border: 1px solid var(--line2); border-left: 4px solid var(--saffron); border-radius: 12px; padding: 8px 14px; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; justify-content: space-between; }
+.weak-paras li > a { display: grid; text-decoration: none; min-width: 0; }
+.weak-paras li > a b { color: #12262A; }
+.weak-paras li > a small { color: var(--muted); }
+.weak-paras .wp-n { font-size: .88rem; color: var(--muted); }
+.weak-paras .wp-n i { font-style: normal; margin-right: 8px; } .weak-paras .wp-n i.bad { color: var(--bad); font-weight: 600; }
+.filters button.on { background: var(--brand); border-color: var(--brand); }
+.rcard { border-radius: 12px; border-color: var(--line2); }
+.rcard.f-good { border-left-color: var(--good); } .rcard.f-bad { border-left-color: var(--bad); }
+summary { color: var(--brand); }
+.paras a { color: var(--brand); }
+
+/* exam screen: NTA layout, site colours for the frame */
+.ex-secs { background: #E4EEEF; border-bottom-color: var(--sec); }
+.pal-label { background: #E4EEEF; }
+.opts label.picked { border-color: var(--sec); background: #E6F3F4; }

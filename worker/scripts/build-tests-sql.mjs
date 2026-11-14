@@ -45,9 +45,15 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json")).sort()) {
     if (a.kind === "numeric" && typeof a.value !== "number") errors.push(`${n}: numeric answer needs a value`);
     if (!["single", "numeric"].includes(a.kind)) errors.push(`${n}: answer.kind must be single or numeric`);
   });
+  if (t.sections) {
+    const n = t.sections.reduce((a, s) => a + (s.count || 0), 0);
+    if (n !== (t.questions || []).length) errors.push(`${where}: sections count ${n} questions, file has ${(t.questions || []).length}`);
+    (t.questions || []).forEach((x, i) => { if (!t.sections.some((s) => s.id === x.section)) errors.push(`${where} Q${i + 1}: unknown section ${x.section}`); });
+  }
   if (live.get(t.slug) === hash) { skipped++; continue; }
   written++;
-  const meta = { title: t.title, subtitle: t.subtitle, rules: t.rules || {}, subject: t.subject, branch: t.branch };
+  const meta = { title: t.title, subtitle: t.subtitle, rules: t.rules || {}, subject: t.subject, branch: t.branch,
+    kind: t.kind || "chapter", chapters: t.chapters || (t.chapter ? [t.chapter] : []), sections: t.sections || null };
   out.push(`
 INSERT INTO tests (slug, exam, chapter, meta, access, product, status, duration_min, marking, reveal, opens_at, closes_at, sort_order, content_hash, updated_at)
 VALUES (${q(t.slug)}, ${q(t.exam)}, ${q(t.chapter)}, ${q(JSON.stringify(meta))}, ${q(t.access || "free")}, ${q(t.product)}, ${q(t.status || "live")},
@@ -57,9 +63,14 @@ ON CONFLICT(slug) DO UPDATE SET exam=excluded.exam, chapter=excluded.chapter, me
   closes_at=excluded.closes_at, sort_order=excluded.sort_order, content_hash=excluded.content_hash, updated_at=excluded.updated_at;
 DELETE FROM questions WHERE test_slug = ${q(t.slug)};`);
   t.questions.forEach((x, i) => {
+    // public = what the exam screen gets before submitting (no key, no solution). chapter / paraTitles / section feed
+    // the result page's weak-area lists; format and difficulty are labels only.
     const pub = { id: x.id, type: x.type || (x.answer.kind === "numeric" ? "numeric" : "single"), topic: x.topic, paras: x.paras || [],
+      chapter: x.chapter || t.chapter || null, paraTitles: x.paraTitles || [], section: x.section || null,
+      format: x.format || null, difficulty: x.difficulty || null,
       text: Object.fromEntries(["en", "hi"].map((l) => [l, { status: x.text[l].status, q: x.text[l].q, o: x.text[l].o || [] }])) };
     const sol = Object.fromEntries(["en", "hi"].map((l) => [l, { sol: x.text[l].sol || "", hint: x.text[l].hint || "", trap: x.text[l].trap || "" }]));
+    if (x.source) sol.source = x.source; // e.g. "NEET 2019": shown with the solution, after submitting
     out.push(`INSERT INTO questions (test_slug, qno, qid, public, answer, solution) VALUES (${q(t.slug)}, ${i + 1}, ${q(x.id)}, ${q(JSON.stringify(pub))}, ${q(JSON.stringify(x.answer))}, ${q(JSON.stringify(sol))});`);
   });
   out.push(`UPDATE attempts SET score = NULL WHERE test_slug = ${q(t.slug)} AND submitted_at IS NOT NULL;`);

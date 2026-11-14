@@ -100,10 +100,10 @@
      "status": "draft",
      "q": "Light of wavelength 500 nm is incident on a metal with work function 2.28 eV. The de Broglie wavelength of the emitted electron is :",
      "o": [
-      "< 2.8 × 10<sup>−9</sup> m",
+      "≤ 2.8 × 10<sup>−9</sup> m",
       "≥ 2.8 × 10<sup>−9</sup> m",
       "≤ 2.8 × 10<sup>−12</sup> m",
-      "< 2.8 × 10<sup>−10</sup> m"
+      "&lt; 2.8 × 10<sup>−10</sup> m"
      ],
      "sol": "<p>Photon energy = 1240/500 = 2.48 eV. K<sub>max</sub> = 2.48 − 2.28 = 0.20 eV.</p><p>For an electron λ = 1.227/√V nm (V = K/e in volts): λ<sub>min</sub> = 1.227/√0.20 ≈ 2.74 nm ≈ 2.8 × 10<sup>−9</sup> m. Electrons emitted with less than the maximum energy have longer wavelengths, so λ <b>≥ 2.8 × 10<sup>−9</sup> m</b>.</p>",
      "hint": "Fastest electron → shortest de Broglie wavelength."
@@ -112,10 +112,10 @@
      "status": "draft",
      "q": "500 nm तरंगदैर्घ्य का प्रकाश 2.28 eV कार्य-फलन वाली धातु पर आपतित होता है। उत्सर्जित इलेक्ट्रॉन की दे ब्रॉग्ली तरंगदैर्घ्य है :",
      "o": [
-      "< 2.8 × 10<sup>−9</sup> m",
+      "≤ 2.8 × 10<sup>−9</sup> m",
       "≥ 2.8 × 10<sup>−9</sup> m",
       "≤ 2.8 × 10<sup>−12</sup> m",
-      "< 2.8 × 10<sup>−10</sup> m"
+      "&lt; 2.8 × 10<sup>−10</sup> m"
      ],
      "sol": "<p>फ़ोटॉन ऊर्जा = 1240/500 = 2.48 eV। K<sub>max</sub> = 2.48 − 2.28 = 0.20 eV।</p><p>इलेक्ट्रॉन के लिए λ = 1.227/√V nm (V = K/e वोल्ट में) : λ<sub>min</sub> = 1.227/√0.20 ≈ 2.74 nm ≈ 2.8 × 10<sup>−9</sup> m। अधिकतम से कम ऊर्जा के साथ उत्सर्जित इलेक्ट्रॉनों की तरंगदैर्घ्य अधिक होती है, अतः λ <b>≥ 2.8 × 10<sup>−9</sup> m</b>।</p>",
      "hint": "सबसे तेज़ इलेक्ट्रॉन → सबसे छोटी दे ब्रॉग्ली तरंगदैर्घ्य।",
@@ -141,7 +141,7 @@
     "session": "25 Jul 2015 · AIPMT re-exam, Code D"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -149,7 +149,7 @@
    "review": {
     "keyCheck": "Official CBSE key, Code D: 2",
     "keySource": "Official CBSE answer key, AIPMT/NEET 2015 re-exam, Code D (content/keys/neet-official-keys.json); text from the Code D solutions copy (neet-sources/neet-papers/2015/re-exam-solutions-code-D.pdf; formulas checked against page images)",
-    "note": "Errata check: K<sub>max</sub> = 2.48 − 2.28 = 0.20 eV gives λ<sub>min</sub> ≈ 2.8 nm, and slower electrons have longer λ, hence (2). With the copy's 2.258 eV, λ<sub>min</sub> ≈ 2.6 nm; work function as in the official paper to be confirmed."
+    "note": "Errata check: K<sub>max</sub> = 2.48 − 2.28 = 0.20 eV gives λ<sub>min</sub> ≈ 2.8 nm, and slower electrons have longer λ, hence (2). With the copy's 2.258 eV, λ<sub>min</sub> ≈ 2.6 nm; work function as in the official paper to be confirmed. Options (1) and (4) were cut off in the copy (\"−9 m\", \"−10 m\"); restored as ≤ 2.8 × 10⁻⁹ m and < 2.8 × 10⁻¹⁰ m (owner rule, 14 Nov 2026). The key (2) is unchanged."
    }
   },
   {
@@ -200,7 +200,7 @@
     "session": "25 Jul 2015 · AIPMT re-exam, Code D"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -259,7 +259,7 @@
     "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -317,7 +317,7 @@
     "session": "1 May 2016 · Phase 1 (AIPMT/NEET-I), Code A"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -375,9 +375,9 @@
     "paper": "Phase 2 Code AA Q39",
     "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 4,
+   "difficultyBasis": "author",
+   "timeSec": 90,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -434,9 +434,9 @@
     "paper": "Phase 2 Code AA Q40",
     "session": "24 Jul 2016 · Phase 2 (NEET-II), Code AA"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -496,7 +496,7 @@
     "session": "7 May 2017 · Code A"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -557,7 +557,7 @@
     "session": "7 May 2017 · Code A"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -618,9 +618,9 @@
     "paper": "Code AA Q12",
     "session": "6 May 2018 · Code AA"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 4,
+   "difficultyBasis": "author",
+   "timeSec": 90,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -677,7 +677,7 @@
     "session": "6 May 2018 · Code AA"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -734,9 +734,9 @@
     "paper": "Code S2 Q100",
     "session": "5 May 2019 · Code S2"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -792,9 +792,9 @@
     "paper": "Code F3 Q7",
     "session": "13 Sep 2020 · Code F3"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -851,9 +851,9 @@
     "paper": "Code F3 Q35",
     "session": "13 Sep 2020 · Code F3"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -909,9 +909,9 @@
     "paper": "Code F3 Q40",
     "session": "13 Sep 2020 · Code F3"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -967,9 +967,9 @@
     "paper": "Code P3 Q24",
     "session": "12 Sep 2021 · Code P3"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -1027,7 +1027,7 @@
     "session": "12 Sep 2021 · Code P3"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1084,9 +1084,9 @@
     "paper": "Code T2 Q16",
     "session": "17 Jul 2022 · Code T2"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -1144,7 +1144,7 @@
     "session": "17 Jul 2022 · Code T2"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1202,9 +1202,9 @@
     "paper": "Topic-wise copy Q30",
     "session": "7 May 2023"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "outside_ncert",
    "syllabus_status": "current",
@@ -1261,9 +1261,9 @@
     "paper": "Topic-wise copy Q31",
     "session": "7 May 2023"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -1274,7 +1274,7 @@
   },
   {
    "id": "phy12-11-neet-2024-q12-esaral-physics-copy",
-   "type": "single",
+   "type": "statement",
    "text": {
     "en": {
      "status": "draft",
@@ -1319,9 +1319,9 @@
     "paper": "Q12 (eSaral physics copy)",
     "session": "5 May 2024"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -1377,9 +1377,9 @@
     "paper": "Q13 (eSaral physics copy)",
     "session": "5 May 2024"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -1438,7 +1438,7 @@
     "session": "4 May 2025 · Code 45"
    },
    "difficulty": 3,
-   "difficultyBasis": "default",
+   "difficultyBasis": "author",
    "timeSec": 60,
    "status": "draft",
    "ncert_status": "in_ncert",
@@ -1496,9 +1496,9 @@
     "paper": "Code 45 Q38",
     "session": "4 May 2025 · Code 45"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -1510,7 +1510,7 @@
   },
   {
    "id": "phy12-11-neet-2026-code-13-q7",
-   "type": "single",
+   "type": "match",
    "text": {
     "en": {
      "status": "draft",
@@ -1559,9 +1559,9 @@
     "paper": "Code 13 Q7",
     "session": "3 May 2026 · Code 13"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",
@@ -1617,9 +1617,9 @@
     "paper": "Code 13 Q37",
     "session": "3 May 2026 · Code 13"
    },
-   "difficulty": 3,
-   "difficultyBasis": "default",
-   "timeSec": 60,
+   "difficulty": 2,
+   "difficultyBasis": "author",
+   "timeSec": 45,
    "status": "draft",
    "ncert_status": "in_ncert",
    "syllabus_status": "current",

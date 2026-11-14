@@ -40,6 +40,42 @@
   const mmss = ms => { const s = Math.round(ms / 1000); return s < 60 ? `${s}s` : `${Math.floor(s / 60)}m ${pad(s % 60)}s`; };
   const L = (obj, lang) => obj ? (obj[lang] || obj.en) : '';
 
+  // Site language (same setting as the chapter pages; Hindi first). The plain pages (test list, instructions,
+  // result) follow it; it is also the default language of the questions. The exam screen's buttons, palette and
+  // header stay in English as on NTA's own screen.
+  const LKEY = 'neet-ui-lang';
+  let ulang = 'hi';
+  try { ulang = localStorage.getItem(LKEY) || 'hi'; } catch (e) { /* storage unavailable */ }
+  document.documentElement.lang = ulang;
+  const tt = (hi, en) => ulang === 'hi' ? hi : en;
+  let rerender = null;   // redraws the current plain page after a language switch
+  document.addEventListener('click', e => {
+    const b = e.target.closest('[data-ulang]'); if (!b) return;
+    ulang = b.dataset.ulang; try { localStorage.setItem(LKEY, ulang); } catch (e2) { /* ignore */ }
+    document.documentElement.lang = ulang;
+    if (rerender) rerender();
+  });
+  function pageBar() {
+    return `<header class="cbt-bar"><a class="brand" href="./"><span class="mark" aria-hidden="true"><i></i></span><span class="word">NCERT<span>·</span>MindMap</span></a>
+      <nav><a href="./">${tt('अध्याय', 'Chapters')}</a><a href="exam.html">${tt('टेस्ट', 'Tests')}</a></nav><span class="grow"></span>
+      <div class="lang" role="group" aria-label="${tt('भाषा', 'Language')}"><button type="button" data-ulang="hi" class="${ulang === 'hi' ? 'on' : ''}" aria-pressed="${ulang === 'hi'}">हिंदी</button><button type="button" data-ulang="en" class="${ulang === 'en' ? 'on' : ''}" aria-pressed="${ulang === 'en'}">English</button></div></header>`;
+  }
+  // Chapter names for the test list and the result page's weak areas (data/catalog.json of the site).
+  let CAT = {};
+  function loadCatalog() {
+    return fetch('data/catalog.json').then(r => r.ok ? r.json() : {}).then(c => {
+      (function walk(o) {
+        if (Array.isArray(o)) return o.forEach(walk);
+        if (o && typeof o === 'object') {
+          if (o.id && typeof o.title === 'string') CAT[o.id] = { en: o.title, hi: o.hi || o.title };
+          Object.values(o).forEach(walk);
+        }
+      })(c);
+    }).catch(() => {});
+  }
+  const chName = (id, lang) => CAT[id] ? L(CAT[id], lang || ulang) : id;
+  const chLink = (id, para) => `./#/pyq/${encodeURIComponent(id)}${para ? '/s/' + encodeURIComponent(para) : ''}`;
+
   // Interface language: like NTA's own mock (nta.ac.in/Quiz, checked 13 Nov 2026 with Hindi chosen), only the
   // instructions page and the question text switch to Hindi; buttons, palette legend and header stay English.
   const UI = {
@@ -152,6 +188,7 @@
   // ---------- boot ----------
   function getJSON(url) { return fetch(url).then(r => { if (!r.ok) throw new Error(url + ' ' + r.status); return r.json(); }); }
   function boot() {
+    rerender = null;
     if (SERVER) return bootServer(SERVER);
     const id = params.get('test');
     if (!id) return renderList();
@@ -164,8 +201,8 @@
       if (S && S.v === 1 && S.submitted) return renderResult();
       if (S && S.v === 1 && S.started) return renderResume();
       S = null;
-      renderInstructions('en');
-    }).catch(e => { root.innerHTML = `<div class="cbt-page"><h1>Could not load the test</h1><p>${esc(e.message)}</p><p><a href="exam.html">All tests</a></p></div>`; });
+      renderInstructions(ulang);
+    }).catch(e => { root.innerHTML = `<div class="cbt-page"><h1>${tt('टेस्ट नहीं खुल सका', 'Could not load the test')}</h1><p>${esc(e.message)}</p><p><a href="exam.html">${tt('सभी टेस्ट', 'All tests')}</a></p></div>`; });
   }
 
 
@@ -178,22 +215,26 @@
       if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
       ME = d.student;
       const t = d.test;
+      const SUBJ = { physics: ['Physics', 'भौतिकी'], chemistry: ['Chemistry', 'रसायन विज्ञान'], biology: ['Biology', 'जीव विज्ञान'] }[t.subject] || ['Questions', 'प्रश्न'];
+      // mocks have sections (Physics, Chemistry, Biology); each question carries its section id
+      const secs = (t.sections || []).length > 1
+        ? t.sections.map(s => ({ id: s.id, name: s.name, marking: t.marking, questions: d.questions.filter(q => q.section === s.id) }))
+        : [{ id: 'A', name: { en: SUBJ[0], hi: SUBJ[1] }, marking: t.marking, questions: d.questions }];
       T = { id: 'cbt:' + t.slug, slug: t.slug, title: t.title, subtitle: t.subtitle, durationMin: t.durationMin, rules: t.rules || {}, server: true,
-        sections: [{ id: 'A', name: { en: t.subject === 'chemistry' ? 'Chemistry' : 'Questions', hi: t.subject === 'chemistry' ? 'रसायन विज्ञान' : 'प्रश्न' },
-          marking: t.marking, questions: d.questions }] };
+        kind: t.kind, sections: secs };
       Q = [];
       T.sections.forEach((sec, si) => sec.questions.forEach(q => Q.push({ q, sec, si, n: Q.length + 1 })));
       document.title = `${L(T.title, 'en')} · Exam-screen practice`;
       const a = d.attempt;
       S = load(SKEY(T.id));
-      if (!a) { S = null; drop(SKEY(T.id)); return renderInstructions('en'); }
+      if (!a) { S = null; drop(SKEY(T.id)); return renderInstructions(ulang); }
       if (a.submitted) return loadResult(a.id);
       if (!S || S.attemptId !== a.id) S = fromServer(a, d.responses);
       S.deadlineLocal = Date.now() + (Date.parse(a.deadline_at) - d.server_now);
       S.remaining = Math.max(0, S.deadlineLocal - Date.now());
       lastSent = {};
       renderResume();
-    }).catch(e => { root.innerHTML = `<div class="cbt-page"><h1>Could not load the test</h1><p>${esc(e.message)}</p><p><a href="exam.html">All tests</a></p></div>`; });
+    }).catch(e => { root.innerHTML = `<div class="cbt-page"><h1>${tt('टेस्ट नहीं खुल सका', 'Could not load the test')}</h1><p>${esc(e.message)}</p><p><a href="exam.html">${tt('सभी टेस्ट', 'All tests')}</a></p></div>`; });
   }
   function toLocalAns(q, a) { return a === null || a === undefined ? null : q.answer.kind === 'numeric' ? String(a) : Number(a); }
   function fromServer(a, resp) {
@@ -206,6 +247,7 @@
       const x = Q[k.qno - 1]; if (!x) return;
       x.q.answer = k.answer;
       ['en', 'hi'].forEach(l => { if (x.q.text[l]) Object.assign(x.q.text[l], (k.solution || {})[l] || {}); });
+      if (k.solution && k.solution.source) x.q.srcLabel = k.solution.source;
     });
     if (!S || !S.q || !Object.keys(S.q).length) S = fromServer({ id: d.attempt.id, started_at: d.attempt.started_at, lang: (S && S.lang) || 'en' }, d.responses);
     S.attemptId = d.attempt.id;
@@ -219,7 +261,7 @@
     api(`/cbt/attempt/${id}/result`).then(r => {
       if (!r.ok) throw new Error(r.d.error || 'HTTP ' + r.status);
       applyResult(r.d); renderResult();
-    }).catch(e => { root.innerHTML = `<div class="cbt-page"><h1>Could not load the result</h1><p>${esc(e.message)}</p><p><a href="exam.html">All tests</a></p></div>`; });
+    }).catch(e => { root.innerHTML = `<div class="cbt-page"><h1>${tt('परिणाम नहीं खुल सका', 'Could not load the result')}</h1><p>${esc(e.message)}</p><p><a href="exam.html">${tt('सभी टेस्ट', 'All tests')}</a></p></div>`; });
   }
   function googleButton(el, after) {
     api('/me').then(r => {
@@ -240,35 +282,58 @@
     });
   }
   function renderSignIn(t) {
-    root.innerHTML = `<div class="cbt-page"><p class="kicker">${esc(L(t.subtitle, 'en'))}</p><h1>${esc(L(t.title, 'hi'))}</h1><p class="muted">${esc(L(t.title, 'en'))}</p>
-      <p>टेस्ट देने के लिए Google से साइन इन करें — आपका स्कोर और हल सुरक्षित रहेंगे। · Sign in with Google to take the test; your score and solutions stay saved.</p>
-      <div id="gsign"></div><p><a href="exam.html">← All tests</a></p></div>`;
+    rerender = () => renderSignIn(t);
+    root.innerHTML = `${pageBar()}<div class="cbt-page"><p class="kicker">${esc(L(t.subtitle, ulang))}</p><h1>${esc(L(t.title, ulang))}</h1><p class="muted">${esc(L(t.title, ulang === 'hi' ? 'en' : 'hi'))}</p>
+      <p>${tt('टेस्ट देने के लिए Google से साइन इन करें — आपका स्कोर और हल सुरक्षित रहेंगे।', 'Sign in with Google to take the test; your score and solutions stay saved.')}</p>
+      <div id="gsign"></div><p><a href="exam.html">← ${tt('सभी टेस्ट', 'All tests')}</a></p></div>`;
     googleButton($('#gsign'), () => bootServer(t.slug));
   }
   function renderLocked(t) {
-    root.innerHTML = `<div class="cbt-page"><h1>${esc(L(t.title, 'hi'))}</h1><p class="muted">${esc(L(t.title, 'en'))}</p>
-      <p>यह टेस्ट पास के साथ खुलेगा (जल्द आ रहा है)। · This test opens with a pass (coming soon). The free test of every chapter is open now.</p>
-      <p><a href="exam.html">← All tests</a></p></div>`;
+    rerender = () => renderLocked(t);
+    root.innerHTML = `${pageBar()}<div class="cbt-page"><h1>${esc(L(t.title, ulang))}</h1><p class="muted">${esc(L(t.title, ulang === 'hi' ? 'en' : 'hi'))}</p>
+      <p>${tt('यह टेस्ट पास के साथ खुलेगा (जल्द आ रहा है)। हर अध्याय का पहला टेस्ट और पहला मॉक टेस्ट अभी मुफ़्त है।', 'This test opens with a pass (coming soon). The first test of every chapter and the first full mock are free now.')}</p>
+      <p><a href="exam.html">← ${tt('सभी टेस्ट', 'All tests')}</a></p></div>`;
   }
 
+  // Test list: server tests (mocks, then each subject's chapter tests grouped by chapter), then the browser-only
+  // PYQ prototype tests. Hindi first: each card shows the title in the site language with the other one below.
   function renderList() {
+    rerender = renderList;
     Promise.all([api('/cbt/tests').catch(() => ({ ok: false })), getJSON('data/tests/index.json').catch(() => ({ tests: [] }))]).then(([sv, ix]) => {
       const online = sv.ok && sv.d.tests && sv.d.tests.length ? serverList(sv.d) : '';
-      root.innerHTML = `<div class="cbt-page"><p class="kicker">Exam-screen practice</p><h1>Choose a test · टेस्ट चुनें</h1>${online}<h2>${online ? 'PYQ practice (this browser only)' : 'Choose a test'}</h2>
-        <p>The screen works like the NTA computer-based test: palette, countdown, mark for review, Hindi/English per question. Your attempt is saved in this browser.</p>
-        <ul class="test-list">${ix.tests.map(t => { const s = load(SKEY(t.id)); return `<li><a href="exam.html?test=${encodeURIComponent(t.id)}"><b>${esc(L(t.title, 'en'))}</b><span>${esc(L(t.subtitle, 'en'))}</span><span>${t.count} questions · ${t.durationMin} min${s && s.submitted ? ' · <i>result ready</i>' : s && s.started ? ' · <i>in progress</i>' : ''}</span></a></li>`; }).join('')}</ul>
-        <p><a href="./">← Back to NCERT MindMap</a></p></div>`;
+      const other = ulang === 'hi' ? 'en' : 'hi';
+      root.innerHTML = `${pageBar()}<div class="cbt-page list-page"><p class="kicker">${tt('परीक्षा स्क्रीन पर अभ्यास', 'Exam-screen practice')}</p><h1>${tt('टेस्ट चुनें', 'Choose a test')}</h1>
+        <p class="lead">${tt('स्क्रीन NTA की कंप्यूटर आधारित परीक्षा जैसी है: प्रश्न पैलेट, उलटी गिनती, पुनरावलोकन हेतु चिह्नित, हर प्रश्न हिंदी/अंग्रेज़ी में।', 'The screen works like the NTA computer-based test: question palette, countdown, mark for review, Hindi/English per question.')}</p>
+        ${online}
+        <h2 class="grp-h">${tt('PYQ अभ्यास (केवल इस ब्राउज़र में)', 'PYQ practice (this browser only)')}</h2>
+        <ul class="test-list">${ix.tests.map(t => { const s = load(SKEY(t.id)); return `<li><a href="exam.html?test=${encodeURIComponent(t.id)}"><b>${esc(L(t.title, ulang))}</b><small>${esc(L(t.title, other))}</small><span>${esc(L(t.subtitle, ulang))}</span><span>${t.count} ${tt('प्रश्न', 'questions')} · ${t.durationMin} ${tt('मिनट', 'min')}${s && s.submitted ? ' · <i>' + tt('परिणाम तैयार', 'result ready') + '</i>' : s && s.started ? ' · <i>' + tt('जारी', 'in progress') + '</i>' : ''}</span></a></li>`; }).join('')}</ul>
+        <p><a href="./">← ${tt('अध्याय पृष्ठों पर लौटें', 'Back to the chapter pages')}</a></p></div>`;
       if (sv.ok && !sv.d.signed_in && $('#gsign')) googleButton($('#gsign'), () => renderList());
-    }).catch(e => { root.innerHTML = `<div class="cbt-page"><p>${esc(e.message)}</p></div>`; });
+    }).catch(e => { root.innerHTML = `${pageBar()}<div class="cbt-page"><p>${esc(e.message)}</p></div>`; });
   }
   function serverList(d) {
-    const groups = {};
-    d.tests.forEach(t => { (groups[t.chapter || t.exam] = groups[t.chapter || t.exam] || []).push(t); });
-    const chip = t => !t.access_ok ? '<i class="lock">🔒 pass</i>' : t.attempt && t.attempt.submitted ? `<i>result: ${t.attempt.score} / ${t.count * t.marking.correct}</i>` : t.attempt ? '<i>in progress</i>' : t.access === 'free' ? '<i class="free">free · निःशुल्क</i>' : '';
-    return `${d.signed_in ? '' : '<div class="signin-box"><p>Sign in to take the chapter tests (free tests open to everyone). · चैप्टर टेस्ट देने के लिए साइन इन करें।</p><div id="gsign"></div></div>'}
-      <h2>Chapter tests · अध्याय परीक्षाएँ</h2>
-      ${Object.values(groups).map(ts => `<h3 class="chap-h" lang="hi">${esc(L(ts[0].title, 'hi').split(' · ')[0])} <small lang="en">${esc(L(ts[0].title, 'en').split(' · ')[0])}</small></h3>
-        <ul class="test-list">${ts.map(t => `<li${t.access_ok ? '' : ' class="locked"'}><a href="exam.html?cbt=${encodeURIComponent(t.slug)}"><b>${esc(L(t.title, 'hi').split(' · ').slice(1).join(' · ') || L(t.title, 'hi'))} · ${esc(L(t.title, 'en').split(' · ').slice(1).join(' · '))}</b><span>${t.count} questions · ${t.durationMin} min · +${t.marking.correct}/${t.marking.wrong}</span><span>${chip(t)}</span></a></li>`).join('')}</ul>`).join('')}`;
+    const other = ulang === 'hi' ? 'en' : 'hi';
+    const chip = t => !t.access_ok ? `<i class="lock">🔒 ${tt('पास', 'pass')}</i>`
+      : t.attempt && t.attempt.submitted ? `<i class="done">${tt('परिणाम', 'result')}: ${t.attempt.score} / ${t.count * t.marking.correct}</i>`
+      : t.attempt ? `<i>${tt('जारी', 'in progress')}</i>` : t.access === 'free' ? `<i class="free">${tt('निःशुल्क', 'free')}</i>` : '';
+    const part = t => { const bits = L(t.title, ulang).split(' · '); return bits.length > 1 ? bits.slice(1).join(' · ') : bits[0]; };
+    const card = t => `<li${t.access_ok ? '' : ' class="locked"'}><a href="exam.html?cbt=${encodeURIComponent(t.slug)}"><b>${esc(t.kind === 'mock' ? L(t.title, ulang) : part(t))}</b>
+      <span>${t.count} ${tt('प्रश्न', 'questions')} · ${t.durationMin} ${tt('मिनट', 'min')} · +${t.marking.correct} / ${String(t.marking.wrong).replace('-', '−')}</span><span class="chips">${chip(t)}</span></a></li>`;
+    const subjects = [['physics', 'भौतिकी', 'Physics'], ['chemistry', 'रसायन विज्ञान', 'Chemistry'], ['biology', 'जीव विज्ञान', 'Biology']];
+    const mocks = d.tests.filter(t => t.kind === 'mock');
+    let html = d.signed_in ? '' : `<div class="signin-box"><p>${tt('टेस्ट देने के लिए साइन इन करें। हर अध्याय का पहला टेस्ट और पहला मॉक टेस्ट मुफ़्त है।', 'Sign in to take the tests. The first test of every chapter and the first full mock are free.')}</p><div id="gsign"></div></div>`;
+    if (mocks.length) html += `<h2 class="grp-h">${tt('पूर्ण NEET मॉक टेस्ट', 'Full NEET mock tests')} <small>180 ${tt('प्रश्न', 'questions')} · 180 ${tt('मिनट', 'min')}</small></h2><ul class="test-list mocks">${mocks.map(card).join('')}</ul>`;
+    subjects.forEach(([id, hi, en]) => {
+      const ts = d.tests.filter(t => t.kind !== 'mock' && (t.subject === id || (!t.subject && id === 'chemistry')));
+      if (!ts.length) return;
+      const groups = new Map();
+      ts.forEach(t => { const chs = t.chapters && t.chapters.length ? t.chapters : [t.chapter]; const k = chs.join('+'); if (!groups.has(k)) groups.set(k, { chs, ts: [] }); groups.get(k).ts.push(t); });
+      html += `<h2 class="grp-h subj-${id}">${ulang === 'hi' ? hi : en} <small>${ulang === 'hi' ? en : hi}</small></h2>`;
+      html += [...groups.values()].map(g => `<section class="chap-tests"><h3 class="chap-h">${g.chs.map(c => esc(chName(c))).join(' + ')} <small>${g.chs.map(c => esc(chName(c, other))).join(' + ')}</small></h3>
+        <p class="chap-links">${g.chs.map(c => `<a href="${chLink(c)}">${g.chs.length > 1 ? esc(chName(c)) + ': ' : ''}${tt('अध्याय के PYQ पढ़ें →', 'Read the chapter PYQs →')}</a>`).join(' ')}</p>
+        <ul class="test-list">${g.ts.map(card).join('')}</ul></section>`).join('');
+    });
+    return html;
   }
 
   function legendHTML(lang, counts) {
@@ -276,6 +341,7 @@
   }
 
   function renderInstructions(lang) {
+    rerender = null;
     const marks = T.sections.map(s => `${esc(L(s.name, lang))}: +${s.marking.correct} / ${s.marking.wrong} / ${s.marking.blank}`).join('<br>');
     root.innerHTML = `<div class="cbt-page instr">
       <header class="instr-head"><div><p class="kicker">${esc(UI[lang].instructions)}</p><h1>${esc(L(T.title, lang))}</h1><p class="muted">${esc(L(T.subtitle, lang))}</p></div>
@@ -288,7 +354,7 @@
         .replace('__marknext_hi__', markNextSaves() ? 'चुना हुआ विकल्प रहेगा और उसका मूल्यांकन होगा।' : 'नया चुनाव सेव <b>नहीं</b> होता।')}</li>`).join('')}</ol>
       ${storageOK ? '' : '<p class="warn">This browser is not letting the page save data (private mode or blocked storage). The test works, but a reload will lose your answers.</p>'}
       <label class="agree"><input type="checkbox" id="agree"> ${esc(UI[lang].agree)}</label>
-      <div class="instr-actions"><a class="btn-plain" href="exam.html">← All tests</a><button id="go" class="btn-go" disabled>${esc(UI[lang].proceed)} →</button></div>
+      <div class="instr-actions"><a class="btn-plain" href="exam.html">← ${lang === 'hi' ? 'सभी टेस्ट' : 'All tests'}</a><button id="go" class="btn-go" disabled>${esc(UI[lang].proceed)} →</button></div>
     </div>`;
     $('#deflang').onchange = e => renderInstructions(e.target.value);
     $('#agree').onchange = e => { $('#go').disabled = !e.target.checked; };
@@ -314,12 +380,13 @@
 
   function renderResume() {
     const answered = Q.filter(x => ['an', 'am'].includes(status(x.q))).length;
-    root.innerHTML = `<div class="cbt-page"><p class="kicker">Resume test</p><h1>${esc(L(T.title, 'en'))}</h1>
-      <p>Your attempt was saved ${S.savedAt ? 'at ' + new Date(S.savedAt).toLocaleTimeString() : ''}. <b>${answered}</b> of ${Q.length} answered · time left <b>${hms(S.remaining)}</b>.</p>
-      <p class="muted">आपकी परीक्षा सेव है। जारी रखें — बचा हुआ समय ${hms(S.remaining)}।</p>
-      <div class="instr-actions"><button class="btn-plain" id="restart">Discard and start again</button><button class="btn-go" id="resume">Resume →</button></div></div>`;
-    $('#resume').onclick = () => renderExam();
-    $('#restart').onclick = () => { if (confirm('Discard this attempt and start again?')) retake(); };
+    rerender = renderResume;
+    root.innerHTML = `${pageBar()}<div class="cbt-page"><p class="kicker">${tt('टेस्ट जारी रखें', 'Resume test')}</p><h1>${esc(L(T.title, ulang))}</h1>
+      <p>${tt(`आपकी परीक्षा सेव है${S.savedAt ? ' (' + new Date(S.savedAt).toLocaleTimeString() + ')' : ''}। ${Q.length} में से <b>${answered}</b> उत्तर दिए · बचा हुआ समय <b>${hms(S.remaining)}</b>।`, `Your attempt was saved ${S.savedAt ? 'at ' + new Date(S.savedAt).toLocaleTimeString() : ''}. <b>${answered}</b> of ${Q.length} answered · time left <b>${hms(S.remaining)}</b>.`)}</p>
+      ${SERVER ? `<p class="muted">${tt('घड़ी सर्वर पर चल रही है।', 'The clock keeps running on the server.')}</p>` : ''}
+      <div class="instr-actions"><button class="btn-plain" id="restart">${tt('छोड़ें और फिर से शुरू करें', 'Discard and start again')}</button><button class="btn-go" id="resume">${tt('जारी रखें', 'Resume')} →</button></div></div>`;
+    $('#resume').onclick = () => { rerender = null; renderExam(); };
+    $('#restart').onclick = () => { if (confirm(tt('यह प्रयास छोड़कर फिर से शुरू करें?', 'Discard this attempt and start again?'))) retake(); };
   }
 
   // ---------- exam screen ----------
@@ -333,7 +400,7 @@
 
   function renderExam() {
     root.innerHTML = `<div class="exam">
-      <header class="ex-top"><div class="ex-title"><b>${esc(L(T.title, 'en'))}</b><span>${esc(L(T.subtitle, 'en'))}</span></div>
+      <header class="ex-top"><div class="ex-title"><b>${esc(L(T.title, S.lang))}</b><span>${esc(L(T.subtitle, S.lang))}</span></div>
         <div class="ex-cand"><span class="avatar" aria-hidden="true">👤</span><div><small>Candidate</small><b>${esc(ME ? ME.name : 'Guest')}</b></div></div>
         <div class="ex-time"><small>Time Left</small><b id="clock">${hms(S.remaining)}</b></div>
         <button class="pal-toggle" id="paltoggle" aria-expanded="false">☰ Questions</button></header>
@@ -387,7 +454,7 @@
     const pad_ = num ? `<div class="numans"><input id="numin" readonly inputmode="none" value="${esc(sel || '')}" aria-label="Your answer" placeholder="Enter answer using keypad">
       <div class="keypad">${['7', '8', '9', '4', '5', '6', '1', '2', '3', '0', '.', '-'].map(k => `<button data-k="${k}">${k}</button>`).join('')}<button data-k="bs" class="wide">Backspace</button><button data-k="clr" class="wide">Clear All</button></div></div>` : '';
     $('#qpane').innerHTML = `<div class="qhead"><h2>Question No. ${x.n}</h2>
-        <span class="qtype">${num ? 'Numerical' : 'Single correct'} · +${x.sec.marking.correct} / ${x.sec.marking.wrong}</span>
+        <span class="qtype">${num ? 'Numerical' : 'Single correct'} · +${x.sec.marking.correct} / ${String(x.sec.marking.wrong).replace('-', '−')}</span>
         <label class="viewin">View in <select id="qlang"><option value="en"${lang === 'en' ? ' selected' : ''}>English</option><option value="hi"${lang === 'hi' ? ' selected' : ''}>हिंदी</option></select></label></div>
       ${lang === 'hi' && !hiReady ? `<p class="hi-note">${esc(HI_PENDING)}</p>` : ''}
       ${shownLang === 'hi' && q.text.hi.status === 'draft' ? '<p class="hi-draft" title="Hindi draft, not yet proofread">हिंदी प्रारूप · प्रूफ़रीडिंग बाकी</p>' : ''}
@@ -486,7 +553,7 @@
     }).join('');
     const ov = document.createElement('div');
     ov.className = 'modal';
-    ov.innerHTML = `<div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="mt"><h2 id="mt">Submit the test?</h2>
+    ov.innerHTML = `<div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="mt"><h2 id="mt">Submit the test? <small lang="hi">· टेस्ट जमा करें?</small></h2>
       <div class="tablewrap"><table class="sumtab"><thead><tr><th>Section</th><th>Questions</th><th>Answered</th><th>Not answered</th><th>Marked</th><th>Answered + marked</th><th>Not visited</th></tr></thead><tbody>${rows}</tbody></table></div>
       <p>Time left: <b>${hms(S.remaining)}</b>. After submitting you cannot change any answer.</p>
       <div class="modal-actions"><button class="b-white" id="no">No, go back</button><button class="b-submit" id="yes">Yes, submit</button></div></div>`;
@@ -523,15 +590,21 @@
   function isRight(q, a) {
     if (a === null || a === undefined || a === '') return null;
     if (q.answer.kind === 'numeric') { const v = parseFloat(a); return !isNaN(v) && Math.abs(v - q.answer.value) <= (q.answer.tol || 0) + 1e-9; }
-    return a === q.answer.index;
+    return a === q.answer.index || (q.answer.alsoAccepted || []).includes(a);   // official key may accept more than one
   }
   function fmtAns(q, a) {
     if (a === null || a === undefined || a === '') return '—';
     return q.answer.kind === 'numeric' ? esc(a) : `(${a + 1})`;
   }
+  // chapter / paragraphs of a question: server tests carry chapter + paras + paraTitles {en,hi};
+  // the browser prototype tests carry ncert.chapter, ncert.paras and English paraTitles
+  const qChapter = q => q.chapter || (q.ncert && q.ncert.chapter) || null;
+  const qParas = q => (q.paras && q.paras.length ? q.paras : (q.ncert && q.ncert.paras) || []);
+  const qParaTitle = (q, i, lang) => { const t = (q.paraTitles || [])[i]; return !t ? '' : typeof t === 'string' ? t : L(t, lang); };
 
   function renderResult() {
     clearInterval(tickTimer);
+    rerender = renderResult;
     const used = T.durationMin * 60000 - S.remaining;
     let score = 0, max = 0;
     const R = Q.map(x => {
@@ -557,49 +630,50 @@
     const tmax = Math.max(...R.map(r => r.st.t || 0), 1);
     const avg = arr => arr.length ? arr.reduce((a, r) => a + (r.st.t || 0), 0) / arr.length : 0;
     const long = R.filter(r => (r.st.t || 0) >= 4 * 60000);
-    const secRows = T.sections.map((sec, si) => {
+    const secRows = T.sections.length > 1 ? T.sections.map((sec, si) => {
       const rs = R.filter(r => r.x.si === si);
       const sc = rs.reduce((a, r) => a + r.pts, 0);
-      return `<tr><td>${esc(L(sec.name, 'en'))}</td><td>${rs.filter(r => r.ok === true).length}</td><td>${rs.filter(r => r.ok === false).length}</td><td>${rs.filter(r => r.ok === null).length}</td><td>${mmss(rs.reduce((a, r) => a + (r.st.t || 0), 0))}</td><td><b>${sc}</b> / ${rs.length * sec.marking.correct}</td></tr>`;
-    }).join('');
-    const lang = S.lang;
+      return `<tr><td>${esc(L(sec.name, ulang))}</td><td>${rs.filter(r => r.ok === true).length}</td><td>${rs.filter(r => r.ok === false).length}</td><td>${rs.filter(r => r.ok === null).length}</td><td>${mmss(rs.reduce((a, r) => a + (r.st.t || 0), 0))}</td><td><b>${sc}</b> / ${rs.length * sec.marking.correct}</td></tr>`;
+    }).join('') : '';
+    const lang = ulang;
+    const other = ulang === 'hi' ? 'en' : 'hi';
 
-    root.innerHTML = `<div class="cbt-page result">
-      <p class="kicker">Result${S.timeUp ? ' · submitted automatically when time ran out' : ''}</p>
-      <h1>${esc(L(T.title, 'en'))}</h1>
+    root.innerHTML = `${pageBar()}<div class="cbt-page result">
+      <p class="kicker">${tt('परिणाम', 'Result')}${S.timeUp ? ' · ' + tt('समय समाप्त होने पर अपने आप जमा हुआ', 'submitted automatically when time ran out') : ''}</p>
+      <h1>${esc(L(T.title, ulang))}</h1><p class="muted">${esc(L(T.title, other))}</p>
       <div class="score-row">
-        <div class="score"><b>${score}</b><span>out of ${max}</span></div>
-        <div class="kpi good"><b>${c}</b><span>Correct</span></div>
-        <div class="kpi bad"><b>${w}</b><span>Wrong</span></div>
-        <div class="kpi"><b>${u}</b><span>Not answered</span></div>
-        <div class="kpi"><b>${c + w ? Math.round(100 * c / (c + w)) : 0}%</b><span>Accuracy</span></div>
-        <div class="kpi"><b>${hms(used)}</b><span>Time used of ${T.durationMin} min</span></div>
+        <div class="score"><b>${score}</b><span>${tt(`${max} में से अंक`, `out of ${max}`)}</span></div>
+        <div class="kpi good"><b>${c}</b><span>${tt('सही', 'Correct')}</span></div>
+        <div class="kpi bad"><b>${w}</b><span>${tt('गलत', 'Wrong')}</span></div>
+        <div class="kpi"><b>${u}</b><span>${tt('उत्तर नहीं दिया', 'Not answered')}</span></div>
+        <div class="kpi"><b>${c + w ? Math.round(100 * c / (c + w)) : 0}%</b><span>${tt('सटीकता', 'Accuracy')}</span></div>
+        <div class="kpi"><b>${hms(used)}</b><span>${tt(`${T.durationMin} मिनट में से लगा समय`, `Time used of ${T.durationMin} min`)}</span></div>
       </div>
-      <div class="tablewrap"><table class="sumtab"><thead><tr><th>Section</th><th>Correct</th><th>Wrong</th><th>Not answered</th><th>Time</th><th>Score</th></tr></thead><tbody>${secRows}</tbody></table></div>
-      ${topicBlock(R)}
+      ${secRows ? `<div class="tablewrap"><table class="sumtab"><thead><tr><th>${tt('खंड', 'Section')}</th><th>${tt('सही', 'Correct')}</th><th>${tt('गलत', 'Wrong')}</th><th>${tt('छोड़े', 'Not answered')}</th><th>${tt('समय', 'Time')}</th><th>${tt('अंक', 'Score')}</th></tr></thead><tbody>${secRows}</tbody></table></div>` : ''}
+      ${weakBlocks(R)}
 
-      <section class="res-block"><h2>Changed answers</h2>
+      <section class="res-block"><h2>${tt('बदले गए उत्तर', 'Changed answers')}</h2>
         ${R.some(r => r.changed) ? `<div class="chg">
-          <div class="kpi good"><b>${ch['wrong-right']}</b><span>Wrong → right (gained)</span></div>
-          <div class="kpi bad"><b>${ch['right-wrong']}</b><span>Right → wrong (lost)</span></div>
-          <div class="kpi"><b>${ch['wrong-wrong']}</b><span>Wrong → another wrong</span></div>
-          <div class="kpi"><b>${ch.removed}</b><span>Answer cleared</span></div></div>
-          <p class="muted">${ch['right-wrong'] > ch['wrong-right'] ? 'Changing answers cost you marks this time: your first choice was more often right.' : ch['wrong-right'] > ch['right-wrong'] ? 'Your changes helped this time: re-checking paid off.' : 'Your changes did not change the score overall.'}</p>`
-          : '<p class="muted">You did not change any saved answer.</p>'}
+          <div class="kpi good"><b>${ch['wrong-right']}</b><span>${tt('गलत → सही (लाभ)', 'Wrong → right (gained)')}</span></div>
+          <div class="kpi bad"><b>${ch['right-wrong']}</b><span>${tt('सही → गलत (नुकसान)', 'Right → wrong (lost)')}</span></div>
+          <div class="kpi"><b>${ch['wrong-wrong']}</b><span>${tt('गलत → दूसरा गलत', 'Wrong → another wrong')}</span></div>
+          <div class="kpi"><b>${ch.removed}</b><span>${tt('उत्तर हटाया', 'Answer cleared')}</span></div></div>
+          <p class="muted">${ch['right-wrong'] > ch['wrong-right'] ? tt('इस बार उत्तर बदलने से अंक घटे: आपका पहला उत्तर अधिक बार सही था।', 'Changing answers cost you marks this time: your first choice was more often right.') : ch['wrong-right'] > ch['right-wrong'] ? tt('इस बार बदलाव से लाभ हुआ: दोबारा जाँचना काम आया।', 'Your changes helped this time: re-checking paid off.') : tt('बदलावों से कुल अंक नहीं बदले।', 'Your changes did not change the score overall.')}</p>`
+          : `<p class="muted">${tt('आपने कोई सेव किया उत्तर नहीं बदला।', 'You did not change any saved answer.')}</p>`}
       </section>
 
-      <section class="res-block"><h2>Time per question</h2>
-        <p class="muted">Average: ${mmss(avg(R.filter(r => r.ok === true)))} on correct · ${mmss(avg(R.filter(r => r.ok === false)))} on wrong · ${mmss(avg(R.filter(r => r.ok === null && r.st.v)))} on visited but not answered.${long.length ? ` <b>${long.length}</b> question${long.length > 1 ? 's' : ''} took 4 minutes or more: ${long.map(r => 'Q' + r.x.n).join(', ')}.` : ''}</p>
-        <div class="tbars" role="img" aria-label="Bar chart of time spent on each question">${R.map(r => `<a href="#rq${r.x.n}" class="tbar ${r.ok === true ? 'good' : r.ok === false ? 'bad' : 'none'}" title="Q${r.x.n}: ${mmss(r.st.t || 0)}"><i style="height:${Math.max(2, 100 * (r.st.t || 0) / tmax)}%"></i><span>${r.x.n}</span></a>`).join('')}</div>
-        <p class="tbar-key"><span class="k good"></span>correct <span class="k bad"></span>wrong <span class="k none"></span>not answered</p>
+      <section class="res-block"><h2>${tt('हर प्रश्न पर समय', 'Time per question')}</h2>
+        <p class="muted">${tt('औसत', 'Average')}: ${mmss(avg(R.filter(r => r.ok === true)))} ${tt('सही पर', 'on correct')} · ${mmss(avg(R.filter(r => r.ok === false)))} ${tt('गलत पर', 'on wrong')} · ${mmss(avg(R.filter(r => r.ok === null && r.st.v)))} ${tt('देखे पर छोड़े पर', 'on visited but not answered')}.${long.length ? ` ${tt(`<b>${long.length}</b> प्रश्नों पर 4 मिनट या अधिक लगे`, `<b>${long.length}</b> question${long.length > 1 ? 's' : ''} took 4 minutes or more`)}: ${long.map(r => 'Q' + r.x.n).join(', ')}.` : ''}</p>
+        <div class="tbars" role="img" aria-label="${tt('हर प्रश्न पर लगे समय का चार्ट', 'Bar chart of time spent on each question')}">${R.map(r => `<a href="#rq${r.x.n}" class="tbar ${r.ok === true ? 'good' : r.ok === false ? 'bad' : 'none'}" title="Q${r.x.n}: ${mmss(r.st.t || 0)}"><i style="height:${Math.max(2, 100 * (r.st.t || 0) / tmax)}%"></i><span>${r.x.n}</span></a>`).join('')}</div>
+        <p class="tbar-key"><span class="k good"></span>${tt('सही', 'correct')} <span class="k bad"></span>${tt('गलत', 'wrong')} <span class="k none"></span>${tt('उत्तर नहीं', 'not answered')}</p>
       </section>
 
-      <section class="res-block"><h2>Question-wise review</h2>
-        <div class="filters" id="filters">${[['all', 'All'], ['bad', 'Wrong'], ['none', 'Not answered'], ['chg', 'Changed'], ['good', 'Correct']].map(([k, t], i) => `<button data-f="${k}" class="${i ? '' : 'on'}">${t}</button>`).join('')}</div>
+      <section class="res-block"><h2>${tt('प्रश्नवार समीक्षा', 'Question-wise review')}</h2>
+        <div class="filters" id="filters">${[['all', 'सभी', 'All'], ['bad', 'गलत', 'Wrong'], ['none', 'छोड़े', 'Not answered'], ['chg', 'बदले', 'Changed'], ['good', 'सही', 'Correct']].map(([k, h, e], i) => `<button data-f="${k}" class="${i ? '' : 'on'}">${tt(h, e)}</button>`).join('')}</div>
         <div id="rlist">${R.map(r => reviewCard(r, lang)).join('')}</div>
       </section>
-      <div class="instr-actions"><a class="btn-plain" href="exam.html">← All tests</a><button class="btn-go" id="retake">Retake this test</button></div>
-      ${SERVER ? '' : '<p class="muted small">Prototype: the timer and answer key are in your browser. The live version keeps both on the server.</p>'}
+      <div class="instr-actions"><a class="btn-plain" href="exam.html">← ${tt('सभी टेस्ट', 'All tests')}</a><button class="btn-go" id="retake">${tt('यह टेस्ट फिर से दें', 'Retake this test')}</button></div>
+      ${SERVER ? '' : `<p class="muted small">${tt('प्रोटोटाइप: टाइमर और उत्तर कुंजी आपके ब्राउज़र में हैं। लाइव संस्करण दोनों को सर्वर पर रखता है।', 'Prototype: the timer and answer key are in your browser. The live version keeps both on the server.')}</p>`}
     </div>`;
     $$('#filters button').forEach(b => b.onclick = () => {
       $$('#filters button').forEach(x => x.classList.toggle('on', x === b));
@@ -607,12 +681,56 @@
       $$('.rcard').forEach(card => { card.hidden = f !== 'all' && !card.classList.contains('f-' + f); });
     });
     renderResultBind(R);
-    $('#retake').onclick = () => { if (confirm('Start this test again? Your current result will be removed.')) retake(); };
+    $('#retake').onclick = () => { if (confirm(tt('यह टेस्ट फिर से शुरू करें? आपका मौजूदा परिणाम हट जाएगा।', 'Start this test again? Your current result will be removed.'))) retake(); };
   }
   function retake() {
-    const done = () => { drop(SKEY(T.id)); S = null; lastSent = {}; renderInstructions('en'); window.scrollTo(0, 0); };
+    const done = () => { drop(SKEY(T.id)); S = null; lastSent = {}; rerender = null; renderInstructions(ulang); window.scrollTo(0, 0); };
     if (!SERVER) return done();
     api(`/cbt/test/${encodeURIComponent(T.slug)}/retake`, { method: 'POST' }).then(r => r.ok ? done() : alert(r.d.error || 'Could not reset the test'));
+  }
+
+  // Weak areas, after the score: chapter-wise marks (weakest first) and the NCERT paragraphs of the wrong and
+  // unanswered questions, each linking to that chapter's NCERT + PYQ page (at the paragraph).
+  function weakBlocks(R) {
+    if (!R.some(r => qChapter(r.x.q))) return topicBlock(R);
+    const chs = new Map();
+    R.forEach(r => {
+      const id = qChapter(r.x.q) || '—';
+      const c = chs.get(id) || { id, n: 0, c: 0, w: 0, pts: 0, max: 0 };
+      c.n++; c.pts += r.pts; c.max += r.x.sec.marking.correct;
+      if (r.ok === true) c.c++; else if (r.ok === false) c.w++;
+      chs.set(id, c);
+    });
+    const rows = [...chs.values()].map(c => Object.assign(c, { pct: c.max ? c.pts / c.max : 0 })).sort((a, b) => a.pct - b.pct || b.n - a.n);
+    const weakCh = rows.filter(c => c.pct < 0.5 && c.c < c.n);
+    const paras = new Map();
+    R.filter(r => r.ok !== true).forEach(r => {
+      const q = r.x.q, chId = qChapter(q), ps = qParas(q);
+      const list = ps.length ? ps.map((p, i) => ({ p, title: qParaTitle(q, i, ulang) })) : [{ p: '', title: q.topic ? L(q.topic, ulang) : '' }];
+      list.slice(0, 2).forEach(({ p, title }) => {
+        const k = chId + '#' + p;
+        const e = paras.get(k) || { chId, p, title, w: 0, u: 0, qs: [] };
+        if (r.ok === false) e.w++; else e.u++;
+        e.qs.push(r.x.n);
+        paras.set(k, e);
+      });
+    });
+    const plist = [...paras.values()].sort((a, b) => (b.w * 2 + b.u) - (a.w * 2 + a.u) || a.chId.localeCompare(b.chId));
+    const shown = plist.slice(0, 15);
+    const bar = pct => `<span class="meter" aria-hidden="true"><i style="width:${Math.max(0, Math.round(100 * pct))}%"></i></span>`;
+    const chTable = rs => `<div class="tablewrap"><table class="sumtab chtab"><thead><tr><th>${tt('अध्याय', 'Chapter')}</th><th>${tt('प्रश्न', 'Qs')}</th><th>${tt('सही', 'Correct')}</th><th>${tt('गलत', 'Wrong')}</th><th>${tt('छोड़े', 'Blank')}</th><th>${tt('अंक', 'Marks')}</th></tr></thead><tbody>
+      ${rs.map(c => `<tr class="${c.pct < 0.5 && c.c < c.n ? 'weak-row' : ''}"><td><a href="${chLink(c.id)}">${esc(chName(c.id))}</a></td><td>${c.n}</td><td>${c.c}</td><td>${c.w}</td><td>${c.n - c.c - c.w}</td><td><b>${c.pts}</b> / ${c.max} ${bar(c.pct)}</td></tr>`).join('')}</tbody></table></div>`;
+    return `<section class="res-block weak">
+      <h2>${tt('अध्यायवार अंक', 'Chapter-wise marks')}</h2>
+      ${weakCh.length ? `<p class="revise-first"><b>${tt('पहले दोहराएँ', 'Revise first')}:</b> ${weakCh.slice(0, 4).map(c => `<a href="${chLink(c.id)}">${esc(chName(c.id))}</a>`).join(', ')}</p>` : `<p class="muted">${tt('हर अध्याय में आधे से अधिक अंक। बढ़िया!', 'More than half the marks in every chapter. Well done!')}</p>`}
+      ${chTable(rows.slice(0, 10))}
+      ${rows.length > 10 ? `<details class="more-ch"><summary>${tt(`बाकी ${rows.length - 10} अध्याय`, `The other ${rows.length - 10} chapters`)}</summary>${chTable(rows.slice(10))}</details>` : ''}
+      ${shown.length ? `<h2>${tt('इन NCERT अनुच्छेदों को फिर पढ़ें', 'Re-read these NCERT paragraphs')}</h2>
+      <p class="muted">${tt('गलत या छोड़े गए प्रश्न जिन अनुच्छेदों से हैं। अनुच्छेद पर क्लिक करें: अध्याय पृष्ठ वहीं खुलेगा, उसके सभी PYQ के साथ।', 'The paragraphs your wrong or unanswered questions come from. Click one to open the chapter page at that paragraph, with all its PYQs.')}</p>
+      <ul class="weak-paras">${shown.map(e => `<li><a href="${chLink(e.chId, e.p)}"><b>${e.p ? '§' + esc(e.p) + ' ' : ''}${esc(e.title || chName(e.chId))}</b><small>${esc(chName(e.chId))}</small></a>
+        <span class="wp-n">${e.w ? `<i class="bad">${e.w} ${tt('गलत', 'wrong')}</i>` : ''}${e.u ? `<i>${e.u} ${tt('छोड़े', 'blank')}</i>` : ''} · ${e.qs.slice(0, 6).map(n => `<a href="#rq${n}">Q${n}</a>`).join(' ')}</span></li>`).join('')}</ul>
+      ${plist.length > shown.length ? `<p class="muted">${tt(`और ${plist.length - shown.length} अनुच्छेद: नीचे प्रश्नवार समीक्षा देखें।`, `${plist.length - shown.length} more paragraphs: see the question-wise review below.`)}</p>` : ''}` : ''}
+    </section>`;
   }
   function topicBlock(R) {
     if (!R.some(r => r.x.q.topic)) return '';
@@ -620,10 +738,10 @@
     R.forEach(r => { const k = r.x.q.topic ? L(r.x.q.topic, 'en') : '—'; const t = tp[k] = tp[k] || { name: r.x.q.topic, n: 0, c: 0, w: 0 }; t.n++; if (r.ok === true) t.c++; else if (r.ok === false) t.w++; });
     const rows = Object.values(tp).sort((a, b) => (a.c / a.n) - (b.c / b.n));
     const weak = rows.filter(t => t.n >= 2 && t.c / t.n < 0.5);
-    return `<section class="res-block"><h2>Topic-wise · विषयवार</h2>
-      ${weak.length ? `<p><b>Revise first · पहले दोहराएँ:</b> ${weak.slice(0, 3).map(t => `${esc(L(t.name, 'hi'))} (${esc(L(t.name, 'en'))})`).join(', ')}</p>` : ''}
-      <div class="tablewrap"><table class="sumtab"><thead><tr><th>Topic</th><th>Questions</th><th>Correct</th><th>Wrong</th><th>Not answered</th></tr></thead><tbody>
-      ${rows.map(t => `<tr><td><span lang="hi">${esc(L(t.name, 'hi'))}</span><br><small>${esc(L(t.name, 'en'))}</small></td><td>${t.n}</td><td>${t.c}</td><td>${t.w}</td><td>${t.n - t.c - t.w}</td></tr>`).join('')}</tbody></table></div></section>`;
+    return `<section class="res-block"><h2>${tt('विषयवार', 'Topic-wise')}</h2>
+      ${weak.length ? `<p><b>${tt('पहले दोहराएँ', 'Revise first')}:</b> ${weak.slice(0, 3).map(t => esc(L(t.name, ulang))).join(', ')}</p>` : ''}
+      <div class="tablewrap"><table class="sumtab"><thead><tr><th>${tt('विषय', 'Topic')}</th><th>${tt('प्रश्न', 'Questions')}</th><th>${tt('सही', 'Correct')}</th><th>${tt('गलत', 'Wrong')}</th><th>${tt('छोड़े', 'Not answered')}</th></tr></thead><tbody>
+      ${rows.map(t => `<tr><td>${esc(L(t.name, ulang))}</td><td>${t.n}</td><td>${t.c}</td><td>${t.w}</td><td>${t.n - t.c - t.w}</td></tr>`).join('')}</tbody></table></div></section>`;
   }
   function renderResultBind(R) {
     $$('.rcard .rlang').forEach(s => s.onchange = () => {
@@ -636,28 +754,33 @@
   function reviewCard(r, lang) {
     const q = r.x.q, hiReady = hasHi(q);
     const tx = lang === 'hi' && hiReady ? q.text.hi : q.text.en;
+    const H = lang === 'hi' && hiReady;
     const cls = r.ok === true ? 'good' : r.ok === false ? 'bad' : 'none';
-    const src = !q.source ? (q.topic ? L(q.topic, lang) : '') : q.source.kind === 'PYQ' ? `${q.source.exam} ${q.source.year}${q.source.session ? ' · ' + q.source.session : ''}` : q.source.label || q.source.kind;
-    const nc = q.ncert || { paras: q.paras || [], lines: [] };
+    const src = q.srcLabel ? L(q.srcLabel, lang) : !q.source ? (q.topic ? L(q.topic, lang) : '') : q.source.kind === 'PYQ' ? `${q.source.exam} ${q.source.year}${q.source.session ? ' · ' + q.source.session : ''}` : q.source.label || q.source.kind;
+    const nc = q.ncert || { paras: qParas(q), lines: [] };
+    const chId = qChapter(q);
     const ansLine = q.answer.kind === 'numeric'
-      ? `Correct answer: <b>${q.answer.value}</b>${q.answer.tol ? ` (± ${q.answer.tol})` : ''}`
-      : `Correct answer: <b>(${q.answer.index + 1})</b>`;
+      ? `${H ? 'सही उत्तर' : 'Correct answer'}: <b>${q.answer.value}</b>${q.answer.tol ? ` (± ${q.answer.tol})` : ''}`
+      : `${H ? 'सही उत्तर' : 'Correct answer'}: <b>(${q.answer.index + 1})</b>${(q.answer.alsoAccepted || []).length ? ` ${H ? 'तथा' : 'also'} ${q.answer.alsoAccepted.map(i => `(${i + 1})`).join(', ')}` : ''}`;
     const hist = (r.st.hist || []).map(h => fmtAns(q, h.a)).join(' → ');
     const opts = q.answer.kind === 'numeric' ? '' : `<ol class="ropts">${tx.o.map((o, i) => `<li class="${i === q.answer.index ? 'right' : ''}${i === r.st.ans && i !== q.answer.index ? ' wrongpick' : ''}"><span class="on">${i + 1})</span><span class="otext">${o}</span></li>`).join('')}</ol>`;
     const pdf = q.pdf && q.pdf.url;
     const lines = (nc.lines || []).map(l => `<figure class="excerpt">${l.img ? `<img src="assets/ncert/${esc(q.ncert.chapter)}/${esc(l.img)}.webp" alt="NCERT excerpt, ${esc(l.label)}" loading="lazy">` : ''}${l.text ? `<blockquote>${esc(l.text)}</blockquote>` : ''}<figcaption>NCERT ${esc(l.label)}${pdf ? ` · <a href="${esc(q.pdf.url)}#page=${l.page - q.pdf.offset}" target="_blank" rel="noopener">open page ${l.page} on ncert.nic.in</a>` : ''}</figcaption></figure>`).join('');
+    const ps = nc.paras || [];
+    const paraLinks = ps.map((p, i) => chId ? `<a href="${chLink(chId, p)}">§${esc(p)} ${esc(qParaTitle(q, i, H ? 'hi' : 'en'))}</a>` : `§${esc(p)} ${esc(qParaTitle(q, i, 'en'))}`).join(' · ');
+    const verdict = r.ok === true ? (H ? 'सही' : 'Correct') : r.ok === false ? (H ? 'गलत' : 'Wrong') : (H ? 'उत्तर नहीं' : 'Not answered');
     return `<article class="rcard f-${cls}${r.changed ? ' f-chg' : ''}" id="rq${r.x.n}">
-      <header><b>Q${r.x.n}</b><span class="badge ${cls}">${r.ok === true ? 'Correct' : r.ok === false ? 'Wrong' : 'Not answered'} · ${r.pts > 0 ? '+' : ''}${r.pts}</span><span class="muted">${esc(src)} · ${mmss(r.st.t || 0)}${r.st.mark ? ' · marked' : ''}</span>
-        <select class="rlang" data-n="${r.x.n}" aria-label="Language"><option value="en"${lang === 'en' ? ' selected' : ''}>English</option><option value="hi"${lang === 'hi' ? ' selected' : ''}>हिंदी</option></select></header>
+      <header><b>Q${r.x.n}</b><span class="badge ${cls}">${verdict} · ${r.pts > 0 ? '+' : ''}${r.pts}</span><span class="muted">${esc(src)} · ${mmss(r.st.t || 0)}${r.st.mark ? ' · ' + (H ? 'चिह्नित' : 'marked') : ''}</span>
+        <select class="rlang" data-n="${r.x.n}" aria-label="Language"><option value="hi"${lang === 'hi' ? ' selected' : ''}>हिंदी</option><option value="en"${lang === 'en' ? ' selected' : ''}>English</option></select></header>
       ${lang === 'hi' && !hiReady ? `<p class="hi-note">${esc(HI_PENDING)}</p>` : ''}
-      ${lang === 'hi' && q.text.hi.status === 'draft' ? '<p class="hi-draft">हिंदी प्रारूप · प्रूफ़रीडिंग बाकी</p>' : ''}
-      <div lang="${lang === 'hi' && hiReady ? 'hi' : 'en'}"><div class="qtext">${tx.q}</div>${opts}
-      <p class="yours">Your answer: <b>${fmtAns(q, r.st.ans)}</b> · ${ansLine}${r.changed ? ` · <span class="chgnote">changed: ${hist}</span>` : ''}</p>
-      <details><summary>${lang === 'hi' && hiReady ? 'हल और NCERT पंक्तियाँ' : 'Solution and NCERT lines'}</summary><div class="sol">${tx.sol}</div>${tx.trap ? `<p class="trap"><b>${lang === 'hi' && hiReady ? 'सावधानी:' : 'Trap:'}</b> ${tx.trap}</p>` : ''}
-        ${q.ncert_status && q.ncert_status !== 'in_ncert' ? `<p class="paras">${({ old_ncert_only: 'No current NCERT source: this topic is in NEET but only in the pre-2023 NCERT', lab_manual: 'Source: NCERT laboratory manual', outside_ncert: 'Not in NCERT' })[q.ncert_status] || ''}${nc.oldRef ? ' · ' + esc(nc.oldRef) : ''}</p>` : ''}
-        <p class="paras" ${(nc.paras || []).length ? '' : 'hidden'}>NCERT: ${(nc.paras || []).map((p, i) => `§${esc(p)} ${esc((q.paraTitles || [])[i] || '')}`).join(' · ')}${(nc.otherChapters || []).length ? ' · also ' + esc(nc.otherChapters.join(', ')) : ''}</p>${lines}</details></div>
+      ${H && q.text.hi.status === 'draft' ? '<p class="hi-draft">हिंदी प्रारूप · प्रूफ़रीडिंग बाकी</p>' : ''}
+      <div lang="${H ? 'hi' : 'en'}"><div class="qtext">${tx.q}</div>${opts}
+      <p class="yours">${H ? 'आपका उत्तर' : 'Your answer'}: <b>${fmtAns(q, r.st.ans)}</b> · ${ansLine}${r.changed ? ` · <span class="chgnote">${H ? 'बदला' : 'changed'}: ${hist}</span>` : ''}</p>
+      <details><summary>${H ? 'हल और NCERT अनुच्छेद' : 'Solution and NCERT paragraph'}</summary><div class="sol">${tx.sol || ''}</div>${tx.trap ? `<p class="trap"><b>${H ? 'सावधानी:' : 'Trap:'}</b> ${tx.trap}</p>` : ''}
+        ${q.ncert_status && q.ncert_status !== 'in_ncert' ? `<p class="paras">${H ? ({ old_ncert_only: 'यह विषय NEET में है पर केवल पुरानी (2023 से पहले की) NCERT में', lab_manual: 'स्रोत: NCERT प्रयोगशाला पुस्तिका', outside_ncert: 'NCERT में नहीं' })[q.ncert_status] || '' : ({ old_ncert_only: 'No current NCERT source: this topic is in NEET but only in the pre-2023 NCERT', lab_manual: 'Source: NCERT laboratory manual', outside_ncert: 'Not in NCERT' })[q.ncert_status] || ''}${nc.oldRef ? ' · ' + esc(nc.oldRef) : ''}</p>` : ''}
+        <p class="paras" ${ps.length || chId ? '' : 'hidden'}>NCERT: ${paraLinks}${chId ? `${ps.length ? ' · ' : ''}<a href="${chLink(chId)}">${esc(chName(chId, H ? 'hi' : 'en'))} →</a>` : ''}${(nc.otherChapters || []).length ? ' · ' + (H ? 'साथ में ' : 'also ') + esc(nc.otherChapters.join(', ')) : ''}</p>${lines}</details></div>
     </article>`;
   }
 
-  boot();
+  loadCatalog().then(boot);
 })();
