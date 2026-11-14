@@ -1831,6 +1831,285 @@
     "keySource": "Answer key Codes 11–14 (neet-sources/neet-papers/2026/answer-key-codes-11-14.pdf), Code 13; question order mapped via the Code 13 booklet scan (neet-sources/neet-papers/2026/question-booklet-code-13-with-answers.pdf)",
     "note": "Code 13 booklet Q98."
    }
+  },
+  {
+   "id": "bio11-11-ai-11-2-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which scientist is correctly matched with the finding?",
+     "o": [
+      "Joseph Priestley — sunlight is essential for plants to purify fouled air",
+      "Engelmann — first action spectrum of photosynthesis, using the alga <i>Cladophora</i> and aerobic bacteria under split light",
+      "Cornelius van Niel — glucose made in green parts is stored as starch",
+      "Julius von Sachs — the O<sub>2</sub> released by green plants comes from water"
+     ],
+     "sol": "<p>NCERT 11.2: Priestley (1770) showed that plants restore to the air what breathing animals and burning candles remove (mint plant in a bell jar). <b>Ingenhousz</b> showed that sunlight is essential and that only green parts release oxygen. <b>Sachs</b> (1854) showed glucose is made in green parts and stored as starch. <b>Engelmann</b> split light with a prism and lit <i>Cladophora</i> in a suspension of aerobic bacteria; the bacteria gathered mainly in blue and red light — the first action spectrum. <b>Van Niel</b> inferred that the O<sub>2</sub> of green plants comes from water. Only option 2 is matched correctly.</p>",
+     "hint": "Who used a prism and bacteria?"
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "कौन-सा वैज्ञानिक अपनी खोज के साथ सही मिलाया गया है?",
+     "o": [
+      "जोसेफ प्रीस्टले — खराब हुई वायु को शुद्ध करने की पौधों की प्रक्रिया में सूर्य का प्रकाश अनिवार्य है",
+      "एंजिलमैन — विभक्त प्रकाश में शैवाल <i>Cladophora</i> तथा ऑक्सी बैक्टीरिया की सहायता से प्रकाश-संश्लेषण का पहला सक्रिय स्पेक्ट्रम (एक्शन स्पेक्ट्रम)",
+      "कोर्नेलियस वैन नील — हरे भागों में बना ग्लूकोज स्टार्च के रूप में संचित होता है",
+      "जूलियस वोन सैचस् — हरे पौधों द्वारा मुक्त O<sub>2</sub> जल से आती है"
+     ],
+     "sol": "<p>NCERT 11.2: प्रीस्टले (1770) ने दिखाया कि पौधे उस वायु की क्षतिपूर्ति करते हैं जिसे साँस लेने वाले प्राणी और जलती मोमबत्ती कम कर देते हैं (बेल जार में पुदीने का पौधा)। <b>इंजेनहाउज</b> ने दिखाया कि सूर्य का प्रकाश अनिवार्य है तथा केवल हरा भाग ही ऑक्सीजन छोड़ता है। <b>सैचस्</b> (1854) ने दिखाया कि हरे भागों में ग्लूकोज बनता है और स्टार्च के रूप में संचित होता है। <b>एंजिलमैन</b> ने प्रिज्म से प्रकाश को स्पेक्ट्रमी घटकों में अलग कर ऑक्सी बैक्टीरिया के निलंबन में रखे <i>Cladophora</i> को प्रदीप्त किया; बैक्टीरिया मुख्यतः नीले व लाल प्रकाश में एकत्र हुए — पहला सक्रिय स्पेक्ट्रम। <b>वैन नील</b> ने निष्कर्ष निकाला कि हरे पौधों की O<sub>2</sub> जल से आती है। केवल विकल्प 2 सही मिलाया गया है।</p>",
+     "hint": "प्रिज्म तथा बैक्टीरिया का उपयोग किसने किया?"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 11.2"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-11-ai-11-2-q2",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Van Niel wrote photosynthesis as 2H<sub>2</sub>A + CO<sub>2</sub> → 2A + CH<sub>2</sub>O + H<sub>2</sub>O (in light). For purple and green sulphur bacteria, what are H<sub>2</sub>A and the oxidation product, and what did he conclude for green plants?",
+     "o": [
+      "H<sub>2</sub>A = H<sub>2</sub>O, product = O<sub>2</sub>; the O<sub>2</sub> of plants comes from CO<sub>2</sub>",
+      "H<sub>2</sub>A = H<sub>2</sub>S, product = sulphur or sulphate; the O<sub>2</sub> of green plants comes from H<sub>2</sub>O",
+      "H<sub>2</sub>A = H<sub>2</sub>S, product = O<sub>2</sub>; the O<sub>2</sub> of plants comes from CO<sub>2</sub>",
+      "H<sub>2</sub>A = CH<sub>4</sub>, product = CO<sub>2</sub>; plants release no O<sub>2</sub>"
+     ],
+     "sol": "<p>NCERT 11.2: van Niel showed that photosynthesis is a light-dependent reaction in which hydrogen from an oxidisable compound reduces CO<sub>2</sub> to carbohydrate. In purple and green sulphur bacteria the hydrogen donor is <b>H<sub>2</sub>S</b> and the oxidation product is <b>sulphur or sulphate</b>, not O<sub>2</sub>. In green plants H<sub>2</sub>O is the donor and is oxidised to O<sub>2</sub>, so he inferred that the <b>O<sub>2</sub> comes from H<sub>2</sub>O</b>, not CO<sub>2</sub> (later proved with radioisotopes). Hence 6CO<sub>2</sub> + 12H<sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6H<sub>2</sub>O + 6O<sub>2</sub>.</p>",
+     "hint": "Bacteria that give off no oxygen use a sulphur compound."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "वैन नील ने प्रकाश-संश्लेषण को 2H<sub>2</sub>A + CO<sub>2</sub> → 2A + CH<sub>2</sub>O + H<sub>2</sub>O (प्रकाश में) लिखा। बैंगनी एवं हरे सल्फर बैक्टीरिया में H<sub>2</sub>A तथा ऑक्सीकरण उत्पाद क्या हैं, और हरे पौधों के लिए उन्होंने क्या निष्कर्ष निकाला?",
+     "o": [
+      "H<sub>2</sub>A = H<sub>2</sub>O, उत्पाद = O<sub>2</sub>; पौधों की O<sub>2</sub> CO<sub>2</sub> से आती है",
+      "H<sub>2</sub>A = H<sub>2</sub>S, उत्पाद = सल्फर अथवा सल्फेट; हरे पौधों की O<sub>2</sub> H<sub>2</sub>O से आती है",
+      "H<sub>2</sub>A = H<sub>2</sub>S, उत्पाद = O<sub>2</sub>; पौधों की O<sub>2</sub> CO<sub>2</sub> से आती है",
+      "H<sub>2</sub>A = CH<sub>4</sub>, उत्पाद = CO<sub>2</sub>; पौधे O<sub>2</sub> मुक्त नहीं करते"
+     ],
+     "sol": "<p>NCERT 11.2: वैन नील ने बताया कि प्रकाश-संश्लेषण एक प्रकाश आधारित प्रतिक्रिया है जिसमें ऑक्सीकरणीय यौगिक से प्राप्त हाइड्रोजन CO<sub>2</sub> को अपचयित करके कार्बोहाइड्रेट बनाता है। बैंगनी एवं हरे सल्फर बैक्टीरिया में हाइड्रोजन दाता <b>H<sub>2</sub>S</b> होता है और ‘ऑक्सीकरण’ उत्पाद <b>सल्फर अथवा सल्फेट</b> होता है, O<sub>2</sub> नहीं। हरे पौधों में H<sub>2</sub>O हाइड्रोजन दाता है और ऑक्सीकृत होकर O<sub>2</sub> देता है, इसलिए उन्होंने निष्कर्ष निकाला कि <b>O<sub>2</sub> H<sub>2</sub>O से आती है</b>, CO<sub>2</sub> से नहीं (बाद में रेडियो आइसोटोपिक तकनीक से प्रमाणित)। अतः 6CO<sub>2</sub> + 12H<sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6H<sub>2</sub>O + 6O<sub>2</sub>।</p>",
+     "hint": "ऑक्सीजन न छोड़ने वाले बैक्टीरिया सल्फर यौगिक प्रयुक्त करते हैं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.2"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 11.2"
+   },
+   "difficulty": 3,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-11-ai-11-3-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "Which statement about the division of labour inside a chloroplast is correct?",
+     "o": [
+      "The stroma traps light energy and makes ATP and NADPH; the membranes make sugar",
+      "The membrane system (grana, stroma lamellae) traps light and makes ATP and NADPH; enzymes in the stroma make sugar, which forms starch",
+      "The dark reactions are so called because they occur only at night",
+      "Photosynthesis occurs only in leaves and never in other green parts"
+     ],
+     "sol": "<p>NCERT 11.3: photosynthesis occurs in green leaves and also in other green parts. Inside the chloroplast, the <b>membrane system</b> (grana, stroma lamellae) traps light energy and synthesises <b>ATP and NADPH</b> — the light (photochemical) reactions. In the <b>stroma</b>, enzymatic reactions synthesise sugar, which forms starch. These are called dark (carbon) reactions only by convention: they are not directly light-driven but depend on ATP and NADPH from the light reactions, and they do <b>not</b> occur in darkness.</p><p class='errata'>The Hindi edition (p. 137) says the carbon reactions take place “सैद्धांतिक रूप में अंधेरे में”; the English edition says this should not be taken to mean that they occur in darkness.</p>",
+     "hint": "Membranes catch light; stroma makes sugar.",
+     "trap": "'Dark reaction' is a name, not a time of day."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "क्लोरोप्लास्ट (हरित लवक) के भीतर श्रम विभाजन के बारे में कौन-सा कथन सही है?",
+     "o": [
+      "स्ट्रोमा प्रकाश-ऊर्जा ग्रहण कर ATP व NADPH बनाता है; झिल्लियाँ शर्करा बनाती हैं",
+      "झिल्ली तंत्र (ग्रैना, स्ट्रोमा लैमेले) प्रकाश ग्रहण कर ATP व NADPH बनाता है; स्ट्रोमा के एंजाइम शर्करा बनाते हैं, जो स्टार्च में बदलती है",
+      "अप्रकाशी अभिक्रियाएं इसलिए कहलाती हैं क्योंकि वे केवल रात में होती हैं",
+      "प्रकाश-संश्लेषण केवल पत्तियों में होता है, अन्य हरे भागों में कभी नहीं"
+     ],
+     "sol": "<p>NCERT 11.3: प्रकाश-संश्लेषण हरी पत्तियों में तथा पौधों के अन्य हरे भागों में भी होता है। क्लोरोप्लास्ट (हरित लवक) में <b>झिल्ली तंत्र</b> (ग्रैना, स्ट्रोमा लैमेले) प्रकाश-ऊर्जा ग्रहण करता है और <b>ATP व NADPH</b> का संश्लेषण करता है — प्रकाश (प्रकाश रासायनिक) अभिक्रिया। <b>स्ट्रोमा</b> में एंजाइमी अभिक्रियाएं शर्करा बनाती हैं, जो स्टार्च में बदलती है। इन्हें केवल परंपरा से अप्रकाशी (कार्बन) अभिक्रिया कहते हैं: ये सीधे प्रकाश से नहीं चलतीं पर प्रकाश अभिक्रिया के उत्पाद ATP व NADPH पर निर्भर हैं, और अंधेरे में <b>नहीं</b> होतीं।</p><p class='errata'>हिंदी संस्करण (पृ. 137) में लिखा है कि कार्बन अभिक्रियाएं “सैद्धांतिक रूप में अंधेरे में” संपन्न होती हैं; अंग्रेज़ी संस्करण कहता है कि इसका अर्थ यह नहीं लेना चाहिए कि वे अंधेरे में होती हैं।</p>",
+     "hint": "झिल्लियाँ प्रकाश पकड़ती हैं; स्ट्रोमा शर्करा बनाता है।",
+     "trap": "'अप्रकाशी अभिक्रिया' केवल नाम है, समय नहीं।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.3"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 11.3"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-11-ai-11-10-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "A green leaf kept in optimal light and CO<sub>2</sub> does not photosynthesise because the temperature is very low; it starts once the temperature is made optimal. This is explained by:",
+     "o": [
+      "Blackman's law of limiting factors: the rate is set by the factor nearest its minimal value",
+      "Photorespiration in C<sub>3</sub> plants",
+      "Emerson's enhancement effect",
+      "The chemiosmotic hypothesis"
+     ],
+     "sol": "<p>NCERT 11.10: photosynthesis is affected by internal (plant) and external factors (light, temperature, CO<sub>2</sub>, water), all at once, but usually one factor limits the rate. <b>Blackman's (1905) law of limiting factors</b>: if a chemical process is affected by more than one factor, its rate is determined by the factor nearest to its minimal value. NCERT's own example is this leaf: temperature is the limiting factor, so raising it starts photosynthesis.</p>",
+     "hint": "The factor in shortest supply sets the rate."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "अनुकूलतम प्रकाश तथा CO<sub>2</sub> में रखी एक हरी पत्ती ताप बहुत कम होने के कारण प्रकाश-संश्लेषण नहीं करती; ईष्टतम ताप देने पर यह प्रकाश-संश्लेषण शुरु कर देती है। इसकी व्याख्या किससे होती है?",
+     "o": [
+      "ब्लैकमैन का सीमाकारी कारकों का नियम (लॉ ऑफ लिमिटिंग फैक्टर्स): दर का निर्धारण न्यूनतम मान के समीपस्थ कारक करता है",
+      "C<sub>3</sub> पौधों में प्रकाश श्वसन",
+      "इमर्सन का संवर्धन प्रभाव",
+      "रसोपरासरणी परिकल्पना"
+     ],
+     "sol": "<p>NCERT 11.10: प्रकाश-संश्लेषण आंतरिक (पादप) तथा बाह्य कारकों (प्रकाश, ताप, CO<sub>2</sub>, जल) से एक साथ प्रभावित होता है, पर प्रायः कोई एक कारक दर को सीमित करता है। <b>ब्लैकमैन का (1905) लॉ ऑफ लिमिटिंग फैक्टर्स</b>: यदि कोई रासायनिक प्रक्रिया एक से अधिक कारकों द्वारा प्रभावित होती है तो इसकी दर का निर्धारण उस कारक द्वारा होगा जो न्यूनतम मान के समीपस्थ हो। NCERT का अपना उदाहरण यही पत्ती है: ताप सीमाकारी कारक है, इसलिए ताप बढ़ाने पर प्रकाश-संश्लेषण शुरु होता है।</p>",
+     "hint": "सबसे कम उपलब्ध कारक दर तय करता है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 0
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.10"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 11.10"
+   },
+   "difficulty": 2,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
+  },
+  {
+   "id": "bio11-11-ai-11-10-4-q1",
+   "type": "single",
+   "text": {
+    "en": {
+     "status": "draft",
+     "q": "How does water stress mainly reduce the rate of photosynthesis?",
+     "o": [
+      "By removing the water needed in the light reaction, which stops photolysis at once",
+      "By closing the stomata, which lowers CO<sub>2</sub> availability, and by making leaves wilt, which reduces leaf surface area and metabolic activity",
+      "By raising the leaf temperature above 40 °C",
+      "By destroying chlorophyll b"
+     ],
+     "sol": "<p>NCERT 11.10.4: although water is a reactant in the light reaction, its effect as a factor works <b>through the plant</b> rather than directly on photosynthesis. Water stress <b>closes the stomata</b>, reducing CO<sub>2</sub> availability, and makes leaves <b>wilt</b>, reducing their surface area and metabolic activity.</p>",
+     "hint": "Think stomata and wilting.",
+     "trap": "Water is a reactant, but its main effect as a factor is indirect."
+    },
+    "hi": {
+     "status": "draft",
+     "note": "Draft Hindi (Claude), NCERT Hindi terms; not yet proofread.",
+     "q": "जल तनाव मुख्यतः प्रकाश-संश्लेषण की दर को कैसे घटाता है?",
+     "o": [
+      "प्रकाश अभिक्रिया के लिए आवश्यक जल हटाकर, जिससे जल का विघटन तुरंत रुक जाता है",
+      "रंध्र बंद करके, जिससे CO<sub>2</sub> की उपलब्धता घटती है, तथा पत्तियाँ मुरझाकर, जिससे पत्ती का क्षेत्रफल व उपापचयी क्रियाएं कम होती हैं",
+      "पत्ती का ताप 40 °C से ऊपर बढ़ाकर",
+      "क्लोरोफिल b को नष्ट करके"
+     ],
+     "sol": "<p>NCERT 11.10.4: यद्यपि प्रकाश अभिक्रिया में जल एक अभिकारक है, फिर भी कारक के रूप में जल का प्रभाव <b>पूरे पादप पर</b> पड़ता है, सीधे प्रकाश-संश्लेषण पर नहीं। जल तनाव <b>रंध्र को बंद</b> कर देता है, जिससे CO<sub>2</sub> की उपलब्धता घटती है, और पत्तियाँ <b>मुरझा</b> जाती हैं, जिससे पत्ती का क्षेत्रफल व उपापचयी क्रियाएं कम हो जाती हैं।</p>",
+     "hint": "रंध्र तथा मुरझाना सोचिए।",
+     "trap": "जल अभिकारक है, पर कारक के रूप में इसका मुख्य प्रभाव अप्रत्यक्ष है।"
+    }
+   },
+   "answer": {
+    "kind": "single",
+    "index": 1
+   },
+   "ncert": {
+    "chapter": "bio11-11",
+    "paras": [
+     "11.10.4"
+    ]
+   },
+   "source": {
+    "kind": "AI",
+    "paper": "Own question (AI) on NCERT 11.10.4"
+   },
+   "difficulty": 1,
+   "difficultyBasis": "default",
+   "timeSec": 60,
+   "status": "draft",
+   "ncert_status": "in_ncert",
+   "syllabus_status": "current",
+   "review": {
+    "modelA": "Claude (question, key and worked solution)",
+    "note": "NCERT-coverage question for a paragraph with no PYQ; second-model check pending."
+   }
   }
  ],
  "paraTrends": {
