@@ -195,8 +195,8 @@
     {
      "id": "bio11-12-neet-2022-code-t2-q110",
      "exam": "NEET",
-     "q": "What is the net gain of ATP when each molecule of glucose is converted to two molecules of pyruvic acid?",
-     "sol": "<p>NCERT 12.2: glycolysis uses 2 ATP and makes 4 ATP — a net gain of <b>2 ATP</b> per glucose; it also gives 2 NADH, which yield 6 more ATP if oxidised through the ETS (total 8). The key accepts both 'Two' (direct net gain) and 'Eight' (counting the NADH).</p>",
+     "q": "What is the net gain of ATP, counting only the ATP made and used directly in glycolysis, when each molecule of glucose is converted to two molecules of pyruvic acid?",
+     "sol": "<p>NCERT 12.2: glycolysis uses 2 ATP and makes 4 ATP — a net gain of <b>2 ATP</b> per glucose; it also gives 2 NADH, which yield 6 more ATP if oxidised through the ETS (total 8). The question now asks only for the ATP made and used directly in glycolysis, so the answer is 'Two'; 'Eight' would count the ATP the 2 NADH can yield later.</p>",
      "hint": "4 made − 2 used.",
      "paras": [
       "12.2"
@@ -211,18 +211,15 @@
       "Four"
      ],
      "a": 1,
-     "alsoA": [
-      2
-     ],
      "hi": {
-      "q": "जब ग्लूकोस का प्रत्येक अणु पायरुविक अम्ल के दो अणुओं में परिवर्तित होता है, तो ATP का शुद्ध लाभ क्या होता है?",
+      "q": "जब ग्लूकोस का प्रत्येक अणु पायरुविक अम्ल के दो अणुओं में परिवर्तित होता है, तो ATP का शुद्ध लाभ क्या होता है? (केवल ग्लाइकोलिसिस में सीधे बने और उपयोग हुए ATP गिनिए।)",
       "o": [
        "छह",
        "दो",
        "आठ",
        "चार"
       ],
-      "sol": "<p>NCERT 12.2: ग्लाइकोलिसिस में 2 ATP उपयोग होते हैं और 4 ATP बनते हैं — प्रति ग्लूकोस <b>2 ATP</b> का शुद्ध लाभ; साथ ही 2 NADH बनते हैं जो ETS में ऑक्सीकृत होकर 6 ATP और देते हैं (कुल 8)। कुंजी 'दो' (प्रत्यक्ष शुद्ध लाभ) तथा 'आठ' (NADH सहित) दोनों स्वीकार करती है।</p>",
+      "sol": "<p>NCERT 12.2: ग्लाइकोलिसिस में 2 ATP उपयोग होते हैं और 4 ATP बनते हैं — प्रति ग्लूकोस <b>2 ATP</b> का शुद्ध लाभ; साथ ही 2 NADH बनते हैं जो ETS में ऑक्सीकृत होकर 6 ATP और देते हैं (कुल 8)। प्रश्न अब केवल ग्लाइकोलिसिस में सीधे बने और उपयोग हुए ATP पूछता है, अतः उत्तर 'दो' है; 'आठ' में वे ATP भी गिने जाते हैं जो 2 NADH बाद में देते हैं।</p>",
       "hint": "4 बने − 2 उपयोग।"
      },
      "hiStatus": "draft"
